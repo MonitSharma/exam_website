@@ -1,0 +1,2496 @@
+[
+  {
+    "id": "csr_batch_1_q001",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 1,
+    "source_question_number": 1,
+    "question": "Consider the following statements in the context of India's Gaganyaan Programme: 1. Under the Gaganyaan mission, the human-rated launch vehicle (HLVM3) along with its associated propulsion systems, structures, and parachute-based recovery system has undergone extensive testing. 2. The objective of the Crew Escape System (CES) is solely to place satellites into a safe orbit during an emergency situation. 3. Infrastructure facilities such as the Orbital Module Preparation Facility, Gaganyaan Control Center, and Crew Training Facility have been established for the Gaganyaan programme. 4. Prior to the first manned mission, various systems are being tested through unmanned missions (such as TV-D1, IADT-01). How many of the above statements is/are not true?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "Only three"
+      },
+      {
+        "key": "d",
+        "text": "All four"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "",
+    "subject": "Science & Technology",
+    "theme": "Space Technology",
+    "micro_topic": "Gaganyaan Mission",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q002",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 2,
+    "source_question_number": 2,
+    "question": "Recently, India has placed special emphasis on Post-Quantum Cryptography (PQC) and a national-level road map to address quantum-enabled cyber threats. In this context, consider the following statements: 1. The objective of Post-Quantum Cryptography (PQC) is to develop encryption algorithms that remain secure even against quantum computers. 2. According to the national roadmap, India plans to implement PQC across all sectors simultaneously, without any prioritization. 3. It has been recommended to combine Quantum Key Distribution (QKD) with PQC to develop highly secure communication networks. How many of the above statements is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "All three"
+      },
+      {
+        "key": "d",
+        "text": "None"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "",
+    "subject": "Science & Technology",
+    "theme": "Information Technology",
+    "micro_topic": "Cyber Security & Quantum Tech",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q003",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 3,
+    "source_question_number": 3,
+    "question": "Consider the following pairs, which relate to India's supercomputers and their associated institutions/characteristics: 1. PARAM Rudra (2024) : Installed in Pune, Delhi, and Kolkata for advanced studies in Physics, Earth Sciences, and Cosmology. 2. PARAM Pravega (2022) : Installed at the Indian Institute of Technology (IIT) BHU, Varanasi. 3. PARAM Shivay (2019) : The first indigenous supercomputer built under the National Supercomputing Mission. How many of the above pairs is/are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one pair"
+      },
+      {
+        "key": "b",
+        "text": "Only two pairs"
+      },
+      {
+        "key": "c",
+        "text": "All three pairs"
+      },
+      {
+        "key": "d",
+        "text": "None"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "",
+    "subject": "Science & Technology",
+    "theme": "Information Technology",
+    "micro_topic": "Supercomputers",
+    "nature": "Factual",
+    "difficulty": "Hard",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q004",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 4,
+    "source_question_number": 4,
+    "question": "Consider the following statements: Statement-I: AIRAWAT is a shared High-Performance Computing (HPC) infrastructure developed by the Government of India, aimed at fostering Artificial Intelligence (AI) research and knowledge integration. Statement-II: The AIRAWAT platform has secured a spot in the list of the world's top 500 supercomputers at the International Supercomputing Conference (ISC 2023), thereby boosting India's global AI capabilities. In the context of the above statements, which of the following options is correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Both Statement-I and Statement-II are correct, and Statement-II is the correct explanation of Statement-I."
+      },
+      {
+        "key": "b",
+        "text": "Both Statement-I and Statement-II are correct, but Statement-II is not the correct explanation of Statement-I."
+      },
+      {
+        "key": "c",
+        "text": "Statement-I is correct, but Statement-II is incorrect."
+      },
+      {
+        "key": "d",
+        "text": "Statement-I is incorrect, but Statement-II is correct."
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "",
+    "subject": "Science & Technology",
+    "theme": "Information Technology",
+    "micro_topic": "AI & Supercomputing",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q005",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 5,
+    "source_question_number": 5,
+    "question": "Consider the following statements/elements in the context of the National Supercomputing Mission (NSM): 1. The objective of the National Supercomputing Mission is to develop indigenous supercomputing capability in India and to make High-Performance Computing accessible for research and development. 2. Under this mission, the focus has been solely on the import of foreign supercomputers, while no special emphasis has been placed on indigenous design and manufacturing. 3. \"Trinetra\" is an indigenous high-speed communication network developed to enhance data transfer between supercomputer nodes. 4. \"Rudra Server\" is an HPC (High-Performance Computing) server indigenously designed and manufactured in India. Which of the above statements is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1, 2 and 3 only"
+      },
+      {
+        "key": "b",
+        "text": "1, 3 and 4 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 4 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "",
+    "subject": "Science & Technology",
+    "theme": "Information Technology",
+    "micro_topic": "National Missions",
+    "nature": "Factual",
+    "difficulty": "Moderate",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q006",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 6,
+    "source_question_number": 6,
+    "question": "Consider the following statements regarding the National Geospatial Mission in the Union Budget 2025-26: 1. Under the National Geospatial Mission, the creation of a high-resolution Digital Elevation Model (DEM) for the entire country has been envisaged, featuring a resolution of 25 cm for plain areas and 1-3 metres for mountainous regions. 2. This mission is limited solely to the development of geospatial data for defense and military purposes with no relevance to civilian applications. 3. An Integrated Geospatial Interface (UGI) will be developed under this mission, which will aggregate data from various sources to provide user-oriented services and applications. How many of the above statements is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "All three"
+      },
+      {
+        "key": "d",
+        "text": "None"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "",
+    "subject": "Science & Technology",
+    "theme": "Space & GIS",
+    "micro_topic": "Government Schemes",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q007",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 7,
+    "source_question_number": 7,
+    "question": "Consider the following statements regarding research, innovation, and emerging technologies in the context of India's Budget: 1. The objective of the Atal Tinkering Lab is to promote scientific temper, innovation, and entrepreneurship in government schools. 2. The budgetary allocation for the India AI Mission has been reduced to provide greater opportunities for the private sector. 3. Budget 2025 features a significant increase in allocations for semiconductor and display manufacturing, as well as for Production-Linked Incentive (PLI) schemes. 4. \"Bharat TradeNet\" aims to provide an integrated platform for international trade, serving as a digital public infrastructure. How many of the above statements is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "Only three"
+      },
+      {
+        "key": "d",
+        "text": "All four"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "",
+    "subject": "Economy",
+    "theme": "Government Schemes & Budget",
+    "micro_topic": "Tech Innovations",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q008",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 8,
+    "source_question_number": 8,
+    "question": "Recently, the concept of \"Sovereign AI (Sarvam AI)\" has been in the news. In this context, consider the following statements: 1. Sovereign AI refers to a country utilizing AI systems while remaining dependent on foreign technology companies. 2. The fundamental basis of Sovereign AI is \"strategic autonomy,\" under which a country independently manages its own data, infrastructure, and regulatory control. 3. Challenges in the development of Sovereign AI in India include linguistic diversity, a scarcity of high-quality datasets, and a lack of patient capital. How many of the above statements is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "All three"
+      },
+      {
+        "key": "d",
+        "text": "None"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "",
+    "subject": "Science & Technology",
+    "theme": "Information Technology",
+    "micro_topic": "Artificial Intelligence",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q009",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 9,
+    "source_question_number": 9,
+    "question": "Consider the following statements regarding the 100th launch of the Indian space program and the NavIC system: 1. The Indian Space Research Organisation achieved its 100th launch by placing the NVS-02 satellite into orbit using the GSLV-F15. 2. The NavIC system provides accurate positioning and timing information only within the geographical boundaries of India. 3. The NavIC system comprises 7 satellites, with 3 located in geostationary orbit and 4 in geosynchronous orbit. How many of the above statements is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "All three"
+      },
+      {
+        "key": "d",
+        "text": "None"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "",
+    "subject": "Science & Technology",
+    "theme": "Space Technology",
+    "micro_topic": "NavIC",
+    "nature": "Factual",
+    "difficulty": "Hard",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q010",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 10,
+    "source_question_number": 10,
+    "question": "Consider the following statements regarding the launch of the GSAT-7R (CMS-03) satellite: 1. GSAT-7R is a multi-band communication satellite, primarily used for secure communication by the Indian Navy in the Indian Ocean Region. 2. This satellite was placed into a Low Earth Orbit (LEO) by the LVM3, from where it immediately begins functioning in its final orbit. 3. LVM-3—formerly known as GSLV Mk-3—is a launch vehicle featuring solid, liquid, and cryogenic stages, and is capable of placing heavy satellites into Geosynchronous Orbit. How many of the above statements is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "Only three"
+      },
+      {
+        "key": "d",
+        "text": "All four"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "",
+    "subject": "Science & Technology",
+    "theme": "Space Technology",
+    "micro_topic": "Satellites",
+    "nature": "Factual",
+    "difficulty": "Moderate",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q011",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 11,
+    "source_question_number": 11,
+    "question": "Consider the following statements regarding Fundamental Duties under the Constitution of India: 1. Fundamental Duties were added to the Constitution by the 42nd Constitutional Amendment Act, 1976. 2. Originally, the Constitution contained 11 Fundamental Duties. 3. The duty to provide opportunities for education to children between 6 and 14 years was added by the 86th Constitutional Amendment Act, 2002. 4. Fundamental Duties are enforceable by courts in the same manner as Fundamental Rights. How many of the above statements is/are incorrect?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "Only three"
+      },
+      {
+        "key": "d",
+        "text": "All four"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "",
+    "subject": "Polity",
+    "theme": "Constitution",
+    "micro_topic": "Fundamental Duties",
+    "nature": "Factual",
+    "difficulty": "Moderate",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q012",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 12,
+    "source_question_number": 12,
+    "question": "Consider the following statements regarding the Supreme Court of India: 1. The Supreme Court was established on 26 January 1950. 2. Article 124 of the Constitution deals with the establishment and constitution of the Supreme Court. 3. The Chief Justice of India is appointed by the President strictly on the basis of seniority, as mandated by the Constitution. 4. The Supreme Court has original, appellate, and advisory jurisdiction. How many of the above statements is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "Only three"
+      },
+      {
+        "key": "d",
+        "text": "All four"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "",
+    "subject": "Polity",
+    "theme": "Judiciary",
+    "micro_topic": "Supreme Court",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q013",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 13,
+    "source_question_number": 13,
+    "question": "Consider the following statements regarding the office of Governor: 1. The Governor is appointed by the President of India. 2. The Governor holds office during the pleasure of the President. 3. The Constitution provides that the Governor must be a resident of the concerned state. 4. The Governor can reserve certain bills for the consideration of the President. How many of the above statements is/are incorrect?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "Only three"
+      },
+      {
+        "key": "d",
+        "text": "All four"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "",
+    "subject": "Polity",
+    "theme": "Executive",
+    "micro_topic": "Governor",
+    "nature": "Factual",
+    "difficulty": "Easy",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q014",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 14,
+    "source_question_number": 14,
+    "question": "Consider the following statements regarding Rajya Sabha: 1. Rajya Sabha is a permanent House and cannot be dissolved. 2. One-third of its members retire every two years. 3. The Vice-President of India is the ex-officio Chairman of Rajya Sabha. 4. Money Bills can be introduced only in the Rajya Sabha. How many of the above statements is/are incorrect?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "Only three"
+      },
+      {
+        "key": "d",
+        "text": "All four"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "",
+    "subject": "Polity",
+    "theme": "Legislature",
+    "micro_topic": "Parliament",
+    "nature": "Factual",
+    "difficulty": "Easy",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q015",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 15,
+    "source_question_number": 15,
+    "question": "Consider the following statements regarding the Election Commission of India: 1. The Election Commission is a constitutional body established under Article 324. 2. It conducts elections to Parliament, State Legislatures, and the offices of President and Vice-President. 3. The Constitution fixes the number of Election Commissioners at three. 4. The Chief Election Commissioner can be removed in the same manner as a judge of the Supreme Court. How many of the above statements is/are incorrect?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "Only three"
+      },
+      {
+        "key": "d",
+        "text": "All four"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "",
+    "subject": "Polity",
+    "theme": "Constitutional Bodies",
+    "micro_topic": "Election Commission",
+    "nature": "Factual",
+    "difficulty": "Moderate",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q016",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 16,
+    "source_question_number": 16,
+    "question": "Which of the following variants of the SARS-CoV-2 virus is/are classified under the 'Variants of Concern' (VoC) by the World Health Organization? 1. Alpha (B.1.1.7) 2. Delta (B.1.617.2) 3. Omicron (B.1.1.529) 4. Lambda (C.37) Select the correct answer using the code given below:",
+    "options": [
+      {
+        "key": "a",
+        "text": "1, 2 and 3 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1, 2 and 4 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "",
+    "subject": "Science & Technology",
+    "theme": "Health & Diseases",
+    "micro_topic": "Virology (COVID-19)",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q017",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 17,
+    "source_question_number": 17,
+    "question": "With reference to mRNA vaccine technology, consider the following statements: 1. mRNA vaccines introduce a weakened or inactivated virus into the human body to trigger an immune response. 2. The mRNA molecule serves as a blueprint instructing human cells to manufacture a harmless viral protein. 3. Synthetic mRNA used in modern vaccines enters the host cell nucleus to modify the genetic sequence permanently. Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "",
+    "subject": "Science & Technology",
+    "theme": "Biotechnology",
+    "micro_topic": "Vaccine Platforms",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q018",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 18,
+    "source_question_number": 18,
+    "question": "Consider the following statements regarding deepfake technology: 1. Deepfakes rely on a branch of machine learning called Generative Adversarial Networks (GANs). 2. GANs work by pitting two neural networks against each other: a generator and a discriminator. 3. At present, cryptographic watermarking is the only technologically foolproof method to detect deepfakes across social media platforms. Which of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "",
+    "subject": "Science & Technology",
+    "theme": "Information Technology",
+    "micro_topic": "Artificial Intelligence",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q019",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 19,
+    "source_question_number": 19,
+    "question": "Consider the following pairs regarding state schemes and digital platforms in India: 1. Scheme: Gruha Jyothi, State: Karnataka, Objective: Free electricity supply up to 200 units for domestic consumers. 2. Platform: MahaRERA, State: Maharashtra, Objective: Real estate regulatory framework and online grievance redressal. 3. Scheme: Rythu Bandhu, State: Andhra Pradesh, Objective: Direct investment support scheme for farmers. How many of the above pairs are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one pair"
+      },
+      {
+        "key": "b",
+        "text": "Only two pairs"
+      },
+      {
+        "key": "c",
+        "text": "All three pairs"
+      },
+      {
+        "key": "d",
+        "text": "None"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "",
+    "subject": "Polity",
+    "theme": "Governance",
+    "micro_topic": "State Policies & Portals",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q020",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 20,
+    "source_question_number": 20,
+    "question": "Consider the following heavy industrial applications: 1. Green steel manufacturing via direct reduction of iron 2. Long-haul maritime shipping fuel integration 3. Heavy-duty commercial freight trucking power cells. Green hydrogen is actively considered as a critical clean feedstock to achieve deep decarbonization in how many of the above sectors?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "All three"
+      },
+      {
+        "key": "d",
+        "text": "None"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "",
+    "subject": "Science & Technology",
+    "theme": "Energy & Environment",
+    "micro_topic": "Green Hydrogen",
+    "nature": "Conceptual",
+    "difficulty": "Easy",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q021",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 21,
+    "source_question_number": 21,
+    "question": "With reference to the Indian economy, consider the following statements regarding the Capital Adequacy Ratio (CAR): 1. CAR is the metric used to measure a bank's available capital expressed as a percentage of its risk-weighted credit exposures. 2. The minimum CAR requirement under Basel III norms must be determined independently by each commercial bank's board without regulatory interference. Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "",
+    "subject": "Economy",
+    "theme": "Banking & Finance",
+    "micro_topic": "Prudential Regulations (Basel)",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q022",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 22,
+    "source_question_number": 22,
+    "question": "Consider the following statements regarding the powers of the National Green Tribunal (NGT): 1. NGT has been established as a statutory body under an Act of Parliament to handle environmental disputes. 2. The NGT is bound by the strict procedure laid down under the Code of Civil Procedure, 1908. 3. The NGT can grant relief and compensation to victims of pollution and other environmental damage. Which of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "",
+    "subject": "Environment",
+    "theme": "Institutions",
+    "micro_topic": "Statutory Bodies",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q023",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 23,
+    "source_question_number": 23,
+    "question": "Which of the following is/are the key feature/features of the Janani Suraksha Yojana (JSY)? 1. It is a 100% centrally sponsored scheme integrating cash assistance with delivery and post-delivery care. 2. Its primary goal is to reduce maternal and neonatal mortality by promoting institutional deliveries among poor pregnant women. Select the correct answer using the code given below:",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "",
+    "subject": "Social Issues",
+    "theme": "Government Schemes",
+    "micro_topic": "Maternal Health",
+    "nature": "Conceptual",
+    "difficulty": "Easy",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q024",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 24,
+    "source_question_number": 24,
+    "question": "Consider the following statements regarding Digital Public Infrastructure (DPI) in India: 1. Aadhaar, UPI, and DigiLocker together constitute the core pillars of India's DPI architecture, collectively termed India Stack. 2. The underlying software foundations of India's foundational DPIs are entirely proprietary systems owned by public sector enterprises. Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "",
+    "subject": "Science & Technology",
+    "theme": "Information Technology",
+    "micro_topic": "Digital Infrastructure",
+    "nature": "Conceptual",
+    "difficulty": "Easy",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q025",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 25,
+    "source_question_number": 25,
+    "question": "Consider the following elements: 1. Lithium 2. Cobalt 3. Nickel 4. Silicon. How many of the above are recognized critical minerals listed under India's strategic critical mineral framework updated in recent years?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "Only three"
+      },
+      {
+        "key": "d",
+        "text": "All four"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "",
+    "subject": "Geography",
+    "theme": "Economic Geography",
+    "micro_topic": "Critical Minerals",
+    "nature": "Factual",
+    "difficulty": "Moderate",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q026",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 26,
+    "source_question_number": 26,
+    "question": "Consider the following statements regarding the Financial Stability and Development Council (FSDC): 1. It is an organ functioning under the administrative control of NITI Aayog. 2. The Council is chaired by the Union Finance Minister of India. 3. It monitors macroprudential regulation of the economy, including coordination among various financial regulators. Which of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "",
+    "subject": "Economy",
+    "theme": "Regulatory Bodies",
+    "micro_topic": "FSDC",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q027",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 27,
+    "source_question_number": 27,
+    "question": "With reference to the religious history of India, the 'Sthanakvasi' sect belongs to which of the following?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Buddhism"
+      },
+      {
+        "key": "b",
+        "text": "Jainism"
+      },
+      {
+        "key": "c",
+        "text": "Vaishnavism"
+      },
+      {
+        "key": "d",
+        "text": "Shaivism"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "",
+    "subject": "History",
+    "theme": "Ancient India",
+    "micro_topic": "Sects & Schools",
+    "nature": "Factual",
+    "difficulty": "Moderate",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q028",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 28,
+    "source_question_number": 28,
+    "question": "Consider the following pairs: 1. Region: Donbas, Country: Ukraine 2. Region: Tigray, Country: Ethiopia 3. Region: Cabo Delgado, Country: Mozambique. How many of the above pairs are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one pair"
+      },
+      {
+        "key": "b",
+        "text": "Only two pairs"
+      },
+      {
+        "key": "c",
+        "text": "All three pairs"
+      },
+      {
+        "key": "d",
+        "text": "None"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "",
+    "subject": "International Relations",
+    "theme": "Geopolitics",
+    "micro_topic": "Places in News",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q029",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 29,
+    "source_question_number": 29,
+    "question": "Consider the following statements regarding 'Biorock Technology': 1. It is used extensively for the restoration and fast-tracked growth of damaged coral reefs. 2. It works by passing a low-voltage electrical current through seawater, causing dissolved minerals to crystallize on a steel structure. Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "",
+    "subject": "Environment",
+    "theme": "Conservation",
+    "micro_topic": "Marine Conservation",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q030",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 30,
+    "source_question_number": 30,
+    "question": "The term 'Miyawaki Method' is well known and discussed in the context of which one of the following?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Promotion of organic and zero-budget natural farming in arid blocks"
+      },
+      {
+        "key": "b",
+        "text": "Development of highly specialized vertical hydroponic cultivation systems"
+      },
+      {
+        "key": "c",
+        "text": "Rapid creation of dense, layered mini-forests using native species in urban areas"
+      },
+      {
+        "key": "d",
+        "text": "Micro-irrigation infrastructure deployment in rainfed agro-climatic zones"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "",
+    "subject": "Environment",
+    "theme": "Conservation",
+    "micro_topic": "Afforestation",
+    "nature": "Factual",
+    "difficulty": "Easy",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q031",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 31,
+    "source_question_number": 31,
+    "question": "Consider the following statements regarding the 'Moidams' of Assam: 1. They are vaulted mound burial systems constructed by the Tai-Ahom dynasty. 2. They have been inscribed as a UNESCO World Heritage Site, marking a significant cultural milestone for Northeast India. Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "",
+    "subject": "Art and Culture",
+    "theme": "Heritage Sites",
+    "micro_topic": "Ahom Architecture",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q032",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 32,
+    "source_question_number": 32,
+    "question": "Consider the following statements regarding the Minimum Support Price (MSP) framework in India: 1. The Commission for Agricultural Costs and Prices (CACP) recommends MSPs for specified crops, which are then finalized by the Cabinet Committee on Economic Affairs (CCEA). 2. Statutory minimum price or fair and remunerative price (FRP) is explicitly declared for sugarcane. Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "",
+    "subject": "Economy",
+    "theme": "Agriculture",
+    "micro_topic": "Agricultural Pricing",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q033",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 33,
+    "source_question_number": 33,
+    "question": "Which of the following statements is/are correct regarding the unique features of Non-Fungible Tokens (NFTs)? 1. NFTs are unique cryptographic assets that exist on a blockchain and cannot be replicated. 2. They can be utilized as digital certificates of ownership for physical or digital collectibles. Select the correct answer using the code given below:",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "",
+    "subject": "Science & Technology",
+    "theme": "Information Technology",
+    "micro_topic": "Emerging Tech (Web3)",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q034",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 34,
+    "source_question_number": 34,
+    "question": "Consider the following infrastructure assets: 1. Affordable housing complexes 2. Mass rapid transit networks 3. Renewable energy grid facilities. The UNOPS Sustainable Investments in Infrastructure and Innovation (S3i) platform channelizes target funding across how many of the above areas?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "All three"
+      },
+      {
+        "key": "d",
+        "text": "None"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "",
+    "subject": "Economy",
+    "theme": "Infrastructure",
+    "micro_topic": "International Initiatives",
+    "nature": "Factual",
+    "difficulty": "Hard",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q035",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 35,
+    "source_question_number": 35,
+    "question": "In the context of modern computing paradigms, what does the term 'qubit' denote?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The standard unit of network data transmission bandwidth in terahertz networks"
+      },
+      {
+        "key": "b",
+        "text": "The basic unit of cryptographic processing storage in secure cloud mainframes"
+      },
+      {
+        "key": "c",
+        "text": "The basic unit of quantum information processing processing analogous to a classical bit"
+      },
+      {
+        "key": "d",
+        "text": "The metric used to measure processing limits in distributed ledger architectures"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "",
+    "subject": "Science & Technology",
+    "theme": "Information Technology",
+    "micro_topic": "Quantum Technology",
+    "nature": "Conceptual",
+    "difficulty": "Easy",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q036",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 36,
+    "source_question_number": 36,
+    "question": "Consider the following statements regarding the 'Pakhui Wildlife Sanctuary': 1. It is located in the foothills of the Eastern Himalayas within the State of Arunachal Pradesh. 2. It is widely recognized as a crucial habitat and conservation zone for various species of hornbills. Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "",
+    "subject": "Environment",
+    "theme": "Conservation",
+    "micro_topic": "Protected Areas",
+    "nature": "Factual",
+    "difficulty": "Moderate",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q037",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 37,
+    "source_question_number": 37,
+    "question": "Consider the following statements regarding 'Web 3.0' technologies: 1. Web 3.0 implies an open, decentralized internet ecosystem driven by blockchain architectures. 2. It allows users to assert granular control and ownership over their personal data assets. Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "",
+    "subject": "Science & Technology",
+    "theme": "Information Technology",
+    "micro_topic": "Web Technologies",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q038",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 38,
+    "source_question_number": 38,
+    "question": "The term 'Social Cost of Carbon' is most appropriately defined as a holistic measure of the:",
+    "options": [
+      {
+        "key": "a",
+        "text": "financial tax liability imposed on heavy emitters to offset environmental degradation metrics"
+      },
+      {
+        "key": "b",
+        "text": "long-term economic damage quantified in monetary terms caused by an additional ton of CO2 emissions in a given year"
+      },
+      {
+        "key": "c",
+        "text": "capital investment required to completely switch a country's power grid infrastructure into fully renewable sources"
+      },
+      {
+        "key": "d",
+        "text": "relative carbon footprint calculated per capita across developing urban industrial zones"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "",
+    "subject": "Environment",
+    "theme": "Climate Change",
+    "micro_topic": "Environmental Economics",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q039",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 39,
+    "source_question_number": 39,
+    "question": "Consider the following statements regarding the 'Pradhan Mantri Surakshit Matritva Abhiyan': 1. The scheme guarantees a comprehensive package of free antenatal care services to pregnant women on the 9th of every month. 2. It actively encourages private sector health specialists to volunteer and provide diagnostic services at government facilities. Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "",
+    "subject": "Governance",
+    "theme": "Government Schemes",
+    "micro_topic": "Health Sectors",
+    "nature": "Factual",
+    "difficulty": "Moderate",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q040",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 40,
+    "source_question_number": 40,
+    "question": "With reference to the provisions contained in the 'Maternity Benefit (Amendment) Act, 2017', which of the following statements is/are correct? 1. Paid maternity leave eligibility has been raised from 12 weeks to 26 weeks for eligible working women. 2. Establishing a mandatory crèche facility is required for every establishment employing 50 or more employees. Select the correct answer using the code given below:",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "",
+    "subject": "Polity",
+    "theme": "Social Justice",
+    "micro_topic": "Welfare Legislations",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q041",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 41,
+    "source_question_number": 41,
+    "question": "Consider the following statements regarding the 'National Quantum Mission' (NQM): 1. It explicitly seeks to fast-track research and build capability across quantum computing, communication, and quantum sensing architectures. 2. The implementation framework includes establishing specialized 'Thematic Hubs' across premier academic and scientific research systems. Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "",
+    "subject": "Science & Technology",
+    "theme": "Information Technology",
+    "micro_topic": "Quantum Computing",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q042",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 42,
+    "source_question_number": 42,
+    "question": "Consider the following statements regarding the 'Deep Ocean Mission': 1. It is a multi-disciplinary initiative spearheaded by the Ministry of Earth Sciences, Government of India. 2. A crucial engineering component includes developing a manned submersible asset, 'Matsya-6000', for deep-sea exploration. Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "",
+    "subject": "Science & Technology",
+    "theme": "Ocean Technology",
+    "micro_topic": "Deep Sea Exploration",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q043",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 43,
+    "source_question_number": 43,
+    "question": "Consider the following statements regarding the 'Global Forum for Migration and Development' (GFMD): 1. It functions as an informal, non-binding, and state-led process to analyze migration-development nexuses. 2. All resolution frameworks passed under the GFMD framework create binding legal obligations on signatory states. Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "",
+    "subject": "International Relations",
+    "theme": "Multilateral Forums",
+    "micro_topic": "Migration Infrastructure",
+    "nature": "Factual",
+    "difficulty": "Hard",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q044",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 44,
+    "source_question_number": 44,
+    "question": "Consider the following statements regarding the 'Colombo Process': 1. It is a regional consultative process focusing explicitly on contractual labor mobility and optimization of welfare management for overseas workers from Asian origin countries. 2. India functions as one of the prominent member states within this consultative network. Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "",
+    "subject": "International Relations",
+    "theme": "Regional Consultations",
+    "micro_topic": "Contractual Labor Migration",
+    "nature": "Factual",
+    "difficulty": "Hard",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q045",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 45,
+    "source_question_number": 45,
+    "question": "The term 'Abu Dhabi Dialogue' (ADD) is best described as a voluntary, collaborative multilateral platform to address issues regarding:",
+    "options": [
+      {
+        "key": "a",
+        "text": "digital payment security frameworks across West Asian trade networks"
+      },
+      {
+        "key": "b",
+        "text": "safe, orderly, and transparent contractual labor mobility optimization between Asian labor-sending and destination states"
+      },
+      {
+        "key": "c",
+        "text": "global maritime transit security alignments within the Western Indian Ocean maritime corridors"
+      },
+      {
+        "key": "d",
+        "text": "alternative clean energy investment transitions across developing oil-exporting block systems"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "",
+    "subject": "International Relations",
+    "theme": "Multilateral Platforms",
+    "micro_topic": "Labor Mobility Alignments",
+    "nature": "Factual",
+    "difficulty": "Hard",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q046",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 46,
+    "source_question_number": 46,
+    "question": "Consider the following statements regarding the 'United Nations High Commissioner for Refugees' (UNHCR): 1. It is a specialized global agency mandated to lead international protection and rehabilitation efforts for refugees worldwide. 2. The organization has been distinguished with the prestigious Nobel Peace Prize twice in its operational history. Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "",
+    "subject": "International Relations",
+    "theme": "International Organizations",
+    "micro_topic": "UNHCR Profile",
+    "nature": "Factual",
+    "difficulty": "Moderate",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q047",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 47,
+    "source_question_number": 47,
+    "question": "Consider the following statements regarding the 'Colombo Security Conclave' (CSC): 1. It functions as a regional security platform involving nations along the Indian Ocean rim to focus on maritime safety, counter-terrorism, and cyber security challenges. 2. India serves as a key driving founding member nation within this cooperative setup. Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "",
+    "subject": "International Relations",
+    "theme": "Regional Defense Matrices",
+    "micro_topic": "CSC Infrastructure",
+    "nature": "Factual",
+    "difficulty": "Moderate",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q048",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 48,
+    "source_question_number": 48,
+    "question": "Consider the following statements regarding the 'BIMSTEC Energy Centre' (BEC): 1. It has been institutionalized to spearhead collaborative energy sector research, power grid interconnections, and clean energy tech cross-sharing. 2. The operational secretariat and physical headquarters for the BEC are located in India. Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "",
+    "subject": "International Relations",
+    "theme": "Regional Organizations",
+    "micro_topic": "BIMSTEC Institutional Centers",
+    "nature": "Factual",
+    "difficulty": "Hard",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q049",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 49,
+    "source_question_number": 49,
+    "question": "Consider the following statements regarding the 'BIMSTEC Centre for Weather and Climate' (BCWC): 1. It operates to streamline regional meteorological modeling, early warning frameworks, and joint climate hazard mapping efforts. 2. The physical facility for the BCWC is institutionalized and operational within India. Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "",
+    "subject": "International Relations",
+    "theme": "Regional Organizations",
+    "micro_topic": "BIMSTEC Institutional Centers",
+    "nature": "Factual",
+    "difficulty": "Hard",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q050",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 50,
+    "source_question_number": 50,
+    "question": "Consider the following statements regarding 'M1xchange': 1. It functions as an approved Trade Receivables Discounting System (TReDS) platform setup under RBI guidelines. 2. It allows institutional micro, small, and medium enterprises (MSMEs) to auction and discount trade invoices from corporate buyers to optimize working capital. Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "",
+    "subject": "Economy",
+    "theme": "MSME Financing Platforms",
+    "micro_topic": "TReDS Architecture",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q051",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 51,
+    "source_question_number": 51,
+    "question": "Consider the following statements regarding the 'Crowding Out Effect': 1. It describes an economic scenario where expansionary fiscal interventions leading to high market borrowings by the state push up interest rates, consequently disincentivizing private capital deployments. 2. It is typically observed during periods of fiscal retrenchment and contractionary monetary cycles. Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "",
+    "subject": "Economy",
+    "theme": "Macroeconomics",
+    "micro_topic": "Fiscal Policy Dynamics",
+    "nature": "Conceptual",
+    "difficulty": "Easy",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q052",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 52,
+    "source_question_number": 52,
+    "question": "Consider the following statements regarding the 'Multidimensional Poverty Index' (MPI) formulated by NITI Aayog: 1. It functions as a baseline assessment tool utilizing the specialized Alkire-Foster methodology framework. 2. The national adaptation includes twelve specific tracking indicators, including bank account access and maternal health dimensions. Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "",
+    "subject": "Economy",
+    "theme": "Poverty Metrics",
+    "micro_topic": "National MPI Architecture",
+    "nature": "Factual",
+    "difficulty": "Moderate",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q053",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 53,
+    "source_question_number": 53,
+    "question": "Consider the following strategic items of defense military hardware: 1. Su-30 MKI Combat Aircraft 2. T-90 Bhishma Main Battle Tanks 3. Pinaka Multi-Barrel Rocket Rocket Launch Systems. Under the indigenization and licensed manufacturing initiatives, how many of the above systems are actively produced inside India?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "All three"
+      },
+      {
+        "key": "d",
+        "text": "None"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "",
+    "subject": "Defense",
+    "theme": "Indigenization Matrix",
+    "micro_topic": "Production Profiles",
+    "nature": "Factual",
+    "difficulty": "Moderate",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q054",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 54,
+    "source_question_number": 54,
+    "question": "Consider the following statements regarding 'Non-Banking Financial Companies' (NBFCs) operating in India: 1. NBFCs are legally prohibited from accepting demand deposits from clients. 2. Depositors across all categories of deposit-taking NBFCs are backed by the statutory safety cover of the DICGC. Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "",
+    "subject": "Economy",
+    "theme": "Banking & Finance",
+    "micro_topic": "NBFC Regulatory Standards",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q055",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 55,
+    "source_question_number": 55,
+    "question": "Consider the following global policy frameworks and groupings: 1. Missile Technology Control Regime (MTCR) 2. Wassenaar Arrangement 3. Australia Group. India maintains formal, full state membership status across how many of the above proliferation control setups?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "All three"
+      },
+      {
+        "key": "d",
+        "text": "None"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "",
+    "subject": "International Relations",
+    "theme": "Non-Proliferation Architectures",
+    "micro_topic": "India memberships",
+    "nature": "Factual",
+    "difficulty": "Easy",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q056",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 56,
+    "source_question_number": 56,
+    "question": "Consider the following international groupings and initiatives: 1. Ashgabat Agreement 2. International North-South Transport Corridor (INSTC) 3. TIR (Transports Internationaux Routiers) Convention. India is a signatory to how many of the above trade and transport facilitation frameworks?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "All three"
+      },
+      {
+        "key": "d",
+        "text": "None"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "",
+    "subject": "International Relations",
+    "theme": "Connectivity & Trade Facilitation",
+    "micro_topic": "Strategic Agreements",
+    "nature": "Factual",
+    "difficulty": "Moderate",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q057",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 57,
+    "source_question_number": 74,
+    "question": "With reference to the International Year observances designated by the United Nations, consider the following pairs: 1. International Year of the Woman Farmer : 2026 2. International Year of Sustainable and Resilient Tourism : 2027 3. International Year of Rangelands and Pastoralists : 2026 4. International Year of Glaciers' Preservation : 2025. How many of the above pairs are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one pair"
+      },
+      {
+        "key": "b",
+        "text": "Only two pairs"
+      },
+      {
+        "key": "c",
+        "text": "Only three pairs"
+      },
+      {
+        "key": "d",
+        "text": "All four pairs"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "",
+    "subject": "Miscellaneous",
+    "theme": "UN Observances",
+    "micro_topic": "International Years",
+    "nature": "Factual",
+    "difficulty": "Hard",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csr_batch_1_q058",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "csr_batch_1",
+    "question_set_label": "CSR Monthly Mock · Batch 1",
+    "source_type": "csr",
+    "question_number": 58,
+    "source_question_number": 100,
+    "question": "Consider the following statements regarding historical achievements in sports: 1. The 45th Chess Olympiad held in Budapest in 2024 marked the first time India won historic double gold medals across both open and women's team categories. 2. Grandmaster Gukesh D. delivered a stellar performance during the tournament, setting a path toward the World Chess Championship match. Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "",
+    "subject": "Miscellaneous",
+    "theme": "Sports Achievements",
+    "micro_topic": "Chess Olympiad Framework",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source": "generated_data/csr_questions/batch_1.json",
+    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "verification_status": "verified_generated"
+  }
+]

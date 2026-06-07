@@ -1,0 +1,685 @@
+{
+  "meta": {
+    "total_questions": 800,
+    "years": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "analyzed_date": "2026-06-02"
+  },
+  "subject_summary": [
+    {
+      "subject": "Economy",
+      "count_8yr": 140,
+      "pct_8yr": 17.5,
+      "count_2026": 17,
+      "delta_vs_avg": -0.6
+    },
+    {
+      "subject": "History",
+      "count_8yr": 123,
+      "pct_8yr": 15.4,
+      "count_2026": 13,
+      "delta_vs_avg": -2.7
+    },
+    {
+      "subject": "Environment",
+      "count_8yr": 119,
+      "pct_8yr": 14.9,
+      "count_2026": 9,
+      "delta_vs_avg": -6.7
+    },
+    {
+      "subject": "Polity",
+      "count_8yr": 111,
+      "pct_8yr": 13.9,
+      "count_2026": 7,
+      "delta_vs_avg": -7.9
+    },
+    {
+      "subject": "Science & Technology",
+      "count_8yr": 102,
+      "pct_8yr": 12.8,
+      "count_2026": 14,
+      "delta_vs_avg": 1.4
+    },
+    {
+      "subject": "Geography",
+      "count_8yr": 99,
+      "pct_8yr": 12.4,
+      "count_2026": 10,
+      "delta_vs_avg": -2.7
+    },
+    {
+      "subject": "International Relations",
+      "count_8yr": 41,
+      "pct_8yr": 5.1,
+      "count_2026": 10,
+      "delta_vs_avg": 5.6
+    },
+    {
+      "subject": "Agriculture",
+      "count_8yr": 16,
+      "pct_8yr": 2.0,
+      "count_2026": 1,
+      "delta_vs_avg": -1.1
+    },
+    {
+      "subject": "Miscellaneous",
+      "count_8yr": 15,
+      "pct_8yr": 1.9,
+      "count_2026": 3,
+      "delta_vs_avg": 1.3
+    },
+    {
+      "subject": "Art and Culture",
+      "count_8yr": 10,
+      "pct_8yr": 1.2,
+      "count_2026": 7,
+      "delta_vs_avg": 6.6
+    },
+    {
+      "subject": "Governance",
+      "count_8yr": 8,
+      "pct_8yr": 1.0,
+      "count_2026": 1,
+      "delta_vs_avg": 0.0
+    },
+    {
+      "subject": "Defense",
+      "count_8yr": 8,
+      "pct_8yr": 1.0,
+      "count_2026": 4,
+      "delta_vs_avg": 3.4
+    },
+    {
+      "subject": "Social Issues",
+      "count_8yr": 5,
+      "pct_8yr": 0.6,
+      "count_2026": 1,
+      "delta_vs_avg": 0.4
+    },
+    {
+      "subject": "Ethics",
+      "count_8yr": 3,
+      "pct_8yr": 0.4,
+      "count_2026": 3,
+      "delta_vs_avg": 3.0
+    }
+  ],
+  "ultra_high_yield_themes": [
+    {
+      "subject": "History",
+      "theme": "Ancient India",
+      "years_appeared": 8,
+      "total_questions": 47
+    },
+    {
+      "subject": "History",
+      "theme": "Modern India",
+      "years_appeared": 8,
+      "total_questions": 45
+    },
+    {
+      "subject": "Polity",
+      "theme": "Constitution",
+      "years_appeared": 8,
+      "total_questions": 32
+    },
+    {
+      "subject": "Environment",
+      "theme": "Biodiversity",
+      "years_appeared": 8,
+      "total_questions": 24
+    },
+    {
+      "subject": "Geography",
+      "theme": "Physical Geography",
+      "years_appeared": 8,
+      "total_questions": 21
+    },
+    {
+      "subject": "Geography",
+      "theme": "World Geography",
+      "years_appeared": 8,
+      "total_questions": 21
+    },
+    {
+      "subject": "Economy",
+      "theme": "Financial Markets",
+      "years_appeared": 8,
+      "total_questions": 19
+    },
+    {
+      "subject": "Environment",
+      "theme": "Climate Change",
+      "years_appeared": 8,
+      "total_questions": 18
+    },
+    {
+      "subject": "Geography",
+      "theme": "Indian Geography",
+      "years_appeared": 7,
+      "total_questions": 20
+    },
+    {
+      "subject": "Polity",
+      "theme": "Legislature",
+      "years_appeared": 7,
+      "total_questions": 17
+    },
+    {
+      "subject": "Polity",
+      "theme": "Governance",
+      "years_appeared": 7,
+      "total_questions": 16
+    },
+    {
+      "subject": "Environment",
+      "theme": "Pollution",
+      "years_appeared": 7,
+      "total_questions": 15
+    },
+    {
+      "subject": "Environment",
+      "theme": "Ecology",
+      "years_appeared": 7,
+      "total_questions": 14
+    },
+    {
+      "subject": "Geography",
+      "theme": "Economic Geography",
+      "years_appeared": 7,
+      "total_questions": 14
+    },
+    {
+      "subject": "Science & Technology",
+      "theme": "Biotechnology",
+      "years_appeared": 7,
+      "total_questions": 14
+    },
+    {
+      "subject": "Economy",
+      "theme": "Banking & Finance",
+      "years_appeared": 7,
+      "total_questions": 13
+    },
+    {
+      "subject": "Economy",
+      "theme": "Macroeconomics",
+      "years_appeared": 7,
+      "total_questions": 13
+    },
+    {
+      "subject": "History",
+      "theme": "Medieval India",
+      "years_appeared": 6,
+      "total_questions": 15
+    },
+    {
+      "subject": "Science & Technology",
+      "theme": "Space Technology",
+      "years_appeared": 6,
+      "total_questions": 10
+    },
+    {
+      "subject": "Science & Technology",
+      "theme": "Biology",
+      "years_appeared": 6,
+      "total_questions": 9
+    },
+    {
+      "subject": "Economy",
+      "theme": "Agriculture",
+      "years_appeared": 5,
+      "total_questions": 12
+    },
+    {
+      "subject": "Geography",
+      "theme": "Climatology",
+      "years_appeared": 5,
+      "total_questions": 10
+    },
+    {
+      "subject": "Economy",
+      "theme": "External Sector",
+      "years_appeared": 5,
+      "total_questions": 9
+    },
+    {
+      "subject": "History",
+      "theme": "Art and Culture",
+      "years_appeared": 5,
+      "total_questions": 8
+    },
+    {
+      "subject": "Economy",
+      "theme": "Public Finance",
+      "years_appeared": 5,
+      "total_questions": 8
+    },
+    {
+      "subject": "Science & Technology",
+      "theme": "Energy",
+      "years_appeared": 5,
+      "total_questions": 7
+    },
+    {
+      "subject": "Environment",
+      "theme": "Conservation Laws",
+      "years_appeared": 5,
+      "total_questions": 6
+    },
+    {
+      "subject": "Economy",
+      "theme": "Digital Economy",
+      "years_appeared": 5,
+      "total_questions": 6
+    }
+  ],
+  "high_yield_microtopics": [
+    {
+      "micro_topic": "Indian National Movement",
+      "subject": "History",
+      "count": 7,
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2025
+      ]
+    },
+    {
+      "micro_topic": "Map Reading",
+      "subject": "Geography",
+      "count": 6,
+      "years": [
+        2019,
+        2020,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "micro_topic": "Global Initiatives",
+      "subject": "Environment",
+      "count": 6,
+      "years": [
+        2022,
+        2024,
+        2025,
+        2026
+      ]
+    },
+    {
+      "micro_topic": "Places in News",
+      "subject": "Geography",
+      "count": 6,
+      "years": [
+        2022,
+        2023,
+        2025
+      ]
+    },
+    {
+      "micro_topic": "Climatology",
+      "subject": "Geography",
+      "count": 5,
+      "years": [
+        2019,
+        2020,
+        2022,
+        2023
+      ]
+    },
+    {
+      "micro_topic": "Animal Behavior",
+      "subject": "Environment",
+      "count": 5,
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "micro_topic": "Indus Valley Civilization",
+      "subject": "History",
+      "count": 4,
+      "years": [
+        2019,
+        2021,
+        2025,
+        2026
+      ]
+    },
+    {
+      "micro_topic": "Buddhism",
+      "subject": "History",
+      "count": 4,
+      "years": [
+        2019,
+        2020,
+        2024
+      ]
+    },
+    {
+      "micro_topic": "Fauna of India",
+      "subject": "Environment",
+      "count": 4,
+      "years": [
+        2019,
+        2024,
+        2026
+      ]
+    },
+    {
+      "micro_topic": "Literature",
+      "subject": "History",
+      "count": 4,
+      "years": [
+        2020,
+        2022,
+        2024
+      ]
+    },
+    {
+      "micro_topic": "River Systems",
+      "subject": "Geography",
+      "count": 4,
+      "years": [
+        2021,
+        2024,
+        2026
+      ]
+    },
+    {
+      "micro_topic": "Constitutional Development",
+      "subject": "History",
+      "count": 3,
+      "years": [
+        2019,
+        2023,
+        2024
+      ]
+    },
+    {
+      "micro_topic": "Social Reform Movements",
+      "subject": "History",
+      "count": 3,
+      "years": [
+        2019,
+        2020,
+        2025
+      ]
+    },
+    {
+      "micro_topic": "Architecture",
+      "subject": "History",
+      "count": 3,
+      "years": [
+        2019,
+        2021,
+        2022
+      ]
+    },
+    {
+      "micro_topic": "Earth's Movement",
+      "subject": "Geography",
+      "count": 3,
+      "years": [
+        2019,
+        2022,
+        2024
+      ]
+    },
+    {
+      "micro_topic": "Alternative Fuels",
+      "subject": "Economy",
+      "count": 3,
+      "years": [
+        2019,
+        2023,
+        2025
+      ]
+    },
+    {
+      "micro_topic": "Article 21",
+      "subject": "Polity",
+      "count": 3,
+      "years": [
+        2019,
+        2021,
+        2024
+      ]
+    },
+    {
+      "micro_topic": "Genetics",
+      "subject": "Science & Technology",
+      "count": 3,
+      "years": [
+        2019,
+        2021,
+        2023
+      ]
+    },
+    {
+      "micro_topic": "Astrophysics",
+      "subject": "Science & Technology",
+      "count": 3,
+      "years": [
+        2019,
+        2023,
+        2024
+      ]
+    },
+    {
+      "micro_topic": "DPSP",
+      "subject": "Polity",
+      "count": 3,
+      "years": [
+        2020
+      ]
+    },
+    {
+      "micro_topic": "Constitutionalism",
+      "subject": "Polity",
+      "count": 3,
+      "years": [
+        2020,
+        2021,
+        2023
+      ]
+    },
+    {
+      "micro_topic": "Wildlife Protection Act",
+      "subject": "Environment",
+      "count": 3,
+      "years": [
+        2020,
+        2022,
+        2023
+      ]
+    },
+    {
+      "micro_topic": "Minerals",
+      "subject": "Geography",
+      "count": 3,
+      "years": [
+        2020,
+        2022,
+        2023
+      ]
+    },
+    {
+      "micro_topic": "Vijayanagara Empire",
+      "subject": "History",
+      "count": 3,
+      "years": [
+        2021,
+        2023,
+        2024
+      ]
+    },
+    {
+      "micro_topic": "Advent of Europeans",
+      "subject": "History",
+      "count": 3,
+      "years": [
+        2021,
+        2022,
+        2025
+      ]
+    },
+    {
+      "micro_topic": "Constitutional Reforms",
+      "subject": "History",
+      "count": 3,
+      "years": [
+        2021,
+        2022,
+        2026
+      ]
+    },
+    {
+      "micro_topic": "Amendment Procedure",
+      "subject": "Polity",
+      "count": 3,
+      "years": [
+        2022,
+        2024,
+        2025
+      ]
+    },
+    {
+      "micro_topic": "Presiding Officers",
+      "subject": "Polity",
+      "count": 3,
+      "years": [
+        2022,
+        2024,
+        2025
+      ]
+    },
+    {
+      "micro_topic": "Geomorphology",
+      "subject": "Geography",
+      "count": 3,
+      "years": [
+        2023,
+        2025,
+        2026
+      ]
+    }
+  ],
+  "allocation_recommendation": [
+    {
+      "subject": "Economy",
+      "pct_8yr": 17.5,
+      "pct_2026": 17,
+      "blended_pct": 17.3,
+      "hours_per_week": 4.8
+    },
+    {
+      "subject": "History",
+      "pct_8yr": 15.4,
+      "pct_2026": 13,
+      "blended_pct": 14.4,
+      "hours_per_week": 4.0
+    },
+    {
+      "subject": "Environment",
+      "pct_8yr": 14.9,
+      "pct_2026": 9,
+      "blended_pct": 12.5,
+      "hours_per_week": 3.5
+    },
+    {
+      "subject": "Polity",
+      "pct_8yr": 13.9,
+      "pct_2026": 7,
+      "blended_pct": 11.1,
+      "hours_per_week": 3.1
+    },
+    {
+      "subject": "Science & Technology",
+      "pct_8yr": 12.8,
+      "pct_2026": 14,
+      "blended_pct": 13.2,
+      "hours_per_week": 3.7
+    },
+    {
+      "subject": "Geography",
+      "pct_8yr": 12.4,
+      "pct_2026": 10,
+      "blended_pct": 11.4,
+      "hours_per_week": 3.2
+    },
+    {
+      "subject": "International Relations",
+      "pct_8yr": 5.1,
+      "pct_2026": 10,
+      "blended_pct": 7.1,
+      "hours_per_week": 2.0
+    },
+    {
+      "subject": "Agriculture",
+      "pct_8yr": 2.0,
+      "pct_2026": 1,
+      "blended_pct": 1.6,
+      "hours_per_week": 0.4
+    },
+    {
+      "subject": "Miscellaneous",
+      "pct_8yr": 1.9,
+      "pct_2026": 3,
+      "blended_pct": 2.3,
+      "hours_per_week": 0.7
+    },
+    {
+      "subject": "Art and Culture",
+      "pct_8yr": 1.2,
+      "pct_2026": 7,
+      "blended_pct": 3.6,
+      "hours_per_week": 1.0
+    },
+    {
+      "subject": "Governance",
+      "pct_8yr": 1.0,
+      "pct_2026": 1,
+      "blended_pct": 1.0,
+      "hours_per_week": 0.3
+    },
+    {
+      "subject": "Defense",
+      "pct_8yr": 1.0,
+      "pct_2026": 4,
+      "blended_pct": 2.2,
+      "hours_per_week": 0.6
+    },
+    {
+      "subject": "Social Issues",
+      "pct_8yr": 0.6,
+      "pct_2026": 1,
+      "blended_pct": 0.8,
+      "hours_per_week": 0.2
+    },
+    {
+      "subject": "Ethics",
+      "pct_8yr": 0.4,
+      "pct_2026": 3,
+      "blended_pct": 1.4,
+      "hours_per_week": 0.4
+    }
+  ]
+}

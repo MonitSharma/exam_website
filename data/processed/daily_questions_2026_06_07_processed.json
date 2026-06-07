@@ -1,0 +1,310 @@
+[
+  {
+    "id": "daily_questions_2026_06_07_q001",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "daily_questions_2026_06_07",
+    "question_set_label": "Daily Questions · Jun 07, 2026",
+    "source_type": "daily_questions",
+    "question_number": 1,
+    "source_question_number": null,
+    "question": "With reference to India's recently designated 100th Ramsar site, consider: (1) It is the Jai Prakash Narayan Bird Sanctuary (Surha Tal), located in Bihar. (2) India now has the highest number of Ramsar sites in Asia. (3) India ranks third in the world in number of Ramsar sites. Which statements are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "Surha Tal / Jai Prakash Narayan Bird Sanctuary is in Ballia, Uttar Pradesh (not Bihar), so 1 is wrong. With 100 sites India is now 1st in Asia and 3rd globally (after UK-176 and Mexico-144).",
+    "subject": "Environment",
+    "theme": "Wetlands & Ramsar Convention",
+    "micro_topic": "Ramsar sites of India",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source": "generated_data/question_bank/daily_questions_2026_06_07.json",
+    "answer_source": "generated_data/question_bank/daily_questions_2026_06_07.json",
+    "verification_status": "verified_generated",
+    "date_added": "2026-06-07"
+  },
+  {
+    "id": "daily_questions_2026_06_07_q002",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "daily_questions_2026_06_07",
+    "question_set_label": "Daily Questions · Jun 07, 2026",
+    "source_type": "daily_questions",
+    "question_number": 2,
+    "source_question_number": null,
+    "question": "Consider the following about the Quad Critical Minerals Initiative (2026): (1) It was announced at the Quad Foreign Ministers' Meeting held in New Delhi. (2) Its members are India, Australia, Japan and the United States. (3) The grouping intends to mobilise up to US $20 billion for critical-mineral supply chains. Which statements are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "All three are correct. The initiative was unveiled at the 11th Quad FMM in New Delhi (26 May 2026); members are India, Australia, Japan, USA; and the grouping intends to mobilise up to $20 billion for critical-mineral supply chains.",
+    "subject": "International Relations",
+    "theme": "Quad & Minilateral Groupings",
+    "micro_topic": "Quad Critical Minerals Initiative",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source": "generated_data/question_bank/daily_questions_2026_06_07.json",
+    "answer_source": "generated_data/question_bank/daily_questions_2026_06_07.json",
+    "verification_status": "verified_generated",
+    "date_added": "2026-06-07"
+  },
+  {
+    "id": "daily_questions_2026_06_07_q003",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "daily_questions_2026_06_07",
+    "question_set_label": "Daily Questions · Jun 07, 2026",
+    "source_type": "daily_questions",
+    "question_number": 3,
+    "source_question_number": null,
+    "question": "With reference to the RBI's June 2026 monetary policy, consider: (1) The repo rate was kept unchanged at 5.25%. (2) The MPC retained a 'neutral' policy stance. Which statements are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "In its decision announced on 5 June 2026 the MPC unanimously kept the repo rate unchanged at 5.25% and retained a 'neutral' stance, citing CPI inflation below target but with an upward bias.",
+    "subject": "Economy",
+    "theme": "Monetary Policy",
+    "micro_topic": "RBI MPC repo rate decision",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source": "generated_data/question_bank/daily_questions_2026_06_07.json",
+    "answer_source": "generated_data/question_bank/daily_questions_2026_06_07.json",
+    "verification_status": "verified_generated",
+    "date_added": "2026-06-07"
+  },
+  {
+    "id": "daily_questions_2026_06_07_q004",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "daily_questions_2026_06_07",
+    "question_set_label": "Daily Questions · Jun 07, 2026",
+    "source_type": "daily_questions",
+    "question_number": 4,
+    "source_question_number": null,
+    "question": "GISAT-1A (EOS-05), recently in the news, is best described as:",
+    "options": [
+      {
+        "key": "a",
+        "text": "A polar Sun-synchronous remote-sensing satellite"
+      },
+      {
+        "key": "b",
+        "text": "A geostationary Earth-observation (geo-imaging) satellite"
+      },
+      {
+        "key": "c",
+        "text": "A navigation satellite of the NavIC constellation"
+      },
+      {
+        "key": "d",
+        "text": "A dedicated communication satellite for broadcasting"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "GISAT/EOS is a geostationary geo-imaging Earth-observation satellite. Unlike polar Sun-synchronous remote-sensing satellites, it sits over a fixed point and provides near-continuous, near-real-time imaging of the subcontinent for disaster and hazard monitoring.",
+    "subject": "Science & Technology",
+    "theme": "Space Technology",
+    "micro_topic": "ISRO Earth-observation satellites / orbit types",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source": "generated_data/question_bank/daily_questions_2026_06_07.json",
+    "answer_source": "generated_data/question_bank/daily_questions_2026_06_07.json",
+    "verification_status": "verified_generated",
+    "date_added": "2026-06-07"
+  },
+  {
+    "id": "daily_questions_2026_06_07_q005",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "daily_questions_2026_06_07",
+    "question_set_label": "Daily Questions · Jun 07, 2026",
+    "source_type": "daily_questions",
+    "question_number": 5,
+    "source_question_number": null,
+    "question": "The setting up of branch campuses of foreign universities in India (e.g., University of Liverpool, Bengaluru) is governed by the 2023 regulations of:",
+    "options": [
+      {
+        "key": "a",
+        "text": "AICTE"
+      },
+      {
+        "key": "b",
+        "text": "University Grants Commission (UGC)"
+      },
+      {
+        "key": "c",
+        "text": "Ministry of External Affairs"
+      },
+      {
+        "key": "d",
+        "text": "NITI Aayog"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "Foreign branch campuses operate under the UGC (Setting up & Operation of Campuses of Foreign Higher Educational Institutions in India) Regulations, 2023, which flow from NEP 2020's emphasis on internationalisation of higher education.",
+    "subject": "Polity & Governance",
+    "theme": "Education Governance / NEP 2020",
+    "micro_topic": "UGC Foreign HEI Regulations 2023",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source": "generated_data/question_bank/daily_questions_2026_06_07.json",
+    "answer_source": "generated_data/question_bank/daily_questions_2026_06_07.json",
+    "verification_status": "verified_generated",
+    "date_added": "2026-06-07"
+  },
+  {
+    "id": "daily_questions_2026_06_07_q006",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "daily_questions_2026_06_07",
+    "question_set_label": "Daily Questions · Jun 07, 2026",
+    "source_type": "daily_questions",
+    "question_number": 6,
+    "source_question_number": null,
+    "question": "With reference to the Montreux Record under the Ramsar Convention, consider: (1) It is a register of Ramsar sites where ecological character has changed, or is likely to change, due to human interference. (2) Keoladeo National Park and Loktak Lake from India are on the Montreux Record. (3) Chilika Lake was removed from the Montreux Record after successful restoration. Which statements are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "All three are correct. The Montreux Record flags ecological-character change at listed wetlands; India's entries are Keoladeo (Rajasthan) and Loktak (Manipur); Chilika was delisted after restoration, the second site globally to be removed.",
+    "subject": "Environment",
+    "theme": "Wetlands & Ramsar Convention",
+    "micro_topic": "Montreux Record",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "generated_data/question_bank/daily_questions_2026_06_07.json",
+    "answer_source": "generated_data/question_bank/daily_questions_2026_06_07.json",
+    "verification_status": "verified_generated",
+    "date_added": "2026-06-07"
+  },
+  {
+    "id": "daily_questions_2026_06_07_q007",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "daily_questions_2026_06_07",
+    "question_set_label": "Daily Questions · Jun 07, 2026",
+    "source_type": "daily_questions",
+    "question_number": 7,
+    "source_question_number": null,
+    "question": "With reference to the Monetary Policy Committee (MPC) of India, consider: (1) It is a statutory body constituted under the RBI Act, 1934 (as amended in 2016). (2) It has six members - three from the RBI and three nominated by the Central Government. (3) In the event of a tie, the RBI Governor has a second or casting vote. Which statements are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "All three are correct. The MPC is statutory under the RBI Act 1934 (2016 amendment), has six members (three RBI + three government-nominated), and the Governor holds a casting vote in case of a tie.",
+    "subject": "Economy",
+    "theme": "Monetary Policy",
+    "micro_topic": "MPC composition and mandate",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "generated_data/question_bank/daily_questions_2026_06_07.json",
+    "answer_source": "generated_data/question_bank/daily_questions_2026_06_07.json",
+    "verification_status": "verified_generated",
+    "date_added": "2026-06-07"
+  }
+]

@@ -1,0 +1,3902 @@
+[
+  {
+    "id": "upsc_2019_q001",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 1,
+    "question": "With reference to Mughal India, what is/are the difference/differences between Jagirdar and Zamindar? 1. Jagirdars were holders of land assignments in lieu of judicial and police duties, whereas Zamindars were holders of revenue rights without obligation to perform any duty other than revenue collection. 2. Land assignments to Jagirdars were hereditary and revenue rights of Zamindars were not hereditary.",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "",
+    "subject": "History",
+    "theme": "Medieval India",
+    "micro_topic": "Mughal Administration",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q002",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 2,
+    "question": "With reference to land reforms in independent India, which one of the following statements is correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The ceiling laws were aimed at family holdings and not individual holdings."
+      },
+      {
+        "key": "b",
+        "text": "The major aim of land reforms was providing agricultural land to all the landless."
+      },
+      {
+        "key": "c",
+        "text": "It resulted in cultivation of cash crops as a predominant form of cultivation."
+      },
+      {
+        "key": "d",
+        "text": "Land reforms permitted no exemptions to the ceiling limits."
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "",
+    "subject": "Economy",
+    "theme": "Agriculture",
+    "micro_topic": "Land Reforms",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q003",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 3,
+    "question": "The Global Competitiveness Report is published by the",
+    "options": [
+      {
+        "key": "a",
+        "text": "International Monetary Fund"
+      },
+      {
+        "key": "b",
+        "text": "United Nations Conference on Trade and Development"
+      },
+      {
+        "key": "c",
+        "text": "World Economic Forum"
+      },
+      {
+        "key": "d",
+        "text": "World Bank"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "",
+    "subject": "Economy",
+    "theme": "Reports and Indices",
+    "micro_topic": "International Organizations",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q004",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 4,
+    "question": "Consider the following statements about 'the Charter Act of 1813': 1. It ended the trade monopoly of the East India Company in India except for trade in tea and trade with China. 2. It asserted the sovereignty of the British Crown over the Indian territories held by the Company. 3. The revenues of India were now controlled by the British Parliament. Which of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "",
+    "subject": "History",
+    "theme": "Modern India",
+    "micro_topic": "Constitutional Development",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q005",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 5,
+    "question": "With reference to Swadeshi Movement, consider the following statements: 1. It contributed to the revival of the indigenous artisan crafts and industries. 2. The National Council of Education was established as a part of Swadeshi Movement. Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "",
+    "subject": "History",
+    "theme": "Modern India",
+    "micro_topic": "Indian National Movement",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q006",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 6,
+    "question": "Consider the following pairs: Movement/Organization : Leader 1. All India Anti-Untouchability League : Mahatma Gandhi 2. All India Kisan Sabha : Swami Sahajanand Saraswati 3. Self-Respect Movement : E. V. Ramaswami Naicker Which of the pairs given above is/are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "",
+    "subject": "History",
+    "theme": "Modern India",
+    "micro_topic": "Social Reform Movements",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q007",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 7,
+    "question": "Which one of the following is not a Harappan site?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Chanhudaro"
+      },
+      {
+        "key": "b",
+        "text": "Kot Diji"
+      },
+      {
+        "key": "c",
+        "text": "Sohgaura"
+      },
+      {
+        "key": "d",
+        "text": "Desalpur"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "",
+    "subject": "History",
+    "theme": "Ancient India",
+    "micro_topic": "Indus Valley Civilization",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q008",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 8,
+    "question": "In which of the following relief sculpture inscriptions is 'Ranyo Ashoka' (King Ashoka) mentioned along with the stone portrait of Ashoka?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Kanganahalli"
+      },
+      {
+        "key": "b",
+        "text": "Sanchi"
+      },
+      {
+        "key": "c",
+        "text": "Shahbazgarhi"
+      },
+      {
+        "key": "d",
+        "text": "Sohgaura"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "",
+    "subject": "History",
+    "theme": "Ancient India",
+    "micro_topic": "Mauryan Empire",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q009",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 9,
+    "question": "Consider the following: 1. Deification of the Buddha 2. Treading the path of Bodhisattvas 3. Image worship and rituals Which of the above is/are the feature/features of Mahayana Buddhism?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "",
+    "subject": "History",
+    "theme": "Ancient India",
+    "micro_topic": "Buddhism",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q010",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 10,
+    "question": "With reference to forced labour (Vishti) in India during the Gupta period, which one of the following statements is correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "It was considered a source of income for the State, a sort of tax paid by the people."
+      },
+      {
+        "key": "b",
+        "text": "It was totally absent in the Madhya Pradesh and Kathiawar regions of the Gupta Empire."
+      },
+      {
+        "key": "c",
+        "text": "The forced labourer was entitled to weekly wages."
+      },
+      {
+        "key": "d",
+        "text": "The eldest son of the labourer was sent as the forced labourer."
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "",
+    "subject": "History",
+    "theme": "Ancient India",
+    "micro_topic": "Gupta Empire",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q011",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 11,
+    "question": "Building 'Kalyaana Mandapas' was a notable feature in the temple construction in the kingdom of",
+    "options": [
+      {
+        "key": "a",
+        "text": "Chalukya"
+      },
+      {
+        "key": "b",
+        "text": "Chandela"
+      },
+      {
+        "key": "c",
+        "text": "Rashtrakuta"
+      },
+      {
+        "key": "d",
+        "text": "Vijayanagara"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "",
+    "subject": "History",
+    "theme": "Art and Culture",
+    "micro_topic": "Architecture",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q012",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 12,
+    "question": "Consider the following statements: 1. In the revenue administration of Delhi Sultanate, the in-charge of revenue collection was known as 'Amil'. 2. The Iqta system of Sultans of Delhi was an ancient indigenous institution. 3. The office of 'Mir Bakshi' came into existence during the reign of Khalji Sultans of Delhi. Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "",
+    "subject": "History",
+    "theme": "Medieval India",
+    "micro_topic": "Delhi Sultanate",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q013",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 13,
+    "question": "Consider the following statements: 1. Saint Nimbarka was a contemporary of Akbar. 2. Saint Kabir was greatly influenced by Shaikh Ahmad Sirhindi. Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "",
+    "subject": "History",
+    "theme": "Medieval India",
+    "micro_topic": "Bhakti Movement",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q014",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 14,
+    "question": "With reference to the British colonial rule in India, consider the following statements: 1. Mahatma Gandhi was instrumental in the abolition of the system of 'indentured labour'. 2. In Lord Chelmsford's 'War Conference', Mahatma Gandhi did not support the resolution on recruiting Indians for World War. 3. Consequent upon the breaking of Salt Law by Indian people, the Indian National Congress was declared illegal by the colonial rulers. Which of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "",
+    "subject": "History",
+    "theme": "Modern India",
+    "micro_topic": "Freedom Struggle",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q015",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 15,
+    "question": "With reference to Indian National Movement, consider the following pairs: Person : Position held 1. Sir Tej Bahadur Sapru : President, All India Liberal Federation 2. K. C. Neogy : Member, The Constituent Assembly 3. P. C. Joshi : General Secretary, Communist Party of India Which of the pairs given above is/are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "",
+    "subject": "History",
+    "theme": "Modern India",
+    "micro_topic": "Important Personalities",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q016",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 16,
+    "question": "With reference to Mian Tansen, which one of the following statements is not correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Tansen was the title given to him by Emperor Akbar."
+      },
+      {
+        "key": "b",
+        "text": "Tansen composed Dhrupads on Hindu gods and goddesses."
+      },
+      {
+        "key": "c",
+        "text": "Tansen composed songs on his patrons."
+      },
+      {
+        "key": "d",
+        "text": "Tansen invented many Ragas."
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "",
+    "subject": "History",
+    "theme": "Art and Culture",
+    "micro_topic": "Music",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q017",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 17,
+    "question": "Who among the following Mughal Emperors shifted emphasis from illustrated manuscripts to album and individual portrait?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Humayun"
+      },
+      {
+        "key": "b",
+        "text": "Akbar"
+      },
+      {
+        "key": "c",
+        "text": "Jahangir"
+      },
+      {
+        "key": "d",
+        "text": "Shah Jahan"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "",
+    "subject": "History",
+    "theme": "Medieval India",
+    "micro_topic": "Paintings",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q018",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 18,
+    "question": "Which one of the following National Parks lies completely in the temperate alpine zone?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Manas National Park"
+      },
+      {
+        "key": "b",
+        "text": "Namdapha National Park"
+      },
+      {
+        "key": "c",
+        "text": "Neora Valley National Park"
+      },
+      {
+        "key": "d",
+        "text": "Valley of Flowers National Park"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "",
+    "subject": "Environment",
+    "theme": "Conservation",
+    "micro_topic": "National Parks",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q019",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 19,
+    "question": "Atal Innovation Mission is set up under the",
+    "options": [
+      {
+        "key": "a",
+        "text": "Department of Science and Technology"
+      },
+      {
+        "key": "b",
+        "text": "Ministry of Labour and Employment"
+      },
+      {
+        "key": "c",
+        "text": "NITI Aayog"
+      },
+      {
+        "key": "d",
+        "text": "Ministry of Skill Development and Entrepreneurship"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "",
+    "subject": "Economy",
+    "theme": "Government Schemes",
+    "micro_topic": "Innovation & Entrepreneurship",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q020",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 20,
+    "question": "On 21st June, the Sun",
+    "options": [
+      {
+        "key": "a",
+        "text": "does not set below the horizon at the Arctic Circle"
+      },
+      {
+        "key": "b",
+        "text": "does not set below the horizon at Antarctic Circle"
+      },
+      {
+        "key": "c",
+        "text": "shines vertically overhead at noon on the Equator"
+      },
+      {
+        "key": "d",
+        "text": "shines vertically overhead at the Tropic of Capricorn"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "",
+    "subject": "Geography",
+    "theme": "Physical Geography",
+    "micro_topic": "Earth's Movement",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q021",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 21,
+    "question": "Which one of the following groups of plants was domesticated in the 'New World' and introduced into the 'Old World'?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Tobacco, cocoa and rubber"
+      },
+      {
+        "key": "b",
+        "text": "Tobacco, cotton and rubber"
+      },
+      {
+        "key": "c",
+        "text": "Cotton, coffee and sugarcane"
+      },
+      {
+        "key": "d",
+        "text": "Rubber, coffee and wheat"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "",
+    "subject": "History",
+    "theme": "World History/Geography",
+    "micro_topic": "Columbian Exchange",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Local Set A image showed a/b; resolved with public PYQ solution: https://easemyprep.in/pyq/prelims/environment/2019/2019_8_B_17",
+    "verification_status": "verified_web"
+  },
+  {
+    "id": "upsc_2019_q022",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 22,
+    "question": "Consider the following statements: 1. Asiatic lion is naturally found in India only. 2. Double-humped camel is naturally found in India only. 3. One-horned rhinoceros is naturally found in India only. Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "",
+    "subject": "Environment",
+    "theme": "Biodiversity",
+    "micro_topic": "Fauna of India",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q023",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 23,
+    "question": "Consider the following pairs: Famous place : River 1. Pandharpur : Chandrabhaga 2. Tiruchirappalli : Cauvery 3. Hampi : Malaprabha Which of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "",
+    "subject": "Geography",
+    "theme": "Indian Geography",
+    "micro_topic": "Cities and Rivers",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q024",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 24,
+    "question": "In a given year in India, official poverty lines are higher in some States than in others because",
+    "options": [
+      {
+        "key": "a",
+        "text": "poverty rates vary from State to State"
+      },
+      {
+        "key": "b",
+        "text": "price levels vary from State to State"
+      },
+      {
+        "key": "c",
+        "text": "Gross State Product varies from State to State"
+      },
+      {
+        "key": "d",
+        "text": "quality of public distribution varies from State to State"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "",
+    "subject": "Economy",
+    "theme": "Social Issues",
+    "micro_topic": "Poverty",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q025",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 25,
+    "question": "In the context of which of the following do some scientists suggest the use of cirrus cloud thinning technique and the injection of sulphate aerosol into stratosphere?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Creating the artificial rains in some regions"
+      },
+      {
+        "key": "b",
+        "text": "Reducing the frequency and intensity of tropical cyclones"
+      },
+      {
+        "key": "c",
+        "text": "Reducing the adverse effects of solar wind on the Earth"
+      },
+      {
+        "key": "d",
+        "text": "Reducing the global warming"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "",
+    "subject": "Environment",
+    "theme": "Climate Change",
+    "micro_topic": "Geoengineering",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q026",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 26,
+    "question": "In the context of which one of the following are the terms 'pyrolysis and plasma gasification' mentioned?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Extraction of rare earth elements"
+      },
+      {
+        "key": "b",
+        "text": "Natural gas extraction technologies"
+      },
+      {
+        "key": "c",
+        "text": "Hydrogen fuel-based automobiles"
+      },
+      {
+        "key": "d",
+        "text": "Waste-to-energy technologies"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "",
+    "subject": "Science & Technology",
+    "theme": "Environment",
+    "micro_topic": "Waste Management",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q027",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 27,
+    "question": "Which of the following are in Agasthyamala Biosphere Reserve?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Neyyar, Peppara and Shendurney Wildlife Sanctuaries; and Kalakad Mundanthurai Tiger Reserve"
+      },
+      {
+        "key": "b",
+        "text": "Mudumalai, Sathyamangalam and Wayanad Wildlife Sanctuaries; and Silent Valley National Park"
+      },
+      {
+        "key": "c",
+        "text": "Kaundinya, Gundla Brahmeswaram and Papikonda Wildlife Sanctuaries; and Mukurthi National Park"
+      },
+      {
+        "key": "d",
+        "text": "Kawal and Sri Venkateswara Wildlife Sanctuaries; and Nagarjunasagar-Srisailam Tiger Reserve"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "",
+    "subject": "Environment",
+    "theme": "Conservation",
+    "micro_topic": "Biosphere Reserves",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q028",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 28,
+    "question": "Consider the following statements: 1. Some species of turtles are herbivores. 2. Some species of fish are herbivores. 3. Some species of marine mammals are herbivores. 4. Some species of snakes are viviparous. Which of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "b",
+        "text": "2, 3 and 4 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 4 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "",
+    "subject": "Environment",
+    "theme": "Biodiversity",
+    "micro_topic": "Fauna",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q029",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 29,
+    "question": "Consider the following pairs: Wildlife : Naturally found in 1. Blue-finned Mahseer : Cauvery River 2. Irrawaddy Dolphin : Chambal River 3. Rusty-spotted Cat : Eastern Ghats Which of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "",
+    "subject": "Environment",
+    "theme": "Biodiversity",
+    "micro_topic": "Fauna of India",
+    "nature": "Hard",
+    "difficulty": "Hard",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q030",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 30,
+    "question": "Why is there a great concern about the 'microbeads' that are released into environment?",
+    "options": [
+      {
+        "key": "a",
+        "text": "They are considered harmful to marine ecosystems."
+      },
+      {
+        "key": "b",
+        "text": "They are considered to cause skin cancer in children."
+      },
+      {
+        "key": "c",
+        "text": "They are small enough to be absorbed by crop plants in irrigated fields."
+      },
+      {
+        "key": "d",
+        "text": "They are often found to be used as food adulterants."
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "",
+    "subject": "Environment",
+    "theme": "Pollution",
+    "micro_topic": "Marine Pollution",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q031",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 31,
+    "question": "Recently, there was a growing awareness in our country about the importance of Himalayan nettle (Girardinia diversifolia) because it is found to be a sustainable source of",
+    "options": [
+      {
+        "key": "a",
+        "text": "anti-malarial drug"
+      },
+      {
+        "key": "b",
+        "text": "biodiesel"
+      },
+      {
+        "key": "c",
+        "text": "pulp for paper industry"
+      },
+      {
+        "key": "d",
+        "text": "textile fibre"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "",
+    "subject": "Environment",
+    "theme": "Biodiversity",
+    "micro_topic": "Plant Species",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q032",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 32,
+    "question": "For the measurement/estimation of which of the following are satellite images/remote sensing data used? 1. Chlorophyll content in the vegetation of a specific location 2. Greenhouse gas emissions from rice paddies of a specific location 3. Land surface temperatures of a specific location Select the correct answer using the code given below.",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "",
+    "subject": "Science & Technology",
+    "theme": "Space Technology",
+    "micro_topic": "Remote Sensing",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q033",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 33,
+    "question": "Consider the following States: 1. Chhattisgarh 2. Madhya Pradesh 3. Maharashtra 4. Odisha With reference to the States mentioned above, in terms of percentage of forest cover to the total area of State, which one of the following is the correct ascending order?",
+    "options": [
+      {
+        "key": "a",
+        "text": "2-3-1-4"
+      },
+      {
+        "key": "b",
+        "text": "2-3-4-1"
+      },
+      {
+        "key": "c",
+        "text": "3-2-4-1"
+      },
+      {
+        "key": "d",
+        "text": "3-2-1-4"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "",
+    "subject": "Geography",
+    "theme": "Indian Geography",
+    "micro_topic": "Forest Cover",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q034",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 34,
+    "question": "Which of the following statements are correct about the deposits of 'methane hydrate'? 1. Global warming might trigger the release of methane gas from these deposits. 2. Large deposits of 'methane hydrate' are found in Arctic Tundra and under the seafloor. 3. Methane in atmosphere oxidizes to carbon dioxide after a decade or two. Select the correct answer using the code given below.",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "",
+    "subject": "Environment",
+    "theme": "Climate Change",
+    "micro_topic": "Greenhouse Gases",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q035",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 35,
+    "question": "Consider the following: 1. Carbon monoxide 2. Methane 3. Ozone 4. Sulphur dioxide Which of the above are released into atmosphere due to the burning of crop/biomass residue?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2, 3 and 4 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 4 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "",
+    "subject": "Environment",
+    "theme": "Pollution",
+    "micro_topic": "Air Pollution",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q036",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 36,
+    "question": "Consider the following pairs: Sea : Bordering country 1. Adriatic Sea : Albania 2. Black Sea : Croatia 3. Caspian Sea : Kazakhstan 4. Mediterranean Sea : Morocco 5. Red Sea : Syria Which of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1, 2 and 4 only"
+      },
+      {
+        "key": "b",
+        "text": "1, 3 and 4 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 5 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3, 4 and 5"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "",
+    "subject": "Geography",
+    "theme": "World Geography",
+    "micro_topic": "Map Reading",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q037",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 37,
+    "question": "Among the following, which one is the largest exporter of rice in the world in the last five years?",
+    "options": [
+      {
+        "key": "a",
+        "text": "China"
+      },
+      {
+        "key": "b",
+        "text": "India"
+      },
+      {
+        "key": "c",
+        "text": "Myanmar"
+      },
+      {
+        "key": "d",
+        "text": "Vietnam"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "",
+    "subject": "Economy",
+    "theme": "Agriculture",
+    "micro_topic": "International Trade",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q038",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 38,
+    "question": "Consider the following pairs: Glacier : River 1. Bandarpunch : Yamuna 2. Bara Shigri : Chenab 3. Milam : Mandakini 4. Siachen : Nubra 5. Zemu : Manas Which of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1, 2 and 4"
+      },
+      {
+        "key": "b",
+        "text": "1, 3 and 4"
+      },
+      {
+        "key": "c",
+        "text": "2 and 5"
+      },
+      {
+        "key": "d",
+        "text": "3 and 5"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "",
+    "subject": "Geography",
+    "theme": "Indian Geography",
+    "micro_topic": "Rivers and Glaciers",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q039",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 39,
+    "question": "In India, the use of carbofuran, methyl parathion, phorate and triazophos is viewed with apprehension. These chemicals are used as",
+    "options": [
+      {
+        "key": "a",
+        "text": "pesticides in agriculture"
+      },
+      {
+        "key": "b",
+        "text": "preservatives in processed foods"
+      },
+      {
+        "key": "c",
+        "text": "fruit-ripening agents"
+      },
+      {
+        "key": "d",
+        "text": "moisturising agents in cosmetics"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "",
+    "subject": "Environment",
+    "theme": "Agriculture",
+    "micro_topic": "Chemicals and Pesticides",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q040",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 40,
+    "question": "Consider the following statements: 1. Under Ramsar Convention, it is mandatory on the part of the Government of India to protect and conserve all the wetlands in the territory of India. 2. The Wetlands (Conservation and Management) Rules, 2010 were framed by the Government of India based on the recommendations of Ramsar Convention. 3. The Wetlands (Conservation and Management) Rules, 2010 also encompass the drainage area or catchment regions of the wetlands as determined by the authority. Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "",
+    "subject": "Environment",
+    "theme": "Conservation",
+    "micro_topic": "Wetlands",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Local Set A image showed b/c; resolved with Vajiram & Ravi PYQ solution: https://vajiramandravi.com/upsc-exam/consider-the-following-statements-51/",
+    "verification_status": "verified_web"
+  },
+  {
+    "id": "upsc_2019_q041",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 41,
+    "question": "Consider the following statements: 1. Agricultural soils release nitrogen oxides into environment. 2. Cattle release ammonia into environment. 3. Poultry industry releases reactive nitrogen compounds into environment. Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "",
+    "subject": "Environment",
+    "theme": "Ecology",
+    "micro_topic": "Nitrogen Cycle",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q042",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 42,
+    "question": "What is common to the places known as Aliyar, Isapur and Kangsabati?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Recently discovered uranium deposits"
+      },
+      {
+        "key": "b",
+        "text": "Tropical rain forests"
+      },
+      {
+        "key": "c",
+        "text": "Underground cave systems"
+      },
+      {
+        "key": "d",
+        "text": "Water reservoirs"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "",
+    "subject": "Geography",
+    "theme": "Indian Geography",
+    "micro_topic": "Water Resources",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q043",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 43,
+    "question": "In the context of proposals to the use of hydrogen-enriched CNG (H-CNG) as fuel for buses in public transport, consider the following statements: 1. The main advantage of the use of H-CNG is the elimination of carbon monoxide emissions. 2. H-CNG as fuel reduces carbon dioxide and hydrocarbon emissions. 3. Hydrogen up to one-fifth by volume can be blended with CNG as fuel for buses. 4. H-CNG makes the fuel less expensive than CNG. Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "4 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "",
+    "subject": "Science & Technology",
+    "theme": "Energy",
+    "micro_topic": "Alternative Fuels",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q044",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 44,
+    "question": "Why are dewdrops not formed on a cloudy night?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Clouds absorb the radiation released from the Earth's surface."
+      },
+      {
+        "key": "b",
+        "text": "Clouds reflect back the Earth's radiation."
+      },
+      {
+        "key": "c",
+        "text": "The Earth's surface would have low temperature on cloudy nights."
+      },
+      {
+        "key": "d",
+        "text": "Clouds deflect the blowing wind to ground level."
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "",
+    "subject": "Geography",
+    "theme": "Physical Geography",
+    "micro_topic": "Climatology",
+    "nature": "Conceptual",
+    "difficulty": "Easy",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q045",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 45,
+    "question": "Consider the following statements: 1. The 44th Amendment to the Constitution of India introduced an Article placing the election of the Prime Minister beyond judicial review. 2. The Supreme Court of India struck down the 99th Amendment to the Constitution of India as being violative of the independence of judiciary. Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "",
+    "subject": "Polity",
+    "theme": "Constitution",
+    "micro_topic": "Constitutional Amendments",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q046",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 46,
+    "question": "Consider the following statements: 1. The motion to impeach a Judge of the Supreme Court of India cannot be rejected by the Speaker of the Lok Sabha as per the Judges (Inquiry) Act, 1968. 2. The Constitution of India defines and gives details of what constitutes 'incapacity and proved misbehaviour' of the Judges of the Supreme Court of India. 3. The details of the process of impeachment of the Judges of the Supreme Court of India are given in the Judges (Inquiry) Act, 1968. 4. If the motion for the impeachment of a Judge is taken up for voting, the law requires the motion to be backed by each House of the Parliament and supported by a majority of total membership of that House and by not less than two-thirds of total members of that House present and voting. Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2"
+      },
+      {
+        "key": "b",
+        "text": "3 only"
+      },
+      {
+        "key": "c",
+        "text": "3 and 4 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 3 and 4"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "",
+    "subject": "Polity",
+    "theme": "Judiciary",
+    "micro_topic": "Supreme Court",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q047",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 47,
+    "question": "The Ninth Schedule was introduced in the Constitution of India during the prime ministership of",
+    "options": [
+      {
+        "key": "a",
+        "text": "Jawaharlal Nehru"
+      },
+      {
+        "key": "b",
+        "text": "Lal Bahadur Shastri"
+      },
+      {
+        "key": "c",
+        "text": "Indira Gandhi"
+      },
+      {
+        "key": "d",
+        "text": "Morarji Desai"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "",
+    "subject": "Polity",
+    "theme": "Constitution",
+    "micro_topic": "Schedules",
+    "nature": "Conceptual",
+    "difficulty": "Easy",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q048",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 48,
+    "question": "Consider the following statements: 1. Coal sector was nationalized by the Government of India under Indira Gandhi. 2. Now, coal blocks are allocated on lottery basis. 3. Till recently, India imported coal to meet the shortages of domestic supply, but now India is self-sufficient in coal production. Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "",
+    "subject": "Economy",
+    "theme": "Industry",
+    "micro_topic": "Coal Sector",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q049",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 49,
+    "question": "Consider the following statements: 1. The Parliament (Prevention of Disqualification) Act, 1959 exempts several posts from disqualification on the grounds of 'Office of Profit'. 2. The above-mentioned Act was amended five times. 3. The term 'Office of Profit' is well-defined in the Constitution of India. Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "3 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "",
+    "subject": "Polity",
+    "theme": "Legislature",
+    "micro_topic": "Office of Profit",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q050",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 50,
+    "question": "Under which Schedule of the Constitution of India can the transfer of tribal land to private parties for mining be declared null and void?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Third Schedule"
+      },
+      {
+        "key": "b",
+        "text": "Fifth Schedule"
+      },
+      {
+        "key": "c",
+        "text": "Ninth Schedule"
+      },
+      {
+        "key": "d",
+        "text": "Twelfth Schedule"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "",
+    "subject": "Polity",
+    "theme": "Constitution",
+    "micro_topic": "Schedules",
+    "nature": "Conceptual",
+    "difficulty": "Easy",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q051",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 51,
+    "question": "Consider the following statements about Particularly Vulnerable Tribal Groups (PVTGs) in India: 1. PVTGs reside in 18 States and one Union Territory. 2. A stagnant or declining population is one of the criteria for determining PVTG status. 3. There are 95 PVTGs officially notified in the country so far. 4. Irular and Konda Reddi tribes are included in the list of PVTGs. Which of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1, 2 and 3"
+      },
+      {
+        "key": "b",
+        "text": "2, 3 and 4"
+      },
+      {
+        "key": "c",
+        "text": "1, 2 and 4"
+      },
+      {
+        "key": "d",
+        "text": "1, 3 and 4"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "",
+    "subject": "Social Issues",
+    "theme": "Vulnerable Sections",
+    "micro_topic": "Tribals (PVTGs)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q052",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 52,
+    "question": "With reference to the Constitution of India, prohibitions or limitations or provisions contained in ordinary laws cannot act as prohibitions or limitations on the constitutional powers under Article 142. It could mean which one of the following?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The decisions taken by the Election Commission of India while discharging its duties cannot be challenged in any court of law."
+      },
+      {
+        "key": "b",
+        "text": "The Supreme Court of India is not constrained in the exercise of its powers by laws made by the Parliament."
+      },
+      {
+        "key": "c",
+        "text": "In the event of grave financial crisis in the country, the President of India can declare Financial Emergency without the counsel from the Cabinet."
+      },
+      {
+        "key": "d",
+        "text": "State Legislatures cannot make laws on certain matters without the concurrence of Union Legislature."
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "",
+    "subject": "Polity",
+    "theme": "Judiciary",
+    "micro_topic": "Supreme Court Powers",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q053",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 53,
+    "question": "With reference to the Legislative Assembly of a State in India, consider the following statements: 1. The Governor makes a customary address to Members of the House at the commencement of the first session of the year. 2. When a State Legislature does not have a rule on a particular matter, it follows the Lok Sabha rule on that matter. Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "",
+    "subject": "Polity",
+    "theme": "State Legislature",
+    "micro_topic": "Legislative Procedure",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q054",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 54,
+    "question": "Consider the following statements: 1. The United Nations Convention against Corruption (UNCAC) has a 'Protocol against the Smuggling of Migrants by Land, Sea and Air'. 2. The UNCAC is the ever-first legally binding global anti-corruption instrument. 3. A highlight of the United Nations Convention against Transnational Organized Crime (UNTOC) is the inclusion of a specific chapter aimed at returning assets to their rightful owners from whom they had been taken illicitly. 4. The United Nations Office on Drugs and Crime (UNODC) is mandated by its member States to assist in the implementation of both UNCAC and UNTOC. Which of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "b",
+        "text": "2, 3 and 4 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 4 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "",
+    "subject": "International Relations",
+    "theme": "International Organizations",
+    "micro_topic": "UN Conventions",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q055",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 55,
+    "question": "Consider the following statements: 1. As per recent amendment to the Indian Forest Act, 1927, forest dwellers have the right to fell the bamboos grown on forest areas. 2. As per the Scheduled Tribes and Other Traditional Forest Dwellers (Recognition of Forest Rights) Act, 2006, bamboo is a minor forest produce. 3. The Scheduled Tribes and Other Traditional Forest Dwellers (Recognition of Forest Rights) Act, 2006 allows ownership of minor forest produce to forest dwellers. Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "",
+    "subject": "Environment",
+    "theme": "Conservation Laws",
+    "micro_topic": "Forest Rights Act",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q056",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 56,
+    "question": "Which Article of the Constitution of India safeguards one's right to marry the person of one's choice?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Article 19"
+      },
+      {
+        "key": "b",
+        "text": "Article 21"
+      },
+      {
+        "key": "c",
+        "text": "Article 25"
+      },
+      {
+        "key": "d",
+        "text": "Article 29"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "",
+    "subject": "Polity",
+    "theme": "Fundamental Rights",
+    "micro_topic": "Article 21",
+    "nature": "Conceptual",
+    "difficulty": "Easy",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q057",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 57,
+    "question": "Consider the following statements: 1. According to the Indian Patents Act, a biological process to create a seed can be patented in India. 2. In India, there is no Intellectual Property Appellate Board. 3. Plant varieties are not eligible to be patented in India. Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "",
+    "subject": "Economy",
+    "theme": "Intellectual Property Rights",
+    "micro_topic": "Patents",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q058",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 58,
+    "question": "Consider the following statements: The Environment Protection Act, 1986 empowers the Government of India to 1. state the requirement of public participation in the process of environmental protection, and the procedure and manner in which it is sought 2. lay down the standards for emission or discharge of environmental pollutants from various sources Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "",
+    "subject": "Environment",
+    "theme": "Environmental Laws",
+    "micro_topic": "Environment Protection Act",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q059",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 59,
+    "question": "As per the Solid Waste Management Rules, 2016 in India, which one of the following statements is correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Waste generator has to segregate waste into five categories."
+      },
+      {
+        "key": "b",
+        "text": "The Rules are applicable to notified urban local bodies, notified towns and all industrial townships only."
+      },
+      {
+        "key": "c",
+        "text": "The Rules provide for exact and elaborate criteria for the identification of sites for landfills and waste processing facilities."
+      },
+      {
+        "key": "d",
+        "text": "It is mandatory on the part of waste generator that the waste generated in one district cannot be moved to another district."
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "",
+    "subject": "Environment",
+    "theme": "Waste Management",
+    "micro_topic": "Solid Waste Rules",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q060",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 60,
+    "question": "Consider the following statements: As per the Industrial Employment (Standing Orders) Central (Amendment) Rules, 2018 1. if rules for fixed-term employment are implemented, it becomes easier for the firms/companies to lay off workers 2. no notice of termination of employment shall be necessary in the case of temporary workman Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "",
+    "subject": "Economy",
+    "theme": "Labour Laws",
+    "micro_topic": "Employment Rules",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q061",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 61,
+    "question": "The Service Area Approach was implemented under the purview of",
+    "options": [
+      {
+        "key": "a",
+        "text": "Integrated Rural Development Programme"
+      },
+      {
+        "key": "b",
+        "text": "Lead Bank Scheme"
+      },
+      {
+        "key": "c",
+        "text": "Mahatma Gandhi National Rural Employment Guarantee Scheme"
+      },
+      {
+        "key": "d",
+        "text": "National Skill Development Mission"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "",
+    "subject": "Economy",
+    "theme": "Banking & Finance",
+    "micro_topic": "Financial Inclusion",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q062",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 62,
+    "question": "With reference to the management of minor minerals in India, consider the following statements: 1. Sand is a 'minor mineral' according to the prevailing law in the country. 2. State Governments have the power to grant mining leases of minor minerals, but the powers regarding the formation of rules related to the grant of minor minerals lie with the Central Government. 3. State Governments have the power to frame rules to prevent illegal mining of minor minerals. Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "",
+    "subject": "Geography",
+    "theme": "Economic Geography",
+    "micro_topic": "Mining Rules",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q063",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 63,
+    "question": "Consider the following statements: 1. Most of India's external debt is owed by governmental entities. 2. All of India's external debt is denominated in US dollars. Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "",
+    "subject": "Economy",
+    "theme": "External Sector",
+    "micro_topic": "External Debt",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q064",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 64,
+    "question": "Which of the following is not included in the assets of a commercial bank in India?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Advances"
+      },
+      {
+        "key": "b",
+        "text": "Deposits"
+      },
+      {
+        "key": "c",
+        "text": "Investments"
+      },
+      {
+        "key": "d",
+        "text": "Money at call and short notice"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "",
+    "subject": "Economy",
+    "theme": "Banking & Finance",
+    "micro_topic": "Commercial Banks",
+    "nature": "Conceptual",
+    "difficulty": "Easy",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q065",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 65,
+    "question": "In the context of India, which of the following factors is/are contributor/contributors to reducing the risk of a currency crisis? 1. The foreign currency earnings of India's IT sector 2. Increasing the government expenditure 3. Remittances from Indians abroad Select the correct answer using the code given below.",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "",
+    "subject": "Economy",
+    "theme": "External Sector",
+    "micro_topic": "Currency Crisis",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q066",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 66,
+    "question": "Which one of the following suggested that the Governor should be an eminent person from outside the State and should be a detached figure without intense political links or should not have taken part in politics in the recent past?",
+    "options": [
+      {
+        "key": "a",
+        "text": "First Administrative Reforms Commission (1966)"
+      },
+      {
+        "key": "b",
+        "text": "Rajamannar Committee (1969)"
+      },
+      {
+        "key": "c",
+        "text": "Sarkaria Commission (1983)"
+      },
+      {
+        "key": "d",
+        "text": "National Commission to Review the Working of the Constitution (2000)"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "",
+    "subject": "Polity",
+    "theme": "Center-State Relations",
+    "micro_topic": "Committees and Commissions",
+    "nature": "Conceptual",
+    "difficulty": "Easy",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q067",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 67,
+    "question": "Which of the following is issued by registered foreign portfolio investors to overseas investors who want to be part of the Indian stock market without registering themselves directly?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Certificate of Deposit"
+      },
+      {
+        "key": "b",
+        "text": "Commercial Paper"
+      },
+      {
+        "key": "c",
+        "text": "Promissory Note"
+      },
+      {
+        "key": "d",
+        "text": "Participatory Note"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "",
+    "subject": "Economy",
+    "theme": "Financial Markets",
+    "micro_topic": "FDI and FPI",
+    "nature": "Conceptual",
+    "difficulty": "Easy",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q068",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 68,
+    "question": "Consider the following statements: 1. As per law, the Compensatory Afforestation Fund Management and Planning Authority exists at both National and State levels. 2. People's participation is mandatory in the compensatory afforestation programmes carried out under the Compensatory Afforestation Fund Act, 2016. Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "",
+    "subject": "Environment",
+    "theme": "Conservation",
+    "micro_topic": "Afforestation",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q069",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 69,
+    "question": "In India, which of the following review the independent regulators in sectors like telecommunications, insurance, electricity, etc.? 1. Ad Hoc Committees set up by the Parliament 2. Parliamentary Department Related Standing Committees 3. Finance Commission 4. Financial Sector Legislative Reforms Commission 5. NITI Aayog Select the correct answer using the code given below.",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2"
+      },
+      {
+        "key": "b",
+        "text": "1, 3 and 4"
+      },
+      {
+        "key": "c",
+        "text": "3, 4 and 5"
+      },
+      {
+        "key": "d",
+        "text": "2 and 5"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "",
+    "subject": "Polity",
+    "theme": "Governance",
+    "micro_topic": "Regulatory Bodies",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q070",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 70,
+    "question": "With reference to India's Five-Year Plans, which of the following statements is/are correct? 1. From the Second Five-Year Plan, there was a determined thrust towards substitution of basic and capital good industries. 2. The Fourth Five-Year Plan adopted the objective of correcting the earlier trend of increased concentration of wealth and economic power. 3. In the Fifth Five-Year Plan, for the first time, the financial sector was included as an integral part of the Plan. Select the correct answer using the code given below.",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "",
+    "subject": "Economy",
+    "theme": "Planning",
+    "micro_topic": "Five-Year Plans",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q071",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 71,
+    "question": "With reference to Asian Infrastructure Investment Bank (AIIB), consider the following statements: 1. AIIB has more than 80 member nations. 2. India is the largest shareholder in AIIB. 3. AIIB does not have any members from outside Asia. Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "",
+    "subject": "International Relations",
+    "theme": "International Organizations",
+    "micro_topic": "AIIB",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q072",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 72,
+    "question": "What was the purpose of Inter-Creditor Agreement signed by Indian banks and financial institutions recently?",
+    "options": [
+      {
+        "key": "a",
+        "text": "To lessen the Government of India's perennial burden of fiscal deficit and current account deficit"
+      },
+      {
+        "key": "b",
+        "text": "To support the infrastructure projects of Central and State Governments"
+      },
+      {
+        "key": "c",
+        "text": "To act as independent regulator in case of applications for loans of 50 crore or more"
+      },
+      {
+        "key": "d",
+        "text": "To aim at faster resolution of stressed assets of 50 crore or more which are under consortium lending"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "",
+    "subject": "Economy",
+    "theme": "Banking & Finance",
+    "micro_topic": "NPAs",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q073",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 73,
+    "question": "The Chairmen of public sector banks are selected by the",
+    "options": [
+      {
+        "key": "a",
+        "text": "Banks Board Bureau"
+      },
+      {
+        "key": "b",
+        "text": "Reserve Bank of India"
+      },
+      {
+        "key": "c",
+        "text": "Union Ministry of Finance"
+      },
+      {
+        "key": "d",
+        "text": "Management of concerned bank"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "",
+    "subject": "Economy",
+    "theme": "Banking & Finance",
+    "micro_topic": "Banking Reforms",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q074",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 74,
+    "question": "Consider the following statements: 1. Petroleum and Natural Gas Regulatory Board (PNGRB) is the first regulatory body set up by the Government of India. 2. One of the tasks of PNGRB is to ensure competitive markets for gas. 3. Appeals against the decisions of PNGRB go before the Appellate Tribunals for Electricity. Which of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "",
+    "subject": "Economy",
+    "theme": "Regulatory Bodies",
+    "micro_topic": "Energy Sector",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q075",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 75,
+    "question": "With reference to communication technologies, what is/are the difference/differences between LTE (Long-Term Evolution) and VoLTE (Voice over Long-Term Evolution)? 1. LTE is commonly marketed as 3G and VoLTE is commonly marketed as advanced 3G. 2. LTE is data-only technology and VoLTE is voice-only technology. Select the correct answer using the code given below.",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "",
+    "subject": "Science & Technology",
+    "theme": "Information Technology",
+    "micro_topic": "Communication Technologies",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q076",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 76,
+    "question": "Which of the following statements is/are correct regarding the Maternity Benefit (Amendment) Act, 2017? 1. Pregnant women are entitled for three months pre-delivery and three months post-delivery paid leave. 2. Enterprises with crèches must allow the mother minimum six crèche visits daily. 3. Women with two children get reduced entitlements. Select the correct answer using the code given below.",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "",
+    "subject": "Polity",
+    "theme": "Social Justice",
+    "micro_topic": "Welfare Laws",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q077",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 77,
+    "question": "Which one of the following is not a sub-index of the World Bank's Ease of Doing Business Index?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Maintenance of law and order"
+      },
+      {
+        "key": "b",
+        "text": "Paying taxes"
+      },
+      {
+        "key": "c",
+        "text": "Registering property"
+      },
+      {
+        "key": "d",
+        "text": "Dealing with construction permits"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "",
+    "subject": "Economy",
+    "theme": "Reports and Indices",
+    "micro_topic": "Ease of Doing Business",
+    "nature": "Conceptual",
+    "difficulty": "Easy",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q078",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 78,
+    "question": "In India, 'extended producer responsibility' was introduced as an important feature in which of the following?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The Bio-medical Waste (Management and Handling) Rules, 1998"
+      },
+      {
+        "key": "b",
+        "text": "The Recycled Plastic (Manufacturing and Usage) Rules, 1999"
+      },
+      {
+        "key": "c",
+        "text": "The e-Waste (Management and Handling) Rules, 2011"
+      },
+      {
+        "key": "d",
+        "text": "The Food Safety and Standard Regulations, 2011"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "",
+    "subject": "Environment",
+    "theme": "Waste Management",
+    "micro_topic": "E-Waste Rules",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q079",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 79,
+    "question": "The economic cost of food grains to the Food Corporation of India is Minimum Support Price and bonus (if any) paid to the farmers plus",
+    "options": [
+      {
+        "key": "a",
+        "text": "transportation cost only"
+      },
+      {
+        "key": "b",
+        "text": "interest cost only"
+      },
+      {
+        "key": "c",
+        "text": "procurement incidentals and distribution cost"
+      },
+      {
+        "key": "d",
+        "text": "procurement incidentals and charges for godowns"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "",
+    "subject": "Economy",
+    "theme": "Agriculture",
+    "micro_topic": "Food Security",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q080",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 80,
+    "question": "In the context of any country, which one of the following would be considered as part of its social capital?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The proportion of literates in the population"
+      },
+      {
+        "key": "b",
+        "text": "The stock of its buildings, other infrastructure and machines"
+      },
+      {
+        "key": "c",
+        "text": "The size of population in the working age group"
+      },
+      {
+        "key": "d",
+        "text": "The level of mutual trust and harmony in the society"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "",
+    "subject": "Economy",
+    "theme": "Social Concepts",
+    "micro_topic": "Social Capital",
+    "nature": "Conceptual",
+    "difficulty": "Easy",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q081",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 81,
+    "question": "With reference to the Constitution of India, consider the following statements: 1. No High Court shall have the jurisdiction to declare any central law to be constitutionally invalid. 2. An amendment to the Constitution of India cannot be called into question by the Supreme Court of India. Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "",
+    "subject": "Polity",
+    "theme": "Judiciary",
+    "micro_topic": "Judicial Review",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q082",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 82,
+    "question": "Consider the following statements: 1. Purchasing Power Parity (PPP) exchange rates are calculated by comparing the prices of the same basket of goods and services in different countries. 2. In terms of PPP dollars, India is the sixth largest economy in the world. Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "",
+    "subject": "Economy",
+    "theme": "Macroeconomics",
+    "micro_topic": "Purchasing Power Parity",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q083",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 83,
+    "question": "With reference to the cultivation of Kharif crops in India in the last five years, consider the following statements: 1. Area under rice cultivation is the highest. 2. Area under the cultivation of jowar is more than that of oilseeds. 3. Area of cotton cultivation is more than that of sugarcane. 4. Area under sugarcane cultivation has steadily decreased. Which of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "b",
+        "text": "2, 3 and 4 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 4 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "",
+    "subject": "Economy",
+    "theme": "Agriculture",
+    "micro_topic": "Crop Statistics",
+    "nature": "Hard",
+    "difficulty": "Hard",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q084",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 84,
+    "question": "Among the agricultural commodities imported by India, which one of the following accounts for the highest imports in terms of value in the last five years?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Spices"
+      },
+      {
+        "key": "b",
+        "text": "Fresh fruits"
+      },
+      {
+        "key": "c",
+        "text": "Pulses"
+      },
+      {
+        "key": "d",
+        "text": "Vegetable oils"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "",
+    "subject": "Economy",
+    "theme": "External Sector",
+    "micro_topic": "Agricultural Trade",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q085",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 85,
+    "question": "In the context of polity, which one of the following would you accept as the most appropriate definition of liberty?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Protection against the tyranny of political rulers"
+      },
+      {
+        "key": "b",
+        "text": "Absence of restraint"
+      },
+      {
+        "key": "c",
+        "text": "Opportunity to do whatever one likes"
+      },
+      {
+        "key": "d",
+        "text": "Opportunity to develop oneself fully"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "",
+    "subject": "Polity",
+    "theme": "Political Theory",
+    "micro_topic": "Liberty",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Local Set A image showed b/d; resolved with Testbook PYQ solution: https://testbook.com/question-answer/in-the-context-of-polity-which-one-of-the-followi--5f34f7b7d042f30d12f435a1/amp",
+    "verification_status": "verified_web"
+  },
+  {
+    "id": "upsc_2019_q086",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 86,
+    "question": "Which one of the following is not the most likely measure the Government/RBI takes to stop the slide of Indian rupee?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Curbing imports of non-essential goods and promoting exports"
+      },
+      {
+        "key": "b",
+        "text": "Encouraging Indian borrowers to issue rupee denominated Masala Bonds"
+      },
+      {
+        "key": "c",
+        "text": "Easing conditions relating to external commercial borrowing"
+      },
+      {
+        "key": "d",
+        "text": "Following an expansionary monetary policy"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "",
+    "subject": "Economy",
+    "theme": "Macroeconomics",
+    "micro_topic": "Monetary Policy",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q087",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 87,
+    "question": "Consider the following statements: The Reserve Bank of India's recent directives relating to 'Storage of Payment System Data', popularly known as data diktat, command the payment system providers that 1. they shall ensure that entire data relating to payment systems operated by them are stored in a system only in India 2. they shall ensure that the systems are owned and operated by public sector enterprises 3. they shall submit the consolidated system audit report to the Comptroller and Auditor General of India by the end of the calendar year Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "",
+    "subject": "Economy",
+    "theme": "Digital Economy",
+    "micro_topic": "RBI Guidelines",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q088",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 88,
+    "question": "Which of the following adopted a law on data protection and privacy for its citizens known as 'General Data Protection Regulation' in April 2016 and started implementation of it from 25th May, 2018?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Australia"
+      },
+      {
+        "key": "b",
+        "text": "Canada"
+      },
+      {
+        "key": "c",
+        "text": "The European Union"
+      },
+      {
+        "key": "d",
+        "text": "The United States of America"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "",
+    "subject": "Science & Technology",
+    "theme": "Cyber Security",
+    "micro_topic": "Data Privacy Laws",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q089",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 89,
+    "question": "Recently, India signed a deal known as 'Action Plan for Prioritization and Implementation of Cooperation Areas in the Nuclear Field' with which of the following countries?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Japan"
+      },
+      {
+        "key": "b",
+        "text": "Russia"
+      },
+      {
+        "key": "c",
+        "text": "The United Kingdom"
+      },
+      {
+        "key": "d",
+        "text": "The United States of America"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "",
+    "subject": "International Relations",
+    "theme": "Bilateral Relations",
+    "micro_topic": "Nuclear Agreements",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q090",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 90,
+    "question": "The money multiplier in an economy increases with which one of the following?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Increase in the cash reserve ratio"
+      },
+      {
+        "key": "b",
+        "text": "Increase in the banking habit of the population"
+      },
+      {
+        "key": "c",
+        "text": "Increase in the statutory liquidity ratio"
+      },
+      {
+        "key": "d",
+        "text": "Increase in the population of the country"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "",
+    "subject": "Economy",
+    "theme": "Monetary System",
+    "micro_topic": "Money Multiplier",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q091",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 91,
+    "question": "In the context of digital technologies for entertainment, consider the following statements: 1. In Augmented Reality (AR), a simulated environment is created and the physical world is completely shut out. 2. In Virtual Reality (VR), images generated from a computer are projected onto real-life objects or surroundings. 3. AR allows individuals to be present in the world and improves the experience using the camera of smart-phone or PC. 4. VR closes the world, and transposes an individual, providing complete immersion experience. Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "3 and 4"
+      },
+      {
+        "key": "c",
+        "text": "1, 2 and 3"
+      },
+      {
+        "key": "d",
+        "text": "4 only"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "",
+    "subject": "Science & Technology",
+    "theme": "Emerging Technologies",
+    "micro_topic": "AR and VR",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q092",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 92,
+    "question": "The word 'Denisovan' is sometimes mentioned in media in reference to",
+    "options": [
+      {
+        "key": "a",
+        "text": "fossils of a kind of dinosaurs"
+      },
+      {
+        "key": "b",
+        "text": "an early human species"
+      },
+      {
+        "key": "c",
+        "text": "a cave system found in North-East India"
+      },
+      {
+        "key": "d",
+        "text": "a geological period in the history of Indian subcontinent"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "",
+    "subject": "History",
+    "theme": "Human Evolution",
+    "micro_topic": "Paleontology",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q093",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 93,
+    "question": "With reference to the recent developments in science, which one of the following statements is not correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Functional chromosomes can be created by joining segments of DNA taken from cells of different species."
+      },
+      {
+        "key": "b",
+        "text": "Pieces of artificial functional DNA can be created in laboratories."
+      },
+      {
+        "key": "c",
+        "text": "A piece of DNA taken out from an animal cell can be made to replicate outside a living cell in a laboratory."
+      },
+      {
+        "key": "d",
+        "text": "Cells taken out from plants and animals can be made to undergo cell division in laboratory petri dishes."
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "",
+    "subject": "Science & Technology",
+    "theme": "Biotechnology",
+    "micro_topic": "Genetics",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q094",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 94,
+    "question": "Consider the following statements: A digital signature is 1. an electronic record that identifies the certifying authority issuing it 2. used to serve as a proof of identity of an individual to access information or server on Internet 3. an electronic method of signing an electronic document and ensuring that the original content is unchanged Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "",
+    "subject": "Science & Technology",
+    "theme": "Information Technology",
+    "micro_topic": "Cyber Security",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Local Set A image showed c/d; resolved with Vajiram & Ravi PYQ solution: https://vajiramandravi.com/upsc-exam/consider-the-following-statements-66/",
+    "verification_status": "verified_web"
+  },
+  {
+    "id": "upsc_2019_q095",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 95,
+    "question": "In the context of wearable technology, which of the following tasks is/are accomplished by wearable devices? 1. Location identification of a person 2. Sleep monitoring of a person 3. Assisting the hearing impaired person Select the correct answer using the code given below.",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "",
+    "subject": "Science & Technology",
+    "theme": "Emerging Technologies",
+    "micro_topic": "Wearables",
+    "nature": "Conceptual",
+    "difficulty": "Easy",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q096",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 96,
+    "question": "'RNA interference (RNAi)' technology has gained popularity in the last few years. Why? 1. It is used in developing gene silencing therapies. 2. It can be used in developing therapies for the treatment of cancer. 3. It can be used to develop hormone replacement therapies. 4. It can be used to produce crop plants that are resistant to viral pathogens. Select the correct answer using the code given below.",
+    "options": [
+      {
+        "key": "a",
+        "text": "1, 2 and 4"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3"
+      },
+      {
+        "key": "d",
+        "text": "1 and 4 only"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "",
+    "subject": "Science & Technology",
+    "theme": "Biotechnology",
+    "micro_topic": "Gene Silencing",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q097",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 97,
+    "question": "Recently, scientists observed the merger of giant 'blackholes' billions of light-years away from the Earth. What is the significance of this observation?",
+    "options": [
+      {
+        "key": "a",
+        "text": "'Higgs boson particles' were detected."
+      },
+      {
+        "key": "b",
+        "text": "'Gravitational waves' were detected."
+      },
+      {
+        "key": "c",
+        "text": "Possibility of inter-galactic space travel through 'wormhole' was confirmed."
+      },
+      {
+        "key": "d",
+        "text": "It enabled the scientists to understand 'singularity'."
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "",
+    "subject": "Science & Technology",
+    "theme": "Space Technology",
+    "micro_topic": "Astrophysics",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q098",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 98,
+    "question": "Which of the following are the reasons for the occurrence of multi-drug resistance in microbial pathogens in India? 1. Genetic predisposition of some people 2. Taking incorrect doses of antibiotics to cure diseases 3. Using antibiotics in livestock farming 4. Multiple chronic diseases in some people Select the correct answer using the code given below.",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1, 3 and 4"
+      },
+      {
+        "key": "d",
+        "text": "2, 3 and 4"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "",
+    "subject": "Science & Technology",
+    "theme": "Health",
+    "micro_topic": "Antimicrobial Resistance",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q099",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 99,
+    "question": "What is Cas9 protein that is often mentioned in news?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A molecular scissors used in targeted gene editing"
+      },
+      {
+        "key": "b",
+        "text": "A biosensor used in the accurate detection of pathogens in patients"
+      },
+      {
+        "key": "c",
+        "text": "A gene that makes plants pest-resistant"
+      },
+      {
+        "key": "d",
+        "text": "A herbicidal substance synthesized in genetically modified crops"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "",
+    "subject": "Science & Technology",
+    "theme": "Biotechnology",
+    "micro_topic": "CRISPR",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  },
+  {
+    "id": "upsc_2019_q100",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": 2019,
+    "question_number": 100,
+    "question": "Which one of the following statements is not correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Hepatitis B virus is transmitted much like HIV."
+      },
+      {
+        "key": "b",
+        "text": "Hepatitis B, unlike Hepatitis C, does not have a vaccine."
+      },
+      {
+        "key": "c",
+        "text": "Globally, the number of people infected with Hepatitis B and C viruses are several times more than those infected with HIV."
+      },
+      {
+        "key": "d",
+        "text": "Some of those infected with Hepatitis B and C viruses do not show the symptoms for many years."
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "",
+    "subject": "Science & Technology",
+    "theme": "Health",
+    "micro_topic": "Viral Infections",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "User-provided UPSC PYQ JSON",
+    "answer_source": "Extracted from generated_data/answer_keys/2019_answer_key_setA.png",
+    "verification_status": "verified_image"
+  }
+]

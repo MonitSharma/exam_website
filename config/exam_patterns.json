@@ -1,0 +1,110 @@
+{
+  "upsc_cse_gs_paper_1": {
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "years": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "question_sets": [
+      {
+        "id": "2019",
+        "label": "2019 PYQ",
+        "short_label": "2019",
+        "category": "Previous Year Questions",
+        "year": 2019,
+        "path": "data/processed/upsc_2019_processed.json"
+      },
+      {
+        "id": "2020",
+        "label": "2020 PYQ",
+        "short_label": "2020",
+        "category": "Previous Year Questions",
+        "year": 2020,
+        "path": "data/processed/upsc_2020_processed.json"
+      },
+      {
+        "id": "2021",
+        "label": "2021 PYQ",
+        "short_label": "2021",
+        "category": "Previous Year Questions",
+        "year": 2021,
+        "path": "data/processed/upsc_2021_processed.json"
+      },
+      {
+        "id": "2022",
+        "label": "2022 PYQ",
+        "short_label": "2022",
+        "category": "Previous Year Questions",
+        "year": 2022,
+        "path": "data/processed/upsc_2022_processed.json"
+      },
+      {
+        "id": "2023",
+        "label": "2023 PYQ",
+        "short_label": "2023",
+        "category": "Previous Year Questions",
+        "year": 2023,
+        "path": "data/processed/upsc_2023_processed.json"
+      },
+      {
+        "id": "2024",
+        "label": "2024 PYQ",
+        "short_label": "2024",
+        "category": "Previous Year Questions",
+        "year": 2024,
+        "path": "data/processed/upsc_2024_processed.json"
+      },
+      {
+        "id": "2025",
+        "label": "2025 PYQ",
+        "short_label": "2025",
+        "category": "Previous Year Questions",
+        "year": 2025,
+        "path": "data/processed/upsc_2025_processed.json"
+      },
+      {
+        "id": "2026",
+        "label": "2026 PYQ",
+        "short_label": "2026",
+        "category": "Previous Year Questions",
+        "year": 2026,
+        "path": "data/processed/upsc_2026_processed.json"
+      },
+      {
+        "id": "ai_generated_batch_1",
+        "label": "AI Generated Questions · Batch 1",
+        "short_label": "AI Batch 1",
+        "category": "AI Generated Practice",
+        "path": "data/processed/ai_generated_batch_1_processed.json"
+      },
+      {
+        "id": "csr_batch_1",
+        "label": "CSR Monthly Mock · Batch 1",
+        "short_label": "CSR Batch 1",
+        "category": "CSR Monthly Mock",
+        "path": "data/processed/csr_batch_1_processed.json"
+      },
+      {
+        "id": "daily_questions_2026_06_07",
+        "label": "Daily Questions · Jun 07, 2026",
+        "short_label": "Daily Jun 07",
+        "category": "Daily Questions",
+        "path": "data/processed/daily_questions_2026_06_07_processed.json",
+        "duration_minutes": 10
+      }
+    ],
+    "total_questions": 100,
+    "total_marks": 200,
+    "duration_minutes": 120,
+    "marks_per_correct": 2,
+    "negative_marks": -0.66,
+    "source_label": "User-provided UPSC PYQ JSON"
+  }
+}
