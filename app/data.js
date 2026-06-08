@@ -322,6 +322,7 @@
   const noteDocuments = [
     { id: "daily-2026-06-07", cadence: "daily", title: "UPSC Daily CA Briefing", shortTitle: "7 Jun 2026", date: "2026-06-07", path: "daily/UPSC_CA_2026-06-07.md" },
     { id: "weekly-2026-06-07", cadence: "weekly", title: "Sunday Sweep", shortTitle: "Week of 7 Jun", date: "2026-06-07", path: "weekly/Sunday_Sweep_2026-06-07.md" },
+    { id: "strategy-csat", cadence: "strategy", title: "CSAT Strategy & Technique Guide", shortTitle: "Paper 2 · 80+ aim", date: "2026-06-08", path: "CSAT_Strategy_Guide.md" },
   ];
   const noteCache = new Map();
 

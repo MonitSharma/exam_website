@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UPSC CSE 2027 — Progress Dashboard</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.0/dist/chart.umd.js" integrity="sha384-iU8HYtnGQ8Cy4zl7gbNMOhsDTTKX02BTXptVP/vqAWIaTfM7isw76iyZCsjL2eVi" crossorigin="anonymous"></script>
+<style>
+:root{ color-scheme: light; --bg:#f6f7f9; --card:#ffffff; --ink:#1c2330; --muted:#67707f; --line:#e6e9ef; --accent:#2f6f4f; --accent2:#1f5fa6; --warn:#b5452f; --chip:#eef2f7; }
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.45;}
+.wrap{max-width:920px;margin:0 auto;padding:20px 18px 60px;}
+h1{font-size:20px;margin:0 0 2px;}
+.sub{color:var(--muted);font-size:13px;margin-bottom:18px;}
+.grid{display:grid;gap:14px;margin-top:14px;}
+.cols-3{grid-template-columns:repeat(3,1fr);}
+.cols-2{grid-template-columns:1.1fr .9fr;}
+@media(max-width:680px){.cols-3,.cols-2{grid-template-columns:1fr;}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;}
+.card h2{font-size:13px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);margin:0 0 10px;}
+.big{font-size:34px;font-weight:700;line-height:1;}
+.big small{font-size:14px;font-weight:600;color:var(--muted);}
+.hero{background:linear-gradient(135deg,#234a39,#2f6f4f);color:#fff;border:none;}
+.hero h2{color:rgba(255,255,255,.8);}
+.hero .big small{color:rgba(255,255,255,.85);}
+.pill{display:inline-block;background:var(--chip);border-radius:999px;padding:3px 10px;font-size:12px;color:var(--ink);margin:2px 4px 2px 0;}
+.bar{height:10px;background:var(--line);border-radius:999px;overflow:hidden;margin-top:8px;}
+.bar > div{height:100%;background:var(--accent2);}
+.bar.green > div{background:var(--accent);}
+.row{display:flex;justify-content:space-between;gap:10px;font-size:14px;padding:6px 0;border-bottom:1px dashed var(--line);}
+.row:last-child{border-bottom:none;}
+.row b{font-weight:600;}
+.muted{color:var(--muted);}
+.small{font-size:12px;}
+table{width:100%;border-collapse:collapse;font-size:13px;}
+th,td{text-align:left;padding:7px 6px;border-bottom:1px solid var(--line);}
+th{color:var(--muted);font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:.03em;}
+input,select,button{font:inherit;}
+input,select{border:1px solid var(--line);border-radius:8px;padding:7px 8px;background:#fff;color:var(--ink);}
+button{border:1px solid var(--accent);background:var(--accent);color:#fff;border-radius:8px;padding:7px 12px;cursor:pointer;font-size:13px;}
+button.ghost{background:#fff;color:var(--accent);}
+button.del{border-color:var(--line);background:#fff;color:var(--warn);padding:3px 8px;font-size:12px;}
+button.mini{padding:3px 9px;font-size:12px;}
+.form{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:10px;}
+.form input[type=date]{width:140px;} .form input.num{width:70px;}
+.tag{font-size:11px;padding:2px 8px;border-radius:999px;background:var(--chip);color:var(--muted);}
+.tag.due{background:#fbe9e4;color:var(--warn);}
+.tag.ok{background:#e7f3ec;color:var(--accent);}
+ul.wa{list-style:none;margin:0;padding:0;}
+ul.wa li{display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:1px solid var(--line);font-size:14px;}
+.empty{color:var(--muted);font-size:13px;font-style:italic;padding:6px 0;}
+.focus{font-size:14px;line-height:1.6;}
+.focus .blk{display:inline-block;background:var(--chip);border-radius:8px;padding:4px 10px;margin:3px 4px 3px 0;}
+details.subj{border:1px solid var(--line);border-radius:10px;padding:8px 12px;margin-bottom:8px;}
+details.subj>summary{cursor:pointer;display:flex;justify-content:space-between;align-items:center;font-weight:600;font-size:14px;list-style:none;}
+details.subj>summary::-webkit-details-marker{display:none;}
+.subj .items{margin-top:8px;}
+.chk{display:flex;align-items:center;gap:8px;font-size:13px;padding:3px 0;}
+.chk input{width:auto;}
+.pctlabel{font-size:12px;color:var(--muted);font-weight:600;}
+.foot{color:var(--muted);font-size:12px;margin-top:22px;text-align:center;}
+.section-title{font-size:13px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);margin:22px 2px 0;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>UPSC CSE 2027 — Progress Dashboard</h1>
+  <div class="sub">Physics optional · Prelims target 24 May 2027 · everything you enter is saved on this device</div>
+
+  <div class="grid cols-3" style="margin-top:0;">
+    <div class="card hero">
+      <h2>Days to Prelims</h2>
+      <div class="big" id="countdown">—</div>
+      <div id="prelimsDate" style="margin-top:8px;font-size:12px;opacity:.85;"></div>
+    </div>
+    <div class="card">
+      <h2>Current Phase</h2>
+      <div class="big" id="phaseName" style="font-size:22px;">—</div>
+      <div class="muted" id="phaseDates" style="font-size:12px;margin-top:6px;"></div>
+    </div>
+    <div class="card">
+      <h2>Fortnight</h2>
+      <div class="big" id="fnNum" style="font-size:22px;">—</div>
+      <div class="muted" id="fnDates" style="font-size:12px;margin-top:6px;"></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Plan Progress</h2>
+    <div class="row" style="border:none;padding:0 0 4px;"><span id="fnFocus" style="font-weight:600;"></span><span class="muted" id="pct"></span></div>
+    <div class="bar"><div id="progFill" style="width:0%"></div></div>
+    <div class="muted small" style="margin-top:8px;">Next: <span id="fnNext"></span></div>
+  </div>
+
+  <div class="card">
+    <h2>Today's Focus — <span id="todayName" style="text-transform:none;letter-spacing:0;color:var(--ink);"></span></h2>
+    <div class="focus" id="focusBlocks"></div>
+  </div>
+
+  <div class="grid cols-2">
+    <div class="card">
+      <h2>This Phase's Weekly KPIs</h2>
+      <div id="kpiList"></div>
+    </div>
+    <div class="card">
+      <h2>Study Hours — this week</h2>
+      <div class="row" style="border:none;padding:0 0 4px;"><span><b id="weekHours">0</b> h logged</span><span class="muted">target <b id="hoursTarget">28+</b></span></div>
+      <div class="bar green"><div id="hoursFill" style="width:0%"></div></div>
+      <div class="form" style="margin-top:12px;">
+        <input type="date" id="hDate">
+        <input type="number" class="num" id="hHours" placeholder="hrs" min="0" step="0.5">
+        <button class="mini" id="hAdd">Log hours</button>
+      </div>
+      <div class="muted small" id="hRecent"></div>
+    </div>
+  </div>
+
+  <div class="grid cols-2">
+    <div class="card">
+      <h2>Revision this week — <span id="revCount" style="text-transform:none;letter-spacing:0;color:var(--accent);">0/0</span></h2>
+      <div class="muted small" style="margin-bottom:8px;">Tick a subject when you revise it this week. Clears automatically every Monday.</div>
+      <div id="revList" style="display:grid;grid-template-columns:1fr 1fr;gap:2px 14px;"></div>
+    </div>
+    <div class="card">
+      <h2>Weak Areas to Drill</h2>
+      <div class="form">
+        <input type="text" id="waInput" placeholder="e.g. Geography — ocean currents" style="flex:1;min-width:140px;">
+        <button id="waAdd">Add</button>
+      </div>
+      <ul class="wa" id="waList"></ul>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Syllabus Coverage — <span id="covPct" style="text-transform:none;letter-spacing:0;color:var(--accent);">0%</span> overall</h2>
+    <div id="syllabus"></div>
+  </div>
+
+  <div class="card">
+    <h2>Mock Score Tracker</h2>
+    <div class="form">
+      <input type="date" id="mDate">
+      <select id="mType">
+        <option>Prelims (full)</option><option>Prelims (sectional)</option><option>CSAT</option>
+        <option>Monthly mini-mock</option><option>Physics</option><option>RBI</option><option>SSC</option>
+      </select>
+      <input type="number" class="num" id="mScore" placeholder="score" min="0">
+      <span class="muted">/</span>
+      <input type="number" class="num" id="mMax" placeholder="max" min="1" value="200">
+      <button id="mAdd">Log</button>
+    </div>
+    <canvas id="chart" height="120"></canvas>
+    <table style="margin-top:12px;"><thead><tr><th>Date</th><th>Type</th><th>Score</th><th>%</th><th></th></tr></thead><tbody id="mBody"></tbody></table>
+    <div class="empty" id="mEmpty">No scores logged yet — add your first mock above.</div>
+  </div>
+
+  <div class="foot">Built from your Master Study Plan v1.0. Phase, fortnight, countdown and today's focus update automatically; hours, revisions, coverage, weak areas and scores persist on this device.</div>
+</div>
+
+<script>
+const PRELIMS = new Date("2027-05-24T00:00:00");
+const PLAN_START = new Date("2026-06-02T00:00:00");
+
+const FN = [
+ ["F1","2026-06-02","2026-06-15","Setup & diagnostics","Foundation"],
+ ["F2","2026-06-16","2026-06-29","Polity + Economy foundation","Foundation"],
+ ["F3","2026-06-30","2026-07-13","Polity deep + Economy NCERT 12","Foundation"],
+ ["F4","2026-07-14","2026-07-27","Economy Mrunal Pillar 1 (Banking)","Foundation"],
+ ["F5","2026-07-28","2026-08-10","Economy Pillar 2 + History deep","Foundation"],
+ ["F6","2026-08-11","2026-08-24","Pillar 3 + Env biodiversity","Foundation"],
+ ["F7","2026-08-25","2026-09-07","Economy Pillar 4 + Sci-Tech build","Foundation"],
+ ["F8","2026-09-08","2026-09-21","Economy Pillar 5 (RBI P1 prep)","Foundation"],
+ ["F9","2026-09-22","2026-10-05","Econ Survey + IR expand","Foundation"],
+ ["F10","2026-10-06","2026-10-19","Polity consolidation + Art/Culture","Foundation"],
+ ["F11","2026-10-20","2026-11-02","RBI P1 exam + History complete","Foundation"],
+ ["F12","2026-11-03","2026-11-16","Integration kickoff (Phase 2)","Integration"],
+ ["F13","2026-11-17","2026-11-30","Phase 2 depth (Pass-2)","Integration"],
+ ["F14","2026-12-01","2026-12-14","Sci-Tech + Geography deep","Integration"],
+ ["F15","2026-12-15","2026-12-28","Art & Culture + IR deepening","Integration"],
+ ["F16","2026-12-29","2027-01-11","Ethics deep + revision","Integration"],
+ ["F17","2027-01-12","2027-01-25","Budget + Econ Survey heavy","Integration"],
+ ["F18","2027-01-26","2027-02-08","Prelims Mode begins (Phase 3)","Prelims Mode"],
+ ["F19","2027-02-09","2027-02-22","Prelims Mode intensity","Prelims Mode"],
+ ["F20","2027-02-23","2027-03-08","Weak-area drilling","Prelims Mode"],
+ ["F21","2027-03-09","2027-03-22","Revision Cycle 1","Prelims Mode"],
+ ["F22","2027-03-23","2027-04-05","Revision Cycle 2 + PYQ marathon","Prelims Mode"],
+ ["F23","2027-04-06","2027-04-19","Final consolidation","Prelims Mode"],
+ ["F24","2027-04-20","2027-05-24","Prelims countdown","Prelims Mode"]
+];
+
+const KPI = {
+ "Foundation":[["Study hours/week","28+"],["Newspaper","7/7"],["New topic pages","10–12"],["Mains answers","5–10"],["MCQs","50"],["Mocks","1–2 sectional"]],
+ "Integration":[["Study hours/week","35+"],["Newspaper","7/7"],["New pages","5–8 (cross-link)"],["Mains answers","14+"],["MCQs","300+"],["Mocks","1 full + 1 sectional"]],
+ "Prelims Mode":[["Study hours/week","40+"],["Newspaper","7/7"],["New pages","0 (revision)"],["Mains answers","0"],["MCQs","700+"],["Mocks","2 full"]],
+ "Mains Factory":[["Physics Optional","daily"],["GS Mains answers","4/day"],["Essay","weekly"],["Ethics cases","alt days"],["Newspaper","7/7"],["Revision","rotation"]]
+};
+const HOURS_TARGET = {"Foundation":28,"Integration":35,"Prelims Mode":40,"Mains Factory":40};
+
+// Today's focus by phase, indexed by JS getDay() 0=Sun..6=Sat
+const FOCUS = {
+ "Foundation":[
+  ["Sunday Sweep (90m)","Sectional mock or Mains 4-Q","Plan next week"],
+  ["Newspaper: IR","Polity — Laxmikanth","Physics P-I: Mechanics","GS2 Mains answer"],
+  ["Newspaper: Economy","Economy — Mrunal/NCERT","RBI ESI","GS3 Eco Mains answer"],
+  ["Newspaper: History","Modern History — Spectrum","Physics: EM","GS1 Mains answer"],
+  ["Newspaper: Sci/Env","Sci-Tech + Environment (alt)","RBI FM Finance","GS3 Mains answer"],
+  ["Newspaper: IR","IR — NCERT 12 + MEA","Physics: Waves/Thermo","GS2 IR Mains answer"],
+  ["Newspaper + magazine","Geography / Art&Culture (alt)","CSAT mock or map drill","Ethics case"]
+ ],
+ "Integration":[
+  ["Sunday Sweep","Full Prelims mock (every 3 wks) or Mains sectional","Plan next week"],
+  ["Newspaper","Polity Pass-2 + cross-linking","Physics II: QM","2 timed Mains answers"],
+  ["Newspaper","Economy Pass-2 + Eco Survey","Physics II: Atomic/Nuclear","2 timed Mains answers"],
+  ["Newspaper","History Pass-2","Physics II: Solid State","2 timed Mains answers"],
+  ["Newspaper","Sci-Tech + Env Pass-2","Physics II: Electronics","2 timed Mains answers"],
+  ["Newspaper","IR + Internal Security","Physics II: SR + revision","2 timed Mains answers"],
+  ["Newspaper","Geography + Art & Culture","Per-subject sectional mock","Ethics case + answer"]
+ ],
+ "Prelims Mode":[
+  ["Sunday Sweep","Full-length Prelims mock","Plan next week"],
+  ["News (30m)","Polity revision","100 MCQ batch + debrief","CA revision + Physics formulas"],
+  ["News (30m)","Economy revision","100 MCQ batch + debrief","CA revision + Physics formulas"],
+  ["News (30m)","History revision","100 MCQ batch + debrief","CA revision + Physics formulas"],
+  ["News (30m)","Sci-Tech / Environment revision","100 MCQ batch + debrief","CA revision + Physics formulas"],
+  ["News (30m)","IR / Geography revision","100 MCQ batch + debrief","CA revision + Physics formulas"],
+  ["News (30m)","Society / Art&Culture / Misc revision","Mock + debrief","CA revision + Physics formulas"]
+ ],
+ "Mains Factory":[
+  ["Lighter day","Essay practice / Ethics case","Revision rotation"],
+  ["Newspaper (op-eds)","Physics Optional (P-I/P-II)","4 GS Mains answers (timed)","Debrief + revision"],
+  ["Newspaper (op-eds)","Physics Optional","4 GS Mains answers (timed)","Debrief + revision"],
+  ["Newspaper (op-eds)","Physics Optional","4 GS Mains answers (timed)","Debrief + revision"],
+  ["Newspaper (op-eds)","Physics Optional","4 GS Mains answers (timed)","Debrief + revision"],
+  ["Newspaper (op-eds)","Physics Optional","4 GS Mains answers (timed)","Essay practice"],
+  ["Newspaper (op-eds)","Physics Optional","4 GS Mains answers (timed)","Ethics case + revision"]
+ ]
+};
+
+const SYLLABUS = {
+ "Polity":["NCERT 11","Laxmikanth Pass-1","Laxmikanth Pass-2 (PYQ)","PYQ practice","Cross-linking"],
+ "Economy":["NCERT 11 + 12","Mrunal Pillars 1–2","Mrunal Pillars 3–5","Sanjeev Verma","Eco Survey + Budget"],
+ "Modern History":["NCERT 8 + 10","Spectrum Pass-1","Spectrum Pass-2","INM timeline","PYQ"],
+ "Ancient/Medieval":["TN Board Ancient","TN Board Medieval","Dynasties + map","PYQ"],
+ "Art & Culture":["Nitin Singhania P1","P2 (Painting/Music)","P3 (Dance/Lit)","CCRT browse"],
+ "Geography":["NCERT 11 Physical","G.C. Leong","Khullar (Indian)","NCERT 12 Human","PMFIAS + maps"],
+ "Environment":["NCERT 12 Bio","Shankar Ch 1–7","Shankar Ch 8–end","IPCC / NDC","PMFIAS consolidation"],
+ "Sci-Tech":["NCERT 9–10 skim","Vision CA compilations","Per-tech pages","PIB/ISRO/DRDO updates"],
+ "IR":["NCERT 12","MEA Annual Report","Bilateral pages","Multilateral pages","ORF/IDSA briefs"],
+ "Internal Security":["Ashok Kumar","2nd ARC 5","2nd ARC 8","CA updates"],
+ "Society":["NCERT 11 + 12","Reports bank (NFHS/NCRB/PLFS)","CA"],
+ "Ethics":["Lexicon basics","Subba Rao framework","2nd ARC 4","Thinkers bank","Anudeep cases"],
+ "CSAT":["Diagnostic PYQs","Weak-topic drills","Fortnightly mocks"],
+ "Physics Paper I":["Mechanics","EM (Griffiths)","Waves & Optics","Thermo & Stat Mech"],
+ "Physics Paper II":["QM","Atomic & Molecular","Nuclear","Solid State","Electronics","Special Relativity"]
+};
+const REV_SUBJECTS = ["Polity","Economy","Modern History","Ancient/Medieval","Art & Culture","Geography","Environment","Sci-Tech","IR","Internal Security","Society","Ethics","Physics Paper I","Physics Paper II"];
+
+const fmt = d => new Date(d).toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric"});
+const todayDate = new Date(); todayDate.setHours(0,0,0,0);
+const isoToday = () => new Date().toISOString().slice(0,10);
+
+// ---- countdown / phase / fortnight ----
+const days = Math.round((PRELIMS - todayDate)/86400000);
+document.getElementById("countdown").innerHTML = (days>0?days:0) + " <small>days</small>";
+document.getElementById("prelimsDate").textContent = "Prelims ~ " + fmt(PRELIMS);
+
+let cur=null;
+for(const f of FN){ if(todayDate>=new Date(f[1]) && todayDate<=new Date(f[2]+"T23:59:59")){cur=f;break;} }
+let phase,fnLabel,fnDates,focus,nextLabel;
+if(todayDate<PLAN_START){phase="Foundation";fnLabel="Before F1";fnDates="Plan starts "+fmt(PLAN_START);focus="Setup phase ahead";nextLabel=FN[0][0]+" · "+FN[0][3];}
+else if(todayDate>PRELIMS){phase="Mains Factory";fnLabel="Post-Prelims";fnDates="Mains phase → 30 Sep 2027";focus="Optional + answer writing at full intensity";nextLabel="Mains 2027";}
+else if(cur){phase=cur[4];fnLabel=cur[0];fnDates=fmt(cur[1])+" – "+fmt(cur[2]);focus=cur[3];const i=FN.indexOf(cur);nextLabel=i<FN.length-1?(FN[i+1][0]+" · "+FN[i+1][3]):"Prelims day";}
+else {phase="Foundation";fnLabel="—";fnDates="";focus="";nextLabel=FN[0][0];}
+
+document.getElementById("phaseName").textContent=phase;
+document.getElementById("phaseDates").textContent= phase==="Foundation"?"15 Jun – 31 Oct 2026":phase==="Integration"?"1 Nov 2026 – 31 Jan 2027":phase==="Prelims Mode"?"1 Feb – 24 May 2027":"post-Prelims → 30 Sep 2027";
+document.getElementById("fnNum").textContent=fnLabel;
+document.getElementById("fnDates").textContent=fnDates;
+document.getElementById("fnFocus").textContent=focus;
+document.getElementById("fnNext").textContent=nextLabel;
+
+const totalDays=(PRELIMS-PLAN_START)/86400000;
+let pct=Math.max(0,Math.min(100,Math.round(((todayDate-PLAN_START)/86400000)/totalDays*100)));
+document.getElementById("progFill").style.width=pct+"%";
+document.getElementById("pct").textContent=pct+"% of the plan elapsed";
+
+// ---- today's focus ----
+const dayNames=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+const gd=new Date().getDay();
+document.getElementById("todayName").textContent=dayNames[gd];
+const blocks=(FOCUS[phase]||FOCUS["Foundation"])[gd];
+document.getElementById("focusBlocks").innerHTML=blocks.map(b=>'<span class="blk">'+b+'</span>').join("");
+
+// ---- KPIs ----
+const kpiBox=document.getElementById("kpiList");
+(KPI[phase]||KPI["Foundation"]).forEach(k=>{const r=document.createElement("div");r.className="row";r.innerHTML='<span class="muted">'+k[0]+'</span><b>'+k[1]+'</b>';kpiBox.appendChild(r);});
+
+// ---- persistence helpers ----
+const load=(k,d)=>{try{return JSON.parse(localStorage.getItem(k))??d}catch(e){return d}};
+const save=(k,v)=>localStorage.setItem(k,JSON.stringify(v));
+const LS={M:"upsc_mock_scores_v1",W:"upsc_weak_areas_v1",H:"upsc_hours_v1",REV:"upsc_rev_v1",COV:"upsc_cov_v1"};
+
+// ---- study hours ----
+function weekStart(){const d=new Date();const day=(d.getDay()+6)%7;d.setHours(0,0,0,0);d.setDate(d.getDate()-day);return d;}
+document.getElementById("hDate").valueAsDate=new Date();
+document.getElementById("hoursTarget").textContent=(HOURS_TARGET[phase]||28)+"+";
+function renderHours(){
+  const list=load(LS.H,[]);const ws=weekStart();
+  const total=list.filter(e=>new Date(e.date)>=ws).reduce((s,e)=>s+(+e.hours||0),0);
+  const target=HOURS_TARGET[phase]||28;
+  document.getElementById("weekHours").textContent=Math.round(total*10)/10;
+  document.getElementById("hoursFill").style.width=Math.min(100,Math.round(total/target*100))+"%";
+  const recent=list.slice(-5).reverse().map(e=>fmt(e.date)+": "+e.hours+"h").join(" · ");
+  document.getElementById("hRecent").textContent=recent?("Recent — "+recent):"";
+}
+document.getElementById("hAdd").onclick=()=>{const date=document.getElementById("hDate").value;const hours=parseFloat(document.getElementById("hHours").value);if(!date||isNaN(hours)){alert("Enter date and hours");return;}const a=load(LS.H,[]);a.push({date,hours});save(LS.H,a);document.getElementById("hHours").value="";renderHours();};
+
+// ---- revision (simple weekly checklist; auto-resets every Monday) ----
+function renderRev(){
+  const ws=weekStart().toISOString().slice(0,10);
+  let cur=load(LS.REV,{ws:"",checked:{}});
+  if(cur.ws!==ws){cur={ws:ws,checked:{}};save(LS.REV,cur);}
+  const box=document.getElementById("revList");box.innerHTML="";let n=0;
+  REV_SUBJECTS.forEach(s=>{
+    const lab=document.createElement("label");lab.className="chk";
+    const cb=document.createElement("input");cb.type="checkbox";cb.checked=!!cur.checked[s];if(cb.checked)n++;
+    cb.onchange=()=>{const c=load(LS.REV,{ws:ws,checked:{}});c.ws=ws;c.checked[s]=cb.checked;save(LS.REV,c);renderRev();};
+    lab.appendChild(cb);lab.appendChild(document.createTextNode(s));box.appendChild(lab);
+  });
+  document.getElementById("revCount").textContent=n+"/"+REV_SUBJECTS.length;
+}
+
+// ---- weak areas ----
+function renderWA(){
+  const list=load(LS.W,[]),ul=document.getElementById("waList");ul.innerHTML="";
+  if(!list.length){ul.innerHTML='<li class="empty">Nothing yet. Add weak topics as mocks reveal them.</li>';return;}
+  list.forEach((w,i)=>{const li=document.createElement("li");li.innerHTML='<span>'+w.replace(/</g,"&lt;")+'</span>';const b=document.createElement("button");b.className="del";b.textContent="remove";b.onclick=()=>{const a=load(LS.W,[]);a.splice(i,1);save(LS.W,a);renderWA();};li.appendChild(b);ul.appendChild(li);});
+}
+document.getElementById("waAdd").onclick=()=>{const v=document.getElementById("waInput").value.trim();if(!v)return;const a=load(LS.W,[]);a.push(v);save(LS.W,a);document.getElementById("waInput").value="";renderWA();};
+document.getElementById("waInput").addEventListener("keydown",e=>{if(e.key==="Enter")document.getElementById("waAdd").click();});
+
+// ---- syllabus coverage ----
+function renderSyllabus(){
+  const state=load(LS.COV,{});const root=document.getElementById("syllabus");root.innerHTML="";
+  let done=0,tot=0;
+  Object.entries(SYLLABUS).forEach(([subj,items])=>{
+    const checked=items.filter(it=>state[subj+"||"+it]).length;done+=checked;tot+=items.length;
+    const p=Math.round(checked/items.length*100);
+    const d=document.createElement("details");d.className="subj";
+    const sum=document.createElement("summary");sum.innerHTML='<span>'+subj+'</span><span class="pctlabel">'+checked+'/'+items.length+' · '+p+'%</span>';d.appendChild(sum);
+    const wrap=document.createElement("div");wrap.className="items";
+    items.forEach(it=>{const id=subj+"||"+it;const lab=document.createElement("label");lab.className="chk";const cb=document.createElement("input");cb.type="checkbox";cb.checked=!!state[id];cb.onchange=()=>{const st=load(LS.COV,{});st[id]=cb.checked;save(LS.COV,st);renderSyllabus();};lab.appendChild(cb);lab.appendChild(document.createTextNode(it));wrap.appendChild(lab);});
+    d.appendChild(wrap);root.appendChild(d);
+  });
+  document.getElementById("covPct").textContent=(tot?Math.round(done/tot*100):0)+"%";
+}
+
+// ---- mock scores ----
+let chart=null;
+document.getElementById("mDate").valueAsDate=new Date();
+function renderM(){
+  const list=load(LS.M,[]).sort((a,b)=>a.date.localeCompare(b.date));
+  const body=document.getElementById("mBody");body.innerHTML="";
+  document.getElementById("mEmpty").style.display=list.length?"none":"block";
+  list.forEach(m=>{const tr=document.createElement("tr");const p=Math.round(m.score/m.max*100);
+    tr.innerHTML='<td>'+fmt(m.date)+'</td><td><span class="tag">'+m.type+'</span></td><td>'+m.score+'/'+m.max+'</td><td><b>'+p+'%</b></td>';
+    const td=document.createElement("td");const b=document.createElement("button");b.className="del";b.textContent="×";b.onclick=()=>{let a=load(LS.M,[]).filter(x=>x.id!==m.id);save(LS.M,a);renderM();};td.appendChild(b);tr.appendChild(td);body.appendChild(tr);});
+  const labels=list.map(m=>fmt(m.date)),data=list.map(m=>Math.round(m.score/m.max*100));
+  if(chart)chart.destroy();
+  chart=new Chart(document.getElementById("chart"),{type:"line",data:{labels,datasets:[{label:"Score %",data,borderColor:"#2f6f4f",backgroundColor:"rgba(47,111,79,.12)",fill:true,tension:.25,pointRadius:4,pointBackgroundColor:"#2f6f4f"}]},options:{responsive:true,scales:{y:{min:0,max:100,ticks:{callback:v=>v+"%"}}},plugins:{legend:{display:false},tooltip:{callbacks:{afterLabel:ctx=>{const m=list[ctx.dataIndex];return m.type+" · "+m.score+"/"+m.max;}}}}}});
+}
+document.getElementById("mAdd").onclick=()=>{const date=document.getElementById("mDate").value,type=document.getElementById("mType").value,score=parseFloat(document.getElementById("mScore").value),max=parseFloat(document.getElementById("mMax").value);if(!date||isNaN(score)||isNaN(max)||max<=0){alert("Enter a date, score and max.");return;}const a=load(LS.M,[]);a.push({id:Date.now(),date,type,score,max});save(LS.M,a);document.getElementById("mScore").value="";renderM();};
+
+renderHours();renderRev();renderWA();renderSyllabus();renderM();
+</script>
+</body>
+</html>

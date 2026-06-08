@@ -252,7 +252,7 @@ function QuestionSetPicker({ bank, sets, go, onClose }) {
 
 function NotesLibrary() {
   const ds = window.UPSC;
-  const tabs = [["daily", "Daily"], ["weekly", "Weekly"], ["monthly", "Monthly"]];
+  const tabs = [["daily", "Daily"], ["weekly", "Weekly"], ["monthly", "Monthly"], ["strategy", "Strategy"]];
   const [cadence, setCadence] = useStateHome("daily");
   const docs = ds.noteDocuments.filter((doc) => doc.cadence === cadence);
   const [selectedId, setSelectedId] = useStateHome(docs[0]?.id || null);

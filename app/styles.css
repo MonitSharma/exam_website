@@ -564,6 +564,55 @@ body[data-qfont="serif"] .rev-explain p { font-family: var(--serif); font-size: 
 .empty-panel strong { color: var(--ink-soft); font-size: 14px; }
 .empty-panel span { font-size: 13px; }
 
+/* ===================== WORKFLOW DASHBOARD ===================== */
+.workflow { margin-top: 28px; display: grid; gap: 16px; }
+.workflow-title { display: flex; justify-content: space-between; gap: 18px; align-items: flex-end; flex-wrap: wrap; }
+.workflow-title h2 { font-family: var(--serif); font-size: clamp(25px, 4vw, 34px); font-weight: 500; }
+.workflow-title p { color: var(--ink-soft); margin-top: 6px; max-width: 680px; }
+.workflow-cards, .workflow-grid { display: grid; gap: 14px; }
+.workflow-cards { grid-template-columns: repeat(3, 1fr); }
+.workflow-grid { grid-template-columns: 1fr 1fr; }
+.workflow-card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow-sm); padding: 18px; min-width: 0; }
+.workflow-card.wide { display: grid; gap: 8px; }
+.workflow-card.hero { background: linear-gradient(140deg, var(--green-deep), var(--green)); color: #fff; border-color: transparent; }
+.workflow-card > span, .workflow-summary-label { display: block; font-family: var(--mono); font-size: 11px; color: var(--muted); letter-spacing: .06em; text-transform: uppercase; margin-bottom: 10px; }
+.workflow-card.hero > span, .workflow-card.hero em { color: rgba(255,255,255,.78); }
+.workflow-card > strong, .workflow-card.hero strong { display: block; font-family: var(--serif); font-size: 31px; line-height: 1; color: var(--ink); }
+.workflow-card.hero strong { color: #fff; font-size: 42px; }
+.workflow-card > em, .workflow-card.hero em { display: block; font-style: normal; color: var(--muted); font-size: 13px; margin-top: 7px; line-height: 1.35; }
+.workflow-row { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 8px 0; border-bottom: 1px dashed var(--line-2); font-size: 14px; }
+.workflow-row:last-child { border-bottom: none; }
+.workflow-row.clean { border-bottom: none; padding: 0; }
+.workflow-row em { font-style: normal; color: var(--muted); min-width: 0; overflow-wrap: anywhere; }
+.workflow-row strong { color: var(--ink); white-space: nowrap; }
+.workflow-bar { height: 10px; border-radius: 999px; background: var(--paper-2); overflow: clip; }
+.workflow-bar i { display: block; height: 100%; background: var(--indigo); border-radius: inherit; transition: width .4s ease; }
+.workflow-bar.green i { background: var(--green); }
+.workflow-focus { display: flex; gap: 7px; flex-wrap: wrap; }
+.workflow-focus b { display: inline-flex; align-items: center; min-height: 30px; padding: 5px 10px; border-radius: var(--radius-sm); background: var(--paper-2); color: var(--ink-soft); font-size: 13px; font-weight: 600; }
+.workflow-form { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-top: 12px; }
+.workflow-form input, .workflow-form select { min-height: 36px; border: 1px solid var(--line); background: var(--surface); border-radius: var(--radius-sm); padding: 7px 9px; color: var(--ink); min-width: 0; }
+.workflow-form input[type="number"] { width: 86px; }
+.workflow-form input[type="text"] { flex: 1; min-width: 180px; }
+.mini-btn.solid { background: var(--green); color: #fff; border-color: var(--green); }
+.workflow-checks { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px 13px; }
+.workflow-checks.compact { margin-top: 10px; }
+.workflow-checks label { display: flex; align-items: center; gap: 8px; color: var(--ink-soft); font-size: 13px; line-height: 1.3; }
+.workflow-checks input { accent-color: var(--green); flex: none; }
+.workflow-list { margin-top: 8px; }
+.workflow-empty { color: var(--muted); font-size: 13px; padding: 8px 0; }
+.workflow-syllabus { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.workflow-subject { border: 1px solid var(--line-2); border-radius: var(--radius-sm); padding: 10px 12px; background: var(--surface-2); }
+.workflow-subject summary { display: flex; align-items: center; justify-content: space-between; gap: 10px; cursor: pointer; list-style: none; }
+.workflow-subject summary::-webkit-details-marker { display: none; }
+.workflow-subject summary strong { font-size: 14px; }
+.workflow-subject summary em { font-style: normal; color: var(--muted); font-family: var(--mono); font-size: 12px; white-space: nowrap; }
+.workflow-trend { width: 100%; height: 160px; margin-top: 12px; }
+.workflow-grid-line { stroke: var(--line-2); stroke-width: 1; }
+.workflow-trend-line { fill: none; stroke: var(--green); stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+.workflow-trend-dot { fill: #fff; stroke: var(--green); stroke-width: 2; }
+.workflow-table { margin-top: 8px; }
+
 /* ===================== Tweaks extras ===================== */
 .tweak-jump { display: flex; flex-wrap: wrap; gap: 7px; }
 .jbtn { padding: 7px 12px; border-radius: 8px; border: 1px solid var(--line); background: var(--surface); font-size: 13px; font-weight: 600; color: var(--muted); }
@@ -573,7 +622,7 @@ body[data-qfont="serif"] .rev-explain p { font-family: var(--serif); font-size: 
 
 /* ===================== Responsive ===================== */
 @media (max-width: 940px) {
-  .home-main, .result-grid, .dash-grid, .practice-grid { grid-template-columns: 1fr; }
+  .home-main, .result-grid, .dash-grid, .practice-grid, .workflow-cards, .workflow-grid, .workflow-syllabus { grid-template-columns: 1fr; }
   .hero-grid { grid-template-columns: 1fr; gap: 28px; }
   .notes-layout { grid-template-columns: 1fr; }
   .dash-trend, .dash-weak, .dash-subjects, .dash-recent { grid-column: 1 !important; }
@@ -601,6 +650,8 @@ body[data-qfont="serif"] .rev-explain p { font-family: var(--serif); font-size: 
   .set-grid { grid-template-columns: 1fr; }
   .practice-types { grid-template-columns: 1fr; }
   .practice-start, .practice-start .btn { width: 100%; }
+  .workflow-form, .workflow-form input, .workflow-form select, .workflow-form .mini-btn { width: 100%; }
+  .workflow-checks { grid-template-columns: 1fr; }
   .dash-actions, .dash-actions .btn { width: 100%; }
   .snap-body { flex-direction: column; align-items: stretch; }
   .snap-stats { grid-template-columns: repeat(3, 1fr); }
