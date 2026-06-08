@@ -29,19 +29,46 @@ function scoreFrom(attempt, qs, questionSet) {
 }
 
 function getResultData(result) {
-  const ds = window.UPSC;
   return {
-    questionSet: result?.questionSet || ds.getQuestionSetById(ds.defaultQuestionSetId),
-    qs: result?.questions?.length ? result.questions : ds.questions,
-    attempt: result?.answers || ds.demoAttempt,
+    questionSet: result?.questionSet || null,
+    qs: Array.isArray(result?.questions) ? result.questions : [],
+    attempt: result?.answers || {},
+    elapsedSeconds: Number(result?.elapsedSeconds) || 0,
   };
 }
 
+function formatDurationMS(totalSeconds) {
+  const safe = Math.max(0, Math.round(Number(totalSeconds) || 0));
+  const m = Math.floor(safe / 60);
+  const s = safe % 60;
+  return `${m}:${String(s).padStart(2, "0")}`;
+}
+
+function NoResultEmpty({ go }) {
+  return (
+    <div className="page-wrap result">
+      <div className="result-hero panel">
+        <div className="result-hero-l">
+          <span className="result-eyebrow">No result yet</span>
+          <h1 className="result-h1">Finish a test to see your score here.</h1>
+          <p className="result-lead">When you submit an attempt, your results, breakdown and review will appear on this page.</p>
+          <div className="result-cta">
+            <button className="btn btn-green" onClick={() => go("home")}><Icon name="home" size={16} /> Back home</button>
+            <button className="btn ghost" onClick={() => go("practice")}><Icon name="play" size={16} /> Start a practice test</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 function Results({ go, result }) {
-  const { questionSet, qs, attempt } = getResultData(result);
+  const { questionSet, qs, attempt, elapsedSeconds } = getResultData(result);
+  if (!questionSet || !qs.length) return <NoResultEmpty go={go} />;
   const s = scoreFrom(attempt, qs, questionSet);
   const pct = s.max ? s.raw / s.max : 0;
   const accuracy = Math.round((s.correct / (s.correct + s.wrong || 1)) * 100);
+  const avgPerQ = elapsedSeconds && qs.length ? elapsedSeconds / qs.length : 0;
 
   // subject split
   const bySub = {};
@@ -92,7 +119,9 @@ function Results({ go, result }) {
             <div className="break-stats">
               <Stat value={`${accuracy}%`} label="Accuracy" tone="green" />
               <Stat value={`${s.correct + s.wrong}/${qs.length}`} label="Attempted" />
-              <Stat value="9:42" label="Avg / question" sub="min:sec" />
+              {avgPerQ > 0
+                ? <Stat value={formatDurationMS(avgPerQ)} label="Avg / question" sub="min:sec" />
+                : <Stat value={formatDurationMS(elapsedSeconds)} label="Time taken" sub="min:sec" />}
             </div>
           </div>
         </div>
@@ -122,6 +151,7 @@ function Results({ go, result }) {
 function Review({ go, result }) {
   const { questionSet, qs, attempt } = getResultData(result);
   const [filter, setFilter] = useResState("all");
+  if (!questionSet || !qs.length) return <NoResultEmpty go={go} />;
 
   const enriched = qs.map((q) => {
     const a = attempt[q.n];

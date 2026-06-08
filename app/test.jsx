@@ -1,5 +1,25 @@
 // Test-taking screen - selected question set + guarded exit
-const { useState: useTestState, useEffect: useTestEffect } = React;
+const { useState: useTestState, useEffect: useTestEffect, useRef: useTestRef } = React;
+
+const SESSION_PREFIX = "pariksha:session:";
+function sessionKeyFor(setId) { return `${SESSION_PREFIX}${setId}`; }
+function readSession(setId) {
+  try {
+    const raw = localStorage.getItem(sessionKeyFor(setId));
+    if (!raw) return null;
+    const parsed = JSON.parse(raw);
+    if (!parsed || typeof parsed !== "object") return null;
+    return parsed;
+  } catch (error) {
+    return null;
+  }
+}
+function writeSession(setId, snapshot) {
+  try { localStorage.setItem(sessionKeyFor(setId), JSON.stringify(snapshot)); } catch (error) {}
+}
+function clearSessionFor(setId) {
+  try { localStorage.removeItem(sessionKeyFor(setId)); } catch (error) {}
+}
 
 function TestScreen({ go, session, onSubmit }) {
   const ds = window.UPSC;
@@ -17,25 +37,41 @@ function TestScreen({ go, session, onSubmit }) {
   const [paletteOpen, setPaletteOpen] = useTestState(false);
   const [exitOpen, setExitOpen] = useTestState(false);
   const [secs, setSecs] = useTestState((initialQuestionSet?.durationMinutes || 120) * 60);
+  const [resumed, setResumed] = useTestState(false);
+  const submittedRef = useTestRef(false);
 
   useTestEffect(() => {
     let cancelled = false;
     const selectedId = session?.setId || ds.defaultQuestionSetId;
     const selectedSet = ds.getQuestionSetById(selectedId);
+    submittedRef.current = false;
     setLoadState({ loading: true, error: "", questionSet: selectedSet, questions: [] });
-    setIdx(0);
-    setAnswers({});
-    setMarked({});
-    setVisited({ 0: true });
+
+    const saved = readSession(selectedId);
+    if (saved && saved.answers) {
+      setIdx(Number(saved.idx) || 0);
+      setAnswers(saved.answers || {});
+      setMarked(saved.marked || {});
+      setVisited(saved.visited || { 0: true });
+      setSecs(Number.isFinite(saved.secs) ? saved.secs : (selectedSet?.durationMinutes || 120) * 60);
+      setResumed(true);
+    } else {
+      setIdx(0);
+      setAnswers({});
+      setMarked({});
+      setVisited({ 0: true });
+      setSecs((selectedSet?.durationMinutes || 120) * 60);
+      setResumed(false);
+    }
     setPaletteOpen(false);
     setExitOpen(false);
-    setSecs((selectedSet?.durationMinutes || 120) * 60);
 
     ds.loadQuestionSet(selectedId)
       .then((result) => {
         if (cancelled) return;
         setLoadState({ loading: false, error: "", ...result });
-        setSecs((result.questionSet?.durationMinutes || 120) * 60);
+        // Only reset timer for a fresh session — keep saved secs if resuming.
+        if (!saved) setSecs((result.questionSet?.durationMinutes || 120) * 60);
       })
       .catch((error) => {
         if (cancelled) return;
@@ -55,6 +91,23 @@ function TestScreen({ go, session, onSubmit }) {
     const timer = setInterval(() => setSecs((s) => (s > 0 ? s - 1 : 0)), 1000);
     return () => clearInterval(timer);
   }, [loadState.loading, loadState.error, session?.setId]);
+
+  // Persist in-progress state to localStorage so a refresh / exit can resume.
+  useTestEffect(() => {
+    if (loadState.loading || loadState.error) return;
+    const setId = loadState.questionSet?.id;
+    if (!setId) return;
+    if (submittedRef.current) return;
+    writeSession(setId, { idx, answers, marked, visited, secs });
+  }, [idx, answers, marked, visited, secs, loadState.loading, loadState.error, loadState.questionSet?.id]);
+
+  // Auto-submit when the timer hits zero.
+  useTestEffect(() => {
+    if (secs > 0 || loadState.loading || loadState.error) return;
+    if (submittedRef.current) return;
+    if (!loadState.questions?.length) return;
+    submitTest();
+  }, [secs, loadState.loading, loadState.error, loadState.questions?.length]);
 
   const qs = loadState.questions;
   const questionSet = loadState.questionSet || initialQuestionSet || ds.getQuestionSetById(ds.defaultQuestionSetId);
@@ -95,12 +148,29 @@ function TestScreen({ go, session, onSubmit }) {
   }
 
   function submitTest() {
+    if (submittedRef.current) return;
+    submittedRef.current = true;
+    const totalSeconds = (questionSet?.durationMinutes || 120) * 60;
+    const elapsedSeconds = Math.max(0, totalSeconds - secs);
+    clearSessionFor(questionSet.id);
     onSubmit({
       setId: questionSet.id,
       questionSet,
       questions: qs,
       answers: { ...answers },
+      elapsedSeconds,
     });
+  }
+
+  function restartFromScratch() {
+    if (!questionSet) return;
+    clearSessionFor(questionSet.id);
+    setIdx(0);
+    setAnswers({});
+    setMarked({});
+    setVisited({ 0: true });
+    setSecs((questionSet.durationMinutes || 120) * 60);
+    setResumed(false);
   }
 
   function Header({ canSubmit = false }) {
@@ -131,11 +201,11 @@ function TestScreen({ go, session, onSubmit }) {
     return (
       <div className="confirm-layer" role="dialog" aria-modal="true" aria-labelledby="exit-title">
         <div className="confirm-box">
-          <h3 id="exit-title">Are you sure you want to go back?</h3>
-          <p>Your current answers in this attempt will be cleared.</p>
+          <h3 id="exit-title">Leave this test?</h3>
+          <p>Your progress is saved on this device — you can resume from where you left off the next time you open this set.</p>
           <div className="confirm-actions">
-            <button className="btn ghost" onClick={() => setExitOpen(false)}>No</button>
-            <button className="btn btn-green" onClick={() => go(exitTarget())}>Yes</button>
+            <button className="btn ghost" onClick={() => setExitOpen(false)}>Stay</button>
+            <button className="btn btn-green" onClick={() => go(exitTarget())}>Save &amp; exit</button>
           </div>
         </div>
       </div>
@@ -180,6 +250,14 @@ function TestScreen({ go, session, onSubmit }) {
       <div className="test-progress" aria-hidden="true">
         <div className="test-progress-fill" style={{ width: `${((idx + 1) / qs.length) * 100}%` }} />
       </div>
+
+      {resumed && (
+        <div className="test-resume-banner">
+          <span><Icon name="info" size={14} /> Resumed your in-progress attempt.</span>
+          <button className="link-btn" onClick={() => { restartFromScratch(); }}>Start over</button>
+          <button className="icon-btn ghost" onClick={() => setResumed(false)} aria-label="Dismiss"><Icon name="x" size={14} /></button>
+        </div>
+      )}
 
       <div className="test-layout">
         <main className="q-panel">

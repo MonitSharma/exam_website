@@ -145,13 +145,7 @@ function App() {
     returnTo: "home",
     timed: true,
   });
-  const [lastResult, setLastResult] = useRootState({
-    setId: ds.defaultQuestionSetId,
-    questionSet: ds.getQuestionSetById(ds.defaultQuestionSetId),
-    questions: ds.questions,
-    answers: ds.demoAttempt,
-    submittedAt: null,
-  });
+  const [lastResult, setLastResult] = useRootState(null);
   const [progress, setProgress] = useRootState(loadProgress);
   const summary = getProgressSummary(progress);
 

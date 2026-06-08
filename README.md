@@ -132,7 +132,26 @@ History is local to the current browser/device. Users can export it as JSON or c
 
 ## Deploy On GitHub Pages
 
+The repo ships with a workflow at `.github/workflows/pages.yml` that builds a
+production bundle (esbuild) and deploys to GitHub Pages on every push to `main`.
+
+One-time setup:
+
 1. Push this folder to a GitHub repository.
-2. In repository settings, enable GitHub Pages.
-3. Set the source to the main branch and root folder.
-4. Keep `data/processed/*.json`, `src/*.js`, `styles/main.css`, `index.html`, and `config/exam_patterns.json` committed.
+2. Settings → Pages → Build and deployment → Source: **GitHub Actions**.
+
+The first push triggers the workflow; subsequent pushes auto-deploy. Keep
+`data/processed/*.json`, `app/*`, `index.html`, and `config/exam_patterns.json`
+committed.
+
+## Local Development
+
+`index.html` uses Babel-in-browser so you can edit `app/*.jsx` and reload
+without a build step. Serve the repo root over HTTP:
+
+```bash
+python3 -m http.server 8001
+```
+
+then open <http://localhost:8001>. The production build is only used by
+the Pages workflow (see `build.js`).

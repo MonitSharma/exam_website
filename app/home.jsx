@@ -96,7 +96,7 @@ function DailyQuizCard({ go, progress }) {
       <h2 className="daily-title">{dailyQuiz.title}</h2>
       <p className="daily-desc">{dailyQuiz.description}</p>
       <div className="daily-meta">
-        <span><strong>{dailySet.questionCount || ds.questions.length}</strong> questions</span>
+        <span><strong>{dailySet?.questionCount || 0}</strong> questions</span>
         <span className="dot-sep" />
         <span><strong>~{dailyQuiz.durationMinutes}</strong> min</span>
         <span className="dot-sep" />
