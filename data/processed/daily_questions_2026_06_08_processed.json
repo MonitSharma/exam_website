@@ -1,0 +1,310 @@
+[
+  {
+    "id": "daily_questions_2026_06_08_q001",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "daily_questions_2026_06_08",
+    "question_set_label": "Daily Questions · Jun 08, 2026",
+    "source_type": "daily_questions",
+    "question_number": 1,
+    "source_question_number": null,
+    "question": "With reference to the India–Oman CEPA that came into force in June 2026, consider the following statements: 1. It is India's first free trade agreement with any Gulf Cooperation Council (GCC) member. 2. Oman's key ports of Duqm and Salalah lie outside the Strait of Hormuz, on the Arabian Sea coast. 3. The agreement provides duty-free access for over 99% of India's exports to Oman by value. Which of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "Oman is India's SECOND GCC FTA (the UAE CEPA of 2022 was first), so statement 1 is wrong. Duqm and Salalah face the Arabian Sea, outside the Strait of Hormuz (2 correct), and duty-free coverage is 99.38% of India's exports by value (3 correct).",
+    "subject": "International Relations",
+    "theme": "India's trade agreements / Gulf policy",
+    "micro_topic": "India-Oman CEPA",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source": "generated_data/question_bank/daily_questions_2026_06_08.json",
+    "answer_source": "generated_data/question_bank/daily_questions_2026_06_08.json",
+    "verification_status": "verified_generated",
+    "date_added": "2026-06-08"
+  },
+  {
+    "id": "daily_questions_2026_06_08_q002",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "daily_questions_2026_06_08",
+    "question_set_label": "Daily Questions · Jun 08, 2026",
+    "source_type": "daily_questions",
+    "question_number": 2,
+    "source_question_number": null,
+    "question": "RudraM-II, recently flight-tested by India, is best described as:",
+    "options": [
+      {
+        "key": "a",
+        "text": "A submarine-launched ballistic missile"
+      },
+      {
+        "key": "b",
+        "text": "An air-to-surface missile launched from the Su-30 MKI"
+      },
+      {
+        "key": "c",
+        "text": "A quantum-communication satellite"
+      },
+      {
+        "key": "d",
+        "text": "A long-range surface-to-air missile system"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "RudraM-II is DRDO's indigenous air-to-surface (anti-radiation / stand-off strike) missile, flight-tested from a Su-30 MKI with data tracked by the Integrated Test Range, Chandipur.",
+    "subject": "Science & Technology",
+    "theme": "Defence technology / Aatmanirbhar Bharat",
+    "micro_topic": "RudraM-II missile",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source": "generated_data/question_bank/daily_questions_2026_06_08.json",
+    "answer_source": "generated_data/question_bank/daily_questions_2026_06_08.json",
+    "verification_status": "verified_generated",
+    "date_added": "2026-06-08"
+  },
+  {
+    "id": "daily_questions_2026_06_08_q003",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "daily_questions_2026_06_08",
+    "question_set_label": "Daily Questions · Jun 08, 2026",
+    "source_type": "daily_questions",
+    "question_number": 3,
+    "source_question_number": null,
+    "question": "Regarding the RBI's June 2026 monetary policy review, consider the following statements: 1. The repo rate was kept unchanged at 5.25%. 2. The MPC retained a 'neutral' policy stance. 3. The MPC is chaired by the Union Finance Minister. Which of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "The repo rate was held at 5.25% (1 correct) and the stance kept neutral (2 correct). The Monetary Policy Committee is chaired by the RBI Governor, not the Finance Minister, so statement 3 is wrong.",
+    "subject": "Economy",
+    "theme": "Monetary policy",
+    "micro_topic": "RBI MPC June 2026 / repo rate",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source": "generated_data/question_bank/daily_questions_2026_06_08.json",
+    "answer_source": "generated_data/question_bank/daily_questions_2026_06_08.json",
+    "verification_status": "verified_generated",
+    "date_added": "2026-06-08"
+  },
+  {
+    "id": "daily_questions_2026_06_08_q004",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "daily_questions_2026_06_08",
+    "question_set_label": "Daily Questions · Jun 08, 2026",
+    "source_type": "daily_questions",
+    "question_number": 4,
+    "source_question_number": null,
+    "question": "As per the provisional estimates released by the National Statistical Office (NSO), India's real GDP growth in the fourth quarter (Jan–Mar) of FY2025-26 was:",
+    "options": [
+      {
+        "key": "a",
+        "text": "6.7%"
+      },
+      {
+        "key": "b",
+        "text": "7.2%"
+      },
+      {
+        "key": "c",
+        "text": "7.8%"
+      },
+      {
+        "key": "d",
+        "text": "8.4%"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "NSO's provisional estimate put Q4 (Jan–Mar) FY26 real GDP growth at 7.8%, with the full-year FY26 estimate revised up to 7.7% (from 7.6%).",
+    "subject": "Economy",
+    "theme": "National income / growth data",
+    "micro_topic": "Q4 FY26 GDP estimate",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source": "generated_data/question_bank/daily_questions_2026_06_08.json",
+    "answer_source": "generated_data/question_bank/daily_questions_2026_06_08.json",
+    "verification_status": "verified_generated",
+    "date_added": "2026-06-08"
+  },
+  {
+    "id": "daily_questions_2026_06_08_q005",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "daily_questions_2026_06_08",
+    "question_set_label": "Daily Questions · Jun 08, 2026",
+    "source_type": "daily_questions",
+    "question_number": 5,
+    "source_question_number": null,
+    "question": "With reference to World Environment Day 2026, consider the following statements: 1. The 2026 global host country was India. 2. As highlighted by the Union Environment Ministry, India now has 58 tiger reserves and 100 Ramsar (wetland) sites. Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "World Environment Day 2026 was hosted by Azerbaijan (Baku), not India, so statement 1 is wrong. India's tally of 58 tiger reserves and 100 Ramsar sites (statement 2) is correct.",
+    "subject": "Environment",
+    "theme": "Conservation framework / events in news",
+    "micro_topic": "World Environment Day 2026 & protected areas",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source": "generated_data/question_bank/daily_questions_2026_06_08.json",
+    "answer_source": "generated_data/question_bank/daily_questions_2026_06_08.json",
+    "verification_status": "verified_generated",
+    "date_added": "2026-06-08"
+  },
+  {
+    "id": "daily_questions_2026_06_08_q006",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "daily_questions_2026_06_08",
+    "question_set_label": "Daily Questions · Jun 08, 2026",
+    "source_type": "daily_questions",
+    "question_number": 6,
+    "source_question_number": null,
+    "question": "With reference to the Ramsar Convention and the 'Montreux Record', consider the following statements: 1. The Montreux Record is a register of Ramsar sites where adverse changes in ecological character have occurred, are occurring, or are likely to occur. 2. Keoladeo National Park and Loktak Lake are Indian wetlands currently on the Montreux Record. Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "The Montreux Record flags Ramsar sites facing adverse ecological change due to human interference (1 correct). India's two sites currently on the Record are Keoladeo National Park (Rajasthan) and Loktak Lake (Manipur) (2 correct); Chilika was once listed but removed after restoration.",
+    "subject": "Environment",
+    "theme": "Wetlands conservation",
+    "micro_topic": "Ramsar Convention / Montreux Record",
+    "nature": "Factual",
+    "difficulty": "Moderate",
+    "source": "generated_data/question_bank/daily_questions_2026_06_08.json",
+    "answer_source": "generated_data/question_bank/daily_questions_2026_06_08.json",
+    "verification_status": "verified_generated",
+    "date_added": "2026-06-08"
+  },
+  {
+    "id": "daily_questions_2026_06_08_q007",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper I",
+    "year": null,
+    "question_set_id": "daily_questions_2026_06_08",
+    "question_set_label": "Daily Questions · Jun 08, 2026",
+    "source_type": "daily_questions",
+    "question_number": 7,
+    "source_question_number": null,
+    "question": "Consider the following statements about the RBI's monetary policy framework: 1. Under the corridor system, the Marginal Standing Facility (MSF) rate is set above the repo rate. 2. The Standing Deposit Facility (SDF) rate forms the floor of the Liquidity Adjustment Facility (LAF) corridor. 3. An increase in the repo rate is an expansionary measure. Which of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "The MSF rate sits above the repo rate (ceiling of the corridor) and the SDF rate is the floor — both correct. A repo rate hike is contractionary (it raises borrowing costs), not expansionary, so statement 3 is wrong.",
+    "subject": "Economy",
+    "theme": "Monetary policy instruments",
+    "micro_topic": "LAF corridor (repo, MSF, SDF)",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "source": "generated_data/question_bank/daily_questions_2026_06_08.json",
+    "answer_source": "generated_data/question_bank/daily_questions_2026_06_08.json",
+    "verification_status": "verified_generated",
+    "date_added": "2026-06-08"
+  }
+]

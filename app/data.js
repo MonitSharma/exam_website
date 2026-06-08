@@ -12,13 +12,13 @@
   }
 
   const dailyQuiz = {
-    isoDate: "2026-06-07",
+    isoDate: "2026-06-08",
     title: "Today’s Daily Quiz",
-    dateLabel: formatDailyDate("2026-06-07"),
-    compactDateLabel: formatDailyDate("2026-06-07", { compact: true }),
+    dateLabel: formatDailyDate("2026-06-08"),
+    compactDateLabel: formatDailyDate("2026-06-08", { compact: true }),
     description:
-      "Ten fresh, fact-checked questions on this week’s current affairs — Ramsar sites, the Quad minerals push, the June MPC and more.",
-    durationMinutes: 12,
+      "Seven fresh questions from today’s current-affairs briefing — Oman CEPA, RudraM-II, WED 2026, RBI policy and GDP data.",
+    durationMinutes: 10,
   };
 
   const questions = [
@@ -303,7 +303,7 @@
 
   const years = [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019];
   const todayIso = currentIsoDate();
-  const defaultQuestionSetId = "daily_questions_2026_06_07";
+  const defaultQuestionSetId = "daily_questions_2026_06_08";
   const defaultPracticeSetId = "2025";
   const questionSets = [
     { id: "2026", label: "2026 PYQ", shortLabel: "2026", category: "Previous Year Questions", sourceType: "pyq", year: 2026, questionCount: 100, durationMinutes: 120, path: "data/processed/upsc_2026_processed.json" },
@@ -316,11 +316,14 @@
     { id: "2019", label: "2019 PYQ", shortLabel: "2019", category: "Previous Year Questions", sourceType: "pyq", year: 2019, questionCount: 100, durationMinutes: 120, path: "data/processed/upsc_2019_processed.json" },
     { id: "ai_generated_batch_1", label: "AI Generated Questions - Batch 1", shortLabel: "AI Batch 1", category: "AI Generated Practice", sourceType: "ai", questionCount: 93, durationMinutes: 120, path: "data/processed/ai_generated_batch_1_processed.json" },
     { id: "csr_batch_1", label: "CSR Monthly Mock - Batch 1", shortLabel: "CSR Batch 1", category: "CSR Monthly Mock", sourceType: "csr", questionCount: 58, durationMinutes: 120, path: "data/processed/csr_batch_1_processed.json" },
-    { id: defaultQuestionSetId, label: "Daily Questions - Jun 07, 2026", shortLabel: "Daily Jun 07", category: "Daily Questions", sourceType: "daily", isoDate: dailyQuiz.isoDate, questionCount: questions.length, durationMinutes: dailyQuiz.durationMinutes, path: "data/processed/daily_questions_2026_06_07_processed.json" },
+    { id: "daily_questions_2026_06_07", label: "Daily Questions - Jun 07, 2026", shortLabel: "Daily Jun 07", category: "Daily Questions", sourceType: "daily", isoDate: "2026-06-07", questionCount: questions.length, durationMinutes: 12, path: "data/processed/daily_questions_2026_06_07_processed.json" },
+    { id: defaultQuestionSetId, label: "Daily Questions - Jun 08, 2026", shortLabel: "Daily Jun 08", category: "Daily Questions", sourceType: "daily", isoDate: dailyQuiz.isoDate, questionCount: 7, durationMinutes: dailyQuiz.durationMinutes, path: "data/processed/daily_questions_2026_06_08_processed.json" },
   ];
-  const questionCache = new Map([[defaultQuestionSetId, questions]]);
+  const questionCache = new Map([["daily_questions_2026_06_07", questions]]);
   const noteDocuments = [
+    { id: "daily-2026-06-08", cadence: "daily", title: "UPSC Daily CA Briefing", shortTitle: "8 Jun 2026", date: "2026-06-08", path: "daily/UPSC_CA_2026-06-08.md" },
     { id: "daily-2026-06-07", cadence: "daily", title: "UPSC Daily CA Briefing", shortTitle: "7 Jun 2026", date: "2026-06-07", path: "daily/UPSC_CA_2026-06-07.md" },
+    { id: "weekly-csat-pyq-2026-06-08", cadence: "weekly", title: "CSAT PYQ Plan", shortTitle: "2023 paper · 8 Jun", date: "2026-06-08", path: "weekly/CSAT_PYQ_2026-06-08.md" },
     { id: "weekly-2026-06-07", cadence: "weekly", title: "Sunday Sweep", shortTitle: "Week of 7 Jun", date: "2026-06-07", path: "weekly/Sunday_Sweep_2026-06-07.md" },
     { id: "strategy-csat", cadence: "strategy", title: "CSAT Strategy & Technique Guide", shortTitle: "Paper 2 · 80+ aim", date: "2026-06-08", path: "CSAT_Strategy_Guide.md" },
   ];

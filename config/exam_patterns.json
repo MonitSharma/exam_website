@@ -98,6 +98,14 @@
         "category": "Daily Questions",
         "path": "data/processed/daily_questions_2026_06_07_processed.json",
         "duration_minutes": 10
+      },
+      {
+        "id": "daily_questions_2026_06_08",
+        "label": "Daily Questions · Jun 08, 2026",
+        "short_label": "Daily Jun 08",
+        "category": "Daily Questions",
+        "path": "data/processed/daily_questions_2026_06_08_processed.json",
+        "duration_minutes": 10
       }
     ],
     "total_questions": 100,
