@@ -64,6 +64,12 @@ Open:
 http://localhost:8000
 ```
 
+The default entry point now uses the Pariksha frontend design. The previous static UI is still available at:
+
+```text
+http://localhost:8000/legacy.html
+```
+
 ## Data Pipeline
 
 Raw files live in:
