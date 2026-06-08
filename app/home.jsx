@@ -1,5 +1,5 @@
 // Home / landing + exam picker + daily quiz discovery
-const { useState: useStateHome } = React;
+const { useState: useStateHome, useEffect: useEffectHome } = React;
 
 function ExamSwitcher() {
   const exams = [
@@ -23,10 +23,70 @@ function ExamSwitcher() {
   );
 }
 
-function DailyQuizCard({ go }) {
+function formatIsoDate(isoDate, options = { day: "2-digit", month: "short", year: "numeric" }) {
+  const [year, month, day] = String(isoDate).split("-").map(Number);
+  return new Intl.DateTimeFormat("en-GB", { ...options, timeZone: "UTC" }).format(new Date(Date.UTC(year, month - 1, day)));
+}
+
+function DailyCalendar({ go, progress }) {
+  const ds = window.UPSC;
+  const today = ds.todayIso;
+  const dailySets = ds.getQuestionSetsBySource("daily");
+  const dailyByDate = new Map(dailySets.map((set) => [set.isoDate, set]));
+  const done = progress.dailyCompletions || {};
+  const [year, month] = today.split("-").map(Number);
+  const first = new Date(Date.UTC(year, month - 1, 1));
+  const daysInMonth = new Date(Date.UTC(year, month, 0)).getUTCDate();
+  const blanks = Array.from({ length: first.getUTCDay() });
+  const todaySet = dailyByDate.get(today);
+  const latestDaily = dailySets[dailySets.length - 1];
+  const monthLabel = new Intl.DateTimeFormat("en-GB", { month: "long", year: "numeric", timeZone: "UTC" }).format(first);
+
+  return (
+    <section className="daily-calendar">
+      <div className="calendar-copy">
+        <span className="eyebrow small"><span className="eyebrow-line" /> Daily tracker</span>
+        <h2>{monthLabel}</h2>
+        <p>
+          {todaySet
+            ? done[today] ? "Today’s daily quiz is complete." : "Today’s daily quiz is pending."
+            : latestDaily ? `Latest loaded daily quiz: ${formatIsoDate(latestDaily.isoDate)}.` : "No daily quiz is loaded yet."}
+        </p>
+      </div>
+      <div className="calendar-card">
+        <div className="calendar-weekdays">
+          {["S", "M", "T", "W", "T", "F", "S"].map((day, index) => <span key={`${day}-${index}`}>{day}</span>)}
+        </div>
+        <div className="calendar-grid">
+          {blanks.map((_, index) => <span key={`blank-${index}`} className="cal-day blank" />)}
+          {Array.from({ length: daysInMonth }).map((_, index) => {
+            const day = index + 1;
+            const iso = `${year}-${String(month).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
+            const set = dailyByDate.get(iso);
+            const complete = Boolean(done[iso]);
+            return (
+              <button
+                key={iso}
+                className={`cal-day${iso === today ? " today" : ""}${set ? " available" : ""}${complete ? " done" : ""}`}
+                disabled={!set}
+                onClick={() => set && go("test", { setId: set.id })}
+                title={set ? set.label : "No daily quiz"}>
+                <span>{day}</span>
+                {complete && <Icon name="check" size={12} />}
+              </button>
+            );
+          })}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function DailyQuizCard({ go, progress }) {
   const ds = window.UPSC;
   const dailyQuiz = ds.dailyQuiz;
   const dailySet = ds.getQuestionSetById(ds.defaultQuestionSetId);
+  const complete = Boolean(progress.dailyCompletions?.[dailyQuiz.isoDate]);
   return (
     <article className="daily-card">
       <div className="daily-glow" aria-hidden="true" />
@@ -41,13 +101,12 @@ function DailyQuizCard({ go }) {
         <span className="dot-sep" />
         <span><strong>~{dailyQuiz.durationMinutes}</strong> min</span>
         <span className="dot-sep" />
-        <span className="daily-subjects">Environment · IR · Economy</span>
+        <span className="daily-subjects">{complete ? "Completed" : "Pending"} · Environment · IR · Economy</span>
       </div>
       <div className="daily-actions">
         <button className="btn btn-saffron" onClick={() => go("test", { setId: ds.defaultQuestionSetId })}>
-          Start daily quiz <Icon name="arrowR" size={18} />
+          {complete ? "Retake daily quiz" : "Start daily quiz"} <Icon name="arrowR" size={18} />
         </button>
-        <span className="streak-inline"><Icon name="flame" size={16} /> 14-day streak</span>
       </div>
     </article>
   );
@@ -97,31 +156,31 @@ function BuildTest({ go }) {
   );
 }
 
-function Snapshot({ go }) {
+function Snapshot({ go, summary }) {
   return (
     <section className="panel snapshot">
       <header className="panel-head row">
-        <div><h3>Your snapshot</h3><p>Last 30 days</p></div>
+        <div><h3>Your snapshot</h3><p>{summary.attempts ? "Local progress" : "Fresh start"}</p></div>
         <button className="link-btn" onClick={() => go("dashboard")}>Full progress <Icon name="arrowR" size={14} /></button>
       </header>
       <div className="panel-body snap-body">
         <div className="snap-ring">
-          <Ring value={0.68} size={104} stroke={9} color="var(--green)">
-            <div className="ring-num">68<span>%</span></div>
+          <Ring value={summary.averageAccuracy / 100} size={104} stroke={9} color="var(--green)">
+            <div className="ring-num">{summary.averageAccuracy}<span>%</span></div>
             <div className="ring-cap">accuracy</div>
           </Ring>
         </div>
         <div className="snap-stats">
-          <Stat value="1,284" label="Questions solved" />
-          <Stat value="14" label="Day streak" tone="saffron" />
-          <Stat value="108" label="Best GS score" sub="of 200" />
+          <Stat value={summary.questionsSolved.toLocaleString("en-IN")} label="Questions solved" />
+          <Stat value={summary.streak} label="Day streak" tone="saffron" />
+          <Stat value={summary.bestScore || 0} label="Best score" sub="net" />
         </div>
       </div>
       <div className="continue-row" onClick={() => go("test", { setId: "2025" })}>
         <span className="cont-icon"><Icon name="play" size={15} /></span>
         <div className="cont-text">
-          <strong>Resume — UPSC GS 2025</strong>
-          <span>Question 34 of 100 · 48 min left</span>
+          <strong>{summary.attempts ? "Practise — UPSC GS 2025" : "Start — UPSC GS 2025"}</strong>
+          <span>100 questions · 2 hrs · Previous year paper</span>
         </div>
         <Icon name="chevR" size={18} />
       </div>
@@ -130,21 +189,26 @@ function Snapshot({ go }) {
 }
 
 function BankBrowse({ go }) {
-  const sets = [
-    { icon: "calendar", title: "Previous-Year Papers", desc: "2019-2026 · GS Paper I", count: "8 papers", tone: "green", setId: "2025" },
-    { icon: "spark", title: "AI Question Bank", desc: "Topic-wise generated sets", count: "93 Qs", tone: "saffron", setId: "ai_generated_batch_1" },
-    { icon: "book", title: "CSR Mock Series", desc: "Curated standard mocks", count: "58 Qs", tone: "indigo", setId: "csr_batch_1" },
-    { icon: "flame", title: "Daily Quizzes", desc: "Current-affairs, every day", count: "New today", tone: "rose", setId: window.UPSC.defaultQuestionSetId },
+  const ds = window.UPSC;
+  const [activeBank, setActiveBank] = useStateHome(null);
+  const banks = [
+    { id: "pyq", icon: "calendar", title: "Previous-Year Papers", desc: "2019-2026 · GS Paper I", count: "8 papers", tone: "green", sourceType: "pyq" },
+    { id: "ai", icon: "spark", title: "AI Question Bank", desc: "Topic-wise generated sets", count: "93 Qs", tone: "saffron", sourceType: "ai" },
+    { id: "csr", icon: "book", title: "CSR Mock Series", desc: "Curated standard mocks", count: "58 Qs", tone: "indigo", sourceType: "csr" },
+    { id: "daily", icon: "flame", title: "Daily Quizzes", desc: "Current-affairs, every day", count: "New today", tone: "rose", sourceType: "daily" },
   ];
+  const active = banks.find((bank) => bank.id === activeBank) || null;
   return (
     <section className="bank">
       <div className="bank-head">
         <h3>Explore the question bank</h3>
-        <button className="link-btn" onClick={() => go("test", { setId: "2025" })}>Browse all <Icon name="arrowR" size={14} /></button>
+        <button className="link-btn" onClick={() => setActiveBank(activeBank ? null : "pyq")}>
+          {activeBank ? "Close" : "Browse all"} <Icon name={activeBank ? "x" : "arrowR"} size={14} />
+        </button>
       </div>
       <div className="bank-grid">
-        {sets.map((s) => (
-          <button key={s.title} className={`bank-card tone-${s.tone}`} onClick={() => go("test", { setId: s.setId })}>
+        {banks.map((s) => (
+          <button key={s.title} className={`bank-card tone-${s.tone}${activeBank === s.id ? " selected" : ""}`} onClick={() => setActiveBank(s.id)}>
             <span className="bank-icon"><Icon name={s.icon} size={20} /></span>
             <span className="bank-count">{s.count}</span>
             <strong>{s.title}</strong>
@@ -152,11 +216,207 @@ function BankBrowse({ go }) {
           </button>
         ))}
       </div>
+      {active && (
+        <QuestionSetPicker
+          bank={active}
+          sets={ds.getQuestionSetsBySource(active.sourceType)}
+          go={go}
+          onClose={() => setActiveBank(null)}
+        />
+      )}
     </section>
   );
 }
 
-function Home({ go }) {
+function QuestionSetPicker({ bank, sets, go, onClose }) {
+  return (
+    <div className="set-picker">
+      <div className="set-picker-head">
+        <div>
+          <h4>{bank.title}</h4>
+          <p>{sets.length ? `${sets.length} option${sets.length === 1 ? "" : "s"} available` : "No sets are loaded yet."}</p>
+        </div>
+        <button className="icon-btn ghost" onClick={onClose} aria-label="Close"><Icon name="x" size={17} /></button>
+      </div>
+      <div className="set-grid">
+        {sets.map((set) => (
+          <button key={set.id} className="set-option" onClick={() => go("test", { setId: set.id })}>
+            <span className="set-option-kicker">{set.year || (set.isoDate ? formatIsoDate(set.isoDate, { day: "2-digit", month: "short" }) : set.shortLabel)}</span>
+            <strong>{set.label}</strong>
+            <span>{set.questionCount} questions · {set.durationMinutes} min</span>
+          </button>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function NotesLibrary() {
+  const ds = window.UPSC;
+  const tabs = [["daily", "Daily"], ["weekly", "Weekly"], ["monthly", "Monthly"]];
+  const [cadence, setCadence] = useStateHome("daily");
+  const docs = ds.noteDocuments.filter((doc) => doc.cadence === cadence);
+  const [selectedId, setSelectedId] = useStateHome(docs[0]?.id || null);
+  const [noteState, setNoteState] = useStateHome({ loading: false, error: "", note: null, content: "" });
+
+  useEffectHome(() => {
+    const nextDocs = ds.noteDocuments.filter((doc) => doc.cadence === cadence);
+    setSelectedId(nextDocs[0]?.id || null);
+  }, [cadence]);
+
+  useEffectHome(() => {
+    if (!selectedId) {
+      setNoteState({ loading: false, error: "", note: null, content: "" });
+      return undefined;
+    }
+    let cancelled = false;
+    setNoteState((current) => ({ ...current, loading: true, error: "" }));
+    ds.loadNoteDocument(selectedId)
+      .then((result) => {
+        if (!cancelled) setNoteState({ loading: false, error: "", ...result });
+      })
+      .catch((error) => {
+        if (!cancelled) setNoteState({ loading: false, error: error?.message || "Could not load note.", note: null, content: "" });
+      });
+    return () => { cancelled = true; };
+  }, [selectedId]);
+
+  return (
+    <section className="notes-library">
+      <div className="notes-head">
+        <div>
+          <span className="eyebrow small"><span className="eyebrow-line" /> Notes</span>
+          <h3>Current affairs briefs</h3>
+        </div>
+        <div className="notes-tabs">
+          {tabs.map(([key, label]) => (
+            <button key={key} className={cadence === key ? "on" : ""} onClick={() => setCadence(key)}>{label}</button>
+          ))}
+        </div>
+      </div>
+      <div className="notes-layout">
+        <aside className="notes-list">
+          {docs.length ? docs.map((doc) => (
+            <button key={doc.id} className={selectedId === doc.id ? "on" : ""} onClick={() => setSelectedId(doc.id)}>
+              <strong>{doc.title}</strong>
+              <span>{doc.shortTitle}</span>
+            </button>
+          )) : <p>No {cadence} notes yet.</p>}
+        </aside>
+        <article className="note-reader">
+          {noteState.loading && <p className="muted">Loading note...</p>}
+          {noteState.error && <p className="muted">{noteState.error}</p>}
+          {!noteState.loading && !noteState.error && noteState.content && <MarkdownView text={noteState.content} />}
+          {!noteState.loading && !noteState.error && !noteState.content && <p className="muted">Select a note.</p>}
+        </article>
+      </div>
+    </section>
+  );
+}
+
+function MarkdownView({ text }) {
+  const lines = String(text || "").split(/\r?\n/);
+  const blocks = [];
+  for (let i = 0; i < lines.length;) {
+    const line = lines[i];
+    if (!line.trim()) {
+      i++;
+      continue;
+    }
+    if (/^\|/.test(line)) {
+      const rows = [];
+      while (i < lines.length && /^\|/.test(lines[i])) {
+        if (!/^\|\s*:?-{3,}/.test(lines[i])) rows.push(lines[i].split("|").slice(1, -1).map((cell) => cell.trim()));
+        i++;
+      }
+      blocks.push({ type: "table", rows });
+      continue;
+    }
+    if (/^#{1,4}\s/.test(line)) {
+      const level = line.match(/^#+/)[0].length;
+      blocks.push({ type: "heading", level, text: line.replace(/^#{1,4}\s*/, "") });
+      i++;
+      continue;
+    }
+    if (/^>\s?/.test(line)) {
+      const quote = [];
+      while (i < lines.length && /^>\s?/.test(lines[i])) {
+        quote.push(lines[i].replace(/^>\s?/, ""));
+        i++;
+      }
+      blocks.push({ type: "quote", text: quote.join(" ") });
+      continue;
+    }
+    if (/^---+$/.test(line.trim())) {
+      blocks.push({ type: "rule" });
+      i++;
+      continue;
+    }
+    if (/^[-*]\s+/.test(line)) {
+      const items = [];
+      while (i < lines.length && /^[-*]\s+/.test(lines[i])) {
+        items.push(lines[i].replace(/^[-*]\s+/, ""));
+        i++;
+      }
+      blocks.push({ type: "list", items });
+      continue;
+    }
+    if (/^\d+\.\s+/.test(line)) {
+      const items = [];
+      while (i < lines.length && /^\d+\.\s+/.test(lines[i])) {
+        items.push(lines[i].replace(/^\d+\.\s+/, ""));
+        i++;
+      }
+      blocks.push({ type: "ordered-list", items });
+      continue;
+    }
+    const paragraph = [];
+    while (i < lines.length && lines[i].trim() && !/^#{1,4}\s/.test(lines[i]) && !/^[-*]\s+/.test(lines[i]) && !/^\d+\.\s+/.test(lines[i]) && !/^>\s?/.test(lines[i]) && !/^---+$/.test(lines[i].trim()) && !/^\|/.test(lines[i])) {
+      paragraph.push(lines[i]);
+      i++;
+    }
+    blocks.push({ type: "paragraph", text: paragraph.join(" ") });
+  }
+
+  return (
+    <div className="markdown-view">
+      {blocks.map((block, index) => {
+        if (block.type === "heading") {
+          const TagName = block.level <= 1 ? "h2" : block.level === 2 ? "h3" : "h4";
+          return <TagName key={index}>{renderInline(block.text)}</TagName>;
+        }
+        if (block.type === "quote") return <blockquote key={index}>{renderInline(block.text)}</blockquote>;
+        if (block.type === "list") return <ul key={index}>{block.items.map((item, itemIndex) => <li key={itemIndex}>{renderInline(item)}</li>)}</ul>;
+        if (block.type === "ordered-list") return <ol key={index}>{block.items.map((item, itemIndex) => <li key={itemIndex}>{renderInline(item)}</li>)}</ol>;
+        if (block.type === "rule") return <hr key={index} />;
+        if (block.type === "table") {
+          const [head, ...body] = block.rows;
+          return (
+            <div className="md-table-wrap" key={index}>
+              <table>
+                {head && <thead><tr>{head.map((cell, cellIndex) => <th key={cellIndex}>{renderInline(cell)}</th>)}</tr></thead>}
+                <tbody>{body.map((row, rowIndex) => <tr key={rowIndex}>{row.map((cell, cellIndex) => <td key={cellIndex}>{renderInline(cell)}</td>)}</tr>)}</tbody>
+              </table>
+            </div>
+          );
+        }
+        return <p key={index}>{renderInline(block.text)}</p>;
+      })}
+    </div>
+  );
+}
+
+function renderInline(text) {
+  const parts = String(text).split(/(\*\*[^*]+\*\*|`[^`]+`|\*[^*\n]+\*)/g).filter(Boolean);
+  return parts.map((part, index) => {
+    if (part.startsWith("**") && part.endsWith("**")) return <strong key={index}>{part.slice(2, -2)}</strong>;
+    if (part.startsWith("`") && part.endsWith("`")) return <code key={index}>{part.slice(1, -1)}</code>;
+    if (part.startsWith("*") && part.endsWith("*")) return <em key={index}>{part.slice(1, -1)}</em>;
+    return <React.Fragment key={index}>{part}</React.Fragment>;
+  });
+}
+
+function Home({ go, progress, summary }) {
   return (
     <div className="home">
       <section className="hero">
@@ -173,17 +433,20 @@ function Home({ go }) {
         </div>
       </section>
 
+      <DailyCalendar go={go} progress={progress} />
+
       <div className="home-main">
         <div className="home-col-l">
-          <DailyQuizCard go={go} />
+          <DailyQuizCard go={go} progress={progress} />
           <BuildTest go={go} />
         </div>
         <div className="home-col-r">
-          <Snapshot go={go} />
+          <Snapshot go={go} summary={summary} />
         </div>
       </div>
 
       <BankBrowse go={go} />
+      <NotesLibrary />
     </div>
   );
 }

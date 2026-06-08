@@ -15,7 +15,103 @@ const NAV = [
   { id: "dashboard", label: "Progress", icon: "chart" },
 ];
 
-function TopNav({ screen, go }) {
+const PROGRESS_STORAGE_KEY = "parikshaProgressV2";
+
+function createFreshProgress(resetAt = Date.now()) {
+  return {
+    version: 2,
+    resetAt,
+    history: [],
+    dailyCompletions: {},
+  };
+}
+
+function loadProgress() {
+  try {
+    const parsed = JSON.parse(localStorage.getItem(PROGRESS_STORAGE_KEY) || "");
+    if (parsed?.version === 2 && Array.isArray(parsed.history) && parsed.dailyCompletions) return parsed;
+  } catch (error) {
+    // Ignore malformed local progress and start with a clean local model.
+  }
+  return createFreshProgress();
+}
+
+function saveProgress(progress) {
+  localStorage.setItem(PROGRESS_STORAGE_KEY, JSON.stringify(progress));
+}
+
+function getIsoDate(value = Date.now()) {
+  const date = new Date(value);
+  return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}-${String(date.getDate()).padStart(2, "0")}`;
+}
+
+function formatShortDate(value = Date.now()) {
+  return new Intl.DateTimeFormat("en-GB", { day: "2-digit", month: "short" }).format(new Date(value));
+}
+
+function calculateAttemptSummary(questions, answers) {
+  let correct = 0, wrong = 0, skipped = 0;
+  const subjectBreakdown = {};
+  questions.forEach((q) => {
+    const selected = answers[q.n];
+    const accepted = Array.isArray(q.acceptedAnswers) && q.acceptedAnswers.length ? q.acceptedAnswers : [q.answer].filter(Boolean);
+    const subject = q.subject || "General Studies";
+    subjectBreakdown[subject] = subjectBreakdown[subject] || { correct: 0, attempted: 0, total: 0 };
+    subjectBreakdown[subject].total++;
+    if (!selected) {
+      skipped++;
+      return;
+    }
+    subjectBreakdown[subject].attempted++;
+    if (accepted.includes(selected)) {
+      correct++;
+      subjectBreakdown[subject].correct++;
+    } else {
+      wrong++;
+    }
+  });
+  const attempted = correct + wrong;
+  const score = Math.round((correct * 2 - wrong * 0.66) * 100) / 100;
+  const max = questions.length * 2;
+  const accuracy = Math.round((correct / (attempted || 1)) * 100);
+  return { correct, wrong, skipped, attempted, score, max, accuracy, subjectBreakdown };
+}
+
+function getProgressSummary(progress) {
+  const history = progress?.history || [];
+  const totals = history.reduce((acc, item) => {
+    acc.correct += Number(item.correct) || 0;
+    acc.attempted += Number(item.attempted) || 0;
+    acc.questions += Number(item.attempted) || 0;
+    acc.score = Math.max(acc.score, Number(item.score) || 0);
+    return acc;
+  }, { correct: 0, attempted: 0, questions: 0, score: 0 });
+  return {
+    attempts: history.length,
+    questionsSolved: totals.questions,
+    averageAccuracy: Math.round((totals.correct / (totals.attempted || 1)) * 100),
+    bestScore: Math.round(totals.score * 100) / 100,
+    streak: calculateDailyStreak(progress?.dailyCompletions || {}),
+    resetAt: progress?.resetAt || null,
+  };
+}
+
+function calculateDailyStreak(completions) {
+  let streak = 0;
+  const dailySets = window.UPSC.getQuestionSetsBySource("daily");
+  const availableDates = dailySets.map((set) => set.isoDate).filter(Boolean).sort();
+  const anchorDate = availableDates.includes(window.UPSC.todayIso)
+    ? window.UPSC.todayIso
+    : availableDates[availableDates.length - 1] || window.UPSC.todayIso;
+  const cursor = new Date(`${anchorDate}T00:00:00`);
+  while (completions[getIsoDate(cursor)]) {
+    streak++;
+    cursor.setDate(cursor.getDate() - 1);
+  }
+  return streak;
+}
+
+function TopNav({ screen, go, summary }) {
   const ds = window.UPSC;
   return (
     <header className="topnav">
@@ -29,7 +125,7 @@ function TopNav({ screen, go }) {
           ))}
         </nav>
         <div className="nav-right">
-          <span className="streak-chip"><Icon name="flame" size={15} /> 14</span>
+          <span className="streak-chip"><Icon name="flame" size={15} /> {summary.streak}</span>
           <button className="btn btn-green sm" onClick={() => go("test", { setId: ds.defaultQuestionSetId })}><Icon name="bolt" size={15} /> Daily quiz</button>
         </div>
       </div>
@@ -53,6 +149,8 @@ function App() {
     answers: ds.demoAttempt,
     submittedAt: null,
   });
+  const [progress, setProgress] = useRootState(loadProgress);
+  const summary = getProgressSummary(progress);
 
   useRootEffect(() => {
     const r = document.documentElement;
@@ -80,25 +178,69 @@ function App() {
   }
 
   function finishTest(result) {
+    const submittedAt = Date.now();
+    const attemptSummary = calculateAttemptSummary(result.questions, result.answers);
+    const entry = {
+      id: `${result.questionSet.id}-${submittedAt}`,
+      date: formatShortDate(submittedAt),
+      isoDate: getIsoDate(submittedAt),
+      label: result.questionSet.label,
+      questionSetId: result.questionSet.id,
+      sourceType: result.questionSet.sourceType,
+      score: attemptSummary.score,
+      max: attemptSummary.max,
+      accuracy: attemptSummary.accuracy,
+      attempted: attemptSummary.attempted,
+      correct: attemptSummary.correct,
+      wrong: attemptSummary.wrong,
+      skipped: attemptSummary.skipped,
+      subjectBreakdown: attemptSummary.subjectBreakdown,
+    };
+    setProgress((current) => {
+      const next = {
+        ...current,
+        history: [...(current.history || []), entry],
+        dailyCompletions: { ...(current.dailyCompletions || {}) },
+      };
+      if (result.questionSet.sourceType === "daily" && result.questionSet.isoDate) {
+        next.dailyCompletions[result.questionSet.isoDate] = {
+          submittedAt,
+          questionSetId: result.questionSet.id,
+          score: attemptSummary.score,
+          max: attemptSummary.max,
+        };
+      }
+      saveProgress(next);
+      return next;
+    });
     setLastResult({
       ...result,
-      submittedAt: Date.now(),
+      attemptSummary,
+      submittedAt,
     });
     setScreen("result");
     scrollTop();
+  }
+
+  function resetProgress() {
+    const confirmed = window.confirm("Reset all local stats and daily quiz completion marks? This starts your progress afresh from today.");
+    if (!confirmed) return;
+    const fresh = createFreshProgress();
+    saveProgress(fresh);
+    setProgress(fresh);
   }
 
   const isTest = screen === "test";
 
   return (
     <div className="root">
-      {!isTest && <TopNav screen={screen} go={go} />}
+      {!isTest && <TopNav screen={screen} go={go} summary={summary} />}
       <div key={screen} className="screen-fade">
-        {screen === "home" && <Home go={go} />}
+        {screen === "home" && <Home go={go} progress={progress} summary={summary} />}
         {screen === "test" && <TestScreen go={go} session={testSession} onSubmit={finishTest} />}
         {screen === "result" && <Results go={go} result={lastResult} />}
         {screen === "review" && <Review go={go} result={lastResult} />}
-        {screen === "dashboard" && <Dashboard go={go} />}
+        {screen === "dashboard" && <Dashboard go={go} progress={progress} summary={summary} onResetProgress={resetProgress} />}
       </div>
 
       {!isTest && (

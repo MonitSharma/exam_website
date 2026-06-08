@@ -33,9 +33,10 @@ function Results({ go, result }) {
   const bySub = {};
   qs.forEach((q) => {
     const a = attempt[q.n];
+    const acceptedAnswers = Array.isArray(q.acceptedAnswers) && q.acceptedAnswers.length ? q.acceptedAnswers : [q.answer].filter(Boolean);
     bySub[q.subject] = bySub[q.subject] || { c: 0, t: 0 };
     bySub[q.subject].t++;
-    if (a === q.answer) bySub[q.subject].c++;
+    if (acceptedAnswers.includes(a)) bySub[q.subject].c++;
   });
 
   return (

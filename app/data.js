@@ -297,27 +297,41 @@
     { topic: "Biodiversity conventions", subject: "Environment", acc: 49 },
   ];
 
+  function currentIsoDate(value = new Date()) {
+    return `${value.getFullYear()}-${String(value.getMonth() + 1).padStart(2, "0")}-${String(value.getDate()).padStart(2, "0")}`;
+  }
+
   const years = [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019];
+  const todayIso = currentIsoDate();
   const defaultQuestionSetId = "daily_questions_2026_06_07";
   const defaultPracticeSetId = "2025";
   const questionSets = [
-    { id: "2026", label: "2026 PYQ", shortLabel: "2026", category: "Previous Year Questions", year: 2026, questionCount: 100, durationMinutes: 120, path: "data/processed/upsc_2026_processed.json" },
-    { id: "2025", label: "2025 PYQ", shortLabel: "2025", category: "Previous Year Questions", year: 2025, questionCount: 100, durationMinutes: 120, path: "data/processed/upsc_2025_processed.json" },
-    { id: "2024", label: "2024 PYQ", shortLabel: "2024", category: "Previous Year Questions", year: 2024, questionCount: 100, durationMinutes: 120, path: "data/processed/upsc_2024_processed.json" },
-    { id: "2023", label: "2023 PYQ", shortLabel: "2023", category: "Previous Year Questions", year: 2023, questionCount: 100, durationMinutes: 120, path: "data/processed/upsc_2023_processed.json" },
-    { id: "2022", label: "2022 PYQ", shortLabel: "2022", category: "Previous Year Questions", year: 2022, questionCount: 100, durationMinutes: 120, path: "data/processed/upsc_2022_processed.json" },
-    { id: "2021", label: "2021 PYQ", shortLabel: "2021", category: "Previous Year Questions", year: 2021, questionCount: 100, durationMinutes: 120, path: "data/processed/upsc_2021_processed.json" },
-    { id: "2020", label: "2020 PYQ", shortLabel: "2020", category: "Previous Year Questions", year: 2020, questionCount: 100, durationMinutes: 120, path: "data/processed/upsc_2020_processed.json" },
-    { id: "2019", label: "2019 PYQ", shortLabel: "2019", category: "Previous Year Questions", year: 2019, questionCount: 100, durationMinutes: 120, path: "data/processed/upsc_2019_processed.json" },
-    { id: "ai_generated_batch_1", label: "AI Generated Questions - Batch 1", shortLabel: "AI Batch 1", category: "AI Generated Practice", questionCount: 93, durationMinutes: 120, path: "data/processed/ai_generated_batch_1_processed.json" },
-    { id: "csr_batch_1", label: "CSR Monthly Mock - Batch 1", shortLabel: "CSR Batch 1", category: "CSR Monthly Mock", questionCount: 58, durationMinutes: 120, path: "data/processed/csr_batch_1_processed.json" },
-    { id: defaultQuestionSetId, label: "Daily Questions - Jun 07, 2026", shortLabel: "Daily Jun 07", category: "Daily Questions", questionCount: questions.length, durationMinutes: dailyQuiz.durationMinutes, path: "data/processed/daily_questions_2026_06_07_processed.json" },
+    { id: "2026", label: "2026 PYQ", shortLabel: "2026", category: "Previous Year Questions", sourceType: "pyq", year: 2026, questionCount: 100, durationMinutes: 120, path: "data/processed/upsc_2026_processed.json" },
+    { id: "2025", label: "2025 PYQ", shortLabel: "2025", category: "Previous Year Questions", sourceType: "pyq", year: 2025, questionCount: 100, durationMinutes: 120, path: "data/processed/upsc_2025_processed.json" },
+    { id: "2024", label: "2024 PYQ", shortLabel: "2024", category: "Previous Year Questions", sourceType: "pyq", year: 2024, questionCount: 100, durationMinutes: 120, path: "data/processed/upsc_2024_processed.json" },
+    { id: "2023", label: "2023 PYQ", shortLabel: "2023", category: "Previous Year Questions", sourceType: "pyq", year: 2023, questionCount: 100, durationMinutes: 120, path: "data/processed/upsc_2023_processed.json" },
+    { id: "2022", label: "2022 PYQ", shortLabel: "2022", category: "Previous Year Questions", sourceType: "pyq", year: 2022, questionCount: 100, durationMinutes: 120, path: "data/processed/upsc_2022_processed.json" },
+    { id: "2021", label: "2021 PYQ", shortLabel: "2021", category: "Previous Year Questions", sourceType: "pyq", year: 2021, questionCount: 100, durationMinutes: 120, path: "data/processed/upsc_2021_processed.json" },
+    { id: "2020", label: "2020 PYQ", shortLabel: "2020", category: "Previous Year Questions", sourceType: "pyq", year: 2020, questionCount: 100, durationMinutes: 120, path: "data/processed/upsc_2020_processed.json" },
+    { id: "2019", label: "2019 PYQ", shortLabel: "2019", category: "Previous Year Questions", sourceType: "pyq", year: 2019, questionCount: 100, durationMinutes: 120, path: "data/processed/upsc_2019_processed.json" },
+    { id: "ai_generated_batch_1", label: "AI Generated Questions - Batch 1", shortLabel: "AI Batch 1", category: "AI Generated Practice", sourceType: "ai", questionCount: 93, durationMinutes: 120, path: "data/processed/ai_generated_batch_1_processed.json" },
+    { id: "csr_batch_1", label: "CSR Monthly Mock - Batch 1", shortLabel: "CSR Batch 1", category: "CSR Monthly Mock", sourceType: "csr", questionCount: 58, durationMinutes: 120, path: "data/processed/csr_batch_1_processed.json" },
+    { id: defaultQuestionSetId, label: "Daily Questions - Jun 07, 2026", shortLabel: "Daily Jun 07", category: "Daily Questions", sourceType: "daily", isoDate: dailyQuiz.isoDate, questionCount: questions.length, durationMinutes: dailyQuiz.durationMinutes, path: "data/processed/daily_questions_2026_06_07_processed.json" },
   ];
   const questionCache = new Map([[defaultQuestionSetId, questions]]);
+  const noteDocuments = [
+    { id: "daily-2026-06-07", cadence: "daily", title: "UPSC Daily CA Briefing", shortTitle: "7 Jun 2026", date: "2026-06-07", path: "daily/UPSC_CA_2026-06-07.md" },
+    { id: "weekly-2026-06-07", cadence: "weekly", title: "Sunday Sweep", shortTitle: "Week of 7 Jun", date: "2026-06-07", path: "weekly/Sunday_Sweep_2026-06-07.md" },
+  ];
+  const noteCache = new Map();
 
   function getQuestionSetById(questionSetId) {
     const normalizedId = String(questionSetId || defaultQuestionSetId);
     return questionSets.find((set) => set.id === normalizedId) || questionSets.find((set) => set.id === defaultQuestionSetId);
+  }
+
+  function getQuestionSetsBySource(sourceType) {
+    return questionSets.filter((set) => set.sourceType === sourceType);
   }
 
   async function loadQuestionSet(questionSetId) {
@@ -330,6 +344,17 @@
       questionCache.set(questionSet.id, rows.map((row, index) => normalizeQuestion(row, index, questionSet)));
     }
     return { questionSet, questions: questionCache.get(questionSet.id) };
+  }
+
+  async function loadNoteDocument(noteId) {
+    const note = noteDocuments.find((item) => item.id === noteId);
+    if (!note) throw new Error("Note not found.");
+    if (!noteCache.has(note.id)) {
+      const response = await fetch(note.path);
+      if (!response.ok) throw new Error(`Could not load ${note.title}.`);
+      noteCache.set(note.id, await response.text());
+    }
+    return { note, content: noteCache.get(note.id) };
   }
 
   function normalizeQuestion(row, index, questionSet) {
@@ -381,6 +406,7 @@
 
   window.UPSC = {
     dailyQuiz,
+    todayIso,
     questions,
     demoAttempt,
     history,
@@ -388,9 +414,12 @@
     weakTopics,
     years,
     questionSets,
+    noteDocuments,
     defaultQuestionSetId,
     defaultPracticeSetId,
     getQuestionSetById,
+    getQuestionSetsBySource,
     loadQuestionSet,
+    loadNoteDocument,
   };
 })();
