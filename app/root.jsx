@@ -11,7 +11,7 @@ const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
 
 const NAV = [
   { id: "home", label: "Home", icon: "home" },
-  { id: "test", label: "Practice", icon: "play" },
+  { id: "practice", label: "Practice", icon: "play" },
   { id: "dashboard", label: "Progress", icon: "chart" },
 ];
 
@@ -237,6 +237,7 @@ function App() {
       {!isTest && <TopNav screen={screen} go={go} summary={summary} />}
       <div key={screen} className="screen-fade">
         {screen === "home" && <Home go={go} progress={progress} summary={summary} />}
+        {screen === "practice" && <PracticeScreen go={go} />}
         {screen === "test" && <TestScreen go={go} session={testSession} onSubmit={finishTest} />}
         {screen === "result" && <Results go={go} result={lastResult} />}
         {screen === "review" && <Review go={go} result={lastResult} />}
@@ -271,7 +272,7 @@ function App() {
           onChange={(v) => setTweak("density", v)} />
         <TweakSection label="Jump to screen" />
         <div className="tweak-jump">
-          {[["home", "Home"], ["test", "Test"], ["result", "Results"], ["review", "Review"], ["dashboard", "Progress"]].map(([k, l]) => (
+          {[["home", "Home"], ["practice", "Practice"], ["test", "Test"], ["result", "Results"], ["review", "Review"], ["dashboard", "Progress"]].map(([k, l]) => (
             <button key={k} className={`jbtn${screen === k ? " on" : ""}`} onClick={() => go(k, k === "test" ? { setId: ds.defaultPracticeSetId } : {})}>{l}</button>
           ))}
         </div>
