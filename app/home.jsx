@@ -28,7 +28,7 @@ function formatIsoDate(isoDate, options = { day: "2-digit", month: "short", year
   return new Intl.DateTimeFormat("en-GB", { ...options, timeZone: "UTC" }).format(new Date(Date.UTC(year, month - 1, day)));
 }
 
-function DailyCalendar({ go, progress }) {
+function HeroCalendar({ go, progress }) {
   const ds = window.UPSC;
   const today = ds.todayIso;
   const dailySets = ds.getQuestionSetsBySource("daily");
@@ -41,17 +41,15 @@ function DailyCalendar({ go, progress }) {
   const todaySet = dailyByDate.get(today);
   const latestDaily = dailySets[dailySets.length - 1];
   const monthLabel = new Intl.DateTimeFormat("en-GB", { month: "long", year: "numeric", timeZone: "UTC" }).format(first);
+  const status = todaySet
+    ? done[today] ? "Today’s daily quiz is complete." : "Today’s daily quiz is pending."
+    : latestDaily ? `Latest loaded: ${formatIsoDate(latestDaily.isoDate)}.` : "No daily quiz loaded yet.";
 
   return (
-    <section className="daily-calendar">
-      <div className="calendar-copy">
+    <aside className="hero-calendar">
+      <div className="hero-calendar-head">
         <span className="eyebrow small"><span className="eyebrow-line" /> Daily tracker</span>
         <h2>{monthLabel}</h2>
-        <p>
-          {todaySet
-            ? done[today] ? "Today’s daily quiz is complete." : "Today’s daily quiz is pending."
-            : latestDaily ? `Latest loaded daily quiz: ${formatIsoDate(latestDaily.isoDate)}.` : "No daily quiz is loaded yet."}
-        </p>
       </div>
       <div className="calendar-card">
         <div className="calendar-weekdays">
@@ -78,7 +76,8 @@ function DailyCalendar({ go, progress }) {
           })}
         </div>
       </div>
-    </section>
+      <p className="hero-calendar-foot">{status}</p>
+    </aside>
   );
 }
 
@@ -420,20 +419,21 @@ function Home({ go, progress, summary }) {
   return (
     <div className="home">
       <section className="hero">
-        <div className="hero-inner">
-          <span className="eyebrow"><span className="eyebrow-line" /> Free · No login · Open practice bank</span>
-          <h1 className="hero-title">
-            Every UPSC question,<br /><em>one calm place to practise.</em>
-          </h1>
-          <p className="hero-sub">
-            A decade of previous-year papers, AI-generated sets and a fresh daily quiz —
-            with score tracking that quietly shows you what to revise next.
-          </p>
-          <ExamSwitcher />
+        <div className="hero-grid">
+          <div className="hero-inner">
+            <span className="eyebrow"><span className="eyebrow-line" /> Free · No login · Open practice bank</span>
+            <h1 className="hero-title">
+              Every UPSC question,<br /><em>one calm place to practise.</em>
+            </h1>
+            <p className="hero-sub">
+              A decade of previous-year papers, AI-generated sets and a fresh daily quiz —
+              with score tracking that quietly shows you what to revise next.
+            </p>
+            <ExamSwitcher />
+          </div>
+          <HeroCalendar go={go} progress={progress} />
         </div>
       </section>
-
-      <DailyCalendar go={go} progress={progress} />
 
       <div className="home-main">
         <div className="home-col-l">
