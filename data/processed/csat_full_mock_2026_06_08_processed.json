@@ -1,0 +1,3442 @@
+[
+  {
+    "id": "csat_full_mock_2026_06_08_q001",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 1,
+    "source_question_number": 1,
+    "question": "Democracy is often imagined as a contest of numbers, in which the side commanding the larger count prevails. Yet the deeper purpose of democratic institutions is not merely to register the preference of the majority but to ensure that power, once conferred, remains answerable. A government that wins an election and thereafter governs without restraint has satisfied only the arithmetic of democracy, not its spirit. The genius of constitutional design lies in dispersing authority — between the legislature and the executive, between the union and its provinces, between the state and an independent judiciary — so that no single organ may claim to embody the popular will in its entirety. Decentralization, in this view, is not a concession grudgingly made to regional sentiment but a structural safeguard. When decisions are taken close to those they affect, the citizen ceases to be a distant spectator and becomes a participant whose voice carries weight. The price of such dispersal is a certain slowness; consensus is harder to assemble, and bold action is more easily obstructed. But this friction is not a defect to be engineered away. It is the cost a society pays for keeping power perpetually accountable, and it is a price worth paying.\n\nQ: The central idea of the passage is that:",
+    "options": [
+      {
+        "key": "a",
+        "text": "The dispersal of authority, though it slows governance, keeps power accountable"
+      },
+      {
+        "key": "b",
+        "text": "Decentralization is merely a concession made to satisfy regional sentiment"
+      },
+      {
+        "key": "c",
+        "text": "An elected government should be free to govern without any restraint"
+      },
+      {
+        "key": "d",
+        "text": "Democracy is essentially a method of counting majority preferences"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "The passage argues dispersal of power is a structural safeguard whose cost (slowness) is worth paying for accountability.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Main idea",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q002",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 2,
+    "source_question_number": 2,
+    "question": "Democracy is often imagined as a contest of numbers, in which the side commanding the larger count prevails. Yet the deeper purpose of democratic institutions is not merely to register the preference of the majority but to ensure that power, once conferred, remains answerable. A government that wins an election and thereafter governs without restraint has satisfied only the arithmetic of democracy, not its spirit. The genius of constitutional design lies in dispersing authority — between the legislature and the executive, between the union and its provinces, between the state and an independent judiciary — so that no single organ may claim to embody the popular will in its entirety. Decentralization, in this view, is not a concession grudgingly made to regional sentiment but a structural safeguard. When decisions are taken close to those they affect, the citizen ceases to be a distant spectator and becomes a participant whose voice carries weight. The price of such dispersal is a certain slowness; consensus is harder to assemble, and bold action is more easily obstructed. But this friction is not a defect to be engineered away. It is the cost a society pays for keeping power perpetually accountable, and it is a price worth paying.\n\nQ: The phrase \"the arithmetic of democracy\" refers to:",
+    "options": [
+      {
+        "key": "a",
+        "text": "The slowness inherent in consensus-building"
+      },
+      {
+        "key": "b",
+        "text": "The participation of citizens in local decisions"
+      },
+      {
+        "key": "c",
+        "text": "The constitutional separation of powers"
+      },
+      {
+        "key": "d",
+        "text": "The mere registering of the majority's preference through elections"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "The author contrasts the 'arithmetic' (winning the count) with the 'spirit' (remaining answerable).",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Vocabulary in context",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q003",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 3,
+    "source_question_number": 3,
+    "question": "Democracy is often imagined as a contest of numbers, in which the side commanding the larger count prevails. Yet the deeper purpose of democratic institutions is not merely to register the preference of the majority but to ensure that power, once conferred, remains answerable. A government that wins an election and thereafter governs without restraint has satisfied only the arithmetic of democracy, not its spirit. The genius of constitutional design lies in dispersing authority — between the legislature and the executive, between the union and its provinces, between the state and an independent judiciary — so that no single organ may claim to embody the popular will in its entirety. Decentralization, in this view, is not a concession grudgingly made to regional sentiment but a structural safeguard. When decisions are taken close to those they affect, the citizen ceases to be a distant spectator and becomes a participant whose voice carries weight. The price of such dispersal is a certain slowness; consensus is harder to assemble, and bold action is more easily obstructed. But this friction is not a defect to be engineered away. It is the cost a society pays for keeping power perpetually accountable, and it is a price worth paying.\n\nQ: The author regards the \"slowness\" of decentralized governance as:",
+    "options": [
+      {
+        "key": "a",
+        "text": "An unavoidable but acceptable cost of accountability"
+      },
+      {
+        "key": "b",
+        "text": "Proof that decentralization weakens democracy"
+      },
+      {
+        "key": "c",
+        "text": "Evidence that bold action is always undesirable"
+      },
+      {
+        "key": "d",
+        "text": "A defect that good institutional design should remove"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "He calls the friction 'not a defect to be engineered away' but 'a price worth paying'.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Author's view",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q004",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 4,
+    "source_question_number": 4,
+    "question": "Democracy is often imagined as a contest of numbers, in which the side commanding the larger count prevails. Yet the deeper purpose of democratic institutions is not merely to register the preference of the majority but to ensure that power, once conferred, remains answerable. A government that wins an election and thereafter governs without restraint has satisfied only the arithmetic of democracy, not its spirit. The genius of constitutional design lies in dispersing authority — between the legislature and the executive, between the union and its provinces, between the state and an independent judiciary — so that no single organ may claim to embody the popular will in its entirety. Decentralization, in this view, is not a concession grudgingly made to regional sentiment but a structural safeguard. When decisions are taken close to those they affect, the citizen ceases to be a distant spectator and becomes a participant whose voice carries weight. The price of such dispersal is a certain slowness; consensus is harder to assemble, and bold action is more easily obstructed. But this friction is not a defect to be engineered away. It is the cost a society pays for keeping power perpetually accountable, and it is a price worth paying.\n\nQ: Which of the following, if true, would most weaken the author's argument?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Constitutions typically divide power among several organs"
+      },
+      {
+        "key": "b",
+        "text": "Centralized governments consistently produce more accountable and responsive administration than decentralized ones"
+      },
+      {
+        "key": "c",
+        "text": "Citizens feel more involved when decisions are taken locally"
+      },
+      {
+        "key": "d",
+        "text": "Consensus is harder to build when authority is dispersed"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "The core claim is dispersal -> accountability. Showing centralization yields MORE accountability directly undercuts it; the others restate the author's own points.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Weakening",
+    "nature": "Aptitude",
+    "difficulty": "Hard",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q005",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 5,
+    "source_question_number": 5,
+    "question": "Democracy is often imagined as a contest of numbers, in which the side commanding the larger count prevails. Yet the deeper purpose of democratic institutions is not merely to register the preference of the majority but to ensure that power, once conferred, remains answerable. A government that wins an election and thereafter governs without restraint has satisfied only the arithmetic of democracy, not its spirit. The genius of constitutional design lies in dispersing authority — between the legislature and the executive, between the union and its provinces, between the state and an independent judiciary — so that no single organ may claim to embody the popular will in its entirety. Decentralization, in this view, is not a concession grudgingly made to regional sentiment but a structural safeguard. When decisions are taken close to those they affect, the citizen ceases to be a distant spectator and becomes a participant whose voice carries weight. The price of such dispersal is a certain slowness; consensus is harder to assemble, and bold action is more easily obstructed. But this friction is not a defect to be engineered away. It is the cost a society pays for keeping power perpetually accountable, and it is a price worth paying.\n\nQ: The author's attitude toward \"friction\" in governance is best described as:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Dismissive"
+      },
+      {
+        "key": "b",
+        "text": "Approving"
+      },
+      {
+        "key": "c",
+        "text": "Alarmed"
+      },
+      {
+        "key": "d",
+        "text": "Indifferent"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "Friction is framed positively as the cost of keeping power accountable.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Tone",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q006",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 6,
+    "source_question_number": 6,
+    "question": "India's electricity system is undergoing a transition whose pace has surprised even its planners. By the middle of 2025 the share of installed capacity drawn from non-fossil sources had crossed the halfway mark, a threshold the country had pledged to reach only by 2030 under its international climate commitments. Yet installed capacity is a deceptive measure. A solar park rated at a thousand megawatts produces nothing after sunset and little under heavy cloud; the figure records potential, not delivery. The genuine difficulty of the transition lies not in building generators but in matching a variable supply to a demand that peaks in the evening, precisely when the sun has gone. Storage — in batteries, in pumped reservoirs of water lifted uphill by surplus daytime power — is therefore the hinge on which the whole enterprise turns. Without it, a grid rich in renewable capacity must still keep fossil plants idling in reserve, ready to cover the gap, and the emissions saved on paper are partly lost in practice. The headline number, in short, marks a beginning, not an arrival.\n\nQ: The author argues that installed capacity is a \"deceptive measure\" because it:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Is calculated only at the middle of the year"
+      },
+      {
+        "key": "b",
+        "text": "Overstates the country's climate commitments"
+      },
+      {
+        "key": "c",
+        "text": "Records potential output rather than electricity actually delivered"
+      },
+      {
+        "key": "d",
+        "text": "Excludes the contribution of fossil-fuel plants"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "'The figure records potential, not delivery' — a solar park produces nothing after sunset.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Detail",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q007",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 7,
+    "source_question_number": 7,
+    "question": "India's electricity system is undergoing a transition whose pace has surprised even its planners. By the middle of 2025 the share of installed capacity drawn from non-fossil sources had crossed the halfway mark, a threshold the country had pledged to reach only by 2030 under its international climate commitments. Yet installed capacity is a deceptive measure. A solar park rated at a thousand megawatts produces nothing after sunset and little under heavy cloud; the figure records potential, not delivery. The genuine difficulty of the transition lies not in building generators but in matching a variable supply to a demand that peaks in the evening, precisely when the sun has gone. Storage — in batteries, in pumped reservoirs of water lifted uphill by surplus daytime power — is therefore the hinge on which the whole enterprise turns. Without it, a grid rich in renewable capacity must still keep fossil plants idling in reserve, ready to cover the gap, and the emissions saved on paper are partly lost in practice. The headline number, in short, marks a beginning, not an arrival.\n\nQ: According to the passage, the central difficulty of the energy transition is:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Meeting international climate commitments on time"
+      },
+      {
+        "key": "b",
+        "text": "Matching a variable supply to demand that peaks in the evening"
+      },
+      {
+        "key": "c",
+        "text": "Persuading planners to act faster"
+      },
+      {
+        "key": "d",
+        "text": "Constructing enough solar and wind generators"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "Stated directly: the difficulty 'lies not in building generators but in matching a variable supply to a demand that peaks in the evening'.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Main point",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q008",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 8,
+    "source_question_number": 8,
+    "question": "India's electricity system is undergoing a transition whose pace has surprised even its planners. By the middle of 2025 the share of installed capacity drawn from non-fossil sources had crossed the halfway mark, a threshold the country had pledged to reach only by 2030 under its international climate commitments. Yet installed capacity is a deceptive measure. A solar park rated at a thousand megawatts produces nothing after sunset and little under heavy cloud; the figure records potential, not delivery. The genuine difficulty of the transition lies not in building generators but in matching a variable supply to a demand that peaks in the evening, precisely when the sun has gone. Storage — in batteries, in pumped reservoirs of water lifted uphill by surplus daytime power — is therefore the hinge on which the whole enterprise turns. Without it, a grid rich in renewable capacity must still keep fossil plants idling in reserve, ready to cover the gap, and the emissions saved on paper are partly lost in practice. The headline number, in short, marks a beginning, not an arrival.\n\nQ: The phrase \"the hinge on which the whole enterprise turns\" is used to describe:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Installed capacity"
+      },
+      {
+        "key": "b",
+        "text": "Energy storage"
+      },
+      {
+        "key": "c",
+        "text": "Fossil-fuel reserves"
+      },
+      {
+        "key": "d",
+        "text": "Evening demand"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "Storage (batteries, pumped reservoirs) is named as the hinge of the transition.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Vocabulary in context",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q009",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 9,
+    "source_question_number": 9,
+    "question": "India's electricity system is undergoing a transition whose pace has surprised even its planners. By the middle of 2025 the share of installed capacity drawn from non-fossil sources had crossed the halfway mark, a threshold the country had pledged to reach only by 2030 under its international climate commitments. Yet installed capacity is a deceptive measure. A solar park rated at a thousand megawatts produces nothing after sunset and little under heavy cloud; the figure records potential, not delivery. The genuine difficulty of the transition lies not in building generators but in matching a variable supply to a demand that peaks in the evening, precisely when the sun has gone. Storage — in batteries, in pumped reservoirs of water lifted uphill by surplus daytime power — is therefore the hinge on which the whole enterprise turns. Without it, a grid rich in renewable capacity must still keep fossil plants idling in reserve, ready to cover the gap, and the emissions saved on paper are partly lost in practice. The headline number, in short, marks a beginning, not an arrival.\n\nQ: It can be inferred that, without adequate storage:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Demand would no longer peak in the evening"
+      },
+      {
+        "key": "b",
+        "text": "Installed-capacity figures would have to be revised downward"
+      },
+      {
+        "key": "c",
+        "text": "Renewable capacity cannot be built at all"
+      },
+      {
+        "key": "d",
+        "text": "Some fossil plants must remain on standby, eroding the emission savings"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "Without storage the grid 'must still keep fossil plants idling in reserve' and savings are 'partly lost in practice'.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Inference",
+    "nature": "Aptitude",
+    "difficulty": "Hard",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q010",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 10,
+    "source_question_number": 10,
+    "question": "India's electricity system is undergoing a transition whose pace has surprised even its planners. By the middle of 2025 the share of installed capacity drawn from non-fossil sources had crossed the halfway mark, a threshold the country had pledged to reach only by 2030 under its international climate commitments. Yet installed capacity is a deceptive measure. A solar park rated at a thousand megawatts produces nothing after sunset and little under heavy cloud; the figure records potential, not delivery. The genuine difficulty of the transition lies not in building generators but in matching a variable supply to a demand that peaks in the evening, precisely when the sun has gone. Storage — in batteries, in pumped reservoirs of water lifted uphill by surplus daytime power — is therefore the hinge on which the whole enterprise turns. Without it, a grid rich in renewable capacity must still keep fossil plants idling in reserve, ready to cover the gap, and the emissions saved on paper are partly lost in practice. The headline number, in short, marks a beginning, not an arrival.\n\nQ: The author's overall assessment of crossing the non-fossil halfway mark is that it is:",
+    "options": [
+      {
+        "key": "a",
+        "text": "An arrival that completes the transition"
+      },
+      {
+        "key": "b",
+        "text": "A meaningless statistic with no real significance"
+      },
+      {
+        "key": "c",
+        "text": "A genuine but partial achievement, marking a beginning"
+      },
+      {
+        "key": "d",
+        "text": "A setback for the country's climate goals"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "'The headline number… marks a beginning, not an arrival' — real but partial.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Author's view",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q011",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 11,
+    "source_question_number": 11,
+    "question": "Each wave of automation has been accompanied by a familiar prophecy: that machines will at last exhaust the supply of human work. The prophecy has so far proved wrong, not because technology fails to displace particular tasks — it plainly does — but because the same advances that destroy certain kinds of work tend to enlarge the demand for others. A tool that makes one worker more productive lowers the cost of what she produces, and cheaper goods free income that is then spent on services scarcely imagined before. What is different about the present moment is the breadth of the tasks now exposed. Earlier machines automated the predictable and the routine; the newest systems reach into territory once thought to be the preserve of judgement — drafting, diagnosing, designing. This does not guarantee mass unemployment, for the historical mechanism of compensation may operate as it always has. But it does mean that the transition could be sharper and more concentrated than before, falling heavily on a few occupations within a short span, and the adequacy of any society's response will be measured less by the eventual equilibrium than by how it cushions those caught in the interval.\n\nQ: The \"familiar prophecy\" mentioned by the author refers to the belief that:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Machines will eventually eliminate the supply of human work"
+      },
+      {
+        "key": "b",
+        "text": "Cheaper goods free income for new services"
+      },
+      {
+        "key": "c",
+        "text": "New technologies are confined to routine tasks"
+      },
+      {
+        "key": "d",
+        "text": "Automation always enlarges the demand for human work"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "The prophecy is 'that machines will at last exhaust the supply of human work'.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Detail",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q012",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 12,
+    "source_question_number": 12,
+    "question": "Each wave of automation has been accompanied by a familiar prophecy: that machines will at last exhaust the supply of human work. The prophecy has so far proved wrong, not because technology fails to displace particular tasks — it plainly does — but because the same advances that destroy certain kinds of work tend to enlarge the demand for others. A tool that makes one worker more productive lowers the cost of what she produces, and cheaper goods free income that is then spent on services scarcely imagined before. What is different about the present moment is the breadth of the tasks now exposed. Earlier machines automated the predictable and the routine; the newest systems reach into territory once thought to be the preserve of judgement — drafting, diagnosing, designing. This does not guarantee mass unemployment, for the historical mechanism of compensation may operate as it always has. But it does mean that the transition could be sharper and more concentrated than before, falling heavily on a few occupations within a short span, and the adequacy of any society's response will be measured less by the eventual equilibrium than by how it cushions those caught in the interval.\n\nQ: According to the passage, past prophecies of mass unemployment proved wrong because:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Workers refused to adopt new machines"
+      },
+      {
+        "key": "b",
+        "text": "Technology never actually displaced any tasks"
+      },
+      {
+        "key": "c",
+        "text": "Advances that destroyed some work enlarged the demand for other work"
+      },
+      {
+        "key": "d",
+        "text": "Governments intervened to protect employment"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "The compensation mechanism: the same advances that destroy work 'enlarge the demand for others'.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Cause-effect",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q013",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 13,
+    "source_question_number": 13,
+    "question": "Each wave of automation has been accompanied by a familiar prophecy: that machines will at last exhaust the supply of human work. The prophecy has so far proved wrong, not because technology fails to displace particular tasks — it plainly does — but because the same advances that destroy certain kinds of work tend to enlarge the demand for others. A tool that makes one worker more productive lowers the cost of what she produces, and cheaper goods free income that is then spent on services scarcely imagined before. What is different about the present moment is the breadth of the tasks now exposed. Earlier machines automated the predictable and the routine; the newest systems reach into territory once thought to be the preserve of judgement — drafting, diagnosing, designing. This does not guarantee mass unemployment, for the historical mechanism of compensation may operate as it always has. But it does mean that the transition could be sharper and more concentrated than before, falling heavily on a few occupations within a short span, and the adequacy of any society's response will be measured less by the eventual equilibrium than by how it cushions those caught in the interval.\n\nQ: The author suggests the present moment differs from earlier waves of automation chiefly in:",
+    "options": [
+      {
+        "key": "a",
+        "text": "The complete failure of the compensation mechanism"
+      },
+      {
+        "key": "b",
+        "text": "The reluctance of societies to respond at all"
+      },
+      {
+        "key": "c",
+        "text": "The speed at which machines are physically built"
+      },
+      {
+        "key": "d",
+        "text": "The breadth of tasks now exposed, including those once thought to require judgement"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "'What is different… is the breadth of the tasks now exposed' — drafting, diagnosing, designing.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Inference",
+    "nature": "Aptitude",
+    "difficulty": "Hard",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q014",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 14,
+    "source_question_number": 14,
+    "question": "Each wave of automation has been accompanied by a familiar prophecy: that machines will at last exhaust the supply of human work. The prophecy has so far proved wrong, not because technology fails to displace particular tasks — it plainly does — but because the same advances that destroy certain kinds of work tend to enlarge the demand for others. A tool that makes one worker more productive lowers the cost of what she produces, and cheaper goods free income that is then spent on services scarcely imagined before. What is different about the present moment is the breadth of the tasks now exposed. Earlier machines automated the predictable and the routine; the newest systems reach into territory once thought to be the preserve of judgement — drafting, diagnosing, designing. This does not guarantee mass unemployment, for the historical mechanism of compensation may operate as it always has. But it does mean that the transition could be sharper and more concentrated than before, falling heavily on a few occupations within a short span, and the adequacy of any society's response will be measured less by the eventual equilibrium than by how it cushions those caught in the interval.\n\nQ: Which statement best captures the author's conclusion?",
+    "options": [
+      {
+        "key": "a",
+        "text": "AI poses no challenge different from earlier technologies"
+      },
+      {
+        "key": "b",
+        "text": "The key test is how a society cushions those displaced during the transition"
+      },
+      {
+        "key": "c",
+        "text": "The eventual equilibrium is the only thing that matters"
+      },
+      {
+        "key": "d",
+        "text": "Mass unemployment from AI is inevitable"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "Adequacy is 'measured less by the eventual equilibrium than by how it cushions those caught in the interval'.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Main idea",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q015",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 15,
+    "source_question_number": 15,
+    "question": "A decade ago, the unbanked Indian transacted almost entirely in cash, and the small merchant kept accounts in a ledger that no institution could see. The arrival of a unified, interoperable payments system changed this with unusual speed: by the end of 2025 the network was processing more than twenty billion transactions in a single month, a volume without parallel anywhere in the world. The significance, however, lies less in the count than in what the count makes possible. Every digital transaction leaves a trace, and a trail of traces is, in effect, a credit history. A vegetable seller who once could borrow only from a moneylender at ruinous rates can now present a verifiable record of daily turnover to a formal lender. The same infrastructure that moves small sums cheaply thus quietly assembles the data on which inclusion in the wider financial system depends. Critics warn, rightly, that such a trail can also be a means of surveillance, and that the convenience is not costless. But to the seller who gains access to fair credit for the first time, the ledger that anyone may inspect is also a ledger that finally counts in her favour.\n\nQ: The author maintains that the chief significance of the payments system lies in:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Its being without parallel anywhere in the world"
+      },
+      {
+        "key": "b",
+        "text": "The sheer number of monthly transactions it processes"
+      },
+      {
+        "key": "c",
+        "text": "The data trail it generates, which can serve as a credit history"
+      },
+      {
+        "key": "d",
+        "text": "Its replacement of the traditional moneylender"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "'The significance… lies less in the count than in what the count makes possible' — a credit history.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Main idea",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q016",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 16,
+    "source_question_number": 16,
+    "question": "A decade ago, the unbanked Indian transacted almost entirely in cash, and the small merchant kept accounts in a ledger that no institution could see. The arrival of a unified, interoperable payments system changed this with unusual speed: by the end of 2025 the network was processing more than twenty billion transactions in a single month, a volume without parallel anywhere in the world. The significance, however, lies less in the count than in what the count makes possible. Every digital transaction leaves a trace, and a trail of traces is, in effect, a credit history. A vegetable seller who once could borrow only from a moneylender at ruinous rates can now present a verifiable record of daily turnover to a formal lender. The same infrastructure that moves small sums cheaply thus quietly assembles the data on which inclusion in the wider financial system depends. Critics warn, rightly, that such a trail can also be a means of surveillance, and that the convenience is not costless. But to the seller who gains access to fair credit for the first time, the ledger that anyone may inspect is also a ledger that finally counts in her favour.\n\nQ: The \"trail of traces\" is significant because it:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Protects users from all forms of surveillance"
+      },
+      {
+        "key": "b",
+        "text": "Functions as a verifiable credit history enabling access to formal lending"
+      },
+      {
+        "key": "c",
+        "text": "Eliminates the need for any formal lender"
+      },
+      {
+        "key": "d",
+        "text": "Lowers the cost of moving large sums of money"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "A trail of digital traces 'is, in effect, a credit history' that the seller can present to a formal lender.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Detail",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q017",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 17,
+    "source_question_number": 17,
+    "question": "A decade ago, the unbanked Indian transacted almost entirely in cash, and the small merchant kept accounts in a ledger that no institution could see. The arrival of a unified, interoperable payments system changed this with unusual speed: by the end of 2025 the network was processing more than twenty billion transactions in a single month, a volume without parallel anywhere in the world. The significance, however, lies less in the count than in what the count makes possible. Every digital transaction leaves a trace, and a trail of traces is, in effect, a credit history. A vegetable seller who once could borrow only from a moneylender at ruinous rates can now present a verifiable record of daily turnover to a formal lender. The same infrastructure that moves small sums cheaply thus quietly assembles the data on which inclusion in the wider financial system depends. Critics warn, rightly, that such a trail can also be a means of surveillance, and that the convenience is not costless. But to the seller who gains access to fair credit for the first time, the ledger that anyone may inspect is also a ledger that finally counts in her favour.\n\nQ: The author acknowledges the critics' concern that the system:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Processes too few transactions to matter"
+      },
+      {
+        "key": "b",
+        "text": "Can become a means of surveillance and is not costless"
+      },
+      {
+        "key": "c",
+        "text": "Benefits only large merchants"
+      },
+      {
+        "key": "d",
+        "text": "Cannot generate a usable credit history"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "'Critics warn, rightly, that such a trail can also be a means of surveillance, and… not costless.'",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Detail",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q018",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 18,
+    "source_question_number": 18,
+    "question": "A decade ago, the unbanked Indian transacted almost entirely in cash, and the small merchant kept accounts in a ledger that no institution could see. The arrival of a unified, interoperable payments system changed this with unusual speed: by the end of 2025 the network was processing more than twenty billion transactions in a single month, a volume without parallel anywhere in the world. The significance, however, lies less in the count than in what the count makes possible. Every digital transaction leaves a trace, and a trail of traces is, in effect, a credit history. A vegetable seller who once could borrow only from a moneylender at ruinous rates can now present a verifiable record of daily turnover to a formal lender. The same infrastructure that moves small sums cheaply thus quietly assembles the data on which inclusion in the wider financial system depends. Critics warn, rightly, that such a trail can also be a means of surveillance, and that the convenience is not costless. But to the seller who gains access to fair credit for the first time, the ledger that anyone may inspect is also a ledger that finally counts in her favour.\n\nQ: The tone of the passage as a whole is best described as:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Dismissive of the technology's benefits"
+      },
+      {
+        "key": "b",
+        "text": "Nostalgic for the era of cash"
+      },
+      {
+        "key": "c",
+        "text": "Uniformly alarmed"
+      },
+      {
+        "key": "d",
+        "text": "Broadly favourable while acknowledging a genuine cost"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "It celebrates inclusion yet concedes the surveillance cost — favourable but balanced.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Tone",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q019",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 19,
+    "source_question_number": 19,
+    "question": "The most recent national assessment records that forest and tree cover together now extend over roughly a quarter of the country's land. Read alone, the figure invites complacency, for it has crept upward across successive surveys. But an aggregate conceals as much as it reveals. A hectare of dense, old-growth forest and a hectare of young plantation are counted alike, though they differ enormously in the carbon they hold, the species they shelter, and the water they regulate. Much of the recorded increase comes from plantations and orchards on the margins, even as the richest forests of the interior are nibbled at by roads, mines and the slow encroachment of cultivation. To measure conservation by total cover is therefore to mistake quantity for quality. A wiser accounting would weigh each hectare by what it sustains, and would treat the loss of an ancient forest as a debt that no quantity of saplings can immediately repay.\n\nQ: The author's main contention is that:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Total forest cover is a misleading measure because it ignores quality"
+      },
+      {
+        "key": "b",
+        "text": "Plantations are ecologically equivalent to old-growth forests"
+      },
+      {
+        "key": "c",
+        "text": "The national assessment exaggerates the extent of forest cover"
+      },
+      {
+        "key": "d",
+        "text": "The country's total forest cover has been declining steadily"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "'To measure conservation by total cover is… to mistake quantity for quality.'",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Main idea",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q020",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 20,
+    "source_question_number": 20,
+    "question": "The most recent national assessment records that forest and tree cover together now extend over roughly a quarter of the country's land. Read alone, the figure invites complacency, for it has crept upward across successive surveys. But an aggregate conceals as much as it reveals. A hectare of dense, old-growth forest and a hectare of young plantation are counted alike, though they differ enormously in the carbon they hold, the species they shelter, and the water they regulate. Much of the recorded increase comes from plantations and orchards on the margins, even as the richest forests of the interior are nibbled at by roads, mines and the slow encroachment of cultivation. To measure conservation by total cover is therefore to mistake quantity for quality. A wiser accounting would weigh each hectare by what it sustains, and would treat the loss of an ancient forest as a debt that no quantity of saplings can immediately repay.\n\nQ: The passage suggests that the recorded increase in cover is largely due to:",
+    "options": [
+      {
+        "key": "a",
+        "text": "The regeneration of old-growth interior forests"
+      },
+      {
+        "key": "b",
+        "text": "Plantations and orchards on the margins"
+      },
+      {
+        "key": "c",
+        "text": "The construction of roads and mines"
+      },
+      {
+        "key": "d",
+        "text": "A change in the method of measurement"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "'Much of the recorded increase comes from plantations and orchards on the margins.'",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Detail",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q021",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 21,
+    "source_question_number": 21,
+    "question": "The most recent national assessment records that forest and tree cover together now extend over roughly a quarter of the country's land. Read alone, the figure invites complacency, for it has crept upward across successive surveys. But an aggregate conceals as much as it reveals. A hectare of dense, old-growth forest and a hectare of young plantation are counted alike, though they differ enormously in the carbon they hold, the species they shelter, and the water they regulate. Much of the recorded increase comes from plantations and orchards on the margins, even as the richest forests of the interior are nibbled at by roads, mines and the slow encroachment of cultivation. To measure conservation by total cover is therefore to mistake quantity for quality. A wiser accounting would weigh each hectare by what it sustains, and would treat the loss of an ancient forest as a debt that no quantity of saplings can immediately repay.\n\nQ: By \"to mistake quantity for quality,\" the author means:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Overstating the total area under forest"
+      },
+      {
+        "key": "b",
+        "text": "Judging conservation by area alone while ignoring ecological value"
+      },
+      {
+        "key": "c",
+        "text": "Confusing plantations with orchards"
+      },
+      {
+        "key": "d",
+        "text": "Counting tree cover separately from forest cover"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "Equal hectares can differ hugely in carbon, species and water — value, not just area, matters.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Vocabulary in context",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q022",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 22,
+    "source_question_number": 22,
+    "question": "The most recent national assessment records that forest and tree cover together now extend over roughly a quarter of the country's land. Read alone, the figure invites complacency, for it has crept upward across successive surveys. But an aggregate conceals as much as it reveals. A hectare of dense, old-growth forest and a hectare of young plantation are counted alike, though they differ enormously in the carbon they hold, the species they shelter, and the water they regulate. Much of the recorded increase comes from plantations and orchards on the margins, even as the richest forests of the interior are nibbled at by roads, mines and the slow encroachment of cultivation. To measure conservation by total cover is therefore to mistake quantity for quality. A wiser accounting would weigh each hectare by what it sustains, and would treat the loss of an ancient forest as a debt that no quantity of saplings can immediately repay.\n\nQ: The phrase \"a debt that no quantity of saplings can immediately repay\" implies that:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Saplings are worthless in conservation"
+      },
+      {
+        "key": "b",
+        "text": "Forests should never be cleared for any reason"
+      },
+      {
+        "key": "c",
+        "text": "Planting new trees quickly offsets the loss of old forests"
+      },
+      {
+        "key": "d",
+        "text": "The ecological value of ancient forests cannot be rapidly replaced by new plantings"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "Old-growth value is built over centuries; new saplings cannot immediately substitute for it.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Inference",
+    "nature": "Aptitude",
+    "difficulty": "Hard",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q023",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 23,
+    "source_question_number": 23,
+    "question": "It is tempting to suppose that we first have thoughts, fully formed and silent within us, and only afterwards dress them in words for the benefit of others. On this picture language is a mere garment, and a clumsy one, forever failing to fit the thought beneath. Yet anyone who has struggled to articulate a half-grasped idea knows that the labour of finding words is often the labour of forming the thought itself. The sentence does not report a meaning that preceded it; it brings that meaning into focus, the way a developing photograph brings an image out of a blur. This is not to say that thought is nothing but inner speech, for we can mean more than we manage to say, and a gesture or a silence may carry what no sentence captures. But the common assumption — that the thought is the master and the word its servant — understates how far the available words shape what can be thought at all. A people whose language draws a distinction we lack may, quite literally, notice what we overlook.\n\nQ: The \"tempting\" supposition the author describes is that:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Words always fit the thoughts beneath them"
+      },
+      {
+        "key": "b",
+        "text": "Language shapes the thoughts we are able to have"
+      },
+      {
+        "key": "c",
+        "text": "Thoughts exist fully formed before being expressed in words"
+      },
+      {
+        "key": "d",
+        "text": "Thought is nothing more than inner speech"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "The tempting view: 'we first have thoughts, fully formed… and only afterwards dress them in words.'",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Detail",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q024",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 24,
+    "source_question_number": 24,
+    "question": "It is tempting to suppose that we first have thoughts, fully formed and silent within us, and only afterwards dress them in words for the benefit of others. On this picture language is a mere garment, and a clumsy one, forever failing to fit the thought beneath. Yet anyone who has struggled to articulate a half-grasped idea knows that the labour of finding words is often the labour of forming the thought itself. The sentence does not report a meaning that preceded it; it brings that meaning into focus, the way a developing photograph brings an image out of a blur. This is not to say that thought is nothing but inner speech, for we can mean more than we manage to say, and a gesture or a silence may carry what no sentence captures. But the common assumption — that the thought is the master and the word its servant — understates how far the available words shape what can be thought at all. A people whose language draws a distinction we lack may, quite literally, notice what we overlook.\n\nQ: The analogy of the \"developing photograph\" is used to suggest that:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Photographs are a better medium of meaning than language"
+      },
+      {
+        "key": "b",
+        "text": "Thoughts are always clearer than the words that express them"
+      },
+      {
+        "key": "c",
+        "text": "The act of putting an idea into words helps bring the idea itself into focus"
+      },
+      {
+        "key": "d",
+        "text": "Language always distorts the thought it expresses"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "The sentence 'brings that meaning into focus, the way a developing photograph brings an image out of a blur.'",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Vocabulary in context",
+    "nature": "Aptitude",
+    "difficulty": "Hard",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q025",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 25,
+    "source_question_number": 25,
+    "question": "It is tempting to suppose that we first have thoughts, fully formed and silent within us, and only afterwards dress them in words for the benefit of others. On this picture language is a mere garment, and a clumsy one, forever failing to fit the thought beneath. Yet anyone who has struggled to articulate a half-grasped idea knows that the labour of finding words is often the labour of forming the thought itself. The sentence does not report a meaning that preceded it; it brings that meaning into focus, the way a developing photograph brings an image out of a blur. This is not to say that thought is nothing but inner speech, for we can mean more than we manage to say, and a gesture or a silence may carry what no sentence captures. But the common assumption — that the thought is the master and the word its servant — understates how far the available words shape what can be thought at all. A people whose language draws a distinction we lack may, quite literally, notice what we overlook.\n\nQ: The author qualifies his position by conceding that:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Gestures and silences convey nothing"
+      },
+      {
+        "key": "b",
+        "text": "Thought is entirely identical to inner speech"
+      },
+      {
+        "key": "c",
+        "text": "We can sometimes mean more than we manage to say"
+      },
+      {
+        "key": "d",
+        "text": "Language never shapes thought"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "'We can mean more than we manage to say, and a gesture or a silence may carry what no sentence captures.'",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Detail",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q026",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 26,
+    "source_question_number": 26,
+    "question": "It is tempting to suppose that we first have thoughts, fully formed and silent within us, and only afterwards dress them in words for the benefit of others. On this picture language is a mere garment, and a clumsy one, forever failing to fit the thought beneath. Yet anyone who has struggled to articulate a half-grasped idea knows that the labour of finding words is often the labour of forming the thought itself. The sentence does not report a meaning that preceded it; it brings that meaning into focus, the way a developing photograph brings an image out of a blur. This is not to say that thought is nothing but inner speech, for we can mean more than we manage to say, and a gesture or a silence may carry what no sentence captures. But the common assumption — that the thought is the master and the word its servant — understates how far the available words shape what can be thought at all. A people whose language draws a distinction we lack may, quite literally, notice what we overlook.\n\nQ: The example of \"a people whose language draws a distinction we lack\" supports the claim that:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Thought is the master and the word its servant"
+      },
+      {
+        "key": "b",
+        "text": "Translation between languages is impossible"
+      },
+      {
+        "key": "c",
+        "text": "All languages are ultimately equivalent"
+      },
+      {
+        "key": "d",
+        "text": "The words available to us shape what we are able to notice and think"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "Such a people 'may, quite literally, notice what we overlook' — vocabulary shapes perception/thought.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Inference",
+    "nature": "Aptitude",
+    "difficulty": "Hard",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q027",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 27,
+    "source_question_number": 27,
+    "question": "There is an old reassurance that a rising tide lifts all boats, and for long stretches of history it has held: sustained economic growth has pulled hundreds of millions out of poverty more surely than any programme of redistribution. The reassurance becomes misleading, however, when it is used to dismiss the distribution of gains as irrelevant. Two economies may grow at the same rate while one delivers most of the increase to those already prosperous and the other spreads it broadly; the average conceals the difference. Moreover, where the gains concentrate, they tend to translate into political influence, and influence is used to shape the rules — over taxation, over the terms of competition, over access to opportunity — in ways that entrench the very concentration that produced it. Growth, in other words, is necessary but not self-justifying. The relevant question is not merely how fast an economy expands but who is positioned to capture what it produces, for an expansion whose fruits are captured narrowly can erode the conditions of its own continuation.\n\nQ: The author's primary purpose is to argue that:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Economic growth is irrelevant to reducing poverty"
+      },
+      {
+        "key": "b",
+        "text": "The distribution of growth's gains matters, not just the rate of growth"
+      },
+      {
+        "key": "c",
+        "text": "Redistribution is always superior to growth"
+      },
+      {
+        "key": "d",
+        "text": "A rising tide always lifts all boats equally"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "Growth is 'necessary but not self-justifying'; who captures the gains is the relevant question.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Main idea",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q028",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 28,
+    "source_question_number": 28,
+    "question": "There is an old reassurance that a rising tide lifts all boats, and for long stretches of history it has held: sustained economic growth has pulled hundreds of millions out of poverty more surely than any programme of redistribution. The reassurance becomes misleading, however, when it is used to dismiss the distribution of gains as irrelevant. Two economies may grow at the same rate while one delivers most of the increase to those already prosperous and the other spreads it broadly; the average conceals the difference. Moreover, where the gains concentrate, they tend to translate into political influence, and influence is used to shape the rules — over taxation, over the terms of competition, over access to opportunity — in ways that entrench the very concentration that produced it. Growth, in other words, is necessary but not self-justifying. The relevant question is not merely how fast an economy expands but who is positioned to capture what it produces, for an expansion whose fruits are captured narrowly can erode the conditions of its own continuation.\n\nQ: The point that \"the average conceals the difference\" is meant to show that:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Averages are always inaccurate"
+      },
+      {
+        "key": "b",
+        "text": "Growth rates cannot be measured reliably"
+      },
+      {
+        "key": "c",
+        "text": "Redistribution has no effect on poverty"
+      },
+      {
+        "key": "d",
+        "text": "Two economies with equal growth rates may distribute gains very differently"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "Same growth rate can hide very different distributions — broad vs concentrated.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Detail",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q029",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 29,
+    "source_question_number": 29,
+    "question": "There is an old reassurance that a rising tide lifts all boats, and for long stretches of history it has held: sustained economic growth has pulled hundreds of millions out of poverty more surely than any programme of redistribution. The reassurance becomes misleading, however, when it is used to dismiss the distribution of gains as irrelevant. Two economies may grow at the same rate while one delivers most of the increase to those already prosperous and the other spreads it broadly; the average conceals the difference. Moreover, where the gains concentrate, they tend to translate into political influence, and influence is used to shape the rules — over taxation, over the terms of competition, over access to opportunity — in ways that entrench the very concentration that produced it. Growth, in other words, is necessary but not self-justifying. The relevant question is not merely how fast an economy expands but who is positioned to capture what it produces, for an expansion whose fruits are captured narrowly can erode the conditions of its own continuation.\n\nQ: According to the passage, concentrated gains tend to be self-perpetuating because they:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Automatically raise the overall growth rate"
+      },
+      {
+        "key": "b",
+        "text": "Are converted into political influence used to shape the rules favourably"
+      },
+      {
+        "key": "c",
+        "text": "Reduce the influence of the already prosperous"
+      },
+      {
+        "key": "d",
+        "text": "Are always reinvested in opportunity for all"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "Concentrated gains 'translate into political influence' that entrenches the concentration.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Cause-effect",
+    "nature": "Aptitude",
+    "difficulty": "Hard",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q030",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 30,
+    "source_question_number": 30,
+    "question": "There is an old reassurance that a rising tide lifts all boats, and for long stretches of history it has held: sustained economic growth has pulled hundreds of millions out of poverty more surely than any programme of redistribution. The reassurance becomes misleading, however, when it is used to dismiss the distribution of gains as irrelevant. Two economies may grow at the same rate while one delivers most of the increase to those already prosperous and the other spreads it broadly; the average conceals the difference. Moreover, where the gains concentrate, they tend to translate into political influence, and influence is used to shape the rules — over taxation, over the terms of competition, over access to opportunity — in ways that entrench the very concentration that produced it. Growth, in other words, is necessary but not self-justifying. The relevant question is not merely how fast an economy expands but who is positioned to capture what it produces, for an expansion whose fruits are captured narrowly can erode the conditions of its own continuation.\n\nQ: The phrase \"necessary but not self-justifying\" implies that growth:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Is required, but its value depends on how its gains are distributed"
+      },
+      {
+        "key": "b",
+        "text": "Should be abandoned in favour of redistribution"
+      },
+      {
+        "key": "c",
+        "text": "Cannot reduce poverty under any circumstances"
+      },
+      {
+        "key": "d",
+        "text": "Is sufficient on its own to ensure a good outcome"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "Necessary (it cuts poverty) yet not self-justifying (distribution still matters).",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Vocabulary in context",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q031",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 31,
+    "source_question_number": 31,
+    "question": "Find the next term: 3, 6, 11, 18, 27, ?",
+    "options": [
+      {
+        "key": "a",
+        "text": "42"
+      },
+      {
+        "key": "b",
+        "text": "36"
+      },
+      {
+        "key": "c",
+        "text": "38"
+      },
+      {
+        "key": "d",
+        "text": "40"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "Differences are 3, 5, 7, 9 (consecutive odd numbers); next difference 11, so 27 + 11 = 38.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Number series",
+    "nature": "Aptitude",
+    "difficulty": "Easy",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q032",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 32,
+    "source_question_number": 32,
+    "question": "Find the next term: A, C, F, J, O, ?",
+    "options": [
+      {
+        "key": "a",
+        "text": "U"
+      },
+      {
+        "key": "b",
+        "text": "V"
+      },
+      {
+        "key": "c",
+        "text": "S"
+      },
+      {
+        "key": "d",
+        "text": "T"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "Position numbers 1, 3, 6, 10, 15 increase by 2, 3, 4, 5; next gap 6 -> 15 + 6 = 21 = U.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Letter series",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q033",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 33,
+    "source_question_number": 33,
+    "question": "Which one does NOT belong with the others?",
+    "options": [
+      {
+        "key": "a",
+        "text": "64"
+      },
+      {
+        "key": "b",
+        "text": "100"
+      },
+      {
+        "key": "c",
+        "text": "8"
+      },
+      {
+        "key": "d",
+        "text": "27"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "8=2³, 27=3³, 64=4³ are perfect cubes; 100 is a perfect square, not a cube.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Odd one out",
+    "nature": "Aptitude",
+    "difficulty": "Easy",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q034",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 34,
+    "source_question_number": 34,
+    "question": "In a certain code TEACHER is written as VGCEJGT. How is STUDENT written in that code?",
+    "options": [
+      {
+        "key": "a",
+        "text": "UVXFGPV"
+      },
+      {
+        "key": "b",
+        "text": "UVWFGPV"
+      },
+      {
+        "key": "c",
+        "text": "UWVFGPV"
+      },
+      {
+        "key": "d",
+        "text": "UVWGFPV"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "Each letter is shifted +2. S->U, T->V, U->W, D->F, E->G, N->P, T->V gives UVWFGPV.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Coding-decoding",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q035",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 35,
+    "source_question_number": 35,
+    "question": "Pointing to a photograph, a man said, \"I have no brother or sister, but that man's father is my father's son.\" Whose photograph was it?",
+    "options": [
+      {
+        "key": "a",
+        "text": "His father"
+      },
+      {
+        "key": "b",
+        "text": "His nephew"
+      },
+      {
+        "key": "c",
+        "text": "His own"
+      },
+      {
+        "key": "d",
+        "text": "His son"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "'My father's son' = the man himself (he has no brother). So that man's father is the speaker -> the photo is of his son.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Blood relations",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q036",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 36,
+    "source_question_number": 36,
+    "question": "A man walks 5 km north, turns right and walks 3 km, turns right and walks 5 km, then turns left and walks 4 km. How far and in which direction is he from the start?",
+    "options": [
+      {
+        "key": "a",
+        "text": "7 km East"
+      },
+      {
+        "key": "b",
+        "text": "5 km East"
+      },
+      {
+        "key": "c",
+        "text": "7 km West"
+      },
+      {
+        "key": "d",
+        "text": "4 km East"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "Net: N5 then S5 cancel (y back to 0); E3 then E4 = 7 km east. Distance 7 km, due East.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Directions",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q037",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 37,
+    "source_question_number": 37,
+    "question": "Statements: All poets are dreamers. Some dreamers are realists. Conclusions: I. Some poets are realists. II. Some realists are dreamers. Which follow?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Both I and II"
+      },
+      {
+        "key": "b",
+        "text": "Neither I nor II"
+      },
+      {
+        "key": "c",
+        "text": "Only I"
+      },
+      {
+        "key": "d",
+        "text": "Only II"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "II is the valid converse of 'some dreamers are realists'. I is not certain — the realist-dreamers need not be poets.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Syllogism",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q038",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 38,
+    "source_question_number": 38,
+    "question": "Statements: No scientist is dishonest. All chemists are scientists. Conclusions: I. No chemist is dishonest. II. Some scientists are chemists. Which follow?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only I"
+      },
+      {
+        "key": "b",
+        "text": "Only II"
+      },
+      {
+        "key": "c",
+        "text": "Both I and II"
+      },
+      {
+        "key": "d",
+        "text": "Neither I nor II"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "Chemists ⊆ scientists and no scientist is dishonest -> no chemist is dishonest (I). 'All chemists are scientists' converts to 'some scientists are chemists' (II). Both follow.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Syllogism",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q039",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 39,
+    "source_question_number": 39,
+    "question": "Six friends S, Q, R, P, T and U sit in a row facing north. R is third from the left. P sits immediately to the right of R. S is at the extreme left. Q sits between S and R. T is not at the extreme right end. Who sits at the extreme right end?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Q"
+      },
+      {
+        "key": "b",
+        "text": "T"
+      },
+      {
+        "key": "c",
+        "text": "U"
+      },
+      {
+        "key": "d",
+        "text": "P"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "Order fixes as S(1) Q(2) R(3) P(4); T cannot be 6, so T=5 and U=6. U is at the extreme right.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Seating arrangement",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q040",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 40,
+    "source_question_number": 40,
+    "question": "Carpenter : Saw :: Surgeon : ?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Knife"
+      },
+      {
+        "key": "b",
+        "text": "Scalpel"
+      },
+      {
+        "key": "c",
+        "text": "Patient"
+      },
+      {
+        "key": "d",
+        "text": "Hospital"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "A carpenter's characteristic cutting tool is a saw; a surgeon's is a scalpel.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Analogy",
+    "nature": "Aptitude",
+    "difficulty": "Easy",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q041",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 41,
+    "source_question_number": 41,
+    "question": "If 8 June 2026 is a Monday, what day of the week will 8 June 2027 be?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Tuesday"
+      },
+      {
+        "key": "b",
+        "text": "Wednesday"
+      },
+      {
+        "key": "c",
+        "text": "Sunday"
+      },
+      {
+        "key": "d",
+        "text": "Monday"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "The span (June 2026 to June 2027) contains no 29 Feb, so 365 days = 1 odd day. Monday + 1 = Tuesday.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Calendar",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q042",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 42,
+    "source_question_number": 42,
+    "question": "At what time between 4 o'clock and 5 o'clock are the hands of a clock first at right angles (90°)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "4:38 2/11"
+      },
+      {
+        "key": "b",
+        "text": "4:10 exactly"
+      },
+      {
+        "key": "c",
+        "text": "4:00 exactly"
+      },
+      {
+        "key": "d",
+        "text": "4:05 5/11 (5 5/11 min past 4)"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "Angle = |30H - 5.5M|. At H=4: |120 - 5.5M| = 90. First solution 120 - 5.5M = 90 -> M = 30/5.5 = 60/11 = 5 5/11 min.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Clocks",
+    "nature": "Aptitude",
+    "difficulty": "Hard",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q043",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 43,
+    "source_question_number": 43,
+    "question": "Statement (office notice): \"Please switch off all lights and air-conditioners before leaving the office.\" Assumptions: I. Employees may otherwise forget to switch them off. II. Leaving them on wastes electricity. Which assumption is implicit?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only II"
+      },
+      {
+        "key": "b",
+        "text": "Both I and II"
+      },
+      {
+        "key": "c",
+        "text": "Neither I nor II"
+      },
+      {
+        "key": "d",
+        "text": "Only I"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "The notice presupposes both that staff might forget (I) and that leaving appliances on is wasteful (II); both are implicit.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Statement & assumptions",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q044",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 44,
+    "source_question_number": 44,
+    "question": "Statement: \"Despite repeated warnings, some commuters keep crossing the railway tracks instead of using the foot-over-bridge, causing fatal accidents.\" Courses of action: I. Erect boundary fencing along the tracks at such spots. II. Immediately imprison every commuter who crosses the tracks. Which follows?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Both I and II"
+      },
+      {
+        "key": "b",
+        "text": "Neither I nor II"
+      },
+      {
+        "key": "c",
+        "text": "Only I"
+      },
+      {
+        "key": "d",
+        "text": "Only II"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "I is a feasible preventive measure that addresses the cause. II is disproportionate and impractical.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Course of action",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q045",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 45,
+    "source_question_number": 45,
+    "question": "\"Over the last decade, the price of solar panels has fallen by nearly 80%, while the cost of grid electricity from coal has risen.\" Which is the most reasonable inference?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Solar panels are now effectively free"
+      },
+      {
+        "key": "b",
+        "text": "Grid electricity is no longer used anywhere"
+      },
+      {
+        "key": "c",
+        "text": "Coal plants will all shut down within a year"
+      },
+      {
+        "key": "d",
+        "text": "Solar power has become relatively more cost-competitive with coal-based grid power over the decade"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "Falling solar cost plus rising coal cost implies relative cost-competitiveness improved; the others overreach.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Inference",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q046",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 46,
+    "source_question_number": 46,
+    "question": "In a class, Ravi is 7th from the top and 26th from the bottom. How many students are in the class?",
+    "options": [
+      {
+        "key": "a",
+        "text": "32"
+      },
+      {
+        "key": "b",
+        "text": "33"
+      },
+      {
+        "key": "c",
+        "text": "31"
+      },
+      {
+        "key": "d",
+        "text": "34"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "Total = (rank from top) + (rank from bottom) - 1 = 7 + 26 - 1 = 32.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Ranking",
+    "nature": "Aptitude",
+    "difficulty": "Easy",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q047",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 47,
+    "source_question_number": 47,
+    "question": "A is taller than B but shorter than C. D is taller than C but shorter than E. Who is the tallest?",
+    "options": [
+      {
+        "key": "a",
+        "text": "D"
+      },
+      {
+        "key": "b",
+        "text": "E"
+      },
+      {
+        "key": "c",
+        "text": "A"
+      },
+      {
+        "key": "d",
+        "text": "C"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "B < A < C < D < E, so E is the tallest.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Ordering",
+    "nature": "Aptitude",
+    "difficulty": "Easy",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q048",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 48,
+    "source_question_number": 48,
+    "question": "Three boxes are labelled 'Apples', 'Oranges' and 'Apples & Oranges'. Every label is wrong. Drawing one fruit (without looking) from which box lets you correctly label all three?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The box labelled 'Apples & Oranges'"
+      },
+      {
+        "key": "b",
+        "text": "Any box will work"
+      },
+      {
+        "key": "c",
+        "text": "The box labelled 'Apples'"
+      },
+      {
+        "key": "d",
+        "text": "The box labelled 'Oranges'"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "The mixed-labelled box cannot be mixed (label is wrong), so its single drawn fruit reveals its true contents; the other two then follow uniquely.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Logical puzzle",
+    "nature": "Aptitude",
+    "difficulty": "Hard",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q049",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 49,
+    "source_question_number": 49,
+    "question": "In a group, everyone who plays chess also plays tennis; some tennis players do not play chess; no tennis player dislikes outdoor games. Which must be TRUE?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Some chess players dislike outdoor games"
+      },
+      {
+        "key": "b",
+        "text": "No one in the group plays chess"
+      },
+      {
+        "key": "c",
+        "text": "Everyone who plays chess plays tennis and does not dislike outdoor games"
+      },
+      {
+        "key": "d",
+        "text": "Everyone who plays tennis plays chess"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "Chess -> tennis -> (does not dislike outdoor games). So every chess player plays tennis and likes outdoor games.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Logical deduction",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q050",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 50,
+    "source_question_number": 50,
+    "question": "If '+' means '÷', '÷' means '−', '−' means '×', and '×' means '+', then 16 + 4 ÷ 5 − 2 × 3 = ?",
+    "options": [
+      {
+        "key": "a",
+        "text": "−3"
+      },
+      {
+        "key": "b",
+        "text": "3"
+      },
+      {
+        "key": "c",
+        "text": "9"
+      },
+      {
+        "key": "d",
+        "text": "6"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "Substitute: 16 ÷ 4 − 5 × 2 + 3. BODMAS: (16÷4)=4, (5×2)=10 -> 4 − 10 + 3 = −3.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Symbol operations",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q051",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 51,
+    "source_question_number": 51,
+    "question": "A cube painted red on all six faces is cut into 27 equal smaller cubes. How many small cubes have exactly two faces painted?",
+    "options": [
+      {
+        "key": "a",
+        "text": "12"
+      },
+      {
+        "key": "b",
+        "text": "6"
+      },
+      {
+        "key": "c",
+        "text": "1"
+      },
+      {
+        "key": "d",
+        "text": "8"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "In a 3×3×3 cut, exactly-two-face cubes are the edge (non-corner) cubes: 12 edges × 1 each = 12.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Cubes",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q052",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 52,
+    "source_question_number": 52,
+    "question": "A city imposed a congestion charge downtown; the next year average downtown traffic speeds rose 15%, and the city credited the charge. Which, if true, MOST strengthens that conclusion?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Public-transport fares also rose that year"
+      },
+      {
+        "key": "b",
+        "text": "Comparable nearby cities without any charge saw no change in traffic speeds over the same year"
+      },
+      {
+        "key": "c",
+        "text": "The downtown resident population increased that year"
+      },
+      {
+        "key": "d",
+        "text": "Fuel prices fell during the year"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "A control group (similar cities, no charge) showing no change isolates the charge as the cause, strengthening the claim.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Strengthening",
+    "nature": "Aptitude",
+    "difficulty": "Hard",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q053",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 53,
+    "source_question_number": 53,
+    "question": "The price of an item is first increased by 25% and then decreased by 20%. The net change in price is:",
+    "options": [
+      {
+        "key": "a",
+        "text": "5% decrease"
+      },
+      {
+        "key": "b",
+        "text": "10% increase"
+      },
+      {
+        "key": "c",
+        "text": "5% increase"
+      },
+      {
+        "key": "d",
+        "text": "No change"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "1.25 × 0.80 = 1.00, so the final price equals the original — no net change.",
+    "subject": "CSAT",
+    "theme": "Quant",
+    "micro_topic": "Percentages",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q054",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 54,
+    "source_question_number": 54,
+    "question": "A sum is divided among A, B, C in the ratio 2 : 3 : 5. If C receives ₹600 more than A, the total sum is:",
+    "options": [
+      {
+        "key": "a",
+        "text": "₹2000"
+      },
+      {
+        "key": "b",
+        "text": "₹2400"
+      },
+      {
+        "key": "c",
+        "text": "₹1800"
+      },
+      {
+        "key": "d",
+        "text": "₹2200"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "Shares 2k,3k,5k. C - A = 5k - 2k = 3k = 600 -> k = 200. Total = 10k = ₹2000.",
+    "subject": "CSAT",
+    "theme": "Quant",
+    "micro_topic": "Ratio & proportion",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q055",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 55,
+    "source_question_number": 55,
+    "question": "The average of 11 numbers is 30. The average of the first six is 28 and of the last six is 33. The sixth number is:",
+    "options": [
+      {
+        "key": "a",
+        "text": "33"
+      },
+      {
+        "key": "b",
+        "text": "28"
+      },
+      {
+        "key": "c",
+        "text": "36"
+      },
+      {
+        "key": "d",
+        "text": "30"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "Sum(11)=330. First six=168, last six=198; they overlap at the 6th. 168+198 = 366 = 330 + 6th -> 6th = 36.",
+    "subject": "CSAT",
+    "theme": "Quant",
+    "micro_topic": "Averages",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q056",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 56,
+    "source_question_number": 56,
+    "question": "A train 180 m long crosses a platform 270 m long in 30 seconds. Its speed is:",
+    "options": [
+      {
+        "key": "a",
+        "text": "60 km/h"
+      },
+      {
+        "key": "b",
+        "text": "50 km/h"
+      },
+      {
+        "key": "c",
+        "text": "54 km/h"
+      },
+      {
+        "key": "d",
+        "text": "45 km/h"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "Distance = 180 + 270 = 450 m in 30 s -> 15 m/s -> 15 × 3.6 = 54 km/h.",
+    "subject": "CSAT",
+    "theme": "Quant",
+    "micro_topic": "Time, speed & distance",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q057",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 57,
+    "source_question_number": 57,
+    "question": "A can finish a job in 12 days and B in 18 days. They work together for 3 days, then A leaves. In how many MORE days will B finish the remaining work?",
+    "options": [
+      {
+        "key": "a",
+        "text": "10.5 days"
+      },
+      {
+        "key": "b",
+        "text": "9 days"
+      },
+      {
+        "key": "c",
+        "text": "12 days"
+      },
+      {
+        "key": "d",
+        "text": "7.5 days"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "Together/day = 1/12 + 1/18 = 5/36. In 3 days = 15/36 = 5/12 done; remaining 7/12. B's rate 1/18 -> (7/12)÷(1/18) = 10.5 days.",
+    "subject": "CSAT",
+    "theme": "Quant",
+    "micro_topic": "Time & work",
+    "nature": "Aptitude",
+    "difficulty": "Hard",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q058",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 58,
+    "source_question_number": 58,
+    "question": "A shopkeeper marks goods 40% above cost and then allows a 25% discount on the marked price. His profit percent is:",
+    "options": [
+      {
+        "key": "a",
+        "text": "15%"
+      },
+      {
+        "key": "b",
+        "text": "4%"
+      },
+      {
+        "key": "c",
+        "text": "5%"
+      },
+      {
+        "key": "d",
+        "text": "10%"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "MP = 1.40·CP; SP = 0.75 × 1.40·CP = 1.05·CP -> 5% profit.",
+    "subject": "CSAT",
+    "theme": "Quant",
+    "micro_topic": "Profit & loss",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q059",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 59,
+    "source_question_number": 59,
+    "question": "The present ages of a father and son are in the ratio 7 : 2. After 10 years the ratio becomes 9 : 4. The father's present age is:",
+    "options": [
+      {
+        "key": "a",
+        "text": "42 years"
+      },
+      {
+        "key": "b",
+        "text": "28 years"
+      },
+      {
+        "key": "c",
+        "text": "49 years"
+      },
+      {
+        "key": "d",
+        "text": "35 years"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "7x,2x. (7x+10)/(2x+10) = 9/4 -> 28x+40 = 18x+90 -> 10x = 50 -> x=5. Father = 7×5 = 35 (check 45/20 = 9/4).",
+    "subject": "CSAT",
+    "theme": "Quant",
+    "micro_topic": "Ages",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q060",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 60,
+    "source_question_number": 60,
+    "question": "A bag has 4 red and 6 blue balls. Two balls are drawn at random without replacement. The probability that both are red is:",
+    "options": [
+      {
+        "key": "a",
+        "text": "2/15"
+      },
+      {
+        "key": "b",
+        "text": "1/5"
+      },
+      {
+        "key": "c",
+        "text": "4/25"
+      },
+      {
+        "key": "d",
+        "text": "1/15"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "C(4,2)/C(10,2) = 6/45 = 2/15.",
+    "subject": "CSAT",
+    "theme": "Quant",
+    "micro_topic": "Probability",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q061",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 61,
+    "source_question_number": 61,
+    "question": "The difference between the compound interest and the simple interest on a sum for 2 years at 10% per annum is ₹50. The sum is:",
+    "options": [
+      {
+        "key": "a",
+        "text": "₹4000"
+      },
+      {
+        "key": "b",
+        "text": "₹6000"
+      },
+      {
+        "key": "c",
+        "text": "₹5500"
+      },
+      {
+        "key": "d",
+        "text": "₹5000"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "For 2 years, CI - SI = P(r/100)² = P(0.1)² = 0.01P = 50 -> P = ₹5000.",
+    "subject": "CSAT",
+    "theme": "Quant",
+    "micro_topic": "Interest",
+    "nature": "Aptitude",
+    "difficulty": "Hard",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q062",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 62,
+    "source_question_number": 62,
+    "question": "The HCF of two numbers is 12 and their LCM is 144. If one number is 36, the other is:",
+    "options": [
+      {
+        "key": "a",
+        "text": "24"
+      },
+      {
+        "key": "b",
+        "text": "60"
+      },
+      {
+        "key": "c",
+        "text": "48"
+      },
+      {
+        "key": "d",
+        "text": "36"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "Product = HCF × LCM = 12 × 144 = 1728. Other = 1728 / 36 = 48 (HCF(36,48)=12, LCM=144 ✓).",
+    "subject": "CSAT",
+    "theme": "Quant",
+    "micro_topic": "HCF & LCM",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q063",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 63,
+    "source_question_number": 63,
+    "question": "In what ratio must rice at ₹30/kg be mixed with rice at ₹45/kg to obtain a mixture worth ₹40/kg?",
+    "options": [
+      {
+        "key": "a",
+        "text": "2 : 1"
+      },
+      {
+        "key": "b",
+        "text": "1 : 3"
+      },
+      {
+        "key": "c",
+        "text": "3 : 1"
+      },
+      {
+        "key": "d",
+        "text": "1 : 2"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "Alligation: (45-40) : (40-30) = 5 : 10 = 1 : 2 (cheaper : dearer).",
+    "subject": "CSAT",
+    "theme": "Quant",
+    "micro_topic": "Alligation / mixtures",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q064",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 64,
+    "source_question_number": 64,
+    "question": "A wire is bent into a square of area 121 cm². The same wire is then bent into a circle. Its radius is (take π = 22/7):",
+    "options": [
+      {
+        "key": "a",
+        "text": "7 cm"
+      },
+      {
+        "key": "b",
+        "text": "11 cm"
+      },
+      {
+        "key": "c",
+        "text": "14 cm"
+      },
+      {
+        "key": "d",
+        "text": "22 cm"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "Square side = 11 cm, perimeter = 44 cm = circumference = 2πr -> (44/7)r = 44 -> r = 7 cm.",
+    "subject": "CSAT",
+    "theme": "Quant",
+    "micro_topic": "Mensuration",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q065",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 65,
+    "source_question_number": 65,
+    "question": "In how many distinct ways can the letters of the word LEVEL be arranged?",
+    "options": [
+      {
+        "key": "a",
+        "text": "20"
+      },
+      {
+        "key": "b",
+        "text": "30"
+      },
+      {
+        "key": "c",
+        "text": "60"
+      },
+      {
+        "key": "d",
+        "text": "120"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "5 letters with L twice and E twice: 5!/(2!·2!) = 120/4 = 30.",
+    "subject": "CSAT",
+    "theme": "Quant",
+    "micro_topic": "Permutations",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q066",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 66,
+    "source_question_number": 66,
+    "question": "A shopkeeper sells two articles for ₹990 each, gaining 10% on one and losing 10% on the other. Overall he makes:",
+    "options": [
+      {
+        "key": "a",
+        "text": "a 1% gain"
+      },
+      {
+        "key": "b",
+        "text": "no profit and no loss"
+      },
+      {
+        "key": "c",
+        "text": "a 10% loss"
+      },
+      {
+        "key": "d",
+        "text": "a 1% loss"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "CP1 = 990/1.1 = 900; CP2 = 990/0.9 = 1100. Total CP = 2000, total SP = 1980 -> loss 20/2000 = 1%.",
+    "subject": "CSAT",
+    "theme": "Quant",
+    "micro_topic": "Profit & loss",
+    "nature": "Aptitude",
+    "difficulty": "Hard",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q067",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 67,
+    "source_question_number": 67,
+    "question": "Study the table below. It shows the number of units (in thousands) of a product sold by a company in four regions over three years.\n\n| Region | 2023 | 2024 | 2025 |\n|--------|-----:|-----:|-----:|\n| North  | 120  | 150  | 180  |\n| South  | 90   | 120  | 150  |\n| East   | 60   | 90   | 120  |\n| West   | 150  | 120  | 90   |\n\nYearly totals: 2023 = 420, 2024 = 480, 2025 = 540 (thousand units).\n\nQ: What is the total number of units (in thousands) sold by the company in 2024?",
+    "options": [
+      {
+        "key": "a",
+        "text": "450"
+      },
+      {
+        "key": "b",
+        "text": "480"
+      },
+      {
+        "key": "c",
+        "text": "540"
+      },
+      {
+        "key": "d",
+        "text": "420"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "2024 column: 150 + 120 + 90 + 120 = 480 thousand units.",
+    "subject": "CSAT",
+    "theme": "DI",
+    "micro_topic": "Table DI",
+    "nature": "Aptitude",
+    "difficulty": "Easy",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q068",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 68,
+    "source_question_number": 68,
+    "question": "Study the table below. It shows the number of units (in thousands) of a product sold by a company in four regions over three years.\n\n| Region | 2023 | 2024 | 2025 |\n|--------|-----:|-----:|-----:|\n| North  | 120  | 150  | 180  |\n| South  | 90   | 120  | 150  |\n| East   | 60   | 90   | 120  |\n| West   | 150  | 120  | 90   |\n\nYearly totals: 2023 = 420, 2024 = 480, 2025 = 540 (thousand units).\n\nQ: The percentage increase in total sales from 2023 to 2025 is approximately:",
+    "options": [
+      {
+        "key": "a",
+        "text": "30%"
+      },
+      {
+        "key": "b",
+        "text": "20%"
+      },
+      {
+        "key": "c",
+        "text": "25%"
+      },
+      {
+        "key": "d",
+        "text": "28.6%"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "(540 - 420)/420 × 100 = 120/420 × 100 = 28.57% ≈ 28.6%.",
+    "subject": "CSAT",
+    "theme": "DI",
+    "micro_topic": "Table DI",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q069",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 69,
+    "source_question_number": 69,
+    "question": "Study the table below. It shows the number of units (in thousands) of a product sold by a company in four regions over three years.\n\n| Region | 2023 | 2024 | 2025 |\n|--------|-----:|-----:|-----:|\n| North  | 120  | 150  | 180  |\n| South  | 90   | 120  | 150  |\n| East   | 60   | 90   | 120  |\n| West   | 150  | 120  | 90   |\n\nYearly totals: 2023 = 420, 2024 = 480, 2025 = 540 (thousand units).\n\nQ: Which region recorded a continuous decline in sales over the three years?",
+    "options": [
+      {
+        "key": "a",
+        "text": "West"
+      },
+      {
+        "key": "b",
+        "text": "North"
+      },
+      {
+        "key": "c",
+        "text": "South"
+      },
+      {
+        "key": "d",
+        "text": "East"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "West fell 150 -> 120 -> 90; the other three rose each year.",
+    "subject": "CSAT",
+    "theme": "DI",
+    "micro_topic": "Table DI",
+    "nature": "Aptitude",
+    "difficulty": "Easy",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q070",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 70,
+    "source_question_number": 70,
+    "question": "Study the table below. It shows the number of units (in thousands) of a product sold by a company in four regions over three years.\n\n| Region | 2023 | 2024 | 2025 |\n|--------|-----:|-----:|-----:|\n| North  | 120  | 150  | 180  |\n| South  | 90   | 120  | 150  |\n| East   | 60   | 90   | 120  |\n| West   | 150  | 120  | 90   |\n\nYearly totals: 2023 = 420, 2024 = 480, 2025 = 540 (thousand units).\n\nQ: In 2025, sales in the North region were what percentage of that year's total sales?",
+    "options": [
+      {
+        "key": "a",
+        "text": "33.3%"
+      },
+      {
+        "key": "b",
+        "text": "40%"
+      },
+      {
+        "key": "c",
+        "text": "25%"
+      },
+      {
+        "key": "d",
+        "text": "30%"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "180 / 540 × 100 = 33.33%.",
+    "subject": "CSAT",
+    "theme": "DI",
+    "micro_topic": "Table DI",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q071",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 71,
+    "source_question_number": 71,
+    "question": "A family's monthly budget of ₹60,000 is allocated as follows:\n\n| Category      | Share |\n|---------------|------:|\n| Food          | 30%   |\n| Rent          | 25%   |\n| Education      | 15%  |\n| Savings       | 20%   |\n| Miscellaneous | 10%   |\n\nAmounts: Food ₹18,000; Rent ₹15,000; Education ₹9,000; Savings ₹12,000; Misc ₹6,000.\n\nQ: How much does the family spend on Food and Education together each month?",
+    "options": [
+      {
+        "key": "a",
+        "text": "₹21,000"
+      },
+      {
+        "key": "b",
+        "text": "₹24,000"
+      },
+      {
+        "key": "c",
+        "text": "₹27,000"
+      },
+      {
+        "key": "d",
+        "text": "₹30,000"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "Food 30% = 18,000 and Education 15% = 9,000; together = ₹27,000.",
+    "subject": "CSAT",
+    "theme": "DI",
+    "micro_topic": "Budget/Pie DI",
+    "nature": "Aptitude",
+    "difficulty": "Easy",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q072",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 72,
+    "source_question_number": 72,
+    "question": "A family's monthly budget of ₹60,000 is allocated as follows:\n\n| Category      | Share |\n|---------------|------:|\n| Food          | 30%   |\n| Rent          | 25%   |\n| Education      | 15%  |\n| Savings       | 20%   |\n| Miscellaneous | 10%   |\n\nAmounts: Food ₹18,000; Rent ₹15,000; Education ₹9,000; Savings ₹12,000; Misc ₹6,000.\n\nQ: The amount allocated to Rent exceeds the amount for Miscellaneous by:",
+    "options": [
+      {
+        "key": "a",
+        "text": "₹9,000"
+      },
+      {
+        "key": "b",
+        "text": "₹12,000"
+      },
+      {
+        "key": "c",
+        "text": "₹3,000"
+      },
+      {
+        "key": "d",
+        "text": "₹6,000"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "Rent 25% = 15,000; Misc 10% = 6,000; difference = ₹9,000.",
+    "subject": "CSAT",
+    "theme": "DI",
+    "micro_topic": "Budget/Pie DI",
+    "nature": "Aptitude",
+    "difficulty": "Easy",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q073",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 73,
+    "source_question_number": 73,
+    "question": "A family's monthly budget of ₹60,000 is allocated as follows:\n\n| Category      | Share |\n|---------------|------:|\n| Food          | 30%   |\n| Rent          | 25%   |\n| Education      | 15%  |\n| Savings       | 20%   |\n| Miscellaneous | 10%   |\n\nAmounts: Food ₹18,000; Rent ₹15,000; Education ₹9,000; Savings ₹12,000; Misc ₹6,000.\n\nQ: If next year the total budget rises to ₹72,000 and the Savings percentage is unchanged, the new Savings amount is:",
+    "options": [
+      {
+        "key": "a",
+        "text": "₹16,000"
+      },
+      {
+        "key": "b",
+        "text": "₹12,000"
+      },
+      {
+        "key": "c",
+        "text": "₹13,200"
+      },
+      {
+        "key": "d",
+        "text": "₹14,400"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "Savings stays 20% -> 0.20 × 72,000 = ₹14,400.",
+    "subject": "CSAT",
+    "theme": "DI",
+    "micro_topic": "Budget/Pie DI",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q074",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 74,
+    "source_question_number": 74,
+    "question": "A family's monthly budget of ₹60,000 is allocated as follows:\n\n| Category      | Share |\n|---------------|------:|\n| Food          | 30%   |\n| Rent          | 25%   |\n| Education      | 15%  |\n| Savings       | 20%   |\n| Miscellaneous | 10%   |\n\nAmounts: Food ₹18,000; Rent ₹15,000; Education ₹9,000; Savings ₹12,000; Misc ₹6,000.\n\nQ: In a pie chart of this budget, the central angle representing Food is:",
+    "options": [
+      {
+        "key": "a",
+        "text": "108°"
+      },
+      {
+        "key": "b",
+        "text": "120°"
+      },
+      {
+        "key": "c",
+        "text": "72°"
+      },
+      {
+        "key": "d",
+        "text": "90°"
+      }
+    ],
+    "answer_option": "a",
+    "accepted_answer_options": [
+      "a"
+    ],
+    "explanation": "Food is 30% of the circle -> 0.30 × 360° = 108°.",
+    "subject": "CSAT",
+    "theme": "DI",
+    "micro_topic": "Budget/Pie DI",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q075",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 75,
+    "source_question_number": 75,
+    "question": "You are a junior officer. Your senior verbally instructs you to clear a file that you believe violates a financial rule. The most appropriate course of action is to:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Approve it at once, since seniors must be obeyed"
+      },
+      {
+        "key": "b",
+        "text": "Refuse outright and report the senior to the anti-corruption bureau"
+      },
+      {
+        "key": "c",
+        "text": "Record your reservations in writing, seek clarification, and proceed only if the objection is satisfactorily resolved"
+      },
+      {
+        "key": "d",
+        "text": "Quietly sit on the file indefinitely without informing anyone"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "Balances rule-compliance with respect for hierarchy: noting objections in writing protects both the institution and the officer.",
+    "subject": "CSAT",
+    "theme": "Decision-Making",
+    "micro_topic": "Administrative integrity",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q076",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 76,
+    "source_question_number": 76,
+    "question": "As a team leader you find that a personal conflict between two members is affecting work. You would:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Reprimand both in front of the entire team"
+      },
+      {
+        "key": "b",
+        "text": "Ignore it, as personal matters are none of your concern"
+      },
+      {
+        "key": "c",
+        "text": "Speak to each privately, understand the issue, and mediate to restore a professional working relationship"
+      },
+      {
+        "key": "d",
+        "text": "Immediately transfer one of them to another team"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "Private, empathetic mediation addresses the cause while preserving dignity and team functioning.",
+    "subject": "CSAT",
+    "theme": "Decision-Making",
+    "micro_topic": "Team management",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q077",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 77,
+    "source_question_number": 77,
+    "question": "You discover that your office made a small billing error that overcharged a citizen who has not noticed. You would:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Quietly adjust the records so no one finds out"
+      },
+      {
+        "key": "b",
+        "text": "Wait until the citizen complains, then act"
+      },
+      {
+        "key": "c",
+        "text": "Do nothing, since the amount is small and unnoticed"
+      },
+      {
+        "key": "d",
+        "text": "Inform the citizen, apologise, and arrange a refund of the excess"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "Integrity and accountability require proactively correcting the error and refunding the citizen.",
+    "subject": "CSAT",
+    "theme": "Decision-Making",
+    "micro_topic": "Honesty / public service",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q078",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 78,
+    "source_question_number": 78,
+    "question": "Midway through a deadline-bound project you realise the original plan has a flaw that will cause problems later, though fixing it will delay delivery. The best approach is to:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Press on with the flawed plan to meet the deadline and deal with problems later"
+      },
+      {
+        "key": "b",
+        "text": "Inform stakeholders of the flaw and its implications, and jointly decide whether to revise the plan or the timeline"
+      },
+      {
+        "key": "c",
+        "text": "Fix it secretly and hope the delay goes unnoticed"
+      },
+      {
+        "key": "d",
+        "text": "Abandon the project altogether"
+      }
+    ],
+    "answer_option": "b",
+    "accepted_answer_options": [
+      "b"
+    ],
+    "explanation": "Transparent escalation lets stakeholders make an informed trade-off between scope, quality and time.",
+    "subject": "CSAT",
+    "theme": "Decision-Making",
+    "micro_topic": "Project leadership",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q079",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 79,
+    "source_question_number": 79,
+    "question": "A close friend asks you, a government official, for confidential information that would benefit their business. You would:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Share only part of the information to keep the friend content"
+      },
+      {
+        "key": "b",
+        "text": "Pretend you do not have access to such information"
+      },
+      {
+        "key": "c",
+        "text": "Share it, because the friendship matters"
+      },
+      {
+        "key": "d",
+        "text": "Politely decline, explaining that the information is confidential and sharing it would be improper"
+      }
+    ],
+    "answer_option": "d",
+    "accepted_answer_options": [
+      "d"
+    ],
+    "explanation": "Declining honestly while explaining the duty of confidentiality upholds integrity without deceit.",
+    "subject": "CSAT",
+    "theme": "Decision-Making",
+    "micro_topic": "Confidentiality / conflict of interest",
+    "nature": "Aptitude",
+    "difficulty": "Moderate",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  },
+  {
+    "id": "csat_full_mock_2026_06_08_q080",
+    "exam": "UPSC CSE",
+    "paper": "GS Paper II (CSAT)",
+    "year": 2026,
+    "question_set_id": "csat_full_mock_2026_06_08",
+    "question_set_label": "CSAT Full Mock · Jun 08, 2026",
+    "source_type": "csat_mock",
+    "question_number": 80,
+    "source_question_number": 80,
+    "question": "During a public emergency you receive two urgent but conflicting instructions from two different superiors. You should:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Follow the instruction of whichever superior you like more"
+      },
+      {
+        "key": "b",
+        "text": "Ignore both and act entirely on your own"
+      },
+      {
+        "key": "c",
+        "text": "Quickly seek clarification from both; if they are unreachable, act on the option that best serves public safety and document the decision"
+      },
+      {
+        "key": "d",
+        "text": "Do nothing until the conflict is resolved"
+      }
+    ],
+    "answer_option": "c",
+    "accepted_answer_options": [
+      "c"
+    ],
+    "explanation": "Attempt to reconcile the orders; absent that, public safety is the overriding criterion, with the decision recorded for accountability.",
+    "subject": "CSAT",
+    "theme": "Decision-Making",
+    "micro_topic": "Crisis decision-making",
+    "nature": "Aptitude",
+    "difficulty": "Hard",
+    "source": "generated_data/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "verification_status": "verified_generated"
+  }
+]

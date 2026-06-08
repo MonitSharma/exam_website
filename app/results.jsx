@@ -1,17 +1,31 @@
 // Results + Review screens
 const { useState: useResState } = React;
 
-function scoreFrom(attempt, qs) {
-  let correct = 0, wrong = 0, un = 0;
+function formatMarks(value) {
+  const rounded = Math.round(Number(value || 0) * 100) / 100;
+  return Number.isInteger(rounded) ? String(rounded) : rounded.toFixed(2).replace(/\.?0+$/, "");
+}
+
+function scoreFrom(attempt, qs, questionSet) {
+  const ds = window.UPSC;
+  let correct = 0, wrong = 0, un = 0, raw = 0, max = 0, correctMarks = 0, wrongPenalty = 0;
   qs.forEach((q) => {
     const a = attempt[q.n];
     const acceptedAnswers = Array.isArray(q.acceptedAnswers) && q.acceptedAnswers.length ? q.acceptedAnswers : [q.answer].filter(Boolean);
+    const marking = ds.getQuestionMarking(questionSet, q);
+    max += marking.correct;
     if (!a) un++;
-    else if (acceptedAnswers.includes(a)) correct++;
-    else wrong++;
+    else if (acceptedAnswers.includes(a)) {
+      correct++;
+      raw += marking.correct;
+      correctMarks += marking.correct;
+    } else {
+      wrong++;
+      raw += marking.wrong;
+      wrongPenalty += Math.abs(marking.wrong);
+    }
   });
-  const raw = correct * 2 - wrong * 0.66;
-  return { correct, wrong, un, raw: Math.round(raw * 100) / 100, max: qs.length * 2 };
+  return { correct, wrong, un, raw: Math.round(raw * 100) / 100, max: Math.round(max * 100) / 100, correctMarks, wrongPenalty };
 }
 
 function getResultData(result) {
@@ -25,7 +39,7 @@ function getResultData(result) {
 
 function Results({ go, result }) {
   const { questionSet, qs, attempt } = getResultData(result);
-  const s = scoreFrom(attempt, qs);
+  const s = scoreFrom(attempt, qs, questionSet);
   const pct = s.max ? s.raw / s.max : 0;
   const accuracy = Math.round((s.correct / (s.correct + s.wrong || 1)) * 100);
 
@@ -63,7 +77,7 @@ function Results({ go, result }) {
 
       <div className="result-grid">
         <div className="result-breakdown panel">
-          <header className="panel-head"><h3>Score breakdown</h3><p>UPSC marking · +2 correct · −0.66 wrong</p></header>
+          <header className="panel-head"><h3>Score breakdown</h3><p>{window.UPSC.getMarkingLabel(questionSet)}</p></header>
           <div className="panel-body">
             <div className="break-bar">
               <span className="bar-seg correct" style={{ flex: s.correct || 0.001 }} />
@@ -71,8 +85,8 @@ function Results({ go, result }) {
               <span className="bar-seg un" style={{ flex: s.un || 0.001 }} />
             </div>
             <div className="break-legend">
-              <div className="bl"><span className="dot correct" /> <strong>{s.correct}</strong> Correct <em>+{s.correct * 2}</em></div>
-              <div className="bl"><span className="dot wrong" /> <strong>{s.wrong}</strong> Wrong <em>−{(s.wrong * 0.66).toFixed(2)}</em></div>
+              <div className="bl"><span className="dot correct" /> <strong>{s.correct}</strong> Correct <em>+{formatMarks(s.correctMarks)}</em></div>
+              <div className="bl"><span className="dot wrong" /> <strong>{s.wrong}</strong> Wrong <em>-{formatMarks(s.wrongPenalty)}</em></div>
               <div className="bl"><span className="dot un" /> <strong>{s.un}</strong> Skipped <em>0</em></div>
             </div>
             <div className="break-stats">

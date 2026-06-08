@@ -10,7 +10,7 @@ function practiceDateLabel(isoDate) {
 function PracticeScreen({ go }) {
   const ds = window.UPSC;
   const exams = [
-    { id: "upsc", name: "UPSC CSE", note: "Prelims · GS Paper I", live: true },
+    { id: "upsc", name: "UPSC CSE", note: "Prelims · GS + CSAT", live: true },
     { id: "ssc", name: "SSC CGL", note: "Coming soon", live: false },
     { id: "rbi", name: "RBI Grade B", note: "Coming soon", live: false },
     { id: "banking", name: "Banking", note: "Coming soon", live: false },
@@ -20,6 +20,7 @@ function PracticeScreen({ go }) {
     { id: "daily", title: "Daily quiz", desc: "Pick a loaded daily current-affairs quiz.", sourceType: "daily", tone: "rose", icon: "flame" },
     { id: "ai", title: "AI question set", desc: "Generated practice sets by batch.", sourceType: "ai", tone: "saffron", icon: "spark" },
     { id: "csr", title: "CSR mock test", desc: "Curated CSR mock batches.", sourceType: "csr", tone: "indigo", icon: "book" },
+    { id: "csat", title: "CSAT full mock", desc: "Paper II mocks with CSAT marking.", sourceType: "csat", tone: "blue", icon: "target" },
   ];
   const [exam, setExam] = usePracticeState("upsc");
   const [type, setType] = usePracticeState("pyq");

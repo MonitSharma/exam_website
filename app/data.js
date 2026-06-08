@@ -316,15 +316,18 @@
     { id: "2019", label: "2019 PYQ", shortLabel: "2019", category: "Previous Year Questions", sourceType: "pyq", year: 2019, questionCount: 100, durationMinutes: 120, path: "data/processed/upsc_2019_processed.json" },
     { id: "ai_generated_batch_1", label: "AI Generated Questions - Batch 1", shortLabel: "AI Batch 1", category: "AI Generated Practice", sourceType: "ai", questionCount: 93, durationMinutes: 120, path: "data/processed/ai_generated_batch_1_processed.json" },
     { id: "csr_batch_1", label: "CSR Monthly Mock - Batch 1", shortLabel: "CSR Batch 1", category: "CSR Monthly Mock", sourceType: "csr", questionCount: 58, durationMinutes: 120, path: "data/processed/csr_batch_1_processed.json" },
+    { id: "csat_full_mock_2026_06_08", label: "CSAT Full Mock - Jun 08, 2026", shortLabel: "CSAT Mock Jun 08", category: "CSAT Full Mock", sourceType: "csat", paper: "GS Paper II (CSAT)", isoDate: "2026-06-08", questionCount: 80, durationMinutes: 120, marksPerCorrect: 2.5, negativeMark: -0.83, noNegativeFromQuestion: 75, path: "data/processed/csat_full_mock_2026_06_08_processed.json" },
     { id: "daily_questions_2026_06_07", label: "Daily Questions - Jun 07, 2026", shortLabel: "Daily Jun 07", category: "Daily Questions", sourceType: "daily", isoDate: "2026-06-07", questionCount: questions.length, durationMinutes: 12, path: "data/processed/daily_questions_2026_06_07_processed.json" },
     { id: defaultQuestionSetId, label: "Daily Questions - Jun 08, 2026", shortLabel: "Daily Jun 08", category: "Daily Questions", sourceType: "daily", isoDate: dailyQuiz.isoDate, questionCount: 7, durationMinutes: dailyQuiz.durationMinutes, path: "data/processed/daily_questions_2026_06_08_processed.json" },
   ];
   const questionCache = new Map([["daily_questions_2026_06_07", questions]]);
   const noteDocuments = [
     { id: "daily-2026-06-08", cadence: "daily", title: "UPSC Daily CA Briefing", shortTitle: "8 Jun 2026", date: "2026-06-08", path: "daily/UPSC_CA_2026-06-08.md" },
+    { id: "daily-rc-2026-06-08", cadence: "daily", title: "CSAT Daily RC Drill", shortTitle: "RC - 8 Jun", date: "2026-06-08", path: "daily/RC_Drill_2026-06-08.md" },
     { id: "daily-2026-06-07", cadence: "daily", title: "UPSC Daily CA Briefing", shortTitle: "7 Jun 2026", date: "2026-06-07", path: "daily/UPSC_CA_2026-06-07.md" },
     { id: "weekly-csat-pyq-2026-06-08", cadence: "weekly", title: "CSAT PYQ Plan", shortTitle: "2023 paper · 8 Jun", date: "2026-06-08", path: "weekly/CSAT_PYQ_2026-06-08.md" },
     { id: "weekly-2026-06-07", cadence: "weekly", title: "Sunday Sweep", shortTitle: "Week of 7 Jun", date: "2026-06-07", path: "weekly/Sunday_Sweep_2026-06-07.md" },
+    { id: "strategy-csat-full-mock-2026-06-08", cadence: "strategy", title: "CSAT Full Mock", shortTitle: "80 Q - 8 Jun", date: "2026-06-08", path: "generated_data/csat_mocks/CSAT_Full_Mock_2026-06-08.md" },
     { id: "strategy-csat", cadence: "strategy", title: "CSAT Strategy & Technique Guide", shortTitle: "Paper 2 · 80+ aim", date: "2026-06-08", path: "CSAT_Strategy_Guide.md" },
   ];
   const noteCache = new Map();
@@ -363,7 +366,7 @@
 
   function normalizeQuestion(row, index, questionSet) {
     const answerOptions = Array.isArray(row.accepted_answer_options) ? row.accepted_answer_options : [];
-    const answer = String(row.answer_option || row.answer || answerOptions[0] || "").trim().toLowerCase();
+    const answer = normalizeAnswerKey(row.answer_option || row.answer || answerOptions[0] || "");
     return {
       id: row.id || `${questionSet.id}_${index + 1}`,
       n: Number(row.question_number || row.source_question_number || index + 1),
@@ -378,17 +381,20 @@
       tail: row.tail || "",
       options: normalizeOptions(row.options),
       answer,
-      acceptedAnswers: answerOptions.map((option) => String(option).trim().toLowerCase()).filter(Boolean),
+      acceptedAnswers: answerOptions.map(normalizeAnswerKey).filter(Boolean),
       explanation: row.explanation || "Explanation not available.",
     };
   }
 
+  function normalizeAnswerKey(value) {
+    const raw = String(value || "").trim().toLowerCase();
+    const match = raw.match(/^\(?([a-d])\)?$/);
+    return match ? match[1] : raw;
+  }
+
   function normalizeOptions(options) {
     if (Array.isArray(options)) {
-      return options.map((option, index) => ({
-        key: String(option.key || String.fromCharCode(97 + index)).trim().toLowerCase(),
-        text: String(option.text || option.value || ""),
-      }));
+      return options.map((option, index) => normalizeOption(option, index));
     }
     if (options && typeof options === "object") {
       return Object.entries(options).map(([key, text]) => ({
@@ -399,13 +405,46 @@
     return [];
   }
 
+  function normalizeOption(option, index) {
+    if (option && typeof option === "object" && !Array.isArray(option)) {
+      return {
+        key: String(option.key || String.fromCharCode(97 + index)).trim().toLowerCase(),
+        text: String(option.text || option.value || ""),
+      };
+    }
+    const raw = String(option || "").trim();
+    const match = raw.match(/^\s*(?:\(([a-dA-D])\)|([a-dA-D])[.)])\s*(.*)$/);
+    return {
+      key: String((match && (match[1] || match[2])) || String.fromCharCode(97 + index)).trim().toLowerCase(),
+      text: match ? match[3].trim() : raw,
+    };
+  }
+
   function inferSource(row, questionSet) {
     const raw = `${row.source_type || ""} ${questionSet.category || ""}`.toLowerCase();
+    if (questionSet.sourceType === "csat" || raw.includes("csat")) return "csat";
     if (raw.includes("daily")) return "daily";
     if (raw.includes("csr")) return "csr";
     if (raw.includes("ai")) return "ai";
     if (questionSet.year || raw.includes("previous")) return "pyq";
     return "ai";
+  }
+
+  function getQuestionMarking(questionSet, question) {
+    const correct = Number(questionSet?.marksPerCorrect || 2);
+    const negative = Number(questionSet?.negativeMark ?? (questionSet?.sourceType === "csat" ? -0.83 : -0.66));
+    const noNegativeFrom = Number(questionSet?.noNegativeFromQuestion || 0);
+    const hasNoNegative = noNegativeFrom && Number(question?.n || 0) >= noNegativeFrom;
+    return { correct, wrong: hasNoNegative ? 0 : negative };
+  }
+
+  function getMarkingLabel(questionSet) {
+    const correct = Number(questionSet?.marksPerCorrect || 2);
+    const negative = Number(questionSet?.negativeMark ?? (questionSet?.sourceType === "csat" ? -0.83 : -0.66));
+    const base = `UPSC marking - +${correct} correct, ${negative} wrong`;
+    return questionSet?.noNegativeFromQuestion
+      ? `${base}; no negative from Q${questionSet.noNegativeFromQuestion} onward`
+      : base;
   }
 
   window.UPSC = {
@@ -423,6 +462,8 @@
     defaultPracticeSetId,
     getQuestionSetById,
     getQuestionSetsBySource,
+    getQuestionMarking,
+    getMarkingLabel,
     loadQuestionSet,
     loadNoteDocument,
   };

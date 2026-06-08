@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import json
 import re
+from datetime import date
 from pathlib import Path
 from typing import Any
 
@@ -17,6 +18,7 @@ PROCESSED_DIR = PROJECT_ROOT / "data" / "processed"
 OPTION_RE = re.compile(r"^\s*\(?([a-dA-D])\)\s*(.*)$")
 ANSWER_RE = re.compile(r"^\s*\(?([a-dA-D])\)?\s*$")
 BATCH_RE = re.compile(r"batch_(\d+)\.json$")
+CSAT_MOCK_RE = re.compile(r"(\d{4})-(\d{2})-(\d{2})\.json$")
 
 
 def normalize_option(option: Any, fallback_index: int) -> dict[str, str]:
@@ -45,6 +47,14 @@ def batch_number(path: Path) -> int:
     if not match:
         raise ValueError(f"Could not infer batch number from {path.name}")
     return int(match.group(1))
+
+
+def csat_mock_date(path: Path) -> date:
+    match = CSAT_MOCK_RE.match(path.name)
+    if not match:
+        raise ValueError(f"Could not infer CSAT mock date from {path.name}")
+    year, month, day = (int(part) for part in match.groups())
+    return date(year, month, day)
 
 
 def load_json(path: Path, default: Any = None) -> Any:
@@ -168,6 +178,40 @@ def normalize_csr_batch(path: Path) -> Path:
     return write_processed(set_id, normalized)
 
 
+def normalize_csat_mock(path: Path) -> Path:
+    mock_date = csat_mock_date(path)
+    set_id = f"csat_full_mock_{mock_date.year}_{mock_date.month:02d}_{mock_date.day:02d}"
+    set_label = f"CSAT Full Mock · {mock_date.strftime('%b %d, %Y')}"
+    data = load_json(path, [])
+    if not isinstance(data, list):
+        raise ValueError(f"{path.name} must contain a JSON array of questions")
+
+    normalized = []
+    for index, item in enumerate(data, start=1):
+        if not isinstance(item, dict):
+            raise ValueError(f"{path.name} item #{index} must be an object")
+        normalized.append(
+            normalize_question(
+                {
+                    **item,
+                    "exam": item.get("exam") or "UPSC CSE",
+                    "paper": item.get("paper") or "GS Paper II (CSAT)",
+                    "year": item.get("year") or mock_date.year,
+                },
+                set_id=set_id,
+                set_label=set_label,
+                source_type="csat_mock",
+                question_number=index,
+                source_question_number=safe_int(item.get("id")) or index,
+                answer_option=normalize_answer(item.get("answer") or item.get("answer_key") or item.get("answer_option")),
+                source_path=path,
+                answer_key_path=None,
+            )
+        )
+
+    return write_processed(set_id, normalized)
+
+
 def safe_int(value: Any) -> int | None:
     try:
         return int(value)
@@ -197,11 +241,15 @@ def discover_csr_batches() -> list[Path]:
     )
 
 
+def discover_csat_mocks() -> list[Path]:
+    return sorted((GENERATED_DIR / "csat_mocks").glob("*.json"))
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
         "--source",
-        choices=["all", "ai", "csr"],
+        choices=["all", "ai", "csr", "csat"],
         default="all",
         help="Generated question source to normalize",
     )
@@ -212,12 +260,19 @@ def main() -> int:
         paths.extend(("ai", path) for path in discover_ai_batches())
     if args.source in {"all", "csr"}:
         paths.extend(("csr", path) for path in discover_csr_batches())
+    if args.source in {"all", "csat"}:
+        paths.extend(("csat", path) for path in discover_csat_mocks())
 
     if not paths:
         raise SystemExit(f"No generated question batches found in {GENERATED_DIR}")
 
     for source, path in paths:
-        out_path = normalize_ai_batch(path) if source == "ai" else normalize_csr_batch(path)
+        if source == "ai":
+            out_path = normalize_ai_batch(path)
+        elif source == "csr":
+            out_path = normalize_csr_batch(path)
+        else:
+            out_path = normalize_csat_mock(path)
         print(f"normalized {path.relative_to(PROJECT_ROOT)} -> {out_path.relative_to(PROJECT_ROOT)}")
 
     return 0

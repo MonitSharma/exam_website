@@ -79,7 +79,8 @@ function Tag({ children, tone = "neutral", soft }) {
 const SUBJECT_TONE = {
   "Polity": "indigo", "Economy": "saffron", "History": "rose", "Geography": "teal",
   "Environment": "green", "Science & Tech": "blue", "International Relations": "indigo",
-  "Int'l Relations": "indigo",
+  "Int'l Relations": "indigo", "CSAT": "blue", "Quantitative Aptitude": "teal",
+  "Logical Reasoning": "teal", "Reading Comprehension": "blue", "Decision-Making": "indigo",
 };
 const DIFF_TONE = { Easy: "green", Moderate: "saffron", Hard: "rose" };
 

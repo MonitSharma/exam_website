@@ -115,7 +115,12 @@ function BuildTest({ go }) {
   const ds = window.UPSC;
   const [paper, setPaper] = useStateHome("gs");
   const [year, setYear] = useStateHome(2025);
+  const csatSets = ds.getQuestionSetsBySource("csat");
+  const [csatSetId, setCsatSetId] = useStateHome(csatSets[0]?.id || "");
   const [timed, setTimed] = useStateHome(true);
+  const selectedSet = paper === "csat"
+    ? csatSets.find((set) => set.id === csatSetId) || csatSets[0] || null
+    : ds.getQuestionSetById(String(year));
   return (
     <section className="panel build-test">
       <header className="panel-head">
@@ -132,21 +137,29 @@ function BuildTest({ go }) {
           </div>
         </div>
         <div className="seg-field">
-          <label>Year</label>
+          <label>{paper === "csat" ? "Mock" : "Year"}</label>
           <div className="year-chips">
-            {ds.years.map((y) => (
-              <button key={y} className={`year-chip${year === y ? " on" : ""}`} onClick={() => setYear(y)}>{y}</button>
-            ))}
-            <button className="year-chip mix"><Icon name="layers" size={13} /> Mix</button>
+            {paper === "gs" ? (
+              <>
+                {ds.years.map((y) => (
+                  <button key={y} className={`year-chip${year === y ? " on" : ""}`} onClick={() => setYear(y)}>{y}</button>
+                ))}
+                <button className="year-chip mix"><Icon name="layers" size={13} /> Mix</button>
+              </>
+            ) : (
+              csatSets.length ? csatSets.map((set) => (
+                <button key={set.id} className={`year-chip${selectedSet?.id === set.id ? " on" : ""}`} onClick={() => setCsatSetId(set.id)}>{set.shortLabel}</button>
+              )) : <span className="year-empty">No CSAT mocks loaded yet.</span>
+            )}
           </div>
         </div>
         <div className="build-foot">
           <label className="switch">
             <input type="checkbox" checked={timed} onChange={(e) => setTimed(e.target.checked)} />
             <span className="track"><span className="thumb" /></span>
-            <span className="switch-label"><Icon name="clock" size={15} /> Timed · 2 hrs</span>
+            <span className="switch-label"><Icon name="clock" size={15} /> {timed ? `${selectedSet?.durationMinutes || 120} min timed` : "Untimed"}</span>
           </label>
-          <button className="btn btn-green" onClick={() => go("test", { setId: String(year), timed })}>
+          <button className="btn btn-green" onClick={() => selectedSet && go("test", { setId: selectedSet.id, timed })} disabled={!selectedSet}>
             <Icon name="play" size={16} /> Begin test
           </button>
         </div>
@@ -194,6 +207,7 @@ function BankBrowse({ go }) {
     { id: "pyq", icon: "calendar", title: "Previous-Year Papers", desc: "2019-2026 · GS Paper I", count: "8 papers", tone: "green", sourceType: "pyq" },
     { id: "ai", icon: "spark", title: "AI Question Bank", desc: "Topic-wise generated sets", count: "93 Qs", tone: "saffron", sourceType: "ai" },
     { id: "csr", icon: "book", title: "CSR Mock Series", desc: "Curated standard mocks", count: "58 Qs", tone: "indigo", sourceType: "csr" },
+    { id: "csat", icon: "target", title: "CSAT Full Mocks", desc: "Paper II timed mocks", count: "1 mock", tone: "blue", sourceType: "csat" },
     { id: "daily", icon: "flame", title: "Daily Quizzes", desc: "Current-affairs, every day", count: "New today", tone: "rose", sourceType: "daily" },
   ];
   const active = banks.find((bank) => bank.id === activeBank) || null;
@@ -285,7 +299,7 @@ function NotesLibrary() {
       <div className="notes-head">
         <div>
           <span className="eyebrow small"><span className="eyebrow-line" /> Notes</span>
-          <h3>Current affairs briefs</h3>
+          <h3>Briefs, drills and strategy</h3>
         </div>
         <div className="notes-tabs">
           {tabs.map(([key, label]) => (

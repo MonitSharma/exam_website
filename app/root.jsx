@@ -49,15 +49,18 @@ function formatShortDate(value = Date.now()) {
   return new Intl.DateTimeFormat("en-GB", { day: "2-digit", month: "short" }).format(new Date(value));
 }
 
-function calculateAttemptSummary(questions, answers) {
+function calculateAttemptSummary(questions, answers, questionSet) {
   let correct = 0, wrong = 0, skipped = 0;
+  let score = 0, max = 0;
   const subjectBreakdown = {};
   questions.forEach((q) => {
     const selected = answers[q.n];
     const accepted = Array.isArray(q.acceptedAnswers) && q.acceptedAnswers.length ? q.acceptedAnswers : [q.answer].filter(Boolean);
+    const marking = window.UPSC.getQuestionMarking(questionSet, q);
     const subject = q.subject || "General Studies";
     subjectBreakdown[subject] = subjectBreakdown[subject] || { correct: 0, attempted: 0, total: 0 };
     subjectBreakdown[subject].total++;
+    max += marking.correct;
     if (!selected) {
       skipped++;
       return;
@@ -66,15 +69,15 @@ function calculateAttemptSummary(questions, answers) {
     if (accepted.includes(selected)) {
       correct++;
       subjectBreakdown[subject].correct++;
+      score += marking.correct;
     } else {
       wrong++;
+      score += marking.wrong;
     }
   });
   const attempted = correct + wrong;
-  const score = Math.round((correct * 2 - wrong * 0.66) * 100) / 100;
-  const max = questions.length * 2;
   const accuracy = Math.round((correct / (attempted || 1)) * 100);
-  return { correct, wrong, skipped, attempted, score, max, accuracy, subjectBreakdown };
+  return { correct, wrong, skipped, attempted, score: Math.round(score * 100) / 100, max: Math.round(max * 100) / 100, accuracy, subjectBreakdown };
 }
 
 function getProgressSummary(progress) {
@@ -179,7 +182,7 @@ function App() {
 
   function finishTest(result) {
     const submittedAt = Date.now();
-    const attemptSummary = calculateAttemptSummary(result.questions, result.answers);
+    const attemptSummary = calculateAttemptSummary(result.questions, result.answers, result.questionSet);
     const entry = {
       id: `${result.questionSet.id}-${submittedAt}`,
       date: formatShortDate(submittedAt),
