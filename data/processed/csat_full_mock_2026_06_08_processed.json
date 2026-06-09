@@ -38,8 +38,8 @@
     "micro_topic": "Main idea",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -81,8 +81,8 @@
     "micro_topic": "Vocabulary in context",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -124,8 +124,8 @@
     "micro_topic": "Author's view",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -167,8 +167,8 @@
     "micro_topic": "Weakening",
     "nature": "Aptitude",
     "difficulty": "Hard",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -210,8 +210,8 @@
     "micro_topic": "Tone",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -253,8 +253,8 @@
     "micro_topic": "Detail",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -296,8 +296,8 @@
     "micro_topic": "Main point",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -339,8 +339,8 @@
     "micro_topic": "Vocabulary in context",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -382,8 +382,8 @@
     "micro_topic": "Inference",
     "nature": "Aptitude",
     "difficulty": "Hard",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -425,8 +425,8 @@
     "micro_topic": "Author's view",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -468,8 +468,8 @@
     "micro_topic": "Detail",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -511,8 +511,8 @@
     "micro_topic": "Cause-effect",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -554,8 +554,8 @@
     "micro_topic": "Inference",
     "nature": "Aptitude",
     "difficulty": "Hard",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -597,8 +597,8 @@
     "micro_topic": "Main idea",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -640,8 +640,8 @@
     "micro_topic": "Main idea",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -683,8 +683,8 @@
     "micro_topic": "Detail",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -726,8 +726,8 @@
     "micro_topic": "Detail",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -769,8 +769,8 @@
     "micro_topic": "Tone",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -812,8 +812,8 @@
     "micro_topic": "Main idea",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -855,8 +855,8 @@
     "micro_topic": "Detail",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -898,8 +898,8 @@
     "micro_topic": "Vocabulary in context",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -941,8 +941,8 @@
     "micro_topic": "Inference",
     "nature": "Aptitude",
     "difficulty": "Hard",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -984,8 +984,8 @@
     "micro_topic": "Detail",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1027,8 +1027,8 @@
     "micro_topic": "Vocabulary in context",
     "nature": "Aptitude",
     "difficulty": "Hard",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1070,8 +1070,8 @@
     "micro_topic": "Detail",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1113,8 +1113,8 @@
     "micro_topic": "Inference",
     "nature": "Aptitude",
     "difficulty": "Hard",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1156,8 +1156,8 @@
     "micro_topic": "Main idea",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1199,8 +1199,8 @@
     "micro_topic": "Detail",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1242,8 +1242,8 @@
     "micro_topic": "Cause-effect",
     "nature": "Aptitude",
     "difficulty": "Hard",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1285,8 +1285,8 @@
     "micro_topic": "Vocabulary in context",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1328,8 +1328,8 @@
     "micro_topic": "Number series",
     "nature": "Aptitude",
     "difficulty": "Easy",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1371,8 +1371,8 @@
     "micro_topic": "Letter series",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1414,8 +1414,8 @@
     "micro_topic": "Odd one out",
     "nature": "Aptitude",
     "difficulty": "Easy",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1457,8 +1457,8 @@
     "micro_topic": "Coding-decoding",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1500,8 +1500,8 @@
     "micro_topic": "Blood relations",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1543,8 +1543,8 @@
     "micro_topic": "Directions",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1586,8 +1586,8 @@
     "micro_topic": "Syllogism",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1629,8 +1629,8 @@
     "micro_topic": "Syllogism",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1672,8 +1672,8 @@
     "micro_topic": "Seating arrangement",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1715,8 +1715,8 @@
     "micro_topic": "Analogy",
     "nature": "Aptitude",
     "difficulty": "Easy",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1758,8 +1758,8 @@
     "micro_topic": "Calendar",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1801,8 +1801,8 @@
     "micro_topic": "Clocks",
     "nature": "Aptitude",
     "difficulty": "Hard",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1844,8 +1844,8 @@
     "micro_topic": "Statement & assumptions",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1887,8 +1887,8 @@
     "micro_topic": "Course of action",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1930,8 +1930,8 @@
     "micro_topic": "Inference",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1973,8 +1973,8 @@
     "micro_topic": "Ranking",
     "nature": "Aptitude",
     "difficulty": "Easy",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2016,8 +2016,8 @@
     "micro_topic": "Ordering",
     "nature": "Aptitude",
     "difficulty": "Easy",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2059,8 +2059,8 @@
     "micro_topic": "Logical puzzle",
     "nature": "Aptitude",
     "difficulty": "Hard",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2102,8 +2102,8 @@
     "micro_topic": "Logical deduction",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2145,8 +2145,8 @@
     "micro_topic": "Symbol operations",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2188,8 +2188,8 @@
     "micro_topic": "Cubes",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2231,8 +2231,8 @@
     "micro_topic": "Strengthening",
     "nature": "Aptitude",
     "difficulty": "Hard",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2274,8 +2274,8 @@
     "micro_topic": "Percentages",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2317,8 +2317,8 @@
     "micro_topic": "Ratio & proportion",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2360,8 +2360,8 @@
     "micro_topic": "Averages",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2403,8 +2403,8 @@
     "micro_topic": "Time, speed & distance",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2446,8 +2446,8 @@
     "micro_topic": "Time & work",
     "nature": "Aptitude",
     "difficulty": "Hard",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2489,8 +2489,8 @@
     "micro_topic": "Profit & loss",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2532,8 +2532,8 @@
     "micro_topic": "Ages",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2575,8 +2575,8 @@
     "micro_topic": "Probability",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2618,8 +2618,8 @@
     "micro_topic": "Interest",
     "nature": "Aptitude",
     "difficulty": "Hard",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2661,8 +2661,8 @@
     "micro_topic": "HCF & LCM",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2704,8 +2704,8 @@
     "micro_topic": "Alligation / mixtures",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2747,8 +2747,8 @@
     "micro_topic": "Mensuration",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2790,8 +2790,8 @@
     "micro_topic": "Permutations",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2833,8 +2833,8 @@
     "micro_topic": "Profit & loss",
     "nature": "Aptitude",
     "difficulty": "Hard",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2876,8 +2876,8 @@
     "micro_topic": "Table DI",
     "nature": "Aptitude",
     "difficulty": "Easy",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2919,8 +2919,8 @@
     "micro_topic": "Table DI",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2962,8 +2962,8 @@
     "micro_topic": "Table DI",
     "nature": "Aptitude",
     "difficulty": "Easy",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -3005,8 +3005,8 @@
     "micro_topic": "Table DI",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -3048,8 +3048,8 @@
     "micro_topic": "Budget/Pie DI",
     "nature": "Aptitude",
     "difficulty": "Easy",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -3091,8 +3091,8 @@
     "micro_topic": "Budget/Pie DI",
     "nature": "Aptitude",
     "difficulty": "Easy",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -3134,8 +3134,8 @@
     "micro_topic": "Budget/Pie DI",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -3177,8 +3177,8 @@
     "micro_topic": "Budget/Pie DI",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -3220,8 +3220,8 @@
     "micro_topic": "Administrative integrity",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -3263,8 +3263,8 @@
     "micro_topic": "Team management",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -3306,8 +3306,8 @@
     "micro_topic": "Honesty / public service",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -3349,8 +3349,8 @@
     "micro_topic": "Project leadership",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -3392,8 +3392,8 @@
     "micro_topic": "Confidentiality / conflict of interest",
     "nature": "Aptitude",
     "difficulty": "Moderate",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   },
   {
@@ -3435,8 +3435,8 @@
     "micro_topic": "Crisis decision-making",
     "nature": "Aptitude",
     "difficulty": "Hard",
-    "source": "generated_data/csat_mocks/2026-06-08.json",
-    "answer_source": "generated_data/csat_mocks/2026-06-08.json",
+    "source": "generated_questions/csat_mocks/2026-06-08.json",
+    "answer_source": "generated_questions/csat_mocks/2026-06-08.json",
     "verification_status": "verified_generated"
   }
 ]

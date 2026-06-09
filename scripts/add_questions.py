@@ -9,7 +9,7 @@ duplicates (dedupe is by normalized question text within the target set).
 
 Usage
 -----
-  python3 scripts/add_questions.py --cadence daily   --input generated_data/daily_questions/june_07.json --date 2026-06-07
+  python3 scripts/add_questions.py --cadence daily   --input generated_questions/daily_questions/june_07.json --date 2026-06-07
   python3 scripts/add_questions.py --cadence weekly  --input new_qs.json
   python3 scripts/add_questions.py --cadence monthly --input new_qs.json
 
@@ -48,7 +48,7 @@ from typing import Any
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 PROCESSED_DIR = PROJECT_ROOT / "data" / "processed"
-QUESTION_BANK_RAW_DIR = PROJECT_ROOT / "generated_data" / "question_bank"
+QUESTION_BANK_RAW_DIR = PROJECT_ROOT / "generated_questions" / "question_bank"
 PATTERN_PATH = PROJECT_ROOT / "config" / "exam_patterns.json"
 PATTERN_KEY = "upsc_cse_gs_paper_1"
 
@@ -120,7 +120,7 @@ def to_processed(raw: dict[str, Any], set_id: str, label: str, base: str,
     if not str(raw.get("question", "")).strip():
         return None
     answer = parse_answer(raw.get("answer") or raw.get("answer_option") or raw.get("answer_key"), options)
-    rel = f"generated_data/question_bank/{set_id}.json"
+    rel = f"generated_questions/question_bank/{set_id}.json"
     return {
         "id": f"{set_id}_q{number:03d}",
         "exam": "UPSC CSE",

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Normalize generated AI and CSR mock question batches for the static app."""
+"""Normalize generated AI, CSR, and CSAT question batches for the static app."""
 
 from __future__ import annotations
 
@@ -12,7 +12,7 @@ from typing import Any
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-GENERATED_DIR = PROJECT_ROOT / "generated_data"
+GENERATED_DIR = PROJECT_ROOT / "generated_questions"
 PROCESSED_DIR = PROJECT_ROOT / "data" / "processed"
 
 OPTION_RE = re.compile(r"^\s*\(?([a-dA-D])\)\s*(.*)$")
@@ -212,6 +212,40 @@ def normalize_csat_mock(path: Path) -> Path:
     return write_processed(set_id, normalized)
 
 
+def normalize_csat_practice(path: Path) -> Path:
+    practice_date = csat_mock_date(path)
+    set_id = f"csat_practice_{practice_date.year}_{practice_date.month:02d}_{practice_date.day:02d}"
+    set_label = f"CSAT Practice · {practice_date.strftime('%b %d, %Y')}"
+    data = load_json(path, [])
+    if not isinstance(data, list):
+        raise ValueError(f"{path.name} must contain a JSON array of questions")
+
+    normalized = []
+    for index, item in enumerate(data, start=1):
+        if not isinstance(item, dict):
+            raise ValueError(f"{path.name} item #{index} must be an object")
+        normalized.append(
+            normalize_question(
+                {
+                    **item,
+                    "exam": item.get("exam") or "UPSC CSE",
+                    "paper": item.get("paper") or "GS Paper II (CSAT)",
+                    "year": item.get("year") or practice_date.year,
+                },
+                set_id=set_id,
+                set_label=set_label,
+                source_type="csat_practice",
+                question_number=index,
+                source_question_number=safe_int(item.get("id")) or index,
+                answer_option=normalize_answer(item.get("answer") or item.get("answer_key") or item.get("answer_option")),
+                source_path=path,
+                answer_key_path=None,
+            )
+        )
+
+    return write_processed(set_id, normalized)
+
+
 def safe_int(value: Any) -> int | None:
     try:
         return int(value)
@@ -242,7 +276,15 @@ def discover_csr_batches() -> list[Path]:
 
 
 def discover_csat_mocks() -> list[Path]:
-    return sorted((GENERATED_DIR / "csat_mocks").glob("*.json"))
+    return sorted(
+        path
+        for path in (GENERATED_DIR / "csat_mocks").glob("*.json")
+        if isinstance(load_json(path, []), list) and len(load_json(path, [])) >= 75
+    )
+
+
+def discover_csat_practice() -> list[Path]:
+    return sorted((GENERATED_DIR / "csat_questions").glob("*.json"))
 
 
 def main() -> int:
@@ -262,6 +304,7 @@ def main() -> int:
         paths.extend(("csr", path) for path in discover_csr_batches())
     if args.source in {"all", "csat"}:
         paths.extend(("csat", path) for path in discover_csat_mocks())
+        paths.extend(("csat-practice", path) for path in discover_csat_practice())
 
     if not paths:
         raise SystemExit(f"No generated question batches found in {GENERATED_DIR}")
@@ -271,8 +314,10 @@ def main() -> int:
             out_path = normalize_ai_batch(path)
         elif source == "csr":
             out_path = normalize_csr_batch(path)
-        else:
+        elif source == "csat":
             out_path = normalize_csat_mock(path)
+        else:
+            out_path = normalize_csat_practice(path)
         print(f"normalized {path.relative_to(PROJECT_ROOT)} -> {out_path.relative_to(PROJECT_ROOT)}")
 
     return 0

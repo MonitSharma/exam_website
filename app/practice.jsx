@@ -20,7 +20,7 @@ function PracticeScreen({ go }) {
     { id: "daily", title: "Daily quiz", desc: "Pick a loaded daily current-affairs quiz.", sourceType: "daily", tone: "rose", icon: "flame" },
     { id: "ai", title: "AI question set", desc: "Generated practice sets by batch.", sourceType: "ai", tone: "saffron", icon: "spark" },
     { id: "csr", title: "CSR mock test", desc: "Curated CSR mock batches.", sourceType: "csr", tone: "indigo", icon: "book" },
-    { id: "csat", title: "CSAT full mock", desc: "Paper II mocks with CSAT marking.", sourceType: "csat", tone: "blue", icon: "target" },
+    { id: "csat", title: "CSAT practice", desc: "Paper II mocks and drills with CSAT marking.", sourceType: "csat", tone: "blue", icon: "target" },
   ];
   const [exam, setExam] = usePracticeState("upsc");
   const [type, setType] = usePracticeState("pyq");

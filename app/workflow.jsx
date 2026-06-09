@@ -319,7 +319,7 @@ function StudyWorkflowDashboard() {
           <div className="workflow-focus">
             <b>Daily RC drill</b><b>Weekly CSAT set</b><b>Fortnightly full mock</b><b>80+ safety target</b>
           </div>
-          <p className="muted">Daily RC drills are under Home -> Notes -> Daily; full CSAT mocks are under Practice -> CSAT full mock.</p>
+          <p className="muted">Daily RC drills are under Home -> Notes -> Daily RC; CSAT sets are under Practice -> CSAT practice.</p>
         </div>
       </div>
 

@@ -1,0 +1,121 @@
+[
+  {
+    "question": "With reference to the Ramsar Convention and India's wetlands, consider the following statements: 1. India recently designated its 100th Ramsar site, the Jai Prakash Narayan Bird Sanctuary (Surha Tal). 2. India now has the highest number of Ramsar sites in Asia. 3. India has the highest number of Ramsar sites in the world. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Surha Tal is India's 100th Ramsar site and India now leads Asia; but globally India is 3rd (UK 176, Mexico 144), so statement 3 is wrong.",
+    "subject": "Environment",
+    "theme": "Wetland conservation / Ramsar Convention",
+    "micro_topic": "India's 100th Ramsar site (Surha Tal)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "date_added": "2026-06-09"
+  },
+  {
+    "question": "The Surha Tal (Jai Prakash Narayan Bird Sanctuary), recently in the news, is located in which State and river basin?",
+    "options": [
+      "(a) Bihar; Gandak basin",
+      "(b) Uttar Pradesh; Ganga basin",
+      "(c) Uttar Pradesh; Yamuna basin",
+      "(d) West Bengal; Hooghly basin"
+    ],
+    "answer": "(b)",
+    "explanation": "Surha Tal lies in Ballia, Uttar Pradesh - a freshwater wetland in the middle Ganga basin, formed from a meander of the Ganga.",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Surha Tal location and Ganga basin",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "date_added": "2026-06-09"
+  },
+  {
+    "question": "With reference to the Supreme Court (Number of Judges) Amendment Ordinance, 2026, consider the following statements: 1. It raised the sanctioned strength of the Supreme Court from 34 to 38 judges, inclusive of the Chief Justice of India. 2. It was promulgated under Article 123 of the Constitution. 3. An ordinance must be laid before Parliament and ceases to operate six weeks after Parliament reassembles unless approved earlier. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "Strength raised 34 to 38 (37 puisne judges + CJI); promulgated under Article 123; ordinances must be laid before Parliament and lapse six weeks after it reassembles unless approved.",
+    "subject": "Polity",
+    "theme": "Judiciary / Ordinance-making power",
+    "micro_topic": "Supreme Court (Number of Judges) Amendment Ordinance, 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "date_added": "2026-06-09"
+  },
+  {
+    "question": "With reference to the Reserve Bank of India's Monetary Policy Committee (MPC), consider the following statements: 1. In its June 2026 review, the MPC kept the repo rate unchanged with a 'Neutral' stance. 2. The MPC has six members, three from the RBI and three nominated by the Central Government. 3. The repo rate is the rate at which the RBI borrows funds from commercial banks. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "June 2026 MPC held repo at 5.25% with a Neutral stance; MPC has 6 members (3 RBI + 3 Govt-nominated). Statement 3 is wrong - repo is the rate at which RBI lends to banks (RBI borrowing is via reverse repo/SDF).",
+    "subject": "Economy",
+    "theme": "Monetary policy",
+    "micro_topic": "RBI MPC June 2026 - repo rate and composition",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "date_added": "2026-06-09"
+  },
+  {
+    "question": "With reference to ISRO's Gaganyaan programme, consider the following statements: 1. The first uncrewed mission (G1) will carry a half-humanoid robot named Vyommitra. 2. The programme aims to demonstrate human spaceflight by sending astronauts to low Earth orbit. 3. The crew module is designed to re-enter and splash down, with recovery support. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "G1 carries Vyommitra; Gaganyaan targets human spaceflight to low Earth orbit; the crew module re-enters and splashes down with recovery support.",
+    "subject": "Science & Technology",
+    "theme": "Space / Human spaceflight",
+    "micro_topic": "Gaganyaan G1 uncrewed mission and Vyommitra",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "date_added": "2026-06-09"
+  },
+  {
+    "question": "Consider the following statements about the Ramsar Convention: 1. It is an intergovernmental treaty for the conservation and wise use of wetlands, adopted in 1971 at Ramsar, Iran. 2. The 'Montreux Record' is a register of Ramsar sites where the ecological character has changed, is changing, or is likely to change. 3. In India, its implementation is overseen by the Ministry of Environment, Forest and Climate Change. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct - Ramsar Convention (1971, Iran), the Montreux Record, and MoEFCC as the nodal ministry in India.",
+    "subject": "Environment",
+    "theme": "Wetland conservation / Ramsar Convention",
+    "micro_topic": "Ramsar Convention framework (static)",
+    "nature": "Factual",
+    "difficulty": "Moderate",
+    "date_added": "2026-06-09"
+  },
+  {
+    "question": "With reference to the ordinance-making power of the President under Article 123, consider the following statements: 1. An ordinance can be promulgated only when both Houses of Parliament are not in session. 2. An ordinance has the same force and effect as an Act of Parliament. 3. The President can ordinarily promulgate an ordinance on subjects in the State List. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) 2 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "An ordinance has the same force as an Act (statement 2 correct). It can be issued when even one House is not in session, not only when both are (1 wrong); the ordinance power is co-extensive with Parliament's legislative competence, so it does not ordinarily extend to State List subjects (3 wrong).",
+    "subject": "Polity",
+    "theme": "Ordinance-making power of the President",
+    "micro_topic": "Article 123 - scope and limits (static)",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "date_added": "2026-06-09"
+  }
+]

@@ -38,8 +38,8 @@
     "micro_topic": "Strategic Petroleum Reserves / Energy Security / IEA Membership",
     "nature": "Current Affairs",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -81,8 +81,8 @@
     "micro_topic": "Digital Personal Data Protection Act / Data Governance",
     "nature": "Current Affairs",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -124,8 +124,8 @@
     "micro_topic": "Income Tax Act 2025 / Direct Tax Reforms",
     "nature": "Current Affairs",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -167,8 +167,8 @@
     "micro_topic": "BRICS 2026 Chairship / New Development Bank",
     "nature": "Current Affairs",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -210,8 +210,8 @@
     "micro_topic": "Waqf Amendment Act 2025 / UMEED Act",
     "nature": "Current Affairs",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -253,8 +253,8 @@
     "micro_topic": "High Seas Treaty / BBNJ Agreement",
     "nature": "Current Affairs",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -296,8 +296,8 @@
     "micro_topic": "Union Budget 2026-27 / Fiscal Policy",
     "nature": "Current Affairs",
     "difficulty": "Moderate",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -339,8 +339,8 @@
     "micro_topic": "Strait of Hormuz Crisis / Oil Supply Disruption 2026",
     "nature": "Current Affairs",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -382,8 +382,8 @@
     "micro_topic": "Operation Sindoor / India-Pakistan Conflict 2025",
     "nature": "Current Affairs",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -425,8 +425,8 @@
     "micro_topic": "Economic Survey 2025-26 / Viksit Bharat",
     "nature": "Current Affairs",
     "difficulty": "Moderate",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -468,8 +468,8 @@
     "micro_topic": "DPDP Rules 2025 / Data Privacy Framework",
     "nature": "Current Affairs",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -511,8 +511,8 @@
     "micro_topic": "Defence Budget 2026-27 / Semiconductor Mission / Rare Earth Corridors",
     "nature": "Current Affairs",
     "difficulty": "Moderate",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -554,8 +554,8 @@
     "micro_topic": "Income Tax Act 2025 / Direct Tax / VDAs",
     "nature": "Current Affairs",
     "difficulty": "Moderate",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -597,8 +597,8 @@
     "micro_topic": "India GDP Rankings / Economic Milestones 2025",
     "nature": "Current Affairs",
     "difficulty": "Moderate",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -640,8 +640,8 @@
     "micro_topic": "Disaster Management Act 2005 / NDRF / SDRF",
     "nature": "Conceptual",
     "difficulty": "Moderate",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -683,8 +683,8 @@
     "micro_topic": "India Trade / FDI / ECTA / Current Account",
     "nature": "Current Affairs",
     "difficulty": "Moderate",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -726,8 +726,8 @@
     "micro_topic": "Interpol / FATF / Egmont Group / International Law Enforcement",
     "nature": "Conceptual",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -769,8 +769,8 @@
     "micro_topic": "Forest Rights Act / Biological Diversity Act / ABS",
     "nature": "Conceptual",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -812,8 +812,8 @@
     "micro_topic": "Carbon Markets / REDD+ / CBAM / Loss and Damage Fund",
     "nature": "Conceptual",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -855,8 +855,8 @@
     "micro_topic": "Kunming-Montreal GBF / 30x30 / CBD COP15",
     "nature": "Conceptual",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -898,8 +898,8 @@
     "micro_topic": "IN-SPACe / SpaDeX / NSIL / Axiom-4 / Indian Space Policy",
     "nature": "Current Affairs",
     "difficulty": "Moderate",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -941,8 +941,8 @@
     "micro_topic": "National Quantum Mission / Majorana 1 / Quantum Key Distribution",
     "nature": "Conceptual",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -984,8 +984,8 @@
     "micro_topic": "AI Governance / IndiaAI Mission / EU AI Act / AI Summits",
     "nature": "Current Affairs",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1027,8 +1027,8 @@
     "micro_topic": "Ken-Betwa Link / National Water Policy / Jal Jeevan Mission / Groundwater",
     "nature": "Conceptual",
     "difficulty": "Moderate",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1070,8 +1070,8 @@
     "micro_topic": "Ancient Indian Literature / Texts and Authors",
     "nature": "Factual",
     "difficulty": "Moderate",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1113,8 +1113,8 @@
     "micro_topic": "Bhakti Movement / Saint-Poets / Medieval Devotional Traditions",
     "nature": "Factual",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1156,8 +1156,8 @@
     "micro_topic": "Quit India Movement 1942 / Freedom Struggle",
     "nature": "Factual",
     "difficulty": "Moderate",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1199,8 +1199,8 @@
     "micro_topic": "Right to Privacy / Freedom of Speech / Right to Education / Basic Structure",
     "nature": "Conceptual",
     "difficulty": "Moderate",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1242,8 +1242,8 @@
     "micro_topic": "Rajya Sabha / Money Bills / Joint Sitting / Constitutional Amendment",
     "nature": "Conceptual",
     "difficulty": "Moderate",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1285,8 +1285,8 @@
     "micro_topic": "Finance Commission / GST Council / State Borrowings / Fiscal Federalism",
     "nature": "Conceptual",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1328,8 +1328,8 @@
     "micro_topic": "Fifth Schedule / PESA / Samatha Judgment / Tribes Advisory Council",
     "nature": "Conceptual",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1371,8 +1371,8 @@
     "micro_topic": "Western Ghats / Deccan Plateau / Indo-Gangetic Plain / Island Geography",
     "nature": "Factual",
     "difficulty": "Moderate",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1414,8 +1414,8 @@
     "micro_topic": "Maritime Geography / Indian Ocean / Straits and Chokepoints / EEZ",
     "nature": "Factual",
     "difficulty": "Moderate",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1457,8 +1457,8 @@
     "micro_topic": "Himalayan Glaciers / Mountain Passes / Shyok River / Strategic Geography",
     "nature": "Factual",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1500,8 +1500,8 @@
     "micro_topic": "Classical Dance Forms / Indian Art and Culture",
     "nature": "Factual",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1543,8 +1543,8 @@
     "micro_topic": "Temple Architecture / Nagara / Dravidian / Vesara / Pallava",
     "nature": "Factual",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1586,8 +1586,8 @@
     "micro_topic": "Industrial Clusters / National Highways / Dedicated Freight Corridors",
     "nature": "Factual",
     "difficulty": "Moderate",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1629,8 +1629,8 @@
     "micro_topic": "Indian Monsoon / El Nino / Western Disturbances / Regional Rainfall",
     "nature": "Factual",
     "difficulty": "Moderate",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1672,8 +1672,8 @@
     "micro_topic": "Project Tiger / Wildlife Protection Act / Asiatic Lion / Marine Biosphere Reserve",
     "nature": "Factual",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1715,8 +1715,8 @@
     "micro_topic": "MSP / PMFBY / NFSA / e-NAM / Agricultural Policy",
     "nature": "Conceptual",
     "difficulty": "Moderate",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1758,8 +1758,8 @@
     "micro_topic": "RBI / Monetary Policy / MPC / LAF / OMO",
     "nature": "Conceptual",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1801,8 +1801,8 @@
     "micro_topic": "JAM Trinity / Mudra Yojana / Payment Banks / NARCL / Bad Bank",
     "nature": "Conceptual",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1844,8 +1844,8 @@
     "micro_topic": "PMAY-G / MGNREGA / PM-KISAN / NSAP / Social Welfare Schemes",
     "nature": "Factual",
     "difficulty": "Moderate",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1887,8 +1887,8 @@
     "micro_topic": "NEP 2020 / GER / ASER / HDI / Education Policy",
     "nature": "Factual",
     "difficulty": "Moderate",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1930,8 +1930,8 @@
     "micro_topic": "Digital Public Infrastructure / UPI / Account Aggregator / India Stack",
     "nature": "Conceptual",
     "difficulty": "Moderate",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1973,8 +1973,8 @@
     "micro_topic": "Critical Minerals / Rare Earths / MSP / Lithium Discovery / India Budget 2026",
     "nature": "Current Affairs",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2016,8 +2016,8 @@
     "micro_topic": "QUAD / AUKUS / BIMSTEC / India-France / Indo-Pacific",
     "nature": "Factual",
     "difficulty": "Moderate",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2059,8 +2059,8 @@
     "micro_topic": "Teesta / Indus Waters Treaty / India-Nepal / Chabahar Port",
     "nature": "Current Affairs",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2102,8 +2102,8 @@
     "micro_topic": "India NDC / NCQG / LT-LEDS / COP29-30 / Climate Finance",
     "nature": "Current Affairs",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2145,8 +2145,8 @@
     "micro_topic": "Naxalism / UAPA / NIA / Cybersecurity / Internal Security Framework",
     "nature": "Conceptual",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2188,8 +2188,8 @@
     "micro_topic": "CAG / Public Accounts Committee / Audit Functions",
     "nature": "Conceptual",
     "difficulty": "Moderate",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2231,8 +2231,8 @@
     "micro_topic": "ANRF / Biopharma / BrahMos / COVAXIN / India S&T Policy",
     "nature": "Current Affairs",
     "difficulty": "Moderate",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2274,8 +2274,8 @@
     "micro_topic": "WTO / AoA / Dispute Settlement / TRIPS / Compulsory Licensing",
     "nature": "Conceptual",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2317,8 +2317,8 @@
     "micro_topic": "Census / Urbanisation / Smart Cities / SVANidhi / Demographics",
     "nature": "Current Affairs",
     "difficulty": "Moderate",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2360,8 +2360,8 @@
     "micro_topic": "BNS / BNSS / BSA / New Criminal Laws 2024",
     "nature": "Current Affairs",
     "difficulty": "Moderate",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2403,8 +2403,8 @@
     "micro_topic": "Janaushadhi / Pharma Sector / NLEM / Mission Indradhanush / Health Policy",
     "nature": "Factual",
     "difficulty": "Moderate",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2446,8 +2446,8 @@
     "micro_topic": "Gender Indices / Gender Budget / POCSO / Beti Bachao Beti Padhao",
     "nature": "Factual",
     "difficulty": "Moderate",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2489,8 +2489,8 @@
     "micro_topic": "G20 2025 / SCO / India-China LAC / India-US Trade",
     "nature": "Current Affairs",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2532,8 +2532,8 @@
     "micro_topic": "India-US Trade Framework 2026 / TRUST / iCET / Reciprocal Tariffs",
     "nature": "Current Affairs",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2575,8 +2575,8 @@
     "micro_topic": "Delimitation Bill 2026 / Lok Sabha Expansion / Women's Reservation / Article 82",
     "nature": "Current Affairs",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2618,8 +2618,8 @@
     "micro_topic": "Indus Waters Treaty Suspension / Pakistan / Water Diplomacy 2025",
     "nature": "Current Affairs",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2661,8 +2661,8 @@
     "micro_topic": "Gaganyaan / Vyomitra / Indian Human Spaceflight",
     "nature": "Current Affairs",
     "difficulty": "Moderate",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2704,8 +2704,8 @@
     "micro_topic": "Friend-shoring / India-China Trade / RCEP / Russia Oil / Trade Security Nexus",
     "nature": "Current Affairs",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2747,8 +2747,8 @@
     "micro_topic": "GST Structure / Petroleum Exclusion / Compensation Cess / GST Council",
     "nature": "Conceptual",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2790,8 +2790,8 @@
     "micro_topic": "Election Commission Act 2023 / MCC / Expenditure Limits / Article 324",
     "nature": "Conceptual",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2833,8 +2833,8 @@
     "micro_topic": "Nalanda University / Buddhist Heritage / UNESCO / Buddhist Circuit",
     "nature": "Factual",
     "difficulty": "Moderate",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2876,8 +2876,8 @@
     "micro_topic": "Mauryan Administration / Ashoka / Dhamma / Arthashastra",
     "nature": "Factual",
     "difficulty": "Moderate",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2919,8 +2919,8 @@
     "micro_topic": "Northeast India / Siliguri Corridor / Kaladan Project / ILP / Connectivity",
     "nature": "Factual",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2962,8 +2962,8 @@
     "micro_topic": "Saraswati River / Harappan Sites / Lothal / Dholavira / Vedic Geography",
     "nature": "Factual",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -3005,8 +3005,8 @@
     "micro_topic": "97th Amendment / Cooperative Societies / Ministry of Cooperation / MSCS",
     "nature": "Conceptual",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -3048,8 +3048,8 @@
     "micro_topic": "Biodiversity Hotspots / Biosphere Reserves / Tiger Reserves / Western Ghats",
     "nature": "Factual",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -3091,8 +3091,8 @@
     "micro_topic": "Green Hydrogen / National Green Hydrogen Mission / Hydrogen Economy",
     "nature": "Conceptual",
     "difficulty": "Moderate",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -3134,8 +3134,8 @@
     "micro_topic": "Parliamentary Procedures / Standing Committees / Private Member Bill / Zero Hour",
     "nature": "Conceptual",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -3177,8 +3177,8 @@
     "micro_topic": "SAGAR / IFC-IOR / CMF / Indian Ocean Maritime Strategy",
     "nature": "Conceptual",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -3220,8 +3220,8 @@
     "micro_topic": "Eighth Schedule / Classical Languages / Official Language / Hindi",
     "nature": "Factual",
     "difficulty": "Moderate",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -3263,8 +3263,8 @@
     "micro_topic": "India Population / Demographic Dividend / MMR / TFR / NFHS",
     "nature": "Factual",
     "difficulty": "Moderate",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -3306,8 +3306,8 @@
     "micro_topic": "Landmark SC Judgments / Basic Structure / Emergency / Section 377 / S.R. Bommai",
     "nature": "Conceptual",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -3349,8 +3349,8 @@
     "micro_topic": "PVTGs / Sixth Schedule / Naga Peace Accord / Van Dhan Vikas Kendras / TRIFED",
     "nature": "Factual",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -3392,8 +3392,8 @@
     "micro_topic": "India Nuclear Programme / Three-Stage Plan / NPT / PFBR / Nuclear Doctrine",
     "nature": "Factual",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -3435,8 +3435,8 @@
     "micro_topic": "Article 341 / SC Status and Religion / NCSC / NCST / Sub-classification",
     "nature": "Conceptual",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -3478,8 +3478,8 @@
     "micro_topic": "FDI Routes / Press Note 3 / PLI Scheme / IBC 2016",
     "nature": "Conceptual",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -3521,8 +3521,8 @@
     "micro_topic": "Indian Rivers / Ganga / Brahmaputra / Godavari / River Ecology",
     "nature": "Factual",
     "difficulty": "Moderate",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -3564,8 +3564,8 @@
     "micro_topic": "DAP 2020 / Theatre Commands / ASTRA / iDEX / Defence Indigenisation",
     "nature": "Current Affairs",
     "difficulty": "Moderate",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -3607,8 +3607,8 @@
     "micro_topic": "India Renewable Energy / Solar Mission / PLI Solar / Offshore Wind",
     "nature": "Factual",
     "difficulty": "Moderate",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -3650,8 +3650,8 @@
     "micro_topic": "Labour Codes / EPFO / Atal Pension Yojana / Industrial Relations",
     "nature": "Factual",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -3693,8 +3693,8 @@
     "micro_topic": "UN Security Council / UNSC Reform / G4 / India-UN / UNCAC",
     "nature": "Factual",
     "difficulty": "Moderate",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -3736,8 +3736,8 @@
     "micro_topic": "CDSCO / PvPI / Jan Aushadhi / Traditional Knowledge / Biopiracy",
     "nature": "Conceptual",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -3779,8 +3779,8 @@
     "micro_topic": "AIIB / World Bank / IMF Quota / NDB / Multilateral Development Banks",
     "nature": "Factual",
     "difficulty": "Moderate",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -3822,8 +3822,8 @@
     "micro_topic": "NGT / EIA / Polluter Pays / CRZ / Environmental Jurisprudence",
     "nature": "Conceptual",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -3865,8 +3865,8 @@
     "micro_topic": "Data Localisation / DPDP Act / RBI Payment Data / Non-Personal Data / Digital India",
     "nature": "Conceptual",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -3908,8 +3908,8 @@
     "micro_topic": "Strategic Petroleum Reserves / Energy Security / IEA Membership",
     "nature": "Current Affairs",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -3951,8 +3951,8 @@
     "micro_topic": "Digital Personal Data Protection Act / Data Governance",
     "nature": "Current Affairs",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   },
   {
@@ -3994,8 +3994,8 @@
     "micro_topic": "Income Tax Act 2025 / Direct Tax Reforms",
     "nature": "Current Affairs",
     "difficulty": "Hard",
-    "source": "generated_data/ai_generated_questions/batch_1.json",
-    "answer_source": "generated_data/ai_generated_questions/batch_1.json",
+    "source": "generated_questions/ai_generated_questions/batch_1.json",
+    "answer_source": "generated_questions/ai_generated_questions/batch_1.json",
     "verification_status": "verified_generated"
   }
 ]

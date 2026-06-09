@@ -73,6 +73,8 @@ function Dashboard({ go, progress, summary, onResetProgress }) {
   const history = progress.history || [];
   const subjectRows = buildSubjectRows(history);
   const weakRows = subjectRows.filter((row) => row.attempted > 0).slice(0, 4);
+  const aiSets = ds.getQuestionSetsBySource("ai");
+  const aiPracticeSetId = aiSets[aiSets.length - 1]?.id || ds.defaultPracticeSetId;
   const resetLabel = progress.resetAt ? new Intl.DateTimeFormat("en-GB", { day: "2-digit", month: "short", year: "numeric" }).format(new Date(progress.resetAt)) : "today";
   return (
     <div className="page-wrap dash">
@@ -115,7 +117,7 @@ function Dashboard({ go, progress, summary, onResetProgress }) {
                 </div>
                 <div className="weak-acc">
                   <span className="weak-pct">{w.acc}%</span>
-                  <button className="mini-btn" onClick={() => go("test", { setId: "ai_generated_batch_1" })}>Practise</button>
+                  <button className="mini-btn" onClick={() => go("test", { setId: aiPracticeSetId })}>Practise</button>
                 </div>
               </div>
             )) : (

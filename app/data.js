@@ -14,10 +14,15 @@
   // Per-daily-set metadata for richer Home-card copy. Key: ISO date.
   // Optional — daily quizzes without an entry here get a generic description.
   const dailyMeta = {
-    "2026-06-08": {
-      title: "Today’s Daily Quiz",
+    "2026-06-09": {
+      title: "Today's Daily Quiz",
       description:
-        "Seven fresh questions from today’s current-affairs briefing — Oman CEPA, RudraM-II, WED 2026, RBI policy and GDP data.",
+        "Seven fresh questions from today's current-affairs briefing — BRICS chairship, Gaganyaan, Ramsar wetlands, Parliament and inflation.",
+    },
+    "2026-06-08": {
+      title: "Daily Quiz",
+      description:
+        "Seven questions from the current-affairs briefing — Oman CEPA, RudraM-II, WED 2026, RBI policy and GDP data.",
     },
   };
 
@@ -39,10 +44,14 @@
     { id: "2020", label: "2020 PYQ", shortLabel: "2020", category: "Previous Year Questions", sourceType: "pyq", year: 2020, questionCount: 100, durationMinutes: 120, path: "data/processed/upsc_2020_processed.json" },
     { id: "2019", label: "2019 PYQ", shortLabel: "2019", category: "Previous Year Questions", sourceType: "pyq", year: 2019, questionCount: 100, durationMinutes: 120, path: "data/processed/upsc_2019_processed.json" },
     { id: "ai_generated_batch_1", label: "AI Generated Questions - Batch 1", shortLabel: "AI Batch 1", category: "AI Generated Practice", sourceType: "ai", questionCount: 93, durationMinutes: 120, path: "data/processed/ai_generated_batch_1_processed.json" },
+    { id: "ai_generated_batch_2", label: "AI Generated Questions - Batch 2", shortLabel: "AI Batch 2", category: "AI Generated Practice", sourceType: "ai", questionCount: 101, durationMinutes: 120, path: "data/processed/ai_generated_batch_2_processed.json" },
+    { id: "ai_generated_batch_3", label: "AI Generated Questions - Batch 3", shortLabel: "AI Batch 3", category: "AI Generated Practice", sourceType: "ai", questionCount: 16, durationMinutes: 30, path: "data/processed/ai_generated_batch_3_processed.json" },
     { id: "csr_batch_1", label: "CSR Monthly Mock - Batch 1", shortLabel: "CSR Batch 1", category: "CSR Monthly Mock", sourceType: "csr", questionCount: 58, durationMinutes: 120, path: "data/processed/csr_batch_1_processed.json" },
     { id: "csat_full_mock_2026_06_08", label: "CSAT Full Mock - Jun 08, 2026", shortLabel: "CSAT Mock Jun 08", category: "CSAT Full Mock", sourceType: "csat", paper: "GS Paper II (CSAT)", isoDate: "2026-06-08", questionCount: 80, durationMinutes: 120, marksPerCorrect: 2.5, negativeMark: -0.83, noNegativeFromQuestion: 75, path: "data/processed/csat_full_mock_2026_06_08_processed.json" },
+    { id: "csat_practice_2026_06_09", label: "CSAT Practice - Jun 09, 2026", shortLabel: "CSAT Practice Jun 09", category: "CSAT Practice", sourceType: "csat", paper: "GS Paper II (CSAT)", isoDate: "2026-06-09", questionCount: 22, durationMinutes: 35, marksPerCorrect: 2, negativeMark: -0.66, path: "data/processed/csat_practice_2026_06_09_processed.json" },
     { id: "daily_questions_2026_06_07", label: "Daily Questions - Jun 07, 2026", shortLabel: "Daily Jun 07", category: "Daily Questions", sourceType: "daily", isoDate: "2026-06-07", questionCount: 7, durationMinutes: 10, path: "data/processed/daily_questions_2026_06_07_processed.json" },
     { id: "daily_questions_2026_06_08", label: "Daily Questions - Jun 08, 2026", shortLabel: "Daily Jun 08", category: "Daily Questions", sourceType: "daily", isoDate: "2026-06-08", questionCount: 7, durationMinutes: 10, path: "data/processed/daily_questions_2026_06_08_processed.json" },
+    { id: "daily_questions_2026_06_09", label: "Daily Questions - Jun 09, 2026", shortLabel: "Daily Jun 09", category: "Daily Questions", sourceType: "daily", isoDate: "2026-06-09", questionCount: 7, durationMinutes: 10, path: "data/processed/daily_questions_2026_06_09_processed.json" },
   ];
   const questionCache = new Map();
 
@@ -87,12 +96,15 @@
   const dailyQuiz = deriveDailyQuiz();
   const defaultQuestionSetId = dailyQuiz.questionSetId || defaultPracticeSetId;
   const noteDocuments = [
-    { id: "daily-2026-06-08", cadence: "daily", title: "UPSC Daily CA Briefing", shortTitle: "8 Jun 2026", date: "2026-06-08", path: "daily/UPSC_CA_2026-06-08.md" },
-    { id: "daily-rc-2026-06-08", cadence: "daily", title: "CSAT Daily RC Drill", shortTitle: "RC - 8 Jun", date: "2026-06-08", path: "daily/RC_Drill_2026-06-08.md" },
-    { id: "daily-2026-06-07", cadence: "daily", title: "UPSC Daily CA Briefing", shortTitle: "7 Jun 2026", date: "2026-06-07", path: "daily/UPSC_CA_2026-06-07.md" },
+    { id: "daily-2026-06-09", cadence: "daily", title: "UPSC Daily CA Briefing", shortTitle: "9 Jun 2026", date: "2026-06-09", path: "daily_current_affairs/UPSC_CA_2026-06-09.md" },
+    { id: "daily-2026-06-08", cadence: "daily", title: "UPSC Daily CA Briefing", shortTitle: "8 Jun 2026", date: "2026-06-08", path: "daily_current_affairs/UPSC_CA_2026-06-08.md" },
+    { id: "daily-2026-06-07", cadence: "daily", title: "UPSC Daily CA Briefing", shortTitle: "7 Jun 2026", date: "2026-06-07", path: "daily_current_affairs/UPSC_CA_2026-06-07.md" },
+    { id: "daily-rc-2026-06-09", cadence: "rc", title: "CSAT Daily RC Drill", shortTitle: "RC - 9 Jun", date: "2026-06-09", path: "daily_reading_comprehension/RC_Drill_2026-06-09.md" },
+    { id: "daily-rc-2026-06-08", cadence: "rc", title: "CSAT Daily RC Drill", shortTitle: "RC - 8 Jun", date: "2026-06-08", path: "daily_reading_comprehension/RC_Drill_2026-06-08.md" },
+    { id: "weekly-csat-practice-2026-06-09", cadence: "weekly", title: "CSAT Practice", shortTitle: "22 Q - 9 Jun", date: "2026-06-09", path: "weekly/CSAT_Practice_2026-06-09.md" },
     { id: "weekly-csat-pyq-2026-06-08", cadence: "weekly", title: "CSAT PYQ Plan", shortTitle: "2023 paper · 8 Jun", date: "2026-06-08", path: "weekly/CSAT_PYQ_2026-06-08.md" },
     { id: "weekly-2026-06-07", cadence: "weekly", title: "Sunday Sweep", shortTitle: "Week of 7 Jun", date: "2026-06-07", path: "weekly/Sunday_Sweep_2026-06-07.md" },
-    { id: "strategy-csat-full-mock-2026-06-08", cadence: "strategy", title: "CSAT Full Mock", shortTitle: "80 Q - 8 Jun", date: "2026-06-08", path: "generated_data/csat_mocks/CSAT_Full_Mock_2026-06-08.md" },
+    { id: "strategy-csat-full-mock-2026-06-08", cadence: "strategy", title: "CSAT Full Mock", shortTitle: "80 Q - 8 Jun", date: "2026-06-08", path: "generated_questions/csat_mocks_readme/CSAT_Full_Mock_2026-06-08.md" },
     { id: "strategy-csat", cadence: "strategy", title: "CSAT Strategy & Technique Guide", shortTitle: "Paper 2 · 80+ aim", date: "2026-06-08", path: "CSAT_Strategy_Guide.md" },
   ];
   const noteCache = new Map();

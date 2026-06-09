@@ -85,11 +85,41 @@
         "path": "data/processed/ai_generated_batch_1_processed.json"
       },
       {
+        "id": "ai_generated_batch_2",
+        "label": "AI Generated Questions · Batch 2",
+        "short_label": "AI Batch 2",
+        "category": "AI Generated Practice",
+        "path": "data/processed/ai_generated_batch_2_processed.json"
+      },
+      {
+        "id": "ai_generated_batch_3",
+        "label": "AI Generated Questions · Batch 3",
+        "short_label": "AI Batch 3",
+        "category": "AI Generated Practice",
+        "path": "data/processed/ai_generated_batch_3_processed.json"
+      },
+      {
         "id": "csr_batch_1",
         "label": "CSR Monthly Mock · Batch 1",
         "short_label": "CSR Batch 1",
         "category": "CSR Monthly Mock",
         "path": "data/processed/csr_batch_1_processed.json"
+      },
+      {
+        "id": "csat_full_mock_2026_06_08",
+        "label": "CSAT Full Mock · Jun 08, 2026",
+        "short_label": "CSAT Mock Jun 08",
+        "category": "CSAT Full Mock",
+        "path": "data/processed/csat_full_mock_2026_06_08_processed.json",
+        "duration_minutes": 120
+      },
+      {
+        "id": "csat_practice_2026_06_09",
+        "label": "CSAT Practice · Jun 09, 2026",
+        "short_label": "CSAT Practice Jun 09",
+        "category": "CSAT Practice",
+        "path": "data/processed/csat_practice_2026_06_09_processed.json",
+        "duration_minutes": 35
       },
       {
         "id": "daily_questions_2026_06_07",
@@ -105,6 +135,14 @@
         "short_label": "Daily Jun 08",
         "category": "Daily Questions",
         "path": "data/processed/daily_questions_2026_06_08_processed.json",
+        "duration_minutes": 10
+      },
+      {
+        "id": "daily_questions_2026_06_09",
+        "label": "Daily Questions · Jun 09, 2026",
+        "short_label": "Daily Jun 09",
+        "category": "Daily Questions",
+        "path": "data/processed/daily_questions_2026_06_09_processed.json",
         "duration_minutes": 10
       }
     ],

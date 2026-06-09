@@ -19,7 +19,7 @@ Normalize the raw JSON:
 python3 scripts/normalize_questions.py --years 2019 2020 2021 2022 2023 2024 2025 2026
 ```
 
-Normalize generated AI and CSR batches:
+Normalize generated AI, CSR, and CSAT batches:
 
 ```bash
 python3 scripts/normalize_generated_questions.py
@@ -28,7 +28,7 @@ python3 scripts/normalize_generated_questions.py
 Add a daily quiz file:
 
 ```bash
-python3 scripts/add_questions.py --cadence daily --input generated_data/daily_questions/june_07.json --date 2026-06-07
+python3 scripts/add_questions.py --cadence daily --input generated_questions/daily_questions/june_07.json --date 2026-06-07
 ```
 
 Daily files should be JSON arrays of 4-option MCQs with `question`, `options`, `answer`, `explanation`, and metadata fields such as `subject`, `theme`, `micro_topic`, `nature`, and `difficulty`.
@@ -43,7 +43,7 @@ python3 scripts/merge_answer_keys.py --years 2019 2020 2021 2022 2023 2024 2025 
 The image extractor uses Tesseract OCR and expects Set A PNG files in:
 
 ```text
-generated_data/answer_keys/
+generated_questions/answer_keys/
 ```
 
 Validate processed data, including generated question sets:
@@ -81,9 +81,18 @@ data/raw/
 Generated source batches live in:
 
 ```text
-generated_data/ai_generated_questions/
-generated_data/csr_questions/
-generated_data/daily_questions/
+generated_questions/ai_generated_questions/
+generated_questions/csr_questions/
+generated_questions/daily_questions/
+generated_questions/csat_mocks/
+generated_questions/csat_questions/
+```
+
+Daily markdown reading material lives in:
+
+```text
+daily_current_affairs/
+daily_reading_comprehension/
 ```
 
 Processed files are written to:

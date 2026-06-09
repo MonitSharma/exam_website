@@ -18,7 +18,7 @@ from PIL import Image
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-IMAGE_DIR = PROJECT_ROOT / "generated_data" / "answer_keys"
+IMAGE_DIR = PROJECT_ROOT / "generated_questions" / "answer_keys"
 ANSWER_KEY_DIR = PROJECT_ROOT / "data" / "answer_keys"
 OCR_DIR = PROJECT_ROOT / "artifacts" / "answer_key_ocr_cells"
 VALID_OPTIONS = {"a", "b", "c", "d"}
@@ -62,7 +62,7 @@ RESOLVED_OVERRIDES: dict[int, dict[int, dict[str, Any]]] = {
         58: {
             "answer_option": "c",
             "verification_status": "verified_image_manual",
-            "answer_source": "OCR crop artifacts/answer_key_ocr_cells/2026_058.png was manually checked against generated_data/answer_keys/2026_answer_key_setA.png.",
+            "answer_source": "OCR crop artifacts/answer_key_ocr_cells/2026_058.png was manually checked against generated_questions/answer_keys/2026_answer_key_setA.png.",
         },
     },
 }
@@ -329,7 +329,7 @@ def answer_item(year: int, cell: OcrCell) -> dict[str, Any]:
         "accepted_answer_options": options,
         "explanation": "",
         "verification_status": "verified_image" if options else "dropped",
-        "answer_source": f"Extracted from generated_data/answer_keys/{year}_answer_key_setA.png",
+        "answer_source": f"Extracted from generated_questions/answer_keys/{year}_answer_key_setA.png",
     }
 
     if raw_answer == "x":

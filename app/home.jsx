@@ -137,7 +137,7 @@ function BuildTest({ go }) {
           </div>
         </div>
         <div className="seg-field">
-          <label>{paper === "csat" ? "Mock" : "Year"}</label>
+          <label>{paper === "csat" ? "CSAT set" : "Year"}</label>
           <div className="year-chips">
             {paper === "gs" ? (
               <>
@@ -149,7 +149,7 @@ function BuildTest({ go }) {
             ) : (
               csatSets.length ? csatSets.map((set) => (
                 <button key={set.id} className={`year-chip${selectedSet?.id === set.id ? " on" : ""}`} onClick={() => setCsatSetId(set.id)}>{set.shortLabel}</button>
-              )) : <span className="year-empty">No CSAT mocks loaded yet.</span>
+              )) : <span className="year-empty">No CSAT practice sets loaded yet.</span>
             )}
           </div>
         </div>
@@ -203,12 +203,18 @@ function Snapshot({ go, summary }) {
 function BankBrowse({ go }) {
   const ds = window.UPSC;
   const [activeBank, setActiveBank] = useStateHome(null);
+  const sourceSets = (sourceType) => ds.getQuestionSetsBySource(sourceType);
+  const sourceQuestionCount = (sourceType) => sourceSets(sourceType).reduce((sum, set) => sum + Number(set.questionCount || 0), 0);
+  const setCountLabel = (sourceType, singular, plural) => {
+    const count = sourceSets(sourceType).length;
+    return `${count} ${count === 1 ? singular : plural}`;
+  };
   const banks = [
-    { id: "pyq", icon: "calendar", title: "Previous-Year Papers", desc: "2019-2026 · GS Paper I", count: "8 papers", tone: "green", sourceType: "pyq" },
-    { id: "ai", icon: "spark", title: "AI Question Bank", desc: "Topic-wise generated sets", count: "93 Qs", tone: "saffron", sourceType: "ai" },
-    { id: "csr", icon: "book", title: "CSR Mock Series", desc: "Curated standard mocks", count: "58 Qs", tone: "indigo", sourceType: "csr" },
-    { id: "csat", icon: "target", title: "CSAT Full Mocks", desc: "Paper II timed mocks", count: "1 mock", tone: "blue", sourceType: "csat" },
-    { id: "daily", icon: "flame", title: "Daily Quizzes", desc: "Current-affairs, every day", count: "New today", tone: "rose", sourceType: "daily" },
+    { id: "pyq", icon: "calendar", title: "Previous-Year Papers", desc: "2019-2026 · GS Paper I", count: setCountLabel("pyq", "paper", "papers"), tone: "green", sourceType: "pyq" },
+    { id: "ai", icon: "spark", title: "AI Question Bank", desc: "Topic-wise generated sets", count: `${sourceQuestionCount("ai").toLocaleString("en-IN")} Qs`, tone: "saffron", sourceType: "ai" },
+    { id: "csr", icon: "book", title: "CSR Mock Series", desc: "Curated standard mocks", count: `${sourceQuestionCount("csr").toLocaleString("en-IN")} Qs`, tone: "indigo", sourceType: "csr" },
+    { id: "csat", icon: "target", title: "CSAT Practice", desc: "Paper II mocks and drills", count: setCountLabel("csat", "set", "sets"), tone: "blue", sourceType: "csat" },
+    { id: "daily", icon: "flame", title: "Daily Quizzes", desc: "Current-affairs, every day", count: ds.dailyQuiz?.isToday ? "New today" : setCountLabel("daily", "set", "sets"), tone: "rose", sourceType: "daily" },
   ];
   const active = banks.find((bank) => bank.id === activeBank) || null;
   return (
@@ -266,7 +272,7 @@ function QuestionSetPicker({ bank, sets, go, onClose }) {
 
 function NotesLibrary() {
   const ds = window.UPSC;
-  const tabs = [["daily", "Daily"], ["weekly", "Weekly"], ["monthly", "Monthly"], ["strategy", "Strategy"]];
+  const tabs = [["daily", "Daily CA"], ["rc", "Daily RC"], ["weekly", "Weekly"], ["monthly", "Monthly"], ["strategy", "Strategy"]];
   const [cadence, setCadence] = useStateHome("daily");
   const docs = ds.noteDocuments.filter((doc) => doc.cadence === cadence);
   const [selectedId, setSelectedId] = useStateHome(docs[0]?.id || null);

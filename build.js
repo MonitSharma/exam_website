@@ -2,7 +2,7 @@
 //   - transforms app/*.jsx with esbuild (no Babel-in-browser)
 //   - concatenates into a single app.bundle.js (preserving load order)
 //   - swaps the dev React CDN for the production build
-//   - copies static content (data/, daily/, weekly/, monthly/, etc.) into dist/
+//   - copies static content (data/, notes folders, weekly/, monthly/, etc.) into dist/
 //
 // Local dev still uses index.html with babel-in-browser, untouched.
 
@@ -31,10 +31,11 @@ const SOURCES = [
 // Directories / files copied verbatim into dist/
 const STATIC_PATHS = [
   "data",
-  "daily",
+  "daily_current_affairs",
+  "daily_reading_comprehension",
   "weekly",
   "monthly",
-  "generated_data",
+  "generated_questions",
   "config",
   "CSAT_Strategy_Guide.md",
 ];

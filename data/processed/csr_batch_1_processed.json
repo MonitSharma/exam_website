@@ -38,8 +38,8 @@
     "micro_topic": "Gaganyaan Mission",
     "nature": "Current Affairs",
     "difficulty": "Moderate",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -81,8 +81,8 @@
     "micro_topic": "Cyber Security & Quantum Tech",
     "nature": "Current Affairs",
     "difficulty": "Moderate",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -124,8 +124,8 @@
     "micro_topic": "Supercomputers",
     "nature": "Factual",
     "difficulty": "Hard",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -167,8 +167,8 @@
     "micro_topic": "AI & Supercomputing",
     "nature": "Conceptual",
     "difficulty": "Moderate",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -210,8 +210,8 @@
     "micro_topic": "National Missions",
     "nature": "Factual",
     "difficulty": "Moderate",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -253,8 +253,8 @@
     "micro_topic": "Government Schemes",
     "nature": "Current Affairs",
     "difficulty": "Hard",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -296,8 +296,8 @@
     "micro_topic": "Tech Innovations",
     "nature": "Current Affairs",
     "difficulty": "Moderate",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -339,8 +339,8 @@
     "micro_topic": "Artificial Intelligence",
     "nature": "Conceptual",
     "difficulty": "Moderate",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -382,8 +382,8 @@
     "micro_topic": "NavIC",
     "nature": "Factual",
     "difficulty": "Hard",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -425,8 +425,8 @@
     "micro_topic": "Satellites",
     "nature": "Factual",
     "difficulty": "Moderate",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -468,8 +468,8 @@
     "micro_topic": "Fundamental Duties",
     "nature": "Factual",
     "difficulty": "Moderate",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -511,8 +511,8 @@
     "micro_topic": "Supreme Court",
     "nature": "Conceptual",
     "difficulty": "Moderate",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -554,8 +554,8 @@
     "micro_topic": "Governor",
     "nature": "Factual",
     "difficulty": "Easy",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -597,8 +597,8 @@
     "micro_topic": "Parliament",
     "nature": "Factual",
     "difficulty": "Easy",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -640,8 +640,8 @@
     "micro_topic": "Election Commission",
     "nature": "Factual",
     "difficulty": "Moderate",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -683,8 +683,8 @@
     "micro_topic": "Virology (COVID-19)",
     "nature": "Current Affairs",
     "difficulty": "Easy",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -726,8 +726,8 @@
     "micro_topic": "Vaccine Platforms",
     "nature": "Conceptual",
     "difficulty": "Moderate",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -769,8 +769,8 @@
     "micro_topic": "Artificial Intelligence",
     "nature": "Conceptual",
     "difficulty": "Moderate",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -812,8 +812,8 @@
     "micro_topic": "State Policies & Portals",
     "nature": "Current Affairs",
     "difficulty": "Moderate",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -855,8 +855,8 @@
     "micro_topic": "Green Hydrogen",
     "nature": "Conceptual",
     "difficulty": "Easy",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -898,8 +898,8 @@
     "micro_topic": "Prudential Regulations (Basel)",
     "nature": "Conceptual",
     "difficulty": "Moderate",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -941,8 +941,8 @@
     "micro_topic": "Statutory Bodies",
     "nature": "Conceptual",
     "difficulty": "Moderate",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -984,8 +984,8 @@
     "micro_topic": "Maternal Health",
     "nature": "Conceptual",
     "difficulty": "Easy",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1027,8 +1027,8 @@
     "micro_topic": "Digital Infrastructure",
     "nature": "Conceptual",
     "difficulty": "Easy",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1070,8 +1070,8 @@
     "micro_topic": "Critical Minerals",
     "nature": "Factual",
     "difficulty": "Moderate",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1113,8 +1113,8 @@
     "micro_topic": "FSDC",
     "nature": "Conceptual",
     "difficulty": "Moderate",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1156,8 +1156,8 @@
     "micro_topic": "Sects & Schools",
     "nature": "Factual",
     "difficulty": "Moderate",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1199,8 +1199,8 @@
     "micro_topic": "Places in News",
     "nature": "Current Affairs",
     "difficulty": "Easy",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1242,8 +1242,8 @@
     "micro_topic": "Marine Conservation",
     "nature": "Conceptual",
     "difficulty": "Moderate",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1285,8 +1285,8 @@
     "micro_topic": "Afforestation",
     "nature": "Factual",
     "difficulty": "Easy",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1328,8 +1328,8 @@
     "micro_topic": "Ahom Architecture",
     "nature": "Current Affairs",
     "difficulty": "Easy",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1371,8 +1371,8 @@
     "micro_topic": "Agricultural Pricing",
     "nature": "Conceptual",
     "difficulty": "Moderate",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1414,8 +1414,8 @@
     "micro_topic": "Emerging Tech (Web3)",
     "nature": "Conceptual",
     "difficulty": "Moderate",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1457,8 +1457,8 @@
     "micro_topic": "International Initiatives",
     "nature": "Factual",
     "difficulty": "Hard",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1500,8 +1500,8 @@
     "micro_topic": "Quantum Technology",
     "nature": "Conceptual",
     "difficulty": "Easy",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1543,8 +1543,8 @@
     "micro_topic": "Protected Areas",
     "nature": "Factual",
     "difficulty": "Moderate",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1586,8 +1586,8 @@
     "micro_topic": "Web Technologies",
     "nature": "Conceptual",
     "difficulty": "Moderate",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1629,8 +1629,8 @@
     "micro_topic": "Environmental Economics",
     "nature": "Conceptual",
     "difficulty": "Moderate",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1672,8 +1672,8 @@
     "micro_topic": "Health Sectors",
     "nature": "Factual",
     "difficulty": "Moderate",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1715,8 +1715,8 @@
     "micro_topic": "Welfare Legislations",
     "nature": "Conceptual",
     "difficulty": "Moderate",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1758,8 +1758,8 @@
     "micro_topic": "Quantum Computing",
     "nature": "Current Affairs",
     "difficulty": "Moderate",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1801,8 +1801,8 @@
     "micro_topic": "Deep Sea Exploration",
     "nature": "Current Affairs",
     "difficulty": "Moderate",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1844,8 +1844,8 @@
     "micro_topic": "Migration Infrastructure",
     "nature": "Factual",
     "difficulty": "Hard",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1887,8 +1887,8 @@
     "micro_topic": "Contractual Labor Migration",
     "nature": "Factual",
     "difficulty": "Hard",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1930,8 +1930,8 @@
     "micro_topic": "Labor Mobility Alignments",
     "nature": "Factual",
     "difficulty": "Hard",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -1973,8 +1973,8 @@
     "micro_topic": "UNHCR Profile",
     "nature": "Factual",
     "difficulty": "Moderate",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2016,8 +2016,8 @@
     "micro_topic": "CSC Infrastructure",
     "nature": "Factual",
     "difficulty": "Moderate",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2059,8 +2059,8 @@
     "micro_topic": "BIMSTEC Institutional Centers",
     "nature": "Factual",
     "difficulty": "Hard",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2102,8 +2102,8 @@
     "micro_topic": "BIMSTEC Institutional Centers",
     "nature": "Factual",
     "difficulty": "Hard",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2145,8 +2145,8 @@
     "micro_topic": "TReDS Architecture",
     "nature": "Conceptual",
     "difficulty": "Hard",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2188,8 +2188,8 @@
     "micro_topic": "Fiscal Policy Dynamics",
     "nature": "Conceptual",
     "difficulty": "Easy",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2231,8 +2231,8 @@
     "micro_topic": "National MPI Architecture",
     "nature": "Factual",
     "difficulty": "Moderate",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2274,8 +2274,8 @@
     "micro_topic": "Production Profiles",
     "nature": "Factual",
     "difficulty": "Moderate",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2317,8 +2317,8 @@
     "micro_topic": "NBFC Regulatory Standards",
     "nature": "Conceptual",
     "difficulty": "Moderate",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2360,8 +2360,8 @@
     "micro_topic": "India memberships",
     "nature": "Factual",
     "difficulty": "Easy",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2403,8 +2403,8 @@
     "micro_topic": "Strategic Agreements",
     "nature": "Factual",
     "difficulty": "Moderate",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2446,8 +2446,8 @@
     "micro_topic": "International Years",
     "nature": "Factual",
     "difficulty": "Hard",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   },
   {
@@ -2489,8 +2489,8 @@
     "micro_topic": "Chess Olympiad Framework",
     "nature": "Current Affairs",
     "difficulty": "Moderate",
-    "source": "generated_data/csr_questions/batch_1.json",
-    "answer_source": "generated_data/csr_questions/batch_1_answer_key.json",
+    "source": "generated_questions/csr_questions/batch_1.json",
+    "answer_source": "generated_questions/csr_questions/batch_1_answer_key.json",
     "verification_status": "verified_generated"
   }
 ]
