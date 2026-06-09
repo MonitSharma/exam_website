@@ -1,0 +1,1719 @@
+[
+  {
+    "id": 601,
+    "question": "With reference to the rationalised Goods and Services Tax (GST) structure that came into effect in 2025, consider the following statements: I. The four-tier rate structure was collapsed into two principal slabs, while a special demerit rate was retained for select goods. II. The Compensation Cess levied on automobiles and tobacco was abolished and merged into the highest principal slab. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "Economy",
+    "theme": "Taxation",
+    "micro_topic": "GST Rate Rationalisation",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(a)",
+    "explanation": "Statement I is correct: the GST structure was rationalised into two principal slabs (5% and 18%) with a special demerit rate (40%) retained for select sin/luxury goods. Statement II is incorrect: the compensation cess was not simply 'merged into the highest principal slab'; it was being wound down and effectively replaced by the separate 40% special rate on demerit goods, not folded into a principal slab."
+  },
+  {
+    "id": 602,
+    "question": "Consider the following actions available to the Reserve Bank of India under its monetary policy framework: I. Altering the Cash Reserve Ratio II. Altering the Marginal Standing Facility rate III. Conducting Open Market Operations IV. Setting the Statutory Liquidity Ratio. How many of the above directly affect the quantum of bank reserves rather than only the price of borrowing?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) Only three",
+      "(d) All the four"
+    ],
+    "subject": "Economy",
+    "theme": "Money and Banking",
+    "micro_topic": "Quantitative vs Price Tools",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "answer_key": "(c)",
+    "explanation": "Tools that change the QUANTUM of bank reserves/liquidity are the CRR (I), Open Market Operations (III) and the SLR (IV). The MSF rate (II) is a price (interest-rate) tool, not a quantity tool. Hence three affect the quantum of reserves."
+  },
+  {
+    "id": 603,
+    "question": "Consider the following statements regarding the policy (repo) rate decisions of the Reserve Bank of India during the 2025 calendar year: I. The cumulative reduction in the policy rate over the year exceeded one percentage point. II. Every reduction in the year was accompanied by a change in the stance from 'accommodative' to 'neutral'. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "Economy",
+    "theme": "Money and Banking",
+    "micro_topic": "Policy Rate Trajectory",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(a)",
+    "explanation": "Statement I is correct: the policy rate was cut by about 100 bps in the first half of 2025 and a further 25 bps in December 2025, a cumulative reduction exceeding one percentage point. Statement II is incorrect: not every rate cut was accompanied by a shift of stance from 'accommodative' to 'neutral'; stance changes did not map one-to-one onto each reduction."
+  },
+  {
+    "id": 604,
+    "question": "With reference to Small Modular Reactors (SMRs) being promoted under India's nuclear energy push, consider the following statements: I. Their commercial deployment in the private sector required amendments to two distinct central legislations. II. They are designed to be factory-fabricated and transported as units, unlike conventional large reactors built on-site. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "Economy",
+    "theme": "Energy Sector",
+    "micro_topic": "Small Modular Reactors",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(c)",
+    "explanation": "Both are correct. Opening nuclear power to private participation required amendments to two laws — the Atomic Energy Act and the Civil Liability for Nuclear Damage Act — and SMRs are designed to be factory-fabricated and transported as units, unlike large reactors built on-site."
+  },
+  {
+    "id": 605,
+    "question": "In the context of India's external sector, consider the following: I. Current Account Deficit II. Capital Account Surplus III. Errors and Omissions IV. Change in Foreign Exchange Reserves. Identical in magnitude but opposite in effect, how many of the above must algebraically sum to zero in the Balance of Payments by accounting identity?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) Only three",
+      "(d) All the four"
+    ],
+    "subject": "Economy",
+    "theme": "External Sector",
+    "micro_topic": "Balance of Payments Identity",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "By the balance-of-payments accounting identity, the current account, the capital (and financial) account, errors and omissions, and the change in official reserves together algebraically sum to zero. Hence all four."
+  },
+  {
+    "id": 606,
+    "question": "Consider the following statements about the Insolvency and Bankruptcy Code (Amendment) provisions proposed in 2025: I. They introduce a framework for resolving the insolvency of a group of connected companies together. II. They for the first time create a creditor-initiated process distinct from the corporate insolvency resolution process. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "Economy",
+    "theme": "Corporate Finance",
+    "micro_topic": "Group Insolvency Framework",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(c)",
+    "explanation": "Both are correct. The 2025 IBC amendment proposals introduce a framework for resolving the insolvency of a group of connected companies together, and they create a creditor-initiated insolvency resolution process distinct from the standard corporate insolvency resolution process."
+  },
+  {
+    "id": 607,
+    "question": "With reference to instruments through which the Government of India borrows, consider the following: I. Treasury Bills II. Ways and Means Advances III. Sovereign Green Bonds IV. Cash Management Bills. How many of the above are instruments of short-term borrowing with an original maturity of less than one year?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) Only three",
+      "(d) All the four"
+    ],
+    "subject": "Economy",
+    "theme": "Public Finance",
+    "micro_topic": "Short-term Government Borrowing",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "answer_key": "(c)",
+    "explanation": "Treasury Bills, Ways and Means Advances and Cash Management Bills are short-term instruments (maturity under one year). Sovereign Green Bonds are long-term dated securities. Hence three are short-term borrowing instruments."
+  },
+  {
+    "id": 608,
+    "question": "Consider the following statements: I. A fall in the rupee's nominal exchange rate against the US dollar always implies a fall in India's Real Effective Exchange Rate (REER). II. The REER is computed against a single currency, whereas the Nominal Effective Exchange Rate (NEER) is computed against a basket. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "Economy",
+    "theme": "External Sector",
+    "micro_topic": "REER and NEER",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "Both statements are incorrect. A fall in the nominal rupee–dollar rate does not ALWAYS lower the REER, which is trade-weighted and inflation-adjusted against a basket. And the second statement is reversed: BOTH the NEER and the REER are computed against a basket of currencies, not a single currency."
+  },
+  {
+    "id": 609,
+    "question": "Consider the following components: I. Subsidies II. Interest payments III. Grants-in-aid for creation of capital assets IV. Defence pensions. Within the Union Budget classification, how many of the above are treated as Revenue Expenditure?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) Only three",
+      "(d) All the four"
+    ],
+    "subject": "Economy",
+    "theme": "Public Finance",
+    "micro_topic": "Revenue vs Capital Expenditure",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "All four are Revenue Expenditure in the Union Budget. Subsidies, interest payments and defence pensions are clearly revenue; grants-in-aid given for creation of capital assets are also classified as revenue expenditure of the Centre (they do not create assets owned by the Centre). Hence all four."
+  },
+  {
+    "id": 610,
+    "question": "With reference to the regulatory architecture of Indian financial markets, consider the following pairs of entity and the instrument it primarily regulates: I. Pension Fund Regulatory and Development Authority : Atal Pension Yojana II. International Financial Services Centres Authority : Units in GIFT City III. Insurance Regulatory and Development Authority : Surety Bonds. In how many of the above pairs is the entity correctly matched with the instrument?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All the three",
+      "(d) None"
+    ],
+    "subject": "Economy",
+    "theme": "Regulatory Bodies",
+    "micro_topic": "Financial Sector Regulators",
+    "nature": "Factual",
+    "difficulty": "Hard",
+    "answer_key": "(c)",
+    "explanation": "All three pairs are correct: the PFRDA regulates the Atal Pension Yojana, the IFSCA regulates units in GIFT City's International Financial Services Centre, and the IRDAI regulates surety (insurance) bonds. Hence all three."
+  },
+  {
+    "id": 611,
+    "question": "Consider the following statements about 'inverted duty structure' in the context of Indian indirect taxation: I. It refers to a situation where the tax rate on inputs is higher than the tax rate on the finished output. II. It can result in the accumulation of input tax credit that may require a refund. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "Economy",
+    "theme": "Taxation",
+    "micro_topic": "Inverted Duty Structure",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "answer_key": "(c)",
+    "explanation": "Both are correct. An inverted duty structure exists when the tax on inputs exceeds the tax on the finished output, and this can lead to accumulation of input tax credit, necessitating a refund."
+  },
+  {
+    "id": 612,
+    "question": "With reference to the Production Linked Incentive (PLI) schemes, consider the following statements: I. The incentive is disbursed as an upfront capital subsidy before commercial production begins. II. The incentive is calculated as a percentage of incremental sales of goods manufactured in India over a base year. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "Economy",
+    "theme": "Industry",
+    "micro_topic": "PLI Scheme Design",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "answer_key": "(b)",
+    "explanation": "Statement I is incorrect: a PLI incentive is not an upfront capital subsidy; it is paid after production. Statement II is correct: the incentive is computed as a percentage of incremental sales of eligible goods manufactured in India over a base year."
+  },
+  {
+    "id": 613,
+    "question": "Consider the following: I. Open Market Operations II. Liquidity Adjustment Facility III. Variable Rate Reverse Repo IV. Standing Deposit Facility. How many of the above can be used by the central bank specifically to absorb (drain) surplus liquidity from the banking system?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) Only three",
+      "(d) All the four"
+    ],
+    "subject": "Economy",
+    "theme": "Money and Banking",
+    "micro_topic": "Liquidity Absorption Tools",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "All four can be used to absorb surplus liquidity. OMO (sale of securities), the reverse-repo leg of the LAF, the Variable Rate Reverse Repo, and the Standing Deposit Facility all drain liquidity from the banking system. Hence all four."
+  },
+  {
+    "id": 614,
+    "question": "Consider the following statements regarding 'fiscal deficit' and 'primary deficit': I. The primary deficit equals the fiscal deficit minus interest payments. II. A zero primary deficit implies that the government is borrowing only to meet its interest obligations. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "Economy",
+    "theme": "Public Finance",
+    "micro_topic": "Deficit Concepts",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "answer_key": "(c)",
+    "explanation": "Both are correct. The primary deficit equals the fiscal deficit minus interest payments; therefore a zero primary deficit means the fiscal deficit equals interest payments, i.e., the government is borrowing only to meet its interest obligations."
+  },
+  {
+    "id": 615,
+    "question": "With reference to 'Special Drawing Rights (SDRs)', consider the following statements: I. Their value is determined on the basis of a basket of currencies that includes the Indian rupee. II. They can be held only by member-country central banks and certain designated official entities, not by private parties. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "Economy",
+    "theme": "International Institutions",
+    "micro_topic": "Special Drawing Rights",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "answer_key": "(b)",
+    "explanation": "Statement I is incorrect: the SDR valuation basket comprises the US dollar, euro, Chinese renminbi, Japanese yen and pound sterling — it does NOT include the Indian rupee. Statement II is correct: SDRs are held only by member central banks and certain designated official entities, not by private parties."
+  },
+  {
+    "id": 616,
+    "question": "Consider the following statements about the Goods and Services Tax Appellate Tribunal (GSTAT): I. It is the first appellate authority against an order passed by an adjudicating officer. II. Its Principal Bench is empowered to hear cases involving the determination of the place of supply. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "Economy",
+    "theme": "Taxation",
+    "micro_topic": "GST Appellate Tribunal",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(b)",
+    "explanation": "Statement I is incorrect: the GSTAT is not the first appellate authority — appeals first lie to the appellate authority (e.g., Commissioner Appeals) and then to the Tribunal. Statement II is correct: the Principal Bench of the GSTAT hears matters involving the determination of the place of supply."
+  },
+  {
+    "id": 617,
+    "question": "With reference to the indigenous microprocessor unveiled by India in 2025, consider the following statements: I. It is a 32-bit processor developed by a semiconductor laboratory functioning under the space agency. II. It was qualified for operation in space before its formal public unveiling. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "Science & Technology",
+    "theme": "Semiconductors",
+    "micro_topic": "Indigenous Microprocessor",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(c)",
+    "explanation": "Both are correct. The Vikram 3201 is a 32-bit microprocessor developed by the Semiconductor Laboratory functioning under the space establishment, and it was qualified/validated in space (on the PSLV-C60 mission) before its formal public unveiling at SEMICON India 2025."
+  },
+  {
+    "id": 618,
+    "question": "Consider the following statements regarding the NISAR satellite: I. It carries radar instruments operating in two different microwave frequency bands contributed by two space agencies. II. It uses optical sensors that can image the Earth's surface only during daytime and clear-sky conditions. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "Science & Technology",
+    "theme": "Space Technology",
+    "micro_topic": "Synthetic Aperture Radar",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(a)",
+    "explanation": "Statement I is correct: NISAR carries L-band and S-band radar contributed by NASA and ISRO respectively. Statement II is incorrect: NISAR is a synthetic aperture RADAR mission (not optical); radar images day and night and through cloud, so it is not limited to daytime, clear-sky conditions."
+  },
+  {
+    "id": 619,
+    "question": "With reference to the demonstration of satellite docking technology by India, consider the following statements: I. The mission involved two distinct spacecraft designated as a 'Chaser' and a 'Target'. II. With this demonstration India became the first Asian nation to achieve autonomous in-space docking. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "Science & Technology",
+    "theme": "Space Technology",
+    "micro_topic": "In-Space Docking",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(a)",
+    "explanation": "Statement I is correct: the SpaDeX mission used two spacecraft, a 'Chaser' (SDX01) and a 'Target' (SDX02). Statement II is incorrect: India became the fourth nation globally to demonstrate in-space docking — not the 'first Asian nation', since China (an Asian country) had achieved it earlier."
+  },
+  {
+    "id": 620,
+    "question": "Consider the following emerging defence technologies in which India has reported achieving capability: I. Directed-energy (high-power laser) weapon to neutralise drones II. Air-breathing scramjet propulsion for sustained hypersonic flight III. Anti-satellite kinetic-kill capability. In how many of the above is India described as among a very small group of nations possessing the demonstrated capability?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All the three",
+      "(d) None"
+    ],
+    "subject": "Science & Technology",
+    "theme": "Defense Technology",
+    "micro_topic": "Directed Energy and Hypersonics",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(c)",
+    "explanation": "India has been reported among a small group of nations for all three: a high-power laser directed-energy weapon against drones, air-breathing scramjet propulsion for hypersonic flight, and an anti-satellite kinetic-kill capability (Mission Shakti). Hence all three."
+  },
+  {
+    "id": 621,
+    "question": "With reference to Silicon Carbide (SiC) as a semiconductor material relative to conventional silicon, consider the following statements: I. It can operate at substantially higher temperatures and voltages. II. It has a wider band gap than silicon. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "Science & Technology",
+    "theme": "Materials Science",
+    "micro_topic": "Wide Band Gap Semiconductors",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "answer_key": "(c)",
+    "explanation": "Both are correct. Silicon carbide can operate at substantially higher temperatures and voltages than silicon, and it has a wider band gap than silicon, which underlies these properties."
+  },
+  {
+    "id": 622,
+    "question": "Consider the following techniques: I. CRISPR-Cas9 II. Polymerase Chain Reaction III. Monoclonal antibody production IV. Whole-genome sequencing. How many of the above necessarily involve cutting (cleaving) the DNA double strand at a targeted site as a core step?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) Only three",
+      "(d) All the four"
+    ],
+    "subject": "Science & Technology",
+    "theme": "Biotechnology",
+    "micro_topic": "Molecular Techniques",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "answer_key": "(a)",
+    "explanation": "Only CRISPR-Cas9 (I) necessarily involves cutting the DNA double strand at a targeted site as a core step. PCR amplifies DNA (no targeted cleavage), monoclonal antibody production involves cell fusion/immunology, and whole-genome sequencing reads sequence without targeted site cleavage. Hence only one."
+  },
+  {
+    "id": 623,
+    "question": "With reference to the humanoid robot intended to fly aboard India's first uncrewed orbital test mission ahead of the human spaceflight programme, consider the following statements: I. The robot is designed to simulate human functions and report on the habitability of the crew module. II. It is intended to perform extravehicular activity (a spacewalk) during the uncrewed mission. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "Science & Technology",
+    "theme": "Space Technology",
+    "micro_topic": "Humanoid Space Robotics",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(a)",
+    "explanation": "Statement I is correct: the humanoid (Vyommitra) is designed to simulate human functions and monitor crew-module habitability. Statement II is incorrect: it is not intended to perform a spacewalk/extravehicular activity; it remains within the crew module."
+  },
+  {
+    "id": 624,
+    "question": "Consider the following statements about 'quantum key distribution (QKD)': I. Its security rests on the principle that any measurement of a quantum state generally disturbs that state. II. It allows faster-than-light transmission of the encryption key itself. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "Science & Technology",
+    "theme": "Information Technology",
+    "micro_topic": "Quantum Cryptography",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "answer_key": "(a)",
+    "explanation": "Statement I is correct: QKD's security rests on the principle that measuring a quantum state generally disturbs it (revealing eavesdropping). Statement II is incorrect: QKD does not enable faster-than-light transmission of anything, including the key."
+  },
+  {
+    "id": 625,
+    "question": "With reference to the reclassification of a well-known reptile reported by taxonomists, consider the following statements: I. What was long considered a single species of king cobra was found to comprise multiple distinct species. II. The reclassification was based primarily on differences in venom toxicity rather than genetic and geographic distinctions. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "Science & Technology",
+    "theme": "Biology",
+    "micro_topic": "Species Taxonomy",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(a)",
+    "explanation": "Statement I is correct: the king cobra long treated as a single species was found to comprise multiple distinct species. Statement II is incorrect: the reclassification rested on genetic, morphological and geographic distinctions, not primarily on differences in venom toxicity."
+  },
+  {
+    "id": 626,
+    "question": "Consider the following functions in a satellite-based regional navigation system such as the one operated by India: I. Provision of position and timing services II. Augmentation of foreign navigation signals for civil aviation III. Two-way voice communication with users. How many of the above are core services that the regional navigation constellation is designed to provide?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All the three",
+      "(d) None"
+    ],
+    "subject": "Science & Technology",
+    "theme": "Space Technology",
+    "micro_topic": "Regional Navigation Systems",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "answer_key": "(a)",
+    "explanation": "Only statement I describes a core service of the regional navigation constellation (NavIC) — position and timing. Augmentation of foreign signals for civil aviation (II) is provided by a separate system (GAGAN), not the NavIC constellation, and two-way voice communication (III) is not a function of the navigation constellation. Hence only one."
+  },
+  {
+    "id": 627,
+    "question": "With reference to 'green hydrogen' and 'grey hydrogen', consider the following statements: I. Green hydrogen is produced by electrolysis of water using renewable electricity, whereas grey hydrogen is produced from fossil fuels without carbon capture. II. Both produce carbon dioxide as a direct by-product at the point of hydrogen generation. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "Science & Technology",
+    "theme": "Energy",
+    "micro_topic": "Hydrogen Production Pathways",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "answer_key": "(a)",
+    "explanation": "Statement I is correct: green hydrogen is made by electrolysis using renewable electricity, whereas grey hydrogen comes from fossil fuels without carbon capture. Statement II is incorrect: green hydrogen produces no CO2 at the point of generation; only the fossil-based routes do."
+  },
+  {
+    "id": 628,
+    "question": "Consider the following pairs of indigenous facility and its primary association: I. Outsourced Semiconductor Assembly and Test (OSAT) line, Sanand : chip packaging and testing II. Semiconductor Laboratory, Mohali : space-grade microprocessor fabrication III. India Semiconductor Mission : a financial outlay under the Ministry of Electronics and IT. In how many of the above pairs is the association correctly made?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All the three",
+      "(d) None"
+    ],
+    "subject": "Science & Technology",
+    "theme": "Semiconductors",
+    "micro_topic": "Semiconductor Ecosystem",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(c)",
+    "explanation": "All three associations are correct: the OSAT line at Sanand is for chip packaging and testing, the Semiconductor Laboratory at Mohali fabricated the space-grade microprocessor, and the India Semiconductor Mission carries a large financial outlay under the Ministry of Electronics and IT. Hence all three."
+  },
+  {
+    "id": 629,
+    "question": "With reference to India's Ramsar Sites, consider the following statements: I. India has the largest network of Ramsar Sites in Asia. II. The first two Indian cities to be accorded international 'Wetland City' accreditation are both located in the same State. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "Environment",
+    "theme": "Conservation",
+    "micro_topic": "Ramsar Wetlands",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(a)",
+    "explanation": "Statement I is correct: India has the largest network of Ramsar Sites in Asia. Statement II is incorrect: India's first two 'Wetland City' accredited cities — Indore and Udaipur — are in different States (Madhya Pradesh and Rajasthan respectively), not the same State."
+  },
+  {
+    "id": 630,
+    "question": "Consider the following wetlands: I. Chhari-Dhand II. Khichan III. Siliserh. With respect to these recently designated Ramsar Sites, how many are characterised as desert or arid-zone wetlands?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All the three",
+      "(d) None"
+    ],
+    "subject": "Environment",
+    "theme": "Conservation",
+    "micro_topic": "Wetland Typology",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(b)",
+    "explanation": "Among the three, Chhari-Dhand (a saline desert wetland in Kutch, Gujarat) and Khichan (in the arid Thar region of Rajasthan) are desert/arid-zone wetlands. Siliserh is a scenic reservoir in the semi-arid Aravalli setting near Alwar and is not characterised as a desert wetland. Hence two."
+  },
+  {
+    "id": 631,
+    "question": "With reference to the Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES), consider the following statements: I. Species listed in its Appendix I are those threatened with extinction and commercial international trade in wild-caught specimens is generally prohibited. II. A Conference of the Parties to the Convention was hosted in Central Asia in 2025. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "Environment",
+    "theme": "International Agreements",
+    "micro_topic": "CITES Appendices",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(c)",
+    "explanation": "Both are correct. CITES Appendix I covers species threatened with extinction, with commercial international trade in wild-caught specimens generally prohibited, and the 20th Conference of the Parties was hosted in Samarkand, Uzbekistan (Central Asia) in 2025."
+  },
+  {
+    "id": 632,
+    "question": "Consider the following: I. Biosphere Reserve II. Tiger Reserve III. Conservation Reserve IV. Ramsar Site. How many of the above are categories of protected/designated areas that derive their legal status directly from the Wild Life (Protection) Act, 1972?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) Only three",
+      "(d) All the four"
+    ],
+    "subject": "Environment",
+    "theme": "Conservation Laws",
+    "micro_topic": "Statutory Basis of Protected Areas",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "answer_key": "(b)",
+    "explanation": "Tiger Reserves and Conservation Reserves derive their legal status from the Wild Life (Protection) Act, 1972. Biosphere Reserves are an administrative designation (UNESCO MAB framework) and Ramsar Sites flow from an international convention (and the Wetlands Rules under the Environment Protection Act), not directly from the WLPA. Hence two."
+  },
+  {
+    "id": 633,
+    "question": "With reference to the first dedicated population assessment of a high-altitude big cat in India, consider the following statements: I. The assessment used camera-trap and occupancy-based methods across the Himalayan range states. II. The species concerned is listed as 'Endangered' on the IUCN Red List. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "Environment",
+    "theme": "Biodiversity",
+    "micro_topic": "High-Altitude Fauna Assessment",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(a)",
+    "explanation": "Statement I is correct: the snow leopard population assessment used camera-trap and occupancy-based methods across the Himalayan range states. Statement II is incorrect: the snow leopard is listed as 'Vulnerable' (not 'Endangered') on the IUCN Red List, having been down-listed in 2017."
+  },
+  {
+    "id": 634,
+    "question": "Consider the following statements about the 'Cold Desert' region recently added to a global network of biosphere reserves: I. It lies in the trans-Himalayan zone and experiences low precipitation. II. Its addition was to a network maintained under a programme of UNESCO. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "Environment",
+    "theme": "Conservation",
+    "micro_topic": "Biosphere Reserves",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(c)",
+    "explanation": "Both are correct. The Cold Desert region lies in the trans-Himalayan zone with low precipitation, and it was added to UNESCO's World Network of Biosphere Reserves (under the Man and the Biosphere Programme)."
+  },
+  {
+    "id": 635,
+    "question": "Consider the following greenhouse gases: I. Methane II. Nitrous oxide III. Sulphur hexafluoride IV. Carbon dioxide. Arranged by Global Warming Potential over a 100-year horizon, how many of the above have a per-molecule potential greater than that of carbon dioxide?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) Only three",
+      "(d) All the four"
+    ],
+    "subject": "Environment",
+    "theme": "Climate Change",
+    "micro_topic": "Global Warming Potential",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "answer_key": "(c)",
+    "explanation": "Methane, nitrous oxide and sulphur hexafluoride all have a per-molecule (and per-mass) Global Warming Potential greater than that of carbon dioxide over a 100-year horizon. Carbon dioxide itself is the reference gas (GWP = 1) and is not greater than itself. Hence three."
+  },
+  {
+    "id": 636,
+    "question": "With reference to a 'carbon market' of the type India is operationalising, consider the following statements: I. It allows entities that emit below their assigned intensity targets to earn tradable credits. II. It is a voluntary market with no compliance obligation on any sector. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "Environment",
+    "theme": "Climate Change Mitigation",
+    "micro_topic": "Carbon Credit Trading",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(a)",
+    "explanation": "Statement I is correct: under an intensity-based carbon market, entities that emit below their assigned targets earn tradable credits. Statement II is incorrect: India's Carbon Credit Trading Scheme includes a compliance mechanism for designated/obligated sectors and is not purely voluntary."
+  },
+  {
+    "id": 637,
+    "question": "Consider the following conservation interventions reported in India: I. First radio-tagging of a riverine cetacean II. Translocation of an African big cat to a national park III. Reintroduction project for a critically endangered bustard. In how many of the above is the species correctly described as one targeted by a dedicated species-recovery programme?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All the three",
+      "(d) None"
+    ],
+    "subject": "Environment",
+    "theme": "Conservation",
+    "micro_topic": "Species Recovery Programmes",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(c)",
+    "explanation": "All three involve species with dedicated recovery/conservation programmes in India: the Gangetic river dolphin (Project Dolphin, first radio-tagging), the cheetah (Project Cheetah, translocation from Africa) and the Great Indian Bustard (dedicated conservation/reintroduction efforts). Hence all three."
+  },
+  {
+    "id": 638,
+    "question": "With reference to 'wetlands' as ecosystems, consider the following statements: I. Peatlands store disproportionately large amounts of carbon relative to the land area they occupy. II. The 'wise use' principle of the Ramsar Convention permits sustainable human use of wetlands rather than their absolute non-use. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "Environment",
+    "theme": "Ecology",
+    "micro_topic": "Wetland Functions",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "answer_key": "(c)",
+    "explanation": "Both are correct. Peatlands store disproportionately large amounts of carbon relative to their area, and the Ramsar Convention's 'wise use' principle permits sustainable human use of wetlands rather than mandating their absolute non-use."
+  },
+  {
+    "id": 639,
+    "question": "Consider the following: I. Black carbon II. Tropospheric ozone III. Methane. Often described as 'short-lived climate pollutants', how many of the above both warm the climate and are harmful to human health or crops as air pollutants?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All the three",
+      "(d) None"
+    ],
+    "subject": "Environment",
+    "theme": "Pollution",
+    "micro_topic": "Short-Lived Climate Pollutants",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "answer_key": "(b)",
+    "explanation": "Black carbon and tropospheric ozone both warm the climate and are directly harmful as air pollutants (to human health and, for ozone, to crops). Methane, though a short-lived climate pollutant and an ozone precursor, is not itself a directly health-harmful air pollutant at ambient levels. Hence two."
+  },
+  {
+    "id": 640,
+    "question": "With reference to 'Extended Producer Responsibility (EPR)', consider the following statements: I. It places the obligation for end-of-life management of a product on the producer rather than only on the consumer or municipality. II. In India it currently applies to plastic packaging, e-waste and used tyres among other waste streams. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "Environment",
+    "theme": "Waste Management",
+    "micro_topic": "Extended Producer Responsibility",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(c)",
+    "explanation": "Both are correct. EPR places end-of-life management obligations on the producer rather than only the consumer/municipality, and in India EPR applies to plastic packaging, e-waste and used tyres, among other waste streams."
+  },
+  {
+    "id": 641,
+    "question": "Consider the following pairs of international body and its focus: I. Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services : biodiversity and ecosystem assessment II. Intergovernmental Panel on Climate Change : negotiation of binding emission cuts III. Global Environment Facility : financing of environmental projects. In how many of the above is the focus correctly described?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All the three",
+      "(d) None"
+    ],
+    "subject": "Environment",
+    "theme": "Organizations",
+    "micro_topic": "Global Environmental Bodies",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "answer_key": "(b)",
+    "explanation": "IPBES is correctly described (biodiversity and ecosystem assessment) and the GEF is correctly described (financing environmental projects). The IPCC is incorrectly described: it assesses climate science and does NOT negotiate binding emission cuts — negotiation occurs under the UNFCCC/COP. Hence two are correct."
+  },
+  {
+    "id": 642,
+    "question": "With reference to 'blue carbon', consider the following statements: I. It refers to carbon captured and stored by coastal and marine ecosystems such as mangroves, seagrasses and salt marshes. II. Such ecosystems sequester carbon almost entirely in above-ground biomass rather than in sediments. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "Environment",
+    "theme": "Ecology",
+    "micro_topic": "Blue Carbon",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "answer_key": "(a)",
+    "explanation": "Statement I is correct: blue carbon is carbon captured and stored by coastal/marine ecosystems such as mangroves, seagrasses and salt marshes. Statement II is incorrect: these ecosystems store the bulk of their carbon in waterlogged sediments/soils, not in above-ground biomass."
+  },
+  {
+    "id": 643,
+    "question": "With reference to the assent to Bills passed by a State Legislature, consider the following constitutional options available to a Governor under Article 200: I. Assent to the Bill II. Withhold assent III. Reserve the Bill for the consideration of the President IV. Return the Bill (if not a Money Bill) for reconsideration. How many of the above courses of action does Article 200 expressly provide for?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) Only three",
+      "(d) All the four"
+    ],
+    "subject": "Polity",
+    "theme": "Executive",
+    "micro_topic": "Governor's Assent to Bills",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "Article 200 expressly provides the Governor four courses of action on a Bill: assent, withhold assent, reserve the Bill for the President's consideration, and (under the first proviso) return the Bill, if not a Money Bill, for reconsideration. Hence all four."
+  },
+  {
+    "id": 644,
+    "question": "Consider the following statements regarding the power of the President under Article 143 of the Constitution: I. The President may refer a question of law or fact of public importance to the Supreme Court for its opinion. II. The opinion rendered by the Supreme Court on such a reference is binding on all courts as a judicial precedent. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "Polity",
+    "theme": "Judiciary",
+    "micro_topic": "Presidential Reference",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(a)",
+    "explanation": "Statement I is correct: under Article 143 the President may refer a question of law or fact of public importance to the Supreme Court for its opinion. Statement II is incorrect: such an advisory opinion is not binding as a judicial precedent, though it carries great persuasive weight."
+  },
+  {
+    "id": 645,
+    "question": "With reference to the original jurisdiction of the Supreme Court under Article 131, consider the following kinds of disputes: I. A dispute between the Government of India and one or more States II. A dispute between two or more States III. A dispute between a citizen and the Government of India regarding fundamental rights. How many of the above fall within the exclusive original jurisdiction conferred by Article 131?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All the three",
+      "(d) None"
+    ],
+    "subject": "Polity",
+    "theme": "Judiciary",
+    "micro_topic": "Original Jurisdiction",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "answer_key": "(b)",
+    "explanation": "Article 131 covers disputes between the Centre and States (I) and between States (II). A citizen's dispute with the Government over fundamental rights (III) is not under Article 131 — that is the writ jurisdiction (Article 32). Hence two."
+  },
+  {
+    "id": 646,
+    "question": "Consider the following bodies and the constitutional Article that provides for them: I. National Commission for Scheduled Castes : Article 338 II. National Commission for Backward Classes : Article 338B III. Inter-State Council : Article 263. In how many of the above is the body correctly matched with the Article?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All the three",
+      "(d) None"
+    ],
+    "subject": "Polity",
+    "theme": "Constitutional Bodies",
+    "micro_topic": "Constitutional Commissions",
+    "nature": "Factual",
+    "difficulty": "Hard",
+    "answer_key": "(c)",
+    "explanation": "All three pairs are correct: the National Commission for Scheduled Castes (Article 338), the National Commission for Backward Classes (Article 338B, inserted by the 102nd Amendment) and the Inter-State Council (Article 263). Hence all three."
+  },
+  {
+    "id": 647,
+    "question": "With reference to the Tenth Schedule of the Constitution, consider the following statements: I. The decision of the presiding officer on a question of disqualification on the ground of defection is subject to judicial review. II. A merger of a legislature party is protected from disqualification only if not less than two-thirds of its members agree to the merger. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "Polity",
+    "theme": "Legislature",
+    "micro_topic": "Defection and Merger",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "answer_key": "(c)",
+    "explanation": "Both are correct. The presiding officer's decision on a defection disqualification is subject to judicial review (Kihoto Hollohan), and a party merger is protected from disqualification only if not less than two-thirds of the legislature party's members agree."
+  },
+  {
+    "id": 648,
+    "question": "Consider the following with reference to the Finance Commission and the Goods and Services Tax Council: I. Both are constitutional bodies. II. Both make recommendations that are binding on the Union Government. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "Polity",
+    "theme": "Constitution",
+    "micro_topic": "Federal Fiscal Bodies",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "answer_key": "(a)",
+    "explanation": "Statement I is correct: both the Finance Commission (Article 280) and the GST Council (Article 279A) are constitutional bodies. Statement II is incorrect: the Finance Commission's recommendations are advisory (not binding), and the GST Council's recommendations have been held to be recommendatory rather than binding."
+  },
+  {
+    "id": 649,
+    "question": "With reference to the procedure for the removal of a Judge of the Supreme Court, consider the following statements: I. The motion for removal must be passed by each House by a special majority in the same session. II. The ground for removal is restricted to 'proved misbehaviour or incapacity'. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "Polity",
+    "theme": "Judiciary",
+    "micro_topic": "Removal of Judges",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "answer_key": "(c)",
+    "explanation": "Both are correct. A motion for removal of a Supreme Court judge must be passed by each House by a special majority in the same session, and the only grounds are 'proved misbehaviour or incapacity'."
+  },
+  {
+    "id": 650,
+    "question": "Consider the following situations in which the Constitution requires a special procedure beyond a simple majority: I. Amendment affecting the election of the President II. Creation of a new All-India Service III. Abolition or creation of a Legislative Council in a State IV. Change in the name of a State. How many of the above can be carried out by Parliament by a simple majority?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) Only three",
+      "(d) All the four"
+    ],
+    "subject": "Polity",
+    "theme": "Constitution",
+    "micro_topic": "Amendment by Simple Majority",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "answer_key": "(b)",
+    "explanation": "Only the abolition/creation of a State Legislative Council (Article 169) and a change in the name of a State (Articles 3-4) can be done by a simple majority. Amending provisions on the election of the President needs a special majority with State ratification, and creating a new All-India Service requires a special Rajya Sabha resolution (two-thirds of members present and voting). Hence two."
+  },
+  {
+    "id": 651,
+    "question": "With reference to 'Money Bills' and 'Financial Bills', consider the following statements: I. Every Money Bill is a Financial Bill, but every Financial Bill is not a Money Bill. II. A Financial Bill that is not a Money Bill can be introduced in either House of Parliament. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "Polity",
+    "theme": "Legislature",
+    "micro_topic": "Money and Financial Bills",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "answer_key": "(a)",
+    "explanation": "Statement I is correct: every Money Bill is a Financial Bill, but not vice versa. Statement II is incorrect as a blanket claim: a Financial Bill that is not a Money Bill but contains Article 110 matters (Category I) can be introduced only in the Lok Sabha (with the President's recommendation); only Category II financial bills may be introduced in either House."
+  },
+  {
+    "id": 652,
+    "question": "Consider the following offices: I. Comptroller and Auditor General of India II. Attorney General for India III. Chief Election Commissioner IV. Chairman of the Union Public Service Commission. For how many of the above does the Constitution prescribe a removal procedure identical to that of a Judge of the Supreme Court?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) Only three",
+      "(d) All the four"
+    ],
+    "subject": "Polity",
+    "theme": "Constitution",
+    "micro_topic": "Security of Tenure",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "answer_key": "(b)",
+    "explanation": "Only the Comptroller and Auditor General and the Chief Election Commissioner have a removal procedure identical to that of a Supreme Court judge (address by Parliament by special majority). The Attorney General holds office during the pleasure of the President, and the UPSC Chairman is removed by the President under Article 317 (a different procedure). Hence two."
+  },
+  {
+    "id": 653,
+    "question": "With reference to the Seventh Schedule of the Constitution, consider the following subjects: I. Public health and sanitation II. Population control and family planning III. Criminal law IV. Forests. How many of the above are in the Concurrent List rather than the State List?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) Only three",
+      "(d) All the four"
+    ],
+    "subject": "Polity",
+    "theme": "Constitution",
+    "micro_topic": "Distribution of Legislative Subjects",
+    "nature": "Factual",
+    "difficulty": "Hard",
+    "answer_key": "(c)",
+    "explanation": "Population control and family planning, criminal law, and forests are all in the Concurrent List (the last two were moved there by the 42nd Amendment). Public health and sanitation is in the State List. Hence three are in the Concurrent List."
+  },
+  {
+    "id": 654,
+    "question": "Consider the following statements about the office of the Speaker of the Lok Sabha: I. The Speaker continues in office even after the dissolution of the Lok Sabha until immediately before the first sitting of the newly constituted House. II. While a resolution for the removal of the Speaker is under consideration, the Speaker may preside over the House but may not vote in the first instance. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "Polity",
+    "theme": "Legislature",
+    "micro_topic": "Office of the Speaker",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "answer_key": "(a)",
+    "explanation": "Statement I is correct: the Speaker continues in office after dissolution until immediately before the first sitting of the newly constituted Lok Sabha. Statement II is incorrect: while a removal resolution is under consideration, the Speaker does NOT preside but may speak and vote in the first instance (only the casting vote is barred)."
+  },
+  {
+    "id": 655,
+    "question": "With reference to the doctrine of the 'basic structure' of the Constitution, consider the following statements: I. It limits the amending power of Parliament under Article 368. II. It is expressly enumerated as a list of features in a Schedule to the Constitution. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "Polity",
+    "theme": "Constitution",
+    "micro_topic": "Basic Structure Doctrine",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "answer_key": "(a)",
+    "explanation": "Statement I is correct: the basic structure doctrine limits Parliament's amending power under Article 368. Statement II is incorrect: the basic structure is not enumerated as a fixed list in any Schedule; it has been developed case-by-case by the judiciary."
+  },
+  {
+    "id": 656,
+    "question": "Consider the following straits: I. Strait of Hormuz II. Strait of Malacca III. Bab-el-Mandeb IV. Palk Strait. How many of the above connect two seas/gulfs that are part of two different oceans?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) Only three",
+      "(d) All the four"
+    ],
+    "subject": "Geography",
+    "theme": "World Geography",
+    "micro_topic": "Straits and Connectivity",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "answer_key": "(a)",
+    "explanation": "Only the Strait of Malacca connects two different oceans (the Indian Ocean and the Pacific Ocean). The Strait of Hormuz, Bab-el-Mandeb and the Palk Strait all link water bodies within the Indian Ocean realm. Hence only one."
+  },
+  {
+    "id": 657,
+    "question": "With reference to the Indian summer monsoon, consider the following statements: I. The Somali Jet (Findlater Jet) is a low-level cross-equatorial flow that strengthens the south-west monsoon. II. A positive phase of the Indian Ocean Dipole is generally associated with weaker monsoon rainfall over India. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "Geography",
+    "theme": "Climatology",
+    "micro_topic": "Monsoon Dynamics",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "answer_key": "(a)",
+    "explanation": "Statement I is correct: the Somali (Findlater) Jet is a low-level cross-equatorial flow that strengthens the south-west monsoon. Statement II is incorrect: a POSITIVE Indian Ocean Dipole is generally associated with enhanced (not weaker) monsoon rainfall over India."
+  },
+  {
+    "id": 658,
+    "question": "Consider the following Indian soil types: I. Black (regur) soil II. Laterite soil III. Alluvial soil IV. Red soil. How many of the above are typically deficient in nitrogen, phosphorus and organic matter while being rich in iron and potash?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) Only three",
+      "(d) All the four"
+    ],
+    "subject": "Geography",
+    "theme": "Indian Geography",
+    "micro_topic": "Indian Soils",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "answer_key": "(a)",
+    "explanation": "Only black (regur) soil fits the full description — deficient in nitrogen, phosphorus and organic matter while being rich in iron AND potash. Red soil is rich in iron but poor in potash; laterite is iron-rich but leached of potash; alluvial soil is potash-rich but not characteristically iron-rich. Hence only one."
+  },
+  {
+    "id": 659,
+    "question": "With reference to the El Niño–Southern Oscillation (ENSO), consider the following statements: I. During an El Niño event, the central and eastern equatorial Pacific sea-surface temperatures are warmer than normal. II. The Southern Oscillation Index measures the sea-level pressure difference between Tahiti and Darwin. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "Geography",
+    "theme": "Climatology",
+    "micro_topic": "ENSO Mechanism",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "answer_key": "(c)",
+    "explanation": "Both are correct. During El Niño the central and eastern equatorial Pacific is warmer than normal, and the Southern Oscillation Index measures the sea-level pressure difference between Tahiti and Darwin."
+  },
+  {
+    "id": 660,
+    "question": "Consider the following rivers and the states in which they originate: I. Godavari : Maharashtra II. Cauvery : Karnataka III. Krishna : Maharashtra IV. Mahanadi : Chhattisgarh. In how many of the above pairs is the river correctly matched with its state of origin?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) Only three",
+      "(d) All the four"
+    ],
+    "subject": "Geography",
+    "theme": "Indian Geography",
+    "micro_topic": "River Origins",
+    "nature": "Factual",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "All four pairs are correct: the Godavari rises in Maharashtra (Trimbak), the Cauvery in Karnataka (Talakaveri), the Krishna in Maharashtra (Mahabaleshwar), and the Mahanadi in Chhattisgarh. Hence all four."
+  },
+  {
+    "id": 661,
+    "question": "With reference to tropical cyclones, consider the following statements: I. They derive their energy primarily from the latent heat released during the condensation of water vapour. II. They can form along the equator where the Coriolis force is maximum. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "Geography",
+    "theme": "Climatology",
+    "micro_topic": "Tropical Cyclone Formation",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "answer_key": "(a)",
+    "explanation": "Statement I is correct: tropical cyclones derive their energy primarily from latent heat released during condensation. Statement II is incorrect: they cannot form along the equator because the Coriolis force is negligible there (it is zero at the equator, not maximum)."
+  },
+  {
+    "id": 662,
+    "question": "Consider the following: I. Spring tide occurs at new moon and full moon. II. Neap tide occurs when the Sun and Moon are at right angles relative to the Earth. III. Spring tides have a smaller tidal range than neap tides. How many of the above statements are correct?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All the three",
+      "(d) None"
+    ],
+    "subject": "Geography",
+    "theme": "Physical Geography",
+    "micro_topic": "Tides",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "answer_key": "(b)",
+    "explanation": "Statement I is correct (spring tides at new and full moon) and Statement II is correct (neap tides at quadrature, when the Sun and Moon are at right angles). Statement III is incorrect: spring tides have a LARGER, not smaller, tidal range than neap tides. Hence two."
+  },
+  {
+    "id": 663,
+    "question": "With reference to jet streams, consider the following statements: I. The subtropical jet stream over India shifts north of the Himalayas with the onset of the south-west monsoon. II. Jet streams flow from west to east in both hemispheres in the upper troposphere. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "Geography",
+    "theme": "Climatology",
+    "micro_topic": "Jet Streams",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "answer_key": "(c)",
+    "explanation": "Both are correct. The subtropical jet stream over India shifts north of the Himalayas with the onset of the south-west monsoon, and jet streams flow broadly from west to east in the upper troposphere in both hemispheres."
+  },
+  {
+    "id": 664,
+    "question": "Consider the following mountain passes: I. Nathu La II. Zoji La III. Rohtang Pass IV. Shipki La. How many of the above lie along India's borders rather than entirely within the interior of a single State?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) Only three",
+      "(d) All the four"
+    ],
+    "subject": "Geography",
+    "theme": "Indian Geography",
+    "micro_topic": "Mountain Passes",
+    "nature": "Factual",
+    "difficulty": "Hard",
+    "answer_key": "(b)",
+    "explanation": "Nathu La (Sikkim, India–China border) and Shipki La (Himachal Pradesh, India–China border) lie along India's borders. Zoji La and Rohtang Pass are interior passes within India (connecting regions of the same country). Hence two."
+  },
+  {
+    "id": 665,
+    "question": "With reference to ocean salinity, consider the following statements: I. Enclosed seas in the tropics with high evaporation and low freshwater inflow tend to have higher surface salinity. II. Salinity generally decreases from the equator towards the poles in the open ocean. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "Geography",
+    "theme": "Physical Geography",
+    "micro_topic": "Ocean Salinity",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "answer_key": "(a)",
+    "explanation": "Statement I is correct: enclosed tropical seas with high evaporation and low freshwater inflow have higher surface salinity. Statement II is incorrect as worded: in the open ocean maximum salinity occurs in the subtropics (around 20°-30° latitude), not at the equator, so salinity does not simply decrease from the equator polewards."
+  },
+  {
+    "id": 666,
+    "question": "Consider the following: I. Inversion of temperature is common in deep, narrow mountain valleys on clear, calm winter nights. II. A temperature inversion suppresses the vertical mixing of air and can trap pollutants near the surface. III. Inversion is associated with unstable atmospheric conditions favouring thunderstorms. How many of the above statements are correct?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All the three",
+      "(d) None"
+    ],
+    "subject": "Geography",
+    "theme": "Climatology",
+    "micro_topic": "Temperature Inversion",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "answer_key": "(b)",
+    "explanation": "Statement I is correct (inversion is common in deep, narrow valleys on clear, calm winter nights) and Statement II is correct (inversion suppresses vertical mixing and traps pollutants). Statement III is incorrect: inversion represents STABLE conditions that suppress, not favour, thunderstorms. Hence two."
+  },
+  {
+    "id": 667,
+    "question": "With reference to the chairship of BRICS, consider the following statements: I. The country assuming the chairship for 2026 had previously chaired the grouping on three earlier occasions. II. The chairship rotates among members on an annual basis. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "International Relations",
+    "theme": "Global Groupings",
+    "micro_topic": "BRICS Chairship",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(c)",
+    "explanation": "Both are correct. The country chairing BRICS in 2026 (India) had previously chaired it on three earlier occasions (2012, 2016 and 2021), and the chairship rotates among members annually."
+  },
+  {
+    "id": 668,
+    "question": "Consider the following countries: I. Indonesia II. Iran III. Ethiopia IV. Argentina V. Saudi Arabia. As of early 2026, how many of the above had formally joined BRICS as full members?",
+    "options": [
+      "(a) Only two",
+      "(b) Only three",
+      "(c) Only four",
+      "(d) All the five"
+    ],
+    "subject": "International Relations",
+    "theme": "Global Groupings",
+    "micro_topic": "BRICS Membership",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(c)",
+    "explanation": "Indonesia, Iran and Ethiopia are full BRICS members, and Saudi Arabia is listed among the members in official BRICS communications, giving four. Argentina, though invited in 2023, declined to join. Note Saudi Arabia's status has been described as ambiguous, which is the source of the difficulty. Hence the intended count is four."
+  },
+  {
+    "id": 669,
+    "question": "With reference to the Group of Twenty (G20), consider the following statements: I. The 2025 Leaders' Summit was hosted on the African continent for the first time. II. The African Union was admitted as a permanent member of the G20. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "International Relations",
+    "theme": "Global Groupings",
+    "micro_topic": "G20 Composition",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(c)",
+    "explanation": "Both are correct. The 2025 G20 Leaders' Summit was held in Johannesburg, South Africa — the first on the African continent — and the African Union had been admitted as a permanent member of the G20 (at the 2023 New Delhi Summit)."
+  },
+  {
+    "id": 670,
+    "question": "Consider the following groupings and their members: I. IBSA : India, Brazil, South Africa II. QUAD : India, Japan, Australia, United States III. SCO : includes both India and Pakistan as members. In how many of the above is the description correct?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All the three",
+      "(d) None"
+    ],
+    "subject": "International Relations",
+    "theme": "Global Groupings",
+    "micro_topic": "Plurilateral Memberships",
+    "nature": "Factual",
+    "difficulty": "Hard",
+    "answer_key": "(c)",
+    "explanation": "All three are correct: IBSA comprises India, Brazil and South Africa; the QUAD comprises India, Japan, Australia and the United States; and the SCO includes both India and Pakistan as members. Hence all three."
+  },
+  {
+    "id": 671,
+    "question": "With reference to a multinational naval exercise involving several BRICS members in early 2026, consider the following statements: I. The exercise was hosted in the waters off Southern Africa. II. India was among the participating navies. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "International Relations",
+    "theme": "Geopolitics",
+    "micro_topic": "BRICS Naval Cooperation",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(a)",
+    "explanation": "Statement I is correct: the 'Will for Peace 2026' naval exercise was hosted in the waters off Southern Africa. Statement II is incorrect: India opted out and was not among the participating navies."
+  },
+  {
+    "id": 672,
+    "question": "Consider the following international organisations: I. International Solar Alliance II. Coalition for Disaster Resilient Infrastructure III. Global Biofuel Alliance. How many of the above were launched as initiatives in which India played a founding or leading role?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All the three",
+      "(d) None"
+    ],
+    "subject": "International Relations",
+    "theme": "Global Initiatives",
+    "micro_topic": "India-led Coalitions",
+    "nature": "Factual",
+    "difficulty": "Moderate",
+    "answer_key": "(c)",
+    "explanation": "All three are initiatives in which India played a founding/leading role: the International Solar Alliance, the Coalition for Disaster Resilient Infrastructure, and the Global Biofuel Alliance. Hence all three."
+  },
+  {
+    "id": 673,
+    "question": "With reference to the United Nations Security Council, consider the following statements: I. A procedural matter can be decided by an affirmative vote of any nine members. II. The abstention of a permanent member is treated as a veto on a substantive (non-procedural) matter. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "International Relations",
+    "theme": "Global Organizations",
+    "micro_topic": "UNSC Voting",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "answer_key": "(a)",
+    "explanation": "Statement I is correct: a procedural matter in the UNSC is decided by an affirmative vote of any nine members. Statement II is incorrect: by established practice the abstention (or absence) of a permanent member is NOT treated as a veto; only a negative vote constitutes a veto."
+  },
+  {
+    "id": 674,
+    "question": "Consider the following connectivity initiatives: I. International North–South Transport Corridor II. India–Middle East–Europe Economic Corridor III. Chabahar Port project. How many of the above are intended to improve India's overland and maritime connectivity to Eurasia or Europe?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All the three",
+      "(d) None"
+    ],
+    "subject": "International Relations",
+    "theme": "Geopolitics",
+    "micro_topic": "Connectivity Corridors",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(c)",
+    "explanation": "All three improve India's connectivity to Eurasia/Europe: the International North–South Transport Corridor, the India–Middle East–Europe Economic Corridor, and the Chabahar Port project (access to Afghanistan and Central Asia). Hence all three."
+  },
+  {
+    "id": 675,
+    "question": "With reference to the Sangam Age of ancient South India, consider the following statements: I. The three Sangams are traditionally associated with assemblies of poets patronised by the Pandya rulers. II. Tolkappiyam, a work on Tamil grammar, is attributed to this period. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "History",
+    "theme": "Ancient India",
+    "micro_topic": "Sangam Age",
+    "nature": "Factual",
+    "difficulty": "Hard",
+    "answer_key": "(c)",
+    "explanation": "Both are correct. The three Sangams are traditionally linked to assemblies of poets under Pandya patronage, and the Tolkappiyam, a work on Tamil grammar, is attributed to this period."
+  },
+  {
+    "id": 676,
+    "question": "Consider the following features associated with Jainism: I. Belief in the existence of an eternal creator god II. The doctrine of Anekantavada (many-sidedness of reality) III. The vow of Aparigraha (non-possession). How many of the above are core tenets of Jaina philosophy?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All the three",
+      "(d) None"
+    ],
+    "subject": "History",
+    "theme": "Ancient India",
+    "micro_topic": "Jaina Philosophy",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "answer_key": "(b)",
+    "explanation": "Anekantavada (II) and Aparigraha (III) are core Jaina tenets. Belief in an eternal creator god (I) is NOT a tenet of Jainism, which is non-theistic in this sense. Hence two."
+  },
+  {
+    "id": 677,
+    "question": "With reference to the Satavahana dynasty, consider the following statements: I. They issued inscriptions predominantly in the Prakrit language using the Brahmi script. II. The Nashik Prashasti of Gautami Balashri is associated with this dynasty. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "History",
+    "theme": "Ancient India",
+    "micro_topic": "Satavahanas",
+    "nature": "Factual",
+    "difficulty": "Hard",
+    "answer_key": "(c)",
+    "explanation": "Both are correct. The Satavahanas issued inscriptions predominantly in Prakrit using the Brahmi script, and the Nashik Prashasti of Gautami Balashri (eulogising Gautamiputra Satakarni) is associated with the dynasty."
+  },
+  {
+    "id": 678,
+    "question": "Consider the following administrative or revenue measures and the Delhi Sultanate ruler associated with them: I. Market (price) control regulations : Alauddin Khalji II. Transfer of capital to Daulatabad : Muhammad bin Tughlaq III. Introduction of token currency : Balban. In how many of the above is the measure correctly matched with the ruler?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All the three",
+      "(d) None"
+    ],
+    "subject": "History",
+    "theme": "Medieval India",
+    "micro_topic": "Delhi Sultanate Administration",
+    "nature": "Factual",
+    "difficulty": "Hard",
+    "answer_key": "(b)",
+    "explanation": "Alauddin Khalji's market control regulations (I) and Muhammad bin Tughlaq's transfer of capital to Daulatabad (II) are correctly matched. Token currency (III) was introduced by Muhammad bin Tughlaq, not Balban. Hence two are correctly matched."
+  },
+  {
+    "id": 679,
+    "question": "With reference to the Bhakti movement, consider the following pairs of saint and the tradition with which the saint is associated: I. Ramananda : Nirguna bhakti in the north II. Chaitanya : Krishna bhakti in Bengal III. Basavanna : the Lingayat (Virashaiva) movement. In how many of the above is the pairing correct?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All the three",
+      "(d) None"
+    ],
+    "subject": "History",
+    "theme": "Medieval India",
+    "micro_topic": "Bhakti Saints",
+    "nature": "Factual",
+    "difficulty": "Hard",
+    "answer_key": "(b)",
+    "explanation": "Chaitanya (Krishna bhakti in Bengal) and Basavanna (Lingayat/Virashaiva movement) are correctly paired. Ramananda is generally associated with Saguna (Rama) bhakti rather than Nirguna bhakti (his disciples, such as Kabir, are the Nirguna figures), so pair I is not accurate. Hence two."
+  },
+  {
+    "id": 680,
+    "question": "Consider the following revolutionary or extremist activities and their associated organisations: I. Hindustan Socialist Republican Association : associated with Bhagat Singh and his associates II. Anushilan Samiti : revolutionary activity in Bengal III. Ghadar Party : founded among Indian emigrants on the west coast of North America. In how many of the above is the association correct?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All the three",
+      "(d) None"
+    ],
+    "subject": "History",
+    "theme": "Modern India",
+    "micro_topic": "Revolutionary Nationalism",
+    "nature": "Factual",
+    "difficulty": "Hard",
+    "answer_key": "(c)",
+    "explanation": "All three are correct: the Hindustan Socialist Republican Association is associated with Bhagat Singh and his associates, the Anushilan Samiti with revolutionary activity in Bengal, and the Ghadar Party with Indian emigrants on the west coast of North America. Hence all three."
+  },
+  {
+    "id": 681,
+    "question": "With reference to colonial-era legislation, consider the following statements: I. The Vernacular Press Act imposed restrictions specifically on the Indian-language press. II. The Ilbert Bill controversy concerned the jurisdiction of Indian judges to try European subjects. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "History",
+    "theme": "Modern India",
+    "micro_topic": "Colonial Legislation",
+    "nature": "Factual",
+    "difficulty": "Hard",
+    "answer_key": "(c)",
+    "explanation": "Both are correct. The Vernacular Press Act imposed restrictions specifically on the Indian-language press, and the Ilbert Bill controversy concerned the jurisdiction of Indian judges to try European subjects."
+  },
+  {
+    "id": 682,
+    "question": "Consider the following sessions of the Indian National Congress and what they are noted for: I. Lahore session, 1929 : the Purna Swaraj resolution II. Surat session, 1907 : the split between Moderates and Extremists III. Karachi session, 1931 : resolution on Fundamental Rights and the National Economic Programme. In how many of the above is the association correct?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All the three",
+      "(d) None"
+    ],
+    "subject": "History",
+    "theme": "Modern India",
+    "micro_topic": "Congress Sessions",
+    "nature": "Factual",
+    "difficulty": "Hard",
+    "answer_key": "(c)",
+    "explanation": "All three are correct: the Lahore session (1929) adopted the Purna Swaraj resolution, the Surat session (1907) saw the Moderate–Extremist split, and the Karachi session (1931) passed resolutions on Fundamental Rights and the National Economic Programme. Hence all three."
+  },
+  {
+    "id": 683,
+    "question": "With reference to the Mauryan period, consider the following statements: I. The polished sandstone pillars bearing edicts are generally monolithic. II. The lion capital from Sarnath, adopted as the State Emblem, originally surmounted such a pillar. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "History",
+    "theme": "Ancient India",
+    "micro_topic": "Mauryan Pillars",
+    "nature": "Factual",
+    "difficulty": "Moderate",
+    "answer_key": "(c)",
+    "explanation": "Both are correct. The polished sandstone Mauryan pillars bearing edicts are generally monolithic, and the Sarnath lion capital — adopted as the State Emblem of India — originally surmounted one such pillar."
+  },
+  {
+    "id": 684,
+    "question": "Consider the following: I. Champaran II. Kheda III. Ahmedabad mill workers. How many of the above were sites of satyagraha led by Mahatma Gandhi before the launch of the Non-Cooperation Movement?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All the three",
+      "(d) None"
+    ],
+    "subject": "History",
+    "theme": "Modern India",
+    "micro_topic": "Early Gandhian Satyagrahas",
+    "nature": "Factual",
+    "difficulty": "Moderate",
+    "answer_key": "(c)",
+    "explanation": "All three (Champaran, Kheda and the Ahmedabad mill workers' satyagraha) were led by Gandhi in 1917-18, before the Non-Cooperation Movement (1920-22). Hence all three."
+  },
+  {
+    "id": 685,
+    "question": "With reference to the integration of princely states after 1947, consider the following statements: I. The Instrument of Accession provided for the transfer of three subjects to the Union — defence, external affairs and communications. II. The state of Hyderabad acceded to India through a plebiscite held in 1948. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "History",
+    "theme": "Post-Independence India",
+    "micro_topic": "Integration of Princely States",
+    "nature": "Factual",
+    "difficulty": "Hard",
+    "answer_key": "(a)",
+    "explanation": "Statement I is correct: the Instrument of Accession transferred three subjects — defence, external affairs and communications — to the Union. Statement II is incorrect: Hyderabad was integrated through 'Operation Polo' (a police action) in 1948, not through a plebiscite."
+  },
+  {
+    "id": 686,
+    "question": "Consider the following journals/newspapers and the figures associated with them: I. Kesari : Bal Gangadhar Tilak II. Al-Hilal : Abul Kalam Azad III. The Indian Sociologist : Shyamji Krishna Varma. In how many of the above is the association correct?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All the three",
+      "(d) None"
+    ],
+    "subject": "History",
+    "theme": "Modern India",
+    "micro_topic": "Press and Nationalism",
+    "nature": "Factual",
+    "difficulty": "Hard",
+    "answer_key": "(c)",
+    "explanation": "All three are correctly associated: Kesari with Bal Gangadhar Tilak, Al-Hilal with Abul Kalam Azad, and The Indian Sociologist with Shyamji Krishna Varma. Hence all three."
+  },
+  {
+    "id": 687,
+    "question": "With reference to the Indo-Greek (Bactrian) rulers in the Indian subcontinent, consider the following statements: I. They were among the first to issue gold coins in India bearing the portrait of the king. II. The ruler Menander is associated with the Buddhist text Milindapanha. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "History",
+    "theme": "Ancient India",
+    "micro_topic": "Indo-Greeks",
+    "nature": "Factual",
+    "difficulty": "Hard",
+    "answer_key": "(c)",
+    "explanation": "Both are correct. The Indo-Greeks were among the first to issue gold coins in India bearing the king's portrait, and Menander (Milinda) is associated with the Buddhist text Milindapanha."
+  },
+  {
+    "id": 688,
+    "question": "Consider the following events of the Indian freedom struggle in chronological order: I. Formation of the Muslim League II. Partition of Bengal III. Lucknow Pact IV. Rowlatt Satyagraha. How many of the above occurred before the end of the First World War?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) Only three",
+      "(d) All the four"
+    ],
+    "subject": "History",
+    "theme": "Modern India",
+    "micro_topic": "Chronology of Events",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "answer_key": "(c)",
+    "explanation": "The Muslim League's formation (1906), the Partition of Bengal (1905) and the Lucknow Pact (1916) all occurred before the end of the First World War (November 1918). The Rowlatt Satyagraha (1919) came after. Hence three."
+  },
+  {
+    "id": 689,
+    "question": "With reference to classical dance forms of India, consider the following pairs: I. Sattriya : Assam II. Mohiniyattam : Kerala III. Kuchipudi : Andhra Pradesh. In how many of the above is the dance form correctly matched with the state with which it is primarily associated?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All the three",
+      "(d) None"
+    ],
+    "subject": "Art and Culture",
+    "theme": "Performing Arts",
+    "micro_topic": "Classical Dance Forms",
+    "nature": "Factual",
+    "difficulty": "Moderate",
+    "answer_key": "(c)",
+    "explanation": "All three pairs are correct: Sattriya (Assam), Mohiniyattam (Kerala) and Kuchipudi (Andhra Pradesh). Hence all three."
+  },
+  {
+    "id": 690,
+    "question": "Consider the following temple architectural styles and their characteristic feature: I. Nagara : curvilinear tower (shikhara) II. Dravida : pyramidal tower (vimana) within an enclosed courtyard III. Vesara : a hybrid combining elements of both. In how many of the above is the feature correctly described?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All the three",
+      "(d) None"
+    ],
+    "subject": "Art and Culture",
+    "theme": "Architecture",
+    "micro_topic": "Temple Styles",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "answer_key": "(c)",
+    "explanation": "All three are correctly described: the Nagara style with its curvilinear shikhara, the Dravida style with a pyramidal vimana within an enclosed courtyard, and the Vesara style as a hybrid of the two. Hence all three."
+  },
+  {
+    "id": 691,
+    "question": "With reference to schools of Indian miniature painting, consider the following statements: I. The Pahari school flourished in the sub-Himalayan hill states. II. The Tanjore (Thanjavur) style is distinguished by the use of gold foil and gem-setting. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "Art and Culture",
+    "theme": "Painting",
+    "micro_topic": "Miniature Painting Schools",
+    "nature": "Factual",
+    "difficulty": "Hard",
+    "answer_key": "(c)",
+    "explanation": "Both are correct. The Pahari school flourished in the sub-Himalayan hill states, and the Tanjore (Thanjavur) painting tradition is distinguished by the use of gold foil and gem/glass-bead setting."
+  },
+  {
+    "id": 692,
+    "question": "Consider the following intangible cultural elements from India inscribed on UNESCO's Representative List: I. Kumbh Mela II. Yoga III. Durga Puja in Kolkata. How many of the above figure on that UNESCO list?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All the three",
+      "(d) None"
+    ],
+    "subject": "Art and Culture",
+    "theme": "Intangible Heritage",
+    "micro_topic": "UNESCO Intangible Heritage",
+    "nature": "Factual",
+    "difficulty": "Moderate",
+    "answer_key": "(c)",
+    "explanation": "All three figure on UNESCO's Representative List of the Intangible Cultural Heritage of Humanity: Kumbh Mela, Yoga, and Durga Puja in Kolkata. Hence all three."
+  },
+  {
+    "id": 693,
+    "question": "Consider the following indigenous defence systems and their primary role: I. Pinaka : multi-barrel rocket launcher system II. Pralay : surface-to-surface short-range ballistic missile III. Astra : beyond-visual-range air-to-air missile. In how many of the above is the role correctly described?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All the three",
+      "(d) None"
+    ],
+    "subject": "Defense",
+    "theme": "Military Equipment",
+    "micro_topic": "Indigenous Missiles",
+    "nature": "Factual",
+    "difficulty": "Hard",
+    "answer_key": "(c)",
+    "explanation": "All three roles are correctly described: Pinaka (multi-barrel rocket launcher), Pralay (short-range surface-to-surface ballistic missile) and Astra (beyond-visual-range air-to-air missile). Hence all three."
+  },
+  {
+    "id": 694,
+    "question": "With reference to the proposed reorganisation of India's armed forces into integrated theatre commands, consider the following statements: I. The objective is to place assets of different services under a single operational commander for a defined geography or function. II. The post created to spearhead jointness and act as the principal military adviser to the government is a constitutional post. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "Defense",
+    "theme": "Defence Reforms",
+    "micro_topic": "Theatre Commands",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(a)",
+    "explanation": "Statement I is correct: theatre commands aim to place multi-service assets under a single operational commander for a defined geography or function. Statement II is incorrect: the Chief of Defence Staff is a government-created post, not a constitutional post."
+  },
+  {
+    "id": 695,
+    "question": "Consider the following capabilities: I. Anti-satellite (kinetic) weapon II. Long-range hypersonic glide/cruise missile III. High-power laser directed-energy weapon against drones. In how many of the above has India been reported to join a small group of nations with a demonstrated capability?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All the three",
+      "(d) None"
+    ],
+    "subject": "Defense",
+    "theme": "Defense Technology",
+    "micro_topic": "Strategic Capabilities",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(c)",
+    "explanation": "India has been reported among a small group of nations for all three: an anti-satellite kinetic-kill weapon (Mission Shakti), a long-range hypersonic missile, and a high-power laser directed-energy weapon against drones. Hence all three."
+  },
+  {
+    "id": 696,
+    "question": "With reference to the Minimum Support Price (MSP) mechanism, consider the following statements: I. The MSP is recommended by the Commission for Agricultural Costs and Prices. II. There is a statutory guarantee that all crops will be procured at the MSP. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "Agriculture",
+    "theme": "Government Schemes",
+    "micro_topic": "Minimum Support Price",
+    "nature": "Conceptual",
+    "difficulty": "Hard",
+    "answer_key": "(a)",
+    "explanation": "Statement I is correct: the MSP is recommended by the Commission for Agricultural Costs and Prices. Statement II is incorrect: there is no statutory guarantee that all crops will be procured at the MSP."
+  },
+  {
+    "id": 697,
+    "question": "Consider the following: I. e-NAM (National Agriculture Market) II. Kisan Credit Card III. Soil Health Card. How many of the above are interventions aimed primarily at improving farmers' access to remunerative markets rather than at credit or input management?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All the three",
+      "(d) None"
+    ],
+    "subject": "Agriculture",
+    "theme": "Government Schemes",
+    "micro_topic": "Agricultural Market Reforms",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "answer_key": "(a)",
+    "explanation": "Only e-NAM is aimed primarily at improving farmers' access to remunerative markets. The Kisan Credit Card concerns credit access, and the Soil Health Card concerns input/soil management. Hence only one."
+  },
+  {
+    "id": 698,
+    "question": "With reference to 'natural farming' as promoted in India, consider the following statements: I. It discourages the use of synthetic chemical fertilisers and pesticides, relying on on-farm biomass and microbial preparations. II. It is identical to certified organic farming in terms of input certification requirements. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "Agriculture",
+    "theme": "Sustainable Farming",
+    "micro_topic": "Natural Farming",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "answer_key": "(a)",
+    "explanation": "Statement I is correct: natural farming discourages synthetic chemical inputs and relies on on-farm biomass and microbial preparations. Statement II is incorrect: natural farming is not identical to certified organic farming, which has its own distinct input-certification requirements."
+  },
+  {
+    "id": 699,
+    "question": "With reference to the decennial Census and the enumeration of caste, consider the following statements: I. The last Census in which caste of all groups was comprehensively enumerated was conducted in the colonial period. II. The Union Government has announced that caste enumeration will be included in the forthcoming Census exercise. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "Social Issues",
+    "theme": "Demography",
+    "micro_topic": "Caste Enumeration",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(c)",
+    "explanation": "Both are correct. The last Census in which caste of all groups was comprehensively enumerated was in 1931 (colonial period), and the Union Government has announced that caste enumeration will be included in the forthcoming Census exercise."
+  },
+  {
+    "id": 700,
+    "question": "Consider the following large-scale official statistical exercises in India: I. Periodic Labour Force Survey II. National Family Health Survey III. National Crime Records Bureau report. In how many of the above is the dataset primarily concerned with employment and the labour market?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All the three",
+      "(d) None"
+    ],
+    "subject": "Social Issues",
+    "theme": "Government Data",
+    "micro_topic": "Official Statistics",
+    "nature": "Factual",
+    "difficulty": "Moderate",
+    "answer_key": "(a)",
+    "explanation": "Only the Periodic Labour Force Survey is primarily concerned with employment and the labour market. The NFHS deals with health and family welfare, and the NCRB report deals with crime. Hence only one."
+  },
+  {
+    "id": 701,
+    "question": "With reference to measures of population and development, consider the following statements: I. The Total Fertility Rate considered as 'replacement level' for India is generally taken as about 2.1. II. A Multidimensional Poverty Index captures deprivations in health, education and standard of living rather than income alone. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) I only",
+      "(b) II only",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "subject": "Social Issues",
+    "theme": "Demography",
+    "micro_topic": "Population and Poverty Metrics",
+    "nature": "Conceptual",
+    "difficulty": "Moderate",
+    "answer_key": "(c)",
+    "explanation": "Both are correct. The replacement-level Total Fertility Rate for India is generally taken as about 2.1, and the Multidimensional Poverty Index captures deprivations in health, education and standard of living rather than income alone."
+  }
+]
