@@ -324,6 +324,10 @@ body[data-qfont="serif"] .markdown-view p, body[data-qfont="serif"] .markdown-vi
 .markdown-view em { color: var(--ink-soft); }
 .markdown-view hr { width: 100%; border: 0; border-top: 1px solid var(--line-2); margin: 4px 0; }
 .markdown-view code { font-family: var(--mono); font-size: .9em; background: var(--paper-2); padding: 1px 5px; border-radius: 5px; }
+.math-inline { display: inline-block; vertical-align: -0.08em; max-width: 100%; }
+.math-block { display: block; overflow-x: auto; overflow-y: hidden; padding: 6px 2px; max-width: 100%; }
+.math-block .katex-display { margin: 0; }
+.math-fallback { font-family: var(--mono); color: var(--ink); white-space: pre-wrap; }
 .md-table-wrap { overflow-x: auto; border: 1px solid var(--line-2); border-radius: var(--radius-sm); }
 .markdown-view table { width: 100%; border-collapse: collapse; min-width: 520px; }
 .markdown-view th, .markdown-view td { padding: 10px 12px; border-bottom: 1px solid var(--line-2); text-align: left; vertical-align: top; font-size: 13.5px; }

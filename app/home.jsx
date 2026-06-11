@@ -355,6 +355,32 @@ function MarkdownView({ text }) {
       i++;
       continue;
     }
+    if (/^\s*\$\$/.test(line)) {
+      const formula = [];
+      const first = line.trim();
+      if (first.length > 4 && first.endsWith("$$")) {
+        formula.push(first.slice(2, -2).trim());
+        i++;
+      } else {
+        const opening = first.slice(2).trim();
+        if (opening) formula.push(opening);
+        i++;
+        while (i < lines.length) {
+          const current = lines[i];
+          const trimmed = current.trim();
+          if (trimmed.endsWith("$$")) {
+            const closing = trimmed.slice(0, -2).trim();
+            if (closing) formula.push(closing);
+            i++;
+            break;
+          }
+          formula.push(current);
+          i++;
+        }
+      }
+      blocks.push({ type: "math", text: formula.join("\n") });
+      continue;
+    }
     if (/^\|/.test(line)) {
       const rows = [];
       while (i < lines.length && /^\|/.test(lines[i])) {
@@ -403,7 +429,7 @@ function MarkdownView({ text }) {
       continue;
     }
     const paragraph = [];
-    while (i < lines.length && lines[i].trim() && !/^#{1,4}\s/.test(lines[i]) && !/^[-*]\s+/.test(lines[i]) && !/^\d+\.\s+/.test(lines[i]) && !/^>\s?/.test(lines[i]) && !/^---+$/.test(lines[i].trim()) && !/^\|/.test(lines[i])) {
+    while (i < lines.length && lines[i].trim() && !/^\s*\$\$/.test(lines[i]) && !/^#{1,4}\s/.test(lines[i]) && !/^[-*]\s+/.test(lines[i]) && !/^\d+\.\s+/.test(lines[i]) && !/^>\s?/.test(lines[i]) && !/^---+$/.test(lines[i].trim()) && !/^\|/.test(lines[i])) {
       paragraph.push(lines[i]);
       i++;
     }
@@ -420,6 +446,7 @@ function MarkdownView({ text }) {
         if (block.type === "quote") return <blockquote key={index}>{renderInline(block.text)}</blockquote>;
         if (block.type === "list") return <ul key={index}>{block.items.map((item, itemIndex) => <li key={itemIndex}>{renderInline(item)}</li>)}</ul>;
         if (block.type === "ordered-list") return <ol key={index}>{block.items.map((item, itemIndex) => <li key={itemIndex}>{renderInline(item)}</li>)}</ol>;
+        if (block.type === "math") return <MathText key={index} value={block.text} display />;
         if (block.type === "rule") return <hr key={index} />;
         if (block.type === "table") {
           const [head, ...body] = block.rows;
@@ -439,13 +466,98 @@ function MarkdownView({ text }) {
 }
 
 function renderInline(text) {
-  const parts = String(text).split(/(\*\*[^*]+\*\*|`[^`]+`|\*[^*\n]+\*)/g).filter(Boolean);
+  const source = String(text || "");
+  const parts = [];
+  let i = 0;
+
+  function pushText(value) {
+    if (value) parts.push({ type: "text", value });
+  }
+
+  while (i < source.length) {
+    if (source.startsWith("`", i)) {
+      const end = source.indexOf("`", i + 1);
+      if (end > i) {
+        parts.push({ type: "code", value: source.slice(i + 1, end) });
+        i = end + 1;
+        continue;
+      }
+    }
+    if (source.startsWith("**", i)) {
+      const end = source.indexOf("**", i + 2);
+      if (end > i) {
+        parts.push({ type: "strong", value: source.slice(i + 2, end) });
+        i = end + 2;
+        continue;
+      }
+    }
+    if (source[i] === "$") {
+      const end = findClosingDollar(source, i + 1);
+      if (end > i) {
+        parts.push({ type: "math", value: source.slice(i + 1, end) });
+        i = end + 1;
+        continue;
+      }
+    }
+    if (source[i] === "*") {
+      const end = source.indexOf("*", i + 1);
+      if (end > i) {
+        parts.push({ type: "em", value: source.slice(i + 1, end) });
+        i = end + 1;
+        continue;
+      }
+    }
+
+    const next = nextInlineMarker(source, i + 1);
+    pushText(source.slice(i, next));
+    i = next;
+  }
+
   return parts.map((part, index) => {
-    if (part.startsWith("**") && part.endsWith("**")) return <strong key={index}>{part.slice(2, -2)}</strong>;
-    if (part.startsWith("`") && part.endsWith("`")) return <code key={index}>{part.slice(1, -1)}</code>;
-    if (part.startsWith("*") && part.endsWith("*")) return <em key={index}>{part.slice(1, -1)}</em>;
-    return <React.Fragment key={index}>{part}</React.Fragment>;
+    if (part.type === "strong") return <strong key={index}>{renderInline(part.value)}</strong>;
+    if (part.type === "code") return <code key={index}>{part.value}</code>;
+    if (part.type === "math") return <MathText key={index} value={part.value} />;
+    if (part.type === "em") return <em key={index}>{renderInline(part.value)}</em>;
+    return <React.Fragment key={index}>{part.value}</React.Fragment>;
   });
+}
+
+function nextInlineMarker(source, fromIndex) {
+  const markers = ["`", "$", "**", "*"]
+    .map((marker) => source.indexOf(marker, fromIndex))
+    .filter((index) => index >= 0);
+  return markers.length ? Math.min(...markers) : source.length;
+}
+
+function findClosingDollar(source, fromIndex) {
+  for (let i = fromIndex; i < source.length; i++) {
+    if (source[i] === "$" && source[i - 1] !== "\\") return i;
+  }
+  return -1;
+}
+
+function MathText({ value, display = false }) {
+  const formula = String(value || "").trim();
+  const html = renderMathHtml(formula, display);
+  const TagName = display ? "div" : "span";
+  if (!html) {
+    return <TagName className={display ? "math-block math-fallback" : "math-inline math-fallback"}>{display ? `$$${formula}$$` : `$${formula}$`}</TagName>;
+  }
+  return <TagName className={display ? "math-block" : "math-inline"} dangerouslySetInnerHTML={{ __html: html }} />;
+}
+
+function renderMathHtml(formula, display) {
+  if (!formula || !window.katex?.renderToString) return "";
+  try {
+    return window.katex.renderToString(formula, {
+      displayMode: display,
+      throwOnError: false,
+      strict: false,
+      trust: false,
+    });
+  } catch (error) {
+    return "";
+  }
 }
 
 function Home({ go, progress, summary }) {
