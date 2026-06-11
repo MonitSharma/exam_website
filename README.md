@@ -95,6 +95,31 @@ daily_current_affairs/
 daily_reading_comprehension/
 ```
 
+Weekly notes are split by stream:
+
+```text
+weekly/Sunday/
+weekly/CSAT/
+weekly/Physics/
+```
+
+Use these filename patterns so the site can discover new content during build:
+
+```text
+daily_current_affairs/UPSC_CA_YYYY-MM-DD.md
+daily_reading_comprehension/RC_Drill_YYYY-MM-DD.md
+generated_questions/daily_questions/daily_questions_YYYY-MM-DD.json
+weekly/Sunday/Sunday_Sweep_YYYY-MM-DD.md
+weekly/CSAT/CSAT_Practice_YYYY-MM-DD.md
+weekly/CSAT/CSAT_PYQ_YYYY-MM-DD.md
+weekly/Physics/Physics_Drill_YYYY-MM-DD.md
+```
+
+The GitHub Pages build runs `scripts/generate_content_manifest.js` through
+`npm run build`. That manifest is generated from the folders above, so after
+adding new files with the same naming scheme, pushing to `main` is enough for
+the deployed site to show them.
+
 Processed files are written to:
 
 ```text

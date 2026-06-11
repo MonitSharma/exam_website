@@ -5,6 +5,7 @@
   "description": "UPSC CSE practice platform — static frontend, no backend.",
   "scripts": {
     "build": "node build.js",
+    "manifest": "node scripts/generate_content_manifest.js config/content_manifest.json",
     "serve": "python3 -m http.server 8001"
   },
   "devDependencies": {

@@ -116,7 +116,7 @@ function PracticeScreen({ go }) {
               </button>
             ))}
           </div>
-          {!sets.length && <div className="empty-panel"><strong>No sets yet.</strong><span>Add a processed question file and register it in app/data.js.</span></div>}
+          {!sets.length && <div className="empty-panel"><strong>No sets yet.</strong><span>Add a question file in the expected folder, then rebuild or push to GitHub.</span></div>}
           <div className="practice-start">
             <button className="btn ghost" onClick={() => go("home")}><Icon name="arrowL" size={16} /> Home</button>
             <button className="btn btn-green" onClick={beginSelected} disabled={!selectedExam.live || !selectedSet}>

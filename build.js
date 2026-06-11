@@ -9,9 +9,11 @@
 const fs = require("fs");
 const path = require("path");
 const esbuild = require("esbuild");
+const { buildContentManifest, writeManifestFile } = require("./scripts/generate_content_manifest");
 
 const ROOT = __dirname;
 const DIST = path.join(ROOT, "dist");
+let contentManifest = null;
 
 // Load order matters — these files attach to window globals and rely on each
 // other (data → shared → screens → root). Same order as index.html script tags.
@@ -47,7 +49,8 @@ function clean() {
 }
 
 function bundleApp() {
-  const chunks = SOURCES.map((relPath) => {
+  const manifestPrelude = `window.UPSC_CONTENT_MANIFEST=${JSON.stringify(contentManifest || {})};`;
+  const chunks = [manifestPrelude].concat(SOURCES.map((relPath) => {
     const abs = path.join(ROOT, relPath);
     const code = fs.readFileSync(abs, "utf8");
     const loader = relPath.endsWith(".jsx") ? "jsx" : "js";
@@ -62,7 +65,7 @@ function bundleApp() {
       jsx: "transform",
     });
     return `/* ${relPath} */\n${result.code}`;
-  });
+  }));
   fs.writeFileSync(path.join(DIST, "app", "app.bundle.js"), chunks.join("\n;"));
 }
 
@@ -101,10 +104,12 @@ function copyStatic() {
     const dest = path.join(DIST, name);
     fs.cpSync(src, dest, { recursive: true });
   }
+  writeManifestFile(path.join(DIST, "config", "content_manifest.json"), ROOT, contentManifest);
 }
 
 function run() {
   console.log("Building production bundle into dist/");
+  contentManifest = buildContentManifest(ROOT);
   clean();
   bundleApp();
   copyStylesAndHtml();

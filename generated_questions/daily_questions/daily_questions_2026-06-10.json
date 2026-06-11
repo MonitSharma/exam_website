@@ -1,0 +1,114 @@
+[
+  {
+    "question": "The Su-57, in news regarding an Indian co-production offer, is best described as:",
+    "options": [
+      "(a) A Russian fifth-generation stealth fighter aircraft",
+      "(b) A Russian long-range air-defence missile system",
+      "(c) An Indo-Russian hypersonic cruise missile",
+      "(d) A Russian nuclear-powered attack submarine"
+    ],
+    "answer": "(a)",
+    "explanation": "The Su-57 is Russia's fifth-generation stealth fighter (Sukhoi); the offer is for joint production with tech transfer. S-400 is the air-defence system; BrahMos the cruise missile.",
+    "subject": "International Relations",
+    "theme": "India-Russia defence cooperation",
+    "micro_topic": "Su-57 / fifth-generation fighter aircraft",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the RBI's June 2026 monetary policy, consider the following: 1. The repo rate was kept unchanged at 5.25%. 2. The GDP growth forecast was revised upward. 3. The inflation projection was raised. Which of the above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Repo held at 5.25% (correct) and inflation raised to 5.1% (correct); GDP was cut to 6.6%, not raised, so statement 2 is wrong.",
+    "subject": "Economy",
+    "theme": "Monetary policy",
+    "micro_topic": "RBI MPC repo rate / growth & inflation forecasts",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "\"Planetary boundaries,\" referenced in the State of India's Environment 2026 report, include which of the following? 1. Climate change 2. Ocean acidification 3. Stratospheric ozone depletion 4. Biosphere integrity",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1, 2 and 4 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "answer": "(d)",
+    "explanation": "All four are among the nine planetary boundaries (others: land-system change, freshwater change, biogeochemical flows, novel entities, atmospheric aerosol loading). SOE 2026 flags ocean acidification as the latest breached.",
+    "subject": "Environment",
+    "theme": "Planetary boundaries framework",
+    "micro_topic": "State of India's Environment 2026 / planetary boundaries",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the New Development Bank (NDB), consider the following: 1. It was established by the BRICS countries. 2. Its headquarters is located in Shanghai, China. 3. Each member country has one vote and none holds a veto. Which of the above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "The NDB was set up by BRICS, is headquartered in Shanghai, and uses a one-country-one-vote structure with no veto.",
+    "subject": "International Relations",
+    "theme": "BRICS and its institutions",
+    "micro_topic": "New Development Bank",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Supreme Court (Number of Judges) Amendment Ordinance, 2026 raised the sanctioned strength of the Supreme Court to:",
+    "options": [
+      "(a) 34 judges including the CJI",
+      "(b) 36 judges including the CJI",
+      "(c) 38 judges including the CJI",
+      "(d) 31 judges excluding the CJI"
+    ],
+    "answer": "(c)",
+    "explanation": "The 2026 Ordinance raised total strength from 34 to 38 (CJI + 37). Excluding the CJI the number is 37, not 31, so (d) is wrong.",
+    "subject": "Polity",
+    "theme": "Supreme Court composition",
+    "micro_topic": "SC (Number of Judges) Amendment Ordinance 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the Supreme Court of India, consider the following statements: 1. The Constitution itself fixes the maximum number of Supreme Court judges. 2. The President can increase the sanctioned strength of the Supreme Court through an ordinance. 3. The original 1950 strength was the Chief Justice plus seven judges. Which of the statements is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 3 only",
+      "(d) 1 and 3 only"
+    ],
+    "answer": "(c)",
+    "explanation": "Statement 1 is wrong: the Constitution leaves the number to Parliament by law (Art. 124(1)). Statement 2 is wrong as framed: an ordinance under Art. 123 is a temporary legislative act (only when Parliament is not in session) requiring later parliamentary ratification, not an independent presidential power to set strength. Statement 3 is correct: the 1950 strength was CJI + 7.",
+    "subject": "Polity",
+    "theme": "Supreme Court / appointment and strength of judges",
+    "micro_topic": "Article 124 and SC sanctioned strength",
+    "nature": "Factual",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "With reference to tiger conservation in India, consider the following: 1. Project Tiger was launched in 1973. 2. Tiger reserves are notified by the National Tiger Conservation Authority (NTCA). 3. Lantana camara, frequently cited as a threat in tiger habitats, is an invasive alien plant species. Which of the above is/are correct?",
+    "options": [
+      "(a) 1 and 3 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 2 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "Project Tiger launched in 1973; the NTCA (statutory body under the Wildlife Protection Act, 2006 amendment) notifies tiger reserves; Lantana camara is an invasive alien species.",
+    "subject": "Environment",
+    "theme": "Protected-area framework / tiger conservation",
+    "micro_topic": "Project Tiger, NTCA, invasive species",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  }
+]

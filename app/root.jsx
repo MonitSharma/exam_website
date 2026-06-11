@@ -137,6 +137,7 @@ function TopNav({ screen, go, summary }) {
 }
 
 function App() {
+  const [contentVersion, setContentVersion] = useRootState(0);
   const ds = window.UPSC;
   const [t, setTweak] = useTweaks(TWEAK_DEFAULTS);
   const [screen, setScreen] = useRootState("home");
@@ -148,6 +149,11 @@ function App() {
   const [lastResult, setLastResult] = useRootState(null);
   const [progress, setProgress] = useRootState(loadProgress);
   const summary = getProgressSummary(progress);
+  void contentVersion;
+
+  useRootEffect(() => {
+    return window.UPSC.subscribeContent?.(() => setContentVersion((version) => version + 1));
+  }, []);
 
   useRootEffect(() => {
     const r = document.documentElement;

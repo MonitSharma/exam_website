@@ -300,7 +300,7 @@ ol, ul { margin: 0; }
 .notes-library { margin-top: 32px; }
 .notes-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 18px; margin-bottom: 14px; }
 .notes-head h3 { font-family: var(--serif); font-size: 25px; font-weight: 500; }
-.notes-tabs { display: inline-flex; background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 4px; box-shadow: var(--shadow-sm); }
+.notes-tabs { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 4px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 4px; box-shadow: var(--shadow-sm); }
 .notes-tabs button { padding: 8px 14px; border-radius: 999px; color: var(--muted); font-weight: 700; font-size: 13px; }
 .notes-tabs button.on { background: var(--green); color: #fff; }
 .notes-layout { display: grid; grid-template-columns: 270px minmax(0, 1fr); gap: 16px; align-items: start; }
@@ -652,8 +652,8 @@ body[data-qfont="serif"] .rev-explain p { font-family: var(--serif); font-size: 
   .break-stats { grid-template-columns: 1fr 1fr; }
   .hero { padding: 36px 0 20px; }
   .notes-head { align-items: flex-start; flex-direction: column; }
-  .notes-tabs { width: 100%; justify-content: space-between; }
-  .notes-tabs button { flex: 1; }
+  .notes-tabs { width: 100%; justify-content: flex-start; }
+  .notes-tabs button { flex: 0 1 auto; }
   .set-grid { grid-template-columns: 1fr; }
   .practice-types { grid-template-columns: 1fr; }
   .practice-start, .practice-start .btn { width: 100%; }

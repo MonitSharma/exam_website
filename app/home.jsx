@@ -39,7 +39,7 @@ function HeroCalendar({ go, progress }) {
   const daysInMonth = new Date(Date.UTC(year, month, 0)).getUTCDate();
   const blanks = Array.from({ length: first.getUTCDay() });
   const todaySet = dailyByDate.get(today);
-  const latestDaily = dailySets[dailySets.length - 1];
+  const latestDaily = [...dailySets].filter((set) => set.isoDate).sort((a, b) => b.isoDate.localeCompare(a.isoDate))[0];
   const monthLabel = new Intl.DateTimeFormat("en-GB", { month: "long", year: "numeric", timeZone: "UTC" }).format(first);
   const status = todaySet
     ? done[today] ? "Today’s daily quiz is complete." : "Today’s daily quiz is pending."
@@ -86,6 +86,7 @@ function DailyQuizCard({ go, progress }) {
   const dailyQuiz = ds.dailyQuiz;
   const dailySet = ds.getQuestionSetById(ds.defaultQuestionSetId);
   const complete = Boolean(progress.dailyCompletions?.[dailyQuiz.isoDate]);
+  const subjectLabel = dailySet?.subjects?.slice(0, 3).join(" · ") || "Environment · IR · Economy";
   return (
     <article className="daily-card">
       <div className="daily-glow" aria-hidden="true" />
@@ -100,7 +101,7 @@ function DailyQuizCard({ go, progress }) {
         <span className="dot-sep" />
         <span><strong>~{dailyQuiz.durationMinutes}</strong> min</span>
         <span className="dot-sep" />
-        <span className="daily-subjects">{complete ? "Completed" : "Pending"} · Environment · IR · Economy</span>
+        <span className="daily-subjects">{complete ? "Completed" : "Pending"} · {subjectLabel}</span>
       </div>
       <div className="daily-actions">
         <button className="btn btn-saffron" onClick={() => go("test", { setId: ds.defaultQuestionSetId })}>
@@ -272,16 +273,28 @@ function QuestionSetPicker({ bank, sets, go, onClose }) {
 
 function NotesLibrary() {
   const ds = window.UPSC;
-  const tabs = [["daily", "Daily CA"], ["rc", "Daily RC"], ["weekly", "Weekly"], ["monthly", "Monthly"], ["strategy", "Strategy"]];
+  const baseTabs = [
+    ["daily", "Daily CA"],
+    ["rc", "Daily RC"],
+    ["sunday", "Sunday Sweep"],
+    ["weekly-csat", "CSAT"],
+    ["physics", "Physics"],
+    ["weekly", "Weekly"],
+    ["monthly", "Monthly"],
+    ["strategy", "Strategy"],
+  ];
+  const availableCadences = new Set(ds.noteDocuments.map((doc) => doc.cadence));
+  const tabs = baseTabs.filter(([key]) => availableCadences.has(key));
   const [cadence, setCadence] = useStateHome("daily");
-  const docs = ds.noteDocuments.filter((doc) => doc.cadence === cadence);
+  const activeCadence = tabs.some(([key]) => key === cadence) ? cadence : tabs[0]?.[0] || cadence;
+  const docs = ds.noteDocuments.filter((doc) => doc.cadence === activeCadence);
+  const docIds = docs.map((doc) => doc.id).join("|");
   const [selectedId, setSelectedId] = useStateHome(docs[0]?.id || null);
   const [noteState, setNoteState] = useStateHome({ loading: false, error: "", note: null, content: "" });
 
   useEffectHome(() => {
-    const nextDocs = ds.noteDocuments.filter((doc) => doc.cadence === cadence);
-    setSelectedId(nextDocs[0]?.id || null);
-  }, [cadence]);
+    setSelectedId(docs[0]?.id || null);
+  }, [activeCadence, docIds]);
 
   useEffectHome(() => {
     if (!selectedId) {
@@ -309,7 +322,7 @@ function NotesLibrary() {
         </div>
         <div className="notes-tabs">
           {tabs.map(([key, label]) => (
-            <button key={key} className={cadence === key ? "on" : ""} onClick={() => setCadence(key)}>{label}</button>
+            <button key={key} className={activeCadence === key ? "on" : ""} onClick={() => setCadence(key)}>{label}</button>
           ))}
         </div>
       </div>
@@ -320,7 +333,7 @@ function NotesLibrary() {
               <strong>{doc.title}</strong>
               <span>{doc.shortTitle}</span>
             </button>
-          )) : <p>No {cadence} notes yet.</p>}
+          )) : <p>No {activeCadence} notes yet.</p>}
         </aside>
         <article className="note-reader">
           {noteState.loading && <p className="muted">Loading note...</p>}

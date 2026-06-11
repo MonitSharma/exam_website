@@ -1,0 +1,438 @@
+{
+  "version": 1,
+  "years": [
+    2026,
+    2025,
+    2024,
+    2023,
+    2022,
+    2021,
+    2020,
+    2019
+  ],
+  "questionSets": [
+    {
+      "id": "daily_questions_2026_06_10",
+      "label": "Daily Questions - 10 Jun 2026",
+      "shortLabel": "Daily 10 Jun",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "generated_questions/daily_questions/daily_questions_2026-06-10.json",
+      "isoDate": "2026-06-10",
+      "subjects": [
+        "International Relations",
+        "Economy",
+        "Environment",
+        "Polity"
+      ]
+    },
+    {
+      "id": "daily_questions_2026_06_09",
+      "label": "Daily Questions · Jun 09, 2026",
+      "shortLabel": "Daily Jun 09",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "data/processed/daily_questions_2026_06_09_processed.json",
+      "isoDate": "2026-06-09",
+      "subjects": [
+        "Environment",
+        "Geography",
+        "Polity",
+        "Economy",
+        "Science & Technology"
+      ]
+    },
+    {
+      "id": "daily_questions_2026_06_08",
+      "label": "Daily Questions · Jun 08, 2026",
+      "shortLabel": "Daily Jun 08",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "data/processed/daily_questions_2026_06_08_processed.json",
+      "isoDate": "2026-06-08",
+      "subjects": [
+        "International Relations",
+        "Science & Technology",
+        "Economy",
+        "Environment"
+      ]
+    },
+    {
+      "id": "daily_questions_2026_06_07",
+      "label": "Daily Questions · Jun 07, 2026",
+      "shortLabel": "Daily Jun 07",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "data/processed/daily_questions_2026_06_07_processed.json",
+      "isoDate": "2026-06-07",
+      "subjects": [
+        "Environment",
+        "International Relations",
+        "Economy",
+        "Science & Technology",
+        "Polity & Governance"
+      ]
+    },
+    {
+      "id": "csat_practice_2026_06_09",
+      "label": "CSAT Practice · Jun 09, 2026",
+      "shortLabel": "CSAT Practice Jun 09",
+      "category": "CSAT Practice",
+      "sourceType": "csat",
+      "questionCount": 22,
+      "durationMinutes": 35,
+      "path": "data/processed/csat_practice_2026_06_09_processed.json",
+      "isoDate": "2026-06-09",
+      "paper": "GS Paper II (CSAT)",
+      "marksPerCorrect": 2,
+      "negativeMark": -0.66,
+      "subjects": [
+        "CSAT"
+      ]
+    },
+    {
+      "id": "csat_full_mock_2026_06_08",
+      "label": "CSAT Full Mock · Jun 08, 2026",
+      "shortLabel": "CSAT Mock Jun 08",
+      "category": "CSAT Full Mock",
+      "sourceType": "csat",
+      "questionCount": 80,
+      "durationMinutes": 120,
+      "path": "data/processed/csat_full_mock_2026_06_08_processed.json",
+      "isoDate": "2026-06-08",
+      "paper": "GS Paper II (CSAT)",
+      "marksPerCorrect": 2.5,
+      "negativeMark": -0.83,
+      "noNegativeFromQuestion": 75,
+      "subjects": [
+        "CSAT"
+      ]
+    },
+    {
+      "id": "2026",
+      "label": "2026 PYQ",
+      "shortLabel": "2026",
+      "category": "Previous Year Questions",
+      "sourceType": "pyq",
+      "questionCount": 100,
+      "durationMinutes": 120,
+      "path": "data/processed/upsc_2026_processed.json",
+      "year": 2026,
+      "subjects": [
+        "Art and Culture",
+        "History",
+        "Geography",
+        "Environment",
+        "Economy"
+      ]
+    },
+    {
+      "id": "2025",
+      "label": "2025 PYQ",
+      "shortLabel": "2025",
+      "category": "Previous Year Questions",
+      "sourceType": "pyq",
+      "questionCount": 100,
+      "durationMinutes": 120,
+      "path": "data/processed/upsc_2025_processed.json",
+      "year": 2025,
+      "subjects": [
+        "Economy",
+        "Polity",
+        "Geography",
+        "Environment",
+        "History"
+      ]
+    },
+    {
+      "id": "2024",
+      "label": "2024 PYQ",
+      "shortLabel": "2024",
+      "category": "Previous Year Questions",
+      "sourceType": "pyq",
+      "questionCount": 100,
+      "durationMinutes": 120,
+      "path": "data/processed/upsc_2024_processed.json",
+      "year": 2024,
+      "subjects": [
+        "Geography",
+        "Economy",
+        "Environment",
+        "International Relations",
+        "Agriculture"
+      ]
+    },
+    {
+      "id": "2023",
+      "label": "2023 PYQ",
+      "shortLabel": "2023",
+      "category": "Previous Year Questions",
+      "sourceType": "pyq",
+      "questionCount": 100,
+      "durationMinutes": 120,
+      "path": "data/processed/upsc_2023_processed.json",
+      "year": 2023,
+      "subjects": [
+        "Geography",
+        "Environment",
+        "Science & Technology",
+        "Economy",
+        "Agriculture"
+      ]
+    },
+    {
+      "id": "2022",
+      "label": "2022 PYQ",
+      "shortLabel": "2022",
+      "category": "Previous Year Questions",
+      "sourceType": "pyq",
+      "questionCount": 100,
+      "durationMinutes": 120,
+      "path": "data/processed/upsc_2022_processed.json",
+      "year": 2022,
+      "subjects": [
+        "Economy",
+        "International Relations",
+        "Polity",
+        "Governance",
+        "Environment"
+      ]
+    },
+    {
+      "id": "2021",
+      "label": "2021 PYQ",
+      "shortLabel": "2021",
+      "category": "Previous Year Questions",
+      "sourceType": "pyq",
+      "questionCount": 100,
+      "durationMinutes": 120,
+      "path": "data/processed/upsc_2021_processed.json",
+      "year": 2021,
+      "subjects": [
+        "Economy",
+        "Social Issues",
+        "Environment",
+        "Science & Technology",
+        "History"
+      ]
+    },
+    {
+      "id": "2020",
+      "label": "2020 PYQ",
+      "shortLabel": "2020",
+      "category": "Previous Year Questions",
+      "sourceType": "pyq",
+      "questionCount": 100,
+      "durationMinutes": 120,
+      "path": "data/processed/upsc_2020_processed.json",
+      "year": 2020,
+      "subjects": [
+        "Polity",
+        "Economy",
+        "International Relations",
+        "History",
+        "Science & Technology"
+      ]
+    },
+    {
+      "id": "2019",
+      "label": "2019 PYQ",
+      "shortLabel": "2019",
+      "category": "Previous Year Questions",
+      "sourceType": "pyq",
+      "questionCount": 100,
+      "durationMinutes": 120,
+      "path": "data/processed/upsc_2019_processed.json",
+      "year": 2019,
+      "subjects": [
+        "History",
+        "Economy",
+        "Environment",
+        "Geography",
+        "Science & Technology"
+      ]
+    },
+    {
+      "id": "ai_generated_batch_1",
+      "label": "AI Generated Questions · Batch 1",
+      "shortLabel": "AI Batch 1",
+      "category": "AI Generated Practice",
+      "sourceType": "ai",
+      "questionCount": 93,
+      "durationMinutes": 120,
+      "path": "data/processed/ai_generated_batch_1_processed.json",
+      "subjects": [
+        "Economy",
+        "Governance",
+        "International Relations",
+        "Polity",
+        "Environment"
+      ]
+    },
+    {
+      "id": "ai_generated_batch_2",
+      "label": "AI Generated Questions · Batch 2",
+      "shortLabel": "AI Batch 2",
+      "category": "AI Generated Practice",
+      "sourceType": "ai",
+      "questionCount": 101,
+      "durationMinutes": 120,
+      "path": "data/processed/ai_generated_batch_2_processed.json",
+      "subjects": [
+        "Economy",
+        "Science & Technology",
+        "Environment",
+        "Polity",
+        "Geography"
+      ]
+    },
+    {
+      "id": "ai_generated_batch_3",
+      "label": "AI Generated Questions · Batch 3",
+      "shortLabel": "AI Batch 3",
+      "category": "AI Generated Practice",
+      "sourceType": "ai",
+      "questionCount": 16,
+      "durationMinutes": 30,
+      "path": "data/processed/ai_generated_batch_3_processed.json",
+      "subjects": [
+        "Polity",
+        "Economy",
+        "Science & Technology",
+        "Environment",
+        "Governance"
+      ]
+    },
+    {
+      "id": "csr_batch_1",
+      "label": "CSR Monthly Mock · Batch 1",
+      "shortLabel": "CSR Batch 1",
+      "category": "CSR Monthly Mock",
+      "sourceType": "csr",
+      "questionCount": 58,
+      "durationMinutes": 120,
+      "path": "data/processed/csr_batch_1_processed.json",
+      "subjects": [
+        "Science & Technology",
+        "Economy",
+        "Polity",
+        "Environment",
+        "Social Issues"
+      ]
+    }
+  ],
+  "noteDocuments": [
+    {
+      "id": "daily-current-affairs-upsc-ca-2026-06-10",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "10 Jun 2026",
+      "date": "2026-06-10",
+      "path": "daily_current_affairs/UPSC_CA_2026-06-10.md"
+    },
+    {
+      "id": "daily-current-affairs-upsc-ca-2026-06-09",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "09 Jun 2026",
+      "date": "2026-06-09",
+      "path": "daily_current_affairs/UPSC_CA_2026-06-09.md"
+    },
+    {
+      "id": "daily-current-affairs-upsc-ca-2026-06-08",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "08 Jun 2026",
+      "date": "2026-06-08",
+      "path": "daily_current_affairs/UPSC_CA_2026-06-08.md"
+    },
+    {
+      "id": "daily-current-affairs-upsc-ca-2026-06-07",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "07 Jun 2026",
+      "date": "2026-06-07",
+      "path": "daily_current_affairs/UPSC_CA_2026-06-07.md"
+    },
+    {
+      "id": "weekly-physics-physics-drill-2026-06-10",
+      "cadence": "physics",
+      "title": "Physics Optional Drill",
+      "shortTitle": "10 Jun",
+      "date": "2026-06-10",
+      "path": "weekly/Physics/Physics_Drill_2026-06-10.md"
+    },
+    {
+      "id": "daily-reading-comprehension-rc-drill-2026-06-10",
+      "cadence": "rc",
+      "title": "CSAT Daily RC Drill",
+      "shortTitle": "RC - 10 Jun",
+      "date": "2026-06-10",
+      "path": "daily_reading_comprehension/RC_Drill_2026-06-10.md"
+    },
+    {
+      "id": "daily-reading-comprehension-rc-drill-2026-06-09",
+      "cadence": "rc",
+      "title": "CSAT Daily RC Drill",
+      "shortTitle": "RC - 09 Jun",
+      "date": "2026-06-09",
+      "path": "daily_reading_comprehension/RC_Drill_2026-06-09.md"
+    },
+    {
+      "id": "daily-reading-comprehension-rc-drill-2026-06-08",
+      "cadence": "rc",
+      "title": "CSAT Daily RC Drill",
+      "shortTitle": "RC - 08 Jun",
+      "date": "2026-06-08",
+      "path": "daily_reading_comprehension/RC_Drill_2026-06-08.md"
+    },
+    {
+      "id": "generated-questions-csat-mocks-readme-csat-full-mock-2026-06-08",
+      "cadence": "strategy",
+      "title": "CSAT Full Mock",
+      "shortTitle": "08 Jun 2026",
+      "date": "2026-06-08",
+      "path": "generated_questions/csat_mocks_readme/CSAT_Full_Mock_2026-06-08.md"
+    },
+    {
+      "id": "csat-strategy-guide",
+      "cadence": "strategy",
+      "title": "CSAT Strategy & Technique Guide",
+      "shortTitle": "Paper 2",
+      "date": "",
+      "path": "CSAT_Strategy_Guide.md"
+    },
+    {
+      "id": "weekly-sunday-sunday-sweep-2026-06-07",
+      "cadence": "sunday",
+      "title": "Sunday Sweep",
+      "shortTitle": "Week of 07 Jun",
+      "date": "2026-06-07",
+      "path": "weekly/Sunday/Sunday_Sweep_2026-06-07.md"
+    },
+    {
+      "id": "weekly-csat-csat-practice-2026-06-09",
+      "cadence": "weekly-csat",
+      "title": "CSAT Practice",
+      "shortTitle": "Practice - 09 Jun",
+      "date": "2026-06-09",
+      "path": "weekly/CSAT/CSAT_Practice_2026-06-09.md"
+    },
+    {
+      "id": "weekly-csat-csat-pyq-2026-06-08",
+      "cadence": "weekly-csat",
+      "title": "CSAT PYQ Plan",
+      "shortTitle": "PYQ - 08 Jun",
+      "date": "2026-06-08",
+      "path": "weekly/CSAT/CSAT_PYQ_2026-06-08.md"
+    }
+  ]
+}
