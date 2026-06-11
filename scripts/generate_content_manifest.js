@@ -100,6 +100,7 @@ function inferSourceType(raw) {
   const filePath = String(raw.path || "").toLowerCase();
   if (/^\d{4}$/.test(id) || category.includes("previous") || filePath.includes("/upsc_")) return "pyq";
   if (id.startsWith("daily_questions") || category.includes("daily")) return "daily";
+  if (id.startsWith("pib_questions") || category.includes("pib") || filePath.includes("/pib_questions/")) return "pib";
   if (id.startsWith("csat_") || category.includes("csat")) return "csat";
   if (id.startsWith("ai_generated") || category.includes("ai generated")) return "ai";
   if (id.startsWith("csr_") || category.includes("csr")) return "csr";
@@ -109,6 +110,7 @@ function inferSourceType(raw) {
 function inferCategory(sourceType, id, count) {
   if (sourceType === "pyq") return "Previous Year Questions";
   if (sourceType === "daily") return "Daily Questions";
+  if (sourceType === "pib") return "PIB Questions";
   if (sourceType === "csat") return id.includes("full_mock") || count >= 75 ? "CSAT Full Mock" : "CSAT Practice";
   if (sourceType === "csr") return "CSR Monthly Mock";
   return "AI Generated Practice";
@@ -116,6 +118,7 @@ function inferCategory(sourceType, id, count) {
 
 function defaultDuration(sourceType, id, count) {
   if (sourceType === "daily") return 10;
+  if (sourceType === "pib") return 10;
   if (sourceType === "csat") return id.includes("full_mock") || count >= 75 ? 120 : Math.max(20, Math.round(count * 1.6));
   if (sourceType === "ai" && count < 30) return 30;
   return 120;
@@ -125,6 +128,7 @@ function labelForQuestionSet(sourceType, id, isoDate, count) {
   const dateLabel = formatDate(isoDate);
   if (sourceType === "pyq") return `${id} PYQ`;
   if (sourceType === "daily") return `Daily Questions - ${dateLabel}`;
+  if (sourceType === "pib") return `PIB Questions - ${dateLabel}`;
   if (sourceType === "csat") return `${id.includes("full_mock") || count >= 75 ? "CSAT Full Mock" : "CSAT Practice"} - ${dateLabel}`;
   if (sourceType === "csr") {
     const batch = id.match(/batch_(\d+)/)?.[1] || "";
@@ -138,6 +142,7 @@ function shortLabelForQuestionSet(sourceType, id, isoDate, count) {
   const shortDate = isoDate ? formatDate(isoDate, { day: "2-digit", month: "short" }) : "";
   if (sourceType === "pyq") return id;
   if (sourceType === "daily") return `Daily ${shortDate}`;
+  if (sourceType === "pib") return `PIB ${shortDate}`;
   if (sourceType === "csat") return `${id.includes("full_mock") || count >= 75 ? "CSAT Mock" : "CSAT Practice"} ${shortDate}`;
   if (sourceType === "csr") return `CSR Batch ${id.match(/batch_(\d+)/)?.[1] || ""}`.trim();
   return `AI Batch ${id.match(/batch_(\d+)/)?.[1] || ""}`.trim();
@@ -222,6 +227,22 @@ function addRawDailyQuestionSets(root, byId) {
   }
 }
 
+function addRawPibQuestionSets(root, byId) {
+  const dir = path.join(root, "generated_data", "pib_questions");
+  for (const absPath of listTopLevelFiles(dir).filter((item) => item.endsWith(".json"))) {
+    const isoDate = normalizeIsoDate(path.basename(absPath));
+    if (!isoDate) continue;
+    upsertQuestionSet(root, byId, {
+      id: `pib_questions_${dateSlug(isoDate)}`,
+      category: "PIB Questions",
+      sourceType: "pib",
+      isoDate,
+      durationMinutes: 10,
+      path: relPath(root, absPath),
+    });
+  }
+}
+
 function addRawCsatQuestionSets(root, byId) {
   const sources = [
     path.join(root, "generated_questions", "csat_questions"),
@@ -246,7 +267,7 @@ function addRawCsatQuestionSets(root, byId) {
 }
 
 function sortQuestionSets(items) {
-  const rank = { daily: 0, csat: 1, pyq: 2, ai: 3, csr: 4 };
+  const rank = { daily: 0, pib: 1, csat: 2, pyq: 3, ai: 4, csr: 5 };
   return [...items].sort((a, b) => {
     if (a.sourceType !== b.sourceType) return (rank[a.sourceType] ?? 9) - (rank[b.sourceType] ?? 9);
     if (a.isoDate || b.isoDate) return String(b.isoDate || "").localeCompare(String(a.isoDate || ""));
@@ -275,13 +296,19 @@ function note(root, absPath, cadence, title, shortTitle, isoDate) {
 
 function buildNoteDocuments(root = DEFAULT_ROOT) {
   const docs = [];
-  const dailyDir = path.join(root, "daily_current_affairs");
+  const dailyDir = path.join(root, "daily", "daily_current_affairs");
   for (const absPath of listTopLevelFiles(dailyDir).filter((item) => /^UPSC_CA_\d{4}-\d{2}-\d{2}\.md$/.test(path.basename(item)))) {
     const isoDate = normalizeIsoDate(absPath);
     docs.push(note(root, absPath, "daily", "UPSC Daily CA Briefing", formatDate(isoDate), isoDate));
   }
 
-  const rcDir = path.join(root, "daily_reading_comprehension");
+  const pibDir = path.join(root, "daily", "daily_pib");
+  for (const absPath of listTopLevelFiles(pibDir).filter((item) => /^PIB_\d{4}-\d{2}-\d{2}\.md$/.test(path.basename(item)))) {
+    const isoDate = normalizeIsoDate(absPath);
+    docs.push(note(root, absPath, "pib", "Daily PIB Briefing", `PIB - ${formatDate(isoDate, { day: "2-digit", month: "short" })}`, isoDate));
+  }
+
+  const rcDir = path.join(root, "daily", "daily_reading_comprehension");
   for (const absPath of listTopLevelFiles(rcDir).filter((item) => /^RC_Drill_\d{4}-\d{2}-\d{2}\.md$/.test(path.basename(item)))) {
     const isoDate = normalizeIsoDate(absPath);
     docs.push(note(root, absPath, "rc", "CSAT Daily RC Drill", `RC - ${formatDate(isoDate, { day: "2-digit", month: "short" })}`, isoDate));
@@ -306,6 +333,12 @@ function buildNoteDocuments(root = DEFAULT_ROOT) {
   for (const absPath of listTopLevelFiles(physicsDir).filter((item) => /^Physics_Drill_\d{4}-\d{2}-\d{2}\.md$/.test(path.basename(item)))) {
     const isoDate = normalizeIsoDate(absPath);
     docs.push(note(root, absPath, "physics", "Physics Optional Drill", formatDate(isoDate, { day: "2-digit", month: "short" }), isoDate));
+  }
+
+  const editorialsDir = path.join(root, "weekly", "Editorials");
+  for (const absPath of listTopLevelFiles(editorialsDir).filter((item) => /^Editorials_Mains_\d{4}-\d{2}-\d{2}\.md$/.test(path.basename(item)))) {
+    const isoDate = normalizeIsoDate(absPath);
+    docs.push(note(root, absPath, "editorials", "Editorials to Mains", `Mains - ${formatDate(isoDate, { day: "2-digit", month: "short" })}`, isoDate));
   }
 
   const legacyWeeklyDir = path.join(root, "weekly");
@@ -349,6 +382,7 @@ function buildQuestionSets(root = DEFAULT_ROOT) {
   }
   addProcessedQuestionSets(root, byId);
   addRawDailyQuestionSets(root, byId);
+  addRawPibQuestionSets(root, byId);
   addRawCsatQuestionSets(root, byId);
   return sortQuestionSets([...byId.values()]);
 }

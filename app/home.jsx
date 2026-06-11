@@ -216,6 +216,7 @@ function BankBrowse({ go }) {
     { id: "csr", icon: "book", title: "CSR Mock Series", desc: "Curated standard mocks", count: `${sourceQuestionCount("csr").toLocaleString("en-IN")} Qs`, tone: "indigo", sourceType: "csr" },
     { id: "csat", icon: "target", title: "CSAT Practice", desc: "Paper II mocks and drills", count: setCountLabel("csat", "set", "sets"), tone: "blue", sourceType: "csat" },
     { id: "daily", icon: "flame", title: "Daily Quizzes", desc: "Current-affairs, every day", count: ds.dailyQuiz?.isToday ? "New today" : setCountLabel("daily", "set", "sets"), tone: "rose", sourceType: "daily" },
+    { id: "pib", icon: "fileText", title: "PIB Questions", desc: "PIB-based daily practice", count: setCountLabel("pib", "set", "sets"), tone: "green", sourceType: "pib" },
   ];
   const active = banks.find((bank) => bank.id === activeBank) || null;
   return (
@@ -275,10 +276,12 @@ function NotesLibrary() {
   const ds = window.UPSC;
   const baseTabs = [
     ["daily", "Daily CA"],
+    ["pib", "Daily PIB"],
     ["rc", "Daily RC"],
     ["sunday", "Sunday Sweep"],
     ["weekly-csat", "CSAT"],
     ["physics", "Physics"],
+    ["editorials", "Editorials"],
     ["weekly", "Weekly"],
     ["monthly", "Monthly"],
     ["strategy", "Strategy"],

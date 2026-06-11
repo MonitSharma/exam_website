@@ -67,6 +67,7 @@
     if (set.sourceType) return set.sourceType;
     if (/^\d{4}$/.test(id) || category.includes("previous")) return "pyq";
     if (category.includes("daily") || id.startsWith("daily_questions")) return "daily";
+    if (category.includes("pib") || id.startsWith("pib_questions")) return "pib";
     if (category.includes("csat") || id.startsWith("csat_")) return "csat";
     if (category.includes("csr") || id.startsWith("csr_")) return "csr";
     return "ai";
@@ -75,7 +76,7 @@
   function normalizeQuestionSetMeta(set) {
     const sourceType = inferSourceType(set);
     const questionCount = Number(set.questionCount || set.question_count || 0);
-    const durationMinutes = Number(set.durationMinutes || set.duration_minutes || (sourceType === "daily" ? 10 : 120));
+    const durationMinutes = Number(set.durationMinutes || set.duration_minutes || (sourceType === "daily" || sourceType === "pib" ? 10 : 120));
     const normalized = {
       id: String(set.id || ""),
       label: set.label || set.id || "Question set",
@@ -97,7 +98,7 @@
   }
 
   function sortQuestionSets(sets) {
-    const rank = { daily: 0, csat: 1, pyq: 2, ai: 3, csr: 4 };
+    const rank = { daily: 0, pib: 1, csat: 2, pyq: 3, ai: 4, csr: 5 };
     return [...sets].sort((a, b) => {
       if (a.sourceType !== b.sourceType) return (rank[a.sourceType] ?? 9) - (rank[b.sourceType] ?? 9);
       if (a.isoDate || b.isoDate) return String(b.isoDate || "").localeCompare(String(a.isoDate || ""));
@@ -278,6 +279,7 @@
     const raw = `${row.source_type || ""} ${questionSet.category || ""}`.toLowerCase();
     if (questionSet.sourceType === "csat" || raw.includes("csat")) return "csat";
     if (questionSet.sourceType === "daily" || raw.includes("daily")) return "daily";
+    if (questionSet.sourceType === "pib" || raw.includes("pib")) return "pib";
     if (raw.includes("csr")) return "csr";
     if (raw.includes("ai")) return "ai";
     if (questionSet.year || raw.includes("previous")) return "pyq";

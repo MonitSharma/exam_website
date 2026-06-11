@@ -91,8 +91,9 @@ generated_questions/csat_questions/
 Daily markdown reading material lives in:
 
 ```text
-daily_current_affairs/
-daily_reading_comprehension/
+daily/daily_current_affairs/
+daily/daily_pib/
+daily/daily_reading_comprehension/
 ```
 
 Weekly notes are split by stream:
@@ -101,18 +102,22 @@ Weekly notes are split by stream:
 weekly/Sunday/
 weekly/CSAT/
 weekly/Physics/
+weekly/Editorials/
 ```
 
 Use these filename patterns so the site can discover new content during build:
 
 ```text
-daily_current_affairs/UPSC_CA_YYYY-MM-DD.md
-daily_reading_comprehension/RC_Drill_YYYY-MM-DD.md
+daily/daily_current_affairs/UPSC_CA_YYYY-MM-DD.md
+daily/daily_pib/PIB_YYYY-MM-DD.md
+daily/daily_reading_comprehension/RC_Drill_YYYY-MM-DD.md
 generated_questions/daily_questions/daily_questions_YYYY-MM-DD.json
+generated_data/pib_questions/YYYY-MM-DD.json
 weekly/Sunday/Sunday_Sweep_YYYY-MM-DD.md
 weekly/CSAT/CSAT_Practice_YYYY-MM-DD.md
 weekly/CSAT/CSAT_PYQ_YYYY-MM-DD.md
 weekly/Physics/Physics_Drill_YYYY-MM-DD.md
+weekly/Editorials/Editorials_Mains_YYYY-MM-DD.md
 ```
 
 The GitHub Pages build runs `scripts/generate_content_manifest.js` through

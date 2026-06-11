@@ -33,10 +33,10 @@ const SOURCES = [
 // Directories / files copied verbatim into dist/
 const STATIC_PATHS = [
   "data",
-  "daily_current_affairs",
-  "daily_reading_comprehension",
+  "daily",
   "weekly",
   "monthly",
+  "generated_data",
   "generated_questions",
   "config",
   "vendor",

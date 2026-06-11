@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the \"Mission for Cotton Productivity\" approved by the Union Cabinet in June 2026, consider the following statements:\n1. It is to be jointly implemented by the Ministry of Agriculture & Farmers Welfare and the Ministry of Textiles.\n2. It targets raising cotton lint productivity to 755 kg per hectare by 2030-31.\n3. It has a total outlay of over Rs 5,000 crore for the period 2026-27 to 2030-31.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct: the Mission (outlay Rs 5,659.22 crore, 2026-27 to 2030-31) is implemented jointly by the Ministry of Agriculture & Farmers Welfare and the Ministry of Textiles, aiming to raise lint productivity from ~440 to 755 kg/ha by 2031, aligned with the 5F (Farm-Fibre-Factory-Fashion-Foreign) vision.",
+    "subject": "Agriculture",
+    "theme": "Cotton sector / fibre self-sufficiency",
+    "micro_topic": "Mission for Cotton Productivity",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements about the Zojila Tunnel, which achieved its breakthrough in June 2026:\n1. It is being constructed on National Highway-1 between Baltal and Minamarg.\n2. It will provide all-weather connectivity between the Kashmir Valley and Ladakh.\n3. It is being executed by the Border Roads Organisation (BRO).\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Statements 1 and 2 are correct - the ~13.15 km tunnel on NH-1 (Baltal-Minamarg) will give year-round Srinagar-Ladakh connectivity, bypassing the snow-bound Zojila Pass. Statement 3 is wrong: it is being executed by MEIL (Megha Engineering) under NHIDCL, not the BRO.",
+    "subject": "Infrastructure",
+    "theme": "Strategic Himalayan connectivity",
+    "micro_topic": "Zojila Tunnel / NHIDCL",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Prime Minister Research Chair (PMRC) Scheme 2026, recently in the news, is an initiative of which one of the following?",
+    "options": [
+      "(a) Ministry of Science and Technology",
+      "(b) Department of Higher Education, Ministry of Education",
+      "(c) NITI Aayog",
+      "(d) Ministry of Electronics and Information Technology"
+    ],
+    "answer": "(b)",
+    "explanation": "PMRC 2026 is run by the Department of Higher Education, Ministry of Education. It seeks to attract Indian-origin researchers/scientists from abroad to premier Indian institutions (NIRF top-ranked) and national labs under DST/DBT/ICMR/CSIR, across 13 priority sectors such as AI, semiconductors and climate technologies.",
+    "subject": "Polity & Governance",
+    "theme": "Research & higher education policy",
+    "micro_topic": "Prime Minister Research Chair (PMRC) Scheme 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]

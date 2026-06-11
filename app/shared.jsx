@@ -15,6 +15,7 @@ function Icon({ name, size = 20, stroke = 1.6, style }) {
     chart: <><path d="M4 20V4" /><path d="M4 20h16" /><path d="M8 16l3-4 3 3 4-6" /></>,
     spark: <path d="M12 3l2.2 6.2L20 11l-5.8 1.8L12 19l-2.2-6.2L4 11l5.8-1.8z" />,
     book: <><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v16H6.5A2.5 2.5 0 0 0 4 21.5z" /><path d="M4 5.5V21" /></>,
+    fileText: <><path d="M6 3h8l4 4v14H6z" /><path d="M14 3v5h5" /><path d="M9 12h6M9 16h6M9 8h2" /></>,
     arrowR: <><path d="M5 12h14" /><path d="m13 6 6 6-6 6" /></>,
     arrowL: <><path d="M19 12H5" /><path d="m11 6-6 6 6 6" /></>,
     check: <path d="M5 12.5l4.5 4.5L19 6.5" />,

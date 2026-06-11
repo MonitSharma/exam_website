@@ -1,0 +1,79 @@
+[
+  {
+    "question": "With reference to the G7, consider the following statements: 1. India is a permanent member of the G7. 2. The 52nd G7 Summit (2026) is being hosted by France. 3. The European Union participates in G7 summits. Which of the statements given above is/are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(b)",
+    "explanation": "India is an invitee, not a member (St.1 wrong). France hosts the 2026 summit at Evian (St.2 right); the EU participates in G7 summits (St.3 right).",
+    "subject": "International Relations",
+    "theme": "Plurilateral groupings",
+    "micro_topic": "G7 membership & 2026 summit (Evian, France); India as invitee",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The terms 'FCNR(B) swap' and 'twin USD-INR swap facilities', seen recently in the news, are associated with:",
+    "options": ["(a) SEBI's framework for foreign portfolio investors", "(b) RBI measures to attract foreign currency inflows and support external financing", "(c) A WTO dispute-settlement mechanism", "(d) NABARD's rural refinance window"],
+    "answer": "(b)",
+    "explanation": "The FCNR(B) swap and the twin USD-INR swap facilities are RBI tools to attract forex inflows and support external financing (ECB/OFCB).",
+    "subject": "Economy",
+    "theme": "Monetary policy & external sector",
+    "micro_topic": "RBI USD-INR swap facilities (FCNR(B), ECB/OFCB)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following regarding India's FDI data for 2025-26: 1. Gross FDI inflows touched a record high. 2. Net FDI fell sharply mainly due to higher repatriation and rising outward FDI. 3. FDI is recorded under the current account of the Balance of Payments. Which of the statements given above is/are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(a)",
+    "explanation": "Record gross inflows (right) and a sharp net fall from repatriation + outward FDI (right) are correct; FDI is recorded under the Financial/Capital account, not the current account (St.3 wrong).",
+    "subject": "Economy",
+    "theme": "External sector",
+    "micro_topic": "Net vs gross FDI; Balance of Payments classification",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The 'HKH Monsoon Outlook 2026' was released by which organisation?",
+    "options": ["(a) India Meteorological Department (IMD)", "(b) World Meteorological Organization (WMO)", "(c) International Centre for Integrated Mountain Development (ICIMOD)", "(d) Intergovernmental Panel on Climate Change (IPCC)"],
+    "answer": "(c)",
+    "explanation": "The Kathmandu-based International Centre for Integrated Mountain Development (ICIMOD) issued the HKH Monsoon Outlook 2026 on 11 Jun 2026.",
+    "subject": "Environment",
+    "theme": "Climate & Himalayan ecology",
+    "micro_topic": "ICIMOD; Hindu Kush Himalaya monsoon outlook",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The Zojila Tunnel, in news in 2026, provides all-weather connectivity between:",
+    "options": ["(a) Manali and Leh", "(b) Sonmarg (Kashmir Valley) and the Dras-Ladakh region", "(c) Chamba and Pangi valley", "(d) Tawang and Bomdi La"],
+    "answer": "(b)",
+    "explanation": "The Zojila Tunnel links Sonmarg (Kashmir Valley) with the Dras/Minamarg (Ladakh) side across Zoji La on NH-1.",
+    "subject": "Geography",
+    "theme": "Places in news / strategic infrastructure",
+    "micro_topic": "Zojila Tunnel; Zoji La pass; NH-1 Srinagar-Leh",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Consider the following pairs of mountain passes and their location: 1. Zoji La - Jammu & Kashmir / Ladakh 2. Nathu La - Sikkim 3. Bomdi La - Himachal Pradesh. How many of the pairs given above are correctly matched?",
+    "options": ["(a) Only one", "(b) Only two", "(c) All three", "(d) None"],
+    "answer": "(b)",
+    "explanation": "Zoji La (J&K/Ladakh) and Nathu La (Sikkim) are correct; Bomdi La is in Arunachal Pradesh, not Himachal Pradesh.",
+    "subject": "Geography",
+    "theme": "Physical geography of India",
+    "micro_topic": "Himalayan mountain passes and their states",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "In India's Balance of Payments, which of the following are recorded under the Current Account? 1. Workers' remittances (private transfers) 2. Foreign Direct Investment 3. Trade in goods and services. Select the correct answer:",
+    "options": ["(a) 1 and 2 only", "(b) 1 and 3 only", "(c) 2 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(b)",
+    "explanation": "Remittances (private transfers) and trade in goods & services are current account items; FDI is a capital/financial account item.",
+    "subject": "Economy",
+    "theme": "External sector",
+    "micro_topic": "Balance of Payments - current vs capital account components",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  }
+]
