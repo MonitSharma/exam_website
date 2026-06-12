@@ -59,6 +59,7 @@
   let questionSets = [];
   let noteDocuments = [];
   let dailyQuiz = null;
+  let dailyRc = null;
   let defaultQuestionSetId = defaultPracticeSetId;
 
   function inferSourceType(set) {
@@ -66,6 +67,8 @@
     const id = String(set.id || "");
     if (set.sourceType) return set.sourceType;
     if (/^\d{4}$/.test(id) || category.includes("previous")) return "pyq";
+    if (category.includes("reading comprehension") || id.startsWith("daily_rc")) return "rc";
+    if (category.includes("weekly quiz") || id.startsWith("weekly_quiz")) return "weekly-quiz";
     if (category.includes("daily") || id.startsWith("daily_questions")) return "daily";
     if (category.includes("pib") || id.startsWith("pib_questions")) return "pib";
     if (category.includes("csat") || id.startsWith("csat_")) return "csat";
@@ -76,7 +79,7 @@
   function normalizeQuestionSetMeta(set) {
     const sourceType = inferSourceType(set);
     const questionCount = Number(set.questionCount || set.question_count || 0);
-    const durationMinutes = Number(set.durationMinutes || set.duration_minutes || (sourceType === "daily" || sourceType === "pib" ? 10 : 120));
+    const durationMinutes = Number(set.durationMinutes || set.duration_minutes || (sourceType === "daily" || sourceType === "pib" ? 10 : sourceType === "rc" ? 8 : 120));
     const normalized = {
       id: String(set.id || ""),
       label: set.label || set.id || "Question set",
@@ -98,7 +101,7 @@
   }
 
   function sortQuestionSets(sets) {
-    const rank = { daily: 0, pib: 1, csat: 2, pyq: 3, ai: 4, csr: 5 };
+    const rank = { daily: 0, rc: 1, pib: 2, "weekly-quiz": 3, csat: 4, pyq: 5, ai: 6, csr: 7 };
     return [...sets].sort((a, b) => {
       if (a.sourceType !== b.sourceType) return (rank[a.sourceType] ?? 9) - (rank[b.sourceType] ?? 9);
       if (a.isoDate || b.isoDate) return String(b.isoDate || "").localeCompare(String(a.isoDate || ""));
@@ -161,12 +164,46 @@
     };
   }
 
+  function deriveDailyRc() {
+    const rcSets = questionSets
+      .filter((set) => set.sourceType === "rc" && set.isoDate)
+      .sort((a, b) => a.isoDate.localeCompare(b.isoDate));
+    if (!rcSets.length) {
+      return {
+        isoDate: null,
+        questionSetId: null,
+        title: "Daily RC coming soon",
+        dateLabel: "",
+        compactDateLabel: "",
+        description: "No reading-comprehension drills have been added yet.",
+        durationMinutes: 0,
+        isToday: false,
+      };
+    }
+    const dueToday = [...rcSets].reverse().find((set) => set.isoDate <= todayIso);
+    const target = dueToday || rcSets[rcSets.length - 1];
+    const isToday = target.isoDate === todayIso;
+    return {
+      isoDate: target.isoDate,
+      questionSetId: target.id,
+      title: isToday ? "Today's Daily RC" : "Latest Daily RC",
+      dateLabel: formatDailyDate(target.isoDate),
+      compactDateLabel: formatDailyDate(target.isoDate, { compact: true }),
+      description: isToday
+        ? "Timed CSAT reading-comprehension drill for today."
+        : `Most recent RC drill: ${formatDailyDate(target.isoDate, { compact: true })}.`,
+      durationMinutes: target.durationMinutes || 8,
+      isToday,
+    };
+  }
+
   function applyManifest(manifest, { notify = false } = {}) {
     const source = manifest && Array.isArray(manifest.questionSets) ? manifest : {};
     years = Array.isArray(source.years) && source.years.length ? source.years : years;
     questionSets = sortQuestionSets((source.questionSets || fallbackQuestionSets).map(normalizeQuestionSetMeta).filter((set) => set.id && set.path));
     noteDocuments = sortNoteDocuments((source.noteDocuments || fallbackNoteDocuments).map(normalizeNoteDocument).filter((note) => note.id && note.path));
     dailyQuiz = deriveDailyQuiz();
+    dailyRc = deriveDailyRc();
     defaultQuestionSetId = dailyQuiz.questionSetId || defaultPracticeSetId;
     if (notify) subscribers.forEach((callback) => callback(api));
   }
@@ -232,6 +269,7 @@
       difficulty: row.difficulty || "Moderate",
       source: inferSource(row, questionSet),
       stem: row.question || row.stem || "",
+      passage: row.passage || "",
       statements: Array.isArray(row.statements) ? row.statements : [],
       tail: row.tail || "",
       options: normalizeOptions(row.options),
@@ -278,6 +316,8 @@
   function inferSource(row, questionSet) {
     const raw = `${row.source_type || ""} ${questionSet.category || ""}`.toLowerCase();
     if (questionSet.sourceType === "csat" || raw.includes("csat")) return "csat";
+    if (questionSet.sourceType === "rc" || raw.includes("rc")) return "rc";
+    if (questionSet.sourceType === "weekly-quiz" || raw.includes("weekly-quiz")) return "weekly-quiz";
     if (questionSet.sourceType === "daily" || raw.includes("daily")) return "daily";
     if (questionSet.sourceType === "pib" || raw.includes("pib")) return "pib";
     if (raw.includes("csr")) return "csr";
@@ -310,6 +350,7 @@
 
   const api = {
     get dailyQuiz() { return dailyQuiz; },
+    get dailyRc() { return dailyRc; },
     get todayIso() { return todayIso; },
     get years() { return years; },
     get questionSets() { return questionSets; },

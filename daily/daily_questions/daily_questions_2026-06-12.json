@@ -1,0 +1,79 @@
+[
+  {
+    "question": "With reference to 'RudraM-II', recently in the news, consider the following statements: 1. It is an indigenously developed anti-radiation missile. 2. It is launched from the Su-30 MKI fighter aircraft. 3. It is designed for Suppression of Enemy Air Defences (SEAD) by destroying hostile radars. How many of the above are correct?",
+    "options": ["(a) Only one", "(b) Only two", "(c) All three", "(d) None"],
+    "answer": "(c)",
+    "explanation": "RudraM-II is an indigenous (DRDO/RCI) air-launched anti-radiation missile fired from the Su-30 MKI, giving the IAF a SEAD capability by homing onto enemy radars. All three statements are correct.",
+    "subject": "Science & Technology",
+    "theme": "Defence Technology",
+    "micro_topic": "DRDO missiles / anti-radiation missiles",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Regarding the RBI Monetary Policy Committee (MPC) decision of June 2026, consider: 1. The MPC kept the policy repo rate unchanged at 5.25%. 2. It retained a 'neutral' monetary policy stance. 3. The repo rate is decided solely by the RBI Governor. Which of the above is/are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 1 and 3 only", "(c) 2 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(a)",
+    "explanation": "The MPC held the repo rate at 5.25% with a neutral stance. Statement 3 is wrong: the rate is set by the 6-member MPC, not the Governor alone.",
+    "subject": "Economy",
+    "theme": "Monetary Policy",
+    "micro_topic": "RBI MPC / repo rate",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The 'State of India's Environment' report, frequently seen in the news, is published by which organisation?",
+    "options": ["(a) Ministry of Environment, Forest and Climate Change", "(b) Centre for Science and Environment (CSE)", "(c) The Energy and Resources Institute (TERI)", "(d) Wildlife Institute of India"],
+    "answer": "(b)",
+    "explanation": "The State of India's Environment report is published annually by the Centre for Science and Environment (CSE) along with Down To Earth; the 2026 edition was released around World Environment Day 2026.",
+    "subject": "Environment",
+    "theme": "Environmental Reports & Indices",
+    "micro_topic": "State of India's Environment report",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the Foreign Contribution (Regulation) Amendment Bill, 2026, consider: 1. The FCRA is administered by the Ministry of Home Affairs. 2. The Bill provides for 'provisional vesting' of an organisation's foreign-contribution assets in a Designated Authority upon cancellation of its registration. 3. The Right to Property, invoked in debates on the Bill, is a Fundamental Right under the Constitution. Which of the above is/are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(a)",
+    "explanation": "FCRA is administered by the MHA, and Section 16A of the Bill introduces provisional vesting of foreign-funded assets in a Designated Authority. Statement 3 is wrong: the Right to Property is a constitutional/legal right under Article 300A, not a Fundamental Right (since the 44th Amendment, 1978).",
+    "subject": "Polity & Governance",
+    "theme": "Civil Society / Foreign Funding Regulation",
+    "micro_topic": "FCRA Amendment Bill 2026 / Article 300A",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "With reference to BRICS, consider: 1. India holds the chairship of BRICS for 2026 and will host the Summit. 2. The New Development Bank (NDB) is headquartered in Shanghai. 3. The NDB finances infrastructure and sustainable-development projects. Which of the above is/are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(d)",
+    "explanation": "India chairs BRICS in 2026 and hosts the Summit; the NDB (est. 2015) is headquartered in Shanghai and funds infrastructure and sustainable-development projects in emerging economies. All three are correct.",
+    "subject": "International Relations",
+    "theme": "Multilateral Groupings",
+    "micro_topic": "BRICS / New Development Bank",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following about India's Monetary Policy Committee (MPC): 1. It consists of six members. 2. Three of its members are nominated by the Central Government. 3. The statutory inflation target is 4% with a tolerance band of plus or minus 2%. Which of the above is/are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(d)",
+    "explanation": "The MPC has 6 members (3 from the RBI including the Governor as chairperson, and 3 nominated by the Central Government); the flexible inflation target is 4% with a +/-2% tolerance band. All three are correct.",
+    "subject": "Economy",
+    "theme": "Monetary Policy Framework",
+    "micro_topic": "MPC composition / inflation targeting",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Right to Property under the Indian Constitution is best described as:",
+    "options": ["(a) A Fundamental Right under Article 19", "(b) A Fundamental Right under Article 31", "(c) A constitutional/legal right under Article 300A", "(d) A Directive Principle of State Policy"],
+    "answer": "(c)",
+    "explanation": "The 44th Amendment Act, 1978 deleted the Right to Property from Part III (Fundamental Rights); it is now a constitutional/legal right under Article 300A.",
+    "subject": "Polity",
+    "theme": "Fundamental Rights / Constitutional Amendments",
+    "micro_topic": "Right to Property / Article 300A / 44th Amendment",
+    "nature": "Conceptual",
+    "difficulty": "Easy"
+  }
+]

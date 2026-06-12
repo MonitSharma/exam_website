@@ -87,6 +87,113 @@ function uniqueSubjects(rows) {
   return [...seen].slice(0, 5);
 }
 
+function writeDerivedQuestions(root, relFilePath, rows) {
+  const absPath = path.join(root, relFilePath);
+  fs.mkdirSync(path.dirname(absPath), { recursive: true });
+  fs.writeFileSync(absPath, `${JSON.stringify(rows, null, 2)}\n`, "utf8");
+  return relFilePath;
+}
+
+function optionKeyFromLabel(value) {
+  const match = String(value || "").trim().match(/^\(?([a-dA-D])\)?$/);
+  return match ? match[1].toLowerCase() : "";
+}
+
+function cleanMarkdownInline(value) {
+  return String(value || "")
+    .replace(/\*\*/g, "")
+    .replace(/\\?₹/g, "Rs ")
+    .trim();
+}
+
+function splitMarkdownSection(text, heading) {
+  const pattern = new RegExp(`^##\\s+${heading}(?:\\s*\\([^\\n]*\\))?\\s*\\n([\\s\\S]*?)(?=^##\\s+|(?![\\s\\S]))`, "im");
+  const match = String(text || "").match(pattern);
+  return match ? match[1].trim() : "";
+}
+
+function parseMdQuestions(questionText) {
+  const matches = [...String(questionText || "").matchAll(/^\*\*(?:(?:Q)?(\d+)\.\s*([^*]+?)|(?:Q)?(\d+)\.)\*\*[^\S\r\n]*([^\n]*)([\s\S]*?)(?=^\*\*(?:Q)?\d+\.\s*(?:[^*]+?)?\*\*|(?![\s\S]))/gm)];
+  return matches.map((match) => {
+    const number = Number(match[1] || match[3]);
+    const stem = cleanMarkdownInline(match[2] || match[4]);
+    const optionBlock = match[5] || "";
+    const options = [...optionBlock.matchAll(/^\s*[-*]?\s*(?:\(([a-dA-D])\)|([a-dA-D])[).])\s+(.+)$/gm)]
+      .map((item) => ({
+        key: String(item[1] || item[2]).toLowerCase(),
+        text: cleanMarkdownInline(item[3]),
+      }));
+    return { number, stem, options };
+  }).filter((item) => item.number && item.stem && item.options.length);
+}
+
+function parseMdAnswerMap(answerText) {
+  const answers = new Map();
+  const matches = [...String(answerText || "").matchAll(/^\s*(?:\*\*)?(?:Q)?(\d+)(?:\.|\s*[—-])\s*(?:\(([a-dA-D])\)|\*\*([A-Da-d])\*\*|([A-Da-d]))(?:\.\*\*|\*\*)?[\s.:—-]*([^\n]+(?:\n(?!\s*(?:\*\*)?(?:Q)?\d+(?:\.|\s*[—-])\s*(?:\([a-dA-D]\)|\*\*[A-Da-d]\*\*|[A-Da-d])).*)*)/gm)];
+  for (const match of matches) {
+    answers.set(Number(match[1]), {
+      answer: optionKeyFromLabel(match[2] || match[3] || match[4]),
+      explanation: cleanMarkdownInline(match[5]).replace(/\s+/g, " "),
+    });
+  }
+  return answers;
+}
+
+function parseRcAnswerMap(answerText) {
+  return parseMdAnswerMap(answerText);
+}
+
+function parseDailyRcMarkdown(absPath, isoDate) {
+  const text = readText(absPath);
+  const passage = splitMarkdownSection(text, "Passage").replace(/\n---+\s*$/, "").trim();
+  const questionSection = splitMarkdownSection(text, "Questions");
+  const answerSection = splitMarkdownSection(text, "Answers");
+  const answers = parseRcAnswerMap(answerSection);
+  return parseMdQuestions(questionSection).map((item) => {
+    const answer = answers.get(item.number) || {};
+    return {
+      id: `daily_rc_${dateSlug(isoDate)}_${item.number}`,
+      question_number: item.number,
+      passage,
+      question: item.stem,
+      options: item.options,
+      answer: answer.answer,
+      explanation: answer.explanation || "Explanation not available.",
+      subject: "Reading Comprehension",
+      theme: "CSAT Daily RC",
+      micro_topic: "Reading comprehension",
+      nature: "CSAT",
+      difficulty: "Moderate",
+      source_type: "rc",
+    };
+  });
+}
+
+function parseWeeklyQuizMarkdown(absPath, isoDate) {
+  const text = readText(absPath);
+  const questionSection = text.split(/^##\s+Part C\b/im)[0] || text;
+  const answerSection = splitMarkdownSection(text, "Answers");
+  const answers = parseMdAnswerMap(answerSection);
+  return parseMdQuestions(questionSection).map((item) => {
+    const answer = answers.get(item.number) || {};
+    const staticSubject = item.number >= 13 ? "Polity" : "Current Affairs";
+    return {
+      id: `weekly_quiz_${dateSlug(isoDate)}_${item.number}`,
+      question_number: item.number,
+      question: item.stem,
+      options: item.options,
+      answer: answer.answer,
+      explanation: answer.explanation || "Explanation not available.",
+      subject: staticSubject,
+      theme: item.number >= 13 ? "Weekly static recall" : "Weekly current affairs recall",
+      micro_topic: "Weekly recall quiz",
+      nature: item.number >= 13 ? "Static" : "Current Affairs",
+      difficulty: "Moderate",
+      source_type: "weekly-quiz",
+    };
+  });
+}
+
 function inferIdFromProcessedName(name) {
   const base = name.replace(/_processed\.json$/, "");
   const pyq = base.match(/^upsc_(\d{4})$/);
@@ -100,6 +207,8 @@ function inferSourceType(raw) {
   const filePath = String(raw.path || "").toLowerCase();
   if (/^\d{4}$/.test(id) || category.includes("previous") || filePath.includes("/upsc_")) return "pyq";
   if (id.startsWith("daily_questions") || category.includes("daily")) return "daily";
+  if (id.startsWith("daily_rc") || category.includes("reading comprehension") || filePath.includes("/rc_questions/")) return "rc";
+  if (id.startsWith("weekly_quiz") || category.includes("weekly quiz") || filePath.includes("/weekly_quiz_questions/")) return "weekly-quiz";
   if (id.startsWith("pib_questions") || category.includes("pib") || filePath.includes("/pib_questions/")) return "pib";
   if (id.startsWith("csat_") || category.includes("csat")) return "csat";
   if (id.startsWith("ai_generated") || category.includes("ai generated")) return "ai";
@@ -110,6 +219,8 @@ function inferSourceType(raw) {
 function inferCategory(sourceType, id, count) {
   if (sourceType === "pyq") return "Previous Year Questions";
   if (sourceType === "daily") return "Daily Questions";
+  if (sourceType === "rc") return "Daily Reading Comprehension";
+  if (sourceType === "weekly-quiz") return "Weekly Quiz";
   if (sourceType === "pib") return "PIB Questions";
   if (sourceType === "csat") return id.includes("full_mock") || count >= 75 ? "CSAT Full Mock" : "CSAT Practice";
   if (sourceType === "csr") return "CSR Monthly Mock";
@@ -118,6 +229,8 @@ function inferCategory(sourceType, id, count) {
 
 function defaultDuration(sourceType, id, count) {
   if (sourceType === "daily") return 10;
+  if (sourceType === "rc") return Math.max(8, Math.round(count * 2));
+  if (sourceType === "weekly-quiz") return Math.max(25, Math.round(count * 1.5));
   if (sourceType === "pib") return 10;
   if (sourceType === "csat") return id.includes("full_mock") || count >= 75 ? 120 : Math.max(20, Math.round(count * 1.6));
   if (sourceType === "ai" && count < 30) return 30;
@@ -128,6 +241,8 @@ function labelForQuestionSet(sourceType, id, isoDate, count) {
   const dateLabel = formatDate(isoDate);
   if (sourceType === "pyq") return `${id} PYQ`;
   if (sourceType === "daily") return `Daily Questions - ${dateLabel}`;
+  if (sourceType === "rc") return `Daily RC Drill - ${dateLabel}`;
+  if (sourceType === "weekly-quiz") return `Weekly Recall Quiz - ${dateLabel}`;
   if (sourceType === "pib") return `PIB Questions - ${dateLabel}`;
   if (sourceType === "csat") return `${id.includes("full_mock") || count >= 75 ? "CSAT Full Mock" : "CSAT Practice"} - ${dateLabel}`;
   if (sourceType === "csr") {
@@ -142,6 +257,8 @@ function shortLabelForQuestionSet(sourceType, id, isoDate, count) {
   const shortDate = isoDate ? formatDate(isoDate, { day: "2-digit", month: "short" }) : "";
   if (sourceType === "pyq") return id;
   if (sourceType === "daily") return `Daily ${shortDate}`;
+  if (sourceType === "rc") return `RC ${shortDate}`;
+  if (sourceType === "weekly-quiz") return `Weekly Quiz ${shortDate}`;
   if (sourceType === "pib") return `PIB ${shortDate}`;
   if (sourceType === "csat") return `${id.includes("full_mock") || count >= 75 ? "CSAT Mock" : "CSAT Practice"} ${shortDate}`;
   if (sourceType === "csr") return `CSR Batch ${id.match(/batch_(\d+)/)?.[1] || ""}`.trim();
@@ -176,6 +293,11 @@ function normalizeQuestionSet(root, raw) {
     normalized.marksPerCorrect = id.includes("full_mock") || count >= 75 ? 2.5 : 2;
     normalized.negativeMark = id.includes("full_mock") || count >= 75 ? -0.83 : -0.66;
     if (id.includes("full_mock") || count >= 75) normalized.noNegativeFromQuestion = 75;
+  }
+  if (sourceType === "rc") {
+    normalized.paper = "GS Paper II (CSAT)";
+    normalized.marksPerCorrect = 2;
+    normalized.negativeMark = -0.66;
   }
   const subjects = Array.isArray(raw.subjects) ? raw.subjects : uniqueSubjects(rows);
   if (subjects.length) normalized.subjects = subjects;
@@ -212,10 +334,17 @@ function addProcessedQuestionSets(root, byId) {
 }
 
 function addRawDailyQuestionSets(root, byId) {
-  const dir = path.join(root, "generated_questions", "daily_questions");
-  for (const absPath of listTopLevelFiles(dir).filter((item) => item.endsWith(".json"))) {
+  const dirs = [
+    path.join(root, "daily", "daily_questions"),
+    path.join(root, "generated_questions", "daily_questions"),
+  ];
+  const seenDates = new Set();
+  for (const dir of dirs) {
+    for (const absPath of listTopLevelFiles(dir).filter((item) => item.endsWith(".json"))) {
     const isoDate = normalizeIsoDate(path.basename(absPath));
     if (!isoDate) continue;
+    if (seenDates.has(isoDate)) continue;
+    seenDates.add(isoDate);
     upsertQuestionSet(root, byId, {
       id: `daily_questions_${dateSlug(isoDate)}`,
       category: "Daily Questions",
@@ -224,6 +353,7 @@ function addRawDailyQuestionSets(root, byId) {
       durationMinutes: 10,
       path: relPath(root, absPath),
     });
+  }
   }
 }
 
@@ -266,8 +396,46 @@ function addRawCsatQuestionSets(root, byId) {
   }
 }
 
+function addDailyRcQuestionSets(root, byId) {
+  const dir = path.join(root, "daily", "daily_reading_comprehension");
+  for (const absPath of listTopLevelFiles(dir).filter((item) => /^RC_Drill_\d{4}-\d{2}-\d{2}\.md$/.test(path.basename(item)))) {
+    const isoDate = normalizeIsoDate(path.basename(absPath));
+    if (!isoDate) continue;
+    const rows = parseDailyRcMarkdown(absPath, isoDate);
+    if (!rows.length) continue;
+    const rel = writeDerivedQuestions(root, path.join("generated_data", "rc_questions", `${isoDate}.json`), rows);
+    upsertQuestionSet(root, byId, {
+      id: `daily_rc_${dateSlug(isoDate)}`,
+      category: "Daily Reading Comprehension",
+      sourceType: "rc",
+      isoDate,
+      durationMinutes: defaultDuration("rc", "", rows.length),
+      path: rel,
+    });
+  }
+}
+
+function addWeeklyQuizQuestionSets(root, byId) {
+  const dir = path.join(root, "weekly", "weekly_quiz");
+  for (const absPath of listTopLevelFiles(dir).filter((item) => /^Recall_Quiz_\d{4}-\d{2}-\d{2}\.md$/.test(path.basename(item)))) {
+    const isoDate = normalizeIsoDate(path.basename(absPath));
+    if (!isoDate) continue;
+    const rows = parseWeeklyQuizMarkdown(absPath, isoDate);
+    if (!rows.length) continue;
+    const rel = writeDerivedQuestions(root, path.join("generated_data", "weekly_quiz_questions", `${isoDate}.json`), rows);
+    upsertQuestionSet(root, byId, {
+      id: `weekly_quiz_${dateSlug(isoDate)}`,
+      category: "Weekly Quiz",
+      sourceType: "weekly-quiz",
+      isoDate,
+      durationMinutes: defaultDuration("weekly-quiz", "", rows.length),
+      path: rel,
+    });
+  }
+}
+
 function sortQuestionSets(items) {
-  const rank = { daily: 0, pib: 1, csat: 2, pyq: 3, ai: 4, csr: 5 };
+  const rank = { daily: 0, rc: 1, pib: 2, "weekly-quiz": 3, csat: 4, pyq: 5, ai: 6, csr: 7 };
   return [...items].sort((a, b) => {
     if (a.sourceType !== b.sourceType) return (rank[a.sourceType] ?? 9) - (rank[b.sourceType] ?? 9);
     if (a.isoDate || b.isoDate) return String(b.isoDate || "").localeCompare(String(a.isoDate || ""));
@@ -384,6 +552,8 @@ function buildQuestionSets(root = DEFAULT_ROOT) {
   addRawDailyQuestionSets(root, byId);
   addRawPibQuestionSets(root, byId);
   addRawCsatQuestionSets(root, byId);
+  addDailyRcQuestionSets(root, byId);
+  addWeeklyQuizQuestionSets(root, byId);
   return sortQuestionSets([...byId.values()]);
 }
 

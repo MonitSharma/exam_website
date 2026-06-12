@@ -18,6 +18,8 @@ function PracticeScreen({ go }) {
   const types = [
     { id: "pyq", title: "Previous-year paper", desc: "Choose a UPSC year from 2019-2026.", sourceType: "pyq", tone: "green", icon: "calendar" },
     { id: "daily", title: "Daily quiz", desc: "Pick a loaded daily current-affairs quiz.", sourceType: "daily", tone: "rose", icon: "flame" },
+    { id: "rc", title: "Daily RC", desc: "Timed CSAT reading-comprehension drills.", sourceType: "rc", tone: "blue", icon: "book" },
+    { id: "weekly-quiz", title: "Weekly quiz", desc: "Current affairs plus static recall MCQs.", sourceType: "weekly-quiz", tone: "indigo", icon: "layers" },
     { id: "pib", title: "PIB questions", desc: "Daily questions from PIB briefs and releases.", sourceType: "pib", tone: "green", icon: "fileText" },
     { id: "ai", title: "AI question set", desc: "Generated practice sets by batch.", sourceType: "ai", tone: "saffron", icon: "spark" },
     { id: "csr", title: "CSR mock test", desc: "Curated CSR mock batches.", sourceType: "csr", tone: "indigo", icon: "book" },

@@ -1,49 +1,49 @@
 [
   {
-    "question": "With reference to the \"Mission for Cotton Productivity\" approved by the Union Cabinet in June 2026, consider the following statements:\n1. It is to be jointly implemented by the Ministry of Agriculture & Farmers Welfare and the Ministry of Textiles.\n2. It targets raising cotton lint productivity to 755 kg per hectare by 2030-31.\n3. It has a total outlay of over Rs 5,000 crore for the period 2026-27 to 2030-31.\nWhich of the statements given above is/are correct?",
+    "question": "With reference to the Production Linked Incentive (PLI) Scheme for Textiles, which saw 96 companies approved under Round-3 in June 2026, consider the following statements:\n1. It is administered by the Ministry of Textiles.\n2. Its focus segments are Man-Made Fibre (MMF) apparel, MMF fabrics and technical textiles.\n3. The scheme exclusively incentivises cotton and other natural-fibre products.\nWhich of the statements given above is/are correct?",
     "options": [
       "(a) 1 and 2 only",
       "(b) 2 and 3 only",
       "(c) 1 and 3 only",
       "(d) 1, 2 and 3"
     ],
-    "answer": "(d)",
-    "explanation": "All three are correct: the Mission (outlay Rs 5,659.22 crore, 2026-27 to 2030-31) is implemented jointly by the Ministry of Agriculture & Farmers Welfare and the Ministry of Textiles, aiming to raise lint productivity from ~440 to 755 kg/ha by 2031, aligned with the 5F (Farm-Fibre-Factory-Fashion-Foreign) vision.",
-    "subject": "Agriculture",
-    "theme": "Cotton sector / fibre self-sufficiency",
-    "micro_topic": "Mission for Cotton Productivity",
-    "nature": "Current Affairs",
-    "difficulty": "Moderate"
-  },
-  {
-    "question": "Consider the following statements about the Zojila Tunnel, which achieved its breakthrough in June 2026:\n1. It is being constructed on National Highway-1 between Baltal and Minamarg.\n2. It will provide all-weather connectivity between the Kashmir Valley and Ladakh.\n3. It is being executed by the Border Roads Organisation (BRO).\nWhich of the statements given above is/are correct?",
-    "options": [
-      "(a) 1 and 2 only",
-      "(b) 2 and 3 only",
-      "(c) 1 only",
-      "(d) 1, 2 and 3"
-    ],
     "answer": "(a)",
-    "explanation": "Statements 1 and 2 are correct - the ~13.15 km tunnel on NH-1 (Baltal-Minamarg) will give year-round Srinagar-Ladakh connectivity, bypassing the snow-bound Zojila Pass. Statement 3 is wrong: it is being executed by MEIL (Megha Engineering) under NHIDCL, not the BRO.",
-    "subject": "Infrastructure",
-    "theme": "Strategic Himalayan connectivity",
-    "micro_topic": "Zojila Tunnel / NHIDCL",
+    "explanation": "Statements 1 and 2 are correct. The PLI Scheme for Textiles (launched 2021) is run by the Ministry of Textiles and targets MMF apparel, MMF fabrics and technical textiles. Statement 3 is wrong - the scheme deliberately focuses on man-made fibre and technical textiles, not natural fibres like cotton. Round-3 cleared 96 firms with committed investment of Rs 12,822.67 crore.",
+    "subject": "Economy",
+    "theme": "Manufacturing & PLI schemes",
+    "micro_topic": "PLI Scheme for Textiles (Round-3)",
     "nature": "Current Affairs",
     "difficulty": "Moderate"
   },
   {
-    "question": "The Prime Minister Research Chair (PMRC) Scheme 2026, recently in the news, is an initiative of which one of the following?",
+    "question": "The 'Buy (Indian-IDDM)' category, frequently seen in news on defence procurement (such as the June 2026 Rs 449 crore contract for ECGNSS Jammers for the Indian Navy), refers to the acquisition of defence equipment that is:",
     "options": [
-      "(a) Ministry of Science and Technology",
-      "(b) Department of Higher Education, Ministry of Education",
-      "(c) NITI Aayog",
-      "(d) Ministry of Electronics and Information Technology"
+      "(a) Imported in fully-built form from foreign Original Equipment Manufacturers",
+      "(b) Indigenously Designed, Developed and Manufactured",
+      "(c) Imported and merely assembled in India under a licence agreement",
+      "(d) Procured jointly through an Inter-Departmental Defence Manufacturing pool"
     ],
     "answer": "(b)",
-    "explanation": "PMRC 2026 is run by the Department of Higher Education, Ministry of Education. It seeks to attract Indian-origin researchers/scientists from abroad to premier Indian institutions (NIRF top-ranked) and national labs under DST/DBT/ICMR/CSIR, across 13 priority sectors such as AI, semiconductors and climate technologies.",
+    "explanation": "IDDM stands for Indigenously Designed, Developed and Manufactured - the highest-priority procurement category under the Defence Acquisition Procedure. The Enhanced Capability GNSS Jammers deal (Rs 449 crore, with Accord Software & Systems, Bengaluru) carries minimum 75% indigenous content and boosts the Navy's electronic warfare capability.",
+    "subject": "Science & Technology",
+    "theme": "Defence indigenisation",
+    "micro_topic": "Buy (Indian-IDDM) / ECGNSS Jammers",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Consider the following statements about the Pradhan Mantri Surakshit Matritva Abhiyan (PMSMA), which completed 10 years in June 2026:\n1. It assures free, comprehensive antenatal care to pregnant women on the 9th day of every month.\n2. It is implemented by the Ministry of Women and Child Development.\n3. It was launched in 2016.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statements 1 and 3 are correct. PMSMA, launched on 9 June 2016, provides fixed-day (9th of every month) free and quality antenatal care to pregnant women. Statement 2 is wrong - it is implemented by the Ministry of Health and Family Welfare (MoHFW), not WCD. The decade was marked by a Rs 75 commemorative coin and a Rs 5 postal stamp.",
     "subject": "Polity & Governance",
-    "theme": "Research & higher education policy",
-    "micro_topic": "Prime Minister Research Chair (PMRC) Scheme 2026",
+    "theme": "Health & social-sector schemes",
+    "micro_topic": "Pradhan Mantri Surakshit Matritva Abhiyan (PMSMA)",
     "nature": "Current Affairs",
     "difficulty": "Easy"
   }

@@ -1,0 +1,130 @@
+[
+  {
+    "id": "daily_rc_2026_06_09_1",
+    "question_number": 1,
+    "passage": "It is commonly assumed that the authority of science rests on its freedom from values — that the scientist, unlike the politician or the priest, reports only what *is*, never what *ought* to be. This picture is comforting but misleading. Values enter scientific practice at every turn: in the questions deemed worth asking, in the threshold of evidence demanded before a claim is accepted, in the very decision about which errors are more tolerable than others. A researcher who insists on near-certainty before warning of an environmental hazard has not banished values; she has merely privileged the avoidance of false alarms over the avoidance of missed dangers. The pretence of value-neutrality, far from protecting objectivity, conceals the choices that shape it.\n\nWhat distinguishes science, then, is not the absence of values but their disciplined exposure. The scientist does not escape judgment; she submits her judgments to a community trained to detect and contest them. Objectivity is thus a social achievement rather than a private virtue — the product of criticism, replication, and the willingness to be proven wrong, not of some impossible neutrality. To demand that science be value-free is to misunderstand both what science is and why we trust it. The trust is warranted precisely *because* the values are accountable, not because they are absent. A science that denied its own commitments would be less trustworthy, not more, for it would have hidden the very junctures at which reasonable people might disagree.",
+    "question": "Which statement best captures the central idea of the passage?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Science would be more trustworthy if scientists eliminated personal values from their work."
+      },
+      {
+        "key": "b",
+        "text": "The credibility of science derives not from value-neutrality but from the accountable, communal scrutiny of the values it inevitably contains."
+      },
+      {
+        "key": "c",
+        "text": "Scientists are no more objective than politicians or priests."
+      },
+      {
+        "key": "d",
+        "text": "Environmental hazards are routinely underestimated because scientists demand too much certainty."
+      }
+    ],
+    "answer": "b",
+    "explanation": "The whole passage argues trust comes from values being *accountable*, not absent. *Closest wrong (C):* the author grants values enter science as elsewhere, but insists science *manages* them — so C ignores the passage's key distinction.",
+    "subject": "Reading Comprehension",
+    "theme": "CSAT Daily RC",
+    "micro_topic": "Reading comprehension",
+    "nature": "CSAT",
+    "difficulty": "Moderate",
+    "source_type": "rc"
+  },
+  {
+    "id": "daily_rc_2026_06_09_2",
+    "question_number": 2,
+    "passage": "It is commonly assumed that the authority of science rests on its freedom from values — that the scientist, unlike the politician or the priest, reports only what *is*, never what *ought* to be. This picture is comforting but misleading. Values enter scientific practice at every turn: in the questions deemed worth asking, in the threshold of evidence demanded before a claim is accepted, in the very decision about which errors are more tolerable than others. A researcher who insists on near-certainty before warning of an environmental hazard has not banished values; she has merely privileged the avoidance of false alarms over the avoidance of missed dangers. The pretence of value-neutrality, far from protecting objectivity, conceals the choices that shape it.\n\nWhat distinguishes science, then, is not the absence of values but their disciplined exposure. The scientist does not escape judgment; she submits her judgments to a community trained to detect and contest them. Objectivity is thus a social achievement rather than a private virtue — the product of criticism, replication, and the willingness to be proven wrong, not of some impossible neutrality. To demand that science be value-free is to misunderstand both what science is and why we trust it. The trust is warranted precisely *because* the values are accountable, not because they are absent. A science that denied its own commitments would be less trustworthy, not more, for it would have hidden the very junctures at which reasonable people might disagree.",
+    "question": "The author's argument depends most heavily on which assumption?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Scientific communities are generally capable of detecting and contesting hidden value-judgments."
+      },
+      {
+        "key": "b",
+        "text": "Every individual scientist is fully aware of his or her own biases."
+      },
+      {
+        "key": "c",
+        "text": "Politicians and priests never subject their judgments to any scrutiny."
+      },
+      {
+        "key": "d",
+        "text": "Value-free inquiry is logically impossible in every field of human thought."
+      }
+    ],
+    "answer": "a",
+    "explanation": "\"Objectivity is a social achievement\" only works if the community can actually expose and contest hidden judgments; remove this and the argument collapses. *Closest wrong (D):* tempting, but the author defends trust in *science* via accountability — he never claims value-free inquiry is logically impossible everywhere.",
+    "subject": "Reading Comprehension",
+    "theme": "CSAT Daily RC",
+    "micro_topic": "Reading comprehension",
+    "nature": "CSAT",
+    "difficulty": "Moderate",
+    "source_type": "rc"
+  },
+  {
+    "id": "daily_rc_2026_06_09_3",
+    "question_number": 3,
+    "passage": "It is commonly assumed that the authority of science rests on its freedom from values — that the scientist, unlike the politician or the priest, reports only what *is*, never what *ought* to be. This picture is comforting but misleading. Values enter scientific practice at every turn: in the questions deemed worth asking, in the threshold of evidence demanded before a claim is accepted, in the very decision about which errors are more tolerable than others. A researcher who insists on near-certainty before warning of an environmental hazard has not banished values; she has merely privileged the avoidance of false alarms over the avoidance of missed dangers. The pretence of value-neutrality, far from protecting objectivity, conceals the choices that shape it.\n\nWhat distinguishes science, then, is not the absence of values but their disciplined exposure. The scientist does not escape judgment; she submits her judgments to a community trained to detect and contest them. Objectivity is thus a social achievement rather than a private virtue — the product of criticism, replication, and the willingness to be proven wrong, not of some impossible neutrality. To demand that science be value-free is to misunderstand both what science is and why we trust it. The trust is warranted precisely *because* the values are accountable, not because they are absent. A science that denied its own commitments would be less trustworthy, not more, for it would have hidden the very junctures at which reasonable people might disagree.",
+    "question": "From the passage, it can be inferred that a scientist who sets a very high evidence threshold before issuing a hazard warning:",
+    "options": [
+      {
+        "key": "a",
+        "text": "is, by that fact, being more objective than one who sets a lower threshold."
+      },
+      {
+        "key": "b",
+        "text": "has made a value-laden choice to risk missing real dangers rather than raising false alarms."
+      },
+      {
+        "key": "c",
+        "text": "is violating the established norms of the scientific community."
+      },
+      {
+        "key": "d",
+        "text": "has succeeded in removing values from her decision."
+      }
+    ],
+    "answer": "b",
+    "explanation": "Directly stated: a high threshold \"privileged the avoidance of false alarms over the avoidance of missed dangers\" — a value choice. *Closest wrong (A):* the passage explicitly denies that a stricter threshold equals greater objectivity.",
+    "subject": "Reading Comprehension",
+    "theme": "CSAT Daily RC",
+    "micro_topic": "Reading comprehension",
+    "nature": "CSAT",
+    "difficulty": "Moderate",
+    "source_type": "rc"
+  },
+  {
+    "id": "daily_rc_2026_06_09_4",
+    "question_number": 4,
+    "passage": "It is commonly assumed that the authority of science rests on its freedom from values — that the scientist, unlike the politician or the priest, reports only what *is*, never what *ought* to be. This picture is comforting but misleading. Values enter scientific practice at every turn: in the questions deemed worth asking, in the threshold of evidence demanded before a claim is accepted, in the very decision about which errors are more tolerable than others. A researcher who insists on near-certainty before warning of an environmental hazard has not banished values; she has merely privileged the avoidance of false alarms over the avoidance of missed dangers. The pretence of value-neutrality, far from protecting objectivity, conceals the choices that shape it.\n\nWhat distinguishes science, then, is not the absence of values but their disciplined exposure. The scientist does not escape judgment; she submits her judgments to a community trained to detect and contest them. Objectivity is thus a social achievement rather than a private virtue — the product of criticism, replication, and the willingness to be proven wrong, not of some impossible neutrality. To demand that science be value-free is to misunderstand both what science is and why we trust it. The trust is warranted precisely *because* the values are accountable, not because they are absent. A science that denied its own commitments would be less trustworthy, not more, for it would have hidden the very junctures at which reasonable people might disagree.",
+    "question": "The author's attitude toward the ideal of \"value-free science\" is best described as:",
+    "options": [
+      {
+        "key": "a",
+        "text": "reverent"
+      },
+      {
+        "key": "b",
+        "text": "indifferent"
+      },
+      {
+        "key": "c",
+        "text": "critically skeptical"
+      },
+      {
+        "key": "d",
+        "text": "hostile and dismissive"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The author calls the ideal \"comforting but misleading\" and corrects it — measured criticism, not contempt. *Closest wrong (D):* \"hostile and dismissive\" is too extreme; he engages the view seriously and explains why it fails, rather than dismissing it. ---",
+    "subject": "Reading Comprehension",
+    "theme": "CSAT Daily RC",
+    "micro_topic": "Reading comprehension",
+    "nature": "CSAT",
+    "difficulty": "Moderate",
+    "source_type": "rc"
+  }
+]

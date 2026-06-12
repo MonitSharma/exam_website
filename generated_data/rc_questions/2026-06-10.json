@@ -1,0 +1,130 @@
+[
+  {
+    "id": "daily_rc_2026_06_10_1",
+    "question_number": 1,
+    "passage": "The claim that humanity is morally progressing rests on an assumption rarely examined: that the moral sensibilities of the present constitute the standard against which the past is to be judged. We congratulate ourselves for having abolished practices our ancestors tolerated, and we read this abolition as proof of an upward trajectory. Yet the very confidence with which we condemn the past is the confidence each age has possessed in turn. The reformer who believes himself to stand at the summit of moral insight forgets that those he criticises believed precisely the same of themselves. If moral progress were merely the replacement of one set of certainties by another, the notion of progress would collapse into mere change.\n\nWhat rescues the idea, if anything does, is not the content of our convictions but the manner in which we hold them. A society may be said to advance not when it arrives at correct beliefs—for these it can never finally verify—but when it builds institutions that keep its convictions open to challenge. Progress, on this view, is procedural rather than substantive: it lies in the widening of the circle of those permitted to dissent, not in the triumph of any particular doctrine. The danger is that a community, having secured one hard-won reform, mistakes that achievement for the end of inquiry and closes the door behind it. Genuine progress is therefore self-undermining by design; it must treat even its own conclusions as provisional. The moment a generation declares its morality complete, it forfeits the only quality that ever distinguished progress from fashion.",
+    "question": "The central argument of the passage is that moral progress, if it exists, consists in:",
+    "options": [
+      {
+        "key": "a",
+        "text": "the steady replacement of mistaken beliefs with correct ones over time"
+      },
+      {
+        "key": "b",
+        "text": "a society's procedural openness to challenging its own convictions, rather than the content of those convictions"
+      },
+      {
+        "key": "c",
+        "text": "the demonstrated moral superiority of the present generation over its predecessors"
+      },
+      {
+        "key": "d",
+        "text": "the abolition of practices that earlier ages wrongly tolerated"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The pivot sentence \"What rescues the idea... is not the content of our convictions but the manner in which we hold them\" defines progress as procedural. *Why not (a):* The author explicitly rejects content-replacement as \"mere change,\" not progress—(a) describes the view he is arguing *against*.",
+    "subject": "Reading Comprehension",
+    "theme": "CSAT Daily RC",
+    "micro_topic": "Reading comprehension",
+    "nature": "CSAT",
+    "difficulty": "Moderate",
+    "source_type": "rc"
+  },
+  {
+    "id": "daily_rc_2026_06_10_2",
+    "question_number": 2,
+    "passage": "The claim that humanity is morally progressing rests on an assumption rarely examined: that the moral sensibilities of the present constitute the standard against which the past is to be judged. We congratulate ourselves for having abolished practices our ancestors tolerated, and we read this abolition as proof of an upward trajectory. Yet the very confidence with which we condemn the past is the confidence each age has possessed in turn. The reformer who believes himself to stand at the summit of moral insight forgets that those he criticises believed precisely the same of themselves. If moral progress were merely the replacement of one set of certainties by another, the notion of progress would collapse into mere change.\n\nWhat rescues the idea, if anything does, is not the content of our convictions but the manner in which we hold them. A society may be said to advance not when it arrives at correct beliefs—for these it can never finally verify—but when it builds institutions that keep its convictions open to challenge. Progress, on this view, is procedural rather than substantive: it lies in the widening of the circle of those permitted to dissent, not in the triumph of any particular doctrine. The danger is that a community, having secured one hard-won reform, mistakes that achievement for the end of inquiry and closes the door behind it. Genuine progress is therefore self-undermining by design; it must treat even its own conclusions as provisional. The moment a generation declares its morality complete, it forfeits the only quality that ever distinguished progress from fashion.",
+    "question": "The author's conclusion that progress is \"procedural rather than substantive\" rests on the unstated assumption that:",
+    "options": [
+      {
+        "key": "a",
+        "text": "the openness of institutions to dissent can be judged good independently of the particular beliefs it protects"
+      },
+      {
+        "key": "b",
+        "text": "most societies eventually abandon the reforms they have secured"
+      },
+      {
+        "key": "c",
+        "text": "dissent reliably leads to morally better outcomes"
+      },
+      {
+        "key": "d",
+        "text": "ancient societies lacked any institutions for registering dissent"
+      }
+    ],
+    "answer": "a",
+    "explanation": "For procedural openness to count as *progress* (and not just more change), the author must treat \"widening the circle of dissent\" as itself good, independent of any doctrine—an unstated premise his conclusion depends on. *Why not (c):* Tempting because dissent is central, but the author denies we can verify outcomes at all; he never claims dissent yields *better* results—(c) overstates and contradicts the text.",
+    "subject": "Reading Comprehension",
+    "theme": "CSAT Daily RC",
+    "micro_topic": "Reading comprehension",
+    "nature": "CSAT",
+    "difficulty": "Moderate",
+    "source_type": "rc"
+  },
+  {
+    "id": "daily_rc_2026_06_10_3",
+    "question_number": 3,
+    "passage": "The claim that humanity is morally progressing rests on an assumption rarely examined: that the moral sensibilities of the present constitute the standard against which the past is to be judged. We congratulate ourselves for having abolished practices our ancestors tolerated, and we read this abolition as proof of an upward trajectory. Yet the very confidence with which we condemn the past is the confidence each age has possessed in turn. The reformer who believes himself to stand at the summit of moral insight forgets that those he criticises believed precisely the same of themselves. If moral progress were merely the replacement of one set of certainties by another, the notion of progress would collapse into mere change.\n\nWhat rescues the idea, if anything does, is not the content of our convictions but the manner in which we hold them. A society may be said to advance not when it arrives at correct beliefs—for these it can never finally verify—but when it builds institutions that keep its convictions open to challenge. Progress, on this view, is procedural rather than substantive: it lies in the widening of the circle of those permitted to dissent, not in the triumph of any particular doctrine. The danger is that a community, having secured one hard-won reform, mistakes that achievement for the end of inquiry and closes the door behind it. Genuine progress is therefore self-undermining by design; it must treat even its own conclusions as provisional. The moment a generation declares its morality complete, it forfeits the only quality that ever distinguished progress from fashion.",
+    "question": "It can be inferred that the author would regard a society which enshrines a hard-won reform as permanent and beyond question as:",
+    "options": [
+      {
+        "key": "a",
+        "text": "having finally achieved genuine moral progress"
+      },
+      {
+        "key": "b",
+        "text": "having betrayed the very principle that makes progress possible"
+      },
+      {
+        "key": "c",
+        "text": "morally equivalent to the society it once reformed"
+      },
+      {
+        "key": "d",
+        "text": "procedurally advanced but substantively backward"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Directly supported: \"Genuine progress is... self-undermining by design... The moment a generation declares its morality complete, it forfeits the only quality that ever distinguished progress from fashion.\" *Why not (c):* The author says such a society *forfeits progress*, not that it becomes identical to what it reformed—(c) reads in a moral equivalence the passage never asserts.",
+    "subject": "Reading Comprehension",
+    "theme": "CSAT Daily RC",
+    "micro_topic": "Reading comprehension",
+    "nature": "CSAT",
+    "difficulty": "Moderate",
+    "source_type": "rc"
+  },
+  {
+    "id": "daily_rc_2026_06_10_4",
+    "question_number": 4,
+    "passage": "The claim that humanity is morally progressing rests on an assumption rarely examined: that the moral sensibilities of the present constitute the standard against which the past is to be judged. We congratulate ourselves for having abolished practices our ancestors tolerated, and we read this abolition as proof of an upward trajectory. Yet the very confidence with which we condemn the past is the confidence each age has possessed in turn. The reformer who believes himself to stand at the summit of moral insight forgets that those he criticises believed precisely the same of themselves. If moral progress were merely the replacement of one set of certainties by another, the notion of progress would collapse into mere change.\n\nWhat rescues the idea, if anything does, is not the content of our convictions but the manner in which we hold them. A society may be said to advance not when it arrives at correct beliefs—for these it can never finally verify—but when it builds institutions that keep its convictions open to challenge. Progress, on this view, is procedural rather than substantive: it lies in the widening of the circle of those permitted to dissent, not in the triumph of any particular doctrine. The danger is that a community, having secured one hard-won reform, mistakes that achievement for the end of inquiry and closes the door behind it. Genuine progress is therefore self-undermining by design; it must treat even its own conclusions as provisional. The moment a generation declares its morality complete, it forfeits the only quality that ever distinguished progress from fashion.",
+    "question": "The author's attitude toward the popular belief in moral progress is best described as:",
+    "options": [
+      {
+        "key": "a",
+        "text": "dismissive and cynical"
+      },
+      {
+        "key": "b",
+        "text": "critically sympathetic—skeptical of the common version, yet trying to salvage a defensible one"
+      },
+      {
+        "key": "c",
+        "text": "enthusiastically affirming"
+      },
+      {
+        "key": "d",
+        "text": "indifferent and detached"
+      }
+    ],
+    "answer": "b",
+    "explanation": "He calls the popular belief an assumption \"rarely examined,\" yet labours to reconstruct a defensible version (\"What rescues the idea, if anything does...\"). *Why not (a):* \"Dismissive/cynical\" is too extreme—he actively tries to *salvage* the idea, which a cynic would not. ---",
+    "subject": "Reading Comprehension",
+    "theme": "CSAT Daily RC",
+    "micro_topic": "Reading comprehension",
+    "nature": "CSAT",
+    "difficulty": "Moderate",
+    "source_type": "rc"
+  }
+]

@@ -1,0 +1,130 @@
+[
+  {
+    "id": "daily_rc_2026_06_12_1",
+    "question_number": 1,
+    "passage": "It is tempting to imagine that moral progress arrives as a gradual brightening, each generation inheriting the enlightenment of the last and adding modestly to it. The historical record suggests something less flattering. Reforms we now regard as self-evident — the abolition of slavery, the extension of suffrage, the prohibition of cruelty — were, in their own time, dismissed as impractical, sentimental, or dangerous by people who were neither stupid nor wicked. What changed was rarely the availability of arguments; the arguments had often been made, and ignored, for centuries. What changed was that a sufficient number of people became unable to live comfortably with a practice they had previously tolerated without difficulty. Moral progress, on this view, is less the triumph of reason than the slow erosion of a society's capacity for indifference.\n\nThis has an uncomfortable corollary. If conscience is trained by exposure rather than persuaded by logic, then those who profit from an injustice are not merely resisting a conclusion; they are insulated from the experience that would make the conclusion feel inevitable. Argument addressed to them is unlikely to move them, because the obstacle is not their ignorance but their distance. It also suggests that our own descendants will look back on practices we now defend or ignore with the same incredulity we reserve for the cruelties of the past — and that we are, at this moment, supplying the arguments they will find unconvincing. The proper response to this is not paralysis but humility: a suspicion that the moral certainties we find most comfortable are precisely the ones that most deserve examination.",
+    "question": "Which of the following best captures the central idea of the passage?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Moral progress results chiefly from the discovery of better arguments over time."
+      },
+      {
+        "key": "b",
+        "text": "Moral progress occurs largely as societies lose their capacity to tolerate practices they once accepted."
+      },
+      {
+        "key": "c",
+        "text": "Future generations will inevitably judge us more harshly than we judge the past."
+      },
+      {
+        "key": "d",
+        "text": "Those who benefit from an injustice are wicked and argue in bad faith."
+      }
+    ],
+    "answer": "b",
+    "explanation": "The thesis sentence states progress is \"less the triumph of reason than the slow erosion of a society's capacity for indifference.\" *Closest trap (a): the passage explicitly says the arguments \"had often been made, and ignored, for centuries\" — availability of reasons was never the bottleneck.*",
+    "subject": "Reading Comprehension",
+    "theme": "CSAT Daily RC",
+    "micro_topic": "Reading comprehension",
+    "nature": "CSAT",
+    "difficulty": "Moderate",
+    "source_type": "rc"
+  },
+  {
+    "id": "daily_rc_2026_06_12_2",
+    "question_number": 2,
+    "passage": "It is tempting to imagine that moral progress arrives as a gradual brightening, each generation inheriting the enlightenment of the last and adding modestly to it. The historical record suggests something less flattering. Reforms we now regard as self-evident — the abolition of slavery, the extension of suffrage, the prohibition of cruelty — were, in their own time, dismissed as impractical, sentimental, or dangerous by people who were neither stupid nor wicked. What changed was rarely the availability of arguments; the arguments had often been made, and ignored, for centuries. What changed was that a sufficient number of people became unable to live comfortably with a practice they had previously tolerated without difficulty. Moral progress, on this view, is less the triumph of reason than the slow erosion of a society's capacity for indifference.\n\nThis has an uncomfortable corollary. If conscience is trained by exposure rather than persuaded by logic, then those who profit from an injustice are not merely resisting a conclusion; they are insulated from the experience that would make the conclusion feel inevitable. Argument addressed to them is unlikely to move them, because the obstacle is not their ignorance but their distance. It also suggests that our own descendants will look back on practices we now defend or ignore with the same incredulity we reserve for the cruelties of the past — and that we are, at this moment, supplying the arguments they will find unconvincing. The proper response to this is not paralysis but humility: a suspicion that the moral certainties we find most comfortable are precisely the ones that most deserve examination.",
+    "question": "The author's argument rests primarily on the assumption that:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Reason plays no role whatsoever in moral change."
+      },
+      {
+        "key": "b",
+        "text": "Moral sensibilities are shaped more by experience and exposure than by logical persuasion."
+      },
+      {
+        "key": "c",
+        "text": "Every practice accepted today will one day be condemned."
+      },
+      {
+        "key": "d",
+        "text": "People who defend an injustice are incapable of understanding arguments against it."
+      }
+    ],
+    "answer": "b",
+    "explanation": "The whole second paragraph turns on \"conscience is trained by exposure rather than persuaded by logic.\" *Closest trap (a): too extreme — the author says \"less the triumph of reason,\" not none. The claim is comparative, not absolute.*",
+    "subject": "Reading Comprehension",
+    "theme": "CSAT Daily RC",
+    "micro_topic": "Reading comprehension",
+    "nature": "CSAT",
+    "difficulty": "Moderate",
+    "source_type": "rc"
+  },
+  {
+    "id": "daily_rc_2026_06_12_3",
+    "question_number": 3,
+    "passage": "It is tempting to imagine that moral progress arrives as a gradual brightening, each generation inheriting the enlightenment of the last and adding modestly to it. The historical record suggests something less flattering. Reforms we now regard as self-evident — the abolition of slavery, the extension of suffrage, the prohibition of cruelty — were, in their own time, dismissed as impractical, sentimental, or dangerous by people who were neither stupid nor wicked. What changed was rarely the availability of arguments; the arguments had often been made, and ignored, for centuries. What changed was that a sufficient number of people became unable to live comfortably with a practice they had previously tolerated without difficulty. Moral progress, on this view, is less the triumph of reason than the slow erosion of a society's capacity for indifference.\n\nThis has an uncomfortable corollary. If conscience is trained by exposure rather than persuaded by logic, then those who profit from an injustice are not merely resisting a conclusion; they are insulated from the experience that would make the conclusion feel inevitable. Argument addressed to them is unlikely to move them, because the obstacle is not their ignorance but their distance. It also suggests that our own descendants will look back on practices we now defend or ignore with the same incredulity we reserve for the cruelties of the past — and that we are, at this moment, supplying the arguments they will find unconvincing. The proper response to this is not paralysis but humility: a suspicion that the moral certainties we find most comfortable are precisely the ones that most deserve examination.",
+    "question": "Which inference is best supported by the passage?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Presenting more evidence to the beneficiaries of an injustice is the most effective route to reform."
+      },
+      {
+        "key": "b",
+        "text": "A person's moral judgement can be influenced by their proximity to, or distance from, the harm in question."
+      },
+      {
+        "key": "c",
+        "text": "Indifference is morally equivalent to active cruelty."
+      },
+      {
+        "key": "d",
+        "text": "Moral certainty is always mistaken."
+      }
+    ],
+    "answer": "b",
+    "explanation": "Beneficiaries are unmoved because of \"their distance\" from the harm — implying proximity vs. distance shapes judgement. *Closest trap (a): the opposite of the text — argument to such people is \"unlikely to move them,\" so more evidence is not the effective route.*",
+    "subject": "Reading Comprehension",
+    "theme": "CSAT Daily RC",
+    "micro_topic": "Reading comprehension",
+    "nature": "CSAT",
+    "difficulty": "Moderate",
+    "source_type": "rc"
+  },
+  {
+    "id": "daily_rc_2026_06_12_4",
+    "question_number": 4,
+    "passage": "It is tempting to imagine that moral progress arrives as a gradual brightening, each generation inheriting the enlightenment of the last and adding modestly to it. The historical record suggests something less flattering. Reforms we now regard as self-evident — the abolition of slavery, the extension of suffrage, the prohibition of cruelty — were, in their own time, dismissed as impractical, sentimental, or dangerous by people who were neither stupid nor wicked. What changed was rarely the availability of arguments; the arguments had often been made, and ignored, for centuries. What changed was that a sufficient number of people became unable to live comfortably with a practice they had previously tolerated without difficulty. Moral progress, on this view, is less the triumph of reason than the slow erosion of a society's capacity for indifference.\n\nThis has an uncomfortable corollary. If conscience is trained by exposure rather than persuaded by logic, then those who profit from an injustice are not merely resisting a conclusion; they are insulated from the experience that would make the conclusion feel inevitable. Argument addressed to them is unlikely to move them, because the obstacle is not their ignorance but their distance. It also suggests that our own descendants will look back on practices we now defend or ignore with the same incredulity we reserve for the cruelties of the past — and that we are, at this moment, supplying the arguments they will find unconvincing. The proper response to this is not paralysis but humility: a suspicion that the moral certainties we find most comfortable are precisely the ones that most deserve examination.",
+    "question": "With which statement would the author most likely AGREE?",
+    "options": [
+      {
+        "key": "a",
+        "text": "We should feel confident that our strongest moral convictions are correct."
+      },
+      {
+        "key": "b",
+        "text": "The moral views we hold most comfortably are the ones that most warrant scrutiny."
+      },
+      {
+        "key": "c",
+        "text": "Uncertainty about future moral judgement justifies inaction in the present."
+      },
+      {
+        "key": "d",
+        "text": "Historical reformers were intellectually superior to those who opposed them."
+      }
+    ],
+    "answer": "b",
+    "explanation": "Directly paraphrases the closing line: comfortable moral certainties \"most deserve examination.\" *Closest trap (c): the author rejects this outright — \"The proper response to this is not paralysis but humility.\"* ---",
+    "subject": "Reading Comprehension",
+    "theme": "CSAT Daily RC",
+    "micro_topic": "Reading comprehension",
+    "nature": "CSAT",
+    "difficulty": "Moderate",
+    "source_type": "rc"
+  }
+]

@@ -130,6 +130,7 @@ function Stat({ value, label, sub, tone }) {
 function QuestionStem({ q, big }) {
   return (
     <div className={`stem${big ? " stem-big" : ""}`}>
+      {q.passage && <div className="stem-passage">{q.passage}</div>}
       <p className="stem-lead">{q.stem}</p>
       {q.statements && q.statements.length > 0 && (
         <ol className="stmt-list">

@@ -1,0 +1,130 @@
+[
+  {
+    "id": "daily_rc_2026_06_08_1",
+    "question_number": 1,
+    "passage": "The belief that humanity is morally improving is among the most consoling of modern convictions, yet it rests on foundations far less secure than its champions suppose. We point to the abolition of slavery, the extension of suffrage, and the retreat of cruelty from public spectacle, and we conclude that the moral arc of the species bends, however slowly, toward justice. But this narrative quietly confuses two distinct things: the expansion of what we profess and the constancy of what we do. A society may abolish an institution while preserving the impulses that sustained it, displacing rather than dissolving its cruelties. The very vocabulary of progress can become an anaesthetic, persuading us that because we have named an injustice we have thereby diminished it.\n\nNor is it obvious that moral gains, once made, are secure. The assumption that history ratchets forward, never slipping back, is an article of faith rather than a finding of evidence; the twentieth century, with its industrial barbarities committed by the most lettered of nations, should have cured us of it. What we call progress may be less a steady ascent than a series of local truces, contingent on prosperity and easily revoked under strain.\n\nThis is not counsel for despair. To doubt that progress is automatic is not to deny that it is possible; it is only to insist that it is laborious, reversible, and owed to vigilance rather than to time. The danger of the comfortable story is precisely its comfort: it invites us to be spectators of an improvement we imagine to be underway, when what morality asks of us is to be its authors.",
+    "question": "Which of the following best captures the central idea of the passage?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Moral progress is an illusion invented to console modern societies."
+      },
+      {
+        "key": "b",
+        "text": "Belief in *automatic* moral progress is unwarranted and complacent; progress is possible but fragile and demands active effort."
+      },
+      {
+        "key": "c",
+        "text": "The twentieth century proves that humanity has morally regressed rather than advanced."
+      },
+      {
+        "key": "d",
+        "text": "Abolishing unjust institutions is pointless because the underlying impulses always remain."
+      }
+    ],
+    "answer": "b",
+    "explanation": "The closing lines (\"not counsel for despair … possible … owed to vigilance\") frame the thesis as anti-complacency, not anti-progress. *Closest wrong — (a):* too extreme; the author explicitly says progress *is* possible, only not automatic.",
+    "subject": "Reading Comprehension",
+    "theme": "CSAT Daily RC",
+    "micro_topic": "Reading comprehension",
+    "nature": "CSAT",
+    "difficulty": "Moderate",
+    "source_type": "rc"
+  },
+  {
+    "id": "daily_rc_2026_06_08_2",
+    "question_number": 2,
+    "passage": "The belief that humanity is morally improving is among the most consoling of modern convictions, yet it rests on foundations far less secure than its champions suppose. We point to the abolition of slavery, the extension of suffrage, and the retreat of cruelty from public spectacle, and we conclude that the moral arc of the species bends, however slowly, toward justice. But this narrative quietly confuses two distinct things: the expansion of what we profess and the constancy of what we do. A society may abolish an institution while preserving the impulses that sustained it, displacing rather than dissolving its cruelties. The very vocabulary of progress can become an anaesthetic, persuading us that because we have named an injustice we have thereby diminished it.\n\nNor is it obvious that moral gains, once made, are secure. The assumption that history ratchets forward, never slipping back, is an article of faith rather than a finding of evidence; the twentieth century, with its industrial barbarities committed by the most lettered of nations, should have cured us of it. What we call progress may be less a steady ascent than a series of local truces, contingent on prosperity and easily revoked under strain.\n\nThis is not counsel for despair. To doubt that progress is automatic is not to deny that it is possible; it is only to insist that it is laborious, reversible, and owed to vigilance rather than to time. The danger of the comfortable story is precisely its comfort: it invites us to be spectators of an improvement we imagine to be underway, when what morality asks of us is to be its authors.",
+    "question": "The author's argument rests most directly on which assumption?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Professed values and actual conduct can diverge significantly."
+      },
+      {
+        "key": "b",
+        "text": "Slavery and disenfranchisement were the worst injustices in human history."
+      },
+      {
+        "key": "c",
+        "text": "Prosperity is the sole cause of every moral improvement."
+      },
+      {
+        "key": "d",
+        "text": "Educated nations are inherently more prone to barbarism than others."
+      }
+    ],
+    "answer": "a",
+    "explanation": "The whole \"vocabulary as anaesthetic\" point depends on the gap between what we *profess* and what we *do*. *Closest wrong — (c):* the passage says progress is *contingent on* prosperity, not that prosperity is its *sole* cause — a classic over-strong distractor.",
+    "subject": "Reading Comprehension",
+    "theme": "CSAT Daily RC",
+    "micro_topic": "Reading comprehension",
+    "nature": "CSAT",
+    "difficulty": "Moderate",
+    "source_type": "rc"
+  },
+  {
+    "id": "daily_rc_2026_06_08_3",
+    "question_number": 3,
+    "passage": "The belief that humanity is morally improving is among the most consoling of modern convictions, yet it rests on foundations far less secure than its champions suppose. We point to the abolition of slavery, the extension of suffrage, and the retreat of cruelty from public spectacle, and we conclude that the moral arc of the species bends, however slowly, toward justice. But this narrative quietly confuses two distinct things: the expansion of what we profess and the constancy of what we do. A society may abolish an institution while preserving the impulses that sustained it, displacing rather than dissolving its cruelties. The very vocabulary of progress can become an anaesthetic, persuading us that because we have named an injustice we have thereby diminished it.\n\nNor is it obvious that moral gains, once made, are secure. The assumption that history ratchets forward, never slipping back, is an article of faith rather than a finding of evidence; the twentieth century, with its industrial barbarities committed by the most lettered of nations, should have cured us of it. What we call progress may be less a steady ascent than a series of local truces, contingent on prosperity and easily revoked under strain.\n\nThis is not counsel for despair. To doubt that progress is automatic is not to deny that it is possible; it is only to insist that it is laborious, reversible, and owed to vigilance rather than to time. The danger of the comfortable story is precisely its comfort: it invites us to be spectators of an improvement we imagine to be underway, when what morality asks of us is to be its authors.",
+    "question": "Which inference is best supported by the passage?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Naming an injustice is sufficient to eliminate it."
+      },
+      {
+        "key": "b",
+        "text": "Moral achievements can be lost if the conditions that sustain them deteriorate."
+      },
+      {
+        "key": "c",
+        "text": "History contains no genuine moral improvements at all."
+      },
+      {
+        "key": "d",
+        "text": "Vigilance guarantees that moral gains, once won, become permanent."
+      }
+    ],
+    "answer": "b",
+    "explanation": "Directly supported by \"easily revoked under strain\" and \"local truces\"; gains depend on sustaining conditions. *Closest wrong — (d):* the author calls progress \"owed to vigilance,\" but \"owed to\" ≠ \"guaranteed by\" — vigilance enables, it does not assure.",
+    "subject": "Reading Comprehension",
+    "theme": "CSAT Daily RC",
+    "micro_topic": "Reading comprehension",
+    "nature": "CSAT",
+    "difficulty": "Moderate",
+    "source_type": "rc"
+  },
+  {
+    "id": "daily_rc_2026_06_08_4",
+    "question_number": 4,
+    "passage": "The belief that humanity is morally improving is among the most consoling of modern convictions, yet it rests on foundations far less secure than its champions suppose. We point to the abolition of slavery, the extension of suffrage, and the retreat of cruelty from public spectacle, and we conclude that the moral arc of the species bends, however slowly, toward justice. But this narrative quietly confuses two distinct things: the expansion of what we profess and the constancy of what we do. A society may abolish an institution while preserving the impulses that sustained it, displacing rather than dissolving its cruelties. The very vocabulary of progress can become an anaesthetic, persuading us that because we have named an injustice we have thereby diminished it.\n\nNor is it obvious that moral gains, once made, are secure. The assumption that history ratchets forward, never slipping back, is an article of faith rather than a finding of evidence; the twentieth century, with its industrial barbarities committed by the most lettered of nations, should have cured us of it. What we call progress may be less a steady ascent than a series of local truces, contingent on prosperity and easily revoked under strain.\n\nThis is not counsel for despair. To doubt that progress is automatic is not to deny that it is possible; it is only to insist that it is laborious, reversible, and owed to vigilance rather than to time. The danger of the comfortable story is precisely its comfort: it invites us to be spectators of an improvement we imagine to be underway, when what morality asks of us is to be its authors.",
+    "question": "The author would most likely AGREE with which statement?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The persistence of cruelty shows that moral language is worthless."
+      },
+      {
+        "key": "b",
+        "text": "Sustaining moral gains requires continual effort rather than reliance on historical momentum."
+      },
+      {
+        "key": "c",
+        "text": "Moral progress, once achieved, secures itself against reversal."
+      },
+      {
+        "key": "d",
+        "text": "Despair is the only rational response to the failures of the modern age."
+      }
+    ],
+    "answer": "b",
+    "explanation": "Restates the final claim that morality asks us to be \"authors,\" not \"spectators\" of improvement. *Closest wrong — (a):* the author critiques empty moral *language*, but never calls it \"worthless,\" and explicitly rejects the despairing tone (a) implies. ---",
+    "subject": "Reading Comprehension",
+    "theme": "CSAT Daily RC",
+    "micro_topic": "Reading comprehension",
+    "nature": "CSAT",
+    "difficulty": "Moderate",
+    "source_type": "rc"
+  }
+]

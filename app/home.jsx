@@ -112,6 +112,35 @@ function DailyQuizCard({ go, progress }) {
   );
 }
 
+function DailyRcCard({ go }) {
+  const ds = window.UPSC;
+  const dailyRc = ds.dailyRc;
+  const rcSet = dailyRc?.questionSetId ? ds.getQuestionSetById(dailyRc.questionSetId) : null;
+  return (
+    <article className="daily-card daily-card-rc">
+      <div className="daily-glow" aria-hidden="true" />
+      <div className="daily-top">
+        <span className="ai-badge"><Icon name="book" size={14} /> CSAT · RC</span>
+        <span className="daily-date">{dailyRc?.dateLabel}</span>
+      </div>
+      <h2 className="daily-title">{dailyRc?.title || "Daily RC coming soon"}</h2>
+      <p className="daily-desc">{dailyRc?.description || "Timed reading-comprehension practice will appear here when added."}</p>
+      <div className="daily-meta">
+        <span><strong>{rcSet?.questionCount || 0}</strong> questions</span>
+        <span className="dot-sep" />
+        <span><strong>~{dailyRc?.durationMinutes || rcSet?.durationMinutes || 0}</strong> min</span>
+        <span className="dot-sep" />
+        <span className="daily-subjects">Timed · Reading Comprehension</span>
+      </div>
+      <div className="daily-actions">
+        <button className="btn btn-saffron" onClick={() => rcSet && go("test", { setId: rcSet.id })} disabled={!rcSet}>
+          Start Daily RC <Icon name="arrowR" size={18} />
+        </button>
+      </div>
+    </article>
+  );
+}
+
 function BuildTest({ go }) {
   const ds = window.UPSC;
   const [paper, setPaper] = useStateHome("gs");
@@ -216,6 +245,8 @@ function BankBrowse({ go }) {
     { id: "csr", icon: "book", title: "CSR Mock Series", desc: "Curated standard mocks", count: `${sourceQuestionCount("csr").toLocaleString("en-IN")} Qs`, tone: "indigo", sourceType: "csr" },
     { id: "csat", icon: "target", title: "CSAT Practice", desc: "Paper II mocks and drills", count: setCountLabel("csat", "set", "sets"), tone: "blue", sourceType: "csat" },
     { id: "daily", icon: "flame", title: "Daily Quizzes", desc: "Current-affairs, every day", count: ds.dailyQuiz?.isToday ? "New today" : setCountLabel("daily", "set", "sets"), tone: "rose", sourceType: "daily" },
+    { id: "rc", icon: "book", title: "Daily RC", desc: "Timed CSAT passages", count: ds.dailyRc?.isToday ? "New today" : setCountLabel("rc", "set", "sets"), tone: "blue", sourceType: "rc" },
+    { id: "weekly-quiz", icon: "layers", title: "Weekly Quiz", desc: "CA + static recall", count: setCountLabel("weekly-quiz", "set", "sets"), tone: "indigo", sourceType: "weekly-quiz" },
     { id: "pib", icon: "fileText", title: "PIB Questions", desc: "PIB-based daily practice", count: setCountLabel("pib", "set", "sets"), tone: "green", sourceType: "pib" },
   ];
   const active = banks.find((bank) => bank.id === activeBank) || null;
@@ -586,6 +617,7 @@ function Home({ go, progress, summary }) {
       <div className="home-main">
         <div className="home-col-l">
           <DailyQuizCard go={go} progress={progress} />
+          <DailyRcCard go={go} />
           <BuildTest go={go} />
         </div>
         <div className="home-col-r">

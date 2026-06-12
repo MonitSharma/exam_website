@@ -19,7 +19,7 @@
       "sourceType": "daily",
       "questionCount": 3,
       "durationMinutes": 10,
-      "path": "generated_questions/daily_questions/2026-06-12.json",
+      "path": "daily/daily_questions/2026-06-12.json",
       "isoDate": "2026-06-12",
       "subjects": [
         "Agriculture",
@@ -35,7 +35,7 @@
       "sourceType": "daily",
       "questionCount": 7,
       "durationMinutes": 10,
-      "path": "generated_questions/daily_questions/daily_questions_2026-06-11.json",
+      "path": "daily/daily_questions/daily_questions_2026-06-11.json",
       "isoDate": "2026-06-11",
       "subjects": [
         "International Relations",
@@ -52,7 +52,7 @@
       "sourceType": "daily",
       "questionCount": 7,
       "durationMinutes": 10,
-      "path": "generated_questions/daily_questions/daily_questions_2026-06-10.json",
+      "path": "daily/daily_questions/daily_questions_2026-06-10.json",
       "isoDate": "2026-06-10",
       "subjects": [
         "International Relations",
@@ -115,6 +115,74 @@
       ]
     },
     {
+      "id": "daily_rc_2026_06_12",
+      "label": "Daily RC Drill - 12 Jun 2026",
+      "shortLabel": "RC 12 Jun",
+      "category": "Daily Reading Comprehension",
+      "sourceType": "rc",
+      "questionCount": 4,
+      "durationMinutes": 8,
+      "path": "generated_data/rc_questions/2026-06-12.json",
+      "isoDate": "2026-06-12",
+      "paper": "GS Paper II (CSAT)",
+      "marksPerCorrect": 2,
+      "negativeMark": -0.66,
+      "subjects": [
+        "Reading Comprehension"
+      ]
+    },
+    {
+      "id": "daily_rc_2026_06_10",
+      "label": "Daily RC Drill - 10 Jun 2026",
+      "shortLabel": "RC 10 Jun",
+      "category": "Daily Reading Comprehension",
+      "sourceType": "rc",
+      "questionCount": 4,
+      "durationMinutes": 8,
+      "path": "generated_data/rc_questions/2026-06-10.json",
+      "isoDate": "2026-06-10",
+      "paper": "GS Paper II (CSAT)",
+      "marksPerCorrect": 2,
+      "negativeMark": -0.66,
+      "subjects": [
+        "Reading Comprehension"
+      ]
+    },
+    {
+      "id": "daily_rc_2026_06_09",
+      "label": "Daily RC Drill - 09 Jun 2026",
+      "shortLabel": "RC 09 Jun",
+      "category": "Daily Reading Comprehension",
+      "sourceType": "rc",
+      "questionCount": 4,
+      "durationMinutes": 8,
+      "path": "generated_data/rc_questions/2026-06-09.json",
+      "isoDate": "2026-06-09",
+      "paper": "GS Paper II (CSAT)",
+      "marksPerCorrect": 2,
+      "negativeMark": -0.66,
+      "subjects": [
+        "Reading Comprehension"
+      ]
+    },
+    {
+      "id": "daily_rc_2026_06_08",
+      "label": "Daily RC Drill - 08 Jun 2026",
+      "shortLabel": "RC 08 Jun",
+      "category": "Daily Reading Comprehension",
+      "sourceType": "rc",
+      "questionCount": 4,
+      "durationMinutes": 8,
+      "path": "generated_data/rc_questions/2026-06-08.json",
+      "isoDate": "2026-06-08",
+      "paper": "GS Paper II (CSAT)",
+      "marksPerCorrect": 2,
+      "negativeMark": -0.66,
+      "subjects": [
+        "Reading Comprehension"
+      ]
+    },
+    {
       "id": "pib_questions_2026_06_12",
       "label": "PIB Questions - 12 Jun 2026",
       "shortLabel": "PIB 12 Jun",
@@ -125,9 +193,40 @@
       "path": "generated_data/pib_questions/2026-06-12.json",
       "isoDate": "2026-06-12",
       "subjects": [
+        "Economy",
+        "Science & Technology",
+        "Polity & Governance"
+      ]
+    },
+    {
+      "id": "pib_questions_2026_06_11",
+      "label": "PIB Questions - 11 Jun 2026",
+      "shortLabel": "PIB 11 Jun",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-06-11.json",
+      "isoDate": "2026-06-11",
+      "subjects": [
         "Agriculture",
         "Infrastructure",
         "Polity & Governance"
+      ]
+    },
+    {
+      "id": "weekly_quiz_2026_06_12",
+      "label": "Weekly Recall Quiz - 12 Jun 2026",
+      "shortLabel": "Weekly Quiz 12 Jun",
+      "category": "Weekly Quiz",
+      "sourceType": "weekly-quiz",
+      "questionCount": 20,
+      "durationMinutes": 30,
+      "path": "generated_data/weekly_quiz_questions/2026-06-12.json",
+      "isoDate": "2026-06-12",
+      "subjects": [
+        "Current Affairs",
+        "Polity"
       ]
     },
     {
@@ -380,6 +479,14 @@
   ],
   "noteDocuments": [
     {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-06-12",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "12 Jun 2026",
+      "date": "2026-06-12",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-06-12.md"
+    },
+    {
       "id": "daily-daily-current-affairs-upsc-ca-2026-06-11",
       "cadence": "daily",
       "title": "UPSC Daily CA Briefing",
@@ -442,6 +549,14 @@
       "shortTitle": "PIB - 12 Jun",
       "date": "2026-06-12",
       "path": "daily/daily_pib/PIB_2026-06-12.md"
+    },
+    {
+      "id": "daily-daily-pib-pib-2026-06-11",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 11 Jun",
+      "date": "2026-06-11",
+      "path": "daily/daily_pib/PIB_2026-06-11.md"
     },
     {
       "id": "daily-daily-reading-comprehension-rc-drill-2026-06-12",

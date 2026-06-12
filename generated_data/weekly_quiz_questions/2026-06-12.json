@@ -1,0 +1,622 @@
+[
+  {
+    "id": "weekly_quiz_2026_06_12_1",
+    "question_number": 1,
+    "question": "The President recently raised the Supreme Court's sanctioned strength from 34 to 38. This was done through which constitutional route?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A constitutional amendment under Article 368"
+      },
+      {
+        "key": "b",
+        "text": "An ordinance under Article 123"
+      },
+      {
+        "key": "c",
+        "text": "A simple notification by the Law Ministry"
+      },
+      {
+        "key": "d",
+        "text": "A Collegium resolution"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The strength was raised via the Supreme Court (Number of Judges) Amendment Ordinance, 2026, promulgated under Article 123 (President's ordinance power).",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_06_12_2",
+    "question_number": 2,
+    "question": "Jai Prakash Narayan Bird Sanctuary, declared India's 100th Ramsar Site on World Environment Day 2026, is located in which state?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Bihar"
+      },
+      {
+        "key": "b",
+        "text": "Madhya Pradesh"
+      },
+      {
+        "key": "c",
+        "text": "Uttar Pradesh"
+      },
+      {
+        "key": "d",
+        "text": "Jharkhand"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Jai Prakash Narayan Bird Sanctuary (Surha Tal) is in Ballia district, Uttar Pradesh.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_06_12_3",
+    "question_number": 3,
+    "question": "At its June 2026 meeting, the RBI's Monetary Policy Committee decided to:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Cut the repo rate to 5.00% and shift to 'Accommodative'"
+      },
+      {
+        "key": "b",
+        "text": "Keep the repo rate unchanged at 5.25% with a 'Neutral' stance"
+      },
+      {
+        "key": "c",
+        "text": "Raise the repo rate to 5.75% with a 'Withdrawal of Accommodation' stance"
+      },
+      {
+        "key": "d",
+        "text": "Keep the repo rate unchanged at 6.50% with a 'Neutral' stance"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The MPC kept the repo rate at 5.25% and retained a 'Neutral' stance (decision announced 5 June 2026).",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_06_12_4",
+    "question_number": 4,
+    "question": "Surha Tal, India's newest Ramsar Site, is best described as which type of wetland?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A man-made reservoir behind a gravity dam"
+      },
+      {
+        "key": "b",
+        "text": "A natural oxbow lake formed by the meandering Ganga"
+      },
+      {
+        "key": "c",
+        "text": "A coastal lagoon"
+      },
+      {
+        "key": "d",
+        "text": "A high-altitude glacial lake"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Surha Tal is a natural oxbow lake formed by the meandering course of the Ganga.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_06_12_5",
+    "question_number": 5,
+    "question": "The CCEA in June 2026 approved a Rs 2,533 crore office-and-residential campus (CGGPOA/GPRA) in which upcoming capital city?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Naya Raipur"
+      },
+      {
+        "key": "b",
+        "text": "Amaravati"
+      },
+      {
+        "key": "c",
+        "text": "Gandhinagar"
+      },
+      {
+        "key": "d",
+        "text": "Dholera"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The CCEA approved the Rs 2,533 crore CGGPOA/GPRA campus at Amaravati, Andhra Pradesh's capital.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_06_12_6",
+    "question_number": 6,
+    "question": "Under which scheme did the Ministry of Textiles approve 22 new applicants in its Round-3 in June 2026?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Technology Upgradation Fund Scheme (TUFS)"
+      },
+      {
+        "key": "b",
+        "text": "PM MITRA"
+      },
+      {
+        "key": "c",
+        "text": "Production Linked Incentive (PLI) Scheme for Textiles"
+      },
+      {
+        "key": "d",
+        "text": "Amended Technology Upgradation Fund Scheme (ATUFS)"
+      }
+    ],
+    "answer": "c",
+    "explanation": "22 applicants were cleared under Round-3 of the PLI Scheme for Textiles.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_06_12_7",
+    "question_number": 7,
+    "question": "PM Modi is set to attend the 52nd G7 Summit (June 2026) as a partner-country guest. Where is this summit being hosted?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Hiroshima, Japan"
+      },
+      {
+        "key": "b",
+        "text": "Kananaskis, Canada"
+      },
+      {
+        "key": "c",
+        "text": "Evian, France"
+      },
+      {
+        "key": "d",
+        "text": "Apulia, Italy"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The 52nd G7 Summit (June 2026) is hosted at Evian, France; India attends as a partner country (Modi's 7th consecutive participation).",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_06_12_8",
+    "question_number": 8,
+    "question": "With its 100th Ramsar Site, India now holds which distinction?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Most Ramsar Sites in the world"
+      },
+      {
+        "key": "b",
+        "text": "Most Ramsar Sites in Asia"
+      },
+      {
+        "key": "c",
+        "text": "Most Ramsar Sites among G20 nations only"
+      },
+      {
+        "key": "d",
+        "text": "Largest total Ramsar wetland area in the world"
+      }
+    ],
+    "answer": "b",
+    "explanation": "India now has the most Ramsar Sites in Asia and ranks 3rd globally (after the UK and Mexico).",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_06_12_9",
+    "question_number": 9,
+    "question": "The Supreme Court (Number of Judges) Amendment Ordinance, 2026 amends which parent law?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The Supreme Court (Number of Judges) Act, 1956"
+      },
+      {
+        "key": "b",
+        "text": "The Government of India Act, 1935"
+      },
+      {
+        "key": "c",
+        "text": "The Judges (Inquiry) Act, 1968"
+      },
+      {
+        "key": "d",
+        "text": "The Advocates Act, 1961"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The 2026 Ordinance amends Section 2 of the Supreme Court (Number of Judges) Act, 1956.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_06_12_10",
+    "question_number": 10,
+    "question": "Which satellite was scheduled for an ISRO launch in June 2026 to provide rapid imagery during disasters?",
+    "options": [
+      {
+        "key": "a",
+        "text": "GSAT-24"
+      },
+      {
+        "key": "b",
+        "text": "GISAT-2 (geo-imaging satellite)"
+      },
+      {
+        "key": "c",
+        "text": "NISAR"
+      },
+      {
+        "key": "d",
+        "text": "Aditya-L2"
+      }
+    ],
+    "answer": "b",
+    "explanation": "GISAT-2, a geo-imaging satellite for rapid disaster imagery, was slated for a June 2026 launch.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_06_12_11",
+    "question_number": 11,
+    "question": "In a June 2026 ruling on the Election Commission's powers, the Supreme Court held that the ECI:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Can conduct a Special Intensive Revision and examine citizenship questions, but cannot finally declare a person's citizenship"
+      },
+      {
+        "key": "b",
+        "text": "Has no power to scrutinise voter eligibility"
+      },
+      {
+        "key": "c",
+        "text": "Can strip citizenship from voters found ineligible"
+      },
+      {
+        "key": "d",
+        "text": "Must hand over all electoral-roll revision to the Home Ministry"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The Court held the ECI may conduct Special Intensive Revision and examine citizenship for electoral purposes, but cannot make a final declaration of citizenship.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_06_12_12",
+    "question_number": 12,
+    "question": "The FCRA Amendment Bill, 2026, which sparked debate this week, primarily concerns regulation of:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Foreign direct investment in defence"
+      },
+      {
+        "key": "b",
+        "text": "Foreign contributions/funding received by NGOs and associations"
+      },
+      {
+        "key": "c",
+        "text": "Cryptocurrency exchanges"
+      },
+      {
+        "key": "d",
+        "text": "Foreign portfolio investors in equity markets"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The FCRA Amendment Bill, 2026 deals with regulation/centralised control of foreign contributions and NGO assets. Part B — Polity",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_06_12_13",
+    "question_number": 13,
+    "question": "The President's power to promulgate ordinances when Parliament is not in session is granted by:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Article 109"
+      },
+      {
+        "key": "b",
+        "text": "Article 123"
+      },
+      {
+        "key": "c",
+        "text": "Article 213"
+      },
+      {
+        "key": "d",
+        "text": "Article 356"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Article 123 empowers the President to promulgate ordinances during the recess of Parliament (Article 213 is the Governor's equivalent for states).",
+    "subject": "Polity",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_06_12_14",
+    "question_number": 14,
+    "question": "Who has the authority to fix and alter the number of judges of the Supreme Court of India?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The Chief Justice of India alone"
+      },
+      {
+        "key": "b",
+        "text": "The President by executive order only"
+      },
+      {
+        "key": "c",
+        "text": "Parliament, by law"
+      },
+      {
+        "key": "d",
+        "text": "The Supreme Court Collegium"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Article 124(1) fixes a minimum strength but lets Parliament increase the number of SC judges by law.",
+    "subject": "Polity",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_06_12_15",
+    "question_number": 15,
+    "question": "The \"basic structure\" doctrine — that Parliament cannot amend the Constitution so as to destroy its fundamental framework — was laid down in:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Golaknath case (1967)"
+      },
+      {
+        "key": "b",
+        "text": "Kesavananda Bharati case (1973)"
+      },
+      {
+        "key": "c",
+        "text": "Minerva Mills case (1980)"
+      },
+      {
+        "key": "d",
+        "text": "Maneka Gandhi case (1978)"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The basic structure doctrine was propounded in Kesavananda Bharati v. State of Kerala (1973).",
+    "subject": "Polity",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_06_12_16",
+    "question_number": 16,
+    "question": "The Collegium system for appointing higher-judiciary judges is best described as:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Explicitly created by Article 124A of the Constitution"
+      },
+      {
+        "key": "b",
+        "text": "A statutory body set up under an Act of Parliament"
+      },
+      {
+        "key": "c",
+        "text": "A mechanism evolved through Supreme Court judgments (the \"Three Judges Cases\"), not the original constitutional text"
+      },
+      {
+        "key": "d",
+        "text": "A body established by the National Judicial Appointments Commission Act"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The Collegium is not in the original Constitution; it evolved through the Second and Third Judges Cases. The NJAC (99th Amendment) was struck down in 2015.",
+    "subject": "Polity",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_06_12_17",
+    "question_number": 17,
+    "question": "The writ of *Habeas Corpus* literally means:",
+    "options": [
+      {
+        "key": "a",
+        "text": "\"We command\""
+      },
+      {
+        "key": "b",
+        "text": "\"You may have the body\""
+      },
+      {
+        "key": "c",
+        "text": "\"By what authority\""
+      },
+      {
+        "key": "d",
+        "text": "\"Let it be certified\""
+      }
+    ],
+    "answer": "b",
+    "explanation": "*Habeas Corpus* means \"you may have the body\"; it is issued to produce a detained person before the court.",
+    "subject": "Polity",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_06_12_18",
+    "question_number": 18,
+    "question": "A Money Bill is defined in which Article, and who certifies a Bill as a Money Bill?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Article 110; certified by the Speaker of Lok Sabha"
+      },
+      {
+        "key": "b",
+        "text": "Article 112; certified by the Finance Minister"
+      },
+      {
+        "key": "c",
+        "text": "Article 109; certified by the Rajya Sabha Chairman"
+      },
+      {
+        "key": "d",
+        "text": "Article 117; certified by the President"
+      }
+    ],
+    "answer": "a",
+    "explanation": "A Money Bill is defined in Article 110, and the Speaker of the Lok Sabha certifies it.",
+    "subject": "Polity",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_06_12_19",
+    "question_number": 19,
+    "question": "Provisions relating to disqualification of legislators on grounds of defection are contained in:",
+    "options": [
+      {
+        "key": "a",
+        "text": "The Ninth Schedule"
+      },
+      {
+        "key": "b",
+        "text": "The Tenth Schedule"
+      },
+      {
+        "key": "c",
+        "text": "The Eleventh Schedule"
+      },
+      {
+        "key": "d",
+        "text": "The Twelfth Schedule"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The Tenth Schedule (added by the 52nd Amendment, 1985) contains the anti-defection provisions.",
+    "subject": "Polity",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_06_12_20",
+    "question_number": 20,
+    "question": "After the 44th Constitutional Amendment (1978), the Right to Property is best described as:",
+    "options": [
+      {
+        "key": "a",
+        "text": "A Fundamental Right under Article 19(1)(f)"
+      },
+      {
+        "key": "b",
+        "text": "A Fundamental Right under Article 31"
+      },
+      {
+        "key": "c",
+        "text": "A legal/constitutional right under Article 300A"
+      },
+      {
+        "key": "d",
+        "text": "A Directive Principle of State Policy"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The 44th Amendment removed the Right to Property as a Fundamental Right and made it a constitutional/legal right under Article 300A. Part C — Recall Prompts R1. An ordinance is an executive act with no prior parliamentary debate, so creating new judicial posts (and appointments to them) this way concentrates timing/control in the executive and can be seen as undermining the judiciary's institutional independence and security of tenure until Parliament ratifies it. R2. A wetland qualifies for Ramsar status if it meets internationally agreed criteria of ecological significance (e.g., supporting rare/vulnerable species or large waterbird populations); India's 100th Ramsar Site is the Jai Prakash Narayan Bird Sanctuary (Surha Tal), Ballia, Uttar Pradesh. --- *Scoring guide: 16–20 strong recall · 11–15 revise weak areas · ≤10 re-read this week's CA digest and the Polity chapter. Next week's static subject: Economy.*",
+    "subject": "Polity",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  }
+]
