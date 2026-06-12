@@ -17,14 +17,16 @@
       "shortLabel": "Daily 12 Jun",
       "category": "Daily Questions",
       "sourceType": "daily",
-      "questionCount": 3,
+      "questionCount": 7,
       "durationMinutes": 10,
-      "path": "daily/daily_questions/2026-06-12.json",
+      "path": "daily/daily_questions/daily_questions_2026-06-12.json",
       "isoDate": "2026-06-12",
       "subjects": [
-        "Agriculture",
-        "Infrastructure",
-        "Polity & Governance"
+        "Science & Technology",
+        "Economy",
+        "Environment",
+        "Polity & Governance",
+        "International Relations"
       ]
     },
     {
@@ -111,6 +113,22 @@
         "International Relations",
         "Economy",
         "Science & Technology",
+        "Polity & Governance"
+      ]
+    },
+    {
+      "id": "daily_questions_2026_06_06",
+      "label": "Daily Questions - 06 Jun 2026",
+      "shortLabel": "Daily 06 Jun",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-06-06.json",
+      "isoDate": "2026-06-06",
+      "subjects": [
+        "Agriculture",
+        "Infrastructure",
         "Polity & Governance"
       ]
     },

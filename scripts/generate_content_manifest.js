@@ -340,20 +340,28 @@ function addRawDailyQuestionSets(root, byId) {
   ];
   const seenDates = new Set();
   for (const dir of dirs) {
-    for (const absPath of listTopLevelFiles(dir).filter((item) => item.endsWith(".json"))) {
-    const isoDate = normalizeIsoDate(path.basename(absPath));
-    if (!isoDate) continue;
-    if (seenDates.has(isoDate)) continue;
-    seenDates.add(isoDate);
-    upsertQuestionSet(root, byId, {
-      id: `daily_questions_${dateSlug(isoDate)}`,
-      category: "Daily Questions",
-      sourceType: "daily",
-      isoDate,
-      durationMinutes: 10,
-      path: relPath(root, absPath),
-    });
-  }
+    const files = listTopLevelFiles(dir)
+      .filter((item) => item.endsWith(".json"))
+      .sort((a, b) => {
+        const aNamed = /^daily_questions_\d{4}-\d{2}-\d{2}\.json$/.test(path.basename(a));
+        const bNamed = /^daily_questions_\d{4}-\d{2}-\d{2}\.json$/.test(path.basename(b));
+        if (aNamed !== bNamed) return aNamed ? -1 : 1;
+        return a.localeCompare(b);
+      });
+    for (const absPath of files) {
+      const isoDate = normalizeIsoDate(path.basename(absPath));
+      if (!isoDate) continue;
+      if (seenDates.has(isoDate)) continue;
+      seenDates.add(isoDate);
+      upsertQuestionSet(root, byId, {
+        id: `daily_questions_${dateSlug(isoDate)}`,
+        category: "Daily Questions",
+        sourceType: "daily",
+        isoDate,
+        durationMinutes: 10,
+        path: relPath(root, absPath),
+      });
+    }
   }
 }
 
