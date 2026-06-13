@@ -1,0 +1,50 @@
+[
+  {
+    "question": "Consider the following statements regarding the National SC-ST Hub (NSSH) Scheme, in the news in June 2026:\n1. It is a flagship scheme of the Ministry of Social Justice and Empowerment.\n2. It is implemented by the National Small Industries Corporation (NSIC).\n3. It supports the public procurement target of sourcing at least 4% of annual purchases from SC/ST-owned Micro and Small Enterprises.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statements 2 and 3 are correct. NSSH (launched 2016) is a flagship scheme of the Ministry of MSME - not Social Justice - so statement 1 is wrong. It is implemented by NSIC and supports the Public Procurement Policy target of at least 4% of annual purchases from SC/ST-owned MSEs.",
+    "subject": "Polity & Governance",
+    "theme": "Schemes for vulnerable sections",
+    "micro_topic": "National SC-ST Hub (NSSH) Scheme",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the recent exemption of higher ethanol-blended petrol from central excise duty, consider the following statements:\n1. The exemption covers the E22, E25, E27 and E30 grades of petrol.\n2. The exemption notification was issued by the Ministry of Petroleum and Natural Gas.\n3. E30 petrol consists of 30% ethanol blended with 70% petrol.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statements 1 and 3 are correct. The Ministry of Finance (Department of Revenue) - not the Ministry of Petroleum - issued the notification exempting E22, E25, E27 and E30 from central excise duty (and SAED, RIC and AIDC). E30 = 30% ethanol + 70% petrol. The grades follow BIS standard IS 19850:2026.",
+    "subject": "Economy",
+    "theme": "Biofuels & ethanol blending",
+    "micro_topic": "Excise exemption on E22-E30 ethanol blends",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements regarding DigiLocker, which recently integrated 68 electricity DISCOMs and power departments:\n1. It was launched under the Digital India programme by the Ministry of Electronics and Information Technology (MeitY).\n2. Documents issued through DigiLocker are legally at par with original physical documents.\n3. It is counted as one of the core pillars of India's Digital Public Infrastructure (DPI), alongside Aadhaar and UPI.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. DigiLocker (launched 2015) is run by MeitY under Digital India. Under Rule 9A of the IT (Digital Locker) Rules, 2016, its documents are legally equivalent to originals. It is a core DPI pillar with Aadhaar and UPI, and now hosts authenticated digital electricity bills from 68 DISCOMs across 35 States/UTs.",
+    "subject": "Polity & Governance",
+    "theme": "e-Governance & Digital Public Infrastructure",
+    "micro_topic": "DigiLocker - DISCOM integration",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]

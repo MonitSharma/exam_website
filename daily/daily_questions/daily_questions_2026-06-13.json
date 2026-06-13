@@ -1,0 +1,68 @@
+[
+  {
+    "question": "With reference to the G7 Summit 2026, consider the following statements: 1. The 2026 G7 Summit is being hosted by France. 2. India participates in it as a permanent member of the G7. Which of the statements given above is/are correct?",
+    "options": ["(a) 1 only", "(b) 2 only", "(c) Both 1 and 2", "(d) Neither 1 nor 2"],
+    "answer": "(a)",
+    "explanation": "France hosts the 2026 G7 Summit (Evian); India attends only as an outreach/invitee country, not a member, so statement 2 is wrong.",
+    "subject": "GS2 IR",
+    "theme": "Multilateral groupings",
+    "micro_topic": "G7 Summit 2026 and India as invitee",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The Foreign Contribution (Regulation) Amendment Bill, 2026 proposes which of the following? 1. A 'Designated Authority' empowered to take provisional control of foreign-funded assets of NGOs whose registration is cancelled. 2. Crediting the proceeds from disposal of permanently vested assets to the Consolidated Fund of India. 3. Reducing the maximum imprisonment for contravention of the Act from five years to one year. Select the correct answer using the code below:",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(d)",
+    "explanation": "The Bill creates a Designated Authority that vests NGO foreign-funded assets, credits disposal proceeds to the Consolidated Fund of India, and cuts the maximum jail term from 5 years to 1 year - all three are proposed.",
+    "subject": "GS2 Polity & Governance",
+    "theme": "Regulation of NGOs / FCRA",
+    "micro_topic": "FCRA Amendment Bill 2026 provisions",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements regarding ethanol blending in India: 1. India achieved 20% ethanol blending (E20) in petrol in 2025, ahead of its original 2030 target. 2. The 20% target was advanced to Ethanol Supply Year 2025-26 under the National Policy on Biofuels (as amended in 2022). Which of the statements given above is/are correct?",
+    "options": ["(a) 1 only", "(b) 2 only", "(c) Both 1 and 2", "(d) Neither 1 nor 2"],
+    "answer": "(c)",
+    "explanation": "India achieved E20 in 2025 (~5 years early); the 2030 target was advanced to ESY 2025-26 via the 2022 amendment to the National Policy on Biofuels, 2018.",
+    "subject": "GS3 Economy",
+    "theme": "Energy security / Biofuels",
+    "micro_topic": "Ethanol Blended Petrol (E20) milestone",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Supreme Court's June 2026 judgment recognising homemakers as 'nation builders' and fixing a Rs 30,000 monthly notional income was delivered in the context of:",
+    "options": ["(a) Compensation for loss of domestic care services in motor-accident claims", "(b) Maintenance to a separated spouse under the Hindu Marriage Act, 1955", "(c) Reservation of seats for women in urban local bodies", "(d) Maternity benefits under the Code on Social Security, 2020"],
+    "answer": "(a)",
+    "explanation": "The Court fixed Rs 30,000/month notional income as a separate head of compensation under the motor-accident compensation framework (Motor Vehicles Act, 1988).",
+    "subject": "GS1 Society",
+    "theme": "Women & unpaid care work",
+    "micro_topic": "SC homemakers 'nation builders' judgment 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to biofuels in India, consider the following statements: 1. First-generation (1G) bioethanol is produced from sources such as sugarcane molasses and food grains. 2. Second-generation (2G) ethanol is produced from agricultural residues and other lignocellulosic biomass. 3. The National Policy on Biofuels, 2018 categorises biofuels to enable extension of appropriate financial and fiscal incentives. Which of the statements given above is/are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(d)",
+    "explanation": "1G ethanol = molasses/food grains; 2G ethanol = lignocellulosic residues; the 2018 Policy classifies biofuels (1G/2G/3G) to target incentives. All three are correct.",
+    "subject": "GS3 Sci-Tech / Economy",
+    "theme": "Biofuels",
+    "micro_topic": "Generations of biofuels & National Policy on Biofuels 2018",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Which one of the following is NOT a member of the G7?",
+    "options": ["(a) Canada", "(b) Italy", "(c) Japan", "(d) Australia"],
+    "answer": "(d)",
+    "explanation": "The G7 comprises the USA, UK, France, Germany, Italy, Canada and Japan (plus the EU). Australia is not a member.",
+    "subject": "GS2 IR",
+    "theme": "International groupings",
+    "micro_topic": "G7 membership",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  }
+]

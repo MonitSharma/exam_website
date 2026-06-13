@@ -485,6 +485,20 @@ function addWeeklyQuizQuestionSets(root, byId) {
       path: rel,
     });
   }
+  for (const absPath of listTopLevelFiles(dir).filter((item) => /^weekly_questions_\d{4}-\d{2}-\d{2}\.json$/.test(path.basename(item)))) {
+    const isoDate = normalizeIsoDate(path.basename(absPath));
+    if (!isoDate) continue;
+    const count = jsonRows(absPath).length;
+    if (!count) continue;
+    upsertQuestionSet(root, byId, {
+      id: `weekly_quiz_${dateSlug(isoDate)}`,
+      category: "Weekly Quiz",
+      sourceType: "weekly-quiz",
+      isoDate,
+      durationMinutes: defaultDuration("weekly-quiz", "", count),
+      path: relPath(root, absPath),
+    });
+  }
 }
 
 function addWeeklyNewsQuestionSets(root, byId) {

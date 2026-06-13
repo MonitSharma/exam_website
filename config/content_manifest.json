@@ -12,6 +12,24 @@
   ],
   "questionSets": [
     {
+      "id": "daily_questions_2026_06_13",
+      "label": "Daily Questions - 13 Jun 2026",
+      "shortLabel": "Daily 13 Jun",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 6,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-06-13.json",
+      "isoDate": "2026-06-13",
+      "subjects": [
+        "GS2 IR",
+        "GS2 Polity & Governance",
+        "GS3 Economy",
+        "GS1 Society",
+        "GS3 Sci-Tech / Economy"
+      ]
+    },
+    {
       "id": "daily_questions_2026_06_12",
       "label": "Daily Questions - 12 Jun 2026",
       "shortLabel": "Daily 12 Jun",
@@ -201,6 +219,21 @@
       ]
     },
     {
+      "id": "pib_questions_2026_06_13",
+      "label": "PIB Questions - 13 Jun 2026",
+      "shortLabel": "PIB 13 Jun",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-06-13.json",
+      "isoDate": "2026-06-13",
+      "subjects": [
+        "Polity & Governance",
+        "Economy"
+      ]
+    },
+    {
       "id": "pib_questions_2026_06_12",
       "label": "PIB Questions - 12 Jun 2026",
       "shortLabel": "PIB 12 Jun",
@@ -244,6 +277,24 @@
       "isoDate": "2026-06-13",
       "subjects": [
         "Geography"
+      ]
+    },
+    {
+      "id": "weekly_quiz_2026_06_14",
+      "label": "Weekly Recall Quiz - 14 Jun 2026",
+      "shortLabel": "Weekly Quiz 14 Jun",
+      "category": "Weekly Quiz",
+      "sourceType": "weekly-quiz",
+      "questionCount": 15,
+      "durationMinutes": 25,
+      "path": "weekly/weekly_quiz/weekly_questions_2026-06-14.json",
+      "isoDate": "2026-06-14",
+      "subjects": [
+        "Economy",
+        "Environment",
+        "Governance",
+        "Science & Technology",
+        "Polity"
       ]
     },
     {
@@ -511,6 +562,14 @@
   ],
   "noteDocuments": [
     {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-06-13",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "13 Jun 2026",
+      "date": "2026-06-13",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-06-13.md"
+    },
+    {
       "id": "daily-daily-current-affairs-upsc-ca-2026-06-12",
       "cadence": "daily",
       "title": "UPSC Daily CA Briefing",
@@ -575,6 +634,14 @@
       "path": "weekly/Physics/Physics_Drill_2026-06-10.md"
     },
     {
+      "id": "daily-daily-pib-pib-2026-06-13",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 13 Jun",
+      "date": "2026-06-13",
+      "path": "daily/daily_pib/PIB_2026-06-13.md"
+    },
+    {
       "id": "daily-daily-pib-pib-2026-06-12",
       "cadence": "pib",
       "title": "Daily PIB Briefing",
@@ -637,6 +704,14 @@
       "shortTitle": "Paper 2",
       "date": "",
       "path": "CSAT_Strategy_Guide.md"
+    },
+    {
+      "id": "weekly-sunday-sunday-sweep-2026-06-14",
+      "cadence": "sunday",
+      "title": "Sunday Sweep",
+      "shortTitle": "Week of 14 Jun",
+      "date": "2026-06-14",
+      "path": "weekly/Sunday/Sunday_Sweep_2026-06-14.md"
     },
     {
       "id": "weekly-sunday-sunday-sweep-2026-06-07",

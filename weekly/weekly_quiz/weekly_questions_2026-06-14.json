@@ -1,0 +1,167 @@
+[
+  {
+    "question": "In its June 2026 review, the RBI's Monetary Policy Committee:",
+    "options": ["(a) cut the repo rate by 50 bps and turned accommodative", "(b) kept the repo rate unchanged at 5.25% with a neutral stance", "(c) raised the repo rate to 6.5% citing inflation", "(d) set the SDF rate above the repo rate"],
+    "answer": "(b)",
+    "explanation": "The June 2026 MPC held the repo rate at 5.25% with a neutral stance; FY27 CPI was projected at ~5.1% and GDP growth at ~6.6% (Governor Sanjay Malhotra).",
+    "subject": "Economy",
+    "theme": "Monetary Policy",
+    "micro_topic": "RBI MPC June 2026 decision",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The Jai Prakash Narayan Bird Sanctuary (Surha Tal), designated India's 100th Ramsar site in June 2026, lies in which state?",
+    "options": ["(a) Bihar", "(b) Uttar Pradesh", "(c) West Bengal", "(d) Assam"],
+    "answer": "(b)",
+    "explanation": "Surha Tal in Ballia district, Uttar Pradesh — a ~3,400 ha freshwater wetland in the Ganga basin — became India's 100th Ramsar site on 5 June 2026.",
+    "subject": "Environment",
+    "theme": "Wetlands / Ramsar Convention",
+    "micro_topic": "100th Ramsar site",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Under the Jal Jeevan Mission, rural household tap-water coverage as of June 2026 had reached approximately:",
+    "options": ["(a) 50%", "(b) 65%", "(c) 82%", "(d) 95%"],
+    "answer": "(c)",
+    "explanation": "JJM coverage reached about 81.94% (~15.86 crore households) by June 2026, up from roughly 17% in 2019.",
+    "subject": "Governance",
+    "theme": "Welfare Schemes",
+    "micro_topic": "Jal Jeevan Mission coverage",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Union Cabinet's Mission for Cotton Productivity primarily aims to:",
+    "options": ["(a) double cotton MSP over five years", "(b) raise cotton lint productivity to ~755 kg/ha by 2031 with a Rs 5,659 crore outlay", "(c) ban cotton exports to stabilise domestic prices", "(d) create a national cotton futures exchange"],
+    "answer": "(b)",
+    "explanation": "The Mission (Rs 5,659 crore, 2026-27 to 2030-31) targets raising cotton lint productivity from 441 to about 755 kg per hectare by 2031.",
+    "subject": "Economy",
+    "theme": "Agriculture",
+    "micro_topic": "Mission for Cotton Productivity",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to UPI, consider the following statements: 1. It processed over 2,200 crore transactions worth ~Rs 29.5 lakh crore in March 2026. 2. It is live in eight countries outside India. Which is/are correct?",
+    "options": ["(a) 1 only", "(b) 2 only", "(c) Both 1 and 2", "(d) Neither 1 nor 2"],
+    "answer": "(c)",
+    "explanation": "Both are correct: UPI processed ~2,264 crore transactions worth ~Rs 29.53 lakh crore in March 2026 and is operational in eight foreign countries.",
+    "subject": "Science & Technology",
+    "theme": "Digital Payments / DPI",
+    "micro_topic": "UPI internationalisation",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The recent debate over raising the Supreme Court's sanctioned strength from 34 to 38 centred on the use of:",
+    "options": ["(a) a Presidential reference under Article 143", "(b) an Ordinance under Article 123", "(c) a Constitutional Amendment under Article 368", "(d) a Finance Bill under Article 110"],
+    "answer": "(b)",
+    "explanation": "The strength was raised via an Article 123 Ordinance (Parliament not in session); the controversy is over using the ordinance route instead of amending the Supreme Court (Number of Judges) Act.",
+    "subject": "Polity",
+    "theme": "Judiciary / Executive law-making",
+    "micro_topic": "Article 123 ordinance & SC strength",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The theme of World Environment Day 2026 (5 June) was:",
+    "options": ["(a) Beat Plastic Pollution", "(b) Only One Earth", "(c) Inspired by Nature: For Climate. For Our Future", "(d) Restore Our Earth"],
+    "answer": "(c)",
+    "explanation": "World Environment Day 2026 was observed on 5 June under the theme 'Inspired by Nature: For Climate. For Our Future.'",
+    "subject": "Environment",
+    "theme": "Environment Day",
+    "micro_topic": "WED 2026 theme",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which legislation first introduced a federal scheme with provincial autonomy and is a major source of the Indian Constitution?",
+    "options": ["(a) Indian Councils Act, 1909", "(b) Government of India Act, 1919", "(c) Government of India Act, 1935", "(d) Indian Independence Act, 1947"],
+    "answer": "(c)",
+    "explanation": "The Government of India Act, 1935 introduced an all-India federation and provincial autonomy, and is a principal source of the Constitution.",
+    "subject": "Polity",
+    "theme": "Historical Background",
+    "micro_topic": "Government of India Act 1935",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Regulating Act of 1773: 1. created the office of Governor-General of Bengal. 2. established the Supreme Court at Calcutta. 3. for the first time gave Indians the right to vote. Which are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(a)",
+    "explanation": "The Regulating Act 1773 created the Governor-General of Bengal (Warren Hastings) and provided for a Supreme Court at Calcutta (1774). It granted no voting rights, so statement 3 is false.",
+    "subject": "Polity",
+    "theme": "Historical Background",
+    "micro_topic": "Regulating Act 1773",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Match the borrowed feature with its source: 1. Fundamental Rights — USA; 2. Directive Principles — Ireland; 3. Parliamentary system — UK. Which are correctly matched?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(d)",
+    "explanation": "All three are correctly matched: Fundamental Rights from the USA, Directive Principles from Ireland, and the parliamentary system from the UK.",
+    "subject": "Polity",
+    "theme": "Salient Features / Sources of the Constitution",
+    "micro_topic": "Borrowed features",
+    "nature": "Conceptual",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is the correct chronological order of the arrival/establishment of European trading companies in India?",
+    "options": ["(a) Portuguese -> English -> Dutch -> French", "(b) Portuguese -> Dutch -> English -> French", "(c) Dutch -> Portuguese -> French -> English", "(d) English -> Portuguese -> Dutch -> French"],
+    "answer": "(b)",
+    "explanation": "By establishment of factories in India: Portuguese (c.1505), Dutch (1605), English (1613), French (1668) — hence Portuguese -> Dutch -> English -> French.",
+    "subject": "Modern History",
+    "theme": "Advent of Europeans",
+    "micro_topic": "Chronology of European companies",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Battle of Buxar (1764) is considered more decisive than the Battle of Plassey because:",
+    "options": ["(a) it ended Portuguese power in India", "(b) it secured for the English the Diwani of Bengal, Bihar and Odisha (Treaty of Allahabad, 1765)", "(c) it marked the first use of artillery in India", "(d) it established the Permanent Settlement"],
+    "answer": "(b)",
+    "explanation": "Victory at Buxar led to the Treaty of Allahabad (1765), granting the English the Diwani (revenue rights) of Bengal, Bihar and Odisha — legal-political control, making it more decisive than Plassey.",
+    "subject": "Modern History",
+    "theme": "Conquest of Bengal",
+    "micro_topic": "Battle of Buxar / Treaty of Allahabad",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Regarding seismic waves: 1. P-waves are longitudinal and travel through solids, liquids and gases. 2. S-waves cannot travel through the liquid outer core. Which is/are correct?",
+    "options": ["(a) 1 only", "(b) 2 only", "(c) Both 1 and 2", "(d) Neither 1 nor 2"],
+    "answer": "(c)",
+    "explanation": "Both are correct. P-waves (longitudinal) pass through all media; S-waves (transverse) cannot pass through the liquid outer core, producing the seismic shadow zone.",
+    "subject": "Geography",
+    "theme": "Interior of the Earth",
+    "micro_topic": "Seismic waves & shadow zone",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to plate tectonics and continental drift: 1. The concept of sea-floor spreading was given by Harry Hess. 2. Alfred Wegener proposed that all continents were once a single landmass (Pangaea). Which is/are correct?",
+    "options": ["(a) 1 only", "(b) 2 only", "(c) Both 1 and 2", "(d) Neither 1 nor 2"],
+    "answer": "(c)",
+    "explanation": "Both are correct: Harry Hess proposed sea-floor spreading, and Alfred Wegener's continental drift theory held that the continents once formed a single landmass, Pangaea.",
+    "subject": "Geography",
+    "theme": "Plate Tectonics",
+    "micro_topic": "Continental drift & sea-floor spreading",
+    "nature": "Conceptual",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The New Economic Policy of 1991 (LPG reforms) included which of the following? 1. Devaluation of the rupee. 2. Abolition of industrial licensing for most industries. 3. Reduction of peak customs duties.",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(d)",
+    "explanation": "All three were part of the 1991 reforms: the rupee was devalued, industrial licensing was abolished for most industries, and peak customs duties were progressively cut.",
+    "subject": "Economy",
+    "theme": "Economic Reforms",
+    "micro_topic": "LPG reforms 1991",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  }
+]
