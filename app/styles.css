@@ -285,6 +285,7 @@ ol, ul { margin: 0; }
 .bank-card.tone-indigo { --tone: var(--indigo); } .bank-card.tone-indigo .bank-icon { background: #ECEFF9; color: var(--indigo); }
 .bank-card.tone-rose { --tone: var(--rose); } .bank-card.tone-rose .bank-icon { background: #F8E8ED; color: var(--rose); }
 .bank-card.tone-blue { --tone: var(--blue); } .bank-card.tone-blue .bank-icon { background: #E6EFF9; color: var(--blue); }
+.bank-card.tone-teal { --tone: var(--teal); } .bank-card.tone-teal .bank-icon { background: #E4F4F1; color: var(--teal); }
 
 .set-picker { margin-top: 14px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); padding: 18px; }
 .set-picker-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; margin-bottom: 14px; }
@@ -407,6 +408,7 @@ body[data-qfont="serif"] .stem-tail { font-size: 18px; }
 .practice-type.tone-indigo { --tone: var(--indigo); }
 .practice-type.tone-rose { --tone: var(--rose); }
 .practice-type.tone-blue { --tone: var(--blue); }
+.practice-type.tone-teal { --tone: var(--teal); }
 
 .stem-passage { margin-bottom: 22px; padding: 18px 20px; border-left: 4px solid var(--blue); background: color-mix(in srgb, var(--blue) 7%, var(--surface)); border-radius: var(--radius-sm); font-size: 16px; line-height: 1.72; color: var(--ink); }
 .practice-type-icon { display: inline-grid; place-items: center; width: 38px; height: 38px; border-radius: 10px; background: color-mix(in srgb, var(--tone) 13%, #fff); color: var(--tone); }

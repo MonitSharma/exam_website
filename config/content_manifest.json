@@ -233,6 +233,20 @@
       ]
     },
     {
+      "id": "weekly_news_2026_06_13",
+      "label": "Weekly Places in News - 13 Jun 2026",
+      "shortLabel": "News 13 Jun",
+      "category": "Weekly News",
+      "sourceType": "weekly-news",
+      "questionCount": 5,
+      "durationMinutes": 8,
+      "path": "generated_data/weekly_news_questions/2026-06-13.json",
+      "isoDate": "2026-06-13",
+      "subjects": [
+        "Geography"
+      ]
+    },
+    {
       "id": "weekly_quiz_2026_06_12",
       "label": "Weekly Recall Quiz - 12 Jun 2026",
       "shortLabel": "Weekly Quiz 12 Jun",
@@ -647,6 +661,14 @@
       "shortTitle": "PYQ - 08 Jun",
       "date": "2026-06-08",
       "path": "weekly/CSAT/CSAT_PYQ_2026-06-08.md"
+    },
+    {
+      "id": "weekly-weekly-news-places-in-news-2026-06-13",
+      "cadence": "weekly-news",
+      "title": "Places in News",
+      "shortTitle": "Map - 13 Jun",
+      "date": "2026-06-13",
+      "path": "weekly/weekly_news/Places_in_News_2026-06-13.md"
     }
   ]
 }

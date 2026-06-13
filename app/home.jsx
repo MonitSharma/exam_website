@@ -246,6 +246,7 @@ function BankBrowse({ go }) {
     { id: "csat", icon: "target", title: "CSAT Practice", desc: "Paper II mocks and drills", count: setCountLabel("csat", "set", "sets"), tone: "blue", sourceType: "csat" },
     { id: "daily", icon: "flame", title: "Daily Quizzes", desc: "Current-affairs, every day", count: ds.dailyQuiz?.isToday ? "New today" : setCountLabel("daily", "set", "sets"), tone: "rose", sourceType: "daily" },
     { id: "rc", icon: "book", title: "Daily RC", desc: "Timed CSAT passages", count: ds.dailyRc?.isToday ? "New today" : setCountLabel("rc", "set", "sets"), tone: "blue", sourceType: "rc" },
+    { id: "weekly-news", icon: "map", title: "Weekly News", desc: "Places in news map drills", count: setCountLabel("weekly-news", "set", "sets"), tone: "teal", sourceType: "weekly-news" },
     { id: "weekly-quiz", icon: "layers", title: "Weekly Quiz", desc: "CA + static recall", count: setCountLabel("weekly-quiz", "set", "sets"), tone: "indigo", sourceType: "weekly-quiz" },
     { id: "pib", icon: "fileText", title: "PIB Questions", desc: "PIB-based daily practice", count: setCountLabel("pib", "set", "sets"), tone: "green", sourceType: "pib" },
   ];
@@ -313,6 +314,7 @@ function NotesLibrary() {
     ["weekly-csat", "CSAT"],
     ["physics", "Physics"],
     ["editorials", "Editorials"],
+    ["weekly-news", "Weekly News"],
     ["weekly", "Weekly"],
     ["monthly", "Monthly"],
     ["strategy", "Strategy"],

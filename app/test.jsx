@@ -113,8 +113,8 @@ function TestScreen({ go, session, onSubmit }) {
   const questionSet = loadState.questionSet || initialQuestionSet || ds.getQuestionSetById(ds.defaultQuestionSetId);
   const q = qs[idx];
   const answeredCount = Object.values(answers).filter(Boolean).length;
-  const sourceLabel = { daily: "Daily", rc: "Daily RC", "weekly-quiz": "Weekly Quiz", ai: "AI Generated", pyq: "Previous Year", csr: "CSR Mock", csat: "CSAT" };
-  const sourceTone = { daily: "rose", rc: "blue", "weekly-quiz": "indigo", ai: "saffron", pyq: "green", csr: "indigo", csat: "blue" };
+  const sourceLabel = { daily: "Daily", rc: "Daily RC", "weekly-news": "Weekly News", "weekly-quiz": "Weekly Quiz", ai: "AI Generated", pyq: "Previous Year", csr: "CSR Mock", csat: "CSAT" };
+  const sourceTone = { daily: "rose", rc: "blue", "weekly-news": "teal", "weekly-quiz": "indigo", ai: "saffron", pyq: "green", csr: "indigo", csat: "blue" };
   const fmt = (s) => `${String(Math.floor(s / 3600)).padStart(2, "0")}:${String(Math.floor((s % 3600) / 60)).padStart(2, "0")}:${String(s % 60).padStart(2, "0")}`;
 
   function exitTarget() {

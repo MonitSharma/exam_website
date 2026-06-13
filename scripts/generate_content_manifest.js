@@ -127,6 +127,20 @@ function parseMdQuestions(questionText) {
   }).filter((item) => item.number && item.stem && item.options.length);
 }
 
+function parseInlineOptions(line) {
+  const text = String(line || "").trim();
+  const matches = [...text.matchAll(/(?:^|\s)([a-dA-D])\)\s*/g)];
+  if (matches.length < 2) return [];
+  return matches.map((match, index) => {
+    const start = match.index + match[0].length;
+    const end = index + 1 < matches.length ? matches[index + 1].index : text.length;
+    return {
+      key: match[1].toLowerCase(),
+      text: cleanMarkdownInline(text.slice(start, end)),
+    };
+  }).filter((option) => option.key && option.text);
+}
+
 function parseMdAnswerMap(answerText) {
   const answers = new Map();
   const matches = [...String(answerText || "").matchAll(/^\s*(?:\*\*)?(?:Q)?(\d+)(?:\.|\s*[—-])\s*(?:\(([a-dA-D])\)|\*\*([A-Da-d])\*\*|([A-Da-d]))(?:\.\*\*|\*\*)?[\s.:—-]*([^\n]+(?:\n(?!\s*(?:\*\*)?(?:Q)?\d+(?:\.|\s*[—-])\s*(?:\([a-dA-D]\)|\*\*[A-Da-d]\*\*|[A-Da-d])).*)*)/gm)];
@@ -194,6 +208,32 @@ function parseWeeklyQuizMarkdown(absPath, isoDate) {
   });
 }
 
+function parseWeeklyNewsMarkdown(absPath, isoDate) {
+  const text = readText(absPath);
+  const questionSection = splitMarkdownSection(text, "Quick map MCQs");
+  const answerSection = text.match(/^#{3}\s+Answer key\s*\n([\s\S]*?)(?=^##\s+|^---+|(?![\s\S]))/im)?.[1] || "";
+  const answers = parseMdAnswerMap(answerSection);
+  const matches = [...questionSection.matchAll(/^\*\*Q?(\d+)\.\*\*\s*([^\n]+)\n([^\n]+)/gm)];
+  return matches.map((match) => {
+    const number = Number(match[1]);
+    const answer = answers.get(number) || {};
+    return {
+      id: `weekly_news_${dateSlug(isoDate)}_${number}`,
+      question_number: number,
+      question: cleanMarkdownInline(match[2]),
+      options: parseInlineOptions(match[3]),
+      answer: answer.answer,
+      explanation: answer.explanation || "Explanation not available.",
+      subject: "Geography",
+      theme: "Places in News",
+      micro_topic: "Map-based current affairs",
+      nature: "Current Affairs",
+      difficulty: "Easy",
+      source_type: "weekly-news",
+    };
+  }).filter((item) => item.question && item.options.length);
+}
+
 function inferIdFromProcessedName(name) {
   const base = name.replace(/_processed\.json$/, "");
   const pyq = base.match(/^upsc_(\d{4})$/);
@@ -208,6 +248,7 @@ function inferSourceType(raw) {
   if (/^\d{4}$/.test(id) || category.includes("previous") || filePath.includes("/upsc_")) return "pyq";
   if (id.startsWith("daily_questions") || category.includes("daily")) return "daily";
   if (id.startsWith("daily_rc") || category.includes("reading comprehension") || filePath.includes("/rc_questions/")) return "rc";
+  if (id.startsWith("weekly_news") || category.includes("weekly news") || filePath.includes("/weekly_news_questions/")) return "weekly-news";
   if (id.startsWith("weekly_quiz") || category.includes("weekly quiz") || filePath.includes("/weekly_quiz_questions/")) return "weekly-quiz";
   if (id.startsWith("pib_questions") || category.includes("pib") || filePath.includes("/pib_questions/")) return "pib";
   if (id.startsWith("csat_") || category.includes("csat")) return "csat";
@@ -220,6 +261,7 @@ function inferCategory(sourceType, id, count) {
   if (sourceType === "pyq") return "Previous Year Questions";
   if (sourceType === "daily") return "Daily Questions";
   if (sourceType === "rc") return "Daily Reading Comprehension";
+  if (sourceType === "weekly-news") return "Weekly News";
   if (sourceType === "weekly-quiz") return "Weekly Quiz";
   if (sourceType === "pib") return "PIB Questions";
   if (sourceType === "csat") return id.includes("full_mock") || count >= 75 ? "CSAT Full Mock" : "CSAT Practice";
@@ -230,6 +272,7 @@ function inferCategory(sourceType, id, count) {
 function defaultDuration(sourceType, id, count) {
   if (sourceType === "daily") return 10;
   if (sourceType === "rc") return Math.max(8, Math.round(count * 2));
+  if (sourceType === "weekly-news") return Math.max(8, Math.round(count * 1.5));
   if (sourceType === "weekly-quiz") return Math.max(25, Math.round(count * 1.5));
   if (sourceType === "pib") return 10;
   if (sourceType === "csat") return id.includes("full_mock") || count >= 75 ? 120 : Math.max(20, Math.round(count * 1.6));
@@ -242,6 +285,7 @@ function labelForQuestionSet(sourceType, id, isoDate, count) {
   if (sourceType === "pyq") return `${id} PYQ`;
   if (sourceType === "daily") return `Daily Questions - ${dateLabel}`;
   if (sourceType === "rc") return `Daily RC Drill - ${dateLabel}`;
+  if (sourceType === "weekly-news") return `Weekly Places in News - ${dateLabel}`;
   if (sourceType === "weekly-quiz") return `Weekly Recall Quiz - ${dateLabel}`;
   if (sourceType === "pib") return `PIB Questions - ${dateLabel}`;
   if (sourceType === "csat") return `${id.includes("full_mock") || count >= 75 ? "CSAT Full Mock" : "CSAT Practice"} - ${dateLabel}`;
@@ -258,6 +302,7 @@ function shortLabelForQuestionSet(sourceType, id, isoDate, count) {
   if (sourceType === "pyq") return id;
   if (sourceType === "daily") return `Daily ${shortDate}`;
   if (sourceType === "rc") return `RC ${shortDate}`;
+  if (sourceType === "weekly-news") return `News ${shortDate}`;
   if (sourceType === "weekly-quiz") return `Weekly Quiz ${shortDate}`;
   if (sourceType === "pib") return `PIB ${shortDate}`;
   if (sourceType === "csat") return `${id.includes("full_mock") || count >= 75 ? "CSAT Mock" : "CSAT Practice"} ${shortDate}`;
@@ -442,8 +487,27 @@ function addWeeklyQuizQuestionSets(root, byId) {
   }
 }
 
+function addWeeklyNewsQuestionSets(root, byId) {
+  const dir = path.join(root, "weekly", "weekly_news");
+  for (const absPath of listTopLevelFiles(dir).filter((item) => /^Places_in_News_\d{4}-\d{2}-\d{2}\.md$/.test(path.basename(item)))) {
+    const isoDate = normalizeIsoDate(path.basename(absPath));
+    if (!isoDate) continue;
+    const rows = parseWeeklyNewsMarkdown(absPath, isoDate);
+    if (!rows.length) continue;
+    const rel = writeDerivedQuestions(root, path.join("generated_data", "weekly_news_questions", `${isoDate}.json`), rows);
+    upsertQuestionSet(root, byId, {
+      id: `weekly_news_${dateSlug(isoDate)}`,
+      category: "Weekly News",
+      sourceType: "weekly-news",
+      isoDate,
+      durationMinutes: defaultDuration("weekly-news", "", rows.length),
+      path: rel,
+    });
+  }
+}
+
 function sortQuestionSets(items) {
-  const rank = { daily: 0, rc: 1, pib: 2, "weekly-quiz": 3, csat: 4, pyq: 5, ai: 6, csr: 7 };
+  const rank = { daily: 0, rc: 1, pib: 2, "weekly-news": 3, "weekly-quiz": 4, csat: 5, pyq: 6, ai: 7, csr: 8 };
   return [...items].sort((a, b) => {
     if (a.sourceType !== b.sourceType) return (rank[a.sourceType] ?? 9) - (rank[b.sourceType] ?? 9);
     if (a.isoDate || b.isoDate) return String(b.isoDate || "").localeCompare(String(a.isoDate || ""));
@@ -517,6 +581,12 @@ function buildNoteDocuments(root = DEFAULT_ROOT) {
     docs.push(note(root, absPath, "editorials", "Editorials to Mains", `Mains - ${formatDate(isoDate, { day: "2-digit", month: "short" })}`, isoDate));
   }
 
+  const weeklyNewsDir = path.join(root, "weekly", "weekly_news");
+  for (const absPath of listTopLevelFiles(weeklyNewsDir).filter((item) => /^Places_in_News_\d{4}-\d{2}-\d{2}\.md$/.test(path.basename(item)))) {
+    const isoDate = normalizeIsoDate(absPath);
+    docs.push(note(root, absPath, "weekly-news", "Places in News", `Map - ${formatDate(isoDate, { day: "2-digit", month: "short" })}`, isoDate));
+  }
+
   const legacyWeeklyDir = path.join(root, "weekly");
   for (const absPath of listTopLevelFiles(legacyWeeklyDir).filter((item) => item.endsWith(".md"))) {
     const isoDate = normalizeIsoDate(absPath);
@@ -561,6 +631,7 @@ function buildQuestionSets(root = DEFAULT_ROOT) {
   addRawPibQuestionSets(root, byId);
   addRawCsatQuestionSets(root, byId);
   addDailyRcQuestionSets(root, byId);
+  addWeeklyNewsQuestionSets(root, byId);
   addWeeklyQuizQuestionSets(root, byId);
   return sortQuestionSets([...byId.values()]);
 }

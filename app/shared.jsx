@@ -23,6 +23,7 @@ function Icon({ name, size = 20, stroke = 1.6, style }) {
     flag: <><path d="M5 21V4" /><path d="M5 4h11l-2 4 2 4H5" /></>,
     grid: <><rect x="3" y="3" width="7" height="7" rx="1" /><rect x="14" y="3" width="7" height="7" rx="1" /><rect x="3" y="14" width="7" height="7" rx="1" /><rect x="14" y="14" width="7" height="7" rx="1" /></>,
     calendar: <><rect x="3" y="4.5" width="18" height="16" rx="2" /><path d="M3 9h18M8 3v3M16 3v3" /></>,
+    map: <><path d="M9 18 4 20V6l5-2 6 2 5-2v14l-5 2z" /><path d="M9 4v14M15 6v14" /></>,
     target: <><circle cx="12" cy="12" r="8" /><circle cx="12" cy="12" r="4" /><circle cx="12" cy="12" r="0.6" fill="currentColor" /></>,
     trophy: <><path d="M7 4h10v4a5 5 0 0 1-10 0z" /><path d="M7 6H4v1a3 3 0 0 0 3 3M17 6h3v1a3 3 0 0 1-3 3" /><path d="M9 16h6M10 20h4M12 13v3" /></>,
     layers: <><path d="m12 3 9 5-9 5-9-5z" /><path d="m3 13 9 5 9-5" /></>,

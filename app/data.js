@@ -68,6 +68,7 @@
     if (set.sourceType) return set.sourceType;
     if (/^\d{4}$/.test(id) || category.includes("previous")) return "pyq";
     if (category.includes("reading comprehension") || id.startsWith("daily_rc")) return "rc";
+    if (category.includes("weekly news") || id.startsWith("weekly_news")) return "weekly-news";
     if (category.includes("weekly quiz") || id.startsWith("weekly_quiz")) return "weekly-quiz";
     if (category.includes("daily") || id.startsWith("daily_questions")) return "daily";
     if (category.includes("pib") || id.startsWith("pib_questions")) return "pib";
@@ -101,7 +102,7 @@
   }
 
   function sortQuestionSets(sets) {
-    const rank = { daily: 0, rc: 1, pib: 2, "weekly-quiz": 3, csat: 4, pyq: 5, ai: 6, csr: 7 };
+    const rank = { daily: 0, rc: 1, pib: 2, "weekly-news": 3, "weekly-quiz": 4, csat: 5, pyq: 6, ai: 7, csr: 8 };
     return [...sets].sort((a, b) => {
       if (a.sourceType !== b.sourceType) return (rank[a.sourceType] ?? 9) - (rank[b.sourceType] ?? 9);
       if (a.isoDate || b.isoDate) return String(b.isoDate || "").localeCompare(String(a.isoDate || ""));
@@ -317,6 +318,7 @@
     const raw = `${row.source_type || ""} ${questionSet.category || ""}`.toLowerCase();
     if (questionSet.sourceType === "csat" || raw.includes("csat")) return "csat";
     if (questionSet.sourceType === "rc" || raw.includes("rc")) return "rc";
+    if (questionSet.sourceType === "weekly-news" || raw.includes("weekly-news")) return "weekly-news";
     if (questionSet.sourceType === "weekly-quiz" || raw.includes("weekly-quiz")) return "weekly-quiz";
     if (questionSet.sourceType === "daily" || raw.includes("daily")) return "daily";
     if (questionSet.sourceType === "pib" || raw.includes("pib")) return "pib";

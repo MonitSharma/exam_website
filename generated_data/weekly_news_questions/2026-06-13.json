@@ -1,0 +1,157 @@
+[
+  {
+    "id": "weekly_news_2026_06_13_1",
+    "question_number": 1,
+    "question": "The Strait of Hormuz connects the Persian Gulf to which water body?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Red Sea"
+      },
+      {
+        "key": "b",
+        "text": "Gulf of Oman"
+      },
+      {
+        "key": "c",
+        "text": "Gulf of Aden"
+      },
+      {
+        "key": "d",
+        "text": "Caspian Sea"
+      }
+    ],
+    "answer": "b",
+    "explanation": "(Gulf of Oman → onward to the Arabian Sea)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_06_13_2",
+    "question_number": 2,
+    "question": "India's 100th Ramsar site, Surha Tal, lies in which state?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Bihar"
+      },
+      {
+        "key": "b",
+        "text": "Madhya Pradesh"
+      },
+      {
+        "key": "c",
+        "text": "Uttar Pradesh"
+      },
+      {
+        "key": "d",
+        "text": "West Bengal"
+      }
+    ],
+    "answer": "c",
+    "explanation": "(Uttar Pradesh, Ballia district)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_06_13_3",
+    "question_number": 3,
+    "question": "The Bab-el-Mandeb strait separates the Arabian Peninsula from which landmass?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Indian subcontinent"
+      },
+      {
+        "key": "b",
+        "text": "Horn of Africa"
+      },
+      {
+        "key": "c",
+        "text": "Anatolia"
+      },
+      {
+        "key": "d",
+        "text": "Balkans"
+      }
+    ],
+    "answer": "b",
+    "explanation": "(Horn of Africa, across from Yemen)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_06_13_4",
+    "question_number": 4,
+    "question": "Évian, host of the 2026 G7 Summit, sits on the shore of which lake?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Lake Constance"
+      },
+      {
+        "key": "b",
+        "text": "Lake Geneva"
+      },
+      {
+        "key": "c",
+        "text": "Lake Como"
+      },
+      {
+        "key": "d",
+        "text": "Lake Annecy"
+      }
+    ],
+    "answer": "b",
+    "explanation": "(Lake Geneva / Lac Léman)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_06_13_5",
+    "question_number": 5,
+    "question": "Kaziranga National Park lies on the bank of which river?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Barak"
+      },
+      {
+        "key": "b",
+        "text": "Teesta"
+      },
+      {
+        "key": "c",
+        "text": "Brahmaputra"
+      },
+      {
+        "key": "d",
+        "text": "Subansiri"
+      }
+    ],
+    "answer": "c",
+    "explanation": "(Brahmaputra, south bank)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  }
+]
