@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the recent (June 2026) DRDO flight tests, consider the following statements:\n1. They validated the Phase-II multi-layered Ballistic Missile Defence (BMD) system of India.\n2. The tests included the maiden flight test of the Naval Anti-Ship Missile - Medium Range (NASM-MR).\n3. The target missile was launched from Sriharikota in Andhra Pradesh.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Statements 1 and 2 are correct. DRDO's three flight tests on 10-11 June 2026 validated India's Phase-II multi-layered Ballistic Missile Defence (BMD) and included the maiden flight test of the Naval Anti-Ship Missile - Medium Range (NASM-MR). Statement 3 is wrong: the target missile was launched from LC-IV, Dhamra (Odisha), not Sriharikota. The success places India among the select group of nations with operational-level BMD capability.",
+    "subject": "Science & Technology",
+    "theme": "Defence indigenisation & missile defence",
+    "micro_topic": "DRDO BMD Phase-II / NASM-MR flight tests",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The 'Indore Declaration', seen in the news in June 2026, was adopted at which one of the following?",
+    "options": [
+      "(a) G20 Agriculture Working Group meeting",
+      "(b) 15th BRICS Agriculture Ministers' Meeting",
+      "(c) SCO Council of Heads of Government",
+      "(d) Quad Food Security Dialogue"
+    ],
+    "answer": "(b)",
+    "explanation": "The farmer-centric 'Indore Declaration' was adopted at the 15th BRICS Agriculture Ministers' Meeting held at Indore (Madhya Pradesh) on 13 June 2026 under India's 2026 BRICS Presidency, chaired by Union Agriculture Minister Shivraj Singh Chouhan. It focuses on food security, farmer welfare, climate-resilient agriculture and digital farming, and upgrades the BRICS Agricultural Research Platform into a 'Knowledge-to-Action Hub'.",
+    "subject": "International Relations",
+    "theme": "BRICS & multilateral groupings",
+    "micro_topic": "15th BRICS Agriculture Ministers' Meeting / Indore Declaration",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the Sangeet Natak Akademi, in the news in June 2026, consider the following statements:\n1. It functions under the Union Ministry of Culture.\n2. Its highest honour, the Fellowship, is designated as 'Akademi Ratna'.\n3. It confers the Ustad Bismillah Khan Yuva Puraskar on young artists.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. The Sangeet Natak Akademi - India's National Academy of Music, Dance and Drama - functions under the Ministry of Culture. Its Fellowship (Akademi Ratna) is the most prestigious honour it bestows, and it also confers the Ustad Bismillah Khan Yuva Puraskar on artists under 40. In June 2026 it elected 7 Fellows and announced 108 Akademi Awards (Akademi Puraskar) for 2024 and 2025, to be conferred by President Droupadi Murmu.",
+    "subject": "Art & Culture",
+    "theme": "Cultural institutions & honours",
+    "micro_topic": "Sangeet Natak Akademi Fellowships & Awards",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]

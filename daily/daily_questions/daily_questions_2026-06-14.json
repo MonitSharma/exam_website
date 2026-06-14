@@ -1,0 +1,79 @@
+[
+  {
+    "question": "With reference to the 52nd G7 Summit (June 2026), consider the following statements: 1. France held the G7 presidency for 2026 and hosted the summit at Evian-les-Bains. 2. India attended as a partner/outreach country, not as a member of the G7. 3. The G7 comprises eight member countries, the European Union being one of them. Which of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(a)",
+    "explanation": "France hosts the 2026 G7 at Evian; India attends as an invitee/partner, not a member. Statement 3 is wrong - the G7 has seven member countries; the EU participates as a 'non-enumerated member', not as one of the seven.",
+    "subject": "International Relations",
+    "theme": "Plurilateral groupings",
+    "micro_topic": "G7 Summit 2026 and India's outreach participation",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The 'AD-1' and 'AD-2' interceptors, recently in the news, are associated with which one of the following?",
+    "options": ["(a) India's Phase-II Ballistic Missile Defence programme", "(b) India's anti-satellite (ASAT) weapon programme", "(c) A new class of submarine-launched ballistic missiles", "(d) India's reusable launch vehicle programme"],
+    "answer": "(a)",
+    "explanation": "AD-1 (and the upcoming AD-2) are long-range interceptors under DRDO's Phase-II Ballistic Missile Defence programme, tested 10-11 June 2026 at Chandipur.",
+    "subject": "Science & Technology",
+    "theme": "Defence technology",
+    "micro_topic": "DRDO multi-layered Ballistic Missile Defence (AD-1/AD-2)",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to India's retail inflation data for May 2026, consider the following statements: 1. CPI-based retail inflation stayed below the upper tolerance band of the RBI's inflation target. 2. Under the Flexible Inflation Targeting framework, the target is 4% with a tolerance band of plus or minus 2%. Which of the statements given above is/are correct?",
+    "options": ["(a) 1 only", "(b) 2 only", "(c) Both 1 and 2", "(d) Neither 1 nor 2"],
+    "answer": "(c)",
+    "explanation": "May 2026 CPI of 3.93% is below the 6% upper tolerance band; the FIT framework mandates 4% plus or minus 2% (i.e., 2% to 6%). Both statements are correct.",
+    "subject": "Economy",
+    "theme": "Monetary policy and inflation",
+    "micro_topic": "May 2026 CPI print and Flexible Inflation Targeting",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "India's social protection coverage, highlighted at the 114th International Labour Conference (2026), was reported to have reached approximately:",
+    "options": ["(a) 24% of the population", "(b) 44% of the population", "(c) 64% of the population", "(d) 84% of the population"],
+    "answer": "(c)",
+    "explanation": "India reported social protection coverage of 64.3% (about 94 crore people), up from 19% in 2015 - the second highest globally by beneficiary count.",
+    "subject": "Governance",
+    "theme": "Social security and labour",
+    "micro_topic": "ILO 114th ILC - India's social protection coverage",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Lantana camara, frequently mentioned in the context of India's forests and tiger habitats, is best described as:",
+    "options": ["(a) An endangered medicinal herb endemic to the Western Ghats", "(b) An invasive alien plant species that degrades native habitats", "(c) A keystone grass species that supports herbivore populations", "(d) A fungal disease affecting sal and teak forests"],
+    "answer": "(b)",
+    "explanation": "Lantana camara is an invasive alien plant that out-competes native grasses, depletes herbivore prey, and intensifies human-tiger conflict.",
+    "subject": "Environment",
+    "theme": "Biodiversity and invasive species",
+    "micro_topic": "Lantana camara and human-wildlife conflict",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the Kunming-Montreal Global Biodiversity Framework (KMGBF), consider the following statements: 1. It was adopted at the 15th Conference of Parties (COP15) to the Convention on Biological Diversity. 2. It aims to protect 30% of the world's land and oceans by 2030. 3. It is a legally binding treaty on all member countries. Which of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(a)",
+    "explanation": "KMGBF was adopted at CBD COP15 (Montreal, Dec 2022) and sets the '30x30' target. It is not legally binding - progress is tracked through national biodiversity plans and reports.",
+    "subject": "Environment",
+    "theme": "International environmental frameworks",
+    "micro_topic": "Kunming-Montreal Global Biodiversity Framework / CBD",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Monetary Policy Committee (MPC) of India, consider the following statements: 1. It consists of six members, including the RBI Governor as ex-officio Chairperson. 2. The inflation target it must maintain is set by the Reserve Bank of India independently of the Government. Which of the statements given above is/are correct?",
+    "options": ["(a) 1 only", "(b) 2 only", "(c) Both 1 and 2", "(d) Neither 1 nor 2"],
+    "answer": "(a)",
+    "explanation": "The MPC has six members with the RBI Governor as ex-officio Chairperson. The inflation target is set by the Government of India in consultation with the RBI (every five years), not by the RBI alone, so statement 2 is wrong.",
+    "subject": "Economy",
+    "theme": "Monetary policy institutions",
+    "micro_topic": "MPC composition and inflation-targeting mandate",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  }
+]
