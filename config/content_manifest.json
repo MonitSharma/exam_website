@@ -313,6 +313,23 @@
       ]
     },
     {
+      "id": "csat_practice_2026_06_14",
+      "label": "CSAT Practice - 14 Jun 2026",
+      "shortLabel": "CSAT Practice 14 Jun",
+      "category": "CSAT Practice",
+      "sourceType": "csat",
+      "questionCount": 25,
+      "durationMinutes": 40,
+      "path": "generated_data/csat_questions/2026-06-14.json",
+      "isoDate": "2026-06-14",
+      "paper": "GS Paper II (CSAT)",
+      "marksPerCorrect": 2,
+      "negativeMark": -0.66,
+      "subjects": [
+        "CSAT"
+      ]
+    },
+    {
       "id": "csat_practice_2026_06_09",
       "label": "CSAT Practice · Jun 09, 2026",
       "shortLabel": "CSAT Practice Jun 09",
@@ -688,6 +705,14 @@
       "shortTitle": "RC - 08 Jun",
       "date": "2026-06-08",
       "path": "daily/daily_reading_comprehension/RC_Drill_2026-06-08.md"
+    },
+    {
+      "id": "weekly-schemes-schemes-reports-2026-06-14",
+      "cadence": "schemes",
+      "title": "Schemes & Reports",
+      "shortTitle": "Reports - 14 Jun",
+      "date": "2026-06-14",
+      "path": "weekly/Schemes/Schemes_Reports_2026-06-14.md"
     },
     {
       "id": "generated-questions-csat-mocks-readme-csat-full-mock-2026-06-08",

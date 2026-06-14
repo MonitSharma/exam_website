@@ -428,6 +428,7 @@ function addRawPibQuestionSets(root, byId) {
 
 function addRawCsatQuestionSets(root, byId) {
   const sources = [
+    path.join(root, "generated_data", "csat_questions"),
     path.join(root, "generated_questions", "csat_questions"),
     path.join(root, "generated_questions", "csat_mocks"),
   ];
@@ -593,6 +594,12 @@ function buildNoteDocuments(root = DEFAULT_ROOT) {
   for (const absPath of listTopLevelFiles(editorialsDir).filter((item) => /^Editorials_Mains_\d{4}-\d{2}-\d{2}\.md$/.test(path.basename(item)))) {
     const isoDate = normalizeIsoDate(absPath);
     docs.push(note(root, absPath, "editorials", "Editorials to Mains", `Mains - ${formatDate(isoDate, { day: "2-digit", month: "short" })}`, isoDate));
+  }
+
+  const schemesDir = path.join(root, "weekly", "Schemes");
+  for (const absPath of listTopLevelFiles(schemesDir).filter((item) => /^Schemes_Reports_\d{4}-\d{2}-\d{2}\.md$/.test(path.basename(item)))) {
+    const isoDate = normalizeIsoDate(absPath);
+    docs.push(note(root, absPath, "schemes", "Schemes & Reports", `Reports - ${formatDate(isoDate, { day: "2-digit", month: "short" })}`, isoDate));
   }
 
   const weeklyNewsDir = path.join(root, "weekly", "weekly_news");

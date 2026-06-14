@@ -314,6 +314,7 @@ function NotesLibrary() {
     ["weekly-csat", "CSAT"],
     ["physics", "Physics"],
     ["editorials", "Editorials"],
+    ["schemes", "Schemes"],
     ["weekly-news", "Weekly News"],
     ["weekly", "Weekly"],
     ["monthly", "Monthly"],
