@@ -679,6 +679,23 @@
       ]
     },
     {
+      "id": "ai_generated_batch_5",
+      "label": "AI Generated Questions - Batch 5",
+      "shortLabel": "AI Batch 5",
+      "category": "AI Generated Practice",
+      "sourceType": "ai",
+      "questionCount": 100,
+      "durationMinutes": 120,
+      "path": "generated_questions/ai_generated_questions/batch_5.json",
+      "subjects": [
+        "Economy",
+        "Polity",
+        "Governance",
+        "Science & Technology",
+        "Environment"
+      ]
+    },
+    {
       "id": "csr_batch_1",
       "label": "CSR Monthly Mock · Batch 1",
       "shortLabel": "CSR Batch 1",
@@ -776,6 +793,22 @@
       "shortTitle": "Mains - 11 Jun",
       "date": "2026-06-11",
       "path": "weekly/Editorials/Editorials_Mains_2026-06-11.md"
+    },
+    {
+      "id": "weekly-physics-physics-optional-paper-i-2026-06-15",
+      "cadence": "physics",
+      "title": "UPSC Physics Optional Paper I",
+      "shortTitle": "Paper I - 15 Jun",
+      "date": "2026-06-15",
+      "path": "weekly/Physics/Physics_Optional_Paper_I_2026-06-15.md"
+    },
+    {
+      "id": "weekly-physics-physics-optional-paper-ii-2026-06-15",
+      "cadence": "physics",
+      "title": "UPSC Physics Optional Paper II",
+      "shortTitle": "Paper II - 15 Jun",
+      "date": "2026-06-15",
+      "path": "weekly/Physics/Physics_Optional_Paper_II_2026-06-15.md"
     },
     {
       "id": "weekly-physics-physics-drill-2026-06-10",

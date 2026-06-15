@@ -606,6 +606,11 @@ function buildNoteDocuments(root = DEFAULT_ROOT) {
     const isoDate = normalizeIsoDate(absPath);
     docs.push(note(root, absPath, "physics", "Physics Optional Drill", formatDate(isoDate, { day: "2-digit", month: "short" }), isoDate));
   }
+  for (const absPath of listTopLevelFiles(physicsDir).filter((item) => /^Physics_Optional_Paper_(I|II)_\d{4}-\d{2}-\d{2}\.md$/.test(path.basename(item)))) {
+    const isoDate = normalizeIsoDate(absPath);
+    const paper = path.basename(absPath).match(/^Physics_Optional_Paper_(I|II)_/)?.[1] || "";
+    docs.push(note(root, absPath, "physics", `UPSC Physics Optional Paper ${paper}`, `Paper ${paper} - ${formatDate(isoDate, { day: "2-digit", month: "short" })}`, isoDate));
+  }
 
   const editorialsDir = path.join(root, "weekly", "Editorials");
   for (const absPath of listTopLevelFiles(editorialsDir).filter((item) => /^Editorials_Mains_\d{4}-\d{2}-\d{2}\.md$/.test(path.basename(item)))) {

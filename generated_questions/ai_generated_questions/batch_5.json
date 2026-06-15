@@ -1,0 +1,1702 @@
+[
+  {
+    "id": 235,
+    "question": "With reference to the Competition (Amendment) Act, 2023, consider the following statements:\n1. It introduced 'deal value thresholds' requiring notification of acquisitions valued above Rs 2,000 crore where the target has substantial business operations in India.\n2. It expanded cartel liability to include 'hub and spoke' arrangements, making non-competing entities that facilitate a cartel liable.\n3. A 'leniency plus' mechanism was introduced, allowing a party already under investigation for one cartel to receive additional leniency by disclosing another cartel.\n4. Settlement and commitment mechanisms introduced by the Act are available for cartel cases as well as abuse of dominance cases.",
+    "options": [
+      "(a) 2, 3 and 4 only",
+      "(b) 1, 3 and 4 only",
+      "(c) 1, 2 and 4 only",
+      "(d) 1, 2 and 3 only"
+    ],
+    "subject": "Economy",
+    "theme": "Competition Law",
+    "micro_topic": "Competition Amendment Act 2023",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "Statement 1 is correct: deal value threshold of Rs 2,000 crore with substantial business operations in India test was introduced. Statement 2 is correct: hub-and-spoke cartel liability now explicitly covers facilitating non-competitors. Statement 3 is correct: the leniency plus mechanism rewards whistleblowing on a second cartel. Statement 4 is incorrect: settlement and commitment mechanisms apply to vertical restraints and abuse of dominance cases — they are specifically excluded for cartel cases (which are covered by the leniency regime instead)."
+  },
+  {
+    "id": 236,
+    "question": "Consider the following statements on India's current account and balance of payments:\n1. The current account comprises trade in goods, trade in services, primary income and secondary income.\n2. India consistently runs a surplus in services trade, primarily from software and IT-enabled services exports.\n3. Remittances from Indians working abroad form part of the current account under secondary income.\n4. A current account surplus means the country is a net lender to the rest of the world.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 2 and 3 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "Economy",
+    "theme": "External Sector",
+    "micro_topic": "Balance of Payments",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "All four are correct. The current account has four components: goods, services, primary income (investment income) and secondary income (transfers including remittances). India has a persistent services surplus, driven by IT/ITES. Remittances are indeed secondary income. A current account surplus means the country exports more than it imports in total income terms, making it a net creditor/lender."
+  },
+  {
+    "id": 237,
+    "question": "With reference to the National Infrastructure Pipeline and PM Gati Shakti, consider the following statements:\n1. PM Gati Shakti is a digital GIS-based masterplan integrating geospatial data of multiple ministries for coordinated infrastructure planning.\n2. The National Infrastructure Pipeline targeted investment of about Rs 100 lakh crore over five years.\n3. PM Gati Shakti is hosted by the Department for Promotion of Industry and Internal Trade.\n4. PM Gati Shakti replaced the NIP entirely and made it redundant.",
+    "options": [
+      "(a) 1, 2 and 4 only",
+      "(b) 1, 3 and 4 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 2 and 3 only"
+    ],
+    "subject": "Economy",
+    "theme": "Infrastructure",
+    "micro_topic": "Gati Shakti and NIP",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: PM Gati Shakti is an execution and coordination tool that complements the NIP — it did not replace it."
+  },
+  {
+    "id": 238,
+    "question": "Consider the following statements on the RBI's monetary policy framework:\n1. The inflation target is currently set at 4% with a tolerance band of +/- 2 percentage points.\n2. The MPC is deemed to have failed if average CPI inflation breaches the tolerance band for three consecutive quarters.\n3. The MPC has six members: three from the RBI and three appointed by the Central Government.\n4. The MPC decisions are taken by a simple majority, with the Governor having a casting vote in the event of a tie.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 2 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "Economy",
+    "theme": "Money and Banking",
+    "micro_topic": "Monetary Policy Framework",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "All four are correct. The 4% +/- 2% target is the current framework. Failure is defined as breach for three consecutive quarters. The MPC has six members split equally between RBI and Government nominees. Decisions are by majority vote with the Governor's casting vote as tiebreaker."
+  },
+  {
+    "id": 239,
+    "question": "With reference to India's Insolvency Resolution framework, consider the following statements:\n1. The Insolvency and Bankruptcy Code covers individuals and partnership firms in addition to companies.\n2. The Personal Insolvency Resolution Process for individuals can be initiated only by creditors, not by the debtor themselves.\n3. The National Company Law Tribunal adjudicates corporate insolvency while the Debt Recovery Tribunal handles individual/partnership insolvency.\n4. The IBC provides for a Fast-Track Insolvency Resolution Process for smaller companies with stricter timelines.",
+    "options": [
+      "(a) 2, 3 and 4 only",
+      "(b) 1, 2 and 3 only",
+      "(c) 1, 2 and 4 only",
+      "(d) 1, 3 and 4 only"
+    ],
+    "subject": "Economy",
+    "theme": "Financial Sector",
+    "micro_topic": "IBC Personal Insolvency",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "Statement 1 is correct: the IBC covers companies, LLPs, individuals and partnership firms. Statement 2 is incorrect: both debtors and creditors can initiate the personal insolvency resolution process. Statement 3 is correct: the NCLT handles corporates; the DRT handles individuals and partnerships. Statement 4 is correct: the IBC provides a Fast-Track CIRP for smaller/simpler cases with a 90-day (extendable by 45 days) timeline."
+  },
+  {
+    "id": 240,
+    "question": "Consider the following statements on Priority Sector Lending (PSL) in India:\n1. Banks are required to lend at least 40% of their Adjusted Net Bank Credit to priority sectors.\n2. Agriculture, MSMEs, education, housing, export credit and renewable energy are among the recognised priority sectors.\n3. If banks fall short of their PSL targets, they must contribute to the Rural Infrastructure Development Fund maintained by NABARD.\n4. Foreign banks with more than 20 branches in India are required to meet the same PSL targets as domestic scheduled commercial banks.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 1, 2, 3 and 4",
+      "(c) 1, 2 and 3 only",
+      "(d) 2, 3 and 4 only"
+    ],
+    "subject": "Economy",
+    "theme": "Banking",
+    "micro_topic": "Priority Sector Lending",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(c)",
+    "explanation": "Statement 1 is correct: the PSL target is 40% of ANBC. Statement 2 is correct: all listed categories are recognised PSL sectors. Statement 3 is correct: shortfalls go into RIDF with NABARD or similar funds. Statement 4 is incorrect: foreign banks with 20 or more branches face the same 40% overall target, but banks with fewer than 20 branches have a different sub-target structure."
+  },
+  {
+    "id": 241,
+    "question": "With reference to the Non-Performing Assets (NPA) resolution ecosystem in India, consider the following statements:\n1. The National Asset Reconstruction Company Limited (NARCL) acquires stressed assets from banks against cash and security receipts.\n2. The security receipts issued by NARCL are guaranteed by the Central Government.\n3. Asset Reconstruction Companies are regulated by SEBI.\n4. Under the Prudential Framework of the RBI, lenders must implement a resolution plan within 30 days of a borrower being classified as a stressed asset.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 4 only"
+    ],
+    "subject": "Economy",
+    "theme": "Banking",
+    "micro_topic": "NPA Resolution and NARCL",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(b)",
+    "explanation": "Statement 1 is correct: NARCL buys stressed loans paying 15% cash and 85% government-backed security receipts. Statement 2 is correct: the SRs carry a Central Government guarantee. Statement 3 is incorrect: ARCs are regulated by the Reserve Bank of India, not SEBI. Statement 4 is incorrect: the RBI's prudential framework requires resolution within 30 days of default being identified under ICA (inter-creditor agreement) framework, but the specific trigger and window differ from as described."
+  },
+  {
+    "id": 242,
+    "question": "Consider the following statements about Special Economic Zones in India:\n1. SEZs are established under the Special Economic Zones Act, 2005.\n2. Units in SEZs are treated as being outside India's customs territory for trading operations.\n3. SEZ developers and units are eligible for income tax exemptions under the Income Tax Act.\n4. The setting up of SEZs in India requires prior approval of the Board of Approval chaired by the Commerce Secretary.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 2 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "Economy",
+    "theme": "Trade Policy",
+    "micro_topic": "Special Economic Zones",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(d)",
+    "explanation": "All four are correct. SEZs operate under the SEZ Act, 2005. They are deemed outside the DTA (domestic tariff area) for customs purposes. Tax incentives exist under the IT Act (though phased down). And the Board of Approval chaired by the Commerce Secretary must approve SEZ proposals."
+  },
+  {
+    "id": 243,
+    "question": "Consider the following statements on the Unified Payments Interface ecosystem:\n1. UPI enables real-time inter-bank fund transfers using mobile phones.\n2. UPI is operated by the National Payments Corporation of India.\n3. UPI transactions can currently be performed only through smartphones and not through feature phones.\n4. India's UPI has been linked with payment systems in Singapore, UAE, France and Bhutan, among others.",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 1, 3 and 4 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 2 and 4 only"
+    ],
+    "subject": "Economy",
+    "theme": "Digital Economy",
+    "micro_topic": "UPI and Digital Payments",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(d)",
+    "explanation": "Statements 1, 2 and 4 are correct. Statement 3 is incorrect: UPI 123PAY enables feature-phone users to perform UPI transactions without internet access or a smartphone."
+  },
+  {
+    "id": 244,
+    "question": "With reference to the concept of 'Open Network for Digital Commerce' (ONDC), consider the following statements:\n1. ONDC is an initiative to create an open, interoperable digital commerce network so that any buyer app can transact with any seller app.\n2. It is conceptualised on the lines of UPI in payments — decentralising e-commerce from platform-centric models.\n3. ONDC is a mandatory government e-commerce platform that all sellers must use.\n4. It is governed by a Section 8 (not-for-profit) company under the Department for Promotion of Industry and Internal Trade.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 2 and 3 only",
+      "(d) 1, 2 and 4 only"
+    ],
+    "subject": "Economy",
+    "theme": "Digital Economy",
+    "micro_topic": "ONDC Digital Commerce",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "Statements 1, 2 and 4 are correct. Statement 3 is incorrect: ONDC is not a mandatory government platform; it is an open protocol/network that sellers can voluntarily join, designed to democratise e-commerce access."
+  },
+  {
+    "id": 245,
+    "question": "Consider the following statements on the Pradhan Mantri Awas Yojana (Urban):\n1. It aims to provide housing for all urban households by the target year of 2022, extended to 2024.\n2. It covers four verticals: in-situ slum redevelopment, credit-linked subsidy, affordable housing in partnership, and beneficiary-led construction.\n3. The Credit Linked Subsidy Scheme provides interest subsidy on home loans for eligible beneficiaries.\n4. It targets only Economically Weaker Section and Low Income Group categories.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 1, 2 and 4 only",
+      "(c) 1, 2 and 3 only",
+      "(d) 2, 3 and 4 only"
+    ],
+    "subject": "Economy",
+    "theme": "Welfare Schemes",
+    "micro_topic": "PMAY Urban",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(c)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: PMAY-U's CLSS component extended to Middle Income Group as well (MIG-I and MIG-II), not only EWS and LIG."
+  },
+  {
+    "id": 246,
+    "question": "Consider the following statements about the India Stack digital infrastructure:\n1. India Stack refers to a set of open APIs built on top of government digital infrastructure, enabling identity verification, payments and data sharing.\n2. Aadhaar, eKYC, DigiLocker and UPI are components that form part of the India Stack ecosystem.\n3. India Stack is a proprietary platform owned and licensed exclusively by the UIDAI.\n4. India Stack has been recognised internationally and influenced digital public infrastructure efforts in other countries.",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 1, 2 and 4 only"
+    ],
+    "subject": "Economy",
+    "theme": "Digital Economy",
+    "micro_topic": "India Stack Digital Infrastructure",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "Statements 1, 2 and 4 are correct. Statement 3 is incorrect: India Stack is an open API stack — it is not a proprietary platform owned exclusively by UIDAI. Multiple components are managed by different entities and the APIs are publicly available."
+  },
+  {
+    "id": 247,
+    "question": "With reference to India's merchandise exports, consider the following statements:\n1. Petroleum products are among India's top export items, making India a significant re-exporter of refined products.\n2. Engineering goods and chemicals form major export categories.\n3. India's merchandise exports crossed USD 500 billion for the first time in FY 2022–23.\n4. The Merchandise Exports from India Scheme (MEIS) is currently the primary export incentive scheme for Indian exporters.",
+    "options": [
+      "(a) 1, 2 and 4 only",
+      "(b) 1, 2 and 3 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 2, 3 and 4 only"
+    ],
+    "subject": "Economy",
+    "theme": "External Sector",
+    "micro_topic": "India Merchandise Exports",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(b)",
+    "explanation": "Statement 1 is correct: petroleum products are a major Indian export category. Statement 2 is correct: engineering goods and chemicals are top categories. Statement 3 is correct: India first crossed USD 400 billion in FY 2021-22 and approached USD 450 billion in FY 2022-23 (with some estimates touching ~USD 450 billion). Statement 4 is incorrect: MEIS was replaced by the RoDTEP (Remission of Duties and Taxes on Exported Products) scheme in January 2021."
+  },
+  {
+    "id": 248,
+    "question": "Consider the following statements about the Goods and Services Tax compensation to States:\n1. States were guaranteed a 14% annual growth in GST revenue for five years from the date of GST implementation.\n2. The compensation cess was levied on luxury and demerit goods to fund this guarantee.\n3. The compensation period ended in June 2022 and was not extended.\n4. The Central Government borrowed on behalf of States to meet compensation shortfalls during the COVID-19 period.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 2 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "Economy",
+    "theme": "Taxation",
+    "micro_topic": "GST Compensation to States",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "All four are correct. The guarantee was 14% annual growth for five years. The cess funded it. The period ended in June 2022 without formal extension (though cess continued for loan repayment). The Centre borrowed and passed funds to States to fill shortfalls during COVID."
+  },
+  {
+    "id": 249,
+    "question": "With reference to the Atal Pension Yojana (APY), consider the following statements:\n1. It is a government-backed pension scheme primarily targeting workers in the unorganised sector.\n2. It is regulated and administered by the Pension Fund Regulatory and Development Authority.\n3. It guarantees a fixed monthly pension ranging from Rs 1,000 to Rs 5,000 per month after age 60.\n4. Income taxpayers are eligible to subscribe to the APY.",
+    "options": [
+      "(a) 2, 3 and 4 only",
+      "(b) 1, 3 and 4 only",
+      "(c) 1, 2 and 4 only",
+      "(d) 1, 2 and 3 only"
+    ],
+    "subject": "Economy",
+    "theme": "Social Security",
+    "micro_topic": "Atal Pension Yojana",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(d)",
+    "explanation": "Statement 1 is correct: APY targets unorganised sector workers. Statement 2 is correct: PFRDA administers it. Statement 3 is correct: it provides guaranteed pensions of Rs 1,000, 2,000, 3,000, 4,000 or 5,000 per month. Statement 4 is incorrect: since October 2022, income taxpayers are NOT eligible to subscribe to APY."
+  },
+  {
+    "id": 250,
+    "question": "Consider the following statements about Minimum Support Price (MSP):\n1. MSP is announced by the Central Government on the recommendation of the Commission for Agricultural Costs and Prices.\n2. Procurement at MSP is carried out by the Food Corporation of India and state agencies.\n3. MSP is guaranteed by statute for all 23 crops for which it is announced.\n4. The Shanta Kumar Committee (2015) recommended reforming the FCI's operations including targeted procurement.",
+    "options": [
+      "(a) 2, 3 and 4 only",
+      "(b) 1, 2, 3 and 4",
+      "(c) 1, 2 and 4 only",
+      "(d) 1, 3 and 4 only"
+    ],
+    "subject": "Economy",
+    "theme": "Agriculture",
+    "micro_topic": "MSP and Procurement",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(c)",
+    "explanation": "Statements 1, 2 and 4 are correct. Statement 3 is incorrect: there is NO statutory guarantee for procurement at MSP for all announced crops; it remains an administrative price. Only wheat and rice are procured at scale; for others, MSP serves as a benchmark without mandatory procurement."
+  },
+  {
+    "id": 251,
+    "question": "Consider the following statements on India's Foreign Direct Investment policy:\n1. FDI in most sectors enters India through the automatic route without prior government approval.\n2. The defence sector currently permits up to 74% FDI under the automatic route.\n3. FDI in multi-brand retail trading requires government approval.\n4. An FDI-linked performance condition (such as minimum capitalisation) is sometimes attached to sectors under the government route.",
+    "options": [
+      "(a) 1, 2 and 4 only",
+      "(b) 1, 3 and 4 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "Economy",
+    "theme": "External Sector",
+    "micro_topic": "FDI Policy India",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "All four are correct. Most sectors have automatic-route FDI. Defence allows 74% automatic and 100% with government approval. Multi-brand retail requires government approval. Sectors under the government route often have conditions like minimum capitalisation requirements."
+  },
+  {
+    "id": 252,
+    "question": "With reference to the WTO's Agreement on Agriculture, consider the following statements:\n1. It classifies agricultural subsidies into 'boxes' based on their trade-distorting potential.\n2. The Amber Box contains the most trade-distorting subsidies and is subject to reduction commitments.\n3. Green Box subsidies are decoupled from production and face no reduction commitments.\n4. India's public stockholding for food security subsidies have been a persistent source of disagreement at WTO negotiations.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 2 and 3 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "Economy",
+    "theme": "External Sector",
+    "micro_topic": "WTO Agreement on Agriculture",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "All four are correct. The box classification (Amber, Blue, Green, and sometimes Special Safeguard) separates subsidies by distortion level. Amber Box subsidies (AMS) face reduction. Green Box subsidies are decoupled and exempt. India's public stockholding food subsidies clash with WTO Amber Box limits and have been a long-standing flashpoint in negotiations."
+  },
+  {
+    "id": 253,
+    "question": "Consider the following statements on the Agricultural Infrastructure Fund:\n1. It was launched to provide medium to long-term debt financing for agricultural post-harvest management and community farm assets.\n2. The Fund provides interest subvention on loans taken for eligible projects.\n3. Primary Agricultural Credit Societies, farmer producer organisations and agri-entrepreneurs are eligible borrowers.\n4. It is funded entirely by the State Governments with no Central Government component.",
+    "options": [
+      "(a) 1, 2 and 4 only",
+      "(b) 1, 2 and 3 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 3 and 4 only"
+    ],
+    "subject": "Economy",
+    "theme": "Agriculture",
+    "micro_topic": "Agricultural Infrastructure Fund",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(b)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: the AIF is a Central Government scheme — loans are provided through banks and financial institutions with the Central Government providing 3% interest subvention and credit guarantee support."
+  },
+  {
+    "id": 254,
+    "question": "Consider the following statements on India's approach to cryptocurrency and digital assets:\n1. Cryptocurrencies are not recognised as legal tender in India.\n2. Gains from transfer of Virtual Digital Assets are taxed at a flat rate of 30% under the Income Tax Act.\n3. Losses from transfer of one VDA can be set off against gains from another VDA in the same financial year.\n4. The Reserve Bank of India has expressed concern about the risks that private cryptocurrencies pose to financial stability.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 2, 3 and 4",
+      "(d) 1, 2 and 4 only"
+    ],
+    "subject": "Economy",
+    "theme": "Digital Economy",
+    "micro_topic": "Cryptocurrency Taxation India",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "Statement 1 is correct: cryptocurrencies have no legal tender status in India. Statement 2 is correct: a 30% flat tax on VDA gains was introduced in Budget 2022. Statement 3 is incorrect: losses from one VDA CANNOT be set off against gains from another — losses are ring-fenced. Statement 4 is correct: the RBI has repeatedly warned about systemic risks from private cryptocurrencies."
+  },
+  {
+    "id": 255,
+    "question": "Consider the following statements on the PM Kisan Samman Nidhi scheme:\n1. It provides income support of Rs 6,000 per year to eligible farmer families in three equal instalments.\n2. The scheme covers all farmer families including large farmers with more than 2 hectares of land.\n3. It is a 100% Centrally Sponsored Scheme with no State share.\n4. State and Central Government employees and income taxpayers are excluded from the scheme.",
+    "options": [
+      "(a) 2, 3 and 4 only",
+      "(b) 1, 2, 3 and 4",
+      "(c) 1, 3 and 4 only",
+      "(d) 1, 2 and 3 only"
+    ],
+    "subject": "Economy",
+    "theme": "Welfare Schemes",
+    "micro_topic": "PM-KISAN Scheme",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(c)",
+    "explanation": "Statement 1 is correct: Rs 6,000 per year in three instalments. Statement 2 is incorrect: the scheme was originally for small and marginal farmers (up to 2 ha) but was later extended to ALL farmer families regardless of landholding size. Statement 3 is correct: it is a Central Sector scheme, 100% centrally funded. Statement 4 is correct: institutional landholders, government employees and income taxpayers are excluded."
+  },
+  {
+    "id": 256,
+    "question": "With reference to the Goods and Services Tax on real estate, consider the following statements:\n1. GST is applicable on the sale of under-construction flats but not on the sale of completed/ready-to-move properties for which a completion certificate has been issued.\n2. Affordable housing projects attract a GST rate of 1%, while non-affordable residential projects attract 5%.\n3. Both rates are without input tax credit.\n4. Commercial real estate under construction also attracts the same 1% GST as affordable housing.",
+    "options": [
+      "(a) 1, 2 and 4 only",
+      "(b) 1, 2 and 3 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 3 and 4 only"
+    ],
+    "subject": "Economy",
+    "theme": "Taxation",
+    "micro_topic": "GST on Real Estate",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(b)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: commercial real estate under construction attracts 12% GST (with input tax credit), not 1%. The 1% rate applies specifically to affordable residential housing."
+  },
+  {
+    "id": 257,
+    "question": "Consider the following statements on the National Payments Corporation of India (NPCI):\n1. NPCI operates under the aegis of the Reserve Bank of India and the Indian Banks' Association.\n2. It operates systems such as RTGS, NEFT, UPI, RuPay, NACH and IMPS.\n3. RuPay is a domestic card payment network operated by NPCI.\n4. NPCI International was set up to export India's payments infrastructure to other countries.",
+    "options": [
+      "(a) 2, 3 and 4 only",
+      "(b) 1, 2 and 4 only",
+      "(c) 1, 2, 3 and 4",
+      "(d) 1, 3 and 4 only"
+    ],
+    "subject": "Economy",
+    "theme": "Digital Economy",
+    "micro_topic": "NPCI Payment Systems",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(d)",
+    "explanation": "Statement 1 is correct: NPCI was set up by RBI and IBA. Statement 2 is partially incorrect: RTGS and NEFT are operated directly by the RBI, not NPCI. NPCI operates UPI, RuPay, IMPS and NACH. Statement 3 is correct: RuPay is NPCI's domestic card network. Statement 4 is correct: NPCI International promotes Indian payment systems globally."
+  },
+  {
+    "id": 258,
+    "question": "Consider the following statements on India's National Pension System:\n1. NPS is a defined contribution pension scheme where the corpus at retirement depends on contributions and investment returns.\n2. Under NPS, subscribers can choose their own fund managers and asset allocation.\n3. Withdrawal from the NPS Tier I account is completely tax-free at maturity.\n4. NPS is regulated by the Pension Fund Regulatory and Development Authority.",
+    "options": [
+      "(a) 2, 3 and 4 only",
+      "(b) 1, 2, 3 and 4",
+      "(c) 1, 2 and 4 only",
+      "(d) 1, 3 and 4 only"
+    ],
+    "subject": "Economy",
+    "theme": "Social Security",
+    "micro_topic": "National Pension System",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(c)",
+    "explanation": "Statements 1, 2 and 4 are correct. Statement 3 is partially incorrect: at maturity, 60% of the NPS corpus can be withdrawn tax-free, but the remaining 40% must be used to purchase an annuity (which is taxable as income), so the withdrawal is not COMPLETELY tax-free."
+  },
+  {
+    "id": 259,
+    "question": "With reference to the Micro, Small and Medium Enterprises sector, consider the following statements:\n1. MSMEs are classified based on annual turnover and investment in plant and machinery.\n2. A micro enterprise now has investment up to Rs 1 crore and turnover up to Rs 5 crore.\n3. MSMEs can access credit at concessional rates through the MUDRA scheme and the Emergency Credit Line Guarantee Scheme (ECLGS).\n4. The Udyam Registration Portal is the online platform for registration of MSMEs.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 2 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "Economy",
+    "theme": "Industrial Policy",
+    "micro_topic": "MSME Classification and Support",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(d)",
+    "explanation": "All four are correct. Post-2020 revision, MSMEs are classified by investment and turnover. A micro enterprise: investment up to Rs 1 crore and turnover up to Rs 5 crore. MUDRA and ECLGS provide credit support. Udyam is the registration portal."
+  },
+  {
+    "id": 260,
+    "question": "With reference to the PESA (Panchayats Extension to Scheduled Areas) Act, 1996, consider the following statements:\n1. It extends the provisions of Part IX of the Constitution relating to Panchayati Raj to the Fifth Schedule Areas.\n2. The Act applies to ten States that have Fifth Schedule Areas.\n3. It empowers the Gram Sabha to manage minor forest produce, minor water bodies and customary resources.\n4. The Sixth Schedule areas of Assam, Meghalaya, Tripura and Mizoram are covered by PESA.",
+    "options": [
+      "(a) 2, 3 and 4 only",
+      "(b) 1, 2 and 4 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 1, 2 and 3 only"
+    ],
+    "subject": "Polity",
+    "theme": "Tribal Governance",
+    "micro_topic": "PESA Act 1996",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: PESA applies to the ten States with Fifth Schedule Areas. The tribal areas of Assam, Meghalaya, Tripura and Mizoram are governed under the Sixth Schedule (with autonomous district and regional councils), not under PESA."
+  },
+  {
+    "id": 261,
+    "question": "Consider the following statements about the Fifth and Sixth Schedules of the Constitution:\n1. The Fifth Schedule deals with administration of Scheduled Areas and Scheduled Tribes in States other than Assam, Meghalaya, Tripura and Mizoram.\n2. The Sixth Schedule provides for autonomous district and regional councils with legislative and judicial powers in tribal areas.\n3. The Governor of a State is empowered to declare any area a Scheduled Area under the Fifth Schedule without the President's approval.\n4. Both Schedules aim to protect the interests of tribal communities.",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 1, 2 and 4 only"
+    ],
+    "subject": "Polity",
+    "theme": "Constitutional Provisions",
+    "micro_topic": "Fifth and Sixth Schedules",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "Statements 1, 2 and 4 are correct. Statement 3 is incorrect: declaration of Scheduled Areas under the Fifth Schedule is done by the President, not unilaterally by the Governor. The Governor can only make regulations and report to the President."
+  },
+  {
+    "id": 262,
+    "question": "With reference to the powers of the Speaker of the Lok Sabha, consider the following statements:\n1. The Speaker decides whether a Bill is a Money Bill, and this decision is final and not subject to challenge in any court.\n2. The Speaker presides over the joint sitting of both Houses of Parliament.\n3. The Speaker can disqualify a member under the Tenth Schedule (anti-defection), but this order is subject to judicial review.\n4. The Speaker is elected by the members of the Lok Sabha by a simple majority of members present and voting.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 2 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "Polity",
+    "theme": "Parliament",
+    "micro_topic": "Powers of the Speaker",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "All four are correct. The Speaker's Money Bill certification is final under Article 110. The Speaker presides over joint sittings under Article 118. Anti-defection orders are judicially reviewable (Kihoto Hollohan). The Speaker is elected by a simple majority of members present and voting."
+  },
+  {
+    "id": 263,
+    "question": "Consider the following statements on the doctrine of separation of powers in India:\n1. The Indian Constitution does not provide for a strict separation of powers but establishes a system of checks and balances.\n2. The President of India holds executive power, which is exercised by the Council of Ministers headed by the Prime Minister.\n3. The judiciary in India is completely independent of the executive in its appointment process.\n4. Parliament can enact retrospective legislation that may affect pending cases.",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1, 2 and 3 only",
+      "(c) 1, 2 and 4 only",
+      "(d) 1, 3 and 4 only"
+    ],
+    "subject": "Polity",
+    "theme": "Constitutional Framework",
+    "micro_topic": "Separation of Powers India",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(c)",
+    "explanation": "Statement 1 is correct: India uses checks and balances, not a strict separation as in the US. Statement 2 is correct: Article 53 vests executive power in the President, exercised on Council of Ministers' advice. Statement 3 is incorrect: the collegium system involves the judiciary in appointments, but the executive still plays a role in the process (President appoints on PM and CJI advice); it is not completely independent of the executive. Statement 4 is correct: Parliament can enact retrospective legislation subject to constitutional limits."
+  },
+  {
+    "id": 264,
+    "question": "With reference to the doctrine of 'Pleasure of the President' under Article 310, consider the following statements:\n1. Civil servants of the Union hold office during the pleasure of the President.\n2. This doctrine means the President or Government can dismiss a civil servant at will without any procedure.\n3. Article 311 provides safeguards against arbitrary dismissal, removal or reduction in rank.\n4. The pleasure doctrine applies to all persons employed by the Government of India, including Members of Parliament.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 1 and 3 only",
+      "(c) 1, 2 and 3 only",
+      "(d) 2, 3 and 4 only"
+    ],
+    "subject": "Polity",
+    "theme": "Constitutional Provisions",
+    "micro_topic": "Doctrine of Pleasure Article 310",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(b)",
+    "explanation": "Statement 1 is correct: civil servants hold office at the pleasure of the President under Article 310. Statement 2 is incorrect: this doctrine is qualified by Article 311, which provides procedural safeguards and prevents arbitrary dismissal. Statement 3 is correct: Article 311 is precisely the counterbalance. Statement 4 is incorrect: MPs are not 'employed by the Government' — their positions are constitutional, not service-based."
+  },
+  {
+    "id": 265,
+    "question": "Consider the following statements on the Comptroller and Auditor General of India:\n1. The CAG is appointed by the President and can be removed only in the same manner as a Supreme Court judge.\n2. The CAG audits the accounts of the Union and States and submits reports to the President or Governor.\n3. The CAG also audits government companies in which the Central Government holds at least 51% equity.\n4. The Finance Accounts and Appropriation Accounts of the Union are prepared by the CAG.",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "Polity",
+    "theme": "Constitutional Bodies",
+    "micro_topic": "Comptroller and Auditor General",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "All four are correct. The CAG is appointed by the President and removed only like a SC judge (Article 148). CAG audits Union and State accounts and reports to President/Governor. Government companies with majority government equity are audited by CAG. And Finance/Appropriation Accounts are compiled by the CAG."
+  },
+  {
+    "id": 266,
+    "question": "Consider the following statements about writs under the Indian Constitution:\n1. The Supreme Court can issue writs under Article 32 only for enforcement of Fundamental Rights.\n2. The High Court can issue writs under Article 226 for enforcement of both Fundamental Rights and other legal rights.\n3. The writ of 'Habeas Corpus' requires a person in custody to be brought before the court.\n4. The writ of 'Mandamus' can be issued against a private individual.",
+    "options": [
+      "(a) 2, 3 and 4 only",
+      "(b) 1, 3 and 4 only",
+      "(c) 1, 2 and 4 only",
+      "(d) 1, 2 and 3 only"
+    ],
+    "subject": "Polity",
+    "theme": "Fundamental Rights",
+    "micro_topic": "Writs and Judicial Review",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "Statement 1 is correct: Article 32 writs are for FR enforcement only. Statement 2 is correct: Article 226 High Court writs have wider scope including other legal rights. Statement 3 is correct: habeas corpus literally means 'you may have the body'. Statement 4 is incorrect: mandamus is directed at public authorities performing public duties — it cannot generally be issued against a private individual."
+  },
+  {
+    "id": 267,
+    "question": "With reference to the Indian Council of Medical Research (ICMR), consider the following statements:\n1. ICMR is the apex body in India for the formulation, coordination and promotion of biomedical research.\n2. It functions under the Ministry of Health and Family Welfare.\n3. ICMR publishes the National Guidelines for Ethics Committees reviewing biomedical and health research.\n4. The Drug Controller General of India (DCGI) is the head of the ICMR.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 1, 2 and 4 only",
+      "(c) 1, 2 and 3 only",
+      "(d) 2, 3 and 4 only"
+    ],
+    "subject": "Governance",
+    "theme": "Health Regulation",
+    "micro_topic": "ICMR Structure and Functions",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(c)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: the DCGI heads the Central Drugs Standard Control Organisation (CDSCO), not ICMR. The ICMR is headed by a Director General, a senior scientist."
+  },
+  {
+    "id": 268,
+    "question": "Consider the following statements about the National Human Rights Commission:\n1. It was established under the Protection of Human Rights Act, 1993.\n2. The Chairperson of the NHRC must be a retired Chief Justice of India.\n3. The NHRC has the power to recommend monetary relief to victims of human rights violations.\n4. The NHRC can enquire into complaints against the armed forces directly.",
+    "options": [
+      "(a) 1, 2 and 4 only",
+      "(b) 1, 2 and 3 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 3 and 4 only"
+    ],
+    "subject": "Polity",
+    "theme": "Statutory Bodies",
+    "micro_topic": "National Human Rights Commission",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(b)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: the NHRC cannot directly enquire into complaints against the armed forces; it may request a report from the Central Government and make recommendations based on it, but direct investigation of the armed forces is excluded."
+  },
+  {
+    "id": 269,
+    "question": "Consider the following statements on the Goods and Services Tax on the supply of services:\n1. In GST, the place of supply rules determine whether a transaction is intra-State (CGST+SGST) or inter-State (IGST).\n2. Education services provided by a government school are fully taxable under GST.\n3. Health care services by a clinical establishment are exempt from GST.\n4. The reverse charge mechanism (RCM) requires the recipient rather than the supplier to pay GST in specified cases.",
+    "options": [
+      "(a) 1, 2 and 4 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 2, 3 and 4",
+      "(d) 1, 3 and 4 only"
+    ],
+    "subject": "Economy",
+    "theme": "Taxation",
+    "micro_topic": "GST on Services",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "Statement 1 is correct: place-of-supply rules govern the CGST/SGST vs IGST determination. Statement 2 is incorrect: education services provided by government schools and recognised educational institutions are specifically exempt from GST. Statement 3 is correct: healthcare services by clinical establishments are GST-exempt. Statement 4 is correct: RCM shifts tax payment liability to the recipient in specified categories."
+  },
+  {
+    "id": 270,
+    "question": "Consider the following statements about the 73rd and 74th Constitutional Amendments:\n1. The 73rd Amendment provides for a three-tier Panchayati Raj system for all States.\n2. The 74th Amendment provides for Urban Local Bodies and mandates their elections by the State Election Commission.\n3. Both amendments added provisions to the same Part of the Constitution — Part IX.\n4. Both amendments mandate reservation of seats for Scheduled Castes and Scheduled Tribes.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 1, 2 and 3 only",
+      "(c) 1, 2 and 4 only",
+      "(d) 2, 3 and 4 only"
+    ],
+    "subject": "Polity",
+    "theme": "Local Government",
+    "micro_topic": "73rd and 74th Amendments",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(c)",
+    "explanation": "Statement 1 is correct: the 73rd Amendment added Part IX for Panchayats. Statement 2 is correct: the 74th Amendment established the ULB framework under Part IX-A. Statement 3 is incorrect: the 73rd added Part IX and the 74th added Part IX-A — these are DIFFERENT parts of the Constitution. Statement 4 is correct: both mandate SC/ST reservations in seats and chairpersons' posts."
+  },
+  {
+    "id": 271,
+    "question": "With reference to the process of election of the President of India, consider the following statements:\n1. The President is elected by an Electoral College comprising elected members of both Houses of Parliament and elected members of the State Legislative Assemblies.\n2. Nominated members of Parliament and State Legislatures are excluded from the Electoral College.\n3. The value of votes assigned to an MP and an MLA is the same.\n4. A candidate for President must be a citizen of India, 35 years of age, qualified for election as a member of the Lok Sabha, and must not hold any office of profit.",
+    "options": [
+      "(a) 1, 2, 3 and 4",
+      "(b) 1, 2 and 4 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 2, 3 and 4 only"
+    ],
+    "subject": "Polity",
+    "theme": "Constitutional Offices",
+    "micro_topic": "Election of the President",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(b)",
+    "explanation": "Statements 1, 2 and 4 are correct. Statement 3 is incorrect: the vote value of MLAs depends on the population of their State divided by total seats; MP vote values are equated proportionally to the total MLA votes. MP and MLA vote values are generally different."
+  },
+  {
+    "id": 272,
+    "question": "Consider the following statements about the Information Technology Act, 2000:\n1. It provides legal recognition to electronic records and digital signatures.\n2. The IT Amendment Act 2008 introduced provisions on cybercrime including the offence of identity theft.\n3. Under Section 69A, the Central Government can issue orders to block access to online content.\n4. The IT Act, 2000 has been fully repealed by the Digital Personal Data Protection Act, 2023.",
+    "options": [
+      "(a) 2, 3 and 4 only",
+      "(b) 1, 3 and 4 only",
+      "(c) 1, 2 and 4 only",
+      "(d) 1, 2 and 3 only"
+    ],
+    "subject": "Governance",
+    "theme": "Cyber Law",
+    "micro_topic": "IT Act 2000 Provisions",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: the IT Act, 2000 has not been fully repealed by the DPDP Act. The DPDP Act amended certain provisions of the IT Act (particularly Section 43A on data protection), but the IT Act continues in force."
+  },
+  {
+    "id": 273,
+    "question": "Consider the following statements about the Attorney General of India:\n1. The Attorney General is the highest law officer of India.\n2. The Attorney General is appointed by the President on the advice of the Prime Minister.\n3. The Attorney General holds office during the pleasure of the President and does not have a fixed tenure.\n4. The Attorney General has the right of audience in all courts in India.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 1, 2 and 4 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "Polity",
+    "theme": "Constitutional Offices",
+    "micro_topic": "Attorney General of India",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(d)",
+    "explanation": "All four are correct. The AG is the government's premier law officer. Appointed by the President on the PM's advice. Holds office at pleasure with no fixed tenure. Has right of audience in all Indian courts under Article 76."
+  },
+  {
+    "id": 274,
+    "question": "With reference to the Indian Space Policy 2023, consider the following statements:\n1. It provides for Non-Government Entities to undertake end-to-end activities in the space sector including launch vehicles, satellites and ground systems.\n2. IN-SPACe (Indian National Space Promotion and Authorisation Centre) functions as the single-window nodal agency for authorising private space activities.\n3. NewSpace India Limited is the commercial arm of ISRO responsible for technology transfer and commercialisation.\n4. The Policy restricts private sector involvement to manufacturing alone and excludes them from operating launch vehicles.",
+    "options": [
+      "(a) 1, 2 and 4 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 1, 2 and 3 only"
+    ],
+    "subject": "Science & Technology",
+    "theme": "Space Policy",
+    "micro_topic": "Indian Space Policy 2023",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: the Indian Space Policy 2023 explicitly permits NGEs to design and operate launch vehicles — it is the broadest opening of the sector, covering the entire value chain including launch services."
+  },
+  {
+    "id": 275,
+    "question": "Consider the following statements on the National Food Authority and food safety regulation:\n1. The Food Safety and Standards Authority of India was established under the Food Safety and Standards Act, 2006.\n2. FSSAI functions under the Ministry of Health and Family Welfare.\n3. It replaced multiple earlier food laws including the Prevention of Food Adulteration Act, 1954.\n4. The food label requirement 'FSSAI License Number' applies only to processed food products, not to fresh fruits and vegetables.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 1, 2, 3 and 4",
+      "(c) 1, 2 and 3 only",
+      "(d) 2, 3 and 4 only"
+    ],
+    "subject": "Governance",
+    "theme": "Food Regulation",
+    "micro_topic": "FSSAI and Food Safety",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(c)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is not precisely correct as a blanket rule: FSSAI licensing requirements cover food business operators broadly, but fresh unprocessed fruits and vegetables sold directly by primary producers have certain exemptions; however, the statement is an oversimplification making it incorrect as stated."
+  },
+  {
+    "id": 276,
+    "question": "Consider the following statements about the National Disaster Management Authority:\n1. The NDMA was established under the Disaster Management Act, 2005.\n2. The Prime Minister chairs the NDMA.\n3. The National Disaster Response Force operates under the NDMA.\n4. State Disaster Management Authorities are chaired by the respective Chief Ministers.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 2 and 3 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "Governance",
+    "theme": "Disaster Management",
+    "micro_topic": "NDMA Structure",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(d)",
+    "explanation": "All four are correct. NDMA is a statutory body under the DM Act 2005. The PM chairs it. The NDRF operates under it for disaster response. State DMAs are chaired by the respective CMs under the same Act."
+  },
+  {
+    "id": 277,
+    "question": "Consider the following about the National Commission for Backward Classes:\n1. It was elevated to a constitutional body by the 102nd Constitutional Amendment Act.\n2. The 102nd Amendment inserted Article 338B establishing the NCBC.\n3. The same amendment also inserted Article 342A, empowering the President to specify Socially and Educationally Backward Classes for Central purposes.\n4. State governments lost all power to prepare their own OBC lists after the 102nd Amendment.",
+    "options": [
+      "(a) 1, 2 and 4 only",
+      "(b) 1, 2 and 3 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 3 and 4 only"
+    ],
+    "subject": "Polity",
+    "theme": "Constitutional Amendments",
+    "micro_topic": "102nd Amendment and NCBC",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(b)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: the Supreme Court in Maratha reservation case (2021) clarified that States retain power to identify their own OBC lists for State purposes — the 102nd Amendment did not strip States of this power."
+  },
+  {
+    "id": 278,
+    "question": "Consider the following statements on the Parliamentary system in India versus a Presidential system:\n1. In India's parliamentary system, the executive is responsible to and can be removed by the legislature.\n2. In a Presidential system as in the USA, the executive and legislature have fixed and separate terms.\n3. The doctrine of collective responsibility of the Council of Ministers to the Lok Sabha is a defining feature of the parliamentary system.\n4. India follows a Presidential system at the State level and a Parliamentary system at the Centre.",
+    "options": [
+      "(a) 2, 3 and 4 only",
+      "(b) 1, 3 and 4 only",
+      "(c) 1, 2 and 4 only",
+      "(d) 1, 2 and 3 only"
+    ],
+    "subject": "Polity",
+    "theme": "Constitutional Framework",
+    "micro_topic": "Parliamentary vs Presidential System",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(d)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: India follows the parliamentary system at BOTH the Centre AND the State level — State governments also operate on the parliamentary model with a Chief Minister accountable to the State Legislature."
+  },
+  {
+    "id": 279,
+    "question": "Consider the following about the National Commission for Minorities:\n1. It was established as a statutory body under the National Commission for Minorities Act, 1992.\n2. The six communities notified as minorities are Muslims, Christians, Sikhs, Buddhists, Zoroastrians (Parsis) and Jains.\n3. It is a constitutional body with powers equivalent to the National Commission for Scheduled Castes.\n4. It evaluates the working of safeguards provided in the Constitution and other laws for the protection of minority interests.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 1, 2, 3 and 4",
+      "(c) 1, 2 and 4 only",
+      "(d) 2, 3 and 4 only"
+    ],
+    "subject": "Polity",
+    "theme": "Statutory Bodies",
+    "micro_topic": "National Commission for Minorities",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(c)",
+    "explanation": "Statements 1, 2 and 4 are correct. Statement 3 is incorrect: the NCM is a STATUTORY body (under the 1992 Act), not a constitutional body. It does not have the same constitutional status as the NCSC."
+  },
+  {
+    "id": 280,
+    "question": "With reference to India's space exploration roadmap, consider the following statements:\n1. Chandrayaan-4 is planned as a lunar sample-return mission, requiring in-orbit docking in lunar orbit.\n2. The Bharatiya Antariksh Station (India's space station) is targeted for establishment by 2035.\n3. The Venus Orbiter Mission (Shukrayaan) is approved and targeted for launch around 2028.\n4. The Next Generation Launch Vehicle (NGLV) is a single-use rocket designed to be lighter than PSLV.",
+    "options": [
+      "(a) 1, 2 and 4 only",
+      "(b) 1, 2 and 3 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 3 and 4 only"
+    ],
+    "subject": "Science & Technology",
+    "theme": "Space Technology",
+    "micro_topic": "India Space Roadmap",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(b)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: the NGLV is being designed as a REUSABLE, low-cost heavy-lift vehicle — the opposite of a lighter, single-use rocket. It aims to reduce launch costs through reusability."
+  },
+  {
+    "id": 281,
+    "question": "Consider the following statements about the concept of Quantum Computing:\n1. Quantum computers use qubits that can exist in a superposition of 0 and 1 simultaneously.\n2. Quantum entanglement allows qubits to be correlated regardless of physical distance.\n3. Current quantum computers have demonstrated 'quantum supremacy' meaning they can solve all problems faster than classical computers.\n4. Quantum error correction is a major challenge because qubits are highly susceptible to decoherence from environmental disturbances.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 2 and 3 only",
+      "(d) 1, 2 and 4 only"
+    ],
+    "subject": "Science & Technology",
+    "theme": "Quantum Technology",
+    "micro_topic": "Quantum Computing Concepts",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "Statements 1, 2 and 4 are correct. Statement 3 is incorrect: 'quantum advantage/supremacy' has been claimed for specific narrow computational tasks, but quantum computers cannot yet solve ALL problems faster than classical computers — general-purpose quantum computing remains far from realised."
+  },
+  {
+    "id": 282,
+    "question": "Consider the following statements on Artificial Intelligence regulation globally:\n1. The EU AI Act is the world's first comprehensive legal framework regulating artificial intelligence systems based on risk categories.\n2. It classifies AI applications into four risk levels: unacceptable, high, limited and minimal risk.\n3. The EU AI Act bans social scoring by governments entirely.\n4. India has enacted an AI Regulatory Act similar to the EU AI Act.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 1, 2 and 4 only",
+      "(c) 1, 2 and 3 only",
+      "(d) 2, 3 and 4 only"
+    ],
+    "subject": "Science & Technology",
+    "theme": "Artificial Intelligence",
+    "micro_topic": "EU AI Act and AI Regulation",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(c)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: as of mid-2026, India has not enacted a comprehensive AI Regulatory Act; India's approach has been through advisories and the IndiaAI Mission framework, not binding AI-specific legislation."
+  },
+  {
+    "id": 283,
+    "question": "Consider the following statements about Cybersecurity and the National Cyber Security Policy:\n1. The Indian Computer Emergency Response Team (CERT-In) is the national nodal agency for responding to cybersecurity incidents.\n2. CERT-In functions under the Ministry of Electronics and Information Technology.\n3. The IT Amendment Act 2008 gave CERT-In statutory recognition and powers.\n4. India's critical information infrastructure is protected under the provisions of the Information Technology Act, 2000.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 2 and 3 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "Science & Technology",
+    "theme": "Cybersecurity",
+    "micro_topic": "CERT-In and Cyber Policy",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(d)",
+    "explanation": "All four are correct. CERT-In is the national nodal agency; it operates under MeitY; Section 70B of the IT Act (inserted by 2008 amendment) gave it statutory status; and Section 70 of the IT Act provides for designation and protection of critical information infrastructure."
+  },
+  {
+    "id": 284,
+    "question": "Consider the following statements on gene sequencing and genomics:\n1. Next-Generation Sequencing (NGS) technology can sequence millions of DNA fragments in parallel, making it faster and cheaper than Sanger sequencing.\n2. The Human Genome Project was completed in 2003 and produced a near-complete sequence of the human genome.\n3. Pharmacogenomics studies how an individual's genome affects their response to drugs.\n4. A genome contains only the protein-coding regions (exons) of DNA.",
+    "options": [
+      "(a) 1, 2 and 4 only",
+      "(b) 1, 2 and 3 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 3 and 4 only"
+    ],
+    "subject": "Science & Technology",
+    "theme": "Biotechnology",
+    "micro_topic": "Genomics and Gene Sequencing",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(b)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: a genome contains ALL of an organism's DNA — including non-coding regions (introns, regulatory sequences, repetitive sequences etc.) as well as the coding exons. In fact, only about 1.5% of the human genome codes for proteins."
+  },
+  {
+    "id": 285,
+    "question": "Consider the following statements about Nuclear Reactors:\n1. In a pressurised water reactor (PWR), water is used both as coolant and moderator under high pressure.\n2. Fast Breeder Reactors use a moderator to slow down neutrons to sustain the chain reaction.\n3. India's three-stage nuclear power programme involves Pressurised Heavy Water Reactors, Fast Breeder Reactors and Advanced Heavy Water Reactors as successive stages.\n4. India's Prototype Fast Breeder Reactor at Kalpakkam uses liquid sodium as coolant.",
+    "options": [
+      "(a) 2, 3 and 4 only",
+      "(b) 1, 2 and 4 only",
+      "(c) 1, 2 and 3 only",
+      "(d) 1, 3 and 4 only"
+    ],
+    "subject": "Science & Technology",
+    "theme": "Nuclear Energy",
+    "micro_topic": "Nuclear Reactor Types",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "Statement 1 is correct: PWRs use pressurised water as both coolant and moderator. Statement 2 is incorrect: Fast Breeder Reactors deliberately use fast (un-moderated) neutrons — they do NOT use a moderator. Statement 3 is correct: India's three-stage programme progresses through PHWRs, FBRs and AHWRs. Statement 4 is correct: the PFBR at Kalpakkam uses liquid sodium as coolant."
+  },
+  {
+    "id": 286,
+    "question": "Consider the following statements about nanotechnology and its applications:\n1. Nanotechnology deals with structures and devices at the scale of 1 to 100 nanometres.\n2. Carbon nanotubes are cylindrical structures of carbon atoms with remarkable strength-to-weight ratio.\n3. Nanoparticles used as drug carriers can increase the therapeutic efficacy and reduce side effects of medicines.\n4. All nanoparticles are safe for human health and have no toxic effects.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 1, 2 and 4 only",
+      "(c) 1, 2 and 3 only",
+      "(d) 2, 3 and 4 only"
+    ],
+    "subject": "Science & Technology",
+    "theme": "Emerging Technologies",
+    "micro_topic": "Nanotechnology Applications",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(c)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: the toxicity of nanoparticles is a significant area of scientific concern — some nanoparticles can be harmful to human health and the environment. The small size can allow them to penetrate biological barriers."
+  },
+  {
+    "id": 287,
+    "question": "Consider the following statements about the Global Navigation Satellite Systems:\n1. GPS (Global Positioning System) is operated by the United States Department of Defense.\n2. GLONASS is Russia's global navigation satellite system.\n3. NavIC is India's regional navigation system providing coverage primarily over India and an area extending 1,500 km around it.\n4. All global and regional navigation satellite systems are operated by civilian agencies in their respective countries.",
+    "options": [
+      "(a) 1, 2 and 4 only",
+      "(b) 1, 2 and 3 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 3 and 4 only"
+    ],
+    "subject": "Science & Technology",
+    "theme": "Space Technology",
+    "micro_topic": "Navigation Satellite Systems",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(b)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: GPS is operated by the US Department of Defense (military), GLONASS by the Russian military — both are military-operated systems. NavIC is operated by ISRO (a civilian agency). They are not all operated by civilian agencies."
+  },
+  {
+    "id": 288,
+    "question": "Consider the following statements on biotechnology and genetically modified organisms in India:\n1. Bt cotton remains the only GM crop approved for commercial cultivation in India.\n2. The Genetic Engineering Appraisal Committee (GEAC) under MoEFCC is the apex body approving environmental release of GMOs.\n3. GM mustard (DMH-11) has received GEAC approval but its commercial cultivation has faced legal challenges.\n4. Transgenic animals are legally permitted for commercial livestock production in India.",
+    "options": [
+      "(a) 2, 3 and 4 only",
+      "(b) 1, 3 and 4 only",
+      "(c) 1, 2 and 4 only",
+      "(d) 1, 2 and 3 only"
+    ],
+    "subject": "Science & Technology",
+    "theme": "Biotechnology",
+    "micro_topic": "GMOs in India",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: transgenic animals for commercial livestock production are not legally permitted in India; GMO regulations are strict and no such animals have been approved for commercial use."
+  },
+  {
+    "id": 289,
+    "question": "Consider the following statements on the concept of 'Digital Twin' technology:\n1. A digital twin is a virtual representation of a physical object, system or process that is updated in real time using sensor data.\n2. Digital twins are used in manufacturing, urban planning, healthcare and infrastructure management.\n3. Digital twins can only model static physical objects and cannot simulate dynamic processes.\n4. India has initiated use of digital twin technology for urban planning in some smart cities.",
+    "options": [
+      "(a) 2, 3 and 4 only",
+      "(b) 1, 2 and 3 only",
+      "(c) 1, 2 and 4 only",
+      "(d) 1, 3 and 4 only"
+    ],
+    "subject": "Science & Technology",
+    "theme": "Emerging Technologies",
+    "micro_topic": "Digital Twin Technology",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(c)",
+    "explanation": "Statements 1, 2 and 4 are correct. Statement 3 is incorrect: digital twins can model BOTH static and dynamic processes — in fact, their key value is simulating dynamic changes and processes in real time."
+  },
+  {
+    "id": 290,
+    "question": "Consider the following statements about the Polar Satellite Launch Vehicle (PSLV) and LVM3:\n1. PSLV uses four stages alternating between solid and liquid propulsion.\n2. LVM3 (formerly GSLV Mk III) is India's heaviest operational launch vehicle and uses a cryogenic upper stage.\n3. PSLV has been used exclusively for polar/sun-synchronous orbit missions and has never launched a geostationary satellite.\n4. LVM3 was used for the OneWeb satellite constellation launches.",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 1, 2 and 4 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 3 and 4 only"
+    ],
+    "subject": "Science & Technology",
+    "theme": "Space Technology",
+    "micro_topic": "PSLV and LVM3",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(b)",
+    "explanation": "Statements 1, 2 and 4 are correct. Statement 3 is incorrect: while PSLV primarily serves SSO/polar missions, it has also been used for other orbital inclinations — the PSLV-XL variant has launched payloads to geostationary transfer orbit as well."
+  },
+  {
+    "id": 291,
+    "question": "Consider the following statements on cybersecurity threats:\n1. A ransomware attack encrypts the victim's data and demands payment for the decryption key.\n2. Phishing attacks involve fraudulent communications designed to trick users into revealing sensitive information.\n3. A Distributed Denial of Service (DDoS) attack floods a target with traffic from multiple sources to make it unavailable.\n4. A 'zero-day' vulnerability is one that has been known and patched by the software vendor for at least one year.",
+    "options": [
+      "(a) 2, 3 and 4 only",
+      "(b) 1, 3 and 4 only",
+      "(c) 1, 2 and 4 only",
+      "(d) 1, 2 and 3 only"
+    ],
+    "subject": "Science & Technology",
+    "theme": "Cybersecurity",
+    "micro_topic": "Cybersecurity Threats",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(d)",
+    "explanation": "Statements 1, 2 and 3 are correctly described. Statement 4 is incorrect: a 'zero-day' vulnerability is one that is UNKNOWN to the software vendor (or for which no patch exists yet) — meaning there are zero days of protection. It has not been patched."
+  },
+  {
+    "id": 292,
+    "question": "Consider the following statements about India's missile programme:\n1. The Agni series of missiles are surface-to-surface ballistic missiles with intercontinental range for Agni-V.\n2. BrahMos is a supersonic cruise missile jointly developed by India and Russia.\n3. Akash is a medium-range surface-to-air missile system developed by DRDO.\n4. The Pralay missile is a submarine-launched ballistic missile.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 1, 2 and 4 only",
+      "(c) 1, 2 and 3 only",
+      "(d) 2, 3 and 4 only"
+    ],
+    "subject": "Science & Technology",
+    "theme": "Defence Technology",
+    "micro_topic": "India Missile Programme",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(c)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: Pralay is a SURFACE-LAUNCHED (canister-based, road-mobile) short-range ballistic missile — not a submarine-launched system."
+  },
+  {
+    "id": 293,
+    "question": "Consider the following statements on India's defence indigenisation:\n1. iDEX (Innovations for Defence Excellence) provides grants to start-ups and MSMEs to develop defence technologies.\n2. The Defence Acquisition Procedure prioritises Atmanirbhar Bharat through categories that favour domestic production.\n3. DRDO is the sole agency authorised to develop defence technologies in India; private firms are excluded.\n4. India has a Positive Indigenisation List that bans import of specified defence items to push domestic procurement.",
+    "options": [
+      "(a) 1, 2, 3 and 4",
+      "(b) 1, 2 and 4 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 3 and 4 only"
+    ],
+    "subject": "Science & Technology",
+    "theme": "Defence Technology",
+    "micro_topic": "Defence Indigenisation",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(b)",
+    "explanation": "Statements 1, 2 and 4 are correct. Statement 3 is incorrect: private firms are extensively involved in defence R&D and manufacturing — iDEX itself is designed to bring in private start-ups, and the Defence Industrial Corridors specifically invite private sector investment."
+  },
+  {
+    "id": 294,
+    "question": "Consider the following statements about the Global Positioning System and geospatial technology:\n1. The Survey of India is the national surveying and mapping organisation under the Ministry of Science and Technology.\n2. Geospatial data policy has been liberalised, allowing Indian entities to collect and use geospatial data more freely.\n3. A Geographic Information System (GIS) integrates spatial data with attribute data for analysis and visualisation.\n4. Satellite imagery at sub-metre resolution requires specific licensing and is not available to Indian private companies.",
+    "options": [
+      "(a) 2, 3 and 4 only",
+      "(b) 1, 3 and 4 only",
+      "(c) 1, 2 and 4 only",
+      "(d) 1, 2 and 3 only"
+    ],
+    "subject": "Science & Technology",
+    "theme": "Geospatial Technology",
+    "micro_topic": "GIS and Geospatial Policy",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: India's 2021 Geospatial Data Policy liberalised access — Indian companies can now collect and use geospatial data including higher resolution imagery without the earlier restrictive licensing requirements."
+  },
+  {
+    "id": 295,
+    "question": "Consider the following about the International Space Station and India's plans:\n1. The ISS is a joint project of NASA, ESA, JAXA, Roscosmos and CSA.\n2. India is a full partner in the ISS programme.\n3. India's Bharatiya Antariksh Station (BAS) is an independent space station being developed by India.\n4. BAS is targeted to be established by 2035.",
+    "options": [
+      "(a) 2, 3 and 4 only",
+      "(b) 1, 2, 3 and 4",
+      "(c) 1, 3 and 4 only",
+      "(d) 1, 2 and 3 only"
+    ],
+    "subject": "Science & Technology",
+    "theme": "Space Technology",
+    "micro_topic": "ISS and BAS Space Station",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(c)",
+    "explanation": "Statements 1, 3 and 4 are correct. Statement 2 is incorrect: India is NOT a partner in the ISS programme. India is developing its own independent space station (BAS) rather than joining the ISS."
+  },
+  {
+    "id": 296,
+    "question": "Consider the following statements on India's semiconductor manufacturing plans:\n1. India approved a semiconductor fabrication plant by Tata Electronics in partnership with Taiwan's PSMC in Dholera, Gujarat.\n2. A second fabrication facility has been approved for CG Power in partnership with Renesas of Japan.\n3. OSAT (Outsourced Semiconductor Assembly and Testing) facilities are less technically demanding to set up than fabrication plants.\n4. The India Semiconductor Mission has a total outlay of about Rs 76,000 crore.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 2 and 3 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "Science & Technology",
+    "theme": "Semiconductors",
+    "micro_topic": "India Semiconductor Fabrication",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "All four are correct. The Tata-PSMC fab in Dholera was approved. CG Power with Renesas was also approved. OSAT is indeed technically less demanding than front-end fabrication (ATMP vs wafer fab). The ISM outlay is approximately Rs 76,000 crore."
+  },
+  {
+    "id": 297,
+    "question": "Consider the following about Metaverse and Extended Reality (XR) technologies:\n1. Augmented Reality (AR) overlays digital content on the real world, while Virtual Reality (VR) immerses users in a fully digital environment.\n2. Mixed Reality (MR) allows digital objects to interact with the real world, anchoring them to physical spaces.\n3. The Metaverse refers to interconnected, persistent virtual worlds accessible via XR devices.\n4. India has enacted a specific Metaverse Regulation Act governing commercial activity in virtual worlds.",
+    "options": [
+      "(a) 1, 2 and 4 only",
+      "(b) 1, 2 and 3 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 3 and 4 only"
+    ],
+    "subject": "Science & Technology",
+    "theme": "Emerging Technologies",
+    "micro_topic": "Metaverse and XR Technologies",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(b)",
+    "explanation": "Statements 1, 2 and 3 are correct descriptions of these technologies. Statement 4 is incorrect: India has not enacted a dedicated Metaverse Regulation Act as of mid-2026."
+  },
+  {
+    "id": 298,
+    "question": "Consider the following statements about the Wetlands (Conservation and Management) Rules, 2017:\n1. They empower State Governments to prepare conservation and management plans for wetlands.\n2. They prohibit the setting up of industries and construction activities within the 'wise use zone' of notified wetlands.\n3. Ramsar Sites in India are automatically notified under the Rules without any separate State notification.\n4. The Rules vest enforcement authority with State Wetland Authorities chaired by the Chief Secretary of the State.",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1, 2 and 4 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 3 and 4 only"
+    ],
+    "subject": "Environment",
+    "theme": "Conservation Laws",
+    "micro_topic": "Wetlands Rules 2017",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(b)",
+    "explanation": "Statements 1, 2 and 4 are correct. Statement 3 is incorrect: Ramsar Sites are NOT automatically notified under the Wetlands Rules; they require a separate State Government notification process under the Rules."
+  },
+  {
+    "id": 299,
+    "question": "Consider the following statements on the Compensatory Afforestation Fund Act, 2016:\n1. Funds collected when forest land is diverted for non-forest uses are deposited into the Compensatory Afforestation Fund.\n2. The fund is managed by the CAMPA (Compensatory Afforestation Fund Management and Planning Authority).\n3. The money is used for afforestation, reforestation and wildlife protection activities.\n4. Ad hoc CAMPA at the national level was the predecessor that managed such funds before the 2016 Act.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 2 and 3 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "Environment",
+    "theme": "Conservation Laws",
+    "micro_topic": "CAMPA and Compensatory Afforestation",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(d)",
+    "explanation": "All four are correct. Funds from forest land diversion go into CAMPA. The statutory CAMPA manages the fund under the 2016 Act. Funds are used for afforestation, reforestation and wildlife work. Ad hoc CAMPA (set up by Supreme Court) was indeed the predecessor."
+  },
+  {
+    "id": 300,
+    "question": "Consider the following statements on the Convention on Long-Range Transboundary Air Pollution and related protocols:\n1. It was the first international legally binding instrument to deal with air pollution on a broad regional basis.\n2. It was concluded under the auspices of the United Nations Economic Commission for Europe.\n3. India is a signatory to this Convention.\n4. Its protocols address specific pollutants including sulphur, nitrogen oxides and persistent organic pollutants.",
+    "options": [
+      "(a) 2, 3 and 4 only",
+      "(b) 1, 3 and 4 only",
+      "(c) 1, 2, 3 and 4",
+      "(d) 1, 2 and 4 only"
+    ],
+    "subject": "Environment",
+    "theme": "Global Initiatives",
+    "micro_topic": "CLRTAP Transboundary Air Pollution",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "Statements 1, 2 and 4 are correct. Statement 3 is incorrect: the CLRTAP is a UNECE convention focused on European/North American countries; India is NOT a signatory."
+  },
+  {
+    "id": 301,
+    "question": "Consider the following statements about Biosphere Reserves in India:\n1. Biosphere Reserves are designated under the UNESCO Man and the Biosphere Programme.\n2. They have a three-zone structure: a core zone, buffer zone and transition zone.\n3. Biosphere Reserves in India are established under the Wildlife Protection Act, 1972.\n4. The Nilgiri Biosphere Reserve was India's first Biosphere Reserve.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 1, 2, 3 and 4",
+      "(c) 1, 2 and 4 only",
+      "(d) 2, 3 and 4 only"
+    ],
+    "subject": "Environment",
+    "theme": "Conservation",
+    "micro_topic": "Biosphere Reserves India",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(c)",
+    "explanation": "Statements 1, 2 and 4 are correct. Statement 3 is incorrect: Biosphere Reserves in India are administrative designations under an executive order by the Ministry of Environment, not statutory designations under the Wildlife Protection Act. They have no separate legislation and are designated by the Government of India."
+  },
+  {
+    "id": 302,
+    "question": "Consider the following statements about the Minamata Convention on Mercury:\n1. It aims to protect human health and the environment from anthropogenic emissions and releases of mercury.\n2. India ratified the Minamata Convention in 2018.\n3. The Convention prohibits all uses of mercury including in thermometers.\n4. Artisanal and small-scale gold mining is a significant source of mercury pollution addressed by the Convention.",
+    "options": [
+      "(a) 1, 2, 3 and 4",
+      "(b) 1, 2 and 4 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 2, 3 and 4 only"
+    ],
+    "subject": "Environment",
+    "theme": "Global Initiatives",
+    "micro_topic": "Minamata Convention on Mercury",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(b)",
+    "explanation": "Statements 1, 2 and 4 are correct. Statement 3 is incorrect: the Convention does not ban ALL uses of mercury; it phases out or restricts specific uses and products where alternatives exist, but allows continued use in certain applications (e.g. dental amalgam has a phase-down, not a ban)."
+  },
+  {
+    "id": 303,
+    "question": "Consider the following statements on India's National Water Policy:\n1. Water is considered a national resource under the National Water Policy.\n2. The Policy prioritises water allocation in the order: drinking water first, followed by agriculture, hydropower, and industries.\n3. The National Water Policy 2012 supersedes the 2002 policy and emphasises basin-level management.\n4. India has enacted a comprehensive National Water Act governing all water resources.",
+    "options": [
+      "(a) 2, 3 and 4 only",
+      "(b) 1, 3 and 4 only",
+      "(c) 1, 2, 3 and 4",
+      "(d) 1, 2 and 3 only"
+    ],
+    "subject": "Environment",
+    "theme": "Water Resources",
+    "micro_topic": "National Water Policy",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: India does NOT have a comprehensive National Water Act. Water is primarily a State subject under the Constitution, and no single national statute governs all water resources."
+  },
+  {
+    "id": 304,
+    "question": "Consider the following statements about the Aichi Biodiversity Targets:\n1. They were adopted under the Convention on Biological Diversity at the Nagoya Conference in 2010.\n2. They comprised 20 targets to be achieved by 2020, organised under five strategic goals.\n3. All 20 Aichi Targets were fully achieved by 2020.\n4. They were succeeded by the Kunming-Montreal Global Biodiversity Framework adopted in 2022.",
+    "options": [
+      "(a) 2, 3 and 4 only",
+      "(b) 1, 2, 3 and 4",
+      "(c) 1, 2 and 4 only",
+      "(d) 1, 3 and 4 only"
+    ],
+    "subject": "Environment",
+    "theme": "Global Initiatives",
+    "micro_topic": "Aichi Biodiversity Targets",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(c)",
+    "explanation": "Statements 1, 2 and 4 are correct. Statement 3 is incorrect: the global assessment showed that NONE of the 20 Aichi Targets were fully achieved by 2020 — biodiversity loss continued, making the GBF's adoption in 2022 all the more urgent."
+  },
+  {
+    "id": 305,
+    "question": "Consider the following statements about India's biodiversity and endemic species:\n1. The Western Ghats and Sri Lanka together form one of the world's most important biodiversity hotspots for plants and vertebrates.\n2. The Indian Purple Frog (Nasikabatrachus sahyadrensis) is a species endemic to the Western Ghats, notable for its evolutionary age.\n3. The Great Indian Bustard is found predominantly in Rajasthan and is listed as Critically Endangered.\n4. The Four-horned Antelope (Chousingha) is the world's only wild bovid with four horns and is endemic to India.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 2 and 3 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "Environment",
+    "theme": "Biodiversity",
+    "micro_topic": "Endemic Species India",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "All four are correct. The Western Ghats-Sri Lanka hotspot is among the world's most important. The Indian Purple Frog is a deep-lineage endemic to the Western Ghats. The Great Indian Bustard is Critically Endangered and found mainly in Rajasthan. The four-horned antelope is the only wild bovid with four horns, endemic to India."
+  },
+  {
+    "id": 306,
+    "question": "Consider the following statements on the Swachh Bharat Mission:\n1. It was launched in October 2014, on the 150th birth anniversary of Mahatma Gandhi.\n2. It has two components: Swachh Bharat Mission (Gramin) for rural areas and Swachh Bharat Mission (Urban) for cities.\n3. The urban component aims for 100% scientific management of solid waste and open-defecation-free cities.\n4. Both components are implemented exclusively by the Ministry of Environment, Forest and Climate Change.",
+    "options": [
+      "(a) 1, 2 and 4 only",
+      "(b) 1, 2 and 3 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 3 and 4 only"
+    ],
+    "subject": "Environment",
+    "theme": "Sanitation",
+    "micro_topic": "Swachh Bharat Mission",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(b)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: SBM-Gramin is implemented by the Ministry of Jal Shakti (earlier Ministry of Drinking Water and Sanitation) and SBM-Urban by the Ministry of Housing and Urban Affairs — not by MoEFCC."
+  },
+  {
+    "id": 307,
+    "question": "Consider the following statements about ecosystem services:\n1. Provisioning services include food, freshwater, timber and medicinal plants.\n2. Regulating services include climate regulation, water purification and disease control.\n3. Cultural services refer to the non-material benefits such as recreation, aesthetic value and spiritual significance.\n4. Supporting services such as nutrient cycling and photosynthesis directly benefit humans in the same way as provisioning services.",
+    "options": [
+      "(a) 2, 3 and 4 only",
+      "(b) 1, 3 and 4 only",
+      "(c) 1, 2, 3 and 4",
+      "(d) 1, 2 and 3 only"
+    ],
+    "subject": "Environment",
+    "theme": "Ecology",
+    "micro_topic": "Ecosystem Services",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(d)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: supporting services underpin all other services but do NOT directly benefit humans in the same immediate way as provisioning services — they are indirect, foundational ecosystem functions. This is precisely why they are classified separately."
+  },
+  {
+    "id": 308,
+    "question": "Consider the following statements about coral reef ecosystems:\n1. Coral reefs occupy less than 1% of the ocean floor but support about 25% of all marine species.\n2. Coral bleaching is permanent damage — once bleached, corals never recover.\n3. Ocean acidification reduces the availability of carbonate ions that corals need to build their calcium carbonate skeletons.\n4. The Lakshadweep islands and Andaman and Nicobar Islands are two major coral reef areas in India.",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 1, 2 and 4 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 2, 3 and 4 only"
+    ],
+    "subject": "Environment",
+    "theme": "Marine Ecology",
+    "micro_topic": "Coral Reef Ecosystems",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(c)",
+    "explanation": "Statement 1 is correct: coral reefs are among the most biodiverse ecosystems. Statement 2 is incorrect: bleaching is not always permanent — if stressors are removed, corals can expel bleaching and recover, though severe or prolonged bleaching leads to mortality. Statement 3 is correct: acidification reduces carbonate ion concentration, hindering calcification. Statement 4 is correct: both island groups have significant coral reefs."
+  },
+  {
+    "id": 309,
+    "question": "With reference to the Clean Development Mechanism (CDM) and carbon markets under the UNFCCC, consider the following statements:\n1. The CDM was established under the Kyoto Protocol, allowing developed countries to earn emission credits by funding projects in developing countries.\n2. CDM projects generate Certified Emission Reductions that can be used to meet Kyoto Protocol commitments.\n3. Article 6 of the Paris Agreement establishes the successor framework for international carbon markets.\n4. India was one of the largest hosts of CDM projects globally.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 2 and 3 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "Environment",
+    "theme": "Climate Change",
+    "micro_topic": "Carbon Markets and CDM",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "All four are correct. The CDM was established under the Kyoto Protocol. CDM projects generate CERs. Article 6 of the Paris Agreement provides the new international carbon market framework. And India was indeed among the top CDM project hosts globally."
+  },
+  {
+    "id": 310,
+    "question": "Consider the following statements on the National Action Plan for Climate Change and State Action Plans:\n1. States are required to prepare State Action Plans on Climate Change (SAPCCs) aligned with the NAPCC.\n2. SAPCCs are prepared under the guidance of the Ministry of Environment, Forest and Climate Change.\n3. Every State has completed and is implementing its SAPCC as of 2024.\n4. SAPCCs identify State-specific vulnerabilities and adaptation and mitigation measures.",
+    "options": [
+      "(a) 1, 2, 3 and 4",
+      "(b) 1, 2 and 4 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 2, 3 and 4 only"
+    ],
+    "subject": "Environment",
+    "theme": "Climate Change",
+    "micro_topic": "State Action Plans on Climate Change",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(b)",
+    "explanation": "Statements 1, 2 and 4 are correct. Statement 3 is incorrect: while most States have prepared SAPCCs, implementation has been uneven and some plans remain at varying stages — the statement 'every State has completed' overstates the reality."
+  },
+  {
+    "id": 311,
+    "question": "Consider the following statements about the Environmental Impact Assessment notification in India:\n1. It was originally issued under the Environment Protection Act, 1986.\n2. EIA 2006 notification made public hearings mandatory for all categories of projects.\n3. Projects are categorised as Category A (national level clearance) and Category B (State level clearance).\n4. The EIA notification was amended in 2020, which generated significant public controversy.",
+    "options": [
+      "(a) 2, 3 and 4 only",
+      "(b) 1, 2 and 3 only",
+      "(c) 1, 2, 3 and 4",
+      "(d) 1, 3 and 4 only"
+    ],
+    "subject": "Environment",
+    "theme": "Conservation Laws",
+    "micro_topic": "Environmental Impact Assessment",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "Statements 1, 3 and 4 are correct. Statement 2 is incorrect: the EIA 2006 notification does NOT mandate public hearings for ALL project categories — certain categories and sub-categories are exempted from public consultation."
+  },
+  {
+    "id": 312,
+    "question": "With reference to the Himalayan states and climate vulnerability, consider the following statements:\n1. The Himalayan ecosystem is classified as one of the most vulnerable to climate change due to glacial retreat and permafrost thaw.\n2. Studies show Himalayan glaciers are retreating faster than the global average, threatening water security of major rivers.\n3. India has developed a National Himalayan Ecosystem Sustaining Livelihoods programme (HEAL) for conservation.\n4. The National Mission for Sustaining the Himalayan Ecosystem is one of the eight missions under NAPCC.",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 1, 2 and 4 only"
+    ],
+    "subject": "Environment",
+    "theme": "Climate Change",
+    "micro_topic": "Himalayan Ecosystem and NAPCC",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "Statements 1, 2 and 4 are correct. Statement 3 is incorrect: 'HEAL' is not the standard name for such a programme; the relevant NAPCC mission is the National Mission for Sustaining the Himalayan Ecosystem (NMSHE). The HEAL acronym is used for other contexts."
+  },
+  {
+    "id": 313,
+    "question": "Consider the following statements about the Delhi Sultanate:\n1. Qutb-ud-din Aibak, founder of the Slave (Mamluk) dynasty, began construction of the Qutb Minar in Delhi.\n2. Alauddin Khalji established a market control system with fixed prices to support his military campaigns.\n3. The Sayyid dynasty preceded the Lodi dynasty in Delhi.\n4. Muhammad bin Tughlaq's decision to shift the capital from Delhi to Daulatabad was an enduring success.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 1, 2 and 4 only",
+      "(c) 1, 2 and 3 only",
+      "(d) 2, 3 and 4 only"
+    ],
+    "subject": "History",
+    "theme": "Medieval India",
+    "micro_topic": "Delhi Sultanate",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(c)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: Muhammad bin Tughlaq's capital transfer to Daulatabad was a disastrous failure — the population suffered enormously during the forced migration and the plan was ultimately abandoned."
+  },
+  {
+    "id": 314,
+    "question": "Consider the following statements about Bhakti and Sufi movements in medieval India:\n1. Kabir's teachings transcended religious boundaries, rejecting both Hindu rituals and Muslim orthodoxy.\n2. The Chishti Sufi order, which includes saints like Nizamuddin Auliya, was known for its emphasis on music (sama) as a path to spiritual experience.\n3. Mirabai was a poet-saint devoted to Krishna and associated with the Vaishnava Bhakti tradition in Rajasthan.\n4. The Bhakti movement reinforced the caste system through its emphasis on devotion over caste status.",
+    "options": [
+      "(a) 1, 2 and 4 only",
+      "(b) 1, 2 and 3 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 3 and 4 only"
+    ],
+    "subject": "History",
+    "theme": "Medieval India",
+    "micro_topic": "Bhakti and Sufi Movements",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(b)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: the Bhakti movement CHALLENGED the caste system — saints from lower castes (Kabir, Ravidas, Tukaram) and women (Mirabai) participated equally, and the movement emphasised that devotion transcended caste distinctions."
+  },
+  {
+    "id": 315,
+    "question": "Consider the following statements about the revolt of 1857:\n1. The immediate trigger was the introduction of cartridges greased with the fat of cows and pigs for the Enfield rifle.\n2. Bahadur Shah Zafar was proclaimed the symbolic leader of the revolt.\n3. The revolt was widespread and uniform across the entire Indian subcontinent.\n4. The revolt led to the end of the East India Company's rule and direct Crown rule over India.",
+    "options": [
+      "(a) 2, 3 and 4 only",
+      "(b) 1, 3 and 4 only",
+      "(c) 1, 2, 3 and 4",
+      "(d) 1, 2 and 4 only"
+    ],
+    "subject": "History",
+    "theme": "Modern India",
+    "micro_topic": "Revolt of 1857",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(d)",
+    "explanation": "Statements 1, 2 and 4 are correct. Statement 3 is incorrect: the revolt was geographically uneven — it was most intense in northern and central India (UP, Bihar, MP, Delhi) and there were major areas (Punjab, Bengal, Madras, Bombay) that remained largely under British control or did not participate significantly."
+  },
+  {
+    "id": 316,
+    "question": "Consider the following statements about the Indian National Congress's early phases:\n1. The INC was founded in 1885 by A.O. Hume, a retired British civil servant.\n2. The early (Moderate) phase of the Congress relied on methods of petitions, memorials and delegations to seek reforms.\n3. The Moderates believed in the goodwill of British administrators and the efficacy of constitutional agitation.\n4. Bal Gangadhar Tilak, Bipin Chandra Pal and Lala Lajpat Rai were prominent Moderates.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 1, 2, 3 and 4",
+      "(c) 1, 2 and 3 only",
+      "(d) 2, 3 and 4 only"
+    ],
+    "subject": "History",
+    "theme": "Modern India",
+    "micro_topic": "Early Congress and Moderates",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(c)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: Bal Gangadhar Tilak, Bipin Chandra Pal and Lala Lajpat Rai (the Lal-Bal-Pal trio) were the leading EXTREMISTS (or Assertivists), not Moderates. They opposed the constitutional-petition approach of the Moderates."
+  },
+  {
+    "id": 317,
+    "question": "With reference to the Mauryan administration and society, consider the following statements:\n1. The Mauryan state had a highly centralised administration with a well-organised bureaucracy.\n2. Ashoka's Dhamma was a new religion he created, distinct from Buddhism.\n3. The Arthashastra, attributed to Kautilya (Chanakya), provides a detailed treatise on statecraft and economic policy.\n4. The rock edicts of Ashoka were written in Brahmi script in most parts of the empire.",
+    "options": [
+      "(a) 1, 2, 3 and 4",
+      "(b) 1, 3 and 4 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 2 and 3 only"
+    ],
+    "subject": "History",
+    "theme": "Ancient India",
+    "micro_topic": "Mauryan Empire Administration",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(b)",
+    "explanation": "Statements 1, 3 and 4 are correct. Statement 2 is incorrect: Ashoka's Dhamma was NOT a new religion; it was a code of ethical conduct and social responsibility drawing on universal values — tolerance, non-violence, respect for all religions. Ashoka was a Buddhist but Dhamma was broader than Buddhism."
+  },
+  {
+    "id": 318,
+    "question": "Consider the following statements on the Constitutional history of India:\n1. The Indian National Congress first demanded complete independence (Purna Swaraj) at its Lahore session in 1929.\n2. The Cripps Mission (1942) proposed Dominion Status for India after the war with the right to secede from the Commonwealth.\n3. The Cabinet Mission Plan (1946) accepted the demand for a completely sovereign Pakistan.\n4. Constituent Assembly members were elected by the provincial assemblies constituted under the 1935 Act.",
+    "options": [
+      "(a) 1, 2 and 4 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "History",
+    "theme": "Constitutional History",
+    "micro_topic": "Constitutional Development India",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(a)",
+    "explanation": "Statements 1, 2 and 4 are correct. Statement 3 is incorrect: the Cabinet Mission Plan REJECTED the demand for a fully sovereign Pakistan; it proposed a loose union of provinces with a weak Centre and grouping of provinces, rather than partition."
+  },
+  {
+    "id": 319,
+    "question": "Consider the following statements on the economic and social impact of British colonialism:\n1. The drain of wealth theory was articulated by Dadabhai Naoroji in his work 'Poverty and Un-British Rule in India'.\n2. Colonial economic policy led to de-industrialisation particularly in the textile sector.\n3. The Permanent Settlement of 1793 was introduced in all parts of British India simultaneously.\n4. The Ryotwari system established a direct settlement between the State and the cultivator.",
+    "options": [
+      "(a) 1, 2 and 4 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "History",
+    "theme": "Modern India",
+    "micro_topic": "Colonial Economic Impact",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(a)",
+    "explanation": "Statements 1, 2 and 4 are correct. Statement 3 is incorrect: the Permanent Settlement was introduced in Bengal, Bihar and Orissa in 1793 — not simultaneously across all of British India. Different systems (Ryotwari, Mahalwari) applied in other regions."
+  },
+  {
+    "id": 320,
+    "question": "Consider the following statements about Indian classical music traditions:\n1. Hindustani music predominantly uses the raag system and has been influenced by Persian and Central Asian musical traditions.\n2. Carnatic music is rooted in compositions by the Trinity — Tyagaraja, Muthuswami Dikshitar and Syama Sastri.\n3. Both Hindustani and Carnatic traditions use the same set of ragas and talas.\n4. The Gharana system in Hindustani music represents distinct stylistic schools of performance.",
+    "options": [
+      "(a) 1, 2 and 4 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 1, 2 and 3 only"
+    ],
+    "subject": "History",
+    "theme": "Art and Culture",
+    "micro_topic": "Indian Classical Music",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(a)",
+    "explanation": "Statements 1, 2 and 4 are correct. Statement 3 is incorrect: while both use the raag concept, Hindustani and Carnatic traditions have different ragas and different nomenclature (e.g., Bhairav in Hindustani is Mayamalavagowla in Carnatic), and their tala systems are also distinct."
+  },
+  {
+    "id": 321,
+    "question": "Consider the following statements on the art and architecture of the Gupta period:\n1. The Gupta period is often described as the 'Golden Age' of ancient India in arts, literature and science.\n2. Samudragupta was known as 'the Indian Napoleon' for his military campaigns described in the Allahabad Pillar inscription.\n3. The Ajanta cave paintings, considered masterpieces of Buddhist art, were created exclusively during the Gupta period.\n4. Kalidasa, author of Abhijnanasakuntalam and Meghaduta, is considered the greatest Sanskrit poet and flourished during the Gupta period.",
+    "options": [
+      "(a) 1, 2 and 4 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "History",
+    "theme": "Ancient India",
+    "micro_topic": "Gupta Period Arts and Literature",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(a)",
+    "explanation": "Statements 1, 2 and 4 are correct. Statement 3 is incorrect: the Ajanta cave paintings span a longer period — some early caves (Phase 1) are Hinayana and pre-Gupta (around 2nd century BCE to 1st century CE), while the famous Mahayana paintings (Phase 2) are from the Vakataka period (contemporaneous with the Guptas) — they were NOT created exclusively during the Gupta period."
+  },
+  {
+    "id": 322,
+    "question": "Consider the following statements on the Indian Ocean trade networks in medieval history:\n1. The Arab traders were dominant in the Indian Ocean trade before the arrival of the Portuguese.\n2. Vasco da Gama's arrival at Calicut in 1498 marked the beginning of European presence in Indian Ocean trade.\n3. The Malabar Coast was a major centre for the spice trade, particularly pepper.\n4. The Portuguese Estado da India used the 'cartaz' system to control Indian Ocean trade.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 2 and 3 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "History",
+    "theme": "Medieval India",
+    "micro_topic": "Indian Ocean Trade Networks",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "All four are correct. Arab traders dominated Indian Ocean trade. Vasco da Gama reached Calicut in 1498. The Malabar Coast (Kerala) was the pepper capital. And the Portuguese used cartazes (trading passes/licences) to monopolise Indian Ocean trade routes."
+  },
+  {
+    "id": 323,
+    "question": "Consider the following statements about India's physiographic divisions:\n1. The Peninsular Plateau is one of the oldest landmasses, formed from ancient crystalline, igneous and metamorphic rocks.\n2. The Great Plains of India are formed by the deposition of alluvium by the Indus, Ganga and Brahmaputra river systems.\n3. The Coastal Plains of India are entirely deltaic in origin.\n4. The Western Ghats and the Eastern Ghats meet at the Nilgiri Hills.",
+    "options": [
+      "(a) 1, 2 and 4 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "Geography",
+    "theme": "Physical Geography",
+    "micro_topic": "India Physiographic Divisions",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(a)",
+    "explanation": "Statements 1, 2 and 4 are correct. Statement 3 is incorrect: the coastal plains are not entirely deltaic — the western coastal plain is largely a narrow, non-deltaic plain (the Konkan, Kerala and Malabar coasts), while the eastern coastal plain has major deltaic regions. The coastal plains have multiple origins."
+  },
+  {
+    "id": 324,
+    "question": "Consider the following statements about Indian Ocean Monsoon dynamics:\n1. The differential heating of land and sea is the primary driver of the south-west monsoon over India.\n2. The low-pressure area that develops over the Thar Desert and adjoining areas in summer plays an important role in attracting monsoon winds.\n3. The onset of the south-west monsoon over Kerala is typically announced by the India Meteorological Department around 1st June.\n4. The Bay of Bengal branch of the monsoon reaches northeastern India before the Arabian Sea branch reaches the west coast.",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "Geography",
+    "theme": "Climatology",
+    "micro_topic": "Indian Monsoon Dynamics",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(a)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: the Arabian Sea branch reaches the southwest coast (Kerala) first, and then moves up the western coast. The Bay of Bengal branch reaches the northeast after crossing Bangladesh/Myanmar. The Arabian Sea branch does NOT reach Northeast India before the Bay of Bengal branch."
+  },
+  {
+    "id": 325,
+    "question": "Consider the following about the soil types and agriculture of India:\n1. Alluvial soils found in the Indo-Gangetic Plain are the most fertile and support the highest agricultural production.\n2. Black cotton soil (regur) is ideal for growing cotton because of its high moisture retention capacity.\n3. Laterite soils found in high rainfall regions are highly fertile and suitable for intensive cultivation.\n4. Red soils, though poor in nitrogen and humus, are suitable for millets and pulses with proper fertiliser application.",
+    "options": [
+      "(a) 1, 2 and 4 only",
+      "(b) 1, 3 and 4 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "Geography",
+    "theme": "Agricultural Geography",
+    "micro_topic": "Soil Types and Agriculture India",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(a)",
+    "explanation": "Statements 1, 2 and 4 are correct. Statement 3 is incorrect: laterite soils are typically infertile — they are leached of nutrients by heavy rainfall, leaving iron and aluminium oxides. They are NOT suitable for intensive cultivation without heavy soil amendment."
+  },
+  {
+    "id": 326,
+    "question": "Consider the following statements about India's rivers and their tributaries:\n1. The Son is a right-bank tributary of the Ganga.\n2. The Chambal is a tributary of the Yamuna.\n3. The Tungabhadra is a tributary of the Krishna River.\n4. The Bhima is a tributary of the Godavari.",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "Geography",
+    "theme": "River Systems",
+    "micro_topic": "Indian Rivers and Tributaries",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(a)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: the Bhima is a tributary of the KRISHNA River, not the Godavari."
+  },
+  {
+    "id": 327,
+    "question": "Consider the following statements about the agriculture and food production of India:\n1. India is the world's largest producer of milk, following the White Revolution.\n2. Operation Flood was the programme that led to the White Revolution, associated with Verghese Kurien.\n3. India is the world's second largest producer of rice and wheat after China.\n4. The Minimum Support Price for wheat and rice serves as a guaranteed purchase price that prevents market prices from falling below it everywhere in India.",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1, 2 and 3 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "Geography",
+    "theme": "Economic Geography",
+    "micro_topic": "Agriculture and Food Production India",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(b)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: while MSP is announced for crops, it does NOT guarantee prices in every market — actual market prices can and do fall below MSP in many regions. MSP procurement is primarily limited to wheat and rice by FCI and state agencies, and even then not all of the crop is procured."
+  },
+  {
+    "id": 328,
+    "question": "Consider the following statements about the Brahmaputra River and its basin:\n1. The Brahmaputra is one of the world's longest rivers and has the largest water discharge of any Indian river.\n2. It is known as the Yarlung Tsangpo in Tibet and the Jamuna in Bangladesh.\n3. The Brahmaputra valley in Assam is subject to severe annual flooding partly due to the river's braided channel and huge sediment load.\n4. The Brahmaputra flows into the Bay of Bengal after joining the Ganga and Meghna in Bangladesh.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 2 and 3 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "Geography",
+    "theme": "River Systems",
+    "micro_topic": "Brahmaputra River Basin",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(d)",
+    "explanation": "All four are correct. The Brahmaputra has massive discharge. It is Yarlung Tsangpo in Tibet and Jamuna in Bangladesh. The Assam valley is severely flood-prone. And the Brahmaputra merges with the Ganga and Meghna to discharge into the Bay of Bengal."
+  },
+  {
+    "id": 329,
+    "question": "Consider the following about urban geography and Smart Cities Mission:\n1. The Smart Cities Mission was launched in 2015 to promote sustainable and inclusive cities.\n2. It operates on an area-based development approach combined with pan-city solutions.\n3. The Mission initially covered 100 cities selected through a competitive process.\n4. Smart Cities are administered by a Special Purpose Vehicle (SPV) set up as a company.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 2 and 3 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "Geography",
+    "theme": "Urban Geography",
+    "micro_topic": "Smart Cities Mission India",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(d)",
+    "explanation": "All four are correct. The Smart Cities Mission was launched in June 2015, covering 100 cities competitively selected in rounds, following area-based development and pan-city solutions, with each city administered through a registered SPV company."
+  },
+  {
+    "id": 330,
+    "question": "Consider the following statements about India's coasts and its maritime geography:\n1. India has a coastline of about 7,500 km including the mainland coast and island territories.\n2. The Palk Strait separates India from Myanmar.\n3. The Gulf of Mannar is designated as a Marine National Park and Biosphere Reserve.\n4. The Exclusive Economic Zone of India extends 200 nautical miles from the baseline.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 2 and 3 only",
+      "(d) 1, 2 and 4 only"
+    ],
+    "subject": "Geography",
+    "theme": "Maritime Geography",
+    "micro_topic": "India Coastline and EEZ",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(a)",
+    "explanation": "Statements 1, 3 and 4 are correct. Statement 2 is incorrect: the Palk Strait separates India from SRI LANKA, not Myanmar. Myanmar is to the east, separated by the Bay of Bengal and Andaman Sea."
+  },
+  {
+    "id": 331,
+    "question": "Consider the following statements on the distribution of natural resources in India:\n1. The Damodar Valley in Jharkhand and West Bengal is often called the 'Ruhr of India' for its coal deposits.\n2. Kolar Gold Fields in Karnataka was the most productive gold mine in India historically.\n3. Rajasthan is the leading State in India for production of non-ferrous metals such as lead, zinc and copper.\n4. India is self-sufficient in petroleum crude oil production and does not import crude oil.",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 1, 2 and 4 only"
+    ],
+    "subject": "Geography",
+    "theme": "Economic Geography",
+    "micro_topic": "Natural Resources India",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(a)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: India imports about 80–85% of its crude oil requirements and is heavily dependent on oil imports, making it one of the world's largest crude oil importers."
+  },
+  {
+    "id": 332,
+    "question": "Consider the following statements about economic geography and industrial locations in India:\n1. Surat is famous for diamond cutting and polishing, processing a very large share of the world's rough diamonds.\n2. Ludhiana in Punjab is a major centre for hosiery and bicycle manufacturing.\n3. Tiruppur in Tamil Nadu is a major centre for knitwear and garment exports.\n4. Bhilai, Durgapur and Rourkela are major steel plants set up with Soviet assistance.",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 1, 2 and 4 only"
+    ],
+    "subject": "Geography",
+    "theme": "Economic Geography",
+    "micro_topic": "Industrial Locations India",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(a)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: Bhilai was set up with Soviet assistance; Durgapur with British assistance; and Rourkela with West German assistance. They were NOT all Soviet-aided projects."
+  },
+  {
+    "id": 333,
+    "question": "With reference to India's Act East Policy, consider the following statements:\n1. The Act East Policy is an evolved form of the Look East Policy, with a greater emphasis on strategic and security dimensions.\n2. It focuses on building economic, cultural and security ties with Southeast and East Asian nations.\n3. India became a full dialogue partner of ASEAN in 1996 and a Summit-level partner in 2002.\n4. The Act East Policy excludes Japan and Australia, focusing exclusively on ASEAN members.",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 1, 2 and 4 only"
+    ],
+    "subject": "International Relations",
+    "theme": "India's Foreign Policy",
+    "micro_topic": "Act East Policy",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(a)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: the Act East Policy encompasses Japan, Australia, South Korea, and other countries in the broader Indo-Pacific region — not exclusively ASEAN. Japan and Australia are key partners under this policy."
+  },
+  {
+    "id": 334,
+    "question": "Consider the following statements about the United Nations Security Council:\n1. The UNSC has five permanent members and ten non-permanent members elected for two-year terms.\n2. Procedural matters require an affirmative vote of at least nine members, with no veto power for permanent members.\n3. India is currently a permanent member of the UNSC.\n4. The UNSC can authorise the use of force under Chapter VII of the UN Charter.",
+    "options": [
+      "(a) 1, 2 and 4 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 1, 2 and 3 only"
+    ],
+    "subject": "International Relations",
+    "theme": "United Nations",
+    "micro_topic": "UN Security Council",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(a)",
+    "explanation": "Statements 1, 2 and 4 are correct. Statement 3 is incorrect: India is NOT a permanent member of the UNSC. India has been elected as a non-permanent member several times and is an active advocate for UNSC reform with a permanent seat, but has not yet achieved permanent membership."
+  }
+]
