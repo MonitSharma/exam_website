@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the revised Wholesale Price Index (WPI) and the new Producer Price Index (PPI) launched in June 2026, consider the following statements:\n1. The base year of the WPI has been revised from 2011-12 to 2022-23.\n2. The new PPI framework consists of three indices - Output PPI, Input PPI and Service PPI.\n3. They are released by the Office of the Economic Adviser under the Department for Promotion of Industry and Internal Trade (DPIIT).\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. On 15 June 2026, the Office of the Economic Adviser (DPIIT, Ministry of Commerce & Industry) released the revised WPI series with base year shifted from 2011-12 to 2022-23 (items raised from 697 to 957) and debuted India's new Producer Price Index, comprising Output PPI, Input PPI and Service PPI. The WPI and PPI will run in parallel for five years before WPI is discontinued.",
+    "subject": "Economy",
+    "theme": "Price indices & inflation measurement",
+    "micro_topic": "WPI base-year revision (2022-23) & launch of Producer Price Index",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The 'Innovation Roadmap 2030', adopted in June 2026, is associated with India's bilateral partnership with which one of the following countries?",
+    "options": [
+      "(a) Germany",
+      "(b) France",
+      "(c) Japan",
+      "(d) Australia"
+    ],
+    "answer": "(b)",
+    "explanation": "India and France adopted the 'India-France Innovation Roadmap 2030' on 14 June 2026 during the first leg of PM Modi's France visit, alongside 13 outcomes spanning AI, startups, space, education and emerging technologies. It includes a Joint India-France AI Working Group and builds on the 17 February 2026 decision to elevate ties to a 'Special Global Strategic Partnership' and launch the India-France Year of Innovation 2026.",
+    "subject": "International Relations",
+    "theme": "India's bilateral relations - Europe",
+    "micro_topic": "India-France Innovation Roadmap 2030",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the National Sports Governance Act, 2025, consider the following statements regarding the National Sports Board (Search-cum-Selection Committee):\n1. The Committee is chaired by the Cabinet Secretary.\n2. It recommends a panel of names for the Chairperson and members of the National Sports Board.\n3. The Act also provides for a National Sports Tribunal to resolve sports disputes.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. Under the National Sports Governance Act, 2025, the Centre constituted the Search-cum-Selection Committee chaired by the Cabinet Secretary (with Secretary-Sports, a sports administration expert and two national sports award recipients) to recommend the Chairperson and members of the National Sports Board. The Act also establishes a National Sports Tribunal for speedy resolution of sports disputes.",
+    "subject": "Polity & Governance",
+    "theme": "Sports governance & statutory bodies",
+    "micro_topic": "National Sports Governance Act 2025 / National Sports Board",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]

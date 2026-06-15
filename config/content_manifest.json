@@ -12,6 +12,24 @@
   ],
   "questionSets": [
     {
+      "id": "daily_questions_2026_06_15",
+      "label": "Daily Questions - 15 Jun 2026",
+      "shortLabel": "Daily 15 Jun",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-06-15.json",
+      "isoDate": "2026-06-15",
+      "subjects": [
+        "International Relations",
+        "Science & Technology",
+        "Environment",
+        "Economy",
+        "Polity"
+      ]
+    },
+    {
       "id": "daily_questions_2026_06_14",
       "label": "Daily Questions - 14 Jun 2026",
       "shortLabel": "Daily 14 Jun",
@@ -169,6 +187,40 @@
       ]
     },
     {
+      "id": "daily_rc_2026_06_15",
+      "label": "Daily RC Drill - 15 Jun 2026",
+      "shortLabel": "RC 15 Jun",
+      "category": "Daily Reading Comprehension",
+      "sourceType": "rc",
+      "questionCount": 4,
+      "durationMinutes": 8,
+      "path": "generated_data/rc_questions/2026-06-15.json",
+      "isoDate": "2026-06-15",
+      "paper": "GS Paper II (CSAT)",
+      "marksPerCorrect": 2,
+      "negativeMark": -0.66,
+      "subjects": [
+        "Reading Comprehension"
+      ]
+    },
+    {
+      "id": "daily_rc_2026_06_14",
+      "label": "Daily RC Drill - 14 Jun 2026",
+      "shortLabel": "RC 14 Jun",
+      "category": "Daily Reading Comprehension",
+      "sourceType": "rc",
+      "questionCount": 4,
+      "durationMinutes": 8,
+      "path": "generated_data/rc_questions/2026-06-14.json",
+      "isoDate": "2026-06-14",
+      "paper": "GS Paper II (CSAT)",
+      "marksPerCorrect": 2,
+      "negativeMark": -0.66,
+      "subjects": [
+        "Reading Comprehension"
+      ]
+    },
+    {
       "id": "daily_rc_2026_06_12",
       "label": "Daily RC Drill - 12 Jun 2026",
       "shortLabel": "RC 12 Jun",
@@ -234,6 +286,22 @@
       "negativeMark": -0.66,
       "subjects": [
         "Reading Comprehension"
+      ]
+    },
+    {
+      "id": "pib_questions_2026_06_15",
+      "label": "PIB Questions - 15 Jun 2026",
+      "shortLabel": "PIB 15 Jun",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-06-15.json",
+      "isoDate": "2026-06-15",
+      "subjects": [
+        "Economy",
+        "International Relations",
+        "Polity & Governance"
       ]
     },
     {
@@ -630,6 +698,14 @@
   ],
   "noteDocuments": [
     {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-06-15",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "15 Jun 2026",
+      "date": "2026-06-15",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-06-15.md"
+    },
+    {
       "id": "daily-daily-current-affairs-upsc-ca-2026-06-14",
       "cadence": "daily",
       "title": "UPSC Daily CA Briefing",
@@ -710,6 +786,14 @@
       "path": "weekly/Physics/Physics_Drill_2026-06-10.md"
     },
     {
+      "id": "daily-daily-pib-pib-2026-06-15",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 15 Jun",
+      "date": "2026-06-15",
+      "path": "daily/daily_pib/PIB_2026-06-15.md"
+    },
+    {
       "id": "daily-daily-pib-pib-2026-06-14",
       "cadence": "pib",
       "title": "Daily PIB Briefing",
@@ -740,6 +824,22 @@
       "shortTitle": "PIB - 11 Jun",
       "date": "2026-06-11",
       "path": "daily/daily_pib/PIB_2026-06-11.md"
+    },
+    {
+      "id": "daily-daily-reading-comprehension-rc-drill-2026-06-15",
+      "cadence": "rc",
+      "title": "CSAT Daily RC Drill",
+      "shortTitle": "RC - 15 Jun",
+      "date": "2026-06-15",
+      "path": "daily/daily_reading_comprehension/RC_Drill_2026-06-15.md"
+    },
+    {
+      "id": "daily-daily-reading-comprehension-rc-drill-2026-06-14",
+      "cadence": "rc",
+      "title": "CSAT Daily RC Drill",
+      "shortTitle": "RC - 14 Jun",
+      "date": "2026-06-14",
+      "path": "daily/daily_reading_comprehension/RC_Drill_2026-06-14.md"
     },
     {
       "id": "daily-daily-reading-comprehension-rc-drill-2026-06-12",
@@ -812,6 +912,14 @@
       "shortTitle": "Week of 07 Jun",
       "date": "2026-06-07",
       "path": "weekly/Sunday/Sunday_Sweep_2026-06-07.md"
+    },
+    {
+      "id": "weekly-csat-csat-pyq-2026-06-15",
+      "cadence": "weekly-csat",
+      "title": "CSAT PYQ Plan",
+      "shortTitle": "PYQ - 15 Jun",
+      "date": "2026-06-15",
+      "path": "weekly/CSAT/CSAT_PYQ_2026-06-15.md"
     },
     {
       "id": "weekly-csat-csat-practice-2026-06-09",

@@ -143,7 +143,8 @@ function parseInlineOptions(line) {
 
 function parseMdAnswerMap(answerText) {
   const answers = new Map();
-  const matches = [...String(answerText || "").matchAll(/^\s*(?:\*\*)?(?:Q)?(\d+)(?:\.|\s*[—-])\s*(?:\(([a-dA-D])\)|\*\*([A-Da-d])\*\*|([A-Da-d]))(?:\.\*\*|\*\*)?[\s.:—-]*([^\n]+(?:\n(?!\s*(?:\*\*)?(?:Q)?\d+(?:\.|\s*[—-])\s*(?:\([a-dA-D]\)|\*\*[A-Da-d]\*\*|[A-Da-d])).*)*)/gm)];
+  const answerLead = String.raw`\s*(?:\*\*)?(?:Q)?(\d+)(?:\.|\s*[—\-→])\s*(?:\(([a-dA-D])\)|\*\*([A-Da-d])\*\*|([A-Da-d]))`;
+  const matches = [...String(answerText || "").matchAll(new RegExp(`^${answerLead}(?:\\.\\*\\*|\\.\\s*\\*\\*|\\*\\*)?[\\s.:—-]*([^\\n]+(?:\\n(?!${answerLead}).*)*)`, "gm"))];
   for (const match of matches) {
     answers.set(Number(match[1]), {
       answer: optionKeyFromLabel(match[2] || match[3] || match[4]),
@@ -161,7 +162,7 @@ function parseDailyRcMarkdown(absPath, isoDate) {
   const text = readText(absPath);
   const passage = splitMarkdownSection(text, "Passage").replace(/\n---+\s*$/, "").trim();
   const questionSection = splitMarkdownSection(text, "Questions");
-  const answerSection = splitMarkdownSection(text, "Answers");
+  const answerSection = splitMarkdownSection(text, "Answers") || splitMarkdownSection(text, "Answer Key");
   const answers = parseRcAnswerMap(answerSection);
   return parseMdQuestions(questionSection).map((item) => {
     const answer = answers.get(item.number) || {};

@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to the 52nd G7 Summit (June 2026), consider the following statements: 1. The summit was hosted by France at Evian-les-Bains. 2. India participated as a full member of the G7. 3. Japan and Canada are members of the G7. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "G7 was hosted by France at Evian; Japan and Canada are members. India attends as an invitee/partner nation, not a member, so statement 2 is wrong.",
+    "subject": "International Relations",
+    "theme": "Multilateral groupings",
+    "micro_topic": "G7 and India's participation",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The 'AD-1' and 'AD-2' interceptors, in the news recently, are associated with which of the following?",
+    "options": [
+      "(a) India's anti-satellite (ASAT) programme",
+      "(b) India's Phase-II Ballistic Missile Defence system",
+      "(c) A hypersonic glide vehicle programme",
+      "(d) Submarine-launched cruise missiles"
+    ],
+    "answer": "(b)",
+    "explanation": "AD-1 and AD-2 are the Phase-II Ballistic Missile Defence interceptors (exo- and endo-atmospheric), tested by DRDO on 10-11 June 2026 at ITR Chandipur, Odisha.",
+    "subject": "Science & Technology",
+    "theme": "Defence technology",
+    "micro_topic": "Ballistic Missile Defence (BMD)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With recent additions in 2026, the number of Ramsar Sites (Wetlands of International Importance) in India is closest to:",
+    "options": [
+      "(a) 75",
+      "(b) 85",
+      "(c) 100",
+      "(d) 120"
+    ],
+    "answer": "(c)",
+    "explanation": "India's Ramsar tally reached the 100 milestone in 2026 (the figure varies marginally across trackers; 100 is the milestone count).",
+    "subject": "Environment",
+    "theme": "Wetland conservation",
+    "micro_topic": "Ramsar Sites in India",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The 'Fully Accessible Route (FAR)', recently expanded by the RBI, is best described as:",
+    "options": [
+      "(a) A retail UPI cross-border payment corridor",
+      "(b) A channel allowing non-residents to invest, without a ceiling, in specified Government securities",
+      "(c) A priority-sector lending window for agriculture",
+      "(d) A gold monetisation deposit scheme"
+    ],
+    "answer": "(b)",
+    "explanation": "FAR (introduced 2020) lets eligible non-residents invest without any quantitative ceiling in specified G-secs; in June 2026 it was extended to all new 15/30/40-year tenor G-secs.",
+    "subject": "Economy",
+    "theme": "Debt market and capital flows",
+    "micro_topic": "Fully Accessible Route / FPI in G-secs",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Supreme Court's June 2026 ruling on homemakers in motor-accident compensation is notable for which of the following? 1. It created a distinct compensation head called 'Loss of Domestic Care'. 2. It fixed a notional monthly income benchmark of Rs 30,000 for homemakers. 3. It relied on India's Time Use Survey to value unpaid domestic work.",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct: the Court created a 'Loss of Domestic Care' head, set a Rs 30,000/month notional income benchmark, and cited India's Time Use Survey to value unpaid domestic work.",
+    "subject": "Polity",
+    "theme": "Judiciary and society",
+    "micro_topic": "Compensation under Motor Vehicles Act / care economy",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements about the Ramsar Convention and the Montreux Record: 1. The Ramsar Convention on Wetlands was adopted in 1971 in Ramsar, Iran. 2. The Montreux Record lists wetlands whose ecological character has changed or is likely to change due to human interference. 3. Keoladeo National Park and Loktak Lake are the two Indian sites currently on the Montreux Record. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All correct: Ramsar Convention adopted 1971 at Ramsar, Iran; Montreux Record tracks wetlands with threatened ecological character; India's two current Montreux sites are Keoladeo NP (Rajasthan) and Loktak Lake (Manipur).",
+    "subject": "Environment",
+    "theme": "Wetland conservation framework",
+    "micro_topic": "Ramsar Convention and Montreux Record",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "In the classification of ballistic missiles by range, an 'Intermediate-Range Ballistic Missile (IRBM)' generally has a range of:",
+    "options": [
+      "(a) Less than 1,000 km",
+      "(b) 1,000-3,000 km",
+      "(c) 3,000-5,500 km",
+      "(d) More than 5,500 km"
+    ],
+    "answer": "(c)",
+    "explanation": "IRBMs are conventionally defined as 3,000-5,500 km. (SRBM < 1,000 km; MRBM 1,000-3,000 km; ICBM > 5,500 km.)",
+    "subject": "Science & Technology",
+    "theme": "Defence technology",
+    "micro_topic": "Ballistic missile range classification",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  }
+]
