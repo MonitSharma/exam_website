@@ -594,6 +594,23 @@
       ]
     },
     {
+      "id": "ai_generated_batch_4",
+      "label": "AI Generated Questions - Batch 4",
+      "shortLabel": "AI Batch 4",
+      "category": "AI Generated Practice",
+      "sourceType": "ai",
+      "questionCount": 100,
+      "durationMinutes": 120,
+      "path": "generated_questions/ai_generated_questions/batch_4.json",
+      "subjects": [
+        "Science & Technology",
+        "Governance",
+        "Economy",
+        "International Relations",
+        "Polity"
+      ]
+    },
+    {
       "id": "csr_batch_1",
       "label": "CSR Monthly Mock · Batch 1",
       "shortLabel": "CSR Batch 1",

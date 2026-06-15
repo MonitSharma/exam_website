@@ -327,9 +327,16 @@ function NotesLibrary() {
   const docs = ds.noteDocuments.filter((doc) => doc.cadence === activeCadence);
   const docIds = docs.map((doc) => doc.id).join("|");
   const [selectedId, setSelectedId] = useStateHome(docs[0]?.id || null);
+  const [monthFilter, setMonthFilter] = useStateHome("latest");
   const [noteState, setNoteState] = useStateHome({ loading: false, error: "", note: null, content: "" });
+  const monthOptions = getNoteMonthOptions(docs);
+  const activeMonth = monthFilter === "all" || monthOptions.some((item) => item.key === monthFilter)
+    ? monthFilter
+    : monthOptions[0]?.key || "all";
+  const visibleDocs = activeMonth === "all" ? docs : docs.filter((doc) => noteMonthKey(doc) === activeMonth);
 
   useEffectHome(() => {
+    setMonthFilter(monthOptions[0]?.key || "all");
     setSelectedId(docs[0]?.id || null);
   }, [activeCadence, docIds]);
 
@@ -357,20 +364,37 @@ function NotesLibrary() {
           <span className="eyebrow small"><span className="eyebrow-line" /> Notes</span>
           <h3>Briefs, drills and strategy</h3>
         </div>
-        <div className="notes-tabs">
+        <div className="notes-tabs" role="tablist" aria-label="Notes categories">
           {tabs.map(([key, label]) => (
-            <button key={key} className={activeCadence === key ? "on" : ""} onClick={() => setCadence(key)}>{label}</button>
+            <button key={key} role="tab" aria-selected={activeCadence === key} className={activeCadence === key ? "on" : ""} onClick={() => setCadence(key)}>{label}</button>
           ))}
         </div>
       </div>
       <div className="notes-layout">
-        <aside className="notes-list">
-          {docs.length ? docs.map((doc) => (
+        <aside className="notes-side">
+          <div className="notes-list-tools">
+            <select
+              value={activeMonth}
+              onChange={(event) => {
+                const nextMonth = event.target.value;
+                const nextDocs = nextMonth === "all" ? docs : docs.filter((doc) => noteMonthKey(doc) === nextMonth);
+                setMonthFilter(nextMonth);
+                setSelectedId(nextDocs[0]?.id || null);
+              }}
+              aria-label="Note month">
+              {monthOptions.length ? monthOptions.map((item) => <option key={item.key} value={item.key}>{item.label}</option>) : <option value="all">No dates</option>}
+              {monthOptions.length > 1 && <option value="all">All dates</option>}
+            </select>
+            <span>{visibleDocs.length}</span>
+          </div>
+          <div className="notes-list">
+          {visibleDocs.length ? visibleDocs.map((doc) => (
             <button key={doc.id} className={selectedId === doc.id ? "on" : ""} onClick={() => setSelectedId(doc.id)}>
               <strong>{doc.title}</strong>
               <span>{doc.shortTitle}</span>
             </button>
           )) : <p>No {activeCadence} notes yet.</p>}
+          </div>
         </aside>
         <article className="note-reader">
           {noteState.loading && <p className="muted">Loading note...</p>}
@@ -381,6 +405,28 @@ function NotesLibrary() {
       </div>
     </section>
   );
+}
+
+function noteMonthKey(doc) {
+  return doc.date ? String(doc.date).slice(0, 7) : "undated";
+}
+
+function noteMonthLabel(monthKey) {
+  if (monthKey === "undated") return "Undated";
+  const [year, month] = monthKey.split("-").map(Number);
+  if (!year || !month) return monthKey;
+  return new Intl.DateTimeFormat("en-GB", { month: "short", year: "numeric", timeZone: "UTC" }).format(new Date(Date.UTC(year, month - 1, 1)));
+}
+
+function getNoteMonthOptions(docs) {
+  const seen = new Set();
+  return docs.reduce((items, doc) => {
+    const key = noteMonthKey(doc);
+    if (seen.has(key)) return items;
+    seen.add(key);
+    items.push({ key, label: noteMonthLabel(key) });
+    return items;
+  }, []);
 }
 
 function MarkdownView({ text }) {

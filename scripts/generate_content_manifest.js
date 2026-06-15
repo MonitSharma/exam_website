@@ -450,6 +450,22 @@ function addRawCsatQuestionSets(root, byId) {
   }
 }
 
+function addRawAiGeneratedQuestionSets(root, byId) {
+  const dir = path.join(root, "generated_questions", "ai_generated_questions");
+  for (const absPath of listTopLevelFiles(dir).filter((item) => /^batch_\d+\.json$/.test(path.basename(item)))) {
+    const base = path.basename(absPath, ".json");
+    const count = jsonRows(absPath).length;
+    if (!count) continue;
+    upsertQuestionSet(root, byId, {
+      id: `ai_generated_${base}`,
+      category: "AI Generated Practice",
+      sourceType: "ai",
+      durationMinutes: defaultDuration("ai", base, count),
+      path: relPath(root, absPath),
+    });
+  }
+}
+
 function addDailyRcQuestionSets(root, byId) {
   const dir = path.join(root, "daily", "daily_reading_comprehension");
   for (const absPath of listTopLevelFiles(dir).filter((item) => /^RC_Drill_\d{4}-\d{2}-\d{2}\.md$/.test(path.basename(item)))) {
@@ -651,6 +667,7 @@ function buildQuestionSets(root = DEFAULT_ROOT) {
   addRawDailyQuestionSets(root, byId);
   addRawPibQuestionSets(root, byId);
   addRawCsatQuestionSets(root, byId);
+  addRawAiGeneratedQuestionSets(root, byId);
   addDailyRcQuestionSets(root, byId);
   addWeeklyNewsQuestionSets(root, byId);
   addWeeklyQuizQuestionSets(root, byId);
