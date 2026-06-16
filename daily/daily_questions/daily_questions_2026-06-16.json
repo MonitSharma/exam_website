@@ -1,0 +1,79 @@
+[
+  {
+    "question": "With reference to the G7, consider the following statements: 1. India is a permanent member of the G7. 2. The G7 has no permanent secretariat or founding charter. 3. India participated in the 2026 G7 Summit as an invited partner/outreach country. Which of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(b)",
+    "explanation": "India is not a G7 member (St.1 wrong); the G7 has no permanent secretariat or charter (St.2 correct); India attended the 2026 G7 Summit at Evian, France, as an invited partner (St.3 correct).",
+    "subject": "International Relations",
+    "theme": "Multilateral and plurilateral groupings",
+    "micro_topic": "G7 — membership, structure, India as partner",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Consider the following statements about Slovakia, in the news in June 2026: 1. Slovakia is a member of both the European Union and NATO. 2. Slovakia has a coastline on the Baltic Sea. 3. India and Slovakia elevated their relationship to a 'Comprehensive Partnership' during the PM's June 2026 visit. Which of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(c)",
+    "explanation": "Slovakia is an EU and NATO member (St.1 correct) but is landlocked with no Baltic coast (St.2 wrong); India-Slovakia ties were raised to a Comprehensive Partnership in June 2026 (St.3 correct).",
+    "subject": "International Relations",
+    "theme": "India and Europe bilateral relations",
+    "micro_topic": "India-Slovakia Comprehensive Partnership; Slovakia geography",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The 'AD-1' and 'AD-2' interceptors, recently flight-tested by DRDO, are most closely associated with which of the following?",
+    "options": ["(a) India's Phase-II Ballistic Missile Defence programme", "(b) The anti-satellite (ASAT) weapon programme", "(c) A submarine-launched hypersonic glide vehicle", "(d) The indigenous air-defence gun system"],
+    "answer": "(a)",
+    "explanation": "AD-1 and AD-2 are India's Phase-II Ballistic Missile Defence interceptors, capable of engaging targets in both endo- and exo-atmospheric regions.",
+    "subject": "Science & Technology",
+    "theme": "Defence technology",
+    "micro_topic": "Ballistic Missile Defence (Phase-II) interceptors",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to inflation measurement and monetary policy in India, consider the following statements: 1. The Consumer Price Index (CPI) is compiled and released by the Reserve Bank of India. 2. The inflation target under the flexible inflation-targeting framework is set by the Central Government in consultation with the RBI. 3. The medium-term CPI inflation target is 4% within a tolerance band of 2% to 6%. Which of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(b)",
+    "explanation": "CPI is released by MoSPI/NSO, not the RBI (St.1 wrong); the inflation target is set by the Centre in consultation with the RBI (St.2 correct); the target is 4% with a 2-6% tolerance band (St.3 correct).",
+    "subject": "Economy",
+    "theme": "Inflation and monetary policy",
+    "micro_topic": "CPI release agency; flexible inflation-targeting framework",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements regarding the Global Peace Index (GPI) 2026: 1. It is published by the Institute for Economics and Peace (IEP). 2. Iceland was ranked the world's most peaceful country. 3. India was ranked among the top 50 most peaceful countries. Which of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(a)",
+    "explanation": "GPI is published by the Institute for Economics and Peace (St.1 correct); Iceland is the most peaceful country (St.2 correct); India was ranked around 127th of 163, not in the top 50 (St.3 wrong).",
+    "subject": "Reports & Indices",
+    "theme": "Global indices",
+    "micro_topic": "Global Peace Index 2026 — publisher, India's rank",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Consider the following pairs: 1. BrahMos — Supersonic cruise missile 2. Agni-V — Intercontinental ballistic missile 3. Prithvi — Surface-to-air missile. Which of the pairs given above are correctly matched?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(a)",
+    "explanation": "BrahMos is a supersonic cruise missile (correct) and Agni-V is an ICBM (correct); Prithvi is a surface-to-surface short-range ballistic missile, not surface-to-air (St.3 wrong).",
+    "subject": "Science & Technology",
+    "theme": "Defence technology (static)",
+    "micro_topic": "Missile classification — cruise vs ballistic; Indian missiles",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the instruments of monetary policy in India, consider the following statements: 1. An increase in the Cash Reserve Ratio (CRR) reduces the lending capacity of commercial banks. 2. The Statutory Liquidity Ratio (SLR) must be maintained entirely in the form of cash deposited with the RBI. 3. The Marginal Standing Facility (MSF) allows banks to borrow overnight from the RBI against approved securities. Which of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(c)",
+    "explanation": "A higher CRR reduces banks' lendable resources (St.1 correct); SLR can be held as cash, gold or approved securities by the bank itself, not solely as cash with the RBI (St.2 wrong); MSF is an overnight RBI borrowing window against securities (St.3 correct).",
+    "subject": "Economy",
+    "theme": "Monetary policy instruments (static)",
+    "micro_topic": "CRR, SLR, MSF",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  }
+]

@@ -12,6 +12,23 @@
   ],
   "questionSets": [
     {
+      "id": "daily_questions_2026_06_16",
+      "label": "Daily Questions - 16 Jun 2026",
+      "shortLabel": "Daily 16 Jun",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-06-16.json",
+      "isoDate": "2026-06-16",
+      "subjects": [
+        "International Relations",
+        "Science & Technology",
+        "Economy",
+        "Reports & Indices"
+      ]
+    },
+    {
       "id": "daily_questions_2026_06_15",
       "label": "Daily Questions - 15 Jun 2026",
       "shortLabel": "Daily 15 Jun",
@@ -286,6 +303,21 @@
       "negativeMark": -0.66,
       "subjects": [
         "Reading Comprehension"
+      ]
+    },
+    {
+      "id": "pib_questions_2026_06_16",
+      "label": "PIB Questions - 16 Jun 2026",
+      "shortLabel": "PIB 16 Jun",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-06-16.json",
+      "isoDate": "2026-06-16",
+      "subjects": [
+        "International Relations",
+        "Polity & Governance"
       ]
     },
     {
@@ -715,6 +747,14 @@
   ],
   "noteDocuments": [
     {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-06-16",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "16 Jun 2026",
+      "date": "2026-06-16",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-06-16.md"
+    },
+    {
       "id": "daily-daily-current-affairs-upsc-ca-2026-06-15",
       "cadence": "daily",
       "title": "UPSC Daily CA Briefing",
@@ -817,6 +857,14 @@
       "shortTitle": "10 Jun",
       "date": "2026-06-10",
       "path": "weekly/Physics/Physics_Drill_2026-06-10.md"
+    },
+    {
+      "id": "daily-daily-pib-pib-2026-06-16",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 16 Jun",
+      "date": "2026-06-16",
+      "path": "daily/daily_pib/PIB_2026-06-16.md"
     },
     {
       "id": "daily-daily-pib-pib-2026-06-15",

@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the 'Order of the White Double Cross', seen in the news in June 2026, consider the following statements:\n1. It is the highest civilian honour of Slovakia.\n2. It was conferred on the Indian Prime Minister during a State Visit, which also saw bilateral ties elevated to a 'Comprehensive Partnership'.\n3. Slovakia became an independent country following the dissolution of Yugoslavia.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Statements 1 and 2 are correct. During PM Modi's State Visit to Slovakia (14-16 June 2026), bilateral ties were elevated to a 'Comprehensive Partnership' and President Peter Pellegrini conferred the Order of the White Double Cross (First Class), Slovakia's highest civilian honour. Statement 3 is wrong: Slovakia became independent in 1993 after the dissolution of Czechoslovakia, not Yugoslavia.",
+    "subject": "International Relations",
+    "theme": "India's bilateral relations - Europe",
+    "micro_topic": "India-Slovakia Comprehensive Partnership & Order of the White Double Cross",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the SVAMITVA scheme, consider the following statements:\n1. It uses drone-based surveys of inhabited (abadi) rural areas.\n2. It is implemented by the Ministry of Rural Development.\n3. Property cards issued under it can improve access to institutional credit.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statements 1 and 3 are correct. SVAMITVA (launched 2020) uses drone-based surveys of inhabited rural land and issues property cards that help unlock institutional credit. Statement 2 is wrong: it is implemented by the Ministry of Panchayati Raj, with the Survey of India as the technical agency, not the Ministry of Rural Development. The scheme featured in the Ministry's '12 Years of Decentralisation Reforms' review (15 June 2026), reporting ~3.18 crore property cards across 1.92 lakh villages.",
+    "subject": "Polity & Governance",
+    "theme": "Local self-government & land governance",
+    "micro_topic": "SVAMITVA scheme / Panchayati Raj 12-year review",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Food Safety and Standards Authority of India (FSSAI), in the news in June 2026 for tightening 'healthy' and 'organic' labelling norms, consider the following statements:\n1. It is a statutory body established under the Food Safety and Standards Act, 2006.\n2. It functions under the Ministry of Consumer Affairs, Food & Public Distribution.\n3. It regulates the manufacture, storage, distribution, sale and labelling of food articles.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 3 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 2 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Statements 1 and 3 are correct. FSSAI is a statutory body established under the Food Safety and Standards Act, 2006 (operational from 2008) and regulates the manufacture, storage, distribution, sale and labelling of food. In June 2026 it tightened norms on 'healthy' and 'organic' claims. Statement 2 is wrong: FSSAI functions under the Ministry of Health & Family Welfare, not the Ministry of Consumer Affairs, Food & Public Distribution.",
+    "subject": "Polity & Governance",
+    "theme": "Statutory & regulatory bodies",
+    "micro_topic": "FSSAI - food labelling regulation",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]
