@@ -329,16 +329,50 @@ function NotesLibrary() {
   const [selectedId, setSelectedId] = useStateHome(docs[0]?.id || null);
   const [monthFilter, setMonthFilter] = useStateHome("latest");
   const [noteState, setNoteState] = useStateHome({ loading: false, error: "", note: null, content: "" });
+  const [canScrollLeft, setCanScrollLeft] = useStateHome(false);
+  const [canScrollRight, setCanScrollRight] = useStateHome(false);
+  const tabsRef = React.useRef(null);
   const monthOptions = getNoteMonthOptions(docs);
   const activeMonth = monthFilter === "all" || monthOptions.some((item) => item.key === monthFilter)
     ? monthFilter
     : monthOptions[0]?.key || "all";
   const visibleDocs = activeMonth === "all" ? docs : docs.filter((doc) => noteMonthKey(doc) === activeMonth);
 
+  function syncTabScrollState() {
+    const node = tabsRef.current;
+    if (!node) {
+      setCanScrollLeft(false);
+      setCanScrollRight(false);
+      return;
+    }
+    setCanScrollLeft(node.scrollLeft > 4);
+    setCanScrollRight(node.scrollLeft + node.clientWidth < node.scrollWidth - 4);
+  }
+
+  function scrollTabs(direction) {
+    const node = tabsRef.current;
+    if (!node) return;
+    node.scrollBy({ left: direction * Math.max(180, Math.round(node.clientWidth * 0.6)), behavior: "smooth" });
+  }
+
   useEffectHome(() => {
     setMonthFilter(monthOptions[0]?.key || "all");
     setSelectedId(docs[0]?.id || null);
   }, [activeCadence, docIds]);
+
+  useEffectHome(() => {
+    const node = tabsRef.current;
+    if (!node) return undefined;
+    const refresh = () => syncTabScrollState();
+    const rafId = window.requestAnimationFrame(refresh);
+    node.addEventListener("scroll", refresh, { passive: true });
+    window.addEventListener("resize", refresh);
+    return () => {
+      window.cancelAnimationFrame(rafId);
+      node.removeEventListener("scroll", refresh);
+      window.removeEventListener("resize", refresh);
+    };
+  }, [tabs.length, activeCadence]);
 
   useEffectHome(() => {
     if (!selectedId) {
@@ -364,10 +398,14 @@ function NotesLibrary() {
           <span className="eyebrow small"><span className="eyebrow-line" /> Notes</span>
           <h3>Briefs, drills and strategy</h3>
         </div>
-        <div className="notes-tabs" role="tablist" aria-label="Notes categories">
-          {tabs.map(([key, label]) => (
-            <button key={key} role="tab" aria-selected={activeCadence === key} className={activeCadence === key ? "on" : ""} onClick={() => setCadence(key)}>{label}</button>
-          ))}
+        <div className="notes-tabs-shell">
+          <button className="notes-tabs-nav" type="button" aria-label="Scroll notes categories left" disabled={!canScrollLeft} onClick={() => scrollTabs(-1)}>{"<"}</button>
+          <div className="notes-tabs" ref={tabsRef} role="tablist" aria-label="Notes categories">
+            {tabs.map(([key, label]) => (
+              <button key={key} role="tab" aria-selected={activeCadence === key} className={activeCadence === key ? "on" : ""} onClick={() => setCadence(key)}>{label}</button>
+            ))}
+          </div>
+          <button className="notes-tabs-nav" type="button" aria-label="Scroll notes categories right" disabled={!canScrollRight} onClick={() => scrollTabs(1)}>{">"}</button>
         </div>
       </div>
       <div className="notes-layout">
