@@ -337,6 +337,15 @@ function NotesLibrary() {
     ? monthFilter
     : monthOptions[0]?.key || "all";
   const visibleDocs = activeMonth === "all" ? docs : docs.filter((doc) => noteMonthKey(doc) === activeMonth);
+  const selectedDoc = noteState.note || docs.find((doc) => doc.id === selectedId) || null;
+  const activeTabLabel = tabs.find(([key]) => key === activeCadence)?.[1] || "Notes";
+  const readingMinutes = estimateReadingMinutes(noteState.content);
+  const readerMeta = [
+    activeTabLabel,
+    selectedDoc?.date ? formatIsoDate(selectedDoc.date) : "",
+    readingMinutes > 0 ? `${readingMinutes} min read` : "",
+  ].filter(Boolean).join(" / ");
+  const repeatedListTitle = visibleDocs.length > 1 && new Set(visibleDocs.map((doc) => doc.title)).size === 1;
 
   function syncTabScrollState() {
     const node = tabsRef.current;
@@ -399,46 +408,64 @@ function NotesLibrary() {
           <h3>Briefs, drills and strategy</h3>
         </div>
         <div className="notes-tabs-shell">
-          <button className="notes-tabs-nav" type="button" aria-label="Scroll notes categories left" disabled={!canScrollLeft} onClick={() => scrollTabs(-1)}>{"<"}</button>
+          <button className="notes-tabs-nav" type="button" aria-label="Scroll notes categories left" disabled={!canScrollLeft} onClick={() => scrollTabs(-1)}><Icon name="arrowL" size={15} /></button>
           <div className="notes-tabs" ref={tabsRef} role="tablist" aria-label="Notes categories">
             {tabs.map(([key, label]) => (
               <button key={key} role="tab" aria-selected={activeCadence === key} className={activeCadence === key ? "on" : ""} onClick={() => setCadence(key)}>{label}</button>
             ))}
           </div>
-          <button className="notes-tabs-nav" type="button" aria-label="Scroll notes categories right" disabled={!canScrollRight} onClick={() => scrollTabs(1)}>{">"}</button>
+          <button className="notes-tabs-nav" type="button" aria-label="Scroll notes categories right" disabled={!canScrollRight} onClick={() => scrollTabs(1)}><Icon name="arrowR" size={15} /></button>
         </div>
       </div>
       <div className="notes-layout">
         <aside className="notes-side">
           <div className="notes-list-tools">
-            <select
-              value={activeMonth}
-              onChange={(event) => {
-                const nextMonth = event.target.value;
-                const nextDocs = nextMonth === "all" ? docs : docs.filter((doc) => noteMonthKey(doc) === nextMonth);
-                setMonthFilter(nextMonth);
-                setSelectedId(nextDocs[0]?.id || null);
-              }}
-              aria-label="Note month">
-              {monthOptions.length ? monthOptions.map((item) => <option key={item.key} value={item.key}>{item.label}</option>) : <option value="all">No dates</option>}
-              {monthOptions.length > 1 && <option value="all">All dates</option>}
-            </select>
-            <span>{visibleDocs.length}</span>
+            <label>
+              <span>Month</span>
+              <select
+                value={activeMonth}
+                onChange={(event) => {
+                  const nextMonth = event.target.value;
+                  const nextDocs = nextMonth === "all" ? docs : docs.filter((doc) => noteMonthKey(doc) === nextMonth);
+                  setMonthFilter(nextMonth);
+                  setSelectedId(nextDocs[0]?.id || null);
+                }}
+                aria-label="Note month">
+                {monthOptions.length ? monthOptions.map((item) => <option key={item.key} value={item.key}>{item.label}</option>) : <option value="all">No dates</option>}
+                {monthOptions.length > 1 && <option value="all">All dates</option>}
+              </select>
+            </label>
+            <span>{visibleDocs.length} notes</span>
           </div>
           <div className="notes-list">
-          {visibleDocs.length ? visibleDocs.map((doc) => (
-            <button key={doc.id} className={selectedId === doc.id ? "on" : ""} onClick={() => setSelectedId(doc.id)}>
-              <strong>{doc.title}</strong>
-              <span>{doc.shortTitle}</span>
-            </button>
-          )) : <p>No {activeCadence} notes yet.</p>}
+          {visibleDocs.length ? visibleDocs.map((doc) => {
+            const primary = repeatedListTitle ? doc.shortTitle || doc.title : doc.title;
+            const secondary = repeatedListTitle ? doc.title : doc.shortTitle;
+            return (
+              <button key={doc.id} className={selectedId === doc.id ? "on" : ""} onClick={() => setSelectedId(doc.id)}>
+                <strong>{primary}</strong>
+                {secondary && <span>{secondary}</span>}
+              </button>
+            );
+          }) : <p>No {activeCadence} notes yet.</p>}
           </div>
         </aside>
         <article className="note-reader">
-          {noteState.loading && <p className="muted">Loading note...</p>}
-          {noteState.error && <p className="muted">{noteState.error}</p>}
-          {!noteState.loading && !noteState.error && noteState.content && <MarkdownView text={noteState.content} />}
-          {!noteState.loading && !noteState.error && !noteState.content && <p className="muted">Select a note.</p>}
+          {selectedDoc && (
+            <header className="note-reader-head">
+              <div>
+                <span className="note-reader-meta">{readerMeta}</span>
+                <h4>{selectedDoc.title}</h4>
+                {selectedDoc.shortTitle && <p>{selectedDoc.shortTitle}</p>}
+              </div>
+            </header>
+          )}
+          <div className="note-reader-body">
+            {noteState.loading && <p className="muted">Loading note...</p>}
+            {noteState.error && <p className="muted">{noteState.error}</p>}
+            {!noteState.loading && !noteState.error && noteState.content && <MarkdownView text={noteState.content} />}
+            {!noteState.loading && !noteState.error && !noteState.content && <p className="muted">Select a note.</p>}
+          </div>
         </article>
       </div>
     </section>
@@ -465,6 +492,11 @@ function getNoteMonthOptions(docs) {
     items.push({ key, label: noteMonthLabel(key) });
     return items;
   }, []);
+}
+
+function estimateReadingMinutes(text) {
+  const words = String(text || "").trim().split(/\s+/).filter(Boolean).length;
+  return words ? Math.max(1, Math.round(words / 220)) : 0;
 }
 
 function MarkdownView({ text }) {

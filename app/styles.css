@@ -302,36 +302,44 @@ ol, ul { margin: 0; }
 .notes-library { margin-top: 32px; }
 .notes-head { display: grid; grid-template-columns: minmax(220px, 0.42fr) minmax(0, 1fr); align-items: end; gap: 18px; margin-bottom: 14px; }
 .notes-head h3 { font-family: var(--serif); font-size: 25px; font-weight: 500; }
-.notes-tabs-shell { display: grid; grid-template-columns: 36px minmax(0, 1fr) 36px; align-items: center; gap: 8px; min-width: 0; }
-.notes-tabs-nav { min-width: 36px; width: 36px; height: 36px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--ink-soft); font-size: 14px; font-weight: 700; box-shadow: var(--shadow-sm); }
-.notes-tabs-nav:disabled { opacity: 0.42; cursor: default; }
-.notes-tabs { display: flex; flex-wrap: nowrap; justify-content: flex-start; gap: 4px; max-width: 100%; overflow-x: auto; overflow-y: hidden; overscroll-behavior-x: contain; scrollbar-width: auto; scrollbar-color: var(--green) var(--paper-2); background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 4px; box-shadow: var(--shadow-sm); }
-.notes-tabs::-webkit-scrollbar { height: 10px; }
-.notes-tabs::-webkit-scrollbar-track { background: var(--paper-2); border-radius: 999px; }
-.notes-tabs::-webkit-scrollbar-thumb { background: var(--green); border-radius: 999px; border: 2px solid var(--paper-2); }
-.notes-tabs button { flex: 0 0 auto; white-space: nowrap; padding: 8px 14px; border-radius: 999px; color: var(--muted); font-weight: 700; font-size: 13px; }
+.notes-tabs-shell { display: grid; grid-template-columns: 30px minmax(0, 1fr) 30px; align-items: center; gap: 6px; min-width: 0; }
+.notes-tabs-nav { min-width: 30px; width: 30px; height: 30px; display: inline-grid; place-items: center; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--ink-soft); box-shadow: var(--shadow-sm); }
+.notes-tabs-nav:disabled { opacity: 0.28; cursor: default; }
+.notes-tabs { display: flex; flex-wrap: nowrap; justify-content: flex-start; gap: 4px; max-width: 100%; overflow-x: auto; overflow-y: hidden; overscroll-behavior-x: contain; scrollbar-width: thin; scrollbar-color: var(--muted) transparent; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-sm); padding: 5px; box-shadow: var(--shadow-sm); }
+.notes-tabs::-webkit-scrollbar { height: 6px; }
+.notes-tabs::-webkit-scrollbar-track { background: transparent; }
+.notes-tabs::-webkit-scrollbar-thumb { background: color-mix(in srgb, var(--muted) 55%, transparent); border-radius: 999px; }
+.notes-tabs button { flex: 0 0 auto; white-space: nowrap; padding: 8px 13px; border-radius: 999px; color: var(--muted); font-weight: 700; font-size: 13px; }
 .notes-tabs button.on { background: var(--green); color: #fff; }
-.notes-layout { display: grid; grid-template-columns: 270px minmax(0, 1fr); gap: 16px; align-items: start; }
-.notes-side { display: grid; gap: 8px; position: sticky; top: 88px; }
-.notes-list-tools { display: flex; align-items: center; justify-content: space-between; gap: 8px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-sm); padding: 9px; box-shadow: var(--shadow-sm); }
-.notes-list-tools select { min-width: 0; width: 100%; border: 0; background: transparent; color: var(--ink); font-weight: 700; font-size: 13px; outline: none; }
-.notes-list-tools span { flex: none; min-width: 28px; height: 24px; display: inline-grid; place-items: center; border-radius: 999px; background: var(--green-tint); color: var(--green); font-family: var(--mono); font-size: 11px; }
-.notes-list { display: grid; gap: 8px; max-height: 560px; overflow: auto; padding: 1px; }
-.notes-list button, .notes-list p { text-align: left; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-sm); padding: 13px; box-shadow: var(--shadow-sm); }
-.notes-list button { display: grid; gap: 3px; }
-.notes-list button.on { border-color: var(--green); box-shadow: 0 0 0 1px var(--green), var(--shadow-sm); }
-.notes-list strong { font-size: 14px; }
+.notes-layout { display: grid; grid-template-columns: 280px minmax(0, 1fr); gap: 18px; align-items: start; }
+.notes-side { display: grid; gap: 10px; position: sticky; top: 88px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow-sm); padding: 12px; }
+.notes-list-tools { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: end; gap: 10px; padding: 0 0 10px; border-bottom: 1px solid var(--line-2); }
+.notes-list-tools label { min-width: 0; display: grid; gap: 3px; }
+.notes-list-tools label > span { font-family: var(--mono); font-size: 10px; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
+.notes-list-tools select { min-width: 0; width: 100%; min-height: 32px; border: 1px solid var(--line); background: var(--paper); color: var(--ink); font-weight: 700; font-size: 13px; outline: none; border-radius: var(--radius-sm); padding: 5px 30px 5px 10px; }
+.notes-list-tools > span { flex: none; align-self: end; margin-bottom: 4px; color: var(--muted); font-family: var(--mono); font-size: 11px; white-space: nowrap; }
+.notes-list { display: grid; gap: 3px; max-height: 560px; overflow: auto; padding: 0; }
+.notes-list button, .notes-list p { text-align: left; background: transparent; border: 1px solid transparent; border-radius: var(--radius-sm); padding: 10px 11px; }
+.notes-list button { display: grid; gap: 3px; border-left: 3px solid transparent; }
+.notes-list button:hover { background: var(--paper); border-color: var(--line-2); }
+.notes-list button.on { background: var(--green-tint); border-color: var(--line-2); border-left-color: var(--green); }
+.notes-list strong { font-size: 14px; line-height: 1.25; }
 .notes-list span, .notes-list p { color: var(--muted); font-size: 12.5px; }
-.note-reader { min-height: 420px; max-height: 720px; overflow: auto; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); padding: clamp(20px, 3vw, 30px); }
+.note-reader { min-height: 440px; max-height: 780px; overflow: auto; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); padding: 0; }
+.note-reader-head { position: sticky; top: 0; z-index: 2; padding: 22px clamp(22px, 3vw, 34px) 18px; border-bottom: 1px solid var(--line-2); background: color-mix(in srgb, var(--surface) 97%, transparent); backdrop-filter: blur(10px); }
+.note-reader-meta { display: block; margin-bottom: 8px; color: var(--muted); font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: .06em; }
+.note-reader-head h4 { margin: 0; color: var(--ink); font-family: var(--serif); font-size: clamp(23px, 2.5vw, 32px); font-weight: 500; line-height: 1.12; }
+.note-reader-head p { margin-top: 6px; color: var(--muted); font-size: 13px; }
+.note-reader-body { padding: clamp(24px, 3.2vw, 38px); }
 .muted { color: var(--muted); }
-.markdown-view { display: grid; gap: 14px; color: var(--ink-soft); }
-.markdown-view h2, .markdown-view h3, .markdown-view h4 { color: var(--ink); font-family: var(--serif); font-weight: 500; margin-top: 8px; }
-.markdown-view h2 { font-size: 28px; }
-.markdown-view h3 { font-size: 22px; }
-.markdown-view h4 { font-size: 18px; }
+.markdown-view { display: grid; gap: 16px; max-width: 900px; margin: 0 auto; color: var(--ink-soft); }
+.markdown-view h2, .markdown-view h3, .markdown-view h4 { color: var(--ink); font-family: var(--serif); font-weight: 500; margin-top: 12px; padding-top: 4px; }
+.markdown-view h2 { font-size: 27px; line-height: 1.18; }
+.markdown-view h3 { font-size: 21px; line-height: 1.22; }
+.markdown-view h4 { font-size: 17px; line-height: 1.25; }
 .markdown-view p, .markdown-view li, .markdown-view blockquote { font-size: 15.5px; line-height: 1.65; }
 body[data-qfont="serif"] .markdown-view p, body[data-qfont="serif"] .markdown-view li, body[data-qfont="serif"] .markdown-view blockquote { font-family: var(--serif); font-size: 17px; }
-.markdown-view ul, .markdown-view ol { display: grid; gap: 7px; padding-left: 20px; }
+.markdown-view ul, .markdown-view ol { display: grid; gap: 7px; padding-left: 22px; }
 .markdown-view blockquote { border-left: 3px solid var(--saffron); padding: 10px 14px; background: var(--saffron-tint); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; }
 .markdown-view em { color: var(--ink-soft); }
 .markdown-view hr { width: 100%; border: 0; border-top: 1px solid var(--line-2); margin: 4px 0; }
