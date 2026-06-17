@@ -1,0 +1,79 @@
+[
+  {
+    "question": "With reference to the G7, consider the following statements: 1) India is a founding member of the G7. 2) France hosted the 52nd G7 Summit (2026). 3) Every G7 member is also a member of the G20. Which of the statements given above is/are correct?",
+    "options": ["(a) 1 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(b)",
+    "explanation": "India is an invitee/partner, not a G7 member (so 1 is wrong). France hosted the 52nd Summit at Evian, and all seven G7 economies are also G20 members.",
+    "subject": "GS2 International Relations",
+    "theme": "Global groupings",
+    "micro_topic": "G7 vs G20 membership; India as G7 invitee while BRICS chair 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "NASM-MR, recently flight-tested by DRDO, is best described as a/an:",
+    "options": ["(a) Endo-atmospheric ballistic-missile interceptor", "(b) Naval anti-ship cruise missile", "(c) Man-portable anti-tank guided missile", "(d) Long-range surface-to-air missile"],
+    "answer": "(b)",
+    "explanation": "NASM-MR is DRDO's medium-range, sea-skimming anti-ship cruise missile (about Mach 0.9). The AD-1/AD-2 tested in the same window are the interceptors, not NASM-MR.",
+    "subject": "GS3 Science & Technology",
+    "theme": "Defence technology",
+    "micro_topic": "DRDO NASM-MR naval anti-ship missile; BMD interceptors",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to retail inflation in India, consider the following statements: 1) The Consumer Price Index (CPI) is released by the Ministry of Statistics and Programme Implementation. 2) Under flexible inflation targeting, the RBI must keep CPI inflation at 4% within a band of plus or minus 2%. 3) The repo rate is decided solely by the RBI Governor. Which of the statements given above is/are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(a)",
+    "explanation": "CPI is released by MoSPI and flexible inflation targeting sets a 4% +/- 2% band. Statement 3 is wrong: the repo rate is set by the six-member MPC by majority, not the Governor alone.",
+    "subject": "GS3 Economy",
+    "theme": "Monetary policy",
+    "micro_topic": "CPI release agency; flexible inflation targeting; MPC vs Governor",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements about the Indian southwest monsoon: 1) It normally sets in over Kerala around 1 June. 2) The Mascarene High and the Somali Jet influence its strength and onset. Which of the statements given above is/are correct?",
+    "options": ["(a) 1 only", "(b) 2 only", "(c) Both 1 and 2", "(d) Neither 1 nor 2"],
+    "answer": "(c)",
+    "explanation": "Normal Kerala onset is about 1 June (2026 onset was 4 June, ~3 days late). The Mascarene High and the cross-equatorial Somali (Findlater) Jet are key drivers of monsoon onset and strength.",
+    "subject": "GS1 Geography",
+    "theme": "Climatology",
+    "micro_topic": "Southwest monsoon onset date and mechanism",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which of the following are invasive alien plant species of concern in India? 1) Lantana camara 2) Prosopis juliflora 3) Chromolaena odorata. Select the correct answer using the code given below:",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(d)",
+    "explanation": "Lantana camara, Prosopis juliflora and Chromolaena odorata are all major invasive alien plants spreading across Indian forests and scrublands, displacing native vegetation.",
+    "subject": "GS3 Environment",
+    "theme": "Biodiversity threats",
+    "micro_topic": "Invasive alien species in India",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to tiger conservation in India, consider the following statements: 1) Project Tiger was launched in 1973. 2) The National Tiger Conservation Authority (NTCA) is a statutory body. 3) A tiger reserve consists of a core/critical tiger habitat and a buffer zone. Which of the statements given above is/are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(d)",
+    "explanation": "Project Tiger began in 1973; the NTCA is statutory under the Wildlife (Protection) Act, 1972 (as amended in 2006); and tiger reserves are notified with a core (critical tiger habitat) and a buffer zone.",
+    "subject": "GS3 Environment",
+    "theme": "Protected area framework",
+    "micro_topic": "Project Tiger, NTCA, tiger reserve core-buffer structure",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Monetary Policy Committee (MPC) of the RBI, consider the following statements: 1) It has six members. 2) In the event of a tie, the RBI Governor has a second or casting vote. 3) It is a statutory body constituted under the RBI Act, 1934 (as amended). Which of the statements given above is/are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(d)",
+    "explanation": "The MPC has six members (three RBI and three government-appointed); the Governor has a casting vote in a tie; it is constituted under the RBI Act, 1934, amended via the Finance Act, 2016.",
+    "subject": "GS3 Economy",
+    "theme": "Monetary policy institutions",
+    "micro_topic": "MPC composition, casting vote, statutory basis",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  }
+]

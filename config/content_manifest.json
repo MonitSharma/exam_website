@@ -12,6 +12,24 @@
   ],
   "questionSets": [
     {
+      "id": "daily_questions_2026_06_17",
+      "label": "Daily Questions - 17 Jun 2026",
+      "shortLabel": "Daily 17 Jun",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/2026-06-17.json",
+      "isoDate": "2026-06-17",
+      "subjects": [
+        "GS2 International Relations",
+        "GS3 Science & Technology",
+        "GS3 Economy",
+        "GS1 Geography",
+        "GS3 Environment"
+      ]
+    },
+    {
       "id": "daily_questions_2026_06_16",
       "label": "Daily Questions - 16 Jun 2026",
       "shortLabel": "Daily 16 Jun",
@@ -303,6 +321,22 @@
       "negativeMark": -0.66,
       "subjects": [
         "Reading Comprehension"
+      ]
+    },
+    {
+      "id": "pib_questions_2026_06_17",
+      "label": "PIB Questions - 17 Jun 2026",
+      "shortLabel": "PIB 17 Jun",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-06-17.json",
+      "isoDate": "2026-06-17",
+      "subjects": [
+        "Economy",
+        "Polity & Governance",
+        "Art & Culture"
       ]
     },
     {
@@ -747,6 +781,14 @@
   ],
   "noteDocuments": [
     {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-06-17",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "17 Jun 2026",
+      "date": "2026-06-17",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-06-17.md"
+    },
+    {
       "id": "daily-daily-current-affairs-upsc-ca-2026-06-16",
       "cadence": "daily",
       "title": "UPSC Daily CA Briefing",
@@ -835,6 +877,14 @@
       "path": "weekly/Editorials/Editorials_Mains_2026-06-11.md"
     },
     {
+      "id": "weekly-physics-physics-drill-2026-06-17",
+      "cadence": "physics",
+      "title": "Physics Optional Drill",
+      "shortTitle": "17 Jun",
+      "date": "2026-06-17",
+      "path": "weekly/Physics/Physics_Drill_2026-06-17.md"
+    },
+    {
       "id": "weekly-physics-physics-optional-paper-i-2026-06-15",
       "cadence": "physics",
       "title": "UPSC Physics Optional Paper I",
@@ -857,6 +907,14 @@
       "shortTitle": "10 Jun",
       "date": "2026-06-10",
       "path": "weekly/Physics/Physics_Drill_2026-06-10.md"
+    },
+    {
+      "id": "daily-daily-pib-pib-2026-06-17",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 17 Jun",
+      "date": "2026-06-17",
+      "path": "daily/daily_pib/PIB_2026-06-17.md"
     },
     {
       "id": "daily-daily-pib-pib-2026-06-16",

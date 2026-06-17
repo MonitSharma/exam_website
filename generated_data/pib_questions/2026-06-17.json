@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the Wholesale Price Index (WPI) and the newly introduced Producer Price Index (PPI), seen in the news in June 2026, consider the following statements:\n1. The WPI in India is compiled by the National Statistical Office (NSO).\n2. The new WPI series has shifted its base year to 2022-23.\n3. Unlike the WPI, the Producer Price Index covers services.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statements 2 and 3 are correct. On 15 June 2026, DPIIT's Office of the Economic Adviser released a new WPI series with base year 2022-23 (replacing 2011-12) and introduced Producer Price Indices, which cover services (a WPI blind spot). Statement 1 is wrong: WPI is compiled by the Office of the Economic Adviser, DPIIT, not the NSO (which compiles the CPI).",
+    "subject": "Economy",
+    "theme": "Inflation & price indices",
+    "micro_topic": "New WPI base year (2022-23) & shift to Producer Price Index",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Section 69A of the Information Technology Act, 2000 was invoked in June 2026 to temporarily block a messaging application ahead of an examination. Consider the following statements:\n1. It empowers the Central Government to issue directions for blocking public access to online content.\n2. Grounds for its exercise include the sovereignty and integrity of India, security of the State, and public order.\n3. The June 2026 blocking order was issued by the Ministry of Electronics and Information Technology.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. Section 69A of the IT Act, 2000 lets the Central Government direct blocking of public access to online content on grounds including sovereignty/integrity, defence, security of the State, friendly relations with foreign states, public order, or preventing incitement of a cognizable offence. In June 2026, MeitY (on the NTA's recommendation) ordered a time-bound block of Telegram (16-22 June) to protect the NEET-UG re-exam on 21 June from organised cheating rings exploiting the message-editing feature.",
+    "subject": "Polity & Governance",
+    "theme": "IT regulation & internal security",
+    "micro_topic": "IT Act Section 69A - time-bound Telegram block (NEET-UG)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Geographical Indication (GI) tags accorded to certain Jharkhand products in June 2026, consider the following statements:\n1. GI tags in India are governed by the Geographical Indications of Goods (Registration and Protection) Act, 1999.\n2. Bhagaiya silk and Munda jewellery, which received GI tags, are associated with Jharkhand.\n3. The GI Registry functions under the Ministry of Culture.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Statements 1 and 2 are correct. GI protection is governed by the Geographical Indications of Goods (Registration and Protection) Act, 1999, and Bhagaiya silk and Munda jewellery (along with Kuchai silk and bamboo craft) from Jharkhand received GI tags in June 2026, facilitated by NABARD. Statement 3 is wrong: the GI Registry (Chennai) functions under the Controller General of Patents, Designs & Trade Marks (CGPDTM), DPIIT, Ministry of Commerce & Industry, not the Ministry of Culture.",
+    "subject": "Art & Culture",
+    "theme": "Geographical Indications & tribal economy",
+    "micro_topic": "Jharkhand GI tags & GI Act 1999",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]
