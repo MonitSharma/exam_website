@@ -1,0 +1,68 @@
+[
+  {
+    "question": "With reference to the G7 summit held in June 2026, consider the following statements: 1. The summit was hosted by France. 2. India attended the summit as an invitee/partner country, not as a member. 3. The G7 consists of the USA, the UK, France, Germany, Italy, Japan and Canada. How many of the statements given above are correct?",
+    "options": ["(a) Only one", "(b) Only two", "(c) All three", "(d) None"],
+    "answer": "(c)",
+    "explanation": "France held the 2026 G7 presidency and hosted at Evian-les-Bains; India attended as an invitee/partner (not a member); the seven members are the US, UK, France, Germany, Italy, Japan and Canada.",
+    "subject": "GS2 International Relations",
+    "theme": "Multilateral groupings",
+    "micro_topic": "G7 summit 2026 and India's participation",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Consider the following statements regarding a recent Supreme Court judgment on homemakers: 1. It introduced a new compensatory head called 'Loss of Domestic Care' in motor-accident claims. 2. It relied on the National Statistical Office's Time Use Survey, 2019. Which of the statements given above is/are correct?",
+    "options": ["(a) 1 only", "(b) 2 only", "(c) Both 1 and 2", "(d) Neither 1 nor 2"],
+    "answer": "(c)",
+    "explanation": "In Shishu Pal v. Surjeet (2026) the SC created the 'Loss of Domestic Care' head and relied on the NSO Time Use Survey 2019 (unpaid domestic work approx. 15-17% of GDP).",
+    "subject": "GS1 Society / GS2 Polity",
+    "theme": "Women and the care economy",
+    "micro_topic": "SC homemaker compensation judgment (Shishu Pal v. Surjeet, 2026)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Children's Climate Risk Report 2026, consider the following statements: 1. It is released by UNICEF. 2. It found that an overwhelming majority of children in India are exposed to extreme heat. Which of the statements given above is/are correct?",
+    "options": ["(a) 1 only", "(b) 2 only", "(c) Both 1 and 2", "(d) Neither 1 nor 2"],
+    "answer": "(c)",
+    "explanation": "The Children's Climate Risk Report 2026 is a UNICEF publication; it found that about 92% of Indian children (around 392 million) are exposed to extreme heat.",
+    "subject": "GS3 Environment",
+    "theme": "Climate change and vulnerability",
+    "micro_topic": "UNICEF Children's Climate Risk Report 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Consider the following statements: 1. The AD-1 and AD-2 interceptors are part of India's Ballistic Missile Defence (BMD) programme. 2. NASM-MR, recently flight-tested by DRDO, is a naval anti-ship missile. 3. The recent tests were conducted from the Integrated Test Range, Chandipur, Odisha. How many of the statements given above are correct?",
+    "options": ["(a) Only one", "(b) Only two", "(c) All three", "(d) None"],
+    "answer": "(c)",
+    "explanation": "AD-1/AD-2 are Phase-II BMD interceptors; NASM-MR is a naval anti-ship missile (maiden test); all three tests were conducted from ITR Chandipur, Odisha (10-11 June 2026).",
+    "subject": "GS3 Science & Technology",
+    "theme": "Defence technology",
+    "micro_topic": "DRDO Phase-II BMD (AD-1/AD-2) and NASM-MR",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to India's Ballistic Missile Defence (BMD) programme, consider the following statements: 1. Its Phase-I uses the Prithvi Air Defence (PAD) and Advanced Air Defence (AAD) interceptors. 2. It is designed to intercept incoming missiles in both the exo-atmospheric and endo-atmospheric phases. Which of the statements given above is/are correct?",
+    "options": ["(a) 1 only", "(b) 2 only", "(c) Both 1 and 2", "(d) Neither 1 nor 2"],
+    "answer": "(c)",
+    "explanation": "Phase-I of India's BMD uses PAD (exo-atmospheric, high-altitude) and AAD (endo-atmospheric, low-altitude) interceptors, providing a two-layered intercept across both phases.",
+    "subject": "GS3 Science & Technology",
+    "theme": "Defence technology",
+    "micro_topic": "India's BMD programme architecture (PAD/AAD)",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Time Use Survey in India, which measures the time spent on unpaid domestic and caregiving work, is conducted by which of the following?",
+    "options": ["(a) NITI Aayog", "(b) The National Statistical Office (under MoSPI)", "(c) The Office of the Registrar General (Census of India)", "(d) The Reserve Bank of India"],
+    "answer": "(b)",
+    "explanation": "India's first comprehensive Time Use Survey was conducted in 2019 by the National Statistical Office (NSO) under the Ministry of Statistics and Programme Implementation (MoSPI).",
+    "subject": "GS3 Economy",
+    "theme": "National accounts and data",
+    "micro_topic": "Time Use Survey and unpaid work measurement",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  }
+]
