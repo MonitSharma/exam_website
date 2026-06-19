@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the Pradhan Mantri Viksit Bharat Rozgar Yojana (PM-VBRY), seen in the news in June 2026, consider the following statements:\n1. It is implemented by the Ministry of Skill Development and Entrepreneurship.\n2. Under Part A, first-time employees registered with the EPFO can receive an incentive of up to Rs 15,000.\n3. The EPFO carries out the IT-based monitoring of the scheme.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statements 2 and 3 are correct. PM-VBRY (effective 1 August 2025, outlay Rs 99,446 crore, target 3.5+ crore jobs) gives first-time EPFO-registered employees up to Rs 15,000 under Part A; EPFO does the IT-based monitoring. Statement 1 is wrong: the scheme is administered by the Ministry of Labour & Employment, not the Ministry of Skill Development & Entrepreneurship. On 19 June 2026 the PM was to disburse ~Rs 2,400 crore in incentives.",
+    "subject": "Economy",
+    "theme": "Employment generation & social security",
+    "micro_topic": "PM-VBRY incentive disbursal (Labour & Employment / EPFO)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements regarding the Scheme for Promotion of Surface Coal/Lignite Gasification Projects, in the news in June 2026:\n1. The scheme is implemented by the Ministry of Coal.\n2. It targets the gasification of about 75 million tonnes of coal/lignite.\n3. Its primary objective is to export syngas to neighbouring countries.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Statements 1 and 2 are correct. The Ministry of Coal runs the scheme (expanded outlay of Rs 37,500 crore approved in May 2026, up from the Rs 8,500 crore 2024 scheme), targeting gasification of ~75 MT of coal/lignite. Its 3rd investor roadshow was held in Mumbai on 18 June 2026. Statement 3 is wrong: the objective is to produce syngas and downstream products (methanol, ammonia) for DOMESTIC use to cut import dependence, not to export syngas.",
+    "subject": "Economy",
+    "theme": "Energy security & clean coal",
+    "micro_topic": "Surface Coal/Lignite Gasification Scheme (Ministry of Coal)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to India's defence acquisition and innovation framework, highlighted in a 12-year review (2014-2026) in June 2026, consider the following statements:\n1. The Defence Acquisition Procedure (DAP) 2020 replaced the Defence Procurement Procedure (DPP) 2016.\n2. 'Buy (Indian-IDDM)' is the most preferred category of capital acquisition under DAP 2020.\n3. ADITI is a sub-scheme under iDEX for critical and emerging technologies.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. DAP 2020 replaced DPP 2016 and made 'Buy (Indian-IDDM)' — Indigenously Designed, Developed and Manufactured — the highest procurement priority for the first time. ADITI (Acing Development of Innovative Technologies with iDEX), with a Rs 750 crore corpus, is a sub-scheme of iDEX (implemented by the Defence Innovation Organisation) for critical and emerging technologies. These featured in the MoD's 'Defence Decade' review, alongside record FY26 defence exports of Rs 38,424 crore.",
+    "subject": "Science & Technology",
+    "theme": "Defence indigenisation & procurement",
+    "micro_topic": "DAP 2020, iDEX/ADITI, defence exports (MoD review)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]

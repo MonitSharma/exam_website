@@ -324,6 +324,21 @@
       ]
     },
     {
+      "id": "pib_questions_2026_06_18",
+      "label": "PIB Questions - 18 Jun 2026",
+      "shortLabel": "PIB 18 Jun",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-06-18.json",
+      "isoDate": "2026-06-18",
+      "subjects": [
+        "Economy",
+        "Science & Technology"
+      ]
+    },
+    {
       "id": "pib_questions_2026_06_17",
       "label": "PIB Questions - 17 Jun 2026",
       "shortLabel": "PIB 17 Jun",
@@ -907,6 +922,14 @@
       "shortTitle": "10 Jun",
       "date": "2026-06-10",
       "path": "weekly/Physics/Physics_Drill_2026-06-10.md"
+    },
+    {
+      "id": "daily-daily-pib-pib-2026-06-18",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 18 Jun",
+      "date": "2026-06-18",
+      "path": "daily/daily_pib/PIB_2026-06-18.md"
     },
     {
       "id": "daily-daily-pib-pib-2026-06-17",
