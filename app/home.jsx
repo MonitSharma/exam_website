@@ -304,84 +304,52 @@ function QuestionSetPicker({ bank, sets, go, onClose }) {
   );
 }
 
+const CADENCE_META = {
+  "daily": { label: "Daily CA", group: "Daily" },
+  "pib": { label: "Daily PIB", group: "Daily" },
+  "rc": { label: "Daily RC", group: "Daily" },
+  "editorials": { label: "Editorials", group: "Daily" },
+  "schemes": { label: "Schemes", group: "Daily" },
+  "sunday": { label: "Sunday Sweep", group: "Weekly" },
+  "weekly-csat": { label: "CSAT", group: "Weekly" },
+  "physics": { label: "Physics", group: "Weekly" },
+  "weekly-news": { label: "Weekly News", group: "Weekly" },
+  "weekly": { label: "Weekly", group: "Weekly" },
+  "monthly": { label: "Monthly", group: "Monthly" },
+  "strategy": { label: "Strategy", group: "Reference" },
+};
+const GROUP_ORDER = ["Daily", "Weekly", "Monthly", "Reference"];
+
 function NotesLibrary() {
   const ds = window.UPSC;
-  const baseTabs = [
-    ["daily", "Daily CA"],
-    ["pib", "Daily PIB"],
-    ["rc", "Daily RC"],
-    ["sunday", "Sunday Sweep"],
-    ["weekly-csat", "CSAT"],
-    ["physics", "Physics"],
-    ["editorials", "Editorials"],
-    ["schemes", "Schemes"],
-    ["weekly-news", "Weekly News"],
-    ["weekly", "Weekly"],
-    ["monthly", "Monthly"],
-    ["strategy", "Strategy"],
-  ];
+  const order = Object.keys(CADENCE_META);
   const availableCadences = new Set(ds.noteDocuments.map((doc) => doc.cadence));
-  const tabs = baseTabs.filter(([key]) => availableCadences.has(key));
-  const [cadence, setCadence] = useStateHome("daily");
-  const activeCadence = tabs.some(([key]) => key === cadence) ? cadence : tabs[0]?.[0] || cadence;
+  const tabs = order.filter((key) => availableCadences.has(key));
+  const grouped = GROUP_ORDER.map((g) => ({
+    group: g,
+    items: tabs.filter((key) => CADENCE_META[key].group === g),
+  })).filter((cluster) => cluster.items.length);
+
+  const [cadence, setCadence] = useStateHome(tabs[0] || "daily");
+  const activeCadence = tabs.includes(cadence) ? cadence : tabs[0] || cadence;
+  const meta = CADENCE_META[activeCadence] || { label: "Notes" };
   const docs = ds.noteDocuments.filter((doc) => doc.cadence === activeCadence);
   const docIds = docs.map((doc) => doc.id).join("|");
   const [selectedId, setSelectedId] = useStateHome(docs[0]?.id || null);
   const [monthFilter, setMonthFilter] = useStateHome("latest");
   const [noteState, setNoteState] = useStateHome({ loading: false, error: "", note: null, content: "" });
-  const [canScrollLeft, setCanScrollLeft] = useStateHome(false);
-  const [canScrollRight, setCanScrollRight] = useStateHome(false);
-  const tabsRef = React.useRef(null);
   const monthOptions = getNoteMonthOptions(docs);
   const activeMonth = monthFilter === "all" || monthOptions.some((item) => item.key === monthFilter)
     ? monthFilter
     : monthOptions[0]?.key || "all";
   const visibleDocs = activeMonth === "all" ? docs : docs.filter((doc) => noteMonthKey(doc) === activeMonth);
   const selectedDoc = noteState.note || docs.find((doc) => doc.id === selectedId) || null;
-  const activeTabLabel = tabs.find(([key]) => key === activeCadence)?.[1] || "Notes";
   const readingMinutes = estimateReadingMinutes(noteState.content);
-  const readerMeta = [
-    activeTabLabel,
-    selectedDoc?.date ? formatIsoDate(selectedDoc.date) : "",
-    readingMinutes > 0 ? `${readingMinutes} min read` : "",
-  ].filter(Boolean).join(" / ");
-  const repeatedListTitle = visibleDocs.length > 1 && new Set(visibleDocs.map((doc) => doc.title)).size === 1;
-
-  function syncTabScrollState() {
-    const node = tabsRef.current;
-    if (!node) {
-      setCanScrollLeft(false);
-      setCanScrollRight(false);
-      return;
-    }
-    setCanScrollLeft(node.scrollLeft > 4);
-    setCanScrollRight(node.scrollLeft + node.clientWidth < node.scrollWidth - 4);
-  }
-
-  function scrollTabs(direction) {
-    const node = tabsRef.current;
-    if (!node) return;
-    node.scrollBy({ left: direction * Math.max(180, Math.round(node.clientWidth * 0.6)), behavior: "smooth" });
-  }
 
   useEffectHome(() => {
     setMonthFilter(monthOptions[0]?.key || "all");
     setSelectedId(docs[0]?.id || null);
   }, [activeCadence, docIds]);
-
-  useEffectHome(() => {
-    const node = tabsRef.current;
-    if (!node) return undefined;
-    const refresh = () => syncTabScrollState();
-    const rafId = window.requestAnimationFrame(refresh);
-    node.addEventListener("scroll", refresh, { passive: true });
-    window.addEventListener("resize", refresh);
-    return () => {
-      window.cancelAnimationFrame(rafId);
-      node.removeEventListener("scroll", refresh);
-      window.removeEventListener("resize", refresh);
-    };
-  }, [tabs.length, activeCadence]);
 
   useEffectHome(() => {
     if (!selectedId) {
@@ -401,22 +369,34 @@ function NotesLibrary() {
   }, [selectedId]);
 
   return (
-    <section className="notes-library">
+    <section className="notes-library notes-v2">
       <div className="notes-head">
-        <div>
-          <span className="eyebrow small"><span className="eyebrow-line" /> Notes</span>
-          <h3>Briefs, drills and strategy</h3>
+        <div className="notes-title">
+          <span className="eyebrow small"><span className="eyebrow-line" /> Notes &amp; briefings</span>
+          <h3>Briefs, drills &amp; strategy</h3>
+          <p className="notes-sub">Daily current-affairs briefs, weekly drills and evergreen strategy - read them in one place, filtered by month.</p>
         </div>
-        <div className="notes-tabs-shell">
-          <button className="notes-tabs-nav" type="button" aria-label="Scroll notes categories left" disabled={!canScrollLeft} onClick={() => scrollTabs(-1)}><Icon name="arrowL" size={15} /></button>
-          <div className="notes-tabs" ref={tabsRef} role="tablist" aria-label="Notes categories">
-            {tabs.map(([key, label]) => (
-              <button key={key} role="tab" aria-selected={activeCadence === key} className={activeCadence === key ? "on" : ""} onClick={() => setCadence(key)}>{label}</button>
-            ))}
-          </div>
-          <button className="notes-tabs-nav" type="button" aria-label="Scroll notes categories right" disabled={!canScrollRight} onClick={() => scrollTabs(1)}><Icon name="arrowR" size={15} /></button>
+        <div className="notes-cats" role="tablist" aria-label="Notes categories">
+          {grouped.map((cluster) => (
+            <div className="notes-cat-row" key={cluster.group}>
+              <span className="notes-cat-glabel">{cluster.group}</span>
+              <div className="notes-cat-pills">
+                {cluster.items.map((key) => (
+                  <button
+                    key={key}
+                    role="tab"
+                    aria-selected={activeCadence === key}
+                    className={activeCadence === key ? "on" : ""}
+                    onClick={() => setCadence(key)}>
+                    {CADENCE_META[key].label}
+                  </button>
+                ))}
+              </div>
+            </div>
+          ))}
         </div>
       </div>
+
       <div className="notes-layout">
         <aside className="notes-side">
           <div className="notes-list-tools">
@@ -435,29 +415,34 @@ function NotesLibrary() {
                 {monthOptions.length > 1 && <option value="all">All dates</option>}
               </select>
             </label>
-            <span>{visibleDocs.length} notes</span>
+            <span className="notes-count">{visibleDocs.length} {visibleDocs.length === 1 ? "note" : "notes"}</span>
           </div>
           <div className="notes-list">
           {visibleDocs.length ? visibleDocs.map((doc) => {
-            const primary = repeatedListTitle ? doc.shortTitle || doc.title : doc.title;
-            const secondary = repeatedListTitle ? doc.title : doc.shortTitle;
+            const kicker = doc.date ? formatIsoDate(doc.date, { day: "2-digit", month: "short" }) : "";
+            const dateForms = doc.date ? [formatIsoDate(doc.date), formatIsoDate(doc.date, { day: "2-digit", month: "short" })] : [];
+            const secondary = doc.shortTitle && !dateForms.includes(doc.shortTitle) ? doc.shortTitle : "";
             return (
               <button key={doc.id} className={selectedId === doc.id ? "on" : ""} onClick={() => setSelectedId(doc.id)}>
-                <strong>{primary}</strong>
+                {kicker && <span className="note-kicker">{kicker}</span>}
+                <strong>{doc.title}</strong>
                 {secondary && <span>{secondary}</span>}
               </button>
             );
-          }) : <p>No {activeCadence} notes yet.</p>}
+          }) : <p>No {meta.label.toLowerCase()} notes yet.</p>}
           </div>
         </aside>
+
         <article className="note-reader">
           {selectedDoc && (
             <header className="note-reader-head">
-              <div>
-                <span className="note-reader-meta">{readerMeta}</span>
-                <h4>{selectedDoc.title}</h4>
-                {selectedDoc.shortTitle && <p>{selectedDoc.shortTitle}</p>}
+              <div className="note-reader-meta-row">
+                <span className="note-cat-chip">{meta.label}</span>
+                {selectedDoc.date && <span className="note-meta-item"><Icon name="calendar" size={13} /> {formatIsoDate(selectedDoc.date)}</span>}
+                {readingMinutes > 0 && <span className="note-meta-item"><Icon name="clock" size={13} /> {readingMinutes} min read</span>}
               </div>
+              <h4>{selectedDoc.title}</h4>
+              {selectedDoc.shortTitle && selectedDoc.shortTitle !== formatIsoDate(selectedDoc.date) && <p>{selectedDoc.shortTitle}</p>}
             </header>
           )}
           <div className="note-reader-body">

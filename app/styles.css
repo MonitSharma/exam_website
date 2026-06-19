@@ -705,3 +705,141 @@ body[data-qfont="serif"] .rev-explain p { font-family: var(--serif); font-size: 
 @media (prefers-reduced-motion: reduce) {
   * { animation-duration: .01ms !important; transition-duration: .01ms !important; }
 }
+
+/* ============================================================
+   Redesign overrides for the "Briefs, drills & strategy" notes section.
+   Loaded after the base notes CSS so these scoped .notes-v2 rules win.
+   Palette: site green/saffron only.
+   ============================================================ */
+
+/* ---------- Header: stacked, no more 3-line collision ---------- */
+.notes-v2 .notes-head {
+  display: block;
+  margin-bottom: 20px;
+}
+.notes-v2 .notes-title { max-width: 760px; margin-bottom: 18px; }
+.notes-v2 .notes-title h3 {
+  font-family: var(--serif);
+  font-size: clamp(26px, 3.2vw, 34px);
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  margin-top: 4px;
+}
+.notes-v2 .notes-sub {
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.5;
+  max-width: 62ch;
+  text-wrap: pretty;
+}
+
+/* ---------- Category groups: stacked vertically ---------- */
+.notes-v2 .notes-cats {
+  display: flex;
+  flex-direction: column;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+}
+.notes-v2 .notes-cat-row {
+  display: grid;
+  grid-template-columns: 96px minmax(0, 1fr);
+  align-items: center;
+  gap: 14px;
+  padding: 11px 16px;
+}
+.notes-v2 .notes-cat-row + .notes-cat-row { border-top: 1px solid var(--line-2); }
+.notes-v2 .notes-cat-glabel {
+  font-family: var(--mono);
+  font-size: 10.5px;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: var(--faint);
+}
+.notes-v2 .notes-cat-pills { display: flex; flex-wrap: wrap; gap: 6px; }
+.notes-v2 .notes-cats button {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  padding: 8px 14px;
+  border-radius: 999px;
+  color: var(--ink-soft);
+  font-weight: 600;
+  font-size: 13px;
+  border: 1px solid var(--line);
+  background: var(--surface-2);
+  transition: background .15s ease, color .15s ease, border-color .15s ease;
+}
+.notes-v2 .notes-cats button:hover { color: var(--green); border-color: var(--green); background: var(--green-tint); }
+.notes-v2 .notes-cats button.on {
+  color: #fff;
+  background: var(--green);
+  border-color: var(--green);
+  box-shadow: 0 6px 16px -10px var(--green);
+}
+
+/* ---------- Sidebar list ---------- */
+.notes-v2 .notes-side { top: 24px; }
+.notes-v2 .notes-count { font-family: var(--mono); font-size: 11px; color: var(--muted); }
+.notes-v2 .notes-list button { position: relative; border-left: 3px solid transparent; padding: 11px 12px; gap: 2px; }
+.notes-v2 .notes-list button .note-kicker {
+  font-family: var(--mono);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  color: var(--faint);
+}
+.notes-v2 .notes-list button.on {
+  background: var(--green-tint);
+  border-color: var(--line-2);
+  border-left-color: var(--green);
+}
+.notes-v2 .notes-list button.on .note-kicker { color: var(--green); }
+.notes-v2 .notes-list button.on strong { color: var(--ink); }
+
+/* ---------- Reader head: chips instead of slash-string ---------- */
+.notes-v2 .note-reader-head { border-top: 3px solid var(--green); }
+.notes-v2 .note-reader-meta-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  margin-bottom: 12px;
+}
+.notes-v2 .note-cat-chip {
+  display: inline-flex;
+  align-items: center;
+  flex: 0 0 auto;
+  white-space: nowrap;
+  height: 24px;
+  padding: 0 11px;
+  border-radius: 999px;
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+  color: var(--green);
+  background: var(--green-tint);
+}
+.notes-v2 .note-meta-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  flex: 0 0 auto;
+  white-space: nowrap;
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 11.5px;
+}
+.notes-v2 .note-meta-item svg { opacity: .7; }
+
+/* ---------- Responsive ---------- */
+@media (max-width: 760px) {
+  .notes-v2 .notes-layout { grid-template-columns: 1fr; }
+  .notes-v2 .notes-side { position: static; }
+  .notes-v2 .notes-cat-row { grid-template-columns: 1fr; gap: 7px; padding: 12px 14px; }
+}
