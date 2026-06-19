@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the Pradhan Mantri Awas Yojana-Urban 2.0 (PMAY-U 2.0), in the news in June 2026, consider the following statements:\n1. It is implemented by the Ministry of Rural Development.\n2. Houses under the scheme are sanctioned through a Central Sanctioning and Monitoring Committee (CSMC).\n3. Beneficiary-Led Construction (BLC) is one of its verticals.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statements 2 and 3 are correct. PMAY-U 2.0 is implemented by the Ministry of Housing & Urban Affairs, not Rural Development (Statement 1 wrong). Houses are sanctioned via the CSMC; its 7th meeting on 17 June 2026 cleared ~2.13 lakh houses (about 2.05 lakh to women), taking cumulative sanctions past 16.13 lakh. BLC is a vertical, along with AHP, ARH and ISS.",
+    "subject": "Polity & Governance",
+    "theme": "Urban housing & welfare delivery",
+    "micro_topic": "PMAY-U 2.0 7th CSMC sanctions (MoHUA)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements regarding India's heritage efforts highlighted under the 'Virasat Bhi, Vikas Bhi' review (2014-2026):\n1. India has repatriated more than 600 antiquities since 2014.\n2. The Piprahwa relics, associated with Lord Buddha, were returned to India in 2025.\n3. India currently has the highest number of UNESCO World Heritage Sites of any country.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Statements 1 and 2 are correct. Since 2014 India has repatriated 653 antiquities (well over 600), with the bulk returned in the last five years; the Piprahwa relics of Lord Buddha were returned in 2025 after 127 years. Statement 3 is wrong: India has 44 UNESCO World Heritage Sites (36 cultural, 7 natural, 1 mixed) - a high number, but Italy and China have more. The review also covered the Gyan Bharatam Mission (2025) for manuscript digitisation.",
+    "subject": "Art & Culture",
+    "theme": "Heritage conservation & antiquities repatriation",
+    "micro_topic": "Virasat Bhi Vikas Bhi 12-year review (Ministry of Culture)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to aqueous zinc-ion batteries (AZIBs), recently in the news, consider the following statements:\n1. They use water-based electrolytes, making them inherently safer than conventional lithium-ion batteries.\n2. The Institute of Nano Science and Technology (INST), Mohali, which developed a stabilising additive for them, is an autonomous institute under the Department of Science and Technology (DST).\n3. The BDIM additive was developed primarily to raise the energy density of lithium-ion batteries.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Statements 1 and 2 are correct. AZIBs use aqueous (water-based) electrolytes instead of flammable organic solvents, making them safer and cheaper than lithium-ion cells; INST Mohali is an autonomous institute under DST. Statement 3 is wrong: the BDIM additive stabilises the ZINC anode in AZIBs - suppressing dendrite growth, the hydrogen evolution reaction (HER) and corrosion by displacing water at the Inner Helmholtz Plane - and is not about lithium-ion energy density.",
+    "subject": "Science & Technology",
+    "theme": "Energy storage & indigenous R&D",
+    "micro_topic": "Aqueous zinc-ion batteries / BDIM additive (INST Mohali, DST)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]

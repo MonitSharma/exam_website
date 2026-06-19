@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to the RBI's surplus transfer to the Union Government for FY 2025-26, consider the following statements:\n1. At about Rs 2.87 lakh crore, it is the highest-ever surplus transferred by the RBI.\n2. The surplus is classified as non-tax revenue and is shared with the States through the divisible pool.\n3. The quantum of the transferable surplus is governed by the Economic Capital Framework.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Rs 2.87 lakh crore (Rs 2,86,588 crore) is the highest-ever transfer (1 correct). It is non-tax revenue retained by the Union and is NOT shared via the Finance Commission divisible pool (2 wrong). The transferable surplus is governed by the Economic Capital Framework (3 correct).",
+    "subject": "Economy",
+    "theme": "Monetary policy and public finance",
+    "micro_topic": "RBI surplus transfer / Economic Capital Framework",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Reciprocal Exchange of Logistics Agreement (RELOS), recently in the news, consider the following statements:\n1. It is a bilateral logistics-support agreement between India and Russia.\n2. It permits the establishment of permanent military bases on each other's territory.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 only",
+      "(c) Both 1 and 2",
+      "(d) Neither 1 nor 2"
+    ],
+    "answer": "(a)",
+    "explanation": "RELOS is a bilateral India-Russia logistics-support agreement signed in Moscow (Feb 2025) and operationalised in January 2026 (1 correct). It contains an explicit non-basing clause barring permanent military bases on either territory (2 wrong).",
+    "subject": "International Relations",
+    "theme": "India's bilateral defence agreements",
+    "micro_topic": "RELOS India-Russia logistics agreement",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Consider the following statements regarding El Nino:\n1. It refers to the anomalous warming of sea-surface temperatures in the central and eastern equatorial Pacific Ocean.\n2. It generally strengthens the Indian south-west monsoon.\n3. A positive Indian Ocean Dipole (IOD) can partly offset its adverse impact on the monsoon.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "El Nino is the warming of the central and eastern equatorial Pacific (1 correct). It typically WEAKENS, not strengthens, the south-west monsoon (2 wrong). A positive IOD can partly offset its adverse monsoon impact (3 correct).",
+    "subject": "Geography",
+    "theme": "Ocean-atmosphere interactions and Indian monsoon",
+    "micro_topic": "El Nino / ENSO and monsoon",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the National Statistical Commission (NSC), consider the following statements:\n1. It was established through an Act of Parliament.\n2. The CEO of NITI Aayog is an ex-officio member of the Commission.\n3. The Chief Statistician of India serves as its Secretary.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "The NSC was created by an executive resolution in 2005 (operational 2006) on Rangarajan Commission recommendations, NOT by a statute (1 wrong). The CEO of NITI Aayog is an ex-officio member (2 correct) and the Chief Statistician of India is its Secretary (3 correct).",
+    "subject": "Polity & Governance",
+    "theme": "Non-constitutional and non-statutory bodies",
+    "micro_topic": "National Statistical Commission",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "The term 'BGP hijacking', recently seen in the news, is most closely associated with:",
+    "options": [
+      "(a) Manipulation of satellite navigation signals",
+      "(b) Misdirection of internet traffic through false network routing announcements",
+      "(c) Unauthorised cryptocurrency mining on cloud servers",
+      "(d) Tampering with electronic voting machines"
+    ],
+    "answer": "(b)",
+    "explanation": "Border Gateway Protocol (BGP) hijacking occurs when a rogue or misconfigured Autonomous System falsely advertises IP prefixes it does not own, misdirecting internet traffic and enabling denial-of-service (blackholing) or man-in-the-middle interception.",
+    "subject": "Science & Technology",
+    "theme": "Cyber security",
+    "micro_topic": "Internet routing / BGP hijacking",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Economic Capital Framework (ECF) of the RBI, consider the following statements:\n1. It was adopted on the recommendations of the Bimal Jalan Committee.\n2. The Contingent Risk Buffer (CRB) is recommended to be kept between 5.5% and 6.5% of the RBI's balance sheet.\n3. The transfer of surplus to the government is provided for under the RBI Act, 1934.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "The ECF was adopted on the Bimal Jalan Committee (2018) recommendations (1 correct); the CRB band is 5.5%-6.5% of the balance sheet (2 correct); and the surplus transfer to the government is provided under Section 47 of the RBI Act, 1934 (3 correct).",
+    "subject": "Economy",
+    "theme": "Central banking and public finance",
+    "micro_topic": "Economic Capital Framework / Contingent Risk Buffer",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "El Nino and La Nina, along with the Southern Oscillation, are together referred to as ENSO. In this context, the 'Southern Oscillation' refers to:",
+    "options": [
+      "(a) The periodic reversal of surface currents in the Indian Ocean",
+      "(b) The see-saw variation of atmospheric pressure between the eastern and western tropical Pacific",
+      "(c) The seasonal northward shift of the Inter-Tropical Convergence Zone",
+      "(d) The reversal of monsoon winds over the Indian subcontinent"
+    ],
+    "answer": "(b)",
+    "explanation": "The Southern Oscillation is the see-saw variation of atmospheric pressure between the eastern and western tropical Pacific (measured by the Southern Oscillation Index), forming the atmospheric component of ENSO that is coupled with the oceanic El Nino/La Nina phases.",
+    "subject": "Geography",
+    "theme": "Ocean-atmosphere interactions",
+    "micro_topic": "Southern Oscillation / ENSO",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  }
+]
