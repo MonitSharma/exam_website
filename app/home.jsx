@@ -309,6 +309,7 @@ const CADENCE_META = {
   "daily": { label: "Daily CA", group: "Daily" },
   "pib": { label: "Daily PIB", group: "Daily" },
   "rc": { label: "Daily RC", group: "Daily" },
+  "mains": { label: "Daily Mains", group: "Daily" },
   "editorials": { label: "Editorials", group: "Weekly" },
   "schemes": { label: "Schemes", group: "Weekly" },
   "sunday": { label: "Sunday Sweep", group: "Weekly" },

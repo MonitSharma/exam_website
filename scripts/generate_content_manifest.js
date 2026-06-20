@@ -604,6 +604,12 @@ function buildNoteDocuments(root = DEFAULT_ROOT) {
     docs.push(note(root, absPath, "pib", "Daily PIB Briefing", `PIB - ${formatDate(isoDate, { day: "2-digit", month: "short" })}`, isoDate));
   }
 
+  const mainsDir = path.join(root, "daily", "daily_mains");
+  for (const absPath of listTopLevelFiles(mainsDir).filter((item) => /^GS_Mains_\d{4}-\d{2}-\d{2}\.md$/.test(path.basename(item)))) {
+    const isoDate = normalizeIsoDate(absPath);
+    docs.push(note(root, absPath, "mains", "GS Mains Answer Practice", `Mains - ${formatDate(isoDate, { day: "2-digit", month: "short" })}`, isoDate));
+  }
+
   const rcDir = path.join(root, "daily", "daily_reading_comprehension");
   for (const absPath of listTopLevelFiles(rcDir).filter((item) => /^RC_Drill_\d{4}-\d{2}-\d{2}\.md$/.test(path.basename(item)))) {
     const isoDate = normalizeIsoDate(absPath);
