@@ -1,0 +1,622 @@
+[
+  {
+    "id": "weekly_quiz_2026_06_19_1",
+    "question_number": 1,
+    "question": "Regarding PM Modi's June 2026 visit to Slovakia, consider the following statements:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "All three"
+      },
+      {
+        "key": "d",
+        "text": "None"
+      }
+    ],
+    "answer": "c",
+    "explanation": "All three correct. Modi's visit was the first-ever by an Indian PM to Slovakia; ties were raised to a \"Comprehensive Partnership,\" and he received the Order of the White Double Cross (1st Class), Slovakia's highest civilian honour.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_06_19_2",
+    "question_number": 2,
+    "question": "With reference to DRDO's June 2026 flight tests, consider the following:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "All three"
+      },
+      {
+        "key": "d",
+        "text": "None"
+      }
+    ],
+    "answer": "c",
+    "explanation": "All three correct. AD-1/AD-2 are Phase-II BMD interceptors; NASM-MR is a naval anti-ship (medium-range) missile; all the tests were from ITR Chandipur, Odisha (10–11 June 2026).",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_06_19_3",
+    "question_number": 3,
+    "question": "India was reported this week to have achieved 20% ethanol blending (E20) in petrol. This is significant primarily because:",
+    "options": [
+      {
+        "key": "a",
+        "text": "It was reached around five years ahead of the original 2030 target"
+      },
+      {
+        "key": "b",
+        "text": "It made India the world's largest producer of ethanol"
+      },
+      {
+        "key": "c",
+        "text": "It was achieved entirely from imported ethanol"
+      },
+      {
+        "key": "d",
+        "text": "It ended all petrol imports into India"
+      }
+    ],
+    "answer": "a",
+    "explanation": "India hit 20% average ethanol blending (E20) in 2025, roughly five years ahead of the original 2030 target (advanced under the National Policy on Biofuels, 2018, as amended in 2022).",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_06_19_4",
+    "question_number": 4,
+    "question": "The *State of India's Environment 2026* report (CSE / Down To Earth) warned that how many of the nine planetary boundaries have now been breached?",
+    "options": [
+      {
+        "key": "a",
+        "text": "3 of 9"
+      },
+      {
+        "key": "b",
+        "text": "5 of 9"
+      },
+      {
+        "key": "c",
+        "text": "7 of 9"
+      },
+      {
+        "key": "d",
+        "text": "All 9"
+      }
+    ],
+    "answer": "c",
+    "explanation": "7 of 9. CSE's report flagged 7 of 9 planetary boundaries as breached (safe: stratospheric ozone and atmospheric aerosol loading); the framework originates from the Stockholm Resilience Centre.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_06_19_5",
+    "question_number": 5,
+    "question": "In *Shishu Pal v. Surjeet* (2026), the Supreme Court — which called homemakers \"nation builders\" — did which of the following?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "1, 2 and 3. The Court created the \"Loss of Domestic Care\" head, fixed Rs 30,000/month notional income, and relied on the NSO Time Use Survey, 2019 (unpaid domestic work ≈ 15–17% of GDP).",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_06_19_6",
+    "question_number": 6,
+    "question": "With reference to the Global Peace Index (GPI) 2026, consider the following statements:",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "1 and 2 only. GPI 2026 is published by the IEP; Iceland is the most peaceful country; India is ranked ~127th of 163 — well outside the top 50, so statement 3 is wrong.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_06_19_7",
+    "question_number": 7,
+    "question": "The southwest monsoon of 2026 set in over Kerala on 4 June. Relative to the normal onset date, this was:",
+    "options": [
+      {
+        "key": "a",
+        "text": "About 3 days earlier than normal"
+      },
+      {
+        "key": "b",
+        "text": "Exactly on the normal date"
+      },
+      {
+        "key": "c",
+        "text": "About 3 days later than normal"
+      },
+      {
+        "key": "d",
+        "text": "About 3 weeks later than normal"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Normal onset over Kerala is ~1 June; the 2026 onset on 4 June was about 3 days later than normal (a minor delay, not a weak-season signal).",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_06_19_8",
+    "question_number": 8,
+    "question": "In June 2026 the government temporarily blocked a messaging application (Telegram) ahead of the NEET-UG re-exam. The legal power used for such blocking of online content is found in:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Section 66A of the IT Act, 2000"
+      },
+      {
+        "key": "b",
+        "text": "Section 69A of the IT Act, 2000"
+      },
+      {
+        "key": "c",
+        "text": "Section 144 of the CrPC"
+      },
+      {
+        "key": "d",
+        "text": "The Telecommunications Act, 2023"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Section 69A of the IT Act, 2000 empowers the Central Government to block public access to online content (grounds: sovereignty/integrity, security, public order, etc.); the order was issued by MeitY on NTA's recommendation.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_06_19_9",
+    "question_number": 9,
+    "question": "Regarding India's price indices in the news this week, consider the following statements:",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "1 and 2 only. The new WPI series uses base 2022-23 and the new PPI covers services (which WPI excludes). Statement 3 is wrong: WPI is compiled by the Office of the Economic Adviser, DPIIT — not the NSO (which compiles the CPI).",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_06_19_10",
+    "question_number": 10,
+    "question": "UNICEF's Children's Climate Risk Report 2026 was notable this week for highlighting that:",
+    "options": [
+      {
+        "key": "a",
+        "text": "India has eliminated child exposure to extreme heat"
+      },
+      {
+        "key": "b",
+        "text": "An overwhelming majority of Indian children (~92%) are exposed to extreme heat"
+      },
+      {
+        "key": "c",
+        "text": "Only coastal Indian children face climate risk"
+      },
+      {
+        "key": "d",
+        "text": "India scored lowest in the world on climate vulnerability"
+      }
+    ],
+    "answer": "b",
+    "explanation": "UNICEF's Children's Climate Risk Report 2026 found ~392 million Indian children (~92%) exposed to extreme heat, placing India among the most climate-vulnerable countries in the region.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_06_19_11",
+    "question_number": 11,
+    "question": "With reference to the SVAMITVA scheme, in the news during the Panchayati Raj review this week, consider the following statements:",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "1, 2 and 3. SVAMITVA uses drone surveys of *abadi* land, is run by the Ministry of Panchayati Raj (technical agency: Survey of India), and its property cards help unlock institutional credit.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_06_19_12",
+    "question_number": 12,
+    "question": "Four products — Bhagaiya silk, Kuchai silk, Munda jewellery and bamboo craft — received Geographical Indication (GI) tags this week. They belong to which state?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Odisha"
+      },
+      {
+        "key": "b",
+        "text": "Chhattisgarh"
+      },
+      {
+        "key": "c",
+        "text": "Jharkhand"
+      },
+      {
+        "key": "d",
+        "text": "West Bengal"
+      }
+    ],
+    "answer": "c",
+    "explanation": "All four GI-tagged products (Bhagaiya silk, Kuchai silk, Munda jewellery, bamboo craft) are from Jharkhand; the tags were NABARD-facilitated. Part B — Economy",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_06_19_13",
+    "question_number": 13,
+    "question": "With reference to the Cash Reserve Ratio (CRR) and Statutory Liquidity Ratio (SLR), consider the following statements:",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "1 and 2 only. CRR is held as reserves with the RBI; SLR can be held by the bank itself as cash, gold or approved securities. Statement 3 is wrong: a higher CRR *reduces* banks' lending capacity.",
+    "subject": "Polity",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_06_19_14",
+    "question_number": 14,
+    "question": "In the RBI's Liquidity Adjustment Facility (LAF) corridor, which of the following is correctly described?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The Marginal Standing Facility (MSF) rate lies below the repo rate"
+      },
+      {
+        "key": "b",
+        "text": "The Standing Deposit Facility (SDF) rate lies below the repo rate"
+      },
+      {
+        "key": "c",
+        "text": "The repo rate is the floor of the corridor"
+      },
+      {
+        "key": "d",
+        "text": "The MSF rate is the floor of the corridor"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The SDF rate is the floor (below the repo), and the MSF rate is the ceiling (above the repo); the corridor is bounded by SDF (floor) and MSF (ceiling), with the repo rate in between.",
+    "subject": "Polity",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_06_19_15",
+    "question_number": 15,
+    "question": "The primary deficit in the Union Budget is best defined as:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Fiscal deficit minus interest payments"
+      },
+      {
+        "key": "b",
+        "text": "Revenue expenditure minus revenue receipts"
+      },
+      {
+        "key": "c",
+        "text": "Fiscal deficit plus interest payments"
+      },
+      {
+        "key": "d",
+        "text": "Total expenditure minus total receipts including borrowings"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Primary deficit = Fiscal deficit − Interest payments (it strips out interest on past borrowings to show the current year's \"fresh\" borrowing need).",
+    "subject": "Polity",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_06_19_16",
+    "question_number": 16,
+    "question": "Gross National Product (GNP) differs from Gross Domestic Product (GDP) in that GNP:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Includes net factor income from abroad"
+      },
+      {
+        "key": "b",
+        "text": "Always excludes depreciation"
+      },
+      {
+        "key": "c",
+        "text": "Excludes the value of all services"
+      },
+      {
+        "key": "d",
+        "text": "Is necessarily measured only at factor cost"
+      }
+    ],
+    "answer": "a",
+    "explanation": "GNP = GDP + Net Factor Income from Abroad; the only conceptual difference is the inclusion of net income earned by residents abroad (minus that earned by foreigners domestically).",
+    "subject": "Polity",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_06_19_17",
+    "question_number": 17,
+    "question": "With reference to money supply in India, \"narrow money\" (M1) includes which of the following?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "1 and 2 only. M1 (narrow money) = currency with the public + demand deposits + 'other' deposits with the RBI. Time/term deposits fall under M3 (broad money), so statement 3 is wrong.",
+    "subject": "Polity",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_06_19_18",
+    "question_number": 18,
+    "question": "Which one of the following is a direct tax?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Goods and Services Tax (GST)"
+      },
+      {
+        "key": "b",
+        "text": "Customs duty"
+      },
+      {
+        "key": "c",
+        "text": "Corporation tax"
+      },
+      {
+        "key": "d",
+        "text": "Excise duty"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Corporation tax is a direct tax (levied on income/profits). GST, customs and excise are indirect taxes levied on goods/services.",
+    "subject": "Polity",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_06_19_19",
+    "question_number": 19,
+    "question": "In India's Balance of Payments, which of the following is recorded under the current account?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "1 and 2 only. The current account records merchandise trade, services, primary income (interest/dividends) and transfers. FDI is a financial/capital-account flow, so statement 3 is wrong.",
+    "subject": "Polity",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_06_19_20",
+    "question_number": 20,
+    "question": "The Fiscal Responsibility and Budget Management (FRBM) Act, which sets targets for the Centre's fiscal and revenue deficits, was enacted in:",
+    "options": [
+      {
+        "key": "a",
+        "text": "1991"
+      },
+      {
+        "key": "b",
+        "text": "2000"
+      },
+      {
+        "key": "c",
+        "text": "2003"
+      },
+      {
+        "key": "d",
+        "text": "2016"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The FRBM Act was enacted in 2003 to institutionalise fiscal discipline and set deficit-reduction targets for the Union government. Part C — Recall Prompts R1. India practises issue-based \"multi-alignment\": it engages Western-led platforms (G7 invitee, QUAD) for technology, capital and trade *while simultaneously* leading non-Western ones (chairing BRICS 2026, plus SCO) as a \"voice of the Global South\" — gaining influence and bargaining leverage across blocs without binding itself to any, the essence of strategic autonomy. R2. The Supreme Court's \"Loss of Domestic Care\" head recognised unpaid domestic work as having independent economic value (notional income Rs 30,000/month, a separate head in motor-accident compensation), relying on the NSO's Time Use Survey, 2019, which valued women's unpaid domestic work at roughly 15–17% of GDP. --- *Scoring guide: 16–20 strong recall · 11–15 revise weak areas · ≤10 re-read this week's CA + PIB digests and the Economy (Money & Banking / Public Finance) chapters. Next week's static subject: Modern History.*",
+    "subject": "Polity",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  }
+]

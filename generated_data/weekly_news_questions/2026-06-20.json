@@ -1,0 +1,157 @@
+[
+  {
+    "id": "weekly_news_2026_06_20_1",
+    "question_number": 1,
+    "question": "Shipki La, in the news for reopening India–China trade, is the point where which river enters India?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Beas"
+      },
+      {
+        "key": "b",
+        "text": "Sutlej"
+      },
+      {
+        "key": "c",
+        "text": "Ravi"
+      },
+      {
+        "key": "d",
+        "text": "Chenab"
+      }
+    ],
+    "answer": "b",
+    "explanation": "(Sutlej enters India near Shipki La, Kinnaur)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_06_20_2",
+    "question_number": 2,
+    "question": "Indira Point, India's southernmost tip, lies on which island?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Car Nicobar"
+      },
+      {
+        "key": "b",
+        "text": "Little Andaman"
+      },
+      {
+        "key": "c",
+        "text": "Great Nicobar"
+      },
+      {
+        "key": "d",
+        "text": "Minicoy"
+      }
+    ],
+    "answer": "c",
+    "explanation": "(Great Nicobar; Indira Point is the southernmost point of India)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_06_20_3",
+    "question_number": 3,
+    "question": "Mount Kailash and Lake Manasarovar form the source region of all of the following rivers EXCEPT:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Indus"
+      },
+      {
+        "key": "b",
+        "text": "Sutlej"
+      },
+      {
+        "key": "c",
+        "text": "Brahmaputra"
+      },
+      {
+        "key": "d",
+        "text": "Ganga"
+      }
+    ],
+    "answer": "d",
+    "explanation": "(the Ganga rises at Gangotri; Kailash feeds the Indus, Sutlej, Brahmaputra and Karnali/Ghaghara)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_06_20_4",
+    "question_number": 4,
+    "question": "El Fasher, repeatedly in the news for famine and conflict, is a city in which country?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Chad"
+      },
+      {
+        "key": "b",
+        "text": "Sudan"
+      },
+      {
+        "key": "c",
+        "text": "South Sudan"
+      },
+      {
+        "key": "d",
+        "text": "Ethiopia"
+      }
+    ],
+    "answer": "b",
+    "explanation": "(Sudan — capital of North Darfur)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_06_20_5",
+    "question_number": 5,
+    "question": "\"Padma\" is the name given in Bangladesh to which river after it crosses the border?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Brahmaputra"
+      },
+      {
+        "key": "b",
+        "text": "Teesta"
+      },
+      {
+        "key": "c",
+        "text": "Ganga"
+      },
+      {
+        "key": "d",
+        "text": "Meghna"
+      }
+    ],
+    "answer": "c",
+    "explanation": "(the Ganga becomes the Padma below the Farakka Barrage)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  }
+]

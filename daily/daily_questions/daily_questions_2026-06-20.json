@@ -1,0 +1,79 @@
+[
+  {
+    "question": "With reference to the 1996 Ganga Waters Treaty between India and Bangladesh, consider the following statements: 1. It governs the sharing of dry-season flows of the Ganga at the Farakka Barrage. 2. It was signed for a period of 30 years and is due to expire in 2026. 3. It also provides for the sharing of the waters of the Teesta river. Which of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(a)",
+    "explanation": "The 1996 Treaty (30-year term, expiring Dec 2026) shares only the Ganga's dry-season flows at the Farakka Barrage. The Teesta is a separate, still-unresolved dispute, so statement 3 is wrong.",
+    "subject": "International Relations",
+    "theme": "India-Bangladesh transboundary rivers",
+    "micro_topic": "Ganga Waters Treaty 1996 & Padma Barrage",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to uranium enrichment, consider the following statements: 1. Natural uranium contains less than 1% of the fissile isotope U-235. 2. Uranium enriched to about 90% U-235 is generally regarded as weapons-grade. 3. 'Downblending' increases the proportion of U-235 in a uranium stockpile. Which of the statements given above are correct?",
+    "options": ["(a) 1 and 3 only", "(b) 2 and 3 only", "(c) 1 and 2 only", "(d) 1, 2 and 3"],
+    "answer": "(c)",
+    "explanation": "Natural uranium is ~0.7% U-235 (<1%) and ~90% U-235 is weapons-grade. Downblending mixes highly enriched uranium with depleted/natural uranium to LOWER the U-235 fraction, so statement 3 is wrong.",
+    "subject": "Science & Technology",
+    "theme": "Nuclear fuel cycle",
+    "micro_topic": "Uranium enrichment & downblending (Iran/IAEA)",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "With reference to the Nipah virus, consider the following statements: 1. Its natural reservoir is fruit bats of the genus Pteropus. 2. It is a zoonotic disease that can cause encephalitis and respiratory illness. 3. A licensed vaccine is widely available for its prevention. Which of the statements given above are correct?",
+    "options": ["(a) 1 and 3 only", "(b) 2 and 3 only", "(c) 1, 2 and 3", "(d) 1 and 2 only"],
+    "answer": "(d)",
+    "explanation": "Pteropus fruit bats are the reservoir, and Nipah causes encephalitis and respiratory illness. There is no licensed vaccine (it is a WHO priority pathogen), so statement 3 is wrong.",
+    "subject": "Society",
+    "theme": "Zoonotic & emerging diseases",
+    "micro_topic": "Nipah virus (Kerala outbreak)",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The '5% Model', recently in the news for raising groundwater levels through community participation, refers to which one of the following?",
+    "options": ["(a) A SEBI norm capping promoter shareholding at 5%", "(b) An RBI rule fixing the cash reserve ratio at 5%", "(c) A district in Chhattisgarh where farmers dedicate 5% of farmland to groundwater-recharge structures", "(d) A central scheme reserving 5% of MGNREGA funds for afforestation"],
+    "answer": "(c)",
+    "explanation": "The '5% Model' is from Korea district, Chhattisgarh, where farmers set aside 5% of their farmland for soak pits/recharge structures, lifting groundwater levels by 5.41 m and scaling to ~30,000 farmers.",
+    "subject": "Environment",
+    "theme": "Water conservation & groundwater",
+    "micro_topic": "Korea district 5% community recharge model",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to India's Consumer Price Index (CPI), consider the following statements: 1. It is compiled and released by the National Statistical Office under the Ministry of Statistics and Programme Implementation. 2. The RBI's flexible inflation-targeting framework uses CPI (Combined) as the nominal anchor, with a target of 4% within a band of plus or minus 2%. 3. Retail inflation for May 2026 was reported above the upper tolerance limit of the RBI's target band. Which of the statements given above are correct?",
+    "options": ["(a) 1 only", "(b) 1 and 2 only", "(c) 2 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(b)",
+    "explanation": "CPI is compiled by the NSO/MoSPI, and the RBI targets 4% CPI within a 2-6% band. May 2026 CPI was 3.93%, well within the band (not above the 6% upper limit), so statement 3 is wrong.",
+    "subject": "Economy",
+    "theme": "Inflation & monetary policy",
+    "micro_topic": "CPI May 2026 (3.93%) & inflation targeting",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Farakka Barrage, consider the following statements: 1. It is located on the Ganga in the state of West Bengal. 2. It was built primarily to divert water into the Bhagirathi-Hooghly to help flush silt from the Kolkata-Haldia port. 3. Its feeder canal discharges into the Brahmaputra. Which of the statements given above are correct?",
+    "options": ["(a) 1 and 3 only", "(b) 1 and 2 only", "(c) 2 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(b)",
+    "explanation": "Farakka is on the Ganga in West Bengal and its feeder canal feeds the Bhagirathi-Hooghly (to flush the Kolkata-Haldia port), not the Brahmaputra, so statement 3 is wrong.",
+    "subject": "Geography",
+    "theme": "Drainage system of India",
+    "micro_topic": "Farakka Barrage & Bhagirathi-Hooghly",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to India's three-stage nuclear power programme, consider the following statements: 1. The first stage uses Pressurised Heavy Water Reactors fuelled by natural uranium. 2. The third stage envisages thorium-based reactors to utilise India's large thorium reserves. 3. The programme was conceptualised by Homi J. Bhabha. Which of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(d)",
+    "explanation": "Stage 1 uses PHWRs on natural uranium, Stage 3 targets thorium utilisation, and the programme was conceived by Homi Bhabha. All three statements are correct.",
+    "subject": "Science & Technology",
+    "theme": "India's nuclear energy programme",
+    "micro_topic": "Three-stage nuclear programme & thorium",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  }
+]

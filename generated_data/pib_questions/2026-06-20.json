@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the National Mission on Natural Farming (NMNF), recently launched in West Bengal, consider the following statements:\n1. It is a standalone Centrally Sponsored Scheme of the Ministry of Agriculture & Farmers' Welfare.\n2. It promotes the use of on-farm biomass and livestock-based inputs in place of chemical fertilisers and pesticides.\n3. Bio-Input Resource Centres (BRCs) are envisaged under the Mission to make natural-farming inputs locally available.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. NMNF was approved on 25 November 2024 as a standalone Centrally Sponsored Scheme (total outlay Rs 2,481 crore) under the Ministry of Agriculture & Farmers' Welfare. It promotes chemical-free farming using on-farm biomass and livestock-based inputs, and provides for Bio-Input Resource Centres (BRCs) and a cadre of Krishi Sakhis for local input supply and adoption.",
+    "subject": "Agriculture",
+    "theme": "Sustainable / natural farming",
+    "micro_topic": "National Mission on Natural Farming (NMNF) rollout in West Bengal",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to AgriStack, in the news in June 2026, consider the following statements:\n1. It is implemented by the Ministry of Electronics and Information Technology (MeitY).\n2. The 'Farmer ID' under AgriStack is a unique digital identity linked to a farmer's land records.\n3. The Crop Sown Registry and the Geo-referenced Village Maps are components of AgriStack.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statements 2 and 3 are correct. AgriStack is implemented by the Ministry of Agriculture & Farmers' Welfare (not MeitY), so statement 1 is wrong. The Farmer ID is a unique digital identity linked to land records, and the Crop Sown Registry and Geo-referenced Village Maps are core AgriStack registries (with the Farmers' Registry). AgriStack is one of three pillars of the Digital Agriculture Mission (with Krishi-DSS and Soil Profile Mapping); it was launched in West Bengal during the PM's 20 June 2026 visit.",
+    "subject": "Science & Technology",
+    "theme": "Digital Public Infrastructure in agriculture",
+    "micro_topic": "AgriStack / Digital Agriculture Mission",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements regarding India's efforts against Left-Wing Extremism (LWE) as highlighted in the 2014-2026 review:\n1. The number of most LWE-affected districts was reduced from 126 in 2014 to 12.\n2. The Ministry of Home Affairs is the nodal ministry for internal security and the Central Armed Police Forces.\n3. PRAHAAR, unveiled in 2026, was launched by the Ministry of Defence as a military counter-terrorism doctrine.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Statements 1 and 2 are correct. The MHA review shows the most LWE-affected districts fell from 126 (2014) to 12 (affected area down from over 18,000 sq km to about 4,200 sq km), and the Ministry of Home Affairs is the nodal ministry for internal security and the Central Armed Police Forces (CAPFs). Statement 3 is wrong - PRAHAAR (unveiled 23 February 2026) is the Ministry of Home Affairs' National Counter-Terrorism Policy and Strategy, not a Ministry of Defence military doctrine.",
+    "subject": "Internal Security",
+    "theme": "Left-Wing Extremism & counter-terrorism",
+    "micro_topic": "MHA 2014-2026 internal-security review (LWE reduction, PRAHAAR)",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]

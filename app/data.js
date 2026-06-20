@@ -72,6 +72,7 @@
     if (category.includes("weekly quiz") || id.startsWith("weekly_quiz")) return "weekly-quiz";
     if (category.includes("daily") || id.startsWith("daily_questions")) return "daily";
     if (category.includes("pib") || id.startsWith("pib_questions")) return "pib";
+    if (category.includes("sectional") || id.startsWith("sectional_")) return "sectional";
     if (category.includes("csat") || id.startsWith("csat_")) return "csat";
     if (category.includes("csr") || id.startsWith("csr_")) return "csr";
     return "ai";
@@ -80,7 +81,7 @@
   function normalizeQuestionSetMeta(set) {
     const sourceType = inferSourceType(set);
     const questionCount = Number(set.questionCount || set.question_count || 0);
-    const durationMinutes = Number(set.durationMinutes || set.duration_minutes || (sourceType === "daily" || sourceType === "pib" ? 10 : sourceType === "rc" ? 8 : 120));
+    const durationMinutes = Number(set.durationMinutes || set.duration_minutes || (sourceType === "daily" || sourceType === "pib" ? 10 : sourceType === "rc" ? 8 : sourceType === "sectional" ? 40 : 120));
     const normalized = {
       id: String(set.id || ""),
       label: set.label || set.id || "Question set",
@@ -102,7 +103,7 @@
   }
 
   function sortQuestionSets(sets) {
-    const rank = { daily: 0, rc: 1, pib: 2, "weekly-news": 3, "weekly-quiz": 4, csat: 5, pyq: 6, ai: 7, csr: 8 };
+    const rank = { daily: 0, rc: 1, pib: 2, "weekly-news": 3, "weekly-quiz": 4, sectional: 5, csat: 6, pyq: 7, ai: 8, csr: 9 };
     return [...sets].sort((a, b) => {
       if (a.sourceType !== b.sourceType) return (rank[a.sourceType] ?? 9) - (rank[b.sourceType] ?? 9);
       if (a.isoDate || b.isoDate) return String(b.isoDate || "").localeCompare(String(a.isoDate || ""));
@@ -322,6 +323,7 @@
     if (questionSet.sourceType === "weekly-quiz" || raw.includes("weekly-quiz")) return "weekly-quiz";
     if (questionSet.sourceType === "daily" || raw.includes("daily")) return "daily";
     if (questionSet.sourceType === "pib" || raw.includes("pib")) return "pib";
+    if (questionSet.sourceType === "sectional" || raw.includes("sectional")) return "sectional";
     if (raw.includes("csr")) return "csr";
     if (raw.includes("ai")) return "ai";
     if (questionSet.year || raw.includes("previous")) return "pyq";

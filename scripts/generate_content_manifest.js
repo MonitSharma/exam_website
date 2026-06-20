@@ -252,6 +252,7 @@ function inferSourceType(raw) {
   if (id.startsWith("weekly_news") || category.includes("weekly news") || filePath.includes("/weekly_news_questions/")) return "weekly-news";
   if (id.startsWith("weekly_quiz") || category.includes("weekly quiz") || filePath.includes("/weekly_quiz_questions/")) return "weekly-quiz";
   if (id.startsWith("pib_questions") || category.includes("pib") || filePath.includes("/pib_questions/")) return "pib";
+  if (id.startsWith("sectional_") || category.includes("sectional") || filePath.includes("/sectional_questions/")) return "sectional";
   if (id.startsWith("csat_") || category.includes("csat")) return "csat";
   if (id.startsWith("ai_generated") || category.includes("ai generated")) return "ai";
   if (id.startsWith("csr_") || category.includes("csr")) return "csr";
@@ -265,6 +266,7 @@ function inferCategory(sourceType, id, count) {
   if (sourceType === "weekly-news") return "Weekly News";
   if (sourceType === "weekly-quiz") return "Weekly Quiz";
   if (sourceType === "pib") return "PIB Questions";
+  if (sourceType === "sectional") return "Sectional Tests";
   if (sourceType === "csat") return id.includes("full_mock") || count >= 75 ? "CSAT Full Mock" : "CSAT Practice";
   if (sourceType === "csr") return "CSR Monthly Mock";
   return "AI Generated Practice";
@@ -276,6 +278,7 @@ function defaultDuration(sourceType, id, count) {
   if (sourceType === "weekly-news") return Math.max(8, Math.round(count * 1.5));
   if (sourceType === "weekly-quiz") return Math.max(25, Math.round(count * 1.5));
   if (sourceType === "pib") return 10;
+  if (sourceType === "sectional") return Math.max(30, Math.round(count * 1.6));
   if (sourceType === "csat") return id.includes("full_mock") || count >= 75 ? 120 : Math.max(20, Math.round(count * 1.6));
   if (sourceType === "ai" && count < 30) return 30;
   return 120;
@@ -289,6 +292,7 @@ function labelForQuestionSet(sourceType, id, isoDate, count) {
   if (sourceType === "weekly-news") return `Weekly Places in News - ${dateLabel}`;
   if (sourceType === "weekly-quiz") return `Weekly Recall Quiz - ${dateLabel}`;
   if (sourceType === "pib") return `PIB Questions - ${dateLabel}`;
+  if (sourceType === "sectional") return `Sectional Test - ${dateLabel}`;
   if (sourceType === "csat") return `${id.includes("full_mock") || count >= 75 ? "CSAT Full Mock" : "CSAT Practice"} - ${dateLabel}`;
   if (sourceType === "csr") {
     const batch = id.match(/batch_(\d+)/)?.[1] || "";
@@ -306,6 +310,7 @@ function shortLabelForQuestionSet(sourceType, id, isoDate, count) {
   if (sourceType === "weekly-news") return `News ${shortDate}`;
   if (sourceType === "weekly-quiz") return `Weekly Quiz ${shortDate}`;
   if (sourceType === "pib") return `PIB ${shortDate}`;
+  if (sourceType === "sectional") return `Sectional ${shortDate}`;
   if (sourceType === "csat") return `${id.includes("full_mock") || count >= 75 ? "CSAT Mock" : "CSAT Practice"} ${shortDate}`;
   if (sourceType === "csr") return `CSR Batch ${id.match(/batch_(\d+)/)?.[1] || ""}`.trim();
   return `AI Batch ${id.match(/batch_(\d+)/)?.[1] || ""}`.trim();
@@ -427,6 +432,25 @@ function addRawPibQuestionSets(root, byId) {
   }
 }
 
+function addRawSectionalQuestionSets(root, byId) {
+  const dir = path.join(root, "generated_data", "sectional_questions");
+  for (const absPath of listTopLevelFiles(dir).filter((item) => item.endsWith(".json"))) {
+    const isoDate = normalizeIsoDate(path.basename(absPath));
+    if (!isoDate) continue;
+    const topic = path.basename(absPath, ".json").replace(/_\d{4}-\d{2}-\d{2}$/, "");
+    const count = jsonRows(absPath).length;
+    if (!count) continue;
+    upsertQuestionSet(root, byId, {
+      id: `sectional_${slugify(topic)}_${dateSlug(isoDate)}`,
+      category: "Sectional Tests",
+      sourceType: "sectional",
+      isoDate,
+      durationMinutes: defaultDuration("sectional", "", count),
+      path: relPath(root, absPath),
+    });
+  }
+}
+
 function addRawCsatQuestionSets(root, byId) {
   const sources = [
     path.join(root, "generated_data", "csat_questions"),
@@ -539,7 +563,7 @@ function addWeeklyNewsQuestionSets(root, byId) {
 }
 
 function sortQuestionSets(items) {
-  const rank = { daily: 0, rc: 1, pib: 2, "weekly-news": 3, "weekly-quiz": 4, csat: 5, pyq: 6, ai: 7, csr: 8 };
+  const rank = { daily: 0, rc: 1, pib: 2, "weekly-news": 3, "weekly-quiz": 4, sectional: 5, csat: 6, pyq: 7, ai: 8, csr: 9 };
   return [...items].sort((a, b) => {
     if (a.sourceType !== b.sourceType) return (rank[a.sourceType] ?? 9) - (rank[b.sourceType] ?? 9);
     if (a.isoDate || b.isoDate) return String(b.isoDate || "").localeCompare(String(a.isoDate || ""));
@@ -630,6 +654,12 @@ function buildNoteDocuments(root = DEFAULT_ROOT) {
     docs.push(note(root, absPath, "weekly-news", "Places in News", `Map - ${formatDate(isoDate, { day: "2-digit", month: "short" })}`, isoDate));
   }
 
+  const sectionalDir = path.join(root, "weekly", "Sectional");
+  for (const absPath of listTopLevelFiles(sectionalDir).filter((item) => /^Sectional_.+_\d{4}-\d{2}-\d{2}\.md$/.test(path.basename(item)))) {
+    const isoDate = normalizeIsoDate(absPath);
+    docs.push(note(root, absPath, "sectional", noteTitleFromHeading(absPath, "Sectional Test"), `Test - ${formatDate(isoDate, { day: "2-digit", month: "short" })}`, isoDate));
+  }
+
   const legacyWeeklyDir = path.join(root, "weekly");
   for (const absPath of listTopLevelFiles(legacyWeeklyDir).filter((item) => item.endsWith(".md"))) {
     const isoDate = normalizeIsoDate(absPath);
@@ -672,6 +702,7 @@ function buildQuestionSets(root = DEFAULT_ROOT) {
   addProcessedQuestionSets(root, byId);
   addRawDailyQuestionSets(root, byId);
   addRawPibQuestionSets(root, byId);
+  addRawSectionalQuestionSets(root, byId);
   addRawCsatQuestionSets(root, byId);
   addRawAiGeneratedQuestionSets(root, byId);
   addDailyRcQuestionSets(root, byId);

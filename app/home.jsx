@@ -249,6 +249,7 @@ function BankBrowse({ go }) {
     { id: "weekly-news", icon: "map", title: "Weekly News", desc: "Places in news map drills", count: setCountLabel("weekly-news", "set", "sets"), tone: "teal", sourceType: "weekly-news" },
     { id: "weekly-quiz", icon: "layers", title: "Weekly Quiz", desc: "CA + static recall", count: setCountLabel("weekly-quiz", "set", "sets"), tone: "indigo", sourceType: "weekly-quiz" },
     { id: "pib", icon: "fileText", title: "PIB Questions", desc: "PIB-based daily practice", count: setCountLabel("pib", "set", "sets"), tone: "green", sourceType: "pib" },
+    { id: "sectional", icon: "target", title: "Sectional Tests", desc: "Subject-wise prelims practice", count: setCountLabel("sectional", "set", "sets"), tone: "saffron", sourceType: "sectional" },
   ];
   const active = banks.find((bank) => bank.id === activeBank) || null;
   return (
@@ -315,6 +316,7 @@ const CADENCE_META = {
   "physics": { label: "Physics", group: "Weekly" },
   "weekly-news": { label: "Weekly News", group: "Weekly" },
   "weekly": { label: "Weekly", group: "Weekly" },
+  "sectional": { label: "Sectional", group: "Weekly" },
   "monthly": { label: "Monthly", group: "Monthly" },
   "strategy": { label: "Strategy", group: "Reference" },
 };

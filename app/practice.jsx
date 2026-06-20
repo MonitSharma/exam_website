@@ -22,6 +22,7 @@ function PracticeScreen({ go }) {
     { id: "weekly-news", title: "Weekly news", desc: "Map-based places in news questions.", sourceType: "weekly-news", tone: "teal", icon: "map" },
     { id: "weekly-quiz", title: "Weekly quiz", desc: "Current affairs plus static recall MCQs.", sourceType: "weekly-quiz", tone: "indigo", icon: "layers" },
     { id: "pib", title: "PIB questions", desc: "Daily questions from PIB briefs and releases.", sourceType: "pib", tone: "green", icon: "fileText" },
+    { id: "sectional", title: "Sectional test", desc: "Subject-wise prelims practice sets.", sourceType: "sectional", tone: "saffron", icon: "target" },
     { id: "ai", title: "AI question set", desc: "Generated practice sets by batch.", sourceType: "ai", tone: "saffron", icon: "spark" },
     { id: "csr", title: "CSR mock test", desc: "Curated CSR mock batches.", sourceType: "csr", tone: "indigo", icon: "book" },
     { id: "csat", title: "CSAT practice", desc: "Paper II mocks and drills with CSAT marking.", sourceType: "csat", tone: "blue", icon: "target" },

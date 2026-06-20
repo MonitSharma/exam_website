@@ -1,0 +1,402 @@
+[
+  {
+    "question": "Which Article of the Constitution did Dr. B.R. Ambedkar describe as the 'heart and soul of the Constitution'?",
+    "options": [
+      "(a) Article 14",
+      "(b) Article 21",
+      "(c) Article 32",
+      "(d) Article 368"
+    ],
+    "answer": "(c)",
+    "explanation": "Ambedkar called Article 32 (Right to Constitutional Remedies) the 'heart and soul of the Constitution' as it guarantees the right to move the Supreme Court for enforcement of Fundamental Rights.",
+    "subject": "Polity & Governance",
+    "theme": "Fundamental Rights",
+    "micro_topic": "Right to Constitutional Remedies (Article 32)",
+    "nature": "Static",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Consider the following words in the Preamble:\n1. Socialist\n2. Secular\n3. Integrity\n4. Sovereign\nHow many of the above words were inserted into the Preamble by the 42nd Constitutional Amendment Act, 1976?",
+    "options": [
+      "(a) Only three",
+      "(b) Only two",
+      "(c) All four",
+      "(d) Only one"
+    ],
+    "answer": "(a)",
+    "explanation": "The 42nd Amendment (1976) added the words 'Socialist', 'Secular' and 'Integrity'. 'Sovereign' was part of the original Preamble, so only three of the four were added.",
+    "subject": "Polity & Governance",
+    "theme": "Preamble",
+    "micro_topic": "42nd Amendment and the Preamble",
+    "nature": "Static",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to a Money Bill, consider the following statements:\n1. It can be introduced only in the Lok Sabha.\n2. It can be introduced only on the recommendation of the President.\n3. The Rajya Sabha has the power to amend or reject it.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 3 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "A Money Bill (Article 110) can be introduced only in the Lok Sabha and only on the President's recommendation. The Rajya Sabha can only make recommendations (within 14 days), which the Lok Sabha may accept or reject; it cannot amend or reject a Money Bill, so statement 3 is wrong.",
+    "subject": "Polity & Governance",
+    "theme": "Parliament",
+    "micro_topic": "Money Bill (Article 110)",
+    "nature": "Static",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Which one of the following is correctly matched (Subject : Legislative List of the Seventh Schedule)?",
+    "options": [
+      "(a) Police : Concurrent List",
+      "(b) Public order : Union List",
+      "(c) Citizenship : State List",
+      "(d) Forests : Concurrent List"
+    ],
+    "answer": "(d)",
+    "explanation": "Forests was shifted from the State List to the Concurrent List by the 42nd Amendment, so (d) is correct. Police and Public order are in the State List, while Citizenship is in the Union List.",
+    "subject": "Polity & Governance",
+    "theme": "Federalism",
+    "micro_topic": "Seventh Schedule (distribution of legislative powers)",
+    "nature": "Static",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to a National Emergency under Article 352, consider the following statements:\n1. It can be proclaimed on grounds of war, external aggression or armed rebellion.\n2. The expression 'internal disturbance' was replaced by 'armed rebellion' by the 44th Amendment Act.\n3. The proclamation must be approved by both Houses of Parliament within one month.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. The 44th Amendment (1978) substituted 'armed rebellion' for 'internal disturbance' and reduced the approval period from two months to one month, requiring approval by both Houses by a special majority.",
+    "subject": "Polity & Governance",
+    "theme": "Emergency Provisions",
+    "micro_topic": "National Emergency (Article 352)",
+    "nature": "Static",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements:\nAssertion (A): The Directive Principles of State Policy are not enforceable by any court.\nReason (R): The Directive Principles are fundamental in the governance of the country.\nSelect the correct answer using the code given below:",
+    "options": [
+      "(a) Both A and R are true and R is the correct explanation of A",
+      "(b) Both A and R are true but R is NOT the correct explanation of A",
+      "(c) A is true but R is false",
+      "(d) A is false but R is true"
+    ],
+    "answer": "(b)",
+    "explanation": "Article 37 states both that the Directive Principles are not enforceable by any court and that they are nevertheless fundamental in the governance of the country. Both statements are true, but their non-enforceability is a deliberate constitutional design, not a consequence of being 'fundamental in governance'; hence R is not the correct explanation of A.",
+    "subject": "Polity & Governance",
+    "theme": "Directive Principles of State Policy",
+    "micro_topic": "Nature of DPSP (Article 37)",
+    "nature": "Static",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "With reference to the procedure for amendment of the Constitution under Article 368, consider the following statements:\n1. An amendment bill can be introduced in either House of Parliament.\n2. Such a bill requires the prior recommendation of the President for its introduction.\n3. Provisions affecting the federal structure require ratification by the legislatures of at least half of the states.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "A Constitution Amendment Bill can be introduced in either House and does not require the President's prior recommendation, so statement 2 is wrong. Amendments touching the federal provisions need ratification by not less than half of the state legislatures, making statements 1 and 3 correct.",
+    "subject": "Polity & Governance",
+    "theme": "Constitutional Amendment",
+    "micro_topic": "Amendment procedure (Article 368)",
+    "nature": "Static",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the 73rd Constitutional Amendment Act, consider the following statements:\n1. It added Part IX and the Eleventh Schedule to the Constitution.\n2. The Eleventh Schedule contains 29 subjects.\n3. It provides for reservation of not less than one-third of seats for women in Panchayats.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1, 2 and 3",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1 only"
+    ],
+    "answer": "(a)",
+    "explanation": "All three are correct. The 73rd Amendment (1992) inserted Part IX (The Panchayats) and the Eleventh Schedule listing 29 functional subjects, and mandates reservation of at least one-third of seats (including chairperson posts) for women.",
+    "subject": "Polity & Governance",
+    "theme": "Local Government",
+    "micro_topic": "73rd Amendment and Panchayati Raj",
+    "nature": "Static",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Election Commission of India, consider the following statements:\n1. It is a permanent and independent constitutional body under Article 324.\n2. The Constitution prescribes the qualifications required to be a member of the Election Commission.\n3. The Chief Election Commissioner and the Election Commissioners enjoy equal powers and equal salary.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "The ECI is a permanent, independent constitutional body and decisions in the Commission are by majority, with the CEC and ECs having equal powers and salary. However, the Constitution does NOT lay down the qualifications of its members, so statement 2 is incorrect.",
+    "subject": "Polity & Governance",
+    "theme": "Constitutional Bodies",
+    "micro_topic": "Election Commission of India (Article 324)",
+    "nature": "Static",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to citizenship under the Constitution of India, consider the following statements:\n1. Articles 5 to 11 in Part II deal with citizenship.\n2. The Constitution provides for single citizenship for the whole of India.\n3. Parliament has the power to regulate the right of citizenship by law.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. Part II (Articles 5-11) deals with citizenship; India follows single citizenship; and Article 11 empowers Parliament to regulate citizenship by law, exercised through the Citizenship Act, 1955.",
+    "subject": "Polity & Governance",
+    "theme": "Citizenship",
+    "micro_topic": "Citizenship provisions (Part II)",
+    "nature": "Static",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the office of the Governor of a State, consider the following statements:\n1. The Governor is appointed by the President.\n2. A person must have completed 30 years of age to be appointed Governor.\n3. The Governor holds office during the pleasure of the President.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "The Governor is appointed by the President (Article 155) and holds office during the President's pleasure (Article 156). The minimum age to be a Governor is 35 years, not 30 (Article 157), so statement 2 is wrong.",
+    "subject": "Polity & Governance",
+    "theme": "State Executive",
+    "micro_topic": "Governor (Articles 153-157)",
+    "nature": "Static",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the anti-defection law, consider the following statements:\n1. The Tenth Schedule was added by the 52nd Amendment Act, 1985.\n2. Decisions on disqualification on the ground of defection are taken by the presiding officer of the House.\n3. The 91st Amendment Act deleted the provision that exempted a 'split' in a legislature party from disqualification.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. The 52nd Amendment (1985) inserted the Tenth Schedule; disqualification questions are decided by the presiding officer (subject to judicial review per Kihoto Hollohan); and the 91st Amendment (2003) removed the protection earlier given to a one-third 'split'.",
+    "subject": "Polity & Governance",
+    "theme": "Parliament & Legislatures",
+    "micro_topic": "Anti-defection law (Tenth Schedule)",
+    "nature": "Static",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "With reference to the Fundamental Duties, consider the following statements:\n1. They were added by the 42nd Amendment Act on the recommendation of the Swaran Singh Committee.\n2. Originally, there were ten Fundamental Duties.\n3. The duty regarding the education of children between 6 and 14 years was added by the 86th Amendment Act.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1, 2 and 3",
+      "(c) 2 and 3 only",
+      "(d) 1 only"
+    ],
+    "answer": "(b)",
+    "explanation": "All three are correct. The 42nd Amendment (1976) added Fundamental Duties (Article 51A) on the Swaran Singh Committee's recommendation, originally ten in number; the 86th Amendment (2002) added the eleventh duty relating to education of children aged 6-14.",
+    "subject": "Polity & Governance",
+    "theme": "Fundamental Duties",
+    "micro_topic": "Fundamental Duties (Article 51A)",
+    "nature": "Static",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Which one of the following is NOT correctly matched (Schedule : Subject matter)?",
+    "options": [
+      "(a) Seventh Schedule : Forms of oaths and affirmations",
+      "(b) Sixth Schedule : Administration of tribal areas in Assam, Meghalaya, Tripura and Mizoram",
+      "(c) Second Schedule : Salaries and allowances of certain officials",
+      "(d) Eighth Schedule : Languages"
+    ],
+    "answer": "(a)",
+    "explanation": "The Seventh Schedule contains the three legislative lists (Union, State and Concurrent). Forms of oaths and affirmations are in the Third Schedule, so (a) is incorrectly matched. The other pairings are correct.",
+    "subject": "Polity & Governance",
+    "theme": "Schedules of the Constitution",
+    "micro_topic": "Schedules and their subject matter",
+    "nature": "Static",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to writs issued by the higher judiciary, consider the following statements:\n1. The writ of Habeas Corpus can be issued against both public authorities and private individuals.\n2. The writ of Mandamus cannot be issued against the President of India or the Governor of a State.\n3. The writ of Quo Warranto can be sought by any interested person, not necessarily the aggrieved party.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. Habeas Corpus lies against both the State and private persons; Mandamus cannot be issued against the President or Governors (Article 361); and Quo Warranto can be sought by any person, regardless of whether their own rights are affected.",
+    "subject": "Polity & Governance",
+    "theme": "Judiciary",
+    "micro_topic": "Writ jurisdiction (Articles 32 and 226)",
+    "nature": "Static",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "With reference to the Comptroller and Auditor General of India (CAG), consider the following statements:\n1. The CAG is appointed by the President.\n2. The CAG can be removed in the same manner and on the same grounds as a judge of the Supreme Court.\n3. The CAG audits the accounts of both the Union and the State governments.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1, 2 and 3",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1 only"
+    ],
+    "answer": "(a)",
+    "explanation": "All three are correct. The CAG (Article 148) is appointed by the President, can be removed only in the manner of a Supreme Court judge, and audits the accounts of both the Union and the States.",
+    "subject": "Polity & Governance",
+    "theme": "Constitutional Bodies",
+    "micro_topic": "Comptroller and Auditor General (Article 148)",
+    "nature": "Static",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the election of the President of India, consider the following statements:\n1. The electoral college consists of the elected members of both Houses of Parliament and the elected members of the State Legislative Assemblies.\n2. The elected members of the State Legislative Councils take part in the election.\n3. The election is held in accordance with the system of proportional representation by means of a single transferable vote.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "The President is elected by an electoral college of elected MPs and elected MLAs (including those of Delhi and Puducherry) through proportional representation by single transferable vote. Members of State Legislative Councils do not participate, so statement 2 is wrong.",
+    "subject": "Polity & Governance",
+    "theme": "Union Executive",
+    "micro_topic": "Election of the President (Article 54-55)",
+    "nature": "Static",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Supreme Court's November 2025 advisory opinion on the powers of the Governor and the President to assent to Bills (Articles 200 and 201), consider the following statements:\n1. The Court held that the judiciary cannot impose fixed timelines on the Governor or the President to act on Bills.\n2. The Court recognised the concept of 'deemed assent' if a Bill is kept pending beyond a reasonable period.\n3. The reference was made to the Supreme Court by the President under Article 143 of the Constitution.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "In its advisory opinion delivered on 20 November 2025, the five-judge bench held that courts cannot prescribe timelines for the Governor/President under Articles 200/201 and that there is NO concept of 'deemed assent' (so statement 2 is wrong). The questions had been referred by President Droupadi Murmu under Article 143.",
+    "subject": "Polity & Governance",
+    "theme": "Centre-State Relations",
+    "micro_topic": "Presidential Reference on Governor's assent (Articles 200/201)",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "With reference to the advisory jurisdiction of the Supreme Court under Article 143, consider the following statements:\n1. The President may refer to the Supreme Court any question of law or fact of public importance.\n2. The Supreme Court is bound to give its opinion on every reference made to it under Article 143.\n3. The opinion rendered by the Supreme Court under Article 143 is binding on the President.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Under Article 143(1) the President may refer a question of law or fact of public importance, but the Supreme Court 'may' tender its opinion and can decline to answer; it is therefore not bound to answer every reference, so statement 2 is wrong. The advisory opinion is also not binding on the President (only persuasive), so statement 3 is wrong.",
+    "subject": "Polity & Governance",
+    "theme": "Judiciary",
+    "micro_topic": "Advisory jurisdiction (Article 143)",
+    "nature": "Static",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "With reference to the Supreme Court's September 2025 interim order on the Waqf (Amendment) Act, 2025, consider the following statements:\n1. The Court stayed the provision requiring a person to have practised Islam for at least five years in order to create a waqf, until rules are framed.\n2. The Court struck down the entire Waqf (Amendment) Act, 2025 as unconstitutional.\n3. The Court directed that the Central Waqf Council shall not have more than four non-Muslim members.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "On 15 September 2025 the Court granted only an interim stay of certain provisions; it did NOT strike down the whole Act (statement 2 wrong). It stayed the five-year 'practising Islam' condition pending framing of rules and capped non-Muslim membership of the Central Waqf Council at four (and State Waqf Boards at three).",
+    "subject": "Polity & Governance",
+    "theme": "Governance & Judiciary",
+    "micro_topic": "Waqf (Amendment) Act, 2025 interim order",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "With reference to 'One Nation, One Election', consider the following statements:\n1. The Constitution (129th Amendment) Bill, 2024 seeks to enable simultaneous elections to the Lok Sabha and State Legislative Assemblies.\n2. The Bill has been referred to a Joint Committee of Parliament chaired by P.P. Chaudhary.\n3. The Bill was passed by both Houses of Parliament with a special majority in 2024.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 3 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "The 129th Amendment Bill, 2024 (with the Union Territories Laws (Amendment) Bill) proposes simultaneous Lok Sabha and Assembly elections and was referred to a Joint Committee of Parliament headed by P.P. Chaudhary, whose tenure has been extended to the Monsoon Session 2026. The Bill has NOT been passed, so statement 3 is wrong.",
+    "subject": "Polity & Governance",
+    "theme": "Electoral Reforms",
+    "micro_topic": "129th Amendment Bill / simultaneous elections",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Chief Election Commissioner and Other Election Commissioners (Appointment, Conditions of Service and Term of Office) Act, 2023, consider the following statements:\n1. The Selection Committee under the Act consists of the Prime Minister, the Leader of the Opposition in the Lok Sabha, and the Chief Justice of India.\n2. The Act was enacted after the Supreme Court's judgment in Anoop Baranwal v. Union of India (2023).\n3. The Chief Election Commissioner and the Election Commissioners are appointed by the President.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "The 2023 Act's Selection Committee comprises the Prime Minister, a Union Cabinet Minister and the Leader of the Opposition in the Lok Sabha — the Chief Justice of India is NOT a member, so statement 1 is wrong. The Act followed the Anoop Baranwal (2023) verdict, and the President makes the appointment on the Committee's recommendation.",
+    "subject": "Polity & Governance",
+    "theme": "Constitutional Bodies",
+    "micro_topic": "CEC and ECs Appointment Act, 2023",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Consider the following statements:\n1. Justice Surya Kant assumed office as the 53rd Chief Justice of India in November 2025.\n2. The Chief Justice of India is appointed by the President of India.\n3. The Constitution fixes the retirement age of a judge of the Supreme Court at 62 years.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Justice Surya Kant was sworn in as the 53rd CJI in November 2025, and the CJI is appointed by the President (Article 124). A Supreme Court judge retires at 65 years (62 is the age for High Court judges), so statement 3 is wrong.",
+    "subject": "Polity & Governance",
+    "theme": "Judiciary",
+    "micro_topic": "Appointment and tenure of the CJI",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to Article 142 of the Constitution, consider the following statements:\n1. It empowers the Supreme Court to pass any order necessary for doing 'complete justice' in any cause or matter pending before it.\n2. In the Tamil Nadu Governor case (April 2025), the Court invoked Article 142 to treat certain pending Bills as having received assent.\n3. The power under Article 142 is available to all courts in India.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 3 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Article 142 enables only the Supreme Court (not all courts) to do 'complete justice', so statement 3 is wrong. In the April 2025 Tamil Nadu Governor case the Court used Article 142 to deem the pending Bills assented — a step the later November 2025 advisory opinion effectively disapproved.",
+    "subject": "Polity & Governance",
+    "theme": "Judiciary",
+    "micro_topic": "Complete justice power (Article 142)",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "With reference to the Rajya Sabha, consider the following statements:\n1. It is a permanent House and is not subject to dissolution.\n2. One-third of its members retire on the expiration of every second year.\n3. Its maximum strength is 250, of which 12 members are nominated by the President.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1, 2 and 3",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1 only"
+    ],
+    "answer": "(a)",
+    "explanation": "All three are correct. The Rajya Sabha is a continuing/permanent body not subject to dissolution; one-third of its members retire every second year; and its maximum strength is 250 (238 representatives of States and UTs plus 12 nominated by the President).",
+    "subject": "Polity & Governance",
+    "theme": "Parliament",
+    "micro_topic": "Composition of the Rajya Sabha",
+    "nature": "Static",
+    "difficulty": "Easy"
+  }
+]
