@@ -1,0 +1,79 @@
+[
+  {
+    "question": "With reference to the Supreme Court's June 2026 ruling on the right to walk on footpaths, consider the following: (1) The right was anchored in Article 21 read with the freedom of movement under Article 19(1)(d). (2) The Court held that motorised vehicles have priority over pedestrians on shared roads. (3) The Court called for a national pedestrian law. Which of the statements is/are correct?",
+    "options": ["(a) 1 and 3 only", "(b) 2 only", "(c) 1 and 2 only", "(d) 1, 2 and 3"],
+    "answer": "(a)",
+    "explanation": "The right was rooted in Article 21 read with Article 19(1)(d); the Court gave pedestrians priority over vehicles (so statement 2 is wrong) and urged a national pedestrian law.",
+    "subject": "Polity & Governance",
+    "theme": "Fundamental Rights",
+    "micro_topic": "Judicial expansion of Article 21 / Right to walk on footpaths",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The India-UK Comprehensive Economic and Trade Agreement (CETA), in news in June 2026:",
+    "options": ["(a) was rejected by the UK Parliament", "(b) is scheduled to enter into force on 15 July 2026", "(c) excludes all of India's tariff lines from liberalisation", "(d) replaces India's membership of the WTO"],
+    "answer": "(b)",
+    "explanation": "The India-UK CETA is set to enter into force on 15 July 2026; it liberalises over 99% of India's tariff lines and complements, not replaces, WTO membership.",
+    "subject": "International Relations",
+    "theme": "Free Trade Agreements",
+    "micro_topic": "India-UK CETA / FTA diplomacy",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The Kanchan Devi Committee, in news in June 2026, is associated with:",
+    "options": ["(a) reviewing the legal protection and delineation of the Aravalli range", "(b) revising the base year of the Wholesale Price Index", "(c) fixing minimum support prices for kharif crops", "(d) regulating foreign portfolio investment in G-secs"],
+    "answer": "(a)",
+    "explanation": "The Kanchan Devi Committee is a Supreme Court-appointed expert panel (constituted 25 May 2026) reviewing the protection and legal delineation of the Aravalli range.",
+    "subject": "Environment",
+    "theme": "Environmental Governance",
+    "micro_topic": "Aravalli protection / SC expert committee",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Consider the following with respect to the Geographical Indications (GI) tags granted to Ladakh products in June 2026: (1) GI registration in India is governed by an Act of 1999. (2) A registered GI is valid for 10 years and is renewable. (3) GI tags are administered by the Reserve Bank of India. Which of the statements is/are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 only", "(d) 1, 2 and 3"],
+    "answer": "(a)",
+    "explanation": "GI is governed by the Geographical Indications of Goods (Registration and Protection) Act, 1999; registration is valid for 10 years and renewable; it is administered by the Controller General of Patents, Designs and Trade Marks under DPIIT, not the RBI (so statement 3 is wrong).",
+    "subject": "Art & Culture",
+    "theme": "Geographical Indications / IPR",
+    "micro_topic": "GI Act 1999 / Ladakh handicrafts",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Regarding the new Wholesale Price Index (WPI) series released in June 2026, consider the following: (1) The base year was revised to 2022-23. (2) Solar, wind and nuclear electricity were added under the 'Electricity' group. (3) The WPI is compiled and released by the National Statistical Office (NSO). Which of the statements is/are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 only", "(d) 1, 2 and 3"],
+    "answer": "(a)",
+    "explanation": "The new WPI series shifted its base year to 2022-23 and added solar, wind and nuclear electricity under 'Electricity'. WPI is released by the Office of the Economic Adviser (Ministry of Commerce & Industry), not the NSO (so statement 3 is wrong).",
+    "subject": "Economy",
+    "theme": "Inflation & Price Indices",
+    "micro_topic": "WPI base-year revision (2022-23) and PPI launch",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Which of the following rights have been judicially read into Article 21 of the Constitution? (1) Right to privacy (2) Right to a clean environment (3) Right to livelihood (4) Right to property",
+    "options": ["(a) 1, 2 and 3 only", "(b) 1 and 4 only", "(c) 2 and 3 only", "(d) 1, 2, 3 and 4"],
+    "answer": "(a)",
+    "explanation": "Privacy, clean environment and livelihood have all been read into Article 21. The right to property is a constitutional/legal right under Article 300A, not a part of Article 21.",
+    "subject": "Polity & Governance",
+    "theme": "Fundamental Rights",
+    "micro_topic": "Article 21 derived rights vs Article 300A",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following pairs of price index and its compiling agency: (1) Consumer Price Index (CPI) - National Statistical Office (MoSPI) (2) Wholesale Price Index (WPI) - Office of the Economic Adviser (Ministry of Commerce & Industry) (3) Producer Price Index (PPI) - Reserve Bank of India. Which of the pairs is/are correctly matched?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 only", "(d) 1, 2 and 3"],
+    "answer": "(a)",
+    "explanation": "CPI is compiled by the NSO under MoSPI and WPI by the Office of the Economic Adviser. India's PPI is also compiled by the Office of the Economic Adviser (Ministry of Commerce & Industry), not the RBI (so pair 3 is wrong).",
+    "subject": "Economy",
+    "theme": "Price Indices",
+    "micro_topic": "CPI / WPI / PPI compiling agencies",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  }
+]

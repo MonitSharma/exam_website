@@ -12,6 +12,24 @@
   ],
   "questionSets": [
     {
+      "id": "daily_questions_2026_06_21",
+      "label": "Daily Questions - 21 Jun 2026",
+      "shortLabel": "Daily 21 Jun",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-06-21.json",
+      "isoDate": "2026-06-21",
+      "subjects": [
+        "Polity & Governance",
+        "International Relations",
+        "Environment",
+        "Art & Culture",
+        "Economy"
+      ]
+    },
+    {
       "id": "daily_questions_2026_06_20",
       "label": "Daily Questions - 20 Jun 2026",
       "shortLabel": "Daily 20 Jun",
@@ -982,6 +1000,14 @@
       "shortTitle": "Anki - 21 Jun",
       "date": "2026-06-21",
       "path": "anki/Prelims_Flashcards_2026-06-21.txt"
+    },
+    {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-06-21",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "21 Jun 2026",
+      "date": "2026-06-21",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-06-21.md"
     },
     {
       "id": "daily-daily-current-affairs-upsc-ca-2026-06-20",
