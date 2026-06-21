@@ -319,6 +319,7 @@ const CADENCE_META = {
   "weekly": { label: "Weekly", group: "Weekly" },
   "sectional": { label: "Sectional", group: "Weekly" },
   "monthly": { label: "Monthly", group: "Monthly" },
+  "anki": { label: "Anki", group: "Reference" },
   "strategy": { label: "Strategy", group: "Reference" },
 };
 const GROUP_ORDER = ["Daily", "Weekly", "Monthly", "Reference"];
@@ -488,6 +489,8 @@ function estimateReadingMinutes(text) {
 }
 
 function MarkdownView({ text }) {
+  if (isAnkiDeck(text)) return <AnkiDeckView text={text} />;
+
   const lines = String(text || "").split(/\r?\n/);
   const blocks = [];
   for (let i = 0; i < lines.length;) {
@@ -602,6 +605,49 @@ function MarkdownView({ text }) {
         }
         return <p key={index}>{renderInline(block.text)}</p>;
       })}
+    </div>
+  );
+}
+
+function isAnkiDeck(text) {
+  const lines = String(text || "").split(/\r?\n/).filter((line) => line.trim());
+  return lines.some((line) => line.trim() === "#separator:tab") && lines.some((line) => !line.startsWith("#") && line.includes("\t"));
+}
+
+function parseAnkiDeck(text) {
+  return String(text || "")
+    .split(/\r?\n/)
+    .map((line) => line.trim())
+    .filter((line) => line && !line.startsWith("#"))
+    .map((line) => {
+      const [front, ...backParts] = line.split("\t");
+      return { front: front || "", back: backParts.join("\t") || "" };
+    })
+    .filter((card) => card.front && card.back);
+}
+
+function AnkiDeckView({ text }) {
+  const cards = parseAnkiDeck(text);
+  return (
+    <div className="anki-deck-view">
+      <div className="anki-deck-summary">
+        <strong>{cards.length} flashcards</strong>
+        <span>Tab-separated Anki import deck</span>
+      </div>
+      <div className="anki-card-list">
+        {cards.map((card, index) => (
+          <article className="anki-card" key={index}>
+            <div>
+              <span>Front</span>
+              <p>{renderInline(card.front)}</p>
+            </div>
+            <div>
+              <span>Back</span>
+              <p>{renderInline(card.back)}</p>
+            </div>
+          </article>
+        ))}
+      </div>
     </div>
   );
 }

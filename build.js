@@ -34,6 +34,7 @@ const SOURCES = [
 const STATIC_PATHS = [
   "data",
   "daily",
+  "anki",
   "weekly",
   "monthly",
   "generated_data",

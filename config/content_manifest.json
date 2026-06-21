@@ -943,6 +943,14 @@
   ],
   "noteDocuments": [
     {
+      "id": "anki-prelims-flashcards-2026-06-21",
+      "cadence": "anki",
+      "title": "Prelims Flashcards",
+      "shortTitle": "Anki - 21 Jun",
+      "date": "2026-06-21",
+      "path": "anki/Prelims_Flashcards_2026-06-21.txt"
+    },
+    {
       "id": "daily-daily-current-affairs-upsc-ca-2026-06-20",
       "cadence": "daily",
       "title": "UPSC Daily CA Briefing",
@@ -1069,6 +1077,14 @@
       "shortTitle": "Mains - 11 Jun",
       "date": "2026-06-11",
       "path": "weekly/Editorials/Editorials_Mains_2026-06-11.md"
+    },
+    {
+      "id": "daily-daily-mains-gs-mains-2026-06-21",
+      "cadence": "mains",
+      "title": "GS Mains Answer Practice",
+      "shortTitle": "Mains - 21 Jun",
+      "date": "2026-06-21",
+      "path": "daily/daily_mains/GS_Mains_2026-06-21.md"
     },
     {
       "id": "daily-daily-mains-gs-mains-2026-06-20",

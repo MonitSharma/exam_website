@@ -1,0 +1,45 @@
+#separator:tab
+#html:false
+G7 Summit 2026: which country held the presidency, and where was the 52nd summit held?	France held the 2026 G7 presidency; venue Evian-les-Bains (Haute-Savoie). India attended as an invitee/partner, NOT a member.
+Of which major grouping is India the chair in 2026?	BRICS (India is the 2026 BRICS chair).
+What are the two interceptors of India's Phase-II Ballistic Missile Defence, validated by DRDO in June 2026?	AD-1 and AD-2 (a two-layered endo- + exo-atmospheric shield). Tested 10-11 June 2026 from the Integrated Test Range, Chandipur / LC-IV Dhamra, Odisha.
+What is NASM-MR, whose maiden flight DRDO conducted in June 2026?	Naval Anti-Ship Missile - Medium Range: an indigenous anti-ship missile for the Indian Navy.
+India's retail (CPI) inflation for May 2026?	3.93% (up from 3.48% in April); food/CFPI inflation 4.78%; new base year 2024=100; compiled by NSO under MoSPI.
+RBI repo rate and policy stance after the June 2026 MPC?	Repo rate held at 5.25% with a 'neutral' stance; RBI Governor is Sanjay Malhotra.
+RBI's flexible inflation-targeting band, and who sets the target?	4% with a +/- 2% band (i.e., 2-6%); target set by the Central Government in consultation with the RBI; the MPC has 6 members.
+Per India's submission at the 114th ILC (Geneva), how did social protection coverage change?	Rose from 19% (2015) to 64.3% (2025), about 94 crore people; India now ranks 2nd globally by number of beneficiaries.
+Which invasive alien plant is threatening India's tiger landscapes (State of India's Environment 2026)?	Lantana camara.
+India's tiger estimate from the 2022 (5th) All-India Tiger Estimation cycle?	About 3,682 tigers.
+India's Ramsar (wetland) tally crossed which milestone in June 2026?	The 100-Ramsar-site milestone.
+India's rank in the Global Peace Index (GPI) 2026, and who publishes it?	127th of 163 countries; published by the Institute for Economics and Peace (IEP); most peaceful country = Iceland.
+How many of the nine planetary boundaries are breached, per State of India's Environment 2026?	7 of 9 (safe ones: stratospheric ozone and atmospheric aerosol loading); framework from the Stockholm Resilience Centre.
+What new motor-accident compensation head did the SC create in the 'homemakers are nation builders' ruling (2026)?	'Loss of Domestic Care'; the Court valued such care at Rs 30,000/month and relied on the NSO Time Use Survey, 2019.
+Per the Time Use Survey cited by the Supreme Court, women's unpaid domestic work equals roughly what share of GDP?	About 15-17% of GDP.
+India-Slovakia ties were elevated to what level in June 2026, and what is Slovakia's capital?	A 'Comprehensive Partnership'; capital is Bratislava.
+Which civilian honour did Slovakia confer on PM Modi in June 2026?	The Order of the White Double Cross (First Class) - Slovakia's highest civilian honour.
+In UNICEF's Children's Climate Risk Report 2026, what was India's score for extreme heat?	10/10 for extreme heat (overall hazard-exposure score 9.21/10).
+Southwest Monsoon 2026 onset date over Kerala vs the normal onset date?	Onset on 4 June 2026; the normal onset date over Kerala is 1 June.
+RBI's surplus (dividend) transfer to the Centre for FY26?	Rs 2.87 lakh crore (Rs 2,86,588 cr) - the highest ever; approved at the 623rd Central Board meeting under Section 47 of the RBI Act, 1934.
+Under which framework is the RBI surplus transfer governed, and at what level was the Contingent Risk Buffer kept for FY26?	The Economic Capital Framework (based on the Bimal Jalan Committee); CRB maintained at 6.5% of the balance sheet.
+Is the National Statistical Commission (NSC) constitutional, statutory or executive, and who is its new Chairperson (2026)?	Non-statutory, non-constitutional advisory body (set up by executive resolution, 2005); Chairperson Dr. Saibal Chattopadhyay.
+Name India's logistics-support pact with Russia that came into force in January 2026.	RELOS (Reciprocal Exchange of Logistics Agreement) - reciprocal use of bases/ports, strict non-basing clause, valid 5 years.
+What climate phenomenon did NOAA confirm in June 2026, and what defines its 'super' form?	A new El Nino (63% odds of a 'super' event in Nov 2026-Jan 2027); a 'super' El Nino has a Nino-region SST anomaly exceeding +2 degrees C.
+Expand 'BGP', the protocol behind the June 2026 'BGP hijacking' news.	Border Gateway Protocol - the internet's inter-network routing protocol; hijacking = a rogue Autonomous System falsely advertises IP prefixes, misrouting traffic.
+When was the Ganga Waters Treaty signed, between whom, and where are flows shared?	Signed 12 Dec 1996 (Deve Gowda and Sheikh Hasina); 30-year term; shares dry-season flows at the Farakka Barrage in West Bengal; expires 2026.
+Uranium enrichment levels: reactor-grade (LEU), HEU threshold, and weapons-grade?	Natural U ~0.7% U-235; LEU 3-5%; HEU threshold 20%; weapons-grade ~90%. Iran's 60%-enriched stockpile was ~440.9 kg (IAEA, Sept 2025).
+Nipah virus (resurfaced in Kerala, June 2026): natural reservoir and case-fatality rate?	Natural reservoir = fruit bats of genus Pteropus; a Henipavirus (family Paramyxoviridae); case-fatality ~40-75%; latest case in Kozhikode, Kerala.
+The community groundwater-recharge '5% Model' praised in 2026 is from which district and state?	Korea district, Chhattisgarh; women led as 'Neer Nayikas' and youth volunteers as 'Jal Doots'.
+Which declaration was adopted at the 15th BRICS Agriculture Ministers' Meeting, and where?	The 'Indore Declaration', at Indore, under India's 2026 BRICS chairmanship.
+India's WPI shifted to which new base year in June 2026, and what new index was launched alongside it?	WPI base year changed from 2011-12 to 2022-23 (basket 697 -> 957 items); a new Producer Price Index (PPI) was launched, which (unlike WPI) covers services; both compiled by the Office of the Economic Adviser, DPIIT.
+What is WT-MARUT, launched on Global Wind Day 2026 in Goa?	India's first Wind Turbine Supply Chain Management Portal; launched by the Ministry of New & Renewable Energy (MNRE).
+What makes Census 2027 a first for India, and which state finished Phase-I houselisting first?	It is India's first fully digital census (mobile app + self-enumeration); Maharashtra completed Phase-I houselisting first.
+Under which legal provision was Telegram temporarily blocked in June 2026, and by whom?	Section 69A of the IT Act, 2000; order issued by MeitY on the National Testing Agency's recommendation ahead of the NEET-UG re-exam.
+Which four Jharkhand products received GI tags in June 2026, and what was India's first GI?	Bhagaiya silk, Kuchai silk, Munda jewellery and Jharkhand bamboo craft; India's first GI was Darjeeling Tea.
+Which ministry implements the SVAMITVA scheme, and what survey method does it use?	Ministry of Panchayati Raj; drone-based survey of inhabited (abadi) rural areas; about 3.18 crore property cards issued so far.
+The 73rd Constitutional Amendment Act (1992) added which Schedule, and how many subjects does it list for Panchayats?	The Eleventh Schedule; it lists 29 subjects; Article 243G enables devolution of powers.
+On what date is the International Day of Yoga observed, when was it adopted, and which city led India's 2026 (12th) event?	21 June; adopted by the UN General Assembly in 2014 (first observed 2015); PM led the 12th IDY in Kolkata.
+PM Viksit Bharat Rozgar Yojana (PM-VBRY): implementing body and total outlay?	Implemented via EPFO under the Ministry of Labour & Employment; outlay Rs 99,446 crore; Part A gives first-time EPFO workers up to Rs 15,000; targets 3.5+ crore jobs.
+National Mission on Natural Farming (NMNF): type of scheme, ministry and outlay?	A standalone Centrally Sponsored Scheme of the Ministry of Agriculture (approved 25 Nov 2024); outlay Rs 2,481 crore; targets 1 crore farmers across 15,000 clusters.
+Per the MHA's 12-year internal-security review (2026), how did LWE-affected districts change?	Left-Wing Extremism-affected districts fell from 126 to 12.
+India's defence exports in FY26, and the target for 2029?	Rs 38,424 crore in FY26 (to 80+ countries); target of Rs 50,000 crore by 2029.
+Under which ministry is the Sangeet Natak Akademi, and what is its highest honour called?	Ministry of Culture; its Fellowship is the 'Akademi Ratna'; the youth award (Yuva Puraskar) is named after Ustad Bismillah Khan.

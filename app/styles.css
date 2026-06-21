@@ -837,9 +837,53 @@ body[data-qfont="serif"] .rev-explain p { font-family: var(--serif); font-size: 
 }
 .notes-v2 .note-meta-item svg { opacity: .7; }
 
+.anki-deck-view { display: grid; gap: 14px; }
+.anki-deck-summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 14px;
+  border: 1px solid var(--line-2);
+  border-radius: var(--radius-sm);
+  background: var(--surface-2);
+}
+.anki-deck-summary strong { font-family: var(--serif); font-size: 18px; color: var(--ink); }
+.anki-deck-summary span {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+.anki-card-list { display: grid; gap: 10px; }
+.anki-card {
+  display: grid;
+  grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr);
+  gap: 14px;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--green);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+}
+.anki-card span {
+  display: block;
+  margin-bottom: 5px;
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--faint);
+  text-transform: uppercase;
+  letter-spacing: .08em;
+}
+.anki-card p { margin: 0; color: var(--ink-soft); line-height: 1.55; }
+.anki-card div:first-child p { color: var(--ink); font-weight: 600; }
+
 /* ---------- Responsive ---------- */
 @media (max-width: 760px) {
   .notes-v2 .notes-layout { grid-template-columns: 1fr; }
   .notes-v2 .notes-side { position: static; }
   .notes-v2 .notes-cat-row { grid-template-columns: 1fr; gap: 7px; padding: 12px 14px; }
+  .anki-card { grid-template-columns: 1fr; }
+  .anki-deck-summary { align-items: flex-start; flex-direction: column; }
 }
