@@ -627,27 +627,109 @@ function parseAnkiDeck(text) {
 }
 
 function AnkiDeckView({ text }) {
-  const cards = parseAnkiDeck(text);
+  const cards = React.useMemo(() => parseAnkiDeck(text), [text]);
+  const [mode, setMode] = useStateHome("study");
+  const [order, setOrder] = useStateHome(() => cards.map((_, i) => i));
+  const [pos, setPos] = useStateHome(0);
+  const [flipped, setFlipped] = useStateHome(false);
+
+  useEffectHome(() => {
+    setOrder(cards.map((_, i) => i));
+    setPos(0);
+    setFlipped(false);
+  }, [cards]);
+
+  if (!cards.length) return <p className="muted">No flashcards in this deck.</p>;
+
+  const total = cards.length;
+  const current = cards[order[pos]] || cards[0];
+
+  function go(delta) {
+    setFlipped(false);
+    setPos((p) => (p + delta + total) % total);
+  }
+  function shuffleDeck() {
+    const next = cards.map((_, i) => i);
+    for (let i = next.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [next[i], next[j]] = [next[j], next[i]];
+    }
+    setOrder(next);
+    setPos(0);
+    setFlipped(false);
+  }
+
   return (
     <div className="anki-deck-view">
-      <div className="anki-deck-summary">
-        <strong>{cards.length} flashcards</strong>
-        <span>Tab-separated Anki import deck</span>
+      <div className="anki-deck-bar">
+        <div className="anki-deck-summary">
+          <strong>{total} flashcards</strong>
+          <span>Active recall deck</span>
+        </div>
+        <div className="anki-mode-toggle" role="tablist" aria-label="Flashcard view">
+          <button role="tab" aria-selected={mode === "study"} className={mode === "study" ? "on" : ""} onClick={() => setMode("study")}>
+            <Icon name="layers" size={14} /> Study
+          </button>
+          <button role="tab" aria-selected={mode === "browse"} className={mode === "browse" ? "on" : ""} onClick={() => setMode("browse")}>
+            <Icon name="grid" size={14} /> Browse all
+          </button>
+        </div>
       </div>
-      <div className="anki-card-list">
-        {cards.map((card, index) => (
-          <article className="anki-card" key={index}>
-            <div>
-              <span>Front</span>
-              <p>{renderInline(card.front)}</p>
+
+      {mode === "study" ? (
+        <div className="anki-study">
+          <div className="anki-progress">
+            <div className="anki-progress-track"><div className="anki-progress-fill" style={{ width: `${((pos + 1) / total) * 100}%` }} /></div>
+            <span className="anki-progress-label">{pos + 1} / {total}</span>
+          </div>
+
+          <div
+            className={`anki-flip${flipped ? " is-flipped" : ""}`}
+            role="button"
+            tabIndex={0}
+            aria-label={flipped ? "Show question" : "Reveal answer"}
+            onClick={() => setFlipped((f) => !f)}
+            onKeyDown={(event) => {
+              if (event.key === " " || event.key === "Enter") { event.preventDefault(); setFlipped((f) => !f); }
+              else if (event.key === "ArrowRight") { event.preventDefault(); go(1); }
+              else if (event.key === "ArrowLeft") { event.preventDefault(); go(-1); }
+            }}>
+            <div className="anki-flip-inner">
+              <div className="anki-face anki-face-front">
+                <span className="anki-face-tag">Question</span>
+                <div className="anki-face-text">{renderInline(current.front)}</div>
+                <span className="anki-flip-hint"><Icon name="rotate" size={13} /> Tap to reveal</span>
+              </div>
+              <div className="anki-face anki-face-back">
+                <span className="anki-face-tag">Answer</span>
+                <div className="anki-face-text">{renderInline(current.back)}</div>
+                <span className="anki-flip-hint"><Icon name="rotate" size={13} /> Tap to flip back</span>
+              </div>
             </div>
-            <div>
-              <span>Back</span>
-              <p>{renderInline(card.back)}</p>
-            </div>
-          </article>
-        ))}
-      </div>
+          </div>
+
+          <div className="anki-controls">
+            <button className="anki-nav" onClick={() => go(-1)} aria-label="Previous card"><Icon name="arrowL" size={15} /> Prev</button>
+            <button className="anki-shuffle" onClick={shuffleDeck}><Icon name="shuffle" size={15} /> Shuffle</button>
+            <button className="anki-nav" onClick={() => go(1)} aria-label="Next card">Next <Icon name="arrowR" size={15} /></button>
+          </div>
+        </div>
+      ) : (
+        <div className="anki-card-list">
+          {cards.map((card, index) => (
+            <article className="anki-card" key={index}>
+              <div className="anki-card-q">
+                <span>Q{index + 1}</span>
+                <p>{renderInline(card.front)}</p>
+              </div>
+              <div className="anki-card-a">
+                <span>Answer</span>
+                <p>{renderInline(card.back)}</p>
+              </div>
+            </article>
+          ))}
+        </div>
+      )}
     </div>
   );
 }
