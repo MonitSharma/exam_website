@@ -475,6 +475,44 @@ function addRawCsatQuestionSets(root, byId) {
   }
 }
 
+function addRawFullMockQuestionSets(root, byId) {
+  const dir = path.join(root, "generated_data", "full_mock_questions");
+  for (const absPath of listTopLevelFiles(dir).filter((item) => item.endsWith(".json"))) {
+    const isoDate = normalizeIsoDate(path.basename(absPath));
+    const count = jsonRows(absPath).length;
+    if (!count) continue;
+    upsertQuestionSet(root, byId, {
+      id: `gs_full_mock_${dateSlug(isoDate || path.basename(absPath, ".json"))}`,
+      label: `GS Full Mock${isoDate ? " - " + formatDate(isoDate) : ""}`,
+      shortLabel: `GS Mock${isoDate ? " " + formatDate(isoDate, { day: "2-digit", month: "short" }) : ""}`,
+      category: "GS Full Mock",
+      sourceType: "ai",
+      isoDate,
+      durationMinutes: 120,
+      path: relPath(root, absPath),
+    });
+  }
+}
+
+function addRawMonthlyMockQuestionSets(root, byId) {
+  const dir = path.join(root, "generated_data", "monthly_questions");
+  for (const absPath of listTopLevelFiles(dir).filter((item) => item.endsWith(".json"))) {
+    const isoDate = normalizeIsoDate(path.basename(absPath));
+    const count = jsonRows(absPath).length;
+    if (!count) continue;
+    upsertQuestionSet(root, byId, {
+      id: `monthly_mock_${dateSlug(isoDate || path.basename(absPath, ".json"))}`,
+      label: `Monthly Mock${isoDate ? " - " + formatDate(isoDate) : ""}`,
+      shortLabel: `Monthly${isoDate ? " " + formatDate(isoDate, { day: "2-digit", month: "short" }) : ""}`,
+      category: "Monthly Mock",
+      sourceType: "ai",
+      isoDate,
+      durationMinutes: defaultDuration("ai", "", count),
+      path: relPath(root, absPath),
+    });
+  }
+}
+
 function addRawAiGeneratedQuestionSets(root, byId) {
   const dir = path.join(root, "generated_questions", "ai_generated_questions");
   for (const absPath of listTopLevelFiles(dir).filter((item) => /^batch_\d+\.json$/.test(path.basename(item)))) {
@@ -716,6 +754,8 @@ function buildQuestionSets(root = DEFAULT_ROOT) {
   addRawPibQuestionSets(root, byId);
   addRawSectionalQuestionSets(root, byId);
   addRawCsatQuestionSets(root, byId);
+  addRawFullMockQuestionSets(root, byId);
+  addRawMonthlyMockQuestionSets(root, byId);
   addRawAiGeneratedQuestionSets(root, byId);
   addDailyRcQuestionSets(root, byId);
   addWeeklyNewsQuestionSets(root, byId);

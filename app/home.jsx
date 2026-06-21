@@ -141,6 +141,133 @@ function DailyRcCard({ go }) {
   );
 }
 
+function parseWeekPlan(text) {
+  const lines = String(text || "").split(/\r?\n/);
+  let headerIdx = -1;
+  for (let i = 0; i < lines.length; i++) {
+    const l = lines[i].trim();
+    if (/^\|/.test(l) && /\bday\b/i.test(l) && /block/i.test(l)) { headerIdx = i; break; }
+  }
+  if (headerIdx === -1) return null;
+  const tableLines = [];
+  for (let i = headerIdx; i < lines.length && /^\s*\|/.test(lines[i]); i++) tableLines.push(lines[i]);
+  if (tableLines.length < 3) return null;
+  const toCells = (line) => line.trim().replace(/^\|/, "").replace(/\|$/, "").split("|").map((c) => c.trim());
+  const headers = toCells(tableLines[0]).map((h) => h.replace(/\*\*/g, "").replace(/\s*\([^)]*\)/g, "").trim());
+  const rows = tableLines.slice(1).filter((l) => !/^\s*\|?\s*:?-{2,}/.test(l)).map(toCells);
+  const days = rows.map((cells) => {
+    const dayRaw = (cells[0] || "").replace(/\*\*/g, "").trim();
+    const weekday = (dayRaw.match(/\b(Sun|Mon|Tue|Wed|Thu|Fri|Sat)\b/i) || [])[1] || "";
+    const num = (dayRaw.match(/\b(\d{1,2})\b/) || [])[1];
+    return { label: dayRaw, weekday, dayNum: num ? Number(num) : null, cells: cells.slice(1) };
+  }).filter((d) => d.weekday || d.dayNum);
+  return { headers: headers.slice(1), days };
+}
+
+const WEEKDAYS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+
+function WeeklyPlanCard() {
+  const ds = window.UPSC;
+  const sweep = React.useMemo(() => {
+    const list = ds.noteDocuments.filter((doc) => doc.cadence === "sunday");
+    list.sort((a, b) => String(b.date).localeCompare(String(a.date)));
+    return list[0] || null;
+  }, []);
+  const [state, setState] = useStateHome({ loading: Boolean(sweep), error: "", plan: null });
+  const [selected, setSelected] = useStateHome(null);
+
+  useEffectHome(() => {
+    if (!sweep) { setState({ loading: false, error: "", plan: null }); return undefined; }
+    let cancelled = false;
+    setState({ loading: true, error: "", plan: null });
+    ds.loadNoteDocument(sweep.id)
+      .then(({ content }) => {
+        if (cancelled) return;
+        const plan = parseWeekPlan(content);
+        setState({ loading: false, error: plan ? "" : "no-plan", plan });
+        if (plan && plan.days.length) {
+          const now = new Date();
+          const wd = WEEKDAYS[now.getDay()];
+          let idx = plan.days.findIndex((d) => d.dayNum === now.getDate());
+          if (idx < 0) idx = plan.days.findIndex((d) => d.weekday.toLowerCase() === wd.toLowerCase());
+          setSelected(idx < 0 ? 0 : idx);
+        }
+      })
+      .catch((error) => { if (!cancelled) setState({ loading: false, error: error?.message || "Could not load plan.", plan: null }); });
+    return () => { cancelled = true; };
+  }, [sweep && sweep.id]);
+
+  if (!sweep) return null;
+
+  const plan = state.plan;
+  const todayNum = new Date().getDate();
+  const activeIdx = selected == null ? 0 : selected;
+  const day = plan && plan.days ? plan.days[activeIdx] : null;
+  const isToday = day && day.dayNum === todayNum;
+  const weekLabel = sweep.shortTitle || formatIsoDate(sweep.date);
+
+  function openFullPlan() {
+    window.dispatchEvent(new CustomEvent("pariksha:open-note", { detail: { cadence: "sunday", id: sweep.id } }));
+  }
+
+  return (
+    <article className="weekplan-card">
+      <div className="weekplan-head">
+        <div className="weekplan-head-text">
+          <span className="eyebrow small"><span className="eyebrow-line" /> This week's plan</span>
+          <h2 className="weekplan-title">What to study today</h2>
+          <p className="weekplan-sub">{weekLabel} · from your Sunday Sweep</p>
+        </div>
+        <button className="weekplan-open" onClick={openFullPlan}>Full plan <Icon name="arrowR" size={14} /></button>
+      </div>
+
+      {state.loading && <p className="muted weekplan-msg">Loading this week's plan…</p>}
+      {!state.loading && (state.error || !plan) && (
+        <p className="muted weekplan-msg">Couldn't read this week's plan — <button className="linklike" onClick={openFullPlan}>open the Sunday Sweep</button>.</p>
+      )}
+
+      {!state.loading && plan && (
+        <>
+          <div className="weekplan-days" role="tablist" aria-label="Days this week">
+            {plan.days.map((d, i) => (
+              <button
+                key={i}
+                role="tab"
+                aria-selected={i === activeIdx}
+                className={`weekplan-day${i === activeIdx ? " on" : ""}${d.dayNum === todayNum ? " is-today" : ""}`}
+                onClick={() => setSelected(i)}>
+                <span className="wd">{d.weekday}</span>
+                <span className="dn">{d.dayNum}</span>
+              </button>
+            ))}
+          </div>
+
+          {day && (
+            <div className="weekplan-detail">
+              <div className="weekplan-detail-head">
+                <strong>{day.weekday} {day.dayNum}</strong>
+                {isToday && <span className="weekplan-today-chip">Today</span>}
+              </div>
+              <ul className="weekplan-tasks">
+                {day.cells.map((cell, ci) => {
+                  const clean = String(cell || "").trim();
+                  if (!clean || clean === "—" || clean === "-") return null;
+                  return (
+                    <li key={ci}>
+                      <span className="weekplan-task-label">{plan.headers[ci] || `Task ${ci + 1}`}</span>
+                      <span className="weekplan-task-text">{renderInline(clean)}</span>
+                    </li>
+                  );
+                })}
+              </ul>
+            </div>
+          )}
+        </>
+      )}
+    </article>
+  );
+}
+
 function BuildTest({ go }) {
   const ds = window.UPSC;
   const [paper, setPaper] = useStateHome("gs");
@@ -354,6 +481,20 @@ function NotesLibrary() {
     setMonthFilter(monthOptions[0]?.key || "all");
     setSelectedId(docs[0]?.id || null);
   }, [activeCadence, docIds]);
+
+  useEffectHome(() => {
+    function onOpenNote(event) {
+      const target = (event.detail && event.detail.cadence) || "";
+      if (target && tabs.includes(target)) setCadence(target);
+      const scrollToNotes = () => {
+        const section = document.querySelector(".notes-library");
+        if (section) window.scrollTo({ top: section.getBoundingClientRect().top + window.scrollY - 64, behavior: "smooth" });
+      };
+      requestAnimationFrame(() => requestAnimationFrame(scrollToNotes));
+    }
+    window.addEventListener("pariksha:open-note", onOpenNote);
+    return () => window.removeEventListener("pariksha:open-note", onOpenNote);
+  }, [tabs.join("|")]);
 
   useEffectHome(() => {
     if (!selectedId) {
@@ -849,14 +990,16 @@ function Home({ go, progress, summary }) {
         </div>
       </section>
 
+      <WeeklyPlanCard />
+
       <div className="home-main">
         <div className="home-col-l">
           <DailyQuizCard go={go} progress={progress} />
           <DailyRcCard go={go} />
-          <BuildTest go={go} />
         </div>
         <div className="home-col-r">
           <Snapshot go={go} summary={summary} />
+          <BuildTest go={go} />
         </div>
       </div>
 

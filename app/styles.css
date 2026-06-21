@@ -203,7 +203,77 @@ ol, ul { margin: 0; }
 
 .home-main { display: grid; grid-template-columns: 1.5fr 1fr; gap: 18px; margin-top: 10px; align-items: start; }
 .home-col-l { display: grid; gap: 18px; }
-.home-col-r { position: sticky; top: 72px; align-self: start; }
+.home-col-r { display: grid; gap: 18px; align-content: start; position: sticky; top: 72px; align-self: start; }
+
+/* ---------- This week's plan (Sunday Sweep → today) ---------- */
+.weekplan-card {
+  position: relative;
+  margin-top: 10px;
+  padding: 20px clamp(18px, 2.4vw, 24px) 22px;
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--green);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+.weekplan-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 14px; }
+.weekplan-title { margin: 8px 0 2px; font-family: var(--serif); font-size: clamp(21px, 2.4vw, 26px); font-weight: 500; color: var(--ink); line-height: 1.1; }
+.weekplan-sub { margin: 0; color: var(--muted); font-size: 13px; font-family: var(--mono); }
+.weekplan-open {
+  flex: none;
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 7px 12px; border-radius: 999px; cursor: pointer;
+  border: 1px solid var(--line); background: var(--surface-2); color: var(--ink);
+  font-family: var(--mono); font-size: 11px; font-weight: 600; letter-spacing: .03em; text-transform: uppercase;
+  transition: border-color .15s ease, background .15s ease;
+}
+.weekplan-open:hover { border-color: var(--green); background: var(--green-tint); color: var(--green-deep); }
+.weekplan-msg { margin: 16px 0 0; }
+.linklike { border: none; background: none; padding: 0; cursor: pointer; color: var(--green); font: inherit; text-decoration: underline; }
+
+.weekplan-days { display: grid; grid-template-columns: repeat(7, 1fr); gap: 6px; margin: 18px 0 16px; }
+.weekplan-day {
+  display: grid; gap: 2px; justify-items: center;
+  padding: 9px 2px; cursor: pointer;
+  border: 1px solid var(--line); border-radius: var(--radius-sm); background: var(--surface);
+  transition: border-color .15s ease, background .15s ease, transform .05s ease;
+}
+.weekplan-day:hover { border-color: var(--line-2); background: var(--paper); }
+.weekplan-day .wd { font-family: var(--mono); font-size: 10px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
+.weekplan-day .dn { font-family: var(--serif); font-size: 18px; font-weight: 500; color: var(--ink); line-height: 1; }
+.weekplan-day.is-today { border-color: color-mix(in srgb, var(--saffron) 55%, var(--line)); background: var(--saffron-tint); }
+.weekplan-day.is-today .wd { color: #9a5916; }
+.weekplan-day.on { border-color: var(--green); background: var(--green-tint); box-shadow: inset 0 0 0 1px var(--green); }
+.weekplan-day.on .wd { color: var(--green); }
+.weekplan-day.on .dn { color: var(--green-deep); }
+
+.weekplan-detail-head { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; }
+.weekplan-detail-head strong { font-family: var(--serif); font-size: 17px; color: var(--ink); }
+.weekplan-today-chip {
+  padding: 3px 9px; border-radius: 999px;
+  background: var(--saffron); color: #fff;
+  font-family: var(--mono); font-size: 10px; font-weight: 600; text-transform: uppercase; letter-spacing: .06em;
+}
+.weekplan-tasks { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+.weekplan-tasks li { display: grid; grid-template-columns: 120px minmax(0, 1fr); gap: 14px; align-items: start; }
+.weekplan-tasks li + li { padding-top: 12px; border-top: 1px solid var(--line-2); }
+.weekplan-task-label {
+  font-family: var(--mono); font-size: 10.5px; font-weight: 600; text-transform: uppercase; letter-spacing: .05em;
+  color: var(--muted); padding-top: 2px;
+}
+.weekplan-task-text { color: var(--ink-soft); font-size: 14px; line-height: 1.55; }
+.weekplan-task-text strong { color: var(--ink); }
+@media (max-width: 560px) {
+  .weekplan-tasks li { grid-template-columns: 1fr; gap: 4px; }
+  .weekplan-task-label { padding-top: 0; }
+}
+/* Full-width band on laptop / desktop: lay tasks out as boxed cards across the page */
+@media (min-width: 941px) {
+  .weekplan-tasks { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+  .weekplan-tasks li { grid-template-columns: 1fr; gap: 6px; padding: 14px 16px; border: 1px solid var(--line); border-radius: var(--radius-sm); background: var(--surface-2); }
+  .weekplan-tasks li + li { padding-top: 14px; border-top: 1px solid var(--line); }
+  .weekplan-task-label { padding-top: 0; }
+}
 
 /* hero calendar */
 .hero-calendar { display: flex; flex-direction: column; gap: 12px; align-self: start; }
