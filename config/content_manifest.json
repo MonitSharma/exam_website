@@ -294,6 +294,23 @@
       ]
     },
     {
+      "id": "daily_rc_2026_06_22",
+      "label": "Daily RC Drill - 22 Jun 2026",
+      "shortLabel": "RC 22 Jun",
+      "category": "Daily Reading Comprehension",
+      "sourceType": "rc",
+      "questionCount": 8,
+      "durationMinutes": 16,
+      "path": "generated_data/rc_questions/2026-06-22.json",
+      "isoDate": "2026-06-22",
+      "paper": "GS Paper II (CSAT)",
+      "marksPerCorrect": 2,
+      "negativeMark": -0.66,
+      "subjects": [
+        "Reading Comprehension"
+      ]
+    },
+    {
       "id": "daily_rc_2026_06_15",
       "label": "Daily RC Drill - 15 Jun 2026",
       "shortLabel": "RC 15 Jun",
@@ -674,6 +691,24 @@
       "isoDate": "2026-06-20",
       "subjects": [
         "Polity & Governance"
+      ]
+    },
+    {
+      "id": "csat_full_mock_2026_06_22",
+      "label": "CSAT Full Mock - 22 Jun 2026",
+      "shortLabel": "CSAT Mock 22 Jun",
+      "category": "CSAT Full Mock",
+      "sourceType": "csat",
+      "questionCount": 80,
+      "durationMinutes": 120,
+      "path": "generated_data/csat_questions/2026-06-22.json",
+      "isoDate": "2026-06-22",
+      "paper": "GS Paper II (CSAT)",
+      "marksPerCorrect": 2.5,
+      "negativeMark": -0.83,
+      "noNegativeFromQuestion": 75,
+      "subjects": [
+        "CSAT"
       ]
     },
     {
@@ -1282,6 +1317,14 @@
       "path": "daily/daily_pib/PIB_2026-06-11.md"
     },
     {
+      "id": "daily-daily-reading-comprehension-rc-drill-2026-06-22",
+      "cadence": "rc",
+      "title": "CSAT Daily RC Drill",
+      "shortTitle": "RC - 22 Jun",
+      "date": "2026-06-22",
+      "path": "daily/daily_reading_comprehension/RC_Drill_2026-06-22.md"
+    },
+    {
       "id": "daily-daily-reading-comprehension-rc-drill-2026-06-15",
       "cadence": "rc",
       "title": "CSAT Daily RC Drill",
@@ -1400,6 +1443,14 @@
       "shortTitle": "Week of 07 Jun",
       "date": "2026-06-07",
       "path": "weekly/Sunday/Sunday_Sweep_2026-06-07.md"
+    },
+    {
+      "id": "weekly-csat-csat-full-mock-2026-06-22",
+      "cadence": "weekly-csat",
+      "title": "CSAT Full Mock",
+      "shortTitle": "Mock - 22 Jun",
+      "date": "2026-06-22",
+      "path": "weekly/CSAT/CSAT_Full_Mock_2026-06-22.md"
     },
     {
       "id": "weekly-csat-csat-practice-2026-06-21",

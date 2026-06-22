@@ -1,0 +1,258 @@
+[
+  {
+    "id": "daily_rc_2026_06_22_1",
+    "question_number": 1,
+    "passage": "For the better part of a century, the health of a nation has been read off a single number. Gross domestic product, conceived as a wartime accounting device, was never intended to measure welfare; it was designed to track the volume of marketed output. Yet through long habit it has come to stand for prosperity itself, so that a society is judged to be flourishing precisely when its output expands, whatever that expansion happens to consist of. The measure is indifferent to composition. A rise in spending on prisons, on cleaning up pollution, and on treating preventable disease registers as growth no less than a rise in spending on schools or nutrition; the ledger records the transaction and stays silent on whether the underlying activity reflects a genuine gain or merely the repair of a loss.\n\nThis silence is not a technical defect to be cured by a better statistic; it follows from what the measure was built to do. To count only what is exchanged for money is to render invisible everything that sustains an economy without passing through a market — the unpaid labour of households, the services of a stable climate, the slow accumulation of trust on which exchange itself depends. A country may raise its output for years while quietly depleting the very stocks, natural and social, that make future output possible, and the accounts will report unbroken success until the moment of breakdown.\n\nTo say this is not to dismiss growth, which has lifted millions from want, but to deny it the last word. A number that cannot tell enrichment from depletion should inform our judgement, not replace it.",
+    "question": "Which of the following best captures the central idea of the passage?",
+    "options": [
+      {
+        "key": "a",
+        "text": "GDP should be abolished, since it was originally designed only as a wartime accounting device."
+      },
+      {
+        "key": "b",
+        "text": "Because GDP counts only marketed output, it can record depletion as success and so should guide judgement rather than replace it."
+      },
+      {
+        "key": "c",
+        "text": "Growth has lifted millions from want and therefore remains the most reliable measure of national flourishing."
+      },
+      {
+        "key": "d",
+        "text": "The unpaid labour of households is the single most important thing that GDP fails to capture."
+      }
+    ],
+    "answer": "b",
+    "explanation": "The passage's thesis is that GDP measures only marketed output, is \"indifferent to composition,\" and so should \"inform our judgement, not replace it.\" *Closest wrong — (a): the author explicitly refuses to \"dismiss growth\" and seeks to demote GDP, not abolish it.*",
+    "subject": "Reading Comprehension",
+    "theme": "CSAT Daily RC",
+    "micro_topic": "Reading comprehension",
+    "nature": "CSAT",
+    "difficulty": "Moderate",
+    "source_type": "rc"
+  },
+  {
+    "id": "daily_rc_2026_06_22_2",
+    "question_number": 2,
+    "passage": "For the better part of a century, the health of a nation has been read off a single number. Gross domestic product, conceived as a wartime accounting device, was never intended to measure welfare; it was designed to track the volume of marketed output. Yet through long habit it has come to stand for prosperity itself, so that a society is judged to be flourishing precisely when its output expands, whatever that expansion happens to consist of. The measure is indifferent to composition. A rise in spending on prisons, on cleaning up pollution, and on treating preventable disease registers as growth no less than a rise in spending on schools or nutrition; the ledger records the transaction and stays silent on whether the underlying activity reflects a genuine gain or merely the repair of a loss.\n\nThis silence is not a technical defect to be cured by a better statistic; it follows from what the measure was built to do. To count only what is exchanged for money is to render invisible everything that sustains an economy without passing through a market — the unpaid labour of households, the services of a stable climate, the slow accumulation of trust on which exchange itself depends. A country may raise its output for years while quietly depleting the very stocks, natural and social, that make future output possible, and the accounts will report unbroken success until the moment of breakdown.\n\nTo say this is not to dismiss growth, which has lifted millions from want, but to deny it the last word. A number that cannot tell enrichment from depletion should inform our judgement, not replace it.",
+    "question": "The author's claim that repairing a loss \"registers as growth no less than\" a genuine gain rests primarily on the assumption that:",
+    "options": [
+      {
+        "key": "a",
+        "text": "money is a poor medium for conducting economic exchange."
+      },
+      {
+        "key": "b",
+        "text": "governments deliberately inflate output figures to appear successful."
+      },
+      {
+        "key": "c",
+        "text": "an activity's value to human welfare can diverge from the monetary value of the transaction it generates."
+      },
+      {
+        "key": "d",
+        "text": "prisons and pollution clean-ups are inherently wasteful forms of spending."
+      }
+    ],
+    "answer": "c",
+    "explanation": "Repair and genuine gain count alike only because welfare-value and transaction-value are treated as distinct — the ledger \"stays silent on whether the activity reflects a genuine gain or merely the repair of a loss.\" *Closest wrong — (d): the author calls such spending neither wasteful nor virtuous; the point is the measure cannot tell the difference, not that the spending is bad.*",
+    "subject": "Reading Comprehension",
+    "theme": "CSAT Daily RC",
+    "micro_topic": "Reading comprehension",
+    "nature": "CSAT",
+    "difficulty": "Moderate",
+    "source_type": "rc"
+  },
+  {
+    "id": "daily_rc_2026_06_22_3",
+    "question_number": 3,
+    "passage": "For the better part of a century, the health of a nation has been read off a single number. Gross domestic product, conceived as a wartime accounting device, was never intended to measure welfare; it was designed to track the volume of marketed output. Yet through long habit it has come to stand for prosperity itself, so that a society is judged to be flourishing precisely when its output expands, whatever that expansion happens to consist of. The measure is indifferent to composition. A rise in spending on prisons, on cleaning up pollution, and on treating preventable disease registers as growth no less than a rise in spending on schools or nutrition; the ledger records the transaction and stays silent on whether the underlying activity reflects a genuine gain or merely the repair of a loss.\n\nThis silence is not a technical defect to be cured by a better statistic; it follows from what the measure was built to do. To count only what is exchanged for money is to render invisible everything that sustains an economy without passing through a market — the unpaid labour of households, the services of a stable climate, the slow accumulation of trust on which exchange itself depends. A country may raise its output for years while quietly depleting the very stocks, natural and social, that make future output possible, and the accounts will report unbroken success until the moment of breakdown.\n\nTo say this is not to dismiss growth, which has lifted millions from want, but to deny it the last word. A number that cannot tell enrichment from depletion should inform our judgement, not replace it.",
+    "question": "Which one of the following can be most safely inferred from the passage?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A nation whose GDP grows steadily for a decade is necessarily improving its citizens' welfare."
+      },
+      {
+        "key": "b",
+        "text": "Non-market activity contributes nothing measurable to a nation's economy."
+      },
+      {
+        "key": "c",
+        "text": "The breakdown of an economy can always be foreseen well in advance from its national accounts."
+      },
+      {
+        "key": "d",
+        "text": "Two countries with the same rate of GDP growth may differ greatly in whether that growth reflects genuine betterment."
+      }
+    ],
+    "answer": "d",
+    "explanation": "Since GDP cannot distinguish enrichment from depletion, equal growth rates can mask unequal underlying realities — a direct, cautious inference. *Closest wrong — (a): the passage's whole argument is that steady growth does NOT necessarily mean improving welfare.*",
+    "subject": "Reading Comprehension",
+    "theme": "CSAT Daily RC",
+    "micro_topic": "Reading comprehension",
+    "nature": "CSAT",
+    "difficulty": "Moderate",
+    "source_type": "rc"
+  },
+  {
+    "id": "daily_rc_2026_06_22_4",
+    "question_number": 4,
+    "passage": "For the better part of a century, the health of a nation has been read off a single number. Gross domestic product, conceived as a wartime accounting device, was never intended to measure welfare; it was designed to track the volume of marketed output. Yet through long habit it has come to stand for prosperity itself, so that a society is judged to be flourishing precisely when its output expands, whatever that expansion happens to consist of. The measure is indifferent to composition. A rise in spending on prisons, on cleaning up pollution, and on treating preventable disease registers as growth no less than a rise in spending on schools or nutrition; the ledger records the transaction and stays silent on whether the underlying activity reflects a genuine gain or merely the repair of a loss.\n\nThis silence is not a technical defect to be cured by a better statistic; it follows from what the measure was built to do. To count only what is exchanged for money is to render invisible everything that sustains an economy without passing through a market — the unpaid labour of households, the services of a stable climate, the slow accumulation of trust on which exchange itself depends. A country may raise its output for years while quietly depleting the very stocks, natural and social, that make future output possible, and the accounts will report unbroken success until the moment of breakdown.\n\nTo say this is not to dismiss growth, which has lifted millions from want, but to deny it the last word. A number that cannot tell enrichment from depletion should inform our judgement, not replace it.",
+    "question": "With which one of the following statements would the author most likely AGREE?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A statistic's limitations can be fully removed by refining its method of calculation."
+      },
+      {
+        "key": "b",
+        "text": "Spending that merely repairs an earlier harm should not be counted as progress without further scrutiny."
+      },
+      {
+        "key": "c",
+        "text": "Because growth has reduced poverty, criticism of GDP is misguided."
+      },
+      {
+        "key": "d",
+        "text": "The market is the only reliable arbiter of what has genuine value."
+      }
+    ],
+    "answer": "b",
+    "explanation": "Directly follows from the worry that \"the repair of a loss\" is booked as growth; the author would want such spending scrutinised, not automatically credited. *Closest wrong — (a): the author says the silence is \"not a technical defect to be cured by a better statistic,\" so refining the method cannot fully remove the limitation.*",
+    "subject": "Reading Comprehension",
+    "theme": "CSAT Daily RC",
+    "micro_topic": "Reading comprehension",
+    "nature": "CSAT",
+    "difficulty": "Moderate",
+    "source_type": "rc"
+  },
+  {
+    "id": "daily_rc_2026_06_22_5",
+    "question_number": 5,
+    "passage": "A recurring temptation in the governance of complex societies is to imagine that the hardest public questions are, at bottom, technical — that for every problem of policy there exists a correct answer which sufficient expertise could disclose, and that the task of politics is merely to find the experts and defer to them. The appeal is understandable. Democratic deliberation is slow, often ill-informed, and prone to the passions of the moment, while the specialist commands evidence the ordinary citizen lacks. Why not, then, entrust the management of the economy, of public health, of the climate, to those who know best, and spare the public the burden of judging what it cannot fully understand?\n\nThe answer is that most consequential public questions are not, in fact, purely technical. They turn on how competing goods are to be weighed — present comfort against future security, liberty against equality, the interests of one group against those of another — and no quantity of expertise can settle such trade-offs, because they are not matters of fact but of value. The expert can tell us what a policy will cost and whom it will affect; he cannot tell us, from within his expertise, whose claims ought to prevail. To treat these as technical questions is not to remove value from the decision but to conceal it, smuggling contestable commitments in under the authority of neutral knowledge.\n\nThis is why the case for democracy does not rest on the dubious premise that ordinary citizens decide wisely. It rests on the firmer ground that decisions binding upon all, and resting finally on values rather than facts, derive their legitimacy from the consent of those who must live with them.",
+    "question": "Which of the following best captures the central idea of the passage?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Democratic deliberation is superior to expertise because citizens are better informed than specialists."
+      },
+      {
+        "key": "b",
+        "text": "Because most major public questions turn on weighing values rather than settling facts, they cannot be resolved by expertise alone and draw their legitimacy from democratic consent."
+      },
+      {
+        "key": "c",
+        "text": "Experts should be barred from policymaking, since their knowledge conceals contestable commitments."
+      },
+      {
+        "key": "d",
+        "text": "The chief weakness of democracy is that it is slow and easily swayed by momentary passion."
+      }
+    ],
+    "answer": "b",
+    "explanation": "The argument moves from \"most consequential public questions are not purely technical\" (they are value trade-offs) to legitimacy resting \"on the consent of those who must live with them.\" *Closest wrong — (d): the slowness of democracy is a concession the author grants, not the central claim — the case for democracy survives despite it.*",
+    "subject": "Reading Comprehension",
+    "theme": "CSAT Daily RC",
+    "micro_topic": "Reading comprehension",
+    "nature": "CSAT",
+    "difficulty": "Moderate",
+    "source_type": "rc"
+  },
+  {
+    "id": "daily_rc_2026_06_22_6",
+    "question_number": 6,
+    "passage": "A recurring temptation in the governance of complex societies is to imagine that the hardest public questions are, at bottom, technical — that for every problem of policy there exists a correct answer which sufficient expertise could disclose, and that the task of politics is merely to find the experts and defer to them. The appeal is understandable. Democratic deliberation is slow, often ill-informed, and prone to the passions of the moment, while the specialist commands evidence the ordinary citizen lacks. Why not, then, entrust the management of the economy, of public health, of the climate, to those who know best, and spare the public the burden of judging what it cannot fully understand?\n\nThe answer is that most consequential public questions are not, in fact, purely technical. They turn on how competing goods are to be weighed — present comfort against future security, liberty against equality, the interests of one group against those of another — and no quantity of expertise can settle such trade-offs, because they are not matters of fact but of value. The expert can tell us what a policy will cost and whom it will affect; he cannot tell us, from within his expertise, whose claims ought to prevail. To treat these as technical questions is not to remove value from the decision but to conceal it, smuggling contestable commitments in under the authority of neutral knowledge.\n\nThis is why the case for democracy does not rest on the dubious premise that ordinary citizens decide wisely. It rests on the firmer ground that decisions binding upon all, and resting finally on values rather than facts, derive their legitimacy from the consent of those who must live with them.",
+    "question": "The author's argument depends most directly on the assumption that:",
+    "options": [
+      {
+        "key": "a",
+        "text": "experts are generally less competent than they claim to be."
+      },
+      {
+        "key": "b",
+        "text": "citizens, if properly educated, would always reach the correct decision."
+      },
+      {
+        "key": "c",
+        "text": "questions of value cannot be conclusively settled by factual or technical knowledge."
+      },
+      {
+        "key": "d",
+        "text": "the passions of the moment never influence expert judgement."
+      }
+    ],
+    "answer": "c",
+    "explanation": "The whole argument hinges on the fact/value distinction: expertise settles facts, but \"no quantity of expertise can settle such trade-offs, because they are not matters of fact but of value.\" *Closest wrong — (b): the author expressly denies this — democracy's case \"does not rest on the dubious premise that ordinary citizens decide wisely.\"*",
+    "subject": "Reading Comprehension",
+    "theme": "CSAT Daily RC",
+    "micro_topic": "Reading comprehension",
+    "nature": "CSAT",
+    "difficulty": "Moderate",
+    "source_type": "rc"
+  },
+  {
+    "id": "daily_rc_2026_06_22_7",
+    "question_number": 7,
+    "passage": "A recurring temptation in the governance of complex societies is to imagine that the hardest public questions are, at bottom, technical — that for every problem of policy there exists a correct answer which sufficient expertise could disclose, and that the task of politics is merely to find the experts and defer to them. The appeal is understandable. Democratic deliberation is slow, often ill-informed, and prone to the passions of the moment, while the specialist commands evidence the ordinary citizen lacks. Why not, then, entrust the management of the economy, of public health, of the climate, to those who know best, and spare the public the burden of judging what it cannot fully understand?\n\nThe answer is that most consequential public questions are not, in fact, purely technical. They turn on how competing goods are to be weighed — present comfort against future security, liberty against equality, the interests of one group against those of another — and no quantity of expertise can settle such trade-offs, because they are not matters of fact but of value. The expert can tell us what a policy will cost and whom it will affect; he cannot tell us, from within his expertise, whose claims ought to prevail. To treat these as technical questions is not to remove value from the decision but to conceal it, smuggling contestable commitments in under the authority of neutral knowledge.\n\nThis is why the case for democracy does not rest on the dubious premise that ordinary citizens decide wisely. It rests on the firmer ground that decisions binding upon all, and resting finally on values rather than facts, derive their legitimacy from the consent of those who must live with them.",
+    "question": "The author's attitude toward the view that hard public questions are \"at bottom, technical\" is best described as:",
+    "options": [
+      {
+        "key": "a",
+        "text": "sympathetic and ultimately endorsing."
+      },
+      {
+        "key": "b",
+        "text": "critical of the view while acknowledging its appeal."
+      },
+      {
+        "key": "c",
+        "text": "indifferent and purely descriptive."
+      },
+      {
+        "key": "d",
+        "text": "mocking and contemptuous."
+      }
+    ],
+    "answer": "b",
+    "explanation": "\"The appeal is understandable\" concedes the view's pull, yet the author rejects it as concealing value behind \"neutral knowledge\" — critical but not dismissive. *Closest wrong — (d): the tone is measured and analytical; there is no mockery or contempt for those who hold the view.*",
+    "subject": "Reading Comprehension",
+    "theme": "CSAT Daily RC",
+    "micro_topic": "Reading comprehension",
+    "nature": "CSAT",
+    "difficulty": "Moderate",
+    "source_type": "rc"
+  },
+  {
+    "id": "daily_rc_2026_06_22_8",
+    "question_number": 8,
+    "passage": "A recurring temptation in the governance of complex societies is to imagine that the hardest public questions are, at bottom, technical — that for every problem of policy there exists a correct answer which sufficient expertise could disclose, and that the task of politics is merely to find the experts and defer to them. The appeal is understandable. Democratic deliberation is slow, often ill-informed, and prone to the passions of the moment, while the specialist commands evidence the ordinary citizen lacks. Why not, then, entrust the management of the economy, of public health, of the climate, to those who know best, and spare the public the burden of judging what it cannot fully understand?\n\nThe answer is that most consequential public questions are not, in fact, purely technical. They turn on how competing goods are to be weighed — present comfort against future security, liberty against equality, the interests of one group against those of another — and no quantity of expertise can settle such trade-offs, because they are not matters of fact but of value. The expert can tell us what a policy will cost and whom it will affect; he cannot tell us, from within his expertise, whose claims ought to prevail. To treat these as technical questions is not to remove value from the decision but to conceal it, smuggling contestable commitments in under the authority of neutral knowledge.\n\nThis is why the case for democracy does not rest on the dubious premise that ordinary citizens decide wisely. It rests on the firmer ground that decisions binding upon all, and resting finally on values rather than facts, derive their legitimacy from the consent of those who must live with them.",
+    "question": "With which one of the following statements would the author most likely DISAGREE?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Determining the likely cost of a public-health measure is a task well suited to specialists."
+      },
+      {
+        "key": "b",
+        "text": "The legitimacy of a binding decision flows from the consent of those bound by it."
+      },
+      {
+        "key": "c",
+        "text": "Trade-offs between liberty and equality cannot be settled by expertise alone."
+      },
+      {
+        "key": "d",
+        "text": "Once the relevant facts are known, the right policy follows automatically."
+      }
+    ],
+    "answer": "d",
+    "explanation": "This is precisely the technocratic premise the author refutes: value trade-offs do not follow automatically from facts, so a known set of facts cannot by itself fix the right policy. *Closest wrong — (a): the author accepts that experts can tell us \"what a policy will cost\" — costing is exactly the factual task expertise is suited to.* ---",
+    "subject": "Reading Comprehension",
+    "theme": "CSAT Daily RC",
+    "micro_topic": "Reading comprehension",
+    "nature": "CSAT",
+    "difficulty": "Moderate",
+    "source_type": "rc"
+  }
+]

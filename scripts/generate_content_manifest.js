@@ -160,11 +160,23 @@ function parseRcAnswerMap(answerText) {
 
 function parseDailyRcMarkdown(absPath, isoDate) {
   const text = readText(absPath);
-  const passage = splitMarkdownSection(text, "Passage").replace(/\n---+\s*$/, "").trim();
-  const questionSection = splitMarkdownSection(text, "Questions");
   const answerSection = splitMarkdownSection(text, "Answers") || splitMarkdownSection(text, "Answer Key");
   const answers = parseRcAnswerMap(answerSection);
-  return parseMdQuestions(questionSection).map((item) => {
+  const groups = [];
+  const passageMatches = [...text.matchAll(/^##[^\S\r\n]+Passage(?:[^\S\r\n]+[^\n]+)?[^\S\r\n]*\n([\s\S]*?)(?=^##[^\S\r\n]+Passage(?:[^\S\r\n]+[^\n]+)?[^\S\r\n]*$|^##[^\S\r\n]+Answers?\b|^##[^\S\r\n]+Answer Key\b|^##[^\S\r\n]+\d+-second\b|(?![\s\S]))/gim)];
+  for (const match of passageMatches) {
+    const [passagePart, questionPart = ""] = match[1].split(/^##[^\S\r\n]+Questions(?:[^\S\r\n]+[^\n]*)?[^\S\r\n]*$/im);
+    const passage = passagePart.replace(/^---+\s*$/gm, "").trim();
+    const questionSection = questionPart.replace(/^---+\s*$/gm, "").trim();
+    if (passage && questionSection) groups.push({ passage, questionSection });
+  }
+  if (!groups.length) {
+    groups.push({
+      passage: splitMarkdownSection(text, "Passage").replace(/\n---+\s*$/, "").trim(),
+      questionSection: splitMarkdownSection(text, "Questions"),
+    });
+  }
+  return groups.flatMap(({ passage, questionSection }) => parseMdQuestions(questionSection).map((item) => {
     const answer = answers.get(item.number) || {};
     return {
       id: `daily_rc_${dateSlug(isoDate)}_${item.number}`,
@@ -181,7 +193,7 @@ function parseDailyRcMarkdown(absPath, isoDate) {
       difficulty: "Moderate",
       source_type: "rc",
     };
-  });
+  }));
 }
 
 function parseWeeklyQuizMarkdown(absPath, isoDate) {
@@ -667,11 +679,12 @@ function buildNoteDocuments(root = DEFAULT_ROOT) {
   }
 
   const csatDir = path.join(root, "weekly", "CSAT");
-  for (const absPath of listTopLevelFiles(csatDir).filter((item) => /^CSAT_(Practice|PYQ)_\d{4}-\d{2}-\d{2}\.md$/.test(path.basename(item)))) {
+  for (const absPath of listTopLevelFiles(csatDir).filter((item) => /^CSAT_(Practice|PYQ|Full_Mock)_\d{4}-\d{2}-\d{2}\.md$/.test(path.basename(item)))) {
     const isoDate = normalizeIsoDate(absPath);
     const isPyq = path.basename(absPath).includes("PYQ");
-    const title = isPyq ? "CSAT PYQ Plan" : "CSAT Practice";
-    const prefix = isPyq ? "PYQ" : "Practice";
+    const isFullMock = path.basename(absPath).includes("Full_Mock");
+    const title = isPyq ? "CSAT PYQ Plan" : isFullMock ? "CSAT Full Mock" : "CSAT Practice";
+    const prefix = isPyq ? "PYQ" : isFullMock ? "Mock" : "Practice";
     docs.push(note(root, absPath, "weekly-csat", title, `${prefix} - ${formatDate(isoDate, { day: "2-digit", month: "short" })}`, isoDate));
   }
 
