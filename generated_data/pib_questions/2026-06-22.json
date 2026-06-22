@@ -1,0 +1,50 @@
+[
+  {
+    "question": "Consider the following statements regarding the Financial Action Task Force (FATF):\n1. It is a specialised agency of the United Nations.\n2. India became a full member of the FATF in 2010.\n3. Its Secretariat is located in Paris.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statements 2 and 3 are correct. The FATF is an inter-governmental body set up at the 1989 G7 Summit in Paris - it is NOT a UN specialised agency (1 is wrong). India became a full member in 2010, and the FATF Secretariat is housed at the OECD in Paris. India's Vivek Aggarwal (Secretary, Ministry of Culture; former Director, FIU-IND) was elected FATF Vice-President for 2026-27 at the June 2026 Paris Plenary - the first time India holds this post.",
+    "subject": "International Relations",
+    "theme": "Global standard-setting bodies on terror financing and money laundering",
+    "micro_topic": "FATF basics and India's first Vice-Presidency (Vivek Aggarwal, 2026-27)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Agricultural and Processed Food Products Export Development Authority (APEDA), consider the following statements:\n1. It functions under the Ministry of Commerce and Industry.\n2. It recently facilitated India's first-ever export of dried whole egg powder, which was shipped from Odisha to Austria.\n3. Dried whole egg powder is produced by a spray-drying process.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. APEDA is a statutory body under the Ministry of Commerce & Industry (established under the APEDA Act, 1985). In June 2026 it facilitated India's first-ever commercial export of dried whole egg powder - a 22.6 metric-tonne consignment from Balangir, Odisha (exporter: OVO Farm Pvt. Ltd.) to Austria in the EU. The powder is made by spray-drying pasteurised liquid eggs, which extends shelf life and ensures microbial safety.",
+    "subject": "Agriculture",
+    "theme": "Agri-export promotion and food-processing value-addition",
+    "micro_topic": "APEDA - first dried whole egg powder export (Odisha to Austria)",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the Bharat Climate Observation Network (BCON) recently in the news, consider the following statements:\n1. It is an initiative under the Ministry of Earth Sciences.\n2. A new high-altitude climate observation station under it is being established at Devasthal in Uttarakhand.\n3. It is linked to the Mission Mausam initiative.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. BCON (Bharat Climate Observation Network) is an initiative under the Ministry of Earth Sciences. On 18 June 2026, IITM Pune and ARIES Nainital signed a 50-year-plus MoU to set up a high-altitude climate observation station at Devasthal, Uttarakhand, to track greenhouse gases, soil moisture and other climate variables in the Himalayan region. The station is part of BCON and tied to the Mission Mausam initiative (the MoES programme to make India 'weather-ready and climate-smart').",
+    "subject": "Science & Technology",
+    "theme": "Climate observation infrastructure and atmospheric research",
+    "micro_topic": "BCON / Mission Mausam - IITM-ARIES Devasthal climate station MoU",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]
