@@ -12,6 +12,24 @@
   ],
   "questionSets": [
     {
+      "id": "daily_questions_2026_06_23",
+      "label": "Daily Questions - 23 Jun 2026",
+      "shortLabel": "Daily 23 Jun",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-06-23.json",
+      "isoDate": "2026-06-23",
+      "subjects": [
+        "Polity & Governance",
+        "Economy",
+        "Environment",
+        "Science & Technology",
+        "Geography"
+      ]
+    },
+    {
       "id": "daily_questions_2026_06_22",
       "label": "Daily Questions - 22 Jun 2026",
       "shortLabel": "Daily 22 Jun",
@@ -1085,6 +1103,14 @@
       "shortTitle": "Anki - 21 Jun",
       "date": "2026-06-21",
       "path": "anki/Prelims_Flashcards_2026-06-21.txt"
+    },
+    {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-06-23",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "23 Jun 2026",
+      "date": "2026-06-23",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-06-23.md"
     },
     {
       "id": "daily-daily-current-affairs-upsc-ca-2026-06-22",

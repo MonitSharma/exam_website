@@ -1,0 +1,79 @@
+[
+  {
+    "question": "Consider the following regarding the Supreme Court's June 2026 'right to walk' judgment: 1) The right was anchored primarily in Article 19(1)(d) read with Article 21. 2) The Court held that pedestrians' use of demarcated footpaths is primary over motor vehicles. 3) Remedies for footpath obstruction were made available only under the Motor Vehicles Act, 1988. Which of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(a)",
+    "explanation": "The SC anchored the right to walk in Art 19(1)(d) + Art 21 and gave pedestrians priority over motor vehicles. Remedies were made independent of the Motor Vehicles Act, 1988, so statement 3 is wrong.",
+    "subject": "Polity & Governance",
+    "theme": "Fundamental Rights",
+    "micro_topic": "Expanding scope of Article 21 / Right to Walk judgment 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to India becoming the world's top ship-recycling nation (2025), consider the following: 1) India's global market share rose to 35.4% in 2025. 2) The Recycling of Ships Act, 2019 aligns India with the Hong Kong International Convention. 3) The Alang yard is located in Tamil Nadu. Which of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 1 and 3 only", "(c) 2 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(a)",
+    "explanation": "India's share rose to 35.4% in 2025 (from 30.1%), and the Recycling of Ships Act, 2019 aligns India with the Hong Kong International Convention. The Alang ship-recycling yard is in Gujarat, not Tamil Nadu, so statement 3 is wrong.",
+    "subject": "Economy",
+    "theme": "Infrastructure: Ports & Shipping",
+    "micro_topic": "Ship recycling / Maritime India Vision 2030 / Hong Kong Convention",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to Ecologically Sensitive Areas (ESAs) of the Western Ghats, consider the following: 1) ESAs are notified under the Environment (Protection) Act, 1986. 2) The Kasturirangan committee recommended that the entire Western Ghats be declared an ESA. 3) The Western Ghats spreads across six States. Which of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 1 and 3 only", "(c) 2 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(b)",
+    "explanation": "ESAs are notified under the EPA, 1986, and the Western Ghats run through six States (Gujarat, Maharashtra, Goa, Karnataka, Kerala, Tamil Nadu). It was the Gadgil panel that proposed the entire range as ESA; Kasturirangan recommended only ~37% (~60,000 sq km), so statement 2 is wrong.",
+    "subject": "Environment",
+    "theme": "Eco-Sensitive Zones & Biodiversity Hotspots",
+    "micro_topic": "Western Ghats ESA / Gadgil vs Kasturirangan",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the institutional architecture of India's space sector, consider the following pairs: 1) IN-SPACe — single-window authorisation and promotion of private space activity. 2) NSIL — commercial/PSU arm of the Department of Space. 3) Indian Space Policy — 2023. How many of the pairs given above are correctly matched?",
+    "options": ["(a) Only one", "(b) Only two", "(c) All three", "(d) None"],
+    "answer": "(c)",
+    "explanation": "All three are correct: IN-SPACe is the single-window promoter/regulator for private players, NSIL (NewSpace India Ltd) is the commercial PSU arm of the Department of Space, and the Indian Space Policy was released in 2023. NSIL revenue rose from Rs 321.77 cr (FY22) to Rs 3,246.09 cr (FY25).",
+    "subject": "Science & Technology",
+    "theme": "Space sector reforms",
+    "micro_topic": "IN-SPACe / NSIL / Indian Space Policy 2023",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Ras Laffan, recently in the news after an explosion, is best described as:",
+    "options": ["(a) A deep-water container transhipment port in Sri Lanka", "(b) The world's largest LNG export complex, located in Qatar", "(c) A strategic naval base of India in the Gulf of Oman", "(d) An offshore crude oil field jointly developed by India and the UAE"],
+    "answer": "(b)",
+    "explanation": "Ras Laffan Industrial City in Qatar (about 80 km north of Doha) is the world's largest LNG export complex, accounting for roughly 20% of global LNG, with most output going to Asia. Qatar is a leading LNG supplier to India.",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Ras Laffan, Qatar / LNG & energy security",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which of the following rights has the Supreme Court read into Article 21 (Right to Life and Personal Liberty) over time? 1) Right to livelihood of pavement dwellers (Olga Tellis). 2) Right to privacy. 3) Right to a clean environment. Select the correct answer:",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(d)",
+    "explanation": "All three have been read into Article 21 — right to livelihood (Olga Tellis v. BMC, 1985), right to privacy (K.S. Puttaswamy, 2017), and the right to a clean/healthy environment through successive judgments.",
+    "subject": "Polity & Governance",
+    "theme": "Fundamental Rights",
+    "micro_topic": "Judicial expansion of Article 21",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the Harappan (Indus-Saraswati) Civilization, consider the following: 1) Rakhigarhi, the largest Harappan site in India, lies in the Ghaggar-Hakra plain in Haryana. 2) Dholavira is well known for an elaborate water-harvesting and reservoir system. 3) The civilization belongs broadly to the Chalcolithic (Bronze Age) period. Which of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(d)",
+    "explanation": "All correct. Rakhigarhi (Hisar, Haryana) in the Ghaggar-Hakra plain is the largest Harappan site in India; Dholavira is famous for its water-harvesting and reservoir system (UPSC Prelims 2021); and the Harappan civilization belongs to the Bronze/Chalcolithic age.",
+    "subject": "Ancient & Medieval History",
+    "theme": "Indus Valley Civilization",
+    "micro_topic": "Rakhigarhi / Harappan sites & features",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  }
+]
