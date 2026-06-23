@@ -693,6 +693,10 @@ function buildNoteDocuments(root = DEFAULT_ROOT) {
     const isoDate = normalizeIsoDate(absPath);
     docs.push(note(root, absPath, "physics", "Physics Optional Drill", formatDate(isoDate, { day: "2-digit", month: "short" }), isoDate));
   }
+  for (const absPath of listTopLevelFiles(physicsDir).filter((item) => /^Physics_PYQ_\d{4}-\d{2}-\d{2}\.md$/.test(path.basename(item)))) {
+    const isoDate = normalizeIsoDate(absPath);
+    docs.push(note(root, absPath, "physics", "Physics Optional PYQ Plan", `PYQ - ${formatDate(isoDate, { day: "2-digit", month: "short" })}`, isoDate));
+  }
   for (const absPath of listTopLevelFiles(physicsDir).filter((item) => /^Physics_Optional_Paper_(I|II)_\d{4}-\d{2}-\d{2}\.md$/.test(path.basename(item)))) {
     const isoDate = normalizeIsoDate(absPath);
     const paper = path.basename(absPath).match(/^Physics_Optional_Paper_(I|II)_/)?.[1] || "";

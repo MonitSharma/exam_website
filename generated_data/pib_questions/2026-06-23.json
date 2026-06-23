@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the National Quantum Mission (NQM), recently highlighted in a government review of India's technology ecosystem, consider the following statements:\n1. It was approved in 2023 with an outlay of ₹6,003.65 crore.\n2. Its four thematic pillars are Quantum Computing, Quantum Communication, Quantum Sensing & Metrology, and Quantum Materials & Devices.\n3. It is implemented by the Ministry of External Affairs.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "NQM was approved in April 2023 with an outlay of ₹6,003.65 crore and has the four stated pillars (1 and 2 correct). It is steered by the Department of Science & Technology, not the MEA, so statement 3 is wrong.",
+    "subject": "Science & Technology",
+    "theme": "Frontier technology missions",
+    "micro_topic": "National Quantum Mission",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to ship recycling and the Hong Kong International Convention (HKC), in the news as India became the world's top ship-recycling nation, consider the following statements:\n1. The Hong Kong International Convention is adopted under the International Maritime Organization (IMO).\n2. India is yet to ratify the Hong Kong International Convention.\n3. India's domestic framework for the sector is the Recycling of Ships Act, 2019.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 3 only",
+      "(b) 2 only",
+      "(c) 1 and 2 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "The HKC is an IMO treaty for safe and environmentally sound ship recycling and India's domestic law is the Recycling of Ships Act, 2019 (1 and 3 correct). India ratified the HKC in 2019, so statement 2 is wrong.",
+    "subject": "Environment",
+    "theme": "Circular economy & maritime sustainability",
+    "micro_topic": "Ship recycling / Hong Kong Convention",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The BRICS National Security Advisers' Meeting (June 2026) was held in New Delhi. Consider the following statements:\n1. It was chaired by India's National Security Adviser under India's 2026 BRICS Presidency.\n2. As of 2026, BRICS includes Indonesia, Iran, Egypt, Ethiopia, Saudi Arabia and the UAE as members alongside the original five.\n3. The meeting's stated theme centred on conventional/territorial military threats among major powers.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "The meeting was chaired by NSA Ajit Doval under India's 2026 BRICS Presidency, and the expanded 11-member BRICS includes Indonesia, Iran, Egypt, Ethiopia, Saudi Arabia and the UAE (1 and 2 correct). The theme was non-traditional security challenges (cyber, AI, information warfare, terrorism), so statement 3 is wrong.",
+    "subject": "International Relations",
+    "theme": "Plurilateral groupings",
+    "micro_topic": "BRICS NSA Meeting 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]
