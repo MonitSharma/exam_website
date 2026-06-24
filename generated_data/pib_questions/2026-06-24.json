@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the DISHA 2.0 scheme, recently approved, consider the following statements:\n1. It is a Central Sector Scheme of the Department of Justice, Ministry of Law & Justice.\n2. It seeks to advance \"Access to Justice\" linked to Articles 14, 21 and 39A of the Constitution.\n3. It is funded jointly by the Centre and States on a 60:40 basis.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "DISHA 2.0 (outlay Rs 255 crore, 2026-31) is a Central Sector Scheme of the Department of Justice advancing 'Access to Justice' under the Preamble and Articles 14, 21 and 39A (1 and 2 correct). It is funded 100% by Central Gross Budgetary Support, not a 60:40 Centre-State split, so statement 3 is wrong.",
+    "subject": "Polity & Governance",
+    "theme": "Access to justice & legal aid",
+    "micro_topic": "DISHA 2.0 scheme",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The State of World Fisheries and Aquaculture (SOFIA) 2026 report was in the news. Consider the following statements:\n1. It is published by the Food and Agriculture Organization (FAO).\n2. As per the report, India is the world's largest producer of aquatic animals.\n3. India ranks first in the world in inland water fish catches.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "SOFIA is the FAO's flagship biennial report (1 correct), and India ranks first in inland water catches at 2.2 million tonnes (3 correct). Statement 2 is wrong: India is the second-largest producer of aquatic animals (9% in 2024), behind China.",
+    "subject": "Reports & Indices",
+    "theme": "Fisheries & blue economy",
+    "micro_topic": "FAO SOFIA 2026 report",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to BHASHINI, recently in the news, consider the following statements:\n1. It is a language-technology platform implemented under the Ministry of Electronics & Information Technology (MeitY).\n2. It is part of the National Language Translation Mission.\n3. It is designed to translate only between Hindi and English.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "BHASHINI is run by the Digital India BHASHINI Division under MeitY (1 correct) and is part of the National Language Translation Mission (2 correct). Statement 3 is wrong: it supports 36 Indian text languages, 23 Indian voice languages and 35 international languages, far beyond Hindi-English.",
+    "subject": "Science & Technology",
+    "theme": "Digital public infrastructure",
+    "micro_topic": "BHASHINI language platform",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]

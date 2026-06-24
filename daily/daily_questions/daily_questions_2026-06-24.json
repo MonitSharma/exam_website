@@ -1,0 +1,79 @@
+[
+  {
+    "question": "With reference to ship recycling in India (in news, 2026), consider the following: 1) India became the world's largest ship-recycling nation in 2025 as per UNCTAD's Review of Maritime Transport. 2) The industry is concentrated mainly at Alang, Gujarat. 3) It is regulated domestically by the Recycling of Ships Act, 2019, which gives effect to the Hong Kong Convention. How many of the above are correct?",
+    "options": ["(a) Only one", "(b) Only two", "(c) All three", "(d) None"],
+    "answer": "(c)",
+    "explanation": "UNCTAD's 2025 Review ranked India first (35.4% global share); Alang, Gujarat is the hub; the Recycling of Ships Act, 2019 implements the Hong Kong Convention.",
+    "subject": "Economy",
+    "theme": "Maritime economy & circular economy",
+    "micro_topic": "Ship recycling / UNCTAD Review of Maritime Transport 2025",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to Ecologically Sensitive Areas (ESAs) of the Western Ghats, consider the following: 1) ESAs are notified under the Environment (Protection) Act, 1986. 2) The Gadgil Committee recommended a larger ESA than the Kasturirangan Committee. 3) The Western Ghats run through six states from Gujarat to Tamil Nadu. Which are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(d)",
+    "explanation": "ESAs are notified under EPA 1986; Gadgil/WGEEP proposed ~1.29 lakh sq km (100%) vs Kasturirangan's ~37%; the Ghats span six states (Gujarat, Maharashtra, Goa, Karnataka, Kerala, Tamil Nadu).",
+    "subject": "Environment",
+    "theme": "Conservation & eco-sensitive zones",
+    "micro_topic": "Western Ghats ESA; Gadgil vs Kasturirangan",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Supreme Court's 2026 ruling in Maniyar Iliyaz v. P. Ayyappan recognised the 'Right to Walk' on safe footpaths as flowing primarily from:",
+    "options": ["(a) Article 14 alone", "(b) Article 19(1)(d) read with Article 21", "(c) Article 25", "(d) Article 300A"],
+    "answer": "(b)",
+    "explanation": "The Court rooted the right in freedom of movement (Art. 19(1)(d)) and the right to life (Art. 21); Article 32 was used only to re-register the matter suo motu, not as the source of the right.",
+    "subject": "Polity & Governance",
+    "theme": "Fundamental Rights & judicial expansion of Article 21",
+    "micro_topic": "Right to walk / safe footpaths judgment",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Fibre-optic drones, recently in the news, are valued in modern warfare mainly because they:",
+    "options": ["(a) Can carry nuclear payloads", "(b) Are resistant to radiofrequency jamming and spoofing", "(c) Have unlimited operational range", "(d) Run entirely on solar power"],
+    "answer": "(b)",
+    "explanation": "They are controlled via a physical fibre-optic cable and emit minimal RF, making them immune to jamming/spoofing; the trade-off is limited range and a cable vulnerable to breakage.",
+    "subject": "Science & Technology",
+    "theme": "Defence technology & electronic warfare",
+    "micro_topic": "Fibre-optic drones vs RF-controlled UAVs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Rakhigarhi, in news for transfer of skeletal remains to the Anthropological Survey of India, is associated with which civilisation and state?",
+    "options": ["(a) Mauryan - Bihar", "(b) Indus-Saraswati (Harappan) - Haryana", "(c) Later Vedic - Uttar Pradesh", "(d) Chalukya - Karnataka"],
+    "answer": "(b)",
+    "explanation": "Rakhigarhi (Haryana) is among the largest Indus-Saraswati (Harappan) settlements; ASI transferred skeletal remains to AnSI's repository in Kolkata under a Ministry of Culture MoU for ancient-DNA study.",
+    "subject": "Ancient & Medieval History",
+    "theme": "Indus Valley Civilisation & archaeology",
+    "micro_topic": "Rakhigarhi; ASI-AnSI; ancient DNA",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "India is home to part of which of the world's biodiversity hotspots? 1) The Himalaya 2) Indo-Burma 3) Sundaland 4) Western Ghats-Sri Lanka. How many of the above are correct?",
+    "options": ["(a) Only two", "(b) Only three", "(c) All four", "(d) Only one"],
+    "answer": "(c)",
+    "explanation": "India hosts four of the 36 global biodiversity hotspots: the Himalaya, Indo-Burma, Sundaland (Nicobar Islands), and Western Ghats-Sri Lanka.",
+    "subject": "Environment",
+    "theme": "Biodiversity hotspots",
+    "micro_topic": "Four biodiversity hotspots of India",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Western Ghats are called the 'Water Tower of Peninsular India.' Which of the following rivers rise in the Western Ghats? 1) Godavari 2) Krishna 3) Cauvery 4) Mahanadi",
+    "options": ["(a) 1, 2 and 3 only", "(b) 1, 2 and 4 only", "(c) 2 and 3 only", "(d) 1, 2, 3 and 4"],
+    "answer": "(a)",
+    "explanation": "The Godavari (Trimbak), Krishna (Mahabaleshwar) and Cauvery (Talakaveri/Brahmagiri) rise in the Western Ghats; the Mahanadi rises in Chhattisgarh, not the Western Ghats.",
+    "subject": "Geography",
+    "theme": "Drainage systems of Peninsular India",
+    "micro_topic": "East-flowing rivers originating in the Western Ghats",
+    "nature": "Factual",
+    "difficulty": "Hard"
+  }
+]
