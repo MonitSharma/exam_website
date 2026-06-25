@@ -1,0 +1,79 @@
+[
+  {
+    "question": "With reference to the Foreign Contribution (Regulation) Amendment Rules, 2026, consider the following statements: 1. They were notified by the Ministry of Home Affairs. 2. NGOs must select their activities and areas of operation from a fixed list under five broad categories. 3. Organisations having foreign nationals (other than persons of Indian origin) in key positions are generally ineligible for registration. How many of the above are correct?",
+    "options": ["(a) Only one", "(b) Only two", "(c) All three", "(d) None"],
+    "answer": "(c)",
+    "explanation": "All three provisions feature in the FCRA Amendment Rules, 2026, notified by the MHA on 22 June 2026 (five activity categories: social, economic, educational, cultural, religious).",
+    "subject": "Polity & Governance",
+    "theme": "Regulation of NGOs / FCRA",
+    "micro_topic": "FCRA (Regulation) Amendment Rules, 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Recently in the news, the regulator that passed an interim ex-parte order against Rajesh Exports for alleged large-scale misstatement of revenues is:",
+    "options": ["(a) Reserve Bank of India", "(b) Securities and Exchange Board of India", "(c) Competition Commission of India", "(d) Insolvency and Bankruptcy Board of India"],
+    "answer": "(b)",
+    "explanation": "SEBI's interim ex-parte order (3 June 2026) flagged that ~Rs 15.15 lakh crore of Rajesh Exports' consolidated revenue (FY21-FY25) could not be independently verified; the ED also conducted searches around 23 June 2026.",
+    "subject": "Economy",
+    "theme": "Securities-market regulation",
+    "micro_topic": "SEBI enforcement / Rajesh Exports order",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The Green Hydrogen Certification Portal of India (GHCI), launched in June 2026, is an initiative of which Ministry, under which Mission?",
+    "options": ["(a) Ministry of Power — PM Surya Ghar Muft Bijli Yojana", "(b) Ministry of New and Renewable Energy — National Green Hydrogen Mission", "(c) Ministry of Petroleum and Natural Gas — SATAT", "(d) Ministry of Environment, Forest and Climate Change — National Clean Air Programme"],
+    "answer": "(b)",
+    "explanation": "MNRE (Minister Pralhad Joshi) launched the GHCI portal on 18 June 2026 under the National Green Hydrogen Mission to certify hydrogen produced from renewable energy.",
+    "subject": "Environment",
+    "theme": "Energy transition / Green hydrogen",
+    "micro_topic": "Green Hydrogen Certification Portal (GHCI)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements regarding the RBI's June 2026 Bulletin: 1. It projected India's real GDP growth for 2026-27 at 6.6%. 2. It flagged a widening south-west monsoon deficit as a risk to the growth-inflation outlook. Which is/are correct?",
+    "options": ["(a) 1 only", "(b) 2 only", "(c) Both 1 and 2", "(d) Neither 1 nor 2"],
+    "answer": "(c)",
+    "explanation": "The June 2026 Bulletin projected FY27 real GDP growth at 6.6% (down from 7.7% in FY26) and warned that a widening monsoon deficit (42.2% of LPA as of 21 June) could weigh on growth and inflation.",
+    "subject": "Economy",
+    "theme": "Monetary policy / Macro outlook",
+    "micro_topic": "RBI June 2026 Bulletin",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Human Resource Mobility Forum announced by the Ministry of External Affairs in June 2026 is primarily intended to:",
+    "options": ["(a) Repatriate undocumented Indian migrants from the Gulf", "(b) Promote legal and ethical overseas employment by linking Indian workers with vetted foreign employers", "(c) Issue chip-based e-passports under a new programme", "(d) Negotiate a single visa regime across SAARC nations"],
+    "answer": "(b)",
+    "explanation": "The two-day Forum (30 June-1 July 2026), with the Labour and Education Ministries, promotes ethical/legal migration by matching Indian job-seekers with vetted employers; focus countries are Denmark, Germany, Italy, Japan and Russia.",
+    "subject": "International Relations",
+    "theme": "Diaspora & migration governance",
+    "micro_topic": "MEA Human Resource Mobility Forum",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Consider the following statements about the National Green Hydrogen Mission: 1. Under India's standard, hydrogen qualifies as 'green' only if its production emits less than 2 kg of CO2-equivalent per kg of hydrogen. 2. The Mission targets production of 5 million tonnes per annum of green hydrogen by 2030. 3. It is implemented by the Ministry of Petroleum and Natural Gas. Which of the statements are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(a)",
+    "explanation": "The <2 kg CO2e/kg 'green' threshold and the 5-MMT-by-2030 target are correct, but the Mission (launched Jan 2023, outlay Rs 19,744 crore) is implemented by the MNRE, not the Petroleum Ministry.",
+    "subject": "Science & Technology",
+    "theme": "Clean energy / Hydrogen economy",
+    "micro_topic": "National Green Hydrogen Mission",
+    "nature": "Factual",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "With reference to India's cropping seasons, which of the following are kharif crops? 1. Paddy (rice) 2. Cotton 3. Mustard (rapeseed)",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(a)",
+    "explanation": "Paddy and cotton are kharif crops sown with the onset of the south-west monsoon (June-July); mustard/rapeseed is a rabi (winter) crop.",
+    "subject": "Agriculture",
+    "theme": "Cropping seasons",
+    "micro_topic": "Kharif vs Rabi crops",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  }
+]

@@ -12,6 +12,24 @@
   ],
   "questionSets": [
     {
+      "id": "daily_questions_2026_06_25",
+      "label": "Daily Questions - 25 Jun 2026",
+      "shortLabel": "Daily 25 Jun",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-06-25.json",
+      "isoDate": "2026-06-25",
+      "subjects": [
+        "Polity & Governance",
+        "Economy",
+        "Environment",
+        "International Relations",
+        "Science & Technology"
+      ]
+    },
+    {
       "id": "daily_questions_2026_06_24",
       "label": "Daily Questions - 24 Jun 2026",
       "shortLabel": "Daily 24 Jun",
@@ -464,6 +482,22 @@
       "negativeMark": -0.66,
       "subjects": [
         "Reading Comprehension"
+      ]
+    },
+    {
+      "id": "pib_questions_2026_06_25",
+      "label": "PIB Questions - 25 Jun 2026",
+      "shortLabel": "PIB 25 Jun",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-06-25.json",
+      "isoDate": "2026-06-25",
+      "subjects": [
+        "Reports & Indices",
+        "Geography",
+        "Science & Technology"
       ]
     },
     {
@@ -1139,6 +1173,14 @@
       "path": "anki/Prelims_Flashcards_2026-06-21.txt"
     },
     {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-06-25",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "25 Jun 2026",
+      "date": "2026-06-25",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-06-25.md"
+    },
+    {
       "id": "daily-daily-current-affairs-upsc-ca-2026-06-24",
       "cadence": "daily",
       "title": "UPSC Daily CA Briefing",
@@ -1283,6 +1325,14 @@
       "path": "daily/daily_current_affairs/UPSC_CA_2026-06-07.md"
     },
     {
+      "id": "weekly-editorials-editorials-mains-2026-06-25",
+      "cadence": "editorials",
+      "title": "Editorials to Mains",
+      "shortTitle": "Mains - 25 Jun",
+      "date": "2026-06-25",
+      "path": "weekly/Editorials/Editorials_Mains_2026-06-25.md"
+    },
+    {
       "id": "weekly-editorials-editorials-mains-2026-06-18",
       "cadence": "editorials",
       "title": "Editorials to Mains",
@@ -1297,6 +1347,14 @@
       "shortTitle": "Mains - 11 Jun",
       "date": "2026-06-11",
       "path": "weekly/Editorials/Editorials_Mains_2026-06-11.md"
+    },
+    {
+      "id": "daily-daily-mains-gs-mains-2026-06-25",
+      "cadence": "mains",
+      "title": "GS Mains Answer Practice",
+      "shortTitle": "Mains - 25 Jun",
+      "date": "2026-06-25",
+      "path": "daily/daily_mains/GS_Mains_2026-06-25.md"
     },
     {
       "id": "daily-daily-mains-gs-mains-2026-06-24",
@@ -1377,6 +1435,14 @@
       "shortTitle": "10 Jun",
       "date": "2026-06-10",
       "path": "weekly/Physics/Physics_Drill_2026-06-10.md"
+    },
+    {
+      "id": "daily-daily-pib-pib-2026-06-25",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 25 Jun",
+      "date": "2026-06-25",
+      "path": "daily/daily_pib/PIB_2026-06-25.md"
     },
     {
       "id": "daily-daily-pib-pib-2026-06-24",
