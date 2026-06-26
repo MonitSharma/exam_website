@@ -1,0 +1,79 @@
+[
+  {
+    "question": "With reference to the Sample Registration System (SRS) Statistical Report 2024, consider the following: 1) India's Total Fertility Rate (TFR) has fallen to 1.9, below the replacement level. 2) The SRS is released by the Office of the Registrar General & Census Commissioner of India. 3) Bihar and Uttar Pradesh continue to record fertility above the replacement level. How many of the statements given above are correct?",
+    "options": ["(a) Only one", "(b) Only two", "(c) All three", "(d) None"],
+    "answer": "(c)",
+    "explanation": "SRS 2024 reports TFR 1.9 (below replacement 2.1) for the fifth straight year; the SRS is an ORGI product; Bihar (2.9) and UP (2.6) remain above replacement.",
+    "subject": "Society",
+    "theme": "Population & demographic transition",
+    "micro_topic": "SRS 2024 TFR falls to 1.9 (below replacement)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The 'Netra' system, which received its Final Operational Clearance in June 2026, is best described as a/an:",
+    "options": ["(a) Long-range surface-to-air missile system", "(b) Airborne Early Warning & Control (AEW&C) aircraft developed by DRDO", "(c) Indigenous nuclear-powered submarine", "(d) Low-Earth-orbit surveillance satellite constellation"],
+    "answer": "(b)",
+    "explanation": "Netra Mk-1, developed by DRDO's Centre for Airborne Systems on the Embraer ERJ-145 platform, received FOC on 25 June 2026; the IAF operates three such AEW&C aircraft.",
+    "subject": "Science & Technology",
+    "theme": "Defence technology",
+    "micro_topic": "Netra AEW&C Final Operational Clearance 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Sufiyana Mausiqi, recently proposed for UNESCO recognition, is associated with:",
+    "options": ["(a) The Bhakti music of Vrindavan, with the pakhawaj as its lead instrument", "(b) The classical Sufi ensemble music of Kashmir, led by the santoor", "(c) The devotional Sankirtana tradition of Manipur", "(d) The Sopana Sangeetham temple music of Kerala"],
+    "answer": "(b)",
+    "explanation": "Sufiyana Mausiqi is Kashmir's classical Sufi ensemble music (5-7 musicians) led by a santoor player; J&K has forwarded it for a UNESCO Intangible Cultural Heritage nomination via the Ministry of Culture.",
+    "subject": "Art & Culture",
+    "theme": "Music traditions & UNESCO heritage",
+    "micro_topic": "Kashmir's Sufiyana Mausiqi UNESCO ICH nomination",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following about the Index of Services Production (ISP) to be launched by MoSPI: 1) It is a monthly indicator of the real output of the formal services sector. 2) It is designed to complement the Index of Industrial Production (IIP). 3) Its base year is 2024-25. Which of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(d)",
+    "explanation": "The ISP is a monthly index of real output of the formal services sector, complements the IIP, and uses 2024-25 as its base year; trial indices are to be published from 14 July 2026.",
+    "subject": "Economy",
+    "theme": "National statistics & high-frequency indicators",
+    "micro_topic": "MoSPI Index of Services Production (ISP)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Tungabhadra, in the news in June 2026 over the replacement of its dam's spillway gates, is:",
+    "options": ["(a) A tributary of the Godavari, dammed at Sriram Sagar", "(b) A tributary of the Krishna, formed by the confluence of the Tunga and Bhadra rivers", "(c) An east-flowing river rising in the Eastern Ghats", "(d) A tributary of the Cauvery, dammed at Mettur"],
+    "answer": "(b)",
+    "explanation": "The Tungabhadra is formed by the confluence of the Tunga and Bhadra (both rising in the Western Ghats) and is a major right-bank tributary of the Krishna; its dam at Hosapete (Karnataka) serves Karnataka, AP and Telangana.",
+    "subject": "Geography",
+    "theme": "Peninsular drainage & interstate rivers",
+    "micro_topic": "Tungabhadra Dam new spillway gates (2026)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to demographic concepts, consider the following statements: 1) The replacement-level total fertility rate for India is generally taken as 2.1. 2) A country experiences the 'demographic dividend' when the share of its working-age population is larger than the dependent population. Which of the statements given above is/are correct?",
+    "options": ["(a) 1 only", "(b) 2 only", "(c) Both 1 and 2", "(d) Neither 1 nor 2"],
+    "answer": "(c)",
+    "explanation": "India's replacement-level TFR is taken as ~2.1, and the demographic dividend arises when the working-age (15-64) share exceeds the dependent share of the population.",
+    "subject": "Society",
+    "theme": "Population & demographic dividend",
+    "micro_topic": "Replacement-level fertility and demographic dividend concepts",
+    "nature": "Conceptual",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which of the following are tributaries of the Krishna river? 1) Bhima 2) Tungabhadra 3) Malaprabha 4) Indravati. Select the correct answer using the code below:",
+    "options": ["(a) 1, 2 and 3 only", "(b) 2 and 4 only", "(c) 1 and 4 only", "(d) 1, 2, 3 and 4"],
+    "answer": "(a)",
+    "explanation": "Bhima, Tungabhadra and Malaprabha are tributaries of the Krishna; the Indravati is a tributary of the Godavari.",
+    "subject": "Geography",
+    "theme": "Peninsular drainage system",
+    "micro_topic": "Tributaries of the Krishna river",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  }
+]

@@ -199,11 +199,12 @@ function parseDailyRcMarkdown(absPath, isoDate) {
 function parseWeeklyQuizMarkdown(absPath, isoDate) {
   const text = readText(absPath);
   const questionSection = text.split(/^##\s+Part C\b/im)[0] || text;
-  const answerSection = splitMarkdownSection(text, "Answers");
+  const answerSection = splitMarkdownSection(text, "Answers")
+    || (text.match(/^##\s+Part\s+[A-Z]\s+[—-]\s+Answers\s*\n([\s\S]*?)(?=^##\s+|(?![\s\S]))/im)?.[1] || "");
   const answers = parseMdAnswerMap(answerSection);
+  const staticSubject = text.match(/^##\s+Part\s+B\s+[—-]\s+Static Subject:\s*\*{0,2}([^*\n]+?)\*{0,2}\s*(?:·|$)/im)?.[1]?.trim() || "Static";
   return parseMdQuestions(questionSection).map((item) => {
     const answer = answers.get(item.number) || {};
-    const staticSubject = item.number >= 13 ? "Polity" : "Current Affairs";
     return {
       id: `weekly_quiz_${dateSlug(isoDate)}_${item.number}`,
       question_number: item.number,
@@ -211,7 +212,7 @@ function parseWeeklyQuizMarkdown(absPath, isoDate) {
       options: item.options,
       answer: answer.answer,
       explanation: answer.explanation || "Explanation not available.",
-      subject: staticSubject,
+      subject: item.number >= 13 ? staticSubject : "Current Affairs",
       theme: item.number >= 13 ? "Weekly static recall" : "Weekly current affairs recall",
       micro_topic: "Weekly recall quiz",
       nature: item.number >= 13 ? "Static" : "Current Affairs",
