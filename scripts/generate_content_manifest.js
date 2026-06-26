@@ -666,11 +666,18 @@ function buildNoteDocuments(root = DEFAULT_ROOT) {
     docs.push(note(root, absPath, "anki", "Prelims Flashcards", `Anki - ${formatDate(isoDate, { day: "2-digit", month: "short" })}`, isoDate));
   }
 
-  const referenceDir = path.join(root, "reference");
-  for (const absPath of listTopLevelFiles(referenceDir).filter((item) => item.endsWith(".md"))) {
-    const isoDate = normalizeIsoDate(absPath);
-    const title = noteTitleFromHeading(absPath, "Reference Note");
-    docs.push(note(root, absPath, "fodder", title, isoDate ? formatDate(isoDate, { day: "2-digit", month: "short" }) : "Reference", isoDate));
+  const referenceDirs = ["reference", "fodder"];
+  const seenReferencePaths = new Set();
+  for (const dirName of referenceDirs) {
+    const referenceDir = path.join(root, dirName);
+    for (const absPath of walkFiles(referenceDir).filter((item) => item.endsWith(".md"))) {
+      const rel = relPath(root, absPath);
+      if (seenReferencePaths.has(rel)) continue;
+      seenReferencePaths.add(rel);
+      const isoDate = normalizeIsoDate(absPath);
+      const title = noteTitleFromHeading(absPath, "Reference Note");
+      docs.push(note(root, absPath, "fodder", title, isoDate ? formatDate(isoDate, { day: "2-digit", month: "short" }) : "Reference", isoDate));
+    }
   }
 
   const rcDir = path.join(root, "daily", "daily_reading_comprehension");

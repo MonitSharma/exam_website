@@ -38,6 +38,7 @@ const STATIC_PATHS = [
   "weekly",
   "monthly",
   "reference",
+  "fodder",
   "generated_data",
   "generated_questions",
   "config",
