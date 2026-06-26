@@ -25,6 +25,7 @@ function ExamSwitcher() {
 
 function formatIsoDate(isoDate, options = { day: "2-digit", month: "short", year: "numeric" }) {
   const [year, month, day] = String(isoDate).split("-").map(Number);
+  if (!year || !month || !day) return "";
   return new Intl.DateTimeFormat("en-GB", { ...options, timeZone: "UTC" }).format(new Date(Date.UTC(year, month - 1, day)));
 }
 
