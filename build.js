@@ -37,6 +37,7 @@ const STATIC_PATHS = [
   "anki",
   "weekly",
   "monthly",
+  "reference",
   "generated_data",
   "generated_questions",
   "config",

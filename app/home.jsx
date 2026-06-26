@@ -447,6 +447,7 @@ const CADENCE_META = {
   "sectional": { label: "Sectional", group: "Weekly" },
   "monthly": { label: "Monthly", group: "Monthly" },
   "anki": { label: "Anki", group: "Reference" },
+  "fodder": { label: "Fodder", group: "Reference" },
   "strategy": { label: "Strategy", group: "Reference" },
 };
 const GROUP_ORDER = ["Daily", "Weekly", "Monthly", "Reference"];

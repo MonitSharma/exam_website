@@ -1349,6 +1349,14 @@
       "path": "weekly/Editorials/Editorials_Mains_2026-06-11.md"
     },
     {
+      "id": "reference-fodder-bank",
+      "cadence": "fodder",
+      "title": "Fodder Bank",
+      "shortTitle": "Reference",
+      "date": "",
+      "path": "reference/Fodder_Bank.md"
+    },
+    {
       "id": "daily-daily-mains-gs-mains-2026-06-25",
       "cadence": "mains",
       "title": "GS Mains Answer Practice",
