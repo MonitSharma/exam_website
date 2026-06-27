@@ -488,10 +488,11 @@ function NotesLibrary() {
   const [monthFilter, setMonthFilter] = useStateHome("latest");
   const [noteState, setNoteState] = useStateHome({ loading: false, error: "", note: null, content: "" });
   const monthOptions = getNoteMonthOptions(docs);
+  const isWeeklyCadence = meta.group === "Weekly";
   const activeMonth = monthFilter === "all" || monthOptions.some((item) => item.key === monthFilter)
     ? monthFilter
     : monthOptions[0]?.key || "all";
-  const visibleDocs = activeMonth === "all" ? docs : docs.filter((doc) => noteMonthKey(doc) === activeMonth);
+  const visibleDocs = isWeeklyCadence ? docs : activeMonth === "all" ? docs : docs.filter((doc) => noteMonthKey(doc) === activeMonth);
   const selectedDoc = noteState.note || docs.find((doc) => doc.id === selectedId) || null;
   const readingMinutes = estimateReadingMinutes(noteState.content);
 
@@ -571,21 +572,35 @@ function NotesLibrary() {
       <div className="notes-layout">
         <aside className="notes-side">
           <div className="notes-list-tools">
-            <label>
-              <span>Month</span>
-              <select
-                value={activeMonth}
-                onChange={(event) => {
-                  const nextMonth = event.target.value;
-                  const nextDocs = nextMonth === "all" ? docs : docs.filter((doc) => noteMonthKey(doc) === nextMonth);
-                  setMonthFilter(nextMonth);
-                  setSelectedId(nextDocs[0]?.id || null);
-                }}
-                aria-label="Note month">
-                {monthOptions.length ? monthOptions.map((item) => <option key={item.key} value={item.key}>{item.label}</option>) : <option value="all">No dates</option>}
-                {monthOptions.length > 1 && <option value="all">All dates</option>}
-              </select>
-            </label>
+            {isWeeklyCadence ? (
+              <label>
+                <span>Week</span>
+                <select
+                  value={selectedDoc?.id || selectedId || ""}
+                  onChange={(event) => setSelectedId(event.target.value)}
+                  aria-label={`${meta.label} week`}>
+                  {docs.length ? docs.map((doc) => (
+                    <option key={doc.id} value={doc.id}>{doc.shortTitle || formatIsoDate(doc.date) || doc.title}</option>
+                  )) : <option value="">No weeks</option>}
+                </select>
+              </label>
+            ) : (
+              <label>
+                <span>Month</span>
+                <select
+                  value={activeMonth}
+                  onChange={(event) => {
+                    const nextMonth = event.target.value;
+                    const nextDocs = nextMonth === "all" ? docs : docs.filter((doc) => noteMonthKey(doc) === nextMonth);
+                    setMonthFilter(nextMonth);
+                    setSelectedId(nextDocs[0]?.id || null);
+                  }}
+                  aria-label="Note month">
+                  {monthOptions.length ? monthOptions.map((item) => <option key={item.key} value={item.key}>{item.label}</option>) : <option value="all">No dates</option>}
+                  {monthOptions.length > 1 && <option value="all">All dates</option>}
+                </select>
+              </label>
+            )}
             <span className="notes-count">{visibleDocs.length} {visibleDocs.length === 1 ? "note" : "notes"}</span>
           </div>
           <div className="notes-list">
