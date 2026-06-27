@@ -1,0 +1,79 @@
+[
+  {
+    "question": "With reference to PM Modi's June 2026 Seychelles visit, consider the following: 1) The visit coincided with the 50th anniversary of Seychelles' independence. 2) Seychelles lies in the Western Indian Ocean. 3) India's 'MAHASAGAR' is an expansion of the earlier 'SAGAR' maritime vision. How many of the statements given above are correct?",
+    "options": ["(a) Only one", "(b) Only two", "(c) All three", "(d) None"],
+    "answer": "(c)",
+    "explanation": "Seychelles became independent on 29 June 1976 (50 years in 2026); it lies in the Western Indian Ocean; MAHASAGAR (Mutual and Holistic Advancement for Security and Growth Across Regions, 2025) is the expanded articulation of SAGAR (2015).",
+    "subject": "International Relations",
+    "theme": "India & the Indian Ocean Region",
+    "micro_topic": "Modi's Seychelles state visit; SAGAR to MAHASAGAR",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "'Project Hawk Eye', in the news in June 2026, is best described as:",
+    "options": ["(a) ISRO's new geo-imaging satellite for border surveillance", "(b) A DRDO counter-drone laser weapon system", "(c) A technology-linked security grid using drones and AI-enabled CCTV with facial recognition for the Amarnath Yatra", "(d) A coastal radar chain operated by the Indian Coast Guard"],
+    "answer": "(c)",
+    "explanation": "Launched by Anantnag Police (J&K) on 25 June 2026 for the Amarnath Yatra 2026, Project Hawk Eye combines 5 drones, 28 elevated observation posts, 416 CCTV cameras with a Facial Recognition System and 22 sniper teams.",
+    "subject": "Internal Security",
+    "theme": "Technology in security management",
+    "micro_topic": "Project Hawk Eye, Amarnath Yatra 2026 security grid",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The 'AIR SUVIDHA 2.0' portal, relaunched in June 2026, is:",
+    "options": ["(a) A single-window air-cargo customs clearance system", "(b) A drone-traffic management platform for civil aviation", "(c) A portal for booking subsidised UDAN regional flights", "(d) A contactless, paperless passenger health self-declaration portal used for screening at points of entry"],
+    "answer": "(d)",
+    "explanation": "Relaunched by the Ministry of Civil Aviation and DIAL amid the Ebola alert, AIR SUVIDHA 2.0 is a contactless passenger health self-declaration system (21-day travel history) feeding data to the Airport Health Officer, Bureau of Immigration and IDSP.",
+    "subject": "Science & Technology",
+    "theme": "Disease surveillance & health technology",
+    "micro_topic": "AIR SUVIDHA 2.0 passenger health self-declaration portal",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "A 'Public Health Emergency of International Concern' (PHEIC), invoked during the 2026 Ebola outbreak, is declared under which framework and by which authority?",
+    "options": ["(a) The Cartagena Protocol, by the UNEP", "(b) The International Health Regulations (2005), by the World Health Organization", "(c) The Nagoya Protocol, by the World Health Organization", "(d) The Sendai Framework, by the UNDRR"],
+    "answer": "(b)",
+    "explanation": "A PHEIC is declared by the WHO Director-General under the International Health Regulations (2005). The 2026 Ebola outbreak (Bundibugyo ebolavirus, DR Congo and Uganda) was declared a PHEIC on 16 May 2026.",
+    "subject": "Science & Technology",
+    "theme": "Global health governance & epidemics",
+    "micro_topic": "PHEIC under IHR 2005; 2026 Ebola outbreak",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The applications 'NCRB-Abhigyan' and 'CrPI', launched in June 2026, are associated with:",
+    "options": ["(a) Digital criminal identification and the Integrated Criminal Justice System", "(b) Direct benefit transfers for welfare schemes", "(c) Real-time tracking of GST e-way bills", "(d) Aadhaar-based crop insurance enrolment"],
+    "answer": "(a)",
+    "explanation": "Launched by the NCRB at the 26th All India Fingerprint Conference 2026, Abhigyan enables field fingerprint matching (~1.3 crore database, ~35 seconds) and CrPI integrates face, iris and DNA matching under the Criminal Procedure (Identification) Act, 2022, within the Integrated Criminal Justice System (ICJS).",
+    "subject": "Internal Security",
+    "theme": "Criminal-justice digitisation & forensics",
+    "micro_topic": "NCRB Abhigyan/CrPI; ICJS; Criminal Procedure (Identification) Act 2022",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements about the Indian Ocean Rim Association (IORA): 1) It was established in 1997. 2) Its members include both Asian and African littoral states. 3) India and Seychelles are both members. Which of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(d)",
+    "explanation": "IORA was set up in 1997, spans littoral states across Asia, Africa, the Middle East and Australasia, and counts both India and Seychelles among its 23 member states.",
+    "subject": "International Relations",
+    "theme": "Regional groupings in the Indian Ocean",
+    "micro_topic": "Indian Ocean Rim Association (IORA)",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to Article 329(b) of the Constitution, consider the following: 1) It bars courts from questioning an election except through an election petition. 2) Such an election petition is presented to the High Court under the Representation of the People Act, 1951. 3) A writ under Article 32 can still be used to stay an ongoing election if a 'glaring' illegality is shown. How many of the statements given above are correct?",
+    "options": ["(a) Only one", "(b) Only two", "(c) All three", "(d) None"],
+    "answer": "(b)",
+    "explanation": "Statements 1 and 2 are correct; statement 3 is wrong. In Meenakshi Natarajan v. ECI (June 2026) the Supreme Court held Article 329(b) bars an Article 32 writ during an ongoing election, with no exception even for a 'glaring' illegality; the remedy is an election petition after the poll.",
+    "subject": "Polity & Governance",
+    "theme": "Elections & writ jurisdiction",
+    "micro_topic": "Article 329(b); election petitions; Meenakshi Natarajan judgment",
+    "nature": "Conceptual",
+    "difficulty": "Hard"
+  }
+]

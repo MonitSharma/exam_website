@@ -12,6 +12,23 @@
   ],
   "questionSets": [
     {
+      "id": "daily_questions_2026_06_27",
+      "label": "Daily Questions - 27 Jun 2026",
+      "shortLabel": "Daily 27 Jun",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-06-27.json",
+      "isoDate": "2026-06-27",
+      "subjects": [
+        "International Relations",
+        "Internal Security",
+        "Science & Technology",
+        "Polity & Governance"
+      ]
+    },
+    {
       "id": "daily_questions_2026_06_26",
       "label": "Daily Questions - 26 Jun 2026",
       "shortLabel": "Daily 26 Jun",
@@ -503,6 +520,22 @@
       ]
     },
     {
+      "id": "pib_questions_2026_06_27",
+      "label": "PIB Questions - 27 Jun 2026",
+      "shortLabel": "PIB 27 Jun",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-06-27.json",
+      "isoDate": "2026-06-27",
+      "subjects": [
+        "Polity & Governance",
+        "Agriculture",
+        "Economy"
+      ]
+    },
+    {
       "id": "pib_questions_2026_06_25",
       "label": "PIB Questions - 25 Jun 2026",
       "shortLabel": "PIB 25 Jun",
@@ -740,6 +773,20 @@
       ]
     },
     {
+      "id": "weekly_news_2026_06_27",
+      "label": "Weekly Places in News - 27 Jun 2026",
+      "shortLabel": "News 27 Jun",
+      "category": "Weekly News",
+      "sourceType": "weekly-news",
+      "questionCount": 5,
+      "durationMinutes": 8,
+      "path": "generated_data/weekly_news_questions/2026-06-27.json",
+      "isoDate": "2026-06-27",
+      "subjects": [
+        "Geography"
+      ]
+    },
+    {
       "id": "weekly_news_2026_06_20",
       "label": "Weekly Places in News - 20 Jun 2026",
       "shortLabel": "News 20 Jun",
@@ -765,6 +812,24 @@
       "isoDate": "2026-06-13",
       "subjects": [
         "Geography"
+      ]
+    },
+    {
+      "id": "weekly_quiz_2026_06_28",
+      "label": "Weekly Recall Quiz - 28 Jun 2026",
+      "shortLabel": "Weekly Quiz 28 Jun",
+      "category": "Weekly Quiz",
+      "sourceType": "weekly-quiz",
+      "questionCount": 15,
+      "durationMinutes": 25,
+      "path": "weekly/weekly_quiz/weekly_questions_2026-06-28.json",
+      "isoDate": "2026-06-28",
+      "subjects": [
+        "Environment",
+        "Society",
+        "International Relations",
+        "Polity & Governance",
+        "Agriculture"
       ]
     },
     {
@@ -1206,6 +1271,14 @@
       "path": "anki/Prelims_Flashcards_2026-06-21.txt"
     },
     {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-06-27",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "27 Jun 2026",
+      "date": "2026-06-27",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-06-27.md"
+    },
+    {
       "id": "daily-daily-current-affairs-upsc-ca-2026-06-26",
       "cadence": "daily",
       "title": "UPSC Daily CA Briefing",
@@ -1398,6 +1471,14 @@
       "path": "reference/Fodder_Bank.md"
     },
     {
+      "id": "daily-daily-mains-gs-mains-2026-06-27",
+      "cadence": "mains",
+      "title": "GS Mains Answer Practice",
+      "shortTitle": "Mains - 27 Jun",
+      "date": "2026-06-27",
+      "path": "daily/daily_mains/GS_Mains_2026-06-27.md"
+    },
+    {
       "id": "daily-daily-mains-gs-mains-2026-06-25",
       "cadence": "mains",
       "title": "GS Mains Answer Practice",
@@ -1484,6 +1565,14 @@
       "shortTitle": "10 Jun",
       "date": "2026-06-10",
       "path": "weekly/Physics/Physics_Drill_2026-06-10.md"
+    },
+    {
+      "id": "daily-daily-pib-pib-2026-06-27",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 27 Jun",
+      "date": "2026-06-27",
+      "path": "daily/daily_pib/PIB_2026-06-27.md"
     },
     {
       "id": "daily-daily-pib-pib-2026-06-25",
@@ -1710,6 +1799,14 @@
       "path": "CSAT_Strategy_Guide.md"
     },
     {
+      "id": "weekly-sunday-sunday-sweep-2026-06-28",
+      "cadence": "sunday",
+      "title": "Sunday Sweep",
+      "shortTitle": "Week of 28 Jun",
+      "date": "2026-06-28",
+      "path": "weekly/Sunday/Sunday_Sweep_2026-06-28.md"
+    },
+    {
       "id": "weekly-sunday-sunday-sweep-2026-06-21",
       "cadence": "sunday",
       "title": "Sunday Sweep",
@@ -1772,6 +1869,14 @@
       "shortTitle": "PYQ - 08 Jun",
       "date": "2026-06-08",
       "path": "weekly/CSAT/CSAT_PYQ_2026-06-08.md"
+    },
+    {
+      "id": "weekly-weekly-news-places-in-news-2026-06-27",
+      "cadence": "weekly-news",
+      "title": "Places in News",
+      "shortTitle": "Map - 27 Jun",
+      "date": "2026-06-27",
+      "path": "weekly/weekly_news/Places_in_News_2026-06-27.md"
     },
     {
       "id": "weekly-weekly-news-places-in-news-2026-06-20",

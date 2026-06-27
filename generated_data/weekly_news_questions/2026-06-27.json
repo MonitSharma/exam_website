@@ -1,0 +1,157 @@
+[
+  {
+    "id": "weekly_news_2026_06_27_1",
+    "question_number": 1,
+    "question": "Pahalgam, the base of the longer Amarnath Yatra route, lies in which district of Jammu & Kashmir?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Ganderbal"
+      },
+      {
+        "key": "b",
+        "text": "Anantnag"
+      },
+      {
+        "key": "c",
+        "text": "Baramulla"
+      },
+      {
+        "key": "d",
+        "text": "Pulwama"
+      }
+    ],
+    "answer": "b",
+    "explanation": "(Anantnag; the Baltal route starts in Ganderbal)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_06_27_2",
+    "question_number": 2,
+    "question": "The Tungabhadra, whose dam's new spillway gates were just inaugurated, is the largest tributary of which river?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Godavari"
+      },
+      {
+        "key": "b",
+        "text": "Kaveri"
+      },
+      {
+        "key": "c",
+        "text": "Krishna"
+      },
+      {
+        "key": "d",
+        "text": "Penna"
+      }
+    ],
+    "answer": "c",
+    "explanation": "(Krishna — Tungabhadra is its largest right-bank tributary)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_06_27_3",
+    "question_number": 3,
+    "question": "Gandhi Sagar Wildlife Sanctuary, India's second cheetah home, lies on which river?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Betwa"
+      },
+      {
+        "key": "b",
+        "text": "Ken"
+      },
+      {
+        "key": "c",
+        "text": "Chambal"
+      },
+      {
+        "key": "d",
+        "text": "Narmada"
+      }
+    ],
+    "answer": "c",
+    "explanation": "(Chambal; the Gandhi Sagar dam is on the Chambal, MP–Rajasthan)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_06_27_4",
+    "question_number": 4,
+    "question": "Goma, in the news for the M23 conflict, sits on the shore of which lake?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Lake Tanganyika"
+      },
+      {
+        "key": "b",
+        "text": "Lake Kivu"
+      },
+      {
+        "key": "c",
+        "text": "Lake Edward"
+      },
+      {
+        "key": "d",
+        "text": "Lake Albert"
+      }
+    ],
+    "answer": "b",
+    "explanation": "(Lake Kivu, in the Albertine Rift, on the DRC–Rwanda border)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_06_27_5",
+    "question_number": 5,
+    "question": "Mount Etna, which erupted again in June, is located on which island?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Sardinia"
+      },
+      {
+        "key": "b",
+        "text": "Crete"
+      },
+      {
+        "key": "c",
+        "text": "Sicily"
+      },
+      {
+        "key": "d",
+        "text": "Cyprus"
+      }
+    ],
+    "answer": "c",
+    "explanation": "(Sicily — Europe's largest active volcano, near Catania)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  }
+]

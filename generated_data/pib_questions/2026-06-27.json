@@ -1,0 +1,35 @@
+[
+  {
+    "question": "Consider the following statements regarding the proclamation of a National Emergency under Article 352 of the Constitution:\n1. In 1975 it was proclaimed on the ground of \"internal disturbance\".\n2. The 44th Constitutional Amendment Act, 1978 replaced \"internal disturbance\" with \"armed rebellion\".\n3. A proclamation of National Emergency now requires the written advice of the Union Cabinet.\nHow many of the statements given above are correct?",
+    "options": ["(a) Only one", "(b) Only two", "(c) All three", "(d) None"],
+    "answer": "(c)",
+    "explanation": "All three are correct. The 1975 Emergency was proclaimed on the ground of 'internal disturbance'. The 44th Amendment Act, 1978 substituted 'armed rebellion' for 'internal disturbance' and made the written advice of the Union Cabinet a precondition for any Emergency proclamation. (Context: 'Samvidhan Hatya Diwas', observed 25 June, marks the 1975 Emergency.)",
+    "subject": "Polity & Governance",
+    "theme": "Emergency provisions",
+    "micro_topic": "Article 352 and the 44th Amendment Act, 1978",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the recently launched NAFED initiatives, consider the following pairs:\n1. NAFEX.in — digital auction portal for agricultural commodities\n2. DRISHTI — inventory-management system for pulses and oilseeds\n3. NAFED-KALYAN — scholarship scheme for children of farming families\nHow many of the pairs given above are correctly matched?",
+    "options": ["(a) Only one", "(b) Only two", "(c) All three", "(d) None"],
+    "answer": "(c)",
+    "explanation": "All three pairs are correct. On 23 June 2026 the Union Minister of Cooperation launched NAFEX.in (NAFED's in-house digital auction portal), DRISHTI (inventory management for pulses and oilseeds), Saksham ERP, and NAFED-KALYAN (a scholarship funded by 1% of NAFED's profits). NAFED functions under the Ministry of Cooperation.",
+    "subject": "Agriculture",
+    "theme": "Agricultural marketing and cooperatives",
+    "micro_topic": "NAFED digital initiatives (NAFEX.in, DRISHTI, NAFED-KALYAN)",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Consider the following statements:\n1. The Swadesh Darshan scheme develops theme-based tourist circuits.\n2. The PRASHAD scheme focuses on the development of pilgrimage and heritage destinations.\n3. Under SASCI, the Centre provides interest-free loans to States for developing iconic tourist centres.\nWhich of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(d)",
+    "explanation": "All three are correct. Swadesh Darshan develops theme-based tourist circuits (SD 2.0 shifted to a destination/sustainability model); PRASHAD targets pilgrimage and heritage sites; and SASCI (Special Assistance to States for Capital Investment) provides interest-free loans to States to develop iconic tourist centres to global scale. (Context: Ministry of Tourism's 2014–2026 decadal review.)",
+    "subject": "Economy",
+    "theme": "Tourism and infrastructure schemes",
+    "micro_topic": "Swadesh Darshan, PRASHAD and SASCI",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]
