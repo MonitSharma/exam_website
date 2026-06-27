@@ -227,6 +227,17 @@ ol, ul { margin: 0; }
   font-family: var(--mono); font-size: 11px; font-weight: 600; letter-spacing: .03em; text-transform: uppercase;
   transition: border-color .15s ease, background .15s ease;
 }
+.weekplan-actions { display: flex; align-items: end; justify-content: flex-end; gap: 9px; flex-wrap: wrap; }
+.weekplan-picker { display: grid; gap: 4px; min-width: 134px; }
+.weekplan-picker span {
+  font-family: var(--mono); font-size: 10px; letter-spacing: .07em;
+  text-transform: uppercase; color: var(--muted);
+}
+.weekplan-picker select {
+  min-height: 34px; border: 1px solid var(--line); border-radius: var(--radius-sm);
+  background: var(--surface); color: var(--ink); padding: 6px 28px 6px 9px;
+  font: 600 12px var(--mono);
+}
 .weekplan-open:hover { border-color: var(--green); background: var(--green-tint); color: var(--green-deep); }
 .weekplan-msg { margin: 16px 0 0; }
 .linklike { border: none; background: none; padding: 0; cursor: pointer; color: var(--green); font: inherit; text-decoration: underline; }

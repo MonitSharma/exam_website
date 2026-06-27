@@ -169,11 +169,13 @@ const WEEKDAYS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
 function WeeklyPlanCard() {
   const ds = window.UPSC;
-  const sweep = React.useMemo(() => {
+  const sweeps = React.useMemo(() => {
     const list = ds.noteDocuments.filter((doc) => doc.cadence === "sunday");
     list.sort((a, b) => String(b.date).localeCompare(String(a.date)));
-    return list[0] || null;
-  }, []);
+    return list;
+  }, [ds.noteDocuments]);
+  const [sweepId, setSweepId] = useStateHome(sweeps[0]?.id || "");
+  const sweep = sweeps.find((doc) => doc.id === sweepId) || sweeps[0] || null;
   const [state, setState] = useStateHome({ loading: Boolean(sweep), error: "", plan: null });
   const [selected, setSelected] = useStateHome(null);
 
@@ -187,10 +189,11 @@ function WeeklyPlanCard() {
         const plan = parseWeekPlan(content);
         setState({ loading: false, error: plan ? "" : "no-plan", plan });
         if (plan && plan.days.length) {
+          const isCurrentWeek = sweep.date && String(sweep.date) >= ds.todayIso;
           const now = new Date();
           const wd = WEEKDAYS[now.getDay()];
-          let idx = plan.days.findIndex((d) => d.dayNum === now.getDate());
-          if (idx < 0) idx = plan.days.findIndex((d) => d.weekday.toLowerCase() === wd.toLowerCase());
+          let idx = isCurrentWeek ? plan.days.findIndex((d) => d.dayNum === now.getDate()) : -1;
+          if (idx < 0 && isCurrentWeek) idx = plan.days.findIndex((d) => d.weekday.toLowerCase() === wd.toLowerCase());
           setSelected(idx < 0 ? 0 : idx);
         }
       })
@@ -202,9 +205,10 @@ function WeeklyPlanCard() {
 
   const plan = state.plan;
   const todayNum = new Date().getDate();
+  const isCurrentWeek = sweep.date && String(sweep.date) >= ds.todayIso;
   const activeIdx = selected == null ? 0 : selected;
   const day = plan && plan.days ? plan.days[activeIdx] : null;
-  const isToday = day && day.dayNum === todayNum;
+  const isToday = isCurrentWeek && day && day.dayNum === todayNum;
   const weekLabel = sweep.shortTitle || formatIsoDate(sweep.date);
 
   function openFullPlan() {
@@ -219,7 +223,19 @@ function WeeklyPlanCard() {
           <h2 className="weekplan-title">What to study today</h2>
           <p className="weekplan-sub">{weekLabel} · from your Sunday Sweep</p>
         </div>
-        <button className="weekplan-open" onClick={openFullPlan}>Full plan <Icon name="arrowR" size={14} /></button>
+        <div className="weekplan-actions">
+          {sweeps.length > 1 && (
+            <label className="weekplan-picker">
+              <span>Week</span>
+              <select value={sweep.id} onChange={(event) => setSweepId(event.target.value)} aria-label="Week plan">
+                {sweeps.map((doc) => (
+                  <option key={doc.id} value={doc.id}>{doc.shortTitle || formatIsoDate(doc.date)}</option>
+                ))}
+              </select>
+            </label>
+          )}
+          <button className="weekplan-open" onClick={openFullPlan}>Full plan <Icon name="arrowR" size={14} /></button>
+        </div>
       </div>
 
       {state.loading && <p className="muted weekplan-msg">Loading this week's plan…</p>}
@@ -235,7 +251,7 @@ function WeeklyPlanCard() {
                 key={i}
                 role="tab"
                 aria-selected={i === activeIdx}
-                className={`weekplan-day${i === activeIdx ? " on" : ""}${d.dayNum === todayNum ? " is-today" : ""}`}
+                className={`weekplan-day${i === activeIdx ? " on" : ""}${isCurrentWeek && d.dayNum === todayNum ? " is-today" : ""}`}
                 onClick={() => setSelected(i)}>
                 <span className="wd">{d.weekday}</span>
                 <span className="dn">{d.dayNum}</span>
@@ -480,14 +496,22 @@ function NotesLibrary() {
   const readingMinutes = estimateReadingMinutes(noteState.content);
 
   useEffectHome(() => {
-    setMonthFilter(monthOptions[0]?.key || "all");
-    setSelectedId(docs[0]?.id || null);
+    const currentDoc = docs.find((doc) => doc.id === selectedId);
+    setMonthFilter(currentDoc ? noteMonthKey(currentDoc) : monthOptions[0]?.key || "all");
+    if (!currentDoc) setSelectedId(docs[0]?.id || null);
   }, [activeCadence, docIds]);
 
   useEffectHome(() => {
     function onOpenNote(event) {
       const target = (event.detail && event.detail.cadence) || "";
-      if (target && tabs.includes(target)) setCadence(target);
+      const targetId = (event.detail && event.detail.id) || "";
+      const targetDoc = targetId ? ds.noteDocuments.find((doc) => doc.id === targetId) : null;
+      const targetCadence = targetDoc ? targetDoc.cadence : target;
+      if (targetCadence && tabs.includes(targetCadence)) setCadence(targetCadence);
+      if (targetDoc) {
+        setMonthFilter(noteMonthKey(targetDoc));
+        setSelectedId(targetDoc.id);
+      }
       const scrollToNotes = () => {
         const section = document.querySelector(".notes-library");
         if (section) window.scrollTo({ top: section.getBoundingClientRect().top + window.scrollY - 64, behavior: "smooth" });
