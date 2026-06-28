@@ -12,6 +12,24 @@
   ],
   "questionSets": [
     {
+      "id": "daily_questions_2026_06_28",
+      "label": "Daily Questions - 28 Jun 2026",
+      "shortLabel": "Daily 28 Jun",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-06-28.json",
+      "isoDate": "2026-06-28",
+      "subjects": [
+        "Polity & Governance",
+        "Science & Technology",
+        "International Relations",
+        "Environment",
+        "Economy"
+      ]
+    },
+    {
       "id": "daily_questions_2026_06_27",
       "label": "Daily Questions - 27 Jun 2026",
       "shortLabel": "Daily 27 Jun",
@@ -520,6 +538,22 @@
       ]
     },
     {
+      "id": "pib_questions_2026_06_28",
+      "label": "PIB Questions - 28 Jun 2026",
+      "shortLabel": "PIB 28 Jun",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-06-28.json",
+      "isoDate": "2026-06-28",
+      "subjects": [
+        "Science & Technology",
+        "Reports & Indices",
+        "Economy"
+      ]
+    },
+    {
       "id": "pib_questions_2026_06_27",
       "label": "PIB Questions - 27 Jun 2026",
       "shortLabel": "PIB 27 Jun",
@@ -928,6 +962,23 @@
       ]
     },
     {
+      "id": "csat_practice_2026_06_28",
+      "label": "CSAT Practice - 28 Jun 2026",
+      "shortLabel": "CSAT Practice 28 Jun",
+      "category": "CSAT Practice",
+      "sourceType": "csat",
+      "questionCount": 22,
+      "durationMinutes": 35,
+      "path": "generated_data/csat_questions/2026-06-28.json",
+      "isoDate": "2026-06-28",
+      "paper": "GS Paper II (CSAT)",
+      "marksPerCorrect": 2,
+      "negativeMark": -0.66,
+      "subjects": [
+        "CSAT"
+      ]
+    },
+    {
       "id": "csat_full_mock_2026_06_22",
       "label": "CSAT Full Mock - 22 Jun 2026",
       "shortLabel": "CSAT Mock 22 Jun",
@@ -1263,12 +1314,28 @@
   ],
   "noteDocuments": [
     {
+      "id": "anki-prelims-flashcards-2026-06-28",
+      "cadence": "anki",
+      "title": "Prelims Flashcards",
+      "shortTitle": "Anki - 28 Jun",
+      "date": "2026-06-28",
+      "path": "anki/Prelims_Flashcards_2026-06-28.txt"
+    },
+    {
       "id": "anki-prelims-flashcards-2026-06-21",
       "cadence": "anki",
       "title": "Prelims Flashcards",
       "shortTitle": "Anki - 21 Jun",
       "date": "2026-06-21",
       "path": "anki/Prelims_Flashcards_2026-06-21.txt"
+    },
+    {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-06-28",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "28 Jun 2026",
+      "date": "2026-06-28",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-06-28.md"
     },
     {
       "id": "daily-daily-current-affairs-upsc-ca-2026-06-27",
@@ -1471,6 +1538,14 @@
       "path": "reference/Fodder_Bank.md"
     },
     {
+      "id": "daily-daily-mains-gs-mains-2026-06-28",
+      "cadence": "mains",
+      "title": "GS Mains Answer Practice",
+      "shortTitle": "Mains - 28 Jun",
+      "date": "2026-06-28",
+      "path": "daily/daily_mains/GS_Mains_2026-06-28.md"
+    },
+    {
       "id": "daily-daily-mains-gs-mains-2026-06-27",
       "cadence": "mains",
       "title": "GS Mains Answer Practice",
@@ -1565,6 +1640,14 @@
       "shortTitle": "10 Jun",
       "date": "2026-06-10",
       "path": "weekly/Physics/Physics_Drill_2026-06-10.md"
+    },
+    {
+      "id": "daily-daily-pib-pib-2026-06-28",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 28 Jun",
+      "date": "2026-06-28",
+      "path": "daily/daily_pib/PIB_2026-06-28.md"
     },
     {
       "id": "daily-daily-pib-pib-2026-06-27",
@@ -1751,6 +1834,14 @@
       "path": "daily/daily_reading_comprehension/RC_Drill_2026-06-08.md"
     },
     {
+      "id": "weekly-schemes-schemes-reports-2026-06-28",
+      "cadence": "schemes",
+      "title": "Schemes & Reports",
+      "shortTitle": "Reports - 28 Jun",
+      "date": "2026-06-28",
+      "path": "weekly/Schemes/Schemes_Reports_2026-06-28.md"
+    },
+    {
       "id": "weekly-schemes-schemes-reports-2026-06-21",
       "cadence": "schemes",
       "title": "Schemes & Reports",
@@ -1829,6 +1920,14 @@
       "shortTitle": "Week of 07 Jun",
       "date": "2026-06-07",
       "path": "weekly/Sunday/Sunday_Sweep_2026-06-07.md"
+    },
+    {
+      "id": "weekly-csat-csat-practice-2026-06-28",
+      "cadence": "weekly-csat",
+      "title": "CSAT Practice",
+      "shortTitle": "Practice - 28 Jun",
+      "date": "2026-06-28",
+      "path": "weekly/CSAT/CSAT_Practice_2026-06-28.md"
     },
     {
       "id": "weekly-csat-csat-full-mock-2026-06-22",

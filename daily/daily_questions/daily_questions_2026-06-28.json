@@ -1,0 +1,79 @@
+[
+  {
+    "question": "With reference to the draft National Food Security (Amendment) Bill, 2026, consider the following: 1) It proposes to change the Antyodaya Anna Yojana (AAY) entitlement from a flat per-household quantity to a per-person quantity. 2) Under the proposal, a four-member AAY household would receive 35 kg of foodgrains per month. 3) Priority Households (PHH) under NFSA, 2013 already receive grain on a per-person basis. How many of the statements given above are correct?",
+    "options": ["(a) Only one", "(b) Only two", "(c) All three", "(d) None"],
+    "answer": "(b)",
+    "explanation": "Statements 1 and 3 are correct. The draft proposes AAY members get 7 kg/person/month capped at 35 kg/household, so a 4-member AAY household gets 28 kg (4x7), not 35 kg (only 5+ member households reach the 35 kg ceiling). PHH already get 5 kg per person per month.",
+    "subject": "Polity & Governance",
+    "theme": "Food security & PDS",
+    "micro_topic": "Draft NFSA (Amendment) Bill 2026; per-capita AAY entitlement",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "The hydrogen-production facility inaugurated at the Indira Gandhi Centre for Atomic Research (IGCAR), Kalpakkam in June 2026 is notable because it:",
+    "options": ["(a) Produces 'green' hydrogen using solar-powered electrolysis", "(b) Uses the Copper-Chlorine thermochemical cycle driven by heat from a nuclear reactor", "(c) Is India's first commercial steam-methane reforming unit", "(d) Extracts hydrogen from natural gas using carbon capture"],
+    "answer": "(b)",
+    "explanation": "Inaugurated by the DAE on 26 June 2026, it is the world's first facility producing hydrogen via the indigenously developed Copper-Chlorine (Cu-Cl) thermochemical cycle, using nuclear process heat from the Fast Breeder Test Reactor (FBTR). It is a technology demonstrator for carbon-free hydrogen.",
+    "subject": "Science & Technology",
+    "theme": "Nuclear technology & clean energy",
+    "micro_topic": "Cu-Cl nuclear-heat hydrogen plant, IGCAR Kalpakkam",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The 'BRICS Remote Sensing Satellite Constellation (RSSC)', discussed at the BRICS Heads of Space Agencies meeting in Bengaluru (June 2026), is best described as:",
+    "options": ["(a) A joint anti-satellite (ASAT) weapons programme of BRICS nations", "(b) A constellation for sharing Earth-observation data among BRICS members for applications like disaster and climate monitoring", "(c) A BRICS-funded human spaceflight mission", "(d) A deep-space communication network managed solely by Russia"],
+    "answer": "(b)",
+    "explanation": "Hosted by ISRO under India's BRICS Chairship 2026, the meeting advanced the RSSC, a constellation that pools members' remote-sensing (Earth-observation) data for socio-economic uses such as disaster management and climate-change monitoring.",
+    "subject": "International Relations",
+    "theme": "Plurilateral groupings & space cooperation",
+    "micro_topic": "BRICS HOSA Bengaluru; Remote Sensing Satellite Constellation",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements about the International Big Cat Alliance (IBCA): 1) It is headquartered in New Delhi. 2) It covers seven big cat species, all of which are found in India. 3) Bangladesh joined it as the 27th member in 2026. Which of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 1 and 3 only", "(c) 2 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(b)",
+    "explanation": "IBCA, launched by India in April 2023 (50 years of Project Tiger), is a treaty-based inter-governmental body headquartered in New Delhi; Bangladesh joined as the 27th member on 24 June 2026. Statement 2 is wrong: of the seven big cats (tiger, lion, leopard, snow leopard, cheetah, jaguar, puma), the jaguar and puma are not found in India.",
+    "subject": "Environment",
+    "theme": "Wildlife conservation & institutions",
+    "micro_topic": "IBCA; Bangladesh as 27th member; big cats",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "NITI Aayog's 8th 'Trade Watch Quarterly' (June 2026) highlighted that India is heavily dependent on imports, chiefly from China, for which of the following?",
+    "options": ["(a) Crude petroleum and natural gas", "(b) Active Pharmaceutical Ingredients (APIs) and Key Starting Materials", "(c) Solar photovoltaic modules", "(d) Edible oils and pulses"],
+    "answer": "(b)",
+    "explanation": "The 8th Trade Watch Quarterly (Q4 FY2025-26), themed on pharma trade, flagged that India relies on China for about 65% of its critical Active Pharmaceutical Ingredients (APIs) and Key Starting Materials (KSMs), and recommended pharma chapters in future FTAs.",
+    "subject": "Economy",
+    "theme": "External sector & supply-chain resilience",
+    "micro_topic": "NITI Trade Watch Quarterly; API import dependence",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to India's three-stage nuclear power programme, consider the following: 1) The first stage uses natural-uranium-fuelled Pressurised Heavy Water Reactors (PHWRs). 2) The second stage uses Fast Breeder Reactors that breed Plutonium-239. 3) The third stage envisages thorium-based reactors using Uranium-233. How many of the statements above are correct?",
+    "options": ["(a) Only one", "(b) Only two", "(c) All three", "(d) None"],
+    "answer": "(c)",
+    "explanation": "All three are correct. Stage I: natural-uranium PHWRs producing Pu-239 as by-product; Stage II: Fast Breeder Reactors using Pu-239 and breeding more of it (and converting Th-232 to U-233); Stage III: thorium (Th-232)-U-233 based reactors for long-term energy security. The programme was conceived by Homi Bhabha.",
+    "subject": "Science & Technology",
+    "theme": "Nuclear energy",
+    "micro_topic": "Three-stage nuclear programme; thorium; FBR",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Of the seven big cat species recognised under the International Big Cat Alliance, which one of the following is NOT found in the wild in India?",
+    "options": ["(a) Snow leopard", "(b) Cheetah", "(c) Jaguar", "(d) Leopard"],
+    "answer": "(c)",
+    "explanation": "The jaguar is native to the Americas and is not found in India. India hosts five of the seven IBCA big cats: tiger, lion (Gir), leopard, snow leopard and cheetah (reintroduced at Kuno). The puma is the other non-Indian species.",
+    "subject": "Environment",
+    "theme": "Species & biodiversity",
+    "micro_topic": "Big cats of India; IUCN/conservation",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "question": "With reference to the semi-cryogenic engine recently hot-tested by ISRO, consider the following statements:\n1. It uses refined kerosene with liquid oxygen as propellants.\n2. The SC120 stage powered by it is intended to replace the L110 core stage of the LVM3.\n3. The hot test was conducted at the ISRO Propulsion Complex, Mahendragiri.\nHow many of the above statements are correct?",
+    "options": ["(a) Only one", "(b) Only two", "(c) All three", "(d) None"],
+    "answer": "(c)",
+    "explanation": "All three are correct. Semi-cryogenic engines burn refined kerosene (isrosene) with liquid oxygen; the SC120 stage (2000 kN-class SE2000 engine) will replace the LVM3's L110 liquid core stage; and the Power Head Test Article was hot-tested at 175-tonne (88%) thrust at the ISRO Propulsion Complex, Mahendragiri (Tamil Nadu).",
+    "subject": "Science & Technology",
+    "theme": "Space technology",
+    "micro_topic": "Semi-cryogenic engine (SE2000/SC120) for LVM3",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements about the 'Trade Watch Quarterly', in the news recently:\n1. It is published by NITI Aayog.\n2. As per its latest edition, India was the world's largest services exporter in 2025.\nWhich of the statements given above is/are correct?",
+    "options": ["(a) 1 only", "(b) 2 only", "(c) Both 1 and 2", "(d) Neither 1 nor 2"],
+    "answer": "(a)",
+    "explanation": "Only statement 1 is correct. The Trade Watch Quarterly is published by NITI Aayog; its 8th edition (Q4 FY26) recorded total trade of USD 1.84 trillion (up 5.4%) with services exports up 9%. India was the world's 8th-largest services exporter in 2025, not the largest, so statement 2 is wrong.",
+    "subject": "Reports & Indices",
+    "theme": "Trade and external sector",
+    "micro_topic": "NITI Aayog Trade Watch Quarterly (Q4 FY26)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The ASPIRE scheme, seen in the news for crossing 100 Livelihood Business Incubators, is implemented by which one of the following Ministries?",
+    "options": ["(a) Ministry of Rural Development", "(b) Ministry of Skill Development and Entrepreneurship", "(c) Ministry of Micro, Small and Medium Enterprises", "(d) Ministry of Agriculture and Farmers Welfare"],
+    "answer": "(c)",
+    "explanation": "ASPIRE (A Scheme for Promotion of Innovation, Rural Industries and Entrepreneurship), launched in 2015, is a Ministry of MSME scheme. Its network of Livelihood Business Incubators (LBIs) now numbers 109 across 27 States/UTs, having trained over 1.23 lakh beneficiaries.",
+    "subject": "Economy",
+    "theme": "MSME and entrepreneurship",
+    "micro_topic": "ASPIRE scheme and Livelihood Business Incubators",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]
