@@ -485,6 +485,7 @@ const CADENCE_META = {
   "weekly-news": { label: "Weekly News", group: "Weekly" },
   "weekly": { label: "Weekly", group: "Weekly" },
   "sectional": { label: "Sectional", group: "Weekly" },
+  "ethics": { label: "Ethics", group: "Weekly" },
   "monthly": { label: "Monthly", group: "Monthly" },
   "anki": { label: "Anki", group: "Reference" },
   "fodder": { label: "Fodder", group: "Reference" },

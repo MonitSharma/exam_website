@@ -12,6 +12,24 @@
   ],
   "questionSets": [
     {
+      "id": "daily_questions_2026_06_29",
+      "label": "Daily Questions - 29 Jun 2026",
+      "shortLabel": "Daily 29 Jun",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-06-29.json",
+      "isoDate": "2026-06-29",
+      "subjects": [
+        "Science & Technology",
+        "International Relations",
+        "Polity & Governance",
+        "Economy",
+        "Geography"
+      ]
+    },
+    {
       "id": "daily_questions_2026_06_28",
       "label": "Daily Questions - 28 Jun 2026",
       "shortLabel": "Daily 28 Jun",
@@ -555,6 +573,22 @@
       ]
     },
     {
+      "id": "pib_questions_2026_06_29",
+      "label": "PIB Questions - 29 Jun 2026",
+      "shortLabel": "PIB 29 Jun",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-06-29.json",
+      "isoDate": "2026-06-29",
+      "subjects": [
+        "Economy",
+        "Polity & Governance",
+        "Science & Technology"
+      ]
+    },
+    {
       "id": "pib_questions_2026_06_28",
       "label": "PIB Questions - 28 Jun 2026",
       "shortLabel": "PIB 28 Jun",
@@ -965,9 +999,51 @@
       ]
     },
     {
+      "id": "sectional_economy_2026_06_29",
+      "label": "Economy Sectional Test - 29 Jun 2026",
+      "shortLabel": "Economy 29 Jun",
+      "category": "Sectional Tests",
+      "sourceType": "sectional",
+      "questionCount": 25,
+      "durationMinutes": 40,
+      "path": "generated_data/sectional_questions/economy_2026-06-29.json",
+      "isoDate": "2026-06-29",
+      "subjects": [
+        "Economy"
+      ]
+    },
+    {
+      "id": "sectional_environment_2026_06_29",
+      "label": "Environment Sectional Test - 29 Jun 2026",
+      "shortLabel": "Environment 29 Jun",
+      "category": "Sectional Tests",
+      "sourceType": "sectional",
+      "questionCount": 25,
+      "durationMinutes": 40,
+      "path": "generated_data/sectional_questions/environment_2026-06-29.json",
+      "isoDate": "2026-06-29",
+      "subjects": [
+        "Environment"
+      ]
+    },
+    {
+      "id": "sectional_science-technology_2026_06_29",
+      "label": "Science Technology Sectional Test - 29 Jun 2026",
+      "shortLabel": "Science Technology 29 Jun",
+      "category": "Sectional Tests",
+      "sourceType": "sectional",
+      "questionCount": 25,
+      "durationMinutes": 40,
+      "path": "generated_data/sectional_questions/science-technology_2026-06-29.json",
+      "isoDate": "2026-06-29",
+      "subjects": [
+        "Science & Technology"
+      ]
+    },
+    {
       "id": "sectional_polity-governance_2026_06_20",
-      "label": "Sectional Test - 20 Jun 2026",
-      "shortLabel": "Sectional 20 Jun",
+      "label": "Polity Governance Sectional Test - 20 Jun 2026",
+      "shortLabel": "Polity Governance 20 Jun",
       "category": "Sectional Tests",
       "sourceType": "sectional",
       "questionCount": 25,
@@ -1347,6 +1423,14 @@
       "path": "anki/Prelims_Flashcards_2026-06-21.txt"
     },
     {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-06-29",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "29 Jun 2026",
+      "date": "2026-06-29",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-06-29.md"
+    },
+    {
       "id": "daily-daily-current-affairs-upsc-ca-2026-06-28",
       "cadence": "daily",
       "title": "UPSC Daily CA Briefing",
@@ -1547,6 +1631,14 @@
       "path": "weekly/Editorials/Editorials_Mains_2026-06-11.md"
     },
     {
+      "id": "ethics-case-2026-06-29",
+      "cadence": "ethics",
+      "title": "Weekly Ethics Case Study",
+      "shortTitle": "Case - 29 Jun",
+      "date": "2026-06-29",
+      "path": "Ethics_Case_2026-06-29.md"
+    },
+    {
       "id": "reference-fodder-bank",
       "cadence": "fodder",
       "title": "Fodder Bank",
@@ -1665,6 +1757,14 @@
       "shortTitle": "10 Jun",
       "date": "2026-06-10",
       "path": "weekly/Physics/Physics_Drill_2026-06-10.md"
+    },
+    {
+      "id": "daily-daily-pib-pib-2026-06-29",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 29 Jun",
+      "date": "2026-06-29",
+      "path": "daily/daily_pib/PIB_2026-06-29.md"
     },
     {
       "id": "daily-daily-pib-pib-2026-06-28",
@@ -1899,10 +1999,34 @@
       "path": "weekly/Schemes/Schemes_Reports_2026-06-14.md"
     },
     {
+      "id": "weekly-sectional-sectional-economy-2026-06-29",
+      "cadence": "sectional",
+      "title": "Sectional Test",
+      "shortTitle": "Economy - 29 Jun",
+      "date": "2026-06-29",
+      "path": "weekly/Sectional/Sectional_economy_2026-06-29.md"
+    },
+    {
+      "id": "weekly-sectional-sectional-environment-2026-06-29",
+      "cadence": "sectional",
+      "title": "Sectional Test",
+      "shortTitle": "Environment - 29 Jun",
+      "date": "2026-06-29",
+      "path": "weekly/Sectional/Sectional_environment_2026-06-29.md"
+    },
+    {
+      "id": "weekly-sectional-sectional-science-technology-2026-06-29",
+      "cadence": "sectional",
+      "title": "Sectional Test",
+      "shortTitle": "Science Technology - 29 Jun",
+      "date": "2026-06-29",
+      "path": "weekly/Sectional/Sectional_science-technology_2026-06-29.md"
+    },
+    {
       "id": "weekly-sectional-sectional-polity-governance-2026-06-20",
       "cadence": "sectional",
       "title": "Sectional Test",
-      "shortTitle": "Test - 20 Jun",
+      "shortTitle": "Polity Governance - 20 Jun",
       "date": "2026-06-20",
       "path": "weekly/Sectional/Sectional_polity-governance_2026-06-20.md"
     },

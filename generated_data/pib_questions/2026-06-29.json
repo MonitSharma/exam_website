@@ -1,0 +1,35 @@
+[
+  {
+    "question": "With reference to Statistics Day in India, consider the following statements:\n1. It is observed on 29 June to mark the birth anniversary of Prof. P.C. Mahalanobis.\n2. Prof. Mahalanobis founded the Indian Statistical Institute and is regarded as the architect of India's Second Five Year Plan.\n3. The 2026 theme commemorated 75 years of the National Sample Survey (NSS).\nHow many of the statements given above are correct?",
+    "options": ["(a) Only one", "(b) Only two", "(c) All three", "(d) None"],
+    "answer": "(c)",
+    "explanation": "Statistics Day falls on 29 June, the birth anniversary of P.C. Mahalanobis, who founded the Indian Statistical Institute (Kolkata) and shaped the Second Five Year Plan; the 2026 observance by MoSPI marked 75 years of the National Sample Survey. All three statements are correct.",
+    "subject": "Economy",
+    "theme": "National Statistics Day 2026",
+    "micro_topic": "MoSPI, National Sample Survey, P.C. Mahalanobis",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the Central Council of Health and Family Welfare (CCHFW), consider the following statements:\n1. It is constituted under Article 263 of the Constitution of India.\n2. It is a statutory body established by an Act of Parliament.\n3. It functions as an apex advisory body to promote Centre-State cooperation in the health sector.\nWhich of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 1 and 3 only", "(c) 2 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(b)",
+    "explanation": "The CCHFW is constituted under Article 263 by a Presidential order, not by an Act of Parliament, so it is not a statutory body (statement 2 is wrong). It is the apex advisory body promoting cooperative federalism in the health sector, making statements 1 and 3 correct.",
+    "subject": "Polity & Governance",
+    "theme": "Cooperative federalism / Article 263 bodies",
+    "micro_topic": "Central Council of Health & Family Welfare, Article 263",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Consider the following statements regarding the Digital India programme and its ecosystem:\n1. It was launched in 2015 by the Ministry of Electronics and Information Technology.\n2. The 'JAM trinity' underpinning it refers to Jan Dhan, Aadhaar and Mobile.\n3. The Unified Payments Interface (UPI) is owned and operated directly by the Reserve Bank of India.\nWhich of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(a)",
+    "explanation": "Digital India was launched in 2015 under MeitY and rests on the JAM trinity (Jan Dhan, Aadhaar, Mobile). UPI is operated by the National Payments Corporation of India (NPCI) - an umbrella body promoted by the RBI and IBA - not directly by the RBI, so statement 3 is incorrect.",
+    "subject": "Science & Technology",
+    "theme": "Digital India @ 11 / Digital Public Infrastructure",
+    "micro_topic": "Digital India, JAM trinity, UPI/NPCI",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]

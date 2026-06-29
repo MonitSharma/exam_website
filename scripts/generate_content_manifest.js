@@ -73,6 +73,20 @@ function slugify(value) {
     .toLowerCase();
 }
 
+function titleizeSlug(value) {
+  return String(value || "")
+    .split(/[-_\s]+/)
+    .filter(Boolean)
+    .map((part) => {
+      const lower = part.toLowerCase();
+      if (lower === "csat") return "CSAT";
+      if (lower === "pib") return "PIB";
+      if (lower === "gs") return "GS";
+      return lower.charAt(0).toUpperCase() + lower.slice(1);
+    })
+    .join(" ");
+}
+
 function jsonRows(absPath) {
   const data = readJson(absPath, []);
   return Array.isArray(data) ? data : [];
@@ -469,6 +483,9 @@ function addRawSectionalQuestionSets(root, byId) {
     const isoDate = normalizeIsoDate(path.basename(absPath));
     if (!isoDate) continue;
     const topic = path.basename(absPath, ".json").replace(/_\d{4}-\d{2}-\d{2}$/, "");
+    const topicLabel = titleizeSlug(topic);
+    const dateLabel = formatDate(isoDate);
+    const shortDate = formatDate(isoDate, { day: "2-digit", month: "short" });
     const count = jsonRows(absPath).length;
     if (!count) continue;
     upsertQuestionSet(root, byId, {
@@ -476,6 +493,8 @@ function addRawSectionalQuestionSets(root, byId) {
       category: "Sectional Tests",
       sourceType: "sectional",
       isoDate,
+      label: `${topicLabel} Sectional Test - ${dateLabel}`,
+      shortLabel: `${topicLabel} ${shortDate}`,
       durationMinutes: defaultDuration("sectional", "", count),
       path: relPath(root, absPath),
     });
@@ -757,7 +776,14 @@ function buildNoteDocuments(root = DEFAULT_ROOT) {
   const sectionalDir = path.join(root, "weekly", "Sectional");
   for (const absPath of listTopLevelFiles(sectionalDir).filter((item) => /^Sectional_.+_\d{4}-\d{2}-\d{2}\.md$/.test(path.basename(item)))) {
     const isoDate = normalizeIsoDate(absPath);
-    docs.push(note(root, absPath, "sectional", noteTitleFromHeading(absPath, "Sectional Test"), `Test - ${formatDate(isoDate, { day: "2-digit", month: "short" })}`, isoDate));
+    const topic = path.basename(absPath).replace(/^Sectional_/, "").replace(/_\d{4}-\d{2}-\d{2}\.md$/, "");
+    const topicLabel = titleizeSlug(topic);
+    docs.push(note(root, absPath, "sectional", noteTitleFromHeading(absPath, `${topicLabel} Sectional Test`), `${topicLabel} - ${formatDate(isoDate, { day: "2-digit", month: "short" })}`, isoDate));
+  }
+
+  for (const absPath of listTopLevelFiles(root).filter((item) => /^Ethics_Case_\d{4}-\d{2}-\d{2}\.md$/.test(path.basename(item)))) {
+    const isoDate = normalizeIsoDate(absPath);
+    docs.push(note(root, absPath, "ethics", noteTitleFromHeading(absPath, "Weekly Ethics Case Study"), `Case - ${formatDate(isoDate, { day: "2-digit", month: "short" })}`, isoDate));
   }
 
   const legacyWeeklyDir = path.join(root, "weekly");

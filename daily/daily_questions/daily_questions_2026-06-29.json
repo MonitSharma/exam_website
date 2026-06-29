@@ -1,0 +1,79 @@
+[
+  {
+    "question": "With reference to ISRO's Semi-Cryogenic Engine (SE-2000) hot-tested in June 2026, consider the following: 1) It uses liquid oxygen and refined kerosene as propellants. 2) It is being developed to power a new core stage of the LVM3 in place of the L110 liquid stage. 3) Like a cryogenic engine, it burns liquid hydrogen as fuel. How many of the statements given above are correct?",
+    "options": ["(a) Only one", "(b) Only two", "(c) All three", "(d) None"],
+    "answer": "(b)",
+    "explanation": "Statements 1 and 2 are correct. The SE-2000 (2,000 kN / 200-tonne class) burns liquid oxygen + refined kerosene ('Isrosene') and will power the new SC120 stage that replaces the LVM3's L110 (Vikas) liquid core stage. Statement 3 is wrong: burning liquid hydrogen is the defining feature of a CRYOGENIC engine (CE-7.5/CE-20), not a semi-cryogenic one. The 24 June 2026 test reached 175 t (~88%) thrust at IPRC Mahendragiri.",
+    "subject": "Science & Technology",
+    "theme": "Space technology & launch vehicles",
+    "micro_topic": "Semi-cryogenic engine SE-2000; SC120 stage; LVM3",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Mongol Oil Refinery at Sainshand, reviewed by EAM S. Jaishankar in June 2026, is being built with financial assistance from India in the form of a:",
+    "options": ["(a) Grant-in-aid from the Ministry of External Affairs", "(b) Line of Credit extended through the EXIM Bank of India", "(c) Sovereign equity stake held by ONGC Videsh", "(d) Loan from the New Development Bank"],
+    "answer": "(b)",
+    "explanation": "Mongolia's first-ever oil refinery, at Sainshand (Dornogobi province), is being financed by a ~US$1.7 billion Line of Credit routed through the EXIM Bank of India. It is India's flagship development-partnership project in Mongolia, which courts India as a 'third neighbour' beyond China and Russia.",
+    "subject": "International Relations",
+    "theme": "Development partnership & neighbourhood diplomacy",
+    "micro_topic": "Mongol Refinery; EXIM Bank Line of Credit; third neighbour",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The National Health Claims Exchange (NHCX), launched in June 2026, is best described as:",
+    "options": ["(a) A government insurance scheme replacing PM-JAY", "(b) A digital platform to standardize and streamline health-insurance claims between hospitals and insurers", "(c) A national registry of communicable diseases", "(d) A subsidy portal for purchasing generic medicines"],
+    "answer": "(b)",
+    "explanation": "NHCX, under the National Health Authority (NHA), is a digital exchange that standardizes and speeds up the settlement of health-insurance claims between hospitals and insurers. It was launched alongside Aarogya Setu 2.0 and an upgraded Ayushman App under the Ayushman Bharat Digital Mission (ABDM); it does not replace PM-JAY.",
+    "subject": "Polity & Governance",
+    "theme": "e-Governance & digital health",
+    "micro_topic": "NHCX; Aarogya Setu 2.0; ABDM; ABHA",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The 'Corporate Mitra' scheme, operationalised in June 2026, is primarily intended to:",
+    "options": ["(a) Provide collateral-free credit guarantees to large corporations", "(b) Create certified para-professionals to help MSMEs meet business and regulatory compliance", "(c) Set up corporate social responsibility (CSR) funds for rural development", "(d) Offer tax holidays to newly incorporated start-ups"],
+    "answer": "(b)",
+    "explanation": "Announced in Budget 2026-27 and operationalised via an MoU on 25 June 2026 (IIT Madras/IIT-M Pravartak, SWAYAM Plus, ICAI, ICSI, ICMAI), Corporate Mitra trains certified para-professionals (Indians up to 30 years) to help MSMEs manage business and regulatory compliance — ~150 hours online plus 6 months on-the-job training.",
+    "subject": "Economy",
+    "theme": "MSME, skilling & employment",
+    "micro_topic": "Corporate Mitra scheme; MSME compliance; SWAYAM Plus",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Consider the following statements about the 2026 south-west monsoon as reported in late June: 1) June 2026 recorded one of the largest June rainfall deficits in over a century of observations. 2) Among major states, Maharashtra and Gujarat were among the most rain-deficient. Which of the statements given above is/are correct?",
+    "options": ["(a) 1 only", "(b) 2 only", "(c) Both 1 and 2", "(d) Neither 1 nor 2"],
+    "answer": "(c)",
+    "explanation": "Both are correct. IMD data showed a ~46% all-India rainfall deficit in June (about 53 mm against a normal of ~98 mm), making June 2026 one of the driest Junes in roughly 146 years of records, with Maharashtra (~85%) and Gujarat (~84%) among the worst-hit large states before a late-month revival over the east and north-east.",
+    "subject": "Geography",
+    "theme": "Indian monsoon & climatology",
+    "micro_topic": "June 2026 monsoon deficit; kharif impact",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to Indian launch vehicles, consider the following: 1) A cryogenic engine uses liquid hydrogen and liquid oxygen as propellants. 2) The PSLV uses a cryogenic engine in its uppermost stage. 3) Both the GSLV Mk-II and the LVM3 (GSLV Mk-III) employ an indigenous cryogenic upper stage. How many of the statements given above are correct?",
+    "options": ["(a) Only one", "(b) Only two", "(c) All three", "(d) None"],
+    "answer": "(b)",
+    "explanation": "Statements 1 and 3 are correct. A cryogenic engine burns liquid hydrogen (LH2) + liquid oxygen (LOX); the GSLV Mk-II (CE-7.5) and LVM3 (CE-20) both use indigenous cryogenic upper stages. Statement 2 is wrong: the PSLV has NO cryogenic stage — it uses alternating solid and liquid (Vikas) stages.",
+    "subject": "Science & Technology",
+    "theme": "Space technology & launch vehicles",
+    "micro_topic": "Cryogenic vs semi-cryogenic; PSLV/GSLV/LVM3 stages",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Which of the following factors strengthen the south-west (summer) monsoon over India? 1) The low-pressure trough (ITCZ) shifting north over the Gangetic plains 2) The intense heating of the Tibetan Plateau and the associated easterly jet 3) A strong Mascarene High in the southern Indian Ocean and the Somali Jet 4) The development of El Nino conditions in the Pacific",
+    "options": ["(a) 1, 2 and 3 only", "(b) 1 and 4 only", "(c) 2, 3 and 4 only", "(d) 1, 2, 3 and 4"],
+    "answer": "(a)",
+    "explanation": "Factors 1, 2 and 3 strengthen the SW monsoon: the northward shift of the ITCZ over the Gangetic plains, intense Tibetan Plateau heating (which helps set up the Tropical Easterly Jet), and a strong Mascarene High that drives the cross-equatorial Somali Jet. El Nino (4) is associated with weakening/suppression of the Indian monsoon, so it is excluded.",
+    "subject": "Geography",
+    "theme": "Indian monsoon mechanism",
+    "micro_topic": "ITCZ, Tibetan heating, Mascarene High, Somali Jet, El Nino",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  }
+]

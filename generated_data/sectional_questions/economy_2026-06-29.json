@@ -1,0 +1,402 @@
+[
+  {
+    "question": "As decided in the Reserve Bank of India's Monetary Policy Committee (MPC) meeting of June 2026, the policy repo rate stands at:",
+    "options": [
+      "(a) 6.50%",
+      "(b) 6.00%",
+      "(c) 5.25%",
+      "(d) 4.00%"
+    ],
+    "answer": "(c)",
+    "explanation": "At its June 2026 meeting, the MPC (under Governor Sanjay Malhotra) unanimously kept the repo rate unchanged at 5.25% and retained a 'Neutral' stance, citing CPI inflation staying below the 4% target.",
+    "subject": "Economy",
+    "theme": "Monetary Policy",
+    "micro_topic": "Repo rate and MPC decision (June 2026)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Following the 'GST 2.0' reform implemented from 22 September 2025, the two principal (standard) GST rate slabs are:",
+    "options": [
+      "(a) 5% and 12%",
+      "(b) 12% and 18%",
+      "(c) 5% and 18%",
+      "(d) 18% and 28%"
+    ],
+    "answer": "(c)",
+    "explanation": "GST 2.0 collapsed the structure into two principal slabs of 5% and 18% (removing 12% and 28%), while retaining a special 40% rate for sin and luxury goods.",
+    "subject": "Economy",
+    "theme": "Taxation",
+    "micro_topic": "GST 2.0 rationalisation of slabs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the 'GST 2.0' reforms, consider the following statements:\n1. They replaced the earlier 12% and 28% slabs.\n2. A special rate of 40% applies to specified sin and luxury goods such as tobacco and high-end cars.\n3. GST is levied in India under the constitutional authority of Article 246A.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. The 12% and 28% slabs were merged; a 40% rate applies to sin/luxury items; and Article 246A (inserted by the 101st Amendment) confers concurrent power on the Union and States to levy GST.",
+    "subject": "Economy",
+    "theme": "Taxation",
+    "micro_topic": "GST 2.0 and Article 246A",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The fiscal deficit target for the Union Budget 2026-27 (Budget Estimates) is approximately what percentage of GDP?",
+    "options": [
+      "(a) 3.0%",
+      "(b) 4.3%",
+      "(c) 5.1%",
+      "(d) 5.9%"
+    ],
+    "answer": "(b)",
+    "explanation": "The Union Budget 2026-27 pegged the fiscal deficit at 4.3% of GDP in BE 2026-27, continuing the path of fiscal consolidation; the debt-to-GDP ratio was estimated at 55.6%.",
+    "subject": "Economy",
+    "theme": "Public Finance",
+    "micro_topic": "Fiscal deficit target, Budget 2026-27",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The initiative 'Biopharma SHAKTI', announced in the Union Budget 2026-27, is associated with which of the following sectors?",
+    "options": [
+      "(a) Renewable energy generation",
+      "(b) Biopharmaceutical manufacturing and research",
+      "(c) Semiconductor fabrication",
+      "(d) Defence shipbuilding"
+    ],
+    "answer": "(b)",
+    "explanation": "Biopharma SHAKTI (Strategy for Healthcare Advancement through Knowledge, Technology & Innovation), with an outlay of about Rs 10,000 crore over five years, aims to make India a global biopharma manufacturing hub, including new and upgraded NIPERs.",
+    "subject": "Economy",
+    "theme": "Government Schemes",
+    "micro_topic": "Biopharma SHAKTI (Budget 2026-27)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The 'India Semiconductor Mission (ISM) 2.0', referenced in the Union Budget 2026-27, is primarily aimed at strengthening which ecosystem?",
+    "options": [
+      "(a) Space launch vehicles",
+      "(b) Semiconductor (chip) manufacturing, design and supply chains",
+      "(c) Commercial shipbuilding",
+      "(d) Steel and metallurgy"
+    ],
+    "answer": "(b)",
+    "explanation": "ISM 2.0 focuses on producing semiconductor equipment and materials, designing full-stack Indian IP, and fortifying chip supply chains, alongside industry-led research and training centres.",
+    "subject": "Economy",
+    "theme": "Government Schemes",
+    "micro_topic": "India Semiconductor Mission 2.0",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to estimates for the Indian economy in FY 2025-26, consider the following statements:\n1. Real GDP is estimated to grow at over 7%.\n2. The services sector remained the largest contributor to growth.\n3. CPI inflation breached the upper tolerance band of 6% for most of the year.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Real GDP growth for FY 2025-26 was estimated above 7% (around 7.4-7.6%), with services as the leading driver (~9% growth). Statement 3 is wrong: CPI inflation stayed well below the 4% target, not above 6%.",
+    "subject": "Economy",
+    "theme": "National Income",
+    "micro_topic": "GDP growth and inflation, FY 2025-26",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "The 'repo rate' refers to the rate at which:",
+    "options": [
+      "(a) the RBI lends short-term funds to commercial banks against government securities",
+      "(b) commercial banks lend to one another in the call money market",
+      "(c) commercial banks park surplus funds with the RBI",
+      "(d) the RBI lends directly to the Central Government"
+    ],
+    "answer": "(a)",
+    "explanation": "The repo (repurchase) rate is the rate at which the RBI provides short-term liquidity to banks against the collateral of government securities. A rise in repo rate makes borrowing costlier and tends to reduce liquidity.",
+    "subject": "Economy",
+    "theme": "Monetary Policy",
+    "micro_topic": "Repo rate concept",
+    "nature": "Static",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The 'reverse repo rate' is best described as the rate at which:",
+    "options": [
+      "(a) the RBI lends to commercial banks",
+      "(b) the RBI absorbs liquidity by borrowing from commercial banks",
+      "(c) banks lend to the government",
+      "(d) the government borrows from the public"
+    ],
+    "answer": "(b)",
+    "explanation": "Under reverse repo, banks park surplus funds with the RBI; it is therefore the rate at which the RBI absorbs liquidity from the banking system.",
+    "subject": "Economy",
+    "theme": "Monetary Policy",
+    "micro_topic": "Reverse repo rate",
+    "nature": "Static",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Which of the following are quantitative (general) instruments of monetary policy of the RBI?\n1. Cash Reserve Ratio\n2. Statutory Liquidity Ratio\n3. Open Market Operations\n4. Moral suasion",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 1, 2 and 4 only",
+      "(c) 3 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "answer": "(a)",
+    "explanation": "CRR, SLR and Open Market Operations are quantitative tools affecting overall credit. Moral suasion is a qualitative (selective) instrument used to persuade banks, not a quantitative tool.",
+    "subject": "Economy",
+    "theme": "Monetary Policy",
+    "micro_topic": "Quantitative vs qualitative instruments",
+    "nature": "Static",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Cash Reserve Ratio (CRR), consider the following statements:\n1. It is the proportion of a bank's Net Demand and Time Liabilities (NDTL) to be kept as reserves with the RBI.\n2. Banks earn interest from the RBI on the balances maintained under CRR.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 only",
+      "(c) Both 1 and 2",
+      "(d) Neither 1 nor 2"
+    ],
+    "answer": "(a)",
+    "explanation": "CRR is a percentage of NDTL kept with the RBI. However, the RBI does not pay interest on CRR balances, so statement 2 is incorrect.",
+    "subject": "Economy",
+    "theme": "Banking",
+    "micro_topic": "Cash Reserve Ratio",
+    "nature": "Static",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "In the context of public finance, 'Fiscal Deficit' is correctly defined as:",
+    "options": [
+      "(a) Revenue expenditure minus revenue receipts",
+      "(b) Total expenditure minus total receipts excluding borrowings",
+      "(c) Total expenditure minus revenue receipts",
+      "(d) Fiscal deficit minus interest payments"
+    ],
+    "answer": "(b)",
+    "explanation": "Fiscal deficit = Total expenditure - Total receipts excluding borrowings (i.e., revenue receipts + non-debt capital receipts). It indicates the total borrowing requirement of the government.",
+    "subject": "Economy",
+    "theme": "Public Finance",
+    "micro_topic": "Fiscal deficit definition",
+    "nature": "Static",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "'Primary Deficit' is obtained by:",
+    "options": [
+      "(a) subtracting interest payments from the fiscal deficit",
+      "(b) adding interest payments to the fiscal deficit",
+      "(c) subtracting interest payments from the revenue deficit",
+      "(d) subtracting grants from the fiscal deficit"
+    ],
+    "answer": "(a)",
+    "explanation": "Primary deficit = Fiscal deficit - Interest payments. It reflects the borrowing requirement net of past debt servicing obligations.",
+    "subject": "Economy",
+    "theme": "Public Finance",
+    "micro_topic": "Primary deficit",
+    "nature": "Static",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Narrow Money (M1) in India comprises which of the following?\n1. Currency with the public\n2. Demand deposits with the banking system\n3. 'Other' deposits with the RBI\n4. Time deposits with the banking system",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1, 2 and 3 only",
+      "(c) 1, 2 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "answer": "(b)",
+    "explanation": "M1 = Currency with the public + Demand deposits + Other deposits with the RBI. Time deposits are added in M3 (broad money), not M1.",
+    "subject": "Economy",
+    "theme": "Money and Banking",
+    "micro_topic": "Measures of money supply (M1)",
+    "nature": "Static",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Which of the following transactions are recorded under the Current Account of India's Balance of Payments?\n1. Export and import of goods\n2. Trade in services\n3. Foreign Direct Investment inflows\n4. Private remittances from abroad",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 1, 2 and 4 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "answer": "(b)",
+    "explanation": "The current account covers trade in goods, services and transfers/income (including remittances). FDI is a capital (financial) account transaction, so 3 is excluded.",
+    "subject": "Economy",
+    "theme": "External Sector",
+    "micro_topic": "Balance of Payments - current vs capital account",
+    "nature": "Static",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "'Demand-pull inflation' is primarily caused by:",
+    "options": [
+      "(a) a rise in the cost of inputs such as wages and raw materials",
+      "(b) aggregate demand exceeding aggregate supply in the economy",
+      "(c) a fall in the velocity of circulation of money",
+      "(d) an appreciation of the domestic currency"
+    ],
+    "answer": "(b)",
+    "explanation": "Demand-pull inflation occurs when aggregate demand outstrips aggregate supply, pulling prices up. Rising input costs cause cost-push inflation instead.",
+    "subject": "Economy",
+    "theme": "Inflation",
+    "micro_topic": "Demand-pull vs cost-push inflation",
+    "nature": "Static",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the Wholesale Price Index (WPI) in India, consider the following statements:\n1. It is compiled by the Office of the Economic Adviser in the Ministry of Commerce and Industry.\n2. It includes the prices of services.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 only",
+      "(c) Both 1 and 2",
+      "(d) Neither 1 nor 2"
+    ],
+    "answer": "(a)",
+    "explanation": "The WPI is compiled by the Office of the Economic Adviser (Ministry of Commerce and Industry) and covers only goods, not services. The CPI, by contrast, includes services.",
+    "subject": "Economy",
+    "theme": "Inflation",
+    "micro_topic": "WPI - coverage and compiling agency",
+    "nature": "Static",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Treasury Bills (T-Bills) in India are currently issued for which of the following maturities?",
+    "options": [
+      "(a) 7, 14 and 28 days",
+      "(b) 91, 182 and 364 days",
+      "(c) 30, 60 and 90 days",
+      "(d) 1, 5 and 10 years"
+    ],
+    "answer": "(b)",
+    "explanation": "T-Bills are short-term money-market instruments of the Government of India issued at a discount, with maturities of 91, 182 and 364 days. Instruments with multi-year maturities are dated government securities.",
+    "subject": "Economy",
+    "theme": "Money Market",
+    "micro_topic": "Treasury Bills",
+    "nature": "Static",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Statutory Liquidity Ratio (SLR), consider the following statements:\n1. It is maintained by banks with themselves rather than deposited with the RBI.\n2. It can be held in the form of cash, gold and approved (government) securities.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 only",
+      "(c) Both 1 and 2",
+      "(d) Neither 1 nor 2"
+    ],
+    "answer": "(c)",
+    "explanation": "Both statements are correct. Unlike CRR (kept with the RBI), SLR is maintained by banks themselves in the form of cash, gold and approved government securities.",
+    "subject": "Economy",
+    "theme": "Banking",
+    "micro_topic": "Statutory Liquidity Ratio",
+    "nature": "Static",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "The Finance Commission of India is constituted by the President under which Article of the Constitution?",
+    "options": [
+      "(a) Article 263",
+      "(b) Article 280",
+      "(c) Article 360",
+      "(d) Article 324"
+    ],
+    "answer": "(b)",
+    "explanation": "Article 280 provides for a Finance Commission, constituted by the President every fifth year (or earlier), to recommend the distribution of tax revenues between the Union and the States.",
+    "subject": "Economy",
+    "theme": "Fiscal Federalism",
+    "micro_topic": "Finance Commission (Article 280)",
+    "nature": "Static",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Goods and Services Tax (GST) Council is a constitutional body established under:",
+    "options": [
+      "(a) Article 246A",
+      "(b) Article 269A",
+      "(c) Article 279A",
+      "(d) Article 280"
+    ],
+    "answer": "(c)",
+    "explanation": "Article 279A (inserted by the 101st Amendment, 2016) provides for the GST Council, chaired by the Union Finance Minister, to make recommendations on GST rates, exemptions and related matters.",
+    "subject": "Economy",
+    "theme": "Taxation",
+    "micro_topic": "GST Council (Article 279A)",
+    "nature": "Static",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to Special Drawing Rights (SDRs), consider the following statements:\n1. They are an international reserve asset created by the International Monetary Fund.\n2. Their value is determined on the basis of a basket of major currencies that includes the Chinese renminbi.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 only",
+      "(c) Both 1 and 2",
+      "(d) Neither 1 nor 2"
+    ],
+    "answer": "(c)",
+    "explanation": "SDRs are an international reserve asset created by the IMF, and their value is based on a basket of five currencies - the US dollar, euro, Chinese renminbi, Japanese yen and pound sterling.",
+    "subject": "Economy",
+    "theme": "International Economics",
+    "micro_topic": "Special Drawing Rights (IMF)",
+    "nature": "Static",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "'Devaluation' of a currency differs from 'depreciation' in that devaluation:",
+    "options": [
+      "(a) is a market-driven fall in the currency's value under a floating exchange rate",
+      "(b) is a deliberate reduction in the official value of a currency under a fixed exchange rate regime",
+      "(c) always leads to an immediate fall in exports",
+      "(d) refers to a rise in the external value of the currency"
+    ],
+    "answer": "(b)",
+    "explanation": "Devaluation is a deliberate downward adjustment of a currency's official value by the authorities under a fixed/pegged exchange rate. Depreciation, in contrast, is a market-driven fall under a floating regime.",
+    "subject": "Economy",
+    "theme": "External Sector",
+    "micro_topic": "Devaluation vs depreciation",
+    "nature": "Static",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Which one of the following is NOT a category under the RBI's Priority Sector Lending (PSL) norms?",
+    "options": [
+      "(a) Agriculture",
+      "(b) Micro, Small and Medium Enterprises",
+      "(c) Education loans",
+      "(d) Working-capital loans to large diversified conglomerates"
+    ],
+    "answer": "(d)",
+    "explanation": "PSL categories include agriculture, MSMEs, education, housing, export credit, social infrastructure, renewable energy and weaker sections. General working-capital lending to large conglomerates is not a priority sector.",
+    "subject": "Economy",
+    "theme": "Banking",
+    "micro_topic": "Priority Sector Lending",
+    "nature": "Static",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Index of Industrial Production (IIP) in India, consider the following statements:\n1. It is compiled and released by the National Statistical Office (NSO).\n2. Among its three broad sectors - mining, manufacturing and electricity - manufacturing has the highest weight.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 only",
+      "(c) Both 1 and 2",
+      "(d) Neither 1 nor 2"
+    ],
+    "answer": "(c)",
+    "explanation": "The IIP is compiled by the NSO (Ministry of Statistics and Programme Implementation) with base year 2011-12. Manufacturing carries by far the largest weight (~77.6%), followed by mining and electricity.",
+    "subject": "Economy",
+    "theme": "Industry",
+    "micro_topic": "Index of Industrial Production",
+    "nature": "Static",
+    "difficulty": "Hard"
+  }
+]
