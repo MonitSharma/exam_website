@@ -1027,6 +1027,20 @@
       ]
     },
     {
+      "id": "sectional_international-relations_2026_06_29",
+      "label": "International Relations Sectional Test - 29 Jun 2026",
+      "shortLabel": "International Relations 29 Jun",
+      "category": "Sectional Tests",
+      "sourceType": "sectional",
+      "questionCount": 25,
+      "durationMinutes": 40,
+      "path": "generated_data/sectional_questions/international-relations_2026-06-29.json",
+      "isoDate": "2026-06-29",
+      "subjects": [
+        "International Relations"
+      ]
+    },
+    {
       "id": "sectional_science-technology_2026_06_29",
       "label": "Science Technology Sectional Test - 29 Jun 2026",
       "shortLabel": "Science Technology 29 Jun",
@@ -2013,6 +2027,14 @@
       "shortTitle": "Environment - 29 Jun",
       "date": "2026-06-29",
       "path": "weekly/Sectional/Sectional_environment_2026-06-29.md"
+    },
+    {
+      "id": "weekly-sectional-sectional-international-relations-2026-06-29",
+      "cadence": "sectional",
+      "title": "Sectional Test",
+      "shortTitle": "International Relations - 29 Jun",
+      "date": "2026-06-29",
+      "path": "weekly/Sectional/Sectional_international-relations_2026-06-29.md"
     },
     {
       "id": "weekly-sectional-sectional-science-technology-2026-06-29",
