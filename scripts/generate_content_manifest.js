@@ -445,6 +445,24 @@ function addRawPibQuestionSets(root, byId) {
   }
 }
 
+function addRawRcQuestionSets(root, byId) {
+  const dir = path.join(root, "generated_data", "rc_questions");
+  for (const absPath of listTopLevelFiles(dir).filter((item) => item.endsWith(".json"))) {
+    const isoDate = normalizeIsoDate(path.basename(absPath));
+    if (!isoDate) continue;
+    const count = jsonRows(absPath).length;
+    if (!count) continue;
+    upsertQuestionSet(root, byId, {
+      id: `daily_rc_${dateSlug(isoDate)}`,
+      category: "Daily Reading Comprehension",
+      sourceType: "rc",
+      isoDate,
+      durationMinutes: defaultDuration("rc", "", count),
+      path: relPath(root, absPath),
+    });
+  }
+}
+
 function addRawSectionalQuestionSets(root, byId) {
   const dir = path.join(root, "generated_data", "sectional_questions");
   for (const absPath of listTopLevelFiles(dir).filter((item) => item.endsWith(".json"))) {
@@ -784,6 +802,7 @@ function buildQuestionSets(root = DEFAULT_ROOT) {
   addProcessedQuestionSets(root, byId);
   addRawDailyQuestionSets(root, byId);
   addRawPibQuestionSets(root, byId);
+  addRawRcQuestionSets(root, byId);
   addRawSectionalQuestionSets(root, byId);
   addRawCsatQuestionSets(root, byId);
   addRawFullMockQuestionSets(root, byId);

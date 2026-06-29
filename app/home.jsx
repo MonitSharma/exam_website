@@ -493,7 +493,8 @@ function NotesLibrary() {
     ? monthFilter
     : monthOptions[0]?.key || "all";
   const visibleDocs = isWeeklyCadence ? docs : activeMonth === "all" ? docs : docs.filter((doc) => noteMonthKey(doc) === activeMonth);
-  const selectedDoc = noteState.note || docs.find((doc) => doc.id === selectedId) || null;
+  const loadedDoc = noteState.note && noteState.note.id === selectedId ? noteState.note : null;
+  const selectedDoc = loadedDoc || docs.find((doc) => doc.id === selectedId) || null;
   const readingMinutes = estimateReadingMinutes(noteState.content);
 
   useEffectHome(() => {
@@ -576,7 +577,7 @@ function NotesLibrary() {
               <label>
                 <span>Week</span>
                 <select
-                  value={selectedDoc?.id || selectedId || ""}
+                  value={selectedId || ""}
                   onChange={(event) => setSelectedId(event.target.value)}
                   aria-label={`${meta.label} week`}>
                   {docs.length ? docs.map((doc) => (

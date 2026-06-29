@@ -419,6 +419,23 @@
       ]
     },
     {
+      "id": "daily_rc_2026_06_29",
+      "label": "Daily RC Drill - 29 Jun 2026",
+      "shortLabel": "RC 29 Jun",
+      "category": "Daily Reading Comprehension",
+      "sourceType": "rc",
+      "questionCount": 8,
+      "durationMinutes": 16,
+      "path": "generated_data/rc_questions/2026-06-29.json",
+      "isoDate": "2026-06-29",
+      "paper": "GS Paper II (CSAT)",
+      "marksPerCorrect": 2,
+      "negativeMark": -0.66,
+      "subjects": [
+        "Reading Comprehension"
+      ]
+    },
+    {
       "id": "daily_rc_2026_06_22",
       "label": "Daily RC Drill - 22 Jun 2026",
       "shortLabel": "RC 22 Jun",
@@ -1538,6 +1555,14 @@
       "path": "reference/Fodder_Bank.md"
     },
     {
+      "id": "daily-daily-mains-gs-mains-2026-06-29",
+      "cadence": "mains",
+      "title": "GS Mains Answer Practice",
+      "shortTitle": "Mains - 29 Jun",
+      "date": "2026-06-29",
+      "path": "daily/daily_mains/GS_Mains_2026-06-29.md"
+    },
+    {
       "id": "daily-daily-mains-gs-mains-2026-06-28",
       "cadence": "mains",
       "title": "GS Mains Answer Practice",
@@ -1776,6 +1801,14 @@
       "shortTitle": "PIB - 11 Jun",
       "date": "2026-06-11",
       "path": "daily/daily_pib/PIB_2026-06-11.md"
+    },
+    {
+      "id": "daily-daily-reading-comprehension-rc-drill-2026-06-29",
+      "cadence": "rc",
+      "title": "CSAT Daily RC Drill",
+      "shortTitle": "RC - 29 Jun",
+      "date": "2026-06-29",
+      "path": "daily/daily_reading_comprehension/RC_Drill_2026-06-29.md"
     },
     {
       "id": "daily-daily-reading-comprehension-rc-drill-2026-06-22",
