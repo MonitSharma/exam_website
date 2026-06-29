@@ -167,6 +167,28 @@ function parseWeekPlan(text) {
 
 const WEEKDAYS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
+function isoDateToUtc(isoDate) {
+  const [year, month, day] = String(isoDate || "").split("-").map(Number);
+  if (!year || !month || !day) return null;
+  return new Date(Date.UTC(year, month - 1, day));
+}
+
+function getSundayWeekStartIso(isoDate) {
+  const date = isoDateToUtc(isoDate);
+  if (!date) return "undated";
+  date.setUTCDate(date.getUTCDate() - date.getUTCDay());
+  return date.toISOString().slice(0, 10);
+}
+
+function isIsoWithinWeek(isoDate, weekStartIso) {
+  const date = isoDateToUtc(isoDate);
+  const start = isoDateToUtc(weekStartIso);
+  if (!date || !start) return false;
+  const end = new Date(start);
+  end.setUTCDate(end.getUTCDate() + 7);
+  return date >= start && date < end;
+}
+
 function WeeklyPlanCard() {
   const ds = window.UPSC;
   const sweeps = React.useMemo(() => {
@@ -189,10 +211,10 @@ function WeeklyPlanCard() {
         const plan = parseWeekPlan(content);
         setState({ loading: false, error: plan ? "" : "no-plan", plan });
         if (plan && plan.days.length) {
-          const isCurrentWeek = sweep.date && String(sweep.date) >= ds.todayIso;
-          const now = new Date();
-          const wd = WEEKDAYS[now.getDay()];
-          let idx = isCurrentWeek ? plan.days.findIndex((d) => d.dayNum === now.getDate()) : -1;
+          const isCurrentWeek = sweep.date && isIsoWithinWeek(ds.todayIso, getSundayWeekStartIso(sweep.date));
+          const todayDate = isoDateToUtc(ds.todayIso) || new Date();
+          const wd = WEEKDAYS[todayDate.getUTCDay()];
+          let idx = isCurrentWeek ? plan.days.findIndex((d) => d.dayNum === todayDate.getUTCDate()) : -1;
           if (idx < 0 && isCurrentWeek) idx = plan.days.findIndex((d) => d.weekday.toLowerCase() === wd.toLowerCase());
           setSelected(idx < 0 ? 0 : idx);
         }
@@ -204,8 +226,9 @@ function WeeklyPlanCard() {
   if (!sweep) return null;
 
   const plan = state.plan;
-  const todayNum = new Date().getDate();
-  const isCurrentWeek = sweep.date && String(sweep.date) >= ds.todayIso;
+  const todayDate = isoDateToUtc(ds.todayIso) || new Date();
+  const todayNum = todayDate.getUTCDate();
+  const isCurrentWeek = sweep.date && isIsoWithinWeek(ds.todayIso, getSundayWeekStartIso(sweep.date));
   const activeIdx = selected == null ? 0 : selected;
   const day = plan && plan.days ? plan.days[activeIdx] : null;
   const isToday = isCurrentWeek && day && day.dayNum === todayNum;
@@ -486,21 +509,37 @@ function NotesLibrary() {
   const docIds = docs.map((doc) => doc.id).join("|");
   const [selectedId, setSelectedId] = useStateHome(docs[0]?.id || null);
   const [monthFilter, setMonthFilter] = useStateHome("latest");
+  const [weekFilter, setWeekFilter] = useStateHome("latest");
   const [noteState, setNoteState] = useStateHome({ loading: false, error: "", note: null, content: "" });
   const monthOptions = getNoteMonthOptions(docs);
-  const isWeeklyCadence = meta.group === "Weekly";
+  const weekOptions = getNoteWeekOptions(docs);
+  const useWeekFilter = activeCadence !== "monthly" && weekOptions.length > 0;
+  const currentWeekKey = getSundayWeekStartIso(ds.todayIso);
   const activeMonth = monthFilter === "all" || monthOptions.some((item) => item.key === monthFilter)
     ? monthFilter
     : monthOptions[0]?.key || "all";
-  const visibleDocs = isWeeklyCadence ? docs : activeMonth === "all" ? docs : docs.filter((doc) => noteMonthKey(doc) === activeMonth);
+  const activeWeek = weekFilter === "all" || weekOptions.some((item) => item.key === weekFilter)
+    ? weekFilter
+    : weekOptions.find((item) => item.key === currentWeekKey)?.key || weekOptions[0]?.key || "all";
+  const visibleDocs = useWeekFilter
+    ? activeWeek === "all" ? docs : docs.filter((doc) => noteWeekKey(doc) === activeWeek)
+    : activeMonth === "all" ? docs : docs.filter((doc) => noteMonthKey(doc) === activeMonth);
   const loadedDoc = noteState.note && noteState.note.id === selectedId ? noteState.note : null;
   const selectedDoc = loadedDoc || docs.find((doc) => doc.id === selectedId) || null;
   const readingMinutes = estimateReadingMinutes(noteState.content);
 
   useEffectHome(() => {
     const currentDoc = docs.find((doc) => doc.id === selectedId);
-    setMonthFilter(currentDoc ? noteMonthKey(currentDoc) : monthOptions[0]?.key || "all");
-    if (!currentDoc) setSelectedId(docs[0]?.id || null);
+    const defaultWeek = weekOptions.find((item) => item.key === currentWeekKey)?.key || weekOptions[0]?.key || "all";
+    if (currentDoc) {
+      setMonthFilter(noteMonthKey(currentDoc));
+      setWeekFilter(noteWeekKey(currentDoc));
+    } else {
+      setMonthFilter(monthOptions[0]?.key || "all");
+      setWeekFilter(defaultWeek);
+      const nextDocs = useWeekFilter && defaultWeek !== "all" ? docs.filter((doc) => noteWeekKey(doc) === defaultWeek) : docs;
+      setSelectedId(nextDocs[0]?.id || docs[0]?.id || null);
+    }
   }, [activeCadence, docIds]);
 
   useEffectHome(() => {
@@ -573,16 +612,20 @@ function NotesLibrary() {
       <div className="notes-layout">
         <aside className="notes-side">
           <div className="notes-list-tools">
-            {isWeeklyCadence ? (
+            {useWeekFilter ? (
               <label>
                 <span>Week</span>
                 <select
-                  value={selectedId || ""}
-                  onChange={(event) => setSelectedId(event.target.value)}
+                  value={activeWeek}
+                  onChange={(event) => {
+                    const nextWeek = event.target.value;
+                    const nextDocs = nextWeek === "all" ? docs : docs.filter((doc) => noteWeekKey(doc) === nextWeek);
+                    setWeekFilter(nextWeek);
+                    setSelectedId(nextDocs[0]?.id || null);
+                  }}
                   aria-label={`${meta.label} week`}>
-                  {docs.length ? docs.map((doc) => (
-                    <option key={doc.id} value={doc.id}>{doc.shortTitle || formatIsoDate(doc.date) || doc.title}</option>
-                  )) : <option value="">No weeks</option>}
+                  {weekOptions.length ? weekOptions.map((item) => <option key={item.key} value={item.key}>{item.label}</option>) : <option value="all">No dates</option>}
+                  {weekOptions.length > 1 && <option value="all">All weeks</option>}
                 </select>
               </label>
             ) : (
@@ -648,6 +691,15 @@ function noteMonthKey(doc) {
   return doc.date ? String(doc.date).slice(0, 7) : "undated";
 }
 
+function noteWeekKey(doc) {
+  return doc.date ? getSundayWeekStartIso(doc.date) : "undated";
+}
+
+function noteWeekLabel(weekKey) {
+  if (weekKey === "undated") return "Undated";
+  return `Week of ${formatIsoDate(weekKey, { day: "2-digit", month: "short" })}`;
+}
+
 function noteMonthLabel(monthKey) {
   if (monthKey === "undated") return "Undated";
   const [year, month] = monthKey.split("-").map(Number);
@@ -662,6 +714,18 @@ function getNoteMonthOptions(docs) {
     if (seen.has(key)) return items;
     seen.add(key);
     items.push({ key, label: noteMonthLabel(key) });
+    return items;
+  }, []);
+}
+
+function getNoteWeekOptions(docs) {
+  const seen = new Set();
+  return docs.reduce((items, doc) => {
+    if (!doc.date) return items;
+    const key = noteWeekKey(doc);
+    if (seen.has(key)) return items;
+    seen.add(key);
+    items.push({ key, label: noteWeekLabel(key) });
     return items;
   }, []);
 }
