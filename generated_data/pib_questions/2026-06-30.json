@@ -1,0 +1,35 @@
+[
+  {
+    "question": "With reference to the Santhal Hul, commemorated as Hul Diwas, consider the following statements:\n1. It was an 1855 uprising led by Sidhu and Kanhu Murmu against British rule and exploitation by moneylenders.\n2. It began at Bhognadih village in present-day Jharkhand.\n3. In its aftermath, the colonial government created the Santhal Pargana as a separate administrative district.\nHow many of the statements given above are correct?",
+    "options": ["(a) Only one", "(b) Only two", "(c) All three", "(d) None"],
+    "answer": "(c)",
+    "explanation": "The Santhal Hul began on 30 June 1855 at Bhognadih (Sahebganj, present-day Jharkhand) under Sidhu and Kanhu Murmu, directed against British authority and the zamindar-moneylender (diku) nexus; its suppression led the colonial state to carve out the Santhal Pargana district. All three statements are correct.",
+    "subject": "Art & Culture",
+    "theme": "Hul Diwas 2026 / Tribal uprisings",
+    "micro_topic": "Santhal Hul 1855, Sidhu-Kanhu, Bhognadih, Santhal Pargana",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the Index of Eight Core Industries (ICI), consider the following statements:\n1. It is compiled and released by the Office of the Economic Adviser in the Ministry of Commerce & Industry.\n2. The eight core industries together account for about 40% of the weight of items included in the Index of Industrial Production (IIP).\n3. Petroleum Refinery Products has the highest weight among the eight core industries.\nWhich of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(d)",
+    "explanation": "The ICI (base year 2011-12) is compiled by the Office of the Economic Adviser, DPIIT (Ministry of Commerce & Industry). The eight industries carry 40.27% weight in the IIP, and Petroleum Refinery Products has the single largest weight (about 28%). All three statements are correct.",
+    "subject": "Economy",
+    "theme": "Index of Eight Core Industries (May 2026)",
+    "micro_topic": "Core sector index, IIP, base year 2011-12, sectoral weights",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Upper Yamuna River Board (UYRB) was recently in the news after Haryana and Rajasthan signed an MoU to implement the 1994 Yamuna-waters agreement. Which one of the following is NOT a signatory to that 1994 Memorandum of Understanding under which the Board functions?",
+    "options": ["(a) Himachal Pradesh", "(b) Rajasthan", "(c) Madhya Pradesh", "(d) NCT of Delhi"],
+    "answer": "(c)",
+    "explanation": "The 1994 MoU on sharing the surface flow of the Yamuna was signed by Himachal Pradesh, Haryana, Uttar Pradesh, Rajasthan and the NCT of Delhi; the Upper Yamuna River Board was constituted in 1995 under it (Ministry of Jal Shakti). Madhya Pradesh is not a party to the agreement.",
+    "subject": "Polity & Governance",
+    "theme": "Inter-state river water sharing / cooperative federalism",
+    "micro_topic": "Upper Yamuna River Board, 1994 MoU, Haryana-Rajasthan water MoU",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]

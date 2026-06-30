@@ -1,0 +1,79 @@
+[
+  {
+    "question": "With reference to the RBI's (Responsible Business Conduct) Third Amendment Directions, 2026 on compensation for digital banking frauds, consider the following: 1) A victim can receive 85% of the net loss or Rs.25,000, whichever is lower, for losses up to Rs.50,000. 2) To be eligible, the customer must report the fraud to the bank and to the cyber-crime portal/helpline within five calendar days. 3) The directions take effect immediately from the date of notification. How many of the statements given above are correct?",
+    "options": ["(a) Only one", "(b) Only two", "(c) All three", "(d) None"],
+    "answer": "(b)",
+    "explanation": "Statements 1 and 2 are correct. Statement 3 is wrong: the RBI deferred implementation by six months to 1 January 2027 (from the originally proposed 1 July 2026); it applies to electronic banking transactions on/after that date. The benefit is once-in-a-lifetime and the burden of proving customer liability lies on the bank.",
+    "subject": "Economy",
+    "theme": "Banking regulation & consumer protection",
+    "micro_topic": "RBI digital-fraud compensation framework 2026; limited liability for EBTs",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "'DFP-2026', seen recently in the news, is associated with which one of the following?",
+    "options": ["(a) A delegation of enhanced financial powers to the DRDO for defence R&D", "(b) A revised Foreign Portfolio Investment ceiling notified by SEBI", "(c) A disaster-financing protocol of the Finance Commission", "(d) A new digital-payments framework of the NPCI"],
+    "answer": "(a)",
+    "explanation": "DFP-2026 is the 'Delegation of Financial Powers to DRDO 2026', released by Defence Minister Rajnath Singh on 29 June 2026. It empowers multiple internal levels of DRDO to sanction projects faster, with dedicated provisions for trial campaigns, testing & evaluation, and pre-project R&D, advancing Aatmanirbhar Bharat in defence.",
+    "subject": "Internal Security",
+    "theme": "Defence indigenisation & DRDO",
+    "micro_topic": "DFP-2026; delegation of financial powers; defence R&D reform",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements about millisecond pulsars: 1) They are rapidly rotating neutron stars. 2) They emit beamed radiation and are used as highly precise natural clocks. 3) The Murchison Widefield Array (MWA), which detected PSR J0125-5854, is a low-frequency radio telescope acting as a pathfinder for the Square Kilometre Array (SKA). Which of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(d)",
+    "explanation": "All three are correct. Millisecond pulsars are fast-spinning, highly magnetised neutron stars whose beamed pulses make them ultra-precise cosmic clocks. The MWA is a low-frequency (80-300 MHz) array in Western Australia and an SKA-Low pathfinder; its SMART survey found PSR J0125-5854, the first millisecond pulsar discovered by the MWA. India is an SKAO member and operates the uGMRT/InPTA.",
+    "subject": "Science & Technology",
+    "theme": "Radio astronomy & space science",
+    "micro_topic": "Millisecond pulsar PSR J0125-5854; MWA/SMART survey; SKA",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "A recent Global Burden of Disease-based analysis published in The Lancet on India's mental health highlighted which of the following?",
+    "options": ["(a) Anxiety disorders fell sharply between 1990 and 2023", "(b) Anxiety disorders rose markedly, with the burden peaking among adolescents aged 15-19", "(c) Mental disorders are now confined mainly to the population above 60 years", "(d) India has eliminated the treatment gap for depression"],
+    "answer": "(b)",
+    "explanation": "The analysis reported a steep rise in anxiety disorders (about 123% over 1990-2023) and rising depression, with the burden now peaking among adolescents aged 15-19. This links to India's mental-health architecture: NMHP (1982), District Mental Health Programme, Mental Healthcare Act 2017 and Tele-MANAS.",
+    "subject": "Society",
+    "theme": "Public health & demographic burden",
+    "micro_topic": "Mental-health burden; GBD/Lancet 2026; adolescents",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the National Investment and Infrastructure Fund (NIIF), consider the following statements: 1) It was established in 2015 and is fully owned by the Government of India. 2) The Centre's recent additional Rs.30,000 crore commitment will seed NIIF Infrastructure Fund II. 3) It is managed by NIIF Ltd through funds such as the Master Fund and Fund of Funds. Which of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(b)",
+    "explanation": "Statements 2 and 3 are correct. Statement 1 is wrong: NIIF (est. 2015) is NOT fully GoI-owned - the Government holds 49%, with the rest from domestic and global institutional investors, so it is a quasi-sovereign (not pure sovereign-wealth) fund. The Cabinet's 29 June 2026 addition of Rs.30,000 crore (total commitment now Rs.60,000 crore) seeds Infrastructure Fund II; NIIF Ltd manages the Master Fund, Fund of Funds, Strategic Opportunities Fund and a Private Markets Fund.",
+    "subject": "Economy",
+    "theme": "Infrastructure financing",
+    "micro_topic": "NIIF structure; Infrastructure Fund II; quasi-sovereign fund",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to India's astronomy and radio-astronomy facilities, consider the following statements: 1) AstroSat is India's first dedicated multi-wavelength space observatory. 2) The upgraded Giant Metrewave Radio Telescope (uGMRT) is located near Pune. 3) India is a member of the Square Kilometre Array Observatory (SKAO), whose telescopes are hosted in Australia and South Africa. Which of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(d)",
+    "explanation": "All three are correct. AstroSat (launched 2015) is India's first multi-wavelength space observatory; the uGMRT is at Khodad near Pune (NCRA-TIFR); India is a full member of the SKA Observatory, whose SKA-Low (Australia) and SKA-Mid (South Africa) telescopes are under construction. The MWA, which found PSR J0125-5854, is an SKA-Low pathfinder.",
+    "subject": "Science & Technology",
+    "theme": "Telescopes & astronomy (static)",
+    "micro_topic": "AstroSat; uGMRT; SKA Observatory membership",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Mental Healthcare Act, 2017, consider the following statements: 1) It effectively decriminalised attempted suicide by presuming severe stress in such cases. 2) It guarantees every person the right to access mental healthcare run or funded by the government. 3) It empowers a person to make an advance directive regarding their future mental-health treatment. Which of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 1 and 3 only", "(c) 2 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(d)",
+    "explanation": "All three are correct. The Mental Healthcare Act, 2017 presumes that a person who attempts suicide has severe stress and shall not be punished (effectively decriminalising it), guarantees the right to access government-run or government-funded mental healthcare, and allows individuals to make an advance directive on how they wish to be treated for a future mental illness.",
+    "subject": "Society",
+    "theme": "Health governance & legislation (static)",
+    "micro_topic": "Mental Healthcare Act 2017; advance directive; right to mental healthcare",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  }
+]
