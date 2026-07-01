@@ -12,6 +12,24 @@
   ],
   "questionSets": [
     {
+      "id": "daily_questions_2026_07_01",
+      "label": "Daily Questions - 01 Jul 2026",
+      "shortLabel": "Daily 01 Jul",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-07-01.json",
+      "isoDate": "2026-07-01",
+      "subjects": [
+        "International Relations",
+        "Economy",
+        "Environment",
+        "Polity & Governance",
+        "Society"
+      ]
+    },
+    {
       "id": "daily_questions_2026_06_30",
       "label": "Daily Questions - 30 Jun 2026",
       "shortLabel": "Daily 30 Jun",
@@ -587,6 +605,21 @@
       "negativeMark": -0.66,
       "subjects": [
         "Reading Comprehension"
+      ]
+    },
+    {
+      "id": "pib_questions_2026_07_01",
+      "label": "PIB Questions - 01 Jul 2026",
+      "shortLabel": "PIB 01 Jul",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-07-01.json",
+      "isoDate": "2026-07-01",
+      "subjects": [
+        "Economy",
+        "Polity & Governance"
       ]
     },
     {
@@ -1350,6 +1383,24 @@
       ]
     },
     {
+      "id": "monthly_mock_2026_07_01",
+      "label": "Monthly Mock - 01 Jul 2026",
+      "shortLabel": "Monthly 01 Jul",
+      "category": "Monthly Mock",
+      "sourceType": "ai",
+      "questionCount": 30,
+      "durationMinutes": 120,
+      "path": "generated_data/monthly_questions/2026-07-01.json",
+      "isoDate": "2026-07-01",
+      "subjects": [
+        "Polity & Governance",
+        "Economy",
+        "Reports & Indices",
+        "Geography",
+        "Modern History"
+      ]
+    },
+    {
       "id": "ai_generated_batch_1",
       "label": "AI Generated Questions · Batch 1",
       "shortLabel": "AI Batch 1",
@@ -1468,6 +1519,14 @@
       "shortTitle": "Anki - 21 Jun",
       "date": "2026-06-21",
       "path": "anki/Prelims_Flashcards_2026-06-21.txt"
+    },
+    {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-07-01",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "01 Jul 2026",
+      "date": "2026-07-01",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-07-01.md"
     },
     {
       "id": "daily-daily-current-affairs-upsc-ca-2026-06-30",
@@ -1702,6 +1761,14 @@
       "path": "reference/Fodder_Bank.md"
     },
     {
+      "id": "daily-daily-mains-gs-mains-2026-07-01",
+      "cadence": "mains",
+      "title": "GS Mains Answer Practice",
+      "shortTitle": "Mains - 01 Jul",
+      "date": "2026-07-01",
+      "path": "daily/daily_mains/GS_Mains_2026-07-01.md"
+    },
+    {
       "id": "daily-daily-mains-gs-mains-2026-06-30",
       "cadence": "mains",
       "title": "GS Mains Answer Practice",
@@ -1782,6 +1849,14 @@
       "path": "daily/daily_mains/GS_Mains_2026-06-20.md"
     },
     {
+      "id": "monthly-monthly-checkpoint-2026-06",
+      "cadence": "monthly",
+      "title": "Monthly Checkpoint",
+      "shortTitle": "",
+      "date": "",
+      "path": "monthly/Monthly_Checkpoint_2026-06.md"
+    },
+    {
       "id": "weekly-physics-physics-pyq-2026-06-30",
       "cadence": "physics",
       "title": "Physics Optional PYQ Plan",
@@ -1828,6 +1903,14 @@
       "shortTitle": "10 Jun",
       "date": "2026-06-10",
       "path": "weekly/Physics/Physics_Drill_2026-06-10.md"
+    },
+    {
+      "id": "daily-daily-pib-pib-2026-07-01",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 01 Jul",
+      "date": "2026-07-01",
+      "path": "daily/daily_pib/PIB_2026-07-01.md"
     },
     {
       "id": "daily-daily-pib-pib-2026-06-30",

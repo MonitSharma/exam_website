@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to the 16th India–Japan Annual Summit (2026), consider the following statements:\n1. It is Prime Minister Sanae Takaichi's first official visit to India as Japan's PM.\n2. The summit is expected to produce a joint declaration on Economic Security Cooperation and a separate joint statement on Artificial Intelligence.\n3. India–Japan bilateral trade crossed USD 50 billion in FY 2025-26.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Statements 1 and 2 are correct — this is Takaichi's first India visit as PM, and the summit is set to produce an economic-security declaration and an AI joint statement. Statement 3 is incorrect: bilateral trade was USD 27.5 billion in FY 2025-26, not over USD 50 billion.",
+    "subject": "International Relations",
+    "theme": "India-Japan Relations",
+    "micro_topic": "16th India-Japan Annual Summit 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to India's Index of Industrial Production (IIP) for May 2026, which of the following statements is/are correct?\n1. IIP grew at its fastest pace in five months, at 5.1% y-o-y.\n2. Among the four sectors, Mining & Quarrying recorded negative growth while Electricity & Gas recorded the highest growth.\n3. The current base year of the IIP series is 2004-05.\nSelect the correct answer using the code below:",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "IIP grew 5.1% y-o-y in May 2026, a five-month high (Statement 1 correct). Mining & Quarrying contracted 1.6% while Electricity & Gas grew 9.9%, the highest among the four sectors (Statement 2 correct). The current IIP base year is 2011-12, not 2004-05 (Statement 3 incorrect).",
+    "subject": "Economy",
+    "theme": "Index of Industrial Production",
+    "micro_topic": "IIP May 2026 data",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Union Cabinet's Small Hydro Power (SHP) Development Scheme (2026-27 to 2030-31) pertains to hydro projects of capacity up to:",
+    "options": [
+      "(a) 2 MW",
+      "(b) 25 MW",
+      "(c) 100 MW",
+      "(d) 50 kW"
+    ],
+    "answer": "(b)",
+    "explanation": "Small Hydro Power (SHP) is defined in Indian policy as hydro projects with an installed capacity of up to 25 MW, distinct from mini (<2 MW) and micro (<100 kW) hydro.",
+    "subject": "Environment",
+    "theme": "Renewable Energy Schemes",
+    "micro_topic": "Small Hydro Power Development Scheme",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the Constitution (131st Amendment) Bill, 2026, consider the following statements:\n1. It proposed to raise the maximum strength of the Lok Sabha to 850 members.\n2. It required a special majority under Article 368 to be passed, and it failed to secure this majority.\n3. Following its failure, the Delimitation Bill, 2026 and the Union Territories Laws (Amendment) Bill, 2026 were also withdrawn.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "The Bill proposed an 850-seat Lok Sabha ceiling, needed a special majority under Article 368 but secured only 298 of the 352 votes required, and the government consequently withdrew the two linked Bills (Delimitation Bill, 2026 and UT Laws Amendment Bill, 2026). All three statements are correct.",
+    "subject": "Polity & Governance",
+    "theme": "Constitutional Amendment Process",
+    "micro_topic": "Constitution (131st Amendment) Bill 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "As per the National Family Health Survey-6 (2023-24), which of the following indicators showed a WORSENING trend compared to NFHS-5?\n1. Percentage of women (15-49 years) who are overweight or obese\n2. Percentage of women reporting spousal violence\n3. Percentage of women (15-49) with high blood sugar/on diabetes medication\nSelect the correct answer:",
+    "options": [
+      "(a) 1 and 3 only",
+      "(b) 2 and 3 only",
+      "(c) 1 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Women's overweight/obesity rose from 24.0% to 30.7%, and high blood sugar/diabetes prevalence rose from 13.5% to 17.8% — both worsened. Reported spousal violence actually declined, from 29.2% to 22.3%, so statement 2 is incorrect.",
+    "subject": "Society",
+    "theme": "National Family Health Survey",
+    "micro_topic": "NFHS-6 findings on nutrition and NCDs",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Which of the following types of majority is required in each House of Parliament to pass a Bill amending a provision of the Constitution under Article 368, where such provision does NOT touch upon 'federal' features requiring state ratification?",
+    "options": [
+      "(a) Simple majority of members present and voting",
+      "(b) A majority of the total membership of the House",
+      "(c) A majority of the total membership of the House AND a majority of not less than two-thirds of members present and voting",
+      "(d) Three-fourths of the total membership of the House"
+    ],
+    "answer": "(c)",
+    "explanation": "Article 368 requires a 'special majority' in each House separately: a majority of the total membership of the House, and a majority of not less than two-thirds of members present and voting.",
+    "subject": "Polity & Governance",
+    "theme": "Constitutional Amendment Process",
+    "micro_topic": "Article 368 special majority",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements regarding classification of hydropower projects in India:\n1. Small Hydro Power (SHP) projects are those with an installed capacity of up to 25 MW.\n2. Large hydro projects (above 25 MW) are classified as a non-renewable source of energy in Indian policy.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 only",
+      "(c) Both 1 and 2",
+      "(d) Neither 1 nor 2"
+    ],
+    "answer": "(a)",
+    "explanation": "SHP is capped at 25 MW capacity (statement 1 correct). In Indian policy, hydropower of any size — including large hydro — is classified as a renewable source of energy, so statement 2 is incorrect.",
+    "subject": "Environment",
+    "theme": "Renewable Energy Classification",
+    "micro_topic": "Hydropower capacity classification",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  }
+]

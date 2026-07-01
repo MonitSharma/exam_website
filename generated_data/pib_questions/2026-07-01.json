@@ -1,0 +1,50 @@
+[
+  {
+    "question": "Consider the following statements regarding the NITI Aayog–Ministry of Tourism report \"Unlocking Growth in Tourism and Hospitality Sector\" (2026): 1. It recommends de-linking hotel star classification from licensing and finance approvals. 2. It proposes a 90-day multiple-entry Visa-on-Arrival for select nationalities. 3. Tourism is classified as a Union subject under the Indian Constitution. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Statements 1 and 2 are correct as per the report's recommendations. Tourism is a State subject (not Union), with the Centre coordinating via centrally sponsored schemes like Swadesh Darshan and Dekho Apna Desh, so statement 3 is incorrect.",
+    "subject": "Economy",
+    "theme": "Tourism Sector Reform",
+    "micro_topic": "NITI Aayog-Tourism Ministry Report 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Academic Bank of Credits (ABC) and APAAR, consider the following statements: 1. ABC is regulated by the University Grants Commission. 2. Academic credits stored in ABC can be reused indefinitely once redeemed. 3. APAAR authentication relies on Aadhaar-linked DigiLocker credentials. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "ABC is regulated by the UGC under the Ministry of Education, and APAAR authentication uses Aadhaar-linked DigiLocker credentials, making statements 1 and 3 correct. ABC credits are valid for a maximum of 7 years and cannot be reused once redeemed, making statement 2 incorrect.",
+    "subject": "Polity & Governance",
+    "theme": "Education Digital Public Infrastructure",
+    "micro_topic": "Academic Bank of Credits and APAAR",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The \"SHE-LEAPS\" platform, launched at the Rashtriya Gramin Vikas Sammelan 2026, is associated with which of the following?",
+    "options": [
+      "(a) Tracking Self-Help Group women entrepreneurs under the 'Lakhpati Didi' mission",
+      "(b) Providing digital agro-advisory services to farmers",
+      "(c) Issuing tamper-resistant academic credentials via blockchain",
+      "(d) Delegating financial powers for defence R&D projects"
+    ],
+    "answer": "(a)",
+    "explanation": "SHE-LEAPS (Self Help Entrepreneur – Livelihoods and Enterprise Application for Prosperity and Sustainability) is a digital platform launched to track and scale income growth of women-led SHG enterprises toward the raised target of 6 crore 'Lakhpati Didis'.",
+    "subject": "Economy",
+    "theme": "Rural Development and Women's Livelihoods",
+    "micro_topic": "Rashtriya Gramin Vikas Sammelan 2026 / SHE-LEAPS",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]
