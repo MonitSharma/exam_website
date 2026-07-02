@@ -1,0 +1,79 @@
+[
+  {
+    "question": "With reference to India's Goods and Services Tax (GST), which completed nine years of implementation on 1 July 2026, consider the following statements:\n1. GST was introduced through the 101st Constitutional Amendment Act, 2016.\n2. Under the \"GST 2.0\" rate rationalisation, most goods now fall under a two-slab structure of 5% and 18%, with a 40% rate reserved for select luxury and sin goods.\n3. Gross GST collections rose from about ₹7.4 lakh crore in 2017-18 to about ₹22.27 lakh crore in 2025-26.\nHow many of the statements given above are correct?",
+    "options": ["(a) Only one", "(b) Only two", "(c) All three", "(d) None"],
+    "answer": "(c)",
+    "explanation": "All three statements are correct. GST was introduced via the 101st Constitutional Amendment Act, 2016 (inserting Articles 246A, 269A and 279A). The 'GST 2.0' reform (effective 22 September 2025) collapsed the 12% and 28% slabs into a simplified 5%/18% structure with a 40% rate for luxury/sin goods. Gross GST collections grew from ~₹7.4 lakh crore (2017-18) to ~₹22.27 lakh crore (2025-26).",
+    "subject": "Economy",
+    "theme": "Goods and Services Tax",
+    "micro_topic": "GST at nine years / GST 2.0 rate rationalisation",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements regarding the \"e-OCI\" card launched in 2026:\n1. It converts the physical Overseas Citizen of India (OCI) booklet into a QR-code based digital credential.\n2. An OCI cardholder is entitled to vote in Indian elections and contest for a seat in Parliament.\n3. The e-OCI system was launched by the Union Home Minister alongside the FCRA 2.0 Portal.\nWhich of the statements given above is/are correct?",
+    "options": ["(a) 1 and 3 only", "(b) 2 only", "(c) 1, 2 and 3", "(d) 1 only"],
+    "answer": "(a)",
+    "explanation": "Statements 1 and 3 are correct — the e-OCI replaces the physical booklet with a digital, QR-verifiable credential, and it was launched together with the FCRA 2.0 Portal by the Union Home Minister. Statement 2 is incorrect: an OCI is not equivalent to dual citizenship — OCI cardholders cannot vote, cannot contest elections, and cannot hold constitutional or most government posts.",
+    "subject": "Polity & Governance",
+    "theme": "Citizenship and OCI",
+    "micro_topic": "e-OCI digital card / FCRA 2.0 portal",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to India's faunal biodiversity documentation, consider the following statements:\n1. The Zoological Survey of India (ZSI), which released the \"Fauna of India Checklist Portal\" in 2026, functions under the Ministry of Environment, Forest and Climate Change.\n2. In 2025, more than half of India's new faunal records were species entirely new to science, rather than species newly recorded in India.\n3. Among Indian states, Kerala recorded the highest number of new faunal discoveries in 2025.\nWhich of the statements given above is/are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(d)",
+    "explanation": "All three are correct. ZSI (est. 1916, HQ Kolkata) functions under MoEFCC. Of the 709 new faunal records reported for 2025, 483 were new to science and 226 new to India — so more than half were new-to-science. Kerala topped the list with 98 new discoveries, followed by West Bengal, Karnataka and Arunachal Pradesh.",
+    "subject": "Environment",
+    "theme": "Biodiversity institutions and documentation",
+    "micro_topic": "ZSI / Fauna of India Checklist Portal / Animal Taxonomy Summit 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Upper Yamuna River Board (UYRB), recently in the news after Rajasthan and Haryana signed an agreement to operationalise a long-pending water-sharing project, was set up under a 1994 agreement among which of the following?",
+    "options": ["(a) Punjab, Haryana, Rajasthan and NCT of Delhi", "(b) Uttar Pradesh, Haryana, Himachal Pradesh, Rajasthan and NCT of Delhi", "(c) Haryana, Rajasthan, Madhya Pradesh and NCT of Delhi", "(d) Uttar Pradesh, Uttarakhand, Haryana and NCT of Delhi"],
+    "answer": "(b)",
+    "explanation": "The Upper Yamuna River Board was constituted under the 12 May 1994 agreement among the basin states — Uttar Pradesh, Haryana, Himachal Pradesh, Rajasthan and NCT of Delhi — for allocation of the Yamuna's surface flow. The 2026 Rajasthan-Haryana MoU (and the Rajasthan-Haryana Yamuna Water SPV) operationalises Rajasthan's long-pending share from the Hathnikund Barrage for the water-scarce Shekhawati region.",
+    "subject": "Geography",
+    "theme": "Interstate river water sharing",
+    "micro_topic": "Upper Yamuna River Board / Yamuna Water Project 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The India-Japan bilateral relationship was elevated to a 'Special Strategic and Global Partnership' during which year's Annual Summit, a mechanism that reached its 16th edition in 2026?",
+    "options": ["(a) 2000", "(b) 2006", "(c) 2014", "(d) 2022"],
+    "answer": "(c)",
+    "explanation": "India-Japan ties were elevated to 'Global Partnership' (2000), 'Strategic and Global Partnership' (2006), and 'Special Strategic and Global Partnership' (2014, during PM Modi's first Annual Summit with PM Abe). The Annual Summit mechanism itself has run since 2006; the 16th Annual Summit was held in New Delhi in July 2026 with PM Takaichi, yielding joint declarations on economic security and AI cooperation and about $12.5 billion in committed Japanese investment.",
+    "subject": "International Relations",
+    "theme": "India-Japan relations",
+    "micro_topic": "16th India-Japan Annual Summit 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which of the following rights is/are NOT available to an Overseas Citizen of India (OCI) cardholder under the Citizenship Act, 1955?\n1. Right to vote in Indian elections\n2. Right to purchase agricultural land or a farmhouse in India\n3. Right to hold a constitutional post such as Judge of the Supreme Court or Governor",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1, 2 and 3", "(d) 1 and 3 only"],
+    "answer": "(c)",
+    "explanation": "An OCI is not a form of dual citizenship. OCI cardholders cannot vote or contest elections, cannot purchase agricultural land/farmhouse/plantation property, and cannot hold constitutional posts (President, Vice-President, Supreme Court/High Court Judge, etc.) or most public-sector/government jobs. They enjoy parity with NRIs mainly in economic, financial and educational fields, plus lifelong visa-free entry.",
+    "subject": "Polity & Governance",
+    "theme": "Citizenship provisions",
+    "micro_topic": "OCI rights and restrictions (static)",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to Article 279A of the Constitution of India, consider the following statements:\n1. It provides for the constitution of a Goods and Services Tax Council by the President.\n2. Every decision of the GST Council is to be taken by a majority of not less than three-fourths of the weighted votes of members present and voting.\n3. In GST Council voting, the Union has one-third of the total votes, while all states together have two-thirds.\nWhich of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(d)",
+    "explanation": "Article 279A, inserted by the 101st Constitutional Amendment Act, 2016, provides for a GST Council constituted by the President, chaired by the Union Finance Minister. Decisions require at least a three-fourths majority of weighted votes of members present and voting, with the Centre holding one-third of the votes and all states together holding two-thirds.",
+    "subject": "Polity & Governance",
+    "theme": "GST Council",
+    "micro_topic": "Article 279A / constitutional provisions for GST (static)",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  }
+]

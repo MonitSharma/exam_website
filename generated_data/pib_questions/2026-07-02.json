@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the 16th India-Japan Annual Summit held in New Delhi in July 2026, consider the following statements: 1. It was held during Japanese PM Sanae Takaichi's three-day official visit to India. 2. Japanese firms committed over $12.5 billion in investment in India during the summit. 3. Both sides agreed to convene a Japan-India Foreign and Defence Ministerial (2+2) Meeting before the end of 2026. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1, 2 and 3",
+      "(d) 1 and 3 only"
+    ],
+    "answer": "(c)",
+    "explanation": "All three statements are correct — the summit coincided with PM Takaichi's three-day visit, Japanese firms pledged over $12.5 billion in investment through roughly 120 agreements involving 150+ companies, and both sides agreed to hold a Japan-India 2+2 Ministerial Meeting before the end of 2026.",
+    "subject": "International Relations",
+    "theme": "India-Japan Strategic Partnership",
+    "micro_topic": "16th India-Japan Annual Summit 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Viksit Bharat – Guarantee for Rozgar and Ajeevika Mission (Gramin) [VB-G RAM G] Act, 2025, which came into force from 1 July 2026, is administered by which of the following, and what is the revised statutory employment guarantee it provides?",
+    "options": [
+      "(a) Ministry of Panchayati Raj; 150 days",
+      "(b) Ministry of Rural Development; 125 days",
+      "(c) Ministry of Labour and Employment; 100 days",
+      "(d) NITI Aayog; 200 days"
+    ],
+    "answer": "(b)",
+    "explanation": "The Act is administered by the Ministry of Rural Development and raises the statutory rural employment guarantee from 100 to 125 days per eligible household, backed by an interim central allocation of Rs 95,692.31 crore to States/UTs.",
+    "subject": "Polity & Governance",
+    "theme": "Rural Employment Guarantee Reform",
+    "micro_topic": "VB-G RAM G Act, 2025",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The project \"In-situ Conservation and Management of Wild Rice (Oryza rufipogon),\" under which a site in Assam was recently notified as a Biodiversity Heritage Site, is being implemented by:",
+    "options": [
+      "(a) Botanical Survey of India, in Kaziranga National Park",
+      "(b) ICAR–National Bureau of Plant Genetic Resources, in Sonitpur district",
+      "(c) Assam Agricultural University, in Dibrugarh district",
+      "(d) Wildlife Institute of India, in Manas National Park"
+    ],
+    "answer": "(b)",
+    "explanation": "The project has been implemented since 2022 by ICAR-NBPGR with the Assam State Biodiversity Board in Sonitpur district, Assam; its Borjuli site was notified as a Biodiversity Heritage Site by the National Biodiversity Authority, under the National Rainfed Area Authority (Ministry of Agriculture & Farmers Welfare).",
+    "subject": "Environment",
+    "theme": "Wild Crop Genetic Resource Conservation",
+    "micro_topic": "Wild Rice (Oryza rufipogon) Conservation, Assam",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]
