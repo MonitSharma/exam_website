@@ -107,7 +107,7 @@ function HeroCalendar({ go, progress }) {
         id: set.id,
         title: set.label,
         label: questionSetCalendarLabel(set),
-        meta: `${set.questionCount || 0} questions · ${set.durationMinutes || 0} min`,
+        meta: `${set.questionCount || 0}Q · ${set.durationMinutes || 0}m`,
         sourceType: set.sourceType,
       });
     });
