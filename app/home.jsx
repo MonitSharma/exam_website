@@ -262,6 +262,17 @@ function HeroCalendar({ go, progress }) {
     }
   }, [latestLoadedDate, selectedDate]);
 
+  useEffectHome(() => {
+    function onSelectDate(event) {
+      const isoDate = event.detail?.isoDate;
+      if (!isoDate) return;
+      setViewMonth(calendarMonthKey(isoDate));
+      setSelectedDate(isoDate);
+    }
+    window.addEventListener("pariksha:select-date", onSelectDate);
+    return () => window.removeEventListener("pariksha:select-date", onSelectDate);
+  }, []);
+
   return (
     <aside className="hero-calendar">
       <div className="hero-calendar-head">

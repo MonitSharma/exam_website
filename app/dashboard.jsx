@@ -171,7 +171,6 @@ function Dashboard({ go, progress, summary, onResetProgress }) {
           </div>
         </section>
       </div>
-      <StudyWorkflowDashboard />
     </div>
   );
 }

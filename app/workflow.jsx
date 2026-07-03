@@ -1,6 +1,4 @@
 // Study workflow dashboard - native version of the standalone UPSC tracker
-const { useState: useWorkflowState } = React;
-
 const WORKFLOW_PRELIMS = new Date("2027-05-24T00:00:00");
 const WORKFLOW_PLAN_START = new Date("2026-06-02T00:00:00");
 const WORKFLOW_FORTNIGHTS = [
@@ -36,8 +34,6 @@ const WORKFLOW_KPI = {
   "Prelims Mode": [["Study hours/week", "40+"], ["Newspaper", "7/7"], ["New pages", "0 revision"], ["Mains answers", "0"], ["MCQs", "700+"], ["Mocks", "2 full"]],
   "Mains Factory": [["Physics Optional", "daily"], ["GS Mains answers", "4/day"], ["Essay", "weekly"], ["Ethics cases", "alt days"], ["Newspaper", "7/7"], ["Revision", "rotation"]],
 };
-const WORKFLOW_HOURS_TARGET = { "Foundation": 28, "Integration": 35, "Prelims Mode": 40, "Mains Factory": 40 };
-
 const WORKFLOW_FOCUS = {
   "Foundation": [
     ["Sunday Sweep (90m)", "Sectional mock or Mains 4-Q", "Plan next week"],
@@ -77,39 +73,6 @@ const WORKFLOW_FOCUS = {
   ],
 };
 
-const WORKFLOW_SYLLABUS = {
-  "Polity": ["NCERT 11", "Laxmikanth Pass-1", "Laxmikanth Pass-2 (PYQ)", "PYQ practice", "Cross-linking"],
-  "Economy": ["NCERT 11 + 12", "Mrunal Pillars 1-2", "Mrunal Pillars 3-5", "Sanjeev Verma", "Eco Survey + Budget"],
-  "Modern History": ["NCERT 8 + 10", "Spectrum Pass-1", "Spectrum Pass-2", "INM timeline", "PYQ"],
-  "Ancient/Medieval": ["TN Board Ancient", "TN Board Medieval", "Dynasties + map", "PYQ"],
-  "Art & Culture": ["Nitin Singhania P1", "P2 Painting/Music", "P3 Dance/Lit", "CCRT browse"],
-  "Geography": ["NCERT 11 Physical", "G.C. Leong", "Khullar Indian", "NCERT 12 Human", "PMFIAS + maps"],
-  "Environment": ["NCERT 12 Bio", "Shankar Ch 1-7", "Shankar Ch 8-end", "IPCC / NDC", "PMFIAS consolidation"],
-  "Sci-Tech": ["NCERT 9-10 skim", "Vision CA compilations", "Per-tech pages", "PIB/ISRO/DRDO updates"],
-  "IR": ["NCERT 12", "MEA Annual Report", "Bilateral pages", "Multilateral pages", "ORF/IDSA briefs"],
-  "Internal Security": ["Ashok Kumar", "2nd ARC 5", "2nd ARC 8", "CA updates"],
-  "Society": ["NCERT 11 + 12", "Reports bank", "CA"],
-  "Ethics": ["Lexicon basics", "Subba Rao framework", "2nd ARC 4", "Thinkers bank", "Anudeep cases"],
-  "CSAT": ["Diagnostic PYQs", "Daily RC drill", "Weak-topic drills", "Fortnightly mocks", "80+ safety target"],
-  "Physics Paper I": ["Mechanics", "EM (Griffiths)", "Waves & Optics", "Thermo & Stat Mech"],
-  "Physics Paper II": ["QM", "Atomic & Molecular", "Nuclear", "Solid State", "Electronics", "Special Relativity"],
-};
-const WORKFLOW_REV_SUBJECTS = Object.keys(WORKFLOW_SYLLABUS).filter((subject) => subject !== "CSAT").concat("CSAT");
-const WORKFLOW_LS = { M: "upsc_mock_scores_v1", W: "upsc_weak_areas_v1", H: "upsc_hours_v1", REV: "upsc_rev_v1", COV: "upsc_cov_v1" };
-
-function workflowLoad(key, fallback) {
-  try {
-    const value = JSON.parse(localStorage.getItem(key));
-    return value ?? fallback;
-  } catch (error) {
-    return fallback;
-  }
-}
-
-function workflowSave(key, value) {
-  localStorage.setItem(key, JSON.stringify(value));
-}
-
 function workflowFmt(value) {
   return new Date(value).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" });
 }
@@ -124,6 +87,12 @@ function workflowWeekStart() {
   date.setHours(0, 0, 0, 0);
   date.setDate(date.getDate() - day);
   return date;
+}
+
+function workflowLatestByDate(items, dateKey, todayIso = workflowIsoToday()) {
+  return [...items]
+    .filter((item) => item && item[dateKey] && item[dateKey] <= todayIso)
+    .sort((a, b) => String(b[dateKey]).localeCompare(String(a[dateKey])))[0] || null;
 }
 
 function getWorkflowContext() {
@@ -163,228 +132,258 @@ function getWorkflowContext() {
   return { today, days, phase, fortnight, fnDates, focus, next, planPercent };
 }
 
-function WorkflowTrend({ mocks }) {
-  const W = 520, H = 150, pad = 24;
-  if (!mocks.length) {
-    return <div className="workflow-empty">No mock scores logged yet.</div>;
-  }
-  const values = mocks.map((item) => Math.round((item.score / item.max) * 100));
-  const x = (index) => mocks.length === 1 ? W / 2 : pad + (index * (W - pad * 2)) / (mocks.length - 1);
-  const y = (value) => H - pad - (value / 100) * (H - pad * 2);
-  const line = values.map((value, index) => `${index ? "L" : "M"}${x(index)},${y(value)}`).join(" ");
-  return (
-    <svg className="workflow-trend" viewBox={`0 0 ${W} ${H}`} preserveAspectRatio="none">
-      {[0, 50, 100].map((tick) => <line key={tick} x1={pad} x2={W - pad} y1={y(tick)} y2={y(tick)} className="workflow-grid-line" />)}
-      <path d={line} className="workflow-trend-line" />
-      {values.map((value, index) => <circle key={`${mocks[index].id}-${index}`} cx={x(index)} cy={y(value)} r="4" className="workflow-trend-dot" />)}
-    </svg>
-  );
-}
-
-function StudyWorkflowDashboard() {
+function StudyWorkflowDashboard({ go, progress }) {
   const context = getWorkflowContext();
-  const [hours, setHours] = useWorkflowState(() => workflowLoad(WORKFLOW_LS.H, []));
-  const [hourForm, setHourForm] = useWorkflowState({ date: workflowIsoToday(), hours: "" });
-  const [weakAreas, setWeakAreas] = useWorkflowState(() => workflowLoad(WORKFLOW_LS.W, []));
-  const [weakInput, setWeakInput] = useWorkflowState("");
-  const [revision, setRevision] = useWorkflowState(() => {
-    const week = workflowWeekStart().toISOString().slice(0, 10);
-    const stored = workflowLoad(WORKFLOW_LS.REV, { ws: week, checked: {} });
-    return stored.ws === week ? stored : { ws: week, checked: {} };
-  });
-  const [coverage, setCoverage] = useWorkflowState(() => workflowLoad(WORKFLOW_LS.COV, {}));
-  const [mocks, setMocks] = useWorkflowState(() => workflowLoad(WORKFLOW_LS.M, []));
-  const [mockForm, setMockForm] = useWorkflowState({ date: workflowIsoToday(), type: "Prelims (full)", score: "", max: "200" });
-  const weekStart = workflowWeekStart();
-  const phaseTarget = WORKFLOW_HOURS_TARGET[context.phase] || 28;
-  const weeklyHours = hours.filter((entry) => new Date(entry.date) >= weekStart).reduce((sum, entry) => sum + (Number(entry.hours) || 0), 0);
+  const ds = window.UPSC;
+  const todayIso = workflowIsoToday();
+  const history = progress?.history || [];
   const focusBlocks = (WORKFLOW_FOCUS[context.phase] || WORKFLOW_FOCUS.Foundation)[new Date().getDay()];
-  const revisionDone = WORKFLOW_REV_SUBJECTS.filter((subject) => revision.checked?.[subject]).length;
-  const coverageRows = Object.entries(WORKFLOW_SYLLABUS);
-  const coverageTotals = coverageRows.reduce((acc, [subject, items]) => {
-    items.forEach((item) => {
-      acc.total++;
-      if (coverage[`${subject}||${item}`]) acc.done++;
-    });
-    return acc;
-  }, { done: 0, total: 0 });
-  const coveragePercent = Math.round((coverageTotals.done / (coverageTotals.total || 1)) * 100);
-  const sortedMocks = [...mocks].sort((a, b) => a.date.localeCompare(b.date));
+  const weekStartIso = workflowWeekStart().toISOString().slice(0, 10);
+  const weekAttempts = history.filter((item) => String(item.isoDate || "") >= weekStartIso);
+  const weekQuestions = weekAttempts.reduce((sum, item) => sum + (Number(item.attempted) || 0), 0);
+  const weekCorrect = weekAttempts.reduce((sum, item) => sum + (Number(item.correct) || 0), 0);
+  const weekAccuracy = Math.round((weekCorrect / (weekQuestions || 1)) * 100);
+  const latestAttempt = history[history.length - 1] || null;
+  const attemptedIds = new Set(history.map((item) => item.questionSetId).filter(Boolean));
+  const latestDailySet = ds.dailyQuiz?.questionSetId ? ds.getQuestionSetById(ds.dailyQuiz.questionSetId) : null;
+  const latestPibSet = workflowLatestByDate(ds.getQuestionSetsBySource("pib"), "isoDate", todayIso);
+  const latestRcSet = workflowLatestByDate(ds.getQuestionSetsBySource("rc"), "isoDate", todayIso);
+  const latestFullMock = workflowLatestByDate(ds.questionSets.filter((set) => /full mock/i.test(set.category || set.label || "")), "isoDate", todayIso);
+  const latestBrief = workflowLatestByDate(ds.noteDocuments.filter((doc) => doc.cadence === "daily"), "date", todayIso);
+  const latestMains = workflowLatestByDate(ds.noteDocuments.filter((doc) => doc.cadence === "mains"), "date", todayIso);
+  const latestEditorial = workflowLatestByDate(ds.noteDocuments.filter((doc) => doc.cadence === "editorials"), "date", todayIso);
+  const latestSunday = workflowLatestByDate(ds.noteDocuments.filter((doc) => doc.cadence === "sunday"), "date", todayIso);
+  const dailyDone = Boolean(progress?.dailyCompletions?.[latestDailySet?.isoDate]);
 
-  function saveHours(next) {
-    workflowSave(WORKFLOW_LS.H, next);
-    setHours(next);
+  const recentDates = [...new Set(ds.questionSets.concat(ds.noteDocuments.map((doc) => ({ isoDate: doc.date })))
+    .map((item) => item.isoDate)
+    .filter((isoDate) => isoDate && isoDate <= todayIso))]
+    .sort((a, b) => b.localeCompare(a))
+    .slice(0, 6);
+
+  function openNote(note) {
+    if (!note) return;
+    go("home");
+    setTimeout(() => window.dispatchEvent(new CustomEvent("pariksha:open-note", { detail: { id: note.id } })), 80);
   }
 
-  function saveWeakAreas(next) {
-    workflowSave(WORKFLOW_LS.W, next);
-    setWeakAreas(next);
+  function materialCountForDate(isoDate) {
+    return ds.questionSets.filter((set) => set.isoDate === isoDate).length
+      + ds.noteDocuments.filter((doc) => doc.date === isoDate).length;
   }
 
-  function saveRevision(next) {
-    workflowSave(WORKFLOW_LS.REV, next);
-    setRevision(next);
+  function openDate(isoDate) {
+    go("home");
+    setTimeout(() => window.dispatchEvent(new CustomEvent("pariksha:select-date", { detail: { isoDate } })), 80);
   }
 
-  function saveCoverage(next) {
-    workflowSave(WORKFLOW_LS.COV, next);
-    setCoverage(next);
-  }
+  const queue = [
+    latestDailySet && {
+      key: "daily",
+      status: dailyDone ? "done" : "next",
+      label: dailyDone ? "Daily complete" : "Do this first",
+      title: latestDailySet.label,
+      meta: `${latestDailySet.questionCount || 0} questions · ${latestDailySet.durationMinutes || 10} min`,
+      icon: "bolt",
+      action: () => go("test", { setId: latestDailySet.id }),
+    },
+    latestBrief && {
+      key: "brief",
+      status: "read",
+      label: "Read",
+      title: "Latest CA briefing",
+      meta: latestBrief.shortTitle || workflowFmt(latestBrief.date),
+      icon: "book",
+      action: () => openNote(latestBrief),
+    },
+    latestPibSet && {
+      key: "pib",
+      status: attemptedIds.has(latestPibSet.id) ? "done" : "next",
+      label: attemptedIds.has(latestPibSet.id) ? "PIB attempted" : "PIB check",
+      title: latestPibSet.label,
+      meta: `${latestPibSet.questionCount || 0} questions · ${latestPibSet.durationMinutes || 10} min`,
+      icon: "play",
+      action: () => go("test", { setId: latestPibSet.id }),
+    },
+    latestRcSet && {
+      key: "rc",
+      status: attemptedIds.has(latestRcSet.id) ? "done" : "next",
+      label: attemptedIds.has(latestRcSet.id) ? "RC attempted" : "CSAT insurance",
+      title: latestRcSet.label,
+      meta: `${latestRcSet.questionCount || 0} questions · ${latestRcSet.durationMinutes || 8} min`,
+      icon: "target",
+      action: () => go("test", { setId: latestRcSet.id }),
+    },
+    latestMains && {
+      key: "mains",
+      status: "read",
+      label: "Answer practice",
+      title: "Latest GS Mains prompt",
+      meta: latestMains.shortTitle || workflowFmt(latestMains.date),
+      icon: "fileText",
+      action: () => openNote(latestMains),
+    },
+    latestFullMock && {
+      key: "mock",
+      status: attemptedIds.has(latestFullMock.id) ? "done" : "mock",
+      label: attemptedIds.has(latestFullMock.id) ? "Mock attempted" : "Long session",
+      title: latestFullMock.label,
+      meta: `${latestFullMock.questionCount || 0} questions · ${latestFullMock.durationMinutes || 120} min`,
+      icon: "clock",
+      action: () => go("test", { setId: latestFullMock.id }),
+    },
+  ].filter(Boolean);
 
-  function saveMocks(next) {
-    workflowSave(WORKFLOW_LS.M, next);
-    setMocks(next);
-  }
-
-  function addHours() {
-    const value = Number(hourForm.hours);
-    if (!hourForm.date || Number.isNaN(value) || value <= 0) return;
-    saveHours([...hours, { date: hourForm.date, hours: value }]);
-    setHourForm({ ...hourForm, hours: "" });
-  }
-
-  function addWeakArea() {
-    const value = weakInput.trim();
-    if (!value) return;
-    saveWeakAreas([...weakAreas, value]);
-    setWeakInput("");
-  }
-
-  function addMock() {
-    const score = Number(mockForm.score);
-    const max = Number(mockForm.max);
-    if (!mockForm.date || Number.isNaN(score) || Number.isNaN(max) || max <= 0) return;
-    saveMocks([...mocks, { id: Date.now(), date: mockForm.date, type: mockForm.type, score, max }]);
-    setMockForm({ ...mockForm, score: "" });
-  }
-
-  function toggleRevision(subject) {
-    saveRevision({ ...revision, checked: { ...(revision.checked || {}), [subject]: !revision.checked?.[subject] } });
-  }
-
-  function toggleCoverage(subject, item) {
-    const key = `${subject}||${item}`;
-    saveCoverage({ ...coverage, [key]: !coverage[key] });
-  }
+  const readingStack = [
+    latestSunday && { key: "sunday", label: "Week plan", title: latestSunday.shortTitle || workflowFmt(latestSunday.date), action: () => openNote(latestSunday) },
+    latestEditorial && { key: "editorial", label: "Editorials", title: latestEditorial.shortTitle || workflowFmt(latestEditorial.date), action: () => openNote(latestEditorial) },
+    latestMains && { key: "mains-read", label: "Mains", title: latestMains.shortTitle || workflowFmt(latestMains.date), action: () => openNote(latestMains) },
+  ].filter(Boolean);
+  const topQueue = queue.slice(0, 4);
+  const activeQueue = queue.filter((item) => item.status !== "done").length;
+  const kpis = WORKFLOW_KPI[context.phase] || WORKFLOW_KPI.Foundation;
+  const latestAttemptLabel = latestAttempt?.setLabel || latestAttempt?.questionSetLabel || latestAttempt?.label || "Last attempt";
 
   return (
-    <section className="workflow">
+    <section className="workflow workflow-v2">
       <div className="workflow-title">
         <div>
-          <span className="eyebrow small"><span className="eyebrow-line" /> Study workflow</span>
-          <h2>UPSC CSE 2027 plan dashboard</h2>
-          <p>Calendar phase, weekly execution, CSAT insurance, syllabus coverage and mocks in one progress page.</p>
+          <span className="eyebrow small"><span className="eyebrow-line" /> Smart plan</span>
+          <h2>What should I do next?</h2>
+          <p>No manual hour logging. This queue is built from today’s materials, your attempts, and the current UPSC phase.</p>
         </div>
-        <a className="link-btn" href="upsc_dashboard.html" target="_blank" rel="noreferrer">Open standalone dashboard <Icon name="arrowR" size={14} /></a>
+        <a className="link-btn" href="upsc_dashboard.html" target="_blank" rel="noreferrer">Standalone view <Icon name="arrowR" size={14} /></a>
       </div>
 
-      <div className="workflow-cards">
-        <div className="workflow-card hero"><span>Days to Prelims</span><strong>{context.days}</strong><em>{workflowFmt(WORKFLOW_PRELIMS)}</em></div>
-        <div className="workflow-card"><span>Current phase</span><strong>{context.phase}</strong><em>{context.focus}</em></div>
-        <div className="workflow-card"><span>Fortnight</span><strong>{context.fortnight}</strong><em>{context.fnDates}</em></div>
-      </div>
-
-      <div className="workflow-card wide">
-        <div className="workflow-row clean"><strong>{context.focus}</strong><span>{context.planPercent}% elapsed</span></div>
-        <div className="workflow-bar"><i style={{ width: `${context.planPercent}%` }} /></div>
-        <p className="muted">Next: {context.next}</p>
-      </div>
-
-      <div className="workflow-grid">
-        <div className="workflow-card">
-          <span>Today's focus</span>
-          <div className="workflow-focus">{focusBlocks.map((item) => <b key={item}>{item}</b>)}</div>
-        </div>
-        <div className="workflow-card">
-          <span>This phase's weekly KPIs</span>
-          {(WORKFLOW_KPI[context.phase] || WORKFLOW_KPI.Foundation).map(([label, value]) => (
-            <div className="workflow-row" key={label}><em>{label}</em><strong>{value}</strong></div>
-          ))}
-        </div>
-      </div>
-
-      <div className="workflow-grid">
-        <div className="workflow-card">
-          <span>Study hours this week</span>
-          <div className="workflow-row clean"><strong>{Math.round(weeklyHours * 10) / 10} h logged</strong><em>target {phaseTarget}+</em></div>
-          <div className="workflow-bar green"><i style={{ width: `${Math.min(100, Math.round((weeklyHours / phaseTarget) * 100))}%` }} /></div>
-          <div className="workflow-form">
-            <input type="date" value={hourForm.date} onChange={(event) => setHourForm({ ...hourForm, date: event.target.value })} />
-            <input type="number" min="0" step="0.5" placeholder="hrs" value={hourForm.hours} onChange={(event) => setHourForm({ ...hourForm, hours: event.target.value })} />
-            <button className="mini-btn solid" onClick={addHours}>Log hours</button>
+      <div className="workflow-command">
+        <article className="workflow-hero-card">
+          <div>
+            <span className="workflow-summary-label">{context.phase} · {context.fortnight}</span>
+            <h3>{context.focus}</h3>
+            <p>{context.fnDates} · Next: {context.next}</p>
           </div>
-        </div>
-        <div className="workflow-card">
-          <span>CSAT insurance</span>
-          <div className="workflow-focus">
-            <b>Daily RC drill</b><b>Weekly CSAT set</b><b>Fortnightly full mock</b><b>80+ safety target</b>
+          <div className="workflow-countdown">
+            <strong>{context.days}</strong>
+            <span>days to Prelims</span>
           </div>
-          <p className="muted">Daily RC drills are under Home -> Notes -> Daily RC; CSAT sets are under Practice -> CSAT practice.</p>
-        </div>
+        </article>
+
+        <article className="workflow-card workflow-signal-card">
+          <div className="workflow-card-head">
+            <span>Automatic signals</span>
+            <strong>{activeQueue} open</strong>
+          </div>
+          <div className="workflow-signal-grid">
+            <div className={dailyDone ? "workflow-signal done" : "workflow-signal"}>
+              <span>Daily</span>
+              <strong>{dailyDone ? "Done" : "Pending"}</strong>
+            </div>
+            <div className="workflow-signal">
+              <span>This week</span>
+              <strong>{weekAttempts.length} attempts</strong>
+            </div>
+            <div className="workflow-signal">
+              <span>Questions</span>
+              <strong>{weekQuestions}</strong>
+            </div>
+            <div className="workflow-signal">
+              <span>Accuracy</span>
+              <strong>{weekAttempts.length ? `${weekAccuracy}%` : "--"}</strong>
+            </div>
+          </div>
+          <p className="workflow-card-note">
+            {latestAttempt ? `${latestAttemptLabel}: ${latestAttempt.correct}/${latestAttempt.attempted} correct.` : "Start one quiz and this panel will begin adapting."}
+          </p>
+        </article>
       </div>
 
-      <div className="workflow-grid">
-        <div className="workflow-card">
-          <span>Revision this week - {revisionDone}/{WORKFLOW_REV_SUBJECTS.length}</span>
-          <div className="workflow-checks">
-            {WORKFLOW_REV_SUBJECTS.map((subject) => (
-              <label key={subject}><input type="checkbox" checked={Boolean(revision.checked?.[subject])} onChange={() => toggleRevision(subject)} />{subject}</label>
+      <div className="workflow-actions">
+        {topQueue.map((item) => (
+          <button key={item.key} className="workflow-action" onClick={item.action}>
+            <span className="workflow-action-icon"><Icon name={item.icon} size={16} /></span>
+            <span>
+              <em>{item.label}</em>
+              <strong>{item.title}</strong>
+              <small>{item.meta}</small>
+            </span>
+          </button>
+        ))}
+      </div>
+
+      <div className="workflow-plan-grid">
+        <article className="workflow-card workflow-queue-card">
+          <div className="workflow-card-head">
+            <span>Recommended next</span>
+            <strong>{queue.length} items</strong>
+          </div>
+          <div className="workflow-queue">
+            {queue.map((item) => (
+              <button key={item.key} className={`workflow-queue-item ${item.status}`} onClick={item.action}>
+                <span className="workflow-queue-icon"><Icon name={item.icon} size={16} /></span>
+                <span className="workflow-queue-copy">
+                  <em>{item.label}</em>
+                  <strong>{item.title}</strong>
+                  <small>{item.meta}</small>
+                </span>
+                <span className="workflow-status">{item.status === "done" ? "Done" : item.status === "read" ? "Open" : "Start"}</span>
+              </button>
             ))}
           </div>
-        </div>
-        <div className="workflow-card">
-          <span>Weak areas to drill</span>
-          <div className="workflow-form">
-            <input type="text" placeholder="e.g. CSAT - inference RC" value={weakInput} onChange={(event) => setWeakInput(event.target.value)} onKeyDown={(event) => event.key === "Enter" && addWeakArea()} />
-            <button className="mini-btn solid" onClick={addWeakArea}>Add</button>
+        </article>
+
+        <article className="workflow-card workflow-focus-card">
+          <span>Today’s focus from the plan</span>
+          <h3>{new Date().toLocaleDateString("en-GB", { weekday: "long" })}</h3>
+          <div className="workflow-focus">
+            {focusBlocks.map((block) => <b key={block}>{block}</b>)}
           </div>
-          <div className="workflow-list">
-            {weakAreas.length ? weakAreas.map((area, index) => (
-              <div className="workflow-row" key={`${area}-${index}`}><em>{area}</em><button className="mini-btn" onClick={() => saveWeakAreas(weakAreas.filter((_, itemIndex) => itemIndex !== index))}>remove</button></div>
-            )) : <p className="workflow-empty">Nothing yet. Add weak topics as mocks reveal them.</p>}
+          <div className="workflow-phase-strip">
+            {kpis.slice(0, 4).map(([label, value]) => (
+              <div key={label}>
+                <span>{label}</span>
+                <strong>{value}</strong>
+              </div>
+            ))}
           </div>
-        </div>
+        </article>
       </div>
 
-      <div className="workflow-card">
-        <span>Syllabus coverage - {coveragePercent}% overall</span>
-        <div className="workflow-syllabus">
-          {coverageRows.map(([subject, items]) => {
-            const done = items.filter((item) => coverage[`${subject}||${item}`]).length;
-            return (
-              <details className="workflow-subject" key={subject}>
-                <summary><strong>{subject}</strong><em>{done}/{items.length}</em></summary>
-                <div className="workflow-checks compact">
-                  {items.map((item) => <label key={item}><input type="checkbox" checked={Boolean(coverage[`${subject}||${item}`])} onChange={() => toggleCoverage(subject, item)} />{item}</label>)}
-                </div>
-              </details>
-            );
-          })}
-        </div>
+      <div className="workflow-grid">
+        <article className="workflow-card">
+          <span>Reading stack</span>
+          <div className="workflow-read-list">
+            {readingStack.length ? readingStack.map((item) => (
+              <button key={item.key} className="workflow-read-item" onClick={item.action}>
+                <span>
+                  <em>{item.label}</em>
+                  <strong>{item.title}</strong>
+                </span>
+                <Icon name="arrowR" size={15} />
+              </button>
+            )) : <p className="workflow-empty">No notes available yet.</p>}
+          </div>
+        </article>
+
+        <article className="workflow-card">
+          <span>Recent material days</span>
+          <div className="workflow-day-list">
+            {recentDates.map((isoDate) => (
+              <button key={isoDate} className="workflow-day-item" onClick={() => openDate(isoDate)}>
+                <span>
+                  <strong>{workflowFmt(isoDate)}</strong>
+                  <em>{materialCountForDate(isoDate)} materials available</em>
+                </span>
+                <Icon name="calendar" size={16} />
+              </button>
+            ))}
+          </div>
+        </article>
       </div>
 
-      <div className="workflow-card">
-        <span>Mock score tracker</span>
-        <div className="workflow-form">
-          <input type="date" value={mockForm.date} onChange={(event) => setMockForm({ ...mockForm, date: event.target.value })} />
-          <select value={mockForm.type} onChange={(event) => setMockForm({ ...mockForm, type: event.target.value })}>
-            {["Prelims (full)", "Prelims (sectional)", "CSAT", "Monthly mini-mock", "Physics", "RBI", "SSC"].map((type) => <option key={type}>{type}</option>)}
-          </select>
-          <input type="number" min="0" placeholder="score" value={mockForm.score} onChange={(event) => setMockForm({ ...mockForm, score: event.target.value })} />
-          <input type="number" min="1" placeholder="max" value={mockForm.max} onChange={(event) => setMockForm({ ...mockForm, max: event.target.value })} />
-          <button className="mini-btn solid" onClick={addMock}>Log</button>
-        </div>
-        <WorkflowTrend mocks={sortedMocks} />
-        <div className="workflow-table">
-          {sortedMocks.length ? sortedMocks.map((mock) => (
-            <div className="workflow-row" key={mock.id}>
-              <em>{workflowFmt(mock.date)} · {mock.type}</em>
-              <strong>{mock.score}/{mock.max} · {Math.round((mock.score / mock.max) * 100)}%</strong>
-              <button className="mini-btn" onClick={() => saveMocks(mocks.filter((item) => item.id !== mock.id))}>x</button>
-            </div>
-          )) : <p className="workflow-empty">No scores logged yet.</p>}
-        </div>
-      </div>
+      <article className="workflow-card workflow-routing">
+        <span>How this page decides</span>
+        <p>Daily quiz first, then the newest current-affairs read, PIB check, CSAT drill, Mains prompt, and long mock. Completion comes from attempts already saved in Progress.</p>
+      </article>
     </section>
   );
 }
