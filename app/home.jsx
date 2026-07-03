@@ -89,6 +89,83 @@ function noteCalendarLabel(doc) {
   return labels[doc.cadence] || "Note";
 }
 
+function latestDatedItem(items, dateKey, todayIso) {
+  return [...items]
+    .filter((item) => item && item[dateKey] && item[dateKey] <= todayIso)
+    .sort((a, b) => String(b[dateKey]).localeCompare(String(a[dateKey])))[0] || null;
+}
+
+function HeroStudyDesk({ go, progress }) {
+  const ds = window.UPSC;
+  const daily = ds.dailyQuiz;
+  const dailySet = daily?.questionSetId ? ds.getQuestionSetById(daily.questionSetId) : null;
+  const pibSet = latestDatedItem(ds.getQuestionSetsBySource("pib"), "isoDate", ds.todayIso);
+  const rcSet = daily?.isoDate ? latestDatedItem(ds.getQuestionSetsBySource("rc"), "isoDate", ds.todayIso) : null;
+  const latestBrief = latestDatedItem(ds.noteDocuments.filter((doc) => doc.cadence === "daily"), "date", ds.todayIso);
+  const dailyDone = Boolean(progress.dailyCompletions?.[daily?.isoDate]);
+  const items = [
+    dailySet && {
+      key: "daily",
+      label: dailyDone ? "Daily done" : "Daily pending",
+      title: dailySet.shortLabel || "Daily quiz",
+      meta: `${dailySet.questionCount || 0}Q · ${dailySet.durationMinutes || 10}m`,
+      icon: "bolt",
+      tone: dailyDone ? "done" : "active",
+      action: () => go("test", { setId: dailySet.id }),
+    },
+    latestBrief && {
+      key: "brief",
+      label: "Latest briefing",
+      title: latestBrief.shortTitle || formatIsoDate(latestBrief.date),
+      meta: "Current affairs",
+      icon: "book",
+      tone: "note",
+      action: () => window.dispatchEvent(new CustomEvent("pariksha:open-note", { detail: { id: latestBrief.id } })),
+    },
+    pibSet && {
+      key: "pib",
+      label: "PIB check",
+      title: pibSet.shortLabel || "PIB quiz",
+      meta: `${pibSet.questionCount || 0}Q · ${pibSet.durationMinutes || 10}m`,
+      icon: "play",
+      tone: "active",
+      action: () => go("test", { setId: pibSet.id }),
+    },
+    rcSet && {
+      key: "rc",
+      label: "CSAT RC",
+      title: rcSet.shortLabel || "RC drill",
+      meta: `${rcSet.questionCount || 0}Q · ${rcSet.durationMinutes || 8}m`,
+      icon: "target",
+      tone: "note",
+      action: () => go("test", { setId: rcSet.id }),
+    },
+  ].filter(Boolean);
+
+  if (!items.length) return null;
+
+  return (
+    <div className="hero-desk">
+      <div className="hero-desk-head">
+        <span>Today’s desk</span>
+        <strong>{formatIsoDate(ds.todayIso, { day: "2-digit", month: "short" })}</strong>
+      </div>
+      <div className="hero-desk-grid">
+        {items.map((item) => (
+          <button key={item.key} className={`hero-desk-item ${item.tone}`} onClick={item.action}>
+            <span className="hero-desk-icon"><Icon name={item.icon} size={15} /></span>
+            <span className="hero-desk-copy">
+              <em>{item.label}</em>
+              <strong>{item.title}</strong>
+              <small>{item.meta}</small>
+            </span>
+          </button>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 function HeroCalendar({ go, progress }) {
   const ds = window.UPSC;
   const today = ds.todayIso;
@@ -1259,6 +1336,7 @@ function Home({ go, progress, summary }) {
               with score tracking that quietly shows you what to revise next.
             </p>
             <ExamSwitcher />
+            <HeroStudyDesk go={go} progress={progress} />
           </div>
           <HeroCalendar go={go} progress={progress} />
         </div>
