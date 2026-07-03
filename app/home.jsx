@@ -29,28 +29,175 @@ function formatIsoDate(isoDate, options = { day: "2-digit", month: "short", year
   return new Intl.DateTimeFormat("en-GB", { ...options, timeZone: "UTC" }).format(new Date(Date.UTC(year, month - 1, day)));
 }
 
+function calendarMonthKey(isoDate) {
+  return String(isoDate || "").slice(0, 7);
+}
+
+function calendarMonthIndex(year, month) {
+  return (Number(year) * 12) + Number(month);
+}
+
+function calendarCompareMonth(a, b) {
+  const [ay, am] = String(a || "").split("-").map(Number);
+  const [by, bm] = String(b || "").split("-").map(Number);
+  return calendarMonthIndex(ay || 0, am || 0) - calendarMonthIndex(by || 0, bm || 0);
+}
+
+function calendarShiftMonth(monthKey, delta) {
+  const [year, month] = String(monthKey || "").split("-").map(Number);
+  const date = new Date(Date.UTC(year || 1970, (month || 1) - 1 + delta, 1));
+  return `${date.getUTCFullYear()}-${String(date.getUTCMonth() + 1).padStart(2, "0")}`;
+}
+
+function calendarIsoFromMonthDay(monthKey, day) {
+  return `${monthKey}-${String(day).padStart(2, "0")}`;
+}
+
+function questionSetCalendarLabel(set) {
+  const category = String(set.category || "");
+  if (set.sourceType === "daily") return "Daily quiz";
+  if (set.sourceType === "pib") return "PIB quiz";
+  if (set.sourceType === "rc") return "RC drill";
+  if (set.sourceType === "weekly-quiz") return "Weekly quiz";
+  if (set.sourceType === "weekly-news") return "Places quiz";
+  if (set.sourceType === "sectional") return "Sectional test";
+  if (set.sourceType === "csat") return category.includes("Full") ? "CSAT mock" : "CSAT practice";
+  if (category.includes("Full Mock")) return "GS full mock";
+  if (category.includes("Monthly")) return "Monthly mock";
+  return "Practice set";
+}
+
+function noteCalendarLabel(doc) {
+  const labels = {
+    daily: "CA briefing",
+    pib: "PIB note",
+    mains: "Mains practice",
+    editorials: "Editorials",
+    monthly: "Monthly note",
+    rc: "RC note",
+    sunday: "Sunday plan",
+    anki: "Flashcards",
+    physics: "Physics note",
+    "weekly-csat": "CSAT note",
+    "weekly-news": "Places note",
+    schemes: "Schemes note",
+    sectional: "Sectional note",
+    fodder: "Fodder bank",
+    ethics: "Ethics case",
+    strategy: "Strategy note",
+  };
+  return labels[doc.cadence] || "Note";
+}
+
 function HeroCalendar({ go, progress }) {
   const ds = window.UPSC;
   const today = ds.todayIso;
-  const dailySets = ds.getQuestionSetsBySource("daily");
-  const dailyByDate = new Map(dailySets.map((set) => [set.isoDate, set]));
   const done = progress.dailyCompletions || {};
-  const [year, month] = today.split("-").map(Number);
+  const materialsByDate = React.useMemo(() => {
+    const map = new Map();
+    function add(isoDate, item) {
+      if (!isoDate) return;
+      if (!map.has(isoDate)) map.set(isoDate, []);
+      map.get(isoDate).push(item);
+    }
+    ds.questionSets.forEach((set) => {
+      if (!set.isoDate) return;
+      add(set.isoDate, {
+        type: "test",
+        id: set.id,
+        title: set.label,
+        label: questionSetCalendarLabel(set),
+        meta: `${set.questionCount || 0} questions · ${set.durationMinutes || 0} min`,
+        sourceType: set.sourceType,
+      });
+    });
+    ds.noteDocuments.forEach((doc) => {
+      if (!doc.date) return;
+      add(doc.date, {
+        type: "note",
+        id: doc.id,
+        title: doc.title,
+        label: noteCalendarLabel(doc),
+        meta: doc.shortTitle && doc.shortTitle !== formatIsoDate(doc.date) ? doc.shortTitle : "Read note",
+        cadence: doc.cadence,
+      });
+    });
+    for (const [isoDate, items] of map.entries()) {
+      map.set(isoDate, items.sort((a, b) => {
+        if (a.type !== b.type) return a.type === "test" ? -1 : 1;
+        return String(a.label).localeCompare(String(b.label));
+      }));
+    }
+    return map;
+  }, [ds.questionSets, ds.noteDocuments]);
+  const materialDates = React.useMemo(() => [...materialsByDate.keys()].sort(), [materialsByDate]);
+  const latestLoadedDate = [...materialDates].reverse().find((iso) => iso <= today) || materialDates[materialDates.length - 1] || today;
+  const initialMonth = calendarMonthKey(latestLoadedDate);
+  const [viewMonth, setViewMonth] = useStateHome(initialMonth);
+  const [selectedDate, setSelectedDate] = useStateHome(latestLoadedDate);
+  const latestLoadedRef = React.useRef(latestLoadedDate);
+  const [year, month] = viewMonth.split("-").map(Number);
   const first = new Date(Date.UTC(year, month - 1, 1));
   const daysInMonth = new Date(Date.UTC(year, month, 0)).getUTCDate();
   const blanks = Array.from({ length: first.getUTCDay() });
-  const todaySet = dailyByDate.get(today);
-  const latestDaily = [...dailySets].filter((set) => set.isoDate).sort((a, b) => b.isoDate.localeCompare(a.isoDate))[0];
   const monthLabel = new Intl.DateTimeFormat("en-GB", { month: "long", year: "numeric", timeZone: "UTC" }).format(first);
-  const status = todaySet
-    ? done[today] ? "Today’s daily quiz is complete." : "Today’s daily quiz is pending."
-    : latestDaily ? `Latest loaded: ${formatIsoDate(latestDaily.isoDate)}.` : "No daily quiz loaded yet.";
+  const selectedMaterials = materialsByDate.get(selectedDate) || [];
+  const selectedDaily = selectedMaterials.find((item) => item.type === "test" && item.sourceType === "daily");
+  const selectedStatus = selectedMaterials.length
+    ? `${formatIsoDate(selectedDate)} · ${selectedMaterials.length} ${selectedMaterials.length === 1 ? "material" : "materials"}`
+    : `${formatIsoDate(selectedDate)} · no materials loaded`;
+  const minMonth = calendarMonthKey(materialDates[0] || today);
+  const maxMonth = calendarMonthKey(materialDates[materialDates.length - 1] || today);
+  const canGoPrev = calendarCompareMonth(viewMonth, minMonth) > 0;
+  const canGoNext = calendarCompareMonth(viewMonth, maxMonth) < 0;
+
+  function materialDatesForMonth(monthKey) {
+    return materialDates.filter((iso) => calendarMonthKey(iso) === monthKey);
+  }
+
+  function moveMonth(delta) {
+    const nextMonth = calendarShiftMonth(viewMonth, delta);
+    const monthDates = materialDatesForMonth(nextMonth);
+    setViewMonth(nextMonth);
+    setSelectedDate(monthDates[delta < 0 ? monthDates.length - 1 : 0] || `${nextMonth}-01`);
+  }
+
+  function openMaterial(item) {
+    if (item.type === "test") {
+      go("test", { setId: item.id });
+      return;
+    }
+    window.dispatchEvent(new CustomEvent("pariksha:open-note", { detail: { id: item.id } }));
+  }
+
+  function jumpToLatest() {
+    setViewMonth(calendarMonthKey(latestLoadedDate));
+    setSelectedDate(latestLoadedDate);
+  }
+
+  useEffectHome(() => {
+    if (latestLoadedRef.current !== latestLoadedDate) {
+      if (selectedDate === latestLoadedRef.current) {
+        setViewMonth(calendarMonthKey(latestLoadedDate));
+        setSelectedDate(latestLoadedDate);
+      }
+      latestLoadedRef.current = latestLoadedDate;
+    }
+  }, [latestLoadedDate, selectedDate]);
 
   return (
     <aside className="hero-calendar">
       <div className="hero-calendar-head">
         <span className="eyebrow small"><span className="eyebrow-line" /> Daily tracker</span>
-        <h2>{monthLabel}</h2>
+        <div className="calendar-title-row">
+          <button className="calendar-nav" onClick={() => moveMonth(-1)} disabled={!canGoPrev} aria-label="Previous month">
+            <Icon name="arrowL" size={15} />
+          </button>
+          <h2>{monthLabel}</h2>
+          <button className="calendar-nav" onClick={() => moveMonth(1)} disabled={!canGoNext} aria-label="Next month">
+            <Icon name="arrowR" size={15} />
+          </button>
+        </div>
       </div>
       <div className="calendar-card">
         <div className="calendar-weekdays">
@@ -60,24 +207,42 @@ function HeroCalendar({ go, progress }) {
           {blanks.map((_, index) => <span key={`blank-${index}`} className="cal-day blank" />)}
           {Array.from({ length: daysInMonth }).map((_, index) => {
             const day = index + 1;
-            const iso = `${year}-${String(month).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
-            const set = dailyByDate.get(iso);
+            const iso = calendarIsoFromMonthDay(viewMonth, day);
+            const materialCount = (materialsByDate.get(iso) || []).length;
             const complete = Boolean(done[iso]);
             return (
               <button
                 key={iso}
-                className={`cal-day${iso === today ? " today" : ""}${set ? " available" : ""}${complete ? " done" : ""}`}
-                disabled={!set}
-                onClick={() => set && go("test", { setId: set.id })}
-                title={set ? set.label : "No daily quiz"}>
+                className={`cal-day${iso === today ? " today" : ""}${iso === selectedDate ? " selected" : ""}${materialCount ? " available" : ""}${complete ? " done" : ""}`}
+                onClick={() => setSelectedDate(iso)}
+                title={materialCount ? `${materialCount} materials` : "No materials"}>
                 <span>{day}</span>
+                {materialCount > 0 && <i className="cal-count">{materialCount}</i>}
                 {complete && <Icon name="check" size={12} />}
               </button>
             );
           })}
         </div>
+        <div className="calendar-selected">
+          <div className="calendar-selected-head">
+            <strong>{selectedStatus}</strong>
+            <button className="calendar-today" onClick={jumpToLatest}>Latest</button>
+          </div>
+          <div className="calendar-materials">
+            {selectedMaterials.length ? selectedMaterials.map((item) => (
+              <button key={`${item.type}-${item.id}`} className={`calendar-material ${item.type}`} onClick={() => openMaterial(item)}>
+                <span>
+                  <em>{item.label}</em>
+                  <strong>{item.title}</strong>
+                  <small>{item.meta}</small>
+                </span>
+                <Icon name={item.type === "test" ? "play" : "book"} size={15} />
+              </button>
+            )) : <p>No notes or practice sets for this date.</p>}
+          </div>
+        </div>
       </div>
-      <p className="hero-calendar-foot">{status}</p>
+      <p className="hero-calendar-foot">{selectedDaily ? done[selectedDate] ? "Daily quiz complete for this date." : "Daily quiz pending for this date." : "Use the arrows to review earlier months."}</p>
     </aside>
   );
 }
