@@ -231,10 +231,12 @@ function HeroCalendar({ go, progress }) {
           <div className="calendar-materials">
             {selectedMaterials.length ? selectedMaterials.map((item) => (
               <button key={`${item.type}-${item.id}`} className={`calendar-material ${item.type}`} onClick={() => openMaterial(item)}>
-                <span>
-                  <em>{item.label}</em>
+                <span className="calendar-material-copy">
                   <strong>{item.title}</strong>
-                  <small>{item.meta}</small>
+                  <span className="calendar-material-meta">
+                    <em>{item.label}</em>
+                    <small>{item.meta}</small>
+                  </span>
                 </span>
                 <Icon name={item.type === "test" ? "play" : "book"} size={15} />
               </button>
