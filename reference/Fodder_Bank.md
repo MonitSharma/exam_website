@@ -83,3 +83,57 @@
 - **On health as wealth.** *"It is health that is real wealth and not pieces of gold and silver."* — widely attributed to Mahatma Gandhi (popular attribution; exact original source uncertain, so cite as "attributed"). *Use: health/well-being essays alongside the NFHS-6 item — flag the attribution honestly if quoting.*
 
 ---
+
+## Added 2026-07-03
+
+*Drawn from the week's daily current-affairs, PIB and editorial notes (27 June – 2 July 2026), cross-checked against primary reporting, plus standing general knowledge for the thinker-quotes.*
+
+### Governance & Polity
+
+- **The special-majority safeguard actually working — Constitution (131st Amendment) Bill, 2026 fails (1 July 2026).** The Bill (Lok Sabha ceiling raised to 850; de-linking the Women's Reservation Act's census trigger) needed a majority of total membership *and* two-thirds present-and-voting under Article 368; it got only **298 votes against the 352 needed**. The linked Delimitation Bill, 2026 (basing the next delimitation on the **2011 Census**) and the UT Laws Bill were consequently withdrawn. *Use: a live, rare illustration that Article 368's special majority is a real check, not a formality — pairs with the Kesavananda Bharati item below on the further, judicial layer of protection.*
+
+- **VB-G RAM G Act, 2025 in force — MGNREGA's biggest statutory overhaul since inception (1 July 2026).** The Viksit Bharat–Guarantee for Rozgar and Ajeevika Mission (Gramin) Act raises the statutory rural wage-employment guarantee from **100 to 125 days per household**, backed by an interim **₹95,692.31 crore** central allocation; places Gram Panchayats at the centre of planning (NRM, water conservation, rural infrastructure). *Use: rural-employment/social-security answers — a concrete "guarantee expanded by statute" example distinct from ad hoc scheme tweaks.*
+
+- **e-OCI + FCRA 2.0 — the citizenship-vs-registration governance pairing (June–July 2026).** The **e-OCI** digital card (QR-verifiable, replacing the physical booklet for 50+ lakh OCI holders; processing cut from 6–8 weeks to ~15 days) launched alongside the **FCRA 2.0 Portal** (API-based, AI-chatbot compliance for foreign-funded NGOs). *Use: a ready trap-corrective — OCI is **not** dual citizenship (no vote, no constitutional post, no agricultural-land purchase); also a clean "digital governance" pairing across two different citizenship-adjacent regimes.*
+
+### Economy & Development
+
+- **GST turns nine — ₹7.4 lakh crore (2017-18) → ₹22.27 lakh crore (2025-26) (1 July 2026).** Taxpayer base grew from **66.5 lakh to 1.65 crore**; "GST 2.0" rate rationalisation (effective Sept 2025) collapsed the five-slab structure to mainly **two slabs — 5% and 18% — with a 40% rate for luxury/sin goods**. *Use: the single best "anniversary" data string for indirect-tax and fiscal-federalism answers; cross-link Article 246A/269A/279A and the GST Council's 1/3-Centre : 2/3-States weighted-vote structure.*
+
+- **The pharma-API paradox — 65% China dependence despite being the "pharmacy of the world" (NITI Aayog Trade Watch Quarterly, 8th ed.).** India's pharma+API exports reached **USD 35.8 billion**, yet it still sources **~65% of critical APIs/Key Starting Materials from China**, risk concentrated in fermentation-based products. NITI Aayog recommends dedicated pharma chapters in future FTAs. *Use: the standard "industrial policy builds footholds, not instant resilience" illustration — the same parallel a July 2026 Hindu op-ed drew for India's AI strategy (see Sci-Tech below).*
+
+### Environment & Sustainability
+
+- **India becomes the first country with a complete taxonomic checklist of its own fauna (ZSI, 1 July 2026 — 111th Foundation Day).** The **Fauna of India Checklist Portal** catalogues **1,05,953 species** across 121 checklists/36 phyla; 2025 alone added **709 new faunal records** (483 new-to-science, 226 new-to-India), Kerala leading states with 98 discoveries. *Use: a quotable "megadiverse and now fully catalogued" statistic for biodiversity/Society answers; pairs ZSI (1916, Kolkata, fauna) against BSI (1890, Kolkata, flora) as a comparison row.*
+
+- **Tungabhadra dam — cooperative federalism repairing itself in ~123 days (25 June 2026 inauguration).** After Crest Gate No. 19 washed away on 10 Aug 2024 (dam's first structural failure in ~70 years), all **33 gates were replaced in ~123 days for ₹51 crore**, restoring the **105 TMC** storage; Karnataka, Telangana and Andhra Pradesh's Chief Ministers jointly inaugurated it. Sharing is fixed by the **Krishna Water Disputes Tribunal (1969) at 65:35** via the standing **Tungabhadra Board (1953)**. *Use: contrast with the long-running Cauvery dispute as a "tribunal formula + standing joint board = durable cooperation" case study; also flag reservoir capacity falling **133→106 TMC from siltation** as a live desilting-neglect data point.*
+
+### Society & Social Justice
+
+- **NFHS-6's "double burden" of malnutrition (2023-24).** Child stunting eased (**35.5%→32.8%**) and underweight children fell (**32.1%→29.2%**), even as adult obesity and lifestyle disease climbed sharply — women's overweight/obesity **24.0%→30.7%**, women's diabetes/high blood sugar **13.5%→17.8%**. *Use: India is fighting undernutrition and a rising NCD epidemic simultaneously — a sharper, updated companion to the "access-outcomes" NFHS-6 item already in this bank; cross-link POSHAN Abhiyaan (child side) against NCD-screening/Ayushman Bharat (adult side).*
+
+- **India's adolescent anxiety surge — GBD/Lancet analysis (June 2026).** Anxiety disorders rose **~123% (1990–2023)**, with the burden now **peaking among 15–19-year-olds** — a demographic-dividend cohort. Governance scaffold: **Mental Healthcare Act, 2017** (decriminalised attempted suicide; right to mental healthcare) and **Tele-MANAS** (24×7 tele-mental-health, 2022). *Use: pairs powerfully with the World Bank's "11 million youth/year" demographic-dividend figure already in this bank — the dividend is arriving with a mental-health cost attached.*
+
+### Science / Tech & its Ethics
+
+- **The "diffusion-dependence paradox" — Anthropic's access suspension and India's sovereign-AI dilemma (12 June–1 July 2026).** The US Commerce Department directed Anthropic to suspend foreign-national access to its frontier models on national-security grounds, showing how abruptly a country can be cut off from frontier AI it doesn't control. India's Gross Expenditure on R&D is only **~0.6% of GDP** (private share ~36–41%, vs 70–79% in the US/China/South Korea); one company (OpenAI) is projected to spend **~$50 billion** on compute this year alone — over 6× India's entire annual private R&D spend. *Use: the sharpest available essay/GS3 hook on technology and strategic autonomy — "use foreign frontier tech now, build backward/forward linkages for later" — and a caution that stable access itself cannot be assumed.*
+
+- **World's first nuclear-heat hydrogen plant — Cu-Cl thermochemical cycle at IGCAR, Kalpakkam (26 June 2026).** Indigenous (BARC-developed) technology splits water using **heat from the Fast Breeder Test Reactor** rather than electrolysis — carbon-free, higher thermodynamic efficiency, ties India's **three-stage nuclear programme** directly to the **National Green Hydrogen Mission**. *Use: a clean "old strength, new mission" convergence example — nuclear R&D capability repurposed for the energy transition; also introduces "pink hydrogen" as a third category alongside green/grey.*
+
+### International Relations
+
+- **The India–Japan partnership ladder, rung by rung — 16th Annual Summit (1–3 July 2026).** Global Partnership (**2000**) → Strategic and Global Partnership (**2006**) → Special Strategic and Global Partnership (**2014**, Modi–Abe) → 16th Summit yields **~$12.5 billion** in committed Japanese investment (~120 agreements, 150+ firms) plus twin declarations on **Economic Security** and **AI Cooperation**, and an agreed 2+2 Ministerial before end-2026. *Use: the cleanest "evolution of a bilateral partnership" timeline in current IR fodder — reusable for any "India's Indo-Pacific partnerships" answer.*
+
+- **Missile asymmetry on the LAC — the case for an Integrated Rocket Force (Op-Ed, The Hindu, 30 June 2026).** China's **PLA Rocket Force** became a full service branch on **31 December 2015** and fields systems up to the DF-26 opposite India's Western Theatre Command; India's own **Integrated Rocket Force** (first proposed by Gen. Bipin Rawat, 2021) remains conceptual, with only the short-range **Pralay** missile (150–500 km, approved 2023) actually inducted. *Use: a sharp institutional-asymmetry comparison for India–China security answers; also carries a built-in counter-argument — pre-delegated strike authority risks eroding civilian control over escalatory decisions, a useful balancing point.*
+
+### Ethics & Philosophy (thinkers & quotes)
+
+- **Kesavananda Bharati v. State of Kerala (1973) — the basic-structure doctrine.** The majority view (CJI Sikri's summary) held that *"Article 368 does not enable Parliament to alter the basic structure or framework of the Constitution."* (Paraphrase of the certified majority proposition, not a single verbatim sentence — cite as the Court's holding, 7-6 majority.) *Use: the judicial complement to the special-majority safeguard — even a Bill that clears Article 368's numerical threshold remains subject to this substantive limit; pairs directly with the 131st Amendment Bill item above.* (Verified.)
+
+- **Aristotle (Politics, Book I, 1253a):** *"The city-state is a natural growth, and man is by nature a political animal."* *Use: governance/citizenship and social-contract essays — a classical anchor for why cooperative institutions (e.g., the Tungabhadra Board) are not an artificial imposition on human nature but an expression of it.* (Verified — Jowett/Rackham translations.)
+
+### Essay-ready quotes & anecdotes
+
+- **Two rebellions, one memory.** The Santhal Hul of **30 June 1855** — led by siblings Sidhu, Kanhu, Chand, Bhairav, Phulo and Jhano Murmu, mobilising ~10,000 Santhals from Bhognadih village — predates the 1857 Revolt by two years, yet 1857 dominates the national memory. *Use: an essay opener on selective historical memory, tribal agency, and who gets remembered as a "freedom fighter"; note the aftermath — colonial creation of the separate Santhal Pargana district.*
+
+---
