@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the Employees' Provident Fund (EPF) Scheme, 2026, notified by the Central Government, consider the following statements: 1. It replaces the EPF Scheme, 1952, and has been notified under the Code on Social Security, 2020. 2. The mandatory EPF contribution rate has been raised from 12% to 15% of wages. 3. The scheme places strong emphasis on electronic filings, e-passbooks and Universal Account Number (UAN) linkage. How many of the statements given above are correct?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All three",
+      "(d) None"
+    ],
+    "answer": "(b)",
+    "explanation": "Statements 1 and 3 are correct — the EPF Scheme, 2026 replaces the 1952 Scheme under the Code on Social Security, 2020, with strong emphasis on digital compliance (e-filings, e-passbooks, UAN linkage). Statement 2 is wrong: the mandatory contribution rate remains unchanged at 12% of wages each from employer and employee (10% continues for notified establishments).",
+    "subject": "Economy",
+    "theme": "Labour Codes & Social Security Reform",
+    "micro_topic": "EPF Scheme, 2026 / Code on Social Security, 2020",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements about MANAS (Madak Padarth Nishedh Asoochna Kendra): 1. It is the National Narcotics Helpline operated by the Narcotics Control Bureau under the Ministry of Home Affairs. 2. It can be accessed via helpline 1933, a web portal, and the UMANG app. 3. Counselling requests received on MANAS are transferred to the Ministry of Social Justice & Empowerment's Helpline 14446. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three statements are correct. MANAS is administered by the NCB under the Ministry of Home Affairs, is accessible via helpline 1933, a web portal and the UMANG app, and routes counselling requests to the Ministry of Social Justice & Empowerment's Helpline 14446.",
+    "subject": "Internal Security",
+    "theme": "Anti-Narcotics Digital Architecture",
+    "micro_topic": "MANAS Helpline / NCORD Mechanism",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The \"Strategic Roadmap for Making Ayurveda Global,\" released by NITI Aayog in July 2026, is built around which three-pillar framework?",
+    "options": [
+      "(a) Access, Affordability, Accountability",
+      "(b) Availability, Acceptability, Propagation",
+      "(c) Production, Promotion, Protection",
+      "(d) Research, Regulation, Revenue"
+    ],
+    "answer": "(b)",
+    "explanation": "NITI Aayog's report, prepared with the Ministry of Ayush and PwC, is structured around Availability, Acceptability and Propagation to guide Ayurveda's global expansion in workforce, exports, research, regulatory alignment and medical value travel, aligned with the Viksit Bharat@2047 vision.",
+    "subject": "Reports & Indices",
+    "theme": "Traditional Medicine & Global Soft Power",
+    "micro_topic": "NITI Aayog Ayurveda Global Roadmap",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]

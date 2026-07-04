@@ -12,6 +12,24 @@
   ],
   "questionSets": [
     {
+      "id": "daily_questions_2026_07_03",
+      "label": "Daily Questions - 03 Jul 2026",
+      "shortLabel": "Daily 03 Jul",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-07-03.json",
+      "isoDate": "2026-07-03",
+      "subjects": [
+        "Polity & Governance",
+        "Science & Technology",
+        "Geography",
+        "International Relations",
+        "Internal Security"
+      ]
+    },
+    {
       "id": "daily_questions_2026_07_02",
       "label": "Daily Questions - 02 Jul 2026",
       "shortLabel": "Daily 02 Jul",
@@ -626,6 +644,22 @@
       ]
     },
     {
+      "id": "pib_questions_2026_07_03",
+      "label": "PIB Questions - 03 Jul 2026",
+      "shortLabel": "PIB 03 Jul",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-07-03.json",
+      "isoDate": "2026-07-03",
+      "subjects": [
+        "Economy",
+        "Internal Security",
+        "Reports & Indices"
+      ]
+    },
+    {
       "id": "pib_questions_2026_07_02",
       "label": "PIB Questions - 02 Jul 2026",
       "shortLabel": "PIB 02 Jul",
@@ -997,6 +1031,21 @@
       "isoDate": "2026-06-13",
       "subjects": [
         "Geography"
+      ]
+    },
+    {
+      "id": "weekly_quiz_2026_07_03",
+      "label": "Weekly Recall Quiz - 03 Jul 2026",
+      "shortLabel": "Weekly Quiz 03 Jul",
+      "category": "Weekly Quiz",
+      "sourceType": "weekly-quiz",
+      "questionCount": 20,
+      "durationMinutes": 30,
+      "path": "generated_data/weekly_quiz_questions/2026-07-03.json",
+      "isoDate": "2026-07-03",
+      "subjects": [
+        "Current Affairs",
+        "Ancient & Medieval History & Art/Culture"
       ]
     },
     {
@@ -1573,6 +1622,14 @@
       "path": "anki/Prelims_Flashcards_2026-06-21.txt"
     },
     {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-07-03",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "03 Jul 2026",
+      "date": "2026-07-03",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-07-03.md"
+    },
+    {
       "id": "daily-daily-current-affairs-upsc-ca-2026-07-02",
       "cadence": "daily",
       "title": "UPSC Daily CA Briefing",
@@ -1979,6 +2036,14 @@
       "shortTitle": "10 Jun",
       "date": "2026-06-10",
       "path": "weekly/Physics/Physics_Drill_2026-06-10.md"
+    },
+    {
+      "id": "daily-daily-pib-pib-2026-07-03",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 03 Jul",
+      "date": "2026-07-03",
+      "path": "daily/daily_pib/PIB_2026-07-03.md"
     },
     {
       "id": "daily-daily-pib-pib-2026-07-02",

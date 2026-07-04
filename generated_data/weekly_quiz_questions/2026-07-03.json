@@ -1,0 +1,618 @@
+[
+  {
+    "id": "weekly_quiz_2026_07_03_1",
+    "question_number": 1,
+    "question": "With reference to PM Modi's June 2026 State Visit to Seychelles, consider the following statements:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "All three"
+      },
+      {
+        "key": "d",
+        "text": "None"
+      }
+    ],
+    "explanation": "Explanation not available.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_03_2",
+    "question_number": 2,
+    "question": "In *Meenakshi Natarajan v. ECI* (June 2026), the Supreme Court held that:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Article 32 writs can stay an election if \"glaring\" illegality is shown"
+      },
+      {
+        "key": "b",
+        "text": "Article 329(b) bars judicial interference once an election process has begun; the only remedy is an election petition after the poll"
+      },
+      {
+        "key": "c",
+        "text": "The Election Commission alone can adjudicate nomination disputes"
+      },
+      {
+        "key": "d",
+        "text": "Rajya Sabha by-elections are outside the scope of Article 329(b)"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The Court held Article 329(b) bars writ interference once an election process has begun, with no exception even for \"glaring\" illegality; the only remedy is a post-poll election petition.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_03_3",
+    "question_number": 3,
+    "question": "Bangladesh became the 27th member of which India-led conservation body in June 2026, made significant by the two countries' shared Sundarbans tiger habitat?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Global Tiger Forum"
+      },
+      {
+        "key": "b",
+        "text": "International Big Cat Alliance (IBCA)"
+      },
+      {
+        "key": "c",
+        "text": "IUCN Species Survival Commission"
+      },
+      {
+        "key": "d",
+        "text": "Project Tiger Steering Committee"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Bangladesh joined the International Big Cat Alliance (HQ New Delhi) as its 27th member on 24 June 2026.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_03_4",
+    "question_number": 4,
+    "question": "ISRO's Semi-Cryogenic Engine (SE-2000), hot-tested in June 2026, is significant because it:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Will replace the LVM3's L110 liquid stage with a new SC120 stage using LOX + refined kerosene"
+      },
+      {
+        "key": "b",
+        "text": "Burns liquid hydrogen like a cryogenic engine"
+      },
+      {
+        "key": "c",
+        "text": "Is meant exclusively for the Gaganyaan crew module"
+      },
+      {
+        "key": "d",
+        "text": "Uses solid propellant for higher thrust"
+      }
+    ],
+    "answer": "a",
+    "explanation": "SE-2000 (LOX + refined kerosene) will power the new SC120 stage replacing the LVM3's L110 liquid stage; it is semi-cryogenic, not hydrogen-burning.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_03_5",
+    "question_number": 5,
+    "question": "\"Aarogya Setu 2.0\" and the \"National Health Claims Exchange (NHCX)\", launched in June 2026, function under which umbrella digital-health initiative?",
+    "options": [
+      {
+        "key": "a",
+        "text": "e-Sanjeevani"
+      },
+      {
+        "key": "b",
+        "text": "Ayushman Bharat Digital Mission (ABDM)"
+      },
+      {
+        "key": "c",
+        "text": "CoWIN platform"
+      },
+      {
+        "key": "d",
+        "text": "Integrated Health Information Platform (IHIP)"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Both were launched under the Ayushman Bharat Digital Mission (ABDM) umbrella, alongside the \"Ayushman Sarathi\" WhatsApp chatbot. 6. B — Only two. Statements 1 and 2 are correct. Statement 3 is wrong — rollout was deferred to 1 January 2027, not immediate.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_03_6",
+    "question_number": 6,
+    "question": "With reference to the RBI's digital-fraud compensation framework notified in June 2026, consider the following:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "All three"
+      },
+      {
+        "key": "d",
+        "text": "None"
+      }
+    ],
+    "explanation": "Explanation not available.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_03_7",
+    "question_number": 7,
+    "question": "The Constitution (131st Amendment) Bill, 2026 — which proposed raising the Lok Sabha's ceiling to 850 seats and de-linking the Women's Reservation Act's census trigger — failed in the Lok Sabha because:",
+    "options": [
+      {
+        "key": "a",
+        "text": "It required a simple majority and did not get one"
+      },
+      {
+        "key": "b",
+        "text": "It required a special majority under Article 368 (298 votes fell 54 short of the 352 needed)"
+      },
+      {
+        "key": "c",
+        "text": "The President withheld assent"
+      },
+      {
+        "key": "d",
+        "text": "It needed ratification by half the state legislatures, which was not obtained"
+      }
+    ],
+    "answer": "b",
+    "explanation": "It needed a special majority under Article 368 (majority of total membership + two-thirds present and voting); it secured only 298 of the 352 votes required. 8. D — 1, 2 and 3. GST 2.0 (effective 22 September 2025) created the 5%/18% structure with a 40% rate for luxury/sin goods.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_03_8",
+    "question_number": 8,
+    "question": "As GST completed nine years on 1 July 2026, which of the following statements about \"GST 2.0\" is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "explanation": "Explanation not available.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_03_9",
+    "question_number": 9,
+    "question": "The \"e-OCI\" card and \"FCRA 2.0 Portal\", launched by the Union Home Minister in late June/early July 2026, primarily relate to:",
+    "options": [
+      {
+        "key": "a",
+        "text": "A digital QR-based OCI credential and an API-based compliance portal for foreign-funded NGOs"
+      },
+      {
+        "key": "b",
+        "text": "Digital voter-ID cards for NRIs"
+      },
+      {
+        "key": "c",
+        "text": "A blockchain land-records system"
+      },
+      {
+        "key": "d",
+        "text": "A unified customs-clearance platform"
+      }
+    ],
+    "answer": "a",
+    "explanation": "e-OCI is a QR-code digital replacement for the physical OCI booklet; FCRA 2.0 is an API-based, AI-chatbot-enabled compliance portal for foreign-funded NGOs.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_03_10",
+    "question_number": 10,
+    "question": "The Zoological Survey of India's \"Fauna of India Checklist Portal\", released in July 2026, made India:",
+    "options": [
+      {
+        "key": "a",
+        "text": "The first country with a complete taxonomic checklist of its own fauna"
+      },
+      {
+        "key": "b",
+        "text": "The first country to sequence its entire faunal genome"
+      },
+      {
+        "key": "c",
+        "text": "A member of the IUCN Red List Committee"
+      },
+      {
+        "key": "d",
+        "text": "The host of the next World Wildlife Congress"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The portal (1,04,561 species across 121 checklists, 36 phyla) made India the first country with a complete taxonomic checklist of its own fauna.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_03_11",
+    "question_number": 11,
+    "question": "The Upper Yamuna River Board (UYRB) agreement — operationalised via a new SPV by Rajasthan and Haryana in 2026 — was originally signed in 1994 among Uttar Pradesh, Haryana, Himachal Pradesh, Rajasthan and:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Punjab"
+      },
+      {
+        "key": "b",
+        "text": "NCT of Delhi"
+      },
+      {
+        "key": "c",
+        "text": "Madhya Pradesh"
+      },
+      {
+        "key": "d",
+        "text": "Uttarakhand"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The 1994 UYRB agreement covers Uttar Pradesh, Haryana, Himachal Pradesh, Rajasthan and NCT of Delhi.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_03_12",
+    "question_number": 12,
+    "question": "\"MANAS\" (Madak Padarth Nishedh Asoochna Kendra), the national narcotics helpline in the news (PIB, 3 July 2026), is operated by which body?",
+    "options": [
+      {
+        "key": "a",
+        "text": "National Crime Records Bureau (NCRB)"
+      },
+      {
+        "key": "b",
+        "text": "Narcotics Control Bureau (NCB), Ministry of Home Affairs"
+      },
+      {
+        "key": "c",
+        "text": "Central Bureau of Narcotics"
+      },
+      {
+        "key": "d",
+        "text": "Ministry of Social Justice and Empowerment"
+      }
+    ],
+    "answer": "b",
+    "explanation": "MANAS is run by the Narcotics Control Bureau (NCB) under the Ministry of Home Affairs; helpline 1933, web portal, UMANG app. Part B — Ancient & Medieval History & Art/Culture",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_03_13",
+    "question_number": 13,
+    "question": "The \"Great Bath\", a key structure of the Indus Valley Civilization associated with ritual bathing, was found at:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Harappa"
+      },
+      {
+        "key": "b",
+        "text": "Mohenjo-daro"
+      },
+      {
+        "key": "c",
+        "text": "Lothal"
+      },
+      {
+        "key": "d",
+        "text": "Dholavira"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The Great Bath is at Mohenjo-daro (Sindh), a large watertight tank thought to be used for ritual bathing. 14. B — Only two. Statements 1 and 2 are correct (Prakrit/Brahmi is the norm; Kharosthi used in the north-west). Statement 3 is wrong — the Shahbazgarhi and Mansehra edicts are in Kharosthi, not Greek/Aramaic (the Greek-Aramaic bilingual edict is the separate Kandahar inscription).",
+    "subject": "Ancient & Medieval History & Art/Culture",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_03_14",
+    "question_number": 14,
+    "question": "With reference to Ashokan inscriptions, consider the following statements:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "All three"
+      },
+      {
+        "key": "d",
+        "text": "None"
+      }
+    ],
+    "explanation": "Explanation not available.",
+    "subject": "Ancient & Medieval History & Art/Culture",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_03_15",
+    "question_number": 15,
+    "question": "The Nalanda Mahavihara, a great centre of Buddhist learning, is traditionally held to have been founded/patronised chiefly under which dynasty?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Maurya"
+      },
+      {
+        "key": "b",
+        "text": "Gupta"
+      },
+      {
+        "key": "c",
+        "text": "Kushana"
+      },
+      {
+        "key": "d",
+        "text": "Pala"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Nalanda's major monastic and academic development is chiefly credited to Gupta-era patronage (with later expansion under Harsha and the Palas).",
+    "subject": "Ancient & Medieval History & Art/Culture",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_03_16",
+    "question_number": 16,
+    "question": "The philosopher-saint most associated with the doctrine of *Vishishtadvaita* (qualified non-dualism) within the Bhakti tradition was:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Adi Shankaracharya"
+      },
+      {
+        "key": "b",
+        "text": "Ramanuja"
+      },
+      {
+        "key": "c",
+        "text": "Madhvacharya"
+      },
+      {
+        "key": "d",
+        "text": "Basavanna"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Ramanuja propounded Vishishtadvaita (\"qualified non-dualism\"), distinct from Shankaracharya's Advaita and Madhvacharya's Dvaita.",
+    "subject": "Ancient & Medieval History & Art/Culture",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_03_17",
+    "question_number": 17,
+    "question": "Arrange the following Delhi Sultanate dynasties in chronological order:",
+    "options": [
+      {
+        "key": "a",
+        "text": "3 – 1 – 2 – 4"
+      },
+      {
+        "key": "b",
+        "text": "1 – 3 – 2 – 4"
+      },
+      {
+        "key": "c",
+        "text": "3 – 2 – 1 – 4"
+      },
+      {
+        "key": "d",
+        "text": "1 – 2 – 3 – 4"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Chronological order: Mamluk/Slave (1206) → Khilji (1290) → Tughlaq (1320) → Lodi (1451, after the brief Sayyid dynasty).",
+    "subject": "Ancient & Medieval History & Art/Culture",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_03_18",
+    "question_number": 18,
+    "question": "The Chishti silsila of Sufism, whose most famous shrine is at Ajmer, was founded in India by:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Nizamuddin Auliya"
+      },
+      {
+        "key": "b",
+        "text": "Khwaja Moinuddin Chishti"
+      },
+      {
+        "key": "c",
+        "text": "Baba Farid"
+      },
+      {
+        "key": "d",
+        "text": "Amir Khusrau"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Khwaja Moinuddin Chishti founded the Chishti order in India, with his dargah at Ajmer; Nizamuddin Auliya and Baba Farid were later Chishti saints.",
+    "subject": "Ancient & Medieval History & Art/Culture",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_03_19",
+    "question_number": 19,
+    "question": "The Buland Darwaza, built by Akbar to commemorate his Gujarat victory, forms part of which monument complex?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Agra Fort"
+      },
+      {
+        "key": "b",
+        "text": "Humayun's Tomb"
+      },
+      {
+        "key": "c",
+        "text": "Fatehpur Sikri"
+      },
+      {
+        "key": "d",
+        "text": "Red Fort"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The Buland Darwaza (\"Door of Victory\") is the grand gateway of the Jama Masjid at Fatehpur Sikri, Akbar's capital.",
+    "subject": "Ancient & Medieval History & Art/Culture",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_03_20",
+    "question_number": 20,
+    "question": "Which classical dance form is correctly paired with its state of origin?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Kathakali — Odisha"
+      },
+      {
+        "key": "b",
+        "text": "Mohiniyattam — Kerala"
+      },
+      {
+        "key": "c",
+        "text": "Kuchipudi — Tamil Nadu"
+      },
+      {
+        "key": "d",
+        "text": "Sattriya — Manipur"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Mohiniyattam originates in Kerala. (Kathakali is also Kerala, not Odisha; Kuchipudi is Andhra Pradesh, not Tamil Nadu; Sattriya is Assam, not Manipur.) Part C — Recall Prompts R1. The Constitution (131st Amendment) Bill, 2026 needed the Article 368 special majority (total membership + two-thirds present and voting) but secured only 298 of the 352 votes required, falling 54 votes short. R2. GST 2.0 (from 22 September 2025) collapsed most slabs into a 5%/18% structure with a 40% rate for luxury/sin goods, and gross annual GST collections have grown from ~Rs 7.4 lakh crore (2017-18) to ~Rs 22.27 lakh crore (2025-26). --- *Scoring guide: 16–20 strong recall · 11–15 revise weak areas · ≤10 re-read this week's CA + PIB digests and the Ancient/Medieval History & Culture chapters. Next week's static subject: Geography.*",
+    "subject": "Ancient & Medieval History & Art/Culture",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  }
+]
