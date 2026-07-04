@@ -1,0 +1,50 @@
+[
+  {
+    "question": "Consider the following statements regarding the \"Modified UDAN Scheme\" launched on 4 July 2026:\n1. It has a total outlay of approximately ₹28,840 crore spread over the next 10 years.\n2. It targets the development of 100 aerodromes and 200 helipads.\n3. It is being implemented for the first time, replacing an earlier scheme that had no regional connectivity component.\n\nHow many of the above statements are correct?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All three",
+      "(d) None"
+    ],
+    "answer": "(b)",
+    "explanation": "Statements 1 and 2 are correct (₹28,840 crore over 10 years; target of 100 aerodromes and 200 helipads). Statement 3 is incorrect — UDAN was originally launched in 2016 as India's Regional Connectivity Scheme; the 4 July 2026 event launched a modified/revamped version, not a first-time scheme.",
+    "subject": "Economy",
+    "theme": "Government Schemes",
+    "micro_topic": "Modified UDAN Scheme / Regional Connectivity",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "\"OSAT,\" seen in the news in the context of CG Semi's facility at Sanand, Gujarat, refers to:",
+    "options": [
+      "(a) Outsourced Semiconductor Assembly and Test",
+      "(b) Open Standard Automated Trading",
+      "(c) Overseas Strategic Assets Treaty",
+      "(d) Optical Sensor Array Technology"
+    ],
+    "answer": "(a)",
+    "explanation": "OSAT stands for Outsourced Semiconductor Assembly and Test — the assembly, testing and packaging stage of chip manufacturing (distinct from wafer fabrication), which CG Semi's Sanand plant undertakes under the India Semiconductor Mission.",
+    "subject": "Science & Technology",
+    "theme": "India Semiconductor Mission",
+    "micro_topic": "Semiconductor Manufacturing / OSAT",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the National Workshop on \"Tiger Re-introduction: Opportunities & Challenges\" held in June 2026, consider the following statements:\n1. It was inaugurated at Alwar, Rajasthan, the district in which Sariska Tiger Reserve is located.\n2. It was organised under the aegis of the National Tiger Conservation Authority (NTCA).\n3. A special session at the workshop revisited Project Cheetah.\n\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three statements are correct: the workshop was held at Alwar (Sariska Tiger Reserve's district), organised under NTCA, and included a special session on Project Cheetah, the world's first intercontinental large-carnivore reintroduction programme.",
+    "subject": "Environment",
+    "theme": "Wildlife Conservation",
+    "micro_topic": "Tiger Reintroduction / NTCA / Project Cheetah",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]

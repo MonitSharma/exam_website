@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to a Supreme Court ruling of July 2026 on gubernatorial remission powers, consider the following statements:\n1. A remission policy framed by a State Government under Article 161 can be overridden by a subsequent policy framed under Sections 432–433 of the CrPC.\n2. The Court held its 2021 ruling in State of Haryana v. Raj Kumar to be per incuriam.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 only",
+      "(c) Both 1 and 2",
+      "(d) Neither 1 nor 2"
+    ],
+    "answer": "(b)",
+    "explanation": "The Court held the opposite of statement 1: the Article 161 constitutional policy prevails over the later statutory CrPC policy. Statement 2 is correct — the 2021 Raj Kumar verdict was declared per incuriam for conflicting with the larger Bench in State of Haryana v. Jagdish (2010).",
+    "subject": "Polity & Governance",
+    "theme": "Executive clemency and gubernatorial powers",
+    "micro_topic": "Article 161 remission power vs statutory CrPC policy (SC, July 2026)",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "The Kanpur–Kabrai Greenfield Highway and the Dwarka Expressway–Nelson Mandela Marg Tunnel, recently cleared by the CCEA, are being developed respectively under which financing models?",
+    "options": [
+      "(a) HAM and BOT (Toll)",
+      "(b) BOT (Toll) and HAM",
+      "(c) EPC and BOT (Toll)",
+      "(d) HAM and EPC"
+    ],
+    "answer": "(b)",
+    "explanation": "The Kanpur–Kabrai Greenfield Highway (UP, ₹7,145.14 crore) is being developed under the BOT (Toll) model; the Dwarka Expressway–Nelson Mandela Marg Tunnel (Delhi, ₹6,969.67 crore) is under the Hybrid Annuity Model (HAM).",
+    "subject": "Economy",
+    "theme": "Infrastructure financing models",
+    "micro_topic": "CCEA highway approvals July 2026 (BOT vs HAM)",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Consider the following statements regarding the Sustainable Development Report 2026:\n1. It is released by the UN Sustainable Development Solutions Network.\n2. India recorded its highest-ever rank of 94 out of 167 countries.\n3. India's rank has fallen since 2015 due to a growing hunger crisis.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Statement 3 is incorrect: India's rank has actually improved, climbing 18 places from 112th in 2015 to 94th in 2026, even though the domestic hunger crisis (SDG 2) remains a stagnating challenge.",
+    "subject": "Reports & Indices",
+    "theme": "Global sustainability reports",
+    "micro_topic": "Sustainable Development Report 2026 (SDSN) – India's rank and score",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Simen River (in the news in July 2026 for a railway-bridge collapse caused by riverbank erosion) and Dhemaji district are located in which of the following states?",
+    "options": [
+      "(a) Arunachal Pradesh",
+      "(b) Assam",
+      "(c) Meghalaya",
+      "(d) Sikkim"
+    ],
+    "answer": "(b)",
+    "explanation": "Dhemaji is a district of Assam; the partial collapse of a railway bridge over the Simen River due to riverbank erosion occurred there during the first big monsoon flood wave of 2026.",
+    "subject": "Geography",
+    "theme": "Brahmaputra basin flood geography",
+    "micro_topic": "2026 Northeast India monsoon floods (Assam, Arunachal Pradesh)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "PM Modi's July 2026 three-nation tour (Indonesia, Australia, New Zealand) is expected to see progress on which of the following India–Australia items?\n1. A commercial uranium-supply arrangement under the 2014 Civil Nuclear Cooperation Agreement\n2. Renewal of the 2009 Joint Declaration on Defence and Security Cooperation\n3. A Maritime Security Collaboration Roadmap for \"white shipping\" data exchange\nSelect the correct answer using the code below:",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three items — the uranium-supply deal, the renewed defence declaration, and the maritime security roadmap — are on the agenda for the Australia leg of Modi's 6–11 July 2026 tour.",
+    "subject": "International Relations",
+    "theme": "India-Australia bilateral relations",
+    "micro_topic": "Modi's Indo-Pacific tour 2026 – Australia leg deliverables",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which of the following powers is available to the President under Article 72 but NOT to the Governor under Article 161 of the Constitution?",
+    "options": [
+      "(a) Power to grant pardon in a case involving a sentence of death",
+      "(b) Power to grant remission of sentence",
+      "(c) Power to grant reprieve",
+      "(d) Power to grant respite"
+    ],
+    "answer": "(a)",
+    "explanation": "The Governor's Article 161 power does not extend to death-sentence cases or court-martial sentences; only the President's Article 72 power covers these.",
+    "subject": "Polity & Governance",
+    "theme": "Fundamental provisions on executive clemency",
+    "micro_topic": "Article 72 vs Article 161 – pardoning power differences",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In the Hybrid Annuity Model (HAM) for highway development in India, what proportion of the project cost is typically provided by the government (NHAI) as construction support, in milestone-linked instalments?",
+    "options": [
+      "(a) 100%",
+      "(b) 60%",
+      "(c) 40%",
+      "(d) 0% (fully private-financed)"
+    ],
+    "answer": "(c)",
+    "explanation": "Under HAM, NHAI provides about 40% of the project cost in instalments linked to construction milestones; the developer raises the remaining 60%, recovered via annuity payments over the concession period. HAM blends the EPC and BOT-Annuity models.",
+    "subject": "Economy",
+    "theme": "Public-private partnership models",
+    "micro_topic": "Hybrid Annuity Model (HAM) vs BOT vs EPC",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  }
+]
