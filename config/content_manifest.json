@@ -992,6 +992,20 @@
       ]
     },
     {
+      "id": "weekly_news_2026_07_04",
+      "label": "Weekly Places in News - 04 Jul 2026",
+      "shortLabel": "News 04 Jul",
+      "category": "Weekly News",
+      "sourceType": "weekly-news",
+      "questionCount": 5,
+      "durationMinutes": 8,
+      "path": "generated_data/weekly_news_questions/2026-07-04.json",
+      "isoDate": "2026-07-04",
+      "subjects": [
+        "Geography"
+      ]
+    },
+    {
       "id": "weekly_news_2026_06_27",
       "label": "Weekly Places in News - 27 Jun 2026",
       "shortLabel": "News 27 Jun",
@@ -2444,6 +2458,14 @@
       "shortTitle": "PYQ - 08 Jun",
       "date": "2026-06-08",
       "path": "weekly/CSAT/CSAT_PYQ_2026-06-08.md"
+    },
+    {
+      "id": "weekly-weekly-news-places-in-news-2026-07-04",
+      "cadence": "weekly-news",
+      "title": "Places in News",
+      "shortTitle": "Map - 04 Jul",
+      "date": "2026-07-04",
+      "path": "weekly/weekly_news/Places_in_News_2026-07-04.md"
     },
     {
       "id": "weekly-weekly-news-places-in-news-2026-06-27",

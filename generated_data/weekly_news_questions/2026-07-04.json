@@ -1,0 +1,157 @@
+[
+  {
+    "id": "weekly_news_2026_07_04_1",
+    "question_number": 1,
+    "question": "The Yarlung Tsangpo becomes which river after entering India?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Indus"
+      },
+      {
+        "key": "b",
+        "text": "Sutlej"
+      },
+      {
+        "key": "c",
+        "text": "Brahmaputra"
+      },
+      {
+        "key": "d",
+        "text": "Ganga"
+      }
+    ],
+    "answer": "c",
+    "explanation": "(Brahmaputra — the Yarlung Tsangpo's name after crossing into Arunachal Pradesh)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_07_04_2",
+    "question_number": 2,
+    "question": "The Myntdu river, at the centre of a new Meghalaya hydro project, ultimately drains into which transboundary river system?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Padma"
+      },
+      {
+        "key": "b",
+        "text": "Surma–Meghna"
+      },
+      {
+        "key": "c",
+        "text": "Teesta"
+      },
+      {
+        "key": "d",
+        "text": "Barak"
+      }
+    ],
+    "answer": "b",
+    "explanation": "(Surma–Meghna system, via Bangladesh)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_07_04_3",
+    "question_number": 3,
+    "question": "Which two rivers are the main western tributaries of the Indus flowing through Pakistani Punjab?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Ravi & Beas"
+      },
+      {
+        "key": "b",
+        "text": "Chenab & Jhelum"
+      },
+      {
+        "key": "c",
+        "text": "Sutlej & Beas"
+      },
+      {
+        "key": "d",
+        "text": "Kabul & Swat"
+      }
+    ],
+    "answer": "b",
+    "explanation": "(Chenab and Jhelum; the Ravi, Beas and Sutlej are the eastern tributaries)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_07_04_4",
+    "question_number": 4,
+    "question": "Dzongu, cut off after a bridge washout this week, lies in which Indian state?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Arunachal Pradesh"
+      },
+      {
+        "key": "b",
+        "text": "Sikkim"
+      },
+      {
+        "key": "c",
+        "text": "West Bengal"
+      },
+      {
+        "key": "d",
+        "text": "Uttarakhand"
+      }
+    ],
+    "answer": "b",
+    "explanation": "(Sikkim — Dzongu lies in North Sikkim's Mangan district)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_07_04_5",
+    "question_number": 5,
+    "question": "Iwate Prefecture, hit by a fresh earthquake, is on which coast of Japan?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Sanriku (Pacific) coast"
+      },
+      {
+        "key": "b",
+        "text": "Sea of Japan coast"
+      },
+      {
+        "key": "c",
+        "text": "Seto Inland Sea"
+      },
+      {
+        "key": "d",
+        "text": "Ryukyu coast"
+      }
+    ],
+    "answer": "a",
+    "explanation": "(the Sanriku/Pacific coast of NE Honshu)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  }
+]
