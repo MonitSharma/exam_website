@@ -1,0 +1,50 @@
+[
+    {
+        "question": "With reference to the Centre's review of the below-normal rainfall/El Niño situation (July 2026), consider the following statements:\n1. India recorded a rainfall deficit of about 40% in June 2026, with Central India the worst-affected region.\n2. The Union Home Minister directed states to promote low-water-intensity crops such as millets, pulses and fodder as an alternative to the standard kharif cropping pattern.\n3. An Inter-Ministerial Central Team was deputed only to drought-affected states, and not to any flood-affected state.\n\nHow many of the above statements are correct?",
+        "options": [
+            "(a) Only one",
+            "(b) Only two",
+            "(c) All three",
+            "(d) None"
+        ],
+        "answer": "(b)",
+        "explanation": "Statements 1 and 2 are correct — India saw a ~40% June rainfall deficit (Central India worst at 50.4%), and Amit Shah directed states to push millets, pulses and fodder as low-water alternatives. Statement 3 is incorrect: an Inter-Ministerial Central Team (IMCT) was deputed to Assam and Arunachal Pradesh to assess flood/landslide damage as part of the same review, which addressed both drought (west/central India) and flood (northeast) extremes of the 2026 monsoon.",
+        "subject": "Agriculture",
+        "theme": "Monsoon Variability & Drought Preparedness",
+        "micro_topic": "El Nino / Kharif Sowing Shortfall / IMCT Mechanism",
+        "nature": "Current Affairs",
+        "difficulty": "Moderate"
+    },
+    {
+        "question": "\"SHE-LEAPS,\" recently in the news, is associated with which of the following?",
+        "options": [
+            "(a) A digital platform to track SHG enterprise growth under the Lakhpati Didi mission",
+            "(b) A satellite-based crop insurance verification system",
+            "(c) A skilling programme for AI readiness among school students",
+            "(d) A single-window portal for foreign contribution compliance"
+        ],
+        "answer": "(a)",
+        "explanation": "SHE-LEAPS (Self-Help Entrepreneur–Livelihoods and Enterprise Application for Prosperity and Sustainability) is the Ministry of Rural Development's digital platform, launched 29 June 2026 at the Rashtriya Gramin Vikas Sammelan, built on the Digital India Corporation's LokOS platform to track SHG women's enterprise growth and support the Lakhpati Didi mission, whose target was raised from 3 crore to 6 crore women.",
+        "subject": "Economy",
+        "theme": "Rural Livelihoods & SHG Ecosystem",
+        "micro_topic": "SHE-LEAPS / Lakhpati Didi Mission",
+        "nature": "Current Affairs",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "With reference to APAAR (Automated Permanent Academic Account Registry), consider the following statements:\n1. It is a 12-digit unique student identification number linked to the Academic Bank of Credits.\n2. It operationalises the Multiple Entry and Exit provision and the National Credit Framework under NEP 2020.\n3. Registration on APAAR/ABC is restricted to university-level students and does not extend to schools.\n\nWhich of the statements given above is/are correct?",
+        "options": [
+            "(a) 1 and 2 only",
+            "(b) 2 and 3 only",
+            "(c) 1 and 3 only",
+            "(d) 1, 2 and 3"
+        ],
+        "answer": "(a)",
+        "explanation": "Statements 1 and 2 are correct — APAAR is a 12-digit ID linked to the Academic Bank of Credits, operationalising NEP 2020's Multiple Entry and Exit provision and the National Credit Framework. Statement 3 is wrong: schools are in fact the largest contributor to APAAR, with 16.62 crore institutions linked and 71.46 crore academic records uploaded, alongside universities, autonomous colleges and Institutes of National Importance.",
+        "subject": "Polity & Governance",
+        "theme": "NEP 2020 Implementation & Digital Public Infrastructure",
+        "micro_topic": "APAAR / Academic Bank of Credits / National Credit Framework",
+        "nature": "Current Affairs",
+        "difficulty": "Moderate"
+    }
+]

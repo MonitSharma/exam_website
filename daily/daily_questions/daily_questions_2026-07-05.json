@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to ISRO's Gaganyaan programme, the 'SOLVE' vehicle recently (July 2026) ground-tested is intended to:",
+    "options": [
+      "(a) Carry an upgraded Crew Module into a 400 km orbit",
+      "(b) Test the Crew Escape System during an in-flight abort",
+      "(c) Serve as a low-cost sub-orbital platform for parachute-deployment and crew-module recovery trials",
+      "(d) Validate the semi-cryogenic engine for a next-generation launch vehicle"
+    ],
+    "answer": "(c)",
+    "explanation": "SOLVE is a dedicated platform to test parachute deployment/crew-module recovery at 10-17 km altitude, distinct from TV-D (abort tests) or the SE-2000 semi-cryogenic engine.",
+    "subject": "Science & Technology",
+    "theme": "Space Technology",
+    "micro_topic": "Gaganyaan Mission Test Vehicles",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The National Study Report on 'Low Participation in Gram Sabha across States/UTs', released in July 2026, was prepared by:",
+    "options": [
+      "(a) Ministry of Panchayati Raj",
+      "(b) NITI Aayog",
+      "(c) Election Commission of India",
+      "(d) National Institute of Rural Development and Panchayati Raj (NIRDPR)"
+    ],
+    "answer": "(b)",
+    "explanation": "The study was released by NITI Aayog (presented by Member Dr R. Balasubramaniam), in the presence of the Secretary, Ministry of Panchayati Raj.",
+    "subject": "Polity & Governance",
+    "theme": "Panchayati Raj",
+    "micro_topic": "Gram Sabha functioning",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "NITI Aayog's 'Strategic Roadmap for Making Ayurveda Global' (2026) organises its strategy around three pillars. Which of the following is NOT one of them?",
+    "options": [
+      "(a) Availability",
+      "(b) Acceptability",
+      "(c) Affordability",
+      "(d) Propagation"
+    ],
+    "answer": "(c)",
+    "explanation": "The three named pillars are Availability, Acceptability, and Propagation; Affordability is not one of them.",
+    "subject": "Society",
+    "theme": "Health Policy & AYUSH",
+    "micro_topic": "Ayurveda globalisation strategy",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With the launch of UPI in Greece (June 2026), it became the ______ country overall where India's UPI is operational, and the ______ country in the European Union to adopt it.",
+    "options": [
+      "(a) 10th; 1st",
+      "(b) 9th; 1st",
+      "(c) 10th; 2nd",
+      "(d) 11th; 2nd"
+    ],
+    "answer": "(c)",
+    "explanation": "Greece is the 10th country overall (after Bhutan, Nepal, Sri Lanka, Singapore, UAE, France, Mauritius, Qatar, Cambodia) and the 2nd EU country after France.",
+    "subject": "Economy",
+    "theme": "Digital Payments",
+    "micro_topic": "UPI international expansion",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Bailey bridge washed away in early July 2026, cutting off the Dzongu region, was located over which river/in which state?",
+    "options": [
+      "(a) Teesta river, Sikkim",
+      "(b) Phee Khola, Sikkim",
+      "(c) Subansiri river, Arunachal Pradesh",
+      "(d) Dibang river, Assam"
+    ],
+    "answer": "(b)",
+    "explanation": "The bridge over the Phee Khola at Phidang, Dzongu region, North Sikkim, was washed away in the early-July 2026 flood wave.",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "NE India monsoon flood 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "As per Article 243 of the Constitution, 'Gram Sabha' means:",
+    "options": [
+      "(a) A body of elected representatives of a Gram Panchayat",
+      "(b) A body consisting of persons registered in the electoral rolls relating to a village comprised within the area of a Panchayat at the village level",
+      "(c) The executive committee of a village Panchayat",
+      "(d) A standing committee constituted by the District Panchayat"
+    ],
+    "answer": "(b)",
+    "explanation": "Article 243(b) defines Gram Sabha as the body of persons registered in the electoral rolls of a village within a Panchayat area (UPSC Prelims 2016).",
+    "subject": "Polity & Governance",
+    "theme": "Panchayati Raj",
+    "micro_topic": "Constitutional definition of Gram Sabha",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which of the following Gaganyaan-related test flights was specifically designed to demonstrate the Crew Escape System (CES)?",
+    "options": [
+      "(a) IADT (Integrated Air Drop Test)",
+      "(b) TV-D1 (Test Vehicle Abort Mission-1)",
+      "(c) SOLVE",
+      "(d) SE-2000 hot test"
+    ],
+    "answer": "(b)",
+    "explanation": "TV-D1 (October 2023) validated the Crew Escape System through an in-flight abort demonstration, distinct from SOLVE (parachute/recovery test, 2026) and the SE-2000 hot test (engine, unrelated to crew safety).",
+    "subject": "Science & Technology",
+    "theme": "Space Technology",
+    "micro_topic": "Gaganyaan test vehicle series",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  }
+]

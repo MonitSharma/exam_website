@@ -1,0 +1,354 @@
+[
+  {
+    "question": "Read the following passage and answer the question.\n\nEmployers routinely pay more for job candidates holding a university degree than for those without one, even when the degree's subject bears no relation to the job's actual duties. The conventional explanation treats education as a factory that manufactures skill: years in a classroom build competence, and wages simply reward that competence. But a rival account treats the degree not as proof of what was learned but as evidence of what the holder was already capable of enduring. On this view, a demanding and lengthy course of study functions less as a training ground than as a filter: it is costly enough that only the more able, disciplined, or persistent candidates find it worth completing, and it is this pre-existing quality, not any skill imparted by the coursework, that employers are actually paying for.\n\nThe two accounts are not easy to tell apart from the outside, since both predict the same correlation between credentials and wages. But they diverge sharply in their implications. If education is a factory, its value lies in the material taught, and shortening or cheapening the process would erode the very competence employers seek. If education is a filter, its value lies in the cost of passing through it: the arduousness must remain high enough to separate the able from the merely willing, whatever the syllabus actually contains. A short, easy, universally-awarded credential would signal nothing at all, however accurately it reflected some minimal literacy.\n\nThis second account unsettles the usual case for expanding access to credentials. If a qualification's worth to the labour market rests substantially on its scarcity and difficulty, then making it easier to obtain, however admirable on grounds of fairness, may erode the very information employers rely on to distinguish candidates, forcing them to search for some costlier signal in its place. The problem, then, is not that credentials fail to inform employers, but that the information they carry may have little to do with the classroom at all.\n\nWhich of the following best captures the central argument of the passage?",
+    "options": [
+      "(a) Education always increases a worker's productive skill.",
+      "(b) Employers pay more for degree-holders because degrees may signal pre-existing ability rather than impart it.",
+      "(c) Universities should be shut down because they teach nothing of value.",
+      "(d) Wages are determined solely by the difficulty of a course of study."
+    ],
+    "answer": "(b)",
+    "explanation": "The passage's central move is contrasting the 'factory' (skill-building) account with the 'filter' (signaling) account, and arguing employers may be paying for the signal, not the skill.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Reading Comprehension — main idea (economic/signaling theory passage)",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Read the following passage and answer the question.\n\nEmployers routinely pay more for job candidates holding a university degree than for those without one, even when the degree's subject bears no relation to the job's actual duties. The conventional explanation treats education as a factory that manufactures skill: years in a classroom build competence, and wages simply reward that competence. But a rival account treats the degree not as proof of what was learned but as evidence of what the holder was already capable of enduring. On this view, a demanding and lengthy course of study functions less as a training ground than as a filter: it is costly enough that only the more able, disciplined, or persistent candidates find it worth completing, and it is this pre-existing quality, not any skill imparted by the coursework, that employers are actually paying for.\n\nThe two accounts are not easy to tell apart from the outside, since both predict the same correlation between credentials and wages. But they diverge sharply in their implications. If education is a factory, its value lies in the material taught, and shortening or cheapening the process would erode the very competence employers seek. If education is a filter, its value lies in the cost of passing through it: the arduousness must remain high enough to separate the able from the merely willing, whatever the syllabus actually contains. A short, easy, universally-awarded credential would signal nothing at all, however accurately it reflected some minimal literacy.\n\nThis second account unsettles the usual case for expanding access to credentials. If a qualification's worth to the labour market rests substantially on its scarcity and difficulty, then making it easier to obtain, however admirable on grounds of fairness, may erode the very information employers rely on to distinguish candidates, forcing them to search for some costlier signal in its place. The problem, then, is not that credentials fail to inform employers, but that the information they carry may have little to do with the classroom at all.\n\nIt can be inferred that, on the 'filter' account, a credential made easier and cheaper to obtain would most likely:",
+    "options": [
+      "(a) necessarily raise the average productivity of workers who hold it.",
+      "(b) lose its power to distinguish candidates, pushing employers to seek some costlier signal instead.",
+      "(c) cause employers to stop caring about candidates' ability altogether.",
+      "(d) raise wages for all degree-holders further."
+    ],
+    "answer": "(b)",
+    "explanation": "The passage states directly that a credential's value under the filter account depends on cost/difficulty; cheapening it 'would erode the very information employers rely on,' pushing them toward a costlier signal.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Reading Comprehension — inference (economic/signaling theory passage)",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Read the following passage and answer the question.\n\nEmployers routinely pay more for job candidates holding a university degree than for those without one, even when the degree's subject bears no relation to the job's actual duties. The conventional explanation treats education as a factory that manufactures skill: years in a classroom build competence, and wages simply reward that competence. But a rival account treats the degree not as proof of what was learned but as evidence of what the holder was already capable of enduring. On this view, a demanding and lengthy course of study functions less as a training ground than as a filter: it is costly enough that only the more able, disciplined, or persistent candidates find it worth completing, and it is this pre-existing quality, not any skill imparted by the coursework, that employers are actually paying for.\n\nThe two accounts are not easy to tell apart from the outside, since both predict the same correlation between credentials and wages. But they diverge sharply in their implications. If education is a factory, its value lies in the material taught, and shortening or cheapening the process would erode the very competence employers seek. If education is a filter, its value lies in the cost of passing through it: the arduousness must remain high enough to separate the able from the merely willing, whatever the syllabus actually contains. A short, easy, universally-awarded credential would signal nothing at all, however accurately it reflected some minimal literacy.\n\nThis second account unsettles the usual case for expanding access to credentials. If a qualification's worth to the labour market rests substantially on its scarcity and difficulty, then making it easier to obtain, however admirable on grounds of fairness, may erode the very information employers rely on to distinguish candidates, forcing them to search for some costlier signal in its place. The problem, then, is not that credentials fail to inform employers, but that the information they carry may have little to do with the classroom at all.\n\nThe claim that 'a short, easy, universally-awarded credential would signal nothing at all' rests most directly on which assumption?",
+    "options": [
+      "(a) A signal's value depends on its being costly enough to filter out those unwilling or unable to bear that cost.",
+      "(b) All credentials are equally difficult to obtain.",
+      "(c) Employers can never observe a worker's actual output.",
+      "(d) Skill and ability are identical concepts."
+    ],
+    "answer": "(a)",
+    "explanation": "The sentence's logic only holds if a signal must be costly to be informative; that is the unstated premise.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Reading Comprehension — assumption (economic/signaling theory passage)",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Read the following passage and answer the question.\n\nWe are accustomed to defending privacy as a shield: a boundary that keeps unwanted eyes from matters we would rather keep to ourselves, useful chiefly to those with something to hide. On this account, the person with nothing embarrassing in their life loses little by being transparent, and privacy is simply a convenience that shrinks as our conduct grows more blameless. Yet this treats privacy as though its only function were concealment, and misses a subtler role it plays in the very formation of a self.\n\nTo be watched is not merely to be seen; it is to perform. The presence of an observer, even an imagined one, alters what a person does, tempering experiment with the awareness that missteps will be recorded and judged. A self that is never unobserved has little room to try on a belief before endorsing it, to rehearse a version of itself that might be abandoned without cost, or to fail privately before succeeding publicly. Privacy, on this reading, is not the opposite of a full life but one of its preconditions: the unwatched interval in which a person drafts themselves before committing to a final version for others to see.\n\nThis suggests that the harm of pervasive surveillance is not exhausted by the risk that some secret will be exposed. Even a population that is never actually punished for what is observed may still be subtly altered by the mere fact of being watched, converging toward whatever is safest to display and abandoning the tentative, the experimental, the not-yet-decided. A society that dissolves privacy in the name of having nothing to hide may thereby lose something it did not know it possessed: the private draft from which a considered self is written, long before it is fit to be shown.\n\nWhich of the following best captures the central idea of the passage?",
+    "options": [
+      "(a) Privacy matters only to people who have something to hide.",
+      "(b) Being watched, even without punishment, can narrow a person's room to experiment and form a self, so privacy is a precondition of that formation, not merely concealment.",
+      "(c) Surveillance should be banned because it always leads to punishment.",
+      "(d) A fully transparent society is always a freer society."
+    ],
+    "answer": "(b)",
+    "explanation": "The passage argues privacy is not just concealment but a precondition for a self to form via unwatched experimentation.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Reading Comprehension — main idea (privacy and the self passage)",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Read the following passage and answer the question.\n\nWe are accustomed to defending privacy as a shield: a boundary that keeps unwanted eyes from matters we would rather keep to ourselves, useful chiefly to those with something to hide. On this account, the person with nothing embarrassing in their life loses little by being transparent, and privacy is simply a convenience that shrinks as our conduct grows more blameless. Yet this treats privacy as though its only function were concealment, and misses a subtler role it plays in the very formation of a self.\n\nTo be watched is not merely to be seen; it is to perform. The presence of an observer, even an imagined one, alters what a person does, tempering experiment with the awareness that missteps will be recorded and judged. A self that is never unobserved has little room to try on a belief before endorsing it, to rehearse a version of itself that might be abandoned without cost, or to fail privately before succeeding publicly. Privacy, on this reading, is not the opposite of a full life but one of its preconditions: the unwatched interval in which a person drafts themselves before committing to a final version for others to see.\n\nThis suggests that the harm of pervasive surveillance is not exhausted by the risk that some secret will be exposed. Even a population that is never actually punished for what is observed may still be subtly altered by the mere fact of being watched, converging toward whatever is safest to display and abandoning the tentative, the experimental, the not-yet-decided. A society that dissolves privacy in the name of having nothing to hide may thereby lose something it did not know it possessed: the private draft from which a considered self is written, long before it is fit to be shown.\n\nOn the author's view, it can be inferred that a population watched constantly but never punished:",
+    "options": [
+      "(a) suffers no meaningful loss, since only punishment matters.",
+      "(b) may still be altered, converging toward safe, \"undrafted\" behaviour and losing room to experiment privately.",
+      "(c) becomes more creative because scrutiny sharpens judgement.",
+      "(d) experiences privacy as irrelevant once punishment is absent."
+    ],
+    "answer": "(b)",
+    "explanation": "The passage explicitly says even an unpunished, watched population 'may still be subtly altered,' converging toward safe display and losing the tentative/experimental.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Reading Comprehension — inference (privacy and the self passage)",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Read the following passage and answer the question.\n\nWe are accustomed to defending privacy as a shield: a boundary that keeps unwanted eyes from matters we would rather keep to ourselves, useful chiefly to those with something to hide. On this account, the person with nothing embarrassing in their life loses little by being transparent, and privacy is simply a convenience that shrinks as our conduct grows more blameless. Yet this treats privacy as though its only function were concealment, and misses a subtler role it plays in the very formation of a self.\n\nTo be watched is not merely to be seen; it is to perform. The presence of an observer, even an imagined one, alters what a person does, tempering experiment with the awareness that missteps will be recorded and judged. A self that is never unobserved has little room to try on a belief before endorsing it, to rehearse a version of itself that might be abandoned without cost, or to fail privately before succeeding publicly. Privacy, on this reading, is not the opposite of a full life but one of its preconditions: the unwatched interval in which a person drafts themselves before committing to a final version for others to see.\n\nThis suggests that the harm of pervasive surveillance is not exhausted by the risk that some secret will be exposed. Even a population that is never actually punished for what is observed may still be subtly altered by the mere fact of being watched, converging toward whatever is safest to display and abandoning the tentative, the experimental, the not-yet-decided. A society that dissolves privacy in the name of having nothing to hide may thereby lose something it did not know it possessed: the private draft from which a considered self is written, long before it is fit to be shown.\n\nThe author's tone through the passage is best described as:",
+    "options": [
+      "(a) dismissive of privacy as a sentimental indulgence.",
+      "(b) reflective and cautionary, defending privacy on grounds deeper than mere concealment.",
+      "(c) alarmist, predicting imminent societal collapse.",
+      "(d) neutral to the point of expressing no view at all."
+    ],
+    "answer": "(b)",
+    "explanation": "The measured, hedging language ('suggests,' 'may thereby lose') paired with a clear warning about surveillance marks the tone as reflective and cautionary, not alarmist or dismissive.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Reading Comprehension — tone (privacy and the self passage)",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Five friends — P, Q, R, S and T — sit in a row, each facing either north or south.\n(i) P sits third from the left end.\n(ii) Only one person sits between P and Q, and Q sits to the left of P.\n(iii) T sits immediately to the right of P.\n(iv) R sits second to the right of P.\n(v) Exactly two people in the row face south, and S is one of them.\n(vi) Q faces north.\n(vii) T and R face the same direction as each other, and this direction is different from P's direction.\n\nWho sits at the left end and the right end of the row respectively, and which direction does each face?",
+    "options": [
+      "(a) Q (North) and R (North)",
+      "(b) S (South) and R (North)",
+      "(c) Q (South) and T (North)",
+      "(d) S (North) and R (South)"
+    ],
+    "answer": "(a)",
+    "explanation": "Positions (left to right): P=3rd from left. Q is left of P with exactly one person between → Q=1. T is immediately right of P → T=4. R is second to the right of P → R=5. The remaining seat, position 2, goes to S. For facing: Q faces North (given). Exactly two face South, one being S; T and R face the same direction, opposite to P. If P=South, T=R=North, giving South-facers = {S,P} = exactly 2 (consistent). If P=North, T=R=South, giving three South-facers (contradiction). So P=South, T=North, R=North. Left end = Q (North), right end = R (North).",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Linear seating arrangement with facing directions",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Four colleagues — J, K, L and M — each live in a different city (Delhi, Pune, Kochi, Patna) and each has a different profession (Doctor, Engineer, Teacher, Lawyer).\n1. J is not from Delhi or Pune.\n2. The Engineer is from Kochi.\n3. K is a Doctor and is from Patna.\n4. L is not an Engineer.\n5. M is from Delhi.\n6. M is not a Lawyer.\n\nWho is the Lawyer, and which city is this person from?",
+    "options": [
+      "(a) M, Delhi",
+      "(b) L, Pune",
+      "(c) J, Kochi",
+      "(d) K, Patna"
+    ],
+    "answer": "(b)",
+    "explanation": "K=Doctor/Patna (clue 3). M=Delhi (clue 5). J is not Delhi/Pune (clue 1), and Patna is taken, so J=Kochi. The only city left, Pune, goes to L. The Engineer is from Kochi (clue 2) = J, so J=Engineer. Remaining professions Teacher/Lawyer go to M and L; M is not a Lawyer (clue 6), so M=Teacher and L=Lawyer, from Pune.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Matching puzzle — city and profession",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "In each question below, statements are followed by conclusions. Taking the statements to be true, decide which conclusion(s) logically follow.\n\nStatements: All doctors are engineers. Some engineers are teachers. No teacher is a painter.\n\nConclusions:\nI. Some doctors are teachers.\nII. No engineer is a painter.\nIII. Some teachers are engineers.",
+    "options": [
+      "(a) Only I follows",
+      "(b) Only III follows",
+      "(c) Both I and III follow",
+      "(d) None follows"
+    ],
+    "answer": "(b)",
+    "explanation": "\"Some engineers are teachers\" converts validly to \"Some teachers are engineers\" (a particular affirmative always converts) — so III always follows. I does not follow: the doctors (subset of engineers) need not overlap with the specific engineers who are teachers. II does not follow: only the teacher-subset of engineers is known to be disjoint from painters; other engineers could still be painters. Hence only III follows.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Categorical syllogism",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "In a certain code language, TEACHER is written as VGCEJGT. How is CHILDREN written in that code?",
+    "options": [
+      "(a) EJKNFTGP",
+      "(b) EJKMFTGP",
+      "(c) FJKNFTGP",
+      "(d) EJKNFSGP"
+    ],
+    "answer": "(a)",
+    "explanation": "The code shifts every letter forward by 2 positions in the alphabet (T→V, E→G, A→C, C→E, H→J, E→G, R→T, all confirmed +2). Applying the same shift to CHILDREN: C→E, H→J, I→K, L→N, D→F, R→T, E→G, N→P, giving EJKNFTGP.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Coding-decoding — alphabet shift cipher",
+    "nature": "Aptitude",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Pointing to a man, Reena said, \"He is the son of the only son of my father.\" How is the man related to Reena?",
+    "options": [
+      "(a) Brother",
+      "(b) Nephew",
+      "(c) Son",
+      "(d) Cousin"
+    ],
+    "answer": "(b)",
+    "explanation": "\"The only son of my father\" is Reena's brother (her father has exactly one son, and Reena is his sibling). \"He is the son of [that brother]\" makes the man the brother's son — i.e., Reena's nephew.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Blood relations riddle",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "A man walks 8 km towards North. He then turns right and walks 6 km. He then turns right again and walks 8 km. He then turns left and walks 4 km. How far and in which direction is he from his starting point?",
+    "options": [
+      "(a) 10 km, East",
+      "(b) 10 km, North",
+      "(c) 6 km, East",
+      "(d) 14 km, East"
+    ],
+    "answer": "(a)",
+    "explanation": "Taking start at (0,0) facing North: walk 8 km North → (0,8). Turn right (North→East), walk 6 km → (6,8). Turn right again (East→South), walk 8 km → (6,0). Turn left (South→East), walk 4 km → (10,0). Straight-line distance from (0,0) to (10,0) = 10 km, due East.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Direction and distance",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The table below shows the number of students enrolled in five courses at a college, for 2024 and 2025.\n\nCourse | 2024 | 2025\nP | 240 | 300\nQ | 180 | 150\nR | 320 | 400\nS | 150 | 210\nT | 210 | 240\n\nWhat is the percentage increase in enrollment in Course S from 2024 to 2025?",
+    "options": [
+      "(a) 30%",
+      "(b) 40%",
+      "(c) 45%",
+      "(d) 60%"
+    ],
+    "answer": "(b)",
+    "explanation": "Course S: (210−150)/150 × 100 = 60/150 × 100 = 40%. Option (d) 60% is a trap — it uses the raw absolute increase as if it were the percentage.",
+    "subject": "CSAT",
+    "theme": "DI",
+    "micro_topic": "Percentage change from a data table",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The table below shows the number of students enrolled in five courses at a college, for 2024 and 2025.\n\nCourse | 2024 | 2025\nP | 240 | 300\nQ | 180 | 150\nR | 320 | 400\nS | 150 | 210\nT | 210 | 240\n\nWhat is the total enrollment across all five courses in 2025?",
+    "options": [
+      "(a) 1200",
+      "(b) 1250",
+      "(c) 1300",
+      "(d) 1350"
+    ],
+    "answer": "(c)",
+    "explanation": "2025 total = 300+150+400+210+240 = 1300.",
+    "subject": "CSAT",
+    "theme": "DI",
+    "micro_topic": "Column totals from a data table",
+    "nature": "Aptitude",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The table below shows the number of students enrolled in five courses at a college, for 2024 and 2025.\n\nCourse | 2024 | 2025\nP | 240 | 300\nQ | 180 | 150\nR | 320 | 400\nS | 150 | 210\nT | 210 | 240\n\nWhich course recorded a decline in enrollment from 2024 to 2025, and what was the approximate percentage decline?",
+    "options": [
+      "(a) Course T, ~12.5%",
+      "(b) Course Q, ~16.7%",
+      "(c) Course Q, ~30%",
+      "(d) Course P, ~8%"
+    ],
+    "answer": "(b)",
+    "explanation": "Course Q is the only one whose enrollment fell (180→150). Percentage decline = 30/180 × 100 ≈ 16.7%. Option (c) is a trap — it uses the raw drop of 30 as if it were the percentage.",
+    "subject": "CSAT",
+    "theme": "DI",
+    "micro_topic": "Spotting a decline and computing percentage change",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The table below shows the number of students enrolled in five courses at a college, for 2024 and 2025.\n\nCourse | 2024 | 2025\nP | 240 | 300\nQ | 180 | 150\nR | 320 | 400\nS | 150 | 210\nT | 210 | 240\n\nWhat is the ratio of total enrollment in 2024 to total enrollment in 2025 (in lowest terms)?",
+    "options": [
+      "(a) 11:13",
+      "(b) 13:11",
+      "(c) 10:13",
+      "(d) 11:12"
+    ],
+    "answer": "(a)",
+    "explanation": "2024 total = 240+180+320+150+210 = 1100. Ratio 1100:1300 = 11:13 (dividing both by 100).",
+    "subject": "CSAT",
+    "theme": "DI",
+    "micro_topic": "Ratio of totals from a data table",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "You are a newly posted Sub-Divisional Magistrate. On a village visit, you find the local school has not received mid-day meal supplies for two weeks due to a contractor dispute, and children are going hungry. The contractor blames the previous SDM for unpaid dues; the current supplier refuses to continue without payment; parents are angry and threaten to stop sending children to school. What should you do?",
+    "options": [
+      "(a) Ignore the issue since it predates your posting and is a financial matter for the previous administration.",
+      "(b) Arrange an emergency stop-gap supply of food through local resources or discretionary funds immediately, while simultaneously initiating a formal inquiry into the pending dues and a resolution with the contractor.",
+      "(c) Publicly reprimand the contractor in front of the parents to pacify their anger, and defer any resolution of payment until headquarters responds.",
+      "(d) Advise the parents to arrange food for their children privately until the dispute is resolved through the courts."
+    ],
+    "answer": "(b)",
+    "explanation": "Balances the immediate humanitarian need (children must eat now) with due process on the underlying financial dispute; doesn't pass the buck, grandstand, or leave the resolution to courts/parents alone.",
+    "subject": "CSAT",
+    "theme": "Decision-Making",
+    "micro_topic": "Administrative crisis response — balancing urgency and due process",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Two of your team members, X and Y, are both competent but have a personal rivalry that is beginning to affect team output. X refuses to share critical data with Y, citing \"security concerns,\" though you suspect this is really about the rivalry. A project deadline is approaching. What is the best course of action?",
+    "options": [
+      "(a) Take X's stated reason at face value and formally restrict Y's access, avoiding the interpersonal issue entirely.",
+      "(b) Speak privately with both X and Y to understand the root of the conflict, clarify the data-sharing protocols the project actually requires, and set clear expectations for cooperation, escalating only if the behaviour continues.",
+      "(c) Publicly criticize X in a team meeting for withholding data, to pressure a change in behaviour.",
+      "(d) Reassign all of Y's work to another team member to avoid dealing with X, and let the deadline slip if necessary."
+    ],
+    "answer": "(b)",
+    "explanation": "Addresses the real interpersonal root cause privately and professionally, sets clear expectations, and reserves escalation for continued non-compliance — firm but not punitive or avoidant.",
+    "subject": "CSAT",
+    "theme": "Decision-Making",
+    "micro_topic": "Interpersonal conflict management in a team",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "As the officer in charge of a relief camp after a flood, you notice a local NGO distributing extra blankets and food only to families of a particular community, while some equally needy families from other communities go without. When you raise this with the NGO coordinator, they say it is because those families \"reached out first.\" What should you do?",
+    "options": [
+      "(a) Allow the NGO to continue as is, since they are volunteers and their assistance is voluntary and unpaid.",
+      "(b) Immediately expel the NGO from the camp without further discussion, since discrimination has occurred.",
+      "(c) Direct that all relief distribution in the camp be conducted through a transparent, needs-based register maintained by camp authorities, ensure the NGO's contribution is pooled into the common resource for equitable distribution, and monitor for compliance.",
+      "(d) Ask the affected families to file a formal complaint before taking any action."
+    ],
+    "answer": "(c)",
+    "explanation": "Restores fairness through a transparent, needs-based system under camp authority rather than either tolerating discrimination, overreacting by expelling a well-meaning NGO outright, or placing the burden of complaint on already-vulnerable families.",
+    "subject": "CSAT",
+    "theme": "Decision-Making",
+    "micro_topic": "Equitable disaster relief distribution",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Pipe A can fill a tank in 12 hours, and Pipe B can fill it in 16 hours. Both pipes are opened together, but after 4 hours, Pipe A is shut off. In how many more hours will Pipe B alone fill the remaining tank?",
+    "options": [
+      "(a) 5 hours",
+      "(b) 6 hours 40 minutes",
+      "(c) 7 hours 30 minutes",
+      "(d) 8 hours"
+    ],
+    "answer": "(b)",
+    "explanation": "Combined rate for 4 hours: 4×(1/12+1/16) = 4×(4/48+3/48) = 4×7/48 = 28/48 = 7/12 of the tank filled. Remaining = 1 − 7/12 = 5/12. Pipe B alone: time = (5/12) ÷ (1/16) = 5/12 × 16 = 80/12 = 20/3 hours = 6 hours 40 minutes.",
+    "subject": "CSAT",
+    "theme": "Quant",
+    "micro_topic": "Pipes and cisterns — partial work and remaining rate",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "A vessel contains a mixture of milk and water in the ratio 5:3. When 16 litres of the mixture is removed and replaced with pure water, the new ratio of milk to water becomes 5:7. Find the initial quantity of the mixture in the vessel.",
+    "options": [
+      "(a) 36 litres",
+      "(b) 40 litres",
+      "(c) 48 litres",
+      "(d) 56 litres"
+    ],
+    "answer": "(c)",
+    "explanation": "Let initial volume = V. Milk = 5V/8, water = 3V/8. Removing 16 L of mixture removes milk and water in the same 5:3 ratio: milk removed = 16×5/8 = 10, water removed = 16×3/8 = 6. After removal and adding 16 L pure water: milk = 5V/8 − 10, water = 3V/8 + 10. New ratio: (5V/8 − 10)/(3V/8 + 10) = 5/7. Cross-multiplying: 7(5V/8 − 10) = 5(3V/8 + 10) → 35V/8 − 70 = 15V/8 + 50 → 20V/8 = 120 → V = 48. Check: milk=30, water=18; remove 16 L → milk=20, water=12; add 16 L water → water=28; ratio 20:28 = 5:7 ✓.",
+    "subject": "CSAT",
+    "theme": "Quant",
+    "micro_topic": "Mixtures and alligation — replacement problems",
+    "nature": "Aptitude",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "A committee of 4 members is to be formed from a group of 6 men and 4 women. What is the probability that the committee has at least 2 women?",
+    "options": [
+      "(a) 23/42",
+      "(b) 1/2",
+      "(c) 3/7",
+      "(d) 11/21"
+    ],
+    "answer": "(a)",
+    "explanation": "Total ways to pick 4 from 10 = C(10,4) = 210. At least 2 women = 2W+2M, 3W+1M, or 4W+0M: C(4,2)×C(6,2) = 6×15 = 90; C(4,3)×C(6,1) = 4×6 = 24; C(4,4)×C(6,0) = 1×1 = 1. Total favourable = 90+24+1 = 115. Probability = 115/210 = 23/42.",
+    "subject": "CSAT",
+    "theme": "Quant",
+    "micro_topic": "Combinatorics and probability — committee selection",
+    "nature": "Aptitude",
+    "difficulty": "Hard"
+  }
+]
