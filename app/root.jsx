@@ -115,7 +115,7 @@ function calculateDailyStreak(completions) {
   return streak;
 }
 
-function TopNav({ screen, go, summary }) {
+function TopNav({ screen, go, summary, onSearch }) {
   const ds = window.UPSC;
   return (
     <header className="topnav">
@@ -129,11 +129,137 @@ function TopNav({ screen, go, summary }) {
           ))}
         </nav>
         <div className="nav-right">
+          <button className="nav-search" onClick={onSearch} aria-label="Search">
+            <Icon name="search" size={15} /> <span>Search</span> <kbd>⌘K</kbd>
+          </button>
           <span className="streak-chip"><Icon name="flame" size={15} /> {summary.streak}</span>
           <button className="btn btn-green sm" onClick={() => go("test", { setId: ds.defaultQuestionSetId })}><Icon name="bolt" size={15} /> Daily quiz</button>
         </div>
       </div>
     </header>
+  );
+}
+
+function searchDateLabel(iso) {
+  const [y, m, d] = String(iso).split("-").map(Number);
+  if (!y || !m || !d) return "";
+  return new Intl.DateTimeFormat("en-GB", { day: "2-digit", month: "short", year: "numeric", timeZone: "UTC" }).format(new Date(Date.UTC(y, m - 1, d)));
+}
+
+function searchSourceLabel(sourceType) {
+  const map = {
+    pyq: "Previous-year paper", ai: "AI set", csr: "Mock series", csat: "CSAT",
+    daily: "Daily quiz", rc: "Daily RC", "weekly-news": "Places quiz",
+    "weekly-quiz": "Weekly quiz", pib: "PIB quiz", sectional: "Sectional",
+  };
+  return map[sourceType] || "Question set";
+}
+
+function searchCadenceLabel(cadence) {
+  const map = {
+    daily: "Daily CA", pib: "Daily PIB", rc: "Daily RC", "daily-mains": "Daily Mains",
+    editorials: "Editorials", schemes: "Schemes", sunday: "Sunday Sweep", physics: "Physics",
+    "weekly-news": "Weekly News", sectional: "Sectional", ethics: "Ethics", monthly: "Monthly",
+    anki: "Anki", fodder: "Fodder", strategy: "Strategy",
+  };
+  return map[cadence] || "Note";
+}
+
+function buildSearchResults(ds, query) {
+  const notes = ds.noteDocuments
+    .filter((doc) => {
+      const hay = `${doc.title} ${doc.shortTitle || ""} ${searchCadenceLabel(doc.cadence)} ${doc.date || ""}`.toLowerCase();
+      return hay.includes(query);
+    })
+    .slice(0, 8)
+    .map((doc) => ({
+      kind: "note", id: doc.id, cadence: doc.cadence,
+      title: doc.title,
+      sub: doc.date ? searchDateLabel(doc.date) : (doc.shortTitle || ""),
+      badge: searchCadenceLabel(doc.cadence),
+    }));
+  const sets = ds.questionSets
+    .filter((set) => {
+      const hay = `${set.label || ""} ${searchSourceLabel(set.sourceType)} ${set.year || ""} ${set.isoDate || ""} ${set.shortLabel || ""}`.toLowerCase();
+      return hay.includes(query);
+    })
+    .slice(0, 8)
+    .map((set) => ({
+      kind: "test", id: set.id,
+      title: set.label || set.shortLabel || "Question set",
+      sub: `${set.questionCount || 0} questions${set.isoDate ? ` · ${searchDateLabel(set.isoDate)}` : set.year ? ` · ${set.year}` : ""}`,
+      badge: searchSourceLabel(set.sourceType),
+    }));
+  return [...notes, ...sets];
+}
+
+function GlobalSearch({ open, onClose, go }) {
+  const ds = window.UPSC;
+  const [query, setQuery] = useRootState("");
+  const inputRef = React.useRef(null);
+
+  useRootEffect(() => {
+    if (open) {
+      setQuery("");
+      const id = window.setTimeout(() => inputRef.current && inputRef.current.focus(), 30);
+      return () => window.clearTimeout(id);
+    }
+    return undefined;
+  }, [open]);
+
+  useRootEffect(() => {
+    function onKey(event) { if (event.key === "Escape") onClose(); }
+    if (open) window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [open, onClose]);
+
+  if (!open) return null;
+  const trimmed = query.trim().toLowerCase();
+  const results = trimmed.length >= 1 ? buildSearchResults(ds, trimmed) : [];
+
+  function openResult(result) {
+    onClose();
+    if (result.kind === "note") {
+      go("home");
+      window.setTimeout(() => window.dispatchEvent(new CustomEvent("pariksha:open-note", { detail: { id: result.id, cadence: result.cadence } })), 70);
+    } else {
+      go("test", { setId: result.id });
+    }
+  }
+
+  return (
+    <div className="search-layer" onMouseDown={onClose}>
+      <div className="search-box" role="dialog" aria-label="Search" onMouseDown={(event) => event.stopPropagation()}>
+        <div className="search-input-row">
+          <Icon name="search" size={18} />
+          <input
+            ref={inputRef}
+            value={query}
+            onChange={(event) => setQuery(event.target.value)}
+            placeholder="Search briefs, drills, papers & quizzes…"
+            aria-label="Search query" />
+          <button className="search-esc" onClick={onClose}>Esc</button>
+        </div>
+        <div className="search-results">
+          {trimmed.length < 1 ? (
+            <p className="search-hint">Type to search across notes and the question bank.</p>
+          ) : results.length ? (
+            results.map((result) => (
+              <button key={`${result.kind}-${result.id}`} className="search-result" onClick={() => openResult(result)}>
+                <span className="search-result-icon"><Icon name={result.kind === "note" ? "book" : "play"} size={16} /></span>
+                <span className="search-result-copy">
+                  <strong>{result.title}</strong>
+                  <small>{result.sub}</small>
+                </span>
+                <span className="search-result-badge">{result.badge}</span>
+              </button>
+            ))
+          ) : (
+            <p className="search-empty">No matches for “{query.trim()}”.</p>
+          )}
+        </div>
+      </div>
+    </div>
   );
 }
 
@@ -149,11 +275,29 @@ function App() {
   });
   const [lastResult, setLastResult] = useRootState(null);
   const [progress, setProgress] = useRootState(loadProgress);
+  const [searchOpen, setSearchOpen] = useRootState(false);
   const summary = getProgressSummary(progress);
   void contentVersion;
 
   useRootEffect(() => {
-    return window.UPSC.subscribeContent?.(() => setContentVersion((version) => version + 1));
+    function onKey(event) {
+      if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === "k") {
+        event.preventDefault();
+        setSearchOpen((open) => !open);
+      }
+    }
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, []);
+
+  useRootEffect(() => {
+    const unsubscribe = window.UPSC.subscribeContent?.(() => setContentVersion((version) => version + 1));
+    // The initial module-load manifest refresh can resolve before this effect
+    // subscribes, so its notify reaches no listeners and the UI keeps stale
+    // fallback data. Re-refresh now that we're subscribed to guarantee the
+    // freshest content triggers a re-render.
+    window.UPSC.refreshContentManifest?.();
+    return unsubscribe;
   }, []);
 
   useRootEffect(() => {
@@ -238,7 +382,8 @@ function App() {
 
   return (
     <div className="root">
-      {!isTest && <TopNav screen={screen} go={go} summary={summary} />}
+      {!isTest && <TopNav screen={screen} go={go} summary={summary} onSearch={() => setSearchOpen(true)} />}
+      <GlobalSearch open={searchOpen} onClose={() => setSearchOpen(false)} go={go} />
       <div key={screen} className="screen-fade">
         {screen === "home" && <Home go={go} progress={progress} summary={summary} />}
         {screen === "practice" && <PracticeScreen go={go} />}

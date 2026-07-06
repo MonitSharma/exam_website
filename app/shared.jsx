@@ -36,6 +36,7 @@ function Icon({ name, size = 20, stroke = 1.6, style }) {
     pause: <><path d="M8 5v14M16 5v14" /></>,
     filter: <path d="M3 5h18l-7 8v6l-4-2v-4z" />,
     shuffle: <><path d="M16 3h5v5" /><path d="M21 3 14 10" /><path d="M3 21l7-7" /><path d="M16 21h5v-5" /><path d="M3 3l7 7M21 16l-3.5-3.5" /></>,
+    search: <><circle cx="11" cy="11" r="7" /><path d="m21 21-4.3-4.3" /></>,
     rotate: <><path d="M4 12a8 8 0 1 1 2.3 5.6" /><path d="M4 20v-4h4" /></>,
   };
   return <svg {...p}>{paths[name] || null}</svg>;

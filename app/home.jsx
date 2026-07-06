@@ -1,6 +1,23 @@
 // Home / landing + exam picker + daily quiz discovery
 const { useState: useStateHome, useEffect: useEffectHome } = React;
 
+function loadPref(key, fallback) {
+  try {
+    const value = window.localStorage.getItem(`pariksha:${key}`);
+    return value == null ? fallback : value;
+  } catch (error) {
+    return fallback;
+  }
+}
+
+function savePref(key, value) {
+  try {
+    window.localStorage.setItem(`pariksha:${key}`, value);
+  } catch (error) {
+    /* ignore storage failures (private mode, etc.) */
+  }
+}
+
 function ExamSwitcher() {
   const exams = [
     { id: "upsc", name: "UPSC CSE", note: "Prelims · GS + CSAT", live: true },
@@ -8,13 +25,13 @@ function ExamSwitcher() {
     { id: "rbi", name: "RBI Grade B", note: "Coming soon", live: false },
     { id: "bank", name: "Banking", note: "Coming soon", live: false },
   ];
-  const [active, setActive] = useStateHome("upsc");
+  const [active, setActive] = useStateHome(() => loadPref("exam", "upsc"));
   return (
     <div className="exam-switch" role="tablist" aria-label="Exam">
       {exams.map((e) => (
         <button key={e.id} role="tab" aria-selected={active === e.id}
           className={`exam-tab${active === e.id ? " active" : ""}${!e.live ? " locked" : ""}`}
-          onClick={() => e.live && setActive(e.id)}>
+          onClick={() => e.live && (setActive(e.id), savePref("exam", e.id))}>
           <span className="exam-name">{e.name}</span>
           <span className="exam-note">{e.live ? e.note : <><span className="soon-dot" /> {e.note}</>}</span>
         </button>
@@ -337,11 +354,103 @@ function HeroCalendar({ go, progress }) {
   );
 }
 
+// Completion status of the most recent daily quizzes (for streak + progress viz).
+function recentDailyStatus(progress) {
+  const ds = window.UPSC;
+  const done = progress?.dailyCompletions || {};
+  const recent = ds.getQuestionSetsBySource("daily")
+    .map((set) => set.isoDate)
+    .filter((iso) => iso && iso <= ds.todayIso)
+    .sort()
+    .slice(-7);
+  return { recent, doneCount: recent.filter((iso) => done[iso]).length };
+}
+
+function HeroStreak({ go, progress, summary }) {
+  const ds = window.UPSC;
+  const done = progress?.dailyCompletions || {};
+  const { recent, doneCount } = recentDailyStatus(progress);
+  if (!recent.length) return null;
+  return (
+    <div className="hero-streak">
+      <div className="hero-streak-main">
+        <span className="hero-streak-flame"><Icon name="flame" size={17} /></span>
+        <div className="hero-streak-copy">
+          <strong>{summary.streak > 0 ? `${summary.streak}-day streak` : "Start your streak"}</strong>
+          <small>{doneCount} of last {recent.length} daily quizzes done</small>
+        </div>
+      </div>
+      <div className="hero-streak-dots" aria-hidden="true">
+        {recent.map((iso) => <span key={iso} className={done[iso] ? "on" : ""} title={formatIsoDate(iso)} />)}
+      </div>
+      <button className="hero-streak-cta" onClick={() => go("test", { setId: ds.defaultQuestionSetId })}>
+        {summary.streak > 0 ? "Continue" : "Begin"} <Icon name="arrowR" size={14} />
+      </button>
+    </div>
+  );
+}
+
+function ReviseNextCard({ go, progress, summary }) {
+  const ds = window.UPSC;
+  const weak = React.useMemo(() => {
+    const agg = {};
+    (progress?.history || []).forEach((entry) => {
+      Object.entries(entry.subjectBreakdown || {}).forEach(([subject, value]) => {
+        if (!agg[subject]) agg[subject] = { correct: 0, attempted: 0 };
+        agg[subject].correct += Number(value.correct) || 0;
+        agg[subject].attempted += Number(value.attempted) || 0;
+      });
+    });
+    return Object.entries(agg)
+      .filter(([, value]) => value.attempted >= 3)
+      .map(([subject, value]) => ({ subject, accuracy: Math.round((value.correct / value.attempted) * 100), attempted: value.attempted }))
+      .sort((a, b) => a.accuracy - b.accuracy)
+      .slice(0, 3);
+  }, [progress]);
+  const hasHistory = (progress?.history || []).length > 0;
+  const accuracyTone = (value) => (value < 50 ? "low" : value < 75 ? "mid" : "high");
+
+  return (
+    <article className="revise-card">
+      <div className="revise-head">
+        <span className="eyebrow small"><span className="eyebrow-line" /> Revise next</span>
+        {hasHistory && <span className="revise-count">{summary.attempts} attempt{summary.attempts === 1 ? "" : "s"}</span>}
+      </div>
+      {weak.length ? (
+        <>
+          <p className="revise-sub">Your lowest-accuracy areas — worth another pass.</p>
+          <ul className="revise-list">
+            {weak.map((item) => (
+              <li key={item.subject}>
+                <div className="revise-row-top"><strong>{item.subject}</strong><span>{item.accuracy}%</span></div>
+                <div className="revise-bar"><div className={`revise-bar-fill tone-${accuracyTone(item.accuracy)}`} style={{ width: `${Math.max(item.accuracy, 4)}%` }} /></div>
+                <small>{item.attempted} attempted</small>
+              </li>
+            ))}
+          </ul>
+          <button className="revise-cta" onClick={() => go("test", { setId: ds.defaultPracticeSetId })}>Practise a set <Icon name="arrowR" size={15} /></button>
+        </>
+      ) : (
+        <div className="revise-empty">
+          <p className="revise-sub">{hasHistory
+            ? "Attempt a few more questions and this will surface the topics you should revise."
+            : "Take a quiz and this panel highlights the topics you should revise next."}</p>
+          <button className="revise-cta" onClick={() => go("test", { setId: ds.defaultQuestionSetId })}>
+            {hasHistory ? "Keep practising" : "Start your first quiz"} <Icon name="arrowR" size={15} />
+          </button>
+        </div>
+      )}
+    </article>
+  );
+}
+
 function DailyQuizCard({ go, progress }) {
   const ds = window.UPSC;
   const dailyQuiz = ds.dailyQuiz;
   const dailySet = ds.getQuestionSetById(ds.defaultQuestionSetId);
   const complete = Boolean(progress.dailyCompletions?.[dailyQuiz.isoDate]);
+  const { recent, doneCount } = recentDailyStatus(progress);
+  const weekPct = recent.length ? Math.round((doneCount / recent.length) * 100) : 0;
   const subjectLabel = dailySet?.subjects?.slice(0, 3).join(" · ") || "Environment · IR · Economy";
   return (
     <article className="daily-card">
@@ -364,6 +473,12 @@ function DailyQuizCard({ go, progress }) {
           {complete ? "Retake daily quiz" : "Start daily quiz"} <Icon name="arrowR" size={18} />
         </button>
       </div>
+      {recent.length > 0 && (
+        <div className="daily-progress" title={`${doneCount} of last ${recent.length} daily quizzes completed`}>
+          <div className="daily-progress-track"><div className="daily-progress-fill" style={{ width: `${weekPct}%` }} /></div>
+          <span>{doneCount}/{recent.length} this week</span>
+        </div>
+      )}
     </article>
   );
 }
@@ -673,24 +788,39 @@ function BankBrowse({ go }) {
     { id: "pib", icon: "fileText", title: "PIB Questions", desc: "PIB-based daily practice", count: setCountLabel("pib", "set", "sets"), tone: "green", sourceType: "pib" },
     { id: "sectional", icon: "target", title: "Sectional Tests", desc: "Subject-wise prelims practice", count: setCountLabel("sectional", "set", "sets"), tone: "saffron", sourceType: "sectional" },
   ];
-  const active = banks.find((bank) => bank.id === activeBank) || null;
+  const banksWithAvail = banks.map((bank) => ({ ...bank, available: sourceSets(bank.sourceType).length }));
+  const liveBanks = banksWithAvail.filter((bank) => bank.available > 0);
+  const soonBanks = banksWithAvail.filter((bank) => bank.available === 0);
+  const orderedBanks = [...liveBanks, ...soonBanks];
+  const active = orderedBanks.find((bank) => bank.id === activeBank) || null;
   return (
     <section className="bank">
       <div className="bank-head">
-        <h3>Explore the question bank</h3>
-        <button className="link-btn" onClick={() => setActiveBank(activeBank ? null : "pyq")}>
+        <div className="bank-head-text">
+          <span className="eyebrow small"><span className="eyebrow-line" /> Practice bank</span>
+          <h3>Explore the question bank</h3>
+        </div>
+        <button className="link-btn" onClick={() => setActiveBank(activeBank ? null : liveBanks[0]?.id || "pyq")}>
           {activeBank ? "Close" : "Browse all"} <Icon name={activeBank ? "x" : "arrowR"} size={14} />
         </button>
       </div>
       <div className="bank-grid">
-        {banks.map((s) => (
-          <button key={s.title} className={`bank-card tone-${s.tone}${activeBank === s.id ? " selected" : ""}`} onClick={() => setActiveBank(s.id)}>
-            <span className="bank-icon"><Icon name={s.icon} size={20} /></span>
-            <span className="bank-count">{s.count}</span>
-            <strong>{s.title}</strong>
-            <span className="bank-desc">{s.desc}</span>
-          </button>
-        ))}
+        {orderedBanks.map((s) => {
+          const empty = s.available === 0;
+          return (
+            <button
+              key={s.title}
+              className={`bank-card tone-${s.tone}${activeBank === s.id ? " selected" : ""}${empty ? " is-empty" : ""}`}
+              onClick={() => !empty && setActiveBank(s.id)}
+              disabled={empty}
+              aria-disabled={empty}>
+              <span className="bank-icon"><Icon name={s.icon} size={20} /></span>
+              <span className="bank-count">{empty ? "Soon" : s.count}</span>
+              <strong>{s.title}</strong>
+              <span className="bank-desc">{s.desc}</span>
+            </button>
+          );
+        })}
       </div>
       {active && (
         <QuestionSetPicker
@@ -758,7 +888,7 @@ function NotesLibrary() {
     items: tabs.filter((key) => CADENCE_META[key].group === g),
   })).filter((cluster) => cluster.items.length);
 
-  const [cadence, setCadence] = useStateHome(tabs[0] || "daily");
+  const [cadence, setCadence] = useStateHome(() => loadPref("notesCadence", tabs[0] || "daily"));
   const activeCadence = tabs.includes(cadence) ? cadence : tabs[0] || cadence;
   const meta = CADENCE_META[activeCadence] || { label: "Notes" };
   const docs = ds.noteDocuments.filter((doc) => doc.cadence === activeCadence);
@@ -783,6 +913,8 @@ function NotesLibrary() {
   const loadedDoc = noteState.note && noteState.note.id === selectedId ? noteState.note : null;
   const selectedDoc = loadedDoc || docs.find((doc) => doc.id === selectedId) || null;
   const readingMinutes = estimateReadingMinutes(noteState.content);
+
+  useEffectHome(() => { savePref("notesCadence", activeCadence); }, [activeCadence]);
 
   useEffectHome(() => {
     const currentDoc = docs.find((doc) => doc.id === selectedId);
@@ -917,6 +1049,7 @@ function NotesLibrary() {
             );
           }) : <p>No {meta.label.toLowerCase()} notes yet.</p>}
           </div>
+          {!noteState.loading && noteState.content && <NoteOutline content={noteState.content} />}
         </aside>
 
         <article className="note-reader">
@@ -989,6 +1122,52 @@ function getNoteWeekOptions(docs) {
 function estimateReadingMinutes(text) {
   const words = String(text || "").trim().split(/\s+/).filter(Boolean).length;
   return words ? Math.max(1, Math.round(words / 220)) : 0;
+}
+
+function stripInlineMarkup(text) {
+  return String(text || "").replace(/[*`_]+/g, "").replace(/\s+#*\s*$/, "").trim();
+}
+
+// Extract headings in document order, skipping $$ math blocks so the ordinals
+// line up with the ids MarkdownView assigns to the rendered headings.
+function parseNoteHeadings(text) {
+  const lines = String(text || "").split(/\r?\n/);
+  const headings = [];
+  let inMath = false;
+  for (const raw of lines) {
+    const line = raw.trim();
+    if (/^\$\$/.test(line)) {
+      const oneLine = line.length > 3 && line.endsWith("$$");
+      if (!oneLine) inMath = !inMath;
+      continue;
+    }
+    if (inMath) continue;
+    const match = raw.match(/^(#{1,4})\s+(.*)$/);
+    if (match) headings.push({ level: match[1].length, text: stripInlineMarkup(match[2]) });
+  }
+  return headings.map((heading, index) => ({ ...heading, id: `note-h-${index}` }));
+}
+
+function NoteOutline({ content }) {
+  const headings = React.useMemo(() => parseNoteHeadings(content), [content]);
+  if (headings.length < 2) return null;
+  function jump(id) {
+    const el = document.getElementById(id);
+    if (!el) return;
+    window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - 84, behavior: "smooth" });
+  }
+  return (
+    <nav className="note-outline" aria-label="On this page">
+      <span className="note-outline-label">On this page</span>
+      <ul>
+        {headings.map((heading) => (
+          <li key={heading.id} className={`lvl-${Math.min(heading.level, 3)}`}>
+            <button onClick={() => jump(heading.id)}>{heading.text}</button>
+          </li>
+        ))}
+      </ul>
+    </nav>
+  );
 }
 
 function MarkdownView({ text }) {
@@ -1083,12 +1262,18 @@ function MarkdownView({ text }) {
     blocks.push({ type: "paragraph", text: paragraph.join(" ") });
   }
 
+  const headingIds = {};
+  let headingOrdinal = 0;
+  blocks.forEach((block, index) => {
+    if (block.type === "heading") headingIds[index] = `note-h-${headingOrdinal++}`;
+  });
+
   return (
     <div className="markdown-view">
       {blocks.map((block, index) => {
         if (block.type === "heading") {
           const TagName = block.level <= 1 ? "h2" : block.level === 2 ? "h3" : "h4";
-          return <TagName key={index}>{renderInline(block.text)}</TagName>;
+          return <TagName key={index} id={headingIds[index]}>{renderInline(block.text)}</TagName>;
         }
         if (block.type === "quote") return <blockquote key={index}>{renderInline(block.text)}</blockquote>;
         if (block.type === "list") return <ul key={index}>{block.items.map((item, itemIndex) => <li key={itemIndex}>{renderInline(item)}</li>)}</ul>;
@@ -1348,6 +1533,7 @@ function Home({ go, progress, summary }) {
             </p>
             <ExamSwitcher />
             <HeroStudyDesk go={go} progress={progress} />
+            <HeroStreak go={go} progress={progress} summary={summary} />
           </div>
           <HeroCalendar go={go} progress={progress} />
         </div>
@@ -1359,6 +1545,7 @@ function Home({ go, progress, summary }) {
         <div className="home-col-l">
           <DailyQuizCard go={go} progress={progress} />
           <DailyRcCard go={go} />
+          <ReviseNextCard go={go} progress={progress} summary={summary} />
         </div>
         <div className="home-col-r">
           <Snapshot go={go} summary={summary} />

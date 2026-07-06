@@ -1,0 +1,130 @@
+[
+  {
+    "question": "Environmental policy speaks confidently of \"restoring\" degraded ecosystems to their natural state, yet the very idea of a natural state to which anything could be restored rests on an evidentiary illusion. Each generation of scientists and citizens inherits, as its picture of abundance, whatever condition prevailed at the outset of its own observation, and mistakes that arbitrary starting point for nature's true baseline. A fishery that seems full to a researcher beginning fieldwork today would have seemed catastrophically depleted to her predecessor two generations earlier, who in turn regarded as normal a sea already emptied by a generation before that. The baseline does not stay fixed; it slides forward with each cohort of observers, so that what counts as a healthy river or a thriving forest is set not by ecological measurement but by the accident of when the measuring began. This is not merely a curiosity of memory; it has practical teeth. Restoration targets calibrated to a remembered abundance that was itself already diminished will systematically undershoot what genuine recovery would require, and each round of \"successful\" restoration ratifies a smaller and smaller vision of plenty as the new normal. The remedy is not nostalgia for some still-earlier and supposedly authentic wilderness, since that too is only an earlier slide of the same baseline, further back. It is, rather, to treat any claim about a natural or historical state of an ecosystem as a hypothesis resting on the observer's own vantage point, and to seek out the longer, harder record—sediment cores, old ship logs, fossil middens—that lies outside living memory altogether, since living memory is precisely the instrument that has been shown to drift.\n\nWhich of the following best captures the central idea of the passage?",
+    "options": [
+      "(a) Genuine ecological restoration is impossible because no reliable evidence of past ecosystems survives.",
+      "(b) Since each generation mistakes the condition it inherits for nature's true baseline, restoration targets calibrated to living memory tend to ratify an already-diminished state as the standard of health.",
+      "(c) Fisheries and forests are healthier today than most scientists currently believe.",
+      "(d) The best guide to restoring an ecosystem is the recollection of the oldest living generation of observers."
+    ],
+    "answer": "(b)",
+    "explanation": "The thesis is that living-memory baselines drift with each generation, so restoration goals anchored to remembered abundance ratify an already-diminished state as \"healthy.\" Closest wrong — (d): sounds like it addresses generational drift, but the author explicitly rejects using an \"earlier\" generation's memory as the fix—it is \"only an earlier slide of the same baseline.\"",
+    "subject": "Reading Comprehension",
+    "theme": "RC",
+    "micro_topic": "Environment / shifting baseline syndrome in ecological restoration",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Environmental policy speaks confidently of \"restoring\" degraded ecosystems to their natural state, yet the very idea of a natural state to which anything could be restored rests on an evidentiary illusion. Each generation of scientists and citizens inherits, as its picture of abundance, whatever condition prevailed at the outset of its own observation, and mistakes that arbitrary starting point for nature's true baseline. A fishery that seems full to a researcher beginning fieldwork today would have seemed catastrophically depleted to her predecessor two generations earlier, who in turn regarded as normal a sea already emptied by a generation before that. The baseline does not stay fixed; it slides forward with each cohort of observers, so that what counts as a healthy river or a thriving forest is set not by ecological measurement but by the accident of when the measuring began. This is not merely a curiosity of memory; it has practical teeth. Restoration targets calibrated to a remembered abundance that was itself already diminished will systematically undershoot what genuine recovery would require, and each round of \"successful\" restoration ratifies a smaller and smaller vision of plenty as the new normal. The remedy is not nostalgia for some still-earlier and supposedly authentic wilderness, since that too is only an earlier slide of the same baseline, further back. It is, rather, to treat any claim about a natural or historical state of an ecosystem as a hypothesis resting on the observer's own vantage point, and to seek out the longer, harder record—sediment cores, old ship logs, fossil middens—that lies outside living memory altogether, since living memory is precisely the instrument that has been shown to drift.\n\nThe author's argument that restoration targets \"systematically undershoot\" true recovery rests on the assumption that:",
+    "options": [
+      "(a) People generally treat the ecological condition present at the start of their own observation as the normal or natural state.",
+      "(b) Scientists deliberately falsify data to make ecosystems look healthier than they are.",
+      "(c) Sediment cores and ship logs are more numerous than living witnesses.",
+      "(d) Restoration projects are never based on any historical evidence at all."
+    ],
+    "answer": "(a)",
+    "explanation": "The undershoot argument only works if people actually anchor their sense of \"normal\" to whatever state they first observed—exactly the unstated premise. Closest wrong — (d): overstates the passage; the author isn't saying restoration ignores evidence entirely, only that it uses the wrong (memory-based) evidence, and in fact recommends deeper historical records.",
+    "subject": "Reading Comprehension",
+    "theme": "RC",
+    "micro_topic": "Environment / shifting baseline syndrome in ecological restoration",
+    "nature": "Aptitude",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Environmental policy speaks confidently of \"restoring\" degraded ecosystems to their natural state, yet the very idea of a natural state to which anything could be restored rests on an evidentiary illusion. Each generation of scientists and citizens inherits, as its picture of abundance, whatever condition prevailed at the outset of its own observation, and mistakes that arbitrary starting point for nature's true baseline. A fishery that seems full to a researcher beginning fieldwork today would have seemed catastrophically depleted to her predecessor two generations earlier, who in turn regarded as normal a sea already emptied by a generation before that. The baseline does not stay fixed; it slides forward with each cohort of observers, so that what counts as a healthy river or a thriving forest is set not by ecological measurement but by the accident of when the measuring began. This is not merely a curiosity of memory; it has practical teeth. Restoration targets calibrated to a remembered abundance that was itself already diminished will systematically undershoot what genuine recovery would require, and each round of \"successful\" restoration ratifies a smaller and smaller vision of plenty as the new normal. The remedy is not nostalgia for some still-earlier and supposedly authentic wilderness, since that too is only an earlier slide of the same baseline, further back. It is, rather, to treat any claim about a natural or historical state of an ecosystem as a hypothesis resting on the observer's own vantage point, and to seek out the longer, harder record—sediment cores, old ship logs, fossil middens—that lies outside living memory altogether, since living memory is precisely the instrument that has been shown to drift.\n\nWhich one of the following is a valid inference from the passage?",
+    "options": [
+      "(a) A restoration project judged wholly successful by present standards may still fall far short of the ecosystem's actual historical abundance.",
+      "(b) Ecosystems cannot be meaningfully restored once any degradation has occurred.",
+      "(c) Sediment cores and fossil middens are immune to any form of interpretive error.",
+      "(d) Each generation's estimate of ecological health is more accurate than the one before it."
+    ],
+    "answer": "(a)",
+    "explanation": "Direct consequence of baselines sliding forward: a target that looks fully met today can still be far short of true historical abundance. Closest wrong — (d): inverts the passage—the author says estimates drift and undershoot progressively, not that later generations judge more accurately than earlier ones.",
+    "subject": "Reading Comprehension",
+    "theme": "RC",
+    "micro_topic": "Environment / shifting baseline syndrome in ecological restoration",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Environmental policy speaks confidently of \"restoring\" degraded ecosystems to their natural state, yet the very idea of a natural state to which anything could be restored rests on an evidentiary illusion. Each generation of scientists and citizens inherits, as its picture of abundance, whatever condition prevailed at the outset of its own observation, and mistakes that arbitrary starting point for nature's true baseline. A fishery that seems full to a researcher beginning fieldwork today would have seemed catastrophically depleted to her predecessor two generations earlier, who in turn regarded as normal a sea already emptied by a generation before that. The baseline does not stay fixed; it slides forward with each cohort of observers, so that what counts as a healthy river or a thriving forest is set not by ecological measurement but by the accident of when the measuring began. This is not merely a curiosity of memory; it has practical teeth. Restoration targets calibrated to a remembered abundance that was itself already diminished will systematically undershoot what genuine recovery would require, and each round of \"successful\" restoration ratifies a smaller and smaller vision of plenty as the new normal. The remedy is not nostalgia for some still-earlier and supposedly authentic wilderness, since that too is only an earlier slide of the same baseline, further back. It is, rather, to treat any claim about a natural or historical state of an ecosystem as a hypothesis resting on the observer's own vantage point, and to seek out the longer, harder record—sediment cores, old ship logs, fossil middens—that lies outside living memory altogether, since living memory is precisely the instrument that has been shown to drift.\n\nThe author would most likely agree that:",
+    "options": [
+      "(a) Evidence lying outside living memory, such as sediment cores, offers a sounder basis for judging an ecosystem's historical state than personal or generational recollection.",
+      "(b) Nostalgic appeals to an earlier \"unspoiled\" wilderness provide the most reliable corrective to shifting baselines.",
+      "(c) The precise ecological baseline of any given period can never in principle be established.",
+      "(d) Restoration ecology should abandon numerical targets altogether since all such targets are equally arbitrary."
+    ],
+    "answer": "(a)",
+    "explanation": "The author's explicit remedy is evidence \"outside living memory altogether... since living memory is precisely the instrument that has been shown to drift.\" Closest wrong — (b): tempting because it also targets baseline drift, but the passage names nostalgia for an earlier wilderness as a false remedy, not the genuine one.",
+    "subject": "Reading Comprehension",
+    "theme": "RC",
+    "micro_topic": "Environment / shifting baseline syndrome in ecological restoration",
+    "nature": "Aptitude",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The meritocratic ideal promises that reward will track effort and ability alone, stripped of the accidents of birth that determined outcomes under older, frankly hereditary orders. Yet the very tests by which merit is certified—the vocabulary rewarded in examinations, the poise expected at interviews, the tacit assumption that ambition itself is a virtue rather than a disposition instilled by early comfort—are themselves unevenly distributed by family circumstance before any contest begins. A child raised amid books, unhurried conversation, and the expectation of success absorbs, without any exertion recognizable as effort, precisely those habits of mind that the meritocratic sorting mechanism is designed to detect and reward. The system does not fail to measure merit; it succeeds in measuring a compound of talent and privilege so thoroughly fused that the two become indistinguishable to the very instrument built to separate them. What changes under meritocracy, compared with older systems of inherited rank, is not that advantage ceases to be inherited but that it acquires a certificate of desert: the winner may now believe, and persuade others, that the position was earned rather than conferred, since some test was passed and some competitor was bested. This has a moral consequence graver than mere unfairness of outcome. Where inherited privilege at least wore its own name, meritocratic privilege denies its own existence, teaching both its beneficiaries and those left behind that the hierarchy reflects an accurate ranking of worth. The resulting complacency of the successful, and the self-blame of the unsuccessful, may together constitute meritocracy's most corrosive effect—more corrosive, in its way, than the inequality of outcomes it was designed to justify.\n\nWhich of the following best captures the central idea of the passage?",
+    "options": [
+      "(a) Meritocracy is a flawed but improvable system that will eventually eliminate the influence of inherited privilege.",
+      "(b) Meritocracy does not remove inherited advantage but re-certifies it as earned desert, breeding complacency in winners and self-blame in others—an effect the author considers worse than the inequality it claims to justify.",
+      "(c) Tests of merit accurately separate innate talent from the effects of upbringing, unlike older hereditary systems.",
+      "(d) The main problem with meritocracy is that it produces greater inequality of outcome than hereditary systems did."
+    ],
+    "answer": "(b)",
+    "explanation": "The passage's arc is: tests don't erase inherited advantage, they certify it as desert, and this disguise—not the inequality itself—is called the \"most corrosive effect.\" Closest wrong — (d): misplaces the emphasis; the author's real complaint is the moral disguise of privilege as merit, explicitly said to be worse than the inequality of outcomes.",
+    "subject": "Reading Comprehension",
+    "theme": "RC",
+    "micro_topic": "Society / meritocracy and inherited advantage",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The meritocratic ideal promises that reward will track effort and ability alone, stripped of the accidents of birth that determined outcomes under older, frankly hereditary orders. Yet the very tests by which merit is certified—the vocabulary rewarded in examinations, the poise expected at interviews, the tacit assumption that ambition itself is a virtue rather than a disposition instilled by early comfort—are themselves unevenly distributed by family circumstance before any contest begins. A child raised amid books, unhurried conversation, and the expectation of success absorbs, without any exertion recognizable as effort, precisely those habits of mind that the meritocratic sorting mechanism is designed to detect and reward. The system does not fail to measure merit; it succeeds in measuring a compound of talent and privilege so thoroughly fused that the two become indistinguishable to the very instrument built to separate them. What changes under meritocracy, compared with older systems of inherited rank, is not that advantage ceases to be inherited but that it acquires a certificate of desert: the winner may now believe, and persuade others, that the position was earned rather than conferred, since some test was passed and some competitor was bested. This has a moral consequence graver than mere unfairness of outcome. Where inherited privilege at least wore its own name, meritocratic privilege denies its own existence, teaching both its beneficiaries and those left behind that the hierarchy reflects an accurate ranking of worth. The resulting complacency of the successful, and the self-blame of the unsuccessful, may together constitute meritocracy's most corrosive effect—more corrosive, in its way, than the inequality of outcomes it was designed to justify.\n\nThe claim that the testing system \"succeeds in measuring a compound of talent and privilege\" rests on the assumption that:",
+    "options": [
+      "(a) The qualities rewarded by meritocratic tests—vocabulary, poise, instilled ambition—are themselves shaped by family circumstance rather than arising independent of it.",
+      "(b) All examiners are consciously biased in favour of wealthier candidates.",
+      "(c) No genuinely talented person ever comes from a disadvantaged background.",
+      "(d) Meritocratic societies produce identical outcomes to hereditary ones."
+    ],
+    "answer": "(a)",
+    "explanation": "For the tests to be \"measuring a compound,\" the very traits they reward must themselves originate in family circumstance—the assumption doing the work. Closest wrong — (c): an absolute the passage never asserts; the argument is about systematic tendency and fusion, not the impossibility of disadvantaged success.",
+    "subject": "Reading Comprehension",
+    "theme": "RC",
+    "micro_topic": "Society / meritocracy and inherited advantage",
+    "nature": "Aptitude",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "The meritocratic ideal promises that reward will track effort and ability alone, stripped of the accidents of birth that determined outcomes under older, frankly hereditary orders. Yet the very tests by which merit is certified—the vocabulary rewarded in examinations, the poise expected at interviews, the tacit assumption that ambition itself is a virtue rather than a disposition instilled by early comfort—are themselves unevenly distributed by family circumstance before any contest begins. A child raised amid books, unhurried conversation, and the expectation of success absorbs, without any exertion recognizable as effort, precisely those habits of mind that the meritocratic sorting mechanism is designed to detect and reward. The system does not fail to measure merit; it succeeds in measuring a compound of talent and privilege so thoroughly fused that the two become indistinguishable to the very instrument built to separate them. What changes under meritocracy, compared with older systems of inherited rank, is not that advantage ceases to be inherited but that it acquires a certificate of desert: the winner may now believe, and persuade others, that the position was earned rather than conferred, since some test was passed and some competitor was bested. This has a moral consequence graver than mere unfairness of outcome. Where inherited privilege at least wore its own name, meritocratic privilege denies its own existence, teaching both its beneficiaries and those left behind that the hierarchy reflects an accurate ranking of worth. The resulting complacency of the successful, and the self-blame of the unsuccessful, may together constitute meritocracy's most corrosive effect—more corrosive, in its way, than the inequality of outcomes it was designed to justify.\n\nWhich one of the following can be most safely inferred from the passage?",
+    "options": [
+      "(a) A society can replace explicit hereditary rank with a formally open contest and still reproduce comparable levels of entrenched advantage.",
+      "(b) Meritocratic societies necessarily have less overall inequality than hereditary ones.",
+      "(c) Ambition is entirely innate and unaffected by a child's early environment.",
+      "(d) Tests of merit will eventually be redesigned to eliminate the influence of upbringing."
+    ],
+    "answer": "(a)",
+    "explanation": "\"What changes... is not that advantage ceases to be inherited but that it acquires a certificate of desert\" directly supports this generalization. Closest wrong — (b): the passage never compares total inequality across systems; its point is about disguise, not magnitude.",
+    "subject": "Reading Comprehension",
+    "theme": "RC",
+    "micro_topic": "Society / meritocracy and inherited advantage",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The meritocratic ideal promises that reward will track effort and ability alone, stripped of the accidents of birth that determined outcomes under older, frankly hereditary orders. Yet the very tests by which merit is certified—the vocabulary rewarded in examinations, the poise expected at interviews, the tacit assumption that ambition itself is a virtue rather than a disposition instilled by early comfort—are themselves unevenly distributed by family circumstance before any contest begins. A child raised amid books, unhurried conversation, and the expectation of success absorbs, without any exertion recognizable as effort, precisely those habits of mind that the meritocratic sorting mechanism is designed to detect and reward. The system does not fail to measure merit; it succeeds in measuring a compound of talent and privilege so thoroughly fused that the two become indistinguishable to the very instrument built to separate them. What changes under meritocracy, compared with older systems of inherited rank, is not that advantage ceases to be inherited but that it acquires a certificate of desert: the winner may now believe, and persuade others, that the position was earned rather than conferred, since some test was passed and some competitor was bested. This has a moral consequence graver than mere unfairness of outcome. Where inherited privilege at least wore its own name, meritocratic privilege denies its own existence, teaching both its beneficiaries and those left behind that the hierarchy reflects an accurate ranking of worth. The resulting complacency of the successful, and the self-blame of the unsuccessful, may together constitute meritocracy's most corrosive effect—more corrosive, in its way, than the inequality of outcomes it was designed to justify.\n\nThe author's attitude toward the meritocratic ideal is best described as:",
+    "options": [
+      "(a) admiring, regarding it as a genuine improvement on hereditary privilege.",
+      "(b) critical, viewing its chief danger as morally worse than the inequality of outcome it seeks to justify.",
+      "(c) neutral, presenting the debate without taking a position.",
+      "(d) dismissive, treating the entire concept of merit as meaningless."
+    ],
+    "answer": "(b)",
+    "explanation": "The author names meritocracy's disguising of privilege as \"more corrosive... than the inequality of outcomes it was designed to justify\"—a reasoned, critical judgment. Closest wrong — (d): overstates the critique; the author never claims merit or talent is meaningless, only that it is fused with and obscured by privilege.",
+    "subject": "Reading Comprehension",
+    "theme": "RC",
+    "micro_topic": "Society / meritocracy and inherited advantage",
+    "nature": "Aptitude",
+    "difficulty": "Easy"
+  }
+]
