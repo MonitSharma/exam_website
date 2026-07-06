@@ -1,0 +1,50 @@
+[
+    {
+        "question": "With reference to PM Modi's three-nation visit beginning 6 July 2026, consider the following statements:\n1. It covers Indonesia, Australia and New Zealand.\n2. It is the first-ever visit by an Indian Prime Minister to New Zealand.\n3. The Indonesia leg follows the elevation of India–Indonesia ties to a Comprehensive Strategic Partnership in 2018.\n\nWhich of the statements given above is/are correct?",
+        "options": [
+            "(a) 1 and 2 only",
+            "(b) 1 and 3 only",
+            "(c) 2 and 3 only",
+            "(d) 1, 2 and 3"
+        ],
+        "answer": "(b)",
+        "explanation": "Statements 1 and 3 are correct: the visit covers Indonesia, Australia and New Zealand, and the Indonesia leg follows the 2018 elevation of India–Indonesia ties to a Comprehensive Strategic Partnership. Statement 2 is incorrect — it is the first state visit by an Indian PM to New Zealand in four decades, not the first-ever visit.",
+        "subject": "International Relations",
+        "theme": "India's Indo-Pacific & Act East Diplomacy",
+        "micro_topic": "PM's Indonesia-Australia-New Zealand Visit (July 2026)",
+        "nature": "Current Affairs",
+        "difficulty": "Moderate"
+    },
+    {
+        "question": "The BRICS Heads of Anti-Drug Agencies Meeting held on 6–7 July 2026 took place in which city, and under whose institutional lead?",
+        "options": [
+            "(a) Kochi; Ministry of Women & Child Development",
+            "(b) Guwahati; Ministry of Home Affairs / Narcotics Control Bureau",
+            "(c) New Delhi; Ministry of External Affairs",
+            "(d) Bengaluru; NITI Aayog"
+        ],
+        "answer": "(b)",
+        "explanation": "India, holding the BRICS chairship in 2026, hosted the BRICS Heads of Anti-Drug Agencies Meeting in Guwahati, Assam, on 6–7 July, led by home affairs/narcotics-control agencies to strengthen counter-narcotics cooperation among BRICS member states, covering synthetic drugs, precursor diversion, and darknet trafficking.",
+        "subject": "Internal Security",
+        "theme": "India's BRICS Chairship & Counter-Narcotics Cooperation",
+        "micro_topic": "BRICS Anti-Drug Agencies Meeting, Guwahati",
+        "nature": "Current Affairs",
+        "difficulty": "Moderate"
+    },
+    {
+        "question": "With reference to the Mumbai–Ahmedabad High-Speed Rail (MAHSR) corridor, consider the following statements:\n1. It introduces J-Slab ballastless track technology for the first time in India.\n2. Its design speed is higher than the design speed of Vande Bharat trains.\n3. The first section of the corridor to become operational is planned to be between Surat and Vapi.\n\nHow many of the above statements are correct?",
+        "options": [
+            "(a) Only one",
+            "(b) Only two",
+            "(c) All three",
+            "(d) None"
+        ],
+        "answer": "(c)",
+        "explanation": "All three statements are correct: MAHSR introduces J-Slab ballastless track technology for the first time in India; its design speed of 350 kmph exceeds Vande Bharat's design speed of 180 kmph; and the first operational section, expected by August 2027, is planned between Surat and Vapi.",
+        "subject": "Economy",
+        "theme": "High-Speed Rail Infrastructure & Standardisation",
+        "micro_topic": "Mumbai-Ahmedabad High Speed Rail (MAHSR) / NHSRCL",
+        "nature": "Current Affairs",
+        "difficulty": "Moderate"
+    }
+]

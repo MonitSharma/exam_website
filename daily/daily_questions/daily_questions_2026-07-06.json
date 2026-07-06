@@ -1,0 +1,94 @@
+[
+  {
+    "question": "With reference to PM Modi's July 2026 three-nation Indo-Pacific tour, consider the following statements: 1. Indonesia was the first leg of the tour and marked Modi's fourth visit to that country. 2. India and Indonesia elevated their relationship to a Comprehensive Strategic Partnership in 2018. 3. The tour also includes New Zealand — Modi's first visit there in about four decades. Which of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(d)",
+    "explanation": "All three are correct: Indonesia was the first leg (Modi's 4th visit there); the CSP dates to 2018; the tour continues to New Zealand, Modi's first visit there in ~40 years (since Rajiv Gandhi, 1986).",
+    "subject": "International Relations",
+    "theme": "India's Indo-Pacific / Act East diplomacy",
+    "micro_topic": "Modi's Indonesia-Australia-New Zealand tour, July 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Consider the following statements regarding India's under-construction second spaceport: 1. It is located at Kulasekharapatnam in Tamil Nadu's Thoothukudi district. 2. Its southward launch trajectory avoids the fuel-intensive 'dog-leg' manoeuvre required at Sriharikota to steer clear of Sri Lanka. 3. DRDO has announced plans to leverage the spaceport for its early-warning and satellite technology programmes. Which of the statements given above is/are correct?",
+    "options": ["(a) 1 only", "(b) 1 and 2 only", "(c) 2 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(d)",
+    "explanation": "Kulasekharapatnam is in Thoothukudi, Tamil Nadu; its southward trajectory avoids the Sriharikota dog-leg manoeuvre around Sri Lanka; DRDO is building a roadmap to use the site for early-warning/satellite tech synergy.",
+    "subject": "Science & Technology",
+    "theme": "India's space infrastructure",
+    "micro_topic": "Kulasekharapatnam spaceport (2nd spaceport) & DRDO-ISRO alliance",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The 'State of India's Environment 2026' report, released by the Centre for Science and Environment (CSE), found that:",
+    "options": [
+      "(a) Six of the nine planetary boundaries have now been breached",
+      "(b) Seven of the nine planetary boundaries have now been breached, with ocean acidification the latest to cross the safe limit",
+      "(c) India has achieved all 23 of its national biodiversity targets under the Kunming-Montreal Framework",
+      "(d) Global forest cover now exceeds the 75% 'safe' threshold defined under the planetary-boundaries framework"
+    ],
+    "answer": "(b)",
+    "explanation": "Seven of nine planetary boundaries have been breached as of the 2026 report, with ocean acidification the newest addition; global forest cover (59%) is well below, not above, the 75% safe threshold, and only 2 of India's 23 CBD biodiversity targets are on track.",
+    "subject": "Environment",
+    "theme": "Planetary boundaries / flagship environment reports",
+    "micro_topic": "CSE's State of India's Environment 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to RBI's revised Capital Market Exposure (CME) norms effective from 1 July 2026, consider the following statements: 1. A bank's total capital market exposure is capped at 40% of its Tier 1 capital. 2. Direct capital market exposure, including acquisition finance, is capped at 20% of Tier 1 capital. 3. Bank guarantees issued to brokers must now be backed by 100% collateral. Which of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(d)",
+    "explanation": "All three are correct per RBI's revised Capital Market Exposure framework effective 1 July 2026: 40% total cap, 20% direct/acquisition-finance cap, and 100% collateral on broker guarantees.",
+    "subject": "Economy",
+    "theme": "Banking regulation",
+    "micro_topic": "RBI Capital Market Exposure (CME) norms, 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "The Supreme Court's 2026 ruling on AI-generated 'hallucinated' judicial precedents held that: 1. Any decision that relies even partly on fake or hallucinated AI-generated material must be set aside. 2. Citing unverified AI-generated case law amounts to professional misconduct by an advocate. 3. The Bar Council of India was directed to frame norms on the issue. Which of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(d)",
+    "explanation": "The Supreme Court (Pooja Ramesh Singh v. J&K Bank Ltd, 2026 INSC 668) held even an 'iota' of hallucinated material voids a decision, called unverified AI citation professional misconduct, and directed the BCI to frame verification norms.",
+    "subject": "Polity & Governance",
+    "theme": "Judiciary & judicial accountability",
+    "micro_topic": "Supreme Court on AI-hallucinated precedents (NCLT/NCLAT)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The concept of 'Planetary Boundaries' — a framework identifying nine Earth-system processes critical to maintaining a stable and resilient planet — was first proposed (2009) by a group of scientists led by:",
+    "options": [
+      "(a) Johan Rockström (Stockholm Resilience Centre)",
+      "(b) James Hansen (NASA)",
+      "(c) Herman Daly (World Bank)",
+      "(d) Rajendra Pachauri (IPCC)"
+    ],
+    "answer": "(a)",
+    "explanation": "Johan Rockström led the Stockholm Resilience Centre team that introduced the Planetary Boundaries framework in a 2009 Nature paper, co-authored with Paul Crutzen among others.",
+    "subject": "Environment",
+    "theme": "Sustainable development concepts",
+    "micro_topic": "Planetary Boundaries framework",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "In the context of Indian banking regulation, 'Tier 1 capital' primarily refers to:",
+    "options": [
+      "(a) Revaluation reserves and subordinated debt held by a bank",
+      "(b) A bank's core capital — equity capital and disclosed reserves — that lets it absorb losses without ceasing operations",
+      "(c) The Statutory Liquidity Ratio maintained with the RBI",
+      "(d) The Cash Reserve Ratio prescribed under the RBI Act, 1934"
+    ],
+    "answer": "(b)",
+    "explanation": "Tier 1 capital is a bank's core, most loss-absorbing capital (equity + disclosed reserves), distinct from supplementary Tier 2 capital (revaluation reserves, subordinated debt) and unrelated to SLR/CRR.",
+    "subject": "Economy",
+    "theme": "Banking regulation",
+    "micro_topic": "Capital Adequacy Ratio / Tier 1 & Tier 2 capital",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  }
+]
