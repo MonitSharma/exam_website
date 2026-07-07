@@ -1,0 +1,50 @@
+[
+  {
+    "question": "Consider the following statements about \"Indiahandmade\":\n1. It is a digital marketplace developed by the Digital India Corporation under the Ministry of Textiles.\n2. It operates on a zero-commission model, crediting full sale proceeds to artisans' bank accounts.\n3. It gives special prominence to Geographical Indication (GI)-tagged products.\nHow many of the above statements are correct?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All three",
+      "(d) None"
+    ],
+    "answer": "(c)",
+    "explanation": "Indiahandmade is developed by the Digital India Corporation under the Ministry of Textiles, uses a zero-commission model paying artisans in full, and specially promotes GI-tagged products; it has onboarded over 64 lakh artisans as of July 2026.",
+    "subject": "Economy",
+    "theme": "Digital India / rural livelihoods and MSME",
+    "micro_topic": "Indiahandmade digital marketplace for artisans",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the India–UK Comprehensive Economic and Trade Agreement (CETA), which of the following statements is/are correct?\n1. It is set to enter into force on 15 July 2026, alongside a Double Contribution Convention (DCC) on social security.\n2. Under CETA, India gets immediate duty-free access on 99% of tariff lines.\n3. The DCC increases the social-security contribution exemption period for Indian temporary workers in the UK from 3 to 5 years.\nSelect the correct answer using the code below:",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "CETA and the companion DCC both take effect on 15 July 2026 following notification of Customs Tariff Rules; India secures duty-free access on 99% of tariff lines; and the DCC extends the social-security exemption period for Indian workers in the UK from 3 to 5 years.",
+    "subject": "International Relations",
+    "theme": "India's bilateral trade agreements",
+    "micro_topic": "India-UK CETA and Double Contribution Convention",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "The \"ABHA\" (Ayushman Bharat Health Account) number, frequently in the news, is best described as:",
+    "options": [
+      "(a) A subsidised health insurance cover under Ayushman Bharat–PMJAY for economically weaker families",
+      "(b) A unique, Aadhaar-like digital health identifier under the Ayushman Bharat Digital Mission (ABDM) linking an individual's health records across providers",
+      "(c) A grievance-redressal ticket number issued to patients under CGHS",
+      "(d) A certification number issued to hospitals empanelled under Ayushman Bharat"
+    ],
+    "answer": "(b)",
+    "explanation": "ABHA is a voluntary, unique digital health ID issued under ABDM that links an individual's medical records across the health ecosystem; it is not an insurance scheme, grievance ticket, or hospital certificate. ABDM has now linked over 104 crore health records to 93 crore ABHA accounts.",
+    "subject": "Science & Technology",
+    "theme": "Digital health infrastructure",
+    "micro_topic": "Ayushman Bharat Digital Mission and ABHA",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]

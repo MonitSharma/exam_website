@@ -1,0 +1,79 @@
+[
+  {
+    "question": "With reference to India's diplomatic engagements in July 2026, consider the following statements:\n1. EAM S. Jaishankar's tour covered Qatar, Bahrain, Kuwait and Oman before travelling to New York and Brussels.\n2. India's official campaign for the UN Security Council's 2028-29 non-permanent term was launched in New York.\n3. If elected for the 2028-29 term, it would be India's 8th term as a UNSC non-permanent member.\n\nWhich of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(a)",
+    "explanation": "Statements 1 and 2 are correct. Statement 3 is wrong — if elected for 2028-29, it would be India's 9th term (having served 8 times: 1950-51 through 2021-22), not its 8th.",
+    "subject": "International Relations",
+    "theme": "India's UN engagement & UNSC campaign",
+    "micro_topic": "Jaishankar's July 2026 six-nation tour; UNSC 2028-29 campaign launch",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements regarding India's Project 17A (Nilgiri-class) stealth frigates:\n1. The programme comprises a total of seven ships.\n2. INS Mahendragiri, the sixth ship of the class, was built by Garden Reach Shipbuilders & Engineers (GRSE).\n3. The ships carry more than 75% indigenous content and were designed by the Indian Navy's own Warship Design Bureau.\n\nWhich of the statements given above is/are correct?",
+    "options": ["(a) 1 and 3 only", "(b) 2 and 3 only", "(c) 1 only", "(d) 1, 2 and 3"],
+    "answer": "(a)",
+    "explanation": "Statements 1 and 3 are correct. Statement 2 is wrong — Mahendragiri was built by MDL, not GRSE (GRSE built Himgiri, Dunagiri, and Vindhyagiri).",
+    "subject": "Science & Technology",
+    "theme": "Naval shipbuilding & defence indigenisation",
+    "micro_topic": "INS Mahendragiri; Project 17A Nilgiri-class frigate commissioning",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The 2026 'Tiger Conservation Roadmap', released by the NTCA and Wildlife Institute of India, identifies India's tiger reserves using which conceptual framework?",
+    "options": ["(a) Protected Area–Buffer Zone dichotomy", "(b) Source–sink population dynamics", "(c) IUCN Red List threat categorisation", "(d) Ramsar wise-use criteria"],
+    "answer": "(b)",
+    "explanation": "The Roadmap uses the 'source-sink population dynamics' framework to classify reserves as thriving sources or struggling sinks needing intervention.",
+    "subject": "Environment",
+    "theme": "Tiger conservation & NTCA",
+    "micro_topic": "Tiger Conservation Roadmap 2026; 25 priority reserves; source-sink framework",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the 'Modified UDAN' scheme approved by the Union Cabinet, consider the following statements:\n1. It runs for a ten-year period from FY 2026-27 to FY 2035-36.\n2. Its total outlay is ₹28,840 crore, including funds for both new aerodromes and modern helipads.\n3. It is entirely a state-government-funded scheme with no central budgetary support.\n\nWhich of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(a)",
+    "explanation": "Statements 1 and 2 are correct. Statement 3 is wrong — Modified UDAN carries central budgetary support (₹28,840 crore total outlay); it is not purely state-funded.",
+    "subject": "Economy",
+    "theme": "Civil aviation & regional connectivity",
+    "micro_topic": "Modified UDAN Scheme (FY2026-27 to FY2035-36); ₹28,840 crore outlay",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The 'Missing Link' that was shut in early July 2026 due to a landslide is a bypass connecting:",
+    "options": ["(a) Khopoli (Raigad district) and Kusgaon (near Lonavala, Pune district) through the Sahyadri", "(b) Thal Ghat and Igatpuri through the Deccan Trap escarpment", "(c) Palakkad Gap connecting Kerala and Tamil Nadu", "(d) Katra and Banihal through the Pir Panjal range"],
+    "answer": "(a)",
+    "explanation": "The Missing Link connects Khopoli (Raigad) and Kusgaon (near Lonavala, Pune) through the Sahyadri range, part of the Western Ghats.",
+    "subject": "Geography",
+    "theme": "Western Ghats passes & transport corridors",
+    "micro_topic": "Mumbai-Pune Expressway Missing Link; Khopoli-Kusgaon landslide",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the United Nations Security Council (UNSC), consider the following statements:\n1. It consists of 5 permanent members and 10 non-permanent members.\n2. Non-permanent members are elected by the UN General Assembly for a two-year term.\n3. A procedural resolution before the UNSC can be vetoed by any permanent member.\n\nWhich of the statements given above is/are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1, 2 and 3", "(d) 1 only"],
+    "answer": "(a)",
+    "explanation": "Statements 1 and 2 are correct. Statement 3 is wrong — only substantive (non-procedural) resolutions can be vetoed by a permanent member; procedural matters cannot be vetoed.",
+    "subject": "International Relations",
+    "theme": "UN system & India's UN engagement",
+    "micro_topic": "UNSC composition, veto power, election procedure (static)",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Project Tiger (launched 1973) and the National Tiger Conservation Authority (NTCA, constituted 2006) derive their statutory backing from an amendment to which legislation?",
+    "options": ["(a) The Forest (Conservation) Act, 1980", "(b) The Environment (Protection) Act, 1986", "(c) The Wildlife (Protection) Act, 1972", "(d) The Biological Diversity Act, 2002"],
+    "answer": "(c)",
+    "explanation": "The NTCA was constituted in 2006 via an amendment to the Wildlife (Protection) Act, 1972, implementing the Tiger Task Force's recommendations; Project Tiger itself was launched in 1973 as a centrally sponsored scheme.",
+    "subject": "Environment",
+    "theme": "Wildlife protection legal architecture",
+    "micro_topic": "NTCA; Wildlife (Protection) Act 1972 amendment (2006); Tiger Task Force",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  }
+]
