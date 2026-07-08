@@ -1,0 +1,79 @@
+[
+  {
+    "question": "With reference to India's 'Designated Repositories' under the Biological Diversity Act, 2002, consider the following statements: 1. A Designated Repository is notified under Section 39 of the Act on the recommendation of the National Biodiversity Authority. 2. The Natural History Museum, Mizoram University, notified in 2026, is India's 21st such repository. 3. Designated Repositories are authorised to hold voucher and type specimens of newly discovered species. How many of the statements given above are correct?",
+    "options": ["(a) Only one", "(b) Only two", "(c) All three", "(d) None"],
+    "answer": "(c)",
+    "explanation": "All three statements are correct. In June 2026, MoEFCC notified the Natural History Museum, Mizoram University, Aizawl as a Designated Repository under Section 39 of the Biological Diversity Act, 2002, on the NBA's recommendation, making it India's 21st such repository. Designated Repositories hold voucher specimens and act as custodians for type specimens of newly described species from their region.",
+    "subject": "Environment",
+    "theme": "Biodiversity governance",
+    "micro_topic": "Biological Diversity Act 2002; Designated Repositories; NBA",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Supreme Court's ruling in Sardari Lal v. Bishan Dass & Ors. (2026), consider the following statements: 1. The Court held that mere examination of an attesting witness fully discharges a propounder's burden of proving a Will, even amid suspicious circumstances. 2. Complete disinheritance of a dependent, cordial spouse in favour of a stranger, without explanation, can constitute a suspicious circumstance. 3. Uninitialed alterations on a registered Will do not affect the legal presumption of its due execution. Which of the statements given above is/are correct?",
+    "options": ["(a) 1 only", "(b) 2 only", "(c) 2 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(b)",
+    "explanation": "Only statement 2 is correct. The Supreme Court (2026 INSC 669, 6 July 2026) held that mere examination of an attesting witness is NOT enough where suspicious circumstances exist — the propounder bears an additional burden to dispel such doubts (statement 1 is wrong). It also held that uninitialed alterations/cuttings on a registered Will DEPRIVE the propounder of the presumption of due execution (statement 3 is wrong, since it claims the opposite).",
+    "subject": "Polity & Governance",
+    "theme": "Judiciary and law of evidence",
+    "micro_topic": "Suspicious circumstances doctrine; Wills; Indian Evidence Act S.68",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "The India-Australia civil-uranium supply pact expected to be concluded at the 2026 Annual Leaders' Summit builds upon a bilateral civil nuclear cooperation framework agreement signed in which year?",
+    "options": ["(a) 2008", "(b) 2010", "(c) 2014", "(d) 2020"],
+    "answer": "(c)",
+    "explanation": "India and Australia signed a civil nuclear cooperation framework agreement in 2014. The commercial uranium supply pact expected at the July 2026 Melbourne Summit operationalises that decade-old framework, following resolution of outstanding non-proliferation safeguard issues.",
+    "subject": "International Relations",
+    "theme": "India-Australia bilateral relations",
+    "micro_topic": "Civil nuclear cooperation; uranium supply agreement",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the recent notification on ports of entry for the import of drugs into India, consider the following statements: 1. The notification amends Rule 43A of the Drugs Rules, 1945. 2. With the addition of Navi Mumbai Airport, the total number of notified ports of entry for drug imports rises to 42. 3. Such notifications are issued after consultation with the Drugs Technical Advisory Board under the Drugs and Cosmetics Act, 1940. How many of the statements given above are correct?",
+    "options": ["(a) Only one", "(b) Only two", "(c) All three", "(d) None"],
+    "answer": "(c)",
+    "explanation": "All three statements are correct. The Union Health Ministry notified Navi Mumbai Airport as a port for drug imports via an amendment to Rule 43A of the Drugs Rules, 1945, taking the total notified ports of entry (air, sea, road, rail) to 42; such notifications follow consultation with the Drugs Technical Advisory Board under the Drugs and Cosmetics Act, 1940.",
+    "subject": "Economy",
+    "theme": "Pharma trade and health regulation",
+    "micro_topic": "Drugs Rules 1945; ports of entry; DTAB",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to ISRO's LVM3 (GSLV Mk III) launch vehicle, consider the following statements: 1. Its cryogenic upper stage, C25, is being replaced by an upgraded C32 stage carrying a higher propellant load. 2. The upgrade is expected to increase LVM3's payload capacity to Geosynchronous Transfer Orbit (GTO). 3. The CE20 engine that powers the cryogenic stage has previously been used in the Chandrayaan-2 and Chandrayaan-3 missions. How many of the statements given above are correct?",
+    "options": ["(a) Only one", "(b) Only two", "(c) All three", "(d) None"],
+    "answer": "(c)",
+    "explanation": "All three statements are correct. ISRO's flight acceptance test (6 July 2026) cleared the CE20 engine for LVM3-M7, which will debut the upgraded C32 cryogenic stage (~32 t propellant vs C25's ~25 t), expected to raise LVM3's GTO payload capacity from ~4,000 kg to ~5,200 kg. CE20 has already powered 8 successive LVM3 missions, including Chandrayaan-2 and Chandrayaan-3.",
+    "subject": "Science & Technology",
+    "theme": "Space technology & launch vehicles",
+    "micro_topic": "LVM3 upgrade; C32 cryogenic stage; CE20 engine",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements about the National Biodiversity Authority (NBA): 1. It is a statutory, autonomous body established under the Biological Diversity Act, 2002. 2. It regulates access to India's biological resources and associated traditional knowledge to ensure fair and equitable benefit-sharing. 3. Its headquarters is located in New Delhi. Which of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 1 and 3 only", "(c) 2 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(a)",
+    "explanation": "Statements 1 and 2 are correct. The NBA is a statutory, autonomous body set up in 2003 under the Biological Diversity Act, 2002, and regulates access to biological resources/traditional knowledge for equitable benefit-sharing. Statement 3 is wrong: NBA's headquarters is in Chennai, not New Delhi.",
+    "subject": "Environment",
+    "theme": "Biodiversity governance",
+    "micro_topic": "National Biodiversity Authority; statutory bodies",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to proving a Will under Indian law, consider the following statements: 1. Under the Indian Evidence Act, 1872, execution of a Will must ordinarily be proved by at least one attesting witness, where available. 2. The propounder of a Will bears the initial burden of proving its valid execution. 3. Once suspicious circumstances surrounding a Will are established, the burden shifts onto the propounder to dispel them. Which of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(d)",
+    "explanation": "All three are correct static principles of succession/evidence law. Section 68 of the Indian Evidence Act, 1872 requires proof of execution of a Will (a document required by law to be attested) through at least one attesting witness where available; the propounder always bears the initial onus of proving due execution; and once suspicious circumstances are shown, courts (per H. Venkatachala Iyengar v. B.N. Thimmajamma, 1959, and reaffirmed in 2026) shift an additional burden onto the propounder to dispel them.",
+    "subject": "Polity & Governance",
+    "theme": "Judiciary and law of evidence",
+    "micro_topic": "Indian Evidence Act S.68; Wills; suspicious circumstances doctrine",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  }
+]

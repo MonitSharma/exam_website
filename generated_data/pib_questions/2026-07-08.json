@@ -1,0 +1,40 @@
+[
+  {
+    "question": "Consider the following statements regarding the India–European Free Trade Association (EFTA) Trade and Economic Partnership Agreement (TEPA):\n1. EFTA comprises Iceland, Liechtenstein, Norway and Switzerland.\n2. TEPA is India's first trade agreement with the EFTA bloc.\n3. Under TEPA, EFTA states have committed to facilitate USD 100 billion in investment into India over 15 years.\n\nHow many of the statements given above are correct?",
+    "options": ["(a) Only one", "(b) Only two", "(c) All three", "(d) None"],
+    "answer": "(c)",
+    "explanation": "EFTA = Iceland, Liechtenstein, Norway, Switzerland; TEPA is India's first pact with EFTA; it targets USD 100 billion investment and 1 million jobs over 15 years, and was highlighted at a Commerce Department Chintan Shivir on seafood export opportunities.",
+    "subject": "International Relations",
+    "theme": "Trade Agreements",
+    "micro_topic": "India-EFTA TEPA",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The \"Letter of Authorisation (LoA) for Sustainable Harnessing of Fisheries in the High Seas,\" recently in the news, is associated with which of the following?",
+    "options": [
+      "(a) Ministry of Ports, Shipping and Waterways, for regulating coastal shipping routes",
+      "(b) Ministry of Fisheries, Animal Husbandry & Dairying, to enable FFPOs/cooperatives to access deep-sea and high-seas fishing",
+      "(c) Ministry of Earth Sciences, for deep-sea mineral exploration licensing",
+      "(d) Ministry of External Affairs, for maritime boundary agreements with neighbouring states"
+    ],
+    "answer": "(b)",
+    "explanation": "The LoA scheme, under the Ministry of Fisheries, Animal Husbandry & Dairying, gives Fish Farmer Producer Organisations and cooperatives a digitised, time-bound authorisation to access high-seas and deep-sea fishing resources; it was launched alongside Odisha's Deep Sea Fishing Mission (2026-2036).",
+    "subject": "Economy",
+    "theme": "Blue Economy",
+    "micro_topic": "Fisheries Sector Schemes",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Drugs Rules, 1945, consider the following statements:\n1. The Rules are framed under the Drugs and Cosmetics Act, 1940.\n2. They specify the ports (air/sea/road/rail) through which drugs may be legally imported into India.\n3. Amendments to add new ports of entry require prior consultation with the Drugs Technical Advisory Board.\n\nWhich of the statements given above is/are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(d)",
+    "explanation": "The Drugs Rules, 1945 are subordinate legislation under the Drugs and Cosmetics Act, 1940; Rule 43A lists notified ports of entry for drug imports (now 42 after Navi Mumbai Airport was added); such amendments follow consultation with the Drugs Technical Advisory Board.",
+    "subject": "Polity & Governance",
+    "theme": "Health Regulation",
+    "micro_topic": "Drugs and Cosmetics Act",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]
