@@ -1,0 +1,79 @@
+[
+  {
+    "question": "With reference to the ASEAN-India Trade in Goods Agreement (AITIGA), consider the following statements:\n1. It came into force in 2010 and is currently being reviewed for the first time.\n2. India hosted the 13th Joint Committee meeting to advance the review in New Delhi in July 2026.\n3. All ten ASEAN member states are parties to the agreement.\nWhich of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(d)",
+    "explanation": "AITIGA was signed in 2009, entered into force on 1 January 2010, and is under its first review; India hosted the 13th Joint Committee in New Delhi in July 2026; all 10 ASEAN states are parties.",
+    "subject": "International Relations",
+    "theme": "India-ASEAN economic engagement",
+    "micro_topic": "AITIGA review; 13th Joint Committee 2026; Act East Policy",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The PM-SETU scheme, in the news in July 2026, is associated with which of the following?",
+    "options": ["(a) Upgradation of Industrial Training Institutes (ITIs)", "(b) Setting up of urban wetland eco-parks", "(c) A cross-border electricity transmission grid", "(d) Rehabilitation of manual scavengers"],
+    "answer": "(a)",
+    "explanation": "PM-SETU = Pradhan Mantri Skilling and Employability Transformation through Upgraded ITIs; the July 2026 approval covered a nationwide rollout to 200 ITI clusters and Rs 1,237.58 crore of Strategic Investment Plans in Odisha, Gujarat and Telangana.",
+    "subject": "Polity & Governance",
+    "theme": "Skill development schemes",
+    "micro_topic": "PM-SETU; ITI upgradation; Centrally Sponsored Scheme financing",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "According to a 2026 McKinsey-FICCI report, India recently became the world's largest hub for Global Capability Centres (GCCs) in which sector?",
+    "options": ["(a) Automotive manufacturing", "(b) Retail and FMCG", "(c) Pharmaceuticals", "(d) Aerospace and defence"],
+    "answer": "(b)",
+    "explanation": "The McKinsey-FICCI report (July 2026) placed India as the world's largest Retail & FMCG GCC hub with about 180 centres, over 2.72 lakh professionals, and an ecosystem roughly 34% larger than the next five peer markets combined.",
+    "subject": "Economy",
+    "theme": "Services sector and Global Capability Centres",
+    "micro_topic": "Retail/FMCG GCC hub; McKinsey-FICCI report 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "'Sirsa Kinnow', accorded a Geographical Indication (GI) tag in 2026, is a variety of which of the following?",
+    "options": ["(a) Mango", "(b) Citrus (mandarin-orange hybrid)", "(c) Guava", "(d) Pomegranate"],
+    "answer": "(b)",
+    "explanation": "Kinnow is a high-yield citrus (mandarin-orange) hybrid; Sirsa Kinnow is Haryana's first fruit to receive a GI tag, its quality linked to the Indo-Israel Centre of Excellence at Mangiana.",
+    "subject": "Agriculture",
+    "theme": "Geographical Indications in agriculture",
+    "micro_topic": "Sirsa Kinnow GI tag; Haryana; Indo-Israel Centre of Excellence",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In the context of Indian defence procurement, an 'Acceptance of Necessity (AoN)' - as accorded by the Defence Acquisition Council in July 2026 - signifies that:",
+    "options": ["(a) A supply contract has been formally signed", "(b) The equipment has entered serial production", "(c) A procurement proposal has received first-stage in-principle approval", "(d) Trial evaluation of the equipment has been completed"],
+    "answer": "(c)",
+    "explanation": "An AoN from the DAC (chaired by the Defence Minister) is the initial in-principle clearance under the Defence Acquisition Procedure 2020; contract, trials and production follow later. The July 2026 DAC cleared about Rs 52,000 crore, air-defence and counter-drone heavy.",
+    "subject": "Internal Security",
+    "theme": "Defence procurement and indigenisation",
+    "micro_topic": "DAC; Acceptance of Necessity; DAP 2020 procurement stages",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Geographical Indications of Goods (Registration and Protection) Act, 1999, consider the following statements:\n1. A registered GI is a right granted to a single individual producer.\n2. The initial period of registration is ten years and can be renewed.\n3. The Geographical Indications Registry is located in Chennai.\nWhich of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 1 and 3 only", "(c) 2 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(c)",
+    "explanation": "A GI is a collective right of the producers of a defined region, not an individual (statement 1 wrong); registration is for 10 years and is renewable (2 correct); the GI Registry is at Chennai (3 correct).",
+    "subject": "Economy",
+    "theme": "Intellectual property rights",
+    "micro_topic": "GI Act 1999; collective rights; GI Registry Chennai; TRIPS",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Under the Defence Acquisition Procedure (DAP) 2020, which category is accorded the highest priority for capital acquisition to promote indigenisation?",
+    "options": ["(a) Buy (Global)", "(b) Buy and Make (Global)", "(c) Buy (Indian - IDDM)", "(d) Buy (Global - Manufacture in India)"],
+    "answer": "(c)",
+    "explanation": "Buy (Indian - Indigenously Designed, Developed and Manufactured) is the topmost priority category under DAP 2020, ranked above Buy (Indian), Buy & Make (Indian), and the various Global categories.",
+    "subject": "Internal Security",
+    "theme": "Defence acquisition framework",
+    "micro_topic": "DAP 2020 procurement categories; Buy (Indian-IDDM); Atmanirbhar Bharat",
+    "nature": "Factual",
+    "difficulty": "Hard"
+  }
+]

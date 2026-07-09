@@ -1,0 +1,40 @@
+[
+  {
+    "question": "With reference to the Pinaka Long Range Guided Rocket (LRGR) flight-tested on 8 July 2026, consider the following statements:\n1. It was tested at the Integrated Test Range, Chandipur, for a minimum range of 60 km.\n2. It required a dedicated new launcher built specifically for the LRGR.\n3. The Armament Research and Development Establishment (ARDE) is its lead design agency.\n\nWhich of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 1 and 3 only", "(c) 2 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(b)",
+    "explanation": "The LRGR was fired from the existing in-service Pinaka launcher — no dedicated new launcher was built — so statement 2 is incorrect. ARDE, with support from HEMRL, DRDL and RCI, is the lead design agency; the trial was conducted at ITR Chandipur for a minimum range of 60 km.",
+    "subject": "Science & Technology",
+    "theme": "Defence Indigenisation",
+    "micro_topic": "Pinaka Rocket System / DRDO",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Natural History Museum, Mizoram University, was recently notified as a \"Designated Repository.\" This notification was made under which of the following?",
+    "options": [
+      "(a) Wildlife (Protection) Act, 1972",
+      "(b) Biological Diversity Act, 2002",
+      "(c) Environment (Protection) Act, 1986",
+      "(d) Forest (Conservation) Act, 1980"
+    ],
+    "answer": "(b)",
+    "explanation": "On the National Biodiversity Authority's recommendation, the NHM at Mizoram University was notified as India's 21st Designated Repository under Section 39 of the Biological Diversity Act, 2002, to house voucher specimens of regional flora and fauna from the Indo-Burma Biodiversity Hotspot.",
+    "subject": "Environment",
+    "theme": "Biodiversity Conservation",
+    "micro_topic": "Biological Diversity Act, 2002",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Consider the following statements regarding the Prambanan Temple Complex:\n1. It is a UNESCO World Heritage Site located in Yogyakarta, Indonesia.\n2. It is dedicated to the Hindu Trimurti — Brahma, Vishnu and Shiva.\n3. The Archaeological Survey of India has undertaken heritage-conservation work in Indonesia for the first time with this project.\n\nWhich of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(a)",
+    "explanation": "Prambanan is a 9th-century UNESCO World Heritage Site in Yogyakarta dedicated to the Trimurti. Statement 3 is incorrect — ASI had earlier undertaken extensive documentation of the Borobudur Temple Compounds (a Buddhist UNESCO site) in Indonesia, so this is not its first heritage engagement there.",
+    "subject": "Art & Culture",
+    "theme": "Heritage Diplomacy",
+    "micro_topic": "ASI Overseas Conservation Projects",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]
