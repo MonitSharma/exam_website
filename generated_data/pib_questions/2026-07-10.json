@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the Performance Grading Index (PGI 2.0) and UDISE+ released for 2025-26, consider the following statements:\n1. Both are compiled by the Department of School Education & Literacy under the Ministry of Education.\n2. UDISE+ is primarily an enrolment and school-infrastructure database, while PGI grades States/UTs on school-education performance.\n3. Under PGI 2.0, exactly one State/UT is placed in the highest grade each year.\n\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Both UDISE+ (enrolment/infrastructure data) and the PGI are run by the Department of School Education & Literacy, Ministry of Education. Statement 3 is wrong: PGI uses grade bands (multiple States can share a grade), and in 2025-26 no State/UT reached the highest grade.",
+    "subject": "Reports & Indices",
+    "theme": "Education Data & Benchmarking",
+    "micro_topic": "UDISE+ / Performance Grading Index (PGI 2.0)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The ACITI partnership, seen in the news around the India-Australia Annual Summit (July 2026), is a technology-and-innovation grouping of which of the following countries?",
+    "options": [
+      "(a) Australia, Canada and India",
+      "(b) Australia, China and India",
+      "(c) Australia, Indonesia and India",
+      "(d) ASEAN, Canada and India"
+    ],
+    "answer": "(a)",
+    "explanation": "ACITI is the Australia-Canada-India Technology and Innovation partnership, a trilateral focused on critical minerals, resilient supply chains, green-energy innovation and responsible AI. Indonesia is not a member — a common trap given the concurrent India-Indonesia State Visit.",
+    "subject": "International Relations",
+    "theme": "Minilaterals & Indo-Pacific",
+    "micro_topic": "ACITI (Australia-Canada-India) / India-Australia Summit",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Consider the following statements regarding rare earth elements in the context of India's critical-minerals strategy:\n1. China accounts for a dominant share of both global rare-earth mining and processing capacity.\n2. Rare-earth permanent magnets are used in electric vehicles, wind turbines and defence systems.\n3. KABIL (Khanij Bidesh India Ltd) is the public-sector company mandated to acquire mineral assets abroad.\n\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "China dominates both rare-earth mining (~70%) and processing (~85-90%); rare-earth permanent magnets are vital for EVs, wind turbines and defence; and KABIL is the JV PSU tasked with acquiring strategic mineral assets overseas — the backdrop to India's first overseas rare-earth (magnet) MoU with Indonesia (Midwest-PERMINAS-NFTDC).",
+    "subject": "Economy",
+    "theme": "Critical Minerals & Supply Chains",
+    "micro_topic": "Rare Earths / KABIL / India-Indonesia magnet MoU",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "question": "The 'PRAGATI' initiative launched in July 2026 by the Union Ministry of Agriculture & Farmers' Welfare is primarily aimed at:",
+    "options": [
+      "(a) Guaranteeing a minimum support price for millets and coarse grains",
+      "(b) Building a nationwide network of agri-entrepreneurs to support smallholder farmers",
+      "(c) Digitising rural land records under SVAMITVA",
+      "(d) Creating a national cold-chain and warehousing grid for horticulture"
+    ],
+    "answer": "(b)",
+    "explanation": "PRAGATI aims to build ~20,000 agri-entrepreneurs (over an existing 26,000+) to support ~20 lakh smallholder farmers via regenerative agriculture, finance and market linkages. It is not the PM's 2015 PRAGATI e-governance platform.",
+    "subject": "Agriculture",
+    "theme": "Agricultural extension & farmer income",
+    "micro_topic": "PRAGATI agri-entrepreneurship initiative",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Astra Mk-1, recently in the news, consider the following statements: 1. It is India's first indigenously developed beyond-visual-range air-to-air missile. 2. It is developed by the DRDO and produced by Bharat Dynamics Limited. 3. Indonesia has become its first foreign buyer. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "Astra Mk-1 is India's first indigenous BVRAAM (DRDO-developed, BDL-produced, ~Mach 4.5, ~100+ km range, integrated on the Su-30MKI). In July 2026 Indonesia became its first foreign buyer during PM Modi's visit. All three statements are correct.",
+    "subject": "Science & Technology",
+    "theme": "Defence technology & exports",
+    "micro_topic": "Astra Mk-1 BVRAAM first export",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "In its July 2026 World Economic Outlook Update, the IMF projected India's GDP growth for FY2026-27 - retaining India as the fastest-growing major economy - at:",
+    "options": [
+      "(a) 5.4%",
+      "(b) 6.4%",
+      "(c) 7.1%",
+      "(d) 8.0%"
+    ],
+    "answer": "(b)",
+    "explanation": "The IMF's July 2026 WEO Update trimmed India's FY27 growth to 6.4% (from 6.5% in April) citing higher energy prices and trade uncertainty, while raising FY28 to 6.7%. India remains the fastest-growing major economy.",
+    "subject": "Economy",
+    "theme": "International economic institutions & growth",
+    "micro_topic": "IMF WEO Update - India FY27 projection",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The International Centre for Civilizational Studies 'Manas and Mahabharata,' inaugurated in 2026, is a joint initiative of India and:",
+    "options": [
+      "(a) Kazakhstan",
+      "(b) Kyrgyzstan",
+      "(c) Tajikistan",
+      "(d) Uzbekistan"
+    ],
+    "answer": "(b)",
+    "explanation": "The centre opened in Bishkek, Kyrgyzstan (Manas National Academy + Centre for Studies of International Relations, New Delhi); the first Hindi translation of the Kyrgyz national epic 'Manas' was also unveiled.",
+    "subject": "International Relations",
+    "theme": "India-Central Asia & cultural diplomacy",
+    "micro_topic": "Manas-Mahabharata Civilizational Studies Centre, Bishkek",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "In 2026, which State became the 36th State/UT to implement Ayushman Bharat PM-JAY, completing the scheme's nationwide rollout?",
+    "options": [
+      "(a) Odisha",
+      "(b) Delhi",
+      "(c) West Bengal",
+      "(d) Tamil Nadu"
+    ],
+    "answer": "(c)",
+    "explanation": "West Bengal signed an MoU with the National Health Authority to become the 36th State/UT under AB PM-JAY (Rs 5 lakh per family per year for secondary and tertiary care), covering ~1.24 crore families and completing 100% national coverage.",
+    "subject": "Polity & Governance",
+    "theme": "Health schemes & cooperative federalism",
+    "micro_topic": "West Bengal joins Ayushman Bharat PM-JAY",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the Ayushman Bharat programme, consider the following statements: 1. It comprises two components - Health & Wellness Centres (Ayushman Arogya Mandirs) and PM-JAY. 2. Under PM-JAY, eligible families get an annual cover of Rs 5 lakh for secondary and tertiary hospitalisation. 3. It is implemented by the National Health Authority. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "Ayushman Bharat (2018) has two pillars - AB-HWCs (Ayushman Arogya Mandirs) and PM-JAY (Rs 5 lakh/family/year for secondary & tertiary care) - implemented by the National Health Authority. All three statements are correct.",
+    "subject": "Polity & Governance",
+    "theme": "Health governance",
+    "micro_topic": "Ayushman Bharat structure & NHA",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following pairs of Central Asian republics and their capitals: 1. Kyrgyzstan - Bishkek 2. Tajikistan - Dushanbe 3. Turkmenistan - Tashkent. How many of the pairs given above are correctly matched?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All three",
+      "(d) None"
+    ],
+    "answer": "(b)",
+    "explanation": "Kyrgyzstan-Bishkek and Tajikistan-Dushanbe are correct. Turkmenistan's capital is Ashgabat; Tashkent is the capital of Uzbekistan. India engages Central Asia via the SCO, the India-Central Asia Summit and the 'Connect Central Asia' policy.",
+    "subject": "International Relations",
+    "theme": "Central Asia geography & India's engagement",
+    "micro_topic": "Central Asian republics and capitals",
+    "nature": "Factual",
+    "difficulty": "Hard"
+  }
+]

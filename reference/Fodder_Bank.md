@@ -137,3 +137,67 @@
 - **Two rebellions, one memory.** The Santhal Hul of **30 June 1855** — led by siblings Sidhu, Kanhu, Chand, Bhairav, Phulo and Jhano Murmu, mobilising ~10,000 Santhals from Bhognadih village — predates the 1857 Revolt by two years, yet 1857 dominates the national memory. *Use: an essay opener on selective historical memory, tribal agency, and who gets remembered as a "freedom fighter"; note the aftermath — colonial creation of the separate Santhal Pargana district.*
 
 ---
+
+## Added 2026-07-10
+
+*Drawn from the week's daily current-affairs, PIB and editorial notes (3–9 July 2026), cross-checked against primary reporting, plus standing general knowledge for the thinker-quotes. Timeless quotes (Arendt, Leopold) and the Anoop Baranwal voting-rights point verified via search this run.*
+
+### Governance & Polity
+
+- **Article 161 clemency is a distinct constitutional power — SC revives the Art. 72 vs 161 comparison (1 July 2026).** A bench of Justices Sanjay Karol & N. Kotiswar Singh held the Governor's Article 161 remission power **cannot be displaced by an ordinary statutory remission scheme** (CrPC Ss. 432–433), declaring the 2021 *State of Haryana v. Raj Kumar* verdict **per incuriam** for conflicting with the larger Bench in *State of Haryana v. Jagdish* (2010). *Use: GS2 pardoning-power answers — the latest case-law entry in the President (Art. 72) vs Governor (Art. 161) comparison; a clean "constitutional power > executive policy" line.*
+
+- **"Zero tolerance" for AI-hallucinated precedents — the judiciary meets generative AI (SC, ~1–2 July 2026).** In *Pooja Ramesh Singh v. J&K Bank Ltd* (2026 INSC 668), the Supreme Court set aside NCLT/NCLAT orders that had relied on **fake, "hallucinated" AI-generated case citations**, holding that a decision tainted by even "an iota" of such fabricated material is "no decision in the eyes of law," and directed the **Bar Council of India** to frame AI-citation verification norms. *Use: the freshest GS2 (judicial accountability) + GS4 (ethics of technology, professional integrity) crossover — "AI is a tool, not an oracle; the duty of verification stays human."*
+
+### Economy & Development
+
+- **India's best-ever SDG rank — 94th of 167, score 68.3 (UN SDR 2026, SDSN).** India climbed from **112th (2015) to 94th (2026)** — an 18-place rise, among the fastest of major economies — but still faces "major challenges" on SDGs 2, 3, 5, 11, 14, 15 and 16, and is *deteriorating* on SDG 12 and 13; strong on SDG 7 (electricity) and SDG 9 (broadband). Finland tops the index. *Use: the 2026 "report in the news" data string for sustainable-development answers; keep the global SDSN index distinct from NITI Aayog's domestic SDG India Index.*
+
+- **India Semiconductor Mission 2.0 — ₹1.25 lakh crore (~$13 bn), up from ISM 1.0's ₹76,000 crore (July 2026).** ISM 2.0 (announced in Budget 2026-27) covers the *full* value chain — design, fabrication, packaging, compound semiconductors and raw materials (gases, ingots); the ISM 1.0 pipeline is 12 approved projects worth ~₹1.64 lakh crore, with CG Semi's OSAT unit at Sanand starting commercial packaging on 4 July 2026. *Use: the go-to "deepening industrial policy" case study for chip self-reliance / GS3 electronics-manufacturing answers — pair with the pharma-API "65% China dependence" item to show self-reliance is built in stages.*
+
+- **"Office to the world" — India is now the largest Retail & FMCG GCC hub (McKinsey–FICCI, 8 July 2026).** ~**180 Global Capability Centres** employing **2.72 lakh professionals**, an ecosystem ~**34% larger than the next five peer markets combined** (anchors: Lowe's, Tesco, Walmart, Target, H&M, L'Oréal). *Use: the sharpest data point for India's services-led, high-skill-jobs story; cross-link IT-ITeS exports, "premiumisation" of the services surplus, and tier-II/III spillover (e.g., Mangaluru).*
+
+- **"Contingent optimism" — the 2026-27 macro reading (The Hindu, 8 July 2026).** GDP grew **7.7% (2025-26, NSO provisional)**; RBI projects **6.6% for 2026-27**. The real domestic swing factor is an **El Niño-linked monsoon shortfall** — against an IMD-projected ~10% deficit, the actual shortfall touched **~43% up to 24 June 2026**; crude **import dependence >90%** (from 54.9% in 1998-99) is the standing external vulnerability the Hormuz episode exposed. *Use: map the external-shock transmission chain — crude → inflation → fiscal (subsidies/deficit) → current account → rupee; "low-regret hedging" (strategic crude + fertilizer reserves) as the policy takeaway.*
+
+### Environment & Sustainability
+
+- **7 of 9 planetary boundaries now breached — ocean acidification the newest (CSE, State of India's Environment 2026).** Released at the Anil Agarwal Dialogue by CSE/*Down To Earth* (Sunita Narain): surface-ocean acidity is up **30–40% since the industrial era**, joining climate change, biosphere integrity, land-system change, freshwater change, biogeochemical flows and novel entities beyond the safe limit; India saw **extreme weather on 99% of days in 2025** (a 4-year high). *Use: refresh the "Planetary Boundaries" count to 7/9 for any climate/environment answer; the "99% of days" figure is a vivid India-specific hook.*
+
+- **Success ≠ security — the Asiatic lion's single-landscape risk (The Hindu, 6 July 2026).** The wild population reached **891 (2025 census)** — up from ~20 in the 1930s — yet sits almost entirely in **one landscape (Gir, Gujarat)**; the **2018 Canine Distemper Virus outbreak killed 28 lions in ~2 weeks**, proving single-site vulnerability. The SC's **2013 direction** to establish a second population at Kuno (MP) remains unimplemented; **Project Lion** (₹2,900 crore, 25-year roadmap) emphasises dispersal *within* Saurashtra. *Use: the model "conservation success vs conservation security / metapopulation" argument, and a live case of the gap between judicial direction and cooperative-federalism delivery (wildlife is on the Concurrent List).*
+
+- **From counting tigers to distributing them — Tiger Conservation Roadmap (NTCA/WII, July 2026).** India's tiger population is **3,682 (2022 census)**, up from 1,411 (2006), across 58 reserves — but just 10–12 reserves hold ~36% of all tigers, and **Kawal, Kamlang and Dampa have zero**. The new roadmap flags **25 of 58 reserves** for priority recovery on a "source vs sink population" framework. *Use: shifts the wildlife narrative to metapopulation ecology and landscape connectivity; contrast Panna's reintroduction success with Satkosia's failure.*
+
+### Society & Social Justice
+
+- **The evidentiary burden of citizenship is shifting to the individual (The Hindu editorial, 6 July 2026).** The MEA's clarification that a passport is a **"travel document," not a "citizenship document,"** capped a run — SIR of rolls, the Section 6A verdict (upheld 4:1, Oct 2024), the operationalised CAA — in which each identity document (Aadhaar, voter ID, now the passport) is in turn called insufficient. *Use: a society/polity line that citizenship should rest on **personhood and constitutional commitments** (Arts. 14 and 21 extend to "any person"), not documentary sufficiency; flag the Assam-style "doubtful/limbo" category risk. Pair with the Arendt quote below.*
+
+- **Childcare as infrastructure, not welfare — the "triple dividend" (The Indian Express, 8 July 2026).** India's female labour-force participation is **~41.7%** (below the ~47.8% global average); treating childcare as social infrastructure yields a triple dividend — child development, women's workforce participation, and care-economy jobs. Scaffold: **Maternity Benefit (Amendment) Act, 2017** crèche mandate (50+ employees) and the **Palna** national crèche scheme. *Use: gender/economy crossover — cross-link the NFHS-6 "maternal time poverty" item already in this bank; "crèches as social infrastructure."*
+
+### Science / Tech & its Ethics
+
+- **A 700-year-old banyan, dated by science not folklore (BSIP, DST, July 2026).** The Birbal Sahni Institute of Palaeosciences used **AMS radiocarbon dating** (calibrated to the IntCal20 curve) on alpha-cellulose from a Munger (Bihar) *Ficus benghalensis*, confirming it as ~**700 years old** — the oldest banyan anywhere dated by a rigorous scientific protocol, and a reusable method for other "ancient" trees. *Use: a fresh Sci-Tech-meets-heritage anecdote — precision dating applied to living heritage; an essay image on patience, continuity and rooted things.*
+
+- **India's largest digital-health rails keep scaling — ABDM crosses 104 crore records (NHA, July 2026).** The Ayushman Bharat Digital Mission now links **104+ crore health records** and **93+ crore ABHA** (Ayushman Bharat Health Account) IDs on one interoperable network. *Use: a Digital Public Infrastructure (DPI) data point alongside Aadhaar/UPI — the "India stack goes to health" story; flag the privacy/consent-architecture caveat for balance.*
+
+### International Relations
+
+- **India's civil-nuclear diplomacy widens — the Australia uranium pact (Modi visit, 6–11 July 2026).** A long-pending **commercial uranium-supply arrangement** under the 2014 India–Australia Civil Nuclear Cooperation Agreement neared conclusion, alongside an upgrade of the 2009 Defence & Security Cooperation declaration and a "white-shipping" maritime-data roadmap. *Use: add to the civil-nuclear-diplomacy table (India–US 123 Agreement, India–Japan, India–Australia); an Indo-Pacific + energy-security crossover.*
+
+- **UPI soft power reaches the EU's south — Greece is India's 10th country (30 June 2026).** Via Eurobank's tie-up with NPCI International (NIPL), Greece became the **10th country** with live UPI and the **2nd in the EU** (after France). *Use: "digital-payments diplomacy" and India's fintech soft power; a quick Prelims-style match-the-country string (Bhutan first; France first in EU).*
+
+- **Heritage diplomacy under Act East — ASI to restore Prambanan (8 July 2026).** During PM Modi's Indonesia visit, the Archaeological Survey of India began conservation of the **9th-century Prambanan Temple** (a UNESCO site dedicated to the Hindu Trimurti, ~47 m tallest shrine) — ASI's second major Southeast Asian engagement after **Borobudur**. *Use: India's civilisational/cultural soft power as a foreign-policy instrument; pair with the "shared heritage" framing for GS2 neighbourhood answers.*
+
+### Ethics & Philosophy (thinkers & quotes)
+
+- **Hannah Arendt (*The Origins of Totalitarianism*, 1951, ch. 9):** the stateless taught the world of *"the right to have rights"* — the right to belong to a political community, without which no other right can be claimed. *Use: the perfect frame for the citizenship-documentation item above and any essay on statelessness, belonging, or human rights vs. citizen rights.* (Verified — phrase first appears in Arendt's 1949 essay, recycled into *Origins*.)
+
+- **Aldo Leopold ("The Land Ethic," *A Sand County Almanac*, 1949):** *"A thing is right when it tends to preserve the integrity, stability, and beauty of the biotic community. It is wrong when it tends otherwise."* Humans are *"plain member[s] and citizen[s]"* of the land community, not its conquerors. *Use: the canonical non-anthropocentric anchor for the Asiatic-lion, tiger-roadmap and planetary-boundaries items; deploy in any biodiversity/conservation essay.* (Verified — exact.)
+
+### Essay-ready quotes & anecdotes
+
+- **All the lions in one basket.** 891 lions, one landscape, and a 2018 virus that killed 28 in a fortnight — "conservation success" is not the same as "conservation security." *Use: an essay opener on risk, resilience and why concentration is fragility — extends beyond ecology to supply chains, finance and institutions.*
+
+- **The vote as "constitutional orphan."** If rejecting *all* candidates (NOTA, 2013) is constitutionally protected expression, why is *choosing* one merely a statutory right? In *Anoop Baranwal* (2 March 2023) the majority (Justice K.M. Joseph) called voting a **constitutional right** under Article 326, while Justice Rastogi's separate opinion went further to a **fundamental right** — a doctrinal *trend*, not yet law. *Use: a crisp franchise/democratic-membership hook; frame the calibrated middle path — constitutionalise the core right to participate, leave mechanics to Parliament under Article 327.* (Verified via search.)
+
+- **The tree that outlived empires.** A Munger banyan, radiocarbon-dated to ~700 years, has stood since before the Mughals — a living witness we can now date to the decade. *Use: an essay image on continuity, deep time, and humility — pairs with sustainability/"future generations" (Brundtland) themes already in this bank.*
+
+---
