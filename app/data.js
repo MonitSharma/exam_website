@@ -99,6 +99,9 @@
     if (set.marksPerCorrect || set.marks_per_correct) normalized.marksPerCorrect = Number(set.marksPerCorrect || set.marks_per_correct);
     if (set.negativeMark || set.negative_mark) normalized.negativeMark = Number(set.negativeMark || set.negative_mark);
     if (set.noNegativeFromQuestion || set.no_negative_from_question) normalized.noNegativeFromQuestion = Number(set.noNegativeFromQuestion || set.no_negative_from_question);
+    if (set.variant) normalized.variant = set.variant;
+    if (set.variantLabel || set.variant_label) normalized.variantLabel = set.variantLabel || set.variant_label;
+    if (set.isSupplementary || set.is_supplementary) normalized.isSupplementary = true;
     return normalized;
   }
 
@@ -106,7 +109,11 @@
     const rank = { daily: 0, rc: 1, pib: 2, "weekly-news": 3, "weekly-quiz": 4, sectional: 5, csat: 6, pyq: 7, ai: 8, csr: 9 };
     return [...sets].sort((a, b) => {
       if (a.sourceType !== b.sourceType) return (rank[a.sourceType] ?? 9) - (rank[b.sourceType] ?? 9);
-      if (a.isoDate || b.isoDate) return String(b.isoDate || "").localeCompare(String(a.isoDate || ""));
+      if (a.isoDate || b.isoDate) {
+        const dateOrder = String(b.isoDate || "").localeCompare(String(a.isoDate || ""));
+        if (dateOrder) return dateOrder;
+      }
+      if (!!a.isSupplementary !== !!b.isSupplementary) return a.isSupplementary ? 1 : -1;
       if (a.year || b.year) return Number(b.year || 0) - Number(a.year || 0);
       return String(a.id).localeCompare(String(b.id), undefined, { numeric: true });
     });
@@ -120,19 +127,25 @@
       shortTitle: note.shortTitle || note.short_title || note.date || "",
       date: note.date || "",
       path: note.path,
+      variant: note.variant || "",
+      variantLabel: note.variantLabel || note.variant_label || "",
+      isSupplementary: !!(note.isSupplementary || note.is_supplementary),
     };
   }
 
   function sortNoteDocuments(docs) {
     return [...docs].sort((a, b) => {
       if (a.cadence !== b.cadence) return a.cadence.localeCompare(b.cadence);
-      return String(b.date || "").localeCompare(String(a.date || ""));
+      const dateOrder = String(b.date || "").localeCompare(String(a.date || ""));
+      if (dateOrder) return dateOrder;
+      if (!!a.isSupplementary !== !!b.isSupplementary) return a.isSupplementary ? 1 : -1;
+      return String(a.id).localeCompare(String(b.id), undefined, { numeric: true });
     });
   }
 
   function deriveDailyQuiz() {
     const dailySets = questionSets
-      .filter((set) => set.sourceType === "daily" && set.isoDate)
+      .filter((set) => set.sourceType === "daily" && set.isoDate && !set.isSupplementary)
       .sort((a, b) => a.isoDate.localeCompare(b.isoDate));
     if (!dailySets.length) {
       return {
@@ -168,7 +181,7 @@
 
   function deriveDailyRc() {
     const rcSets = questionSets
-      .filter((set) => set.sourceType === "rc" && set.isoDate)
+      .filter((set) => set.sourceType === "rc" && set.isoDate && !set.isSupplementary)
       .sort((a, b) => a.isoDate.localeCompare(b.isoDate));
     if (!rcSets.length) {
       return {

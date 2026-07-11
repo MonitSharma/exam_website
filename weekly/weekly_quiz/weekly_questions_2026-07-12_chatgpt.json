@@ -1,0 +1,167 @@
+[
+  {
+    "question": "The Monsoon Session of Parliament announced for July-August 2026 is scheduled to run from:",
+    "options": ["(a) 1 July to 25 July", "(b) 20 July to 13 August", "(c) 15 August to 5 September", "(d) 24 July to 24 August"],
+    "answer": "(b)",
+    "explanation": "The announced Monsoon Session window is 20 July to 13 August 2026.",
+    "subject": "Polity & Governance",
+    "theme": "Parliament",
+    "micro_topic": "Monsoon Session 2026 schedule",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the right to be forgotten, consider the following statements:\n1. It concerns removal/de-indexing of personal information from public digital platforms when continued availability causes harm and serves no legitimate public interest.\n2. It is explicitly named as a standalone Fundamental Right in Part III of the Constitution.\n3. It is linked to privacy and dignity concerns.\nHow many statements are correct?",
+    "options": ["(a) Only one", "(b) Only two", "(c) All three", "(d) None"],
+    "answer": "(b)",
+    "explanation": "Statements 1 and 3 are correct. The right to be forgotten is linked to privacy and dignity, but it is not explicitly named as a standalone right in Part III.",
+    "subject": "Polity & Governance",
+    "theme": "Privacy",
+    "micro_topic": "Right to be forgotten",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The BRICS Guwahati Declaration, in news in July 2026, is associated primarily with:",
+    "options": ["(a) Anti-drug cooperation among BRICS agencies", "(b) A common BRICS currency", "(c) A new BRICS climate-finance bank", "(d) Mutual recognition of school degrees"],
+    "answer": "(a)",
+    "explanation": "The Guwahati Declaration is linked to BRICS anti-drug cooperation and coordination among anti-narcotics agencies.",
+    "subject": "Internal Security",
+    "theme": "Narcotics Control",
+    "micro_topic": "BRICS Guwahati Declaration",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "ULLAS, in current affairs, is best associated with:",
+    "options": ["(a) Adult literacy and lifelong learning", "(b) Semiconductor fabrication incentives", "(c) Underwater optical surveillance", "(d) Urban air-quality trading"],
+    "answer": "(a)",
+    "explanation": "ULLAS is associated with adult literacy and lifelong learning under the New India Literacy Programme framework.",
+    "subject": "Society",
+    "theme": "Education",
+    "micro_topic": "ULLAS adult literacy initiative",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The CE20 engine, recently in news for testing progress, is associated with:",
+    "options": ["(a) ISRO's cryogenic propulsion for LVM3/Gaganyaan-linked missions", "(b) DRDO's long-range air-to-air missile", "(c) A marine diesel engine for Coast Guard vessels", "(d) A new electric locomotive platform"],
+    "answer": "(a)",
+    "explanation": "CE20 is ISRO's cryogenic engine used with LVM3-class missions and relevant to India's human-spaceflight launch architecture.",
+    "subject": "Science & Technology",
+    "theme": "Space Technology",
+    "micro_topic": "CE20 cryogenic engine",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "India's Ethanol Blended Petrol programme aims primarily to:",
+    "options": ["(a) Replace all diesel consumption with hydrogen", "(b) Blend domestically produced ethanol with petrol to reduce oil import dependence and support farmers", "(c) Mandate electric vehicles for all public transport", "(d) Ban sugarcane-based distilleries"],
+    "answer": "(b)",
+    "explanation": "The programme blends ethanol with petrol, reducing petroleum import dependence and creating a market for domestically produced ethanol from agricultural feedstocks.",
+    "subject": "Economy",
+    "theme": "Energy Security",
+    "micro_topic": "Ethanol blended petrol",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The Performance Grading Index (PGI) 2.0 relates to:",
+    "options": ["(a) School education performance across states/UTs", "(b) Bank capital adequacy", "(c) District-level forest cover", "(d) Startup funding rounds"],
+    "answer": "(a)",
+    "explanation": "PGI 2.0 is used to assess school education performance across states and Union Territories.",
+    "subject": "Society",
+    "theme": "Education Governance",
+    "micro_topic": "Performance Grading Index 2.0",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which of the following is not a mode of acquiring Indian citizenship under the Citizenship Act, 1955?",
+    "options": ["(a) Birth", "(b) Descent", "(c) Naturalisation", "(d) Payment of property tax"],
+    "answer": "(d)",
+    "explanation": "Citizenship can be acquired by birth, descent, registration, naturalisation and incorporation of territory. Payment of property tax is not a mode.",
+    "subject": "Polity & Governance",
+    "theme": "Citizenship",
+    "micro_topic": "Modes of acquiring citizenship",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which of the following Fundamental Rights is available only to citizens, not to all persons?",
+    "options": ["(a) Article 14 - equality before law", "(b) Article 20 - protection in respect of conviction for offences", "(c) Article 19 - six freedoms", "(d) Article 21 - life and personal liberty"],
+    "answer": "(c)",
+    "explanation": "Article 19 freedoms are available only to citizens. Articles 14, 20 and 21 are available to persons.",
+    "subject": "Polity & Governance",
+    "theme": "Fundamental Rights",
+    "micro_topic": "Citizens-only rights vs all-person rights",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The right to move the Supreme Court for enforcement of Fundamental Rights is contained in:",
+    "options": ["(a) Article 21", "(b) Article 32", "(c) Article 44", "(d) Article 51A"],
+    "answer": "(b)",
+    "explanation": "Article 32 provides the right to constitutional remedies and allows moving the Supreme Court for enforcement of Fundamental Rights.",
+    "subject": "Polity & Governance",
+    "theme": "Fundamental Rights",
+    "micro_topic": "Article 32 and constitutional remedies",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The ideal of a Welfare State in the Constitution is most directly reflected in:",
+    "options": ["(a) Preamble only", "(b) Directive Principles of State Policy", "(c) Seventh Schedule only", "(d) Fundamental Duties only"],
+    "answer": "(b)",
+    "explanation": "The Directive Principles of State Policy most directly embody the welfare-state ideal by guiding the State toward social and economic justice.",
+    "subject": "Polity & Governance",
+    "theme": "Directive Principles of State Policy",
+    "micro_topic": "Welfare State ideal",
+    "nature": "Conceptual",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which principle was added to the Directive Principles by the 42nd Constitutional Amendment?",
+    "options": ["(a) Equal pay for equal work", "(b) Organisation of village panchayats", "(c) Participation of workers in management of industries", "(d) Protection of monuments"],
+    "answer": "(c)",
+    "explanation": "The 42nd Amendment inserted Article 43A, directing the State to secure participation of workers in the management of industries.",
+    "subject": "Polity & Governance",
+    "theme": "Directive Principles of State Policy",
+    "micro_topic": "42nd Amendment and Article 43A",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Which of the following statements about NBFCs is correct?",
+    "options": ["(a) NBFCs can accept demand deposits like commercial banks.", "(b) NBFCs form part of the financial system but cannot issue cheques drawn on themselves.", "(c) NBFCs are regulated only by SEBI.", "(d) NBFCs create legal tender."],
+    "answer": "(b)",
+    "explanation": "NBFCs are financial intermediaries but cannot accept demand deposits or issue cheques drawn on themselves like banks. Many NBFCs are regulated by the RBI, subject to category.",
+    "subject": "Economy",
+    "theme": "Banking and Finance",
+    "micro_topic": "NBFCs vs banks",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "An ecotone is:",
+    "options": ["(a) A transition zone between two ecosystems, often showing edge effect", "(b) A pyramid of energy in a food chain", "(c) The final consumer in a food web", "(d) A species found only in oceans"],
+    "answer": "(a)",
+    "explanation": "An ecotone is a transition zone between two ecosystems and often displays edge effect, with species from adjoining ecosystems plus unique species.",
+    "subject": "Environment",
+    "theme": "Ecology Basics",
+    "micro_topic": "Ecotone and edge effect",
+    "nature": "Conceptual",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The Moderate phase of the Indian National Congress is most closely associated with:",
+    "options": ["(a) Constitutional agitation, petitions and economic critique of colonial rule", "(b) Armed revolutionary activity as the dominant method", "(c) Complete rejection of English education", "(d) Immediate demand for complete independence as the formal Congress goal in 1885"],
+    "answer": "(a)",
+    "explanation": "The Moderates relied on constitutional methods, petitions, public opinion and economic critique of colonial rule. Complete independence became a formal Congress goal much later.",
+    "subject": "Modern History",
+    "theme": "Indian National Movement",
+    "micro_topic": "Moderate phase methods",
+    "nature": "Conceptual",
+    "difficulty": "Easy"
+  }
+]

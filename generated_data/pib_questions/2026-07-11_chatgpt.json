@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the Centre of Excellence on Human-Wildlife Conflict and the National Human-Wildlife Conflict Portal, consider the following statements: 1. The Centre of Excellence was inaugurated at WII-SACON, Coimbatore. 2. The portal is intended to support data management, knowledge sharing and decision support for conflict mitigation. 3. The first edition of Current Status of Human-Wildlife Conflict in India: An Overview was released alongside the initiative. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "The MoEFCC release states all three: CoE at WII-SACON, a conflict portal for data/knowledge/decision support, and release of the overview publication.",
+    "subject": "Environment",
+    "theme": "Human-Wildlife Conflict",
+    "micro_topic": "National Human-Wildlife Conflict Portal",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Trade Receivables Discounting System (TReDS), consider the following statements: 1. It is an RBI-regulated electronic platform for financing and discounting MSME trade receivables. 2. The new mandate requires all operating CPSEs to route settlement of MSME invoices through RBI-authorised TReDS platforms. 3. TReDS financing is intended to give MSME suppliers collateral-free access to working capital against approved invoices. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "TReDS is RBI-regulated, the CPSE mandate applies to MSME invoice settlement, and the platform enables collateral-free invoice discounting.",
+    "subject": "Economy",
+    "theme": "MSME Finance",
+    "micro_topic": "TReDS Mandate for CPSEs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The July 2026 amendment to the Drugs Rules, 1945 relating to high alcohol-containing formulations provides that:",
+    "options": [
+      "(a) all formulations containing any ethyl alcohol are banned from sale in India.",
+      "(b) formulations with more than 12% v/v ethyl alcohol in quantities exceeding 30 mL are removed from Schedule K exemption and brought under Schedule H1.",
+      "(c) alcohol-containing medicinal formulations are shifted from the Drugs and Cosmetics Act to the Food Safety and Standards Act.",
+      "(d) only imported high alcohol-containing formulations require prescription-based sale."
+    ],
+    "answer": "(b)",
+    "explanation": "The amendment removes Schedule K exemption for formulations with more than 12% v/v ethyl alcohol in quantities above 30 mL and places them under Schedule H1.",
+    "subject": "Polity & Governance",
+    "theme": "Health Regulation",
+    "micro_topic": "Drugs Rules 1945 Amendment",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]

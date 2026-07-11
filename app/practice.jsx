@@ -7,6 +7,29 @@ function practiceDateLabel(isoDate) {
   return new Intl.DateTimeFormat("en-GB", { day: "2-digit", month: "short", year: "numeric", timeZone: "UTC" }).format(new Date(Date.UTC(year, month - 1, day)));
 }
 
+function practiceBundleKey(set) {
+  return set && set.isoDate ? `${set.sourceType}:${set.isoDate}` : set?.id || "";
+}
+
+function practiceBundleFor(set, sets) {
+  const key = practiceBundleKey(set);
+  if (!key) return [];
+  return sets.filter((item) => practiceBundleKey(item) === key).sort((a, b) => {
+    if (!!a.isSupplementary !== !!b.isSupplementary) return a.isSupplementary ? 1 : -1;
+    return String(a.id).localeCompare(String(b.id), undefined, { numeric: true });
+  });
+}
+
+function practiceCollapseBundles(sets) {
+  const byKey = new Map();
+  for (const set of sets) {
+    const key = practiceBundleKey(set);
+    if (!byKey.has(key)) byKey.set(key, []);
+    byKey.get(key).push(set);
+  }
+  return [...byKey.values()].map((items) => items.find((set) => !set.isSupplementary) || items[0]).filter(Boolean);
+}
+
 function PracticeScreen({ go }) {
   const ds = window.UPSC;
   const exams = [
@@ -32,6 +55,7 @@ function PracticeScreen({ go }) {
   const [timed, setTimed] = usePracticeState(true);
   const currentType = types.find((item) => item.id === type) || types[0];
   const sets = ds.getQuestionSetsBySource(currentType.sourceType);
+  const setBundles = practiceCollapseBundles(sets);
   const [selectedSetId, setSelectedSetId] = usePracticeState(ds.getQuestionSetsBySource("pyq")[0]?.id || ds.defaultPracticeSetId);
   const selectedSet = sets.find((set) => set.id === selectedSetId) || sets[0] || null;
   const selectedExam = exams.find((item) => item.id === exam) || exams[0];
@@ -103,7 +127,7 @@ function PracticeScreen({ go }) {
         <header className="panel-head row">
           <div>
             <h3>{currentType.title}</h3>
-            <p>{sets.length ? `${sets.length} option${sets.length === 1 ? "" : "s"} available` : "No sets are loaded yet."}</p>
+            <p>{setBundles.length ? `${setBundles.length} date${setBundles.length === 1 ? "" : "s"} available` : "No sets are loaded yet."}</p>
           </div>
           <label className="switch">
             <input type="checkbox" checked={timed} onChange={(event) => setTimed(event.target.checked)} />
@@ -113,13 +137,31 @@ function PracticeScreen({ go }) {
         </header>
         <div className="panel-body">
           <div className="set-grid practice-set-grid">
-            {sets.map((set) => (
-              <button key={set.id} className={`set-option${selectedSet?.id === set.id ? " selected" : ""}`} onClick={() => setSelectedSetId(set.id)}>
+            {setBundles.map((set) => {
+              const bundle = practiceBundleFor(set, sets);
+              const active = bundle.some((item) => item.id === selectedSet?.id);
+              const addOn = bundle.find((item) => item.isSupplementary);
+              const selectedInBundle = bundle.find((item) => item.id === selectedSet?.id) || set;
+              return (
+              <div key={practiceBundleKey(set)} className={`set-option${active ? " selected" : ""}`} onClick={() => setSelectedSetId(selectedInBundle.id)}>
                 <span className="set-option-kicker">{set.year || (set.isoDate ? practiceDateLabel(set.isoDate) : set.shortLabel)}</span>
+                {addOn && <span className="variant-chip">Practice Add-on</span>}
                 <strong>{set.label}</strong>
-                <span>{set.questionCount} questions · {set.durationMinutes} min</span>
-              </button>
-            ))}
+                <span>{bundle.map((item) => `${item.isSupplementary ? "Add-on" : "Core"} ${item.questionCount}q`).join(" · ")}</span>
+                {bundle.length > 1 && (
+                  <div className="set-variant-tabs" onClick={(event) => event.stopPropagation()}>
+                    {bundle.map((item) => (
+                      <button
+                        key={item.id}
+                        className={selectedSet?.id === item.id ? "on" : ""}
+                        onClick={() => setSelectedSetId(item.id)}>
+                        {item.isSupplementary ? "Add-on" : "Core"}
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </div>
+            );})}
           </div>
           {!sets.length && <div className="empty-panel"><strong>No sets yet.</strong><span>Add a question file in the expected folder, then rebuild or push to GitHub.</span></div>}
           <div className="practice-start">

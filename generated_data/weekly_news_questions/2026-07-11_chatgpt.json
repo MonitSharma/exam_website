@@ -1,0 +1,157 @@
+[
+  {
+    "id": "weekly_news_2026_07_11_1",
+    "question_number": 1,
+    "question": "Guwahati, host of the BRICS anti-drug agencies meeting, lies on which river?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Barak"
+      },
+      {
+        "key": "b",
+        "text": "Brahmaputra"
+      },
+      {
+        "key": "c",
+        "text": "Teesta"
+      },
+      {
+        "key": "d",
+        "text": "Subansiri"
+      }
+    ],
+    "answer": "b",
+    "explanation": "(Brahmaputra)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_07_11_2",
+    "question_number": 2,
+    "question": "The Ken-Betwa river-linking project transfers water from the Ken basin toward which river basin?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Narmada"
+      },
+      {
+        "key": "b",
+        "text": "Godavari"
+      },
+      {
+        "key": "c",
+        "text": "Betwa-Yamuna"
+      },
+      {
+        "key": "d",
+        "text": "Mahanadi"
+      }
+    ],
+    "answer": "c",
+    "explanation": "(toward the Betwa-Yamuna system)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_07_11_3",
+    "question_number": 3,
+    "question": "Buxa Tiger Reserve lies close to India's border with which country?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Nepal"
+      },
+      {
+        "key": "b",
+        "text": "Bhutan"
+      },
+      {
+        "key": "c",
+        "text": "Myanmar"
+      },
+      {
+        "key": "d",
+        "text": "Bangladesh"
+      }
+    ],
+    "answer": "b",
+    "explanation": "(Bhutan foothills, north Bengal)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_07_11_4",
+    "question_number": 4,
+    "question": "Prambanan, in the news for India-backed restoration, is located on which Indonesian island?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Sumatra"
+      },
+      {
+        "key": "b",
+        "text": "Java"
+      },
+      {
+        "key": "c",
+        "text": "Bali"
+      },
+      {
+        "key": "d",
+        "text": "Sulawesi"
+      }
+    ],
+    "answer": "b",
+    "explanation": "(Java, near Yogyakarta)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_07_11_5",
+    "question_number": 5,
+    "question": "Cox's Bazar, where Rohingya camps faced deadly landslides, is in which part of Bangladesh?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Northwest near Rangpur"
+      },
+      {
+        "key": "b",
+        "text": "Southeast on the Bay of Bengal"
+      },
+      {
+        "key": "c",
+        "text": "Central Padma delta"
+      },
+      {
+        "key": "d",
+        "text": "Northeast Sylhet hills"
+      }
+    ],
+    "answer": "b",
+    "explanation": "(southeast Bangladesh on the Bay of Bengal, near Myanmar)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  }
+]

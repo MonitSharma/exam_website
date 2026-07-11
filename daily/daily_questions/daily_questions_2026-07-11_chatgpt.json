@@ -1,0 +1,114 @@
+[
+  {
+    "question": "The Letter of Authorisation (LoA) programme launched for high-seas fisheries in July 2026 is best described as:",
+    "options": [
+      "(a) A licence for foreign vessels to fish in India's territorial waters",
+      "(b) A vessel-specific, non-transferable authorisation for Indian-flagged vessels to undertake regulated fishing in the high seas",
+      "(c) A subsidy for inland fisheries under PMMSY",
+      "(d) A certification system only for ornamental fish exports"
+    ],
+    "answer": "(b)",
+    "explanation": "The LoA is a mandatory, vessel-specific and non-transferable authorisation for Indian-flagged fishing vessels operating in the high seas, linked to ReALCraft and RFMO compliance.",
+    "subject": "Environment",
+    "theme": "Blue economy and ocean governance",
+    "micro_topic": "High-seas fisheries Letter of Authorisation",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the new TReDS mandate for CPSE-MSME invoice settlement, consider the following statements: 1. TReDS is an RBI-regulated electronic platform for financing MSME trade receivables. 2. Under the new mandate, CPSE purchases from MSMEs are to be routed through TReDS. 3. TReDS financing is collateral-free and without recourse to the MSME seller. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "TReDS is RBI-regulated; CPSE-MSME invoice settlements must now be routed through it; financing is collateral-free and without recourse to the MSME seller. All three statements are correct.",
+    "subject": "Economy",
+    "theme": "MSME finance and working capital",
+    "micro_topic": "Mandatory TReDS settlement for CPSE-MSME invoices",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "ISRO's IMAT-05, recently conducted for the Gaganyaan programme, relates to:",
+    "options": [
+      "(a) Testing the CE20 cryogenic engine for LVM3",
+      "(b) Qualifying the main parachute system for crew-module recovery",
+      "(c) Testing docking sensors for Bharatiya Antariksh Station",
+      "(d) Validating a semi-cryogenic engine for the SC120 stage"
+    ],
+    "answer": "(b)",
+    "explanation": "IMAT-05 qualified the main parachute system under maximum expected load conditions for the first uncrewed Gaganyaan G1 mission.",
+    "subject": "Science & Technology",
+    "theme": "Human spaceflight and crew safety",
+    "micro_topic": "Gaganyaan IMAT-05 main parachute airdrop test",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In July 2026, IP Australia was given access to which Indian database to help prevent erroneous patents on traditional knowledge?",
+    "options": [
+      "(a) National Digital Health Mission Registry",
+      "(b) Traditional Knowledge Digital Library",
+      "(c) National Academic Depository",
+      "(d) India Science, Technology and Innovation Portal"
+    ],
+    "answer": "(b)",
+    "explanation": "IP Australia gained access to India's CSIR-TKDL, a prior-art database built to prevent erroneous patents on documented Indian traditional knowledge.",
+    "subject": "International Relations",
+    "theme": "India-Australia cooperation and intellectual property",
+    "micro_topic": "CSIR-TKDL access agreement with IP Australia",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The July 2026 amendment to the Drugs Rules, 1945 shifted certain high-alcohol formulations out of Schedule K exemption and into Schedule H1 when they contain:",
+    "options": [
+      "(a) More than 5% v/v ethyl alcohol in any quantity",
+      "(b) More than 12% v/v ethyl alcohol in quantities exceeding 30 mL",
+      "(c) More than 20% v/v ethyl alcohol in quantities exceeding 100 mL",
+      "(d) Any ethyl alcohol and are sold without a GST invoice"
+    ],
+    "answer": "(b)",
+    "explanation": "Formulations containing more than 12% v/v ethyl alcohol in quantities exceeding 30 mL lose the Schedule K exemption and are included under Schedule H1.",
+    "subject": "Polity & Governance",
+    "theme": "Health regulation and drug control",
+    "micro_topic": "Drugs Rules 1945 amendment on high-alcohol formulations",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to maritime zones under UNCLOS, consider the following statements: 1. A coastal State may establish a territorial sea up to 12 nautical miles from its baseline. 2. The Exclusive Economic Zone shall not extend beyond 200 nautical miles from the baseline. 3. The high seas are areas beyond national jurisdiction, not included in the territorial sea, internal waters or EEZ. How many of the statements given above are correct?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All three",
+      "(d) None"
+    ],
+    "answer": "(c)",
+    "explanation": "All three are correct: territorial sea up to 12 nm, EEZ up to 200 nm, and high seas are beyond national jurisdiction.",
+    "subject": "Geography",
+    "theme": "Ocean geography and UNCLOS",
+    "micro_topic": "Territorial sea, EEZ and high seas",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Which of the following best captures the purpose of a Trade Receivables Discounting System (TReDS)?",
+    "options": [
+      "(a) It allows MSMEs to convert approved invoices into early working capital through competitive bidding by financiers.",
+      "(b) It is a portal for filing GST returns by large companies.",
+      "(c) It is a stock exchange segment for SME equity listing.",
+      "(d) It provides direct budgetary grants to loss-making CPSEs."
+    ],
+    "answer": "(a)",
+    "explanation": "TReDS converts approved receivables into faster working capital for MSMEs through competitive discounting by financiers such as banks and NBFCs.",
+    "subject": "Economy",
+    "theme": "Financial markets and MSME credit",
+    "micro_topic": "Trade receivables discounting and invoice finance",
+    "nature": "Conceptual",
+    "difficulty": "Easy"
+  }
+]

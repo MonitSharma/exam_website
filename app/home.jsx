@@ -835,26 +835,65 @@ function BankBrowse({ go }) {
 }
 
 function QuestionSetPicker({ bank, sets, go, onClose }) {
+  const bundles = collapseQuestionSetBundles(sets);
   return (
     <div className="set-picker">
       <div className="set-picker-head">
         <div>
           <h4>{bank.title}</h4>
-          <p>{sets.length ? `${sets.length} option${sets.length === 1 ? "" : "s"} available` : "No sets are loaded yet."}</p>
+          <p>{bundles.length ? `${bundles.length} date${bundles.length === 1 ? "" : "s"} available` : "No sets are loaded yet."}</p>
         </div>
         <button className="icon-btn ghost" onClick={onClose} aria-label="Close"><Icon name="x" size={17} /></button>
       </div>
       <div className="set-grid">
-        {sets.map((set) => (
-          <button key={set.id} className="set-option" onClick={() => go("test", { setId: set.id })}>
+        {bundles.map((set) => {
+          const bundle = questionSetBundleFor(set, sets);
+          const addOn = bundle.find((item) => item.isSupplementary);
+          return (
+          <div key={questionSetBundleKey(set)} className="set-option">
             <span className="set-option-kicker">{set.year || (set.isoDate ? formatIsoDate(set.isoDate, { day: "2-digit", month: "short" }) : set.shortLabel)}</span>
+            {addOn && <span className="variant-chip">Practice Add-on</span>}
             <strong>{set.label}</strong>
-            <span>{set.questionCount} questions · {set.durationMinutes} min</span>
-          </button>
-        ))}
+            <span>{bundle.map((item) => `${item.isSupplementary ? "Add-on" : "Core"} ${item.questionCount}q`).join(" · ")}</span>
+            {bundle.length > 1 ? (
+              <div className="set-variant-tabs">
+                {bundle.map((item) => (
+                  <button key={item.id} onClick={() => go("test", { setId: item.id })}>
+                    {item.isSupplementary ? "Add-on" : "Core"}
+                  </button>
+                ))}
+              </div>
+            ) : (
+              <button className="set-card-start" onClick={() => go("test", { setId: set.id })}>Start</button>
+            )}
+          </div>
+        );})}
       </div>
     </div>
   );
+}
+
+function questionSetBundleKey(set) {
+  return set && set.isoDate ? `${set.sourceType}:${set.isoDate}` : set?.id || "";
+}
+
+function questionSetBundleFor(set, sets) {
+  const key = questionSetBundleKey(set);
+  if (!key) return [];
+  return sets.filter((item) => questionSetBundleKey(item) === key).sort((a, b) => {
+    if (!!a.isSupplementary !== !!b.isSupplementary) return a.isSupplementary ? 1 : -1;
+    return String(a.id).localeCompare(String(b.id), undefined, { numeric: true });
+  });
+}
+
+function collapseQuestionSetBundles(sets) {
+  const byKey = new Map();
+  for (const set of sets) {
+    const key = questionSetBundleKey(set);
+    if (!byKey.has(key)) byKey.set(key, []);
+    byKey.get(key).push(set);
+  }
+  return [...byKey.values()].map((items) => items.find((set) => !set.isSupplementary) || items[0]).filter(Boolean);
 }
 
 const CADENCE_META = {
@@ -877,6 +916,33 @@ const CADENCE_META = {
   "strategy": { label: "Strategy", group: "Reference" },
 };
 const GROUP_ORDER = ["Daily", "Weekly", "Monthly", "Reference"];
+
+function noteBundleKey(doc) {
+  return doc && doc.date ? `${doc.cadence}:${doc.date}` : doc?.id || "";
+}
+
+function noteBundleFor(doc, docs) {
+  const key = noteBundleKey(doc);
+  if (!key) return [];
+  return docs.filter((item) => noteBundleKey(item) === key).sort((a, b) => {
+    if (!!a.isSupplementary !== !!b.isSupplementary) return a.isSupplementary ? 1 : -1;
+    return String(a.id).localeCompare(String(b.id), undefined, { numeric: true });
+  });
+}
+
+function preferredNoteFromBundle(items) {
+  return items.find((item) => !item.isSupplementary) || items[0] || null;
+}
+
+function collapseNoteBundles(docs) {
+  const byKey = new Map();
+  for (const doc of docs) {
+    const key = noteBundleKey(doc);
+    if (!byKey.has(key)) byKey.set(key, []);
+    byKey.get(key).push(doc);
+  }
+  return [...byKey.values()].map(preferredNoteFromBundle).filter(Boolean);
+}
 
 function NotesLibrary() {
   const ds = window.UPSC;
@@ -907,11 +973,13 @@ function NotesLibrary() {
   const activeWeek = weekFilter === "all" || weekOptions.some((item) => item.key === weekFilter)
     ? weekFilter
     : weekOptions.find((item) => item.key === currentWeekKey)?.key || weekOptions[0]?.key || "all";
-  const visibleDocs = useWeekFilter
+  const filteredDocs = useWeekFilter
     ? activeWeek === "all" ? docs : docs.filter((doc) => noteWeekKey(doc) === activeWeek)
     : activeMonth === "all" ? docs : docs.filter((doc) => noteMonthKey(doc) === activeMonth);
+  const visibleDocs = collapseNoteBundles(filteredDocs);
   const loadedDoc = noteState.note && noteState.note.id === selectedId ? noteState.note : null;
   const selectedDoc = loadedDoc || docs.find((doc) => doc.id === selectedId) || null;
+  const selectedBundle = noteBundleFor(selectedDoc, docs);
   const readingMinutes = estimateReadingMinutes(noteState.content);
 
   useEffectHome(() => { savePref("notesCadence", activeCadence); }, [activeCadence]);
@@ -926,7 +994,7 @@ function NotesLibrary() {
       setMonthFilter(monthOptions[0]?.key || "all");
       setWeekFilter(defaultWeek);
       const nextDocs = useWeekFilter && defaultWeek !== "all" ? docs.filter((doc) => noteWeekKey(doc) === defaultWeek) : docs;
-      setSelectedId(nextDocs[0]?.id || docs[0]?.id || null);
+      setSelectedId(collapseNoteBundles(nextDocs)[0]?.id || docs[0]?.id || null);
     }
   }, [activeCadence, docIds]);
 
@@ -1009,7 +1077,7 @@ function NotesLibrary() {
                     const nextWeek = event.target.value;
                     const nextDocs = nextWeek === "all" ? docs : docs.filter((doc) => noteWeekKey(doc) === nextWeek);
                     setWeekFilter(nextWeek);
-                    setSelectedId(nextDocs[0]?.id || null);
+                    setSelectedId(collapseNoteBundles(nextDocs)[0]?.id || null);
                   }}
                   aria-label={`${meta.label} week`}>
                   {weekOptions.length ? weekOptions.map((item) => <option key={item.key} value={item.key}>{item.label}</option>) : <option value="all">No dates</option>}
@@ -1025,7 +1093,7 @@ function NotesLibrary() {
                     const nextMonth = event.target.value;
                     const nextDocs = nextMonth === "all" ? docs : docs.filter((doc) => noteMonthKey(doc) === nextMonth);
                     setMonthFilter(nextMonth);
-                    setSelectedId(nextDocs[0]?.id || null);
+                    setSelectedId(collapseNoteBundles(nextDocs)[0]?.id || null);
                   }}
                   aria-label="Note month">
                   {monthOptions.length ? monthOptions.map((item) => <option key={item.key} value={item.key}>{item.label}</option>) : <option value="all">No dates</option>}
@@ -1040,9 +1108,13 @@ function NotesLibrary() {
             const kicker = doc.date ? formatIsoDate(doc.date, { day: "2-digit", month: "short" }) : "";
             const dateForms = doc.date ? [formatIsoDate(doc.date), formatIsoDate(doc.date, { day: "2-digit", month: "short" })] : [];
             const secondary = doc.shortTitle && !dateForms.includes(doc.shortTitle) ? doc.shortTitle : "";
+            const bundle = noteBundleFor(doc, docs);
+            const active = bundle.some((item) => item.id === selectedId);
+            const companionCount = bundle.filter((item) => item.isSupplementary).length;
             return (
-              <button key={doc.id} className={selectedId === doc.id ? "on" : ""} onClick={() => setSelectedId(doc.id)}>
+              <button key={noteBundleKey(doc)} className={active ? "on" : ""} onClick={() => setSelectedId(doc.id)}>
                 {kicker && <span className="note-kicker">{kicker}</span>}
+                {companionCount > 0 && <span className="note-variant-chip">Companion Brief</span>}
                 <strong>{doc.title}</strong>
                 {secondary && <span>{secondary}</span>}
               </button>
@@ -1057,9 +1129,24 @@ function NotesLibrary() {
             <header className="note-reader-head">
               <div className="note-reader-meta-row">
                 <span className="note-cat-chip">{meta.label}</span>
+                {selectedDoc.variantLabel && <span className="note-cat-chip note-cat-chip-muted">{selectedDoc.variantLabel}</span>}
                 {selectedDoc.date && <span className="note-meta-item"><Icon name="calendar" size={13} /> {formatIsoDate(selectedDoc.date)}</span>}
                 {readingMinutes > 0 && <span className="note-meta-item"><Icon name="clock" size={13} /> {readingMinutes} min read</span>}
               </div>
+              {selectedBundle.length > 1 && (
+                <div className="note-variant-tabs" role="tablist" aria-label="Brief variants">
+                  {selectedBundle.map((doc) => (
+                    <button
+                      key={doc.id}
+                      role="tab"
+                      aria-selected={selectedId === doc.id}
+                      className={selectedId === doc.id ? "on" : ""}
+                      onClick={() => setSelectedId(doc.id)}>
+                      {doc.isSupplementary ? "Companion" : "Brief"}
+                    </button>
+                  ))}
+                </div>
+              )}
               <h4>{selectedDoc.title}</h4>
               {selectedDoc.shortTitle && selectedDoc.shortTitle !== formatIsoDate(selectedDoc.date) && <p>{selectedDoc.shortTitle}</p>}
             </header>

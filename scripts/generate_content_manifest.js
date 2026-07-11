@@ -58,6 +58,51 @@ function dateSlug(isoDate) {
   return String(isoDate || "").replace(/-/g, "_");
 }
 
+function isSupplementaryFile(absPath) {
+  return /_chatgpt(?=\.[^.]+$)/.test(path.basename(absPath));
+}
+
+function variantMeta(absPath, kind = "question") {
+  if (!isSupplementaryFile(absPath)) return {};
+  return {
+    variant: kind === "note" ? "supplementary" : "extra-practice",
+    variantLabel: kind === "note" ? "Companion Brief" : "Practice Add-on",
+    isSupplementary: true,
+  };
+}
+
+function questionId(id, absPath) {
+  return isSupplementaryFile(absPath) ? `${id}_extra` : id;
+}
+
+function variantFileName(isoDate, absPath) {
+  return isSupplementaryFile(absPath) ? `${isoDate}_chatgpt.json` : `${isoDate}.json`;
+}
+
+function questionLabel(sourceType, isoDate, absPath) {
+  if (!isSupplementaryFile(absPath)) return {};
+  const dateLabel = formatDate(isoDate);
+  const shortDate = formatDate(isoDate, { day: "2-digit", month: "short" });
+  const prefix = {
+    daily: "Daily Practice Add-on",
+    rc: "RC Practice Add-on",
+    "weekly-news": "Places Practice Add-on",
+    "weekly-quiz": "Weekly Practice Add-on",
+    pib: "PIB Practice Add-on",
+    sectional: "Sectional Practice Add-on",
+    csat: "CSAT Practice Add-on",
+  }[sourceType] || "Practice Add-on";
+  return {
+    label: `${prefix} - ${dateLabel}`,
+    shortLabel: `Extra ${shortDate}`,
+    category: "Extra Practice",
+  };
+}
+
+function noteTitle(title, absPath) {
+  return isSupplementaryFile(absPath) ? `${title} Companion` : title;
+}
+
 function formatDate(isoDate, options = { day: "2-digit", month: "short", year: "numeric" }) {
   const [year, month, day] = String(isoDate || "").split("-").map(Number);
   if (!year || !month || !day) return "";
@@ -366,6 +411,9 @@ function normalizeQuestionSet(root, raw) {
   };
   if (year) normalized.year = year;
   if (isoDate) normalized.isoDate = isoDate;
+  if (raw.variant) normalized.variant = raw.variant;
+  if (raw.variantLabel || raw.variant_label) normalized.variantLabel = raw.variantLabel || raw.variant_label;
+  if (raw.isSupplementary || raw.is_supplementary) normalized.isSupplementary = true;
   if (sourceType === "csat") {
     normalized.paper = "GS Paper II (CSAT)";
     normalized.marksPerCorrect = id.includes("full_mock") || count >= 75 ? 2.5 : 2;
@@ -421,23 +469,26 @@ function addRawDailyQuestionSets(root, byId) {
     const files = listTopLevelFiles(dir)
       .filter((item) => item.endsWith(".json"))
       .sort((a, b) => {
-        const aNamed = /^daily_questions_\d{4}-\d{2}-\d{2}\.json$/.test(path.basename(a));
-        const bNamed = /^daily_questions_\d{4}-\d{2}-\d{2}\.json$/.test(path.basename(b));
+        const aNamed = /^daily_questions_\d{4}-\d{2}-\d{2}(?:_chatgpt)?\.json$/.test(path.basename(a));
+        const bNamed = /^daily_questions_\d{4}-\d{2}-\d{2}(?:_chatgpt)?\.json$/.test(path.basename(b));
         if (aNamed !== bNamed) return aNamed ? -1 : 1;
         return a.localeCompare(b);
       });
     for (const absPath of files) {
       const isoDate = normalizeIsoDate(path.basename(absPath));
       if (!isoDate) continue;
-      if (seenDates.has(isoDate)) continue;
-      seenDates.add(isoDate);
+      const seenKey = `${isoDate}:${isSupplementaryFile(absPath) ? "extra" : "primary"}`;
+      if (seenDates.has(seenKey)) continue;
+      seenDates.add(seenKey);
       upsertQuestionSet(root, byId, {
-        id: `daily_questions_${dateSlug(isoDate)}`,
+        id: questionId(`daily_questions_${dateSlug(isoDate)}`, absPath),
         category: "Daily Questions",
         sourceType: "daily",
         isoDate,
         durationMinutes: 10,
         path: relPath(root, absPath),
+        ...questionLabel("daily", isoDate, absPath),
+        ...variantMeta(absPath, "question"),
       });
     }
   }
@@ -449,12 +500,14 @@ function addRawPibQuestionSets(root, byId) {
     const isoDate = normalizeIsoDate(path.basename(absPath));
     if (!isoDate) continue;
     upsertQuestionSet(root, byId, {
-      id: `pib_questions_${dateSlug(isoDate)}`,
+      id: questionId(`pib_questions_${dateSlug(isoDate)}`, absPath),
       category: "PIB Questions",
       sourceType: "pib",
       isoDate,
       durationMinutes: 10,
       path: relPath(root, absPath),
+      ...questionLabel("pib", isoDate, absPath),
+      ...variantMeta(absPath, "question"),
     });
   }
 }
@@ -467,12 +520,14 @@ function addRawRcQuestionSets(root, byId) {
     const count = jsonRows(absPath).length;
     if (!count) continue;
     upsertQuestionSet(root, byId, {
-      id: `daily_rc_${dateSlug(isoDate)}`,
+      id: questionId(`daily_rc_${dateSlug(isoDate)}`, absPath),
       category: "Daily Reading Comprehension",
       sourceType: "rc",
       isoDate,
       durationMinutes: defaultDuration("rc", "", count),
       path: relPath(root, absPath),
+      ...questionLabel("rc", isoDate, absPath),
+      ...variantMeta(absPath, "question"),
     });
   }
 }
@@ -482,14 +537,14 @@ function addRawSectionalQuestionSets(root, byId) {
   for (const absPath of listTopLevelFiles(dir).filter((item) => item.endsWith(".json"))) {
     const isoDate = normalizeIsoDate(path.basename(absPath));
     if (!isoDate) continue;
-    const topic = path.basename(absPath, ".json").replace(/_\d{4}-\d{2}-\d{2}$/, "");
+    const topic = path.basename(absPath, ".json").replace(/_\d{4}-\d{2}-\d{2}(?:_chatgpt)?$/, "");
     const topicLabel = titleizeSlug(topic);
     const dateLabel = formatDate(isoDate);
     const shortDate = formatDate(isoDate, { day: "2-digit", month: "short" });
     const count = jsonRows(absPath).length;
     if (!count) continue;
     upsertQuestionSet(root, byId, {
-      id: `sectional_${slugify(topic)}_${dateSlug(isoDate)}`,
+      id: questionId(`sectional_${slugify(topic)}_${dateSlug(isoDate)}`, absPath),
       category: "Sectional Tests",
       sourceType: "sectional",
       isoDate,
@@ -497,6 +552,8 @@ function addRawSectionalQuestionSets(root, byId) {
       shortLabel: `${topicLabel} ${shortDate}`,
       durationMinutes: defaultDuration("sectional", "", count),
       path: relPath(root, absPath),
+      ...questionLabel("sectional", isoDate, absPath),
+      ...variantMeta(absPath, "question"),
     });
   }
 }
@@ -514,12 +571,14 @@ function addRawCsatQuestionSets(root, byId) {
       const count = jsonRows(absPath).length;
       const fullMock = count >= 75;
       upsertQuestionSet(root, byId, {
-        id: `${fullMock ? "csat_full_mock" : "csat_practice"}_${dateSlug(isoDate)}`,
+        id: questionId(`${fullMock ? "csat_full_mock" : "csat_practice"}_${dateSlug(isoDate)}`, absPath),
         category: fullMock ? "CSAT Full Mock" : "CSAT Practice",
         sourceType: "csat",
         isoDate,
         durationMinutes: fullMock ? 120 : Math.max(20, Math.round(count * 1.6)),
         path: relPath(root, absPath),
+        ...questionLabel("csat", isoDate, absPath),
+        ...variantMeta(absPath, "question"),
       });
     }
   }
@@ -581,71 +640,79 @@ function addRawAiGeneratedQuestionSets(root, byId) {
 
 function addDailyRcQuestionSets(root, byId) {
   const dir = path.join(root, "daily", "daily_reading_comprehension");
-  for (const absPath of listTopLevelFiles(dir).filter((item) => /^RC_Drill_\d{4}-\d{2}-\d{2}\.md$/.test(path.basename(item)))) {
+  for (const absPath of listTopLevelFiles(dir).filter((item) => /^RC_Drill_\d{4}-\d{2}-\d{2}(?:_chatgpt)?\.md$/.test(path.basename(item)))) {
     const isoDate = normalizeIsoDate(path.basename(absPath));
     if (!isoDate) continue;
     const rows = parseDailyRcMarkdown(absPath, isoDate);
     if (!rows.length) continue;
-    const rel = writeDerivedQuestions(root, path.join("generated_data", "rc_questions", `${isoDate}.json`), rows);
+    const rel = writeDerivedQuestions(root, path.join("generated_data", "rc_questions", variantFileName(isoDate, absPath)), rows);
     upsertQuestionSet(root, byId, {
-      id: `daily_rc_${dateSlug(isoDate)}`,
+      id: questionId(`daily_rc_${dateSlug(isoDate)}`, absPath),
       category: "Daily Reading Comprehension",
       sourceType: "rc",
       isoDate,
       durationMinutes: defaultDuration("rc", "", rows.length),
       path: rel,
+      ...questionLabel("rc", isoDate, absPath),
+      ...variantMeta(absPath, "question"),
     });
   }
 }
 
 function addWeeklyQuizQuestionSets(root, byId) {
   const dir = path.join(root, "weekly", "weekly_quiz");
-  for (const absPath of listTopLevelFiles(dir).filter((item) => /^Recall_Quiz_\d{4}-\d{2}-\d{2}\.md$/.test(path.basename(item)))) {
+  for (const absPath of listTopLevelFiles(dir).filter((item) => /^Recall_Quiz_\d{4}-\d{2}-\d{2}(?:_chatgpt)?\.md$/.test(path.basename(item)))) {
     const isoDate = normalizeIsoDate(path.basename(absPath));
     if (!isoDate) continue;
     const rows = parseWeeklyQuizMarkdown(absPath, isoDate);
     if (!rows.length) continue;
-    const rel = writeDerivedQuestions(root, path.join("generated_data", "weekly_quiz_questions", `${isoDate}.json`), rows);
+    const rel = writeDerivedQuestions(root, path.join("generated_data", "weekly_quiz_questions", variantFileName(isoDate, absPath)), rows);
     upsertQuestionSet(root, byId, {
-      id: `weekly_quiz_${dateSlug(isoDate)}`,
+      id: questionId(`weekly_quiz_${dateSlug(isoDate)}`, absPath),
       category: "Weekly Quiz",
       sourceType: "weekly-quiz",
       isoDate,
       durationMinutes: defaultDuration("weekly-quiz", "", rows.length),
       path: rel,
+      ...questionLabel("weekly-quiz", isoDate, absPath),
+      ...variantMeta(absPath, "question"),
     });
   }
-  for (const absPath of listTopLevelFiles(dir).filter((item) => /^weekly_questions_\d{4}-\d{2}-\d{2}\.json$/.test(path.basename(item)))) {
+  for (const absPath of listTopLevelFiles(dir).filter((item) => /^weekly_questions_\d{4}-\d{2}-\d{2}(?:_chatgpt)?\.json$/.test(path.basename(item)))) {
     const isoDate = normalizeIsoDate(path.basename(absPath));
     if (!isoDate) continue;
     const count = jsonRows(absPath).length;
     if (!count) continue;
     upsertQuestionSet(root, byId, {
-      id: `weekly_quiz_${dateSlug(isoDate)}`,
+      id: questionId(`weekly_quiz_${dateSlug(isoDate)}`, absPath),
       category: "Weekly Quiz",
       sourceType: "weekly-quiz",
       isoDate,
       durationMinutes: defaultDuration("weekly-quiz", "", count),
       path: relPath(root, absPath),
+      ...questionLabel("weekly-quiz", isoDate, absPath),
+      ...variantMeta(absPath, "question"),
     });
   }
 }
 
 function addWeeklyNewsQuestionSets(root, byId) {
   const dir = path.join(root, "weekly", "weekly_news");
-  for (const absPath of listTopLevelFiles(dir).filter((item) => /^Places_in_News_\d{4}-\d{2}-\d{2}\.md$/.test(path.basename(item)))) {
+  for (const absPath of listTopLevelFiles(dir).filter((item) => /^Places_in_News_\d{4}-\d{2}-\d{2}(?:_chatgpt)?\.md$/.test(path.basename(item)))) {
     const isoDate = normalizeIsoDate(path.basename(absPath));
     if (!isoDate) continue;
     const rows = parseWeeklyNewsMarkdown(absPath, isoDate);
     if (!rows.length) continue;
-    const rel = writeDerivedQuestions(root, path.join("generated_data", "weekly_news_questions", `${isoDate}.json`), rows);
+    const rel = writeDerivedQuestions(root, path.join("generated_data", "weekly_news_questions", variantFileName(isoDate, absPath)), rows);
     upsertQuestionSet(root, byId, {
-      id: `weekly_news_${dateSlug(isoDate)}`,
+      id: questionId(`weekly_news_${dateSlug(isoDate)}`, absPath),
       category: "Weekly News",
       sourceType: "weekly-news",
       isoDate,
       durationMinutes: defaultDuration("weekly-news", "", rows.length),
       path: rel,
+      ...questionLabel("weekly-news", isoDate, absPath),
+      ...variantMeta(absPath, "question"),
     });
   }
 }
@@ -654,7 +721,11 @@ function sortQuestionSets(items) {
   const rank = { daily: 0, rc: 1, pib: 2, "weekly-news": 3, "weekly-quiz": 4, sectional: 5, csat: 6, pyq: 7, ai: 8, csr: 9 };
   return [...items].sort((a, b) => {
     if (a.sourceType !== b.sourceType) return (rank[a.sourceType] ?? 9) - (rank[b.sourceType] ?? 9);
-    if (a.isoDate || b.isoDate) return String(b.isoDate || "").localeCompare(String(a.isoDate || ""));
+    if (a.isoDate || b.isoDate) {
+      const dateOrder = String(b.isoDate || "").localeCompare(String(a.isoDate || ""));
+      if (dateOrder) return dateOrder;
+    }
+    if (!!a.isSupplementary !== !!b.isSupplementary) return a.isSupplementary ? 1 : -1;
     if (a.year || b.year) return Number(b.year || 0) - Number(a.year || 0);
     return String(a.id).localeCompare(String(b.id), undefined, { numeric: true });
   });
@@ -666,40 +737,42 @@ function noteTitleFromHeading(absPath, fallback) {
   return heading.replace(/^#\s+/, "").replace(/\s+[-\u2013\u2014]\s+.*$/, "").trim() || fallback;
 }
 
-function note(root, absPath, cadence, title, shortTitle, isoDate) {
+function note(root, absPath, cadence, title, shortTitle, isoDate, extra = {}) {
   const rel = relPath(root, absPath);
   return {
     id: slugify(rel),
     cadence,
-    title,
+    title: noteTitle(title, absPath),
     shortTitle,
     date: isoDate || normalizeIsoDate(rel),
     path: rel,
+    ...variantMeta(absPath, "note"),
+    ...extra,
   };
 }
 
 function buildNoteDocuments(root = DEFAULT_ROOT) {
   const docs = [];
   const dailyDir = path.join(root, "daily", "daily_current_affairs");
-  for (const absPath of listTopLevelFiles(dailyDir).filter((item) => /^UPSC_CA_\d{4}-\d{2}-\d{2}\.md$/.test(path.basename(item)))) {
+  for (const absPath of listTopLevelFiles(dailyDir).filter((item) => /^UPSC_CA_\d{4}-\d{2}-\d{2}(?:_chatgpt)?\.md$/.test(path.basename(item)))) {
     const isoDate = normalizeIsoDate(absPath);
     docs.push(note(root, absPath, "daily", "UPSC Daily CA Briefing", formatDate(isoDate), isoDate));
   }
 
   const pibDir = path.join(root, "daily", "daily_pib");
-  for (const absPath of listTopLevelFiles(pibDir).filter((item) => /^PIB_\d{4}-\d{2}-\d{2}\.md$/.test(path.basename(item)))) {
+  for (const absPath of listTopLevelFiles(pibDir).filter((item) => /^PIB_\d{4}-\d{2}-\d{2}(?:-\d+)?(?:_chatgpt)?\.md$/.test(path.basename(item)))) {
     const isoDate = normalizeIsoDate(absPath);
     docs.push(note(root, absPath, "pib", "Daily PIB Briefing", `PIB - ${formatDate(isoDate, { day: "2-digit", month: "short" })}`, isoDate));
   }
 
   const mainsDir = path.join(root, "daily", "daily_mains");
-  for (const absPath of listTopLevelFiles(mainsDir).filter((item) => /^GS_Mains_\d{4}-\d{2}-\d{2}\.md$/.test(path.basename(item)))) {
+  for (const absPath of listTopLevelFiles(mainsDir).filter((item) => /^GS_Mains_\d{4}-\d{2}-\d{2}(?:_chatgpt)?\.md$/.test(path.basename(item)))) {
     const isoDate = normalizeIsoDate(absPath);
     docs.push(note(root, absPath, "mains", "GS Mains Answer Practice", `Mains - ${formatDate(isoDate, { day: "2-digit", month: "short" })}`, isoDate));
   }
 
   const ankiDir = path.join(root, "anki");
-  for (const absPath of listTopLevelFiles(ankiDir).filter((item) => /^Prelims_Flashcards_\d{4}-\d{2}-\d{2}\.txt$/.test(path.basename(item)))) {
+  for (const absPath of listTopLevelFiles(ankiDir).filter((item) => /^Prelims_Flashcards_\d{4}-\d{2}-\d{2}(?:_chatgpt)?\.txt$/.test(path.basename(item)))) {
     const isoDate = normalizeIsoDate(absPath);
     docs.push(note(root, absPath, "anki", "Prelims Flashcards", `Anki - ${formatDate(isoDate, { day: "2-digit", month: "short" })}`, isoDate));
   }
@@ -719,19 +792,19 @@ function buildNoteDocuments(root = DEFAULT_ROOT) {
   }
 
   const rcDir = path.join(root, "daily", "daily_reading_comprehension");
-  for (const absPath of listTopLevelFiles(rcDir).filter((item) => /^RC_Drill_\d{4}-\d{2}-\d{2}\.md$/.test(path.basename(item)))) {
+  for (const absPath of listTopLevelFiles(rcDir).filter((item) => /^RC_Drill_\d{4}-\d{2}-\d{2}(?:_chatgpt)?\.md$/.test(path.basename(item)))) {
     const isoDate = normalizeIsoDate(absPath);
     docs.push(note(root, absPath, "rc", "CSAT Daily RC Drill", `RC - ${formatDate(isoDate, { day: "2-digit", month: "short" })}`, isoDate));
   }
 
   const sundayDir = path.join(root, "weekly", "Sunday");
-  for (const absPath of listTopLevelFiles(sundayDir).filter((item) => /^Sunday_Sweep_\d{4}-\d{2}-\d{2}\.md$/.test(path.basename(item)))) {
+  for (const absPath of listTopLevelFiles(sundayDir).filter((item) => /^Sunday_Sweep_\d{4}-\d{2}-\d{2}(?:_chatgpt)?\.md$/.test(path.basename(item)))) {
     const isoDate = normalizeIsoDate(absPath);
     docs.push(note(root, absPath, "sunday", "Sunday Sweep", `Week of ${formatDate(isoDate, { day: "2-digit", month: "short" })}`, isoDate));
   }
 
   const csatDir = path.join(root, "weekly", "CSAT");
-  for (const absPath of listTopLevelFiles(csatDir).filter((item) => /^CSAT_(Practice|PYQ|Full_Mock)_\d{4}-\d{2}-\d{2}\.md$/.test(path.basename(item)))) {
+  for (const absPath of listTopLevelFiles(csatDir).filter((item) => /^CSAT_(Practice|PYQ|Full_Mock)_\d{4}-\d{2}-\d{2}(?:_chatgpt)?\.md$/.test(path.basename(item)))) {
     const isoDate = normalizeIsoDate(absPath);
     const isPyq = path.basename(absPath).includes("PYQ");
     const isFullMock = path.basename(absPath).includes("Full_Mock");
@@ -741,47 +814,47 @@ function buildNoteDocuments(root = DEFAULT_ROOT) {
   }
 
   const physicsDir = path.join(root, "weekly", "Physics");
-  for (const absPath of listTopLevelFiles(physicsDir).filter((item) => /^Physics_Drill_\d{4}-\d{2}-\d{2}\.md$/.test(path.basename(item)))) {
+  for (const absPath of listTopLevelFiles(physicsDir).filter((item) => /^Physics_Drill_\d{4}-\d{2}-\d{2}(?:_chatgpt)?\.md$/.test(path.basename(item)))) {
     const isoDate = normalizeIsoDate(absPath);
     docs.push(note(root, absPath, "physics", "Physics Optional Drill", formatDate(isoDate, { day: "2-digit", month: "short" }), isoDate));
   }
-  for (const absPath of listTopLevelFiles(physicsDir).filter((item) => /^Physics_PYQ_\d{4}-\d{2}-\d{2}\.md$/.test(path.basename(item)))) {
+  for (const absPath of listTopLevelFiles(physicsDir).filter((item) => /^Physics_PYQ_\d{4}-\d{2}-\d{2}(?:_chatgpt)?\.md$/.test(path.basename(item)))) {
     const isoDate = normalizeIsoDate(absPath);
     docs.push(note(root, absPath, "physics", "Physics Optional PYQ Plan", `PYQ - ${formatDate(isoDate, { day: "2-digit", month: "short" })}`, isoDate));
   }
-  for (const absPath of listTopLevelFiles(physicsDir).filter((item) => /^Physics_Optional_Paper_(I|II)_\d{4}-\d{2}-\d{2}\.md$/.test(path.basename(item)))) {
+  for (const absPath of listTopLevelFiles(physicsDir).filter((item) => /^Physics_Optional_Paper_(I|II)_\d{4}-\d{2}-\d{2}(?:_chatgpt)?\.md$/.test(path.basename(item)))) {
     const isoDate = normalizeIsoDate(absPath);
     const paper = path.basename(absPath).match(/^Physics_Optional_Paper_(I|II)_/)?.[1] || "";
     docs.push(note(root, absPath, "physics", `UPSC Physics Optional Paper ${paper}`, `Paper ${paper} - ${formatDate(isoDate, { day: "2-digit", month: "short" })}`, isoDate));
   }
 
   const editorialsDir = path.join(root, "weekly", "Editorials");
-  for (const absPath of listTopLevelFiles(editorialsDir).filter((item) => /^Editorials_Mains_\d{4}-\d{2}-\d{2}\.md$/.test(path.basename(item)))) {
+  for (const absPath of listTopLevelFiles(editorialsDir).filter((item) => /^Editorials_Mains_\d{4}-\d{2}-\d{2}(?:_chatgpt)?\.md$/.test(path.basename(item)))) {
     const isoDate = normalizeIsoDate(absPath);
     docs.push(note(root, absPath, "editorials", "Editorials to Mains", `Mains - ${formatDate(isoDate, { day: "2-digit", month: "short" })}`, isoDate));
   }
 
   const schemesDir = path.join(root, "weekly", "Schemes");
-  for (const absPath of listTopLevelFiles(schemesDir).filter((item) => /^Schemes_Reports_\d{4}-\d{2}-\d{2}\.md$/.test(path.basename(item)))) {
+  for (const absPath of listTopLevelFiles(schemesDir).filter((item) => /^Schemes_Reports_\d{4}-\d{2}-\d{2}(?:_chatgpt)?\.md$/.test(path.basename(item)))) {
     const isoDate = normalizeIsoDate(absPath);
     docs.push(note(root, absPath, "schemes", "Schemes & Reports", `Reports - ${formatDate(isoDate, { day: "2-digit", month: "short" })}`, isoDate));
   }
 
   const weeklyNewsDir = path.join(root, "weekly", "weekly_news");
-  for (const absPath of listTopLevelFiles(weeklyNewsDir).filter((item) => /^Places_in_News_\d{4}-\d{2}-\d{2}\.md$/.test(path.basename(item)))) {
+  for (const absPath of listTopLevelFiles(weeklyNewsDir).filter((item) => /^Places_in_News_\d{4}-\d{2}-\d{2}(?:_chatgpt)?\.md$/.test(path.basename(item)))) {
     const isoDate = normalizeIsoDate(absPath);
     docs.push(note(root, absPath, "weekly-news", "Places in News", `Map - ${formatDate(isoDate, { day: "2-digit", month: "short" })}`, isoDate));
   }
 
   const sectionalDir = path.join(root, "weekly", "Sectional");
-  for (const absPath of listTopLevelFiles(sectionalDir).filter((item) => /^Sectional_.+_\d{4}-\d{2}-\d{2}\.md$/.test(path.basename(item)))) {
+  for (const absPath of listTopLevelFiles(sectionalDir).filter((item) => /^Sectional_.+_\d{4}-\d{2}-\d{2}(?:_chatgpt)?\.md$/.test(path.basename(item)))) {
     const isoDate = normalizeIsoDate(absPath);
-    const topic = path.basename(absPath).replace(/^Sectional_/, "").replace(/_\d{4}-\d{2}-\d{2}\.md$/, "");
+    const topic = path.basename(absPath).replace(/^Sectional_/, "").replace(/_\d{4}-\d{2}-\d{2}(?:_chatgpt)?\.md$/, "");
     const topicLabel = titleizeSlug(topic);
     docs.push(note(root, absPath, "sectional", noteTitleFromHeading(absPath, `${topicLabel} Sectional Test`), `${topicLabel} - ${formatDate(isoDate, { day: "2-digit", month: "short" })}`, isoDate));
   }
 
-  for (const absPath of listTopLevelFiles(root).filter((item) => /^Ethics_Case_\d{4}-\d{2}-\d{2}\.md$/.test(path.basename(item)))) {
+  for (const absPath of listTopLevelFiles(root).filter((item) => /^Ethics_Case_\d{4}-\d{2}-\d{2}(?:_chatgpt)?\.md$/.test(path.basename(item)))) {
     const isoDate = normalizeIsoDate(absPath);
     docs.push(note(root, absPath, "ethics", noteTitleFromHeading(absPath, "Weekly Ethics Case Study"), `Case - ${formatDate(isoDate, { day: "2-digit", month: "short" })}`, isoDate));
   }
@@ -810,7 +883,10 @@ function buildNoteDocuments(root = DEFAULT_ROOT) {
 
   return docs.sort((a, b) => {
     if (a.cadence !== b.cadence) return a.cadence.localeCompare(b.cadence);
-    return String(b.date || "").localeCompare(String(a.date || ""));
+    const dateOrder = String(b.date || "").localeCompare(String(a.date || ""));
+    if (dateOrder) return dateOrder;
+    if (!!a.isSupplementary !== !!b.isSupplementary) return a.isSupplementary ? 1 : -1;
+    return String(a.id).localeCompare(String(b.id), undefined, { numeric: true });
   });
 }
 
