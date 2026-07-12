@@ -1,0 +1,354 @@
+[
+  {
+    "question": "Read the following passage and answer the question.\n\nAnyone who has crawled along a motorway only to find, miles later, no accident, no stalled lorry, nothing at all to explain the delay, has met one of the stranger products of collective behaviour: the phantom traffic jam. Such jams are not caused by any single obstacle. They emerge from the interaction of hundreds of drivers, each reacting a fraction of a second late to the car ahead. When traffic is light, a driver's small hesitation is absorbed harmlessly. But past a certain density, one driver's tap on the brakes forces the driver behind to brake a little harder, and the next harder still, until a wave of stopped cars travels backward through the flow — even as the road ahead empties. The jam is real, yet it has no cause you could point to; it is a property of the system, not of any part of it. What makes phantom jams instructive is that they cannot be cured by the usual instinct to find and remove a culprit. There is no culprit. Widening the road often merely raises the density at which the instability reappears. The more promising interventions work on the collective dynamics themselves: adaptive speed limits that smooth the flow, or automated cars that brake gently and in anticipation rather than reactively. The lesson reaches beyond the motorway. Wherever many agents respond locally, and with delay, to one another — in financial markets, in crowds, in supply chains — the most consequential disturbances may be those that arise from the pattern of interaction itself, owing nothing to any flaw in the individuals involved. To look for a villain in such cases is to misunderstand what kind of thing has gone wrong.\n\nQ. Which of the following best captures the central argument of the passage?",
+    "options": [
+      "(a) Traffic jams are usually caused by accidents or obstacles that, once removed, allow the flow to recover.",
+      "(b) In systems of many interacting agents, some serious disruptions emerge from the pattern of interaction itself rather than from any individual fault, and so resist remedies aimed at finding a culprit.",
+      "(c) Automated vehicles will, in time, eliminate congestion on all major roads.",
+      "(d) Widening roads is the single most effective way to reduce the density that causes congestion."
+    ],
+    "answer": "(b)",
+    "explanation": "The passage generalises from the phantom jam to a thesis about delayed, interacting agents: some serious disturbances 'arise from the pattern of interaction itself', so culprit-hunting misfires. (a) and (d) are rejected; (c) over-extrapolates one illustration.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Main idea / central argument",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Read the following passage and answer the question.\n\nAnyone who has crawled along a motorway only to find, miles later, no accident, no stalled lorry, nothing at all to explain the delay, has met one of the stranger products of collective behaviour: the phantom traffic jam. Such jams are not caused by any single obstacle. They emerge from the interaction of hundreds of drivers, each reacting a fraction of a second late to the car ahead. When traffic is light, a driver's small hesitation is absorbed harmlessly. But past a certain density, one driver's tap on the brakes forces the driver behind to brake a little harder, until a wave of stopped cars travels backward through the flow — even as the road ahead empties. The jam is real, yet it has no cause you could point to; it is a property of the system, not of any part of it. What makes phantom jams instructive is that they cannot be cured by the usual instinct to find and remove a culprit. There is no culprit. Widening the road often merely raises the density at which the instability reappears. The lesson reaches beyond the motorway: wherever many agents respond locally, and with delay, to one another, the most consequential disturbances may be those that arise from the pattern of interaction itself, owing nothing to any flaw in the individuals involved. To look for a villain in such cases is to misunderstand what kind of thing has gone wrong.\n\nQ. It can be inferred that the author would regard the search for one person or part to blame for a phantom jam as:",
+    "options": [
+      "(a) justified, since every observable effect must have a definite, locatable cause.",
+      "(b) misguided, because the phenomenon is a property of the collective system rather than of any component.",
+      "(c) a useful first step, even if it ultimately proves incomplete.",
+      "(d) impossible, because the individual causes are simply too numerous to identify."
+    ],
+    "answer": "(b)",
+    "explanation": "'To look for a villain... is to misunderstand what kind of thing has gone wrong' — the fault is systemic, not local. (d) is the trap: the issue is not that causes are too numerous, but that there is no single culprit at all.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Inference",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Read the following passage and answer the question.\n\nAnyone who has crawled along a motorway only to find, miles later, nothing at all to explain the delay, has met one of the stranger products of collective behaviour: the phantom traffic jam. Such jams are not caused by any single obstacle; they emerge from the interaction of hundreds of drivers, each reacting a fraction of a second late to the car ahead. Past a certain density, one driver's tap on the brakes forces the driver behind to brake harder, until a wave of stopped cars travels backward through the flow even as the road ahead empties. The jam is real, yet it is a property of the system, not of any part of it. Such jams cannot be cured by the usual instinct to find and remove a culprit. There is no culprit. Widening the road often merely raises the density at which the instability reappears. The more promising interventions work on the collective dynamics themselves. The lesson reaches beyond the motorway: wherever many agents respond locally, and with delay, to one another, the most consequential disturbances may be those that arise from the pattern of interaction itself.\n\nQ. The author's claim that widening the road often fails rests on the assumption that:",
+    "options": [
+      "(a) drivers always distribute themselves evenly across all available lanes.",
+      "(b) added road capacity tends to be taken up, so the instability simply reappears at a higher density.",
+      "(c) governments cannot afford the cost of widening motorways.",
+      "(d) phantom jams occur only on motorways and not on ordinary roads."
+    ],
+    "answer": "(b)",
+    "explanation": "Negation test: the objection that widening 'merely raises the density at which the instability reappears' only holds if extra capacity gets used up. If added capacity were NOT taken up, widening would relieve the jam and the objection collapses — so the argument assumes (b).",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Assumption (negation test)",
+    "nature": "Aptitude",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Read the following passage and answer the question.\n\nTo forgive is commonly imagined as a private softening of the heart: the injured party, by an inward effort, ceases to feel resentment and so releases the wrongdoer from a debt. On this picture forgiveness is something one does chiefly to oneself, a kind of self-administered cure for the poison of grievance. Yet this account, for all its consolations, misses what is most demanding in the act. Resentment is not merely an unpleasant feeling to be dissolved; it is a form of moral protest. To resent an injury is to insist that it mattered, that the person who inflicted it was answerable, that one's own standing was not nothing. To give up resentment too readily — before the wrong has been acknowledged, before anything has changed — is not always a triumph of grace. It may be a quiet abandonment of the claim that one deserved better. Forgiveness worthy of the name, then, is neither forgetfulness nor the mere subsiding of anger. It is the deliberate decision to no longer hold a wrong against someone whom one continues to regard as having done wrong. The paradox is essential: one must keep the judgment while releasing the grievance. Offered too cheaply, it insults the one who offers it, for it treats the injury as though it had never counted. Offered rightly, it is among the hardest of moral achievements, precisely because it asks the injured to affirm their own worth and, in the same motion, to lay down the weapon that worth entitles them to carry.\n\nQ. Which of the following best captures the central idea of the passage?",
+    "options": [
+      "(a) Forgiveness is best understood as forgetting an injury so that resentment can gradually fade.",
+      "(b) Genuine forgiveness releases the grievance while retaining the judgment that a wrong was done, and is therefore a demanding moral act rather than a mere easing of feeling.",
+      "(c) Resentment is a poison that a wise person should learn to dissolve as quickly as possible.",
+      "(d) Wrongdoers are under a duty to seek forgiveness from those they have injured."
+    ],
+    "answer": "(b)",
+    "explanation": "The thesis is the 'essential paradox': keep the judgment that a wrong was done while releasing the grievance, which makes true forgiveness 'among the hardest of moral achievements'. (a) and (c) are the shallow view criticised; (d) is never claimed.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Main idea / central argument",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Read the following passage and answer the question.\n\nTo forgive is commonly imagined as a private softening of the heart, a self-administered cure for the poison of grievance. Yet this account, for all its consolations, misses what is most demanding in the act. Resentment is not merely an unpleasant feeling to be dissolved; it is a form of moral protest. To resent an injury is to insist that it mattered, that the person who inflicted it was answerable, that one's own standing was not nothing. To give up resentment too readily — before the wrong has been acknowledged, before anything has changed — is not always a triumph of grace. It may be a quiet abandonment of the claim that one deserved better. Forgiveness worthy of the name is neither forgetfulness nor the mere subsiding of anger; it is the deliberate decision to no longer hold a wrong against someone whom one continues to regard as having done wrong. Offered too cheaply, it insults the one who offers it, for it treats the injury as though it had never counted.\n\nQ. It can be inferred that the author considers forgiving 'too readily', before any acknowledgement of the wrong, problematic mainly because it:",
+    "options": [
+      "(a) allows the wrongdoer to escape any legal punishment they deserve.",
+      "(b) can amount to surrendering the legitimate moral claim that one was wronged and deserved better.",
+      "(c) makes the injured party feel morally superior to the wrongdoer.",
+      "(d) is a psychological state that cannot in practice be sustained for long."
+    ],
+    "answer": "(b)",
+    "explanation": "The text states that giving up resentment too readily 'may be a quiet abandonment of the claim that one deserved better'. (a) imports legal punishment never discussed; (c) and (d) are unsupported.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Inference",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Read the following passage and answer the question.\n\nTo forgive is commonly imagined as a private softening of the heart: the injured party, by an inward effort, ceases to feel resentment and so releases the wrongdoer from a debt. On this picture forgiveness is something one does chiefly to oneself, a kind of self-administered cure for the poison of grievance. Yet this account, for all its consolations, misses what is most demanding in the act. Resentment is not merely an unpleasant feeling to be dissolved; it is a form of moral protest. Forgiveness worthy of the name is neither forgetfulness nor the mere subsiding of anger; it is the deliberate decision to no longer hold a wrong against someone whom one continues to regard as having done wrong. Offered rightly, it is among the hardest of moral achievements, precisely because it asks the injured to affirm their own worth and, in the same motion, to lay down the weapon that worth entitles them to carry.\n\nQ. The author's tone toward the 'private softening of the heart' view of forgiveness is best described as:",
+    "options": [
+      "(a) contemptuous and dismissive.",
+      "(b) respectful of its appeal but ultimately critical of its adequacy.",
+      "(c) wholly endorsing and admiring.",
+      "(d) indifferent and detached."
+    ],
+    "answer": "(b)",
+    "explanation": "The author grants the view its 'consolations' and appeal, then judges that it 'misses what is most demanding' — appreciative but ultimately critical. Not contempt (a), endorsement (c), or indifference (d).",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Tone",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Six friends — P, Q, R, S, T and U — sit around a circular table facing the centre. (i) P sits second to the right of Q. (ii) R sits third to the left of P. (iii) U sits immediately to the left of P. (iv) S sits immediately to the right of T. (v) T is not adjacent to Q. Who sits second to the left of U?",
+    "options": [
+      "(a) Q",
+      "(b) R",
+      "(c) S",
+      "(d) T"
+    ],
+    "answer": "(b)",
+    "explanation": "Facing centre: right = counter-clockwise, left = clockwise. Q=1; P second to right of Q = seat 5; R third to left of P = seat 2; U immediately left of P = seat 6; S immediately right of T fixes T=4, S=3. Order clockwise: Q,R,S,T,P,U (seats 1-6). Second to the left (clockwise) of U(6): 6->1->2 = seat 2 = R.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Circular seating arrangement",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "12 July 2026 is a Sunday. What day of the week will 12 July 2028 be? (Note: 2028 is a leap year.)",
+    "options": [
+      "(a) Tuesday",
+      "(b) Wednesday",
+      "(c) Thursday",
+      "(d) Friday"
+    ],
+    "answer": "(b)",
+    "explanation": "12 Jul 2026 -> 12 Jul 2027 spans a non-leap Feb (2027) = 365 days = 1 odd day -> Monday. 12 Jul 2027 -> 12 Jul 2028 spans leap Feb 2028 = 366 days = 2 odd days -> Monday+2 = Wednesday. Total 3 odd days from Sunday.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Calendar / odd days",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the statements to be true regardless of commonly known facts. Statements: All poets are dreamers. Some dreamers are realists. Conclusions: I. Some poets are realists. II. Some realists are dreamers. III. All dreamers being poets is a possibility. Which of the conclusions follow?",
+    "options": [
+      "(a) Only II follows.",
+      "(b) Only I and II follow.",
+      "(c) Only II and III follow.",
+      "(d) All of I, II and III follow."
+    ],
+    "answer": "(c)",
+    "explanation": "All poets subset of dreamers; some dreamers are realists. I does not follow (the realist-dreamers need not be poets). II is the valid converse of 'some dreamers are realists'. III is a consistent possibility (poets = dreamers, some of them realist), so it follows.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Syllogism (possibility type)",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "In a certain code, each letter of a word is first replaced by its position number in the English alphabet (A=1, B=2, ...), the numbers are written side by side to form one long number, and then the digits of that whole number are reversed. For example, BAD -> 2,1,4 -> 214 -> reversed -> 412. Using the same rule, how is HEAD written?",
+    "options": [
+      "(a) 8514",
+      "(b) 4158",
+      "(c) 4185",
+      "(d) 8154"
+    ],
+    "answer": "(b)",
+    "explanation": "H=8, E=5, A=1, D=4 -> concatenate -> 8514 -> reverse the digits -> 4158. Option (a) 8514 is the trap for anyone who skips the final reversal.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Coding-decoding (number code)",
+    "nature": "Aptitude",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Five students — Amar, Bina, Chetan, Divya and Esha — scored distinct marks in a test. Bina scored more than Amar but less than Divya. Chetan scored more than Divya. Esha scored less than Amar. Who scored the highest and who scored the lowest, respectively?",
+    "options": [
+      "(a) Chetan and Esha",
+      "(b) Divya and Esha",
+      "(c) Chetan and Amar",
+      "(d) Cannot be determined"
+    ],
+    "answer": "(a)",
+    "explanation": "Chaining: Esha < Amar < Bina < Divya, and Chetan > Divya. Full order: Chetan > Divya > Bina > Amar > Esha. Highest = Chetan, lowest = Esha; fully determined.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Ranking / comparison",
+    "nature": "Aptitude",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "A solid cube is painted red on all six faces and then cut into 64 identical smaller cubes. How many of the small cubes have exactly two faces painted?",
+    "options": [
+      "(a) 8",
+      "(b) 24",
+      "(c) 12",
+      "(d) 36"
+    ],
+    "answer": "(b)",
+    "explanation": "64 = 4^3, so n=4 per edge. Exactly-two-faces cubes lie on edges but not corners: 12 edges x (n-2) = 12 x 2 = 24. Check: 8 corners + 24 two-face + 24 one-face + 8 interior = 64. Trap (a) 8 is the three-face count; (c) 12 is just the edge count.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Painted cube counting",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Rainfall (in mm) recorded in four cities over three months — Alpha: June 120, July 200, August 160; Beta: June 90, July 150, August 210; Gamma: June 160, July 140, August 100; Delta: June 130, July 180, August 160. In which city was the total rainfall over the three months the highest?",
+    "options": [
+      "(a) Alpha",
+      "(b) Beta",
+      "(c) Delta",
+      "(d) Gamma"
+    ],
+    "answer": "(a)",
+    "explanation": "Totals: Alpha 480, Beta 450, Gamma 400, Delta 470. Highest = Alpha (480).",
+    "subject": "CSAT",
+    "theme": "DI",
+    "micro_topic": "Table totals",
+    "nature": "Aptitude",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Rainfall (in mm) over three months — Beta recorded June 90, July 150, August 210; the other cities' August figures were Alpha 160, Gamma 100, Delta 160. Beta's August rainfall was what percentage of Beta's OWN total rainfall over the three months?",
+    "options": [
+      "(a) 33.3%",
+      "(b) 46.7%",
+      "(c) 42.0%",
+      "(d) 21.0%"
+    ],
+    "answer": "(b)",
+    "explanation": "Beta August = 210; Beta three-month total = 90+150+210 = 450. 210/450 = 46.7%. Trap (a) 33.3% divides by the all-cities August total (160+210+100+160 = 630): 210/630 = 33.3% — the wrong denominator.",
+    "subject": "CSAT",
+    "theme": "DI",
+    "micro_topic": "Percentage (with wrong-denominator trap)",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "A household spends its entire monthly income of Rs 80,000 as follows: 30% on housing, 20% on food, 15% on education, 10% on transport, and the remainder on savings and miscellaneous. How much more does the household spend on housing than on education each month?",
+    "options": [
+      "(a) Rs 8,000",
+      "(b) Rs 12,000",
+      "(c) Rs 15,000",
+      "(d) Rs 6,000"
+    ],
+    "answer": "(b)",
+    "explanation": "Housing = 30% of 80,000 = 24,000; Education = 15% of 80,000 = 12,000. Difference = 12,000. (15 percentage points x 80,000 = Rs 12,000.)",
+    "subject": "CSAT",
+    "theme": "DI",
+    "micro_topic": "Percentage of a total",
+    "nature": "Aptitude",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "A household spends its entire monthly income of Rs 80,000 with 30% on housing. Suppose next year housing spending rises by 20% while income rises by 10%. Housing will then constitute approximately what percentage of the new income?",
+    "options": [
+      "(a) 30.0%",
+      "(b) 36.0%",
+      "(c) 32.7%",
+      "(d) 27.3%"
+    ],
+    "answer": "(c)",
+    "explanation": "New housing = 24,000 x 1.20 = 28,800. New income = 80,000 x 1.10 = 88,000. Share = 28,800/88,000 = 32.7%. Trap (a) 30.0% assumes the proportion is unchanged, but housing grows faster than income.",
+    "subject": "CSAT",
+    "theme": "DI",
+    "micro_topic": "Percentage change (proportion-unchanged trap)",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "You are a newly posted officer. A subordinate who is otherwise excellent has quietly been coming in late for two weeks because of a family illness, without formally applying for leave. A colleague urges you to report it at once. What is the best course of action?",
+    "options": [
+      "(a) Immediately issue a written warning to set a firm example for the team.",
+      "(b) Ignore it entirely, since the subordinate is a strong performer.",
+      "(c) Speak privately with the subordinate to understand the situation, help them regularise the absence through the proper leave provisions, and make clear that the process must be followed going forward.",
+      "(d) Report the matter to your senior without first speaking to the subordinate."
+    ],
+    "answer": "(c)",
+    "explanation": "Balances rule-adherence with empathy: understand the cause, regularise the leave through proper provisions, reaffirm the process — without ignoring the lapse (b) or over-punishing / going over the person's head (a, d).",
+    "subject": "CSAT",
+    "theme": "Decision-Making",
+    "micro_topic": "Supervising a subordinate",
+    "nature": "Aptitude",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "You discover a minor but genuine error in a report your team has already submitted to a senior committee. Correcting it now will cause mild embarrassment; leaving it may slightly mislead a low-stakes decision. What do you do?",
+    "options": [
+      "(a) Say nothing and hope no one notices.",
+      "(b) Promptly inform the committee of the error, provide the corrected figure, and accept responsibility.",
+      "(c) Quietly attribute the mistake to the junior who drafted that section.",
+      "(d) Wait to see whether anyone raises the point before deciding whether to act."
+    ],
+    "answer": "(b)",
+    "explanation": "Integrity and transparency: disclose promptly, correct the figure, own the mistake. Concealment (a), blame-shifting (c) and passive waiting (d) all fail the accountability test.",
+    "subject": "CSAT",
+    "theme": "Decision-Making",
+    "micro_topic": "Integrity / accountability",
+    "nature": "Aptitude",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "As a team lead, you find that two capable members are locked in an escalating personal disagreement that is beginning to affect work. Each privately asks you to take their side. What is the most appropriate response?",
+    "options": [
+      "(a) Side with the more senior of the two so the matter is settled quickly.",
+      "(b) Tell them to sort it out between themselves and stay out of it entirely.",
+      "(c) Meet them together, keep the discussion focused on work responsibilities rather than personal blame, and set clear expectations for professional conduct.",
+      "(d) Reassign one of them to another team immediately to remove the friction."
+    ],
+    "answer": "(c)",
+    "explanation": "A leader stays impartial, redirects conflict from personal blame to shared work responsibilities, and sets clear conduct expectations — rather than taking sides (a), abdicating (b) or reaching for a disruptive quick fix (d).",
+    "subject": "CSAT",
+    "theme": "Decision-Making",
+    "micro_topic": "Interpersonal conflict management",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "A shopkeeper marks a shirt 60% above its cost price and then offers two successive discounts of 20% and 10% on the marked price. What is his overall profit or loss percent?",
+    "options": [
+      "(a) 15.2% profit",
+      "(b) 30% profit",
+      "(c) 28% profit",
+      "(d) 12% profit"
+    ],
+    "answer": "(a)",
+    "explanation": "CP=100, MP=160. After 20% off: 128. After a further 10% off: 128 x 0.9 = 115.2. Profit = 15.2%. Trap (b) 30% comes from naively doing 60-20-10; successive percentages do not add.",
+    "subject": "CSAT",
+    "theme": "Quant",
+    "micro_topic": "Successive discounts / profit-loss",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "At what time between 4 o'clock and 5 o'clock will the minute hand and the hour hand of a correct clock exactly coincide?",
+    "options": [
+      "(a) 4:20 exactly",
+      "(b) 4:21 and 9/11 minutes",
+      "(c) 4:22 exactly",
+      "(d) 4:23 and 5/11 minutes"
+    ],
+    "answer": "(b)",
+    "explanation": "Let the hands meet m minutes past 4. Minute hand = 6m degrees; hour hand = 120 + 0.5m degrees. 6m = 120 + 0.5m -> 5.5m = 120 -> m = 240/11 = 21 9/11 minutes. So 4:21 and 9/11 min.",
+    "subject": "CSAT",
+    "theme": "Quant",
+    "micro_topic": "Clocks (coincidence of hands)",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Find the largest number that divides 1657 and 2037, leaving remainders 6 and 5 respectively.",
+    "options": [
+      "(a) 123",
+      "(b) 127",
+      "(c) 235",
+      "(d) 305"
+    ],
+    "answer": "(b)",
+    "explanation": "Subtract remainders: 1657-6 = 1651, 2037-5 = 2032. Required number = HCF(1651, 2032). 2032-1651 = 381; 1651 = 381x4 + 127; 381 = 127x3 + 0 -> HCF = 127. Check: 1657/127 = 13 r6, 2037/127 = 16 r5.",
+    "subject": "CSAT",
+    "theme": "Quant",
+    "micro_topic": "HCF with remainders",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  }
+]

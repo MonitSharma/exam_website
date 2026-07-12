@@ -1,0 +1,35 @@
+[
+  {
+    "question": "With reference to the India–New Zealand Strategic Partnership Roadmap 2030, consider the following statements:\n1. It was announced during the first visit by an Indian Prime Minister to New Zealand in four decades.\n2. Both countries concluded negotiations for a Free Trade Agreement during the visit.\n3. A Memorandum of Arrangement on Maritime Cooperation in the Indo-Pacific was signed.\nHow many of the statements given above are correct?",
+    "options": ["(a) Only one", "(b) Only two", "(c) All three", "(d) None"],
+    "answer": "(c)",
+    "explanation": "The July 2026 visit was the first by an Indian PM to New Zealand in 40 years; FTA negotiations were concluded (target to double trade by 2030); and a Memorandum of Arrangement on Maritime Cooperation plus a Joint Working Group on Counter-Terrorism were established.",
+    "subject": "International Relations",
+    "theme": "India and its neighbourhood / bilateral relations",
+    "micro_topic": "India–New Zealand Strategic Partnership & Roadmap 2030",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Centre for High Altitude Medicine and Public Health Research at Keylong, whose foundation stone was recently laid, is being established by which of the following?",
+    "options": ["(a) The Defence Research and Development Organisation (DRDO)", "(b) The Indian Council of Medical Research (ICMR) under the Department of Health Research", "(c) The Department of Science and Technology", "(d) The Indian Institute of Science, Bengaluru"],
+    "answer": "(b)",
+    "explanation": "The centre at Keylong (Lahaul & Spiti, Himachal Pradesh) is being set up by ICMR under the Department of Health Research, Ministry of Health & Family Welfare, upgrading ICMR's existing Keylong field station.",
+    "subject": "Science & Technology",
+    "theme": "Health research institutions",
+    "micro_topic": "ICMR Centre for High Altitude Medicine, Keylong",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Consider the following statements about the PARIVARTAN Scheme recently in the news:\n1. It aims to replace old trucks and buses in the Delhi-NCR region with BS-VI or electric vehicles.\n2. It is implemented by the Ministry of New and Renewable Energy.\n3. Scrapping of eligible old vehicles at Registered Vehicle Scrapping Facilities is a condition under the scheme.\nWhich of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 1 and 3 only", "(c) 2 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(b)",
+    "explanation": "PARIVARTAN targets replacement of old NCR trucks/buses with BS-VI/EVs and mandates scrapping of BS-III and older vehicles at Registered Vehicle Scrapping Facilities. It is implemented by the Ministry of Road Transport & Highways (via NCRPB), not the Ministry of New and Renewable Energy, so statement 2 is incorrect.",
+    "subject": "Environment",
+    "theme": "Pollution control and clean mobility",
+    "micro_topic": "PARIVARTAN Delhi-NCR fleet replacement scheme",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]

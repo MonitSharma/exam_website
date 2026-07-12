@@ -1,0 +1,79 @@
+[
+  {
+    "question": "Consider the following statements about the India–New Zealand relationship as of July 2026: 1. India and New Zealand elevated their ties to a Strategic Partnership during PM Modi's 2026 visit. 2. It was the first visit by an Indian Prime Minister to New Zealand in four decades. 3. The two sides adopted a 'Roadmap to 2030' and set a target to double bilateral goods trade. Which of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(d)",
+    "explanation": "During PM Modi's July 2026 visit — the first by an Indian PM to New Zealand in 40 years — ties were elevated to a Strategic Partnership, a Roadmap to 2030 was adopted, and a target to double bilateral trade to NZ$7 billion by 2030 (plus a NZ$20 billion Indian-investment pledge) was set. All three are correct.",
+    "subject": "International Relations",
+    "theme": "India's Indo-Pacific / Act East diplomacy",
+    "micro_topic": "India–New Zealand Strategic Partnership & Roadmap to 2030 (July 2026)",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the National Investment and Infrastructure Fund (NIIF), consider the following statements: 1. It was established in 2015 as a fund manager to invest in infrastructure and related sectors. 2. The Government of India holds a majority stake of over 74% in NIIF. 3. It operates through multiple funds, including a Master Fund and the India–Japan Fund. Which of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 1 and 3 only", "(c) 2 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(b)",
+    "explanation": "NIIF was set up in 2015 and runs several funds (Master Fund, Private Markets Fund, Strategic Opportunities Fund, India–Japan Fund). The government holds only up to 49% — a strategic minority stake, not over 74% — so statement 2 is wrong. In July 2026 the Cabinet added ₹30,000 crore, doubling its commitment to ₹60,000 crore.",
+    "subject": "Economy",
+    "theme": "Infrastructure financing institutions",
+    "micro_topic": "NIIF structure, government stake & 2026 ₹30,000 crore infusion",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Supreme Court's 2026 ruling recognising the 'right to walk' on demarcated footpaths as a Fundamental Right primarily derived this right from:",
+    "options": ["(a) Article 21 read with Article 19(1)(d)", "(b) Article 14 read with Article 15", "(c) Article 25 read with Article 29", "(d) Article 300A read with Article 31"],
+    "answer": "(a)",
+    "explanation": "In Maniyar Iliyaz v. P. Ayyappan (2026 INSC 647), the Supreme Court held the right to walk on safe, demarcated footpaths to be a Fundamental Right flowing from Article 21 (right to life) read with Article 19(1)(d) (freedom of movement), with pedestrians having priority over vehicles.",
+    "subject": "Polity & Governance",
+    "theme": "Judicial expansion of Article 21",
+    "micro_topic": "Right to Walk judgment (Maniyar Iliyaz v. P. Ayyappan, 2026)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Aastha Van Sanrakshan Yojana (AVSY), in the news recently, is associated with:",
+    "options": ["(a) Urban afforestation on the fringes of smart cities", "(b) Conservation and restoration of sacred groves, funded through CAMPA", "(c) Agroforestry incentives for farmers under the National Mission for Sustainable Agriculture", "(d) Compensatory relief to communities displaced by tiger reserves"],
+    "answer": "(b)",
+    "explanation": "AVSY is a ₹3,000-crore, five-year (FY2026-27 to FY2030-31) scheme cleared by the 7th National CAMPA Governing Body to conserve, restore and manage nearly 15,000 sacred groves ('Aastha Vans'), funded through National CAMPA (CAF Act, 2016).",
+    "subject": "Environment",
+    "theme": "In-situ & community biodiversity conservation",
+    "micro_topic": "Aastha Van Sanrakshan Yojana (sacred groves) via National CAMPA",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The Australia–Canada–India Technology and Innovation Partnership (ACITI) focuses on which of the following areas? 1. Artificial Intelligence 2. Critical minerals and resilient supply chains 3. Green-energy technologies 4. Joint peacekeeping deployments",
+    "options": ["(a) 1, 2 and 3 only", "(b) 1 and 4 only", "(c) 2, 3 and 4 only", "(d) 1, 2, 3 and 4"],
+    "answer": "(a)",
+    "explanation": "ACITI (launched 9 July 2026, conceived at the G20 Johannesburg Summit, Nov 2025) is a technology-and-innovation framework covering AI, critical minerals/resilient supply chains and green-energy tech — an implicit hedge against Chinese dominance in rare-earth processing. It is not a defence or peacekeeping arrangement, so 4 is wrong.",
+    "subject": "Science & Technology",
+    "theme": "Emerging technologies & critical-mineral minilaterals",
+    "micro_topic": "ACITI Australia–Canada–India trilateral tech partnership",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to sacred groves in India, consider the following statements: 1. They are an example of in-situ conservation of biodiversity. 2. They can be notified as Community Reserves under the Wild Life (Protection) Act. 3. 'Orans', 'Kavu' and 'Sarna' are regional names for such groves. Which of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(d)",
+    "explanation": "Sacred groves are patches protected by community/religious tradition — a classic in-situ, community-based conservation model. They can be notified as Community Reserves (category added by the WLPA Amendment, 2002). Regional names include Orans (Rajasthan), Kavu (Kerala) and Sarna (Jharkhand). All three statements are correct.",
+    "subject": "Environment",
+    "theme": "Biodiversity conservation strategies",
+    "micro_topic": "Sacred groves — in-situ/community conservation & Community Reserves",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Which of the following has the Supreme Court of India held to be part of the right to life and personal liberty under Article 21? 1. Right to privacy 2. Right to a clean environment 3. Right to shelter 4. Right to walk on safe footpaths",
+    "options": ["(a) 1 and 2 only", "(b) 1, 2 and 3 only", "(c) 1, 3 and 4 only", "(d) 1, 2, 3 and 4"],
+    "answer": "(d)",
+    "explanation": "The Supreme Court has read all four into Article 21 — privacy (Puttaswamy, 2017), a clean environment (Subhash Kumar), shelter (Olga Tellis line), and, most recently, the right to walk on safe footpaths (Maniyar Iliyaz v. P. Ayyappan, 2026). This reflects Article 21's evolution into a repository of unenumerated rights.",
+    "subject": "Polity & Governance",
+    "theme": "Fundamental Rights — Article 21 jurisprudence",
+    "micro_topic": "Unenumerated rights read into Article 21",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  }
+]

@@ -12,6 +12,24 @@
   ],
   "questionSets": [
     {
+      "id": "daily_questions_2026_07_12",
+      "label": "Daily Questions - 12 Jul 2026",
+      "shortLabel": "Daily 12 Jul",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-07-12.json",
+      "isoDate": "2026-07-12",
+      "subjects": [
+        "International Relations",
+        "Economy",
+        "Polity & Governance",
+        "Environment",
+        "Science & Technology"
+      ]
+    },
+    {
       "id": "daily_questions_2026_07_11",
       "label": "Daily Questions - 11 Jul 2026",
       "shortLabel": "Daily 11 Jul",
@@ -803,6 +821,22 @@
       ]
     },
     {
+      "id": "pib_questions_2026_07_12",
+      "label": "PIB Questions - 12 Jul 2026",
+      "shortLabel": "PIB 12 Jul",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-07-12.json",
+      "isoDate": "2026-07-12",
+      "subjects": [
+        "International Relations",
+        "Science & Technology",
+        "Environment"
+      ]
+    },
+    {
       "id": "pib_questions_2026_07_11",
       "label": "PIB Questions - 11 Jul 2026",
       "shortLabel": "PIB 11 Jul",
@@ -1583,6 +1617,23 @@
       ]
     },
     {
+      "id": "csat_practice_2026_07_12",
+      "label": "CSAT Practice - 12 Jul 2026",
+      "shortLabel": "CSAT Practice 12 Jul",
+      "category": "CSAT Practice",
+      "sourceType": "csat",
+      "questionCount": 22,
+      "durationMinutes": 35,
+      "path": "generated_data/csat_questions/2026-07-12.json",
+      "isoDate": "2026-07-12",
+      "paper": "GS Paper II (CSAT)",
+      "marksPerCorrect": 2,
+      "negativeMark": -0.66,
+      "subjects": [
+        "CSAT"
+      ]
+    },
+    {
       "id": "csat_practice_2026_07_05",
       "label": "CSAT Practice - 05 Jul 2026",
       "shortLabel": "CSAT Practice 05 Jul",
@@ -2035,6 +2086,14 @@
       "shortTitle": "Anki - 21 Jun",
       "date": "2026-06-21",
       "path": "anki/Prelims_Flashcards_2026-06-21.txt"
+    },
+    {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-07-12",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "12 Jul 2026",
+      "date": "2026-07-12",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-07-12.md"
     },
     {
       "id": "daily-daily-current-affairs-upsc-ca-2026-07-11",
@@ -2549,6 +2608,14 @@
       "path": "weekly/Physics/Physics_Drill_2026-06-10.md"
     },
     {
+      "id": "daily-daily-pib-pib-2026-07-12",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 12 Jul",
+      "date": "2026-07-12",
+      "path": "daily/daily_pib/PIB_2026-07-12.md"
+    },
+    {
       "id": "daily-daily-pib-pib-2026-07-11",
       "cadence": "pib",
       "title": "Daily PIB Briefing",
@@ -2861,6 +2928,14 @@
       "path": "daily/daily_reading_comprehension/RC_Drill_2026-06-08.md"
     },
     {
+      "id": "weekly-schemes-schemes-reports-2026-07-12",
+      "cadence": "schemes",
+      "title": "Schemes & Reports",
+      "shortTitle": "Reports - 12 Jul",
+      "date": "2026-07-12",
+      "path": "weekly/Schemes/Schemes_Reports_2026-07-12.md"
+    },
+    {
       "id": "weekly-schemes-schemes-reports-2026-07-05",
       "cadence": "schemes",
       "title": "Schemes & Reports",
@@ -3011,6 +3086,14 @@
       "shortTitle": "Week of 07 Jun",
       "date": "2026-06-07",
       "path": "weekly/Sunday/Sunday_Sweep_2026-06-07.md"
+    },
+    {
+      "id": "weekly-csat-csat-practice-2026-07-12",
+      "cadence": "weekly-csat",
+      "title": "CSAT Practice",
+      "shortTitle": "Practice - 12 Jul",
+      "date": "2026-07-12",
+      "path": "weekly/CSAT/CSAT_Practice_2026-07-12.md"
     },
     {
       "id": "weekly-csat-csat-practice-2026-07-05",
