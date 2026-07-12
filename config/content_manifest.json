@@ -12,24 +12,19 @@
   ],
   "questionSets": [
     {
-      "id": "daily_questions_2026_07_11_extra",
-      "label": "Daily Practice Add-on - 11 Jul 2026",
-      "shortLabel": "Extra 11 Jul",
-      "category": "Extra Practice",
+      "id": "daily_questions_2026_07_11",
+      "label": "Daily Questions - 11 Jul 2026",
+      "shortLabel": "Daily 11 Jul",
+      "category": "Daily Questions",
       "sourceType": "daily",
       "questionCount": 7,
       "durationMinutes": 10,
-      "path": "daily/daily_questions/daily_questions_2026-07-11_chatgpt.json",
+      "path": "daily/daily_questions/daily_questions_2026-07-11.json",
       "isoDate": "2026-07-11",
-      "variant": "extra-practice",
-      "variantLabel": "Practice Add-on",
-      "isSupplementary": true,
       "subjects": [
         "Environment",
         "Economy",
-        "Science & Technology",
-        "International Relations",
-        "Polity & Governance"
+        "Society"
       ]
     },
     {
@@ -808,22 +803,18 @@
       ]
     },
     {
-      "id": "pib_questions_2026_07_11_extra",
-      "label": "PIB Practice Add-on - 11 Jul 2026",
-      "shortLabel": "Extra 11 Jul",
-      "category": "Extra Practice",
+      "id": "pib_questions_2026_07_11",
+      "label": "PIB Questions - 11 Jul 2026",
+      "shortLabel": "PIB 11 Jul",
+      "category": "PIB Questions",
       "sourceType": "pib",
       "questionCount": 3,
       "durationMinutes": 10,
-      "path": "generated_data/pib_questions/2026-07-11_chatgpt.json",
+      "path": "generated_data/pib_questions/2026-07-11.json",
       "isoDate": "2026-07-11",
-      "variant": "extra-practice",
-      "variantLabel": "Practice Add-on",
-      "isSupplementary": true,
       "subjects": [
-        "Environment",
         "Economy",
-        "Polity & Governance"
+        "Environment"
       ]
     },
     {
@@ -1287,23 +1278,6 @@
       ]
     },
     {
-      "id": "weekly_news_2026_07_11_extra",
-      "label": "Places Practice Add-on - 11 Jul 2026",
-      "shortLabel": "Extra 11 Jul",
-      "category": "Extra Practice",
-      "sourceType": "weekly-news",
-      "questionCount": 5,
-      "durationMinutes": 8,
-      "path": "generated_data/weekly_news_questions/2026-07-11_chatgpt.json",
-      "isoDate": "2026-07-11",
-      "variant": "extra-practice",
-      "variantLabel": "Practice Add-on",
-      "isSupplementary": true,
-      "subjects": [
-        "Geography"
-      ]
-    },
-    {
       "id": "weekly_news_2026_07_04",
       "label": "Weekly Places in News - 04 Jul 2026",
       "shortLabel": "News 04 Jul",
@@ -1360,23 +1334,20 @@
       ]
     },
     {
-      "id": "weekly_quiz_2026_07_12_extra",
-      "label": "Weekly Practice Add-on - 12 Jul 2026",
-      "shortLabel": "Extra 12 Jul",
-      "category": "Extra Practice",
+      "id": "weekly_quiz_2026_07_12",
+      "label": "Weekly Recall Quiz - 12 Jul 2026",
+      "shortLabel": "Weekly Quiz 12 Jul",
+      "category": "Weekly Quiz",
       "sourceType": "weekly-quiz",
       "questionCount": 15,
       "durationMinutes": 25,
-      "path": "weekly/weekly_quiz/weekly_questions_2026-07-12_chatgpt.json",
+      "path": "weekly/weekly_quiz/weekly_questions_2026-07-12.json",
       "isoDate": "2026-07-12",
-      "variant": "extra-practice",
-      "variantLabel": "Practice Add-on",
-      "isSupplementary": true,
       "subjects": [
-        "Polity & Governance",
-        "Internal Security",
-        "Society",
         "Science & Technology",
+        "Environment",
+        "International Relations",
+        "Agriculture",
         "Economy"
       ]
     },
@@ -1998,6 +1969,23 @@
       ]
     },
     {
+      "id": "ai_generated_batch_6",
+      "label": "AI Generated Questions - Batch 6",
+      "shortLabel": "AI Batch 6",
+      "category": "AI Generated Practice",
+      "sourceType": "ai",
+      "questionCount": 100,
+      "durationMinutes": 120,
+      "path": "generated_questions/ai_generated_questions/batch_6.json",
+      "subjects": [
+        "Economy",
+        "Governance",
+        "Polity",
+        "Science & Technology",
+        "Environment"
+      ]
+    },
+    {
       "id": "csr_batch_1",
       "label": "CSR Monthly Mock · Batch 1",
       "shortLabel": "CSR Batch 1",
@@ -2041,15 +2029,12 @@
       "path": "anki/Prelims_Flashcards_2026-06-21.txt"
     },
     {
-      "id": "daily-daily-current-affairs-upsc-ca-2026-07-11-chatgpt",
+      "id": "daily-daily-current-affairs-upsc-ca-2026-07-11",
       "cadence": "daily",
-      "title": "UPSC Daily CA Briefing Companion",
+      "title": "UPSC Daily CA Briefing",
       "shortTitle": "11 Jul 2026",
       "date": "2026-07-11",
-      "path": "daily/daily_current_affairs/UPSC_CA_2026-07-11_chatgpt.md",
-      "variant": "supplementary",
-      "variantLabel": "Companion Brief",
-      "isSupplementary": true
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-07-11.md"
     },
     {
       "id": "daily-daily-current-affairs-upsc-ca-2026-07-10",
@@ -2556,15 +2541,12 @@
       "path": "weekly/Physics/Physics_Drill_2026-06-10.md"
     },
     {
-      "id": "daily-daily-pib-pib-2026-07-11-2-chatgpt",
+      "id": "daily-daily-pib-pib-2026-07-11",
       "cadence": "pib",
-      "title": "Daily PIB Briefing Companion",
+      "title": "Daily PIB Briefing",
       "shortTitle": "PIB - 11 Jul",
       "date": "2026-07-11",
-      "path": "daily/daily_pib/PIB_2026-07-11-2_chatgpt.md",
-      "variant": "supplementary",
-      "variantLabel": "Companion Brief",
-      "isSupplementary": true
+      "path": "daily/daily_pib/PIB_2026-07-11.md"
     },
     {
       "id": "daily-daily-pib-pib-2026-07-10",
@@ -2975,15 +2957,12 @@
       "path": "CSAT_Strategy_Guide.md"
     },
     {
-      "id": "weekly-sunday-sunday-sweep-2026-07-12-chatgpt",
+      "id": "weekly-sunday-sunday-sweep-2026-07-12",
       "cadence": "sunday",
-      "title": "Sunday Sweep Companion",
+      "title": "Sunday Sweep",
       "shortTitle": "Week of 12 Jul",
       "date": "2026-07-12",
-      "path": "weekly/Sunday/Sunday_Sweep_2026-07-12_chatgpt.md",
-      "variant": "supplementary",
-      "variantLabel": "Companion Brief",
-      "isSupplementary": true
+      "path": "weekly/Sunday/Sunday_Sweep_2026-07-12.md"
     },
     {
       "id": "weekly-sunday-sunday-sweep-2026-07-05",
@@ -3080,17 +3059,6 @@
       "shortTitle": "PYQ - 08 Jun",
       "date": "2026-06-08",
       "path": "weekly/CSAT/CSAT_PYQ_2026-06-08.md"
-    },
-    {
-      "id": "weekly-weekly-news-places-in-news-2026-07-11-chatgpt",
-      "cadence": "weekly-news",
-      "title": "Places in News Companion",
-      "shortTitle": "Map - 11 Jul",
-      "date": "2026-07-11",
-      "path": "weekly/weekly_news/Places_in_News_2026-07-11_chatgpt.md",
-      "variant": "supplementary",
-      "variantLabel": "Companion Brief",
-      "isSupplementary": true
     },
     {
       "id": "weekly-weekly-news-places-in-news-2026-07-04",

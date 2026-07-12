@@ -1,0 +1,114 @@
+[
+  {
+    "question": "At the 7th Meeting of the Governing Body of National CAMPA (July 2026), new conservation action plans were approved for which of the following?\n1. Snow Leopard\n2. Indian One-horned Rhinoceros\n3. River Dolphin\n4. Wild Water Buffalo",
+    "options": [
+      "(a) Only two",
+      "(b) Only three",
+      "(c) All four",
+      "(d) Only one"
+    ],
+    "answer": "(c)",
+    "explanation": "The 7th National CAMPA Governing Body approved plans for the river dolphin, Project Snow Leopard Phase-II, the Indian rhinoceros and a pan-India wild water buffalo plan, funded under a new Rs 3,000 crore, five-year scheme, alongside a National Human-Wildlife Conflict Portal.",
+    "subject": "Environment",
+    "theme": "Wildlife conservation & funding",
+    "micro_topic": "National CAMPA species action plans",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The Compensatory Afforestation Fund managed by CAMPA is financed primarily from:",
+    "options": [
+      "(a) A cess levied on petroleum products",
+      "(b) Net Present Value (NPV) and compensatory-afforestation levies collected when forest land is diverted for non-forest use",
+      "(c) Fifteenth Finance Commission grants earmarked for forests",
+      "(d) Voluntary corporate CSR contributions only"
+    ],
+    "answer": "(b)",
+    "explanation": "Under the CAF Act, 2016, CAMPA funds come chiefly from Net Present Value (NPV) and compensatory-afforestation charges levied when forest land is diverted, split 90% to States and 10% to the Centre.",
+    "subject": "Environment",
+    "theme": "Environmental governance",
+    "micro_topic": "CAMPA / CAF Act 2016 financing",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Union Finance Ministry's July 2026 customs notification exempted Basic Customs Duty on imported inputs used to manufacture which of the following?\n1. Lithium-ion cells\n2. Display assemblies\n3. Inductor coil modules",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "Notifications dated 8 July 2026 (effective 9 July) waived Basic Customs Duty on specified inputs for lithium-ion cells, display assemblies and inductor coil modules, to deepen domestic value addition in electronics and EV batteries.",
+    "subject": "Economy",
+    "theme": "Electronics manufacturing & trade policy",
+    "micro_topic": "Customs duty exemption on component inputs",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements about 'TribeX', launched in July 2026:\n1. It is a digital learning platform for tribal arts, culture and traditional knowledge.\n2. It is an initiative of the Ministry of Culture.\n3. Its launch was accompanied by an MoU for UGC-recognised PG diplomas, including in the Santali language.\nWhich of the statements are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "TribeX is a digital learning platform (1 correct) launched by the Ministry of Tribal Affairs, not the Ministry of Culture (2 wrong). An MoU with Sampurnanand Sanskrit University covers PG diplomas including Santali/Ol Chiki (3 correct).",
+    "subject": "Society",
+    "theme": "Tribal welfare & cultural heritage",
+    "micro_topic": "TribeX digital tribal knowledge platform",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In its July 2026 order flagging a 'deep-rooted nexus', the Supreme Court issued notice concerning the conduct of which of the following?\n1. Public-sector banks\n2. Asset Reconstruction Companies (ARCs)\n3. Borrowers",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "A bench led by CJI Surya Kant flagged the nexus among public-sector banks, ARCs and borrowers over loan liabilities sold 'for peanuts', issuing notice to the Centre, RBI and others in a plea over Rs 1,537 crore settled through two ARCs for Rs 73.5 crore.",
+    "subject": "Economy",
+    "theme": "Banking governance & NPA resolution",
+    "micro_topic": "Banks-ARC-borrower nexus (Supreme Court)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to Asset Reconstruction Companies (ARCs) in India, consider the following statements:\n1. ARCs are regulated by the Reserve Bank of India under the SARFAESI Act, 2002.\n2. ARCs commonly issue Security Receipts to qualified buyers to fund acquisition of stressed assets.\n3. ARCs can acquire the assets of banks only after a matter has been admitted to the National Company Law Tribunal.\nWhich of the statements are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "ARCs are RBI-regulated under the SARFAESI Act, 2002, and issue Security Receipts. Statement 3 is wrong: ARCs acquire stressed assets directly from lenders under SARFAESI, independent of any NCLT/IBC admission, which is a separate resolution track.",
+    "subject": "Economy",
+    "theme": "Financial sector institutions",
+    "micro_topic": "ARCs, SARFAESI Act & Security Receipts",
+    "nature": "Factual",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Consider the following statements about the Gangetic River Dolphin:\n1. It is India's National Aquatic Animal.\n2. It is listed in Schedule I of the Wildlife (Protection) Act, 1972.\n3. It is functionally blind and relies on echolocation.\nWhich of the statements are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "The Gangetic dolphin was declared India's National Aquatic Animal in 2009, is listed in Schedule I of the WPA 1972, and is functionally blind, navigating and hunting by echolocation.",
+    "subject": "Environment",
+    "theme": "Species & wildlife protection",
+    "micro_topic": "Gangetic dolphin status",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  }
+]

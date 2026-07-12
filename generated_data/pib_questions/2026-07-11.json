@@ -1,0 +1,35 @@
+[
+  {
+    "question": "With reference to the Ethanol Blended Petrol (EBP) Programme, consider the following statements:\n1. Under the E20 mandate, all petrol sold in India from April 2026 must contain 20% ethanol.\n2. Ethanol produced from lignocellulosic biomass such as paddy stubble and bagasse is termed second-generation (2G) ethanol.\n3. Viability Gap Funding for 2G ethanol and Sustainable Aviation Fuel projects is provided under the PM JI-VAN Yojana.\nHow many of the statements given above are correct?",
+    "options": ["(a) Only one", "(b) Only two", "(c) All three", "(d) None"],
+    "answer": "(c)",
+    "explanation": "From April 2026 all petrol is E20 (RON >= 95); 2G ethanol is made from lignocellulosic biomass; and the modified PM JI-VAN Yojana provides VGF for 2G ethanol and Sustainable Aviation Fuel.",
+    "subject": "Economy",
+    "theme": "Energy Security & Biofuels",
+    "micro_topic": "Ethanol Blended Petrol Programme (E20) & PM JI-VAN Yojana",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements regarding HFO-1234yf, in the news recently:\n1. It is a low-Global-Warming-Potential refrigerant intended to replace hydrofluorocarbons (HFCs).\n2. HFCs were brought under the control of the Montreal Protocol through its Kigali Amendment.\n3. HFCs are controlled primarily because they deplete the stratospheric ozone layer.\nWhich of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(a)",
+    "explanation": "HFO-1234yf is a low-GWP refrigerant that replaces HFCs, and the Kigali Amendment (2016) brought HFCs under the Montreal Protocol. Statement 3 is wrong: HFCs do not deplete ozone; they are controlled because they are potent greenhouse gases. CSIR-IICT has developed India's first indigenous process to make HFO-1234yf.",
+    "subject": "Environment",
+    "theme": "Ozone & Climate Agreements",
+    "micro_topic": "Montreal Protocol, Kigali Amendment, HFCs & HFO refrigerants",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Index of Industrial Production (IIP), consider the following statements:\n1. It is compiled and released by the National Statistics Office under the Ministry of Statistics & Programme Implementation.\n2. In its revised series, the IIP is adopting the Output Producer Price Index as the deflator in place of the Wholesale Price Index.\n3. Under its use-based classification, capital goods form one of the categories of the index.\nHow many of the statements given above are correct?",
+    "options": ["(a) Only one", "(b) Only two", "(c) All three", "(d) None"],
+    "answer": "(c)",
+    "explanation": "The IIP is compiled by the NSO/MoSPI; the new 2022-23 base-year series switches the deflator from WPI to the Output PPI; and capital goods is one of the six use-based categories (with primary, intermediate, infrastructure/construction, consumer durables and consumer non-durables). IIP grew 5.1% in May 2026.",
+    "subject": "Economy",
+    "theme": "Economic Indicators & Statistical Systems",
+    "micro_topic": "Index of Industrial Production - new 2022-23 base year",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]

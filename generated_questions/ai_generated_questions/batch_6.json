@@ -1,0 +1,1702 @@
+[
+  {
+    "id": 335,
+    "question": "With reference to the Union Budget 2026-27, consider the following statements:\n1. The fiscal deficit for 2026-27 is estimated at 4.3% of GDP, lower than the revised estimate for 2025-26.\n2. The Budget announced the Biopharma SHAKTI scheme to develop India as a global biopharma manufacturing hub.\n3. A scheme to revive 200 legacy industrial clusters through infrastructure and technology upgradation was announced.\n4. The Semiconductor Mission 2.0 was announced to be discontinued in favour of foreign fabrication tie-ups.",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 1, 2 and 4 only"
+    ],
+    "subject": "Economy",
+    "theme": "Budget and Fiscal Policy",
+    "micro_topic": "Union Budget 2026-27",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(a)",
+    "explanation": "Statement 1 is correct: the 2026-27 fiscal deficit is pegged at 4.3% of GDP, down from the revised 4.4% in 2025-26. Statement 2 is correct: Biopharma SHAKTI (with an outlay of about Rs 10,000 crore over five years) was announced to boost domestic production of biologics. Statement 3 is correct: a scheme to revive 200 legacy industrial clusters was announced. Statement 4 is incorrect: Semiconductor Mission 2.0 was announced to be LAUNCHED (a continuation and expansion), not discontinued."
+  },
+  {
+    "id": 336,
+    "question": "Consider the following statements about the Reserve Bank of India's monetary policy stance in early 2026:\n1. The Monetary Policy Committee retained the repo rate at 5.25% with a neutral stance.\n2. The Standing Deposit Facility rate was held at 5.00% and the Marginal Standing Facility rate at 5.50%.\n3. The base year for the Consumer Price Index and the Index of Industrial Production was revised.\n4. The repo rate is the rate at which the RBI borrows from commercial banks without collateral.",
+    "options": [
+      "(a) 2, 3 and 4 only",
+      "(b) 1, 3 and 4 only",
+      "(c) 1, 2 and 4 only",
+      "(d) 1, 2 and 3 only"
+    ],
+    "subject": "Economy",
+    "theme": "Monetary Policy",
+    "micro_topic": "RBI Monetary Policy 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "Statement 1 is correct: the MPC held the repo rate at 5.25% with a neutral stance. Statement 2 is correct: SDF at 5.00% and MSF/Bank Rate at 5.50%. Statement 3 is correct: the base years for CPI (to 2024) and IIP (to 2022-23) were revised by MoSPI. Statement 4 is incorrect: the repo rate is the rate at which the RBI LENDS to banks against collateral; the SDF is the collateral-free absorption facility."
+  },
+  {
+    "id": 337,
+    "question": "Consider the following statements about India's new national accounts data series:\n1. The Ministry of Statistics and Programme Implementation released a new GDP series with 2022-23 as the base year.\n2. The new series replaces the previous series that had 2011-12 as the base year.\n3. India's real GDP growth for 2025-26 was estimated at over 7% under the new series.\n4. The base year revision is undertaken by the Reserve Bank of India.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 1, 2 and 4 only",
+      "(c) 1, 2 and 3 only",
+      "(d) 2, 3 and 4 only"
+    ],
+    "subject": "Economy",
+    "theme": "National Accounts",
+    "micro_topic": "GDP Base Year Revision",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(c)",
+    "explanation": "Statements 1, 2 and 3 are correct: MoSPI released the new series with 2022-23 base year replacing 2011-12, with real GDP growth for 2025-26 estimated around 7.6%. Statement 4 is incorrect: base year revision is done by MoSPI (the government statistical agency), not the RBI."
+  },
+  {
+    "id": 338,
+    "question": "With reference to Total Return Swaps and credit derivatives announced in the Union Budget 2026-27, consider the following statements:\n1. The Budget announced the introduction of derivatives on corporate bonds to develop the corporate bond market.\n2. A Credit Default Swap is a derivative that transfers the credit risk of a bond from one party to another.\n3. Corporate bonds are debt securities issued by companies to raise funds.\n4. The RBI regulates credit derivatives in India.",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "Economy",
+    "theme": "Financial Markets",
+    "micro_topic": "Corporate Bond Derivatives",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "All four are correct. The 2026-27 Budget announced total return swaps and derivatives on corporate bond indices to deepen the corporate bond market. A CDS transfers credit (default) risk. Corporate bonds are company-issued debt securities. And credit derivatives fall under the RBI's regulatory purview."
+  },
+  {
+    "id": 339,
+    "question": "Consider the following statements on the classification of government expenditure in India:\n1. Capital expenditure creates assets or reduces liabilities of the government.\n2. Revenue expenditure is recurring in nature and does not create assets.\n3. Interest payments, subsidies and salaries are examples of revenue expenditure.\n4. Loans given by the Centre to States are classified as revenue expenditure.",
+    "options": [
+      "(a) 1, 2 and 4 only",
+      "(b) 1, 2 and 3 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 3 and 4 only"
+    ],
+    "subject": "Economy",
+    "theme": "Public Finance",
+    "micro_topic": "Government Expenditure Classification",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(b)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: loans given by the Centre to States create financial assets and are classified as CAPITAL expenditure, not revenue expenditure."
+  },
+  {
+    "id": 340,
+    "question": "Consider the following statements about inflation measurement in India:\n1. The Consumer Price Index is used by the RBI as the nominal anchor for its inflation targeting framework.\n2. The Wholesale Price Index does not include services.\n3. Headline inflation includes food and fuel, while core inflation excludes them.\n4. The CPI is compiled by the Reserve Bank of India.",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "Economy",
+    "theme": "Macroeconomics",
+    "micro_topic": "Inflation Measurement",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(a)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: the CPI (Combined) is compiled by the National Statistical Office under MoSPI, not the RBI. The RBI uses CPI as its target but does not compile it."
+  },
+  {
+    "id": 341,
+    "question": "Consider the following statements on the goods and services tax input tax credit:\n1. Input Tax Credit allows a registered taxpayer to reduce the tax paid on inputs from the tax payable on output.\n2. ITC prevents the cascading of taxes (tax on tax).\n3. ITC is available on all goods and services without any exceptions.\n4. To claim ITC, the recipient must possess a valid tax invoice and have received the goods or services.",
+    "options": [
+      "(a) 2, 3 and 4 only",
+      "(b) 1, 3 and 4 only",
+      "(c) 1, 2, 3 and 4",
+      "(d) 1, 2 and 4 only"
+    ],
+    "subject": "Economy",
+    "theme": "Taxation",
+    "micro_topic": "GST Input Tax Credit",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "Statements 1, 2 and 4 are correct. Statement 3 is incorrect: ITC is NOT available on all goods and services - there is a 'blocked credit' list (e.g., motor vehicles for personal use, food and beverages, club membership) under Section 17(5) of the CGST Act."
+  },
+  {
+    "id": 342,
+    "question": "With reference to the concept of financial inclusion in India, consider the following statements:\n1. The Pradhan Mantri Jan Dhan Yojana aimed to provide universal access to banking facilities with at least one basic account per household.\n2. The Jan Dhan-Aadhaar-Mobile (JAM) trinity enables direct benefit transfers to beneficiaries.\n3. Business Correspondents extend banking services to rural and remote areas.\n4. Payments Banks can accept deposits and also lend money like commercial banks.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 1, 2, 3 and 4",
+      "(c) 1, 2 and 3 only",
+      "(d) 2, 3 and 4 only"
+    ],
+    "subject": "Economy",
+    "theme": "Financial Inclusion",
+    "micro_topic": "Financial Inclusion India",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(c)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: Payments Banks CANNOT lend or issue credit cards; they can accept deposits (up to a specified limit) and offer payment/remittance services but are prohibited from lending."
+  },
+  {
+    "id": 343,
+    "question": "Consider the following statements about the balance of trade and balance of payments:\n1. The balance of trade refers only to the difference between the value of merchandise exports and imports.\n2. The balance of payments is a broader concept that includes trade in goods, services, income, and capital flows.\n3. A country can have a trade deficit but still have a balance of payments surplus.\n4. Foreign exchange reserves increase when there is a balance of payments deficit.",
+    "options": [
+      "(a) 1, 2, 3 and 4",
+      "(b) 1, 2 and 3 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 3 and 4 only"
+    ],
+    "subject": "Economy",
+    "theme": "External Sector",
+    "micro_topic": "Balance of Trade and Payments",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(b)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: foreign exchange reserves DECREASE (are drawn down) when there is a balance of payments deficit; they increase during a BoP surplus."
+  },
+  {
+    "id": 344,
+    "question": "Consider the following statements about India's foreign exchange reserves:\n1. India's foreign exchange reserves are managed by the Reserve Bank of India.\n2. Foreign currency assets form the largest component of the reserves.\n3. The reserves include the country's gold holdings and Special Drawing Rights.\n4. India's forex reserves also include the Reserve Tranche Position with the International Monetary Fund.",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "Economy",
+    "theme": "External Sector",
+    "micro_topic": "Foreign Exchange Reserves",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(d)",
+    "explanation": "All four are correct. India's forex reserves are managed by the RBI and comprise four components: Foreign Currency Assets (the largest), Gold, SDRs, and the Reserve Tranche Position with the IMF."
+  },
+  {
+    "id": 345,
+    "question": "Consider the following statements about GDP and its measurement:\n1. Gross Domestic Product measures the market value of all final goods and services produced within a country's borders in a given period.\n2. Nominal GDP is measured at current prices, while real GDP is measured at constant (base year) prices.\n3. The GDP deflator is the ratio of nominal GDP to real GDP.\n4. Gross National Product equals GDP plus net factor income from abroad.",
+    "options": [
+      "(a) 1, 2 and 4 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "Economy",
+    "theme": "National Income",
+    "micro_topic": "GDP Concepts",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(d)",
+    "explanation": "All four are correct. GDP measures final goods/services within borders. Nominal GDP uses current prices, real GDP uses constant prices. The GDP deflator = (Nominal GDP/Real GDP) x 100. And GNP = GDP + net factor income from abroad."
+  },
+  {
+    "id": 346,
+    "question": "Consider the following statements about capital markets in India:\n1. The Securities and Exchange Board of India is the regulator for capital markets.\n2. The primary market is where new securities are issued for the first time (e.g., IPOs).\n3. The secondary market is where existing securities are traded among investors.\n4. A debenture represents an ownership stake in a company.",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "Economy",
+    "theme": "Financial Markets",
+    "micro_topic": "Capital Markets Structure",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(a)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: a debenture is a DEBT instrument (a loan to the company), not an ownership stake. Equity shares represent ownership, whereas debentures represent creditorship."
+  },
+  {
+    "id": 347,
+    "question": "Consider the following statements on India's textile sector initiatives in the 2026-27 Budget:\n1. An Integrated Textile Programme with multiple components was announced.\n2. A National Fibre Scheme was proposed to support self-reliance in natural and man-made fibres.\n3. The RoSCTL scheme refunds embedded central and state taxes on exported garments.\n4. Textiles were deprioritised in favour of capital-intensive heavy industry.",
+    "options": [
+      "(a) 2, 3 and 4 only",
+      "(b) 1, 3 and 4 only",
+      "(c) 1, 2, 3 and 4",
+      "(d) 1, 2 and 3 only"
+    ],
+    "subject": "Economy",
+    "theme": "Industrial Policy",
+    "micro_topic": "Textile Sector Initiatives",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: textiles were reaffirmed as a PRIORITY labour-intensive sector (not deprioritised), with a dedicated Integrated Textile Programme."
+  },
+  {
+    "id": 348,
+    "question": "Consider the following statements about the Reserve Bank of India's functions:\n1. The RBI acts as the banker to the government and manages public debt.\n2. The RBI is the sole authority to issue currency notes of all denominations in India.\n3. The RBI acts as the lender of last resort to commercial banks.\n4. The RBI regulates and supervises the banking system.",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 1, 2, 3 and 4",
+      "(c) 1, 3 and 4 only",
+      "(d) 2, 3 and 4 only"
+    ],
+    "subject": "Economy",
+    "theme": "Banking",
+    "micro_topic": "RBI Functions",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(c)",
+    "explanation": "Statements 1, 3 and 4 are correct. Statement 2 is incorrect: the RBI issues all currency notes EXCEPT the one-rupee note (and coins), which are issued by the Government of India (Ministry of Finance), though they are circulated by the RBI."
+  },
+  {
+    "id": 349,
+    "question": "With reference to disinvestment and the National Investment Fund, consider the following statements:\n1. The National Investment Fund was constituted to channel proceeds from disinvestment of Central Public Sector Enterprises.\n2. 'Minority stake sale' means the government sells part of its stake but retains management control.\n3. 'Strategic disinvestment' involves the transfer of management control to a private buyer.\n4. All disinvestment proceeds are mandatorily used only for reducing the fiscal deficit.",
+    "options": [
+      "(a) 1, 2, 3 and 4",
+      "(b) 1, 2 and 3 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 3 and 4 only"
+    ],
+    "subject": "Economy",
+    "theme": "Public Sector",
+    "micro_topic": "Disinvestment and NIF",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(b)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: disinvestment proceeds are not exclusively used to reduce the fiscal deficit; they can be used for capital expenditure, recapitalisation of banks, and other purposes as decided by the government."
+  },
+  {
+    "id": 350,
+    "question": "Consider the following statements about India's external debt:\n1. External debt refers to money borrowed by a country's government, businesses and individuals from foreign lenders.\n2. Commercial borrowings form a significant component of India's external debt.\n3. A higher proportion of short-term external debt increases vulnerability to external shocks.\n4. External debt is entirely denominated in Indian rupees.",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "Economy",
+    "theme": "External Sector",
+    "micro_topic": "External Debt",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(a)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: India's external debt is denominated in multiple currencies (US dollar being dominant), not entirely in Indian rupees, though rupee-denominated debt is a growing component."
+  },
+  {
+    "id": 351,
+    "question": "Consider the following statements about cooperative banks in India:\n1. Cooperative banks are regulated jointly by the Reserve Bank of India and the respective Registrar of Cooperative Societies.\n2. Urban Cooperative Banks were brought fully under the RBI's supervision by the Banking Regulation (Amendment) Act, 2020.\n3. NABARD supervises the rural cooperative credit structure.\n4. Cooperative banks cannot accept deposits from the public.",
+    "options": [
+      "(a) 2, 3 and 4 only",
+      "(b) 1, 3 and 4 only",
+      "(c) 1, 2, 3 and 4",
+      "(d) 1, 2 and 3 only"
+    ],
+    "subject": "Economy",
+    "theme": "Banking",
+    "micro_topic": "Cooperative Banks",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: cooperative banks DO accept deposits from the public - accepting deposits and providing credit are their primary functions."
+  },
+  {
+    "id": 352,
+    "question": "Consider the following statements about India's tax devolution and fiscal federalism:\n1. The divisible pool of taxes is shared between the Centre and States based on the Finance Commission's recommendations.\n2. Cesses and surcharges levied by the Centre are part of the divisible pool.\n3. Horizontal devolution refers to distribution of the States' share among individual States.\n4. Vertical devolution refers to the division of the divisible pool between the Centre and the States as a whole.",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 1, 2, 3 and 4",
+      "(c) 1, 3 and 4 only",
+      "(d) 2, 3 and 4 only"
+    ],
+    "subject": "Economy",
+    "theme": "Fiscal Federalism",
+    "micro_topic": "Tax Devolution",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(c)",
+    "explanation": "Statements 1, 3 and 4 are correct. Statement 2 is incorrect: cesses and surcharges are NOT part of the divisible pool - they are retained entirely by the Centre, which has been a point of contention with the States."
+  },
+  {
+    "id": 353,
+    "question": "Consider the following statements about non-banking financial companies (NBFCs) in India:\n1. NBFCs provide banking services but do not hold a banking licence.\n2. NBFCs cannot accept demand deposits (such as savings and current accounts).\n3. NBFCs are regulated by the RBI under a scale-based regulatory framework.\n4. NBFCs are part of the payment and settlement system and can issue cheques drawn on themselves.",
+    "options": [
+      "(a) 1, 2, 3 and 4",
+      "(b) 1, 2 and 3 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 3 and 4 only"
+    ],
+    "subject": "Economy",
+    "theme": "Financial Sector",
+    "micro_topic": "NBFC Regulation",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(b)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: NBFCs are NOT part of the payment and settlement system and CANNOT issue cheques drawn on themselves - this is a key distinction from banks."
+  },
+  {
+    "id": 354,
+    "question": "Consider the following statements about the components of India's GDP by expenditure:\n1. Private final consumption expenditure is the largest component of India's GDP.\n2. Gross fixed capital formation is a measure of investment in the economy.\n3. A rise in the savings rate can support higher investment.\n4. Government final consumption expenditure is the single largest component of India's GDP.",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "Economy",
+    "theme": "Macroeconomics",
+    "micro_topic": "GDP Components",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(a)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: PRIVATE final consumption expenditure (not government consumption) is the single largest component of India's GDP, typically around 55-60%."
+  },
+  {
+    "id": 355,
+    "question": "Consider the following statements about Foreign Portfolio Investment in India:\n1. FPI refers to investment in financial assets such as stocks and bonds by foreign investors.\n2. FPI is regulated by SEBI.\n3. FPI is generally considered more stable and long-term than Foreign Direct Investment.\n4. Sudden FPI outflows can lead to depreciation of the domestic currency.",
+    "options": [
+      "(a) 2, 3 and 4 only",
+      "(b) 1, 3 and 4 only",
+      "(c) 1, 2, 3 and 4",
+      "(d) 1, 2 and 4 only"
+    ],
+    "subject": "Economy",
+    "theme": "External Sector",
+    "micro_topic": "Foreign Portfolio Investment",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(d)",
+    "explanation": "Statements 1, 2 and 4 are correct. Statement 3 is incorrect: FPI is generally considered LESS stable and more short-term ('hot money') than FDI, which involves lasting management interest and is more stable."
+  },
+  {
+    "id": 356,
+    "question": "Consider the following statements about the goods and services tax rate structure after the 2025 rationalisation:\n1. The structure was simplified into two principal slabs of 5% and 18%.\n2. A special demerit rate of 40% applies to select goods such as luxury and sin items.\n3. Zero-rated supplies include exports and supplies to Special Economic Zones.\n4. Gold and precious stones are taxed at the 18% standard rate.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 1, 2, 3 and 4",
+      "(c) 1, 2 and 3 only",
+      "(d) 2, 3 and 4 only"
+    ],
+    "subject": "Economy",
+    "theme": "Taxation",
+    "micro_topic": "GST Rate Structure 2025",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(c)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: gold and precious stones are taxed at a special low rate (around 3%), not the 18% standard rate."
+  },
+  {
+    "id": 357,
+    "question": "Consider the following statements about the Insolvency and Bankruptcy Code framework:\n1. The Insolvency and Bankruptcy Board of India is the regulator for insolvency professionals and processes.\n2. The 'resolution plan' must be approved by the Committee of Creditors with the requisite voting share.\n3. If no resolution plan is approved within the timeline, the company goes into liquidation.\n4. During the moratorium period, creditors can continue to file separate recovery suits against the debtor.",
+    "options": [
+      "(a) 1, 2, 3 and 4",
+      "(b) 1, 2 and 3 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 3 and 4 only"
+    ],
+    "subject": "Economy",
+    "theme": "Financial Sector",
+    "micro_topic": "IBC Resolution Framework",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(b)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: during the moratorium (calm period), a 'standstill' applies - creditors CANNOT initiate or continue separate recovery suits or enforcement actions against the debtor."
+  },
+  {
+    "id": 358,
+    "question": "Consider the following statements about agricultural marketing reforms:\n1. The electronic National Agriculture Market (e-NAM) is an online trading platform for agricultural commodities.\n2. Agricultural Produce Market Committees (APMCs) are regulated markets governed by State laws.\n3. Farmer Producer Organisations aggregate small farmers to improve their bargaining power.\n4. The three farm laws of 2020 were implemented and remain in force.",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "Economy",
+    "theme": "Agriculture",
+    "micro_topic": "Agricultural Marketing",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(a)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: the three farm laws of 2020 were REPEALED in November 2021 following farmers' protests - they are not in force."
+  },
+  {
+    "id": 359,
+    "question": "With reference to the Promotion and Regulation of Online Gaming Act, 2025 and its 2026 Rules, consider the following statements:\n1. The Act prohibits online money games irrespective of whether they are based on skill or chance.\n2. It establishes the Online Gaming Authority of India as an attached office of the Ministry of Electronics and Information Technology.\n3. E-sports and online social games are permitted under the framework.\n4. Online money games can be registered and recognised as e-sports.",
+    "options": [
+      "(a) 2, 3 and 4 only",
+      "(b) 1, 3 and 4 only",
+      "(c) 1, 2, 3 and 4",
+      "(d) 1, 2 and 3 only"
+    ],
+    "subject": "Governance",
+    "theme": "Digital Economy",
+    "micro_topic": "Online Gaming Act 2025",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "Statements 1, 2 and 3 are correct: the Act bans all online money games (skill or chance), sets up the OGAI as an attached office of MeitY, and permits e-sports and online social games. Statement 4 is incorrect: online money games CANNOT be registered or recognised as e-sports under the framework."
+  },
+  {
+    "id": 360,
+    "question": "Consider the following statements about the Promotion and Regulation of Online Gaming Act, 2025:\n1. It formally recognises e-sports as a legitimate competitive sport.\n2. Banks and payment systems are barred from processing transactions linked to prohibited online money games.\n3. Advertising of online money games is prohibited.\n4. Penalties imposed under the Act are credited to a separate statutory fund controlled by the gaming industry.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 1, 2, 3 and 4",
+      "(c) 1, 2 and 3 only",
+      "(d) 2, 3 and 4 only"
+    ],
+    "subject": "Governance",
+    "theme": "Digital Economy",
+    "micro_topic": "Online Gaming Regulation",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(c)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: penalties imposed under the Act are credited to the Consolidated Fund of India, not a separate industry-controlled fund."
+  },
+  {
+    "id": 361,
+    "question": "With reference to the Constitution (131st Amendment) Bill on simultaneous elections, consider the following statements:\n1. The Bill sought to enable simultaneous elections to the Lok Sabha and State Legislative Assemblies.\n2. It was based on the recommendations of a High-Level Committee chaired by a former President of India.\n3. The Bill was passed by both Houses of Parliament and became law.\n4. The associated Delimitation Bill and Union Territories Laws Amendment Bill were contingent on this Constitution Amendment Bill.",
+    "options": [
+      "(a) 1, 2, 3 and 4",
+      "(b) 1, 2 and 4 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 3 and 4 only"
+    ],
+    "subject": "Polity",
+    "theme": "Elections",
+    "micro_topic": "Simultaneous Elections Bill",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(b)",
+    "explanation": "Statements 1, 2 and 4 are correct. Statement 3 is incorrect: the Constitution (131st Amendment) Bill was NEGATIVED (voted down) in the Lok Sabha in April 2026 - it did not become law. Consequently the contingent bills became infructuous."
+  },
+  {
+    "id": 362,
+    "question": "Consider the following statements about the emergency provisions of the Indian Constitution:\n1. A National Emergency under Article 352 can be proclaimed on grounds of war, external aggression, or armed rebellion.\n2. During a National Emergency, the Fundamental Rights under Article 20 and Article 21 cannot be suspended.\n3. President's Rule under Article 356 is imposed when there is a failure of constitutional machinery in a State.\n4. A proclamation of National Emergency must be approved by Parliament within one month.",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "Polity",
+    "theme": "Emergency Provisions",
+    "micro_topic": "Emergency Provisions Constitution",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "All four are correct. Article 352 grounds are war, external aggression or armed rebellion. Articles 20 and 21 cannot be suspended even during emergency (44th Amendment). Article 356 addresses failure of constitutional machinery. And a National Emergency proclamation must be approved by both Houses within one month."
+  },
+  {
+    "id": 363,
+    "question": "Consider the following statements about the Directive Principles of State Policy:\n1. They are enshrined in Part IV of the Constitution and are non-justiciable.\n2. They are fundamental in the governance of the country.\n3. Article 44 directs the State to secure a Uniform Civil Code for citizens.\n4. The Directive Principles override the Fundamental Rights in all cases of conflict.",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "Polity",
+    "theme": "Constitutional Framework",
+    "micro_topic": "Directive Principles of State Policy",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(a)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: the DPSPs do not automatically override the Fundamental Rights in all cases - the relationship is one of harmonious construction, though certain DPSPs (Articles 39(b) and (c)) are given precedence over Articles 14 and 19 in specific circumstances."
+  },
+  {
+    "id": 364,
+    "question": "Consider the following statements about the office of the Vice-President of India:\n1. The Vice-President is the ex-officio Chairman of the Rajya Sabha.\n2. The Vice-President is elected by an Electoral College consisting of members of both Houses of Parliament.\n3. The Vice-President can be removed by a resolution of the Rajya Sabha passed by an absolute majority and agreed to by the Lok Sabha.\n4. Members of State Legislative Assemblies participate in the election of the Vice-President.",
+    "options": [
+      "(a) 2, 3 and 4 only",
+      "(b) 1, 3 and 4 only",
+      "(c) 1, 2, 3 and 4",
+      "(d) 1, 2 and 3 only"
+    ],
+    "subject": "Polity",
+    "theme": "Constitutional Offices",
+    "micro_topic": "Vice-President of India",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: members of State Legislative Assemblies do NOT participate in the Vice-President's election - the Electoral College consists only of members of both Houses of Parliament (unlike the President's election, which includes State MLAs)."
+  },
+  {
+    "id": 365,
+    "question": "Consider the following statements about the Panchayati Raj system:\n1. The 73rd Constitutional Amendment made it mandatory to hold Panchayat elections every five years.\n2. The State Election Commission conducts elections to the Panchayats.\n3. The Eleventh Schedule lists 29 subjects that may be devolved to Panchayats.\n4. Reservation for women in Panchayats was fixed at not less than one-third of total seats.",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "Polity",
+    "theme": "Local Government",
+    "micro_topic": "Panchayati Raj System",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(d)",
+    "explanation": "All four are correct. The 73rd Amendment mandates elections every five years, conducted by the State Election Commission. The Eleventh Schedule lists 29 subjects for devolution. And at least one-third reservation for women was fixed (many States have since raised it to 50%)."
+  },
+  {
+    "id": 366,
+    "question": "Consider the following statements about parliamentary privileges in India:\n1. Members of Parliament have freedom of speech in Parliament, and no member is liable to any court proceedings for anything said in Parliament.\n2. Parliamentary privileges have been comprehensively codified in a single statute.\n3. The privileges are essential for members to perform their functions without hindrance.\n4. A breach of privilege can be examined by the Committee of Privileges of the House.",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 1, 2, 3 and 4",
+      "(c) 1, 3 and 4 only",
+      "(d) 2, 3 and 4 only"
+    ],
+    "subject": "Polity",
+    "theme": "Parliament",
+    "micro_topic": "Parliamentary Privileges",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(c)",
+    "explanation": "Statements 1, 3 and 4 are correct. Statement 2 is incorrect: parliamentary privileges have NOT been comprehensively codified in a single statute - they remain partly defined by the Constitution (Articles 105 and 194) and otherwise rest on convention and precedent, with codification long pending."
+  },
+  {
+    "id": 367,
+    "question": "Consider the following statements about the judicial system in India:\n1. The Supreme Court is the apex court and the final interpreter of the Constitution.\n2. High Courts have the power of judicial review over both legislative and executive actions.\n3. The Supreme Court's advisory jurisdiction is exercised under Article 143 at the reference of the President.\n4. Judges of the High Courts are appointed by the Governor of the respective State.",
+    "options": [
+      "(a) 1, 2, 3 and 4",
+      "(b) 1, 2 and 3 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 3 and 4 only"
+    ],
+    "subject": "Polity",
+    "theme": "Judiciary",
+    "micro_topic": "Judicial System India",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(b)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: High Court judges are appointed by the PRESIDENT of India (in consultation with the CJI, the Governor, and the Chief Justice of the High Court), not by the Governor."
+  },
+  {
+    "id": 368,
+    "question": "Consider the following statements about the citizenship provisions in India:\n1. The Citizenship Act, 1955 provides for acquisition of citizenship by birth, descent, registration, naturalisation and incorporation of territory.\n2. The Citizenship (Amendment) Act, 2019 provides a path to citizenship for certain persecuted minorities from Afghanistan, Bangladesh and Pakistan.\n3. India permits full dual citizenship for persons of Indian origin.\n4. The Constitution deals with citizenship at the commencement of the Constitution (Articles 5 to 11).",
+    "options": [
+      "(a) 1, 2 and 4 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "Polity",
+    "theme": "Citizenship",
+    "micro_topic": "Citizenship Provisions",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(a)",
+    "explanation": "Statements 1, 2 and 4 are correct. Statement 3 is incorrect: India does NOT permit full dual citizenship. The Overseas Citizen of India (OCI) scheme provides certain benefits but is not equivalent to dual citizenship (OCIs do not have voting rights or the right to hold constitutional posts)."
+  },
+  {
+    "id": 369,
+    "question": "Consider the following statements about the process of impeachment of the President of India:\n1. The President can be impeached only for 'violation of the Constitution'.\n2. The impeachment can be initiated in either House of Parliament.\n3. The charge must be passed by a majority of not less than two-thirds of the total membership of the House.\n4. Nominated members of Parliament cannot participate in the impeachment process.",
+    "options": [
+      "(a) 2, 3 and 4 only",
+      "(b) 1, 3 and 4 only",
+      "(c) 1, 2, 3 and 4",
+      "(d) 1, 2 and 3 only"
+    ],
+    "subject": "Polity",
+    "theme": "Constitutional Offices",
+    "micro_topic": "Presidential Impeachment",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: nominated members of Parliament CAN participate in the impeachment of the President (unlike the President's election, where they are excluded)."
+  },
+  {
+    "id": 370,
+    "question": "Consider the following statements about the Union Public Service Commission:\n1. It is a constitutional body established under Article 315.\n2. It conducts examinations for appointments to the All-India Services and Central Services.\n3. The Chairman and members are appointed by the President.\n4. UPSC recommendations on disciplinary matters are binding on the government.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 1, 2, 3 and 4",
+      "(c) 1, 2 and 3 only",
+      "(d) 2, 3 and 4 only"
+    ],
+    "subject": "Polity",
+    "theme": "Constitutional Bodies",
+    "micro_topic": "Union Public Service Commission",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(c)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: UPSC recommendations are ADVISORY, not binding, on the government. If the government rejects UPSC advice, it must record reasons and report to Parliament."
+  },
+  {
+    "id": 371,
+    "question": "Consider the following statements about the Governor of a State:\n1. The Governor is appointed by the President and holds office during the pleasure of the President.\n2. The Governor has the power to reserve a Bill passed by the State Legislature for the consideration of the President.\n3. The Governor can promulgate ordinances when the State Legislature is not in session.\n4. The Governor has a fixed tenure of five years and cannot be removed before its expiry.",
+    "options": [
+      "(a) 1, 2, 3 and 4",
+      "(b) 1, 2 and 3 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 3 and 4 only"
+    ],
+    "subject": "Polity",
+    "theme": "State Government",
+    "micro_topic": "Governor Powers",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(b)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: while the Governor has a normal term of five years, the Governor holds office during the pleasure of the President and CAN be removed/transferred before the expiry of the term."
+  },
+  {
+    "id": 372,
+    "question": "Consider the following statements about the amendment of the Constitution and basic structure:\n1. The basic structure doctrine was propounded in the Kesavananda Bharati case (1973).\n2. The doctrine holds that Parliament cannot amend the 'basic structure' of the Constitution.\n3. Judicial review and federalism have been held to be part of the basic structure.\n4. The basic structure doctrine is explicitly written in Article 368 of the Constitution.",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "Polity",
+    "theme": "Constitutional Framework",
+    "micro_topic": "Basic Structure Doctrine",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(a)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: the basic structure doctrine is a JUDICIAL innovation (evolved through case law) and is NOT explicitly written in Article 368 or anywhere in the constitutional text."
+  },
+  {
+    "id": 373,
+    "question": "Consider the following statements about the Finance Commission and Goods and Services Tax Council:\n1. The Finance Commission is a constitutional body under Article 280.\n2. The GST Council is a constitutional body under Article 279A.\n3. Both bodies make recommendations that are binding on the government.\n4. The GST Council is chaired by the Union Finance Minister.",
+    "options": [
+      "(a) 2, 3 and 4 only",
+      "(b) 1, 3 and 4 only",
+      "(c) 1, 2, 3 and 4",
+      "(d) 1, 2 and 4 only"
+    ],
+    "subject": "Polity",
+    "theme": "Fiscal Federalism",
+    "micro_topic": "Finance Commission and GST Council",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "Statements 1, 2 and 4 are correct. Statement 3 is incorrect: neither body's recommendations are strictly binding - the Finance Commission's are advisory, and the Supreme Court (Mohit Minerals, 2022) held the GST Council's recommendations to be persuasive, not binding."
+  },
+  {
+    "id": 374,
+    "question": "Consider the following statements about fundamental duties in the Indian Constitution:\n1. Fundamental Duties were added by the 42nd Constitutional Amendment on the recommendation of the Swaran Singh Committee.\n2. They are enshrined in Article 51A under Part IV-A.\n3. There are originally ten fundamental duties, with an eleventh added later by the 86th Amendment.\n4. Fundamental Duties are legally enforceable in a court of law.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 1, 2, 3 and 4",
+      "(c) 1, 2 and 3 only",
+      "(d) 2, 3 and 4 only"
+    ],
+    "subject": "Polity",
+    "theme": "Constitutional Framework",
+    "micro_topic": "Fundamental Duties",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(c)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: Fundamental Duties are NOT legally enforceable in a court of law - they are moral and civic obligations, though courts may consider them while interpreting laws."
+  },
+  {
+    "id": 375,
+    "question": "Consider the following statements about the Attorney General and Solicitor General of India:\n1. The Attorney General is appointed under Article 76 of the Constitution.\n2. The Solicitor General is a constitutional post like the Attorney General.\n3. The Attorney General can take part in the proceedings of both Houses of Parliament without the right to vote.\n4. The Attorney General is the first law officer of the Government of India.",
+    "options": [
+      "(a) 1, 2, 3 and 4",
+      "(b) 1, 3 and 4 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 2 and 3 only"
+    ],
+    "subject": "Polity",
+    "theme": "Constitutional Offices",
+    "micro_topic": "Attorney General and Solicitor General",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(b)",
+    "explanation": "Statements 1, 3 and 4 are correct. Statement 2 is incorrect: the Solicitor General (and Additional Solicitors General) are STATUTORY posts, not constitutional posts. Only the Attorney General is a constitutional office (Article 76)."
+  },
+  {
+    "id": 376,
+    "question": "Consider the following statements about the special provisions for certain States:\n1. Article 371A provides special provisions for Nagaland.\n2. Article 371G provides special provisions for Mizoram, protecting religious and social practices of the Mizos.\n3. These provisions can be found in Part XXI of the Constitution.\n4. The special provisions under Articles 371-371J are uniform across all the States they apply to.",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "Polity",
+    "theme": "Federal Structure",
+    "micro_topic": "Special Provisions for States",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(a)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: the special provisions under Articles 371 to 371J are NOT uniform - they vary considerably from State to State, addressing the specific needs of each region."
+  },
+  {
+    "id": 377,
+    "question": "Consider the following statements about the anti-defection law (Tenth Schedule):\n1. It applies to members of both Parliament and State Legislatures.\n2. A member is disqualified if they vote against the direction of their party (whip) without prior permission.\n3. A merger is exempt from disqualification if two-thirds of the party's legislators agree to it.\n4. The presiding officer's decision on disqualification is final and cannot be reviewed by courts.",
+    "options": [
+      "(a) 2, 3 and 4 only",
+      "(b) 1, 3 and 4 only",
+      "(c) 1, 2, 3 and 4",
+      "(d) 1, 2 and 3 only"
+    ],
+    "subject": "Polity",
+    "theme": "Parliament",
+    "micro_topic": "Anti-Defection Law",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: the Supreme Court (Kihoto Hollohan, 1992) held that the presiding officer's decision IS subject to judicial review, though courts generally do not intervene until a final decision is made."
+  },
+  {
+    "id": 378,
+    "question": "Consider the following statements about the Comptroller and Auditor General (CAG):\n1. The CAG is often described as the guardian of the public purse.\n2. The CAG conducts three types of audit: regularity (financial), propriety, and performance audit.\n3. The reports of the CAG are examined by the Public Accounts Committee.\n4. The CAG can be removed by the President at his discretion without parliamentary approval.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 1, 2, 3 and 4",
+      "(c) 1, 2 and 3 only",
+      "(d) 2, 3 and 4 only"
+    ],
+    "subject": "Polity",
+    "theme": "Constitutional Bodies",
+    "micro_topic": "Comptroller and Auditor General",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(c)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: the CAG can be removed only in the same manner as a Supreme Court judge (address by both Houses of Parliament with special majority), NOT at the President's discretion."
+  },
+  {
+    "id": 379,
+    "question": "Consider the following statements about the Election Commission of India:\n1. It is a permanent and independent constitutional body under Article 324.\n2. It conducts elections to Parliament, State Legislatures, and the offices of the President and Vice-President.\n3. It has the power to register political parties and allot election symbols.\n4. It conducts elections to the local bodies (Panchayats and Municipalities).",
+    "options": [
+      "(a) 1, 2, 3 and 4",
+      "(b) 1, 2 and 3 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 3 and 4 only"
+    ],
+    "subject": "Polity",
+    "theme": "Constitutional Bodies",
+    "micro_topic": "Election Commission of India",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(b)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: elections to local bodies (Panchayats and Municipalities) are conducted by the STATE Election Commissions, not the Election Commission of India."
+  },
+  {
+    "id": 380,
+    "question": "Consider the following statements about the National Investigation Agency (NIA):\n1. The NIA was established under the National Investigation Agency Act, 2008 in the aftermath of the 2008 Mumbai attacks.\n2. It is a central agency to investigate and prosecute offences affecting the sovereignty, security and integrity of India.\n3. The NIA Act was amended in 2019 to allow it to investigate specified offences committed outside India.\n4. The NIA functions under the Ministry of Defence.",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "Polity",
+    "theme": "Internal Security",
+    "micro_topic": "National Investigation Agency",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(a)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: the NIA functions under the Ministry of HOME AFFAIRS, not the Ministry of Defence."
+  },
+  {
+    "id": 381,
+    "question": "With reference to the Semiconductor Mission 2.0 announced in the Union Budget 2026-27, consider the following statements:\n1. It builds on the earlier India Semiconductor Mission to strengthen the domestic chip ecosystem.\n2. It aims to promote design, fabrication, and assembly-testing capacities in India.\n3. The Semiconductor Mission functions under the Ministry of Electronics and Information Technology.\n4. India already has multiple commercial fabrication plants producing advanced sub-3-nanometre chips at scale.",
+    "options": [
+      "(a) 2, 3 and 4 only",
+      "(b) 1, 3 and 4 only",
+      "(c) 1, 2, 3 and 4",
+      "(d) 1, 2 and 3 only"
+    ],
+    "subject": "Science & Technology",
+    "theme": "Semiconductors",
+    "micro_topic": "Semiconductor Mission 2.0",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: India does NOT yet have multiple commercial fabs producing advanced sub-3nm chips at scale - its fabrication facilities (under construction/development) target mature/legacy nodes, and India is at an early stage of building its fabrication capacity."
+  },
+  {
+    "id": 382,
+    "question": "With reference to the Biopharma SHAKTI scheme, consider the following statements:\n1. It aims to develop India as a global biopharma manufacturing hub.\n2. It focuses on building an ecosystem for domestic production of biologics and biosimilars.\n3. It includes the establishment of new National Institutes of Pharmaceutical Education and Research (NIPERs).\n4. Biologics are simple, small-molecule chemical drugs synthesised entirely by chemical processes.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 1, 2, 3 and 4",
+      "(c) 1, 2 and 3 only",
+      "(d) 2, 3 and 4 only"
+    ],
+    "subject": "Science & Technology",
+    "theme": "Biotechnology",
+    "micro_topic": "Biopharma SHAKTI Scheme",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(c)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: biologics are LARGE, complex molecules (such as proteins, antibodies, vaccines) derived from living organisms - NOT simple small-molecule chemical drugs. This distinction is central to the scheme's focus on biologics manufacturing."
+  },
+  {
+    "id": 383,
+    "question": "Consider the following statements about artificial intelligence technologies:\n1. Machine learning is a subset of artificial intelligence where systems learn patterns from data.\n2. Deep learning uses artificial neural networks with multiple layers.\n3. Generative AI can create new content such as text, images and audio.\n4. Supervised learning requires no labelled data for training.",
+    "options": [
+      "(a) 1, 2, 3 and 4",
+      "(b) 1, 2 and 3 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 3 and 4 only"
+    ],
+    "subject": "Science & Technology",
+    "theme": "Artificial Intelligence",
+    "micro_topic": "AI and Machine Learning",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(b)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: SUPERVISED learning specifically REQUIRES labelled data (input-output pairs) for training. It is UNSUPERVISED learning that works with unlabelled data."
+  },
+  {
+    "id": 384,
+    "question": "Consider the following statements about vaccines and immunisation:\n1. Live attenuated vaccines contain weakened forms of the pathogen.\n2. Subunit vaccines contain only specific antigenic parts of the pathogen.\n3. Herd immunity occurs when a large portion of a population becomes immune, providing indirect protection.\n4. Vaccines work by directly killing pathogens already present in the body.",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "Science & Technology",
+    "theme": "Health Technology",
+    "micro_topic": "Vaccines and Immunisation",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(a)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: vaccines do NOT directly kill pathogens - they stimulate the immune system to develop immunity (antibodies and memory cells) so the body can fight the pathogen upon future exposure. They are prophylactic, not therapeutic killers."
+  },
+  {
+    "id": 385,
+    "question": "Consider the following statements about space technology and satellites:\n1. A geostationary orbit lies in the equatorial plane at an altitude of about 36,000 km.\n2. Remote sensing satellites are typically placed in sun-synchronous polar orbits.\n3. Communication satellites are typically placed in geostationary orbits.\n4. A satellite in Low Earth Orbit takes 24 hours to complete one revolution around the Earth.",
+    "options": [
+      "(a) 2, 3 and 4 only",
+      "(b) 1, 3 and 4 only",
+      "(c) 1, 2, 3 and 4",
+      "(d) 1, 2 and 3 only"
+    ],
+    "subject": "Science & Technology",
+    "theme": "Space Technology",
+    "micro_topic": "Satellite Orbits",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(d)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: a satellite in Low Earth Orbit takes about 90-120 minutes to complete one revolution, NOT 24 hours. It is a GEOSTATIONARY satellite that has a 24-hour orbital period matching Earth's rotation."
+  },
+  {
+    "id": 386,
+    "question": "Consider the following statements about nuclear energy and radioactivity:\n1. Nuclear fission involves the splitting of a heavy nucleus into lighter nuclei with the release of energy.\n2. Nuclear fusion involves combining light nuclei to form a heavier nucleus.\n3. Half-life is the time taken for half the atoms in a radioactive sample to decay.\n4. Thorium is directly usable as a fissile fuel in nuclear reactors without conversion.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 1, 2, 3 and 4",
+      "(c) 1, 2 and 3 only",
+      "(d) 2, 3 and 4 only"
+    ],
+    "subject": "Science & Technology",
+    "theme": "Nuclear Energy",
+    "micro_topic": "Nuclear Physics Basics",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(c)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: thorium (Th-232) is FERTILE, not directly fissile - it must first be converted into fissile Uranium-233 by neutron absorption in a reactor. This is central to India's three-stage nuclear programme."
+  },
+  {
+    "id": 387,
+    "question": "Consider the following statements about biotechnology applications:\n1. Recombinant DNA technology involves combining DNA from different sources.\n2. Insulin for diabetics is now produced using genetically engineered bacteria.\n3. Tissue culture is used to produce disease-free plants and clonal propagation.\n4. Polymerase Chain Reaction (PCR) is used to break down DNA into individual nucleotides.",
+    "options": [
+      "(a) 1, 2, 3 and 4",
+      "(b) 1, 2 and 3 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 3 and 4 only"
+    ],
+    "subject": "Science & Technology",
+    "theme": "Biotechnology",
+    "micro_topic": "Biotechnology Applications",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(b)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: PCR is used to AMPLIFY (make many copies of) DNA, not to break it down into individual nucleotides. It is a fundamental amplification technique in molecular biology."
+  },
+  {
+    "id": 388,
+    "question": "Consider the following statements about renewable energy technologies:\n1. Photovoltaic cells convert sunlight directly into electricity.\n2. Wind turbines convert kinetic energy of wind into electrical energy.\n3. Green hydrogen is produced by electrolysis of water using renewable energy.\n4. Pumped storage hydropower cannot be used to store energy for later use.",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "Science & Technology",
+    "theme": "Renewable Energy",
+    "micro_topic": "Renewable Energy Technologies",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(a)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: pumped storage hydropower IS a form of energy storage - water is pumped uphill during low-demand periods and released to generate electricity during peak demand, effectively storing energy."
+  },
+  {
+    "id": 389,
+    "question": "Consider the following statements about diseases and health technology:\n1. Antibiotics are effective against bacterial infections but not against viral infections.\n2. Antimicrobial resistance develops when microorganisms evolve to resist drugs meant to kill them.\n3. Vector-borne diseases like malaria and dengue are transmitted by mosquitoes.\n4. Antibiotics are the primary treatment for common viral infections like the common cold.",
+    "options": [
+      "(a) 2, 3 and 4 only",
+      "(b) 1, 3 and 4 only",
+      "(c) 1, 2, 3 and 4",
+      "(d) 1, 2 and 3 only"
+    ],
+    "subject": "Science & Technology",
+    "theme": "Health Technology",
+    "micro_topic": "Diseases and Antibiotics",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(d)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: antibiotics are NOT effective against viral infections such as the common cold; their misuse for viral infections is a major driver of antimicrobial resistance."
+  },
+  {
+    "id": 390,
+    "question": "Consider the following statements about India's defence technology:\n1. The BrahMos is a supersonic cruise missile.\n2. The Tejas is an indigenously developed light combat aircraft.\n3. The INS Arihant is India's indigenous nuclear-powered submarine.\n4. The Agni-V is a short-range surface-to-air missile.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 1, 2, 3 and 4",
+      "(c) 1, 2 and 3 only",
+      "(d) 2, 3 and 4 only"
+    ],
+    "subject": "Science & Technology",
+    "theme": "Defence Technology",
+    "micro_topic": "India Defence Systems",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(c)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: the Agni-V is a long-range surface-to-surface INTERCONTINENTAL ballistic missile (range over 5,000 km), NOT a short-range surface-to-air missile."
+  },
+  {
+    "id": 391,
+    "question": "Consider the following statements about digital technologies:\n1. Blockchain is a distributed ledger technology maintaining records across a network of computers.\n2. The Internet of Things refers to the network of physical devices connected to the internet.\n3. Cloud computing delivers computing services over the internet.\n4. Quantum computing uses classical bits that store information as either 0 or 1.",
+    "options": [
+      "(a) 1, 2, 3 and 4",
+      "(b) 1, 2 and 3 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 3 and 4 only"
+    ],
+    "subject": "Science & Technology",
+    "theme": "Emerging Technologies",
+    "micro_topic": "Digital Technologies",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(b)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: quantum computing uses QUBITS (which can exist in superposition of 0 and 1 simultaneously), NOT classical bits. Classical computing uses bits that are either 0 or 1."
+  },
+  {
+    "id": 392,
+    "question": "Consider the following statements about space missions and exploration:\n1. Chandrayaan-3 achieved a soft landing near the lunar south pole in 2023.\n2. Aditya-L1 is India's mission to study the Sun from the L1 Lagrange point.\n3. Gaganyaan is India's planned human spaceflight mission.\n4. Mangalyaan (Mars Orbiter Mission) failed to reach the Martian orbit.",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "Science & Technology",
+    "theme": "Space Technology",
+    "micro_topic": "India Space Missions",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(a)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: the Mars Orbiter Mission (Mangalyaan) SUCCESSFULLY entered Martian orbit in 2014, making India the first country to reach Mars orbit on its maiden attempt - it did not fail."
+  },
+  {
+    "id": 393,
+    "question": "Consider the following statements about CRISPR and genome editing:\n1. CRISPR-Cas9 is a tool that allows precise editing of DNA sequences.\n2. It has potential applications in treating genetic diseases and improving crops.\n3. Gene editing raises ethical concerns, especially regarding heritable (germline) modifications.\n4. CRISPR technology can only be used in plants and not in animals or humans.",
+    "options": [
+      "(a) 2, 3 and 4 only",
+      "(b) 1, 3 and 4 only",
+      "(c) 1, 2, 3 and 4",
+      "(d) 1, 2 and 3 only"
+    ],
+    "subject": "Science & Technology",
+    "theme": "Biotechnology",
+    "micro_topic": "CRISPR Genome Editing",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(d)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: CRISPR technology can be used in plants, animals AND humans - indeed, its applications in human gene therapy (e.g., for sickle cell disease) are among its most significant and ethically debated uses."
+  },
+  {
+    "id": 394,
+    "question": "Consider the following statements about 5G and telecommunications technology:\n1. 5G offers higher data speeds and lower latency compared to 4G.\n2. 5G enables applications such as autonomous vehicles and remote surgery.\n3. India conducted its 5G spectrum auction and launched 5G services.\n4. 5G exclusively uses low-frequency bands and does not use millimetre-wave spectrum.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 1, 2, 3 and 4",
+      "(c) 1, 2 and 3 only",
+      "(d) 2, 3 and 4 only"
+    ],
+    "subject": "Science & Technology",
+    "theme": "Telecommunications",
+    "micro_topic": "5G Technology India",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(c)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: 5G uses a range of spectrum bands INCLUDING millimetre-wave (mmWave) high-frequency bands for very high data rates, in addition to low- and mid-band spectrum."
+  },
+  {
+    "id": 395,
+    "question": "Consider the following statements about India's health initiatives and biotechnology:\n1. The National Genome India Project sequenced thousands of Indian genomes to create a reference database.\n2. mRNA vaccine technology has been developed indigenously in India.\n3. India is a major global producer of vaccines.\n4. Gene therapy has been permanently banned in India for all applications.",
+    "options": [
+      "(a) 1, 2, 3 and 4",
+      "(b) 1, 2 and 3 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 3 and 4 only"
+    ],
+    "subject": "Science & Technology",
+    "theme": "Biotechnology",
+    "micro_topic": "India Health Biotechnology",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(b)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: gene therapy is NOT permanently banned in India - it is regulated (under guidelines from ICMR/CDSCO), and India has developed indigenous gene and cell therapies such as CAR-T (NexCAR19)."
+  },
+  {
+    "id": 396,
+    "question": "Consider the following statements about the electromagnetic spectrum and its applications:\n1. Radio waves are used for communication and broadcasting.\n2. Infrared radiation is used in thermal imaging and night-vision devices.\n3. X-rays are used in medical imaging.\n4. Gamma rays have longer wavelengths than radio waves.",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "Science & Technology",
+    "theme": "Physics Applications",
+    "micro_topic": "Electromagnetic Spectrum",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(a)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: gamma rays have the SHORTEST wavelengths (and highest energy) in the electromagnetic spectrum, while radio waves have the LONGEST wavelengths - the opposite of what Statement 4 claims."
+  },
+  {
+    "id": 397,
+    "question": "Consider the following statements about India's supercomputing and high-performance computing:\n1. The National Supercomputing Mission aims to build indigenous supercomputers.\n2. The PARAM series are supercomputers developed in India.\n3. Supercomputers are used for weather forecasting, molecular modelling and scientific research.\n4. India has never developed any indigenous supercomputer and relies entirely on imports.",
+    "options": [
+      "(a) 2, 3 and 4 only",
+      "(b) 1, 3 and 4 only",
+      "(c) 1, 2, 3 and 4",
+      "(d) 1, 2 and 3 only"
+    ],
+    "subject": "Science & Technology",
+    "theme": "Emerging Technologies",
+    "micro_topic": "Supercomputing India",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(d)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: India HAS developed indigenous supercomputers - the PARAM series (starting with PARAM 8000 in 1991 by C-DAC) and others under the National Supercomputing Mission demonstrate indigenous capability."
+  },
+  {
+    "id": 398,
+    "question": "Consider the following statements about drones and unmanned technology:\n1. Drones are used in agriculture for spraying pesticides and monitoring crops.\n2. The Drone Rules in India classify drones based on weight.\n3. Drones require registration on a digital platform for legal operation.\n4. All categories of drones can be flown freely over restricted and sensitive areas without any permission.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 1, 2, 3 and 4",
+      "(c) 1, 2 and 3 only",
+      "(d) 2, 3 and 4 only"
+    ],
+    "subject": "Science & Technology",
+    "theme": "Emerging Technologies",
+    "micro_topic": "Drone Technology India",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(c)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: drones CANNOT be flown freely over restricted/sensitive areas - the airspace is divided into Green, Yellow and Red zones, with Red zones (near airports, defence installations, borders) being no-fly zones requiring special permission."
+  },
+  {
+    "id": 399,
+    "question": "Consider the following statements about climate change and greenhouse gases:\n1. Carbon dioxide, methane and nitrous oxide are major greenhouse gases.\n2. The greenhouse effect traps heat in the Earth's atmosphere, warming the planet.\n3. Methane has a higher global warming potential than carbon dioxide over a 100-year period.\n4. Water vapour is not a greenhouse gas.",
+    "options": [
+      "(a) 1, 2, 3 and 4",
+      "(b) 1, 2 and 3 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 3 and 4 only"
+    ],
+    "subject": "Environment",
+    "theme": "Climate Change",
+    "micro_topic": "Greenhouse Gases",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(b)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: water vapour IS the most abundant greenhouse gas in the atmosphere and plays a major role in the natural greenhouse effect."
+  },
+  {
+    "id": 400,
+    "question": "Consider the following statements about India's climate commitments:\n1. India has pledged to achieve net-zero emissions by 2070.\n2. The Panchamrit commitments were announced by India at the COP26 climate summit in Glasgow.\n3. India has committed to reduce the emissions intensity of its GDP by 45% by 2030 over 2005 levels.\n4. India aims to reach about 50% of its cumulative electric power installed capacity from non-fossil fuel sources by 2030.",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "Environment",
+    "theme": "Climate Change",
+    "micro_topic": "India Climate Commitments",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "All four are correct. India pledged net-zero by 2070 and announced the five 'Panchamrit' commitments at COP26 in Glasgow (2021), including reducing emissions intensity of GDP by 45% by 2030 (over 2005 levels) and achieving about 50% cumulative electric power installed capacity from non-fossil sources by 2030."
+  },
+  {
+    "id": 401,
+    "question": "Consider the following statements about biodiversity conservation in India:\n1. National Parks and Wildlife Sanctuaries are protected areas under the Wildlife Protection Act, 1972.\n2. Project Tiger and Project Elephant are species-specific conservation programmes.\n3. The IUCN Red List categorises species based on their conservation status.\n4. In a National Park, limited human activities such as grazing and forestry are permitted, unlike in Wildlife Sanctuaries.",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "Environment",
+    "theme": "Biodiversity",
+    "micro_topic": "Biodiversity Conservation India",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(a)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: it is the REVERSE - National Parks have STRICTER protection with human activities generally prohibited, while Wildlife Sanctuaries permit certain regulated human activities. The statement has swapped the two."
+  },
+  {
+    "id": 402,
+    "question": "Consider the following statements about wetlands and their conservation:\n1. Wetlands are areas where water covers the soil or is present near the surface for varying periods.\n2. The Ramsar Convention is an international treaty for the conservation of wetlands.\n3. Wetlands provide ecosystem services such as water purification, flood control and carbon storage.\n4. Mangroves and coral reefs are excluded from the definition of wetlands under the Ramsar Convention.",
+    "options": [
+      "(a) 2, 3 and 4 only",
+      "(b) 1, 3 and 4 only",
+      "(c) 1, 2, 3 and 4",
+      "(d) 1, 2 and 3 only"
+    ],
+    "subject": "Environment",
+    "theme": "Conservation",
+    "micro_topic": "Wetlands Conservation",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(d)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: the Ramsar Convention has a BROAD definition of wetlands that INCLUDES mangroves, coral reefs, marshes, and even man-made wetlands - they are not excluded."
+  },
+  {
+    "id": 403,
+    "question": "Consider the following statements about air pollution and its management:\n1. Particulate matter (PM2.5 and PM10) is a major air pollutant affecting human health.\n2. The National Clean Air Programme targets reduction of particulate pollution in non-attainment cities.\n3. The Air Quality Index communicates air pollution levels to the public.\n4. Stubble burning has no impact on air quality in northern India.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 1, 2, 3 and 4",
+      "(c) 1, 2 and 3 only",
+      "(d) 2, 3 and 4 only"
+    ],
+    "subject": "Environment",
+    "theme": "Pollution",
+    "micro_topic": "Air Pollution Management",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(c)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: stubble (crop residue) burning is a MAJOR contributor to severe air pollution in northern India, particularly during winter months in the Delhi-NCR region."
+  },
+  {
+    "id": 404,
+    "question": "Consider the following statements about forest conservation in India:\n1. The India State of Forest Report is published by the Forest Survey of India.\n2. It assesses forest and tree cover using satellite-based remote sensing.\n3. Very Dense Forest is a category with canopy density of 70% or more.\n4. India has no legal framework governing the diversion of forest land for non-forest purposes.",
+    "options": [
+      "(a) 1, 2, 3 and 4",
+      "(b) 1, 2 and 3 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 3 and 4 only"
+    ],
+    "subject": "Environment",
+    "theme": "Conservation",
+    "micro_topic": "Forest Conservation India",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(b)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: India DOES have a legal framework - the Forest (Conservation) Act, 1980 (now Van Sanrakshan Evam Samvardhan Adhiniyam) governs the diversion of forest land for non-forest purposes, requiring central government approval."
+  },
+  {
+    "id": 405,
+    "question": "Consider the following statements about the ozone layer and its protection:\n1. The ozone layer in the stratosphere absorbs most of the Sun's harmful ultraviolet radiation.\n2. Chlorofluorocarbons (CFCs) are ozone-depleting substances.\n3. The Montreal Protocol aims to phase out ozone-depleting substances.\n4. The Kigali Amendment to the Montreal Protocol targets carbon dioxide emissions.",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "Environment",
+    "theme": "Global Initiatives",
+    "micro_topic": "Ozone Layer Protection",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(a)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: the Kigali Amendment targets HYDROFLUOROCARBONS (HFCs) - which are potent greenhouse gases but not ozone-depleting - NOT carbon dioxide."
+  },
+  {
+    "id": 406,
+    "question": "Consider the following statements about renewable energy in India:\n1. India has set a target of 500 GW of non-fossil fuel installed electricity capacity by 2030.\n2. Solar energy is the largest source of India's renewable capacity.\n3. The International Solar Alliance is headquartered in India.\n4. India has decided to phase out all coal-based power generation by 2030.",
+    "options": [
+      "(a) 2, 3 and 4 only",
+      "(b) 1, 3 and 4 only",
+      "(c) 1, 2, 3 and 4",
+      "(d) 1, 2 and 3 only"
+    ],
+    "subject": "Environment",
+    "theme": "Renewable Energy",
+    "micro_topic": "Renewable Energy India",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(d)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: India has NOT decided to phase out coal-based power by 2030 - coal remains a significant part of India's energy mix, and India has advocated for a 'phase-down' rather than 'phase-out' of coal."
+  },
+  {
+    "id": 407,
+    "question": "Consider the following statements about ecosystems and ecology:\n1. An ecosystem consists of biotic (living) and abiotic (non-living) components interacting together.\n2. Energy flows in an ecosystem in a unidirectional manner through trophic levels.\n3. A food web represents interconnected food chains in an ecosystem.\n4. Approximately 90% of energy is transferred from one trophic level to the next.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 1, 2, 3 and 4",
+      "(c) 1, 2 and 3 only",
+      "(d) 2, 3 and 4 only"
+    ],
+    "subject": "Environment",
+    "theme": "Ecology",
+    "micro_topic": "Ecosystem and Ecology",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(c)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: only about 10% of energy is transferred from one trophic level to the next (the '10% law'), with the remaining ~90% lost as heat through metabolism - the opposite of what Statement 4 states."
+  },
+  {
+    "id": 408,
+    "question": "Consider the following statements about coastal and marine ecosystems:\n1. Mangroves protect coastlines from erosion and storm surges.\n2. Coral reefs are among the most biodiverse marine ecosystems.\n3. Ocean acidification results from the absorption of atmospheric carbon dioxide by seawater.\n4. Seagrass meadows have no role in carbon sequestration.",
+    "options": [
+      "(a) 1, 2, 3 and 4",
+      "(b) 1, 2 and 3 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 3 and 4 only"
+    ],
+    "subject": "Environment",
+    "theme": "Marine Ecology",
+    "micro_topic": "Coastal Marine Ecosystems",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(b)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: seagrass meadows ARE significant 'blue carbon' ecosystems that sequester and store substantial amounts of carbon in their biomass and sediments."
+  },
+  {
+    "id": 409,
+    "question": "Consider the following statements about environmental laws and institutions in India:\n1. The Environment (Protection) Act, 1986 is an umbrella legislation for environmental protection.\n2. The National Green Tribunal handles cases relating to environmental protection.\n3. The Central Pollution Control Board and State Pollution Control Boards monitor pollution.\n4. The National Green Tribunal is bound by the Code of Civil Procedure, 1908.",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "Environment",
+    "theme": "Conservation Laws",
+    "micro_topic": "Environmental Laws India",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(a)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: the NGT is NOT bound by the Code of Civil Procedure, 1908 - it is guided by the principles of natural justice, allowing it to function with greater flexibility."
+  },
+  {
+    "id": 410,
+    "question": "Consider the following statements about climate finance and carbon markets:\n1. The Green Climate Fund was set up under the UNFCCC to assist developing countries.\n2. Carbon credits allow entities to offset their emissions.\n3. India has established a Carbon Credit Trading Scheme.\n4. Developed countries have fully met their commitment to mobilise USD 100 billion per year in climate finance.",
+    "options": [
+      "(a) 2, 3 and 4 only",
+      "(b) 1, 3 and 4 only",
+      "(c) 1, 2, 3 and 4",
+      "(d) 1, 2 and 3 only"
+    ],
+    "subject": "Environment",
+    "theme": "Climate Change",
+    "micro_topic": "Climate Finance",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: developed countries have historically FALLEN SHORT of the USD 100 billion per year climate finance commitment (agreed in 2009 to be delivered from 2020), which has been a major point of contention in climate negotiations."
+  },
+  {
+    "id": 411,
+    "question": "Consider the following statements about waste management in India:\n1. Extended Producer Responsibility makes producers responsible for the end-of-life management of their products.\n2. The Solid Waste Management Rules require segregation of waste at source.\n3. Plastic Waste Management Rules regulate the use and disposal of plastics.\n4. India has completely banned all forms of plastic without any exceptions.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 1, 2, 3 and 4",
+      "(c) 1, 2 and 3 only",
+      "(d) 2, 3 and 4 only"
+    ],
+    "subject": "Environment",
+    "theme": "Pollution",
+    "micro_topic": "Waste Management India",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(c)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: India has banned specified SINGLE-USE plastic items (from July 2022), not ALL forms of plastic. Many plastic products remain in use subject to regulation."
+  },
+  {
+    "id": 412,
+    "question": "Consider the following statements about desertification and land degradation:\n1. Desertification refers to land degradation in arid, semi-arid and dry sub-humid areas.\n2. The United Nations Convention to Combat Desertification addresses this issue.\n3. India hosted a Conference of Parties (COP) of the UNCCD.\n4. Desertification occurs only due to natural climatic factors and is not caused by human activities.",
+    "options": [
+      "(a) 1, 2, 3 and 4",
+      "(b) 1, 2 and 3 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 3 and 4 only"
+    ],
+    "subject": "Environment",
+    "theme": "Land Degradation",
+    "micro_topic": "Desertification",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(b)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: desertification is caused by BOTH natural climatic factors AND human activities such as overgrazing, deforestation, and unsustainable agriculture - human activity is a major driver."
+  },
+  {
+    "id": 413,
+    "question": "Consider the following statements about India's tiger conservation:\n1. Project Tiger was launched in 1973.\n2. India is home to the majority of the world's wild tiger population.\n3. The National Tiger Conservation Authority is a statutory body.\n4. Tiger reserves consist only of a core zone with no buffer zone.",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "Environment",
+    "theme": "Biodiversity",
+    "micro_topic": "Tiger Conservation India",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(a)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: tiger reserves follow a core-buffer model - they have BOTH a core (critical tiger habitat) zone AND a buffer zone (peripheral area allowing regulated human activity), not only a core zone."
+  },
+  {
+    "id": 414,
+    "question": "Consider the following statements about international environmental conventions:\n1. The Convention on Biological Diversity aims to conserve biological diversity and ensure sustainable use.\n2. The Paris Agreement is a legally binding international treaty on climate change.\n3. The CITES regulates international trade in endangered species.\n4. The Basel Convention deals with the international trade of endangered plant species.",
+    "options": [
+      "(a) 2, 3 and 4 only",
+      "(b) 1, 3 and 4 only",
+      "(c) 1, 2, 3 and 4",
+      "(d) 1, 2 and 3 only"
+    ],
+    "subject": "Environment",
+    "theme": "Global Initiatives",
+    "micro_topic": "International Environmental Conventions",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: the Basel Convention deals with the transboundary movement of HAZARDOUS WASTES and their disposal - NOT the trade of endangered plant species (which falls under CITES)."
+  },
+  {
+    "id": 415,
+    "question": "Consider the following statements about the Harappan/Indus Valley Civilisation:\n1. It was an urban civilisation with well-planned cities and drainage systems.\n2. The Harappans had knowledge of standardised weights and measures.\n3. Major sites include Harappa, Mohenjo-daro, Dholavira and Lothal.\n4. The Harappan script has been fully deciphered by modern scholars.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 1, 2, 3 and 4",
+      "(c) 1, 2 and 3 only",
+      "(d) 2, 3 and 4 only"
+    ],
+    "subject": "History",
+    "theme": "Ancient India",
+    "micro_topic": "Indus Valley Civilisation",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(c)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: the Harappan script has NOT been deciphered - it remains one of the major undeciphered scripts of the ancient world."
+  },
+  {
+    "id": 416,
+    "question": "Consider the following statements about Buddhism and its spread:\n1. Gautama Buddha attained enlightenment at Bodh Gaya.\n2. The Four Noble Truths form the core of Buddhist teaching.\n3. Emperor Ashoka played a major role in spreading Buddhism.\n4. The Third Buddhist Council was held during the reign of Kanishka.",
+    "options": [
+      "(a) 1, 2, 3 and 4",
+      "(b) 1, 2 and 3 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 3 and 4 only"
+    ],
+    "subject": "History",
+    "theme": "Ancient India",
+    "micro_topic": "Buddhism",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(b)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: the THIRD Buddhist Council was held at Pataliputra during the reign of ASHOKA. It was the FOURTH Buddhist Council that was held in Kashmir under Kanishka."
+  },
+  {
+    "id": 417,
+    "question": "Consider the following statements about the Mauryan Empire:\n1. Chandragupta Maurya founded the Mauryan Empire with the help of Chanakya.\n2. The Arthashastra is a treatise on statecraft attributed to Kautilya.\n3. Megasthenes was a Greek ambassador in the Mauryan court who wrote Indica.\n4. The Mauryan Empire reached its greatest territorial extent under Bindusara.",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "History",
+    "theme": "Ancient India",
+    "micro_topic": "Mauryan Empire",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(a)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: the Mauryan Empire reached its greatest territorial extent under ASHOKA (Bindusara's son), not Bindusara."
+  },
+  {
+    "id": 418,
+    "question": "Consider the following statements about the Gupta period:\n1. The Gupta period is regarded as the Golden Age of India.\n2. Aryabhata and Varahamihira were prominent scholars of this era.\n3. The decimal system and the concept of zero were developed during this period.\n4. The Gupta rulers were followers of Buddhism and persecuted Hinduism.",
+    "options": [
+      "(a) 2, 3 and 4 only",
+      "(b) 1, 3 and 4 only",
+      "(c) 1, 2, 3 and 4",
+      "(d) 1, 2 and 3 only"
+    ],
+    "subject": "History",
+    "theme": "Ancient India",
+    "micro_topic": "Gupta Period",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(d)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: the Gupta rulers were predominantly followers of HINDUISM (Vaishnavism) and patronised it; however, they were generally tolerant of other religions including Buddhism - they did not persecute Hinduism."
+  },
+  {
+    "id": 419,
+    "question": "Consider the following statements about the Bhakti Movement:\n1. It emphasised devotion to a personal god as the path to salvation.\n2. It challenged caste hierarchies and ritualism.\n3. Kabir and Guru Nanak were associated with the Nirguna Bhakti tradition.\n4. The Bhakti Movement was confined only to northern India.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 1, 2, 3 and 4",
+      "(c) 1, 2 and 3 only",
+      "(d) 2, 3 and 4 only"
+    ],
+    "subject": "History",
+    "theme": "Medieval India",
+    "micro_topic": "Bhakti Movement",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(c)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: the Bhakti Movement was NOT confined to northern India - it had strong roots in southern India (the Alvars and Nayanars in Tamil Nadu) and spread across the subcontinent including Maharashtra, Karnataka and Bengal."
+  },
+  {
+    "id": 420,
+    "question": "Consider the following statements about the Revolt of 1857:\n1. Mangal Pandey was an early figure associated with the outbreak of the revolt.\n2. The revolt led to the transfer of power from the East India Company to the British Crown.\n3. Rani Lakshmibai of Jhansi was a prominent leader of the revolt.\n4. The revolt was successful in ending British rule in India.",
+    "options": [
+      "(a) 1, 2, 3 and 4",
+      "(b) 1, 2 and 3 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 3 and 4 only"
+    ],
+    "subject": "History",
+    "theme": "Modern India",
+    "micro_topic": "Revolt of 1857",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(b)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: the Revolt of 1857 was ultimately SUPPRESSED by the British - it did NOT succeed in ending British rule, though it led to significant administrative changes including the end of Company rule."
+  },
+  {
+    "id": 421,
+    "question": "Consider the following statements about the Indian National Congress and freedom struggle:\n1. The Indian National Congress was founded in 1885.\n2. The Non-Cooperation Movement was launched by Mahatma Gandhi in 1920.\n3. The Quit India Movement was launched in 1942.\n4. The Simon Commission was welcomed by all Indian political parties.",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "History",
+    "theme": "Modern India",
+    "micro_topic": "Indian Freedom Struggle",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(a)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: the Simon Commission (1928) was BOYCOTTED and opposed by Indian political parties with the slogan 'Simon Go Back', primarily because it had no Indian members."
+  },
+  {
+    "id": 422,
+    "question": "Consider the following statements about Indian art and architecture:\n1. The Ajanta caves are famous for their Buddhist paintings and sculptures.\n2. The Sun Temple at Konark was built in the Kalinga style of architecture.\n3. The Khajuraho temples are known for their intricate sculptures.\n4. The Taj Mahal is an example of Dravidian temple architecture.",
+    "options": [
+      "(a) 2, 3 and 4 only",
+      "(b) 1, 3 and 4 only",
+      "(c) 1, 2, 3 and 4",
+      "(d) 1, 2 and 3 only"
+    ],
+    "subject": "History",
+    "theme": "Art and Culture",
+    "micro_topic": "Indian Art and Architecture",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(d)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: the Taj Mahal is an example of MUGHAL (Indo-Islamic) architecture, NOT Dravidian temple architecture. Dravidian architecture refers to the South Indian temple style."
+  },
+  {
+    "id": 423,
+    "question": "Consider the following statements about the socio-religious reform movements of the 19th century:\n1. Raja Ram Mohan Roy founded the Brahmo Samaj.\n2. Swami Dayananda Saraswati founded the Arya Samaj.\n3. The Sati practice was abolished through the efforts of reformers and legislation in 1829.\n4. The Arya Samaj advocated idol worship and the caste system.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 1, 2, 3 and 4",
+      "(c) 1, 2 and 3 only",
+      "(d) 2, 3 and 4 only"
+    ],
+    "subject": "History",
+    "theme": "Modern India",
+    "micro_topic": "Socio-Religious Reform Movements",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(c)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: the Arya Samaj OPPOSED idol worship and the rigid caste system - it advocated a return to Vedic values, monotheism, and social reforms against untouchability."
+  },
+  {
+    "id": 424,
+    "question": "Consider the following statements about the Vijayanagara and Bahmani kingdoms:\n1. The Vijayanagara Empire was founded by Harihara and Bukka.\n2. Krishnadevaraya was a famous ruler of the Vijayanagara Empire.\n3. Hampi was the capital of the Vijayanagara Empire.\n4. The Bahmani kingdom and Vijayanagara Empire were close allies who never fought each other.",
+    "options": [
+      "(a) 1, 2, 3 and 4",
+      "(b) 1, 2 and 3 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 3 and 4 only"
+    ],
+    "subject": "History",
+    "theme": "Medieval India",
+    "micro_topic": "Vijayanagara and Bahmani",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(b)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: the Bahmani kingdom and the Vijayanagara Empire were frequent RIVALS who fought numerous wars, particularly over the fertile Raichur Doab region - they were not close allies."
+  },
+  {
+    "id": 425,
+    "question": "Consider the following statements about the Delhi Sultanate:\n1. The Slave Dynasty was founded by Qutb-ud-din Aibak.\n2. Alauddin Khalji introduced market and price control measures.\n3. The Tughlaq dynasty included rulers like Muhammad bin Tughlaq and Firoz Shah Tughlaq.\n4. The Delhi Sultanate was overthrown by the Maratha Empire.",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "History",
+    "theme": "Medieval India",
+    "micro_topic": "Delhi Sultanate",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(a)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: the Delhi Sultanate (specifically the Lodi dynasty) was overthrown by BABUR (founder of the Mughal Empire) at the First Battle of Panipat in 1526 - NOT by the Maratha Empire, which arose much later."
+  },
+  {
+    "id": 426,
+    "question": "Consider the following statements about the Indian independence and partition:\n1. The Cabinet Mission Plan of 1946 proposed a framework for Indian independence.\n2. The Mountbatten Plan led to the partition of India in 1947.\n3. The Indian Independence Act was passed by the British Parliament in 1947.\n4. India and Pakistan gained independence on the same date, 15 August 1947.",
+    "options": [
+      "(a) 2, 3 and 4 only",
+      "(b) 1, 3 and 4 only",
+      "(c) 1, 2, 3 and 4",
+      "(d) 1, 2 and 3 only"
+    ],
+    "subject": "History",
+    "theme": "Modern India",
+    "micro_topic": "Indian Independence and Partition",
+    "nature": "Current Affairs",
+    "difficulty": "Hard",
+    "answer_key": "(d)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: Pakistan gained independence on 14 August 1947 and India on 15 August 1947 - they were on DIFFERENT (consecutive) dates, not the same date."
+  },
+  {
+    "id": 427,
+    "question": "Consider the following statements about India's physiography:\n1. The Himalayas are young fold mountains formed by the collision of the Indian and Eurasian plates.\n2. The Deccan Plateau is one of the oldest and most stable landmasses.\n3. The Western Ghats are older and more continuous than the Eastern Ghats.\n4. The Indo-Gangetic plain is formed by igneous rock deposits.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 1, 2, 3 and 4",
+      "(c) 1, 2 and 3 only",
+      "(d) 2, 3 and 4 only"
+    ],
+    "subject": "Geography",
+    "theme": "Physical Geography",
+    "micro_topic": "India Physiography",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(c)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: the Indo-Gangetic plain is formed by ALLUVIAL deposits (silt carried and deposited by rivers), NOT igneous rock deposits."
+  },
+  {
+    "id": 428,
+    "question": "Consider the following statements about the Indian monsoon:\n1. The southwest monsoon brings the majority of India's annual rainfall.\n2. The monsoon is caused by the differential heating of land and sea.\n3. El Nino events are generally associated with weaker monsoon rainfall in India.\n4. The southwest monsoon typically withdraws from India by the end of June.",
+    "options": [
+      "(a) 1, 2, 3 and 4",
+      "(b) 1, 2 and 3 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 3 and 4 only"
+    ],
+    "subject": "Geography",
+    "theme": "Climatology",
+    "micro_topic": "Indian Monsoon",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(b)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: the southwest monsoon typically ARRIVES (onsets over Kerala) around 1 June and WITHDRAWS from India by around September-October - it does not withdraw by the end of June."
+  },
+  {
+    "id": 429,
+    "question": "Consider the following statements about India's river systems:\n1. The Ganga and Brahmaputra are Himalayan rivers.\n2. The Godavari is the largest river of Peninsular India.\n3. The Narmada and Tapi flow westward into the Arabian Sea.\n4. All major Peninsular rivers flow eastward into the Bay of Bengal.",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "Geography",
+    "theme": "River Systems",
+    "micro_topic": "India River Systems",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(a)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: NOT all major Peninsular rivers flow eastward - the Narmada and Tapi are notable exceptions that flow WESTWARD into the Arabian Sea (as noted in Statement 3), making Statement 4 self-contradictory and incorrect."
+  },
+  {
+    "id": 430,
+    "question": "Consider the following statements about natural vegetation and climate zones:\n1. Tropical evergreen forests are found in regions of high rainfall.\n2. Thorn and scrub forests are found in arid and semi-arid regions.\n3. The type of natural vegetation is influenced by temperature, rainfall and soil.\n4. Mangrove forests are found in the deserts of Rajasthan.",
+    "options": [
+      "(a) 2, 3 and 4 only",
+      "(b) 1, 3 and 4 only",
+      "(c) 1, 2, 3 and 4",
+      "(d) 1, 2 and 3 only"
+    ],
+    "subject": "Geography",
+    "theme": "Biogeography",
+    "micro_topic": "Natural Vegetation India",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(d)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: mangrove forests are found in COASTAL, inter-tidal saline/brackish areas (like the Sundarbans and coastal deltas), NOT in the deserts of Rajasthan."
+  },
+  {
+    "id": 431,
+    "question": "Consider the following statements about world geography and oceans:\n1. The Pacific Ocean is the largest ocean on Earth.\n2. The Mariana Trench is the deepest known point in the Earth's oceans.\n3. Ocean currents influence the climate of coastal regions.\n4. The Sargasso Sea is located in the Indian Ocean.",
+    "options": [
+      "(a) 1, 3 and 4 only",
+      "(b) 1, 2, 3 and 4",
+      "(c) 1, 2 and 3 only",
+      "(d) 2, 3 and 4 only"
+    ],
+    "subject": "Geography",
+    "theme": "World Geography",
+    "micro_topic": "Oceans and Currents",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(c)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: the Sargasso Sea is located in the ATLANTIC Ocean (a region bounded by ocean currents), NOT the Indian Ocean."
+  },
+  {
+    "id": 432,
+    "question": "Consider the following statements about India's mineral and energy resources:\n1. India has significant reserves of coal, iron ore and bauxite.\n2. Jharkhand, Odisha and Chhattisgarh are mineral-rich states.\n3. India imports a large share of its crude oil requirements.\n4. India is completely self-sufficient in petroleum and does not import any oil.",
+    "options": [
+      "(a) 1, 2, 3 and 4",
+      "(b) 1, 2 and 3 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 3 and 4 only"
+    ],
+    "subject": "Geography",
+    "theme": "Economic Geography",
+    "micro_topic": "India Mineral Resources",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(b)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect and contradicts Statement 3: India imports about 85% of its crude oil requirements and is one of the world's largest oil importers - it is NOT self-sufficient in petroleum."
+  },
+  {
+    "id": 433,
+    "question": "Consider the following statements about volcanoes and earthquakes:\n1. Earthquakes are commonly caused by movement along tectonic plate boundaries.\n2. The Richter scale measures the magnitude of earthquakes.\n3. The 'Ring of Fire' is a zone of high volcanic and seismic activity around the Pacific Ocean.\n4. India lies entirely in a seismically stable zone with no earthquake risk.",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "subject": "Geography",
+    "theme": "Physical Geography",
+    "micro_topic": "Volcanoes and Earthquakes",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(a)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: India does NOT lie entirely in a seismically stable zone - the Himalayan region and Northeast India are in high seismic-risk zones (Zone IV and V), and India is divided into multiple seismic zones based on earthquake risk."
+  },
+  {
+    "id": 434,
+    "question": "Consider the following statements about climate and atmospheric phenomena:\n1. The troposphere is the lowest layer of the atmosphere where weather phenomena occur.\n2. The ozone layer is located in the stratosphere.\n3. Cyclones are low-pressure systems associated with strong winds and heavy rainfall.\n4. The atmospheric pressure increases with increasing altitude.",
+    "options": [
+      "(a) 2, 3 and 4 only",
+      "(b) 1, 3 and 4 only",
+      "(c) 1, 2, 3 and 4",
+      "(d) 1, 2 and 3 only"
+    ],
+    "subject": "Geography",
+    "theme": "Climatology",
+    "micro_topic": "Atmosphere and Weather",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "answer_key": "(d)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect: atmospheric pressure DECREASES with increasing altitude (as the air becomes thinner at higher altitudes), not increases."
+  }
+]
