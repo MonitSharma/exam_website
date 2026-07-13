@@ -1,0 +1,79 @@
+[
+  {
+    "question": "With reference to the helium export ban announced in July 2026, consider the following statements: 1. China imposed a temporary ban on helium exports, citing the risk of global shortages amid conflict in West Asia. 2. India meets almost all of its helium demand through domestic production. 3. Helium is used by ISRO to pressurise rocket propellant tanks and by semiconductor fabrication units. Which of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 1 and 3 only", "(c) 2 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(b)",
+    "explanation": "China's July 2026 ban was temporary and shortage-driven. India imports almost all its helium (statement 2 is wrong). ISRO uses helium to pressurise propellant tanks and semiconductor fabs use it for cooling/inert atmospheres.",
+    "subject": "International Relations",
+    "theme": "Economic statecraft / critical resources",
+    "micro_topic": "China helium export ban 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The World Bank's US$890-million package approved in July 2026 is intended to support which of the following Indian programmes?",
+    "options": ["(a) National Green Hydrogen Mission", "(b) PM Surya Ghar: Muft Bijli Yojana", "(c) PM-KUSUM", "(d) National Smart Grid Mission"],
+    "answer": "(b)",
+    "explanation": "The World Bank approved $890 million ($820 m IBRD loan + $60 m Clean Technology Fund concessional loan + $10 m grant) to scale up the residential rooftop-solar scheme PM Surya Ghar: Muft Bijli Yojana, expected to mobilise ~$4.2 billion in private capital and support ~1.7 million jobs.",
+    "subject": "Environment",
+    "theme": "Renewable energy / climate finance",
+    "micro_topic": "World Bank funding for PM Surya Ghar",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Section 69A of the Information Technology Act, 2000 — invoked in the 2026 takedown of the film 'Satluj' — permits the Central Government to block online content on which of the following grounds? 1. Sovereignty and integrity of India 2. Security of the State 3. Friendly relations with foreign States 4. Protecting the commercial interests of intermediaries",
+    "options": ["(a) 1, 2 and 3 only", "(b) 1 and 4 only", "(c) 2, 3 and 4 only", "(d) 1, 2, 3 and 4"],
+    "answer": "(a)",
+    "explanation": "Section 69A grounds are sovereignty/integrity of India, defence, security of the State, friendly relations with foreign states, public order, and preventing incitement to a cognisable offence. Protecting intermediaries' commercial interests is not a ground. It was upheld in Shreya Singhal v. Union of India (2015) due to procedural safeguards.",
+    "subject": "Polity & Governance",
+    "theme": "Fundamental Rights / IT Act",
+    "micro_topic": "Section 69A and OTT content blocking",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements regarding the IITM Pune study (2026) on monsoon raindrop evaporation: 1. It found that, on average, about one-fourth of rain mass evaporates before reaching the ground during the southwest monsoon. 2. The study used a stable-isotope technique, in which raindrops that evaporate more become enriched in heavier isotopes such as oxygen-18 and deuterium. Which of the statements given above is/are correct?",
+    "options": ["(a) 1 only", "(b) 2 only", "(c) Both 1 and 2", "(d) Neither 1 nor 2"],
+    "answer": "(c)",
+    "explanation": "The IITM Pune study found ~25% (one-fourth) average sub-cloud evaporation (range 4-61%). It used a stable-isotope method: as lighter water molecules escape first, drops that evaporate more become enriched in heavy isotopes (18-O, deuterium), measured by laser spectrometer.",
+    "subject": "Geography",
+    "theme": "Monsoon dynamics / geophysical phenomena",
+    "micro_topic": "Sub-cloud raindrop evaporation over Western Ghats",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "The Inflation Expectations Survey of Households (IESH) and the Consumer Confidence Surveys, whose July 2026 rounds were launched ahead of the August monetary policy meeting, are conducted by which institution and for what primary purpose?",
+    "options": ["(a) NITI Aayog — to compute the Consumer Price Index", "(b) Ministry of Statistics — to estimate GDP", "(c) Reserve Bank of India — to provide inputs for monetary policy", "(d) SEBI — to regulate consumer credit markets"],
+    "answer": "(c)",
+    "explanation": "The IESH, Rural Consumer Confidence Survey (RCCS) and Urban Consumer Confidence Survey (UCCS) are bi-monthly RBI surveys that provide inputs to the Monetary Policy Committee.",
+    "subject": "Economy",
+    "theme": "Monetary policy / RBI surveys",
+    "micro_topic": "RBI household surveys (IESH, RCCS, UCCS)",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the southwest monsoon over India, consider the following statements: 1. It accounts for roughly 75-80% of India's total annual rainfall. 2. The windward (western) slopes of the Western Ghats receive heavy orographic rainfall while the leeward side lies in a rain-shadow. 3. The northward shift of the Inter-Tropical Convergence Zone (ITCZ) in summer aids its onset. Which of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(d)",
+    "explanation": "All three are correct: the SW monsoon delivers ~75-80% of annual rainfall; the Western Ghats' windward slopes get heavy orographic rain with a leeward rain-shadow; and the northward ITCZ shift in summer draws in moisture-laden winds.",
+    "subject": "Geography",
+    "theme": "Indian climate / monsoon mechanism",
+    "micro_topic": "Southwest monsoon and orographic rainfall",
+    "nature": "Conceptual",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which of the following statements about the Monetary Policy Committee (MPC) of India is/are correct? 1. It is a statutory body constituted under the RBI Act, 1934 (as amended in 2016). 2. It has six members, of whom three are nominated by the Central Government. 3. Its mandate is to keep retail (CPI) inflation at 4%, within a band of plus or minus 2%.",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(d)",
+    "explanation": "The MPC is a statutory body under the RBI Act, 1934 (2016 amendment), has six members (3 from RBI including the Governor as chair, and 3 nominated by the government), and follows the flexible inflation-targeting mandate of 4% CPI inflation with a +/- 2% band.",
+    "subject": "Economy",
+    "theme": "Monetary policy framework",
+    "micro_topic": "Monetary Policy Committee composition and mandate",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  }
+]

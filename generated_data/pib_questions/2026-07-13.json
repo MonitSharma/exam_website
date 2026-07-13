@@ -1,0 +1,35 @@
+[
+  {
+    "question": "With reference to the PRAGATI initiative launched by the Ministry of Agriculture & Farmers Welfare in July 2026, consider the following statements: 1) It aims to develop a cadre of rural youth as agri-entrepreneurs to support smallholder farmers. 2) The acronym stands for 'Promoting Regenerative Agriculture Through Innovative Growth Initiatives.' 3) It is funded exclusively by the Union Government with no corporate or philanthropic participation. Which of the statements given above is/are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(a)",
+    "explanation": "PRAGATI ('Promoting Regenerative Agriculture Through Innovative Growth Initiatives') aims to empower 20,000 agri-entrepreneurs supporting ~20 lakh farmers; it is a public-private-philanthropic partnership (PepsiCo Foundation, SBI Foundation, Gates Foundation, TRIF, etc.), so statement 3 is wrong.",
+    "subject": "Agriculture",
+    "theme": "Farmer welfare and agri-entrepreneurship",
+    "micro_topic": "PRAGATI initiative",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Consider the following statements regarding the Khavda-Nagpur HVDC project in the news in July 2026: 1) It is being built to evacuate renewable power from a large renewable energy park in Gujarat. 2) It received a green loan from the Japan Bank for International Cooperation (JBIC). 3) HVDC technology is generally preferred for long-distance, bulk transmission of power with lower losses. Which of the statements given above is/are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(d)",
+    "explanation": "POWERGRID's Khavda-Nagpur HVDC line evacuates renewable power from the Khavda RE Park in Gujarat, is funded by a JPY 80 billion JBIC green loan, and HVDC is used for low-loss, long-distance bulk power transfer. All three are correct.",
+    "subject": "Environment",
+    "theme": "Renewable energy integration and green finance",
+    "micro_topic": "Khavda-Nagpur HVDC / JBIC green loan",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Comprehensive Dam Safety Evaluation (CDSE), discussed at the July 2026 All-India Water Resources Secretaries' Conference of the Ministry of Jal Shakti, is mandated under which of the following?",
+    "options": ["(a) The Interstate River Water Disputes Act, 1956", "(b) The Dam Safety Act, 2021", "(c) The Environment (Protection) Act, 1986", "(d) The National Water Framework Bill"],
+    "answer": "(b)",
+    "explanation": "The CDSE is carried out under the Dam Safety Act, 2021, which established the National Dam Safety Authority (NDSA) and mandates periodic safety evaluation of specified dams.",
+    "subject": "Polity & Governance",
+    "theme": "Water governance and Centre-State coordination",
+    "micro_topic": "Dam Safety Act 2021 / CDSE",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]

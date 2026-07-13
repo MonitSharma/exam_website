@@ -12,6 +12,24 @@
   ],
   "questionSets": [
     {
+      "id": "daily_questions_2026_07_13",
+      "label": "Daily Questions - 13 Jul 2026",
+      "shortLabel": "Daily 13 Jul",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-07-13.json",
+      "isoDate": "2026-07-13",
+      "subjects": [
+        "International Relations",
+        "Environment",
+        "Polity & Governance",
+        "Geography",
+        "Economy"
+      ]
+    },
+    {
       "id": "daily_questions_2026_07_12",
       "label": "Daily Questions - 12 Jul 2026",
       "shortLabel": "Daily 12 Jul",
@@ -668,6 +686,23 @@
       ]
     },
     {
+      "id": "daily_rc_2026_07_13",
+      "label": "Daily RC Drill - 13 Jul 2026",
+      "shortLabel": "RC 13 Jul",
+      "category": "Daily Reading Comprehension",
+      "sourceType": "rc",
+      "questionCount": 8,
+      "durationMinutes": 16,
+      "path": "generated_data/rc_questions/2026-07-13.json",
+      "isoDate": "2026-07-13",
+      "paper": "GS Paper II (CSAT)",
+      "marksPerCorrect": 2,
+      "negativeMark": -0.66,
+      "subjects": [
+        "Reading Comprehension"
+      ]
+    },
+    {
       "id": "daily_rc_2026_07_06",
       "label": "Daily RC Drill - 06 Jul 2026",
       "shortLabel": "RC 06 Jul",
@@ -818,6 +853,22 @@
       "negativeMark": -0.66,
       "subjects": [
         "Reading Comprehension"
+      ]
+    },
+    {
+      "id": "pib_questions_2026_07_13",
+      "label": "PIB Questions - 13 Jul 2026",
+      "shortLabel": "PIB 13 Jul",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-07-13.json",
+      "isoDate": "2026-07-13",
+      "subjects": [
+        "Agriculture",
+        "Environment",
+        "Polity & Governance"
       ]
     },
     {
@@ -2088,6 +2139,14 @@
       "path": "anki/Prelims_Flashcards_2026-06-21.txt"
     },
     {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-07-13",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "13 Jul 2026",
+      "date": "2026-07-13",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-07-13.md"
+    },
+    {
       "id": "daily-daily-current-affairs-upsc-ca-2026-07-12",
       "cadence": "daily",
       "title": "UPSC Daily CA Briefing",
@@ -2608,6 +2667,14 @@
       "path": "weekly/Physics/Physics_Drill_2026-06-10.md"
     },
     {
+      "id": "daily-daily-pib-pib-2026-07-13",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 13 Jul",
+      "date": "2026-07-13",
+      "path": "daily/daily_pib/PIB_2026-07-13.md"
+    },
+    {
       "id": "daily-daily-pib-pib-2026-07-12",
       "cadence": "pib",
       "title": "Daily PIB Briefing",
@@ -2854,6 +2921,14 @@
       "shortTitle": "PIB - 11 Jun",
       "date": "2026-06-11",
       "path": "daily/daily_pib/PIB_2026-06-11.md"
+    },
+    {
+      "id": "daily-daily-reading-comprehension-rc-drill-2026-07-13",
+      "cadence": "rc",
+      "title": "CSAT Daily RC Drill",
+      "shortTitle": "RC - 13 Jul",
+      "date": "2026-07-13",
+      "path": "daily/daily_reading_comprehension/RC_Drill_2026-07-13.md"
     },
     {
       "id": "daily-daily-reading-comprehension-rc-drill-2026-07-06",
