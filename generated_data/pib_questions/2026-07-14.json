@@ -1,0 +1,35 @@
+[
+  {
+    "question": "With reference to the Index of Services Production (ISP), recently launched on a trial basis, consider the following statements: 1) It is compiled and released by the Reserve Bank of India. 2) It uses 2024-25 as its base year and is designed as a monthly counterpart to the Index of Industrial Production. 3) Health and education services are the two largest components covered in its first trial release. Which of the statements given above is/are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 only", "(c) 2 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(b)",
+    "explanation": "The ISP is released by MoSPI's National Statistics Office (not the RBI). It uses base year 2024-25 as a services-sector counterpart to the IIP (statement 2 correct). Health and education are explicitly NOT yet included and are to be added later, so statement 3 is wrong.",
+    "subject": "Economy",
+    "theme": "National Statistics and Indicators",
+    "micro_topic": "Index of Services Production (ISP)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The 'Digital Threat Report 2025-26', seen in the news, was released by the Ministry of Electronics & IT (MeitY) in collaboration with which of the following?",
+    "options": ["(a) The Reserve Bank of India and SEBI", "(b) CERT-In, CSIRT-Fin and a cybersecurity firm (SISA)", "(c) NITI Aayog and the Indian Cyber Crime Coordination Centre (I4C)", "(d) TRAI and the National Payments Corporation of India"],
+    "answer": "(b)",
+    "explanation": "MeitY released the second edition of the Digital Threat Report 2025-26 for the BFSI ecosystem jointly with CERT-In, CSIRT-Fin and SISA. Its central theme is 'AI asymmetry' - offensive AI cyber-capabilities outpacing defensive ones - and it flags Indian BFSI attacks at ~1.6 times the global average.",
+    "subject": "Science & Technology",
+    "theme": "Cybersecurity",
+    "micro_topic": "Digital Threat Report 2025-26 / CERT-In",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to INS Mahendragiri, recently commissioned into the Indian Navy, consider the following statements: 1) It is a Project 17A (Nilgiri-class) stealth frigate designed by the Indian Navy's Warship Design Bureau. 2) It was built by Mazagon Dock Shipbuilders Limited, Mumbai. 3) It was commissioned into the Western Naval Command at Mumbai. Which of the statements given above is/are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(a)",
+    "explanation": "INS Mahendragiri is the sixth Project 17A stealth frigate, designed by the Warship Design Bureau and built by MDL, Mumbai (statements 1 and 2 correct). It was commissioned into the Eastern Fleet at Visakhapatnam (Eastern Naval Command), not the Western Naval Command, so statement 3 is wrong.",
+    "subject": "Internal Security",
+    "theme": "Defence Indigenisation",
+    "micro_topic": "Project 17A frigates / INS Mahendragiri",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "question": "Consider the following statements regarding Vikram-1, in the news in July 2026: 1. It is India's first privately developed orbital-class launch vehicle. 2. It was developed by Skyroot Aerospace and is launched from Satish Dhawan Space Centre, Sriharikota. 3. It was India's first privately built rocket ever to fly. Which of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(a)",
+    "explanation": "Vikram-1 is India's first private orbital-class rocket, built by Skyroot and launched from Sriharikota. Statement 3 is wrong: the first privately built Indian rocket to fly was Vikram-S (sub-orbital, Mission Prarambh, Nov 2022), not Vikram-1.",
+    "subject": "Science & Technology",
+    "theme": "Space sector",
+    "micro_topic": "Private launch vehicles / space-sector reforms (IN-SPACe, NSIL)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Index of Services Production (ISP), launched in 2026, is best described as:",
+    "options": ["(a) A monthly volume index of services-sector output released by MoSPI with base year 2024-25", "(b) A component of the Wholesale Price Index compiled by DPIIT", "(c) An annual services survey conducted by NITI Aayog", "(d) A financial-inclusion index released by the RBI"],
+    "answer": "(a)",
+    "explanation": "The ISP is a new high-frequency monthly volume index of services output released by MoSPI/NSO, base year 2024-25 — the services-sector counterpart to the Index of Industrial Production (IIP).",
+    "subject": "Reports & Indices",
+    "theme": "Economic indicators",
+    "micro_topic": "Index of Services Production vs IIP",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In the context of the July-2026 US Senate sanctions bill in the news, the term 'secondary tariffs' refers to tariffs imposed on:",
+    "options": ["(a) Luxury goods traded between the two sanctioning countries", "(b) Third countries that continue trading with the sanctioned nation", "(c) Goods re-exported through a free-trade agreement partner", "(d) Digital services provided by multinational technology firms"],
+    "answer": "(b)",
+    "explanation": "Secondary tariffs/sanctions penalise third countries that keep trading with a sanctioned nation. The bill targets buyers of Russian energy such as India and China, which together take over 80% of Russia's seaborne crude.",
+    "subject": "International Relations",
+    "theme": "India-US-Russia relations",
+    "micro_topic": "Secondary sanctions / energy security & strategic autonomy",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Department of Posts-TRAI MoU (July 2026), consider the following statements: 1. Field data on mobile-network quality will be collected by Gramin Dak Sevaks. 2. TRAI is a constitutional body established under Article 324A. 3. The survey covers more than 5 lakh villages. Which of the statements given above are correct?",
+    "options": ["(a) 1 and 3 only", "(b) 2 and 3 only", "(c) 1 and 2 only", "(d) 1, 2 and 3"],
+    "answer": "(a)",
+    "explanation": "Gramin Dak Sevaks (~1.4 lakh) collect data using a TRAI app across 5.68 lakh villages (statements 1 and 3 correct). TRAI is a statutory body under the TRAI Act, 1997 — not a constitutional body; there is no Article 324A. Statement 2 is wrong.",
+    "subject": "Polity & Governance",
+    "theme": "Regulatory bodies & e-governance",
+    "micro_topic": "TRAI; India Post; bridging the rural digital divide",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "India's retail (CPI) inflation for June 2026 was reported at 4.38%. Which of the following statements is/are correct? 1. It was the highest CPI print since December 2024. 2. Rural inflation was higher than urban inflation. 3. The reading stayed within the RBI's tolerance band around its target.",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(d)",
+    "explanation": "June 2026 CPI at 4.38% was the highest since December 2024 (1 correct). Rural inflation (4.74%) exceeded urban (3.92%) (2 correct). The RBI's flexible target is 4% within a 2-6% band, so 4.38% is within tolerance (3 correct).",
+    "subject": "Economy",
+    "theme": "Inflation",
+    "micro_topic": "CPI June 2026; rural vs urban; RBI tolerance band",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the measurement of inflation in India, consider the following statements: 1. The Consumer Price Index (CPI) used for the RBI's inflation target is compiled by the National Statistical Office (MoSPI). 2. The Wholesale Price Index (WPI) is released by the Office of the Economic Adviser, DPIIT. 3. Under the flexible inflation-targeting framework, the RBI's target is CPI inflation of 4% within a band of plus or minus 2%. Which of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(d)",
+    "explanation": "CPI (for the RBI target) is compiled by NSO/MoSPI; WPI by the Office of the Economic Adviser, DPIIT; and the flexible inflation target is 4% with a tolerance band of +/-2%. All three are correct.",
+    "subject": "Economy",
+    "theme": "Monetary policy",
+    "micro_topic": "CPI vs WPI; flexible inflation targeting",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following pairs of institutions and their nature: 1. TRAI - statutory regulatory body 2. NSIL (NewSpace India Limited) - commercial/PSU arm of the Department of Space 3. IN-SPACe - a constitutional body under the Ministry of Home Affairs. How many of the pairs given above are correctly matched?",
+    "options": ["(a) Only one", "(b) Only two", "(c) All three", "(d) None"],
+    "answer": "(b)",
+    "explanation": "TRAI (statutory) and NSIL (commercial arm of the Department of Space) are correctly matched. IN-SPACe is not a constitutional body and is under the Department of Space (not the MHA) — it is a single-window autonomous regulator set up in 2020. So only two pairs are correct.",
+    "subject": "Polity & Governance",
+    "theme": "Statutory and regulatory bodies",
+    "micro_topic": "TRAI, NSIL, IN-SPACe",
+    "nature": "Factual",
+    "difficulty": "Hard"
+  }
+]
