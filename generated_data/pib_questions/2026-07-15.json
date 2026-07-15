@@ -1,0 +1,35 @@
+[
+  {
+    "question": "Consider the following statements regarding the village-level telecom network performance survey recently in the news:\n1. It is a joint initiative of the Department of Posts and the Telecom Regulatory Authority of India (TRAI).\n2. The field survey is carried out by Gramin Dak Sevaks using an app developed by TRAI.\n3. TRAI is a statutory body established under an Act of Parliament.\nHow many of the statements given above are correct?",
+    "options": ["(a) Only one", "(b) Only two", "(c) All three", "(d) None"],
+    "answer": "(c)",
+    "explanation": "The DoP–TRAI MoU (10 July 2026) launches an app-based survey across 5.68 lakh villages; Gramin Dak Sevaks collect data using a TRAI-built Android app; TRAI is a statutory regulator under the TRAI Act, 1997. All three are correct.",
+    "subject": "Polity & Governance",
+    "theme": "Statutory bodies and digital governance",
+    "micro_topic": "Department of Posts–TRAI rural telecom survey",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to NIDAR 2.0, recently launched, consider the following:\n1. It is anchored by the Ministry of Electronics & IT under the SwaYaan initiative.\n2. Its Component Innovation track promotes indigenous flight controllers built around the VEGA processor.\n3. It is a scheme to procure combat drones for the armed forces.\nWhich of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(a)",
+    "explanation": "NIDAR 2.0 is run by MeitY with the Drone Federation India under SwaYaan, and its Component Innovation track centres on indigenous flight controllers/autopilots built on the VEGA processor. It is a student innovation challenge (autonomous swarm and GPS-denied drones), not a military procurement programme, so statement 3 is wrong.",
+    "subject": "Science & Technology",
+    "theme": "Indigenous drones and semiconductors",
+    "micro_topic": "NIDAR 2.0 / VEGA processor",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The \"Street Food Hub\" component recently in the news is associated with which one of the following schemes, and which ministry implements it?",
+    "options": ["(a) PM SVANidhi — Ministry of Housing & Urban Affairs", "(b) PM FME — Ministry of Food Processing Industries", "(c) PM-KISAN — Ministry of Agriculture & Farmers Welfare", "(d) Deen Dayal Antyodaya Yojana — Ministry of Rural Development"],
+    "answer": "(a)",
+    "explanation": "The Street Food Hub (₹4 crore per hub, up to 50 nationwide, released in 30-50-20 instalments) is an infrastructure add-on under PM SVANidhi, implemented by the Ministry of Housing & Urban Affairs; Lakhanpur (Kathua, J&K) is among the first approved towns.",
+    "subject": "Polity & Governance",
+    "theme": "Welfare schemes and urban livelihoods",
+    "micro_topic": "PM SVANidhi Street Food Hubs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]

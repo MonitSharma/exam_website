@@ -1,0 +1,114 @@
+[
+  {
+    "question": "The four special benches constituted by the Supreme Court from 15 July 2026 are intended to:",
+    "options": [
+      "(a) Exclusively hear matters involving fundamental-rights violations",
+      "(b) Exclusively hear the Court's oldest pending civil and criminal appeals",
+      "(c) Adjudicate only Presidential References under Article 143",
+      "(d) Decide inter-state river-water disputes"
+    ],
+    "answer": "(b)",
+    "explanation": "Two Division Benches take the oldest civil appeals and two take the oldest criminal appeals, each initially listing ~200 cases strictly by seniority for continuous hearing.",
+    "subject": "Polity & Governance",
+    "theme": "Judicial reform & pendency",
+    "micro_topic": "Supreme Court special benches for oldest pending cases (July 2026)",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The 'SHANTI' vision unveiled by India in July 2026 is associated with:",
+    "options": [
+      "(a) India's National Disaster Management framework",
+      "(b) A tri-services theatre-command doctrine",
+      "(c) India's campaign for a non-permanent UN Security Council seat for the 2028-29 term",
+      "(d) A new inland-waterways connectivity plan"
+    ],
+    "answer": "(c)",
+    "explanation": "SHANTI - Securing Holistic Advancement through Norms, Trust and Integrity - was the framework EAM Jaishankar unveiled at UN HQ while launching India's UNSC 2028-29 candidature.",
+    "subject": "International Relations",
+    "theme": "India & multilateral institutions",
+    "micro_topic": "UNSC 2028-29 non-permanent seat campaign / SHANTI vision",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the RBI's July 2026 amendment directions on bank-board governance, consider the following statements:\n1. The revised framework applies only to Public Sector Banks.\n2. The Chairperson of the Board is given primary responsibility for setting the board's agenda.\n3. The directions come into effect from 1 October 2026.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statement 1 is wrong - PSB governance provisions are extended to private banks too. The Chairperson sets the agenda (2 correct) and the framework is effective 1 October 2026 (3 correct).",
+    "subject": "Economy",
+    "theme": "Banking regulation & corporate governance",
+    "micro_topic": "RBI bank-board governance rationalisation (Banking Regulation Act, 1949)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Corporate Mitra Scheme, whose guidelines were released in 2026, is an initiative of the:",
+    "options": [
+      "(a) Ministry of Skill Development & Entrepreneurship",
+      "(b) Ministry of Micro, Small & Medium Enterprises",
+      "(c) Ministry of Corporate Affairs",
+      "(d) Ministry of Labour & Employment"
+    ],
+    "answer": "(c)",
+    "explanation": "Announced in Union Budget 2026-27, the Ministry of Corporate Affairs runs it - a 12-month programme (online module on SWAYAM Plus + OJT, with ICAI/ICSI/ICMAI and IIT Madras) to train paraprofessionals who support MSME compliance.",
+    "subject": "Society",
+    "theme": "Skilling, employment & MSME support",
+    "micro_topic": "Corporate Mitra Scheme (MCA, SWAYAM Plus paraprofessionals)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The TSDSI, in news in July 2026 for an MoU with the Department of Telecommunications, is best described as:",
+    "options": [
+      "(a) A public-sector telecom manufacturer under DoT",
+      "(b) India's national standards-development body for telecommunications",
+      "(c) The telecom-sector regulator that replaced TRAI",
+      "(d) A spectrum-auction platform run by the RBI"
+    ],
+    "answer": "(b)",
+    "explanation": "TSDSI is India's national telecom Standards Development Organisation - it got India's rural-coverage waveform (LMLC) into the ITU 5G standard. It is neither a manufacturer nor a regulator; TRAI remains the regulator.",
+    "subject": "Science & Technology",
+    "theme": "Telecom standards & Bharat 6G",
+    "micro_topic": "TSDSI, ITU/3GPP standards, Bharat 6G Mission",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements regarding the non-permanent members of the UN Security Council:\n1. They are elected by the UN General Assembly for a two-year term.\n2. A retiring member is immediately eligible for re-election.\n3. Their election requires a two-thirds majority of members present and voting.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Under Article 23 of the UN Charter, the 10 non-permanent members are elected by the UNGA for two-year terms by a two-thirds majority, but a retiring member is NOT eligible for immediate re-election - so statement 2 is wrong.",
+    "subject": "International Relations",
+    "theme": "UN structure & UNSC composition",
+    "micro_topic": "UNSC non-permanent members - Article 23, UN Charter",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "In the Indian judicial system, the expression 'master of the roster' refers to the:",
+    "options": [
+      "(a) Registrar-General's power to schedule case hearings",
+      "(b) Chief Justice's prerogative to constitute benches and allocate cases",
+      "(c) Attorney-General's authority to list cases of public importance",
+      "(d) Power of the senior-most puisne judge to reconstitute Constitution Benches"
+    ],
+    "answer": "(b)",
+    "explanation": "'Master of the roster' is the Chief Justice's administrative prerogative to constitute benches and allocate cases - reaffirmed by the Supreme Court itself (2018 rulings). It underpins reforms like the July 2026 oldest-cases benches.",
+    "subject": "Polity & Governance",
+    "theme": "Judiciary - administrative powers",
+    "micro_topic": "CJI as master of the roster; bench allocation",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  }
+]
