@@ -1,0 +1,79 @@
+[
+  {
+    "question": "With reference to the India–UK Comprehensive Economic and Trade Agreement (CETA), which entered into force on 15 July 2026, consider the following statements:\n1. The UK eliminated import duties on about 99% of Indian tariff lines from the date of entry into force.\n2. India eliminated import duties on all goods imported from the UK immediately.\n3. Under the accompanying Double Contribution Convention, Indian professionals on temporary assignment in the UK are exempt from UK social-security contributions for up to five years.\nWhich of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 1 and 3 only", "(c) 2 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(b)",
+    "explanation": "UK: ~99% tariff lines duty-free from day one; the DCC social-security exemption runs up to 5 years. India's commitments cover 90% of tariff lines (64.1% immediate, rest phased), with sensitive lines excluded — statement 2 is wrong.",
+    "subject": "International Relations",
+    "theme": "India–UK bilateral relations & trade agreements",
+    "micro_topic": "India–UK CETA & Double Contribution Convention entry into force (15 July 2026)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements about the National Investment Policy for Urea (NIPU-2026):\n1. It supports the setting up of new gas-based urea plants adding about 10 million tonnes of annual production capacity.\n2. It replaces the New Investment Policy (NIP)-2012.\n3. Plants under the policy will primarily use coal gasification as feedstock.\nWhich of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 1 only", "(c) 2 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(a)",
+    "explanation": "NIPU-2026 (CCEA, 15 July 2026) enables ~9 new gas-based plants of ~12.7 LMT each (~10 MT total) and replaces NIP-2012, which expired in 2019; feedstock is natural gas, not coal gasification — statement 3 is wrong.",
+    "subject": "Economy",
+    "theme": "Fertilizer policy & subsidies",
+    "micro_topic": "National Investment Policy for Urea (NIPU-2026)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Draft National Health Research Policy, 2026, consider the following statements:\n1. It is India's first-ever national policy on health research.\n2. The Department of Health Research is the nodal agency for its implementation.\n3. It proposes the creation of a National Research Integrity Office.\nWhich of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 1 and 3 only", "(c) 2 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(c)",
+    "explanation": "The draft replaces the National Health Research Policy, 2011, so it is not the first — statement 1 is wrong. DHR is the nodal implementing agency (with ICMR giving technical guidance), and a National Research Integrity Office (NRIO) is proposed.",
+    "subject": "Polity & Governance",
+    "theme": "Health governance & policy frameworks",
+    "micro_topic": "Draft National Health Research Policy 2026 (DHR/ICMR, NRIO)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Which State recently became the first in India to enact a law granting independent legal recognition to women farmers, delinked from land ownership?",
+    "options": ["(a) Madhya Pradesh", "(b) Rajasthan", "(c) Karnataka", "(d) Maharashtra"],
+    "answer": "(d)",
+    "explanation": "The Maharashtra Women Farmers Empowerment Act, 2026 — passed unanimously by both Houses — makes Maharashtra the first state to legally recognise women farmers, with a Women Farmer Certificate, a State Women Farmers Fund, and coverage of tenants, sharecroppers and agricultural labourers.",
+    "subject": "Society",
+    "theme": "Women's empowerment & feminisation of agriculture",
+    "micro_topic": "Maharashtra Women Farmers Empowerment Act, 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The Indian Grey Hornbill, recently in news for its successful reintroduction in the Gir landscape, is best described by which of the following statements?\n1. It is classified as 'Least Concern' on the IUCN Red List.\n2. It is an arboreal bird largely endemic to the Indian subcontinent.\n3. The Gir forest, where it was reintroduced, lies in the Western Ghats.\nSelect the correct answer using the code below:",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(a)",
+    "explanation": "Ocyceros birostris is IUCN Least Concern and an arboreal species largely endemic to the Indian subcontinent; it re-established in Gir 60+ years after local disappearance. Gir lies in Gujarat's Kathiawar peninsula, not the Western Ghats — statement 3 is wrong.",
+    "subject": "Environment",
+    "theme": "Species in news & conservation programmes",
+    "micro_topic": "Indian Grey Hornbill reintroduction in Gir (Gujarat)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to chemical fertilizers in India, consider the following statements:\n1. Urea is the only major fertilizer whose maximum retail price is statutorily fixed by the Government.\n2. Urea is covered under the Nutrient Based Subsidy (NBS) regime.\n3. Ammonia, the key input for urea, is mainly produced from natural gas in India.\nWhich of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(c)",
+    "explanation": "Urea's MRP is statutorily fixed by the government and it lies OUTSIDE the NBS regime (NBS covers only P&K fertilizers, whose MRPs are decontrolled) — statement 2 is wrong; ammonia for urea comes mainly from natural gas reforming.",
+    "subject": "Agriculture",
+    "theme": "Agricultural inputs & fertilizer economics",
+    "micro_topic": "Urea pricing, NBS coverage and natural-gas feedstock (static)",
+    "nature": "Conceptual",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Consider the following statements about Gir National Park:\n1. It hosts the world's only wild population of the Asiatic lion.\n2. It falls within the Kathiawar-Gir dry deciduous forests ecoregion.\n3. The Maldharis are a pastoral community traditionally living in and around Gir.\nWhich of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 1 and 3 only", "(c) 2 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(d)",
+    "explanation": "All three are correct: Gir is the sole wild habitat of the Asiatic lion, lies in the Kathiawar-Gir dry deciduous forests ecoregion, and the pastoral Maldhari community traditionally lives in and around it.",
+    "subject": "Environment",
+    "theme": "Protected areas of India",
+    "micro_topic": "Gir National Park — Asiatic lion, ecoregion, Maldharis (static)",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  }
+]
