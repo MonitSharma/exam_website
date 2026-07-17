@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to the Mobile Phone Manufacturing Scheme (MPMS), approved in July 2026, consider the following statements:\n1. It is implemented by the Ministry of Electronics and Information Technology for five years, from FY2026-27 to FY2030-31.\n2. It succeeds the Production Linked Incentive Scheme for Large Scale Electronics Manufacturing (PLI-LSEM).\n3. Beyond base sales-linked incentives, it offers additional incentives for domestic sourcing of components and for Indian brands investing in design and R&D.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1, 2 and 3",
+      "(d) 1 and 3 only"
+    ],
+    "answer": "(c)",
+    "explanation": "All three are correct: MPMS is a MeitY scheme for FY2026-27 to FY2030-31 with a ₹62,500 crore outlay, succeeding PLI-LSEM (which ended 31 March 2026); base sales-linked incentives of 2.25%–5% are topped up by up to 1.5% for domestic sourcing and 3% for Indian brands investing in design/R&D.",
+    "subject": "Economy",
+    "theme": "Industrial Policy & Manufacturing Incentives",
+    "micro_topic": "Mobile Phone Manufacturing Scheme (MPMS) 2026 succeeding PLI-LSEM",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The \"Islamabad Memorandum of Understanding\", recently in the news, refers to:",
+    "options": [
+      "(a) A transit-trade agreement between Pakistan and the Central Asian republics",
+      "(b) An interim peace agreement between the United States and Iran that collapsed within a month",
+      "(c) A ceasefire framework between Israel and Hezbollah brokered by Pakistan",
+      "(d) An India–Pakistan agreement on the Indus Waters Treaty's dispute-resolution mechanism"
+    ],
+    "answer": "(b)",
+    "explanation": "The Islamabad MoU was the June 2026 interim US–Iran peace agreement; it broke down within a month after a renewed US maritime blockade, reigniting hostilities and Iran's blockade of the Strait of Hormuz.",
+    "subject": "International Relations",
+    "theme": "West Asia Conflict & India's Energy Security",
+    "micro_topic": "US–Iran Islamabad MoU collapse and Strait of Hormuz blockade 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements about the Preliminary Report on AI released by the United Nations in July 2026:\n1. It is the first UN-commissioned independent scientific assessment of Artificial Intelligence.\n2. The 40-member panel that produced it is co-chaired by a Turing Award laureate and a Nobel Peace Prize laureate.\n3. The report finds that the United States accounts for about three-fourths of global AI compute capacity.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All correct: the Preliminary Report of the Independent International Scientific Panel on AI is the first UN-commissioned scientific AI assessment, produced by a 40-member panel co-chaired by Yoshua Bengio (Turing Award) and Maria Ressa (Nobel Peace Prize); it reports the USA holds ~75% of global compute capacity, China ~15%.",
+    "subject": "Science & Technology",
+    "theme": "Artificial Intelligence & Global Governance",
+    "micro_topic": "UN Independent International Scientific Panel on AI — Preliminary Report 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Elaphropoda triangulata and Habropoda adi, recently in the news, are:",
+    "options": [
+      "(a) Orchid species discovered in the Western Ghats",
+      "(b) Solitary ground-nesting bee species discovered in Arunachal Pradesh's Siang Valley",
+      "(c) Freshwater fish species discovered in the Brahmaputra basin",
+      "(d) Moth species discovered in the Nicobar Islands"
+    ],
+    "answer": "(b)",
+    "explanation": "Both are new solitary ground-nesting bee species discovered by ATREE researchers during the Siang Expedition in Arunachal Pradesh and published in the European Journal of Taxonomy; Habropoda adi is named after the indigenous Adi community.",
+    "subject": "Environment",
+    "theme": "Biodiversity & Species in News",
+    "micro_topic": "New bee species Elaphropoda triangulata & Habropoda adi, Siang Valley",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the UMANG platform, recently in the news for security vulnerabilities, consider the following statements:\n1. UMANG aggregates over 2,400 services of Union and State governments on a single interface.\n2. The vulnerabilities were reported to MeitY and CERT-In.\n3. Storing Aadhaar numbers in plain text is restricted under the Aadhaar Act, 2016.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All correct: UMANG (Unified Mobile Application for New-age Governance) aggregates 2,400+ government services; researchers reported the flaws — which exposed EPFO UANs, LPG bookings and plaintext Aadhaar numbers — to MeitY and CERT-In; plaintext Aadhaar storage is restricted under the Aadhaar Act, 2016.",
+    "subject": "Polity & Governance",
+    "theme": "E-Governance & Data Security",
+    "micro_topic": "UMANG portal data-exposure vulnerabilities 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Strait of Hormuz, consider the following statements:\n1. It connects the Persian Gulf with the Gulf of Oman.\n2. Its northern shore is formed by Iran and its southern shore by Oman's Musandam exclave and the UAE.\n3. It is the only maritime exit for the Persian Gulf.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All correct: Hormuz links the Persian Gulf to the Gulf of Oman (and the Arabian Sea), with Iran to its north and Oman's Musandam exclave/UAE to its south; as the Gulf's only sea exit, it is the world's most critical oil chokepoint.",
+    "subject": "Geography",
+    "theme": "World Geography — Maritime Chokepoints",
+    "micro_topic": "Strait of Hormuz location and strategic significance",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the Digital Personal Data Protection (DPDP) Act, 2023, consider the following statements:\n1. It applies to personal data collected in digital form as well as to non-digital data that is subsequently digitised.\n2. It establishes the Data Protection Board of India as the adjudicating body.\n3. It permits processing of personal data only with consent, with no exceptions for \"legitimate uses\".\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Statements 1 and 2 are correct; statement 3 is wrong because the Act allows processing without fresh consent for specified \"legitimate uses\" such as voluntary provision of data, state functions, and medical emergencies.",
+    "subject": "Polity & Governance",
+    "theme": "Data Protection Law",
+    "micro_topic": "DPDP Act 2023 — scope, Data Protection Board, legitimate uses",
+    "nature": "Conceptual",
+    "difficulty": "Hard"
+  }
+]

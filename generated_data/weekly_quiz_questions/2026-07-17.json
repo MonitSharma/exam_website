@@ -1,0 +1,622 @@
+[
+  {
+    "id": "weekly_quiz_2026_07_17_1",
+    "question_number": 1,
+    "question": "In 2026, West Bengal became the last major State/UT to implement Ayushman Bharat PM-JAY, completing its nationwide rollout. This made West Bengal the:",
+    "options": [
+      {
+        "key": "a",
+        "text": "28th State/UT to join"
+      },
+      {
+        "key": "b",
+        "text": "32nd State/UT to join"
+      },
+      {
+        "key": "c",
+        "text": "36th State/UT to join"
+      },
+      {
+        "key": "d",
+        "text": "22nd State/UT to join"
+      }
+    ],
+    "answer": "c",
+    "explanation": "West Bengal became the 36th State/UT under PM-JAY (via an NHA–WB MoU), covering ~1.24 crore families and completing 100% national rollout. Health being a State subject, states opt in voluntarily.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_17_2",
+    "question_number": 2,
+    "question": "With reference to the Astra Mk-1, in the news in July 2026, consider the following statements:",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All three correct. Astra Mk-1 is India's first indigenous BVRAAM (DRDO-developed, BDL-produced, ~Mach 4.5, ~100+ km, on the Su-30MKI); Indonesia became its first foreign buyer in July 2026.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_17_3",
+    "question_number": 3,
+    "question": "The Aastha Van Sanrakshan Yojana (AVSY), approved by the 7th National CAMPA Governing Body in July 2026, is intended for the:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Afforestation of urban commons around smart cities"
+      },
+      {
+        "key": "b",
+        "text": "Conservation and restoration of sacred groves, funded through CAMPA"
+      },
+      {
+        "key": "c",
+        "text": "Compensation of communities displaced by tiger reserves"
+      },
+      {
+        "key": "d",
+        "text": "Development of agroforestry on degraded farmland"
+      }
+    ],
+    "answer": "b",
+    "explanation": "AVSY is a Rs 3,000-crore, five-year scheme to conserve ~15,000 sacred groves (\"Aastha Vans\"), funded through National CAMPA (statutory under the CAF Act, 2016).",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_17_4",
+    "question_number": 4,
+    "question": "Consider the following statements about the India–New Zealand relationship, as advanced during PM Modi's July 2026 visit:",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All three correct: Strategic Partnership upgrade, first Indian PM visit to NZ in 40 years, a Roadmap to 2030 plus concluded FTA negotiations (trade-doubling target ~NZ$7 bn by 2030).",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_17_5",
+    "question_number": 5,
+    "question": "The Supreme Court's July 2026 ruling recognising the \"right to walk\" on safe, demarcated footpaths as a Fundamental Right derived it primarily from:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Article 14 read with Article 15"
+      },
+      {
+        "key": "b",
+        "text": "Article 21 read with Article 19(1)(d)"
+      },
+      {
+        "key": "c",
+        "text": "Article 25 read with Article 29"
+      },
+      {
+        "key": "d",
+        "text": "Article 300A read with Article 31"
+      }
+    ],
+    "answer": "b",
+    "explanation": "In *Maniyar Iliyaz v. P. Ayyappan* (2026 INSC 647), the Court grounded the right to walk in Article 21 read with Article 19(1)(d) (freedom of movement), with a correlative duty on urban local bodies.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_17_6",
+    "question_number": 6,
+    "question": "In July 2026, China imposed a temporary export ban on which commodity, citing conflict in West Asia and the risk of global shortages — a move with direct implications for ISRO's launch programme and India's semiconductor push?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Gallium"
+      },
+      {
+        "key": "b",
+        "text": "Germanium"
+      },
+      {
+        "key": "c",
+        "text": "Helium"
+      },
+      {
+        "key": "d",
+        "text": "Neon"
+      }
+    ],
+    "answer": "c",
+    "explanation": "China banned helium exports (effective 10 July 2026). India imports almost all its helium; ISRO uses it to pressurise cryogenic/liquid fuel tanks and fabs need it for cooling and inert atmospheres.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_17_7",
+    "question_number": 7,
+    "question": "The Index of Services Production (ISP), launched on a trial basis in July 2026, is best described as:",
+    "options": [
+      {
+        "key": "a",
+        "text": "An annual services survey conducted by NITI Aayog"
+      },
+      {
+        "key": "b",
+        "text": "A monthly volume index of services output released by MoSPI, with base year 2024-25"
+      },
+      {
+        "key": "c",
+        "text": "A sub-component of the Wholesale Price Index compiled by DPIIT"
+      },
+      {
+        "key": "d",
+        "text": "A quarterly index released by the RBI in its Financial Stability Report"
+      }
+    ],
+    "answer": "b",
+    "explanation": "ISP is a monthly volume index of services output released by MoSPI/NSO, base year 2024-25 — the services counterpart to the IIP (health and education excluded for now).",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_17_8",
+    "question_number": 8,
+    "question": "With reference to the India–UK CETA, which entered into force on 15 July 2026, consider the following statements:",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "1 and 3 correct. The UK zeroed duties on ~99% of Indian tariff lines on day one, and the DCC exemption is five years. Statement 2 is wrong — India cut duties on 90% of tariff lines (64.1% immediately), not all goods.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_17_9",
+    "question_number": 9,
+    "question": "Vikram-1, in the news in July 2026 for its maiden orbital attempt (Mission *Aagaman*), is:",
+    "options": [
+      {
+        "key": "a",
+        "text": "India's first privately built rocket ever to fly"
+      },
+      {
+        "key": "b",
+        "text": "India's first privately developed orbital-class launch vehicle, by Skyroot Aerospace"
+      },
+      {
+        "key": "c",
+        "text": "An ISRO small-satellite launch vehicle (SSLV) variant"
+      },
+      {
+        "key": "d",
+        "text": "A reusable booster developed by Agnikul Cosmos"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Vikram-1 is India's first privately developed orbital-class launch vehicle (Skyroot Aerospace, ~350 kg to LEO). The first private Indian rocket to fly was Vikram-S (sub-orbital, Nov 2022), so (a) is wrong.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_17_10",
+    "question_number": 10,
+    "question": "Which State recently became the first in India to enact a law granting women farmers independent legal recognition, delinked from land ownership?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Madhya Pradesh"
+      },
+      {
+        "key": "b",
+        "text": "Karnataka"
+      },
+      {
+        "key": "c",
+        "text": "Maharashtra"
+      },
+      {
+        "key": "d",
+        "text": "Rajasthan"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The Maharashtra Women Farmers Empowerment Act, 2026 issues a 'Women Farmer Certificate' delinking farmer status from land ownership — a first in India.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_17_11",
+    "question_number": 11,
+    "question": "The \"SHANTI\" vision unveiled by India in July 2026 is associated with:",
+    "options": [
+      {
+        "key": "a",
+        "text": "India's campaign for a non-permanent UN Security Council seat for 2028–29"
+      },
+      {
+        "key": "b",
+        "text": "A tri-services theatre-command doctrine"
+      },
+      {
+        "key": "c",
+        "text": "A new inland-waterways connectivity plan"
+      },
+      {
+        "key": "d",
+        "text": "India's national disaster-management framework"
+      }
+    ],
+    "answer": "a",
+    "explanation": "SHANTI = *Securing Holistic Advancement through Norms, Trust and Integrity* — the theme of India's UNSC 2028–29 non-permanent-seat campaign, launched at UN HQ (EAM Jaishankar). India contests the Asia-Pacific seat against Tajikistan.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_17_12",
+    "question_number": 12,
+    "question": "The National Investment Policy for Urea (NIPU-2026), cleared by the Cabinet in July 2026, seeks primarily to:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Boost India's urea exports to neighbouring countries"
+      },
+      {
+        "key": "b",
+        "text": "Add about 10 million tonnes of fresh gas-based urea capacity to cut import dependence"
+      },
+      {
+        "key": "c",
+        "text": "Bring urea under the Nutrient Based Subsidy (NBS) regime"
+      },
+      {
+        "key": "d",
+        "text": "Shift urea plants from natural gas to coal gasification"
+      }
+    ],
+    "answer": "b",
+    "explanation": "NIPU-2026 (Dept. of Fertilizers) targets ~10 MT of new gas-based urea capacity via 8–9 plants to cut import dependence. India is a urea *importer* (~30 MT vs ~40 MT demand); urea is *outside* NBS with a statutorily fixed MRP.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_17_13",
+    "question_number": 13,
+    "question": "Consider the following statements about sacred groves in India:",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All correct — sacred groves are in-situ conservation, can be notified as Community Reserves under the WLPA (added by the 2002 amendment), and Orans/Kavu/Sarna are regional names (Rajasthan/Kerala/Jharkhand).",
+    "subject": "Environment",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_17_14",
+    "question_number": 14,
+    "question": "With reference to the Compensatory Afforestation Fund (managed by CAMPA), it is financed chiefly by:",
+    "options": [
+      {
+        "key": "a",
+        "text": "A cess on petroleum products"
+      },
+      {
+        "key": "b",
+        "text": "Net Present Value (NPV) and compensatory-afforestation levies collected when forest land is diverted for non-forest use"
+      },
+      {
+        "key": "c",
+        "text": "Fifteenth Finance Commission grants earmarked for forests"
+      },
+      {
+        "key": "d",
+        "text": "Voluntary corporate CSR contributions only"
+      }
+    ],
+    "answer": "b",
+    "explanation": "CAMPA funds come chiefly from Net Present Value (NPV) and compensatory-afforestation charges levied when forest land is diverted, under the CAF Act, 2016 (90% to States, 10% Centre).",
+    "subject": "Environment",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_17_15",
+    "question_number": 15,
+    "question": "The Kigali Amendment to the Montreal Protocol relates to the phase-down of which class of substances?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Chlorofluorocarbons (CFCs)"
+      },
+      {
+        "key": "b",
+        "text": "Hydrochlorofluorocarbons (HCFCs)"
+      },
+      {
+        "key": "c",
+        "text": "Hydrofluorocarbons (HFCs)"
+      },
+      {
+        "key": "d",
+        "text": "Nitrogen oxides (NOₓ)"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The Kigali Amendment (2016) brought HFCs — potent greenhouse gases (though not ozone-depleters) — under the Montreal Protocol for phase-down.",
+    "subject": "Environment",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_17_16",
+    "question_number": 16,
+    "question": "Consider the following statements about the Gangetic River Dolphin:",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All correct — the Gangetic dolphin is India's National Aquatic Animal (2009), is in Schedule I of the WPA 1972, and is functionally blind, navigating by echolocation.",
+    "subject": "Environment",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_17_17",
+    "question_number": 17,
+    "question": "With reference to in-situ and ex-situ conservation, which of the following are examples of *ex-situ* conservation?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 4 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1, 2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "2, 3 and 4 only"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Ex-situ = conservation *outside* the natural habitat: botanical gardens and seed/gene banks. Biosphere reserves and wildlife sanctuaries are in-situ (within the habitat).",
+    "subject": "Environment",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_17_18",
+    "question_number": 18,
+    "question": "Which of the following statements about wetlands and the Ramsar Convention is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All correct — Ramsar is the wetlands treaty; the Montreux Record lists Ramsar sites whose ecological character is threatened; India regulates wetlands under the Wetlands (Conservation and Management) Rules, 2017.",
+    "subject": "Environment",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_17_19",
+    "question_number": 19,
+    "question": "The \"nine planetary boundaries\" framework — several of which are now breached — was originally proposed by a group of Earth-system scientists. Which of the following is NOT one of the nine planetary boundaries?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Ocean acidification"
+      },
+      {
+        "key": "b",
+        "text": "Biosphere integrity (biodiversity loss)"
+      },
+      {
+        "key": "c",
+        "text": "Stratospheric ozone depletion"
+      },
+      {
+        "key": "d",
+        "text": "Urban heat-island intensity"
+      }
+    ],
+    "answer": "d",
+    "explanation": "\"Urban heat-island intensity\" is not a planetary boundary. The nine are: climate change, biosphere integrity, land-system change, freshwater change, biogeochemical (N & P) flows, ocean acidification, atmospheric aerosol loading, stratospheric ozone depletion, and novel entities.",
+    "subject": "Environment",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_17_20",
+    "question_number": 20,
+    "question": "Consider the following pairs of animal species and their prime habitat/State associations:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "All three"
+      },
+      {
+        "key": "d",
+        "text": "None"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Only two. Asiatic Lion–Gir and Rhino–Kaziranga are correct; the Snow Leopard inhabits the high Himalaya/trans-Himalaya, not the Sundarbans (which is home to the Royal Bengal Tiger). RP1 — (i) China's temporary helium export ban (10 July 2026) — India imports nearly all its helium, so it squeezes ISRO's launch programme, semiconductor fabs and MRI cryogenics, reinforcing the critical-resources/strategic-autonomy theme. (ii) US Senate bill authorising up to 500% \"secondary tariffs\" on Russian-oil buyers — India (a top buyer of discounted Russian crude) faces an energy-security vs strategic-autonomy squeeze, sharpened by the lapse of the US Treasury general licence. RP2 — (i) PRAGATI — \"Promoting Regenerative Agriculture Through Innovative Growth Initiatives,\" launched by the Ministry of Agriculture & Farmers' Welfare to build ~20,000 agri-entrepreneurs for ~20 lakh smallholders. (ii) Gramodyam — launched by NABARD (45th Foundation Day) with NSDC to develop 4,000 rural entrepreneurs over three years. *(Do not confuse the two — PRAGATI is regenerative-agriculture-specific; Gramodyam is enterprise-generic.)* --- *Scoring guide: 16–20 strong recall · 11–15 revise weak areas · ≤10 re-read this week's CA + PIB digests and the Environment (Shankar IAS) chapters. Next week's static subject: Science & Technology.* *Sources: This week's briefings (UPSC_CA_2026-07-10 to -16; PIB_2026-07-10 to -17). Key claims cross-checked via web search — India–UK CETA/DCC entry into force (PIB, Business Standard), China helium ban (SCMP, US News, CIRS), Skyroot Vikram-1 (Business Standard, ETV Bharat), Indian Grey Hornbill–Gir (Sentinel Assam, GS Times).*",
+    "subject": "Environment",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  }
+]

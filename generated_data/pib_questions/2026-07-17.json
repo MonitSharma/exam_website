@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the \"Seafarer-First\" initiative launched in July 2026, consider the following statements:\n1. It was launched by the Ministry of Ports, Shipping and Waterways.\n2. Under it, the Directorate General of Shipping will maintain a real-time dashboard tracking Indian seafarers only on Indian-flagged vessels.\n3. It was a response to attacks on merchant vessels in the Strait of Hormuz region.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "MoPSW (Minister Sarbananda Sonowal) launched Seafarer-First after attacks on MT Al Bahiyah and MT Mombasa in the Strait of Hormuz. Statement 2 is wrong — the DGS dashboard tracks every Indian seafarer irrespective of the vessel's flag.",
+    "subject": "Internal Security",
+    "theme": "Maritime Security",
+    "micro_topic": "Seafarer-First initiative (MoPSW/DGS)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements about the Codex Alimentarius Commission, seen in the news after its 49th session (CAC49, 2026):\n1. It is a joint body of the FAO and the WHO that sets international food standards.\n2. India has chaired its Committee on Spices and Culinary Herbs since 2014.\n3. At CAC49, Codex standards for dried coriander seeds and fresh curry leaves developed under India's chairmanship were adopted.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct: Codex is the joint FAO–WHO food-standards body; India has chaired the Codex Committee on Spices and Culinary Herbs since 2014; CAC49 (Geneva, 6–10 July 2026) adopted seven India-led standards including dried coriander seeds and fresh curry leaves.",
+    "subject": "International Relations",
+    "theme": "International Institutions",
+    "micro_topic": "Codex Alimentarius Commission — CAC49",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The \"Gramodyam\" programme, launched in July 2026, is best described as:",
+    "options": [
+      "(a) A Ministry of Agriculture scheme to train 20,000 agri-entrepreneurs in regenerative agriculture",
+      "(b) A NABARD–NSDC programme to develop 4,000 rural entrepreneurs over three years through training, mentoring and credit facilitation",
+      "(c) A Ministry of Rural Development digital platform to digitise Self-Help Group records",
+      "(d) A Khadi and Village Industries Commission subsidy scheme for village industries"
+    ],
+    "answer": "(b)",
+    "explanation": "Gramodyam, launched on NABARD's 45th Foundation Day (13 July 2026) with NSDC, targets 4,000 rural entrepreneurs in three years via a digital-first hybrid model with mentoring, credit facilitation and market linkages. Option (a) describes PRAGATI; (c) describes LokOS.",
+    "subject": "Agriculture",
+    "theme": "Rural Development & Credit",
+    "micro_topic": "Gramodyam (NABARD–NSDC)",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]
