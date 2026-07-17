@@ -3345,6 +3345,14 @@
       "path": "CSAT_Strategy_Guide.md"
     },
     {
+      "id": "weekly-sunday-sunday-sweep-2026-07-19",
+      "cadence": "sunday",
+      "title": "Sunday Sweep",
+      "shortTitle": "Week of 19 Jul",
+      "date": "2026-07-19",
+      "path": "weekly/Sunday/Sunday_Sweep_2026-07-19.md"
+    },
+    {
       "id": "weekly-sunday-sunday-sweep-2026-07-12",
       "cadence": "sunday",
       "title": "Sunday Sweep",
