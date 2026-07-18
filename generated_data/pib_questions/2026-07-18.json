@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the Vikram-1 launch vehicle, recently in news, consider the following statements:\n1. It is India's first privately developed orbital-class rocket to place a payload in orbit.\n2. It uses liquid fuel in all its stages.\n3. It was launched from the Satish Dhawan Space Centre, Sriharikota.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Skyroot Aerospace's Vikram-1 is India's first private orbital-class rocket, launched from Sriharikota on 18 July 2026. It uses three solid-fuel stages plus a liquid-fuelled orbital adjustment module, so statement 2 is wrong.",
+    "subject": "Science & Technology",
+    "theme": "Space Technology",
+    "micro_topic": "Vikram-1 / private space sector (IN-SPACe reforms)",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The 'White Rabbit Technology', recently inaugurated for a demonstration network in Bengaluru, is best described as:",
+    "options": [
+      "(a) A quantum-encryption protocol for securing UPI transactions",
+      "(b) An Ethernet-based protocol for sub-nanosecond synchronisation and dissemination of Indian Standard Time",
+      "(c) A satellite constellation for GPS-independent navigation",
+      "(d) An AI platform for real-time monitoring of food supply chains"
+    ],
+    "answer": "(b)",
+    "explanation": "White Rabbit, developed at CERN, enables ultra-precise Ethernet-based time synchronisation. Under 'One Nation, One Time', the Legal Metrology Division (Ministry of Consumer Affairs) with CSIR-NPL, ISRO, BSNL and SEBI is using it to distribute IST without relying on foreign GPS time sources.",
+    "subject": "Science & Technology",
+    "theme": "Digital Infrastructure",
+    "micro_topic": "White Rabbit / One Nation One Time (IST dissemination)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Which of the following has been added as the ninth core industry in the revised Index of Core Industries (base year 2022-23) announced by the Office of Economic Adviser, DPIIT?",
+    "options": [
+      "(a) Aluminium",
+      "(b) Copper",
+      "(c) Iron ore",
+      "(d) Automobiles"
+    ],
+    "answer": "(c)",
+    "explanation": "The revised ICI series (base 2022-23, replacing 2011-12) adds iron ore as the ninth core industry alongside coal, crude oil, natural gas, refinery products, fertilizers, steel, cement and electricity; weights are derived pro-rata from the IIP (2022-23) series.",
+    "subject": "Economy",
+    "theme": "Industrial Statistics",
+    "micro_topic": "Index of Core Industries base-year revision",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]

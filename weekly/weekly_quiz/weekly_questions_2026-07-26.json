@@ -1,0 +1,167 @@
+[
+  {
+    "question": "Which of the following is/are classified as Gandhian Directive Principles of State Policy? 1. Organisation of village panchayats (Art 40) 2. Promotion of cottage industries (Art 43) 3. Uniform Civil Code (Art 44) 4. Prohibition of intoxicating drinks (Art 47)",
+    "options": ["(a) 1, 2 and 4", "(b) 1 and 3", "(c) 2, 3 and 4", "(d) 1, 2, 3 and 4"],
+    "answer": "(a)",
+    "explanation": "Village panchayats (Art 40), cottage industries (Art 43) and prohibition (Art 47) are Gandhian principles. A Uniform Civil Code (Art 44) is a Liberal–Intellectual principle, not Gandhian.",
+    "subject": "Polity & Governance",
+    "theme": "Directive Principles of State Policy",
+    "micro_topic": "Classification of DPSP (Gandhian principles)",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to Fundamental Duties, consider the following statements: 1. They were added on the recommendation of the Swaran Singh Committee. 2. The duty to provide education opportunities to one's child was added by the 86th Amendment. 3. Fundamental Duties are enforceable by courts through writ jurisdiction.",
+    "options": ["(a) 1 and 2", "(b) 2 and 3", "(c) 1 and 3", "(d) 1, 2 and 3"],
+    "answer": "(a)",
+    "explanation": "Fundamental Duties were introduced by the 42nd Amendment (1976) on the Swaran Singh Committee's recommendation; the education duty (11th) was added by the 86th Amendment (2002). They are non-justiciable, so statement 3 is wrong.",
+    "subject": "Polity & Governance",
+    "theme": "Fundamental Duties",
+    "micro_topic": "Article 51A, Swaran Singh Committee, 42nd/86th Amendments",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The doctrine of 'Basic Structure' of the Constitution: 1. was propounded in Kesavananda Bharati v. State of Kerala (1973). 2. means Parliament cannot amend any provision of the Constitution. 3. was used to strike down parts of the 42nd Amendment in Minerva Mills (1980).",
+    "options": ["(a) 1 and 2", "(b) 1 and 3", "(c) 2 and 3", "(d) 1, 2 and 3"],
+    "answer": "(b)",
+    "explanation": "The doctrine was propounded in Kesavananda Bharati (1973) and applied in Minerva Mills (1980). Statement 2 is wrong: Parliament can amend the Constitution but cannot alter its basic structure.",
+    "subject": "Polity & Governance",
+    "theme": "Amendment of the Constitution",
+    "micro_topic": "Basic Structure doctrine / Kesavananda Bharati, Minerva Mills",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Securities and Exchange Board of India (SEBI), consider the following statements: 1. It is a statutory body established under an Act of Parliament. 2. It regulates the primary as well as the secondary securities market. 3. It is the regulator for the insurance sector in India.",
+    "options": ["(a) 1 and 2", "(b) 2 and 3", "(c) 1 and 3", "(d) 1, 2 and 3"],
+    "answer": "(a)",
+    "explanation": "SEBI is a statutory body under the SEBI Act, 1992, regulating both primary and secondary securities markets. Insurance is regulated by IRDAI, so statement 3 is wrong.",
+    "subject": "Economy",
+    "theme": "Financial markets and regulators",
+    "micro_topic": "SEBI mandate / capital market",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which of the following are qualitative (selective) instruments of the RBI's monetary policy? 1. Cash Reserve Ratio 2. Margin requirements 3. Moral suasion 4. Open Market Operations",
+    "options": ["(a) 1 and 4", "(b) 2 and 3", "(c) 1, 3 and 4", "(d) 2, 3 and 4"],
+    "answer": "(b)",
+    "explanation": "Margin requirements and moral suasion are qualitative/selective tools. CRR and Open Market Operations are quantitative (general) instruments.",
+    "subject": "Economy",
+    "theme": "Monetary policy",
+    "micro_topic": "Quantitative vs qualitative instruments",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Partition of Bengal (1905) and the Swadeshi Movement, consider the following statements: 1. The partition was announced by Lord Curzon and took effect in October 1905. 2. The National Council of Education was set up as part of the Swadeshi Movement. 3. The partition was annulled in 1911.",
+    "options": ["(a) 1 and 2", "(b) 2 and 3", "(c) 1 and 3", "(d) 1, 2 and 3"],
+    "answer": "(d)",
+    "explanation": "All three are correct: the partition was announced by Curzon and took effect on 16 October 1905; the National Council of Education (1906) was a Swadeshi initiative; and the partition was annulled in 1911.",
+    "subject": "Modern History",
+    "theme": "National Movement 1905-1918",
+    "micro_topic": "Partition of Bengal / Swadeshi Movement",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The Surat Split (1907) of the Indian National Congress was primarily caused by:",
+    "options": ["(a) a dispute over the presidency and the pace/methods of the movement between Moderates and Extremists", "(b) disagreement over participation in the First World War", "(c) the question of separate electorates for Muslims", "(d) the Congress response to the Rowlatt Act"],
+    "answer": "(a)",
+    "explanation": "The Surat Split turned on the choice of president and the deeper Moderate–Extremist clash over methods and the extension of the Swadeshi and boycott programme beyond Bengal.",
+    "subject": "Modern History",
+    "theme": "National Movement 1905-1918",
+    "micro_topic": "Surat Split 1907 / Moderates vs Extremists",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Which of the following are exogenic geomorphic processes? 1. Weathering 2. Volcanism 3. Mass movement 4. Erosion and deposition",
+    "options": ["(a) 1, 3 and 4", "(b) 1 and 2", "(c) 2, 3 and 4", "(d) 1, 2 and 4"],
+    "answer": "(a)",
+    "explanation": "Weathering, mass movement and erosion/deposition are exogenic (external, gradational) processes. Volcanism is an endogenic (internal) process.",
+    "subject": "Geography",
+    "theme": "Geomorphology",
+    "micro_topic": "Endogenic vs exogenic geomorphic processes",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Arrange the atmospheric layers in order from the Earth's surface upward:",
+    "options": ["(a) Troposphere -> Stratosphere -> Mesosphere -> Thermosphere", "(b) Troposphere -> Mesosphere -> Stratosphere -> Thermosphere", "(c) Stratosphere -> Troposphere -> Thermosphere -> Mesosphere", "(d) Troposphere -> Stratosphere -> Thermosphere -> Mesosphere"],
+    "answer": "(a)",
+    "explanation": "From the surface upward: Troposphere, Stratosphere, Mesosphere, Thermosphere (and then the exosphere).",
+    "subject": "Geography",
+    "theme": "Climatology",
+    "micro_topic": "Structure of the atmosphere",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to Indian launch vehicles, consider the following statements: 1. LVM3 (GSLV Mk-III) is currently ISRO's heaviest operational launcher. 2. SSLV is designed for small satellites to Low Earth Orbit. 3. PSLV placed the Chandrayaan-3 lander in lunar orbit directly.",
+    "options": ["(a) 1 and 2", "(b) 2 and 3", "(c) 1 and 3", "(d) 1, 2 and 3"],
+    "answer": "(a)",
+    "explanation": "LVM3 is ISRO's heaviest operational launcher and SSLV serves small satellites to LEO. Chandrayaan-3 was launched by LVM3, not PSLV, so statement 3 is wrong.",
+    "subject": "Science & Technology",
+    "theme": "Space technology",
+    "micro_topic": "ISRO launch vehicles (PSLV/GSLV/LVM3/SSLV)",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The India–UK Comprehensive Economic and Trade Agreement (CETA), which entered into force in July 2026, is linked to a Double Contribution Convention (DCC) that:",
+    "options": ["(a) eliminates all tariffs on Indian textiles immediately", "(b) exempts eligible workers from paying social-security contributions in both countries for a fixed period", "(c) creates a common India–UK currency-swap line", "(d) establishes a joint carbon-border tax"],
+    "answer": "(b)",
+    "explanation": "The DCC prevents double social-security contributions, exempting eligible cross-posted workers from paying in both countries for a defined period (extended from 3 to 5 years).",
+    "subject": "International Relations",
+    "theme": "India-UK bilateral / trade",
+    "micro_topic": "India-UK CETA and Double Contribution Convention",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Strait of Hormuz, consider the following statements: 1. It connects the Persian Gulf to the Gulf of Oman. 2. It lies between Iran and Oman's Musandam exclave. 3. A large share of India's crude-oil imports transit through it.",
+    "options": ["(a) 1 and 2", "(b) 2 and 3", "(c) 1 and 3", "(d) 1, 2 and 3"],
+    "answer": "(d)",
+    "explanation": "All three are correct: the Strait connects the Persian Gulf to the Gulf of Oman, lies between Iran and Oman's Musandam exclave, and is a critical chokepoint for India's crude imports.",
+    "subject": "International Relations",
+    "theme": "Maritime chokepoints / energy security",
+    "micro_topic": "Strait of Hormuz",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The Index of Services Production (ISP), released in trial form in July 2026, is correctly described by which of the following? 1. It is published by the Ministry of Statistics & Programme Implementation. 2. It is the services-sector counterpart to the Index of Industrial Production. 3. It currently includes health and education services in full.",
+    "options": ["(a) 1 and 2", "(b) 2 and 3", "(c) 1 and 3", "(d) 1, 2 and 3"],
+    "answer": "(a)",
+    "explanation": "The ISP is released by MoSPI/NSO as the services counterpart to the IIP. Health and education are excluded for now (to be added later), so statement 3 is wrong.",
+    "subject": "Reports & Indices",
+    "theme": "Economic indicators",
+    "micro_topic": "Index of Services Production (ISP)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The National Investment and Infrastructure Fund (NIIF), in the news in July 2026, is best described as:",
+    "options": ["(a) a Central Public Sector Undertaking wholly owned by the Government", "(b) a quasi-sovereign infrastructure-financing fund in which the Government holds up to 49%", "(c) a scheme administered by the Reserve Bank of India", "(d) a multilateral fund under the World Bank"],
+    "answer": "(b)",
+    "explanation": "NIIF (established 2015) is a quasi-sovereign infrastructure-financing platform with a Government stake of up to 49% — a strategic, not majority, holding — crowding in institutional and private capital.",
+    "subject": "Economy",
+    "theme": "Infrastructure financing",
+    "micro_topic": "National Investment and Infrastructure Fund (NIIF)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Aastha Van Sanrakshan Yojana (AVSY), approved in July 2026, aims to conserve:",
+    "options": ["(a) mangrove ecosystems along the eastern coast", "(b) sacred groves ('Aastha Vans') through community-based in-situ conservation, funded via CAMPA", "(c) urban forests under the Nagar Van Yojana", "(d) high-altitude cold deserts in the Himalayas"],
+    "answer": "(b)",
+    "explanation": "AVSY is a five-year scheme to conserve nearly 15,000 sacred groves through community-based in-situ conservation, funded through National CAMPA under the CAF Act, 2016.",
+    "subject": "Environment",
+    "theme": "Biodiversity conservation",
+    "micro_topic": "Aastha Van Sanrakshan Yojana / sacred groves",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]

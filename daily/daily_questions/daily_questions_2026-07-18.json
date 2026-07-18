@@ -1,0 +1,79 @@
+[
+  {
+    "question": "With reference to President Murmu's July 2026 three-nation tour, consider the following statements:\n1. It marks the first-ever visit by an Indian President to both Moldova and North Macedonia.\n2. All three countries visited — Moldova, North Macedonia and Romania — are members of the European Union.\n3. Romania is the only country among the three with a Black Sea coastline.\nWhich of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 1 and 3 only", "(c) 2 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(b)",
+    "explanation": "First-ever presidential visits to Moldova & N. Macedonia, and Romania alone fronts the Black Sea; but only Romania is an EU member — Moldova and N. Macedonia are candidates, so statement 2 is wrong.",
+    "subject": "International Relations",
+    "theme": "India–Europe engagement",
+    "micro_topic": "President Murmu's Moldova–North Macedonia–Romania State visit, July 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements about the \"White Rabbit\" technology recently in news:\n1. It was originally developed at CERN and is available as an open-source platform.\n2. It distributes time signals exclusively through satellite links.\n3. It can achieve sub-nanosecond synchronisation using the IEEE 1588 Precision Time Protocol over optical-fibre networks.\nWhich of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(c)",
+    "explanation": "White Rabbit is CERN-origin open-source tech achieving <1 ns sync via IEEE 1588 PTP over Ethernet/fibre — not satellite links, so statement 2 is wrong.",
+    "subject": "Science & Technology",
+    "theme": "Indigenous critical-infrastructure technology",
+    "micro_topic": "White Rabbit IST Distribution Demonstration Network, RRSL Jakkur (Bengaluru)",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "With reference to the Kukrail night safari project cleared by the Supreme Court, consider the following statements:\n1. It is set to be India's first night safari.\n2. Kukrail Reserve Forest is located in Madhya Pradesh.\n3. The Court mandated periodic site inspections by the Central Empowered Committee (CEC).\nWhich of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 1 and 3 only", "(c) 2 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(b)",
+    "explanation": "India's first night safari with CEC-monitored compliance; Kukrail is in Lucknow, Uttar Pradesh — not MP.",
+    "subject": "Environment",
+    "theme": "Conservation vs eco-tourism",
+    "micro_topic": "Supreme Court conditional clearance for Kukrail night safari, Lucknow",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The greenfield shipbuilding cluster at Porbandar and the ship-repair facility at Vadinar recently received in-principle approval under which of the following?",
+    "options": ["(a) Sagarmala Programme", "(b) Shipbuilding Development Scheme", "(c) Shipbuilding Financial Assistance Policy, 2016", "(d) National Maritime Heritage Scheme"],
+    "answer": "(b)",
+    "explanation": "Both Gujarat projects got in-principle approval under MoPSW's Shipbuilding Development Scheme (25% capital-infrastructure assistance).",
+    "subject": "Economy",
+    "theme": "Ports, shipping & maritime infrastructure",
+    "micro_topic": "Porbandar shipbuilding cluster & Vadinar ship-repair facility approvals, July 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements about the National e-Vidhan Application (NeVA):\n1. It is implemented by the Ministry of Electronics and Information Technology.\n2. For most states, the project is funded on a 60:40 Centre–State cost-sharing basis.\n3. Maharashtra was the first state to fully implement NeVA.\nWhich of the statements given above is/are correct?",
+    "options": ["(a) 1 only", "(b) 2 only", "(c) 1 and 3 only", "(d) 2 and 3 only"],
+    "answer": "(b)",
+    "explanation": "NeVA is run by the Ministry of Parliamentary Affairs (not MeitY); funding is 60:40 (90:10 for NE/hill states); Nagaland, not Maharashtra, was first to fully implement it.",
+    "subject": "Polity & Governance",
+    "theme": "e-Governance and legislatures",
+    "micro_topic": "Maharashtra legislature adopting NeVA, July 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "The Indian Standard Meridian (82°30′E), which defines Indian Standard Time, passes close to which one of the following cities?",
+    "options": ["(a) Bhopal", "(b) Nagpur", "(c) Mirzapur", "(d) Patna"],
+    "answer": "(c)",
+    "explanation": "The 82°30′E standard meridian passes close to Mirzapur (UP) — the basis of IST (UTC+5:30).",
+    "subject": "Geography",
+    "theme": "Indian physical & locational geography",
+    "micro_topic": "Indian Standard Meridian and IST",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Consider the following statements about the Central Zoo Authority (CZA):\n1. It is a statutory body constituted under the Wild Life (Protection) Act, 1972.\n2. No zoo can operate in India without being recognised by the CZA.\n3. It is chaired by the Prime Minister.\nWhich of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(a)",
+    "explanation": "CZA is statutory under the Wild Life (Protection) Act, 1972 (1991 amendment) and its recognition is mandatory for zoos; it is chaired by the Union Environment Minister, not the PM.",
+    "subject": "Environment",
+    "theme": "Environmental institutions & governance",
+    "micro_topic": "Central Zoo Authority — composition and mandate",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  }
+]
