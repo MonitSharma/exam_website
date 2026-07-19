@@ -22,6 +22,9 @@ const SOURCES = [
   "app/shared.jsx",
   "app/tweaks-panel.jsx",
   "app/home.jsx",
+  "app/atlas-knowledge.js",
+  "app/atlas-news-data.js",
+  "app/atlas.jsx",
   "app/practice.jsx",
   "app/test.jsx",
   "app/results.jsx",
@@ -89,6 +92,7 @@ function copyStylesAndHtml() {
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=Hanken+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="vendor/katex/katex.min.css">
+  <link rel="stylesheet" href="vendor/leaflet/leaflet.css">
   <link rel="stylesheet" href="app/styles.css">
 </head>
 <body data-vibe="academic" data-qfont="serif" data-density="regular">
@@ -96,6 +100,7 @@ function copyStylesAndHtml() {
   <script src="https://unpkg.com/react@18.3.1/umd/react.production.min.js" crossorigin="anonymous"></script>
   <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js" crossorigin="anonymous"></script>
   <script src="vendor/katex/katex.min.js"></script>
+  <script src="vendor/leaflet/leaflet.js"></script>
   <script src="app/app.bundle.js"></script>
 </body>
 </html>
