@@ -1,0 +1,354 @@
+[
+  {
+    "question": "Passage: For most of the twentieth century a newly discovered antibiotic was received as a permanent addition to medicine's arsenal - a lock fitted to a door that would stay shut. The metaphor was comforting and wrong. Bacteria reproduce in minutes, carry their genes casually across species on small loops of DNA, and exist in numbers that make the improbable routine. Within a population of billions, a mutation that blunts a drug's effect will almost certainly already be present before the drug is ever administered. The antibiotic does not create that variant; it merely removes its competitors and hands it an empty field. Resistance, in other words, is not an accident that befalls a good drug but the predictable consequence of using one.\n\nThis reframing matters because it changes what counts as a solution. If resistance were a design flaw, better chemistry would answer it. But if resistance is the shadow cast by use itself, then every new compound arrives with an expiry date written into it, and the only variable we control is how quickly that date arrives. A drug reserved for the cases that truly require it may remain useful for decades; the same drug poured into livestock feed and dispensed for untroubled coughs may be exhausted in a few years. The scarce resource is not the molecule but its effectiveness, and effectiveness is spent every time the molecule is used.\n\nPublic policy has been slow to absorb this, partly because the costs are diffuse and delayed while the benefits of prescribing are immediate and personal. A physician who withholds an unnecessary course protects a stranger, years hence, from an infection that will never be traced back to that restraint. It is an unpromising basis for individual virtue, and a strong argument for treating antibiotic effectiveness the way we treat any commons that no single user has reason to conserve.\n\nQ. Which of the following best captures the central argument of the passage?",
+    "options": [
+      "(a) Pharmaceutical research has stagnated, and no genuinely new classes of antibiotics are being discovered.",
+      "(b) Because resistance is the predictable consequence of use rather than a defect of particular drugs, preserving effectiveness is a problem of governing shared use rather than of better chemistry.",
+      "(c) Physicians who over-prescribe are the principal cause of the resistance crisis and should bear the cost of it.",
+      "(d) Bacteria mutate deliberately in response to the drugs they encounter, which makes any medical countermeasure futile."
+    ],
+    "answer": "(b)",
+    "explanation": "The passage pivots on 'resistance is not an accident that befalls a good drug but the predictable consequence of using one' and closes by urging that effectiveness be treated as a commons. (a) is never claimed; (c) is one contributing factor, not the thesis; (d) misstates the biology, since the mutation pre-exists the drug.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Main idea - science/policy passage",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Passage: For most of the twentieth century a newly discovered antibiotic was received as a permanent addition to medicine's arsenal - a lock fitted to a door that would stay shut. The metaphor was comforting and wrong. Bacteria reproduce in minutes, carry their genes casually across species on small loops of DNA, and exist in numbers that make the improbable routine. Within a population of billions, a mutation that blunts a drug's effect will almost certainly already be present before the drug is ever administered. The antibiotic does not create that variant; it merely removes its competitors and hands it an empty field. Resistance, in other words, is not an accident that befalls a good drug but the predictable consequence of using one.\n\nThis reframing matters because it changes what counts as a solution. If resistance were a design flaw, better chemistry would answer it. But if resistance is the shadow cast by use itself, then every new compound arrives with an expiry date written into it, and the only variable we control is how quickly that date arrives. A drug reserved for the cases that truly require it may remain useful for decades; the same drug poured into livestock feed and dispensed for untroubled coughs may be exhausted in a few years. The scarce resource is not the molecule but its effectiveness, and effectiveness is spent every time the molecule is used.\n\nPublic policy has been slow to absorb this, partly because the costs are diffuse and delayed while the benefits of prescribing are immediate and personal. A physician who withholds an unnecessary course protects a stranger, years hence, from an infection that will never be traced back to that restraint. It is an unpromising basis for individual virtue, and a strong argument for treating antibiotic effectiveness the way we treat any commons that no single user has reason to conserve.\n\nQ. It can be inferred that the author would regard the discovery of a powerful new antibiotic as:",
+    "options": [
+      "(a) A lasting solution, provided the compound is chemically distinct from existing classes.",
+      "(b) Genuinely valuable, but self-consuming - its useful life determined less by its chemistry than by how sparingly it is deployed.",
+      "(c) Largely irrelevant, since resistance will emerge at the same rate regardless of how the drug is used.",
+      "(d) Harmful on balance, because any new drug accelerates the spread of resistance genes across species."
+    ],
+    "answer": "(b)",
+    "explanation": "'Every new compound arrives with an expiry date written into it, and the only variable we control is how quickly that date arrives.' The reserved-vs-poured contrast rules out (c); (a) and (d) are both overstatements the text does not support.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Inference",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Passage: For most of the twentieth century a newly discovered antibiotic was received as a permanent addition to medicine's arsenal - a lock fitted to a door that would stay shut. The metaphor was comforting and wrong. Bacteria reproduce in minutes, carry their genes casually across species on small loops of DNA, and exist in numbers that make the improbable routine. Within a population of billions, a mutation that blunts a drug's effect will almost certainly already be present before the drug is ever administered. The antibiotic does not create that variant; it merely removes its competitors and hands it an empty field. Resistance, in other words, is not an accident that befalls a good drug but the predictable consequence of using one.\n\nThis reframing matters because it changes what counts as a solution. If resistance were a design flaw, better chemistry would answer it. But if resistance is the shadow cast by use itself, then every new compound arrives with an expiry date written into it, and the only variable we control is how quickly that date arrives. A drug reserved for the cases that truly require it may remain useful for decades; the same drug poured into livestock feed and dispensed for untroubled coughs may be exhausted in a few years. The scarce resource is not the molecule but its effectiveness, and effectiveness is spent every time the molecule is used.\n\nPublic policy has been slow to absorb this, partly because the costs are diffuse and delayed while the benefits of prescribing are immediate and personal. A physician who withholds an unnecessary course protects a stranger, years hence, from an infection that will never be traced back to that restraint. It is an unpromising basis for individual virtue, and a strong argument for treating antibiotic effectiveness the way we treat any commons that no single user has reason to conserve.\n\nQ. The argument in the final paragraph rests most directly on the assumption that:",
+    "options": [
+      "(a) Physicians are generally indifferent to the welfare of their patients.",
+      "(b) Individuals cannot be relied upon to restrain their own use of a resource when the costs of that use are delayed and fall largely on others.",
+      "(c) Agricultural use of antibiotics is the single largest driver of resistance worldwide.",
+      "(d) Resistant infections can, with sufficient effort, be traced back to the particular prescriptions that produced them."
+    ],
+    "answer": "(b)",
+    "explanation": "Negation test: if individuals could be relied on to restrain use despite diffuse, delayed costs, the 'unpromising basis for individual virtue' line and the call for commons-style governance both collapse. (d) is explicitly denied ('never be traced back').",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Assumption",
+    "nature": "Aptitude",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Passage: A promise is a strange instrument. At the moment it is made, one person binds another person - himself, later - who has not been consulted and cannot object. The self who promised on Monday to rise early on Friday is not quite the self who must obey on Friday: he has different appetites, different information, perhaps different judgment. On what authority does the earlier bind the later?\n\nOne answer is that no such authority exists, and that keeping promises is merely prudent - we honour them because we wish to be trusted, and trust pays. But this account explains too little. It cannot say why a promise made to the dying, whose knowledge of our conduct has ended, retains its grip; nor why we feel the pull of promises whose breach no one would ever discover. Whatever binds us in these cases is not the anticipation of being seen.\n\nA more demanding view reverses the order of explanation. It is not that a continuous self exists first and then acquires the power to make promises; rather, the practice of holding oneself to yesterday's word is part of what makes a life something more than a sequence of loosely related episodes. To be a person, on this account, is largely to be answerable - to be the sort of creature whose past commitments have standing against present preference. The promise does not report a continuity already there; it manufactures it.\n\nThis has an uncomfortable implication. Each broken promise is not only a wrong done to another but a small dissolution of the promiser, a vote cast for the view that Monday's intentions have no claim on Friday. Fidelity, so understood, is less a decoration upon character than the material of which character is made - and unreliability less a lapse of will than a way of failing to be anyone in particular.\n\nQ. Which of the following best captures the central idea of the passage?",
+    "options": [
+      "(a) Promises are binding only to the extent that breaking them would damage one's reputation for trustworthiness.",
+      "(b) Since the self changes over time, obligations incurred in the past cannot reasonably bind a person in the present.",
+      "(c) Keeping promises does not merely presuppose a continuous self but helps constitute one, which is why a breach injures the promiser as well as the promisee.",
+      "(d) Moral philosophy has overstated the importance of promise-keeping relative to other virtues."
+    ],
+    "answer": "(c)",
+    "explanation": "The thesis appears in paragraphs 3-4: the promise 'does not report a continuity already there; it manufactures it', so a breach is 'a small dissolution of the promiser'. (a) is the prudential account the author rejects; (b) is the opening puzzle, not the answer.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Main idea - philosophical passage",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Passage: A promise is a strange instrument. At the moment it is made, one person binds another person - himself, later - who has not been consulted and cannot object. The self who promised on Monday to rise early on Friday is not quite the self who must obey on Friday: he has different appetites, different information, perhaps different judgment. On what authority does the earlier bind the later?\n\nOne answer is that no such authority exists, and that keeping promises is merely prudent - we honour them because we wish to be trusted, and trust pays. But this account explains too little. It cannot say why a promise made to the dying, whose knowledge of our conduct has ended, retains its grip; nor why we feel the pull of promises whose breach no one would ever discover. Whatever binds us in these cases is not the anticipation of being seen.\n\nA more demanding view reverses the order of explanation. It is not that a continuous self exists first and then acquires the power to make promises; rather, the practice of holding oneself to yesterday's word is part of what makes a life something more than a sequence of loosely related episodes. To be a person, on this account, is largely to be answerable - to be the sort of creature whose past commitments have standing against present preference. The promise does not report a continuity already there; it manufactures it.\n\nThis has an uncomfortable implication. Each broken promise is not only a wrong done to another but a small dissolution of the promiser, a vote cast for the view that Monday's intentions have no claim on Friday. Fidelity, so understood, is less a decoration upon character than the material of which character is made - and unreliability less a lapse of will than a way of failing to be anyone in particular.\n\nQ. The author's mention of promises made to the dying, and of breaches no one would ever discover, functions chiefly to:",
+    "options": [
+      "(a) Illustrate the practical difficulty of enforcing promises in the absence of witnesses.",
+      "(b) Show that the prudential account of promising cannot explain the binding force we in fact experience.",
+      "(c) Argue that promises made under emotional strain deserve special moral weight.",
+      "(d) Concede that some promises may legitimately be broken without wronging anyone."
+    ],
+    "answer": "(b)",
+    "explanation": "Both cases are ones in which reputation is irrelevant, and they follow immediately after 'But this account explains too little' - they are counter-examples to the trust-pays explanation.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Function of detail / inference",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Passage: A promise is a strange instrument. At the moment it is made, one person binds another person - himself, later - who has not been consulted and cannot object. The self who promised on Monday to rise early on Friday is not quite the self who must obey on Friday: he has different appetites, different information, perhaps different judgment. On what authority does the earlier bind the later?\n\nOne answer is that no such authority exists, and that keeping promises is merely prudent - we honour them because we wish to be trusted, and trust pays. But this account explains too little. It cannot say why a promise made to the dying, whose knowledge of our conduct has ended, retains its grip; nor why we feel the pull of promises whose breach no one would ever discover. Whatever binds us in these cases is not the anticipation of being seen.\n\nA more demanding view reverses the order of explanation. It is not that a continuous self exists first and then acquires the power to make promises; rather, the practice of holding oneself to yesterday's word is part of what makes a life something more than a sequence of loosely related episodes. To be a person, on this account, is largely to be answerable - to be the sort of creature whose past commitments have standing against present preference. The promise does not report a continuity already there; it manufactures it.\n\nThis has an uncomfortable implication. Each broken promise is not only a wrong done to another but a small dissolution of the promiser, a vote cast for the view that Monday's intentions have no claim on Friday. Fidelity, so understood, is less a decoration upon character than the material of which character is made - and unreliability less a lapse of will than a way of failing to be anyone in particular.\n\nQ. The tone of the passage is best described as:",
+    "options": [
+      "(a) Indignant and censorious.",
+      "(b) Detached and sceptical.",
+      "(c) Reflective and quietly demanding.",
+      "(d) Nostalgic and resigned."
+    ],
+    "answer": "(c)",
+    "explanation": "The author reasons through a puzzle rather than denouncing anyone (rules out (a)), reaches firm moral conclusions rather than withholding judgement (rules out (b)), and looks forward rather than back (rules out (d)).",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Tone",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Five doctors - P, Q, R, S and T - each visit a rural clinic on exactly one day from Monday to Friday, one doctor per day. R visits on the day immediately before T. P visits on a day earlier in the week than Q, but P does not visit on Monday. S visits on Wednesday. Who visits the clinic on Friday?",
+    "options": [
+      "(a) P",
+      "(b) Q",
+      "(c) T",
+      "(d) S"
+    ],
+    "answer": "(b)",
+    "explanation": "Number Mon=1 to Fri=5; S=3, so the consecutive (R,T) pair sits in {1,2} or {4,5}. If R=4, T=5 then P,Q take days 1 and 2, and P is not 1, so P=2 and Q=1 - violating P earlier than Q. So R=1, T=2 and P,Q take 4 and 5 with P=4, Q=5. Order: R-T-S-P-Q. Friday is Q.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Day-scheduling arrangement",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "On an island every inhabitant is either a truth-teller (always speaks the truth) or a liar (always speaks falsely). A says: 'B is a liar.' B says: 'A and C are of the same type.' C says: 'B is a truth-teller.' How many of the three are truth-tellers?",
+    "options": [
+      "(a) 0",
+      "(b) 1",
+      "(c) 2",
+      "(d) 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Assume A is truthful: B is a liar, so B's claim is false, so C differs from A, i.e. C is a liar; C's claim ('B is a truth-teller') is then false, confirming B is a liar - fully consistent. Assume A lies: B is truthful, so A and C are the same type, making C a liar; C's false claim implies B is a liar, contradicting B being truthful. Hence only A is truthful: exactly 1.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Truth-teller / liar puzzle",
+    "nature": "Aptitude",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Statements (treat as true even if they depart from commonly known facts): 1. No poet is a banker. 2. Some bankers are painters. Conclusions: I. Some painters are not poets. II. No painter is a poet. Which of the conclusions follows?",
+    "options": [
+      "(a) Only conclusion I",
+      "(b) Only conclusion II",
+      "(c) Both I and II",
+      "(d) Neither I nor II"
+    ],
+    "answer": "(a)",
+    "explanation": "Statement 2 guarantees at least one painter who is a banker; by Statement 1 no banker is a poet, so that painter is not a poet - I follows. II is stronger: painters outside the banker overlap may freely be poets, so II is only a possibility, not a certainty.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Syllogism - negative conclusion",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "In a certain code language, every letter of a word is replaced by the letter three places ahead of it in the English alphabet; however, if the letter so obtained is a vowel, it is replaced instead by the symbol '#'. In this code, how is the word MASTER written?",
+    "options": [
+      "(a) PDVWH#",
+      "(b) PDVWHU",
+      "(c) #DVWH#",
+      "(d) PDVW#U"
+    ],
+    "answer": "(a)",
+    "explanation": "Shifting +3: M->P, A->D, S->V, T->W, E->H, R->U. Only the resulting U is a vowel, so it alone becomes '#', giving PDVWH#. Option (b) ignores the exception; (c) wrongly applies the vowel test to the original letters; (d) applies it at the wrong position.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Conditional coding-decoding",
+    "nature": "Aptitude",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In a class of 120 students, 70 study French, 55 study German and 40 study Spanish. Further, 25 study both French and German, 18 study both German and Spanish, 22 study both French and Spanish, and 10 study all three languages. How many students study none of these three languages?",
+    "options": [
+      "(a) 5",
+      "(b) 10",
+      "(c) 15",
+      "(d) 20"
+    ],
+    "answer": "(b)",
+    "explanation": "Inclusion-exclusion: 70 + 55 + 40 - 25 - 18 - 22 + 10 = 165 - 65 + 10 = 110 study at least one. None = 120 - 110 = 10. Option (d) is the trap from omitting the final '+ all three' term.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Three-set Venn counting",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "In a certain library the following rules hold without exception: (i) If a book is in the reference section, it cannot be borrowed. (ii) Every book published before 1980 is in the reference section. (iii) Some books in the reference section were published after 2000. Which one of the following must be true?",
+    "options": [
+      "(a) No book published before 1980 can be borrowed.",
+      "(b) Every book that cannot be borrowed was published before 1980.",
+      "(c) No book published after 2000 is in the reference section.",
+      "(d) All books in the reference section were published before 1980."
+    ],
+    "answer": "(a)",
+    "explanation": "Chaining (ii) and (i): pre-1980 implies reference section implies not borrowable, so (a) must hold. (b) is the converse error, and rule (iii) supplies non-borrowable books published after 2000. (c) and (d) directly contradict rule (iii).",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "If-then rule deduction",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The table below shows, for one financial year, the number of venture funding deals closed and the total funding raised, in five sectors of a start-up ecosystem.\n\nSector | Deals | Total funding (Rs crore)\nFintech | 40 | 2,400\nHealthtech | 25 | 1,750\nEdtech | 30 | 1,200\nAgritech | 15 | 1,050\nLogistics | 20 | 1,600\n\nQ. Which sector recorded the highest average funding per deal?",
+    "options": [
+      "(a) Fintech",
+      "(b) Healthtech",
+      "(c) Agritech",
+      "(d) Logistics"
+    ],
+    "answer": "(d)",
+    "explanation": "Average per deal = total / deals: Fintech 2400/40 = 60; Healthtech 1750/25 = 70; Edtech 1200/30 = 40; Agritech 1050/15 = 70; Logistics 1600/20 = 80. Logistics is highest. Trap: Fintech has the largest total funding but only a mid-range average.",
+    "subject": "CSAT",
+    "theme": "DI",
+    "micro_topic": "Table - totals vs per-unit average",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The table below shows, for one financial year, the number of venture funding deals closed and the total funding raised, in five sectors of a start-up ecosystem.\n\nSector | Deals | Total funding (Rs crore)\nFintech | 40 | 2,400\nHealthtech | 25 | 1,750\nEdtech | 30 | 1,200\nAgritech | 15 | 1,050\nLogistics | 20 | 1,600\n\nQ. Consider the average funding per deal across all five sectors taken together. How many individual sectors have an average funding per deal higher than this overall figure?",
+    "options": [
+      "(a) 1",
+      "(b) 2",
+      "(c) 3",
+      "(d) 4"
+    ],
+    "answer": "(c)",
+    "explanation": "Overall total = 2400+1750+1200+1050+1600 = Rs 8,000 crore over 40+25+30+15+20 = 130 deals, i.e. about Rs 61.5 crore per deal. Above it: Healthtech (70), Agritech (70) and Logistics (80) - three sectors. Fintech at 60 falls just below, which is what decides the question.",
+    "subject": "CSAT",
+    "theme": "DI",
+    "micro_topic": "Weighted average comparison",
+    "nature": "Aptitude",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "A district hospital recorded 4,500 outpatient visits in a month. Of these, 40% went to General Medicine, 24% to Orthopaedics, 20% to Paediatrics, and the remainder to Dermatology. Of the patients seen, one-fourth of those in General Medicine, one-third of those in Orthopaedics, one-fifth of those in Paediatrics and three-eighths of those in Dermatology were referred for laboratory tests.\n\nQ. What was the total number of outpatients referred for laboratory tests that month?",
+    "options": [
+      "(a) 1,170",
+      "(b) 1,260",
+      "(c) 1,350",
+      "(d) 1,395"
+    ],
+    "answer": "(b)",
+    "explanation": "Department sizes: General Medicine 1800, Orthopaedics 1080, Paediatrics 900, Dermatology (the remaining 16%) 720 - which sum to 4500. Referrals: 1800/4 = 450; 1080/3 = 360; 900/5 = 180; 720 x 3/8 = 270. Total = 1,260.",
+    "subject": "CSAT",
+    "theme": "DI",
+    "micro_topic": "Caselet - percentage shares and fractions",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "A district hospital recorded 4,500 outpatient visits in a month. Of these, 40% went to General Medicine, 24% to Orthopaedics, 20% to Paediatrics, and the remainder to Dermatology. Of the patients seen, one-fourth of those in General Medicine, one-third of those in Orthopaedics, one-fifth of those in Paediatrics and three-eighths of those in Dermatology were referred for laboratory tests.\n\nQ. Which department accounted for the largest number of laboratory-test referrals?",
+    "options": [
+      "(a) General Medicine",
+      "(b) Orthopaedics",
+      "(c) Paediatrics",
+      "(d) Dermatology"
+    ],
+    "answer": "(a)",
+    "explanation": "Referral counts are 450, 360, 180 and 270, so General Medicine is largest. The trap is Dermatology, which has the highest referral rate (3/8 = 37.5% against 33.3%, 25% and 20%) but the smallest patient base, contributing only 270. Rate is not volume.",
+    "subject": "CSAT",
+    "theme": "DI",
+    "micro_topic": "Rate vs absolute count trap",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "You are the Sub-Divisional Magistrate. A contractor who has just completed a rural water-pipeline project - and whose final bill is pending your clearance - offers to fully sponsor the annual function of a local government school 'as a gesture of thanks to the administration', suggesting the event be held in your name. The school genuinely lacks funds for the function. What would be the most appropriate course of action?",
+    "options": [
+      "(a) Accept the offer, since the beneficiary is a government school and no money comes to you personally.",
+      "(b) Decline the offer in its present form, clear the bill strictly on technical merit, record the offer on file and inform your superior; advise the contractor that any contribution may be routed to the school through the prescribed channel once the contract is closed, without any association with your name.",
+      "(c) Refuse the offer curtly, and order a fresh inspection of the completed pipeline to signal that the contractor cannot influence you.",
+      "(d) Ask the contractor to route the sponsorship through a colleague's office so that no conflict of interest attaches to you."
+    ],
+    "answer": "(b)",
+    "explanation": "It removes the conflict of interest, protects the integrity of the bill assessment, creates a written record, and still leaves a legitimate route for the school to benefit - balanced, rule-abiding and empathetic. (a) accepts a benefit from a party with a pending claim, (c) misuses inspection powers punitively, and (d) merely disguises the conflict.",
+    "subject": "CSAT",
+    "theme": "Decision-Making",
+    "micro_topic": "Conflict of interest / integrity",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "You lead a small project team. A junior colleague, whose mother is critically ill, has been visibly distracted; his output has slipped in quality and a delivery on which three other teams depend is now at risk. He has not asked for leave and insists he is managing. What would you do?",
+    "options": [
+      "(a) Say nothing for now, quietly redo his work yourself, and hope the situation resolves before the deadline.",
+      "(b) Formally record the drop in performance and warn him that the deadline is his responsibility regardless of personal circumstances.",
+      "(c) Speak to him privately, acknowledge his situation and offer leave or a reduced load; redistribute the critical portion of his work with the team's agreement, and inform management promptly with a realistic revised timeline and mitigation plan.",
+      "(d) Escalate the matter to HR immediately so that the responsibility for handling it no longer rests with you."
+    ],
+    "answer": "(c)",
+    "explanation": "It is both empathetic and accountable: the human situation is handled privately, the deliverable is protected by consented redistribution, and management is honestly informed rather than left exposed. (a) conceals a known delivery risk, (b) is rigid and uncaring, and (d) abdicates a first-line manager's own responsibility.",
+    "subject": "CSAT",
+    "theme": "Decision-Making",
+    "micro_topic": "Team welfare vs delivery risk",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "You head a district office. A social-media post alleging that your office diverted relief material meant for flood-affected families has gone viral. Your preliminary check indicates the allegation is factually wrong - the consignment was rerouted to a neighbouring block on written orders - but public anger is rising and local representatives are demanding answers. What is the best response?",
+    "options": [
+      "(a) Ignore the post, on the ground that responding to unverified social media dignifies rumour.",
+      "(b) Issue a strongly worded statement threatening legal action against those circulating the allegation.",
+      "(c) Complete a rapid verification of the dispatch records, issue a clear factual clarification with consignment-wise figures, hold a meeting with the affected community and local representatives, and offer the records for independent inspection or audit.",
+      "(d) Direct subordinates to hold a press conference defending the office while you await instructions from higher authority."
+    ],
+    "answer": "(c)",
+    "explanation": "Verify first, then communicate with facts, engage the aggrieved directly and invite independent scrutiny - this rebuilds trust rather than merely asserting innocence. (a) lets a falsehood harden, (b) is intimidatory and worsens perception, and (d) is defensive posturing without verification.",
+    "subject": "CSAT",
+    "theme": "Decision-Making",
+    "micro_topic": "Public communication / transparency",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "A train 180 metres long, running at 54 km/h, crosses another train 120 metres long running in the opposite direction at 36 km/h. How long does it take for the two trains to cross each other completely?",
+    "options": [
+      "(a) 10 seconds",
+      "(b) 12 seconds",
+      "(c) 15 seconds",
+      "(d) 20 seconds"
+    ],
+    "answer": "(b)",
+    "explanation": "Opposite directions means speeds add: 54 + 36 = 90 km/h = 90 x 5/18 = 25 m/s. The distance to clear is 180 + 120 = 300 m, so the time is 300/25 = 12 seconds.",
+    "subject": "CSAT",
+    "theme": "Quant",
+    "micro_topic": "Relative speed - trains crossing",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The difference between the compound interest and the simple interest on a certain sum at 10% per annum for 3 years, interest compounded annually, is Rs 930. What is the sum?",
+    "options": [
+      "(a) Rs 25,000",
+      "(b) Rs 30,000",
+      "(c) Rs 31,000",
+      "(d) Rs 36,000"
+    ],
+    "answer": "(b)",
+    "explanation": "For 3 years the difference is P[(1+r)^3 - 1 - 3r]. With r = 0.10, (1.1)^3 = 1.331, so the difference is P(1.331 - 1.3) = 0.031P. Setting 0.031P = 930 gives P = Rs 30,000. Check: SI = 9,000 and CI = 9,930, a difference of 930. Option (c) is the trap from using the two-year factor 0.03.",
+    "subject": "CSAT",
+    "theme": "Quant",
+    "micro_topic": "Compound vs simple interest difference",
+    "nature": "Aptitude",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "A alone can complete a piece of work in 12 days and B alone in 18 days. They work on alternate days, with A working on the first day. In how many days will the work be completed?",
+    "options": [
+      "(a) 14 days",
+      "(b) 14 1/3 days",
+      "(c) 14 1/2 days",
+      "(d) 15 days"
+    ],
+    "answer": "(b)",
+    "explanation": "Let the work be LCM(12,18) = 36 units; A does 3 units a day and B does 2, so each A+B pair of days yields 5 units. Seven pairs = 14 days complete 35 units, leaving 1 unit. Day 15 is A's turn at 3 units a day, so the remainder takes 1/3 of a day: 14 1/3 days in all. Order matters - had B started, the remainder would have taken half a day.",
+    "subject": "CSAT",
+    "theme": "Quant",
+    "micro_topic": "Alternate-day work",
+    "nature": "Aptitude",
+    "difficulty": "Hard"
+  }
+]

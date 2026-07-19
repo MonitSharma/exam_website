@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the Investment Friendliness Index (IFI) 2026, consider the following statements:\n1. It was released by NITI Aayog and is the first index of its kind in India.\n2. It assesses States and Union Territories across eight pillars using 84 indicators.\n3. Among the major States, Gujarat secured the top rank.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "The IFI 2026 is NITI Aayog's first-ever investment friendliness index, covering 28 States and 8 UTs on 84 indicators across 8 pillars; Gujarat topped the major-States list with 56.6, ahead of Maharashtra (53.7) and Tamil Nadu (53.3).",
+    "subject": "Reports & Indices",
+    "theme": "Government Indices and Rankings",
+    "micro_topic": "NITI Aayog Investment Friendliness Index 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Consider the following statements regarding the Regional Connectivity Scheme – Modified UDAN approved in July 2026:\n1. It has been approved for a period of ten years from FY 2026-27 to FY 2035-36.\n2. Its scope has been extended beyond airports to include heliports and seaplanes.\n3. The entire outlay of the scheme is provided as viability gap funding to airline operators.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "The scheme runs FY 2026-27 to FY 2035-36 and covers heliports and seaplanes. Statement 3 is incorrect: of the total ₹28,840 crore outlay, ₹10,043 crore is viability gap funding while ₹12,159 crore is earmarked for developing 100 airports from unserved airstrips.",
+    "subject": "Economy",
+    "theme": "Infrastructure and Connectivity",
+    "micro_topic": "Regional Connectivity Scheme – Modified UDAN",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Corporate Average Fuel Economy (CAFE) norms, in the news recently, are framed under the administrative purview of which of the following?",
+    "options": [
+      "(a) Ministry of Road Transport and Highways, through the Central Motor Vehicles Rules only",
+      "(b) Ministry of Power, with the Bureau of Energy Efficiency as the implementing body",
+      "(c) Ministry of Environment, Forest and Climate Change, through the Central Pollution Control Board",
+      "(d) Ministry of Heavy Industries, through the Automotive Research Association of India"
+    ],
+    "answer": "(b)",
+    "explanation": "CAFE norms in India are framed by the Ministry of Power with the Bureau of Energy Efficiency, flowing from the Energy Conservation Act framework. The draft CAFE-III norms released in July 2026 apply to M1 passenger vehicles from FY 2027-28 to FY 2031-32.",
+    "subject": "Environment",
+    "theme": "Emission Standards and Energy Efficiency",
+    "micro_topic": "Draft CAFE-III Fuel Economy Norms",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]
