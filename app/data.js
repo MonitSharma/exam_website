@@ -274,6 +274,7 @@
   function normalizeQuestion(row, index, questionSet) {
     const answerOptions = Array.isArray(row.accepted_answer_options) ? row.accepted_answer_options : [];
     const answer = normalizeAnswerKey(row.answer_option || row.answer || row.answer_key || answerOptions[0] || "");
+    const questionParts = splitQuestionParts(row.question || row.stem || row.q || "", row.statements, row.tail);
     return {
       id: row.id || `${questionSet.id}_${index + 1}`,
       n: Number(row.question_number || row.source_question_number || index + 1),
@@ -283,15 +284,46 @@
       nature: row.nature || "",
       difficulty: row.difficulty || "Moderate",
       source: inferSource(row, questionSet),
-      stem: row.question || row.stem || "",
+      stem: questionParts.stem,
       passage: row.passage || "",
-      statements: Array.isArray(row.statements) ? row.statements : [],
-      tail: row.tail || "",
+      statements: questionParts.statements,
+      tail: questionParts.tail,
       options: normalizeOptions(row.options),
       answer,
       acceptedAnswers: (answerOptions.length ? answerOptions : [answer]).map(normalizeAnswerKey).filter(Boolean),
       explanation: row.explanation || "Explanation not available.",
     };
+  }
+
+  function splitQuestionParts(rawStem, rawStatements, rawTail) {
+    const providedStatements = Array.isArray(rawStatements)
+      ? rawStatements.map((item) => String(item || "").trim()).filter(Boolean)
+      : [];
+    const providedTail = String(rawTail || "").trim();
+    if (providedStatements.length) {
+      return {
+        stem: String(rawStem || "").trim(),
+        statements: providedStatements,
+        tail: providedTail,
+      };
+    }
+
+    const text = String(rawStem || "").replace(/\s+/g, " ").trim();
+    const firstStatement = text.search(/\b1\.\s+/);
+    if (firstStatement < 0) return { stem: text, statements: [], tail: providedTail };
+
+    const stem = text.slice(0, firstStatement).trim();
+    const rest = text.slice(firstStatement).trim();
+    const tailMatch = rest.match(/\s+(Which|How many|Select|Choose)\b[\s\S]*$/i);
+    const statementText = tailMatch ? rest.slice(0, tailMatch.index).trim() : rest;
+    const tail = tailMatch ? rest.slice(tailMatch.index).trim() : providedTail;
+    const statements = [...statementText.matchAll(/(?:^|\s)(\d+)\.\s+([\s\S]*?)(?=\s+\d+\.\s+|$)/g)]
+      .sort((a, b) => Number(a[1]) - Number(b[1]))
+      .map((match) => match[2].trim())
+      .filter(Boolean);
+
+    if (!stem || !statements.length) return { stem: text, statements: [], tail: providedTail };
+    return { stem, statements, tail };
   }
 
   function normalizeAnswerKey(value) {

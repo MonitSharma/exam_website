@@ -1,0 +1,104 @@
+[
+  {
+    "question": "With reference to the Puga Valley geothermal project commissioned in July 2026, consider the following statements:\n1. It is located in eastern Ladakh at an altitude of over 14,000 feet.\n2. The wells were drilled and commissioned by the ONGC Energy Centre.\n3. The geothermal heat at the site is associated with the Indus Suture Zone.\n4. It will support India's first 1 MW demonstration-scale geothermal power plant.\nHow many of the statements given above are correct?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) Only three",
+      "(d) All four"
+    ],
+    "answer": "(d)",
+    "explanation": "India's first and deepest twin geothermal wells (each about 1,000 m deep) were commissioned at Puga Valley, eastern Ladakh, above 14,000 ft, by the ONGC Energy Centre with Icelandic consultants ISOR. The heat source relates to the Indus Suture Zone from the Indian-Eurasian collision, and the wells will feed India's first 1 MW demonstration geothermal plant.",
+    "subject": "Environment",
+    "theme": "Renewable Energy and Climate Action",
+    "micro_topic": "Geothermal energy - Puga Valley, Ladakh",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "question_number": 1
+  },
+  {
+    "question": "Consider the following pairs of military exercises/engagements and their hosts or parent frameworks, in the news in July 2026:\n1. Exercise Pitch Black - Royal Australian Air Force\n2. Operation Southern Readiness 26-2 - Indian Navy, Southern Naval Command, Kochi\n3. Combined Task Force 154 - the training task force of the Combined Maritime Forces\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All three",
+      "(d) None"
+    ],
+    "answer": "(c)",
+    "explanation": "Pitch Black is the RAAF's biennial multinational air combat exercise, first held at Darwin in 1983; Operation Southern Readiness 26-2 is hosted by the Indian Navy at Southern Naval Command, Kochi (20-23 July 2026); and CTF 154 is the dedicated Training Task Force of the Combined Maritime Forces, under which the Kochi engagement is conducted.",
+    "subject": "Internal Security",
+    "theme": "Defence Exercises and Security Cooperation",
+    "micro_topic": "Exercise Pitch Black 2026 and Operation Southern Readiness",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "question_number": 2
+  },
+  {
+    "question": "The PAIMANA dashboard, whose quarterly update was released in July 2026, is associated with which one of the following?",
+    "options": [
+      "(a) Monitoring of groundwater levels and aquifer recharge by the Central Ground Water Board",
+      "(b) Tracking the performance of key infrastructure sectors through standardised indicators, by the Ministry of Statistics and Programme Implementation",
+      "(c) Real-time monitoring of centrally sponsored scheme fund transfers by the Department of Expenditure",
+      "(d) Assessment of States on ease of doing business by DPIIT"
+    ],
+    "answer": "(b)",
+    "explanation": "PAIMANA - Project Assessment, Infrastructure Monitoring & Analytics for Nation-building - is MoSPI's infrastructure performance dashboard. The July 2026 quarterly update added 44 new indicators, expanding the framework to 165 indicators.",
+    "subject": "Economy",
+    "theme": "Infrastructure and Data Governance",
+    "micro_topic": "PAIMANA infrastructure dashboard - MoSPI",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "question_number": 3
+  },
+  {
+    "question": "With reference to the Scheme for Promotion of Surface Coal/Lignite Gasification Projects, consider the following statements:\n\n1. It has a financial outlay of Rs 37,500 crore.\n2. It is expected to utilise nearly 75 MTPA of coal/lignite.\n3. It provides financial incentives of up to 20% of eligible plant and machinery cost.\n4. It is linked to the National Coal Gasification Mission target of 100 MT coal gasification capacity by 2030.\n\nHow many of the statements given above are correct?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) Only three",
+      "(d) All four"
+    ],
+    "answer": "(d)",
+    "explanation": "All four statements are correct; the Rs 37,500 crore scheme supports nearly 75 MTPA coal/lignite gasification with incentives up to 20% of eligible plant and machinery cost and contributes to the 100 MT by 2030 target.",
+    "subject": "Economy",
+    "theme": "Energy security",
+    "micro_topic": "Coal gasification incentive scheme",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "question_number": 4
+  },
+  {
+    "question": "Consider the following statements about Pumped Storage Projects (PSPs), recently mentioned by the Ministry of Power:\n\n1. PSPs can support grid stability by storing surplus energy during off-peak periods and supplying power during peak demand.\n2. CEA has reduced the DPR concurrence timeline for PSPs from 90 days to 50 days.\n3. India currently has 11 PSPs under construction with aggregate installed capacity of 15,870 MW.\n\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "PIB states that 11 PSPs aggregating 15,870 MW are under construction; PSPs provide long-duration storage and grid services; and CEA has reduced the DPR concurrence timeline from 90 to 50 days.",
+    "subject": "Environment",
+    "theme": "Renewable energy integration",
+    "micro_topic": "Pumped storage projects",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "question_number": 5
+  },
+  {
+    "question": "The NAKSHA pilot project, in the news, is best described as:",
+    "options": [
+      "(a) A land acquisition programme for creating urban industrial corridors",
+      "(b) A GIS-based urban land parcel mapping initiative under DILRMP",
+      "(c) A rural housing survey under PMAY-Gramin",
+      "(d) A satellite-based forest rights verification scheme under the Ministry of Tribal Affairs"
+    ],
+    "answer": "(b)",
+    "explanation": "NAKSHA is a GIS-based urban land parcel mapping initiative under the Digital India Land Records Modernization Programme; PIB clarified that it does not alter titles, acquire land or raise property taxes by itself.",
+    "subject": "Polity & Governance",
+    "theme": "Digital governance",
+    "micro_topic": "Urban land records mapping",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "question_number": 6
+  }
+]

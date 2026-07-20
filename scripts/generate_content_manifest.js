@@ -177,12 +177,26 @@ function parseMdQuestions(questionText) {
     const number = Number(match[1] || match[3]);
     const stem = cleanMarkdownInline(match[2] || match[4]);
     const optionBlock = match[5] || "";
+    const optionStart = optionBlock.search(/^\s*[-*]?\s*(?:\([a-dA-D]\)|[a-dA-D][).])\s+/m);
+    const preOptionBlock = optionStart >= 0 ? optionBlock.slice(0, optionStart) : optionBlock;
+    const statements = [];
+    const tailLines = [];
+    for (const line of preOptionBlock.split(/\r?\n/)) {
+      const trimmed = line.trim();
+      if (!trimmed || /^---+$/.test(trimmed)) continue;
+      const statement = trimmed.match(/^(?:[-*]\s*)?(\d+)\.\s+(.+)$/);
+      if (statement) {
+        statements.push(cleanMarkdownInline(statement[2]));
+      } else {
+        tailLines.push(cleanMarkdownInline(trimmed));
+      }
+    }
     const options = [...optionBlock.matchAll(/^\s*[-*]?\s*(?:\(([a-dA-D])\)|([a-dA-D])[).])\s+(.+)$/gm)]
       .map((item) => ({
         key: String(item[1] || item[2]).toLowerCase(),
         text: cleanMarkdownInline(item[3]),
       }));
-    return { number, stem, options };
+    return { number, stem, statements, tail: tailLines.join(" "), options };
   }).filter((item) => item.number && item.stem && item.options.length);
 }
 
@@ -242,6 +256,8 @@ function parseDailyRcMarkdown(absPath, isoDate) {
       question_number: item.number,
       passage,
       question: item.stem,
+      statements: item.statements,
+      tail: item.tail,
       options: item.options,
       answer: answer.answer,
       explanation: answer.explanation || "Explanation not available.",
@@ -268,6 +284,8 @@ function parseWeeklyQuizMarkdown(absPath, isoDate) {
       id: `weekly_quiz_${dateSlug(isoDate)}_${item.number}`,
       question_number: item.number,
       question: item.stem,
+      statements: item.statements,
+      tail: item.tail,
       options: item.options,
       answer: answer.answer,
       explanation: answer.explanation || "Explanation not available.",

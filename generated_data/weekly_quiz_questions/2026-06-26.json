@@ -3,6 +3,12 @@
     "id": "weekly_quiz_2026_06_26_1",
     "question_number": 1,
     "question": "With reference to the RBI's record surplus transfer of Rs 2.87 lakh crore to the Centre for FY26, consider the following statements:",
+    "statements": [
+      "It is the highest-ever surplus transfer made by the RBI.",
+      "The transferable surplus is decided under the Economic Capital Framework, based on the Bimal Jalan Committee's recommendations.",
+      "This surplus is automatically shared with the States through the divisible pool under the Finance Commission's formula."
+    ],
+    "tail": "How many statements are correct?",
     "options": [
       {
         "key": "a",
@@ -34,6 +40,8 @@
     "id": "weekly_quiz_2026_06_26_2",
     "question_number": 2,
     "question": "The National Statistical Commission (NSC), reconstituted in June 2026, is best described as a:",
+    "statements": [],
+    "tail": "",
     "options": [
       {
         "key": "a",
@@ -65,6 +73,12 @@
     "id": "weekly_quiz_2026_06_26_3",
     "question_number": 3,
     "question": "With reference to the Reciprocal Exchange of Logistics Agreement (RELOS), operationalised in June 2026, consider the following statements:",
+    "statements": [
+      "It is a logistics-support agreement between India and Russia.",
+      "It allows either country to establish permanent military bases on the other's territory.",
+      "It belongs to the same family of agreements as LEMOA, signed by India with the United States."
+    ],
+    "tail": "How many statements are correct?",
     "options": [
       {
         "key": "a",
@@ -96,6 +110,12 @@
     "id": "weekly_quiz_2026_06_26_4",
     "question_number": 4,
     "question": "Consider the following statements regarding El Niño / ENSO, in the news in June 2026:",
+    "statements": [
+      "NOAA issued an El Niño Advisory, with conditions expected to strengthen into the winter of 2026–27.",
+      "El Niño is generally associated with the suppression of the Indian southwest monsoon.",
+      "The \"Southern Oscillation\" refers to the see-saw of atmospheric pressure between the eastern and western tropical Pacific."
+    ],
+    "tail": "How many statements are correct?",
     "options": [
       {
         "key": "a",
@@ -127,6 +147,8 @@
     "id": "weekly_quiz_2026_06_26_5",
     "question_number": 5,
     "question": "The India–UK Comprehensive Economic and Trade Agreement (CETA), in news in June 2026:",
+    "statements": [],
+    "tail": "",
     "options": [
       {
         "key": "a",
@@ -158,6 +180,12 @@
     "id": "weekly_quiz_2026_06_26_6",
     "question_number": 6,
     "question": "With reference to the eight Ladakh handicraft products granted GI tags in June 2026, consider the following:",
+    "statements": [
+      "Geographical Indications in India are registered under the Geographical Indications of Goods (Registration and Protection) Act, 1999.",
+      "A registered GI is valid for 10 years and is renewable.",
+      "India's first GI tag was granted to Darjeeling Tea."
+    ],
+    "tail": "How many statements are correct?",
     "options": [
       {
         "key": "a",
@@ -189,6 +217,8 @@
     "id": "weekly_quiz_2026_06_26_7",
     "question_number": 7,
     "question": "The Money Restoration Module (MRM) and the Grievance Redressal Mechanism (GRM), launched in 2026 to help cyber-fraud victims, are initiatives of the:",
+    "statements": [],
+    "tail": "",
     "options": [
       {
         "key": "a",
@@ -220,6 +250,12 @@
     "id": "weekly_quiz_2026_06_26_8",
     "question_number": 8,
     "question": "With reference to ship recycling, in news in June 2026, consider the following:",
+    "statements": [
+      "Per UNCTAD's *Review of Maritime Transport 2025*, India became the world's No.1 ship-recycling nation in 2025.",
+      "India's principal ship-recycling hub is at Alang, Gujarat.",
+      "India's domestic law giving effect to the Hong Kong Convention is the Recycling of Ships Act, 2019."
+    ],
+    "tail": "How many statements are correct?",
     "options": [
       {
         "key": "a",
@@ -251,6 +287,12 @@
     "id": "weekly_quiz_2026_06_26_9",
     "question_number": 9,
     "question": "Regarding the two expert panels central to the Western Ghats Eco-Sensitive Area question, consider the following:",
+    "statements": [
+      "The Gadgil Committee (WGEEP, 2011) recommended that the entire Western Ghats be treated as an Ecologically Sensitive Area.",
+      "The Kasturirangan Committee (HLWG, 2013) recommended that about 37% of the Western Ghats be designated as ESA.",
+      "ESAs in the Western Ghats are notified under the Environment (Protection) Act, 1986."
+    ],
+    "tail": "How many statements are correct?",
     "options": [
       {
         "key": "a",
@@ -282,6 +324,12 @@
     "id": "weekly_quiz_2026_06_26_10",
     "question_number": 10,
     "question": "Consider the following statements regarding India and the Financial Action Task Force (FATF), in news in June 2026:",
+    "statements": [
+      "India secured the FATF Vice-Presidency for the first time.",
+      "FATF is headquartered in Paris.",
+      "India became a member of FATF in 2010."
+    ],
+    "tail": "How many statements are correct?",
     "options": [
       {
         "key": "a",
@@ -313,6 +361,8 @@
     "id": "weekly_quiz_2026_06_26_11",
     "question_number": 11,
     "question": "Fibre-optic drones, recently in the news, are valued in modern warfare mainly because they:",
+    "statements": [],
+    "tail": "",
     "options": [
       {
         "key": "a",
@@ -344,6 +394,8 @@
     "id": "weekly_quiz_2026_06_26_12",
     "question_number": 12,
     "question": "Rakhigarhi, in news in June 2026 for the transfer of skeletal remains to the Anthropological Survey of India for ancient-DNA study, is:",
+    "statements": [],
+    "tail": "",
     "options": [
       {
         "key": "a",
@@ -375,6 +427,8 @@
     "id": "weekly_quiz_2026_06_26_13",
     "question_number": 13,
     "question": "The major outbreak of the Revolt of 1857 began on 10 May 1857 at:",
+    "statements": [],
+    "tail": "",
     "options": [
       {
         "key": "a",
@@ -406,6 +460,12 @@
     "id": "weekly_quiz_2026_06_26_14",
     "question_number": 14,
     "question": "With reference to the Partition of Bengal, consider the following statements:",
+    "statements": [
+      "It was carried out in 1905 during the viceroyalty of Lord Curzon.",
+      "It triggered the Swadeshi and Boycott movement.",
+      "The partition was annulled in 1911."
+    ],
+    "tail": "How many statements are correct?",
     "options": [
       {
         "key": "a",
@@ -437,6 +497,8 @@
     "id": "weekly_quiz_2026_06_26_15",
     "question_number": 15,
     "question": "The first session of the Indian National Congress (1885) was:",
+    "statements": [],
+    "tail": "",
     "options": [
       {
         "key": "a",
@@ -468,6 +530,13 @@
     "id": "weekly_quiz_2026_06_26_16",
     "question_number": 16,
     "question": "Arrange the following Gandhian movements in correct chronological order:",
+    "statements": [
+      "Kheda Satyagraha",
+      "Champaran Satyagraha",
+      "Dandi March (Salt Satyagraha)",
+      "Quit India Movement"
+    ],
+    "tail": "",
     "options": [
       {
         "key": "a",
@@ -499,6 +568,8 @@
     "id": "weekly_quiz_2026_06_26_17",
     "question_number": 17,
     "question": "Separate electorates for Muslims were introduced for the first time by which of the following?",
+    "statements": [],
+    "tail": "",
     "options": [
       {
         "key": "a",
@@ -530,6 +601,8 @@
     "id": "weekly_quiz_2026_06_26_18",
     "question_number": 18,
     "question": "The Arya Samaj was founded in 1875 by:",
+    "statements": [],
+    "tail": "",
     "options": [
       {
         "key": "a",
@@ -561,6 +634,8 @@
     "id": "weekly_quiz_2026_06_26_19",
     "question_number": 19,
     "question": "At which session of the Indian National Congress was the resolution of \"Purna Swaraj\" (complete independence) adopted, with 26 January 1930 to be observed as Independence Day?",
+    "statements": [],
+    "tail": "",
     "options": [
       {
         "key": "a",
@@ -592,6 +667,8 @@
     "id": "weekly_quiz_2026_06_26_20",
     "question_number": 20,
     "question": "The Ghadar Party, formed in 1913, was established at:",
+    "statements": [],
+    "tail": "",
     "options": [
       {
         "key": "a",

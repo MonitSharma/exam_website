@@ -3,6 +3,8 @@
     "id": "weekly_quiz_2026_07_17_1",
     "question_number": 1,
     "question": "In 2026, West Bengal became the last major State/UT to implement Ayushman Bharat PM-JAY, completing its nationwide rollout. This made West Bengal the:",
+    "statements": [],
+    "tail": "",
     "options": [
       {
         "key": "a",
@@ -34,6 +36,12 @@
     "id": "weekly_quiz_2026_07_17_2",
     "question_number": 2,
     "question": "With reference to the Astra Mk-1, in the news in July 2026, consider the following statements:",
+    "statements": [
+      "It is India's first indigenously developed beyond-visual-range air-to-air missile.",
+      "It is developed by the DRDO and manufactured by Bharat Dynamics Limited.",
+      "Indonesia became its first foreign buyer."
+    ],
+    "tail": "Which of the statements given above are correct?",
     "options": [
       {
         "key": "a",
@@ -65,6 +73,8 @@
     "id": "weekly_quiz_2026_07_17_3",
     "question_number": 3,
     "question": "The Aastha Van Sanrakshan Yojana (AVSY), approved by the 7th National CAMPA Governing Body in July 2026, is intended for the:",
+    "statements": [],
+    "tail": "",
     "options": [
       {
         "key": "a",
@@ -96,6 +106,12 @@
     "id": "weekly_quiz_2026_07_17_4",
     "question_number": 4,
     "question": "Consider the following statements about the India–New Zealand relationship, as advanced during PM Modi's July 2026 visit:",
+    "statements": [
+      "The two sides elevated their ties to a Strategic Partnership.",
+      "It was the first visit by an Indian Prime Minister to New Zealand in four decades.",
+      "They adopted a \"Roadmap to 2030\" and concluded a Free Trade Agreement."
+    ],
+    "tail": "Which of the statements given above are correct?",
     "options": [
       {
         "key": "a",
@@ -127,6 +143,8 @@
     "id": "weekly_quiz_2026_07_17_5",
     "question_number": 5,
     "question": "The Supreme Court's July 2026 ruling recognising the \"right to walk\" on safe, demarcated footpaths as a Fundamental Right derived it primarily from:",
+    "statements": [],
+    "tail": "",
     "options": [
       {
         "key": "a",
@@ -158,6 +176,8 @@
     "id": "weekly_quiz_2026_07_17_6",
     "question_number": 6,
     "question": "In July 2026, China imposed a temporary export ban on which commodity, citing conflict in West Asia and the risk of global shortages — a move with direct implications for ISRO's launch programme and India's semiconductor push?",
+    "statements": [],
+    "tail": "",
     "options": [
       {
         "key": "a",
@@ -189,6 +209,8 @@
     "id": "weekly_quiz_2026_07_17_7",
     "question_number": 7,
     "question": "The Index of Services Production (ISP), launched on a trial basis in July 2026, is best described as:",
+    "statements": [],
+    "tail": "",
     "options": [
       {
         "key": "a",
@@ -220,6 +242,12 @@
     "id": "weekly_quiz_2026_07_17_8",
     "question_number": 8,
     "question": "With reference to the India–UK CETA, which entered into force on 15 July 2026, consider the following statements:",
+    "statements": [
+      "The UK eliminated import duties on about 99% of Indian tariff lines from the date of entry into force.",
+      "India eliminated import duties on all UK goods immediately.",
+      "Under the Double Contribution Convention, Indian professionals on temporary UK assignments are exempt from UK social-security contributions for up to five years."
+    ],
+    "tail": "Which of the statements given above are correct?",
     "options": [
       {
         "key": "a",
@@ -251,6 +279,8 @@
     "id": "weekly_quiz_2026_07_17_9",
     "question_number": 9,
     "question": "Vikram-1, in the news in July 2026 for its maiden orbital attempt (Mission *Aagaman*), is:",
+    "statements": [],
+    "tail": "",
     "options": [
       {
         "key": "a",
@@ -282,6 +312,8 @@
     "id": "weekly_quiz_2026_07_17_10",
     "question_number": 10,
     "question": "Which State recently became the first in India to enact a law granting women farmers independent legal recognition, delinked from land ownership?",
+    "statements": [],
+    "tail": "",
     "options": [
       {
         "key": "a",
@@ -313,6 +345,8 @@
     "id": "weekly_quiz_2026_07_17_11",
     "question_number": 11,
     "question": "The \"SHANTI\" vision unveiled by India in July 2026 is associated with:",
+    "statements": [],
+    "tail": "",
     "options": [
       {
         "key": "a",
@@ -344,6 +378,8 @@
     "id": "weekly_quiz_2026_07_17_12",
     "question_number": 12,
     "question": "The National Investment Policy for Urea (NIPU-2026), cleared by the Cabinet in July 2026, seeks primarily to:",
+    "statements": [],
+    "tail": "",
     "options": [
       {
         "key": "a",
@@ -375,6 +411,12 @@
     "id": "weekly_quiz_2026_07_17_13",
     "question_number": 13,
     "question": "Consider the following statements about sacred groves in India:",
+    "statements": [
+      "They are an example of in-situ conservation of biodiversity.",
+      "They can be notified as Community Reserves under the Wild Life (Protection) Act, 1972.",
+      "\"Orans,\" \"Kavu\" and \"Sarna\" are regional names for such groves."
+    ],
+    "tail": "Which of the statements given above are correct?",
     "options": [
       {
         "key": "a",
@@ -406,6 +448,8 @@
     "id": "weekly_quiz_2026_07_17_14",
     "question_number": 14,
     "question": "With reference to the Compensatory Afforestation Fund (managed by CAMPA), it is financed chiefly by:",
+    "statements": [],
+    "tail": "",
     "options": [
       {
         "key": "a",
@@ -437,6 +481,8 @@
     "id": "weekly_quiz_2026_07_17_15",
     "question_number": 15,
     "question": "The Kigali Amendment to the Montreal Protocol relates to the phase-down of which class of substances?",
+    "statements": [],
+    "tail": "",
     "options": [
       {
         "key": "a",
@@ -468,6 +514,12 @@
     "id": "weekly_quiz_2026_07_17_16",
     "question_number": 16,
     "question": "Consider the following statements about the Gangetic River Dolphin:",
+    "statements": [
+      "It is India's National Aquatic Animal.",
+      "It is listed in Schedule I of the Wildlife (Protection) Act, 1972.",
+      "It is functionally blind and relies on echolocation."
+    ],
+    "tail": "Which of the statements given above are correct?",
     "options": [
       {
         "key": "a",
@@ -499,6 +551,13 @@
     "id": "weekly_quiz_2026_07_17_17",
     "question_number": 17,
     "question": "With reference to in-situ and ex-situ conservation, which of the following are examples of *ex-situ* conservation?",
+    "statements": [
+      "Biosphere reserves",
+      "Botanical gardens",
+      "Seed banks / gene banks",
+      "Wildlife sanctuaries"
+    ],
+    "tail": "Select the correct answer using the code below:",
     "options": [
       {
         "key": "a",
@@ -530,6 +589,12 @@
     "id": "weekly_quiz_2026_07_17_18",
     "question_number": 18,
     "question": "Which of the following statements about wetlands and the Ramsar Convention is/are correct?",
+    "statements": [
+      "The Ramsar Convention is an intergovernmental treaty for the conservation and wise use of wetlands.",
+      "A wetland of international importance designated under the Convention is added to the \"Montreux Record\" only when its ecological character is threatened.",
+      "India's wetlands are regulated domestically under the Wetlands (Conservation and Management) Rules, 2017."
+    ],
+    "tail": "Select the correct answer:",
     "options": [
       {
         "key": "a",
@@ -561,6 +626,8 @@
     "id": "weekly_quiz_2026_07_17_19",
     "question_number": 19,
     "question": "The \"nine planetary boundaries\" framework — several of which are now breached — was originally proposed by a group of Earth-system scientists. Which of the following is NOT one of the nine planetary boundaries?",
+    "statements": [],
+    "tail": "",
     "options": [
       {
         "key": "a",
@@ -592,6 +659,12 @@
     "id": "weekly_quiz_2026_07_17_20",
     "question_number": 20,
     "question": "Consider the following pairs of animal species and their prime habitat/State associations:",
+    "statements": [
+      "Asiatic Lion — Gir (Gujarat)",
+      "One-horned Rhinoceros — Kaziranga (Assam)",
+      "Snow Leopard — Sundarbans (West Bengal)"
+    ],
+    "tail": "How many of the pairs given above are correctly matched?",
     "options": [
       {
         "key": "a",

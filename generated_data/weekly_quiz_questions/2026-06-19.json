@@ -3,6 +3,12 @@
     "id": "weekly_quiz_2026_06_19_1",
     "question_number": 1,
     "question": "Regarding PM Modi's June 2026 visit to Slovakia, consider the following statements:",
+    "statements": [
+      "It was the first-ever visit by an Indian Prime Minister to Slovakia.",
+      "Bilateral ties were elevated to a \"Comprehensive Partnership.\"",
+      "Slovakia conferred on the PM its highest civilian honour, the Order of the White Double Cross."
+    ],
+    "tail": "How many of the statements given above are correct?",
     "options": [
       {
         "key": "a",
@@ -34,6 +40,12 @@
     "id": "weekly_quiz_2026_06_19_2",
     "question_number": 2,
     "question": "With reference to DRDO's June 2026 flight tests, consider the following:",
+    "statements": [
+      "AD-1 and AD-2 are interceptors of India's Phase-II Ballistic Missile Defence programme.",
+      "NASM-MR, tested in the same window, is a naval anti-ship missile.",
+      "The tests were carried out from the Integrated Test Range, Chandipur (Odisha)."
+    ],
+    "tail": "How many of the statements given above are correct?",
     "options": [
       {
         "key": "a",
@@ -65,6 +77,8 @@
     "id": "weekly_quiz_2026_06_19_3",
     "question_number": 3,
     "question": "India was reported this week to have achieved 20% ethanol blending (E20) in petrol. This is significant primarily because:",
+    "statements": [],
+    "tail": "",
     "options": [
       {
         "key": "a",
@@ -96,6 +110,8 @@
     "id": "weekly_quiz_2026_06_19_4",
     "question_number": 4,
     "question": "The *State of India's Environment 2026* report (CSE / Down To Earth) warned that how many of the nine planetary boundaries have now been breached?",
+    "statements": [],
+    "tail": "",
     "options": [
       {
         "key": "a",
@@ -127,6 +143,12 @@
     "id": "weekly_quiz_2026_06_19_5",
     "question_number": 5,
     "question": "In *Shishu Pal v. Surjeet* (2026), the Supreme Court — which called homemakers \"nation builders\" — did which of the following?",
+    "statements": [
+      "Created a distinct motor-accident compensation head called \"Loss of Domestic Care.\"",
+      "Fixed a notional monthly income benchmark of Rs 30,000 for valuing homemakers' work.",
+      "Relied on the National Statistical Office's Time Use Survey, 2019."
+    ],
+    "tail": "Select the correct answer:",
     "options": [
       {
         "key": "a",
@@ -158,6 +180,12 @@
     "id": "weekly_quiz_2026_06_19_6",
     "question_number": 6,
     "question": "With reference to the Global Peace Index (GPI) 2026, consider the following statements:",
+    "statements": [
+      "It is published by the Institute for Economics and Peace (IEP).",
+      "Iceland was ranked the world's most peaceful country.",
+      "India was ranked among the top 50 most peaceful countries."
+    ],
+    "tail": "Which of the statements given above are correct?",
     "options": [
       {
         "key": "a",
@@ -189,6 +217,8 @@
     "id": "weekly_quiz_2026_06_19_7",
     "question_number": 7,
     "question": "The southwest monsoon of 2026 set in over Kerala on 4 June. Relative to the normal onset date, this was:",
+    "statements": [],
+    "tail": "",
     "options": [
       {
         "key": "a",
@@ -220,6 +250,8 @@
     "id": "weekly_quiz_2026_06_19_8",
     "question_number": 8,
     "question": "In June 2026 the government temporarily blocked a messaging application (Telegram) ahead of the NEET-UG re-exam. The legal power used for such blocking of online content is found in:",
+    "statements": [],
+    "tail": "",
     "options": [
       {
         "key": "a",
@@ -251,6 +283,12 @@
     "id": "weekly_quiz_2026_06_19_9",
     "question_number": 9,
     "question": "Regarding India's price indices in the news this week, consider the following statements:",
+    "statements": [
+      "The Wholesale Price Index (WPI) has shifted to a new base year of 2022-23.",
+      "India has begun introducing a Producer Price Index (PPI), which — unlike the WPI — covers services.",
+      "The WPI is compiled by the National Statistical Office (NSO)."
+    ],
+    "tail": "Which of the statements given above are correct?",
     "options": [
       {
         "key": "a",
@@ -282,6 +320,8 @@
     "id": "weekly_quiz_2026_06_19_10",
     "question_number": 10,
     "question": "UNICEF's Children's Climate Risk Report 2026 was notable this week for highlighting that:",
+    "statements": [],
+    "tail": "",
     "options": [
       {
         "key": "a",
@@ -313,6 +353,12 @@
     "id": "weekly_quiz_2026_06_19_11",
     "question_number": 11,
     "question": "With reference to the SVAMITVA scheme, in the news during the Panchayati Raj review this week, consider the following statements:",
+    "statements": [
+      "It uses drone-based surveys of inhabited (*abadi*) rural areas.",
+      "It is implemented by the Ministry of Panchayati Raj.",
+      "The property cards it issues can improve access to institutional credit."
+    ],
+    "tail": "Which of the statements given above are correct?",
     "options": [
       {
         "key": "a",
@@ -344,6 +390,8 @@
     "id": "weekly_quiz_2026_06_19_12",
     "question_number": 12,
     "question": "Four products — Bhagaiya silk, Kuchai silk, Munda jewellery and bamboo craft — received Geographical Indication (GI) tags this week. They belong to which state?",
+    "statements": [],
+    "tail": "",
     "options": [
       {
         "key": "a",
@@ -375,6 +423,12 @@
     "id": "weekly_quiz_2026_06_19_13",
     "question_number": 13,
     "question": "With reference to the Cash Reserve Ratio (CRR) and Statutory Liquidity Ratio (SLR), consider the following statements:",
+    "statements": [
+      "CRR is the portion of deposits that banks must keep as reserves with the RBI.",
+      "SLR can be maintained by a bank in the form of cash, gold or approved securities held by itself.",
+      "An increase in the CRR increases the lending capacity of commercial banks."
+    ],
+    "tail": "Which of the statements given above are correct?",
     "options": [
       {
         "key": "a",
@@ -406,6 +460,8 @@
     "id": "weekly_quiz_2026_06_19_14",
     "question_number": 14,
     "question": "In the RBI's Liquidity Adjustment Facility (LAF) corridor, which of the following is correctly described?",
+    "statements": [],
+    "tail": "",
     "options": [
       {
         "key": "a",
@@ -437,6 +493,8 @@
     "id": "weekly_quiz_2026_06_19_15",
     "question_number": 15,
     "question": "The primary deficit in the Union Budget is best defined as:",
+    "statements": [],
+    "tail": "",
     "options": [
       {
         "key": "a",
@@ -468,6 +526,8 @@
     "id": "weekly_quiz_2026_06_19_16",
     "question_number": 16,
     "question": "Gross National Product (GNP) differs from Gross Domestic Product (GDP) in that GNP:",
+    "statements": [],
+    "tail": "",
     "options": [
       {
         "key": "a",
@@ -499,6 +559,12 @@
     "id": "weekly_quiz_2026_06_19_17",
     "question_number": 17,
     "question": "With reference to money supply in India, \"narrow money\" (M1) includes which of the following?",
+    "statements": [
+      "Currency with the public",
+      "Demand deposits with the banking system",
+      "Time (term) deposits with the banking system"
+    ],
+    "tail": "Select the correct answer:",
     "options": [
       {
         "key": "a",
@@ -530,6 +596,8 @@
     "id": "weekly_quiz_2026_06_19_18",
     "question_number": 18,
     "question": "Which one of the following is a direct tax?",
+    "statements": [],
+    "tail": "",
     "options": [
       {
         "key": "a",
@@ -561,6 +629,12 @@
     "id": "weekly_quiz_2026_06_19_19",
     "question_number": 19,
     "question": "In India's Balance of Payments, which of the following is recorded under the current account?",
+    "statements": [
+      "Exports and imports of goods (merchandise trade)",
+      "Income from investments such as interest and dividends",
+      "Foreign Direct Investment (FDI)"
+    ],
+    "tail": "Select the correct answer:",
     "options": [
       {
         "key": "a",
@@ -592,6 +666,8 @@
     "id": "weekly_quiz_2026_06_19_20",
     "question_number": 20,
     "question": "The Fiscal Responsibility and Budget Management (FRBM) Act, which sets targets for the Centre's fiscal and revenue deficits, was enacted in:",
+    "statements": [],
+    "tail": "",
     "options": [
       {
         "key": "a",

@@ -12,6 +12,42 @@
   ],
   "questionSets": [
     {
+      "id": "daily_questions_2026_07_20",
+      "label": "Daily Questions - 20 Jul 2026",
+      "shortLabel": "Daily 20 Jul",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-07-20.json",
+      "isoDate": "2026-07-20",
+      "subjects": [
+        "Reports & Indices",
+        "Polity & Governance",
+        "Science & Technology",
+        "Geography",
+        "Art & Culture"
+      ]
+    },
+    {
+      "id": "daily_questions_2026_07_19",
+      "label": "Daily Questions - 19 Jul 2026",
+      "shortLabel": "Daily 19 Jul",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-07-19.json",
+      "isoDate": "2026-07-19",
+      "subjects": [
+        "Economy",
+        "Polity & Governance",
+        "Environment",
+        "Geography",
+        "Science & Technology"
+      ]
+    },
+    {
       "id": "daily_questions_2026_07_18",
       "label": "Daily Questions - 18 Jul 2026",
       "shortLabel": "Daily 18 Jul",
@@ -946,6 +982,39 @@
       ]
     },
     {
+      "id": "pib_questions_2026_07_20",
+      "label": "PIB Questions - 20 Jul 2026",
+      "shortLabel": "PIB 20 Jul",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 6,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-07-20.json",
+      "isoDate": "2026-07-20",
+      "subjects": [
+        "Environment",
+        "Internal Security",
+        "Economy",
+        "Polity & Governance"
+      ]
+    },
+    {
+      "id": "pib_questions_2026_07_19",
+      "label": "PIB Questions - 19 Jul 2026",
+      "shortLabel": "PIB 19 Jul",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-07-19.json",
+      "isoDate": "2026-07-19",
+      "subjects": [
+        "Reports & Indices",
+        "Economy",
+        "Environment"
+      ]
+    },
+    {
       "id": "pib_questions_2026_07_18",
       "label": "PIB Questions - 18 Jul 2026",
       "shortLabel": "PIB 18 Jul",
@@ -1869,6 +1938,23 @@
       ]
     },
     {
+      "id": "csat_practice_2026_07_19",
+      "label": "CSAT Practice - 19 Jul 2026",
+      "shortLabel": "CSAT Practice 19 Jul",
+      "category": "CSAT Practice",
+      "sourceType": "csat",
+      "questionCount": 22,
+      "durationMinutes": 35,
+      "path": "generated_data/csat_questions/2026-07-19.json",
+      "isoDate": "2026-07-19",
+      "paper": "GS Paper II (CSAT)",
+      "marksPerCorrect": 2,
+      "negativeMark": -0.66,
+      "subjects": [
+        "CSAT"
+      ]
+    },
+    {
       "id": "csat_practice_2026_07_12",
       "label": "CSAT Practice - 12 Jul 2026",
       "shortLabel": "CSAT Practice 12 Jul",
@@ -2308,6 +2394,14 @@
   ],
   "noteDocuments": [
     {
+      "id": "anki-prelims-flashcards-2026-07-19",
+      "cadence": "anki",
+      "title": "Prelims Flashcards",
+      "shortTitle": "Anki - 19 Jul",
+      "date": "2026-07-19",
+      "path": "anki/Prelims_Flashcards_2026-07-19.txt"
+    },
+    {
       "id": "anki-prelims-flashcards-2026-07-12",
       "cadence": "anki",
       "title": "Prelims Flashcards",
@@ -2338,6 +2432,22 @@
       "shortTitle": "Anki - 21 Jun",
       "date": "2026-06-21",
       "path": "anki/Prelims_Flashcards_2026-06-21.txt"
+    },
+    {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-07-20",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "20 Jul 2026",
+      "date": "2026-07-20",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-07-20.md"
+    },
+    {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-07-19",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "19 Jul 2026",
+      "date": "2026-07-19",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-07-19.md"
     },
     {
       "id": "daily-daily-current-affairs-upsc-ca-2026-07-18",
@@ -2924,6 +3034,22 @@
       "path": "weekly/Physics/Physics_Drill_2026-06-10.md"
     },
     {
+      "id": "daily-daily-pib-pib-2026-07-20",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 20 Jul",
+      "date": "2026-07-20",
+      "path": "daily/daily_pib/PIB_2026-07-20.md"
+    },
+    {
+      "id": "daily-daily-pib-pib-2026-07-19",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 19 Jul",
+      "date": "2026-07-19",
+      "path": "daily/daily_pib/PIB_2026-07-19.md"
+    },
+    {
       "id": "daily-daily-pib-pib-2026-07-18",
       "cadence": "pib",
       "title": "Daily PIB Briefing",
@@ -3300,6 +3426,14 @@
       "path": "daily/daily_reading_comprehension/RC_Drill_2026-06-08.md"
     },
     {
+      "id": "weekly-schemes-schemes-reports-2026-07-19",
+      "cadence": "schemes",
+      "title": "Schemes & Reports",
+      "shortTitle": "Reports - 19 Jul",
+      "date": "2026-07-19",
+      "path": "weekly/Schemes/Schemes_Reports_2026-07-19.md"
+    },
+    {
       "id": "weekly-schemes-schemes-reports-2026-07-12",
       "cadence": "schemes",
       "title": "Schemes & Reports",
@@ -3474,6 +3608,14 @@
       "shortTitle": "Week of 07 Jun",
       "date": "2026-06-07",
       "path": "weekly/Sunday/Sunday_Sweep_2026-06-07.md"
+    },
+    {
+      "id": "weekly-csat-csat-practice-2026-07-19",
+      "cadence": "weekly-csat",
+      "title": "CSAT Practice",
+      "shortTitle": "Practice - 19 Jul",
+      "date": "2026-07-19",
+      "path": "weekly/CSAT/CSAT_Practice_2026-07-19.md"
     },
     {
       "id": "weekly-csat-csat-practice-2026-07-12",

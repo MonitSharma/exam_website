@@ -3,6 +3,8 @@
     "id": "weekly_quiz_2026_07_10_1",
     "question_number": 1,
     "question": "India recorded its highest-ever rank (94th of 167) in the UN Sustainable Development Report 2026. Which body publishes this annual report?",
+    "statements": [],
+    "tail": "",
     "options": [
       {
         "key": "a",
@@ -33,6 +35,8 @@
     "id": "weekly_quiz_2026_07_10_2",
     "question_number": 2,
     "question": "At the India–Australia Annual Leaders' Summit in Melbourne (part of PM Modi's Indo-Pacific tour), the two sides advanced a landmark supply pact for which resource?",
+    "statements": [],
+    "tail": "",
     "options": [
       {
         "key": "a",
@@ -63,6 +67,12 @@
     "id": "weekly_quiz_2026_07_10_3",
     "question_number": 3,
     "question": "UPI went live in Greece this week. Consider:",
+    "statements": [
+      "Greece is the 10th country where UPI is operational.",
+      "Greece is the 2nd EU country to accept UPI, after France.",
+      "It was enabled through NPCI International Payments Ltd (NIPL)."
+    ],
+    "tail": "Which are correct?",
     "options": [
       {
         "key": "a",
@@ -93,6 +103,8 @@
     "id": "weekly_quiz_2026_07_10_4",
     "question_number": 4,
     "question": "ISRO ground-tested the solid motor of \"SOLVE\" this week. SOLVE is associated with which programme?",
+    "statements": [],
+    "tail": "",
     "options": [
       {
         "key": "a",
@@ -123,6 +135,8 @@
     "id": "weekly_quiz_2026_07_10_5",
     "question_number": 5,
     "question": "According to the State of India's Environment 2026 report (CSE / *Down To Earth*), which is the newest planetary boundary to be breached, taking the count to seven of nine?",
+    "statements": [],
+    "tail": "",
     "options": [
       {
         "key": "a",
@@ -153,6 +167,8 @@
     "id": "weekly_quiz_2026_07_10_6",
     "question_number": 6,
     "question": "The Supreme Court declared \"zero tolerance\" in July 2026 for what, while setting aside certain NCLT/NCLAT orders?",
+    "statements": [],
+    "tail": "",
     "options": [
       {
         "key": "a",
@@ -183,6 +199,8 @@
     "id": "weekly_quiz_2026_07_10_7",
     "question_number": 7,
     "question": "INS Mahendragiri, being commissioned this week, belongs to which class/programme?",
+    "statements": [],
+    "tail": "",
     "options": [
       {
         "key": "a",
@@ -213,6 +231,8 @@
     "id": "weekly_quiz_2026_07_10_8",
     "question_number": 8,
     "question": "The Cabinet's \"Modified UDAN\" (revamped Regional Connectivity Scheme) carries a Rs 28,840 crore outlay and extends the scheme up to which financial year?",
+    "statements": [],
+    "tail": "",
     "options": [
       {
         "key": "a",
@@ -243,6 +263,8 @@
     "id": "weekly_quiz_2026_07_10_9",
     "question_number": 9,
     "question": "The NTCA/MoEFCC Tiger Conservation Roadmap flagged 25 reserves for priority recovery out of India's total of how many notified tiger reserves?",
+    "statements": [],
+    "tail": "",
     "options": [
       {
         "key": "a",
@@ -273,6 +295,8 @@
     "id": "weekly_quiz_2026_07_10_10",
     "question_number": 10,
     "question": "The Natural History Museum, Mizoram University was notified as India's 21st Designated Repository. Designated Repositories are notified under which law?",
+    "statements": [],
+    "tail": "",
     "options": [
       {
         "key": "a",
@@ -303,6 +327,12 @@
     "id": "weekly_quiz_2026_07_10_11",
     "question_number": 11,
     "question": "Sirsa Kinnow received a GI tag this week. Consider:",
+    "statements": [
+      "It is Haryana's first fruit to be GI-tagged.",
+      "Kinnow is a citrus (mandarin) hybrid.",
+      "Its quality is credited to the Indo-Israel Centre of Excellence, Mangiana."
+    ],
+    "tail": "Which are correct?",
     "options": [
       {
         "key": "a",
@@ -333,6 +363,8 @@
     "id": "weekly_quiz_2026_07_10_12",
     "question_number": 12,
     "question": "DRDO flight-tested the Pinaka Long Range Guided Rocket (LRGR) at Chandipur. Which statement is correct?",
+    "statements": [],
+    "tail": "",
     "options": [
       {
         "key": "a",
@@ -363,6 +395,8 @@
     "id": "weekly_quiz_2026_07_10_13",
     "question_number": 13,
     "question": "The Strait of Hormuz, in the news over global energy supply, connects which two water bodies?",
+    "statements": [],
+    "tail": "",
     "options": [
       {
         "key": "a",
@@ -393,6 +427,8 @@
     "id": "weekly_quiz_2026_07_10_14",
     "question_number": 14,
     "question": "Through which of the following states does the Tropic of Cancer NOT pass?",
+    "statements": [],
+    "tail": "",
     "options": [
       {
         "key": "a",
@@ -423,6 +459,8 @@
     "id": "weekly_quiz_2026_07_10_15",
     "question_number": 15,
     "question": "India's southernmost point, Indira Point, is located on which island?",
+    "statements": [],
+    "tail": "",
     "options": [
       {
         "key": "a",
@@ -453,6 +491,8 @@
     "id": "weekly_quiz_2026_07_10_16",
     "question_number": 16,
     "question": "Which of the following rivers does NOT drain into the Bay of Bengal?",
+    "statements": [],
+    "tail": "",
     "options": [
       {
         "key": "a",
@@ -483,6 +523,8 @@
     "id": "weekly_quiz_2026_07_10_17",
     "question_number": 17,
     "question": "El Niño events are generally associated with which effect on the Indian southwest monsoon?",
+    "statements": [],
+    "tail": "",
     "options": [
       {
         "key": "a",
@@ -513,6 +555,8 @@
     "id": "weekly_quiz_2026_07_10_18",
     "question_number": 18,
     "question": "The black cotton soil (regur) of the Deccan is derived mainly from the weathering of:",
+    "statements": [],
+    "tail": "",
     "options": [
       {
         "key": "a",
@@ -543,6 +587,8 @@
     "id": "weekly_quiz_2026_07_10_19",
     "question_number": 19,
     "question": "The Standard Meridian of India (82°30′E) passes through which city?",
+    "statements": [],
+    "tail": "",
     "options": [
       {
         "key": "a",
@@ -573,6 +619,8 @@
     "id": "weekly_quiz_2026_07_10_20",
     "question_number": 20,
     "question": "The Somali Jet (Findlater Jet), important for the onset of the Indian southwest monsoon, is best described as:",
+    "statements": [],
+    "tail": "",
     "options": [
       {
         "key": "a",

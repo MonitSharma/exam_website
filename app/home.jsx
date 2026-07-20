@@ -1537,8 +1537,9 @@ function renderInline(text) {
     }
     if (source[i] === "$") {
       const end = findClosingDollar(source, i + 1);
-      if (end > i) {
-        parts.push({ type: "math", value: source.slice(i + 1, end) });
+      const formula = end > i ? source.slice(i + 1, end) : "";
+      if (end > i && shouldRenderDollarMath(source, i, end, formula)) {
+        parts.push({ type: "math", value: formula });
         i = end + 1;
         continue;
       }
@@ -1580,6 +1581,19 @@ function findClosingDollar(source, fromIndex) {
   return -1;
 }
 
+function shouldRenderDollarMath(source, start, end, formula) {
+  const value = String(formula || "").trim();
+  if (!value) return false;
+  const next = source[start + 1] || "";
+  const before = source[start - 1] || "";
+  const after = source[end + 1] || "";
+  if (/\s|\d/.test(next)) return false;
+  if (/[A-Za-z0-9]/.test(before) || /[A-Za-z0-9]/.test(after)) return false;
+  if (/^[A-Z]{2,}\b/.test(value)) return false;
+  if (/\\|[_^=<>+\-*/()[\]{}]/.test(value)) return true;
+  return /^[A-Za-z][A-Za-z0-9]{0,2}$/.test(value);
+}
+
 function MathText({ value, display = false }) {
   const formula = String(value || "").trim();
   const html = renderMathHtml(formula, display);
@@ -1592,8 +1606,9 @@ function MathText({ value, display = false }) {
 
 function renderMathHtml(formula, display) {
   if (!formula || !window.katex?.renderToString) return "";
+  const latexSafeFormula = String(formula).replace(/(^|[^\\])%/g, "$1\\%");
   try {
-    return window.katex.renderToString(formula, {
+    return window.katex.renderToString(latexSafeFormula, {
       displayMode: display,
       throwOnError: false,
       strict: false,
