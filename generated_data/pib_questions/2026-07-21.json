@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to Allographa, recently in the news, consider the following statements:\n1. It is a genus of lichens belonging to the family Graphidaceae.\n2. Lichens are a symbiotic association between a fungus and a photosynthetic partner such as an alga or a cyanobacterium.\n3. Species of this genus have been reported from the Western Ghats.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "Allographa is a genus of crustose 'script lichens' in the family Graphidaceae (order Graphidales). Lichens are a mycobiont-photobiont symbiosis. Five new Allographa species were described from the Western Ghats by MACS-Agharkar Research Institute, Pune, an autonomous institute of DST.",
+    "subject": "Environment",
+    "theme": "Biodiversity and Conservation",
+    "micro_topic": "Lichens and Western Ghats biodiversity",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "As per the Ministry of Agriculture & Farmers Welfare data on kharif area coverage as on 17 July 2026, consider the following statements:\n1. The total area sown under kharif crops was about 658 lakh hectares, a decline of about 6 per cent over the corresponding period of the previous year.\n2. Among the major crop groups, pulses recorded a sharper percentage decline in acreage than rice.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 only",
+      "(c) Both 1 and 2",
+      "(d) Neither 1 nor 2"
+    ],
+    "answer": "(c)",
+    "explanation": "Total kharif sown area was 658.19 lakh hectares against 700.47 lakh hectares a year earlier, a fall of 6.04 per cent. Pulses acreage fell 15.08 per cent (69.23 from 81.52 lakh ha) whereas rice fell only 0.84 per cent (166.41 from 167.83 lakh ha).",
+    "subject": "Agriculture",
+    "theme": "Cropping Patterns and Food Security",
+    "micro_topic": "Kharif sowing and pulses acreage",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements regarding President Droupadi Murmu's State Visit to Moldova in July 2026:\n1. It was the first-ever visit by an Indian President to Moldova.\n2. Moldova agreed to join the Coalition for Disaster Resilient Infrastructure and the Global Biofuels Alliance.\n3. India agreed to double the number of ITEC training slots for Moldovan professionals.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are outcomes of the 20 July 2026 Chisinau leg of the President's three-nation tour: the first-ever visit by an Indian President to Moldova, Moldova's decision to join CDRI and the Global Biofuels Alliance, and India's offer to double ITEC training slots including specialised AI courses.",
+    "subject": "International Relations",
+    "theme": "India and its Bilateral Relations",
+    "micro_topic": "India-Moldova relations and Indian-led global coalitions",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]

@@ -12,6 +12,24 @@
   ],
   "questionSets": [
     {
+      "id": "daily_questions_2026_07_21",
+      "label": "Daily Questions - 21 Jul 2026",
+      "shortLabel": "Daily 21 Jul",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-07-21.json",
+      "isoDate": "2026-07-21",
+      "subjects": [
+        "Polity & Governance",
+        "Economy",
+        "Science & Technology",
+        "International Relations",
+        "Geography"
+      ]
+    },
+    {
       "id": "daily_questions_2026_07_20",
       "label": "Daily Questions - 20 Jul 2026",
       "shortLabel": "Daily 20 Jul",
@@ -979,6 +997,22 @@
       "negativeMark": -0.66,
       "subjects": [
         "Reading Comprehension"
+      ]
+    },
+    {
+      "id": "pib_questions_2026_07_21",
+      "label": "PIB Questions - 21 Jul 2026",
+      "shortLabel": "PIB 21 Jul",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-07-21.json",
+      "isoDate": "2026-07-21",
+      "subjects": [
+        "Environment",
+        "Agriculture",
+        "International Relations"
       ]
     },
     {
@@ -2434,6 +2468,14 @@
       "path": "anki/Prelims_Flashcards_2026-06-21.txt"
     },
     {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-07-21",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "21 Jul 2026",
+      "date": "2026-07-21",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-07-21.md"
+    },
+    {
       "id": "daily-daily-current-affairs-upsc-ca-2026-07-20",
       "cadence": "daily",
       "title": "UPSC Daily CA Briefing",
@@ -2970,6 +3012,14 @@
       "path": "monthly/Monthly_Checkpoint_2026-06.md"
     },
     {
+      "id": "weekly-physics-physics-pyq-2026-07-21",
+      "cadence": "physics",
+      "title": "Physics Optional PYQ Plan",
+      "shortTitle": "PYQ - 21 Jul",
+      "date": "2026-07-21",
+      "path": "weekly/Physics/Physics_PYQ_2026-07-21.md"
+    },
+    {
       "id": "weekly-physics-physics-pyq-2026-07-14",
       "cadence": "physics",
       "title": "Physics Optional PYQ Plan",
@@ -3032,6 +3082,14 @@
       "shortTitle": "10 Jun",
       "date": "2026-06-10",
       "path": "weekly/Physics/Physics_Drill_2026-06-10.md"
+    },
+    {
+      "id": "daily-daily-pib-pib-2026-07-21",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 21 Jul",
+      "date": "2026-07-21",
+      "path": "daily/daily_pib/PIB_2026-07-21.md"
     },
     {
       "id": "daily-daily-pib-pib-2026-07-20",
