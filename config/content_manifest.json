@@ -12,6 +12,24 @@
   ],
   "questionSets": [
     {
+      "id": "daily_questions_2026_07_22",
+      "label": "Daily Questions - 22 Jul 2026",
+      "shortLabel": "Daily 22 Jul",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-07-22.json",
+      "isoDate": "2026-07-22",
+      "subjects": [
+        "Polity & Governance",
+        "Science & Technology",
+        "International Relations",
+        "Society",
+        "Economy"
+      ]
+    },
+    {
       "id": "daily_questions_2026_07_21",
       "label": "Daily Questions - 21 Jul 2026",
       "shortLabel": "Daily 21 Jul",
@@ -997,6 +1015,22 @@
       "negativeMark": -0.66,
       "subjects": [
         "Reading Comprehension"
+      ]
+    },
+    {
+      "id": "pib_questions_2026_07_22",
+      "label": "PIB Questions - 22 Jul 2026",
+      "shortLabel": "PIB 22 Jul",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-07-22.json",
+      "isoDate": "2026-07-22",
+      "subjects": [
+        "Environment",
+        "Economy",
+        "Science & Technology"
       ]
     },
     {
@@ -2468,6 +2502,14 @@
       "path": "anki/Prelims_Flashcards_2026-06-21.txt"
     },
     {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-07-22",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "22 Jul 2026",
+      "date": "2026-07-22",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-07-22.md"
+    },
+    {
       "id": "daily-daily-current-affairs-upsc-ca-2026-07-21",
       "cadence": "daily",
       "title": "UPSC Daily CA Briefing",
@@ -3082,6 +3124,14 @@
       "shortTitle": "10 Jun",
       "date": "2026-06-10",
       "path": "weekly/Physics/Physics_Drill_2026-06-10.md"
+    },
+    {
+      "id": "daily-daily-pib-pib-2026-07-22",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 22 Jul",
+      "date": "2026-07-22",
+      "path": "daily/daily_pib/PIB_2026-07-22.md"
     },
     {
       "id": "daily-daily-pib-pib-2026-07-21",

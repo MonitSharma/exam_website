@@ -308,22 +308,149 @@
       };
     }
 
-    const text = String(rawStem || "").replace(/\s+/g, " ").trim();
-    const firstStatement = text.search(/\b1\.\s+/);
-    if (firstStatement < 0) return { stem: text, statements: [], tail: providedTail };
+    const rawText = String(rawStem || "").trim();
+    if (!rawText) return { stem: "", statements: [], tail: providedTail };
 
-    const stem = text.slice(0, firstStatement).trim();
-    const rest = text.slice(firstStatement).trim();
-    const tailMatch = rest.match(/\s+(Which|How many|Select|Choose)\b[\s\S]*$/i);
-    const statementText = tailMatch ? rest.slice(0, tailMatch.index).trim() : rest;
-    const tail = tailMatch ? rest.slice(tailMatch.index).trim() : providedTail;
-    const statements = [...statementText.matchAll(/(?:^|\s)(\d+)\.\s+([\s\S]*?)(?=\s+\d+\.\s+|$)/g)]
-      .sort((a, b) => Number(a[1]) - Number(b[1]))
-      .map((match) => match[2].trim())
-      .filter(Boolean);
+    const tailRegex = /\s+((?:Which|How many|Select|Choose|From the|In the|On the|With reference to the statements|Consider the above|Based on the)\b[\s\S]*)$/i;
 
-    if (!stem || !statements.length) return { stem: text, statements: [], tail: providedTail };
-    return { stem, statements, tail };
+    // 1. Sequential Arabic numerals: 1., 2., 3., ...
+    const numMatch1 = rawText.match(/(?:^|\n|\s)\s*1\.\s+/);
+    if (numMatch1) {
+      const stemEnd = numMatch1.index;
+      const stem = rawText.slice(0, stemEnd).trim();
+      let rest = rawText.slice(stemEnd).trim();
+
+      let tail = providedTail;
+      const tailMatch = rest.match(tailRegex);
+      if (tailMatch) {
+        tail = tailMatch[1].trim();
+        rest = rest.slice(0, tailMatch.index).trim();
+      }
+
+      let statements = [];
+      let currNum = 1;
+      let currPos = 0;
+
+      while (true) {
+        const nextNum = currNum + 1;
+        const nextRegex = new RegExp(`(?:^|\\s)${nextNum}\\.\\s+`);
+        const match = rest.slice(currPos).match(nextRegex);
+        if (match) {
+          const matchIdx = currPos + match.index + (match[0].startsWith(" ") || match[0].startsWith("\n") ? 1 : 0);
+          const currPrefixRegex = new RegExp(`^${currNum}\\.\\s+`);
+          let stmtText = rest.slice(currPos, matchIdx).replace(currPrefixRegex, "").trim();
+          statements.push(stmtText);
+          currPos = matchIdx;
+          currNum = nextNum;
+        } else {
+          const currPrefixRegex = new RegExp(`^${currNum}\\.\\s+`);
+          let stmtText = rest.slice(currPos).replace(currPrefixRegex, "").trim();
+          statements.push(stmtText);
+          break;
+        }
+      }
+
+      if (stem && statements.length >= 2) {
+        return { stem, statements, tail };
+      }
+    }
+
+    // 2. Sequential Roman numerals: I., II., III., ... (or i., ii., iii., ...)
+    const romanMatch1 = rawText.match(/(?:^|\n|\s)\s*(I|i)\.\s+/);
+    if (romanMatch1) {
+      const isLower = romanMatch1[1] === "i";
+      const romanList = isLower 
+        ? ["i", "ii", "iii", "iv", "v", "vi", "vii", "viii", "ix", "x"]
+        : ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"];
+      const stemEnd = romanMatch1.index;
+      const stem = rawText.slice(0, stemEnd).trim();
+      let rest = rawText.slice(stemEnd).trim();
+
+      let tail = providedTail;
+      const tailMatch = rest.match(tailRegex);
+      if (tailMatch) {
+        tail = tailMatch[1].trim();
+        rest = rest.slice(0, tailMatch.index).trim();
+      }
+
+      let statements = [];
+      let currIdx = 0;
+      let currPos = 0;
+
+      while (currIdx < romanList.length) {
+        const currRoman = romanList[currIdx];
+        const nextRoman = romanList[currIdx + 1];
+        if (!nextRoman) {
+          const currPrefixRegex = new RegExp(`^${currRoman}\\.\\s+`);
+          let stmtText = rest.slice(currPos).replace(currPrefixRegex, "").trim();
+          statements.push(stmtText);
+          break;
+        }
+        const nextRegex = new RegExp(`(?:^|\\s)${nextRoman}\\.\\s+`);
+        const match = rest.slice(currPos).match(nextRegex);
+        if (match) {
+          const matchIdx = currPos + match.index + (match[0].startsWith(" ") || match[0].startsWith("\n") ? 1 : 0);
+          const currPrefixRegex = new RegExp(`^${currRoman}\\.\\s+`);
+          let stmtText = rest.slice(currPos, matchIdx).replace(currPrefixRegex, "").trim();
+          statements.push(stmtText);
+          currPos = matchIdx;
+          currIdx++;
+        } else {
+          const currPrefixRegex = new RegExp(`^${currRoman}\\.\\s+`);
+          let stmtText = rest.slice(currPos).replace(currPrefixRegex, "").trim();
+          statements.push(stmtText);
+          break;
+        }
+      }
+
+      if (stem && statements.length >= 2) {
+        return { stem, statements, tail };
+      }
+    }
+
+    // 3. Sequential parenthesized numbers: (1), (2), (3), ...
+    const parenMatch1 = rawText.match(/(?:^|\n|\s)\s*\(1\)\s+/);
+    if (parenMatch1) {
+      const stemEnd = parenMatch1.index;
+      const stem = rawText.slice(0, stemEnd).trim();
+      let rest = rawText.slice(stemEnd).trim();
+
+      let tail = providedTail;
+      const tailMatch = rest.match(tailRegex);
+      if (tailMatch) {
+        tail = tailMatch[1].trim();
+        rest = rest.slice(0, tailMatch.index).trim();
+      }
+
+      let statements = [];
+      let currNum = 1;
+      let currPos = 0;
+
+      while (true) {
+        const nextNum = currNum + 1;
+        const nextRegex = new RegExp(`(?:^|\\s)\\(${nextNum}\\)\\s+`);
+        const match = rest.slice(currPos).match(nextRegex);
+        if (match) {
+          const matchIdx = currPos + match.index + (match[0].startsWith(" ") || match[0].startsWith("\n") ? 1 : 0);
+          const currPrefixRegex = new RegExp(`^\\(${currNum}\\)\\s+`);
+          let stmtText = rest.slice(currPos, matchIdx).replace(currPrefixRegex, "").trim();
+          statements.push(stmtText);
+          currPos = matchIdx;
+          currNum = nextNum;
+        } else {
+          const currPrefixRegex = new RegExp(`^\\(${currNum}\\)\\s+`);
+          let stmtText = rest.slice(currPos).replace(currPrefixRegex, "").trim();
+          statements.push(stmtText);
+          break;
+        }
+      }
+
+      if (stem && statements.length >= 2) {
+        return { stem, statements, tail };
+      }
+    }
+
+    return { stem: rawText, statements: [], tail: providedTail };
   }
 
   function normalizeAnswerKey(value) {

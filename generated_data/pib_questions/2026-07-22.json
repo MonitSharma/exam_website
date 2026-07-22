@@ -1,0 +1,35 @@
+[
+  {
+    "question": "With reference to \"AAROH\" released by the Ministry of Coal in July 2026, consider the following statements: 1) It is the first-ever Annual Report on Mine Closure documenting scientifically closed coal mines. 2) It was released alongside an implementation agreement with Germany's GIZ on scientific mine closure. 3) The escrow-account mechanism for mine closure is provided under the Wildlife (Protection) Act, 1972. How many of the statements given above are correct?",
+    "options": ["(a) Only one", "(b) Only two", "(c) All three", "(d) None"],
+    "answer": "(b)",
+    "explanation": "AAROH is India's first Annual Report on Mine Closure and was released with an India-Germany (GIZ) implementation agreement on scientific mine closure. The mine-closure escrow-account mechanism derives from coal-mining/mine-closure guidelines and coal-block allocation rules, not the Wildlife (Protection) Act, 1972.",
+    "subject": "Environment",
+    "theme": "Mining and Environmental Governance",
+    "micro_topic": "Scientific mine closure (AAROH) and India-Germany cooperation",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements about the Kasturi Cotton Bharat programme: 1) It is a traceability, certification and branding initiative of the Ministry of Textiles. 2) It uses QR-based certification with blockchain traceability across the cotton value chain. 3) It is implemented on the ground through the Cotton Corporation of India. Which of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(d)",
+    "explanation": "Kasturi Cotton Bharat is a Ministry of Textiles branding and traceability programme that uses QR-based certification with blockchain traceability from farm to garment, and is implemented through the Cotton Corporation of India (CCI).",
+    "subject": "Economy",
+    "theme": "Textiles and Cash Crops",
+    "micro_topic": "Kasturi Cotton Bharat traceability and branding",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the Bioeconomy Roadmap unveiled by NITI Aayog in 2026, consider the following statements: 1) It targets a bioeconomy of USD 691 billion by 2035. 2) It proposes the creation of six National BioMissions. 3) It recommends a dedicated BioEconomy Growth Fund to support scale-up of biotech manufacturing. How many of the above statements are correct?",
+    "options": ["(a) Only one", "(b) Only two", "(c) All three", "(d) None"],
+    "answer": "(c)",
+    "explanation": "NITI Aayog's roadmap targets a USD 691 billion bioeconomy by 2035, proposes six National BioMissions (gene and cell therapies, climate-resilient agriculture, synthetic biology, disease surveillance, marine biotechnology, next-gen biopharmaceuticals), and recommends a Rs 50,000-crore BioEconomy Growth Fund for 2026-2035.",
+    "subject": "Science & Technology",
+    "theme": "Biotechnology and Bioeconomy",
+    "micro_topic": "NITI Aayog Bioeconomy Roadmap 2035",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]

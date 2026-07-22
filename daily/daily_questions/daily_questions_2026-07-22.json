@@ -1,0 +1,79 @@
+[
+  {
+    "question": "With reference to the Supreme Court (Number of Judges) Amendment Bill, 2026, consider the following statements: 1. It raises the sanctioned strength of the Supreme Court to 38 judges, including the Chief Justice of India. 2. Increasing the number of Supreme Court judges requires a constitutional amendment passed by a special majority. 3. The power to fix the number of Supreme Court judges is derived from Article 124 of the Constitution. Which of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 1 and 3 only", "(c) 2 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(b)",
+    "explanation": "The Bill raises strength to 38 including the CJI (37 excluding CJI). Under Article 124(1) Parliament fixes the number by an ordinary law needing only a simple majority, so statement 2 is wrong.",
+    "subject": "Polity & Governance",
+    "theme": "Judiciary",
+    "micro_topic": "Supreme Court composition / Article 124",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "'QDENGA (TAK-003)', recently in the news, is:",
+    "options": ["(a) India's first indigenously developed malaria vaccine", "(b) India's first approved dengue vaccine", "(c) A new gene-therapy platform for thalassaemia", "(d) A DRDO-developed antiviral for chikungunya"],
+    "answer": "(b)",
+    "explanation": "QDENGA (Takeda's TAK-003) received DCGI market authorisation on 20 July 2026 as India's first approved dengue vaccine; it is a live-attenuated tetravalent vaccine for ages 4-60.",
+    "subject": "Science & Technology",
+    "theme": "Health & Biotechnology",
+    "micro_topic": "Vaccines / vector-borne diseases",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "'Bizum', which India recently agreed to link with UPI, is a:",
+    "options": ["(a) Sovereign digital currency issued by the European Central Bank", "(b) Cross-border cargo tracking system of the EU", "(c) Domestic instant mobile-payment platform of Spain", "(d) Trade-financing mechanism of the World Bank"],
+    "answer": "(c)",
+    "explanation": "Bizum is Spain's domestic instant mobile-payment platform. India and Spain agreed on 20 July 2026 to fast-track technical talks on UPI-Bizum interoperability.",
+    "subject": "International Relations",
+    "theme": "Economic Diplomacy / Digital Public Infrastructure",
+    "micro_topic": "UPI internationalisation",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the Madhya Pradesh Uniform Civil Code Bill, 2026, consider the following statements: 1. Madhya Pradesh would be the first Indian state to move toward a Uniform Civil Code. 2. The draft bill excludes tribal communities from its ambit. 3. A Uniform Civil Code is envisaged under the Directive Principles of State Policy. Which of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(b)",
+    "explanation": "Uttarakhand was the first state; MP would be the second, so statement 1 is wrong. The draft excludes tribal communities, and UCC is envisaged under Article 44 (DPSP).",
+    "subject": "Society",
+    "theme": "Personal Laws & Secularism",
+    "micro_topic": "Uniform Civil Code / Article 44",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The 'BioEconomy Growth Fund' recently announced is:",
+    "options": ["(a) A Rs 50,000-crore fund embedded within the RDI Scheme to support biomanufacturing", "(b) A World Bank grant for wetland restoration", "(c) An RBI facility to refinance green bonds", "(d) A CAMPA sub-fund for afforestation"],
+    "answer": "(a)",
+    "explanation": "The Rs 50,000-crore BioEconomy Growth Fund (2026-35), part of the Bioeconomy Roadmap 2035, is embedded within the Rs 1-lakh-crore RDI Scheme to bridge the lab-to-market 'valley of death' in biomanufacturing.",
+    "subject": "Economy",
+    "theme": "Sunrise Sectors / Biotechnology",
+    "micro_topic": "BioE3 policy & bioeconomy financing",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following provisions of the Constitution and their subject matter: 1. Article 44 — Uniform Civil Code. 2. Article 48 — Organisation of agriculture and animal husbandry. 3. Article 50 — Separation of the judiciary from the executive. How many of the pairs given above are correctly matched?",
+    "options": ["(a) Only one", "(b) Only two", "(c) All three", "(d) None"],
+    "answer": "(c)",
+    "explanation": "All three are correctly matched Directive Principles: Article 44 (UCC), Article 48 (agriculture and animal husbandry), and Article 50 (separation of judiciary from executive).",
+    "subject": "Polity & Governance",
+    "theme": "Directive Principles of State Policy",
+    "micro_topic": "DPSP articles",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the regulation of payment systems in India, consider the following statements: 1. The National Payments Corporation of India (NPCI) is a not-for-profit company that operates UPI. 2. Retail payment and settlement systems in India are regulated by the Reserve Bank of India under the Payment and Settlement Systems Act, 2007. Which of the statements given above is/are correct?",
+    "options": ["(a) 1 only", "(b) 2 only", "(c) Both 1 and 2", "(d) Neither 1 nor 2"],
+    "answer": "(c)",
+    "explanation": "NPCI is a not-for-profit umbrella organisation that operates UPI, and the RBI regulates payment and settlement systems under the Payment and Settlement Systems Act, 2007. Both statements are correct.",
+    "subject": "Economy",
+    "theme": "Banking & Payment Systems",
+    "micro_topic": "NPCI / RBI / PSS Act 2007",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  }
+]
