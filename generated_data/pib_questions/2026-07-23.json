@@ -1,0 +1,35 @@
+[
+  {
+    "question": "Consider the following statements regarding the 16th BRICS Health Ministers' Meeting (July 2026):\n1. It was hosted by India in Chandigarh under India's BRICS Chairship 2026.\n2. BRICS agreed to establish a dedicated working group for Traditional, Complementary and Integrative Medicine.\n3. BRICS currently has exactly five member countries.\nWhich of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(a)",
+    "explanation": "India hosted the 16th BRICS Health Ministers' Meeting in Chandigarh (22-24 July 2026) under its 2026 Chairship, and members agreed to set up a dedicated TCIM working group. BRICS has expanded to 11 members, so statement 3 is wrong.",
+    "subject": "International Relations",
+    "theme": "BRICS and multilateral health cooperation",
+    "micro_topic": "16th BRICS Health Ministers' Meeting; TCIM working group",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to India's agricultural price-support instruments, consider the following:\n1. The Price Support Scheme (PSS) is used to procure notified MSP crops such as oilseeds, pulses and copra.\n2. The Market Intervention Scheme (MIS) is implemented on the request of a State/UT for perishable and horticultural commodities generally not covered under MSP.\n3. Under MIS, procurement agencies such as NAFED/NCCF are typically engaged.\nWhich of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(d)",
+    "explanation": "PSS covers notified MSP commodities (including copra); MIS is a State-triggered scheme for perishable/horticultural produce outside MSP (e.g., Totapuri mango at MIP Rs 1,545.41/quintal). Both are operationalised through agencies like NAFED and NCCF.",
+    "subject": "Agriculture",
+    "theme": "Agricultural price policy and procurement",
+    "micro_topic": "Market Intervention Scheme vs Price Support Scheme",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the 'Nuclear Energy Mission for Viksit Bharat', consider the following statements:\n1. It aims to achieve 100 GW of installed nuclear power capacity by 2047.\n2. It envisages the development of indigenous Small Modular Reactors (SMRs).\n3. It was announced in the Union Budget 2025-26.\nWhich of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 1 and 3 only", "(c) 2 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(d)",
+    "explanation": "The Nuclear Energy Mission for Viksit Bharat, announced in Budget 2025-26, targets 100 GW of nuclear capacity by 2047 and at least five indigenous Small Modular Reactors (by 2033), backed by Rs 20,000 crore. The SHANTI Act, 2025 opens the sector to private participation.",
+    "subject": "Science & Technology",
+    "theme": "Nuclear energy and clean-energy transition",
+    "micro_topic": "Nuclear Energy Mission for Viksit Bharat; SMRs; SHANTI Act 2025",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]

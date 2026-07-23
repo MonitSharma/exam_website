@@ -1,0 +1,79 @@
+[
+  {
+    "question": "With reference to the recently reported 'Ethanol ATMs', consider the following statements: 1. They are being planned by the Ministry of Petroleum & Natural Gas to dispense ethanol in canisters for use as a cooking fuel. 2. India's annual ethanol production capacity has already crossed 20 billion litres. 3. The scheme intends ethanol to fully replace LPG in Indian households. Which of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(a)",
+    "explanation": "Ethanol ATMs (Ministry of Petroleum & Natural Gas) would dispense ethanol in sealed canisters for cooking, paired with dedicated stoves; India's ethanol capacity has crossed 20 billion litres/year. Statement 3 is wrong — ethanol is positioned as a supplement to, not a full replacement for, LPG.",
+    "subject": "Science & Technology",
+    "theme": "Biofuels and energy security",
+    "micro_topic": "Ethanol ATMs / ethanol as cooking fuel",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The island of Okinotorishima, recently in the news over a Chinese live-fire naval drill, is associated with the maritime (EEZ) claims of which country?",
+    "options": ["(a) The Philippines", "(b) Japan", "(c) South Korea", "(d) Vietnam"],
+    "answer": "(b)",
+    "explanation": "Okinotorishima, a small coral atoll in the Philippine Sea, is Japan's southernmost territory. Japan treats it as capable of generating an EEZ, while China argues it is a submerged 'rock' under UNCLOS Article 121.",
+    "subject": "International Relations",
+    "theme": "Maritime disputes and UNCLOS",
+    "micro_topic": "Okinotorishima / Japan-China EEZ dispute",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the 2026 policy on Agniveers, consider the following statements: 1. 50% of Constable (General Duty) posts in the Central Armed Police Forces are reserved for ex-Agniveers. 2. Ex-Agniveers are exempted from the written examination and physical tests for these posts. 3. The Central Armed Police Forces function under the Ministry of Defence. Which of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(a)",
+    "explanation": "50% of CAPF Constable(GD) and Assam Rifles Rifleman posts are reserved for ex-Agniveers, who are exempt from the written exam and physical (PST/PET) tests. Statement 3 is wrong — CAPFs (CRPF, BSF, CISF, ITBP, SSB) function under the Ministry of Home Affairs, not Defence.",
+    "subject": "Internal Security",
+    "theme": "Central Armed Police Forces and Agnipath",
+    "micro_topic": "Ex-Agniveer 50% CAPF reservation",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Investment Friendliness Index (IFI) 2026, in which Gujarat ranked first, was released by which of the following?",
+    "options": ["(a) The Reserve Bank of India", "(b) The Ministry of Commerce & Industry", "(c) NITI Aayog", "(d) The Finance Commission"],
+    "answer": "(c)",
+    "explanation": "The first Investment Friendliness Index (2026) was released by NITI Aayog to rank States/UTs on their investment climate across eight pillars; Gujarat topped with a score of 56.6, followed by Maharashtra, Tamil Nadu, Goa and Odisha.",
+    "subject": "Reports & Indices",
+    "theme": "NITI Aayog indices",
+    "micro_topic": "Investment Friendliness Index 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The five newly discovered Allographa species reported from the Western Ghats belong to which group of organisms?",
+    "options": ["(a) Freshwater fish", "(b) Lichen-forming fungi", "(c) Amphibians", "(d) Flowering plants (angiosperms)"],
+    "answer": "(b)",
+    "explanation": "Allographa is a genus of lichen-forming fungi. Five new species were described from the Western Ghats by the MACS-Agharkar Research Institute, Pune, using multi-locus DNA sequencing.",
+    "subject": "Environment",
+    "theme": "Species in news and biodiversity",
+    "micro_topic": "Allographa lichens, Western Ghats",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to lichens, consider the following statements: 1. A lichen is a symbiotic association of a fungus with an alga and/or a cyanobacterium. 2. Lichens can colonise bare rock and act as pioneers in ecological succession. 3. Lichens are sensitive indicators of air pollution, especially sulphur dioxide. Which of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(d)",
+    "explanation": "Lichens are a symbiotic association of a fungus with a photosynthetic partner (alga/cyanobacterium), act as pioneer colonisers of bare rock in ecological succession, and are sensitive bioindicators of air pollution (notably SO2). All three statements are correct.",
+    "subject": "Environment",
+    "theme": "Ecology fundamentals",
+    "micro_topic": "Lichens as bioindicators and pioneer species",
+    "nature": "Conceptual",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Under the United Nations Convention on the Law of the Sea (UNCLOS), consider the following statements: 1. An Exclusive Economic Zone extends up to 200 nautical miles from the baseline. 2. A 'rock' which cannot sustain human habitation or economic life of its own has no exclusive economic zone or continental shelf. 3. In the EEZ, other states enjoy freedom of navigation and overflight. Which of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(d)",
+    "explanation": "The EEZ extends up to 200 nautical miles from the baseline; under Article 121, a rock unable to sustain human habitation or economic life generates no EEZ or continental shelf; and other states retain freedom of navigation and overflight within an EEZ. All three are correct.",
+    "subject": "Geography",
+    "theme": "Law of the Sea / maritime zones",
+    "micro_topic": "UNCLOS EEZ and Article 121",
+    "nature": "Conceptual",
+    "difficulty": "Hard"
+  }
+]
