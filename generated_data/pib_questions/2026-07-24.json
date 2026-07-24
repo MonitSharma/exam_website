@@ -1,0 +1,35 @@
+[
+  {
+    "question": "With reference to Mission 'Golden Spice' launched in July 2026, consider the following statements:\n1. It is an integrated value-chain project for the GI-tagged Lakadong turmeric of Meghalaya.\n2. It is being implemented by the Ministry of Development of North Eastern Region (MDoNER).\n3. A large majority of its targeted beneficiary farmers are women.\nWhich of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(d)",
+    "explanation": "Mission 'Golden Spice' (Rs 175.45 crore, 2025-30) is a convergence-led MDoNER initiative to strengthen the value chain of Meghalaya's GI-tagged Lakadong turmeric, aiming to benefit about 17,500 farmers, 99% of whom are women. All three statements are correct.",
+    "subject": "Agriculture",
+    "theme": "GI products and value-chain development in the North East",
+    "micro_topic": "Mission Golden Spice; Lakadong turmeric GI",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The 'Prevention of Insults to National Honour (Amendment) Bill, 2026', in the news, primarily seeks to:",
+    "options": ["(a) Extend statutory protection currently given to the National Anthem to the National Song 'Vande Mataram'", "(b) Declare 'Vande Mataram' as the National Anthem of India", "(c) Make the National Flag Code legally enforceable for the first time", "(d) Provide statutory protection to the National Emblem"],
+    "answer": "(a)",
+    "explanation": "The Bill amends the Prevention of Insults to National Honour Act, 1971 to give the National Song 'Vande Mataram' the same protection as the National Anthem 'Jana Gana Mana', making intentional insult or obstruction punishable by up to three years' imprisonment. It does not change the status of the National Anthem.",
+    "subject": "Polity & Governance",
+    "theme": "National symbols and related legislation",
+    "micro_topic": "Prevention of Insults to National Honour (Amendment) Bill, 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Consider the following statements regarding the field of 'Bioastronautics', recently in the news:\n1. It studies the effects of spaceflight conditions such as microgravity and cosmic radiation on the human body.\n2. ISRO's Human Space Flight Centre partnered with SCTIMST to launch India's first postdoctoral fellowship in the field.\n3. SCTIMST is an institution of national importance located in Thiruvananthapuram.\nWhich of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(d)",
+    "explanation": "Bioastronautics studies the impact of space conditions (microgravity, radiation, isolation) on humans. ISRO's HSFC and SCTIMST (an Institute of National Importance at Thiruvananthapuram) launched India's first two-year postdoctoral fellowship in Space Medicine and Bioastronautics, supporting the Gaganyaan programme. All three are correct.",
+    "subject": "Science & Technology",
+    "theme": "Human spaceflight and space medicine",
+    "micro_topic": "ISRO-SCTIMST Bioastronautics fellowship",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]

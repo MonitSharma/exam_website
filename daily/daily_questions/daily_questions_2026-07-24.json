@@ -1,0 +1,114 @@
+[
+  {
+    "question": "The 'AAROH' report, released in July 2026, is associated with which of the following?",
+    "options": [
+      "(a) Annual assessment of India's tiger reserves by the NTCA",
+      "(b) India's first national report on the scientific closure of coal mines, by the Ministry of Coal",
+      "(c) A NITI Aayog index ranking states on renewable-energy readiness",
+      "(d) An RBI framework on climate-risk disclosures by banks"
+    ],
+    "answer": "(b)",
+    "explanation": "AAROH ('Annual Report on Mine Closure'), released by the Ministry of Coal on 22 July 2026, is India's first consolidated national report documenting the scientific closure of coal mines (42 mines), alongside an India-Germany GIZ pact and 'Coal NEER' water plants.",
+    "subject": "Environment",
+    "theme": "Sustainable mining and land reclamation",
+    "micro_topic": "AAROH mine closure report / Ministry of Coal",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the first indigenous 350-kg-thrust-class expendable turbojet engine delivered in July 2026, consider the following statements:\n1. It was designed by DRDO's Gas Turbine Research Establishment (GTRE).\n2. It is intended primarily to power India's manned fighter aircraft.\n3. It was manufactured by a private Indian firm.\nWhich of the statements is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "The engine was designed by GTRE (a DRDO lab) and manufactured by private firm Azad Engineering (statements 1 and 3 correct). Being 'expendable', it is meant to power a medium-range anti-ship missile and UAVs/cruise missiles, not manned fighters (statement 2 incorrect).",
+    "subject": "Science & Technology",
+    "theme": "Defence indigenisation",
+    "micro_topic": "GTRE expendable turbojet engine",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the RBI's July 2026 Bulletin, consider the following statements:\n1. It reported a year-on-year rise in net FDI inflows in the opening months of FY27.\n2. Views expressed in its 'State of the Economy' article represent the official monetary-policy stance of the RBI.\nWhich of the statements is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 only",
+      "(c) Both 1 and 2",
+      "(d) Neither 1 nor 2"
+    ],
+    "answer": "(a)",
+    "explanation": "The Bulletin reported net FDI rising to about $6.5 billion in Apr-May FY27 from about $2.47 billion a year earlier (statement 1 correct). The RBI clarifies that Bulletin/'State of the Economy' article views are the authors', not the RBI's official position (statement 2 incorrect).",
+    "subject": "Economy",
+    "theme": "External sector and capital flows",
+    "micro_topic": "RBI Bulletin / net FDI",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The 'Let's Fix Our Food' (LFOF) Consortium, which released policy priorities for children's and adolescents' diets in July 2026, is led by which institution?",
+    "options": [
+      "(a) Food Safety and Standards Authority of India (FSSAI)",
+      "(b) ICMR - National Institute of Nutrition (NIN)",
+      "(c) NITI Aayog",
+      "(d) Indian Council of Agricultural Research (ICAR)"
+    ],
+    "answer": "(b)",
+    "explanation": "The LFOF Consortium is led by ICMR-NIN (National Institute of Nutrition, Hyderabad), with partners including FSSAI, WHO, UNICEF, PHFI and others. Its priorities include front-of-pack labelling, HFSS taxation, and healthy school food environments.",
+    "subject": "Society",
+    "theme": "Public health and nutrition policy",
+    "micro_topic": "LFOF Consortium / front-of-pack labelling",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Puga Valley, where India's first geothermal wells were commissioned in July 2026, is located in:",
+    "options": [
+      "(a) The Zanskar Range, Kargil",
+      "(b) The Changthang region of south-eastern Ladakh",
+      "(c) The Nubra Valley, north of Leh",
+      "(d) The Lahaul-Spiti district, Himachal Pradesh"
+    ],
+    "answer": "(b)",
+    "explanation": "Puga Valley lies in the Changthang region of south-eastern Ladakh, within the tectonically active Indus Suture Zone, which gives it a steep geothermal gradient (135 C recorded at 400 m). The wells were executed by ONGC Energy Centre.",
+    "subject": "Geography",
+    "theme": "Energy resources / Places in News",
+    "micro_topic": "Puga Valley geothermal project",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following pairs of geothermal sites and their States/UTs:\n1. Puga - Ladakh\n2. Manikaran - Himachal Pradesh\n3. Tattapani - Chhattisgarh\nHow many pairs are correctly matched?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All three",
+      "(d) None"
+    ],
+    "answer": "(c)",
+    "explanation": "All three are correct: Puga (Ladakh), Manikaran (Himachal Pradesh) and Tattapani (Chhattisgarh) are among India's prominent geothermal provinces. India's geothermal potential is estimated at about 10 GW by the GSI.",
+    "subject": "Geography",
+    "theme": "Non-conventional energy resources",
+    "micro_topic": "Geothermal provinces of India",
+    "nature": "Factual",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "With reference to Foreign Direct Investment (FDI) in India, which one of the following is considered its major characteristic?",
+    "options": [
+      "(a) It is largely a non-debt-creating capital flow",
+      "(b) It is an investment made mainly by Foreign Institutional Investors in government securities",
+      "(c) It necessarily involves debt-servicing obligations",
+      "(d) It is permitted only in listed companies"
+    ],
+    "answer": "(a)",
+    "explanation": "FDI is a non-debt-creating capital flow: it involves equity/ownership stakes that carry no fixed repayment or debt-servicing obligation, unlike loans. Investment by FIIs in government securities is foreign portfolio investment (FPI), not FDI. (UPSC Prelims 2020.)",
+    "subject": "Economy",
+    "theme": "Balance of Payments and capital flows",
+    "micro_topic": "FDI vs FPI / non-debt-creating flows",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  }
+]

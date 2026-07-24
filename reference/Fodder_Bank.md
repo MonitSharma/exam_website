@@ -257,3 +257,61 @@
 - **The bird that came home after 60 years.** The **Indian Grey Hornbill** (*Ocyceros birostris*), locally extinct for six decades, was successfully re-established in **Gir** by the Gujarat Forest Department (July 2026) — a quiet counterpoint to the headline-grabbing cheetah and lion stories. *Use: an essay image on patient, unglamorous restoration and on ecological memory; pairs with the "conservation success vs security" and metapopulation themes already in this bank.*
 
 ---
+
+## Added 2026-07-24
+
+*Drawn from the week's daily current-affairs, PIB and editorial notes (17–23 July 2026), cross-checked against the project's sourced briefings, plus standing general knowledge for the thinker-quotes. The Amartya Sen and Norbert Wiener attributions were verified via search this run.*
+
+### Governance & Polity
+
+- **Parliament, not the Constitution, sizes the Supreme Court — Number of Judges (Amendment) Bill, 2026.** The Bill (introduced in Lok Sabha, 20 July 2026) raises the SC's sanctioned strength from **34 → 38** (judges other than the CJI: 33 → 37). Crucial trap-buster: this needs only a **simple majority**, because **Article 124(1)** empowers Parliament to fix the number "by law" — no constitutional amendment required (the previous hike, 31→34, was in 2019). *Use: GS2 judiciary-reform / pendency answers — a concrete 2026 peg for "capacity vs backlog" (SC pendency ~86,000; total judicial pendency >5 crore, per the bank's 17 July item). Pairs with the MLK "justice delayed" quote already in this bank.*
+
+- **A National Song gets criminal-law parity — Vande Mataram and the Prevention of Insults to National Honour (Amendment) Bill, 2026.** Moved in the Rajya Sabha on 20 July 2026 to extend to *Vande Mataram* the protection the **1971 Act** gives the National Anthem (penalty up to **3 years / fine / both**). Static anchors: *Vande Mataram* was composed by **Bankim Chandra Chattopadhyay (1875)**, published in **Anandamath (1882)**, first sung at the **1896 Calcutta INC session**; on **24 January 1950** Constituent Assembly President **Rajendra Prasad stated it would have "equal status" with Jana Gana Mana** — a *statement*, not a constitutional provision. *Use: the GS2 Art 19(1)(a)-vs-national-symbols balance; cite ***Bijoe Emmanuel v. State of Kerala* (1986)** — standing respectfully without singing is not an offence. 2025 was the composition's 150th year.*
+
+- **Electoral-roll data is not a citizenship or welfare filter — Supreme Court on SIR (19 July 2026).** The Court held that **Special Intensive Revision (SIR)** data **cannot be used to strip welfare entitlements or to decide citizenship** — the two questions are legally distinct. *Use: GS2 answers on the right to vote vs right to welfare, and on due process in citizenship determination; a fresh guardrail against "administrative convenience overriding rights."*
+
+### Economy & Development
+
+- **Semicon 2.0 moves India up the chip value chain — ₹1,27,500 crore (Cabinet, July 2026).** Nearly double Semicon 1.0's **₹76,000 crore**. The examinable shift: 1.0 was **fab-and-ATMP heavy**; 2.0 explicitly funds the **upstream layer — equipment, materials, chemicals and gases** — exactly where India is most import-dependent. Targets: **₹4 lakh crore** investment and **₹2 lakh crore** production; six pillars (design, equipment & materials, fabs, ATMP/OSAT, R&D, talent). *Use: GS3 "technological sovereignty / supply-chain de-risking" — bundle with the MPMS value-addition logic and the China helium/rare-earth controls already in this bank into one argument.*
+
+- **The WPI–CPI scissors — 9.87% vs 4.38% (June 2026).** Wholesale inflation hit **9.87%** even as retail stayed at **4.38%** — a ~5.5-percentage-point gap. The textbook reason: **WPI carries no services and is fuel/manufacturing-heavy; CPI is food- and services-heavy** — and crucially, **the RBI targets CPI, not WPI**, so a near-10% WPI print does not mechanically force a rate hike (it signals producer-side cost pressure that passes through with a lag). New WPI base year: **2022-23**. *Use: the single cleanest GS3 illustration of why two "inflation" numbers can diverge; one line — "WPI excludes services; CPI is the RBI's target metric."*
+
+- **NITI Aayog's first Investment Friendliness Index (IFI) 2026 — Gujarat tops (56.6/100).** Followed by Maharashtra (53.7), Tamil Nadu (53.3), Goa (53.1), Odisha (52.4); built on **84 indicators** and **1,850+ investors surveyed**, across eight weighted pillars (Infrastructure 25%, Business Climate 20%, Resources 15%…). *Use: a competitive-federalism / ease-of-doing-business peg tied to Viksit Bharat@2047; add to the "NITI indices" cluster (SDG India Index, Export Preparedness Index, Fiscal Health Index) — note IFI is the investment-climate one.*
+
+- **India's ₹691-billion bio-bet — NITI Aayog's Bioeconomy Roadmap to 2035.** Targets a **USD 691 billion bioeconomy by 2035** (from **USD 195.3 bn today, 4.8% of GDP — a ~16-fold rise in a decade**), with **six National BioMissions**, a **₹50,000-crore BioEconomy Growth Fund**, and **~30 million projected jobs**; complements the **BioE3 policy**. *Use: GS3 sci-tech/economy answers on biotech as a growth engine and "sunrise sectors"; a rare high-value sector where India already has scale, not just ambition.*
+
+### Environment & Sustainability
+
+- **India's first geothermal power steps out of the textbook — Puga Valley, Ladakh (commissioned 18–19 July 2026).** ONGC Energy Centre commissioned India's first (and deepest) twin geothermal wells (~1,000 m each) at **>14,000 ft**, backbone of a **1 MW demonstration plant**. The heat comes from the **Indus Suture Zone** (Indian–Eurasian collision); **135 °C at just 400 m**. GSI pegs India's geothermal potential at ~**10 GW** (other provinces: Tattapani, Manikaran, Cambay, Surajkund). *Use: the sharpest fresh example of **24×7 renewable baseload** (unlike intermittent solar/wind) — decisive for a fragile-grid border region; energy-security + geography (Himalayan tectonics) crossover.*
+
+- **The nuclear leap gets a legal engine — Nuclear Energy Mission for Viksit Bharat (100 GW by 2047).** Announced in Budget 2025-26; the structural reform is the **SHANTI Act, 2025**, which amends the **Atomic Energy Act** and the **Civil Liability for Nuclear Damage Act** to **open the sector to private participation**. Milestones: **≥5 indigenous Small Modular Reactors by 2033** (₹20,000 crore), capacity ~**22,480 MW by 2031-32**, new reactors to replace retiring coal units. *Use: GS3 energy-transition/net-zero-by-2070 answers — the "private capital in a state-monopoly sector" reform angle is the value-addition, not just the 100 GW headline.*
+
+### Society & Social Justice
+
+- **Falling fertility is a sign of choice, not crisis (Indian Express op-ed, July 2026).** India's **TFR has fallen to ~2.0 (NFHS-5), just below the 2.1 replacement level** — the demographic transition is largely complete, driven by **female education, later marriage and urbanisation**. The reframing: shift the "population problem" from *quantity* to *ageing + workforce quality*; favour **childcare, parental leave and social security** over cash-for-babies pronatalism. Counterpoint to hold: below-replacement fertility raises real worries about **ageing, pension pressure and the delimitation/federal-share debate**. *Use: the definitive 2026 GS1 society peg — pairs directly with the Amartya Sen quote below.*
+
+- **The Agnipath exit ramp becomes concrete — 50% CAPF quota for ex-Agniveers (notified July 2026).** **50% of Constable (GD) posts in the CAPFs and Rifleman posts in Assam Rifles** are reserved for retired Agniveers, with a **3-year age relaxation (8 years for the first batch)** and exemption from the written exam and physical tests. *Use: GS3 internal-security / GS2 governance answers on the Agnipath rehabilitation promise; a rebuttal data-point to the "no post-service security" critique. (CAPFs = CRPF, BSF, CISF, ITBP, SSB, under MHA.)*
+
+- **India approves its first dengue vaccine — QDENGA (TAK-003), July 2026.** A milestone for a country carrying one of the world's heaviest dengue burdens. *Use: a compact GS2/GS3 health-governance peg on preventive public health and vaccine access; pairs with the disease-surveillance and "employment policy is health policy" items already in the bank.*
+
+### Science / Tech & its Ethics
+
+- **The "IPCC for AI" arrives — UN Independent International Scientific Panel on AI (report 1 July, presented Geneva 6–7 July 2026).** The first UN-commissioned **scientific** (not political) assessment of AI: a **40-member** panel co-chaired by **Yoshua Bengio** (Turing Award) and **Maria Ressa** (Nobel Peace Prize). Core warning: **capability growth is outpacing governance**, with **no technical guarantee that AI agents follow instructions consistently**; compute is starkly concentrated (**USA ~75%, China ~15%, rest of world ~10%**). *Use: the flagship GS3 sci-tech + GS2 global-governance peg for AI regulation; the "IPCC-for-AI" analogy is essay-grade. Pairs with the Norbert Wiener quote below.*
+
+### International Relations
+
+- **India's air-defence exports reach Central Asia — Akash SAM to Tajikistan and Turkmenistan (July 2026).** The indigenous **Akash surface-to-air missile** system, once a symbol of import-substitution, is now an export to India's "extended neighbourhood." *Use: GS2/GS3 peg on the shift from arms-importer to exporter and on defence diplomacy as strategic outreach in Central Asia; cross-link the ₹21,000-crore-plus defence-export trajectory and "Aatmanirbhar in defence."*
+
+### Ethics & Philosophy (thinkers & quotes)
+
+- **On women's agency and population — Amartya Sen (*Development as Freedom*, 1999, Ch. 8 "Women's Agency and Social Change").** Sen argues that **women's literacy and employment are the strongest predictors of both child survival and fertility decline**, and uses this to refute the Malthusian case for coercion: give women education and agency, and fertility falls by choice, not compulsion. *Use: the perfect pairing for the "declining fertility = progress" item above and for any answer on women-led development, reproductive autonomy, or why coercive population control is both wrong and unnecessary.* (Verified via search — attribution and argument confirmed to Sen.)
+
+- **On machines and human judgment — Norbert Wiener (*The Human Use of Human Beings*, 1950):** *"The modern industrial revolution is similarly bound to devalue the human brain, at least in its simpler and more routine decisions."* The father of cybernetics warned that automation replaces not just human muscle but human *judgment*, and that machines let loose without supervision may "escape human control." *Use: the founding-text epigraph for AI-ethics, automation-and-jobs, and human-in-the-loop answers — deploy alongside the UN AI Panel item above.* (Verified via search — from *The Human Use of Human Beings*.)
+
+### Essay-ready quotes & anecdotes
+
+- **Baseload from a cold desert.** India's first geothermal power stirs to life at **14,000 feet in Ladakh**, drawing 24×7 clean electricity from the same continental collision that raised the Himalaya — where glacial meltwater sinks along suture faults and returns as superheated steam. *Use: an essay image on turning geological accident into human advantage, and on energy justice for remote border communities — pairs with sustainability and "development on the margins" themes.*
+
+- **A 150-year-old song in a modern statute book.** In 2026, Parliament moved to give *Vande Mataram* — written in **1875**, older than the Republic it now anthems — the same legal shield as the National Anthem. *Use: a compact opening for essays on nationalism, memory, and the law's attempt to codify sentiment; note the double edge — reverence cannot be legislated into being (Bijoe Emmanuel), so protection and coercion sit uncomfortably close.*
+
+---
