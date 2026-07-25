@@ -1,350 +1,483 @@
 # Sunday Sweep — week of 26 Jul 2026
 
-*Prepared Sat 18 Jul 2026 · plans Sun 26 Jul → Sat 1 Aug 2026 · UPSC CSE 2027 · Physics optional*
+*Prepared Sat 25 Jul 2026 · plans **Sun 26 Jul → Sat 1 Aug 2026** · UPSC CSE 2027 · Physics optional · light backups RBI Gr-B + SSC CGL*
 
-> **Continuation note (read once):** A reset Sweep for **19–25 Jul** already exists on file (`Sunday_Sweep_2026-07-19.md`) and deliberately **repeats F4 first-half** to clear the static backlog. This pack does **not** overwrite it — it is the **next increment** and plans the following week (**26 Jul–1 Aug**), assuming the 19–25 Jul reset list is completed. If that reset week slips, do the reset list first and slide this pack forward by a week.
+> **Note on this file:** a draft of this pack was written a week early (18 Jul). This is the **live, refreshed version** — it now carries the actual current affairs of 19–25 Jul, a new non-repeating quiz, the July month-end checkpoint, a fresh ethics case, essay and PYQ mirror. Use this one.
 
 ---
 
 ## A) WHERE YOU ARE
 
-- **Phase:** 1A — Foundation A (15 Jun → 31 Aug 2026).
-- **Roadmap block:** **F4 (14–27 Jul), SECOND-HALF week**, bridging into the start of **F5 (28 Jul–10 Aug)**. Progress-driven, not calendar-driven.
-- **Last week covered (assumed done):** Laxmikanth Ch 6–7 (Citizenship + Fundamental Rights), Mrunal Pillar-1 Banking first half, Spectrum Ch 7 + Ch 8-a (roots of nationalism + Moderates), Shankar Env Ch 1–2, Leong vulcanism/earthquakes, Griffiths EM **Ch 1** closed.
-- **This week advances to:** DPSP + Fundamental Duties, Banking & Finance **second half** (capital markets + monetary-policy toolkit), Swadeshi & Partition of Bengal + Surat Split, Physical Geography NCERT Ch 5–8, Space/ISRO, Griffiths EM **Ch 2** (Electrostatics), rigid-body dynamics.
-- **Days to Prelims (~24 May 2027):** **≈ 302 days**.
+- **Phase:** **1A — Foundation A** (15 Jun → 31 Aug 2026).
+- **Roadmap position:** **F4 (14–27 Jul), SECOND-HALF week**, running straight into the opening of **F5 (28 Jul–10 Aug)**. Progress-driven, not calendar-driven — the 19–25 Jul reset week put F4 first-half back on the shelf, so you now take the second half.
+- **Last week covered (assumed complete):** Laxmikanth **Ch 6–7** (Citizenship, Fundamental Rights) · Mrunal **Pillar-1 first half** (RBI, banks, NBFCs, money market) · Spectrum **Ch 7 + Ch 8-a** (roots of nationalism, INC founding, Moderates) · Shankar **Ch 1–2** (Ecology, ecosystem functions) · Leong vulcanism/seismicity/weathering · **Griffiths EM Ch 1 closed**.
+- **This week advances to:** **DPSP + Fundamental Duties** · Mrunal **Pillar-1 second half** (capital markets + monetary-policy toolkit) · **Partition of Bengal, Swadeshi, Surat Split, early revolutionaries, Morley–Minto** · **NCERT Physical Geography Ch 5–8** · **Space/ISRO** · **Griffiths EM Ch 2 (Electrostatics)** + **rigid-body dynamics**.
+- **Days to Prelims (~24 May 2027): ≈ 302.**
+- **One-line read:** you closed the Rights half of Part III last week; this week you close the Directives half and take Modern History from "petitions" to "mass politics."
 
 ---
 
-## B) DETAILED 7-DAY STUDY PLAN (the core)
+## B) DETAILED 7-DAY STUDY PLAN
 
 Phase-1A grid: **Block-1** 6:30–7:30 news · **Block-2** 8:00–10:00 core · **Block-3** 10:30–11:30 · **Block-4** 8:00–8:30 PM answer.
 
-| Day | Block-2 core (book + EXACT next reading) | Output page (notebook) | Block-3 | Block-4 answer |
+| Day | Block-2 core — book + EXACT next reading | Output page (notebook) | Block-3 | Block-4 answer |
 |---|---|---|---|---|
-| **Sun 26** | Sweep review + **July month-end self-audit** (Section below); no new subject | Rewrite the week's page list; log July page/answer/mock counts honestly | **Sectional mock — 25 Q** on F4 first-half (Citizenship, FR, writs, banking basics, Moderates, ecology, vulcanism) | Light: one 150-word answer only if energy is good; else rest |
-| **Mon 27** | **Polity:** Laxmikanth **Ch 8 (DPSP)** + **Ch 9 (Fundamental Duties)** | **"DPSP classification"** page (Socialist/Gandhian/Liberal groups; Art 36–51; anchor Art 39, 39A, 40, 43, 44, 45, 46, 48A, 50, 51) + **"Fundamental Duties"** page (Art 51A, 11 duties, Swaran Singh Committee, 42nd & 86th Amendments) | **Physics P-I — rigid body:** moment of inertia, parallel/perpendicular-axis theorems, angular momentum, Euler's equations, symmetric-top precession; solve **5 problems** | **GS2:** *"The Directive Principles, though non-justiciable, have become the conscience-keeper of Indian governance. Discuss."* |
-| **Tue 28** | **Economy:** Mrunal **Pillar-1 second half** — capital markets (primary vs secondary, SEBI, stock exchanges, IPO/FPO, mutual funds, derivatives) + monetary-policy toolkit (repo/reverse-repo, MSF, CRR, SLR, OMO, LAF) | **"Capital-market map"** page (SEBI → primary/secondary → equity/debt/derivative instruments) + **"Monetary-policy toolkit"** page (quantitative vs qualitative tools) + 3 recall Qs | **RBI ESI:** money supply (M0–M3), money multiplier, inflation types + measurement (CPI, WPI, GDP deflator); **10 RBI-style MCQs** | **GS3:** *"Deepening India's corporate-bond market is essential to reduce the economy's over-reliance on banks for infrastructure finance. Examine."* |
-| **Wed 29** | **Modern History:** Spectrum **Ch 8-b + Ch 9** — Partition of Bengal (1905), Swadeshi & Boycott Movement, Extremists/militant nationalism, **Surat Split (1907)**, early revolutionary activity | **"Swadeshi Movement"** page (Partition announced 19 Jul / effective 16 Oct 1905; boycott, swadeshi, national education, passive resistance; leaders; annulled 1911) + **"Moderates vs Extremists / Surat Split"** page | **Physics EM — Griffiths Ch 2 (Electrostatics):** Coulomb's law, field, Gauss's law applications, potential, energy, conductors; solve **5 problems** | **GS1:** *"The Swadeshi Movement was the first experiment in mass mobilisation and anticipated the techniques of Gandhian politics. Critically examine."* |
-| **Thu 30** | **Sci-Tech (alt — last Thu was Env):** Space — ISRO structure; launch vehicles PSLV/GSLV/LVM3/SSLV; missions (Chandrayaan-3, Aditya-L1, Gaganyaan); space reforms IN-SPACe/NSIL/Space Policy 2023; private players (Skyroot Vikram-1, Agnikul) | **"Indian Space Programme"** page (launch-vehicle table + payloads + reform architecture) + 3 recall Qs | **RBI FM:** money vs capital vs forex market; instruments comparison; regulators RBI/SEBI/IRDAI/PFRDA/IFSCA — one comparison table | **GS3:** Thursday **Editorials→Mains** prompt, folded through a Sci-Tech / space-commercialisation frame |
-| **Fri 31** | **IR (CA consolidation):** convert the week's items into permanent pages — India–UK CETA in force (15 Jul), Strait of Hormuz / West Asia energy security, US secondary-tariff bill on Russian-oil buyers, UNSC 2028–29 "SHANTI" campaign, India–NZ Strategic Partnership | **"India 2026 external file"** page (CETA + chokepoints + UNSC + Indo-Pacific bilaterals) + 3 recall Qs | **Physics Waves/Thermo:** SHM recap (damped/forced/resonance) + first law of thermodynamics; solve **4 problems** | **GS2-IR:** *"India's 2026 diplomacy reflects a deliberate balancing of trade integration, energy security and strategic autonomy. Discuss."* |
-| **Sat 1 Aug** | **Geography:** NCERT-11 *Fundamentals of Physical Geography* **Ch 5 (Minerals & Rocks), Ch 6 (Geomorphic Processes), Ch 7 (Landforms & Evolution), Ch 8 (Atmosphere — composition & structure)** | **"Geomorphic processes"** page (endogenic vs exogenic; weathering, mass movement, erosion, deposition) + **"Atmosphere structure"** page (troposphere→exosphere; composition) | **CSAT + map drill:** 30-min RC/reasoning + Places-in-News map + 10-min Physics formula recall | **Ethics:** Lexicon terms — probity, impartiality, non-partisanship, dedication to public service; terms page 5 + one 150-word application |
+| **Sun 26** | **No new subject.** Sweep review + **July month-end audit** (section below). Rebuild the week's page list in the command notebook. | Log July actuals: pages, Mains answers, mock scores, days missed. Honest numbers only. | **Sectional mock — 25 Q** on F4 first-half (Citizenship, FR, writs, banking basics, Moderates, ecology, vulcanism) + debrief with Prelims flashcards | Light: **one 150-word** answer if energy is good; otherwise rest — it's a planning day |
+| **Mon 27** | **Polity:** Laxmikanth **Ch 8 (DPSP)** + **Ch 9 (Fundamental Duties)**, full pass | **"DPSP classification"** (Socialist / Gandhian / Liberal-Intellectual; Art 36–51; anchors 39, 39A, 40, 41, 43, 43A, 44, 45, 46, 47, 48A, 50, 51) + **"FR vs DPSP conflict"** (Champakam Dorairajan 1951 → 1st Amdt; Golaknath; Kesavananda; **Art 31C**; Minerva Mills 1980) + **"Fundamental Duties"** (Art 51A, 11 duties, Swaran Singh Cttee, 42nd & 86th Amdts, Verma Cttee 1999) | **Physics P-I — rigid body:** moment of inertia tensor, parallel/perpendicular-axis theorems, Euler's equations, symmetric-top precession — **solve 5 problems** | **GS2:** *"Non-justiciable in form, but decisive in substance — assess the role of the Directive Principles in shaping Indian welfare legislation."* |
+| **Tue 28** | **Economy:** Mrunal **Pillar-1 second half** — capital markets (primary vs secondary, SEBI, exchanges, IPO/FPO, mutual funds, derivatives, ADR/GDR/masala bonds) + **monetary-policy toolkit** (repo, SDF, MSF, LAF corridor, CRR, SLR, OMO, bank rate; qualitative tools) | **"Capital-market map"** (SEBI → primary/secondary → equity/debt/derivative) + **"Monetary-policy toolkit"** (quantitative vs qualitative; **SDF replaced reverse repo as the floor, Apr 2022**) + 3 recall Qs | **RBI ESI:** money supply **M0–M3**, money multiplier, inflation types + measurement (CPI, WPI, GDP deflator) — hook the **WPI 9.87% vs CPI 4.38% June gap (21 Jul)**; **10 RBI-style MCQs** | **GS3:** *"A deep corporate-bond market, not deeper bank balance sheets, is the durable answer to India's infrastructure-financing gap. Examine."* |
+| **Wed 29** | **Modern History:** Spectrum **Ch 8-b + Ch 9** — Partition of Bengal (1905), Swadeshi & Boycott, Extremists, **Surat Split (1907)**, early revolutionary nationalism, **Morley–Minto Reforms 1909** | **"Swadeshi Movement"** (announced 19 Jul 1905, effective 16 Oct 1905; Calcutta Town Hall 7 Aug 1905; boycott, swadeshi, national education, passive resistance; annulled 1911, capital to Delhi) + **"Moderates vs Extremists / Surat Split"** + **"Revolutionaries 1905–11"** (Anushilan Samiti, Yugantar, Alipore Bomb Case, Khudiram Bose, Madan Lal Dhingra, India House) | **Physics EM — Griffiths Ch 2 (Electrostatics):** Coulomb's law, field, Gauss's law applications, potential, work & energy, conductors — **solve 5 problems** | **GS1:** *"The Swadeshi Movement was the first laboratory of mass politics in India, and its failures taught Gandhi as much as its successes. Critically examine."* |
+| **Thu 30** | **Sci-Tech (alt — last Thu was Env):** Space — ISRO structure; **PSLV/GSLV/LVM3/SSLV**; Chandrayaan-3, Aditya-L1, Gaganyaan, NISAR; reform architecture **IN-SPACe / NSIL / Antrix**, Space Policy 2023, 100% FDI norms; private players (Skyroot Vikram-1, Agnikul); **Kulasekarapattinam spaceport + DRDO roadmap (21 Jul)** | **"Indian Space Programme"** page — launch-vehicle table (payload to LEO/GTO, stages, fuel) + reform-body comparison (IN-SPACe = single-window authorisation; NSIL = commercial arm; Antrix = legacy marketing) + 3 recall Qs | **RBI FM:** money vs capital vs forex markets; regulator turf **RBI / SEBI / IRDAI / PFRDA / IFSCA** — one comparison table | **GS3:** Use Thursday's **Editorials→Mains** prompt, framed through space commercialisation / tech sovereignty (**hook: Semicon 2.0, 19 Jul**) |
+| **Fri 31** | **IR (CA consolidation):** turn the month's items into permanent pages — India–UK CETA in force, Strait of Hormuz & West Asia energy security, UNSC 2028–29 "SHANTI" campaign, **Akash SAM to Tajikistan & Turkmenistan (21 Jul)**, **India–Spain UPI–Bizum (22 Jul)**, **China live-fire drill near Okinotorishima (23 Jul)** | **"India 2026 external file"** (trade agreements + chokepoints + UNSC bid + defence exports) + **"Indo-Pacific flashpoints"** (Okinotorishima, EEZ vs rock under **UNCLOS Art 121**) + 3 recall Qs | **Physics Waves/Thermo:** SHM recap — damped, forced, resonance, Q-factor; first law of thermodynamics — **solve 4 problems** | **GS2-IR:** *"Defence exports have become an instrument of Indian diplomacy rather than merely of Indian industry. Discuss."* |
+| **Sat 1 Aug** | **Geography:** NCERT-11 *Fundamentals of Physical Geography* **Ch 5 (Minerals & Rocks)**, **Ch 6 (Geomorphic Processes)**, **Ch 7 (Landforms & their Evolution)**, **Ch 8 (Composition & Structure of the Atmosphere)** | **"Rocks & minerals"** (igneous/sedimentary/metamorphic, rock cycle, metallic vs non-metallic) + **"Geomorphic processes"** (endogenic vs exogenic; weathering, mass movement, erosion, deposition) + **"Atmosphere"** (troposphere→exosphere, normal lapse rate, inversion, ozone in stratosphere) | **CSAT + map drill:** 30-min RC/reasoning + Places-in-News map (**add Puga Valley, Ladakh — geothermal, 24 Jul**) + 10-min Physics formula recall | **Ethics:** Lexicon terms — probity, impartiality, non-partisanship, dedication to public service; terms page 5 + one 150-word application |
 
-**Page-tally target:** **11 pages** (hits the 10–12 quota). If you finish only this list, the week is a success.
-
----
-
-## C) RESOURCE CALENDAR (fold the automated outputs in)
-
-- **Every day:** Daily CA (~8 PM) + PIB (~7 PM) + GS Mains question (~7 AM). Cap news to **one maintenance hour**; capture 3 facts/day into SR.
-- **Sun 26:** Schemes & Reports + CSAT practice + Prelims flashcards → use flashcards during the sectional-mock debrief.
-- **Mon 27:** CSAT PYQ plan + RC drill → after dinner, only if DPSP + FD pages are done.
-- **Tue 28:** Physics PYQ plan → align it with the rigid-body set; Economy pages are still mandatory.
-- **Wed 29:** Physics drill → run it inside Block-3 with Griffiths Ch 2.
-- **Thu 30:** Editorials→Mains → this is the Block-4 answer source.
-- **Fri 31:** Recall quiz + Fodder Bank → after Block-2, not before.
-- **Sat 1 Aug:** Places-in-News map + Accountability review.
-- **No full CSAT mock this week** (those land on the 8th & 22nd). No quarterly GS mock this week.
+**Page-tally target: 11 pages.** If you finish only this list, the week is a success.
 
 ---
 
-## D) THIS WEEK'S KPI QUOTAS (Phase 1A — Foundation)
+## C) RESOURCE CALENDAR — folding the automated outputs in
 
-| KPI | This week's number |
+| Day | What lands | How to use it |
+|---|---|---|
+| **Every day** | Daily CA (~8 PM) · PIB (~7 PM) · GS Mains question (~7 AM) | Cap news + CA + PIB at **one maintenance hour**. Push exactly **3 facts/day** into the SR queue. The 7 AM Mains question is your Block-4 fallback if the listed prompt doesn't land. |
+| **Sun 26** | Schemes & Reports · CSAT practice · Prelims flashcards | Flashcards during the sectional-mock debrief. Schemes note → tag Semicon 2.0 + IFI 2026 into the schemes/indices cluster. |
+| **Mon 27** | CSAT PYQ plan · RC drill | After dinner, and only if the DPSP + FD pages are actually built. |
+| **Tue 28** | Physics PYQ plan | Align it with the rigid-body problem set — do not open a new Physics topic. |
+| **Wed 29** | Physics drill | Runs inside Block-3 alongside Griffiths Ch 2. |
+| **Thu 30** | Editorials→Mains | This *is* Thursday's Block-4 source. |
+| **Fri 31** | Recall quiz · Fodder bank | After Block-2, never before. Fodder bank feeds Saturday's ethics page and the essay. |
+| **Sat 1 Aug** | Places-in-News · Accountability review | Map drill in Block-3; accountability review last thing at night, written down. |
+
+**No full CSAT mock this week** (those fall on the 8th & 22nd). No quarterly GS mock.
+
+---
+
+## D) THIS WEEK'S KPI QUOTAS — Phase 1A Foundation
+
+| KPI | Target |
 |---|---|
-| Study hours | **≥ 28 hrs** |
-| Newspaper | **7 / 7** |
-| New topic pages | **10–12** (target 11) |
+| Study hours | **≥ 28** |
+| Newspaper / CA / PIB | **7 / 7** |
+| New topic pages | **10–12** (target **11**) |
 | Mains answers | **5–7** |
 | MCQs | **50+** |
-| Sectional mocks | **1** (Sun) |
-| Physics | Rigid body + **Griffiths EM Ch 2 with 10+ problems** |
+| Sectional mocks | **1** (Sun 26) |
+| Physics | Rigid body (5 problems) + **Griffiths EM Ch 2 closed with 10+ solved problems** |
+| SR cards added | **~21** (3/day) |
 
 ---
 
 ## E) WEEKLY DELIVERABLES CHECKLIST
 
-- [ ] Laxmikanth Ch 8–9 done; DPSP + Fundamental Duties pages built
-- [ ] Mrunal Pillar-1 second half done; capital-market + monetary-toolkit pages built
-- [ ] Spectrum Ch 8-b + Ch 9 done; Swadeshi + Surat-Split pages built
-- [ ] Sci-Tech Space page built (launch-vehicle table)
-- [ ] NCERT Physical Geography Ch 5–8 done; geomorphic + atmosphere pages built
-- [ ] Griffiths EM Ch 2 closed with 10+ solved problems; rigid-body set (5) done
-- [ ] IR "India 2026 external file" page built
-- [ ] 5–7 Mains answers written
-- [ ] 50+ MCQs attempted (incl. Tue RBI set + Sun sectional)
-- [ ] Newspaper / CA / PIB 7-for-7
-- [ ] Saturday accountability review done honestly
+- [ ] Laxmikanth **Ch 8–9** read; DPSP + FR-vs-DPSP + Fundamental Duties pages built (3)
+- [ ] Mrunal **Pillar-1 second half** read; capital-market + monetary-toolkit pages built (2)
+- [ ] Spectrum **Ch 8-b + Ch 9** read; Swadeshi + Surat Split + Revolutionaries pages built (3)
+- [ ] **Sci-Tech Space** page built with launch-vehicle table (1)
+- [ ] NCERT Physical Geography **Ch 5–8** read; rocks + geomorphic + atmosphere pages built (3)
+- [ ] **Griffiths EM Ch 2** closed with **10+** solved problems
+- [ ] **Rigid-body** set — 5 problems solved
+- [ ] IR "India 2026 external file" + Indo-Pacific flashpoints pages built (2)
+- [ ] **5–7** Mains answers written and timed
+- [ ] **50+** MCQs attempted (Sun sectional 25 + Tue RBI 10 + daily CA sets)
+- [ ] Newspaper / CA / PIB **7 for 7**
+- [ ] **July month-end audit** filled in honestly (Sun 26)
+- [ ] Saturday accountability review written down
 
 ---
 
-## F) REVISE THIS WEEK (spaced repetition from earlier blocks)
+## F) REVISE THIS WEEK — spaced repetition from earlier blocks
 
-1. **Preamble + 42nd Amendment additions** (Laxmikanth Ch 1–3, F2) — "Socialist, Secular, Integrity"; pairs with this week's DPSP/FD.
-2. **National-income aggregates** — GDP/GVA/NNP, market price vs factor cost (Economy NCERT, F2/F3); pairs with Tuesday's monetary block.
-3. **Socio-religious reform organisations & founders** — Brahmo/Arya/Prarthana Samaj (Spectrum Ch 4–6, F3); the immediate backstory to Swadeshi.
-4. **Interior of the Earth + earthquake waves (P/S/L, shadow zones)** (NCERT Physical Ch 1–4, F2); pairs with Saturday's geomorphic processes.
+1. **Preamble + 42nd Amendment additions** (Laxmikanth Ch 1–3, F2) — "Socialist, Secular, Integrity"; the same amendment that gave you Fundamental Duties and Art 39A/43A/48A. Revise the two together on Monday.
+2. **National-income aggregates** — GDP/GVA/NNP, market price vs factor cost, deflator (Economy NCERT, F2/F3). Pairs directly with Tuesday's money-supply and inflation-measurement block.
+3. **Socio-religious reform organisations & founders** — Brahmo / Prarthana / Arya Samaj, Aligarh, Theosophical Society (Spectrum Ch 4–6, F3). This is the intellectual backstory to Wednesday's Swadeshi page.
+4. **Interior of the Earth + earthquake waves** — P/S/L waves, shadow zones, discontinuities (NCERT Physical Ch 1–4, F2). Read it the night before Saturday's rocks/geomorphic block so the rock cycle sits on top of it.
 
 ---
 
 ## G) REFLECTION PROMPTS
 
-- Did I hit **last week's** roadmap list, or is F4 first-half still open? (If open, do it first.)
-- Any subject **untouched 2+ weeks**? (Watch Physics EM continuity and Economy.)
-- Newspaper truly **7/7**, or did maintenance-hour creep eat a static block?
-- Did I actually **consume** the automated outputs (CA, PIB, Editorials, Recall quiz), or just let them pile up?
-- Did any **trigger** fire this week — a slipped day, a skipped mock, sleep under 6h three nights?
+- Did the **19–25 Jul reset list actually close**? If Laxmikanth Ch 6–7 or Griffiths Ch 1 is still open, **do that first** and slide this pack by a day or two — don't stack a second backlog on the first.
+- Any subject **untouched 2+ weeks**? Watch **Environment** (Shankar Ch 3–5 is due in F6) and **IR** (running on CA consolidation only, no static text yet).
+- Newspaper truly **7/7** — or did the maintenance hour quietly eat a Block-2?
+- Did you **consume** the automated outputs (CA, PIB, Editorials, Recall quiz, Physics PYQ), or did they just accumulate unread?
+- **Any trigger fire?** A slipped day, a skipped mock, or three nights under 6h sleep — name it now, not at month-end.
 
 ---
 
 ## H) TOP 3 PRIORITIES
 
-1. **Close the Polity Part-III/IV spine:** DPSP + Fundamental Duties complete the Rights–Duties–Directives triangle — non-negotiable this week.
-2. **Make finance visual:** one capital-market map + one monetary-toolkit page beats scattered definitions.
-3. **Finish EM Ch 2 with problems:** reading Griffiths isn't the deliverable — the 10 solved problems are.
+1. **Close the Part III–IV spine.** Rights → Directives → Duties is one argument, not three chapters. Finish Laxmikanth Ch 8–9 and you own the Constitution's normative core.
+2. **Make finance visual.** One capital-market map and one monetary-toolkit page beat twenty scattered definitions. Put SDF, MSF and repo on a single corridor diagram.
+3. **Ten solved problems in Griffiths Ch 2.** Reading electrostatics is not the deliverable; the solved problems are. This is the KPI most likely to slip.
 
 ---
 
-## MONTH-END CHECKPOINT — July 2026 (26 Jul is the last Sunday)
+## MONTH-END CHECKPOINT — July 2026
 
-Answer each honestly on Sunday (this is a self-audit — fill in the actuals):
+*(26 Jul is the last Sunday of July. Fill this in on Sunday morning, honestly.)*
 
-| Question | Yes / No |
-|---|---|
-| Fortnight completion (F3→F4) ≥ 80%? | ___ |
-| ~25 new pages built across July? | ___ |
-| Mains answers ≥ 20 for the month? | ___ |
-| Mock scores trending up (or at least stable)? | ___ |
-| Any subject missed 2+ consecutive weeks? (No = good) | ___ |
-| Spaced-revision (SR) queue cleared to near-zero? | ___ |
-| Sunday Sweep run every week in July? | ___ |
+| # | Question | Yes / No |
+|---|---|---|
+| 1 | Fortnight completion (F3 → F4) **≥ 80%**? | ___ |
+| 2 | **~25 new pages** built across July? | ___ |
+| 3 | Mains answers **≥ 20** for the month? | ___ |
+| 4 | Mock scores trending up (or at least stable)? | ___ |
+| 5 | No subject missed **2+ consecutive weeks**? | ___ |
+| 6 | SR queue cleared to near-zero? | ___ |
+| 7 | Sunday Sweep run every week in July? | ___ |
 
-**Reading the result:** July already had a genuine wobble — the 12 Jul week went **news-only** and 19 Jul is a **reset/repeat**. So expect one or two "No"s here and treat them as data, not failure. **If 4+ answers are "No,"** run a **2-week recovery**: freeze new roadmap chapters, clear the F4 static backlog + SR queue first, protect sleep, and keep only news + one Mains answer/day until pages are caught up. If it's 3 or fewer "No"s, you're on-pace — proceed with this week's plan as written.
+**If 4 or more are "No" → run this 2-week recovery plan (27 Jul – 9 Aug):**
+
+- **Week 1 (27 Jul–1 Aug):** cut the plan to **Polity + Economy + Physics only**. Drop IR consolidation and one Geography day. Target **7 pages**, not 11. Protect Block-2 absolutely; let Block-3 go if you must.
+- **Week 2 (2–9 Aug):** re-add Modern History and Geography. Run **one 50-Q sectional mock** mid-week to re-anchor. Rebuild the SR queue from zero rather than trying to clear the old backlog.
+- **Structural fixes, pick two:** (i) move Block-4 from 8 PM to right after Block-2 if evenings keep collapsing; (ii) hard-cap Block-1 at 45 minutes with a timer; (iii) write the notebook page *during* Block-2, not after — a chapter isn't finished until the page exists.
+- **Do not** attempt to "catch up" F3 and F4 simultaneously. Backlog is paid down at 1.2× speed, never 2×.
 
 ---
 
 ## PRACTICE SET
 
-### Part 1 — 15-Question Mixed Prelims Quiz
-*(Answer key + explanations in the Answers section. Covers this week's assigned content + the past week's CA; checked against the last 3 weekly quizzes to avoid repeats.)*
+### Prelims quiz — 15 questions
 
-**Q1.** Which of the following is/are classified as **Gandhian** Directive Principles?
-1. Organisation of village panchayats (Art 40)
-2. Promotion of cottage industries (Art 43)
-3. Uniform Civil Code (Art 44)
-4. Prohibition of intoxicating drinks (Art 47)
-Select the correct answer: (a) 1, 2 and 4 (b) 1 and 3 (c) 2, 3 and 4 (d) 1, 2, 3 and 4
+*(Answers and explanations at the very end.)*
 
-**Q2.** With reference to **Fundamental Duties**, consider the following:
-1. They were added to the Constitution on the recommendation of the Swaran Singh Committee.
-2. The duty to provide opportunities for education to one's child was added by the 86th Amendment.
-3. Fundamental Duties are enforceable by courts through writ jurisdiction.
-Which are correct? (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3
+**Q1.** The Union Cabinet's **Semicon 2.0 (India Semiconductor Mission 2.0)**, approved in July 2026, is best distinguished from Semicon 1.0 by which of the following?
+(a) It funds only silicon fabrication units, unlike 1.0 which funded packaging
+(b) It extends support upstream to semiconductor equipment, materials, chemicals and gases
+(c) It transfers implementation from MeitY to the Department of Science and Technology
+(d) It restricts incentives to firms with 100% domestic ownership
 
-**Q3.** The doctrine of "Basic Structure" of the Constitution:
-1. was propounded in *Kesavananda Bharati v. State of Kerala* (1973).
-2. means Parliament cannot amend any provision of the Constitution.
-3. was used to strike down parts of the 42nd Amendment in *Minerva Mills* (1980).
-Which are correct? (a) 1 and 2 (b) 1 and 3 (c) 2 and 3 (d) 1, 2 and 3
+**Q2.** With reference to the **Index of Core Industries (ICI)** revised in July 2026, consider the following statements:
+1. The base year has been shifted from 2011-12 to 2022-23.
+2. Iron ore has been added, taking the number of core industries to nine.
+3. Electricity carries the largest weight in the revised index.
+Which of the statements given above are correct?
+(a) 1 and 2 only
+(b) 2 and 3 only
+(c) 1 and 3 only
+(d) 1, 2 and 3
 
-**Q4.** With reference to the **Securities and Exchange Board of India (SEBI)**, consider the following:
-1. It is a statutory body established under an Act of Parliament.
-2. It regulates the primary as well as the secondary securities market.
-3. It is the regulator for the insurance sector in India.
-Which are correct? (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3
+**Q3.** The **Supreme Court (Number of Judges) Amendment Bill, 2026** raises the sanctioned strength of the Supreme Court. In this context, consider the following statements:
+1. The number of Supreme Court judges can be increased only by a constitutional amendment.
+2. Article 124(1) empowers Parliament to fix the number of Supreme Court judges by law.
+3. The previous increase in sanctioned strength took place in 2019.
+Which of the statements given above is/are correct?
+(a) 1 and 2 only
+(b) 2 and 3 only
+(c) 1 and 3 only
+(d) 2 only
 
-**Q5.** Which of the following are **qualitative (selective)** instruments of monetary policy of the RBI?
-1. Cash Reserve Ratio
-2. Margin requirements
-3. Moral suasion
-4. Open Market Operations
-Select: (a) 1 and 4 (b) 2 and 3 (c) 1, 3 and 4 (d) 2, 3 and 4
+**Q4.** The **Investment Friendliness Index (IFI) 2026** was released by:
+(a) the Department for Promotion of Industry and Internal Trade
+(b) NITI Aayog
+(c) the Reserve Bank of India
+(d) the Ministry of Finance
 
-**Q6.** With reference to the **Partition of Bengal (1905)** and the **Swadeshi Movement**, consider the following:
-1. The partition was announced by Lord Curzon and took effect in October 1905.
-2. The National Council of Education was set up as part of the Swadeshi Movement.
-3. The partition was annulled in 1911.
-Which are correct? (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3
+**Q5.** **QDENGA (TAK-003)**, which received Indian regulatory approval in July 2026, is:
+(a) a monoclonal antibody for severe dengue
+(b) a live attenuated tetravalent dengue vaccine
+(c) a rapid diagnostic kit for dengue NS1 antigen
+(d) a mosquito-sterilisation biological agent
 
-**Q7.** The **Surat Split (1907)** of the Indian National Congress was primarily caused by:
-(a) a dispute over the presidency and the pace/methods of the movement between Moderates and Extremists
-(b) disagreement over participation in the First World War
-(c) the question of separate electorates for Muslims
-(d) the Congress response to the Rowlatt Act
+**Q6.** India's export of the **Akash** system to Tajikistan and Turkmenistan in July 2026 is significant because Akash is:
+(a) a short-range ballistic missile
+(b) a medium-range surface-to-air missile system
+(c) a beyond-visual-range air-to-air missile
+(d) a supersonic anti-ship cruise missile
 
-**Q8.** Which of the following are **exogenic** geomorphic processes?
-1. Weathering
-2. Volcanism
-3. Mass movement
-4. Erosion and deposition
-Select: (a) 1, 3 and 4 (b) 1 and 2 (c) 2, 3 and 4 (d) 1, 2 and 4
+**Q7.** **Puga Valley**, in the news in July 2026 for India's first commissioned geothermal wells, is located in:
+(a) Himachal Pradesh
+(b) Uttarakhand
+(c) Ladakh
+(d) Arunachal Pradesh
 
-**Q9.** Arrange the atmospheric layers from the Earth's surface upward:
-(a) Troposphere → Stratosphere → Mesosphere → Thermosphere
-(b) Troposphere → Mesosphere → Stratosphere → Thermosphere
-(c) Stratosphere → Troposphere → Thermosphere → Mesosphere
-(d) Troposphere → Stratosphere → Thermosphere → Mesosphere
+**Q8.** Which of the following Directive Principles were **inserted into Part IV by constitutional amendments** rather than being part of the original Constitution?
+1. Equal justice and free legal aid (Art 39A)
+2. Participation of workers in management of industries (Art 43A)
+3. Protection and improvement of environment and safeguarding of forests and wildlife (Art 48A)
+4. Organisation of village panchayats (Art 40)
+Select the correct answer using the code below:
+(a) 1, 2 and 3 only
+(b) 1 and 4 only
+(c) 2, 3 and 4 only
+(d) 1, 2, 3 and 4
 
-**Q10.** With reference to Indian launch vehicles, consider the following:
-1. LVM3 (GSLV Mk-III) is currently ISRO's heaviest operational launcher.
-2. SSLV is designed for small satellites to Low Earth Orbit.
-3. PSLV placed the Chandrayaan-3 lander in lunar orbit directly.
-Which are correct? (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3
+**Q9.** With reference to the relationship between Fundamental Rights and Directive Principles, consider the following statements:
+1. In *Champakam Dorairajan* (1951), the Supreme Court held that Fundamental Rights would prevail over Directive Principles in case of conflict.
+2. Article 31C was inserted by the 25th Constitutional Amendment Act, 1971.
+3. In *Minerva Mills* (1980), the Supreme Court struck down the extension of Article 31C to **all** Directive Principles.
+Which of the statements given above are correct?
+(a) 1 and 2 only
+(b) 2 and 3 only
+(c) 1 and 3 only
+(d) 1, 2 and 3
 
-**Q11.** The **India–UK Comprehensive Economic and Trade Agreement (CETA)**, which entered into force in July 2026, is associated with a **Double Contribution Convention (DCC)** that:
-(a) eliminates all tariffs on Indian textiles immediately
-(b) exempts eligible workers from paying social-security contributions in both countries for a fixed period
-(c) creates a common India–UK currency-swap line
-(d) establishes a joint carbon-border tax
+**Q10.** With reference to the RBI's liquidity operations, consider the following statements:
+1. The Standing Deposit Facility (SDF) replaced the fixed reverse repo rate as the floor of the liquidity adjustment facility corridor.
+2. Unlike reverse repo operations, the SDF does not require the RBI to provide collateral.
+3. The Marginal Standing Facility rate forms the ceiling of the corridor.
+Which of the statements given above are correct?
+(a) 1 and 2 only
+(b) 2 and 3 only
+(c) 1 and 3 only
+(d) 1, 2 and 3
 
-**Q12.** With reference to the **Strait of Hormuz**, consider the following:
-1. It connects the Persian Gulf to the Gulf of Oman.
-2. It lies between Iran and Oman (Musandam exclave).
-3. A large share of India's crude-oil imports transit through it.
-Which are correct? (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3
+**Q11.** In the RBI's measures of money supply, **M3** is correctly described as:
+(a) currency with the public plus demand deposits with the banking system
+(b) M1 plus savings deposits with post office savings banks
+(c) M1 plus time deposits with the banking system
+(d) M2 plus total deposits with post office savings organisations
 
-**Q13.** The **Index of Services Production (ISP)**, released in trial form in July 2026:
-1. is published by the Ministry of Statistics & Programme Implementation.
-2. is the services-sector counterpart to the Index of Industrial Production.
-3. currently includes health and education services in full.
-Which are correct? (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3
+**Q12.** With reference to revolutionary nationalism in the first decade of the twentieth century, consider the following pairs:
+1. Anushilan Samiti — Bengal
+2. Alipore Bomb Case — Aurobindo Ghosh
+3. Madan Lal Dhingra — assassination of Curzon Wyllie in London
+Which of the pairs given above are correctly matched?
+(a) 1 and 2 only
+(b) 2 and 3 only
+(c) 1 and 3 only
+(d) 1, 2 and 3
 
-**Q14.** The **National Investment and Infrastructure Fund (NIIF)**, in the news in July 2026, is best described as:
-(a) a Central Public Sector Undertaking wholly owned by the Government
-(b) a quasi-sovereign infrastructure-financing fund in which the Government holds up to 49%
-(c) a scheme administered by the Reserve Bank of India
-(d) a multilateral fund under the World Bank
+**Q13.** The **Morley–Minto Reforms (Indian Councils Act, 1909)** are best remembered for:
+(a) introducing dyarchy in the provinces
+(b) introducing separate electorates for Muslims
+(c) establishing a bicameral central legislature
+(d) providing for provincial autonomy and a federal centre
 
-**Q15.** The **Aastha Van Sanrakshan Yojana (AVSY)**, approved in July 2026, aims to conserve:
-(a) mangrove ecosystems along the eastern coast
-(b) sacred groves ("Aastha Vans") through community-based in-situ conservation, funded via CAMPA
-(c) urban forests under the Nagar Van Yojana
-(d) high-altitude cold deserts in the Himalayas
+**Q14.** With reference to temperature conditions in the atmosphere, consider the following statements:
+1. The normal lapse rate is a decrease of about 6.5°C per 1,000 metres of altitude in the troposphere.
+2. Temperature inversion occurs when temperature increases with height instead of decreasing.
+3. Long winter nights with clear skies and calm air over snow-covered valleys favour the formation of temperature inversion.
+Which of the statements given above are correct?
+(a) 1 and 2 only
+(b) 2 and 3 only
+(c) 1 and 3 only
+(d) 1, 2 and 3
+
+**Q15.** With reference to India's space-sector reform architecture, consider the following statements:
+1. IN-SPACe is the single-window agency for authorising and regulating space activities by non-governmental entities.
+2. NewSpace India Limited (NSIL) is the commercial arm of the Department of Space.
+3. IN-SPACe functions as an autonomous body under the Department of Space.
+Which of the statements given above are correct?
+(a) 1 and 2 only
+(b) 2 and 3 only
+(c) 1 and 3 only
+(d) 1, 2 and 3
 
 ---
 
-### Part 2 — Two GS Mains Questions (write in 150–250 words each)
+### GS Mains — 2 questions
 
-**M1 (GS2 — Polity):** *"The Directive Principles of State Policy represent the constitutional vision of a welfare state, yet their non-justiciability limits their transformative potential."* **Discuss.** *(directive: Discuss — present a balanced, many-sided account.)*
+**M1 (GS2 — Polity, 250 words, 15 marks):**
+*"The Directive Principles of State Policy are non-justiciable in form but have proved decisive in substance. **Critically examine** this statement with reference to legislative and judicial practice since 1950."*
 
-**M2 (GS1 — Modern History):** *"The Swadeshi Movement (1905–1911) marked a decisive shift from moderate constitutionalism to mass politics."* **Critically examine.** *(directive: Critically examine — weigh both the shift and its limits, and give a judgement.)*
-
-*Skeletons in the Answers section. You can run **essay-evaluator** and **mains-answer-feedback** on your written attempts.*
-
----
-
-## PYQ MIRROR — how UPSC has actually asked these topics
-
-**1. Directive Principles of State Policy** *(verified)*
-- **Prelims 2015:** "The ideal of 'Welfare State' in the Indian Constitution is enshrined in its" → **Directive Principles of State Policy**.
-- **Prelims (statement type):** DPSP "spell out the socio-economic democracy" and "are not enforceable by any court" — both correct. DPSP is a recurring near-annual Prelims theme (which article, which group, justiciability).
-- **Mains (GS2):** Directive Principles vs Fundamental Rights and the "conflict-and-harmony / basic-structure" framing has appeared multiple times *(year approximate — flag and confirm against your PYQ compilation)*.
-
-**2. Swadeshi Movement / Partition of Bengal** *(verified)*
-- **Prelims 2016:** "'Swadeshi' and 'Boycott' were adopted as methods of struggle for the first time during the agitation against the partition of Bengal." (Correct.)
-- **Prelims 2019:** Statements on the Swadeshi Movement — revival of indigenous crafts and the **National Council of Education** established as part of it.
-- **Mains (GS1):** The Swadeshi phase as the origin of mass techniques (boycott, passive resistance, national education) is a standard modern-history theme; frame around 1905–1911.
-
-**3. Basic Structure Doctrine** *(verified core; specific option-years flag)*
-- **Foundational case:** *Kesavananda Bharati v. State of Kerala* (1973); reinforced in *Indira Nehru Gandhi* (1975) and *Minerva Mills* (1980).
-- **Prelims:** typically framed as "which of the following is / is NOT part of the basic structure" (federalism, secularism, judicial review are in; DPSP as such is not). *Confirm exact year/options in your compilation.*
+**M2 (GS1 — Modern History, 250 words, 15 marks):**
+*"The Swadeshi Movement failed as a campaign but succeeded as a school of politics. **Critically examine** its contribution to the techniques and vocabulary of the later national movement."*
 
 ---
 
-## ETHICS CASE + ESSAY PRACTICE
+## PYQ MIRROR — how UPSC has actually asked this week's topics
 
-### (a) GS4 Case Study
-You are the **District Collector** of a district where the flagship rooftop-solar scheme (PM Surya Ghar) is being rolled out with central subsidy. A field audit reveals that a **prominent vendor**, backed politically, has installed sub-standard panels in ~200 low-income homes while claiming the full subsidy; several families now face fire-safety risks. The vendor's local partner is a **college friend** who quietly helped you settle into the district and now requests that you "regularise" the files to avoid a scandal ahead of an important state visit. A junior engineer who flagged the defects is being pressured to withdraw the report. Blowing the whistle will delay disbursements to genuine beneficiaries and invite political heat; suppressing it protects the timeline but endangers citizens.
+### 1. Directive Principles & Fundamental Duties
 
-**Sub-questions:**
-1. Identify the ethical dilemmas and the stakeholders involved.
-2. What options are available to you, and what are their merits and demerits?
-3. What course of action would you choose, and on what ethical grounds?
-4. How would you protect the junior engineer while ensuring accountability?
+**Prelims**
+- **2021:** "Under the Indian Constitution, concentration of wealth violates — (a) Right to Equality (b) **Directive Principles of State Policy** (c) Right to Freedom (d) Concept of Welfare." *(Art 39(c).)* — verified.
+- **2020:** Statement-pair on **Article 39** — equal pay for equal work for men and women; securing a social order for the promotion of welfare. — verified.
+- **~2017 and ~2015:** statement-based questions on which provisions fall under Part IV, and on the placement of Fundamental Duties. *(Approximate — verify exact years against your PYQ compilation.)*
 
-### (b) Essay Topic *(philosophical, this week)*
-**"Freedom is not worth having if it does not include the freedom to make mistakes."**
+**Mains**
+- **GS1 2015:** "Discuss the possible factors that inhibit India from enacting for its citizens a **uniform civil code** as provided for in the Directive Principles of State Policy." — the single most-cited DPSP Mains question; build your answer skeleton around it.
+- **GS2 2019:** "The reservation of seats for women in institutions of local self-government has had a limited impact on the patriarchal character of the Indian political process." — this is **Article 40** DPSP operationalised through the 73rd/74th Amendments. Cross-link.
 
-*Model approaches for both — plus quotes/data — are in the Answers section.*
+**Pattern read:** Prelims tests **article-number placement** (which article carries which principle, and which amendment inserted it). Mains tests **DPSP as unfulfilled promise** — UCC, local self-government, living wage, environment. Build one page per unfulfilled Directive.
+
+### 2. Swadeshi Movement, Partition of Bengal & the Surat Split
+
+**Prelims**
+- UPSC has repeatedly asked **date/leader/technique** questions from this window: the 1905 partition announcement and its 1911 annulment, the four techniques of the Swadeshi campaign, and the Moderate–Extremist personalities. *(Specific years approximate — verify; the topic recurs but rarely with the same framing twice.)*
+- The **1909 separate electorates** point is a near-permanent Prelims fixture, usually inside a communalism or constitutional-development set.
+
+**Mains**
+- **GS1 2017:** "Highlight the importance of the **new objectives** that got added to the vision of Indian independence since the twenties of the last century." — the Swadeshi phase is your "before" contrast.
+- **GS1 2016:** "Highlight the differences in the approach of Subhash Chandra Bose and Mahatma Gandhi." — same family of questions: *method* rather than *event*.
+- The Moderate/Extremist split and the rise of extremism has been asked **repeatedly since 2010** in GS1 in varying phrasings.
+
+**Pattern read:** UPSC almost never asks "describe the Swadeshi Movement." It asks about **methods, transitions and legacies**. Write your page as a methods table, not a narrative.
+
+### 3. Monetary policy & capital markets
+
+**Prelims**
+- **2020:** "If the RBI decides to adopt an expansionist monetary policy, which of the following would it **not** do? 1. Cut and optimize the SLR 2. Increase the MSF rate 3. Cut the Bank Rate and Repo Rate" — verified; the classic direction-of-tools question.
+- **2013:** "In the context of the Indian economy, **Open Market Operations** refers to —" — verified.
+- **2022:** question on the advantages of **Inflation-Indexed Bonds (IIBs)** — verified; instrument-design flavour.
+
+**Mains**
+- **GS3 2021:** "Do you agree that the Indian economy has recently experienced a **V-shaped recovery**? Give reasons." — monetary + fiscal transmission.
+- **GS3 2022:** "Do you agree with the view that steady GDP growth and low inflation have left the Indian economy in good shape?" — verified; the inflation-measurement material you build Tuesday feeds this directly.
+
+**Pattern read:** Prelims tests **which tool moves which way** and **who regulates what**. Mains tests **transmission and trade-offs**. Your monetary-toolkit page should have a "direction" column — tightening vs easing — for every instrument.
+
+---
+
+## ETHICS CASE — GS4
+
+**Case (170 words).**
+You are the District Magistrate of a district where a large semiconductor-materials plant has been sanctioned under a new central mission. It promises 4,000 direct jobs in a district with severe out-migration. The plant requires 320 acres, of which 40 acres is a grove that three villages treat as a sacred *devrai* and that the state's own biodiversity board has recorded as a rare lichen habitat.
+
+The company's environmental clearance is technically valid but relied on a rapid assessment conducted in the dry season. Village elders are not opposing the project — they are asking only that the grove be left out and the plant boundary shifted north, which would raise costs by roughly 6% and delay commissioning by four months.
+
+The state industries secretary calls you and says the Chief Minister has announced a commissioning date, that "the clearance is legally sound," and that you should "manage the local sentiment." A junior officer in your team has already drafted a note supporting the shift; she asks whether she should send it up.
+
+**Sub-questions**
+
+(a) Identify the ethical issues and the competing values in this case. (60 words)
+(b) Evaluate the options available to you as District Magistrate, with their merits and demerits. (150 words)
+(c) What course of action would you adopt, and on what ethical reasoning? (100 words)
+(d) What should you say to the junior officer who has drafted the note, and why does your answer matter beyond this case? (60 words)
+
+---
+
+## ESSAY PRACTICE
+
+**This week's topic (issue-based — last one was philosophical):**
+
+> **"Development that erases memory is not development."**
+
+Write **1,000–1,200 words in 90 minutes**, untimed only if this is your first attempt at an issue-based essay this month.
+
+*Reminder:* run **`essay-evaluator`** on the finished essay, and **`mains-answer-feedback`** on at least two of this week's Block-4 answers. Unevaluated answers are practice; evaluated answers are improvement.
 
 ---
 
 ## PACE & ENERGY CHECK
 
-A quick, honest self-read before Monday — no judgement attached:
+Three honest questions before you plan Monday:
 
-- **Sleep:** how many nights this past week did you get **under 6 hours**? If it's three or more, that is the single highest-leverage thing to fix — a rested brain remembers Griffiths and Laxmikanth; a tired one just re-reads them.
-- **Energy / motivation:** are the mornings still landing, or are Block-2 sessions starting to feel like grinding gears?
-- **On-pace status:** after two soft weeks (news-only + reset), it's completely normal to feel behind. You are **~302 days out** — there is plenty of runway. The reset was the *smart* move, not a failure.
-- **If you're seeing burnout signs** (dread, flat mood, sleep slipping, retention dropping): take a deliberate **2-day break**, protect sleep, keep only the newspaper alive, and come back to the F4 static list fresh. A planned pause beats an unplanned collapse.
+1. **Sleep.** What was your average over the last seven nights? If it was **under 6 hours**, that is the first thing to fix — not the page count. Sleep debt shows up as slower reading and worse retention long before it shows up as tiredness, and you will feel like you are working while achieving less.
+2. **Energy and motivation.** Last week was a reset week. Reset weeks are normal and you handled it correctly — you kept the news pipeline alive and moved the static work rather than abandoning it. Does this week feel workable, or does the 11-page list already feel heavy? If heavy, cut the Friday IR consolidation. That is the designed release valve.
+3. **On pace?** With **302 days to Prelims** and F4 closing on schedule, you are on track. Foundation phases are meant to feel slow. The compounding happens in Phase 2.
 
-You've kept the newspaper and CA alive through a rough patch — that consistency is worth more than one heroic week. Steady wins this race.
+**If two or more of these are true — waking tired most days, dreading Block-2, no genuinely free half-day in three weeks — take a deliberate two-day break this week.** Not a collapsed one. Plan it, protect sleep, and come back on Wednesday. A planned two-day break costs you six pages. An unplanned burnout week costs you a fortnight, and you already know what recovering from one of those feels like.
+
+You have run this Sweep every week since June. That consistency is the real asset here.
+
+---
+---
+
+# ANSWERS
+
+## Prelims quiz — key & explanations
+
+**Q1 — (b).** Semicon 1.0 (₹76,000 cr) concentrated on fabs and ATMP/OSAT. **Semicon 2.0 (₹1,27,500 cr)** explicitly extends to **equipment, materials, chemicals and gases** — the upstream layer where India is most import-dependent. Six pillars: design, equipment & materials, fabs, ATMP/OSAT, R&D, talent. Targets ₹4 lakh cr investment and ₹2 lakh cr production.
+*Subject: Science & Technology · Current Affairs · Moderate*
+
+**Q2 — (d).** All three correct. DPIIT's Office of the Economic Adviser rebased the ICI to **2022-23**; **iron ore** was added as the ninth core industry; **electricity carries the largest weight (30.93)**, followed by refinery products (22.57) and steel (17.58).
+*Subject: Economy · Current Affairs · Moderate*
+
+**Q3 — (b).** Statement 1 is **wrong** — no constitutional amendment is needed. **Article 124(1)** lets Parliament fix the number "by law," so a simple-majority statute suffices. The 2026 Bill raises judges excluding the CJI from 33 → 37 (total **34 → 38**). The previous hike (31 → 34) was in **2019**.
+*Subject: Polity & Governance · Current Affairs · Moderate*
+
+**Q4 — (b) NITI Aayog.** The inaugural **IFI 2026** ranks States/UTs on investment climate; **Gujarat topped (56.6/100)**, followed by Maharashtra, Tamil Nadu, Goa, Odisha. Built on 84 final indicators across eight pillars (Infrastructure 25%, Business Climate 20%, Resources 15%, Regulatory Ease 12%...). Do not confuse with NITI's Export Preparedness Index or Fiscal Health Index.
+*Subject: Reports & Indices · Current Affairs · Easy*
+
+**Q5 — (b).** **QDENGA (TAK-003)** is a **live attenuated tetravalent dengue vaccine** (Takeda), India's first approved dengue vaccine. "Tetravalent" = covers all four dengue serotypes — the examinable word.
+*Subject: Science & Technology · Current Affairs · Easy*
+
+**Q6 — (b).** **Akash** is a DRDO-developed **medium-range surface-to-air missile (SAM)** system, range ~25–30 km. Its export to **Tajikistan and Turkmenistan** marks India's defence-export footprint reaching Central Asia. Distinguish from **Astra** (BVR air-to-air) and **BrahMos** (supersonic cruise).
+*Subject: International Relations · Current Affairs · Moderate*
+
+**Q7 — (c) Ladakh.** **Puga Valley**, in the Changthang region of eastern Ladakh, is India's most promising geothermal field and now hosts the country's **first commissioned geothermal wells**. It sits in a tectonically active zone associated with the Indus Suture.
+*Subject: Geography · Current Affairs · Easy*
+
+**Q8 — (a) 1, 2 and 3 only.** **Art 39A** (equal justice, free legal aid), **43A** (worker participation in management) and **48A** (environment and forests) were all inserted by the **42nd Amendment, 1976**. **Art 40** (village panchayats) is original — a Gandhian principle from 1950. *(Also worth remembering: Art 38(2) added by the 44th Amendment, 1978; Art 43B — cooperative societies — by the 97th Amendment, 2011.)*
+*Subject: Polity & Governance · Factual · Hard*
+
+**Q9 — (d) All three.** *Champakam Dorairajan* (1951) held FRs prevail over DPSPs, prompting the **1st Amendment**. **Art 31C** came via the **25th Amendment, 1971**, protecting laws implementing Art 39(b) and (c). The **42nd Amendment** extended 31C to **all** DPSPs; **Minerva Mills (1980)** struck that extension down as violating the basic structure, restoring 31C to its 1971 scope.
+*Subject: Polity & Governance · Conceptual · Hard*
+
+**Q10 — (d) All three.** The **SDF**, introduced in **April 2022**, replaced the fixed reverse repo as the **floor** of the LAF corridor and is **uncollateralised** — the RBI absorbs liquidity without giving securities in exchange. The **MSF** rate is the **ceiling**; the repo rate sits in the middle as the policy rate.
+*Subject: Economy · Conceptual · Hard*
+
+**Q11 — (c).** **M3 = M1 + time deposits with the banking system**, and is the "broad money"/aggregate monetary resources measure. (M1 = currency with public + demand deposits + other deposits with RBI; M2 = M1 + post-office savings deposits; M4 = M3 + total post-office deposits excluding NSCs.)
+*Subject: Economy · Factual · Moderate*
+
+**Q12 — (d) All three.** The **Anushilan Samiti** (with **Yugantar**) was the principal revolutionary organisation in **Bengal**. **Aurobindo Ghosh** was tried in the **Alipore Bomb Case (1908)** and acquitted, defended by C.R. Das. **Madan Lal Dhingra** assassinated **Curzon Wyllie** in London in 1909 and was associated with Savarkar's India House.
+*Subject: Modern History · Factual · Moderate*
+
+**Q13 — (b).** The **Indian Councils Act, 1909 (Morley–Minto)** introduced **separate electorates for Muslims** — "legalised communalism," in Spectrum's phrase. Dyarchy came with the 1919 Act; provincial autonomy and a federal scheme with the 1935 Act; the bicameral central legislature also with 1919.
+*Subject: Modern History · Factual · Easy*
+
+**Q14 — (d) All three.** The **normal lapse rate** in the troposphere is ~**6.5°C per 1,000 m**. **Temperature inversion** reverses this — temperature rises with altitude. It is favoured by long winter nights, clear skies, dry calm air and snow cover, all of which allow rapid radiative cooling of the surface. In hills, cold dense air drains into valleys (**air drainage**), producing valley inversions that trap fog and pollutants — which is why orchards and settlements in Himalayan valleys sit on the **slopes**, not the valley floor.
+*Subject: Geography · Conceptual · Moderate*
+
+**Q15 — (d) All three.** **IN-SPACe** — autonomous single-window authorising and regulating body under the Department of Space, created 2020. **NSIL** — the commercial/PSU arm of DoS (Antrix is the legacy marketing arm of ISRO). ISRO remains the R&D and mission agency.
+*Subject: Science & Technology · Conceptual · Moderate*
 
 ---
 
-## ANSWERS
+## Mains skeletons
 
-### Quiz Key (Q1–Q15)
+### M1 — GS2, DPSP. Directive: **Critically examine** (test the claim from both sides, then judge).
 
-**Q1 — (a) 1, 2 and 4.** Village panchayats (40), cottage industries (43) and prohibition (47) are Gandhian principles. **UCC (Art 44) is a Liberal–Intellectual principle**, not Gandhian.
+- **Intro (35 w):** Art 37 makes DPSPs non-enforceable yet "fundamental in the governance of the country." The claim to test: form ≠ force.
+- **Body 1 — Legislative substance (70 w):** Land-reform and zamindari-abolition laws (Art 39(b)(c)); Minimum Wages Act, Maternity Benefit Act, Equal Remuneration Act (Art 39(d), 42, 43); 73rd/74th Amendments (Art 40); RTE via 86th Amendment converting Art 45 into **Art 21A** — a Directive literally becoming a Right; MGNREGA (Art 41); Forest Conservation Act, Environment Protection Act (Art 48A).
+- **Body 2 — Judicial substance (65 w):** From *Champakam* (FRs prevail) → *Kesavananda* → *Minerva Mills* ("harmony and balance between FRs and DPSPs is part of the basic structure") → *Unni Krishnan*, *M.C. Mehta*. DPSPs used as an **interpretive lens** for Art 21, generating the rights to education, livelihood, health and clean environment.
+- **Body 3 — The counter-case (55 w):** Art 44 (UCC) unrealised after 75 years; Art 47 (prohibition, nutrition) unevenly pursued; Art 43 (living wage) far from met; the non-justiciability means implementation depends wholly on political will and fiscal capacity. Directives can also be invoked rhetorically to justify rights-restricting laws.
+- **Conclusion (30 w):** Non-justiciability limited the *remedy*, not the *influence*. The DPSPs functioned as the constitutional agenda that Parliament legislated toward and the judiciary read Art 21 through — decisive in substance, but only where politics chose to act.
+- **Value-add if space:** one line on Art 37's phrase "duty of the State to apply these principles in making laws," and the Granville Austin framing of FRs + DPSPs as the Constitution's "conscience."
 
-**Q2 — (a) 1 and 2.** Fundamental Duties came via the Swaran Singh Committee (42nd Amendment, 1976); the education duty (11th) was added by the 86th Amendment (2002). They are **non-justiciable** — statement 3 is wrong.
+### M2 — GS1, Swadeshi. Directive: **Critically examine**.
 
-**Q3 — (b) 1 and 3.** Propounded in Kesavananda Bharati (1973); applied in Minerva Mills (1980). Statement 2 is wrong — Parliament *can* amend the Constitution, but **not** its basic structure.
-
-**Q4 — (a) 1 and 2.** SEBI is statutory (SEBI Act, 1992) and regulates primary + secondary markets. Insurance is regulated by **IRDAI**, not SEBI — statement 3 wrong.
-
-**Q5 — (b) 2 and 3.** Margin requirements and moral suasion are qualitative/selective tools. CRR and OMO are **quantitative** tools.
-
-**Q6 — (d) 1, 2 and 3.** All correct: announced by Curzon, effective 16 Oct 1905; National Council of Education (1906) was a Swadeshi initiative; partition annulled in 1911.
-
-**Q7 — (a).** The Surat Split (1907) turned on the presidency and the Moderate–Extremist clash over methods and the extension of the Swadeshi/boycott programme.
-
-**Q8 — (a) 1, 3 and 4.** Weathering, mass movement, erosion/deposition are exogenic. **Volcanism is endogenic.**
-
-**Q9 — (a).** Troposphere → Stratosphere → Mesosphere → Thermosphere (then exosphere).
-
-**Q10 — (a) 1 and 2.** LVM3 is the heaviest operational launcher; SSLV serves small sats to LEO. Statement 3 is wrong — **Chandrayaan-3 was launched by LVM3**, not PSLV, and the lander separated after Earth-bound/lunar manoeuvres, not a direct PSLV lunar injection.
-
-**Q11 — (b).** The DCC exempts eligible cross-posted workers from paying social-security contributions in both countries for a defined period (extended from 3 to 5 years).
-
-**Q12 — (d) 1, 2 and 3.** All correct — Persian Gulf ↔ Gulf of Oman, between Iran and Oman's Musandam exclave, a critical route for India's crude imports.
-
-**Q13 — (a) 1 and 2.** Released by MoSPI as the services counterpart to the IIP. Health and education are **excluded for now** — statement 3 wrong.
-
-**Q14 — (b).** NIIF is a quasi-sovereign infrastructure-financing platform (est. 2015) with Government stake **up to 49%** — a strategic, not majority, holding.
-
-**Q15 — (b).** AVSY conserves sacred groves through community-based in-situ conservation, funded via National CAMPA (CAF Act, 2016).
-
-### M1 skeleton (GS2 — DPSP, "Discuss")
-- **Intro:** DPSP (Part IV, Art 36–51) as the "instrument of instructions" / conscience of the Constitution; Ambedkar — economic + social democracy.
-- **Welfare vision:** Art 39 (equitable distribution), 39A (legal aid), 41 (right to work), 43 (living wage), 47 (public health), 48A (environment) → template of the welfare state; realised via MGNREGA, RTE, food security, environmental jurisprudence.
-- **The non-justiciability limit:** Art 37 — not enforceable; dependent on political will and fiscal capacity; contrast with justiciable FRs.
-- **How the gap has narrowed:** judicial harmonisation (Minerva Mills — FR–DPSP balance is basic structure; Art 21 expansions reading DPSP goals into rights); 42nd Amendment strengthening; legislative uptake.
-- **Judgement:** transformative *in effect* though not *in form*; the limit is real but partly bridged by courts and legislation. Way forward: progressive realisation, outcome budgeting.
-
-### M2 skeleton (GS1 — Swadeshi, "Critically examine")
-- **Intro:** Partition of Bengal (1905) as trigger; Swadeshi–Boycott as the first mass agitation.
-- **The shift (yes):** new methods — boycott, swadeshi, national education (National Council of Education), passive resistance, samitis; new social base (students, women, workers); new leadership idiom (Tilak, Lajpat Rai, Bipin Chandra Pal, Aurobindo).
-- **Limits (critical):** largely confined to Bengal + urban/upper-caste base; limited Muslim participation; internal Moderate–Extremist rift → Surat Split (1907); fizzled by 1908 amid repression and lack of organisation.
-- **Legacy:** rehearsed the techniques Gandhi later scaled nationally; annulment (1911) a partial victory.
-- **Judgement:** a decisive *methodological* shift and proof-of-concept for mass politics, but not yet sustained mass politics — that awaited Gandhi post-1919.
-
-### Ethics case — model approach
-- **Dilemmas:** public safety & citizens' lives vs administrative timeline/political pressure; personal loyalty (friend) vs professional integrity; protecting a subordinate whistle-blower vs institutional/political retaliation.
-- **Stakeholders:** the 200 low-income families (safety, subsidy), the junior engineer, the vendor + political patron, the Collector, the exchequer, genuine beneficiaries awaiting disbursement, public trust in the scheme.
-- **Options:** (i) regularise files — protects timeline/relationship but betrays duty, endangers lives, complicit in fraud; (ii) full audit + recovery + FIR — upholds integrity, protects citizens, but invites heat and short delay; (iii) partial/quiet fix without accountability — half-measure, sets bad precedent.
-- **Chosen course:** Option (ii). Order independent re-inspection, halt further disbursement to the errant vendor (not to genuine beneficiaries), initiate recovery + action under scheme guidelines/PC Act as warranted, and document everything. Recuse from any decision touching the friend to avoid conflict of interest.
-- **Protecting the engineer:** treat the report as official, give written protection under whistle-blower norms, keep them off the direct line of pressure, and record the coercion attempt.
-- **Values invoked:** integrity, objectivity, courage of conviction, compassion for the vulnerable, and "public interest above private relationships."
-
-### Essay — model approach ("Freedom to make mistakes")
-- **Unpack the claim (Gandhi):** freedom implies agency; agency implies the right to err and to learn. A freedom that permits only "correct" choices is tutelage, not liberty.
-- **Dimensions:** *individual* (autonomy, moral growth through trial and error); *political* (self-rule vs benevolent colonial "guardianship" — the Swadeshi/Home Rule logic; democracy tolerates electoral mistakes); *scientific/economic* (innovation needs the freedom to fail); *social* (dissent, reform).
-- **Counterpoint / limits:** mistakes that harm others (harm principle — Mill); the need for accountability and guardrails; freedom without responsibility becomes licence.
-- **Synthesis:** true freedom couples the liberty to err with responsibility for consequences; societies mature by protecting the space to fail *and* learn.
-- **Quotes / anchors:** Gandhi — *"Freedom is not worth having if it does not include the freedom to make mistakes."* Mill — liberty limited by harm to others; Nehru's "tryst with destiny" (self-rule over good rule); Amartya Sen — *development as freedom* (agency-centred). Empirical anchor: democracies' capacity for self-correction via elections and a free press.
+- **Intro (35 w):** Partition announced 19 Jul 1905, effective 16 Oct 1905; Swadeshi formally launched at Calcutta Town Hall, 7 Aug 1905. Judge it not by whether it reversed partition (it did, in 1911) but by what it taught.
+- **Body 1 — As a school of methods (70 w):** Four techniques that became permanent — **boycott** (economic pressure), **swadeshi** (constructive self-reliance: Bengal Chemicals, swadeshi stores), **national education** (Bengal National College, 1906; Satish Chandra Mukherjee), **passive resistance** (Aurobindo's formulation, anticipating satyagraha). Cultural mobilisation: *Amar Sonar Bangla*, Rakhi Bandhan, samitis, melas, folk forms — politics leaving the drawing room.
+- **Body 2 — As a school of vocabulary (50 w):** *Swaraj* enters mainstream Congress language (Calcutta 1906); self-reliance reframed from petition to production; the Extremist assertion that rights are taken, not granted.
+- **Body 3 — The failures, honestly (60 w):** Confined largely to Bengal and to the bhadralok; Muslim participation limited and the 1906 Muslim League plus 1909 separate electorates followed; peasantry and labour barely touched; no sustained organisation after the **Surat Split (1907)** and the repression of 1908–09; drift into individual terrorism.
+- **Body 4 — The inheritance (40 w):** Gandhi's Non-Cooperation (1920) is Swadeshi's techniques at national scale with a mass base the original lacked — khadi as constructive programme, boycott of institutions, national schools.
+- **Conclusion (30 w):** It failed to build a nation-wide movement but succeeded in producing the repertoire — boycott, constructive work, passive resistance, cultural mobilisation — that the nation-wide movement would use.
 
 ---
 
-*End of Sweep — week of 26 Jul 2026.*
+## Ethics case — model approach
+
+**(a) Ethical issues and competing values.** Development and employment for a migration-hit district versus cultural rights and ecological conservation; legality versus legitimacy (a valid clearance built on a thin dry-season assessment); political direction versus administrative conscience; the DM's duty to represent local voice upward versus deliverable commitments already announced. Core tension: **efficiency and political commitment** against **objectivity, ecological justice and respect for community identity**.
+
+**(b) Options.**
+1. *Implement as sanctioned.* Merits — meets the announced timeline, avoids friction with the state government, legally unimpeachable. Demerits — treats a valid clearance as sufficient when it was procedurally thin; ignores a low-cost, low-conflict alternative the community itself proposed; risks the far larger delay of litigation or protest later.
+2. *Halt the project pending fresh assessment.* Merits — procedurally thorough. Demerits — disproportionate; the community is not opposing the project, so a full halt manufactures a conflict that does not exist and jeopardises 4,000 jobs.
+3. *Formally recommend the northern shift with a documented cost-benefit note.* Merits — preserves the project, the grove and the community's consent; converts a 6% cost and four-month delay into avoided litigation risk and durable social licence; keeps the decision with the competent authority while placing the facts on record. Demerits — short-term friction with the secretary; the recommendation may be rejected.
+4. *Quietly "manage sentiment" as instructed.* Rejected outright — this is suppression of a legitimate demand and a misuse of the DM's local-liaison role.
+
+**(c) Course of action.** Option 3. I would commission a rapid but properly seasonal ecological verification of the 40 acres, hold a documented consultation with the three villages, and forward a written recommendation for the boundary shift with a costed comparison — 6% and four months against the litigation, protest and reputational risk of proceeding. I would keep the state government informed at every step rather than acting around it. The reasoning is **proportionality**: where a small, quantifiable cost preserves both a livelihood project and a community's cultural and ecological claim, the administrator's obligation is to place that option on record, not to bury it. Legality sets the floor for administrative action, not the ceiling.
+
+**(d) To the junior officer.** She should send the note, and I would sign it or forward it with my own. Telling a subordinate that an honest, evidence-based note is career-risky teaches her that the safe move is silence — and an administration where the accurate note goes unwritten fails long before it fails visibly. What is being modelled here is whether **speaking truth to power** is normal practice or personal heroism; institutions survive only when it is the former.
+
+**Quotes / data to deploy:**
+- *"The best way to find yourself is to lose yourself in the service of others."* — M.K. Gandhi (on public service as the DM's frame of reference).
+- **2nd ARC, 4th Report ("Ethics in Governance"):** public servants must be guided by public interest, not by the convenience of the political executive.
+- **Forest Rights Act, 2006, Section 3(1)(i)** — community rights over sacred groves and community forest resources give the villagers' demand a **statutory**, not merely sentimental, footing. This is the single strongest point in the answer.
+
+---
+
+## Essay — model approach: *"Development that erases memory is not development."*
+
+**Framing.** Read "memory" broadly — ecological memory (old-growth forests, aquifers, soil), cultural memory (sacred groves, monuments, languages, crafts), and institutional memory (records, precedent, expertise). The essay's job is to argue that development which liquidates these is consuming capital while reporting it as income.
+
+**Structure.**
+- **Opening (anecdotal):** a sacred grove or stepwell cleared for a road; the road is measured, the grove is not. Sen's question — development *of what*, and *for whom*?
+- **Thesis:** development is the expansion of capabilities, and memory is a capability — the ability to know where you come from, to reuse what worked, and to inherit a functioning ecology.
+- **Section 1 — Ecological memory:** old-growth forests and wetlands are irreplaceable, not merely valuable; a replanted grove is not an old grove. Groundwater and soil as accumulated memory.
+- **Section 2 — Cultural memory:** language death, disappearing crafts, demolished vernacular architecture. Contrast the erasure model with the integration model — Ahmedabad and Jaipur as UNESCO World Heritage cities that kept growing; Japan's *satoyama*; the Bishnoi tradition.
+- **Section 3 — Institutional memory:** why states repeat their own mistakes — lost records, discontinued surveys, expertise churned out by transfers.
+- **Section 4 — The honest counter-argument:** memory can be weaponised — invented tradition used to freeze caste hierarchy, to block land reform, or to justify exclusion. A society that cannot demolish anything cannot house anyone. The test is **whose** memory is being preserved and whether preservation is being used to protect privilege.
+- **Section 5 — Synthesis:** the resolution is procedural, not sentimental — free prior informed consent, heritage and biodiversity impact assessments that are seasonal rather than convenient, adaptive reuse, community stewardship, and documentation before demolition where demolition is genuinely necessary.
+- **Close:** return to the grove. Development that remembers is slower and more expensive at the margin, and cheaper across a generation.
+
+**Quotes / data:**
+- *"Development can be seen as a process of expanding the real freedoms that people enjoy."* — Amartya Sen, *Development as Freedom*.
+- *"We do not inherit the earth from our ancestors; we borrow it from our children."* — widely attributed as a Native American proverb (attribute loosely, as a saying, not a citation).
+- **UNESCO** counts India among the world's most linguistically diverse states, with nearly 200 languages classified as endangered or vulnerable — a concrete, checkable data point for the cultural-memory section.
+- **Article 49** (protection of monuments of national importance) and **Article 51A(f)** (duty to value and preserve our composite culture) — and **Art 48A** — let you tie the essay to Monday's DPSP and Fundamental Duties pages. Use them; the cross-link is the point.
+
+---
+
+*Sweep generated Sat 25 Jul 2026. Next Sweep: Sat 1 Aug 2026 → week of 2 Aug (F5 second half).*

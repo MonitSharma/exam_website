@@ -1,167 +1,242 @@
 [
   {
-    "question": "Which of the following is/are classified as Gandhian Directive Principles of State Policy? 1. Organisation of village panchayats (Art 40) 2. Promotion of cottage industries (Art 43) 3. Uniform Civil Code (Art 44) 4. Prohibition of intoxicating drinks (Art 47)",
-    "options": ["(a) 1, 2 and 4", "(b) 1 and 3", "(c) 2, 3 and 4", "(d) 1, 2, 3 and 4"],
+    "question": "The Union Cabinet's Semicon 2.0 (India Semiconductor Mission 2.0), approved in July 2026, is best distinguished from Semicon 1.0 by which of the following?",
+    "options": [
+      "(a) It funds only silicon fabrication units, unlike 1.0 which funded packaging",
+      "(b) It extends support upstream to semiconductor equipment, materials, chemicals and gases",
+      "(c) It transfers implementation from MeitY to the Department of Science and Technology",
+      "(d) It restricts incentives to firms with 100% domestic ownership"
+    ],
+    "answer": "(b)",
+    "explanation": "Semicon 1.0 (Rs 76,000 crore) was fab- and ATMP/OSAT-heavy. Semicon 2.0 (Rs 1,27,500 crore) explicitly funds the upstream layer - equipment, materials, chemicals and gases - where India is most import-dependent. Its six pillars are design, equipment & materials, fabs, ATMP/OSAT, R&D and talent, targeting Rs 4 lakh crore of investment and Rs 2 lakh crore of production.",
+    "subject": "Science & Technology",
+    "theme": "Industrial policy and technology sovereignty",
+    "micro_topic": "Semicon 2.0 / India Semiconductor Mission",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Index of Core Industries (ICI) revised in July 2026, consider the following statements:\n1. The base year has been shifted from 2011-12 to 2022-23.\n2. Iron ore has been added, taking the number of core industries to nine.\n3. Electricity carries the largest weight in the revised index.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "The Office of the Economic Adviser, DPIIT, rebased the ICI to 2022-23 from 2011-12 and added iron ore as the ninth core industry. Electricity has the largest weight (30.93), followed by refinery products (22.57) and steel (17.58).",
+    "subject": "Economy",
+    "theme": "Industrial statistics and indices",
+    "micro_topic": "Index of Core Industries rebasing 2022-23",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Supreme Court (Number of Judges) Amendment Bill, 2026 raises the sanctioned strength of the Supreme Court. In this context, consider the following statements:\n1. The number of Supreme Court judges can be increased only by a constitutional amendment.\n2. Article 124(1) empowers Parliament to fix the number of Supreme Court judges by law.\n3. The previous increase in sanctioned strength took place in 2019.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 2 only"
+    ],
+    "answer": "(b)",
+    "explanation": "Statement 1 is wrong: Article 124(1) allows Parliament to fix the number of judges 'by law', so an ordinary statute passed by simple majority suffices - no constitutional amendment is needed. The 2026 Bill raises judges excluding the CJI from 33 to 37, i.e. total sanctioned strength from 34 to 38. The previous hike (31 to 34) was in 2019.",
+    "subject": "Polity & Governance",
+    "theme": "Judiciary",
+    "micro_topic": "Article 124(1) / Supreme Court sanctioned strength",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Investment Friendliness Index (IFI) 2026 was released by:",
+    "options": [
+      "(a) the Department for Promotion of Industry and Internal Trade",
+      "(b) NITI Aayog",
+      "(c) the Reserve Bank of India",
+      "(d) the Ministry of Finance"
+    ],
+    "answer": "(b)",
+    "explanation": "NITI Aayog released the inaugural Investment Friendliness Index 2026, ranking States/UTs on investment climate. Gujarat topped with 56.6/100, followed by Maharashtra (53.7), Tamil Nadu (53.3), Goa (53.1) and Odisha (52.4). It uses 84 final indicators across eight pillars, with Infrastructure weighted highest at 25%. Do not confuse it with NITI's Export Preparedness Index or Fiscal Health Index.",
+    "subject": "Reports & Indices",
+    "theme": "NITI Aayog indices and competitive federalism",
+    "micro_topic": "Investment Friendliness Index 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "QDENGA (TAK-003), which received Indian regulatory approval in July 2026, is:",
+    "options": [
+      "(a) a monoclonal antibody for severe dengue",
+      "(b) a live attenuated tetravalent dengue vaccine",
+      "(c) a rapid diagnostic kit for dengue NS1 antigen",
+      "(d) a mosquito-sterilisation biological agent"
+    ],
+    "answer": "(b)",
+    "explanation": "QDENGA (TAK-003), developed by Takeda, is a live attenuated tetravalent dengue vaccine and India's first approved dengue vaccine. 'Tetravalent' means it covers all four dengue serotypes (DENV 1-4), which is the examinable detail.",
+    "subject": "Science & Technology",
+    "theme": "Health and vaccines",
+    "micro_topic": "QDENGA dengue vaccine approval",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "India's export of the Akash system to Tajikistan and Turkmenistan in July 2026 is significant because Akash is:",
+    "options": [
+      "(a) a short-range ballistic missile",
+      "(b) a medium-range surface-to-air missile system",
+      "(c) a beyond-visual-range air-to-air missile",
+      "(d) a supersonic anti-ship cruise missile"
+    ],
+    "answer": "(b)",
+    "explanation": "Akash is a DRDO-developed medium-range surface-to-air missile (SAM) system with a range of roughly 25-30 km. Its export to Tajikistan and Turkmenistan extends India's defence-export footprint into Central Asia. Distinguish it from Astra (beyond-visual-range air-to-air missile) and BrahMos (supersonic cruise missile).",
+    "subject": "International Relations",
+    "theme": "Defence exports and Central Asia outreach",
+    "micro_topic": "Akash SAM export to Tajikistan and Turkmenistan",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Puga Valley, in the news in July 2026 for India's first commissioned geothermal wells, is located in:",
+    "options": [
+      "(a) Himachal Pradesh",
+      "(b) Uttarakhand",
+      "(c) Ladakh",
+      "(d) Arunachal Pradesh"
+    ],
+    "answer": "(c)",
+    "explanation": "Puga Valley lies in the Changthang region of eastern Ladakh and is India's most promising geothermal field, now hosting the country's first commissioned geothermal wells. It sits in a tectonically active zone associated with the Indus Suture, which explains the high heat flow.",
+    "subject": "Geography",
+    "theme": "Energy resources and places in news",
+    "micro_topic": "Puga Valley geothermal wells",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which of the following Directive Principles were inserted into Part IV by constitutional amendments rather than being part of the original Constitution?\n1. Equal justice and free legal aid (Article 39A)\n2. Participation of workers in management of industries (Article 43A)\n3. Protection and improvement of environment and safeguarding of forests and wildlife (Article 48A)\n4. Organisation of village panchayats (Article 40)\nSelect the correct answer using the code below:",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 1 and 4 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
     "answer": "(a)",
-    "explanation": "Village panchayats (Art 40), cottage industries (Art 43) and prohibition (Art 47) are Gandhian principles. A Uniform Civil Code (Art 44) is a Liberal–Intellectual principle, not Gandhian.",
+    "explanation": "Articles 39A, 43A and 48A were all added by the 42nd Amendment Act, 1976. Article 40 (organisation of village panchayats) is an original Gandhian Directive Principle from 1950. Also remember Article 38(2) added by the 44th Amendment, 1978, and Article 43B (promotion of cooperative societies) added by the 97th Amendment, 2011.",
     "subject": "Polity & Governance",
     "theme": "Directive Principles of State Policy",
-    "micro_topic": "Classification of DPSP (Gandhian principles)",
-    "nature": "Conceptual",
-    "difficulty": "Moderate"
-  },
-  {
-    "question": "With reference to Fundamental Duties, consider the following statements: 1. They were added on the recommendation of the Swaran Singh Committee. 2. The duty to provide education opportunities to one's child was added by the 86th Amendment. 3. Fundamental Duties are enforceable by courts through writ jurisdiction.",
-    "options": ["(a) 1 and 2", "(b) 2 and 3", "(c) 1 and 3", "(d) 1, 2 and 3"],
-    "answer": "(a)",
-    "explanation": "Fundamental Duties were introduced by the 42nd Amendment (1976) on the Swaran Singh Committee's recommendation; the education duty (11th) was added by the 86th Amendment (2002). They are non-justiciable, so statement 3 is wrong.",
-    "subject": "Polity & Governance",
-    "theme": "Fundamental Duties",
-    "micro_topic": "Article 51A, Swaran Singh Committee, 42nd/86th Amendments",
+    "micro_topic": "DPSPs added by the 42nd and later amendments",
     "nature": "Factual",
-    "difficulty": "Easy"
+    "difficulty": "Hard"
   },
   {
-    "question": "The doctrine of 'Basic Structure' of the Constitution: 1. was propounded in Kesavananda Bharati v. State of Kerala (1973). 2. means Parliament cannot amend any provision of the Constitution. 3. was used to strike down parts of the 42nd Amendment in Minerva Mills (1980).",
-    "options": ["(a) 1 and 2", "(b) 1 and 3", "(c) 2 and 3", "(d) 1, 2 and 3"],
-    "answer": "(b)",
-    "explanation": "The doctrine was propounded in Kesavananda Bharati (1973) and applied in Minerva Mills (1980). Statement 2 is wrong: Parliament can amend the Constitution but cannot alter its basic structure.",
-    "subject": "Polity & Governance",
-    "theme": "Amendment of the Constitution",
-    "micro_topic": "Basic Structure doctrine / Kesavananda Bharati, Minerva Mills",
-    "nature": "Conceptual",
-    "difficulty": "Moderate"
-  },
-  {
-    "question": "With reference to the Securities and Exchange Board of India (SEBI), consider the following statements: 1. It is a statutory body established under an Act of Parliament. 2. It regulates the primary as well as the secondary securities market. 3. It is the regulator for the insurance sector in India.",
-    "options": ["(a) 1 and 2", "(b) 2 and 3", "(c) 1 and 3", "(d) 1, 2 and 3"],
-    "answer": "(a)",
-    "explanation": "SEBI is a statutory body under the SEBI Act, 1992, regulating both primary and secondary securities markets. Insurance is regulated by IRDAI, so statement 3 is wrong.",
-    "subject": "Economy",
-    "theme": "Financial markets and regulators",
-    "micro_topic": "SEBI mandate / capital market",
-    "nature": "Factual",
-    "difficulty": "Easy"
-  },
-  {
-    "question": "Which of the following are qualitative (selective) instruments of the RBI's monetary policy? 1. Cash Reserve Ratio 2. Margin requirements 3. Moral suasion 4. Open Market Operations",
-    "options": ["(a) 1 and 4", "(b) 2 and 3", "(c) 1, 3 and 4", "(d) 2, 3 and 4"],
-    "answer": "(b)",
-    "explanation": "Margin requirements and moral suasion are qualitative/selective tools. CRR and Open Market Operations are quantitative (general) instruments.",
-    "subject": "Economy",
-    "theme": "Monetary policy",
-    "micro_topic": "Quantitative vs qualitative instruments",
-    "nature": "Conceptual",
-    "difficulty": "Moderate"
-  },
-  {
-    "question": "With reference to the Partition of Bengal (1905) and the Swadeshi Movement, consider the following statements: 1. The partition was announced by Lord Curzon and took effect in October 1905. 2. The National Council of Education was set up as part of the Swadeshi Movement. 3. The partition was annulled in 1911.",
-    "options": ["(a) 1 and 2", "(b) 2 and 3", "(c) 1 and 3", "(d) 1, 2 and 3"],
+    "question": "With reference to the relationship between Fundamental Rights and Directive Principles, consider the following statements:\n1. In Champakam Dorairajan (1951), the Supreme Court held that Fundamental Rights would prevail over Directive Principles in case of conflict.\n2. Article 31C was inserted by the 25th Constitutional Amendment Act, 1971.\n3. In Minerva Mills (1980), the Supreme Court struck down the extension of Article 31C to all Directive Principles.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
     "answer": "(d)",
-    "explanation": "All three are correct: the partition was announced by Curzon and took effect on 16 October 1905; the National Council of Education (1906) was a Swadeshi initiative; and the partition was annulled in 1911.",
-    "subject": "Modern History",
-    "theme": "National Movement 1905-1918",
-    "micro_topic": "Partition of Bengal / Swadeshi Movement",
-    "nature": "Factual",
-    "difficulty": "Easy"
+    "explanation": "All three are correct. Champakam Dorairajan (1951) held that FRs prevail over DPSPs, prompting the First Amendment. Article 31C was inserted by the 25th Amendment, 1971, to protect laws implementing Article 39(b) and (c). The 42nd Amendment extended 31C's protection to all DPSPs; Minerva Mills (1980) struck down that extension as violating the basic structure, restoring Article 31C to its 1971 scope.",
+    "subject": "Polity & Governance",
+    "theme": "Fundamental Rights versus Directive Principles",
+    "micro_topic": "Champakam Dorairajan, Article 31C, Minerva Mills",
+    "nature": "Conceptual",
+    "difficulty": "Hard"
   },
   {
-    "question": "The Surat Split (1907) of the Indian National Congress was primarily caused by:",
-    "options": ["(a) a dispute over the presidency and the pace/methods of the movement between Moderates and Extremists", "(b) disagreement over participation in the First World War", "(c) the question of separate electorates for Muslims", "(d) the Congress response to the Rowlatt Act"],
-    "answer": "(a)",
-    "explanation": "The Surat Split turned on the choice of president and the deeper Moderate–Extremist clash over methods and the extension of the Swadeshi and boycott programme beyond Bengal.",
-    "subject": "Modern History",
-    "theme": "National Movement 1905-1918",
-    "micro_topic": "Surat Split 1907 / Moderates vs Extremists",
+    "question": "With reference to the RBI's liquidity operations, consider the following statements:\n1. The Standing Deposit Facility (SDF) replaced the fixed reverse repo rate as the floor of the liquidity adjustment facility corridor.\n2. Unlike reverse repo operations, the SDF does not require the RBI to provide collateral.\n3. The Marginal Standing Facility rate forms the ceiling of the corridor.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "The SDF, introduced in April 2022, replaced the fixed reverse repo rate as the floor of the LAF corridor and is uncollateralised - the RBI absorbs liquidity without providing securities in exchange. The MSF rate forms the ceiling, and the repo rate sits between them as the policy rate.",
+    "subject": "Economy",
+    "theme": "Monetary policy toolkit",
+    "micro_topic": "SDF, MSF and the LAF corridor",
+    "nature": "Conceptual",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In the RBI's measures of money supply, M3 is correctly described as:",
+    "options": [
+      "(a) currency with the public plus demand deposits with the banking system",
+      "(b) M1 plus savings deposits with post office savings banks",
+      "(c) M1 plus time deposits with the banking system",
+      "(d) M2 plus total deposits with post office savings organisations"
+    ],
+    "answer": "(c)",
+    "explanation": "M3 = M1 + time deposits with the banking system, and is called broad money or aggregate monetary resources. M1 = currency with the public + demand deposits + other deposits with the RBI; M2 = M1 + post office savings deposits; M4 = M3 + total post office deposits excluding National Savings Certificates.",
+    "subject": "Economy",
+    "theme": "Money supply and monetary aggregates",
+    "micro_topic": "M0 to M4 monetary aggregates",
     "nature": "Factual",
     "difficulty": "Moderate"
   },
   {
-    "question": "Which of the following are exogenic geomorphic processes? 1. Weathering 2. Volcanism 3. Mass movement 4. Erosion and deposition",
-    "options": ["(a) 1, 3 and 4", "(b) 1 and 2", "(c) 2, 3 and 4", "(d) 1, 2 and 4"],
-    "answer": "(a)",
-    "explanation": "Weathering, mass movement and erosion/deposition are exogenic (external, gradational) processes. Volcanism is an endogenic (internal) process.",
+    "question": "With reference to revolutionary nationalism in the first decade of the twentieth century, consider the following pairs:\n1. Anushilan Samiti - Bengal\n2. Alipore Bomb Case - Aurobindo Ghosh\n3. Madan Lal Dhingra - assassination of Curzon Wyllie in London\nWhich of the pairs given above are correctly matched?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three pairs are correct. The Anushilan Samiti, along with Yugantar, was the principal revolutionary organisation in Bengal. Aurobindo Ghosh was tried in the Alipore Bomb Case (1908) and acquitted, defended by C.R. Das. Madan Lal Dhingra, associated with Savarkar's India House, assassinated Sir Curzon Wyllie in London in 1909.",
+    "subject": "Modern History",
+    "theme": "Revolutionary nationalism",
+    "micro_topic": "Anushilan Samiti, Alipore Bomb Case, Madan Lal Dhingra",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Morley-Minto Reforms (Indian Councils Act, 1909) are best remembered for:",
+    "options": [
+      "(a) introducing dyarchy in the provinces",
+      "(b) introducing separate electorates for Muslims",
+      "(c) establishing a bicameral central legislature",
+      "(d) providing for provincial autonomy and a federal centre"
+    ],
+    "answer": "(b)",
+    "explanation": "The Indian Councils Act, 1909 introduced separate electorates for Muslims, described as legalising communalism. Dyarchy in the provinces and the bicameral central legislature came with the Government of India Act, 1919; provincial autonomy and the federal scheme came with the Government of India Act, 1935.",
+    "subject": "Modern History",
+    "theme": "Constitutional development under British rule",
+    "micro_topic": "Morley-Minto Reforms 1909",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to temperature conditions in the atmosphere, consider the following statements:\n1. The normal lapse rate is a decrease of about 6.5 degrees Celsius per 1,000 metres of altitude in the troposphere.\n2. Temperature inversion occurs when temperature increases with height instead of decreasing.\n3. Long winter nights with clear skies and calm air over snow-covered valleys favour the formation of temperature inversion.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. The normal lapse rate in the troposphere is about 6.5 degrees Celsius per 1,000 m. Temperature inversion is the reversal of this pattern, with temperature rising with altitude. It is favoured by long winter nights, clear skies, dry and calm air, and snow-covered surfaces - conditions that allow rapid radiative cooling of the surface. In hilly and mountainous areas, cold dense air drains into valleys (air drainage), producing valley inversions that trap fog and pollutants, which is why orchards and settlements in Himalayan valleys are sited on slopes rather than valley floors.",
     "subject": "Geography",
-    "theme": "Geomorphology",
-    "micro_topic": "Endogenic vs exogenic geomorphic processes",
+    "theme": "Physical geography - atmosphere",
+    "micro_topic": "Normal lapse rate and temperature inversion",
     "nature": "Conceptual",
     "difficulty": "Moderate"
   },
   {
-    "question": "Arrange the atmospheric layers in order from the Earth's surface upward:",
-    "options": ["(a) Troposphere -> Stratosphere -> Mesosphere -> Thermosphere", "(b) Troposphere -> Mesosphere -> Stratosphere -> Thermosphere", "(c) Stratosphere -> Troposphere -> Thermosphere -> Mesosphere", "(d) Troposphere -> Stratosphere -> Thermosphere -> Mesosphere"],
-    "answer": "(a)",
-    "explanation": "From the surface upward: Troposphere, Stratosphere, Mesosphere, Thermosphere (and then the exosphere).",
-    "subject": "Geography",
-    "theme": "Climatology",
-    "micro_topic": "Structure of the atmosphere",
-    "nature": "Factual",
-    "difficulty": "Easy"
-  },
-  {
-    "question": "With reference to Indian launch vehicles, consider the following statements: 1. LVM3 (GSLV Mk-III) is currently ISRO's heaviest operational launcher. 2. SSLV is designed for small satellites to Low Earth Orbit. 3. PSLV placed the Chandrayaan-3 lander in lunar orbit directly.",
-    "options": ["(a) 1 and 2", "(b) 2 and 3", "(c) 1 and 3", "(d) 1, 2 and 3"],
-    "answer": "(a)",
-    "explanation": "LVM3 is ISRO's heaviest operational launcher and SSLV serves small satellites to LEO. Chandrayaan-3 was launched by LVM3, not PSLV, so statement 3 is wrong.",
+    "question": "With reference to India's space-sector reform architecture, consider the following statements:\n1. IN-SPACe is the single-window agency for authorising and regulating space activities by non-governmental entities.\n2. NewSpace India Limited (NSIL) is the commercial arm of the Department of Space.\n3. IN-SPACe functions as an autonomous body under the Department of Space.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. IN-SPACe (Indian National Space Promotion and Authorisation Centre), created in 2020, is an autonomous single-window body under the Department of Space that authorises and regulates private space activity. NSIL is the commercial arm and PSU of the Department of Space, while Antrix is ISRO's legacy marketing arm. ISRO itself remains the R&D and mission agency.",
     "subject": "Science & Technology",
-    "theme": "Space technology",
-    "micro_topic": "ISRO launch vehicles (PSLV/GSLV/LVM3/SSLV)",
-    "nature": "Factual",
-    "difficulty": "Moderate"
-  },
-  {
-    "question": "The India–UK Comprehensive Economic and Trade Agreement (CETA), which entered into force in July 2026, is linked to a Double Contribution Convention (DCC) that:",
-    "options": ["(a) eliminates all tariffs on Indian textiles immediately", "(b) exempts eligible workers from paying social-security contributions in both countries for a fixed period", "(c) creates a common India–UK currency-swap line", "(d) establishes a joint carbon-border tax"],
-    "answer": "(b)",
-    "explanation": "The DCC prevents double social-security contributions, exempting eligible cross-posted workers from paying in both countries for a defined period (extended from 3 to 5 years).",
-    "subject": "International Relations",
-    "theme": "India-UK bilateral / trade",
-    "micro_topic": "India-UK CETA and Double Contribution Convention",
-    "nature": "Current Affairs",
-    "difficulty": "Moderate"
-  },
-  {
-    "question": "With reference to the Strait of Hormuz, consider the following statements: 1. It connects the Persian Gulf to the Gulf of Oman. 2. It lies between Iran and Oman's Musandam exclave. 3. A large share of India's crude-oil imports transit through it.",
-    "options": ["(a) 1 and 2", "(b) 2 and 3", "(c) 1 and 3", "(d) 1, 2 and 3"],
-    "answer": "(d)",
-    "explanation": "All three are correct: the Strait connects the Persian Gulf to the Gulf of Oman, lies between Iran and Oman's Musandam exclave, and is a critical chokepoint for India's crude imports.",
-    "subject": "International Relations",
-    "theme": "Maritime chokepoints / energy security",
-    "micro_topic": "Strait of Hormuz",
-    "nature": "Current Affairs",
-    "difficulty": "Easy"
-  },
-  {
-    "question": "The Index of Services Production (ISP), released in trial form in July 2026, is correctly described by which of the following? 1. It is published by the Ministry of Statistics & Programme Implementation. 2. It is the services-sector counterpart to the Index of Industrial Production. 3. It currently includes health and education services in full.",
-    "options": ["(a) 1 and 2", "(b) 2 and 3", "(c) 1 and 3", "(d) 1, 2 and 3"],
-    "answer": "(a)",
-    "explanation": "The ISP is released by MoSPI/NSO as the services counterpart to the IIP. Health and education are excluded for now (to be added later), so statement 3 is wrong.",
-    "subject": "Reports & Indices",
-    "theme": "Economic indicators",
-    "micro_topic": "Index of Services Production (ISP)",
-    "nature": "Current Affairs",
-    "difficulty": "Moderate"
-  },
-  {
-    "question": "The National Investment and Infrastructure Fund (NIIF), in the news in July 2026, is best described as:",
-    "options": ["(a) a Central Public Sector Undertaking wholly owned by the Government", "(b) a quasi-sovereign infrastructure-financing fund in which the Government holds up to 49%", "(c) a scheme administered by the Reserve Bank of India", "(d) a multilateral fund under the World Bank"],
-    "answer": "(b)",
-    "explanation": "NIIF (established 2015) is a quasi-sovereign infrastructure-financing platform with a Government stake of up to 49% — a strategic, not majority, holding — crowding in institutional and private capital.",
-    "subject": "Economy",
-    "theme": "Infrastructure financing",
-    "micro_topic": "National Investment and Infrastructure Fund (NIIF)",
-    "nature": "Current Affairs",
-    "difficulty": "Moderate"
-  },
-  {
-    "question": "The Aastha Van Sanrakshan Yojana (AVSY), approved in July 2026, aims to conserve:",
-    "options": ["(a) mangrove ecosystems along the eastern coast", "(b) sacred groves ('Aastha Vans') through community-based in-situ conservation, funded via CAMPA", "(c) urban forests under the Nagar Van Yojana", "(d) high-altitude cold deserts in the Himalayas"],
-    "answer": "(b)",
-    "explanation": "AVSY is a five-year scheme to conserve nearly 15,000 sacred groves through community-based in-situ conservation, funded through National CAMPA under the CAF Act, 2016.",
-    "subject": "Environment",
-    "theme": "Biodiversity conservation",
-    "micro_topic": "Aastha Van Sanrakshan Yojana / sacred groves",
-    "nature": "Current Affairs",
+    "theme": "Space programme and sector reform",
+    "micro_topic": "IN-SPACe, NSIL and Antrix mandates",
+    "nature": "Conceptual",
     "difficulty": "Moderate"
   }
 ]

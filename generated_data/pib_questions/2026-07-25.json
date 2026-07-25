@@ -1,0 +1,35 @@
+[
+  {
+    "question": "With reference to the 'Bharat Audyogik Vikas Yojana – Rasayan' (BHAVYA-Rasayan) scheme approved in July 2026, consider the following statements:\n1. It provides for the establishment of three dedicated chemical parks with a total outlay of Rs 3,030 crore.\n2. The Centre bears the entire cost of common infrastructure, with no financial contribution required from State Governments.\n3. Each park is required to have a minimum contiguous area of about 2,000 acres of encumbrance-free land.\nWhich of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 1 and 3 only", "(c) 2 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(b)",
+    "explanation": "BHAVYA-Rasayan (Department of Chemicals and Petrochemicals) has an outlay of Rs 3,030 crore — Rs 3,000 crore for common infrastructure and Rs 30 crore administrative — for three chemical parks, each needing a minimum 8 sq km (about 2,000 acres) of contiguous encumbrance-free land. Statement 2 is incorrect: the Central grant of up to Rs 1,000 crore per park is conditional on a minimum contribution of Rs 500 crore by the concerned State Government.",
+    "subject": "Economy",
+    "theme": "Industrial policy and manufacturing infrastructure",
+    "micro_topic": "BHAVYA-Rasayan chemical parks scheme, 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements regarding the National Council for Vocational Education and Training (NCVET):\n1. It is the single regulator for vocational education and training in India and functions under the Ministry of Skill Development and Entrepreneurship.\n2. Recognition as an 'Awarding Body (Dual)' allows an institution both to impart training directly and to assess and certify learners for its approved qualifications.\n3. The National Institute of Rural Development and Panchayati Raj, which received such recognition in July 2026, functions under the Ministry of Panchayati Raj.\nWhich of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(a)",
+    "explanation": "NCVET is the single regulator for vocational education and training under the Ministry of Skill Development and Entrepreneurship, and anchors the NSQF. 'Awarding Body (Dual)' status permits an institution to award, assess and certify learners while also directly imparting training in centres it owns or fully manages. Statement 3 is incorrect: NIRD&PR, Hyderabad is an autonomous body under the Ministry of Rural Development, not the Ministry of Panchayati Raj.",
+    "subject": "Polity & Governance",
+    "theme": "Skill development regulation and local governance capacity",
+    "micro_topic": "NCVET recognition of NIRD&PR as Awarding Body (Dual)",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In the context of measures against cyber fraud, 'ASTR' and 'Chakshu', recently in the news, are best described as:",
+    "options": ["(a) Two mobile applications of the Indian Cyber Crime Coordination Centre for lodging first information reports online", "(b) An AI-based tool for detecting fraudulent telecom subscribers, and a citizen facility for reporting suspected fraud communications, respectively", "(c) Two categories of critical information infrastructure notified under the Information Technology Act, 2000", "(d) A satellite-based surveillance system and a financial-transaction monitoring platform of the Reserve Bank of India"],
+    "answer": "(b)",
+    "explanation": "ASTR is the Department of Telecommunications' AI and big-data analytics tool that flags suspicious or fake mobile subscriber identities for re-verification by telecom service providers (over 88 lakh connections disconnected as on 15 July 2026). Chakshu is the citizen-facing facility on the Sanchar Saathi portal for reporting suspected fraud calls and messages; its aggregate reports had led to 50.90 lakh disconnections. Both feed the Digital Intelligence Platform shared with I4C under the MHA.",
+    "subject": "Internal Security",
+    "theme": "Cybercrime prevention and telecom regulation",
+    "micro_topic": "ASTR, Sanchar Saathi-Chakshu and the Digital Intelligence Platform",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]
