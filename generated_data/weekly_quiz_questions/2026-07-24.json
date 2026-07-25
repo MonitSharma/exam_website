@@ -1,0 +1,662 @@
+[
+  {
+    "id": "weekly_quiz_2026_07_24_1",
+    "question_number": 1,
+    "question": "The \"White Rabbit\"-based IST Distribution Demonstration Network inaugurated this week at the RRSL, Jakkur (Bengaluru) is best described as:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "A satellite-based navigation augmentation system replacing GAGAN"
+      },
+      {
+        "key": "b",
+        "text": "A high-precision time-distribution network delivering Indian Standard Time over optical fibre/Ethernet with sub-nanosecond accuracy"
+      },
+      {
+        "key": "c",
+        "text": "A quantum-encrypted communication link between CSIR-NPL and ISRO"
+      },
+      {
+        "key": "d",
+        "text": "A 6G spectrum-testing facility under the Ministry of Communications"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The Jakkur (RRSL) network uses CERN's open-source White Rabbit technology over Ethernet/optical fibre (IEEE 1588 Precision Time Protocol) to disseminate IST with sub-nanosecond accuracy — part of the \"One Nation, One Time\" push led by the Legal Metrology Division with CSIR-NPL, ISRO, BSNL and SEBI.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_24_2",
+    "question_number": 2,
+    "question": "President Droupadi Murmu's three-nation State visit this week (Moldova, North Macedonia, Romania) was notable because it marked the first-ever visit by an Indian President to:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "All three countries"
+      },
+      {
+        "key": "b",
+        "text": "Moldova and North Macedonia"
+      },
+      {
+        "key": "c",
+        "text": "Romania and Moldova"
+      },
+      {
+        "key": "d",
+        "text": "North Macedonia only"
+      }
+    ],
+    "answer": "b",
+    "explanation": "It was the first-ever Indian presidential visit to Moldova and North Macedonia; the Romania leg was the first by an Indian President in over three decades. (Moldova and N. Macedonia are landlocked EU candidates; Romania is an EU member fronting the Black Sea.)",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_24_3",
+    "question_number": 3,
+    "question": "The Supreme Court gave conditional clearance this week to India's first (urban) night safari. It is being developed at:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Kukrail Reserve Forest, Lucknow"
+      },
+      {
+        "key": "b",
+        "text": "Van Vihar National Park, Bhopal"
+      },
+      {
+        "key": "c",
+        "text": "Jim Corbett buffer zone, Nainital"
+      },
+      {
+        "key": "d",
+        "text": "Kuno, Sheopur"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The SC gave conditional clearance (subject to CEC + Central Zoo Authority + MoEFCC safeguards) to the ~Rs 1,500-crore Kukrail Reserve Forest night safari and zoo in Lucknow, UP — India's first urban night safari, confined to 855.07 ha of the reserve.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_24_4",
+    "question_number": 4,
+    "question": "The \"Semicon 2.0\" programme approved by the Union Cabinet this week has a budget outlay of about:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Rs 76,000 crore"
+      },
+      {
+        "key": "b",
+        "text": "Rs 1,27,500 crore"
+      },
+      {
+        "key": "c",
+        "text": "Rs 50,000 crore"
+      },
+      {
+        "key": "d",
+        "text": "Rs 2,00,000 crore"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Rs 1,27,500 crore — a big jump from the original India Semiconductor Mission's Rs 76,000 crore. Semicon 2.0 covers the full value chain (design, fab, packaging, equipment, materials, R&D, talent).",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_24_5",
+    "question_number": 5,
+    "question": "India approved its first dengue vaccine this week — QDENGA (TAK-003). Which statement is correct?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "It is a single-serotype inactivated vaccine requiring pre-vaccination screening"
+      },
+      {
+        "key": "b",
+        "text": "It is a live-attenuated, tetravalent vaccine covering all four dengue serotypes and needs no pre-vaccination screening"
+      },
+      {
+        "key": "c",
+        "text": "It is an mRNA vaccine effective only against DENV-2"
+      },
+      {
+        "key": "d",
+        "text": "It is a protein-subunit vaccine approved only for those with prior dengue infection"
+      }
+    ],
+    "answer": "b",
+    "explanation": "QDENGA (TAK-003), from Takeda, is a live-attenuated tetravalent vaccine covering all four serotypes and needs no pre-vaccination screening — approved by CDSCO for ages 4–60, two doses three months apart.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_24_6",
+    "question_number": 6,
+    "question": "The Supreme Court (Number of Judges) Amendment Bill, 2026 raises the sanctioned strength of the Supreme Court to:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "31 judges"
+      },
+      {
+        "key": "b",
+        "text": "34 judges"
+      },
+      {
+        "key": "c",
+        "text": "38 judges"
+      },
+      {
+        "key": "d",
+        "text": "40 judges"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The Bill raises SC strength to 38 judges. Parliament fixes the number \"by law\" under Article 124(1) — a simple-majority statute, not a constitutional amendment.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_24_7",
+    "question_number": 7,
+    "question": "NITI Aayog released its first-ever Investment Friendliness Index (IFI) 2026 this week. Which State/UT topped the ranking?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Maharashtra"
+      },
+      {
+        "key": "b",
+        "text": "Tamil Nadu"
+      },
+      {
+        "key": "c",
+        "text": "Gujarat"
+      },
+      {
+        "key": "d",
+        "text": "Karnataka"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Gujarat topped NITI Aayog's inaugural Investment Friendliness Index (IFI) 2026 — a cooperative/competitive-federalism tool tied to Viksit Bharat @2047.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_24_8",
+    "question_number": 8,
+    "question": "\"Vikram-1\", in the news this week, is:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "India's first indigenous cryogenic upper stage"
+      },
+      {
+        "key": "b",
+        "text": "A privately built Indian rocket that achieved a successful orbital launch"
+      },
+      {
+        "key": "c",
+        "text": "ISRO's new reusable launch vehicle demonstrator"
+      },
+      {
+        "key": "d",
+        "text": "A DRDO hypersonic glide vehicle"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Vikram-1 achieved India's first successful private orbital rocket launch (Skyroot Aerospace) — a milestone for India's private space sector.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_24_9",
+    "question_number": 9,
+    "question": "India commissioned its first-ever geothermal wells this week at Puga Valley. Puga Valley is located in:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Himachal Pradesh"
+      },
+      {
+        "key": "b",
+        "text": "Uttarakhand"
+      },
+      {
+        "key": "c",
+        "text": "Ladakh"
+      },
+      {
+        "key": "d",
+        "text": "Arunachal Pradesh"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Ladakh. Puga Valley (a known geothermal hotspot) saw India's first-ever geothermal wells commissioned this week.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_24_10",
+    "question_number": 10,
+    "question": "India exported the Akash surface-to-air missile system this week to two Central Asian countries, namely:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Kazakhstan and Uzbekistan"
+      },
+      {
+        "key": "b",
+        "text": "Tajikistan and Turkmenistan"
+      },
+      {
+        "key": "c",
+        "text": "Kyrgyzstan and Tajikistan"
+      },
+      {
+        "key": "d",
+        "text": "Uzbekistan and Turkmenistan"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The Akash SAM was exported to Tajikistan and Turkmenistan, extending India's defence footprint into Central Asia.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_24_11",
+    "question_number": 11,
+    "question": "The Union Cabinet approved the \"Regional Connectivity Scheme – Modified UDAN\" this week, with an outlay of Rs 28,840 crore over 10 years. UDAN primarily aims to:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Electrify all railway routes in hilly states"
+      },
+      {
+        "key": "b",
+        "text": "Make regional air travel affordable and revive under-served/unserved airports"
+      },
+      {
+        "key": "c",
+        "text": "Provide rural broadband via low-earth-orbit satellites"
+      },
+      {
+        "key": "d",
+        "text": "Build dedicated freight corridors for perishables"
+      }
+    ],
+    "answer": "b",
+    "explanation": "UDAN (Ude Desh ka Aam Naagrik) makes regional air travel affordable and revives under-served/unserved airports; the modified scheme adds Rs 28,840 crore over 10 years.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_24_12",
+    "question_number": 12,
+    "question": "In the rebased Index of Core Industries (base year 2022-23) released this week, a new industry was added as the 9th core industry. It is:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Aluminium"
+      },
+      {
+        "key": "b",
+        "text": "Iron ore"
+      },
+      {
+        "key": "c",
+        "text": "Copper"
+      },
+      {
+        "key": "d",
+        "text": "Cement clinker"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Iron ore was added as the 9th core industry in the rebased Index of Core Industries (base year 2022-23).",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_24_13",
+    "question_number": 13,
+    "question": "Which of India's operational launch vehicles is primarily used to place heavy communication satellites into Geosynchronous Transfer Orbit (GTO)?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "PSLV"
+      },
+      {
+        "key": "b",
+        "text": "SSLV"
+      },
+      {
+        "key": "c",
+        "text": "LVM3 (GSLV Mk III)"
+      },
+      {
+        "key": "d",
+        "text": "Sounding rocket RH-560"
+      }
+    ],
+    "answer": "c",
+    "explanation": "LVM3 (GSLV Mk III) — India's heaviest operational launcher — carries heavy communication satellites to GTO and human-rated for Gaganyaan. PSLV is the reliable workhorse for polar/LEO payloads.",
+    "subject": "Science & Technology",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_24_14",
+    "question_number": 14,
+    "question": "A cryogenic rocket engine typically uses which combination of propellants?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Liquid hydrogen (fuel) and liquid oxygen (oxidiser)"
+      },
+      {
+        "key": "b",
+        "text": "Kerosene (fuel) and nitrogen tetroxide (oxidiser)"
+      },
+      {
+        "key": "c",
+        "text": "Solid HTPB and ammonium perchlorate"
+      },
+      {
+        "key": "d",
+        "text": "Unsymmetrical dimethylhydrazine and liquid nitrogen"
+      }
+    ],
+    "answer": "a",
+    "explanation": "A cryogenic engine burns liquid hydrogen (fuel) + liquid oxygen (oxidiser) at very low temperatures, giving high specific impulse.",
+    "subject": "Science & Technology",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_24_15",
+    "question_number": 15,
+    "question": "CRISPR-Cas9, frequently in the news, is a tool for:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Detecting gravitational waves"
+      },
+      {
+        "key": "b",
+        "text": "Precise editing of DNA sequences (\"genome editing\")"
+      },
+      {
+        "key": "c",
+        "text": "Wireless power transmission"
+      },
+      {
+        "key": "d",
+        "text": "Carbon capture from flue gas"
+      }
+    ],
+    "answer": "b",
+    "explanation": "CRISPR-Cas9 is a genome-editing tool that makes precise cuts in DNA, enabling gene correction/insertion/deletion.",
+    "subject": "Science & Technology",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_24_16",
+    "question_number": 16,
+    "question": "In a Pressurised Heavy Water Reactor (PHWR) — the mainstay of India's first-stage nuclear programme — the moderator and fuel are respectively:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Light water and enriched uranium"
+      },
+      {
+        "key": "b",
+        "text": "Graphite and plutonium"
+      },
+      {
+        "key": "c",
+        "text": "Heavy water (D₂O) and natural uranium"
+      },
+      {
+        "key": "d",
+        "text": "Molten salt and thorium"
+      }
+    ],
+    "answer": "c",
+    "explanation": "A PHWR uses heavy water (D₂O) as moderator/coolant and natural (unenriched) uranium as fuel — India's first-stage reactor design.",
+    "subject": "Science & Technology",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_24_17",
+    "question_number": 17,
+    "question": "The third stage of India's three-stage nuclear power programme is designed to utilise which fuel, in which the country has vast reserves?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Enriched uranium-235"
+      },
+      {
+        "key": "b",
+        "text": "Plutonium-239"
+      },
+      {
+        "key": "c",
+        "text": "Thorium-232 / Uranium-233"
+      },
+      {
+        "key": "d",
+        "text": "Deuterium"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Stage three uses thorium-232, bred into fissile uranium-233, exploiting India's large thorium (monazite) reserves. (Stage 1: PHWRs on natural U; Stage 2: fast breeder reactors using Pu-239.)",
+    "subject": "Science & Technology",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_24_18",
+    "question_number": 18,
+    "question": "Which principle allows a quantum bit (qubit) to represent 0 and 1 simultaneously, giving quantum computers their potential advantage?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Superposition"
+      },
+      {
+        "key": "b",
+        "text": "Total internal reflection"
+      },
+      {
+        "key": "c",
+        "text": "Doppler effect"
+      },
+      {
+        "key": "d",
+        "text": "Photoelectric effect"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Superposition lets a qubit hold 0 and 1 states simultaneously; combined with entanglement it underpins quantum computing's parallelism.",
+    "subject": "Science & Technology",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_24_19",
+    "question_number": 19,
+    "question": "mRNA vaccines (e.g., against COVID-19) work by:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Injecting a weakened live virus that replicates in the body"
+      },
+      {
+        "key": "b",
+        "text": "Delivering genetic instructions that prompt host cells to make a viral protein, triggering an immune response"
+      },
+      {
+        "key": "c",
+        "text": "Introducing pre-formed antibodies for immediate passive immunity"
+      },
+      {
+        "key": "d",
+        "text": "Using bacteriophages to destroy the pathogen"
+      }
+    ],
+    "answer": "b",
+    "explanation": "mRNA vaccines deliver genetic instructions so the body's own cells produce a viral antigen (e.g., the spike protein), triggering an immune response — no live virus involved.",
+    "subject": "Science & Technology",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_24_20",
+    "question_number": 20,
+    "question": "Monoclonal antibodies are best described as:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Broad-spectrum antibiotics produced by fungi"
+      },
+      {
+        "key": "b",
+        "text": "Identical antibodies derived from a single clone of cells, engineered to target one specific antigen"
+      },
+      {
+        "key": "c",
+        "text": "A class of antiviral small molecules"
+      },
+      {
+        "key": "d",
+        "text": "Chemicals that suppress all immune activity non-specifically"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Monoclonal antibodies are identical antibodies from a single cell clone, engineered to bind one specific antigen — used in therapeutics and diagnostics. RP1. Under UNCLOS Article 121, a naturally formed island that sustains human habitation/economic life generates a 200-nm EEZ, whereas a rock that cannot does not — Japan treats tiny Okinotorishima as an island (claiming an EEZ around it), a status China contests; the classification decides whether the surrounding waters are Japan's EEZ or high seas, and thus the legality of foreign military drills there. RP2. Semicon 2.0 (Rs 1,27,500 cr) scales up from the original Rs 76,000-cr mission by funding the entire semiconductor value chain — design, fabrication, advanced packaging, equipment, materials, R&D and talent — rather than mainly attracting fabs, aiming for a self-reliant domestic ecosystem. --- *Scoring guide: 16–20 strong recall · 11–15 revise weak areas · ≤10 re-read this week's CA + PIB digests and your Science & Technology notes. Next week's static subject: International Relations.*",
+    "subject": "Science & Technology",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  }
+]

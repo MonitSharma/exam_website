@@ -1,0 +1,157 @@
+[
+  {
+    "id": "weekly_news_2026_07_25_1",
+    "question_number": 1,
+    "question": "The Changthang Cold Desert, in the news over defence-project clearances, is best associated with which two lakes?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Wular and Dal"
+      },
+      {
+        "key": "b",
+        "text": "Pangong Tso and Tso Moriri"
+      },
+      {
+        "key": "c",
+        "text": "Chilika and Pulicat"
+      },
+      {
+        "key": "d",
+        "text": "Loktak and Umiam"
+      }
+    ],
+    "answer": "b",
+    "explanation": "(Pangong Tso & Tso Moriri lie in Changthang, eastern Ladakh)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_07_25_2",
+    "question_number": 2,
+    "question": "Vizhinjam port, which crossed 2 million TEU, opens onto which sea and lies nearest to which coast?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Bay of Bengal, Coromandel coast"
+      },
+      {
+        "key": "b",
+        "text": "Arabian Sea, southern Kerala coast"
+      },
+      {
+        "key": "c",
+        "text": "Arabian Sea, Konkan coast"
+      },
+      {
+        "key": "d",
+        "text": "Laccadive Sea, Andaman coast"
+      }
+    ],
+    "answer": "b",
+    "explanation": "(Arabian Sea; near the southern tip, just below Thiruvananthapuram)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_07_25_3",
+    "question_number": 3,
+    "question": "The Preah Vihear and Ta Muen Thom temples, at the centre of July's clashes, sit along which range at which international boundary?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Arakan Yoma, Myanmar–India"
+      },
+      {
+        "key": "b",
+        "text": "Dângrêk range, Thailand–Cambodia"
+      },
+      {
+        "key": "c",
+        "text": "Annamite range, Vietnam–Laos"
+      },
+      {
+        "key": "d",
+        "text": "Barisan, Indonesia–Malaysia"
+      }
+    ],
+    "answer": "b",
+    "explanation": "(Dângrêk range, along the Thailand–Cambodia border)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_07_25_4",
+    "question_number": 4,
+    "question": "The Bab-el-Mandeb Strait connects which two water bodies?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Mediterranean Sea and Red Sea"
+      },
+      {
+        "key": "b",
+        "text": "Red Sea and Gulf of Aden"
+      },
+      {
+        "key": "c",
+        "text": "Persian Gulf and Gulf of Oman"
+      },
+      {
+        "key": "d",
+        "text": "Black Sea and Sea of Marmara"
+      }
+    ],
+    "answer": "b",
+    "explanation": "(Red Sea ↔ Gulf of Aden, via the Perim/Mayyun chokepoint)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_07_25_5",
+    "question_number": 5,
+    "question": "Great Sitkin volcano belongs to which island arc?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Kuril Islands"
+      },
+      {
+        "key": "b",
+        "text": "Aleutian Islands (Andreanof group)"
+      },
+      {
+        "key": "c",
+        "text": "Ryukyu Islands"
+      },
+      {
+        "key": "d",
+        "text": "Mariana Islands"
+      }
+    ],
+    "answer": "b",
+    "explanation": "(Andreanof Islands, central Aleutian chain, Alaska)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  }
+]
