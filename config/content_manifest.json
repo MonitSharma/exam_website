@@ -2053,6 +2053,27 @@
       ]
     },
     {
+      "id": "sectional_book-topics_2026_07_26_extra",
+      "label": "Sectional Practice Add-on - 26 Jul 2026",
+      "shortLabel": "Extra 26 Jul",
+      "category": "Extra Practice",
+      "sourceType": "sectional",
+      "questionCount": 50,
+      "durationMinutes": 80,
+      "path": "generated_data/sectional_questions/book-topics_2026-07-26_chatgpt.json",
+      "isoDate": "2026-07-26",
+      "variant": "extra-practice",
+      "variantLabel": "Practice Add-on",
+      "isSupplementary": true,
+      "subjects": [
+        "Polity",
+        "Economy",
+        "Modern History",
+        "Science and Technology",
+        "Geography"
+      ]
+    },
+    {
       "id": "sectional_geography_2026_07_06",
       "label": "Geography Sectional Test - 06 Jul 2026",
       "shortLabel": "Geography 06 Jul",
@@ -2592,6 +2613,14 @@
     }
   ],
   "noteDocuments": [
+    {
+      "id": "anki-prelims-flashcards-2026-07-26",
+      "cadence": "anki",
+      "title": "Prelims Flashcards",
+      "shortTitle": "Anki - 26 Jul",
+      "date": "2026-07-26",
+      "path": "anki/Prelims_Flashcards_2026-07-26.txt"
+    },
     {
       "id": "anki-prelims-flashcards-2026-07-19",
       "cadence": "anki",
@@ -3775,6 +3804,17 @@
       "shortTitle": "Reports - 14 Jun",
       "date": "2026-06-14",
       "path": "weekly/Schemes/Schemes_Reports_2026-06-14.md"
+    },
+    {
+      "id": "weekly-sectional-sectional-book-topics-2026-07-26-chatgpt",
+      "cadence": "sectional",
+      "title": "Weekly Book Topics 50Q Companion",
+      "shortTitle": "Book Topics - 26 Jul",
+      "date": "2026-07-26",
+      "path": "weekly/Sectional/Sectional_book-topics_2026-07-26_chatgpt.md",
+      "variant": "supplementary",
+      "variantLabel": "Companion Brief",
+      "isSupplementary": true
     },
     {
       "id": "weekly-sectional-sectional-geography-2026-07-06",
