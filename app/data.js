@@ -311,7 +311,7 @@
     const rawText = String(rawStem || "").trim();
     if (!rawText) return { stem: "", statements: [], tail: providedTail };
 
-    const tailRegex = /\s+((?:Which|How many|Select|Choose|From the|In the|On the|With reference to the statements|Consider the above|Based on the)\b[\s\S]*)$/i;
+    const tailRegex = /\s+((?:Which|How many|Select|Choose|With reference to the statements|Consider the above)\b[\s\S]*)$/i;
 
     // 1. Sequential Arabic numerals: 1., 2., 3., ...
     const numMatch1 = rawText.match(/(?:^|\n|\s)\s*1\.\s+/);
