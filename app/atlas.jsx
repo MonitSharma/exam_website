@@ -302,7 +302,454 @@ function LakshadweepInset({ onSelect }) {
   </button>;
 }
 
-function NewsAtlas() {
+function AtlasModeSwitch({ mode, onChange }) {
+  return <div className="atlas-mode-switch" role="tablist" aria-label="Atlas mode">
+    <button role="tab" aria-selected={mode === "news"} className={mode === "news" ? "on" : ""} onClick={() => onChange("news")}><Icon name="target" size={15} /> News & geography</button>
+    <button role="tab" aria-selected={mode === "history"} className={mode === "history" ? "on" : ""} onClick={() => onChange("history")}><Icon name="clock" size={15} /> India through time</button>
+  </div>;
+}
+
+let atlasHistoryPromise = null;
+function loadAtlasHistory() {
+  if (!atlasHistoryPromise) {
+    atlasHistoryPromise = Promise.all([
+      fetch("data/maps/bharatrajya-india-districts.geojson").then((response) => {
+        if (!response.ok) throw new Error("District map could not be loaded.");
+        return response.json();
+      }),
+      fetch("data/maps/bharatrajya-india-history.json").then((response) => {
+        if (!response.ok) throw new Error("Historical data could not be loaded.");
+        return response.json();
+      }),
+    ]).then(([districts, history]) => ({ districts, ...history }));
+  }
+  return atlasHistoryPromise;
+}
+
+function atlasHistorySpanAt(spans, year) {
+  if (!spans?.length) return null;
+  let low = 0;
+  let high = spans.length - 1;
+  while (low <= high) {
+    const middle = (low + high) >> 1;
+    const span = spans[middle];
+    if (year < span.start) high = middle - 1;
+    else if (year > span.end) low = middle + 1;
+    else return span;
+  }
+  return null;
+}
+
+function atlasHistoryRulerAt(rulers, year) {
+  return rulers?.find((item) => year >= item.start && year <= item.end) || null;
+}
+
+function atlasHistoryFallbackColor(name) {
+  const palette = ["#AE6B42","#3C7662","#6972A8","#A15D66","#B18A3D","#5B7E9A","#7F668F","#73834B"];
+  let hash = 0;
+  for (const character of String(name || "")) hash = ((hash << 5) - hash + character.charCodeAt(0)) | 0;
+  return palette[Math.abs(hash) % palette.length];
+}
+
+function atlasHistoryYearModel(data, year) {
+  const assignments = new Map();
+  const powers = new Map();
+  Object.entries(data.territories).forEach(([code, spans]) => {
+    const span = atlasHistorySpanAt(spans, year);
+    if (!span) return;
+    assignments.set(code, span);
+    const item = powers.get(span.polity) || { name:span.polity, districts:0, area:0 };
+    item.districts += 1;
+    item.area += data.districtAreas[code] || 0;
+    powers.set(span.polity, item);
+  });
+  return {
+    assignments,
+    powers:[...powers.values()].sort((a, b) => b.area - a.area || b.districts - a.districts),
+    events:data.events.filter((item) => item.year === year),
+  };
+}
+
+const ATLAS_HISTORY_ERAS = [
+  { start:1188, end:1205, label:"Late early-medieval India", short:"Regional kingdoms", focus:"Contemporaneous regional powers, temple-centred states and the eve of the Delhi Sultanate." },
+  { start:1206, end:1335, label:"Delhi Sultanate & regional powers", short:"Sultanate era", focus:"Sultanate expansion alongside resilient Deccan, southern, eastern and Himalayan polities." },
+  { start:1336, end:1525, label:"Vijayanagara & regional sultanates", short:"Regional state systems", focus:"Vijayanagara, Bahmani and successor states, and shifting regional centres of power." },
+  { start:1526, end:1706, label:"Mughal imperial age", short:"Mughal era", focus:"Mughal consolidation, regional accommodation and major contemporaries across the subcontinent." },
+  { start:1707, end:1756, label:"Successor states & Maratha expansion", short:"18th-century transition", focus:"Mughal decentralisation, Maratha expansion and the rise of successor and regional states." },
+  { start:1757, end:1857, label:"Company rule & Indian states", short:"Company era", focus:"Colonial expansion through wars, alliances and annexations alongside Indian kingdoms and confederacies." },
+  { start:1858, end:1946, label:"Crown rule & princely India", short:"Raj era", focus:"British paramountcy, princely states, nationalism and the territorial setting of the freedom struggle." },
+  { start:1947, end:2026, label:"Independent India", short:"Post-independence", focus:"Political integration, reorganisation of states and the making of the Indian Union." },
+];
+
+function atlasHistoryEraForYear(year) {
+  return ATLAS_HISTORY_ERAS.find((era) => year >= era.start && year <= era.end) || ATLAS_HISTORY_ERAS[0];
+}
+
+function atlasHistoryTransitions(data, year) {
+  if (year <= data.minYear) return [];
+  const grouped = new Map();
+  Object.entries(data.territories).forEach(([code, spans]) => {
+    const before = atlasHistorySpanAt(spans, year - 1)?.polity;
+    const after = atlasHistorySpanAt(spans, year)?.polity;
+    if (!after || before === after) return;
+    const key = `${before || "Unmapped"}→${after}`;
+    const item = grouped.get(key) || { from:before || "Unmapped", to:after, count:0, sample:[] };
+    item.count += 1;
+    if (item.sample.length < 3) item.sample.push(code);
+    grouped.set(key, item);
+  });
+  return [...grouped.values()].sort((a, b) => b.count - a.count);
+}
+
+function atlasHistoryExamLens(year) {
+  if (year < 1707) return {
+    paper:"GS I · Medieval India",
+    prelims:"Pair dynasties with capitals, rulers, regions and contemporary powers.",
+    mains:"Use the map to explain state formation, regional interaction and patterns of political integration.",
+  };
+  if (year < 1947) return {
+    paper:"GS I · Modern India",
+    prelims:"Connect wars, treaties, annexations, princely states and centres of resistance.",
+    mains:"Trace how colonial expansion and regional responses reshaped political authority.",
+  };
+  return {
+    paper:"GS I/II · Post-independence",
+    prelims:"Revise accession, integration and the chronology of territorial reorganisation.",
+    mains:"Use spatial context to discuss nation-building, federalism and state reorganisation.",
+  };
+}
+
+function atlasHistoryEventTitle(event) {
+  const text = String(event?.text || "Historical event").split(":")[0].trim();
+  return text.length > 46 ? `${text.slice(0,43)}…` : text;
+}
+
+function atlasHistoryEscapeHtml(value) {
+  return String(value || "").replace(/[&<>"']/g, (character) => ({
+    "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;", "'":"&#039;",
+  }[character]));
+}
+
+function atlasHistoryEventClusters(events, map) {
+  const clusters = [];
+  events.forEach((event) => {
+    const point = map.latLngToContainerPoint([event.lat,event.lng]);
+    const match = clusters.find((cluster) => Math.abs(cluster.point.x - point.x) < 164 && Math.abs(cluster.point.y - point.y) < 46);
+    if (match) {
+      match.events.push(event);
+      match.lat = match.events.reduce((sum, item) => sum + item.lat, 0) / match.events.length;
+      match.lng = match.events.reduce((sum, item) => sum + item.lng, 0) / match.events.length;
+      match.point = map.latLngToContainerPoint([match.lat,match.lng]);
+    } else {
+      clusters.push({ lat:event.lat, lng:event.lng, point, events:[event] });
+    }
+  });
+  return clusters;
+}
+
+function HistoricalLeafletMap({ data, yearModel, selectedCode, selectedPower, onSelectCode, onSelectEvent }) {
+  const hostRef = useRefAtlas(null);
+  const mapRef = useRefAtlas(null);
+  const districtLayersRef = useRefAtlas(new Map());
+  const eventLayerRef = useRefAtlas(null);
+  const selectCodeRef = useRefAtlas(onSelectCode);
+  const selectEventRef = useRefAtlas(onSelectEvent);
+  const kingdomByName = useMemoAtlas(() => new Map(data.kingdoms.map((item) => [item.name, item])), [data]);
+
+  useEffectAtlas(() => { selectCodeRef.current = onSelectCode; }, [onSelectCode]);
+  useEffectAtlas(() => { selectEventRef.current = onSelectEvent; }, [onSelectEvent]);
+
+  useEffectAtlas(() => {
+    if (!hostRef.current || mapRef.current || !window.L) return undefined;
+    const renderer = window.L.canvas({ padding:.35 });
+    const map = window.L.map(hostRef.current, {
+      zoomControl:true, attributionControl:false, minZoom:3, maxZoom:9,
+      preferCanvas:true, renderer, zoomSnap:.5,
+    });
+    mapRef.current = map;
+    map.createPane("historyContext");
+    map.getPane("historyContext").style.zIndex = 300;
+    map.createPane("historyDistricts");
+    map.getPane("historyDistricts").style.zIndex = 330;
+    map.createPane("historyEvents");
+    map.getPane("historyEvents").style.zIndex = 430;
+    const layers = districtLayersRef.current;
+    if (data.contextCountries) {
+      window.L.geoJSON(data.contextCountries, {
+        pane:"historyContext",
+        renderer,
+        style:{ color:"#91a099", weight:.8, fillColor:"#d9e1dd", fillOpacity:.46, dashArray:"4 4" },
+        onEachFeature:(feature, layer) => layer.bindTooltip(feature.properties?.ADMIN || "Neighbouring country", { sticky:true, className:"atlas-map-tooltip" }),
+      }).addTo(map);
+    }
+    window.L.geoJSON(data.districts, {
+      pane:"historyDistricts",
+      renderer,
+      style:{ color:"#ffffff", weight:.55, fillColor:"#d9ddd8", fillOpacity:.82 },
+      onEachFeature:(feature, layer) => {
+        const code = feature.properties?.code;
+        layers.set(code, layer);
+        layer.on("click", () => selectCodeRef.current(code));
+        layer.on("mouseover", () => {
+          const span = layer.__historySpan;
+          layer.bindTooltip(`<strong>${feature.properties?.name || "District"}</strong><span>${feature.properties?.NAME_1 || ""}${span ? ` · ${span.polity}` : ""}</span>`, { sticky:true, className:"atlas-map-tooltip atlas-history-tooltip" }).openTooltip();
+        });
+      },
+    }).addTo(map);
+    eventLayerRef.current = window.L.layerGroup().addTo(map);
+    const historyBounds = [[5.2,60.2],[37.6,100.7]];
+    const resetControl = window.L.control({ position:"topleft" });
+    resetControl.onAdd = () => {
+      const button = window.L.DomUtil.create("button", "atlas-history-reset-view");
+      button.type = "button";
+      button.title = "Reset subcontinent view";
+      button.setAttribute("aria-label", "Reset subcontinent view");
+      button.textContent = "↺";
+      window.L.DomEvent.disableClickPropagation(button);
+      window.L.DomEvent.on(button, "click", () => map.fitBounds(historyBounds, { padding:[10,10] }));
+      return button;
+    };
+    resetControl.addTo(map);
+    map.fitBounds(historyBounds, { padding:[10,10] });
+    window.setTimeout(() => map.invalidateSize(), 40);
+    return () => { map.remove(); mapRef.current = null; layers.clear(); };
+  }, [data]);
+
+  useEffectAtlas(() => {
+    const map = mapRef.current;
+    const eventLayer = eventLayerRef.current;
+    if (!map || !eventLayer) return undefined;
+    function renderEvents() {
+      eventLayer.clearLayers();
+      const mapWidth = map.getSize().x;
+      atlasHistoryEventClusters(yearModel.events, map).forEach((cluster) => {
+        const event = cluster.events[0];
+        const relatedCount = cluster.events.length - 1;
+        const payload = relatedCount ? {
+          ...event,
+          text:`${atlasHistoryEventTitle(event)} + ${relatedCount} nearby event${relatedCount === 1 ? "" : "s"}`,
+          detail:cluster.events.map((item) => item.text).join("\n\n"),
+        } : event;
+        const label = atlasHistoryEscapeHtml(atlasHistoryEventTitle(event));
+        const placeLeft = cluster.point.x > mapWidth - 178;
+        const marker = window.L.marker([cluster.lat,cluster.lng], {
+          pane:"historyEvents",
+          icon:window.L.divIcon({
+            className:"atlas-history-event-divicon",
+            html:`<span class="atlas-history-event-callout${placeLeft ? " left" : ""}"><i></i><b>${label}</b>${relatedCount ? `<small>+${relatedCount} nearby</small>` : ""}</span>`,
+            iconSize:[154,42],
+            iconAnchor:[placeLeft ? 142 : 12,42],
+          }),
+          keyboard:true,
+          title:relatedCount ? `${atlasHistoryEventTitle(event)} and ${relatedCount} nearby events` : atlasHistoryEventTitle(event),
+        }).addTo(eventLayer);
+        marker.bindTooltip(`<strong>${atlasHistoryEscapeHtml(event.category)}</strong><span>${atlasHistoryEscapeHtml(event.text)}</span>`, { className:"atlas-map-tooltip atlas-history-tooltip" });
+        marker.on("click", () => selectEventRef.current(payload));
+      });
+    }
+    let frame = window.requestAnimationFrame(() => {
+      districtLayersRef.current.forEach((layer, code) => {
+        const span = yearModel.assignments.get(code);
+        const color = span ? (kingdomByName.get(span.polity)?.color || atlasHistoryFallbackColor(span.polity)) : "#cbd2cd";
+        const muted = selectedPower && span?.polity !== selectedPower;
+        const selected = selectedCode === code;
+        layer.__historySpan = span;
+        layer.setStyle({
+          fillColor:color,
+          fillOpacity:muted ? .12 : (selected ? .98 : .82),
+          color:selected ? "#172c24" : (muted ? "#d4d9d5" : "rgba(255,255,255,.92)"),
+          weight:selected ? 2.3 : .55,
+        });
+        if (selected) layer.bringToFront();
+      });
+      renderEvents();
+    });
+    map.on("zoomend moveend", renderEvents);
+    return () => {
+      window.cancelAnimationFrame(frame);
+      map.off("zoomend moveend", renderEvents);
+    };
+  }, [yearModel, selectedCode, selectedPower, kingdomByName]);
+
+  return <div ref={hostRef} className="atlas-leaflet atlas-history-map" aria-label="Interactive historical map of the Indian subcontinent" />;
+}
+
+function HistoricalAtlas({ onModeChange }) {
+  const [data, setData] = useStateAtlas(null);
+  const [loadError, setLoadError] = useStateAtlas("");
+  const [year, setYear] = useStateAtlas(1947);
+  const [playing, setPlaying] = useStateAtlas(false);
+  const [query, setQuery] = useStateAtlas("");
+  const [sidebarView, setSidebarView] = useStateAtlas("powers");
+  const [selectedCode, setSelectedCode] = useStateAtlas(null);
+  const [selectedPower, setSelectedPower] = useStateAtlas("");
+  const [selectedEvent, setSelectedEvent] = useStateAtlas(null);
+
+  useEffectAtlas(() => {
+    let cancelled = false;
+    loadAtlasHistory().then((loaded) => { if (!cancelled) setData(loaded); }).catch((error) => { if (!cancelled) setLoadError(error.message); });
+    return () => { cancelled = true; };
+  }, []);
+  useEffectAtlas(() => {
+    if (!playing || !data) return undefined;
+    const interval = window.setInterval(() => {
+      setYear((value) => value >= data.maxYear ? data.minYear : Math.min(data.maxYear, value + 2));
+    }, 220);
+    return () => window.clearInterval(interval);
+  }, [playing, data]);
+  useEffectAtlas(() => { setSelectedEvent(null); }, [year]);
+
+  const kingdomByName = useMemoAtlas(() => new Map((data?.kingdoms || []).map((item) => [item.name, item])), [data]);
+  const yearModel = useMemoAtlas(() => data ? atlasHistoryYearModel(data, year) : null, [data, year]);
+  const featureByCode = useMemoAtlas(() => new Map((data?.districts.features || []).map((feature) => [feature.properties.code, feature])), [data]);
+  const selectedFeature = selectedCode ? featureByCode.get(selectedCode) : null;
+  const selectedSpans = selectedCode && data ? data.territories[selectedCode] : null;
+  const selectedSpan = selectedSpans ? atlasHistorySpanAt(selectedSpans, year) : null;
+  const selectedSpanIndex = selectedSpan && selectedSpans ? selectedSpans.indexOf(selectedSpan) : -1;
+  const nearbyDistrictSpans = selectedSpanIndex >= 0 ? selectedSpans.slice(Math.max(0, selectedSpanIndex - 2), selectedSpanIndex + 3) : [];
+  const activePowerName = selectedSpan?.polity || selectedPower;
+  const activeKingdom = activePowerName ? kingdomByName.get(activePowerName) : null;
+  const activeRuler = activePowerName && data ? atlasHistoryRulerAt(data.rulers[activePowerName], year) : null;
+  const activeRulers = activePowerName && data ? (data.rulers[activePowerName] || []) : [];
+  const activeRulerIndex = activeRuler ? activeRulers.indexOf(activeRuler) : -1;
+  const nearbyRulers = activeRulerIndex >= 0 ? activeRulers.slice(Math.max(0, activeRulerIndex - 1), activeRulerIndex + 2) : activeRulers.slice(0,3);
+  const activePower = activePowerName ? yearModel?.powers.find((item) => item.name === activePowerName) : null;
+  const era = atlasHistoryEraForYear(year);
+  const examLens = atlasHistoryExamLens(year);
+  const transitions = useMemoAtlas(() => data ? atlasHistoryTransitions(data, year) : [], [data, year]);
+  const needle = query.trim().toLowerCase();
+  const visiblePowers = (yearModel?.powers || []).filter((item) => !needle || item.name.toLowerCase().includes(needle)).slice(0,80);
+  const visibleEvents = (yearModel?.events || []).filter((item) => !needle || `${item.category} ${item.text} ${item.detail || ""}`.toLowerCase().includes(needle));
+
+  function changeYear(next) {
+    setYear(Math.max(data.minYear, Math.min(data.maxYear, Number(next))));
+  }
+  function choosePower(name) {
+    setSelectedPower((current) => current === name ? "" : name);
+    setSelectedCode(null);
+    setSelectedEvent(null);
+  }
+  function chooseCode(code) {
+    setSelectedCode(code);
+    setSelectedPower("");
+    setSelectedEvent(null);
+  }
+  function clearHistorySelection() {
+    setSelectedCode(null);
+    setSelectedPower("");
+    setSelectedEvent(null);
+  }
+  function changeSidebarView(nextView) {
+    setSidebarView(nextView);
+    setQuery("");
+  }
+
+  return <main className="atlas-page atlas-page-v2 atlas-history-page">
+    <header className="atlas-hero">
+      <div>
+        <div className="eyebrow small"><span className="eyebrow-line" /> Interactive Indian history</div>
+        <h1>India through time</h1>
+        <p>Move across eight centuries of the Indian subcontinent, compare contemporary powers, and click a modern district to follow its historical sequence.</p>
+      </div>
+      <AtlasModeSwitch mode="history" onChange={onModeChange} />
+    </header>
+
+    {!data && !loadError && <div className="atlas-history-loading"><span className="atlas-loading-ring" /><strong>Preparing the historical map…</strong><small>Loaded only when you open this mode.</small></div>}
+    {loadError && <div className="atlas-history-loading error"><Icon name="info" size={22} /><strong>{loadError}</strong><button className="btn btn-outline sm" onClick={() => window.location.reload()}>Reload page</button></div>}
+    {data && yearModel && <div className="atlas-shell atlas-shell-v2 atlas-history-shell">
+      <aside className="atlas-controls atlas-history-controls" aria-label="Historical map controls">
+        <div className="atlas-history-view-switch" role="tablist" aria-label="Browse historical data">
+          <button role="tab" aria-selected={sidebarView === "powers"} className={sidebarView === "powers" ? "on" : ""} onClick={() => changeSidebarView("powers")}><Icon name="layers" size={13} /> Powers</button>
+          <button role="tab" aria-selected={sidebarView === "events"} className={sidebarView === "events" ? "on" : ""} onClick={() => changeSidebarView("events")}><Icon name="flag" size={13} /> Events <b>{yearModel.events.length}</b></button>
+        </div>
+        <label className="atlas-search"><Icon name="search" size={16} /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder={sidebarView === "powers" ? "Find a power…" : `Search events in ${year}…`} /></label>
+        <div className="atlas-history-summary"><span>Powers in {year}</span><strong>{yearModel.powers.length}</strong><small>{yearModel.assignments.size} districts across the subcontinent</small></div>
+        {(selectedPower || selectedCode || selectedEvent) && <button className="atlas-clear-focus atlas-clear-focus-top" onClick={clearHistorySelection}><Icon name="arrowL" size={13} /> Back to {year} overview</button>}
+        {sidebarView === "powers" ? <div className="atlas-history-power-list">
+          {visiblePowers.map((power) => {
+            const color = kingdomByName.get(power.name)?.color || atlasHistoryFallbackColor(power.name);
+            return <button key={power.name} aria-pressed={selectedPower === power.name} className={selectedPower === power.name ? "on" : ""} onClick={() => choosePower(power.name)}>
+              <i style={{background:color}} /><span><strong>{power.name}</strong><small>{Math.round(power.area).toLocaleString("en-IN")} km² · {power.districts} districts</small></span><Icon name="chevR" size={13} />
+            </button>;
+          })}
+          {!visiblePowers.length && <p>No powers match this search.</p>}
+        </div> : <div className="atlas-history-event-list">
+          {visibleEvents.map((event, index) => <button key={`${event.text}-${index}`} className={selectedEvent === event ? "on" : ""} onClick={() => { setSelectedEvent(event); setSelectedCode(null); setSelectedPower(""); }}>
+            <i /><span><strong>{event.category}</strong><small>{event.text}</small></span><Icon name="chevR" size={13} />
+          </button>)}
+          {!visibleEvents.length && <div className="atlas-history-no-events"><Icon name="calendar" size={20} /><strong>No mapped events in {year}</strong><p>Territorial coverage is still available. Try a nearby year.</p></div>}
+        </div>}
+      </aside>
+
+      <section className="atlas-stage atlas-history-stage">
+        <div className="atlas-stage-bar">
+          <span><Icon name="layers" size={15} /> Subcontinent · historical control <b className="atlas-era-pill">{era.short}</b></span>
+          <span className="atlas-stage-hint">{yearModel.events.length ? `${yearModel.events.length} mapped event${yearModel.events.length === 1 ? "" : "s"} this year` : "Click a district to trace it"}</span>
+        </div>
+        <div className="atlas-map-wrap atlas-map-wrap-v2">
+          <HistoricalLeafletMap data={data} yearModel={yearModel} selectedCode={selectedCode} selectedPower={selectedPower} onSelectCode={chooseCode} onSelectEvent={(event) => { setSelectedEvent(event); setSelectedCode(null); }} />
+          <div className="atlas-history-year-stamp">{year}</div>
+          <div className="atlas-history-key"><span><i /> Territory</span><span><i className="event" /> Event / battle</span></div>
+        </div>
+        <div className="atlas-timeline">
+          <button className="atlas-play" onClick={() => setPlaying((value) => !value)} aria-label={playing ? "Pause timeline" : "Play timeline"}><Icon name={playing ? "pause" : "play"} size={16} /></button>
+          <button className="atlas-year-step" onClick={() => changeYear(year - 1)} aria-label="Previous year"><Icon name="arrowL" size={14} /></button>
+          <label><span>Year</span><input type="number" min={data.minYear} max={data.maxYear} value={year} onChange={(event) => changeYear(event.target.value)} aria-label="Historical year" /></label>
+          <button className="atlas-year-step" onClick={() => changeYear(year + 1)} aria-label="Next year"><Icon name="arrowR" size={14} /></button>
+          <div className="atlas-range-wrap"><input type="range" min={data.minYear} max={data.maxYear} value={year} onChange={(event) => changeYear(event.target.value)} aria-label="Historical timeline" style={{"--timeline-progress":`${((year-data.minYear)/(data.maxYear-data.minYear))*100}%`}} /><div><span>{data.minYear}</span><button onClick={() => changeYear(1206)} title="Delhi Sultanate">1206</button><button onClick={() => changeYear(1526)} title="Mughal Empire">1526</button><button onClick={() => changeYear(1757)} title="Company expansion">1757</button><button onClick={() => changeYear(1858)} title="Crown rule">1858</button><button onClick={() => changeYear(1947)} title="Independence">1947</button><span>{data.maxYear}</span></div></div>
+        </div>
+      </section>
+
+      <aside className="atlas-detail atlas-history-detail" aria-live="polite">
+        <div className="atlas-history-brief">
+        {(selectedEvent || selectedFeature || activePowerName) && <button className="atlas-detail-back" onClick={clearHistorySelection}><Icon name="arrowL" size={14} /> Back to {year} overview</button>}
+        {selectedEvent ? <>
+          <div className="atlas-detail-kicker"><span className="history-event-color" /> {selectedEvent.category} · {year}</div>
+          <h2>{atlasHistoryEventTitle(selectedEvent)}</h2>
+          <div className="atlas-detail-section"><h3>What happened</h3><p>{selectedEvent.detail || selectedEvent.text}</p></div>
+          {(selectedEvent.belligerents || selectedEvent.outcome) && <div className="atlas-history-facts">{selectedEvent.belligerents && <span><small>Belligerents</small><strong>{selectedEvent.belligerents}</strong></span>}{selectedEvent.outcome && <span><small>Outcome</small><strong>{selectedEvent.outcome}</strong></span>}</div>}
+          {selectedEvent.commanders && <div className="atlas-detail-section"><h3>Commanders</h3><p>{selectedEvent.commanders}</p></div>}
+          <div className="atlas-upsc-lens compact"><span>{examLens.paper}</span><p><strong>Why map it</strong>Connect the event to its region, contemporary powers and territorial consequence.</p></div>
+          <div className="atlas-source-note"><Icon name="book" size={14} /><span>Historical event source<br /><strong>{selectedEvent.source || "See BharatRajya sources"}</strong></span></div>
+        </> : (selectedFeature && selectedSpan) ? <>
+          <div className="atlas-detail-kicker"><span style={{background:activeKingdom?.color || atlasHistoryFallbackColor(activePowerName)}} /> District in {year}</div>
+          <h2>{selectedFeature.properties.name}</h2>
+          <p className="atlas-detail-loc"><Icon name="map" size={14} /> {selectedFeature.properties.NAME_1} · {selectedFeature.properties.NAME_0}</p>
+          <div className="atlas-hook history"><small>Mapped power</small><strong>{activePowerName}</strong><em>{selectedSpan.start}–{selectedSpan.end}</em></div>
+          {activeRuler && <div className="atlas-detail-section"><h3>Ruler in this year</h3><p><strong>{activeRuler.ruler}</strong>{activeRuler.title ? ` · ${activeRuler.title}` : ""}{activeRuler.note && <small className="atlas-ruler-note">{activeRuler.note}</small>}</p></div>}
+          {activeKingdom?.description && <div className="atlas-detail-section"><h3>Context</h3><p>{activeKingdom.description}</p></div>}
+          <div className="atlas-history-facts">{activeKingdom?.capital && <span><small>Capital</small><strong>{activeKingdom.capital}</strong></span>}{activeKingdom?.type && <span><small>Polity type</small><strong>{activeKingdom.type}</strong></span>}</div>
+          <div className="atlas-detail-section"><h3>This district through time</h3><div className="atlas-succession-list">{nearbyDistrictSpans.map((span) => <button key={`${span.start}-${span.polity}`} className={span === selectedSpan ? "on" : ""} onClick={() => changeYear(span.start)}><i style={{background:kingdomByName.get(span.polity)?.color || atlasHistoryFallbackColor(span.polity)}} /><span><strong>{span.polity}</strong><small>{span.start}–{span.end}</small></span></button>)}</div></div>
+          <button className="atlas-focus-power" onClick={() => choosePower(activePowerName)}>Highlight this power</button>
+        </> : activePowerName ? <>
+          <div className="atlas-detail-kicker"><span style={{background:activeKingdom?.color || atlasHistoryFallbackColor(activePowerName)}} /> Power in {year}</div>
+          <h2>{activePowerName}</h2>
+          <div className="atlas-power-meta">{activeKingdom?.type && <span>{activeKingdom.type}</span>}{activeKingdom?.startYear && <span>{activeKingdom.startYear}–{activeKingdom.endYear || "?"}</span>}<span>{activePower?.districts || 0} mapped districts</span></div>
+          {activeRuler && <div className="atlas-hook history"><small>Ruler in {year}</small><strong>{activeRuler.ruler}</strong><em>{activeRuler.start}–{activeRuler.end}</em>{activeRuler.note && <p>{activeRuler.note}</p>}</div>}
+          {(activeKingdom?.description || activeKingdom?.notableRulers) && <div className="atlas-detail-section"><h3>Polity snapshot</h3><p>{activeKingdom.description || activeKingdom.notableRulers}</p></div>}
+          <div className="atlas-history-facts">{activeKingdom?.capital && <span><small>Capital</small><strong>{activeKingdom.capital}</strong></span>}<span><small>Mapped extent</small><strong>{Math.round(activePower?.area || 0).toLocaleString("en-IN")} km²</strong></span></div>
+          {nearbyRulers.length > 0 && <div className="atlas-detail-section"><h3>Ruler sequence</h3><div className="atlas-ruler-sequence">{nearbyRulers.map((ruler) => <button key={`${ruler.ruler}-${ruler.start}`} className={ruler === activeRuler ? "on" : ""} onClick={() => changeYear(Math.max(data.minYear, ruler.start))}><span>{ruler.ruler}</span><small>{ruler.start}–{ruler.end}</small></button>)}</div></div>}
+          <div className="atlas-detail-section"><h3>Major contemporaries</h3><div className="atlas-peer-powers">{yearModel.powers.filter((power) => power.name !== activePowerName).slice(0,4).map((power) => <button key={power.name} onClick={() => choosePower(power.name)}>{power.name}</button>)}</div></div>
+          <div className="atlas-upsc-lens compact"><span>{examLens.paper}</span><p><strong>Prelims focus</strong>Capital, ruler, region and contemporaries.</p></div>
+        </> : <>
+          <div className="atlas-detail-kicker"><span className="history-year-color" /> India in {year}</div>
+          <h2>{era.label}</h2>
+          <p className="atlas-detail-loc"><Icon name="map" size={14} /> {yearModel.powers.length} powers across {yearModel.assignments.size} mapped districts</p>
+          <div className="atlas-era-context"><small>Period context</small><p>{era.focus}</p></div>
+          <div className="atlas-detail-section"><h3>Largest mapped powers</h3><div className="atlas-top-powers">{yearModel.powers.slice(0,5).map((power, index) => <button key={power.name} onClick={() => choosePower(power.name)}><b>{index + 1}</b><span>{power.name}<small>{Math.round(power.area).toLocaleString("en-IN")} km²</small></span></button>)}</div></div>
+          {transitions.length > 0 && <div className="atlas-detail-section"><h3>Territorial changes in {year}</h3><div className="atlas-transition-list">{transitions.slice(0,4).map((item) => <button key={`${item.from}-${item.to}`} onClick={() => choosePower(item.to)}><span>{item.from}</span><Icon name="arrowR" size={12} /><strong>{item.to}</strong><b>{item.count}</b></button>)}</div></div>}
+          <div className="atlas-detail-section"><h3>Events on the map</h3>{yearModel.events.length ? <div className="atlas-year-events">{yearModel.events.slice(0,5).map((event, index) => <button key={`${event.text}-${index}`} onClick={() => setSelectedEvent(event)}><i />{event.text}</button>)}</div> : <p>No geocoded event is recorded for this year. The territory map remains available.</p>}</div>
+          <div className="atlas-upsc-lens"><span>{examLens.paper}</span><p><strong>Prelims lens</strong>{examLens.prelims}</p><p><strong>Mains lens</strong>{examLens.mains}</p></div>
+        </>}
+        </div>
+        <div className="atlas-history-credit"><Icon name="info" size={13} /><span>Historical reconstruction adapted from <a href="https://www.bharatrajya.com/" target="_blank" rel="noreferrer">BharatRajya</a>, released under <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noreferrer">CC0 1.0</a>.</span></div>
+      </aside>
+    </div>}
+    <p className="atlas-disclaimer"><Icon name="info" size={14} /> Historical frontiers are approximate and shown through modern district shapes for learning—not as legal or political claims. Consult the cited scholarship for research use.</p>
+  </main>;
+}
+
+function CurrentAtlas({ onModeChange }) {
   const [scope, setScope] = useStateAtlas("world");
   const [activeLayers, setActiveLayers] = useStateAtlas(["current"]);
   const [query, setQuery] = useStateAtlas("");
@@ -374,7 +821,7 @@ function NewsAtlas() {
           <h1>News Atlas</h1>
           <p>Current affairs on a proper political map—plus the static geography that turns a location into an exam-ready mental model.</p>
         </div>
-        <div className="atlas-freshness"><span className="atlas-live-dot" /><span><small>Selected news set</small><strong>{activeWeek.label.replace("Week of ", "")}</strong><em>Local Places in News notes</em></span></div>
+        <div className="atlas-hero-actions"><AtlasModeSwitch mode="news" onChange={onModeChange} /><div className="atlas-freshness"><span className="atlas-live-dot" /><span><small>Selected news set</small><strong>{activeWeek.label.replace("Week of ", "")}</strong><em>Local Places in News notes</em></span></div></div>
       </header>
 
       <div className="atlas-shell atlas-shell-v2">
@@ -432,6 +879,11 @@ function NewsAtlas() {
       <p className="atlas-disclaimer"><Icon name="info" size={14} /> Boundary data: Natural Earth India point-of-view world layer and geoBoundaries/DataMeet India ADM1. River centrelines: Natural Earth 1:10m.</p>
     </main>
   );
+}
+
+function NewsAtlas() {
+  const [mode, setMode] = useStateAtlas("news");
+  return mode === "history" ? <HistoricalAtlas onModeChange={setMode} /> : <CurrentAtlas onModeChange={setMode} />;
 }
 
 Object.assign(window, { NewsAtlas });
