@@ -10,6 +10,25 @@ A free, static UPSC CSE Prelims GS Paper I mock test platform built with HTML, C
 - Data: previous-year questions, AI-generated batches, CSR mock batches, and daily quizzes from JSON files
 - Answer keys: extracted from Set A answer-key images where available
 - Attempt history: stored in browser `localStorage`
+- Atlas: current-affairs geography plus an India historical time machine (1188–2026)
+
+## Historical Atlas Credit
+
+The **India through time** mode adapts district-level historical territory,
+polity, ruler, and event data published by
+[BharatRajya](https://www.bharatrajya.com/). BharatRajya releases its maps and
+data under [Creative Commons Zero (CC0 1.0)](https://creativecommons.org/publicdomain/zero/1.0/).
+Attribution is not required by CC0, but this project gratefully credits the
+original work and recommends consulting BharatRajya's
+[sources](https://www.bharatrajya.com/sources) for the underlying historical
+scholarship.
+
+Pariksha uses a locally stored, on-demand derivative covering the wider Indian
+subcontinent: present-day India, Pakistan, Bangladesh, Nepal and Sri Lanka,
+with neighbouring-country context for frontier events. The historical
+boundaries are approximate reconstructions projected onto modern district
+shapes for educational use; they are not legal or political claims. The
+imported snapshot was retrieved on 26 July 2026.
 
 ## Run Locally
 
