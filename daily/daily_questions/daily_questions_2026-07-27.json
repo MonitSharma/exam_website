@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to the DISHA 2.0 scheme launched in 2026, consider the following statements:\n1. It is a Centrally Sponsored Scheme implemented on a 60:40 Centre-State funding pattern.\n2. Tele-Law and Nyaya Bandhu are among its components.\n3. It is implemented by the Department of Justice under the Ministry of Law and Justice.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "DISHA 2.0 (Rs 255 crore, 2026-31) is a Central Sector Scheme with 100% central funding, not a 60:40 Centrally Sponsored Scheme, so statement 1 is wrong. Tele-Law and Nyaya Bandhu are two of its four components, and it is implemented by the Department of Justice, Ministry of Law and Justice.",
+    "subject": "Polity & Governance",
+    "theme": "Access to justice and legal aid",
+    "micro_topic": "DISHA 2.0 scheme, July 2026 launch",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "In July 2026, the Indian Cyber Crime Coordination Centre directed a code-hosting platform to disable repositories of the messaging application BitChat. The order was issued primarily under a provision of the Information Technology Act, 2000 that deals with:",
+    "options": [
+      "(a) the power to issue directions for blocking public access to information",
+      "(b) the conditions under which an intermediary loses its exemption from liability",
+      "(c) the power to intercept, monitor or decrypt information",
+      "(d) the punishment for sending offensive messages through communication services"
+    ],
+    "answer": "(b)",
+    "explanation": "The I4C notice invoked Section 79(3)(b), under which an intermediary forfeits its safe-harbour exemption from liability if it fails to act on notice. Option (a) describes Section 69A (blocking), (c) describes Section 69 (interception, monitoring, decryption), and (d) describes Section 66A, struck down in Shreya Singhal v. Union of India (2015).",
+    "subject": "Science & Technology",
+    "theme": "Cyber governance and intermediary liability",
+    "micro_topic": "I4C order to GitHub on BitChat repositories; Section 79(3)(b), IT Act 2000",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Press Note 3 (2026 Series) issued by the Department for Promotion of Industry and Internal Trade is best described as a measure that:",
+    "options": [
+      "(a) requires prior government approval for investments from entities of countries sharing a land border with India",
+      "(b) permits 100% FDI under the automatic route in multi-brand retail trading",
+      "(c) permits FDI in inventory-based e-commerce entities dealing exclusively in exports of goods manufactured or produced in India",
+      "(d) permits foreign-funded marketplace entities to hold inventory for domestic business-to-consumer sales"
+    ],
+    "answer": "(c)",
+    "explanation": "Press Note 3 (2026 Series), issued on 23 July 2026, lifts the bar on FDI in inventory-based e-commerce only where the entity deals exclusively in exports of India-made goods; FDI in inventory-based domestic B2C e-commerce remains prohibited. Option (a) describes Press Note 3 of the 2020 Series, a common distractor. The change operates once the FEM (Non-Debt Instruments) Rules, 2019 are amended.",
+    "subject": "Economy",
+    "theme": "FDI policy and the external sector",
+    "micro_topic": "Press Note 3 (2026 Series) on inventory-based e-commerce for exports",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements regarding the Geographical Indication recently granted for Unjha jeera and saunf:\n1. The registration is held in the name of an Agricultural Produce Market Committee.\n2. Under Indian law, a Geographical Indication can be assigned or transmitted like a trademark.\n3. A Geographical Indication registration in India is valid for ten years and may be renewed.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "The GI certificates issued on 28 March 2026 are registered in the name of APMC, Unjha, and GI registrations are valid for ten years and renewable. Statement 2 is wrong: under the GI of Goods (Registration and Protection) Act, 1999 a GI is a collective or community right and is not assignable or transmissible, which is the key structural difference from a trademark. Rajasthan growers have objected on the ground that Unjha is primarily a trading mandi.",
+    "subject": "Agriculture",
+    "theme": "Agricultural marketing and intellectual property",
+    "micro_topic": "Unjha jeera and saunf GI tag; Rajasthan growers' objection",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The DeepDATA application, seen in the news recently, is associated with:",
+    "options": [
+      "(a) real-time monitoring of glacial lake outburst floods in the Himalaya",
+      "(b) documentation of deep-sea fish species under the Deep Ocean Mission",
+      "(c) satellite-based mapping of groundwater aquifers under the Jal Jeevan Mission",
+      "(d) tracking of deep-seated landslides along the Western Ghats"
+    ],
+    "answer": "(b)",
+    "explanation": "DeepDATA was launched by ICAR-CMFRI, Kochi, under the Deep Ocean Mission with Ministry of Earth Sciences funding. It provides verified information on the taxonomy, distribution and conservation status of deep-sea fishes and lets users upload field observations, which CMFRI scientists validate before entry into a national digital repository.",
+    "subject": "Environment",
+    "theme": "Marine biodiversity and the blue economy",
+    "micro_topic": "DeepDATA app, ICAR-CMFRI, Deep Ocean Mission",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to free legal aid in India, consider the following statements:\n1. Article 39A was inserted into the Constitution by the 42nd Amendment Act, 1976.\n2. The Chief Justice of India is the ex-officio Executive Chairman of the National Legal Services Authority.\n3. Lok Adalats derive statutory status from the Legal Services Authorities Act, 1987.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Article 39A (equal justice and free legal aid) was inserted by the 42nd Amendment Act, 1976, and Lok Adalats were given statutory backing by the Legal Services Authorities Act, 1987. Statement 2 is wrong: the CJI is Patron-in-Chief of NALSA, while the Executive Chairman is a serving or retired Supreme Court judge nominated by the President in consultation with the CJI.",
+    "subject": "Polity & Governance",
+    "theme": "Directive Principles and the judiciary",
+    "micro_topic": "Article 39A, Legal Services Authorities Act 1987, NALSA and Lok Adalats",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Geographical Indications of Goods (Registration and Protection) Act, 1999, consider the following statements:\n1. The Geographical Indications Registry is located at Chennai and functions under the Controller General of Patents, Designs and Trade Marks.\n2. The Act is administered by the Ministry of Agriculture and Farmers' Welfare.\n3. India enacted the law to give effect to its obligations under the TRIPS Agreement.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "The GI Registry at Chennai functions under the CGPDTM, and the 1999 Act (in force from 15 September 2003) gives effect to India's obligations under TRIPS Articles 22-24. Statement 2 is wrong: the Act is administered by DPIIT under the Ministry of Commerce and Industry, not the Ministry of Agriculture. India's first registered GI was Darjeeling Tea.",
+    "subject": "Economy",
+    "theme": "Intellectual property rights",
+    "micro_topic": "GI of Goods (Registration and Protection) Act, 1999 - administration and TRIPS link",
+    "nature": "Conceptual",
+    "difficulty": "Hard"
+  }
+]

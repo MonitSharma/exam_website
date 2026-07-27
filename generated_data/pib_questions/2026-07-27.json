@@ -1,0 +1,35 @@
+[
+  {
+    "question": "With reference to the Public Examinations (Prevention of Unfair Means) Amendment Bill, 2026, consider the following statements:\n1. It empowers State Governments and Union Territory Administrations to designate any Court of Session as a Special Fast Track Court for offences under the parent Act.\n2. It raises the maximum fine for organised examination fraud to Rs 10 crore.\n3. It was introduced in the Lok Sabha by the Minister of Education.\nWhich of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(a)",
+    "explanation": "The Bill's seven amendments include empowering States/UTs to designate any Court of Session as a Special Fast Track Court and raising the fine for organised paper-leak offences to up to Rs 10 crore, with minimum imprisonment for individuals rising to 5-10 years. It was introduced on 27 July 2026 by Dr Jitendra Singh, MoS (IC) for Personnel, Public Grievances and Pensions (DoPT), not by the Education Minister.",
+    "subject": "Polity & Governance",
+    "theme": "Legislation and Criminal Justice Reform",
+    "micro_topic": "Public Examinations (Prevention of Unfair Means) Amendment Bill, 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The mobile application 'DeepDATA', recently in the news, is associated with which one of the following?",
+    "options": ["(a) Real-time monitoring of deep borewell groundwater levels in arid districts", "(b) Digital documentation of deep-sea fish species and citizen-science contributions to a national repository", "(c) Deep-learning based crop-yield forecasting for kharif pulses", "(d) Tracking of deep-sea polymetallic nodule mining leases in the Central Indian Ocean Basin"],
+    "answer": "(b)",
+    "explanation": "DeepDATA was launched by ICAR-CMFRI, Kochi under the Deep Ocean Mission with funding support from the Ministry of Earth Sciences. It provides verified taxonomy, distribution and conservation-status information on deep-sea fishes and allows the public to submit field observations, verified by CMFRI experts before entering a national database.",
+    "subject": "Environment",
+    "theme": "Marine Biodiversity and Ocean Missions",
+    "micro_topic": "DeepDATA app / ICAR-CMFRI / Deep Ocean Mission",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Consider the following statements regarding India's FDI policy on e-commerce as revised in July 2026:\n1. Foreign direct investment in the inventory-based model of e-commerce has been permitted exclusively for the export of goods manufactured or produced in India.\n2. Foreign direct investment continues to be prohibited in inventory-based business-to-consumer e-commerce for the domestic market.\n3. The revision is administered by the Department for Promotion of Industry and Internal Trade and will take effect through amendments under the Foreign Exchange Management Act, 1999.\nWhich of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(d)",
+    "explanation": "DPIIT has carved out the inventory-based model exclusively for exports of domestically manufactured or produced goods, while retaining the prohibition on FDI in inventory-based B2C e-commerce for the domestic market; the change operates through amendments under FEMA, 1999 via the Foreign Exchange Management (Non-Debt Instruments) Rules, 2019.",
+    "subject": "Economy",
+    "theme": "Foreign Investment and External Sector",
+    "micro_topic": "FDI in inventory-based e-commerce for exports (DPIIT)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]
