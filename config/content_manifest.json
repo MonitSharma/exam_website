@@ -12,6 +12,42 @@
   ],
   "questionSets": [
     {
+      "id": "daily_questions_2026_07_27",
+      "label": "Daily Questions - 27 Jul 2026",
+      "shortLabel": "Daily 27 Jul",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-07-27.json",
+      "isoDate": "2026-07-27",
+      "subjects": [
+        "Polity & Governance",
+        "Science & Technology",
+        "Economy",
+        "Agriculture",
+        "Environment"
+      ]
+    },
+    {
+      "id": "daily_questions_2026_07_26",
+      "label": "Daily Questions - 26 Jul 2026",
+      "shortLabel": "Daily 26 Jul",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-07-26.json",
+      "isoDate": "2026-07-26",
+      "subjects": [
+        "Science & Technology",
+        "Economy",
+        "International Relations",
+        "Art & Culture",
+        "Environment"
+      ]
+    },
+    {
       "id": "daily_questions_2026_07_25",
       "label": "Daily Questions - 25 Jul 2026",
       "shortLabel": "Daily 25 Jul",
@@ -1069,6 +1105,38 @@
       "negativeMark": -0.66,
       "subjects": [
         "Reading Comprehension"
+      ]
+    },
+    {
+      "id": "pib_questions_2026_07_27",
+      "label": "PIB Questions - 27 Jul 2026",
+      "shortLabel": "PIB 27 Jul",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-07-27.json",
+      "isoDate": "2026-07-27",
+      "subjects": [
+        "Polity & Governance",
+        "Environment",
+        "Economy"
+      ]
+    },
+    {
+      "id": "pib_questions_2026_07_26",
+      "label": "PIB Questions - 26 Jul 2026",
+      "shortLabel": "PIB 26 Jul",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-07-26.json",
+      "isoDate": "2026-07-26",
+      "subjects": [
+        "Polity & Governance",
+        "Internal Security",
+        "Environment"
       ]
     },
     {
@@ -2662,6 +2730,22 @@
       "path": "anki/Prelims_Flashcards_2026-06-21.txt"
     },
     {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-07-27",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "27 Jul 2026",
+      "date": "2026-07-27",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-07-27.md"
+    },
+    {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-07-26",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "26 Jul 2026",
+      "date": "2026-07-26",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-07-26.md"
+    },
+    {
       "id": "daily-daily-current-affairs-upsc-ca-2026-07-25",
       "cadence": "daily",
       "title": "UPSC Daily CA Briefing",
@@ -3318,6 +3402,22 @@
       "path": "weekly/Physics/Physics_Drill_2026-06-10.md"
     },
     {
+      "id": "daily-daily-pib-pib-2026-07-27",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 27 Jul",
+      "date": "2026-07-27",
+      "path": "daily/daily_pib/PIB_2026-07-27.md"
+    },
+    {
+      "id": "daily-daily-pib-pib-2026-07-26",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 26 Jul",
+      "date": "2026-07-26",
+      "path": "daily/daily_pib/PIB_2026-07-26.md"
+    },
+    {
       "id": "daily-daily-pib-pib-2026-07-25",
       "cadence": "pib",
       "title": "Daily PIB Briefing",
@@ -3748,6 +3848,14 @@
       "shortTitle": "RC - 08 Jun",
       "date": "2026-06-08",
       "path": "daily/daily_reading_comprehension/RC_Drill_2026-06-08.md"
+    },
+    {
+      "id": "weekly-schemes-schemes-reports-2026-07-26",
+      "cadence": "schemes",
+      "title": "Schemes & Reports",
+      "shortTitle": "Reports - 26 Jul",
+      "date": "2026-07-26",
+      "path": "weekly/Schemes/Schemes_Reports_2026-07-26.md"
     },
     {
       "id": "weekly-schemes-schemes-reports-2026-07-19",
