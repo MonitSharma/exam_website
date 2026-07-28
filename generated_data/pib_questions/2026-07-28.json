@@ -1,0 +1,35 @@
+[
+  {
+    "question": "Consider the following statements regarding the stock holding limits imposed on sugar dealers in July 2026:\n1. The order was issued under the Essential Commodities Act, 1955, read with the Sugar (Control) Order, 2025.\n2. No dealer may hold more than 4,000 quintals of sugar at any one location, and no stock may be retained beyond 30 days from the date of receipt.\n3. The limits apply to sugar mills as well as to dealers.\nWhich of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(a)",
+    "explanation": "The Department of Food and Public Distribution issued the order under Section 3 of the Essential Commodities Act, 1955 read with Clauses 7 and 16 of the Sugar (Control) Order, 2025, capping dealer holdings at 4,000 quintals per location with a 30-day retention limit, valid from 1 August to 30 November 2026. The limits apply to dealers, not to sugar mills, so statement 3 is incorrect.",
+    "subject": "Economy",
+    "theme": "Food Management and Price Stabilisation",
+    "micro_topic": "Sugar stock holding limits under the Essential Commodities Act, 1955",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to India's Hub & Spoke framework for international flight operations, recently in the news, consider the following statements:\n1. Amritsar became the second airport, after Varanasi, to be integrated into the framework.\n2. Under the framework, passengers complete check-in, baggage drop, customs and immigration at the spoke airport itself before connecting overseas via a designated hub.\n3. The framework is administered by the Ministry of External Affairs.\nWhich of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(a)",
+    "explanation": "The Ministry of Civil Aviation (not the MEA) inaugurated Hub & Spoke international operations from Amritsar on 28 July 2026, making it the second spoke airport after Varanasi. Passengers clear check-in, baggage drop, customs and immigration at Amritsar and connect overseas via Delhi on single check-in ticketing, expanding reach from 7 direct routes to over 20 international destinations.",
+    "subject": "Economy",
+    "theme": "Infrastructure and Transport Connectivity",
+    "micro_topic": "Civil aviation Hub & Spoke framework / Amritsar spoke airport",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The National Viral Hepatitis Control Programme (NVHCP), which completed eight years in July 2026, is best described as which one of the following?",
+    "options": ["(a) A World Health Organization-funded vertical programme implemented directly by district hospitals, independent of the National Health Mission", "(b) A programme under the National Health Mission providing free screening, diagnosis and treatment, aiming to eliminate viral hepatitis as a public health threat by 2030 in line with SDG Target 3.3", "(c) A component of Ayushman Bharat PM-JAY that reimburses hepatitis treatment only for hospitalised beneficiaries", "(d) A research programme of the Indian Council of Medical Research for developing indigenous hepatitis vaccines"],
+    "answer": "(b)",
+    "explanation": "NVHCP was launched on World Hepatitis Day, 28 July 2018, under the National Health Mission of the Ministry of Health and Family Welfare. It provides free screening, diagnosis and treatment; over 21 crore people have been screened and more than 6 lakh treated, with 1,153 treatment centres including 70+ specialised sites. Its goal is elimination of viral hepatitis as a public health threat by 2030, aligned with SDG Target 3.3.",
+    "subject": "Society",
+    "theme": "Public Health Programmes",
+    "micro_topic": "National Viral Hepatitis Control Programme (NVHCP)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]
