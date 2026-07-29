@@ -1,0 +1,35 @@
+[
+  {
+    "question": "With reference to the revised Consumer Price Index (CPI) series announced by the Ministry of Statistics & Programme Implementation, consider the following statements:\n1. The base year has been revised from 2012=100 to 2024=100, with the item basket and weights derived from the Household Consumption Expenditure Survey 2023-24.\n2. The revised series has, for the first time, incorporated online markets to capture prices on e-commerce platforms.\n3. The number of weighted items at the All-India level has been reduced from 358 to 299 to simplify the basket.\nWhich of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(a)",
+    "explanation": "The new CPI series (base 2024=100), released on 12 February 2026, draws its basket and weights from HCES 2023-24, and adds 12 online markets across towns with population above 25 lakh. Statement 3 inverts the change: the weighted item basket was expanded from 299 to 358 items (goods 259 to 308, services 40 to 50), not reduced.",
+    "subject": "Economy",
+    "theme": "Inflation and Statistical Systems",
+    "micro_topic": "Rebasing of the Consumer Price Index to 2024=100 using HCES 2023-24",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements regarding the Government of India's response to Left Wing Extremism (LWE):\n1. Under the Seventh Schedule of the Constitution, Police and Public Order are State subjects, and the Centre only supplements State efforts.\n2. The National Policy and Action Plan to address Left Wing Extremism was approved in 2015.\n3. Security camps in areas freed from LWE are being converted into Jan Suvidha Kendras, the first of which was established in Jharkhand.\nWhich of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(a)",
+    "explanation": "Police and Public Order are State subjects under the Seventh Schedule, and the National Policy and Action Plan to address LWE was approved in 2015. Statement 3 is wrong on location: the first Jan Suvidha Kendra was established at Netanar, Jagdalpur, Chhattisgarh, as the Shaheed Veer Gundadhur Seva Dera Kendra. As of March-April 2026, no district in India is categorised as LWE-affected.",
+    "subject": "Internal Security",
+    "theme": "Left Wing Extremism",
+    "micro_topic": "National Policy and Action Plan on LWE, 2015 and post-LWE district categorisation",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to Global Tiger Day and international tiger conservation, consider the following statements:\n1. Global Tiger Day, observed annually on 29 July, was established at the St. Petersburg Tiger Summit of 2010.\n2. The TX2 goal adopted at that Summit aimed at doubling the global wild tiger population by 2022.\n3. The Bali, Javan and Caspian tiger subspecies are now extinct.\nWhich of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(d)",
+    "explanation": "All three are correct. Leaders of the 13 Tiger Range Countries met at the St. Petersburg Tiger Summit in 2010, launched the Global Tiger Recovery Programme, established Global Tiger Day on 29 July, and set the TX2 goal of doubling wild tiger numbers by 2022. The Bali, Javan and Caspian subspecies are extinct, and tigers today occupy less than 8% of their historic range. India currently reports 3,682 tigers across 58 tiger reserves.",
+    "subject": "Environment",
+    "theme": "Wildlife Conservation",
+    "micro_topic": "Global Tiger Day, St. Petersburg Summit 2010, TX2 goal and NTCA",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]
