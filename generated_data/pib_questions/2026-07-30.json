@@ -1,0 +1,35 @@
+[
+  {
+    "question": "With reference to the recent notification permitting the use of Anhydrous Ammonia as a fertiliser in India, consider the following statements:\n1. It has been notified under the Fertiliser (Inorganic, Organic or Mixed) (Control) Order, 1985, which itself is issued under the Essential Commodities Act, 1955.\n2. Anhydrous ammonia contains a minimum of 82% nitrogen by weight, the highest nitrogen concentration among commercially available fertilisers.\n3. The permission has been granted on a permanent basis with immediate effect.\nWhich of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(a)",
+    "explanation": "Statements 1 and 2 are correct: the Fertiliser (Control) Order, 1985 is issued under the Essential Commodities Act, 1955, and anhydrous ammonia carries at least 82% nitrogen by weight against urea's roughly 46%. Statement 3 is wrong - the Ministry of Agriculture & Farmers' Welfare permitted manufacture and agricultural use under Clause 20A of the FCO for a three-year period beginning 23 July 2026, i.e. a supervised trial rather than a permanent notification.",
+    "subject": "Agriculture",
+    "theme": "Fertiliser Policy and Nutrient Management",
+    "micro_topic": "Notification of Anhydrous Ammonia under Clause 20A of the Fertiliser (Control) Order, 1985",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements regarding the Centre for Development of Telematics (C-DOT):\n1. It functions under the Department of Telecommunications, Ministry of Communications.\n2. Its newly announced Centre of Excellence at IISc Bengaluru is its first such centre to be set up outside the IIT system.\n3. The Centre of Excellence will work on areas including 6G, integrated sensing and communication, and post-quantum communication.\nWhich of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(d)",
+    "explanation": "All three are correct. C-DOT is the telecom R&D arm under the Department of Telecommunications, Ministry of Communications. The agreement signed with the Foundation for Science Innovation and Development (FSID) makes the IISc Bengaluru centre C-DOT's fifth Centre of Excellence and its first outside the IIT system, the earlier four being at IIT Kanpur, IIT Gandhinagar, IIT Roorkee and IIT Hyderabad. Its research agenda spans 5G-Advanced/6G, very large-scale MIMO, integrated sensing and communication, AI-native networks and quantum/post-quantum communication.",
+    "subject": "Science & Technology",
+    "theme": "Telecom Research and Digital Infrastructure",
+    "micro_topic": "C-DOT-FSID Centre of Excellence at IISc Bengaluru for 6G and post-quantum communication",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements about the Botanical Survey of India (BSI):\n1. It was established in 1890 and is headquartered in Kolkata.\n2. It is an attached office under the Ministry of Science and Technology.\n3. 'Nelumbo' is its research journal, in which the new polypore fungus Microporellus kolhapurensis was described.\nWhich of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 1 and 3 only", "(c) 2 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(b)",
+    "explanation": "Statements 1 and 3 are correct. Statement 2 is wrong on the parent ministry: BSI is an attached office of the Ministry of Environment, Forest and Climate Change, not of the Ministry of Science and Technology. Nelumbo, formerly the Bulletin of the Botanical Survey of India, carried the description of Microporellus kolhapurensis, a new bracket fungus from Bhudargad taluka in Kolhapur district, Maharashtra, and only the second Microporellus species recorded from the state.",
+    "subject": "Environment",
+    "theme": "Biodiversity and Conservation Institutions",
+    "micro_topic": "Botanical Survey of India and the discovery of Microporellus kolhapurensis in the Western Ghats",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]

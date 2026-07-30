@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to the Seafarer Workforce Report 2026, recently in the news, consider the following statements:\n1. It is published jointly by the Baltic and International Maritime Council (BIMCO) and the International Chamber of Shipping (ICS).\n2. According to the report, India is the world's largest supplier of seafarers.\n3. India's share of the global seafarer workforce has more than doubled since 2015.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "The report is a joint BIMCO-ICS publication (both are industry bodies, not UN agencies), and India's share rose from 5.2% in 2015 to 12.16% in 2026 with 311,936 seafarers. However, India ranks second, behind the Philippines and ahead of China, Russia and Indonesia, so statement 2 is incorrect.",
+    "subject": "Reports & Indices",
+    "theme": "Global workforce reports and India's ranking",
+    "micro_topic": "BIMCO-ICS Seafarer Workforce Report 2026; India 2nd-largest seafarer supplier",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Asian Development Bank's USD 850 million loan approved in July 2026 for India relates primarily to which one of the following?",
+    "options": [
+      "(a) Expansion of dedicated freight corridors under the National Rail Plan",
+      "(b) Acceleration of residential rooftop solar deployment under PM Surya Ghar: Muft Bijli Yojana",
+      "(c) Recapitalisation of regional rural banks for priority-sector lending",
+      "(d) Development of offshore wind energy blocks off the Tamil Nadu coast"
+    ],
+    "answer": "(b)",
+    "explanation": "The USD 850 million is Subprogram 2 of ADB's Accelerating Affordable and Inclusive Rooftop Solar Systems Development Program, supporting PM Surya Ghar: Muft Bijli Yojana and the target of 30 GW cumulative residential rooftop solar capacity by FY2026-27, with an estimated 28.8 MT CO2e of avoided emissions.",
+    "subject": "Environment",
+    "theme": "Climate finance and multilateral lending for the energy transition",
+    "micro_topic": "ADB Subprogram 2 loan for PMSG-MBY rooftop solar; 30 GW FY27 target",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Consider the following statements about the DWEEPTI Yojana recently launched by a State government:\n1. It is India's first women-led distributed renewable energy policy.\n2. It enables women's Self-Help Group federations to be registered as authorised vendors under PM Surya Ghar: Muft Bijli Yojana.\n3. It has been launched by the Government of Odisha.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "DWEEPTI (Decentralised Women Empowerment on Energy and Policy for Transformative Inclusion) is India's first women-led distributed renewable energy policy, and 13 Cluster Level Federations across 12 districts have been registered as authorised PMSG-MBY vendors with the state discom CSPDCL. However, it is a Chhattisgarh initiative, not Odisha's, so statement 3 is incorrect.",
+    "subject": "Society",
+    "theme": "Women's empowerment through Self-Help Groups",
+    "micro_topic": "DWEEPTI Yojana, Chhattisgarh; Solar Didis; SHG federations as DRE vendors",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the e-Zero FIR mechanism, consider the following statements:\n1. It was launched by the Indian Cyber Crime Coordination Centre under the Ministry of Home Affairs.\n2. Cyber financial fraud complaints above a specified monetary threshold filed on the National Cyber Crime Reporting Portal or the 1930 helpline are automatically converted into Zero FIRs.\n3. The complainant must approach the concerned cybercrime police station within three days for conversion into a regular FIR.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. e-Zero FIR was launched on 19 May 2025 by I4C under the MHA; complaints above Rs 10 lakh lodged on the NCRP portal or the 1930 helpline are auto-converted into Zero FIRs; and the complainant must appear within three days for conversion into a regular FIR, mirroring the three-day signature requirement under Section 173 of the BNSS, 2023. The system integrates NCRP, Delhi Police's e-FIR system and NCRB's CCTNS.",
+    "subject": "Internal Security",
+    "theme": "Cyber crime reporting architecture",
+    "micro_topic": "e-Zero FIR; I4C; NCRP and 1930 helpline; CCTNS integration",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Delhi Lakshmi Yojana, approved in July 2026, is significant from an economic-policy standpoint mainly because it:",
+    "options": [
+      "(a) is the first state scheme to be funded entirely through a dedicated cess on electricity consumption",
+      "(b) routes a part of the monthly transfer into a Central Bank Digital Currency wallet usable only for approved goods and services",
+      "(c) replaces all existing in-kind food entitlements in Delhi with an equivalent cash transfer",
+      "(d) makes the transfer conditional on the beneficiary's enrolment in a contributory pension scheme"
+    ],
+    "answer": "(b)",
+    "explanation": "Under one disbursal option, Rs 1,000 of the Rs 2,500 monthly assistance is credited to a CBDC (Digital Rupee) wallet spendable only on government-approved goods and services, with Rs 1,500 placed in a recurring or fixed deposit. This is a prominent Indian use of programmable retail CBDC as a welfare-delivery rail; the scheme has an outlay of Rs 5,110 crore for 2026-27 and covers women aged 21-60 with family income up to Rs 2.5 lakh.",
+    "subject": "Economy",
+    "theme": "Digital currency and welfare transfer design",
+    "micro_topic": "Delhi Lakshmi Yojana; programmable CBDC wallet; forced-savings DBT design",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Bharatiya Nagarik Suraksha Sanhita (BNSS), 2023, consider the following statements:\n1. It permits information relating to the commission of a cognizable offence to be given by electronic communication.\n2. Where such information is given electronically, it must be signed by the informant within three days.\n3. A 'Zero FIR' may be registered by a police station irrespective of whether the offence was committed within its territorial jurisdiction.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. Section 173 of the BNSS, 2023 expressly allows information about a cognizable offence to be given orally or by electronic communication, and where given electronically it must be signed by the informant within three days. The Zero FIR principle - registration by any police station regardless of territorial jurisdiction, followed by transfer to the competent station - is retained and given statutory footing under the BNSS.",
+    "subject": "Polity & Governance",
+    "theme": "Criminal procedure under the new criminal laws",
+    "micro_topic": "Section 173 BNSS 2023; electronic FIR; Zero FIR",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Asian Development Bank (ADB), consider the following statements:\n1. It was established in 1966 and is headquartered in Manila.\n2. India is a founding member of the ADB.\n3. Japan and the United States are its largest shareholders, holding equal shareholdings.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. The ADB was established in 1966 with its headquarters in Manila, the Philippines; India was among its founding members; and Japan and the United States are its largest shareholders, each holding an equal share of its capital stock.",
+    "subject": "International Relations",
+    "theme": "Multilateral development banks",
+    "micro_topic": "ADB - establishment, headquarters, membership and shareholding",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  }
+]
