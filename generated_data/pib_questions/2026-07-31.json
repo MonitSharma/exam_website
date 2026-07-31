@@ -1,0 +1,35 @@
+[
+  {
+    "question": "With reference to the Favara-UPI cross-border payment corridor made operational in July 2026, consider the following statements:\n1. Favara is the domestic instant payment system of the Maldives, operated by the Maldives Monetary Authority.\n2. In its first phase, the corridor enables both person-to-person remittances and QR-code-based merchant payments.\n3. The linkage is implemented on the Indian side by NPCI International Payments Limited.\nWhich of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 1 and 3 only", "(c) 2 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(b)",
+    "explanation": "Favara is the Maldives' domestic instant payment system run by the Maldives Monetary Authority, and NPCI International Payments Limited (NIPL) is the Indian implementing entity - so statements 1 and 3 are correct. Statement 2 is wrong: Phase 1 covers only person-to-person remittances through two Maldivian banks (Bank of Maldives and Maldives Islamic Bank); QR-code-based merchant payments are planned for a later phase.",
+    "subject": "International Relations",
+    "theme": "India and its Neighbourhood",
+    "micro_topic": "Digital Public Infrastructure diplomacy - UPI cross-border linkages",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following pairs of components of the DISHA 2.0 scheme and their descriptions:\n1. Tele-Law - pre-litigation legal advice delivered through Common Service Centres\n2. Nyaya Bandhu - pro bono legal services rendered by volunteer advocates\n3. VIDHI-Sanjeevani - a centralised dashboard for real-time monitoring, integrated with an AI chatbot\nHow many of the pairs given above are correctly matched?",
+    "options": ["(a) Only one", "(b) Only two", "(c) All three", "(d) None"],
+    "answer": "(c)",
+    "explanation": "All three are correctly matched. DISHA 2.0 (Designing Innovative Solutions for Holistic Access to Justice), a Central Sector Scheme of the Department of Justice with a Rs 255 crore outlay for 2026-31, has four components: Tele-Law (pre-litigation advice via CSCs and Village Level Entrepreneurs), Nyaya Bandhu (pro bono legal services), the Legal Literacy and Legal Awareness Programme, and the newly added VIDHI-Sanjeevani dashboard integrated with the Nyaya Setu AI chatbot.",
+    "subject": "Polity & Governance",
+    "theme": "Judiciary and Access to Justice",
+    "micro_topic": "DISHA 2.0 Central Sector Scheme - components and coverage",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the regulation of drug prices in India, consider the following statements:\n1. The National List of Essential Medicines is published by the National Pharmaceutical Pricing Authority.\n2. Ceiling prices are fixed for formulations listed in Schedule-I of the Drugs (Prices Control) Order, 2013.\n3. For non-scheduled formulations, manufacturers may not increase the maximum retail price by more than 10 per cent over the MRP of the preceding twelve months.\nWhich of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(b)",
+    "explanation": "Statement 1 is incorrect: the National List of Essential Medicines (currently 388 medicines) is published by the Ministry of Health & Family Welfare, while the NPPA - an attached office of the Department of Pharmaceuticals - fixes prices. Statements 2 and 3 correctly describe the DPCO, 2013 mechanism: ceiling prices for Schedule-I (scheduled) formulations, and a 10 per cent annual cap on MRP increases for non-scheduled formulations. As on 23 July 2026, NPPA had fixed ceiling prices of 935 scheduled formulations and retail prices of 3,845 new drugs.",
+    "subject": "Polity & Governance",
+    "theme": "Health Governance and Regulatory Bodies",
+    "micro_topic": "NPPA, DPCO 2013 and the National List of Essential Medicines",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]

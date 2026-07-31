@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to the continuation of the PM-KISAN Scheme approved by the Union Cabinet in July 2026, consider the following statements:\n1. The scheme has been extended for the period 2026-27 to 2030-31 with a total financial outlay of about Rs 3.15 lakh crore.\n2. Eligible landholding farmer families receive Rs 6,000 per year in three equal instalments through Direct Benefit Transfer.\n3. It is a Centrally Sponsored Scheme funded on a 60:40 basis between the Centre and the States.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Statements 1 and 2 are correct — the Cabinet approved continuation from 2026-27 to 2030-31 with an outlay of about Rs 3.15 lakh crore, and the benefit remains Rs 6,000 a year in three equal DBT instalments. Statement 3 is wrong: PM-KISAN is a Central Sector Scheme funded 100% by the Union Government, with no State cost-sharing.",
+    "subject": "Agriculture",
+    "theme": "Farm income support and subsidy reform",
+    "micro_topic": "PM-KISAN continuation 2026-27 to 2030-31",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to India's first Telecom Manufacturing Zone (TMZ), for which a Memorandum of Understanding was signed in July 2026, consider the following statements:\n1. It is being established at Gwalior, Madhya Pradesh, as an integrated plug-and-play cluster of about 350 acres.\n2. Core infrastructure in Phase-I is being funded entirely by the Central Government with an allocation of Rs 493 crore.\n3. The MoU was signed between the Department of Telecommunications and the Government of Madhya Pradesh.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. India's first TMZ is a roughly 350-acre plug-and-play cluster at Gwalior; the Centre is funding Phase-I core infrastructure fully with Rs 493 crore; and the MoU was signed between the Department of Telecommunications and the Madhya Pradesh government, with the State also providing about 170 acres free of cost.",
+    "subject": "Economy",
+    "theme": "Industrial policy and manufacturing clusters",
+    "micro_topic": "Telecom Manufacturing Zone, Gwalior",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements regarding the expanded Khelo India Scheme approved by the Union Cabinet in July 2026:\n1. It carries a combined outlay of Rs 36,441 crore over five years, covering both the Khelo India Scheme and assistance to National Sports Federations.\n2. It introduces two new school-based components — Khelo India Feeder Schools and Khelo India Utkrishta Vidyalayas.\n3. The Khelo India Scheme is implemented by the Ministry of Education.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Statements 1 and 2 are correct — the combined outlay of Rs 36,441 crore comprises Rs 29,054 crore for Khelo India and Rs 7,387 crore for National Sports Federations, and KIFS and KIUV are the two new school-based components. Statement 3 is wrong: Khelo India is implemented by the Ministry of Youth Affairs and Sports.",
+    "subject": "Society",
+    "theme": "Human capital and youth development",
+    "micro_topic": "Khelo India expansion and school sports ecosystem",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Consider the following statements regarding cloudbursts and flash floods in India:\n1. The India Meteorological Department defines a cloudburst as rainfall exceeding 100 mm in one hour over an area of about 20-30 sq km.\n2. In the July 2026 Upper Assam floods, meteorological assessment attributed the flooding to extreme rainfall over hill catchments in Nagaland rather than to a cloudburst.\n3. Flash floods in India can be triggered only by cloudbursts.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Statements 1 and 2 are correct — IMD's cloudburst threshold is over 100 mm in one hour over roughly 20-30 sq km, and it ruled out a cloudburst in the Upper Assam episode, pointing instead to extreme rainfall over Nagaland's hill catchments. Statement 3 is wrong: flash floods also arise from saturated soil, glacial lake outbursts, dam releases, deforestation and poor drainage.",
+    "subject": "Geography",
+    "theme": "Disaster management and extreme rainfall",
+    "micro_topic": "Cloudburst definition and Upper Assam flash floods 2026",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Mega data-centre projects in Visakhapatnam and Thane were recently in the news. Which of the following are among the principal local and environmental concerns raised against such projects?\n1. Large freshwater withdrawal for cooling systems in water-stressed regions.\n2. Continuous and high electricity demand placing pressure on transmission networks.\n3. Limited permanent employment generation relative to the land, water and power consumed.\nSelect the correct answer using the code given below:",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three were central to the objections. Data centres draw heavily on water for cooling, need firm round-the-clock power (the Thane campus reportedly requires about 422 MW), and are highly automated, so permanent local employment is small relative to the land, water and power consumed.",
+    "subject": "Environment",
+    "theme": "Water-energy nexus of digital infrastructure",
+    "micro_topic": "Mega data centres, EIA and public consultation",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the distribution of legislative powers under the Seventh Schedule of the Constitution of India, consider the following statements:\n1. \"Agriculture, including agricultural education and research\" is an entry in the State List.\n2. \"Water, that is to say, water supplies, irrigation and canals, drainage and embankments\" is an entry in the State List, subject to the provisions of the relevant Union List entry.\n3. \"Regulation and development of inter-State rivers and river valleys\" is an entry in the Concurrent List.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Agriculture is State List Entry 14 and Water is State List Entry 17, expressly subject to Union List Entry 56. Statement 3 is wrong: regulation and development of inter-State rivers and river valleys, to the extent declared expedient by Parliament, is Union List Entry 56, not a Concurrent List entry.",
+    "subject": "Polity & Governance",
+    "theme": "Centre-State legislative relations",
+    "micro_topic": "Seventh Schedule entries on agriculture and water",
+    "nature": "Factual",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Consider the following pairs of tributaries of the Brahmaputra and the bank on which they join the main stream in Assam:\n1. Subansiri — north bank\n2. Kopili — south bank\n3. Manas — south bank\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All three",
+      "(d) None"
+    ],
+    "answer": "(b)",
+    "explanation": "The Subansiri, the largest tributary of the Brahmaputra, joins from the north bank, and the Kopili joins from the south bank. The Manas, which enters India from Bhutan, is a north-bank tributary, so pair 3 is incorrectly matched.",
+    "subject": "Geography",
+    "theme": "Indian drainage system",
+    "micro_topic": "Brahmaputra basin tributaries",
+    "nature": "Factual",
+    "difficulty": "Hard"
+  }
+]
