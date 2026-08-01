@@ -1,0 +1,482 @@
+[
+  {
+    "question": "The Paika Rebellion (1817), one of the early people's uprisings against Company rule, broke out in which region?",
+    "options": [
+      "(a) Bengal",
+      "(b) Odisha",
+      "(c) Malabar",
+      "(d) Bundelkhand"
+    ],
+    "answer": "(b)",
+    "explanation": "The Paikas (traditional militia of Odisha) revolted in 1817 under Bakshi Jagabandhu against East India Company policies.",
+    "subject": "Modern History",
+    "theme": "People's Resistance",
+    "micro_topic": "Paika Rebellion",
+    "nature": "factual",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Who led the rebel forces at Kanpur during the Revolt of 1857?",
+    "options": [
+      "(a) Nana Sahib",
+      "(b) Kunwar Singh",
+      "(c) Begum Hazrat Mahal",
+      "(d) Khan Bahadur Khan"
+    ],
+    "answer": "(a)",
+    "explanation": "Nana Sahib led the revolt at Kanpur; Hazrat Mahal at Lucknow, Kunwar Singh in Bihar, Khan Bahadur Khan at Bareilly.",
+    "subject": "Modern History",
+    "theme": "Revolt of 1857",
+    "micro_topic": "Centres and leaders",
+    "nature": "factual",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The Governor-General of India during the Revolt of 1857 was:",
+    "options": [
+      "(a) Lord Dalhousie",
+      "(b) Lord Canning",
+      "(c) Lord Lytton",
+      "(d) Lord Mayo"
+    ],
+    "answer": "(b)",
+    "explanation": "Lord Canning was Governor-General during 1857 and became the first Viceroy after the Crown took over in 1858.",
+    "subject": "Modern History",
+    "theme": "Revolt of 1857",
+    "micro_topic": "Colonial administration",
+    "nature": "factual",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The Brahmo Samaj, a landmark of the socio-religious reform movement, was founded by:",
+    "options": [
+      "(a) Raja Ram Mohan Roy",
+      "(b) Dayanand Saraswati",
+      "(c) Keshab Chandra Sen",
+      "(d) Ishwar Chandra Vidyasagar"
+    ],
+    "answer": "(a)",
+    "explanation": "Raja Ram Mohan Roy founded the Brahmo Samaj in 1828; Keshab Chandra Sen led a later faction.",
+    "subject": "Modern History",
+    "theme": "Socio-Religious Reforms",
+    "micro_topic": "Brahmo Samaj",
+    "nature": "factual",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which reform movement popularised the slogan 'Back to the Vedas'?",
+    "options": [
+      "(a) Brahmo Samaj",
+      "(b) Prarthana Samaj",
+      "(c) Arya Samaj",
+      "(d) Ramakrishna Mission"
+    ],
+    "answer": "(c)",
+    "explanation": "Dayanand Saraswati's Arya Samaj (1875) called for a return to the authority of the Vedas.",
+    "subject": "Modern History",
+    "theme": "Socio-Religious Reforms",
+    "micro_topic": "Arya Samaj",
+    "nature": "factual",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The first session of the Indian National Congress (1885) was presided over by:",
+    "options": [
+      "(a) A.O. Hume",
+      "(b) W.C. Bonnerjee",
+      "(c) Dadabhai Naoroji",
+      "(d) Badruddin Tyabji"
+    ],
+    "answer": "(b)",
+    "explanation": "W.C. Bonnerjee presided over the first INC session at Bombay in 1885; A.O. Hume was the founder-organiser.",
+    "subject": "Modern History",
+    "theme": "INC Moderate Phase",
+    "micro_topic": "Foundation of Congress",
+    "nature": "factual",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The Partition of Bengal that triggered the Swadeshi Movement was implemented in 1905 by:",
+    "options": [
+      "(a) Lord Curzon",
+      "(b) Lord Minto",
+      "(c) Lord Hardinge",
+      "(d) Lord Ripon"
+    ],
+    "answer": "(a)",
+    "explanation": "Lord Curzon carried out the Partition of Bengal in 1905, sparking the Swadeshi and Boycott movements.",
+    "subject": "Modern History",
+    "theme": "Militant Nationalism 1905-09",
+    "micro_topic": "Partition of Bengal",
+    "nature": "factual",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The 1907 Surat Split divided the Indian National Congress into:",
+    "options": [
+      "(a) Swarajists and No-changers",
+      "(b) Moderates and Extremists",
+      "(c) Liberals and Nationalists",
+      "(d) Congress and Muslim League"
+    ],
+    "answer": "(b)",
+    "explanation": "At Surat (1907) the Congress split between Moderates (led by Gokhale) and Extremists (led by Tilak).",
+    "subject": "Modern History",
+    "theme": "Militant Nationalism 1905-09",
+    "micro_topic": "Surat Split",
+    "nature": "conceptual",
+    "difficulty": "medium"
+  },
+  {
+    "question": "The Alipore Bomb Case (1908) was primarily associated with which revolutionaries?",
+    "options": [
+      "(a) Bhagat Singh and Sukhdev",
+      "(b) Aurobindo Ghosh and Barindra Kumar Ghosh",
+      "(c) Chandrasekhar Azad and Ashfaqulla Khan",
+      "(d) Ras Behari Bose and Sachindra Nath Sanyal"
+    ],
+    "answer": "(b)",
+    "explanation": "The Alipore (Manicktolla) Bomb Case followed the Muzaffarpur action; Aurobindo and Barindra Ghosh were key accused.",
+    "subject": "Modern History",
+    "theme": "Revolutionary Activities",
+    "micro_topic": "Early revolutionary phase",
+    "nature": "factual",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Provisions relating to citizenship (Articles 5-11) are contained in which Part of the Constitution?",
+    "options": [
+      "(a) Part I",
+      "(b) Part II",
+      "(c) Part III",
+      "(d) Part IV"
+    ],
+    "answer": "(b)",
+    "explanation": "Citizenship is covered in Part II (Articles 5-11); Part III is Fundamental Rights, Part IV is DPSP.",
+    "subject": "Polity & Governance",
+    "theme": "Citizenship",
+    "micro_topic": "Constitutional provisions",
+    "nature": "factual",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The Right to Constitutional Remedies, called the 'heart and soul' of the Constitution by Ambedkar, is guaranteed under:",
+    "options": [
+      "(a) Article 19",
+      "(b) Article 21",
+      "(c) Article 32",
+      "(d) Article 14"
+    ],
+    "answer": "(c)",
+    "explanation": "Article 32 gives the right to move the Supreme Court for enforcement of Fundamental Rights.",
+    "subject": "Polity & Governance",
+    "theme": "Fundamental Rights",
+    "micro_topic": "Right to Constitutional Remedies",
+    "nature": "factual",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The Uniform Civil Code is referred to in which Article of the Directive Principles?",
+    "options": [
+      "(a) Article 40",
+      "(b) Article 44",
+      "(c) Article 48",
+      "(d) Article 50"
+    ],
+    "answer": "(b)",
+    "explanation": "Article 44 directs the State to secure a Uniform Civil Code; 40 is village panchayats, 48 agriculture/animal husbandry, 50 separation of judiciary from executive.",
+    "subject": "Polity & Governance",
+    "theme": "DPSP",
+    "micro_topic": "Uniform Civil Code",
+    "nature": "factual",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Fundamental Duties were added to the Constitution by the 42nd Amendment on the recommendation of the:",
+    "options": [
+      "(a) Sarkaria Commission",
+      "(b) Swaran Singh Committee",
+      "(c) Balwant Rai Mehta Committee",
+      "(d) Ashok Mehta Committee"
+    ],
+    "answer": "(b)",
+    "explanation": "The Swaran Singh Committee recommended Fundamental Duties; ten were added as Part IV-A (Article 51A) in 1976.",
+    "subject": "Polity & Governance",
+    "theme": "Fundamental Duties",
+    "micro_topic": "Origin of Part IV-A",
+    "nature": "factual",
+    "difficulty": "medium"
+  },
+  {
+    "question": "The doctrine of the 'Basic Structure' of the Constitution was propounded by the Supreme Court in:",
+    "options": [
+      "(a) Golaknath case",
+      "(b) Kesavananda Bharati case",
+      "(c) Minerva Mills case",
+      "(d) Maneka Gandhi case"
+    ],
+    "answer": "(b)",
+    "explanation": "Kesavananda Bharati v. State of Kerala (1973) held that Parliament cannot amend the basic structure of the Constitution.",
+    "subject": "Polity & Governance",
+    "theme": "Basic Structure",
+    "micro_topic": "Landmark case",
+    "nature": "factual",
+    "difficulty": "medium"
+  },
+  {
+    "question": "A proclamation of National Emergency under Article 352 can be issued on the ground of:",
+    "options": [
+      "(a) financial instability",
+      "(b) failure of constitutional machinery in a state",
+      "(c) war, external aggression or armed rebellion",
+      "(d) breakdown of law and order"
+    ],
+    "answer": "(c)",
+    "explanation": "Article 352 permits National Emergency on grounds of war, external aggression or armed rebellion; 'armed rebellion' replaced 'internal disturbance' by the 44th Amendment.",
+    "subject": "Polity & Governance",
+    "theme": "Emergency Provisions",
+    "micro_topic": "Article 352",
+    "nature": "conceptual",
+    "difficulty": "medium"
+  },
+  {
+    "question": "The Cash Reserve Ratio (CRR) refers to the share of deposits that commercial banks must keep with:",
+    "options": [
+      "(a) SEBI",
+      "(b) the Reserve Bank of India",
+      "(c) the Ministry of Finance",
+      "(d) NABARD"
+    ],
+    "answer": "(b)",
+    "explanation": "CRR is the percentage of net demand and time liabilities that banks maintain as reserves with the RBI.",
+    "subject": "Economy",
+    "theme": "Money and Banking",
+    "micro_topic": "Monetary policy instruments",
+    "nature": "factual",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Net National Product at factor cost is more commonly known as:",
+    "options": [
+      "(a) National Income",
+      "(b) Personal Income",
+      "(c) Gross Domestic Product",
+      "(d) Disposable Income"
+    ],
+    "answer": "(a)",
+    "explanation": "NNP at factor cost = National Income (NNP at market prices minus net indirect taxes).",
+    "subject": "Economy",
+    "theme": "National Income Accounting",
+    "micro_topic": "Macro aggregates",
+    "nature": "conceptual",
+    "difficulty": "medium"
+  },
+  {
+    "question": "The Goods and Services Tax (GST) is best described as a:",
+    "options": [
+      "(a) direct tax on income",
+      "(b) destination-based indirect tax on consumption",
+      "(c) tax on accumulated wealth",
+      "(d) tax levied only on imports"
+    ],
+    "answer": "(b)",
+    "explanation": "GST is a destination-based, multi-stage indirect tax on the supply of goods and services with input-tax credit.",
+    "subject": "Economy",
+    "theme": "Budgeting, Tax and GST",
+    "micro_topic": "Indirect taxation",
+    "nature": "conceptual",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which RBI instrument is used to inject liquidity into the banking system for a short term against government securities?",
+    "options": [
+      "(a) Reverse Repo",
+      "(b) Repo",
+      "(c) Statutory Liquidity Ratio",
+      "(d) Cash Reserve Ratio"
+    ],
+    "answer": "(b)",
+    "explanation": "Under the repo, RBI lends to banks against securities, injecting liquidity; reverse repo absorbs liquidity.",
+    "subject": "Economy",
+    "theme": "Money and Banking",
+    "micro_topic": "Liquidity management",
+    "nature": "conceptual",
+    "difficulty": "medium"
+  },
+  {
+    "question": "The in-situ (in place) breakdown and decay of rocks without their removal is called:",
+    "options": [
+      "(a) erosion",
+      "(b) weathering",
+      "(c) mass wasting",
+      "(d) deposition"
+    ],
+    "answer": "(b)",
+    "explanation": "Weathering is the disintegration/decomposition of rocks in place; erosion involves transport of the material.",
+    "subject": "Geography",
+    "theme": "Geomorphology",
+    "micro_topic": "Weathering",
+    "nature": "factual",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The lowermost layer of the atmosphere, in which almost all weather phenomena occur, is the:",
+    "options": [
+      "(a) stratosphere",
+      "(b) mesosphere",
+      "(c) troposphere",
+      "(d) thermosphere"
+    ],
+    "answer": "(c)",
+    "explanation": "The troposphere contains most of the atmosphere's water vapour and is where clouds, rain and weather occur.",
+    "subject": "Geography",
+    "theme": "Climatology",
+    "micro_topic": "Structure of the atmosphere",
+    "nature": "factual",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The rule that roughly only 10% of energy is transferred from one trophic level to the next is known as:",
+    "options": [
+      "(a) Gause's principle",
+      "(b) Lindeman's ten per cent law",
+      "(c) Allen's rule",
+      "(d) Liebig's law of the minimum"
+    ],
+    "answer": "(b)",
+    "explanation": "Lindeman's 10% law describes energy transfer efficiency across trophic levels in a food chain.",
+    "subject": "Environment",
+    "theme": "Ecology",
+    "micro_topic": "Energy flow",
+    "nature": "factual",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In ecology, the specific functional role and position that a species occupies in its ecosystem is called its:",
+    "options": [
+      "(a) habitat",
+      "(b) niche",
+      "(c) biome",
+      "(d) guild"
+    ],
+    "answer": "(b)",
+    "explanation": "A niche is a species' functional role (how it obtains food, interactions), whereas habitat is merely where it lives.",
+    "subject": "Environment",
+    "theme": "Ecology",
+    "micro_topic": "Niche vs habitat",
+    "nature": "conceptual",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Isotopes are atoms of the same element that have the same atomic number but differ in their:",
+    "options": [
+      "(a) number of protons",
+      "(b) number of electrons",
+      "(c) mass number",
+      "(d) chemical properties"
+    ],
+    "answer": "(c)",
+    "explanation": "Isotopes have identical protons (atomic number) but different numbers of neutrons, hence different mass numbers.",
+    "subject": "Science & Technology",
+    "theme": "Structure of the Atom",
+    "micro_topic": "Isotopes",
+    "nature": "factual",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The UNICORN project, on which India and Japan reached an agreement in principle at the 16th Annual Summit (July 2026), represents their:",
+    "options": [
+      "(a) first joint semiconductor fabrication plant",
+      "(b) first defence co-development programme (a unified radio antenna mast)",
+      "(c) high-speed rail corridor",
+      "(d) joint lunar exploration mission"
+    ],
+    "answer": "(b)",
+    "explanation": "UNICORN (Unified Complex Radio Antenna) is the first India-Japan defence co-development programme, integrating a warship's antennas into a single mast.",
+    "subject": "International Relations",
+    "theme": "India-Japan Relations",
+    "micro_topic": "16th Annual Summit 2026",
+    "nature": "factual",
+    "difficulty": "medium"
+  },
+  {
+    "question": "The Public Examinations (Prevention of Unfair Means) Amendment Bill 2026, passed by the Lok Sabha in July 2026, chiefly aims to curb:",
+    "options": [
+      "(a) tax evasion",
+      "(b) paper leaks and organised cheating in public examinations",
+      "(c) electoral malpractice",
+      "(d) online misinformation"
+    ],
+    "answer": "(b)",
+    "explanation": "The Bill strengthens the anti-paper-leak framework governing public/competitive examinations.",
+    "subject": "Polity & Governance",
+    "theme": "Governance and Legislation",
+    "micro_topic": "Exam integrity law",
+    "nature": "factual",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In July 2026, MoSPI announced replacing the Wholesale Price Index (WPI) as the GDP deflator with the:",
+    "options": [
+      "(a) Consumer Price Index",
+      "(b) Output Producer Price Index (PPI)",
+      "(c) Index of Industrial Production",
+      "(d) Gross Value Added deflator"
+    ],
+    "answer": "(b)",
+    "explanation": "MoSPI moved to the Output Producer Price Index (PPI) as the deflator, aligning national accounts with international practice.",
+    "subject": "Economy",
+    "theme": "National Income Accounting",
+    "micro_topic": "GDP deflator reform",
+    "nature": "factual",
+    "difficulty": "medium"
+  },
+  {
+    "question": "TRISHNA, a high-resolution thermal-infrared Earth-observation satellite, is being developed by ISRO in collaboration with the space agency of:",
+    "options": [
+      "(a) the United States (NASA)",
+      "(b) France (CNES)",
+      "(c) Japan (JAXA)",
+      "(d) Russia (Roscosmos)"
+    ],
+    "answer": "(b)",
+    "explanation": "TRISHNA (Thermal infraRed Imaging Satellite for High-resolution Natural resource Assessment) is a joint ISRO-CNES (France) mission for climate and resource monitoring.",
+    "subject": "Science & Technology",
+    "theme": "Space Technology",
+    "micro_topic": "ISRO-CNES cooperation",
+    "nature": "factual",
+    "difficulty": "medium"
+  },
+  {
+    "question": "India's first Drone Cooperative, launched at the National Drone Summit 2026 (New Delhi, July 2026), is aimed principally at:",
+    "options": [
+      "(a) military surveillance",
+      "(b) agriculture and rural drone services",
+      "(c) urban air-taxi operations",
+      "(d) space-debris removal"
+    ],
+    "answer": "(b)",
+    "explanation": "The drone cooperative model focuses on expanding drone use in agriculture and rural services, boosting farm-sector adoption.",
+    "subject": "Agriculture",
+    "theme": "Farm Mechanisation",
+    "micro_topic": "Drone technology in agriculture",
+    "nature": "factual",
+    "difficulty": "medium"
+  },
+  {
+    "question": "'e-Kuber 3.0', highlighted in the RBI's agenda for FY 2026-27, is a:",
+    "options": [
+      "(a) digital rupee (CBDC) retail wallet",
+      "(b) next-generation core banking system",
+      "(c) new variant of UPI",
+      "(d) foreign-exchange reserve tracker"
+    ],
+    "answer": "(b)",
+    "explanation": "e-Kuber 3.0 is the RBI's planned next-generation core banking system, part of its technology-upgrade roadmap for 2026-27.",
+    "subject": "Economy",
+    "theme": "Banking Technology",
+    "micro_topic": "RBI reforms",
+    "nature": "factual",
+    "difficulty": "medium"
+  }
+]

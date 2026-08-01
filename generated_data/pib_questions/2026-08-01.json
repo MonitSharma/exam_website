@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the 'Samudra Manthan' scheme recently approved by the Union Cabinet, consider the following statements:\n1. It is a scheme of the Ministry of Earth Sciences for deep-ocean mineral exploration.\n2. It provides for seismic data acquisition, exploratory drilling in deepwater and ultra-deepwater areas, and scientific drilling in frontier basins.\n3. It envisages the setting up of an integrated Oil and Gas Manufacturing and Services Zone.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Samudra Manthan is the National Offshore Exploration Scheme under the Ministry of Petroleum & Natural Gas (Rs 84,084 crore till 2030-31) for oil and gas, not deep-ocean minerals (that is the Deep Ocean Mission of the Ministry of Earth Sciences). Statements 2 and 3 correctly describe its coverage.",
+    "subject": "Economy",
+    "theme": "Infrastructure and Energy",
+    "micro_topic": "Samudra Manthan National Offshore Exploration Scheme",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements regarding the Pradhan Mantri Surya Sarovar Yojana (PM-SSY):\n1. It supports the development of floating solar photovoltaic projects on reservoirs and industrial ponds.\n2. Every project under the scheme must have a minimum of two hours of co-located energy storage.\n3. Central Financial Assistance is disbursed upfront at the time of project sanction.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "PM-SSY (Rs 5,070 crore, 2026-27 to 2030-31) targets 5,000 MW of floating solar PV with a minimum two hours of storage per project, aggregating to at least 10,000 MWh. However, the Central Financial Assistance of Rs 1 crore per MW is released only after successful commissioning, not upfront; only feasibility-study support of up to Rs 50 lakh per project is available at the preparatory stage.",
+    "subject": "Environment",
+    "theme": "Renewable Energy",
+    "micro_topic": "Pradhan Mantri Surya Sarovar Yojana - floating solar",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Ministry of Tribal Affairs recently signed a three-year MoU with CSIR-NBRI. In this context, which of the following is/are stipulated under the agreement?\n1. Prior Informed Consent of the concerned Gram Sabhas is required for field surveys and ethnobotanical assessments.\n2. Intellectual property generated will be jointly owned and benefits shared equitably with contributing tribal communities.\n3. The agreement focuses on conservation of Rare, Endangered and Threatened medicinal plant species through tissue culture and seed banks.\nSelect the correct answer using the code given below:",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. The MoTA-CSIR-NBRI MoU mandates Prior Informed Consent from Gram Sabhas in line with the Biological Diversity Act, 2002; provides for joint IP ownership with equitable benefit-sharing routed through National/State Biodiversity Funds and MoTA welfare schemes; and targets RET medicinal plant conservation via tissue culture facilities and specialised seed banks, with capacity building of tribal youth.",
+    "subject": "Environment",
+    "theme": "Biodiversity and Traditional Knowledge",
+    "micro_topic": "MoTA-CSIR-NBRI MoU on tribal bioresources and RET medicinal plants",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]

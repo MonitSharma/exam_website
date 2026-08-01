@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to the Navigation with Indian Constellation (NavIC), recently in the news, consider the following statements:\n1. It was designed as a constellation of seven satellites, of which three are placed in geostationary orbit and four in inclined geosynchronous orbit.\n2. Its Standard Positioning Service signals are interoperable with GPS, GLONASS, Galileo and BeiDou.\n3. It has lost the ability to provide standalone navigation because the number of operational satellites has fallen below four.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. NavIC (operational name of IRNSS) was designed as 3 geostationary + 4 inclined geosynchronous satellites; its SPS signals are interoperable with the four global GNSS; and after the failure of the last atomic clock on IRNSS-1F in March 2026 only three satellites remain operational, below the four-satellite minimum needed for independent position computation.",
+    "subject": "Science & Technology",
+    "theme": "Indian Space Programme",
+    "micro_topic": "NavIC / IRNSS satellite navigation",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The 'SHANTI' framework, recently proposed by India, is best described as:",
+    "options": [
+      "(a) A domestic mission of the Ministry of Earth Sciences for tsunami and cyclone early warning in the Bay of Bengal",
+      "(b) A norms-based framework for the governance of shared maritime spaces, proposed alongside India's candidature for a UN Security Council non-permanent seat for 2028-29",
+      "(c) A BIMSTEC-funded programme to finance port infrastructure in Bangladesh, Sri Lanka and Myanmar",
+      "(d) A joint India-ASEAN naval exercise conducted annually in the Andaman Sea"
+    ],
+    "answer": "(b)",
+    "explanation": "SHANTI stands for Securing Holistic Advancement through Norms, Trust and Integrity. It is a norms-based maritime governance framework proposed by India along with its candidature for a UNSC non-permanent seat for the 2028-29 term, building on SAGAR (2015) and MAHASAGAR (2025), with the Bay of Bengal as the pilot region.",
+    "subject": "International Relations",
+    "theme": "India's Maritime Strategy",
+    "micro_topic": "SAGAR-MAHASAGAR-SHANTI and the Indo-Pacific",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the Supreme Court's 2026 verdict on ex post facto environmental clearances, consider the following statements:\n1. The Court quashed the Centre's 2021 Office Memorandum that permitted retrospective environmental clearances.\n2. The Court held that any future scheme for retrospective regularisation must be introduced through a statutory notification under the Environment (Protection) Act, 1986, rather than by an administrative order.\n3. The Court declared all environmental clearances previously granted under the 2017 Notification and the 2021 Office Memorandum to be void with immediate effect.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statements 1 and 2 are correct: the 2021 Office Memorandum was quashed and any future amnesty must come via a statutory notification under Section 3 of the Environment (Protection) Act, 1986. Statement 3 is wrong because the Court expressly saved clearances already granted under the 2017 Notification and the 2021 OM, which remain valid unless individually challenged.",
+    "subject": "Environment",
+    "theme": "Environmental Governance",
+    "micro_topic": "Ex post facto environmental clearance and EIA Notification, 2006",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Consider the following statements regarding the 'Samudra Manthan' scheme approved by the Union Cabinet in July 2026:\n1. It is a Centrally Sponsored Scheme implemented on a 60:40 Centre-State funding pattern.\n2. It is a scheme of the Ministry of Petroleum and Natural Gas, with an outlay of about Rs 84,084 crore up to FY 2030-31.\n3. It aims to catalyse reserve accretion of over 600 Million Metric Tonnes of Oil Equivalent.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statement 1 is wrong: Samudra Manthan is a Central Sector Scheme, fully funded by the Centre, not a Centrally Sponsored Scheme. Statements 2 and 3 are correct: it is a Ministry of Petroleum and Natural Gas scheme with an outlay of Rs 84,084 crore up to FY 2030-31, targeting reserve accretion of over 600 MMTOE through deepwater and ultra-deepwater exploration.",
+    "subject": "Economy",
+    "theme": "Energy Security",
+    "micro_topic": "Samudra Manthan National Offshore Exploration Scheme",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to Convention No. 193 recently adopted by the International Labour Conference, consider the following statements:\n1. It is the first legally binding international labour standard dedicated specifically to the platform economy.\n2. It applies only to those platform workers who are in a recognised employment relationship with a digital labour platform.\n3. India voted against the adoption of the Convention.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1 and 3 only"
+    ],
+    "answer": "(a)",
+    "explanation": "Only statement 1 is correct. ILO Convention No. 193, 'Decent Work in the Platform Economy', is the first binding international standard for the platform economy. It applies to platform workers whether or not they are in an employment relationship, including the self-employed, and covers both location-based and online platform work. India abstained (36 abstentions) rather than voting against (8 votes against, 406 in favour).",
+    "subject": "Society",
+    "theme": "Labour and Social Security",
+    "micro_topic": "ILO Convention No. 193 and the gig economy",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to environmental clearance in India, consider the following statements:\n1. The Environmental Impact Assessment Notification, 2006 was issued under the Environment (Protection) Act, 1986.\n2. The Environment (Protection) Act, 1986 was enacted by Parliament by invoking Article 253 of the Constitution to implement decisions taken at an international conference.\n3. Appeals against the grant of environmental clearance lie before the National Green Tribunal.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. The EIA Notification, 2006 is subordinate legislation framed under Section 3 of the Environment (Protection) Act, 1986. The EP Act was enacted using Article 253 (legislation to give effect to international agreements) to implement decisions of the 1972 Stockholm Conference on the Human Environment. Appeals against the grant of environmental clearance lie to the National Green Tribunal under the NGT Act, 2010.",
+    "subject": "Environment",
+    "theme": "Environmental Legislation",
+    "micro_topic": "Environment (Protection) Act, 1986 and EIA Notification, 2006",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements about satellite orbits and navigation systems:\n1. A geostationary orbit is a special case of a geosynchronous orbit in which the orbital plane coincides with the equatorial plane.\n2. A satellite navigation receiver requires signals from a minimum of four satellites to determine its position, because it must solve for its three position coordinates as well as its own clock error.\n3. QZSS of Japan, like NavIC of India, is a regional rather than a global navigation satellite system.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. A geostationary orbit is the zero-inclination, equatorial special case of a geosynchronous orbit, so the satellite appears fixed over a point on the equator. A receiver has four unknowns (x, y, z and its own clock bias) and therefore needs four independent ranging measurements. Japan's QZSS and India's NavIC are regional systems, unlike the global GPS, GLONASS, Galileo and BeiDou.",
+    "subject": "Science & Technology",
+    "theme": "Space Technology",
+    "micro_topic": "Satellite orbits and GNSS fundamentals",
+    "nature": "Conceptual",
+    "difficulty": "Hard"
+  }
+]
