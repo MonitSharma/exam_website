@@ -62,6 +62,11 @@ function isSupplementaryFile(absPath) {
   return /_chatgpt(?=\.[^.]+$)/.test(path.basename(absPath));
 }
 
+function supplementaryIndex(absPath) {
+  const match = path.basename(absPath).match(/_\d{4}-\d{2}-\d{2}-(\d+)_chatgpt(?=\.[^.]+$)/);
+  return match ? Number(match[1]) : null;
+}
+
 function variantMeta(absPath, kind = "question") {
   if (!isSupplementaryFile(absPath)) return {};
   return {
@@ -72,17 +77,22 @@ function variantMeta(absPath, kind = "question") {
 }
 
 function questionId(id, absPath) {
-  return isSupplementaryFile(absPath) ? `${id}_extra` : id;
+  if (!isSupplementaryFile(absPath)) return id;
+  const index = supplementaryIndex(absPath);
+  return index ? `${id}_extra_${index}` : `${id}_extra`;
 }
 
 function variantFileName(isoDate, absPath) {
-  return isSupplementaryFile(absPath) ? `${isoDate}_chatgpt.json` : `${isoDate}.json`;
+  if (!isSupplementaryFile(absPath)) return `${isoDate}.json`;
+  const index = supplementaryIndex(absPath);
+  return index ? `${isoDate}-${index}_chatgpt.json` : `${isoDate}_chatgpt.json`;
 }
 
 function questionLabel(sourceType, isoDate, absPath) {
   if (!isSupplementaryFile(absPath)) return {};
   const dateLabel = formatDate(isoDate);
   const shortDate = formatDate(isoDate, { day: "2-digit", month: "short" });
+  const index = supplementaryIndex(absPath);
   const prefix = {
     daily: "Daily Practice Add-on",
     rc: "RC Practice Add-on",
@@ -93,14 +103,16 @@ function questionLabel(sourceType, isoDate, absPath) {
     csat: "CSAT Practice Add-on",
   }[sourceType] || "Practice Add-on";
   return {
-    label: `${prefix} - ${dateLabel}`,
-    shortLabel: `Extra ${shortDate}`,
+    label: `${prefix}${index ? ` ${index}` : ""} - ${dateLabel}`,
+    shortLabel: `Extra${index ? ` ${index}` : ""} ${shortDate}`,
     category: "Extra Practice",
   };
 }
 
 function noteTitle(title, absPath) {
-  return isSupplementaryFile(absPath) ? `${title} Companion` : title;
+  if (!isSupplementaryFile(absPath)) return title;
+  const index = supplementaryIndex(absPath);
+  return `${title} Companion${index ? ` ${index}` : ""}`;
 }
 
 function formatDate(isoDate, options = { day: "2-digit", month: "short", year: "numeric" }) {
@@ -555,7 +567,7 @@ function addRawSectionalQuestionSets(root, byId) {
   for (const absPath of listTopLevelFiles(dir).filter((item) => item.endsWith(".json"))) {
     const isoDate = normalizeIsoDate(path.basename(absPath));
     if (!isoDate) continue;
-    const topic = path.basename(absPath, ".json").replace(/_\d{4}-\d{2}-\d{2}(?:_chatgpt)?$/, "");
+    const topic = path.basename(absPath, ".json").replace(/_\d{4}-\d{2}-\d{2}(?:-\d+)?(?:_chatgpt)?$/, "");
     const topicLabel = titleizeSlug(topic);
     const dateLabel = formatDate(isoDate);
     const shortDate = formatDate(isoDate, { day: "2-digit", month: "short" });
@@ -865,9 +877,9 @@ function buildNoteDocuments(root = DEFAULT_ROOT) {
   }
 
   const sectionalDir = path.join(root, "weekly", "Sectional");
-  for (const absPath of listTopLevelFiles(sectionalDir).filter((item) => /^Sectional_.+_\d{4}-\d{2}-\d{2}(?:_chatgpt)?\.md$/.test(path.basename(item)))) {
+  for (const absPath of listTopLevelFiles(sectionalDir).filter((item) => /^Sectional_.+_\d{4}-\d{2}-\d{2}(?:-\d+)?(?:_chatgpt)?\.md$/.test(path.basename(item)))) {
     const isoDate = normalizeIsoDate(absPath);
-    const topic = path.basename(absPath).replace(/^Sectional_/, "").replace(/_\d{4}-\d{2}-\d{2}(?:_chatgpt)?\.md$/, "");
+    const topic = path.basename(absPath).replace(/^Sectional_/, "").replace(/_\d{4}-\d{2}-\d{2}(?:-\d+)?(?:_chatgpt)?\.md$/, "");
     const topicLabel = titleizeSlug(topic);
     docs.push(note(root, absPath, "sectional", noteTitleFromHeading(absPath, `${topicLabel} Sectional Test`), `${topicLabel} - ${formatDate(isoDate, { day: "2-digit", month: "short" })}`, isoDate));
   }

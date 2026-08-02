@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the Access and Benefit Sharing (ABS) mechanism recently in the news, consider the following statements:\n1. The National Biodiversity Authority is a statutory body established under the Biological Diversity Act, 2002.\n2. Access and Benefit Sharing is one of the three objectives of the Convention on Biological Diversity.\n3. Benefit-sharing amounts collected by the National Biodiversity Authority are credited exclusively to the Consolidated Fund of India and cannot be passed on to State Biodiversity Boards.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "The NBA is a statutory body under the Biological Diversity Act, 2002 (headquartered at Chennai), and ABS is the third objective of the CBD along with conservation and sustainable use. Statement 3 is incorrect: on 2 August 2026 the NBA disbursed Rs 8.22 crore of ABS dues, of which Rs 5.75 crore went to 33 State Biodiversity Boards and UT Biodiversity Councils apportioned by rice-growing area.",
+    "subject": "Environment",
+    "theme": "Biodiversity Conservation",
+    "micro_topic": "Biological Diversity Act 2002 and Access & Benefit Sharing",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The 'Nasha Mukt Yuva for Viksit Bharat Sankalp Abhiyan', launched in August 2026, is best described as:",
+    "options": [
+      "(a) A statutory regulatory framework replacing the Narcotic Drugs and Psychotropic Substances Act, 1985",
+      "(b) A 100-week nationwide public-participation campaign against substance abuse, with weekly activities held on Sundays",
+      "(c) A centrally sponsored scheme providing financial assistance to State-run de-addiction centres",
+      "(d) An international cooperation framework for interdiction of narcotics trafficking in the Indian Ocean Region"
+    ],
+    "answer": "(b)",
+    "explanation": "Launched by the Prime Minister on 2 August 2026, it is a 100-week Jan Bhagidari campaign with activities every Sunday across roughly 10,000 locations, targeting over one crore youth. It is a campaign, not a statute or a funding scheme; the NDPS Act, 1985 remains in force.",
+    "subject": "Polity & Governance",
+    "theme": "Government Schemes and Social Justice",
+    "micro_topic": "Drug demand reduction and Nasha Mukt Bharat Abhiyaan",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Consider the following statements regarding India's first Telecom Manufacturing Zone (TMZ):\n1. It is being set up at Gwalior, Madhya Pradesh, under a MoU between the Department of Telecommunications and the State Government.\n2. The Centre has approved 100 per cent financial assistance for Phase-I infrastructure development.\n3. It is envisaged as a plug-and-play industrial cluster covering telecom and electronics manufacturing, R&D and allied activities.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. The DoT and the Government of Madhya Pradesh signed an MoU on 30 July 2026 for Phase-I of the 350-acre Gwalior TMZ, with the Centre approving 100 per cent financial assistance of Rs 500 crore for Phase-I infrastructure. It is designed as a plug-and-play cluster for telecom and electronics manufacturing, R&D, innovation and allied activities.",
+    "subject": "Economy",
+    "theme": "Industrial Policy and Manufacturing",
+    "micro_topic": "Telecom manufacturing and domestic supply chains",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]

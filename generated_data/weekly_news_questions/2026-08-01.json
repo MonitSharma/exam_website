@@ -1,0 +1,188 @@
+[
+  {
+    "id": "weekly_news_2026_08_01_1",
+    "question_number": 1,
+    "question": "Wular Lake, near the flood mark this July, is India's largest freshwater lake and is fed by which river?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Chenab"
+      },
+      {
+        "key": "b",
+        "text": "Jhelum"
+      },
+      {
+        "key": "c",
+        "text": "Ravi"
+      },
+      {
+        "key": "d",
+        "text": "Indus"
+      }
+    ],
+    "answer": "b",
+    "explanation": "(Jhelum; Wular lies in the Jhelum valley of north Kashmir)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_08_01_2",
+    "question_number": 2,
+    "question": "Sarnath, newly inscribed as India's 45th UNESCO World Heritage Site, lies just north of which city?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Gaya"
+      },
+      {
+        "key": "b",
+        "text": "Prayagraj"
+      },
+      {
+        "key": "c",
+        "text": "Varanasi"
+      },
+      {
+        "key": "d",
+        "text": "Kushinagar"
+      }
+    ],
+    "answer": "c",
+    "explanation": "(Varanasi; Sarnath is just to its north, near the Ganga–Varuna)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_08_01_3",
+    "question_number": 3,
+    "question": "The Kumamoto earthquake of July 28 struck which of Japan's four main islands, home to the vast Mount Aso caldera?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Honshu"
+      },
+      {
+        "key": "b",
+        "text": "Hokkaido"
+      },
+      {
+        "key": "c",
+        "text": "Shikoku"
+      },
+      {
+        "key": "d",
+        "text": "Kyushu"
+      }
+    ],
+    "answer": "d",
+    "explanation": "(Kyushu, the southernmost main island; Mount Aso is in Kumamoto)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_08_01_4",
+    "question_number": 4,
+    "question": "The July 17 Mw 7.3 quake off Chiapas occurred where which oceanic plate subducts beneath the North American plate?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Nazca"
+      },
+      {
+        "key": "b",
+        "text": "Cocos"
+      },
+      {
+        "key": "c",
+        "text": "Juan de Fuca"
+      },
+      {
+        "key": "d",
+        "text": "Caribbean"
+      }
+    ],
+    "answer": "b",
+    "explanation": "(Cocos plate, subducting off the Gulf of Tehuantepec)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_08_01_5",
+    "question_number": 5,
+    "question": "Amrabad Tiger Reserve, which reported a 16.6% rise in tigers, lies on which hill range?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Satpura"
+      },
+      {
+        "key": "b",
+        "text": "Aravalli"
+      },
+      {
+        "key": "c",
+        "text": "Nallamala"
+      },
+      {
+        "key": "d",
+        "text": "Nilgiri"
+      }
+    ],
+    "answer": "c",
+    "explanation": "(Nallamala Hills, Telangana, south of the Krishna)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_08_01_6",
+    "question_number": 6,
+    "question": "The Loyalty Islands, hit by a July 13 earthquake, are part of which territory?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Fiji"
+      },
+      {
+        "key": "b",
+        "text": "Vanuatu"
+      },
+      {
+        "key": "c",
+        "text": "New Caledonia"
+      },
+      {
+        "key": "d",
+        "text": "Solomon Islands"
+      }
+    ],
+    "answer": "c",
+    "explanation": "(New Caledonia, a French territory in the SW Pacific)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  }
+]

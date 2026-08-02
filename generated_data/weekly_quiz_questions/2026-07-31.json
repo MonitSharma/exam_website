@@ -1,0 +1,664 @@
+[
+  {
+    "id": "weekly_quiz_2026_07_31_1",
+    "question_number": 1,
+    "question": "India delivered its first indigenous Expendable Turbojet Engine (ETJE) to DRDO this week. Which of the following is correct?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "It is in the 350-kg thrust class and was designed by DRDO's Gas Turbine Research Establishment (GTRE)"
+      },
+      {
+        "key": "b",
+        "text": "It is a reusable aero-engine intended to replace the GE F404 on the Tejas"
+      },
+      {
+        "key": "c",
+        "text": "It was designed by ISRO's Liquid Propulsion Systems Centre"
+      },
+      {
+        "key": "d",
+        "text": "It is in the 1,000-kg thrust class and powers the LCA Mk-2"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The ETJE is in the 350-kg thrust class, designed by DRDO's GTRE (Bengaluru) and built by Azad Engineering (Hyderabad); it's an *expendable* (single-use) engine to power a medium-range anti-ship missile — India's first indigenous jet-engine win, not a reusable aero-engine.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_31_2",
+    "question_number": 2,
+    "question": "India's first geothermal wells were commissioned this week at Puga Valley. Puga Valley is located in:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Uttarakhand"
+      },
+      {
+        "key": "b",
+        "text": "Himachal Pradesh"
+      },
+      {
+        "key": "c",
+        "text": "Ladakh"
+      },
+      {
+        "key": "d",
+        "text": "Arunachal Pradesh"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Puga Valley is in Ladakh; India's first geothermal wells were commissioned there, tapping one of the country's most promising geothermal fields.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_31_3",
+    "question_number": 3,
+    "question": "The Cabinet cleared a harsher amendment to which law this week, alongside the NTA sacking 47 officials?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "The Right to Information Act"
+      },
+      {
+        "key": "b",
+        "text": "The Public Examinations (Prevention of Unfair Means) Act"
+      },
+      {
+        "key": "c",
+        "text": "The Apprentices Act"
+      },
+      {
+        "key": "d",
+        "text": "The University Grants Commission Act"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The Cabinet cleared a harsher amendment to the Public Examinations (Prevention of Unfair Means) Act; the NTA simultaneously sacked 47 officials amid the exam-integrity clean-up.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_31_4",
+    "question_number": 4,
+    "question": "India concluded the second round of FTA negotiations this week (20–23 July, New Delhi) with which country?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "United Kingdom"
+      },
+      {
+        "key": "b",
+        "text": "European Union"
+      },
+      {
+        "key": "c",
+        "text": "Israel"
+      },
+      {
+        "key": "d",
+        "text": "Australia"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The second round of India's FTA talks was with Israel (20–23 July, New Delhi).",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_31_5",
+    "question_number": 5,
+    "question": "The Chandipura virus outbreak that caused paediatric deaths across Gujarat and Rajasthan this week is primarily transmitted by:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Aedes mosquitoes"
+      },
+      {
+        "key": "b",
+        "text": "Sandflies (Phlebotomus)"
+      },
+      {
+        "key": "c",
+        "text": "Ticks"
+      },
+      {
+        "key": "d",
+        "text": "Contaminated water"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Chandipura virus (a Rhabdovirus) is spread mainly by sandflies (Phlebotomus); it causes acute encephalitis chiefly in children.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_31_6",
+    "question_number": 6,
+    "question": "The Jagannath Temple administration (Shree Jagannath Temple Administration) secured trademarks this week over which set of terms?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "'Rath Yatra', 'Puri', 'Odia'"
+      },
+      {
+        "key": "b",
+        "text": "'Jagannath Dham', 'Mahaprasad', 'Neelachakra'"
+      },
+      {
+        "key": "c",
+        "text": "'Konark', 'Sun Temple', 'Chariot'"
+      },
+      {
+        "key": "d",
+        "text": "'Nabakalebara', 'Snana Yatra', 'Bahuda'"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The Puri temple secured trademarks over 'Jagannath Dham', 'Mahaprasad' and 'Neelachakra' to protect the identity and prevent commercial misuse.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_31_7",
+    "question_number": 7,
+    "question": "DRDO flight-tested 'Kusha' this week. Kusha is India's first indigenous:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Hypersonic cruise missile"
+      },
+      {
+        "key": "b",
+        "text": "Long-range surface-to-air missile (SAM)"
+      },
+      {
+        "key": "c",
+        "text": "Anti-satellite weapon"
+      },
+      {
+        "key": "d",
+        "text": "Submarine-launched ballistic missile"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Kusha is India's first indigenous long-range surface-to-air missile (SAM), developed by DRDO for layered air defence.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_31_8",
+    "question_number": 8,
+    "question": "Sarnath was inscribed on the UNESCO World Heritage List this week as India's 45th property. Sarnath is significant primarily because:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "It is where the Buddha attained enlightenment"
+      },
+      {
+        "key": "b",
+        "text": "It is where the Buddha delivered his first sermon (Dharmachakra Pravartana)"
+      },
+      {
+        "key": "c",
+        "text": "It is where the Buddha attained parinirvana"
+      },
+      {
+        "key": "d",
+        "text": "It is the birthplace of the Buddha"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Sarnath (near Varanasi, UP) is where the Buddha delivered his first sermon — the Dharmachakra Pravartana (\"Turning of the Wheel of Dharma\"); it became India's 45th UNESCO World Heritage property. *(Bodh Gaya = enlightenment; Kushinagar = parinirvana; Lumbini = birth.)*",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_31_9",
+    "question_number": 9,
+    "question": "Under Press Note 3 (2026 Series), FDI in inventory-based e-commerce was permitted this week — but only for:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Domestic retail below a turnover cap"
+      },
+      {
+        "key": "b",
+        "text": "Exports"
+      },
+      {
+        "key": "c",
+        "text": "Food products manufactured in India"
+      },
+      {
+        "key": "d",
+        "text": "Business-to-business (B2B) trade"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Press Note 3 (2026 Series) allowed FDI in inventory-based e-commerce only for exports, keeping the domestic restriction intact.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_31_10",
+    "question_number": 10,
+    "question": "India–China border trade is set to resume from 1 August 2026 through which two passes?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Shipki La and Nathu La"
+      },
+      {
+        "key": "b",
+        "text": "Nathu La and Lipulekh"
+      },
+      {
+        "key": "c",
+        "text": "Lipulekh and Shipki La"
+      },
+      {
+        "key": "d",
+        "text": "Bum La and Nathu La"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Trade resumes via Nathu La (Sikkim) and Lipulekh (Pithoragarh, Uttarakhand) from 1 August 2026, after a ~six-year closure.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_31_11",
+    "question_number": 11,
+    "question": "According to the BIMCO–ICS Seafarer Workforce Report 2026 released this week, India became the world's:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Largest supplier of seafarers"
+      },
+      {
+        "key": "b",
+        "text": "2nd-largest supplier of seafarers"
+      },
+      {
+        "key": "c",
+        "text": "3rd-largest supplier of seafarers"
+      },
+      {
+        "key": "d",
+        "text": "5th-largest supplier of seafarers"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Per the BIMCO–ICS Seafarer Workforce Report 2026, India is now the world's 2nd-largest supplier of seafarers.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_31_12",
+    "question_number": 12,
+    "question": "The Delhi Lakshmi Yojana approved this week provides Rs 2,500 a month to eligible women, notably part-paid through:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Direct Benefit Transfer to Jan Dhan accounts only"
+      },
+      {
+        "key": "b",
+        "text": "Programmable Central Bank Digital Currency (CBDC / e-Rupee)"
+      },
+      {
+        "key": "c",
+        "text": "Physical vouchers redeemable at ration shops"
+      },
+      {
+        "key": "d",
+        "text": "UPI-linked prepaid wallets from private banks"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The Delhi Lakshmi Yojana pays Rs 2,500/month, partly disbursed in programmable CBDC (e-Rupee) — an early use of programmable digital currency for a welfare scheme.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_31_13",
+    "question_number": 13,
+    "question": "With respect to the UN Security Council, which statement is correct?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "It has 15 members, of which 5 are permanent with veto power"
+      },
+      {
+        "key": "b",
+        "text": "It has 15 members, all elected for two-year terms"
+      },
+      {
+        "key": "c",
+        "text": "The 10 non-permanent members also hold veto power"
+      },
+      {
+        "key": "d",
+        "text": "India is a permanent member"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The UNSC has 15 members; the 5 permanent members (US, UK, France, Russia, China) hold veto power, and 10 non-permanent members serve two-year terms. India is not a permanent member.",
+    "subject": "International Relations",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_31_14",
+    "question_number": 14,
+    "question": "The New Development Bank (NDB), associated with BRICS, is headquartered in:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Beijing"
+      },
+      {
+        "key": "b",
+        "text": "Shanghai"
+      },
+      {
+        "key": "c",
+        "text": "New Delhi"
+      },
+      {
+        "key": "d",
+        "text": "Moscow"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The New Development Bank is headquartered in Shanghai (first regional office in Johannesburg).",
+    "subject": "International Relations",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_31_15",
+    "question_number": 15,
+    "question": "Which of the following are members of the Quad grouping?",
+    "statements": [
+      "India  2. United States  3. Japan  4. Australia"
+    ],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "1, 2 and 3 only"
+      },
+      {
+        "key": "b",
+        "text": "1, 3 and 4 only"
+      },
+      {
+        "key": "c",
+        "text": "2, 3 and 4 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer": "d",
+    "explanation": "The Quad comprises India, USA, Japan and Australia — all four.",
+    "subject": "International Relations",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_31_16",
+    "question_number": 16,
+    "question": "The World Trade Organization (WTO):",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Was established in 1948 and is headquartered in New York"
+      },
+      {
+        "key": "b",
+        "text": "Came into being in 1995 as successor to GATT, headquartered in Geneva"
+      },
+      {
+        "key": "c",
+        "text": "Is a specialised agency of the UN headquartered in Vienna"
+      },
+      {
+        "key": "d",
+        "text": "Is headquartered in Geneva and was the predecessor of GATT"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The WTO came into being on 1 January 1995 as the successor to GATT (1947) and is headquartered in Geneva.",
+    "subject": "International Relations",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_31_17",
+    "question_number": 17,
+    "question": "Consider the Shanghai Cooperation Organisation (SCO). Which is correct?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "India became a full member in 2017; the SCO Secretariat is in Beijing"
+      },
+      {
+        "key": "b",
+        "text": "India is only an observer; the Secretariat is in Moscow"
+      },
+      {
+        "key": "c",
+        "text": "India was a founding member in 2001"
+      },
+      {
+        "key": "d",
+        "text": "The Secretariat is located in Tashkent"
+      }
+    ],
+    "answer": "a",
+    "explanation": "India became a full SCO member in 2017 (with Pakistan); the SCO Secretariat is in Beijing and its RATS (counter-terror) body is in Tashkent. The SCO was founded in 2001, but India was not a founding member.",
+    "subject": "International Relations",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_31_18",
+    "question_number": 18,
+    "question": "BIMSTEC brings together countries of South Asia and Southeast Asia around the Bay of Bengal. Its permanent Secretariat is located in:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Kathmandu"
+      },
+      {
+        "key": "b",
+        "text": "Dhaka"
+      },
+      {
+        "key": "c",
+        "text": "Colombo"
+      },
+      {
+        "key": "d",
+        "text": "Bangkok"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The BIMSTEC permanent Secretariat is in Dhaka, Bangladesh.",
+    "subject": "International Relations",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_31_19",
+    "question_number": 19,
+    "question": "Regarding the Treaty on the Non-Proliferation of Nuclear Weapons (NPT):",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "India is a signatory and recognised as a nuclear-weapon state under it"
+      },
+      {
+        "key": "b",
+        "text": "India is not a signatory; the NPT recognises only five nuclear-weapon states"
+      },
+      {
+        "key": "c",
+        "text": "It entered into force in 1996 and India ratified it in 1998"
+      },
+      {
+        "key": "d",
+        "text": "It bans all nuclear testing, including by the five recognised powers"
+      }
+    ],
+    "answer": "b",
+    "explanation": "India is not a signatory to the NPT, which recognises only five nuclear-weapon states (those that tested before 1 Jan 1967). *(The CTBT — not NPT — deals with a comprehensive test ban.)*",
+    "subject": "International Relations",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_07_31_20",
+    "question_number": 20,
+    "question": "The I2U2 grouping consists of which four countries?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "India, Indonesia, USA, UAE"
+      },
+      {
+        "key": "b",
+        "text": "India, Israel, USA, UAE"
+      },
+      {
+        "key": "c",
+        "text": "India, Iran, USA, UK"
+      },
+      {
+        "key": "d",
+        "text": "Israel, Italy, USA, UAE"
+      }
+    ],
+    "answer": "b",
+    "explanation": "I2U2 = India, Israel, USA and UAE (the \"West Asian Quad\"). R1. It reopens a formal, sanctioned trade channel after ~six years, signalling a cautious thaw in India–China ties and reviving border-village economies — now aided by the motorable road to Lipulekh (completed 2020). R2. The ETJE (350-kg-class expendable turbojet — indigenous jet propulsion for missiles/UAVs) and Kusha (India's first indigenous long-range SAM — layered air defence). --- *Scoring guide: 16–20 strong recall · 11–15 revise weak areas · ≤10 re-read this week's CA + PIB digests and your International Relations notes. Next week's static subject: Society.*",
+    "subject": "International Relations",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  }
+]
