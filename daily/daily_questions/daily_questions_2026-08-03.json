@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to the Registration of Births and Deaths (Amendment) Bill, 2026 passed by the Lok Sabha, consider the following statements: 1. A birth or death reported more than one year but within two years of its occurrence may be registered with the approval of the District Magistrate or an authorised Executive Magistrate. 2. A birth or death reported more than two years after its occurrence can be registered only on the order of a Judicial Magistrate of the First Class. 3. 'Vital statistics including registration of births and deaths' falls in the Union List of the Seventh Schedule. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "The Bill, passed by the Lok Sabha on 31 July 2026, creates a two-tier route for delayed registration: Executive Magistrate approval for delays of one to two years, and a Judicial Magistrate (First Class) order for delays beyond two years. Statement 3 is wrong - 'Vital statistics including registration of births and deaths' is Entry 30 of the Concurrent List, not the Union List.",
+    "subject": "Polity & Governance",
+    "theme": "Legislation and Centre-State legislative relations",
+    "micro_topic": "Registration of Births and Deaths (Amendment) Bill, 2026; delayed registration under Section 13, RBD Act 1969",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements about the Bharat Maritime Insurance Pool (BMIP), recently in the news: 1. It was created with a sovereign guarantee and became operational in 2026. 2. Its original mandate was limited to war-risk insurance, which has now been widened to include Protection & Indemnity cover. 3. Protection & Indemnity insurance primarily indemnifies the shipowner for physical damage to the ship's hull and machinery. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "BMIP carries a sovereign guarantee of Rs 12,980 crore (about USD 1.5 billion) and became operational on 12 May 2026; the launch of 30 July 2026 extended it from war risk into Protection & Indemnity. Statement 3 is wrong - P&I covers third-party liabilities such as crew, cargo, pollution and wreck removal, while damage to the vessel itself is covered by Hull & Machinery insurance.",
+    "subject": "Economy",
+    "theme": "Financial services and maritime infrastructure",
+    "micro_topic": "Bharat Maritime Insurance Pool; sovereign-backed Protection & Indemnity insurance, 30 July 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "'AIKosh', recently seen in the news in the context of a Ministry of Ayush agreement, is best described as:",
+    "options": [
+      "(a) A sovereign wealth fund set up to finance semiconductor fabrication units in India",
+      "(b) A national repository of datasets, models and toolkits created under the IndiaAI Mission",
+      "(c) A digital registry of registered Ayurveda, Unani and Siddha practitioners maintained by NCISM",
+      "(d) An RBI-operated platform for settlement of cross-border artificial-intelligence service exports"
+    ],
+    "answer": "(b)",
+    "explanation": "AIKosh is the IndiaAI Mission's national datasets platform under MeitY, hosting datasets, metadata, AI models, toolkits and use cases. Under the MoU of 31 July 2026, the Ministry of Ayush will onboard AIKosh with anonymised health-research artefacts and gain subsidised access to IndiaAI Compute.",
+    "subject": "Science & Technology",
+    "theme": "Artificial intelligence and digital public infrastructure",
+    "micro_topic": "Ayush-IndiaAI MoU, 31 July 2026; AIKosh and IndiaAI Compute under the IndiaAI Mission",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the Favara-UPI payment corridor recently made operational, consider the following statements: 1. Favara is the instant payment system of the Maldives, operated under the Maldives Monetary Authority. 2. In its first phase, transactions are initiated in Maldivian Rufiyaa and credited in Indian Rupees. 3. The Indian counterpart institution in the arrangement is NPCI International Payments Limited. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. Favara is the Maldives' instant payment system operated under the Maldives Monetary Authority, the country's central bank. In phase one, transfers are initiated in Maldivian Rufiyaa and credited in Indian Rupees to UPI-enabled accounts, initially through Bank of Maldives Plc and Maldives Islamic Bank Plc. NPCI International Payments Limited (NIPL), the international arm of NPCI, is the Indian counterpart.",
+    "subject": "International Relations",
+    "theme": "India and its neighbourhood; payment connectivity diplomacy",
+    "micro_topic": "Favara-UPI cross-border corridor, India-Maldives, July-August 2026; MMA and NIPL",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements regarding the Geological Survey of India (GSI): 1. It was established in 1851 and functions as an attached office of the Ministry of Mines. 2. It has its headquarters at Kolkata. 3. It is the authority that grants mining leases and composite licences for major minerals. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "GSI was established in 1851, is headquartered at Kolkata and is an attached office of the Ministry of Mines; Varsha Ashok Aglawe took charge on 31 July 2026 as its 54th and first woman Director General. Statement 3 is wrong - grant of mineral concessions rests with State Governments under the MMDR Act framework, while GSI only carries out exploration and generates baseline geoscience data.",
+    "subject": "Geography",
+    "theme": "Mineral resources and geoscientific institutions",
+    "micro_topic": "Geological Survey of India; first woman Director General, 31 July 2026; role under the National Critical Mineral Mission",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Under the Registration of Births and Deaths Act, 1969, as amended in 2023, consider the following statements: 1. The Registrar General of India, who coordinates the working of the Act, functions under the Ministry of Home Affairs. 2. The Act provides for the maintenance of a national database of registered births and deaths. 3. Registration of births and deaths under the Act is carried out by officials appointed by the State Governments. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. The Registrar General & Census Commissioner of India functions under the Ministry of Home Affairs and coordinates the Act; the 2023 amendment, in force from 1 October 2023, provided for national and State-level databases of registered births and deaths and made the birth certificate a single proof-of-date-of-birth document; and actual registration is done by Registrars appointed by State Governments - a Concurrent List division of labour.",
+    "subject": "Polity & Governance",
+    "theme": "Statutory bodies and civil registration",
+    "micro_topic": "RBD Act 1969 and the 2023 amendment; Registrar General of India; Civil Registration System",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "In the context of India's mineral administration, consider the following statements: 1. Minor minerals are regulated by rules framed by the State Governments, whereas major minerals are governed by rules framed by the Central Government. 2. The Mines and Minerals (Development and Regulation) Amendment Act, 2023 permitted the auction of exploration licences to private agencies. 3. Bentonite is officially designated as a major mineral in India. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Minor minerals are regulated through rules framed by State Governments under Section 15 of the MMDR Act, while major minerals fall under Central rules. The MMDR Amendment Act, 2023 introduced exploration licences auctionable to private agencies for deep-seated and critical minerals. Statement 3 is wrong - bentonite is a minor mineral, as tested in UPSC Prelims 2020, whereas chromite, kyanite and sillimanite are major minerals.",
+    "subject": "Geography",
+    "theme": "Mineral resources and mineral policy",
+    "micro_topic": "MMDR Act; major versus minor minerals; MMDR Amendment Act 2023 exploration licence",
+    "nature": "Conceptual",
+    "difficulty": "Hard"
+  }
+]

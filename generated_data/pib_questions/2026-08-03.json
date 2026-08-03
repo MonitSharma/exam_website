@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the recent draft notification on Vehicle-to-Vehicle (V2V) communication systems, consider the following statements:\n1. The draft notification proposes amendments to the Motor Vehicles Act, 1988.\n2. The standard AIS-230 covers factory-installed On-Board Units using Cellular Vehicle-to-Everything (C-V2X) technology.\n3. The 5.875-5.925 GHz frequency band identified for V2V has been exempted from licensing requirements by the Department of Telecommunications.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "The Ministry of Road Transport & Highways draft notification amends the Central Motor Vehicles Rules, 1989 (framed under the Motor Vehicles Act, 1988), not the Act itself, so statement 1 is incorrect. AIS-230 covers factory-installed On-Board Units using C-V2X technology, and DoT exempted the 5.875-5.925 GHz band from licensing through G.S.R. 466(E) dated 10 June 2026.",
+    "subject": "Science & Technology",
+    "theme": "Intelligent Transportation Systems and Road Safety Regulation",
+    "micro_topic": "V2V communication, AIS-230 standard, C-V2X, 5.9 GHz ITS band",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Pradhan Mantri Viksit Bharat Rojgar Yojana (PM-VBRY), consider the following statements:\n1. It is being implemented over a two-year period from 1 August 2025 to 31 July 2027 with an outlay of Rs 99,446 crore.\n2. Under Part A, the incentive to first-time employees is paid in a single instalment at the time of joining.\n3. Under Part B, employers receive up to Rs 3,000 per month for two years for every eligible additional employee retained for at least six months.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "Statement 2 is incorrect: the Part A incentive, equal to one month's EPF wage and capped at Rs 15,000, is paid in two instalments - after six months of service and after twelve months of continuous service plus completion of a financial literacy programme. The scheme runs from 1 August 2025 to 31 July 2027 with an outlay of Rs 99,446 crore, and Part B gives employers up to Rs 3,000 per month for two years (extended to the third and fourth years for manufacturing).",
+    "subject": "Economy",
+    "theme": "Employment Generation and Workforce Formalisation",
+    "micro_topic": "PM-VBRY, EPFO-linked employment incentives, social security coverage",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Which one of the following statements about the Deen Dayal Upadhyaya Grameen Kaushalya Yojana (DDU-GKY) is correct?",
+    "options": [
+      "(a) It is a self-employment credit-linked subsidy scheme of the Ministry of Skill Development and Entrepreneurship.",
+      "(b) It is the placement-linked skill development component of the Deendayal Antyodaya Yojana - National Rural Livelihoods Mission under the Ministry of Rural Development.",
+      "(c) It is an urban livelihoods and street-vendor support programme under the Ministry of Housing and Urban Affairs.",
+      "(d) It is a residential training programme exclusively for tribal youth under the Ministry of Tribal Affairs."
+    ],
+    "answer": "(b)",
+    "explanation": "DDU-GKY is the flagship placement-linked skill development programme under DAY-NRLM of the Ministry of Rural Development, delivered through State Rural Livelihood Missions and Project Implementing Agencies; six of its beneficiaries have been invited as Special Guests for the 80th Independence Day celebrations.",
+    "subject": "Polity & Governance",
+    "theme": "Welfare Schemes and Rural Skilling",
+    "micro_topic": "DDU-GKY, DAY-NRLM, placement-linked skill development",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]
