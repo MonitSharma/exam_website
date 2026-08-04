@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the PM Surya Ghar: Muft Bijli Yojana, consider the following statements:\n1. It is implemented under the Ministry of New and Renewable Energy.\n2. The scheme has a total outlay of about Rs.75,021 crore.\n3. Cumulative rooftop solar capacity commissioned under the scheme has crossed 14 GW.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "PM Surya Ghar is MNRE's flagship rooftop solar scheme with an outlay of Rs.75,021 crore; as on 4 August 2026 it had benefitted 50.06 lakh households and commissioned 14.8 GW of rooftop solar capacity.",
+    "subject": "Economy",
+    "theme": "Energy and Infrastructure",
+    "micro_topic": "PM Surya Ghar: Muft Bijli Yojana",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Clouded Leopard Conservation Action Plan released in 2026, consider the following statements:\n1. It was prepared under a Government of India-GEF-UNDP initiative.\n2. The clouded leopard has been included under the Species Recovery Programme of the Integrated Development of Wildlife Habitats (IDWH) scheme.\n3. The Plan identifies 14 priority conservation areas located in the Western Ghats.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 3 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statements 1 and 2 are correct. Statement 3 is wrong: the 14 priority conservation areas are in North-East India, which is the clouded leopard's Indian range, not the Western Ghats. The Plan was released during the 91st meeting of the Standing Committee of the National Board for Wildlife at Coimbatore.",
+    "subject": "Environment",
+    "theme": "Biodiversity and Conservation",
+    "micro_topic": "Clouded Leopard Conservation Action Plan",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements:\n1. BharatPol, launched in January 2025, links over 1,400 unit offices of central and state law-enforcement agencies with INTERPOL.\n2. The second meeting of the BRICS Anti-Corruption Working Group was held in Hyderabad in August 2026.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 only",
+      "(c) Both 1 and 2",
+      "(d) Neither 1 nor 2"
+    ],
+    "answer": "(c)",
+    "explanation": "BharatPol was launched by the Home Minister in January 2025, connecting CBI, state and district police headquarters (1,400+ unit offices) to INTERPOL and cutting information-sharing time to as little as 3-10 days. The 2nd BRICS Anti-Corruption Working Group meeting, along with the 2nd meeting of the BRICS Expert Network on Asset Recovery, was held in Hyderabad on 4-5 August 2026.",
+    "subject": "Internal Security",
+    "theme": "Security Institutions and International Cooperation",
+    "micro_topic": "BharatPol and BRICS Anti-Corruption Working Group",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]
