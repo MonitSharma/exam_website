@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the strength of the Supreme Court of India, consider the following statements:\n1. The number of judges of the Supreme Court, other than the Chief Justice of India, is fixed by the Constitution and can be altered only by a constitutional amendment.\n2. The Supreme Court (Number of Judges) Amendment Bill, 2026 raises the total sanctioned strength of the Court, including the Chief Justice of India, to 38.\n3. The increase in strength given effect by the 2026 Bill had earlier been brought into force through an Ordinance.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Article 124(1) provides for the CJI and 'such number of other Judges as Parliament may by law prescribe', so the strength is fixed by ordinary law (the Supreme Court (Number of Judges) Act, 1956), not by the Constitution. The 2026 Amendment Bill raises judges other than the CJI from 33 to 37 (total 38) and gives statutory backing to the Ordinance of 16 May 2026, with retrospective effect from that date.",
+    "subject": "Polity & Governance",
+    "theme": "Judiciary",
+    "micro_topic": "Supreme Court (Number of Judges) Amendment Bill, 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements regarding the PM E-DRIVE Scheme:\n1. It is implemented by the Ministry of Heavy Industries.\n2. It includes a dedicated financial component for setting up Electric Vehicle Public Charging Stations.\n3. The PM-eBus Sewa Payment Security Mechanism supports State Transport Undertakings in procuring electric buses.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "PM E-DRIVE is a Ministry of Heavy Industries scheme with a Rs.10,900 crore outlay, including Rs.2,000 crore earmarked for EV Public Charging Stations (6,562 chargers sanctioned, none commissioned as per the 4 August 2026 Lok Sabha reply). The PM-eBus Sewa Payment Security Mechanism provides Rs.4,391 crore as a payment backstop for STUs procuring 14,028 e-buses; 523 had been deployed as on 10 July 2026.",
+    "subject": "Economy",
+    "theme": "Energy and Infrastructure",
+    "micro_topic": "PM E-DRIVE and PM-eBus Sewa",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to Geographical Indications (GIs) in India, consider the following statements:\n1. GIs are registered and protected under a law enacted in 1999 and administered under the Department for Promotion of Industry and Internal Trade.\n2. A Geographical Indication is typically held by an individual proprietor rather than by an association of producers.\n3. The GI & Beyond 2.0 Summit, 2026 was organised by the Ministry of Textiles to promote GI-tagged handloom and handicraft products.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 3 only",
+      "(b) 2 only",
+      "(c) 1 and 2 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "A GI is a collective or community right - the registered proprietor is usually an association of producers, a cooperative or a state agency, not an individual, so statement 2 is incorrect. GIs are governed by the Geographical Indications of Goods (Registration and Protection) Act, 1999, administered through the GI Registry at Chennai under DPIIT. The GI & Beyond 2.0 Summit was held on 5 August 2026 in New Delhi by the Office of the Development Commissioner (Handlooms), Ministry of Textiles, with the Handloom Export Promotion Council.",
+    "subject": "Economy",
+    "theme": "Intellectual Property Rights",
+    "micro_topic": "Geographical Indications and GI & Beyond 2.0 Summit",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]
