@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the GOBARdhan scheme approved by the Union Cabinet in August 2026, consider the following statements:\n1. It is a Central Sector Scheme administered by the Ministry of Petroleum and Natural Gas.\n2. It provides for an administered price for Compressed Biogas along with a minimum ten-year pricing framework.\n3. It mandates City Gas Distribution entities to meet a notified CBG blending obligation in CNG and PNG segments.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "GOBARdhan, the National Circular Bioenergy Scheme, has a Rs 23,731 crore outlay for FY 2026-27 to FY 2035-36 and is administered by the Ministry of Petroleum and Natural Gas. It fixes an administered CBG price of Rs 2,110 per MMBTU with a minimum 10-year pricing framework, gives capital assistance of up to Rs 2 crore per TPD of installed capacity, and obliges CGD entities to blend CBG at 3% in FY 2026-27, 4% in FY 2027-28 and 5% from FY 2028-29 in CNG (transport) and PNG (domestic) segments.",
+    "subject": "Environment",
+    "theme": "Renewable Energy and Circular Economy",
+    "micro_topic": "GOBARdhan National Circular Bioenergy Scheme",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements regarding the recent Telomere-to-Telomere (T2T) reference genome developed in India:\n1. It was developed for the pigeonpea variety 'Asha' by an institute under the Indian Council of Agricultural Research.\n2. A telomere-to-telomere assembly implies a gap-free sequence covering the centromeric and telomeric regions of each chromosome.\n3. Pigeonpea has eleven chromosomes.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "The genome of pigeonpea variety 'Asha' was assembled by ICAR-National Institute for Plant Biotechnology and accepted as the global reference genome for the crop. A T2T assembly is gapless end-to-end, resolving repeat-rich centromeres and telomeres: here 752.65 million base pairs in 92 contigs covering all 11 chromosomes with 11 centromeres and 22 telomeres, and 36,557 annotated genes. Pigeonpea is a diploid with 11 chromosome pairs (2n = 22).",
+    "subject": "Agriculture",
+    "theme": "Crop Improvement and Biotechnology",
+    "micro_topic": "Pigeonpea 'Asha' T2T reference genome, ICAR-NIPB",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Geological Survey of India (GSI), consider the following statements:\n1. It functions under the Ministry of Earth Sciences.\n2. It was established in the nineteenth century and is headquartered in Kolkata.\n3. It recently signed an umbrella agreement with C-DAC covering landslide monitoring using Synthetic Aperture Radar and Glacial Lake Outburst Flood studies.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statement 1 is incorrect: GSI functions under the Ministry of Mines, not the Ministry of Earth Sciences. GSI was established in 1851 and is headquartered in Kolkata. Its umbrella MoU with C-DAC (under MeitY) covers AI and High-Performance-Computing-based geophysical data processing, 3D subsurface mapping and critical mineral and Rare Earth Element targeting, along with SAR-based landslide monitoring, early warning systems and GLOF studies.",
+    "subject": "Science & Technology",
+    "theme": "Institutions and Applied Technology",
+    "micro_topic": "C-DAC-GSI MoU on AI-driven mineral exploration and disaster management",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]

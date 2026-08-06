@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to the 'GOBARdhan' National Circular Bioenergy Scheme approved by the Union Cabinet in August 2026, consider the following statements: 1. It has an outlay of Rs 23,731 crore and is to be implemented from FY2026-27 to FY2035-36. 2. It notifies a Compressed Biogas Blending Obligation rising from 3% in FY2026-27 to 5% from FY2028-29 in the CNG (Transport) and PNG (Domestic) segments. 3. It discontinues capital assistance to compressed biogas plants and relies solely on a market-determined price. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "The outlay is Rs 23,731 crore over FY2026-27 to FY2035-36, and the CBG Blending Obligation trajectory is 3% (FY27), 4% (FY28) and 5% from FY29, with City Gas Distribution entities as obligated buyers. Statement 3 inverts the scheme: GOBARdhan provides capital assistance of up to Rs 2 crore per TPD and an administered CBG price of Rs 2,110 per MMBTU under a minimum 10-year framework, precisely because market-determined pricing failed under SATAT (only ~132 of a targeted 5,000 plants by June 2026).",
+    "subject": "Environment",
+    "theme": "Renewable energy and circular economy",
+    "micro_topic": "GOBARdhan National Circular Bioenergy Scheme, Cabinet approval 6 August 2026; CBG blending obligation",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements regarding the Supreme Court (Number of Judges) Amendment Bill, 2026: 1. It increases the number of judges of the Supreme Court, other than the Chief Justice of India, from 33 to 37. 2. It replaces an Ordinance promulgated in May 2026. 3. It amends the Constitution of India to fix the sanctioned strength of the Supreme Court. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "The Bill raises the strength from 33 to 37 judges other than the CJI, i.e. 34 to 38 including the CJI, and replaces the Supreme Court (Number of Judges) Amendment Ordinance, 2026 promulgated on 16 May 2026. Statement 3 is wrong: the Bill amends the ordinary Supreme Court (Number of Judges) Act, 1956. Article 124(1) itself leaves the number to Parliament 'by law', so no constitutional amendment is required.",
+    "subject": "Polity & Governance",
+    "theme": "Judiciary",
+    "micro_topic": "Supreme Court (Number of Judges) Amendment Bill 2026; Rajya Sabha passage 5 August 2026; strength raised 34 to 38",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In August 2026, the Supreme Court delivered a judgment concerning women in live-in relationships. Which one of the following best describes its ratio?",
+    "options": [
+      "(a) It held that a live-in relationship is legally equivalent to a marriage for the purposes of succession and inheritance.",
+      "(b) It held that the offence of domestic cruelty under Section 498A of the IPC, now Sections 85 and 86 of the Bharatiya Nyaya Sanhita, 2023, extends to women in live-in relationships that are 'in the nature of marriage'.",
+      "(c) It struck down Section 498A of the IPC as violative of Article 14 of the Constitution.",
+      "(d) It held that women in live-in relationships may seek only civil remedies under the Protection of Women from Domestic Violence Act, 2005, and not remedies under criminal law."
+    ],
+    "answer": "(b)",
+    "explanation": "The Court (Justices Sanjay Karol and N. Kotiswar Singh) extended the domestic-cruelty offence to women in marriage-like live-in relationships, relying on Articles 14, 15(3) and 21 and on the Velusamy (2010) and Indra Sarma (2013) criteria. Option (a) is wrong as no succession equivalence was declared; (c) is wrong as the provision was expanded, not struck down; (d) states the pre-existing position from Lalita Toppo v. State of Jharkhand (2018), which this judgment goes beyond by bringing in criminal liability.",
+    "subject": "Society",
+    "theme": "Family, marriage and women's rights",
+    "micro_topic": "Supreme Court judgment 5 August 2026 extending Section 498A IPC / BNS Sections 85-86 to live-in relationships",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Research and Development Statistics 2025-26 released by the Department of Science and Technology, consider the following statements: 1. India's Gross Expenditure on Research and Development (GERD) reached 0.83% of GDP in 2021-22, crossing the 0.8% mark for the first time since 2009-10. 2. Private industry accounted for more than half of India's total R&D expenditure in 2023-24. 3. India's official R&D statistics, including GERD, are compiled by the National Science and Technology Management Information System (NSTMIS), a programme of the Department of Science and Technology. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. GERD stood at 0.83% of GDP in 2021-22 after a rebound of over 53% from the pandemic dip, the first crossing of 0.8% since 2009-10. Private industry's share reached 51.8% in 2023-24, exceeding all levels of government combined for the first time. NSTMIS, set up under DST in 1982, is the nodal system compiling India's R&D statistics using UNESCO and OECD (Frascati Manual) methodology. For comparison: Israel ~5%, South Korea 4.8%, USA 3.5%, Japan 3.3%, China 2.4%.",
+    "subject": "Science & Technology",
+    "theme": "R&D ecosystem and innovation policy",
+    "micro_topic": "DST Research and Development Statistics 2025-26; GERD 0.83% of GDP; NSTMIS",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the outcomes of the Indian Foreign Secretary's visit to Sri Lanka in August 2026, consider the following statements: 1. Two INR-denominated Lines of Credit, of USD 250 million for railway projects and USD 100 million for livestock and other priority requirements, were concluded between EXIM Bank of India and Sri Lanka's Ministry of Finance. 2. The visit was framed within India's Neighbourhood First policy and Vision MAHASAGAR. 3. Both sides agreed to abandon the existing India-Sri Lanka Free Trade Agreement and negotiate an entirely new agreement in its place. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 2 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "Foreign Secretary Vikram Misri's visit on 5 August 2026 saw two rupee-denominated Lines of Credit concluded between EXIM Bank of India and Sri Lanka's Ministry of Finance, framed within Neighbourhood First and Vision MAHASAGAR. Statement 3 misstates the outcome: the two sides welcomed the decision to take forward negotiations on updating the existing India-Sri Lanka FTA, not on replacing it. Other outcomes included the USD 450 million Cyclone Ditwah reconstruction package and the proposed USD 61.5 million Kankesanthurai harbour grant.",
+    "subject": "International Relations",
+    "theme": "India and its neighbourhood",
+    "micro_topic": "Foreign Secretary visit to Sri Lanka, 5 August 2026; INR-denominated EXIM Bank Lines of Credit",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "With reference to the composition and tenure of the Supreme Court of India, consider the following statements: 1. The Constitution as originally enacted provided for a Chief Justice of India and seven other judges. 2. Article 124(1) empowers Parliament to prescribe by law a larger number of judges of the Supreme Court. 3. A judge of the Supreme Court holds office until he attains the age of sixty-two years. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 2 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "Article 124(1) provides that the Supreme Court shall consist of a Chief Justice of India and, until Parliament by law prescribes a larger number, not more than seven other judges. Parliament has progressively raised the strength through the Supreme Court (Number of Judges) Act, 1956 and its amendments. Statement 3 is the classic trap: a Supreme Court judge retires at 65 years, whereas a High Court judge retires at 62 years (Article 217).",
+    "subject": "Polity & Governance",
+    "theme": "Union Judiciary",
+    "micro_topic": "Article 124; original and present strength of the Supreme Court; retirement age of SC vs HC judges",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements about the maritime geography between India and Sri Lanka: 1. The Palk Strait links the Bay of Bengal with the Gulf of Mannar. 2. Adam's Bridge (Ram Setu) is a chain of shoals lying between Pamban Island of India and Mannar Island of Sri Lanka. 3. Katchatheevu island lies in the Gulf of Mannar. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 3 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "The Palk Strait, along with Palk Bay, connects the Bay of Bengal with the Gulf of Mannar, and Adam's Bridge is the chain of limestone shoals between Pamban (Rameswaram) Island and Mannar Island. Statement 3 is incorrect: Katchatheevu lies in the Palk Strait, between Neduntheevu (Delft Island) of Sri Lanka and Rameswaram, and was the subject of the 1974 India-Sri Lanka maritime boundary agreement.",
+    "subject": "Geography",
+    "theme": "Physical geography of India and its maritime neighbourhood",
+    "micro_topic": "Palk Strait, Palk Bay, Gulf of Mannar, Adam's Bridge, Katchatheevu",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  }
+]
