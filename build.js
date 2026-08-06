@@ -118,9 +118,28 @@ function copyStatic() {
   writeManifestFile(path.join(DIST, "config", "content_manifest.json"), ROOT, contentManifest);
 }
 
+function validateAtlasNewsCoverage() {
+  const weeklyNewsDir = path.join(ROOT, "weekly", "weekly_news");
+  const atlasData = fs.readFileSync(path.join(ROOT, "app", "atlas-news-data.js"), "utf8");
+  const noteDates = fs.readdirSync(weeklyNewsDir)
+    .map((name) => name.match(/^Places_in_News_(\d{4}-\d{2}-\d{2})\.md$/)?.[1])
+    .filter(Boolean);
+  const mappedWeeks = [...atlasData.matchAll(/id:"(\d{4}-\d{2}-\d{2})", label:"Week of/g)].map((match) => match[1]);
+  const mappedFeatureWeeks = [...atlasData.matchAll(/weekId:"(\d{4}-\d{2}-\d{2})"/g)].map((match) => match[1]);
+  const missingWeeks = noteDates.filter((date) => !mappedWeeks.includes(date));
+  const missingFeatures = noteDates.filter((date) => !mappedFeatureWeeks.includes(date));
+  if (missingWeeks.length || missingFeatures.length) {
+    throw new Error([
+      missingWeeks.length ? `Atlas week entries missing for: ${missingWeeks.join(", ")}` : "",
+      missingFeatures.length ? `Atlas feature entries missing for: ${missingFeatures.join(", ")}` : "",
+    ].filter(Boolean).join("; "));
+  }
+}
+
 function run() {
   console.log("Building production bundle into dist/");
   contentManifest = buildContentManifest(ROOT);
+  validateAtlasNewsCoverage();
   clean();
   bundleApp();
   copyStylesAndHtml();
