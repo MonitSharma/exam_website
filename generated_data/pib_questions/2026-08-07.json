@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to Jal Jeevan Mission 2.0, consider the following statements:\n1. It was approved by the Union Cabinet in March 2026 and extends the Mission up to December 2028.\n2. It is implemented by the Department of Drinking Water and Sanitation under the Ministry of Rural Development.\n3. Central assistance under the Mission is routed to States through the SNA SPARSH platform.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "JJM 2.0 was approved on 10 March 2026 and runs till December 2028 with an outlay of Rs 8.69 lakh crore (Central share Rs 3.59 lakh crore), with funds routed via SNA SPARSH; the Department of Drinking Water and Sanitation is under the Ministry of Jal Shakti, not Rural Development.",
+    "subject": "Polity & Governance",
+    "theme": "Government Schemes and Welfare Delivery",
+    "micro_topic": "Jal Jeevan Mission 2.0",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements about the Sant Kabir Handloom Award:\n1. It is conferred by the Ministry of Textiles and is the highest recognition in India's handloom sector.\n2. National Handloom Day, on which the awards are presented, commemorates the launch of the Swadeshi Movement of 1905.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 only",
+      "(c) Both 1 and 2",
+      "(d) Neither 1 nor 2"
+    ],
+    "answer": "(c)",
+    "explanation": "The Sant Kabir Handloom Award, conferred by the Ministry of Textiles, is the highest honour in the handloom sector; National Handloom Day is observed on 7 August to mark the Swadeshi Movement launched on 7 August 1905.",
+    "subject": "Art & Culture",
+    "theme": "Traditional Crafts and Textiles",
+    "micro_topic": "National Handloom Day and Handloom Awards",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The Vikram Sarabhai Medal, in the news recently, is awarded",
+    "options": [
+      "(a) annually by the Indian National Science Academy for contributions to atmospheric sciences",
+      "(b) biennially, jointly by COSPAR and ISRO, for contributions to space research in developing countries",
+      "(c) every five years by the Department of Space to Indian scientists under the age of 40",
+      "(d) annually by UNESCO for the peaceful use of outer space"
+    ],
+    "answer": "(b)",
+    "explanation": "Instituted in 1990, the COSPAR Vikram Sarabhai Medal is awarded every two years jointly by COSPAR and ISRO for outstanding contributions to space research in developing countries; Prof. Annapurni Subramaniam of IIA Bengaluru is the 2026 recipient and the first Indian woman to receive it.",
+    "subject": "Science & Technology",
+    "theme": "Space Science and Institutions",
+    "micro_topic": "COSPAR Vikram Sarabhai Medal 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]
