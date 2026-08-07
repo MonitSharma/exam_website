@@ -8,6 +8,7 @@
 
 const fs = require("fs");
 const path = require("path");
+const crypto = require("crypto");
 const esbuild = require("esbuild");
 const { buildContentManifest, writeManifestFile } = require("./scripts/generate_content_manifest");
 
@@ -81,7 +82,13 @@ function copyStylesAndHtml() {
     path.join(ROOT, "app", "styles.css"),
     path.join(DIST, "app", "styles.css"),
   );
-
+  const assetVersion = (relativePath) => crypto
+    .createHash("sha256")
+    .update(fs.readFileSync(path.join(DIST, relativePath)))
+    .digest("hex")
+    .slice(0, 12);
+  const bundleVersion = assetVersion("app/app.bundle.js");
+  const stylesVersion = assetVersion("app/styles.css");
   const html = `<!doctype html>
 <html lang="en">
 <head>
@@ -93,7 +100,7 @@ function copyStylesAndHtml() {
   <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=Hanken+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="vendor/katex/katex.min.css">
   <link rel="stylesheet" href="vendor/leaflet/leaflet.css">
-  <link rel="stylesheet" href="app/styles.css">
+  <link rel="stylesheet" href="app/styles.css?v=${stylesVersion}">
 </head>
 <body data-vibe="academic" data-qfont="serif" data-density="regular">
   <div id="root"></div>
@@ -101,7 +108,7 @@ function copyStylesAndHtml() {
   <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js" crossorigin="anonymous"></script>
   <script src="vendor/katex/katex.min.js"></script>
   <script src="vendor/leaflet/leaflet.js"></script>
-  <script src="app/app.bundle.js"></script>
+  <script src="app/app.bundle.js?v=${bundleVersion}"></script>
 </body>
 </html>
 `;
