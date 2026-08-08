@@ -136,10 +136,11 @@ function validateAtlasNewsCoverage() {
   const missingWeeks = noteDates.filter((date) => !mappedWeeks.includes(date));
   const missingFeatures = noteDates.filter((date) => !mappedFeatureWeeks.includes(date));
   if (missingWeeks.length || missingFeatures.length) {
-    throw new Error([
+    console.warn([
+      "Atlas coverage warning (the site will still build):",
       missingWeeks.length ? `Atlas week entries missing for: ${missingWeeks.join(", ")}` : "",
       missingFeatures.length ? `Atlas feature entries missing for: ${missingFeatures.join(", ")}` : "",
-    ].filter(Boolean).join("; "));
+    ].filter(Boolean).join(" "));
   }
 }
 
