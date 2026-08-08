@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the 27 places and features in Arunachal Pradesh recently identified by standard names on official maps, consider the following statements:\n1. The exercise was carried out by the Ministry of Home Affairs in consultation with the Government of Arunachal Pradesh.\n2. The features so identified include mountain passes, a lake and a monument.\n3. The maps concerned are published by the Survey of India, which functions under the Ministry of Home Affairs.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Statements 1 and 2 are correct — the MHA acted in consultation with the Arunachal Pradesh government, and the 27 features include four passes (Dzo La, Riza La, Pukur La, Thag La), a lake (Sambho Sarovar) and a monument (Sher-e-Thapa Memorial). Statement 3 is wrong: the Survey of India functions under the Department of Science and Technology, not the Ministry of Home Affairs.",
+    "subject": "International Relations",
+    "theme": "India-China border and cartographic sovereignty",
+    "micro_topic": "Standardisation of place names in Arunachal Pradesh on Survey of India maps",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The 'Facility for Antiproton and Ion Research (FAIR)', seen in the news recently, is best described as:",
+    "options": [
+      "(a) A deep-underground neutrino observatory being built in Tamil Nadu with international collaboration",
+      "(b) A multipurpose particle accelerator facility under construction at Darmstadt, Germany, of which India is a founding member",
+      "(c) A gravitational-wave detector being set up in Maharashtra as part of the global LIGO network",
+      "(d) A fusion energy reactor being built in France with India as a participating partner"
+    ],
+    "answer": "(b)",
+    "explanation": "FAIR is a large multipurpose particle accelerator facility being built at Darmstadt, Germany. India became a founding member by signing the convention at Wiesbaden on 4 October 2010; its contribution is funded 50:50 by DST and DAE, with Bose Institute, Kolkata as the nodal institution. Option (a) is the India-based Neutrino Observatory, (c) is LIGO-India and (d) is ITER.",
+    "subject": "Science & Technology",
+    "theme": "International mega-science collaborations",
+    "micro_topic": "FAIR particle accelerator and India's in-kind contributions",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Government e Marketplace (GeM), consider the following statements:\n1. It functions under the administrative control of the Ministry of Commerce and Industry.\n2. Micro and Small Enterprises have accounted for more than 40 per cent of its cumulative Gross Merchandise Value.\n3. All orders placed on the platform, irrespective of value, are exempt from transaction charges.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "GeM is under the Ministry of Commerce and Industry, and MSEs have fulfilled orders worth Rs 9.07 lakh crore, or 45.6 per cent of cumulative GMV, so statements 1 and 2 are correct. Statement 3 is wrong: only orders up to Rs 10 lakh are exempt from transaction charges (covering about 97 per cent of orders); larger orders attract a 0.30 per cent charge capped at Rs 3 lakh.",
+    "subject": "Economy",
+    "theme": "Public procurement and digital public infrastructure",
+    "micro_topic": "GeM completes a decade with cumulative GMV over Rs 20 lakh crore",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]
