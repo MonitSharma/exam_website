@@ -1,0 +1,1552 @@
+[
+  {
+    "id": "book_topics_2026_08_09_1",
+    "question_number": 1,
+    "question": "Residuary powers of legislation - subjects not enumerated in any of the three Lists of the Seventh Schedule - are vested in:",
+    "options": [
+      {
+        "key": "a",
+        "text": "the State Legislatures"
+      },
+      {
+        "key": "b",
+        "text": "the Parliament"
+      },
+      {
+        "key": "c",
+        "text": "the President"
+      },
+      {
+        "key": "d",
+        "text": "the Union and States equally"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Article 248 vests residuary powers of legislation, including the power to impose residuary taxes, in the Parliament.",
+    "subject": "Polity",
+    "theme": "Centre-State, Inter-State Relations and Emergency Provisions (Laxmikanth Ch 14-16)",
+    "micro_topic": "Residuary powers (Art 248)",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_09_2",
+    "question_number": 2,
+    "question": "When the Rajya Sabha passes a resolution supported by two-thirds of the members present and voting that it is necessary in the national interest for Parliament to legislate on a State List subject (Article 249), such a resolution remains in force for:",
+    "options": [
+      {
+        "key": "a",
+        "text": "six months"
+      },
+      {
+        "key": "b",
+        "text": "one year"
+      },
+      {
+        "key": "c",
+        "text": "two years"
+      },
+      {
+        "key": "d",
+        "text": "as long as the resultant law is in force"
+      }
+    ],
+    "answer": "b",
+    "explanation": "An Art 249 resolution is valid for one year and can be renewed any number of times, one year at a time; laws made under it cease six months after the resolution stops being in force.",
+    "subject": "Polity",
+    "theme": "Centre-State, Inter-State Relations and Emergency Provisions (Laxmikanth Ch 14-16)",
+    "micro_topic": "Parliament legislating on State List (Art 249)",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_09_3",
+    "question_number": 3,
+    "question": "Consider the following pairs (Article - basis on which Parliament may legislate on a State subject): 1. Article 250 - during a National Emergency 2. Article 252 - when two or more States request it 3. Article 253 - to implement an international treaty or agreement. How many pairs are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "All three"
+      },
+      {
+        "key": "d",
+        "text": "None"
+      }
+    ],
+    "answer": "c",
+    "explanation": "All three are correct: Art 250 (National Emergency), Art 252 (two or more States pass enabling resolutions), and Art 253 (to give effect to international agreements) each empower Parliament to legislate on State subjects.",
+    "subject": "Polity",
+    "theme": "Centre-State, Inter-State Relations and Emergency Provisions (Laxmikanth Ch 14-16)",
+    "micro_topic": "Union legislation on State subjects",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_09_4",
+    "question_number": 4,
+    "question": "Where a State law on a Concurrent List subject is repugnant to an earlier Union law, the State law can still prevail within that State if it:",
+    "options": [
+      {
+        "key": "a",
+        "text": "is passed by a two-thirds majority of the State legislature"
+      },
+      {
+        "key": "b",
+        "text": "has been reserved for the President's consideration and has received his assent"
+      },
+      {
+        "key": "c",
+        "text": "is upheld by the High Court of that State"
+      },
+      {
+        "key": "d",
+        "text": "is certified by the Governor as a Money Bill"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Under Article 254(2), a repugnant State law that has been reserved for and received the President's assent prevails in that State - though Parliament may later override it by adding to or amending its own law.",
+    "subject": "Polity",
+    "theme": "Centre-State, Inter-State Relations and Emergency Provisions (Laxmikanth Ch 14-16)",
+    "micro_topic": "Repugnancy (Art 254)",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_09_5",
+    "question_number": 5,
+    "question": "The Inter-State Council is established under Article 263 by an order of the:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Parliament by statute"
+      },
+      {
+        "key": "b",
+        "text": "President"
+      },
+      {
+        "key": "c",
+        "text": "Prime Minister"
+      },
+      {
+        "key": "d",
+        "text": "Chief Justice of India"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Article 263 empowers the President to establish an Inter-State Council if it appears that public interest would be served; it was constituted by a Presidential order in 1990 on the Sarkaria Commission's recommendation.",
+    "subject": "Polity",
+    "theme": "Centre-State, Inter-State Relations and Emergency Provisions (Laxmikanth Ch 14-16)",
+    "micro_topic": "Inter-State Council (Art 263)",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_09_6",
+    "question_number": 6,
+    "question": "Which of the following statements is/are correct? 1. Zonal Councils are statutory bodies set up under the States Reorganisation Act, 1956. 2. The North-Eastern Council was created by a separate Act of Parliament. 3. The Inter-State Council is provided for in the Constitution but is constituted by a Presidential order.",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All three are correct. Zonal Councils are statutory (States Reorganisation Act, 1956), the North-Eastern Council was set up under the North-Eastern Council Act, 1971, and the Inter-State Council is a constitutional provision (Art 263) constituted by Presidential order.",
+    "subject": "Polity",
+    "theme": "Centre-State, Inter-State Relations and Emergency Provisions (Laxmikanth Ch 14-16)",
+    "micro_topic": "Inter-State coordination machinery",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_09_7",
+    "question_number": 7,
+    "question": "Adjudication of disputes relating to the waters of inter-State rivers and river valleys is provided for under:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Article 262"
+      },
+      {
+        "key": "b",
+        "text": "Article 263"
+      },
+      {
+        "key": "c",
+        "text": "Article 261"
+      },
+      {
+        "key": "d",
+        "text": "Article 301"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Article 262 provides for the adjudication of inter-State river water disputes and allows Parliament to bar the jurisdiction of the Supreme Court and other courts in such disputes.",
+    "subject": "Polity",
+    "theme": "Centre-State, Inter-State Relations and Emergency Provisions (Laxmikanth Ch 14-16)",
+    "micro_topic": "Inter-State water disputes (Art 262)",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_09_8",
+    "question_number": 8,
+    "question": "Exercising the power under Article 262, Parliament has enacted which of the following?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The Inter-State Council Order"
+      },
+      {
+        "key": "b",
+        "text": "The River Boards Act, 1956 and the Inter-State River Water Disputes Act, 1956"
+      },
+      {
+        "key": "c",
+        "text": "The States Reorganisation Act, 1956"
+      },
+      {
+        "key": "d",
+        "text": "The Water (Prevention and Control of Pollution) Act, 1974"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Under Art 262 Parliament enacted the River Boards Act, 1956 (for regulation and development of inter-State rivers) and the Inter-State River Water Disputes Act, 1956 (for adjudication by tribunals).",
+    "subject": "Polity",
+    "theme": "Centre-State, Inter-State Relations and Emergency Provisions (Laxmikanth Ch 14-16)",
+    "micro_topic": "Legislation under Art 262",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_09_9",
+    "question_number": 9,
+    "question": "National Emergency, President's Rule (State Emergency) and Financial Emergency are provided for, respectively, under Articles:",
+    "options": [
+      {
+        "key": "a",
+        "text": "352, 356 and 360"
+      },
+      {
+        "key": "b",
+        "text": "356, 352 and 360"
+      },
+      {
+        "key": "c",
+        "text": "352, 360 and 356"
+      },
+      {
+        "key": "d",
+        "text": "360, 356 and 352"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Article 352 provides for National Emergency, Article 356 for President's Rule in a State, and Article 360 for a Financial Emergency.",
+    "subject": "Polity",
+    "theme": "Centre-State, Inter-State Relations and Emergency Provisions (Laxmikanth Ch 14-16)",
+    "micro_topic": "Three types of emergency",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_09_10",
+    "question_number": 10,
+    "question": "With reference to the effect of a National Emergency on Fundamental Rights, consider: 1. Article 358 automatically suspends the six freedoms of Article 19, but only when the Emergency is declared on grounds of war or external aggression. 2. Article 359 lets the President suspend the enforcement of Fundamental Rights, but never those under Articles 20 and 21. Which is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Both are correct. Post the 44th Amendment, Art 358 suspends Art 19 automatically only for war/external aggression (not armed rebellion), and Art 359 can suspend enforcement of FRs except Articles 20 and 21.",
+    "subject": "Polity",
+    "theme": "Centre-State, Inter-State Relations and Emergency Provisions (Laxmikanth Ch 14-16)",
+    "micro_topic": "Art 358 vs Art 359",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_09_11",
+    "question_number": 11,
+    "question": "Which of the following changes to the emergency provisions was/were introduced by the 44th Constitutional Amendment Act, 1978? 1. 'Armed rebellion' replaced 'internal disturbance' as a ground for National Emergency. 2. The President can proclaim a National Emergency only on the written advice of the Cabinet. 3. The rights under Articles 20 and 21 cannot be suspended even during an Emergency.",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All three are 44th Amendment changes, enacted to prevent the abuses of the 1975 Emergency, along with the requirement of periodic parliamentary approval and easier Lok Sabha revocation.",
+    "subject": "Polity",
+    "theme": "Centre-State, Inter-State Relations and Emergency Provisions (Laxmikanth Ch 14-16)",
+    "micro_topic": "44th Amendment safeguards",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_09_12",
+    "question_number": 12,
+    "question": "The judgment that held the President's satisfaction under Article 356 to be subject to judicial review and required a State government's majority to be tested on the floor of the Assembly was delivered in:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Kesavananda Bharati (1973)"
+      },
+      {
+        "key": "b",
+        "text": "Minerva Mills (1980)"
+      },
+      {
+        "key": "c",
+        "text": "S.R. Bommai (1994)"
+      },
+      {
+        "key": "d",
+        "text": "Indra Sawhney (1992)"
+      }
+    ],
+    "answer": "c",
+    "explanation": "In S.R. Bommai v. Union of India (1994) the Supreme Court laid down guardrails on Art 356, including judicial review of the President's satisfaction and the floor test to decide majority.",
+    "subject": "Polity",
+    "theme": "Centre-State, Inter-State Relations and Emergency Provisions (Laxmikanth Ch 14-16)",
+    "micro_topic": "Judicial control over Art 356",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_09_13",
+    "question_number": 13,
+    "question": "Which of the following is a direct tax?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Goods and Services Tax"
+      },
+      {
+        "key": "b",
+        "text": "Customs duty"
+      },
+      {
+        "key": "c",
+        "text": "Corporation tax"
+      },
+      {
+        "key": "d",
+        "text": "Union excise duty"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Corporation tax is a direct tax (levied on company profits, incidence and impact on the same person). GST, customs and excise are indirect taxes.",
+    "subject": "Economy",
+    "theme": "Taxation & GST and the Indian Economy 1947-2014 (Vivek Singh Ch 4 completion & Ch 6)",
+    "micro_topic": "Direct vs indirect taxes",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_09_14",
+    "question_number": 14,
+    "question": "Which of the following is/are currently kept outside the ambit of GST? 1. Petroleum crude and petrol 2. Alcohol for human consumption 3. Electricity",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Alcohol for human consumption is constitutionally excluded; five petroleum products (crude, petrol, diesel, ATF, natural gas) are outside GST for now, as are electricity and stamp duty.",
+    "subject": "Economy",
+    "theme": "Taxation & GST and the Indian Economy 1947-2014 (Vivek Singh Ch 4 completion & Ch 6)",
+    "micro_topic": "GST coverage and exclusions",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_09_15",
+    "question_number": 15,
+    "question": "In the GST Council (Article 279A), every decision requires a majority of not less than three-fourths of the weighted votes of members present and voting, in which the vote of the Central Government carries a weight of:",
+    "options": [
+      {
+        "key": "a",
+        "text": "one-half"
+      },
+      {
+        "key": "b",
+        "text": "one-third"
+      },
+      {
+        "key": "c",
+        "text": "one-fourth"
+      },
+      {
+        "key": "d",
+        "text": "two-thirds"
+      }
+    ],
+    "answer": "b",
+    "explanation": "In the GST Council the Centre's vote has a weightage of one-third and all the States together have two-thirds; decisions need three-fourths of the weighted votes present and voting.",
+    "subject": "Economy",
+    "theme": "Taxation & GST and the Indian Economy 1947-2014 (Vivek Singh Ch 4 completion & Ch 6)",
+    "micro_topic": "GST Council voting (Art 279A)",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_09_16",
+    "question_number": 16,
+    "question": "In public finance, 'tax buoyancy' is best described as:",
+    "options": [
+      {
+        "key": "a",
+        "text": "the responsiveness of tax revenue to changes in tax rates alone"
+      },
+      {
+        "key": "b",
+        "text": "the total responsiveness of tax revenue growth to GDP growth, including the effect of discretionary changes in rates and base"
+      },
+      {
+        "key": "c",
+        "text": "the responsiveness of tax revenue to GDP growth after removing the effect of discretionary changes"
+      },
+      {
+        "key": "d",
+        "text": "the ratio of direct to indirect taxes"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Tax buoyancy captures the total percentage change in tax revenue relative to GDP growth, including discretionary policy changes. Tax elasticity, by contrast, holds the rate/base structure constant.",
+    "subject": "Economy",
+    "theme": "Taxation & GST and the Indian Economy 1947-2014 (Vivek Singh Ch 4 completion & Ch 6)",
+    "micro_topic": "Tax buoyancy vs elasticity",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_09_17",
+    "question_number": 17,
+    "question": "On an inter-State supply of goods or services, the tax levied and collected by the Centre (later apportioned with the destination State) is:",
+    "options": [
+      {
+        "key": "a",
+        "text": "CGST"
+      },
+      {
+        "key": "b",
+        "text": "SGST"
+      },
+      {
+        "key": "c",
+        "text": "IGST"
+      },
+      {
+        "key": "d",
+        "text": "UTGST"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Inter-State supplies attract IGST (Integrated GST), collected by the Centre and shared with the destination State; intra-State supplies attract CGST + SGST.",
+    "subject": "Economy",
+    "theme": "Taxation & GST and the Indian Economy 1947-2014 (Vivek Singh Ch 4 completion & Ch 6)",
+    "micro_topic": "GST components (CGST/SGST/IGST)",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_09_18",
+    "question_number": 18,
+    "question": "The Planning Commission was replaced by the NITI Aayog with effect from:",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 January 2015"
+      },
+      {
+        "key": "b",
+        "text": "15 August 2014"
+      },
+      {
+        "key": "c",
+        "text": "1 April 2015"
+      },
+      {
+        "key": "d",
+        "text": "26 January 2015"
+      }
+    ],
+    "answer": "a",
+    "explanation": "NITI Aayog (National Institution for Transforming India) came into being on 1 January 2015, replacing the Planning Commission that had existed since 1950.",
+    "subject": "Economy",
+    "theme": "Taxation & GST and the Indian Economy 1947-2014 (Vivek Singh Ch 4 completion & Ch 6)",
+    "micro_topic": "Planning Commission to NITI Aayog",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_09_19",
+    "question_number": 19,
+    "question": "The New Industrial Policy of 1991 is associated with which of the following? 1. Abolition of industrial licensing except for a short specified list 2. Dilution of the MRTP Act's restrictions on 'large' business houses 3. Reduction of the number of industries reserved for the public sector",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "The 1991 New Industrial Policy abolished licensing (barring a short negative list), removed the MRTP Act's asset-threshold restrictions, and cut the list of industries reserved for the public sector - the core of the LPG reforms.",
+    "subject": "Economy",
+    "theme": "Taxation & GST and the Indian Economy 1947-2014 (Vivek Singh Ch 4 completion & Ch 6)",
+    "micro_topic": "1991 LPG reforms / New Industrial Policy",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_09_20",
+    "question_number": 20,
+    "question": "The Second Five Year Plan (1956-61), which prioritised rapid industrialisation with emphasis on heavy and capital-goods industries, was based on the model developed by:",
+    "options": [
+      {
+        "key": "a",
+        "text": "P.C. Mahalanobis"
+      },
+      {
+        "key": "b",
+        "text": "Vakil and Brahmananda"
+      },
+      {
+        "key": "c",
+        "text": "Amartya Sen"
+      },
+      {
+        "key": "d",
+        "text": "D.R. Gadgil"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The Second Plan followed the Mahalanobis model, stressing heavy industry and the public sector. The Vakil-Brahmananda 'wage-goods' model was an alternative that emphasised consumer goods.",
+    "subject": "Economy",
+    "theme": "Taxation & GST and the Indian Economy 1947-2014 (Vivek Singh Ch 4 completion & Ch 6)",
+    "micro_topic": "Five Year Plans and planning strategy",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_09_21",
+    "question_number": 21,
+    "question": "Gandhi withdrew the Non-Cooperation Movement following the violent incident at:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Chauri Chaura"
+      },
+      {
+        "key": "b",
+        "text": "Chittagong"
+      },
+      {
+        "key": "c",
+        "text": "Kakori"
+      },
+      {
+        "key": "d",
+        "text": "Jallianwala Bagh"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The mob violence at Chauri Chaura (Gorakhpur district) on 5 February 1922, in which a police station was burnt, led Gandhi to suspend the Non-Cooperation Movement.",
+    "subject": "Modern History",
+    "theme": "Non-Cooperation & Khilafat Movements and New Forces 1922-29 (Spectrum Ch 16-17)",
+    "micro_topic": "Chauri Chaura and withdrawal of NCM",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_09_22",
+    "question_number": 22,
+    "question": "At which Congress session was the Non-Cooperation programme formally adopted and the Congress constitution reorganised (linguistic Provincial Committees and a 15-member Working Committee)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Calcutta special session, 1920"
+      },
+      {
+        "key": "b",
+        "text": "Nagpur session, December 1920"
+      },
+      {
+        "key": "c",
+        "text": "Amritsar session, 1919"
+      },
+      {
+        "key": "d",
+        "text": "Gaya session, 1922"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The Non-Cooperation programme, adopted at the Calcutta special session (Sept 1920), was ratified at the Nagpur session (Dec 1920), which also reorganised the Congress on linguistic lines with a 15-member Working Committee.",
+    "subject": "Modern History",
+    "theme": "Non-Cooperation & Khilafat Movements and New Forces 1922-29 (Spectrum Ch 16-17)",
+    "micro_topic": "Nagpur session 1920",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_09_23",
+    "question_number": 23,
+    "question": "The Khilafat Movement (1919-24) was launched primarily to:",
+    "options": [
+      {
+        "key": "a",
+        "text": "demand separate electorates for Muslims"
+      },
+      {
+        "key": "b",
+        "text": "protest against the harsh treatment of the Ottoman Sultan (Caliph) after World War I"
+      },
+      {
+        "key": "c",
+        "text": "oppose the partition of Bengal"
+      },
+      {
+        "key": "d",
+        "text": "demand a separate nation of Pakistan"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The Khilafat Movement protested the dismemberment of the Ottoman Empire and the treatment of the Caliph under the Treaty of Sevres; Gandhi linked it with Non-Cooperation to forge Hindu-Muslim unity.",
+    "subject": "Modern History",
+    "theme": "Non-Cooperation & Khilafat Movements and New Forces 1922-29 (Spectrum Ch 16-17)",
+    "micro_topic": "Khilafat Movement",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_09_24",
+    "question_number": 24,
+    "question": "The Swaraj Party, formed on 1 January 1923 to contest council elections and obstruct from within, was led by:",
+    "options": [
+      {
+        "key": "a",
+        "text": "C.R. Das and Motilal Nehru"
+      },
+      {
+        "key": "b",
+        "text": "Bhagat Singh and Chandrashekhar Azad"
+      },
+      {
+        "key": "c",
+        "text": "Subhas Bose and Jawaharlal Nehru"
+      },
+      {
+        "key": "d",
+        "text": "Lala Lajpat Rai and Bipin Chandra Pal"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The Swaraj Party was founded by C.R. Das (president) and Motilal Nehru (secretary) after the 1922 Gaya session, to enter legislative councils and wreck them from within.",
+    "subject": "Modern History",
+    "theme": "Non-Cooperation & Khilafat Movements and New Forces 1922-29 (Spectrum Ch 16-17)",
+    "micro_topic": "Swaraj Party",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_09_25",
+    "question_number": 25,
+    "question": "Arrange the following events of the revolutionary movement in chronological order: 1. Kakori train robbery 2. Formation of the Hindustan Socialist Republican Association (HSRA) 3. Central Assembly bomb incident (Bhagat Singh and B.K. Dutt)",
+    "options": [
+      {
+        "key": "a",
+        "text": "1-2-3"
+      },
+      {
+        "key": "b",
+        "text": "2-1-3"
+      },
+      {
+        "key": "c",
+        "text": "1-3-2"
+      },
+      {
+        "key": "d",
+        "text": "3-2-1"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Kakori robbery (Aug 1925), reorganisation as the HSRA (1928), and the Central Assembly bomb (8 April 1929) fall in that order.",
+    "subject": "Modern History",
+    "theme": "Non-Cooperation & Khilafat Movements and New Forces 1922-29 (Spectrum Ch 16-17)",
+    "micro_topic": "Revolutionary activities 1922-29",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_09_26",
+    "question_number": 26,
+    "question": "Which of the following formed part of the Non-Cooperation Movement's programme? 1. Surrender of titles and honorary offices 2. Boycott of government schools, courts and legislative councils 3. Boycott of foreign cloth",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "The NCM's constructive-negative programme included surrender of titles, boycott of official functions, schools, courts and councils, boycott of foreign cloth and promotion of khadi, with mass civil disobedience as the final stage.",
+    "subject": "Modern History",
+    "theme": "Non-Cooperation & Khilafat Movements and New Forces 1922-29 (Spectrum Ch 16-17)",
+    "micro_topic": "Programme of Non-Cooperation",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_09_27",
+    "question_number": 27,
+    "question": "The Congress Working Committee, meeting at Bardoli on 12 February 1922:",
+    "options": [
+      {
+        "key": "a",
+        "text": "launched the Civil Disobedience Movement"
+      },
+      {
+        "key": "b",
+        "text": "suspended the Non-Cooperation Movement"
+      },
+      {
+        "key": "c",
+        "text": "passed the Poorna Swaraj resolution"
+      },
+      {
+        "key": "d",
+        "text": "founded the Swaraj Party"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The Bardoli Resolution of 12 February 1922 suspended the Non-Cooperation Movement in the wake of Chauri Chaura and shifted focus to constructive work.",
+    "subject": "Modern History",
+    "theme": "Non-Cooperation & Khilafat Movements and New Forces 1922-29 (Spectrum Ch 16-17)",
+    "micro_topic": "Bardoli Resolution 1922",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_09_28",
+    "question_number": 28,
+    "question": "The Meerut Conspiracy Case (1929) was associated with:",
+    "options": [
+      {
+        "key": "a",
+        "text": "the trial of communist and trade-union leaders"
+      },
+      {
+        "key": "b",
+        "text": "the Kakori train robbers"
+      },
+      {
+        "key": "c",
+        "text": "the assassination of J.P. Saunders"
+      },
+      {
+        "key": "d",
+        "text": "the trial of INA soldiers"
+      }
+    ],
+    "answer": "a",
+    "explanation": "In the Meerut Conspiracy Case (1929), the government arrested and tried a group of communist and trade-union leaders on charges of conspiring to deprive the King of his sovereignty over India.",
+    "subject": "Modern History",
+    "theme": "Non-Cooperation & Khilafat Movements and New Forces 1922-29 (Spectrum Ch 16-17)",
+    "micro_topic": "Socialist and communist ideas",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_09_29",
+    "question_number": 29,
+    "question": "How many of the world's biodiversity hotspots are found, wholly or partly, in India?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Two"
+      },
+      {
+        "key": "b",
+        "text": "Four"
+      },
+      {
+        "key": "c",
+        "text": "Six"
+      },
+      {
+        "key": "d",
+        "text": "Ten"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Four biodiversity hotspots extend into India: the Himalaya, the Indo-Burma region, the Western Ghats-Sri Lanka, and Sundaland (which includes the Nicobar Islands).",
+    "subject": "Environment",
+    "theme": "Biodiversity (Shankar IAS Ch 5)",
+    "micro_topic": "India's biodiversity hotspots",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_09_30",
+    "question_number": 30,
+    "question": "Which of the following are among the biodiversity hotspots that extend into India? 1. The Himalaya 2. Indo-Burma 3. The Western Ghats and Sri Lanka 4. Sundaland (Nicobar Islands)",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "b",
+        "text": "1, 2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2, 3 and 4 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All four - Himalaya, Indo-Burma, Western Ghats-Sri Lanka and Sundaland (Nicobar) - are recognised biodiversity hotspots with a presence in India.",
+    "subject": "Environment",
+    "theme": "Biodiversity (Shankar IAS Ch 5)",
+    "micro_topic": "Naming the four hotspots",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_09_31",
+    "question_number": 31,
+    "question": "In the IUCN Red List, which category denotes a higher risk of extinction than 'Endangered' while the species still survives in the wild?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Vulnerable"
+      },
+      {
+        "key": "b",
+        "text": "Near Threatened"
+      },
+      {
+        "key": "c",
+        "text": "Critically Endangered"
+      },
+      {
+        "key": "d",
+        "text": "Least Concern"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The ascending order of threat is Least Concern, Near Threatened, Vulnerable, Endangered, Critically Endangered, Extinct in the Wild, Extinct. Critically Endangered is the highest risk category for a species still surviving in the wild.",
+    "subject": "Environment",
+    "theme": "Biodiversity (Shankar IAS Ch 5)",
+    "micro_topic": "IUCN Red List categories",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_09_32",
+    "question_number": 32,
+    "question": "Genetic diversity, species diversity and ecosystem diversity are the three levels of:",
+    "options": [
+      {
+        "key": "a",
+        "text": "ecological succession"
+      },
+      {
+        "key": "b",
+        "text": "biodiversity"
+      },
+      {
+        "key": "c",
+        "text": "trophic organisation"
+      },
+      {
+        "key": "d",
+        "text": "biomagnification"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Biodiversity is conventionally described at three levels: genetic (variation within a species), species (variety of species), and ecosystem (variety of habitats and ecological processes).",
+    "subject": "Environment",
+    "theme": "Biodiversity (Shankar IAS Ch 5)",
+    "micro_topic": "Levels of biodiversity",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_09_33",
+    "question_number": 33,
+    "question": "The diversity of species within a particular community, area or ecosystem is measured as:",
+    "options": [
+      {
+        "key": "a",
+        "text": "alpha diversity"
+      },
+      {
+        "key": "b",
+        "text": "beta diversity"
+      },
+      {
+        "key": "c",
+        "text": "gamma diversity"
+      },
+      {
+        "key": "d",
+        "text": "delta diversity"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Alpha diversity is within-habitat diversity; beta diversity is the change in species composition between habitats; gamma diversity is the diversity of a larger landscape or region.",
+    "subject": "Environment",
+    "theme": "Biodiversity (Shankar IAS Ch 5)",
+    "micro_topic": "Alpha, beta and gamma diversity",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_09_34",
+    "question_number": 34,
+    "question": "Consider the following statements: 1. The Cartagena Protocol deals with biosafety and the transboundary movement of living modified organisms. 2. The Nagoya Protocol deals with access to genetic resources and fair sharing of benefits. 3. Both are supplementary agreements to the Convention on Biological Diversity. How many statements are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "All three"
+      },
+      {
+        "key": "d",
+        "text": "None"
+      }
+    ],
+    "answer": "c",
+    "explanation": "All three are correct: the Cartagena Protocol (biosafety) and the Nagoya Protocol (access and benefit-sharing) are both supplementary agreements under the Convention on Biological Diversity.",
+    "subject": "Environment",
+    "theme": "Biodiversity (Shankar IAS Ch 5)",
+    "micro_topic": "CBD - Cartagena and Nagoya Protocols",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_09_35",
+    "question_number": 35,
+    "question": "The bulk of India's annual rainfall is received from the:",
+    "options": [
+      {
+        "key": "a",
+        "text": "north-east (retreating) monsoon"
+      },
+      {
+        "key": "b",
+        "text": "south-west monsoon"
+      },
+      {
+        "key": "c",
+        "text": "western disturbances"
+      },
+      {
+        "key": "d",
+        "text": "local convectional storms of the Deccan"
+      }
+    ],
+    "answer": "b",
+    "explanation": "About three-fourths of India's annual rainfall comes from the south-west monsoon (June-September); the north-east monsoon mainly waters the Tamil Nadu coast.",
+    "subject": "Geography",
+    "theme": "Indian Climate, Vegetation, Soils and Hazards (NCERT-11 Ch 4-7)",
+    "micro_topic": "Indian monsoon rainfall",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_09_36",
+    "question_number": 36,
+    "question": "According to the jet-stream theory of the Indian monsoon, the 'burst' of the south-west monsoon is linked to the:",
+    "options": [
+      {
+        "key": "a",
+        "text": "establishment of the subtropical westerly jet south of the Himalaya"
+      },
+      {
+        "key": "b",
+        "text": "northward shift of the subtropical westerly jet and the establishment of the tropical easterly jet"
+      },
+      {
+        "key": "c",
+        "text": "strengthening of the polar jet stream"
+      },
+      {
+        "key": "d",
+        "text": "reversal of the Somali ocean current"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The onset of the monsoon is associated with the withdrawal of the subtropical westerly jet to the north of the Himalaya and the development of the easterly (tropical) jet over peninsular India.",
+    "subject": "Geography",
+    "theme": "Indian Climate, Vegetation, Soils and Hazards (NCERT-11 Ch 4-7)",
+    "micro_topic": "Jet-stream theory of the monsoon",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_09_37",
+    "question_number": 37,
+    "question": "An El Nino event is generally associated with:",
+    "options": [
+      {
+        "key": "a",
+        "text": "a stronger-than-normal Indian south-west monsoon"
+      },
+      {
+        "key": "b",
+        "text": "a weakening of the Indian south-west monsoon and the possibility of drought"
+      },
+      {
+        "key": "c",
+        "text": "abnormal cooling of the central and eastern Pacific"
+      },
+      {
+        "key": "d",
+        "text": "an intensification of the Walker circulation"
+      }
+    ],
+    "answer": "b",
+    "explanation": "El Nino - the warming of the central-eastern Pacific - is usually linked to a weakened Indian monsoon and drought years, though the correlation is not absolute.",
+    "subject": "Geography",
+    "theme": "Indian Climate, Vegetation, Soils and Hazards (NCERT-11 Ch 4-7)",
+    "micro_topic": "ENSO and the monsoon",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_09_38",
+    "question_number": 38,
+    "question": "Black cotton soil (regur), valued for its moisture-retentive quality, is best suited to the cultivation of:",
+    "options": [
+      {
+        "key": "a",
+        "text": "rice"
+      },
+      {
+        "key": "b",
+        "text": "cotton"
+      },
+      {
+        "key": "c",
+        "text": "tea"
+      },
+      {
+        "key": "d",
+        "text": "coffee"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Regur (black) soil, formed mainly from weathered Deccan lava, is rich in lime, iron and magnesia and retains moisture well, making it ideal for cotton.",
+    "subject": "Geography",
+    "theme": "Indian Climate, Vegetation, Soils and Hazards (NCERT-11 Ch 4-7)",
+    "micro_topic": "Indian soils - black/regur soil",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_09_39",
+    "question_number": 39,
+    "question": "Laterite soils in India are typically formed under conditions of:",
+    "options": [
+      {
+        "key": "a",
+        "text": "low temperature and low rainfall"
+      },
+      {
+        "key": "b",
+        "text": "high temperature and heavy rainfall with alternating wet and dry periods causing intense leaching"
+      },
+      {
+        "key": "c",
+        "text": "prolonged waterlogging in deltaic tracts"
+      },
+      {
+        "key": "d",
+        "text": "arid and highly saline environments"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Laterite soils develop in tropical regions of high temperature and heavy seasonal rainfall; intense leaching removes silica and leaves iron and aluminium oxides, giving the soil its reddish colour and low fertility.",
+    "subject": "Geography",
+    "theme": "Indian Climate, Vegetation, Soils and Hazards (NCERT-11 Ch 4-7)",
+    "micro_topic": "Indian soils - laterite",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_09_40",
+    "question_number": 40,
+    "question": "Consider the following statements: 1. India is divided into four seismic zones, II to V, in increasing order of risk. 2. The Disaster Management Act was enacted in 2005. 3. The National Disaster Response Force (NDRF) is the apex policy-making body for disaster management in India. Which is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Statements 1 and 2 are correct. Statement 3 is wrong: the apex policy-making body is the National Disaster Management Authority (NDMA); the NDRF is the specialised response force.",
+    "subject": "Geography",
+    "theme": "Indian Climate, Vegetation, Soils and Hazards (NCERT-11 Ch 4-7)",
+    "micro_topic": "Natural hazards, seismic zones and DM Act",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_09_41",
+    "question_number": 41,
+    "question": "In Koppen's classification as applied to India, the hot desert climate of western Rajasthan is designated as:",
+    "options": [
+      {
+        "key": "a",
+        "text": "BWhw"
+      },
+      {
+        "key": "b",
+        "text": "Aw"
+      },
+      {
+        "key": "c",
+        "text": "Cwg"
+      },
+      {
+        "key": "d",
+        "text": "Amw"
+      }
+    ],
+    "answer": "a",
+    "explanation": "In Koppen's scheme 'BWhw' denotes a hot desert climate (B - arid, W - desert, h - hot, w - dry winter), which characterises western Rajasthan; 'Aw' is tropical savanna and 'Amw' the monsoon type of the west coast.",
+    "subject": "Geography",
+    "theme": "Indian Climate, Vegetation, Soils and Hazards (NCERT-11 Ch 4-7)",
+    "micro_topic": "Koppen classification of Indian climate",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_09_42",
+    "question_number": 42,
+    "question": "The Integrated Guided Missile Development Programme (IGMDP), launched in 1983, did NOT originally include which of the following missiles?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Prithvi"
+      },
+      {
+        "key": "b",
+        "text": "Agni"
+      },
+      {
+        "key": "c",
+        "text": "BrahMos"
+      },
+      {
+        "key": "d",
+        "text": "Akash"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The IGMDP comprised five missiles - Prithvi, Trishul, Akash, Nag and Agni. BrahMos is a later India-Russia joint-venture cruise missile, not part of the IGMDP.",
+    "subject": "Science and Technology",
+    "theme": "Defence Technology - missiles and nuclear doctrine",
+    "micro_topic": "IGMDP missiles",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_09_43",
+    "question_number": 43,
+    "question": "Which of the following statements is/are correct? 1. A ballistic missile is powered only during its initial phase and then follows a free-fall trajectory. 2. A cruise missile is propelled throughout its flight and can fly at low altitude. 3. BrahMos is a supersonic cruise missile.",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All three are correct: ballistic missiles are boosted then coast on a ballistic path; cruise missiles are powered throughout and fly low to evade radar; BrahMos is a supersonic cruise missile.",
+    "subject": "Science and Technology",
+    "theme": "Defence Technology - missiles and nuclear doctrine",
+    "micro_topic": "Ballistic vs cruise missiles",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_09_44",
+    "question_number": 44,
+    "question": "Among India's Agni series of missiles, which variant has the longest range, reaching intercontinental-class distances of over 5,000 km?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Agni-1"
+      },
+      {
+        "key": "b",
+        "text": "Agni-2"
+      },
+      {
+        "key": "c",
+        "text": "Agni-3"
+      },
+      {
+        "key": "d",
+        "text": "Agni-5"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Agni-5 is a long-range, three-stage, solid-fuelled ballistic missile with a range exceeding 5,000 km, the longest in the Agni ladder that runs from the short-range Agni-1 upward.",
+    "subject": "Science and Technology",
+    "theme": "Defence Technology - missiles and nuclear doctrine",
+    "micro_topic": "Agni missile range ladder",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_09_45",
+    "question_number": 45,
+    "question": "With reference to India's nuclear doctrine (2003), consider: 1. It rests on 'credible minimum deterrence' and a 'No First Use' posture. 2. Retaliation to a first strike will be massive and designed to inflict unacceptable damage. 3. Nuclear forces are managed by the Strategic Forces Command under the Nuclear Command Authority. Which is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All three are correct. India's 2003 doctrine adopts credible minimum deterrence, No First Use, and massive retaliation; the Nuclear Command Authority (Political and Executive Councils) directs the Strategic Forces Command, set up in 2003.",
+    "subject": "Science and Technology",
+    "theme": "Defence Technology - missiles and nuclear doctrine",
+    "micro_topic": "India's nuclear doctrine",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_09_46",
+    "question_number": 46,
+    "question": "According to NCERT's Contemporary World Politics, US hegemony operates in which of the following forms? 1. Hard power (military dominance) 2. Structural power (over the global economic architecture) 3. Soft power (cultural and ideological appeal)",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "The NCERT frames US hegemony in three senses: military (hard power), structural power over the world economy, and soft power (the appeal of American culture and ideas).",
+    "subject": "International Relations",
+    "theme": "US Hegemony and Alternative Centres of Power (NCERT-12 CWP Ch 3-4)",
+    "micro_topic": "Forms of US hegemony",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_09_47",
+    "question_number": 47,
+    "question": "The First Gulf War (1991), the US-led military operation against Iraq after its invasion of Kuwait, was code-named:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Operation Enduring Freedom"
+      },
+      {
+        "key": "b",
+        "text": "Operation Desert Storm"
+      },
+      {
+        "key": "c",
+        "text": "Operation Iraqi Freedom"
+      },
+      {
+        "key": "d",
+        "text": "Operation Infinite Reach"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The 1991 UN-mandated, US-led coalition action to expel Iraq from Kuwait was Operation Desert Storm. 'Operation Enduring Freedom' (Afghanistan, 2001) and 'Operation Iraqi Freedom' (2003) came later.",
+    "subject": "International Relations",
+    "theme": "US Hegemony and Alternative Centres of Power (NCERT-12 CWP Ch 3-4)",
+    "micro_topic": "First Gulf War 1991",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_09_48",
+    "question_number": 48,
+    "question": "The Association of Southeast Asian Nations (ASEAN) was established by the Bangkok Declaration of:",
+    "options": [
+      {
+        "key": "a",
+        "text": "1949"
+      },
+      {
+        "key": "b",
+        "text": "1961"
+      },
+      {
+        "key": "c",
+        "text": "1967"
+      },
+      {
+        "key": "d",
+        "text": "1991"
+      }
+    ],
+    "answer": "c",
+    "explanation": "ASEAN was founded in 1967 through the Bangkok Declaration by Indonesia, Malaysia, the Philippines, Singapore and Thailand.",
+    "subject": "International Relations",
+    "theme": "US Hegemony and Alternative Centres of Power (NCERT-12 CWP Ch 3-4)",
+    "micro_topic": "ASEAN origin",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_09_49",
+    "question_number": 49,
+    "question": "The European Union, in its present form, was established by the Treaty of:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Rome, 1957"
+      },
+      {
+        "key": "b",
+        "text": "Maastricht, 1992"
+      },
+      {
+        "key": "c",
+        "text": "Lisbon, 2007"
+      },
+      {
+        "key": "d",
+        "text": "Paris, 1951"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The Maastricht Treaty (1992) established the European Union and paved the way for the single currency (euro). The Treaty of Rome (1957) had earlier created the European Economic Community.",
+    "subject": "International Relations",
+    "theme": "US Hegemony and Alternative Centres of Power (NCERT-12 CWP Ch 3-4)",
+    "micro_topic": "European Union - Maastricht Treaty",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_09_50",
+    "question_number": 50,
+    "question": "Consider the following about ASEAN and India: 1. The three pillars of the ASEAN Community are the Political-Security, Economic, and Socio-Cultural Communities. 2. The ASEAN Regional Forum (ARF) is the platform for security-related dialogue. 3. India's 'Look East Policy' was later upgraded to the 'Act East Policy'. Which is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All three are correct: the ASEAN Community rests on the three pillars named; the ARF handles security dialogue; and India upgraded its Look East Policy to the Act East Policy in 2014.",
+    "subject": "International Relations",
+    "theme": "US Hegemony and Alternative Centres of Power (NCERT-12 CWP Ch 3-4)",
+    "micro_topic": "ASEAN structure and India's Act East",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  }
+]

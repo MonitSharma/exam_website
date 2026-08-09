@@ -1,0 +1,354 @@
+[
+  {
+    "question": "A string quartet playing a Beethoven composition in 1830 required four musicians and roughly forty minutes; the same performance today requires exactly the same four musicians and the same forty minutes. Over the intervening two centuries the productivity of a weaver, a farmer or a steelworker has multiplied many times over, but the productivity of the quartet has not moved at all. From this unremarkable observation the economist William Baumol drew a conclusion that continues to unsettle policy debate: in an economy where some sectors grow steadily more productive and others cannot, the costs of the stagnant sectors must rise relative to everything else, and must go on rising indefinitely.\n\nThe mechanism is not mysterious. Musicians, nurses and schoolteachers are not sealed off from the wider labour market; if wages in manufacturing climb with output per worker, the stagnant sectors must eventually match those wages or lose their people to other work. But they cannot pay for higher wages out of higher productivity, because there is none to be had. The bill therefore appears as price inflation in the affected services - which is to say, in health, education, live performance, policing and personal care.\n\nTwo conclusions are commonly drawn, and only one of them survives scrutiny. The first is that these sectors have become inefficient or badly managed, and that the remedy is discipline. The second is that they have become expensive precisely because the rest of the economy has become rich, and that a society growing wealthier should expect to spend an ever larger share of its income on the things machines cannot do faster. The first invites an endless search for waste that will not be found; the second invites an uncomfortable political question about what we are willing to fund. To complain that teaching costs more than it once did is, on this view, another way of saying that we have become more productive at everything else.\n\nQ. Which of the following best captures the central argument of the passage?",
+    "options": [
+      "(a) Public services such as health and education have grown wasteful and require stronger management discipline.",
+      "(b) Rising costs in labour-intensive services reflect productivity growth elsewhere in the economy rather than inefficiency within those services.",
+      "(c) Technology will eventually raise productivity in music, teaching and nursing just as it did in manufacturing.",
+      "(d) Wages in the stagnant sectors should be restrained in order to prevent inflation in essential services."
+    ],
+    "answer": "(b)",
+    "explanation": "The passage drives to the second of its two rival conclusions: these services grow costly precisely because the rest of the economy has become rich. (a) is the diagnosis explicitly rejected ('waste that will not be found'); (c) contradicts the premise of stagnant productivity; (d) is never recommended.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Main idea - economic passage (Baumol cost disease)",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "A string quartet playing a Beethoven composition in 1830 required four musicians and roughly forty minutes; the same performance today requires exactly the same four musicians and the same forty minutes. Over the intervening two centuries the productivity of a weaver, a farmer or a steelworker has multiplied many times over, but the productivity of the quartet has not moved at all. From this unremarkable observation the economist William Baumol drew a conclusion that continues to unsettle policy debate: in an economy where some sectors grow steadily more productive and others cannot, the costs of the stagnant sectors must rise relative to everything else, and must go on rising indefinitely.\n\nThe mechanism is not mysterious. Musicians, nurses and schoolteachers are not sealed off from the wider labour market; if wages in manufacturing climb with output per worker, the stagnant sectors must eventually match those wages or lose their people to other work. But they cannot pay for higher wages out of higher productivity, because there is none to be had. The bill therefore appears as price inflation in the affected services - which is to say, in health, education, live performance, policing and personal care.\n\nTwo conclusions are commonly drawn, and only one of them survives scrutiny. The first is that these sectors have become inefficient or badly managed, and that the remedy is discipline. The second is that they have become expensive precisely because the rest of the economy has become rich, and that a society growing wealthier should expect to spend an ever larger share of its income on the things machines cannot do faster. The first invites an endless search for waste that will not be found; the second invites an uncomfortable political question about what we are willing to fund. To complain that teaching costs more than it once did is, on this view, another way of saying that we have become more productive at everything else.\n\nQ. It can be inferred that a government which succeeded in freezing teachers' salaries while manufacturing wages continued to rise would most likely:",
+    "options": [
+      "(a) permanently eliminate the cost pressure the passage describes, since wages are the channel through which it operates.",
+      "(b) find it increasingly difficult to retain teachers, because the passage's mechanism runs through competition for labour between sectors.",
+      "(c) raise productivity in teaching, since a tighter budget forces more efficient use of resources.",
+      "(d) show that Baumol's argument holds only for privately provided services."
+    ],
+    "answer": "(b)",
+    "explanation": "The stated mechanism is labour mobility: the stagnant sectors 'must eventually match those wages or lose their people to other work'. Freezing pay simply selects the second branch. (a) is the trap - it suppresses measured cost while triggering attrition.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Inference - economic passage",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "A string quartet playing a Beethoven composition in 1830 required four musicians and roughly forty minutes; the same performance today requires exactly the same four musicians and the same forty minutes. Over the intervening two centuries the productivity of a weaver, a farmer or a steelworker has multiplied many times over, but the productivity of the quartet has not moved at all. From this unremarkable observation the economist William Baumol drew a conclusion that continues to unsettle policy debate: in an economy where some sectors grow steadily more productive and others cannot, the costs of the stagnant sectors must rise relative to everything else, and must go on rising indefinitely.\n\nThe mechanism is not mysterious. Musicians, nurses and schoolteachers are not sealed off from the wider labour market; if wages in manufacturing climb with output per worker, the stagnant sectors must eventually match those wages or lose their people to other work. But they cannot pay for higher wages out of higher productivity, because there is none to be had. The bill therefore appears as price inflation in the affected services - which is to say, in health, education, live performance, policing and personal care.\n\nTwo conclusions are commonly drawn, and only one of them survives scrutiny. The first is that these sectors have become inefficient or badly managed, and that the remedy is discipline. The second is that they have become expensive precisely because the rest of the economy has become rich, and that a society growing wealthier should expect to spend an ever larger share of its income on the things machines cannot do faster. The first invites an endless search for waste that will not be found; the second invites an uncomfortable political question about what we are willing to fund. To complain that teaching costs more than it once did is, on this view, another way of saying that we have become more productive at everything else.\n\nQ. The claim that costs in the stagnant sectors 'must go on rising indefinitely' rests most directly on the assumption that:",
+    "options": [
+      "(a) governments will continue to finance health and education largely from public revenue.",
+      "(b) productivity in those sectors will not be substantially raised by future technology.",
+      "(c) workers value income more highly than the intrinsic rewards of teaching or nursing.",
+      "(d) productivity growth in manufacturing will slow down in the coming decades."
+    ],
+    "answer": "(b)",
+    "explanation": "Negation test: if technology raised productivity in nursing or teaching, those sectors would cease to be stagnant and the indefinite rise would stop. (c) is weaker - the argument needs a claim about the labour market, not about preferences; (a) and (d) are irrelevant.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Assumption - economic passage",
+    "nature": "Aptitude",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Two drivers leave the same party equally drunk and drive home by the same route at the same speed. One arrives without incident and sleeps it off. The other, through no difference in judgement, skill or intention, rounds a corner at the moment a child steps into the road, and kills her. In law and in ordinary moral life we treat these two very differently: the first will be reproached, if at all, briefly; the second may be imprisoned, and will certainly be altered for the rest of his life. Yet the only difference between them lies in something entirely outside the control of either.\n\nThis is uncomfortable, because it collides with a principle most of us hold firmly: that people are properly praised or blamed only for what is up to them. If the child's presence on the road was up to neither driver, then the moral distance between them ought to be nothing at all. Reflection seems to demand that we assess both men by the quality of their decision to drive, and that we then find them identical.\n\nBut this is a conclusion almost nobody can actually inhabit. The second driver's remorse is not a confusion to be argued away; if he shrugged and observed that he had been no more reckless than his companion, we would find something monstrous in him, and we would be right to. The agent who has done harm stands in a relation to that harm which no accounting of intentions can dissolve.\n\nWhat follows is not that the control principle is false, but that our moral thinking is not a single system. It contains a demand for fairness that looks only at the will, and a response to what has actually happened that refuses to look away from the world. Neither can be surrendered, and the two do not reconcile.\n\nQ. Which of the following best captures the central idea of the passage?",
+    "options": [
+      "(a) Legal systems ought to punish the two drivers identically, since their intentions were identical.",
+      "(b) The second driver's remorse is irrational and should be dispelled by philosophical argument.",
+      "(c) Moral thought contains two commitments - judging by the will, and responding to what was actually done - neither of which can be reduced to the other.",
+      "(d) Because luck governs so much of human life, blame is never really justified."
+    ],
+    "answer": "(c)",
+    "explanation": "The final paragraph is the thesis: 'our moral thinking is not a single system... Neither can be surrendered, and the two do not reconcile.' (a) is what reflection seems to demand but nobody can inhabit; (b) is explicitly denied; (d) is never claimed.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Main idea - philosophical passage (moral luck)",
+    "nature": "Aptitude",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Two drivers leave the same party equally drunk and drive home by the same route at the same speed. One arrives without incident and sleeps it off. The other, through no difference in judgement, skill or intention, rounds a corner at the moment a child steps into the road, and kills her. In law and in ordinary moral life we treat these two very differently: the first will be reproached, if at all, briefly; the second may be imprisoned, and will certainly be altered for the rest of his life. Yet the only difference between them lies in something entirely outside the control of either.\n\nThis is uncomfortable, because it collides with a principle most of us hold firmly: that people are properly praised or blamed only for what is up to them. If the child's presence on the road was up to neither driver, then the moral distance between them ought to be nothing at all. Reflection seems to demand that we assess both men by the quality of their decision to drive, and that we then find them identical.\n\nBut this is a conclusion almost nobody can actually inhabit. The second driver's remorse is not a confusion to be argued away; if he shrugged and observed that he had been no more reckless than his companion, we would find something monstrous in him, and we would be right to. The agent who has done harm stands in a relation to that harm which no accounting of intentions can dissolve.\n\nWhat follows is not that the control principle is false, but that our moral thinking is not a single system. It contains a demand for fairness that looks only at the will, and a response to what has actually happened that refuses to look away from the world. Neither can be surrendered, and the two do not reconcile.\n\nQ. It can be inferred that the author regards the second driver's remorse as:",
+    "options": [
+      "(a) a psychological reaction carrying no moral significance.",
+      "(b) an appropriate response that a purely will-based account of blame cannot accommodate.",
+      "(c) evidence that he was, after all, more reckless than the first driver.",
+      "(d) a form of self-punishment that a humane society should discourage."
+    ],
+    "answer": "(b)",
+    "explanation": "The author calls the shrug 'monstrous' and says we would be 'right' to see it so - the remorse is fitting; yet it cannot be justified by intentions, which were identical. Hence a will-only account has no room for it.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Inference - philosophical passage",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Two drivers leave the same party equally drunk and drive home by the same route at the same speed. One arrives without incident and sleeps it off. The other, through no difference in judgement, skill or intention, rounds a corner at the moment a child steps into the road, and kills her. In law and in ordinary moral life we treat these two very differently: the first will be reproached, if at all, briefly; the second may be imprisoned, and will certainly be altered for the rest of his life. Yet the only difference between them lies in something entirely outside the control of either.\n\nThis is uncomfortable, because it collides with a principle most of us hold firmly: that people are properly praised or blamed only for what is up to them. If the child's presence on the road was up to neither driver, then the moral distance between them ought to be nothing at all. Reflection seems to demand that we assess both men by the quality of their decision to drive, and that we then find them identical.\n\nBut this is a conclusion almost nobody can actually inhabit. The second driver's remorse is not a confusion to be argued away; if he shrugged and observed that he had been no more reckless than his companion, we would find something monstrous in him, and we would be right to. The agent who has done harm stands in a relation to that harm which no accounting of intentions can dissolve.\n\nWhat follows is not that the control principle is false, but that our moral thinking is not a single system. It contains a demand for fairness that looks only at the will, and a response to what has actually happened that refuses to look away from the world. Neither can be surrendered, and the two do not reconcile.\n\nQ. The author's attitude towards the control principle (that people are properly praised or blamed only for what is up to them) is best described as:",
+    "options": [
+      "(a) dismissive - the principle is exposed as an illusion.",
+      "(b) wholly endorsing - the principle settles the case.",
+      "(c) respectful but qualified - the principle is retained, yet denied sole authority.",
+      "(d) indifferent - the author declines to take any position on it."
+    ],
+    "answer": "(c)",
+    "explanation": "'What follows is not that the control principle is false' - the principle survives, but as one of two irreducible demands rather than the whole of morality.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Tone / attitude - philosophical passage",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Six persons - A, B, C, D, E and F - sit around a circular table, all facing outward (away from the centre).\n(i) A sits third to the left of B.\n(ii) C sits second to the right of A.\n(iii) D is an immediate neighbour of B.\n(iv) E is not an immediate neighbour of C.\n\nQ. Who sits second to the right of D?",
+    "options": [
+      "(a) A",
+      "(b) E",
+      "(c) F",
+      "(d) C"
+    ],
+    "answer": "(a)",
+    "explanation": "Facing outward reverses the convention: right = clockwise. Number seats 1-6 clockwise, A = 1. (i) third to the left of B lands on A, so B = A+3 = 4. (ii) C = A+2 = 3. (iii) D neighbours B(4): seat 3 is C, so D = 5. (iv) C(3)'s neighbours are 2 and 4, so E is not at 2, giving E = 6 and F = 2. Order clockwise: A, F, C, B, D, E. Second to the right of D(5) = 6 then 1 = A. Trap: the facing-inward convention gives F.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Circular seating - facing outward",
+    "nature": "Aptitude",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Consider the statements to be true regardless of commonly known facts.\nStatements:\n1. Only a few pens are markers.\n2. All markers are inks.\nConclusions:\nI. Some pens are inks.\nII. Some pens are not inks.\n\nQ. Which of the conclusions follow?",
+    "options": [
+      "(a) Only conclusion I follows",
+      "(b) Only conclusion II follows",
+      "(c) Either I or II follows",
+      "(d) Both I and II follow"
+    ],
+    "answer": "(a)",
+    "explanation": "'Only a few pens are markers' means some pens are markers AND some pens are not markers. Some pens are markers + all markers are inks gives 'some pens are inks', so I follows. The non-marker pens may still be inks, so II is only a possibility. (c) is the bait: the either/or rule for a complementary pair applies only when neither conclusion follows on its own.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Syllogism - 'only a few' statements",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "In a certain code, each letter of a word is shifted forward in the alphabet by a number equal to its position in the word (1st letter by 1, 2nd letter by 2, and so on). For example, CAT is written as DCW.\n\nQ. How is LOGIC written in this code?",
+    "options": [
+      "(a) MQJMH",
+      "(b) MQJMG",
+      "(c) MQIMH",
+      "(d) NQJMH"
+    ],
+    "answer": "(a)",
+    "explanation": "L(12)+1 = M; O(15)+2 = Q; G(7)+3 = J; I(9)+4 = M; C(3)+5 = H, giving MQJMH. Example check: C+1 = D, A+2 = C, T+3 = W. Trap (b) shifts the last letter by 4 instead of 5.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Coding-decoding - position-dependent shift",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "In a family of six members A, B, C, D, E and F:\n(i) A and B are a married couple, A being the male member.\n(ii) D is the only son of C, who is B's brother.\n(iii) E is the sister of D.\n(iv) F is the sister of B.\n\nQ. How is E related to A?",
+    "options": [
+      "(a) Niece",
+      "(b) Daughter",
+      "(c) Sister-in-law",
+      "(d) Cannot be determined"
+    ],
+    "answer": "(a)",
+    "explanation": "A is male and married to B, so B is female. C is B's brother; D is C's only son and E is D's sister, hence C's daughter. E is therefore the daughter of A's wife's brother - A's niece. F is a distractor.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Blood relations - family narrative",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Ravi and Meera start from the same point O. Ravi walks 5 km north, then turns right and walks 12 km, and stops. Meera walks 9 km south, then turns left and walks 12 km, then turns left again and walks 4 km, and stops.\n\nQ. What is the shortest distance between their final positions, and in which direction is Meera from Ravi?",
+    "options": [
+      "(a) 10 km, due south",
+      "(b) 10 km, due north",
+      "(c) 14 km, due south",
+      "(d) 4 km, due south"
+    ],
+    "answer": "(a)",
+    "explanation": "Take O = (0,0), north = +y, east = +x. Ravi: (0,5) then right (east) 12 to (12,5). Meera: (0,-9), left (east) 12 to (12,-9), left again (north) 4 to (12,-5). Same x, so distance = 5 - (-5) = 10 km and Meera is due south. Trap (c) 14 km adds 5 + 9 and forgets Meera's final 4 km north.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Directions and distance - two movers",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "In the series below, exactly one term is wrong.\n3, 7, 16, 36, 74, 153, 312\n\nQ. Identify the wrong term.",
+    "options": [
+      "(a) 7",
+      "(b) 16",
+      "(c) 36",
+      "(d) 153"
+    ],
+    "answer": "(c)",
+    "explanation": "Rule: multiply by 2 and add a running count. 3x2+1 = 7; 7x2+2 = 16; 16x2+3 = 35, not 36 - so 36 is wrong. The rest are consistent with the correct value: 35x2+4 = 74; 74x2+5 = 153; 153x2+6 = 312.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Number series - find the wrong term",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Loans disbursed and non-performing assets (NPAs) of five branches of a bank, FY2025:\n\nBranch | Loans disbursed (Rs crore) | NPA as % of loans disbursed\nA | 1,400 | 4.0\nB | 900 | 6.5\nC | 1,600 | 3.5\nD | 700 | 8.0\nE | 1,100 | 5.0\n\nQ. Which branch has the largest NPA amount (in Rs crore)?",
+    "options": [
+      "(a) B",
+      "(b) C",
+      "(c) D",
+      "(d) E"
+    ],
+    "answer": "(a)",
+    "explanation": "NPA amount = loans x rate: A = 1400 x 4.0% = 56; B = 900 x 6.5% = 58.5; C = 1600 x 3.5% = 56; D = 700 x 8.0% = 56; E = 1100 x 5.0% = 55. Largest = B (58.5). Traps: C has the largest loan book and D the highest NPA rate, but three branches tie at exactly 56.",
+    "subject": "CSAT",
+    "theme": "DI",
+    "micro_topic": "Table - percentages applied to unequal bases",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Loans disbursed and non-performing assets (NPAs) of five branches of a bank, FY2025:\n\nBranch | Loans disbursed (Rs crore) | NPA as % of loans disbursed\nA | 1,400 | 4.0\nB | 900 | 6.5\nC | 1,600 | 3.5\nD | 700 | 8.0\nE | 1,100 | 5.0\n\nQ. Taking the five branches together, the combined NPA is approximately what percentage of the combined loans disbursed?",
+    "options": [
+      "(a) 4.9%",
+      "(b) 5.4%",
+      "(c) 5.7%",
+      "(d) 4.5%"
+    ],
+    "answer": "(a)",
+    "explanation": "Combined NPA = 56 + 58.5 + 56 + 56 + 55 = 281.5; combined loans = 1400 + 900 + 1600 + 700 + 1100 = 5700. 281.5/5700 = 4.94%, about 4.9%. Trap (b) 5.4% is the plain average of the five rates - invalid, since the two largest loan books carry the two lowest rates.",
+    "subject": "CSAT",
+    "theme": "DI",
+    "micro_topic": "Table - weighted vs simple average trap",
+    "nature": "Aptitude",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "A constituency has 60,000 registered voters. On polling day 75% of the registered voters cast their votes. Of the votes cast, 4% were declared invalid. Three candidates X, Y and Z contested. Of the valid votes, X received 45%, Y received 35%, and Z received the remainder.\n\nQ. By how many votes did X defeat Y?",
+    "options": [
+      "(a) 4,320",
+      "(b) 4,500",
+      "(c) 6,000",
+      "(d) 4,032"
+    ],
+    "answer": "(a)",
+    "explanation": "Votes cast = 75% of 60,000 = 45,000. Invalid = 4% of 45,000 = 1,800, so valid = 43,200. X = 45% of 43,200 = 19,440; Y = 35% = 15,120. Margin = 4,320 (equivalently 10 percentage points of 43,200). Trap (b) 4,500 applies the 10-point gap to votes cast instead of valid votes.",
+    "subject": "CSAT",
+    "theme": "DI",
+    "micro_topic": "Caselet - election percentages",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "A constituency has 60,000 registered voters. On polling day 75% of the registered voters cast their votes. Of the votes cast, 4% were declared invalid. Three candidates X, Y and Z contested. Of the valid votes, X received 45%, Y received 35%, and Z received the remainder.\n\nQ. The votes polled by X were what percentage of the total registered voters?",
+    "options": [
+      "(a) 45.0%",
+      "(b) 32.4%",
+      "(c) 33.75%",
+      "(d) 30.0%"
+    ],
+    "answer": "(b)",
+    "explanation": "X polled 19,440 of 60,000 registered voters = 32.4%. Chain check: 0.75 x 0.96 x 0.45 = 0.324. Trap (c) 33.75% ignores the 4% invalid votes; trap (a) 45% is X's share of valid votes, a different base.",
+    "subject": "CSAT",
+    "theme": "DI",
+    "micro_topic": "Caselet - identifying the correct base",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "You are the District Election Officer. Ten days before polling, a sitting MLA of the ruling party writes asking that a polling booth located in a small hamlet be shifted to a school three kilometres away, citing \"law and order concerns\". Your police and revenue field reports record no such threat, and the shift would force elderly voters to travel a distance served by no public transport. The MLA's office follows up with a telephone call from a senior officer in the state secretariat.\n\nQ. What is the most appropriate course of action?",
+    "options": [
+      "(a) Shift the booth as requested; ten days before polling it is prudent to avoid a confrontation with the ruling party and the secretariat.",
+      "(b) Refuse over the telephone and take the matter no further, since an improper request does not merit a written response.",
+      "(c) Record the request and your reasons on file, reject it as unsupported by any field report, report the matter to the Election Commission through the Chief Electoral Officer, and order a fresh joint security assessment of the hamlet so that the final decision rests on documented facts.",
+      "(d) Forward the request to the state government and implement whatever it decides, as the political sensitivity places the matter beyond your remit."
+    ],
+    "answer": "(c)",
+    "explanation": "Documentation plus verification, routed through the constitutionally correct channel (the ECI during an election). (a) yields to pressure and risks disenfranchising voters; (b) is right in substance but leaves no record; (d) abdicates a statutory function to the very government seeking the change.",
+    "subject": "CSAT",
+    "theme": "Decision-Making",
+    "micro_topic": "Political pressure and electoral integrity",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "A junior officer in your division has, without authorisation, given a journalist internal figures showing that a flagship housing scheme is eighteen months behind schedule. The figures are accurate. The story has embarrassed the department, and your senior wants the officer suspended immediately.\n\nQ. What would you do?",
+    "options": [
+      "(a) Suspend the officer at once - unauthorised disclosure is a serious breach and an example must be set.",
+      "(b) Shield the officer completely and refuse any inquiry, since the disclosure served the public interest.",
+      "(c) Follow due process - a fair inquiry into the unauthorised disclosure rather than pre-emptive suspension - while separately placing the accurate delay figures before the department and pressing for the revised timeline to be published.",
+      "(d) Issue a public denial to protect the department's reputation and quietly have the officer transferred."
+    ],
+    "answer": "(c)",
+    "explanation": "Separates the procedural breach from the substantive fact: due process for the disclosure, and correction of the real delay rather than of the messenger. (a) punishes before inquiry; (b) waives a rule a supervisor cannot waive; (d) adds a false public statement to a real failure.",
+    "subject": "CSAT",
+    "theme": "Decision-Making",
+    "micro_topic": "Unauthorised disclosure vs substantive truth",
+    "nature": "Aptitude",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "On taking charge of a new post you find that your predecessor - now your immediate reporting senior - sanctioned several small payments to a vendor without the required competitive process. The amounts are modest, the work appears to have been done, and no one has complained. Raising the matter will strain a working relationship you depend on.\n\nQ. What is the best course of action?",
+    "options": [
+      "(a) Let it pass: the sums are small, the work was done, and a functioning relationship with your senior matters more.",
+      "(b) Pass the papers anonymously to a journalist so that the irregularity becomes public without your name attached.",
+      "(c) Regularise the payments quietly under your own signature so the file is closed and the deviation disappears.",
+      "(d) Record the deviation on the file, seek ex-post-facto approval from the competent authority as the rules provide, put a corrected procurement procedure in place going forward, and inform your senior of the steps being taken."
+    ],
+    "answer": "(d)",
+    "explanation": "Rule-abiding and constructive: the deviation goes on record, the route the rules already provide is used, the process is fixed prospectively, and the senior is informed transparently. (a) makes you complicit; (b) bypasses every legitimate channel; (c) uses your own signature to erase someone else's lapse.",
+    "subject": "CSAT",
+    "theme": "Decision-Making",
+    "micro_topic": "Inherited irregularity and a senior's conflict",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "In an examination the average mark of the boys in a class was 68 and that of the girls was 82. The average for the whole class was 76. If there are 15 more girls than boys, how many students are there in the class?",
+    "options": [
+      "(a) 105",
+      "(b) 90",
+      "(c) 120",
+      "(d) 75"
+    ],
+    "answer": "(a)",
+    "explanation": "Alligation: boys : girls = |82-76| : |76-68| = 6 : 8 = 3 : 4. Girls exceed boys by 1 part = 15, so boys = 45, girls = 60, total = 105. Check: 45x68 + 60x82 = 3060 + 4920 = 7980; 7980/105 = 76. Trap (d) 75 reverses the ratio.",
+    "subject": "CSAT",
+    "theme": "Quant",
+    "micro_topic": "Averages and alligation",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "What is the remainder when 5^99 is divided by 13?",
+    "options": [
+      "(a) 5",
+      "(b) 8",
+      "(c) 12",
+      "(d) 1"
+    ],
+    "answer": "(b)",
+    "explanation": "Powers of 5 mod 13: 5, 25=12, 60=8, 40=1 - the order is 4. Since 99 = 4x24 + 3, 5^99 = 5^3 = 125 = 13x9 + 8, so the remainder is 8. Direct check: 5^4 = 625 = 13x48 + 1.",
+    "subject": "CSAT",
+    "theme": "Quant",
+    "micro_topic": "Modular arithmetic / cyclicity of remainders",
+    "nature": "Aptitude",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "An escalator is moving downwards at a constant speed. A man walking down it reaches the bottom in 60 steps, while a man walking up the same escalator reaches the top in 140 steps. Both men take steps at the same rate.\n\nQ. How many steps are visible when the escalator is switched off?",
+    "options": [
+      "(a) 84",
+      "(b) 100",
+      "(c) 90",
+      "(d) 96"
+    ],
+    "answer": "(a)",
+    "explanation": "Let k = escalator speed / man's speed and N = total steps. Walking down (escalator helps): N = 60(1+k). Walking up (escalator opposes): N = 140(1-k). Equating: 60 + 60k = 140 - 140k, so 200k = 80 and k = 0.4. N = 60 x 1.4 = 84 (check 140 x 0.6 = 84). Trap (b) 100 is the plain average; the correct value is the harmonic mean 2x60x140/200 = 84.",
+    "subject": "CSAT",
+    "theme": "Quant",
+    "micro_topic": "Escalator / relative speed",
+    "nature": "Aptitude",
+    "difficulty": "Hard"
+  }
+]

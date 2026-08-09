@@ -1,0 +1,682 @@
+[
+  {
+    "id": "weekly_quiz_2026_08_07_1",
+    "question_number": 1,
+    "question": "The Union Cabinet extended PM-KISAN to 2030-31 with a Rs 3.15 lakh crore outlay. Which statement is correct?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "It is a Centrally Sponsored Scheme with 60:40 Centre–State sharing"
+      },
+      {
+        "key": "b",
+        "text": "It is a Central Sector Scheme with 100% Union funding, paying Rs 6,000/year in three instalments"
+      },
+      {
+        "key": "c",
+        "text": "The annual benefit was raised from Rs 6,000 to Rs 10,000 under the new outlay"
+      },
+      {
+        "key": "d",
+        "text": "It is administered by the Ministry of Rural Development"
+      }
+    ],
+    "answer": "b",
+    "explanation": "PM-KISAN is a Central Sector Scheme (100% Union-funded, no State share); benefit stays Rs 6,000/year in three Rs 2,000 instalments via DBT; nodal ministry is Agriculture & Farmers' Welfare.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_07_2",
+    "question_number": 2,
+    "question": "India's first Telecom Manufacturing Zone (TMZ), cleared via a DoT–State MoU this week, is coming up at:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Sanand, Gujarat"
+      },
+      {
+        "key": "b",
+        "text": "Gwalior, Madhya Pradesh"
+      },
+      {
+        "key": "c",
+        "text": "Sriperumbudur, Tamil Nadu"
+      },
+      {
+        "key": "d",
+        "text": "Tumakuru, Karnataka"
+      }
+    ],
+    "answer": "b",
+    "explanation": "India's first Telecom Manufacturing Zone is a 350-acre plug-and-play cluster at Gwalior, Madhya Pradesh (DoT–MP MoU, Phase-I 100% central funding of Rs 493 crore).",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_07_3",
+    "question_number": 3,
+    "question": "The Cabinet's Rs 36,441-crore expansion of Khelo India introduced two new school-based components and is anchored to two upcoming events. Which pairing is correct?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "KIFS & KIUV; hosting CWG 2030 and bidding for Olympics 2036"
+      },
+      {
+        "key": "b",
+        "text": "KISS & KIST; hosting Asian Games 2030 and Olympics 2032"
+      },
+      {
+        "key": "c",
+        "text": "KIFS & KIUV; hosting Olympics 2036 and bidding for CWG 2038"
+      },
+      {
+        "key": "d",
+        "text": "KIUV & KIST; hosting CWG 2026 and Asian Games 2030"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The Rs 36,441-cr Khelo India expansion added Khelo India Feeder Schools (KIFS) and Khelo India Utkrishta Vidyalayas (KIUV); funding is anchored to hosting CWG 2030 and the Olympics 2036 bid. Nodal ministry: Youth Affairs & Sports.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_07_4",
+    "question_number": 4,
+    "question": "On the NavIC / IRNSS constellation, consider:",
+    "statements": [
+      "It is designed as a 7-satellite system — 3 in geostationary and 4 in inclined geosynchronous orbit.",
+      "A receiver needs a minimum of four satellites because it solves for four unknowns, including its own clock bias.",
+      "It offers global coverage comparable to GPS and BeiDou."
+    ],
+    "tail": "Which are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "NavIC/IRNSS is a 7-satellite (3 GEO + 4 GSO) *regional* system covering India + ~1,500 km beyond — not global (statement 3 wrong). Four satellites are needed to solve x, y, z and receiver clock bias.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_07_5",
+    "question_number": 5,
+    "question": "Match India's maritime doctrine ladder with its year of articulation:",
+    "statements": [
+      "SAGAR — i. 2026",
+      "MAHASAGAR — ii. 2015",
+      "SHANTI — iii. 2025"
+    ],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "1-ii, 2-iii, 3-i"
+      },
+      {
+        "key": "b",
+        "text": "1-i, 2-ii, 3-iii"
+      },
+      {
+        "key": "c",
+        "text": "1-iii, 2-i, 3-ii"
+      },
+      {
+        "key": "d",
+        "text": "1-ii, 2-i, 3-iii"
+      }
+    ],
+    "answer": "a",
+    "explanation": "SAGAR (2015) → MAHASAGAR (2025) → SHANTI (2026), the last being the operational norms-based maritime governance framework piloted in the Bay of Bengal.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_07_6",
+    "question_number": 6,
+    "question": "The Supreme Court this week quashed the 2021 Office Memorandum on ex post facto (retrospective) environmental clearances, holding that:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "All retrospective clearances are permanently and absolutely barred"
+      },
+      {
+        "key": "b",
+        "text": "Prior EC under the EIA Notification 2006 is mandatory, and any amnesty must come via statutory notification under Section 3 of the Environment (Protection) Act, 1986 — not an administrative order"
+      },
+      {
+        "key": "c",
+        "text": "The power to grant retrospective clearances lies solely with the National Green Tribunal"
+      },
+      {
+        "key": "d",
+        "text": "The 2021 OM was upheld as a valid exercise of executive discretion"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The Court held prior EC under the EIA Notification 2006 is mandatory; any retrospective amnesty needs a statutory notification under Section 3 of the EP Act, 1986, not an OM. It allowed only a narrow, time-bound, supervised window — not an absolute bar (so (a) is wrong).",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_07_7",
+    "question_number": 7,
+    "question": "'Samudra Manthan', the Rs 84,084-crore scheme cleared this week, is a Central Sector Scheme of which ministry, for what purpose?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Ministry of Ports, Shipping & Waterways — port modernisation"
+      },
+      {
+        "key": "b",
+        "text": "Ministry of Petroleum & Natural Gas — deepwater and ultra-deepwater oil & gas exploration"
+      },
+      {
+        "key": "c",
+        "text": "Ministry of Earth Sciences — deep-ocean mineral mining"
+      },
+      {
+        "key": "d",
+        "text": "Ministry of Fisheries — offshore aquaculture"
+      }
+    ],
+    "answer": "b",
+    "explanation": "'Samudra Manthan' is a Central Sector Scheme of the Ministry of Petroleum & Natural Gas (Rs 84,084 cr to FY2030-31) for deepwater/ultra-deepwater oil & gas exploration; targets >600 MMTOE reserve accretion.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_07_8",
+    "question_number": 8,
+    "question": "On the ILO Convention No. 193 (\"Decent Work in the Platform Economy\"), adopted this week, consider:",
+    "statements": [
+      "It is the first legally binding international labour standard specific to the platform/gig economy.",
+      "India voted against the Convention.",
+      "The ILO is the only tripartite agency of the UN."
+    ],
+    "tail": "Which are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "C-193 is the first binding standard for the platform economy, and the ILO is the only tripartite UN agency. India abstained (it did not vote against) — so statement 2 is wrong.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_07_9",
+    "question_number": 9,
+    "question": "The Centre front-loaded Rs 1,09,019 crore of tax devolution to States this week — the first year of the 16th Finance Commission award period. Which is correct?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "The 16th FC is chaired by N.K. Singh; vertical share raised to 50%"
+      },
+      {
+        "key": "b",
+        "text": "The 16th FC is chaired by Arvind Panagariya; vertical share retained at 41%; award period 2026–31"
+      },
+      {
+        "key": "c",
+        "text": "Devolution is tied money that States must spend on capex"
+      },
+      {
+        "key": "d",
+        "text": "The award period is 2025–30 with a 42% vertical share"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The 16th FC (Arvind Panagariya), award period 2026–31, kept the vertical share at 41%; devolution is untied money, so (c) is wrong.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_07_10",
+    "question_number": 10,
+    "question": "The Pradhan Mantri Surya Sarovar Yojana (PM-SSY) approved this week targets ~5,000 MW of capacity. Its defining design feature is:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Rooftop solar with net metering on government buildings"
+      },
+      {
+        "key": "b",
+        "text": "Floating Solar PV (FSPV) co-located with mandatory energy storage, under MNRE"
+      },
+      {
+        "key": "c",
+        "text": "Ground-mounted solar parks in desert regions"
+      },
+      {
+        "key": "d",
+        "text": "Concentrated solar thermal with molten-salt storage"
+      }
+    ],
+    "answer": "b",
+    "explanation": "PM-SSY (Rs 5,070 cr, MNRE) builds Floating Solar PV with mandatory energy storage (≥2 hours) — a land-neutral, grid-firming design, not plain capacity.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_07_11",
+    "question_number": 11,
+    "question": "Glaw Lake, designated this week, is notable because it is:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "India's 101st Ramsar Site and Arunachal Pradesh's first, lying inside the Kamlang Tiger Reserve"
+      },
+      {
+        "key": "b",
+        "text": "India's 75th Ramsar Site and Assam's first"
+      },
+      {
+        "key": "c",
+        "text": "A newly declared biosphere reserve in Sikkim"
+      },
+      {
+        "key": "d",
+        "text": "India's largest freshwater lake, in Manipur"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Glaw Lake (Lohit district) is India's 101st Ramsar Site and Arunachal Pradesh's first, lying inside the Kamlang Tiger Reserve.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_07_12",
+    "question_number": 12,
+    "question": "Which of the following did India do this week? Consider:",
+    "statements": [
+      "Signed two INR-denominated Lines of Credit with Sri Lanka (railways and livestock).",
+      "The Environmental Performance Index (EPI) 2026 ranked India 176th of 177.",
+      "The Pacific nation Nauru formally became the Republic of Naoero."
+    ],
+    "tail": "Which are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All three occurred this week: the two INR LoCs to Sri Lanka (USD 250 mn railways + USD 100 mn livestock), EPI 2026 ranking India 176/177, and Nauru becoming the Republic of Naoero.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_07_13",
+    "question_number": 13,
+    "question": "India has how many Particularly Vulnerable Tribal Groups (PVTGs), and which ministry runs the scheme for their development?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "52 PVTGs; Ministry of Social Justice & Empowerment"
+      },
+      {
+        "key": "b",
+        "text": "75 PVTGs; Ministry of Tribal Affairs"
+      },
+      {
+        "key": "c",
+        "text": "705 PVTGs; Ministry of Rural Development"
+      },
+      {
+        "key": "d",
+        "text": "89 PVTGs; Ministry of Home Affairs"
+      }
+    ],
+    "answer": "b",
+    "explanation": "There are 75 PVTGs (of 705 Scheduled Tribes), and the Ministry of Tribal Affairs runs the Development of PVTGs scheme. First identified in 1975 (52) + 1993 (23).",
+    "subject": "Society",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_07_14",
+    "question_number": 14,
+    "question": "The concept of Sanskritisation — a lower caste emulating the customs of a higher caste to raise its social status — was coined by:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "G.S. Ghurye"
+      },
+      {
+        "key": "b",
+        "text": "B.R. Ambedkar"
+      },
+      {
+        "key": "c",
+        "text": "M.N. Srinivas"
+      },
+      {
+        "key": "d",
+        "text": "André Béteille"
+      }
+    ],
+    "answer": "c",
+    "explanation": "M.N. Srinivas coined *Sanskritisation* (and also the \"dominant caste\" and \"Westernisation\" concepts).",
+    "subject": "Society",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_07_15",
+    "question_number": 15,
+    "question": "According to NFHS-5 (2019-21), the all-India sex ratio (females per 1000 males) for the total population:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Fell below 940 for the first time"
+      },
+      {
+        "key": "b",
+        "text": "Crossed 1000 for the first time, reaching 1020"
+      },
+      {
+        "key": "c",
+        "text": "Remained unchanged from NFHS-4 at 991"
+      },
+      {
+        "key": "d",
+        "text": "Was 943, matching the 2011 Census"
+      }
+    ],
+    "answer": "b",
+    "explanation": "NFHS-5 recorded an all-India sex ratio of 1020 females per 1000 males — the first time it crossed 1000 (up from 991 in NFHS-4). Note: this is the *total-population* ratio, not sex ratio at birth.",
+    "subject": "Society",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_07_16",
+    "question_number": 16,
+    "question": "In Indian sociology, the \"dominant caste\" (a caste that wields decisive economic and political power in a village) is a concept associated with:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Louis Dumont"
+      },
+      {
+        "key": "b",
+        "text": "M.N. Srinivas"
+      },
+      {
+        "key": "c",
+        "text": "Irawati Karve"
+      },
+      {
+        "key": "d",
+        "text": "David Hardiman"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The \"dominant caste\" concept is M.N. Srinivas's, from his study of Rampura village, Karnataka.",
+    "subject": "Society",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_07_17",
+    "question_number": 17,
+    "question": "The demographic dividend refers to:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "A rise in per-capita income caused solely by rural-to-urban migration"
+      },
+      {
+        "key": "b",
+        "text": "The growth potential from a rising share of working-age population (15–64) relative to dependents"
+      },
+      {
+        "key": "c",
+        "text": "The dividend paid by public-sector firms from population-linked schemes"
+      },
+      {
+        "key": "d",
+        "text": "The fall in total fertility rate below replacement level"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The demographic dividend is the growth potential from a rising share of the working-age population (15–64) relative to dependents.",
+    "subject": "Society",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_07_18",
+    "question_number": 18,
+    "question": "Consider the following on India's Scheduled Tribes:",
+    "statements": [
+      "The President specifies STs for a State/UT under Article 342, in consultation with the Governor.",
+      "There is a single national list of Scheduled Tribes applicable uniformly across all States.",
+      "\"Tribe\" is not defined anywhere in the Constitution."
+    ],
+    "tail": "Which are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Article 342 lets the President specify STs in consultation with the Governor (1 correct); the Constitution does not define \"tribe\" (3 correct). Lists are State-specific, not a single uniform national list (2 wrong).",
+    "subject": "Society",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_07_19",
+    "question_number": 19,
+    "question": "Replacement-level fertility — the Total Fertility Rate at which a population exactly replaces itself from one generation to the next — is conventionally taken as:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "1.5"
+      },
+      {
+        "key": "b",
+        "text": "2.1"
+      },
+      {
+        "key": "c",
+        "text": "3.0"
+      },
+      {
+        "key": "d",
+        "text": "2.5"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Replacement-level fertility is a TFR of 2.1. (India's TFR is now below this, ~2.0.)",
+    "subject": "Society",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_07_20",
+    "question_number": 20,
+    "question": "The distinction between communalism and communitarianism / secularism is a recurring Society theme. Which statement best captures the Indian constitutional model of secularism?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Strict separation of religion and state, with the state having no engagement with any religion (the \"wall of separation\")"
+      },
+      {
+        "key": "b",
+        "text": "\"Principled distance\" — the state may engage with religion, intervening or abstaining to promote equality, liberty and social reform"
+      },
+      {
+        "key": "c",
+        "text": "A theocratic state privileging the majority religion"
+      },
+      {
+        "key": "d",
+        "text": "The state must fund all religions equally in proportion to their population"
+      }
+    ],
+    "answer": "b",
+    "explanation": "India follows \"principled distance\" (Rajeev Bhargava's term) — the state may engage with or distance itself from religion to advance equality, liberty and reform — not the strict \"wall of separation\" (a). RP1. (i) Parliament passed the Supreme Court (Number of Judges) Amendment Bill, 2026, raising sanctioned strength from 34 to 38 (amending the 1956 Act, not the Constitution). (ii) The SC held that domestic cruelty (Section 498A IPC ≡ Sections 85–86 BNS 2023) extends to women in live-in relationships \"in the nature of marriage.\" RP2. GOBARdhan — the National Circular Bioenergy Scheme (Rs 23,731 crore, 10 years). It scales up Compressed Biogas (CBG) production (administered price Rs 2,110/MMBTU + CBG Blending Obligation), fixing the offtake/price failures that limited the earlier SATAT initiative. --- *Scoring guide: 16–20 strong recall · 11–15 revise weak areas · ≤10 re-read this week's CA + PIB digests and your Society (NCERT Sociology XI–XII) notes. Next week's static subject: Polity & Governance (rotation restarts).*",
+    "subject": "Society",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  }
+]

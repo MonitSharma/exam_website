@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to India's recently announced milestone of crossing 300 GW of installed non-fossil-fuel power capacity, consider the following statements:\n1. Non-fossil-fuel capacity, as officially reported, includes nuclear power in addition to renewable energy sources.\n2. Solar is the single largest contributor to India's installed renewable energy capacity.\n3. India's target under the Panchamrit commitments is to reach 500 GW of non-fossil-fuel energy capacity by 2030.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. Non-fossil capacity as officially reported covers renewable energy plus nuclear power (RE about 288.58 GW and nuclear about 8.78 GW as on 30 June 2026). Solar, at roughly 162 GW, is the largest single renewable source, ahead of wind and large hydro. The Panchamrit commitments announced at COP26 set a target of 500 GW of non-fossil-fuel energy capacity by 2030; India has already crossed the 50 per cent non-fossil share of installed capacity ahead of schedule.",
+    "subject": "Environment",
+    "theme": "Renewable energy and climate commitments",
+    "micro_topic": "India's non-fossil fuel installed capacity and Panchamrit targets",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements regarding the Post-Matric Scholarship Scheme for Scheduled Caste students:\n1. It is a Central Sector Scheme fully funded and directly implemented by the Union Government without State participation.\n2. It supports students pursuing education beyond the matriculation stage.\n3. Since 2021-22, scholarship amounts are transferred to beneficiaries in Direct Benefit Transfer mode.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 2 only"
+    ],
+    "answer": "(b)",
+    "explanation": "Statement 1 is incorrect: the Post-Matric Scholarship for Scheduled Castes is a Centrally Sponsored Scheme implemented through State Governments and Union Territory Administrations, with the Centre releasing its committed share, not a Central Sector Scheme. Statement 2 is correct, as 'post-matric' refers to education beyond Class X. Statement 3 is correct: the scheme runs in DBT mode from 2021-22, and release of the central share depends on States and UTs uploading finally verified payment data on the National Scholarship Portal.",
+    "subject": "Polity & Governance",
+    "theme": "Welfare schemes for vulnerable sections",
+    "micro_topic": "Post-Matric Scholarship for Scheduled Castes and DBT delivery",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The BioE3 Policy, seen in the news, is associated with which of the following?",
+    "options": [
+      "(a) A framework of the Ministry of Environment, Forest and Climate Change for access and benefit sharing from biological resources",
+      "(b) A policy of the Department of Biotechnology for high-performance biomanufacturing covering the economy, environment and employment",
+      "(c) A scheme of the Ministry of New and Renewable Energy for bio-energy and compressed biogas plants",
+      "(d) An initiative of the Ministry of Agriculture for climate-resilient seed varieties developed through genome editing"
+    ],
+    "answer": "(b)",
+    "explanation": "BioE3 stands for Biotechnology for Economy, Environment and Employment. It was approved by the Union Cabinet in August 2024 and is implemented by the Department of Biotechnology under the Ministry of Science and Technology to promote high-performance biomanufacturing across six thematic sectors, including bio-based chemicals and enzymes, smart proteins, precision biotherapeutics, climate-resilient agriculture, carbon capture and utilisation, and marine and space biotechnology. It underpins the goal of a one trillion dollar bioeconomy by 2047. Option (a) describes the Access and Benefit Sharing mechanism under the Biological Diversity Act, and option (c) confuses it with bio-energy programmes such as GOBARdhan and SATAT.",
+    "subject": "Science & Technology",
+    "theme": "Biotechnology policy and bioeconomy",
+    "micro_topic": "BioE3 Policy and biomanufacturing",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]

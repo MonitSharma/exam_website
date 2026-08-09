@@ -1,0 +1,114 @@
+[
+  {
+    "question": "The Taxation and Other Laws (Amendment) Bill, 2026, recently passed by the Lok Sabha, enables the Central Government to permit banks and payment service providers to levy charges on UPI transactions. Which statute did it amend to do so?",
+    "options": [
+      "(a) The Income-tax Act, 2025",
+      "(b) The Payment and Settlement Systems Act, 2007",
+      "(c) The Reserve Bank of India Act, 1934",
+      "(d) The Banking Regulation Act, 1949"
+    ],
+    "answer": "(b)",
+    "explanation": "The Bill amends the Payment and Settlement Systems Act, 2007, replacing the existing prohibition on levying charges with a power for the Centre to permit charges (i.e. MDR) on UPI and other notified electronic payment modes. It also amends the Income-tax Act, 2025 and the Finance Act, 2026 for unrelated provisions.",
+    "subject": "Economy",
+    "theme": "Digital payments and taxation reform",
+    "micro_topic": "Taxation and Other Laws (Amendment) Bill, 2026; Lok Sabha passage 7 August 2026; MDR on UPI via Payment and Settlement Systems Act, 2007",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Chandipura virus, recently in the news, consider the following statements:\n1. It belongs to the family Rhabdoviridae, the same family as the rabies virus.\n2. It is transmitted primarily by the Aedes aegypti mosquito.\n3. It causes acute encephalitis syndrome predominantly in children under 15 years of age.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "Chandipura virus is of the family Rhabdoviridae, genus Vesiculovirus (the rabies family), and causes acute encephalitis syndrome overwhelmingly in children under 15. Statement 2 is wrong: the vector is the female phlebotomine sandfly of the Phlebotomus genus, not a mosquito.",
+    "subject": "Science & Technology",
+    "theme": "Vector-borne disease outbreaks and surveillance",
+    "micro_topic": "Chandipura Virus Disease outbreak in Gujarat and Rajasthan, August 2026; NJORT deployment; NCDC PHEOC activation; One Health approach",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Veeragallu (hero stone) recently unearthed at Neeragunda village in Arsikere taluk, Karnataka, is associated with the death of which of the following rulers?",
+    "options": [
+      "(a) Vikramaditya VI of the Western Chalukyas",
+      "(b) Vishnuvardhana of the Hoysalas",
+      "(c) Rajendra Chola I of the Cholas",
+      "(d) Krishnadevaraya of the Vijayanagara empire"
+    ],
+    "answer": "(b)",
+    "explanation": "The 12th-century Old Kannada inscription was erected by Maravve in memory of her husband Boppa, a Hoysala soldier who died shortly after King Vishnuvardhana's death at Bankapura. It dates the king's death to 11 December 1141 CE, against the 1149 CE or 1152 CE previously proposed.",
+    "subject": "Art & Culture",
+    "theme": "Epigraphy and medieval South Indian dynasties",
+    "micro_topic": "Veeragallu at Neeragunda, Karnataka, August 2026; Hoysala ruler Vishnuvardhana; Battle of Talakad 1116 CE; Chennakeshava Temple, Belur",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the recent assessment of El Nino and the Indian monsoon by the Ministry of Earth Sciences, consider the following statements:\n1. Since 1950, fewer than half of all El Nino years have produced below-normal Indian monsoon rainfall.\n2. India's ENSO assessment is produced by the Indian National Centre for Ocean Information Services, headquartered at Hyderabad.\n3. The IMD's Second Stage Long Range Forecast for 2026 placed seasonal rainfall above the Long Period Average.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Of 16 El Nino years since 1950, only 7 saw below-normal Indian monsoon rainfall, so statement 1 is correct. INCOIS, headquartered at Hyderabad under the Ministry of Earth Sciences, produces the ENSO assessment using an indigenous AI/ML system, so 2 is correct. Statement 3 is wrong: the Second Stage forecast revised rainfall down to 90 per cent of LPA (plus or minus 4 per cent), which is below normal.",
+    "subject": "Geography",
+    "theme": "Climatology and monsoon forecasting",
+    "micro_topic": "INCOIS El Nino persistence forecast 70-90 per cent to February 2027; IMD Long Range Forecast revised from 92 to 90 per cent of LPA, 2026; Mission Mausam",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "'Mission 500' and 'TRUST', both referred to in the 200th Report of the Department Related Parliamentary Standing Committee on Commerce, denote respectively:",
+    "options": [
+      "(a) A target for doubling India's total merchandise exports, and a framework for tariff dispute settlement at the WTO",
+      "(b) A target of USD 500 billion in India-US bilateral trade by 2030, and an India-US framework for cooperation in critical and emerging technologies",
+      "(c) A programme to onboard 500 million users onto UPI, and a digital trust framework under the DPDP Act, 2023",
+      "(d) A defence offsets target under Make in India, and an India-US technology safeguards agreement"
+    ],
+    "answer": "(b)",
+    "explanation": "Mission 500 is the India-US commitment to double bilateral trade to USD 500 billion by 2030; TRUST stands for Transforming the Relationship Utilizing Strategic Technology, covering AI, semiconductors, quantum computing, biotechnology, defence, energy and space. Both were announced in February 2025.",
+    "subject": "International Relations",
+    "theme": "India-US economic and technology partnership",
+    "micro_topic": "200th Report of the Parliamentary Standing Committee on Commerce, 'Evaluation of India-US Trade Relations', tabled 6 August 2026; Mission 500 and TRUST",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the Quit India Movement, consider the following statements:\n1. The Quit India Resolution was passed by the All India Congress Committee at Bombay on 8 August 1942.\n2. Gandhi gave the call of 'Do or Die' on the occasion.\n3. The Congress Working Committee leadership remained at liberty throughout the movement and directed it from Bombay.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "The AICC passed the Quit India Resolution at Gowalia Tank, Bombay on 8 August 1942, and Gandhi issued the 'Do or Die' call in his speech. Statement 3 is wrong: Gandhi and the entire Congress Working Committee were arrested in the early hours of 9 August 1942, and the movement thereafter was largely leaderless and spontaneous.",
+    "subject": "Modern History",
+    "theme": "National movement, 1939-1947",
+    "micro_topic": "Quit India Movement 1942; Gowalia Tank AICC session; 'Do or Die'; arrest of Congress leadership on 9 August 1942",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the Department Related Parliamentary Standing Committees in India, consider the following statements:\n1. There are 24 such committees, of which 16 are serviced by the Lok Sabha Secretariat and 8 by the Rajya Sabha Secretariat.\n2. Each committee has 31 members, of whom 21 are from the Lok Sabha and 10 from the Rajya Sabha.\n3. A Minister is eligible to be nominated as a member of such a committee.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "There are 24 DRSCs, 16 under the Lok Sabha and 8 under the Rajya Sabha, each with 31 members (21 Lok Sabha members nominated by the Speaker and 10 Rajya Sabha members nominated by the Chairman) and a one-year term. Statement 3 is wrong: a Minister cannot be appointed to a DRSC, and a member who becomes a Minister ceases to be one.",
+    "subject": "Polity & Governance",
+    "theme": "Parliament and parliamentary committees",
+    "micro_topic": "Department Related Parliamentary Standing Committees; composition, term and the bar on Ministers; system operational from April 1993",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  }
+]
