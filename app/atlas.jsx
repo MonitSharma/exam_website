@@ -309,6 +309,23 @@ function AtlasModeSwitch({ mode, onChange }) {
   </div>;
 }
 
+// Places-in-News data grows by roughly a week of entries every Sunday, so it
+// lives in data/atlas/news.json and is fetched when the Atlas opens rather than
+// riding along in app.bundle.js for every visitor.
+let atlasNewsPromise = null;
+function loadAtlasNews() {
+  if (!atlasNewsPromise) {
+    atlasNewsPromise = fetch("data/atlas/news.json").then((response) => {
+      if (!response.ok) throw new Error("Places in News data could not be loaded.");
+      return response.json();
+    }).then((data) => ({
+      weeks: Array.isArray(data.weeks) ? data.weeks : [],
+      features: Array.isArray(data.features) ? data.features : [],
+    }));
+  }
+  return atlasNewsPromise;
+}
+
 let atlasHistoryPromise = null;
 function loadAtlasHistory() {
   if (!atlasHistoryPromise) {
@@ -753,16 +770,33 @@ function CurrentAtlas({ onModeChange }) {
   const [scope, setScope] = useStateAtlas("world");
   const [activeLayers, setActiveLayers] = useStateAtlas(["current"]);
   const [query, setQuery] = useStateAtlas("");
-  const [weekId, setWeekId] = useStateAtlas(window.ATLAS_NEWS_WEEKS[0].id);
+  const [news, setNews] = useStateAtlas(null);
+  const [newsError, setNewsError] = useStateAtlas("");
+  const [weekId, setWeekId] = useStateAtlas("");
   const [riverSystem, setRiverSystem] = useStateAtlas("all");
-  const [selected, setSelected] = useStateAtlas(window.ATLAS_NEWS_FEATURES.find((item) => item.weekId === window.ATLAS_NEWS_WEEKS[0].id && item.scope === "world"));
+  const [selected, setSelected] = useStateAtlas(null);
+
+  const newsWeeks = news?.weeks || [];
+  const newsFeatures = news?.features || [];
+
+  useEffectAtlas(() => {
+    let cancelled = false;
+    loadAtlasNews().then((loaded) => {
+      if (cancelled) return;
+      setNews(loaded);
+      const firstWeek = loaded.weeks[0]?.id || "";
+      setWeekId(firstWeek);
+      setSelected(loaded.features.find((item) => item.weekId === firstWeek && item.scope === "world") || null);
+    }).catch((error) => { if (!cancelled) setNewsError(error.message); });
+    return () => { cancelled = true; };
+  }, []);
 
   const layerDefs = useMemoAtlas(() => window.ATLAS_LAYER_DEFS.filter((item) => item.scopes.includes(scope)), [scope]);
   const scopeFeatures = useMemoAtlas(() => {
-    const current = window.ATLAS_NEWS_FEATURES.filter((feature) => feature.scope === scope && feature.weekId === weekId);
+    const current = newsFeatures.filter((feature) => feature.scope === scope && feature.weekId === weekId);
     const knowledge = window.ATLAS_KNOWLEDGE.filter((feature) => atlasFeatureScope(feature) === scope);
     return [...current, ...knowledge, ...(scope === "india" ? atlasRiverReferenceFeatures() : [])];
-  }, [scope, weekId]);
+  }, [news, scope, weekId]);
   const mapFeatures = useMemoAtlas(() => {
     const needle = query.trim().toLowerCase();
     return scopeFeatures.filter((feature) => {
@@ -780,11 +814,11 @@ function CurrentAtlas({ onModeChange }) {
     setQuery("");
     setRiverSystem("all");
     setActiveLayers(nextScope === "india" ? ["current", "boundaries"] : ["current"]);
-    setSelected(window.ATLAS_NEWS_FEATURES.find((item) => item.scope === nextScope && item.weekId === weekId));
+    setSelected(newsFeatures.find((item) => item.scope === nextScope && item.weekId === weekId) || null);
   }
   function changeWeek(nextWeek) {
     setWeekId(nextWeek);
-    setSelected(window.ATLAS_NEWS_FEATURES.find((item) => item.scope === scope && item.weekId === nextWeek));
+    setSelected(newsFeatures.find((item) => item.scope === scope && item.weekId === nextWeek) || null);
   }
   function changeRiverSystem(nextSystem) {
     setRiverSystem(nextSystem);
@@ -811,8 +845,8 @@ function CurrentAtlas({ onModeChange }) {
   }
 
   const selectedDef = selected ? atlasLayerDef(selected.layer) : null;
-  const activeWeek = window.ATLAS_NEWS_WEEKS.find((week) => week.id === weekId);
-  const selectedWeek = selected?.weekId ? window.ATLAS_NEWS_WEEKS.find((week) => week.id === selected.weekId) : null;
+  const activeWeek = newsWeeks.find((week) => week.id === weekId) || null;
+  const selectedWeek = selected?.weekId ? newsWeeks.find((week) => week.id === selected.weekId) : null;
   return (
     <main className="atlas-page atlas-page-v2">
       <header className="atlas-hero">
@@ -821,17 +855,20 @@ function CurrentAtlas({ onModeChange }) {
           <h1>News Atlas</h1>
           <p>Current affairs on a proper political map—plus the static geography that turns a location into an exam-ready mental model.</p>
         </div>
-        <div className="atlas-hero-actions"><AtlasModeSwitch mode="news" onChange={onModeChange} /><div className="atlas-freshness"><span className="atlas-live-dot" /><span><small>Selected news set</small><strong>{activeWeek.label.replace("Week of ", "")}</strong><em>Local Places in News notes</em></span></div></div>
+        <div className="atlas-hero-actions"><AtlasModeSwitch mode="news" onChange={onModeChange} /><div className="atlas-freshness"><span className="atlas-live-dot" /><span><small>Selected news set</small><strong>{activeWeek ? activeWeek.label.replace("Week of ", "") : "Loading…"}</strong><em>Local Places in News notes</em></span></div></div>
       </header>
 
-      <div className="atlas-shell atlas-shell-v2">
+      {!news && !newsError && <div className="atlas-history-loading"><span className="atlas-loading-ring" /><strong>Loading this week's places in news…</strong><small>Fetched only when you open the Atlas.</small></div>}
+      {newsError && <div className="atlas-history-loading error"><Icon name="info" size={22} /><strong>{newsError}</strong><button className="btn btn-outline sm" onClick={() => window.location.reload()}>Reload page</button></div>}
+
+      {news && <div className="atlas-shell atlas-shell-v2">
         <aside className="atlas-controls" aria-label="Map controls">
           <div className="atlas-scope" role="tablist" aria-label="Map scope">
             <button className={scope === "world" ? "on" : ""} onClick={() => changeScope("world")}><Icon name="map" size={15} /> World</button>
             <button className={scope === "india" ? "on" : ""} onClick={() => changeScope("india")}><Icon name="target" size={15} /> India</button>
           </div>
           <label className="atlas-search"><Icon name="search" size={16} /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search this atlas…" /></label>
-          <label className="atlas-week-select"><span>Places in News week</span><select value={weekId} onChange={(event) => changeWeek(event.target.value)} aria-label="Places in News week">{window.ATLAS_NEWS_WEEKS.map((week) => <option key={week.id} value={week.id}>{week.label}</option>)}</select><small>{activeWeek.source}</small></label>
+          <label className="atlas-week-select"><span>Places in News week</span><select value={weekId} onChange={(event) => changeWeek(event.target.value)} aria-label="Places in News week">{newsWeeks.map((week) => <option key={week.id} value={week.id}>{week.label}</option>)}</select><small>{activeWeek?.source || ""}</small></label>
           <div className="atlas-filter-head"><span>Knowledge layers</span><strong>{activeLayers.length}</strong></div>
           <div className="atlas-layer-list">
             {layerDefs.map((def) => <label key={def.id} className={activeLayers.includes(def.id) ? "on" : ""}>
@@ -875,7 +912,7 @@ function CurrentAtlas({ onModeChange }) {
             <div className="atlas-source-note"><Icon name={selected.layer === "current" ? "clock" : "book"} size={14} /><span>{selected.layer === "current" ? "Places in News" : "UPSC map layer"}<br /><strong>{selectedWeek?.label || selectedDef?.short}</strong>{selectedWeek && <small>{selectedWeek.source}</small>}</span></div>
           </> : <div className="atlas-empty-detail"><Icon name="map" size={30} /><strong>Select a feature</strong><p>Choose any marker, river or boundary.</p></div>}
         </aside>
-      </div>
+      </div>}
       <p className="atlas-disclaimer"><Icon name="info" size={14} /> Boundary data: Natural Earth India point-of-view world layer and geoBoundaries/DataMeet India ADM1. River centrelines: Natural Earth 1:10m.</p>
     </main>
   );

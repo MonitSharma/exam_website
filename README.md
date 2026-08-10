@@ -186,12 +186,81 @@ When answer keys are missing, the result screen shows a provisional-score warnin
 
 Submitted attempts are saved in browser `localStorage` so users can compare scores over time without any paid hosting or database. The dashboard shows score trend, question-set averages, subject accuracy, difficulty accuracy, recurring weak topics, and recent attempts.
 
-History is local to the current browser/device. Users can export it as JSON or clear it from the home/result dashboard.
+History is local to the current browser/device. The progress dashboard can export it as JSON, restore a previous export, or clear it.
+
+To keep storage bounded over a long preparation cycle, only the most recent 400
+attempts are kept in full detail. Older attempts are folded into per-month
+totals (`archive` in the stored object), so lifetime accuracy, questions solved
+and best score stay exact while the stored size stops growing.
+
+## Revision Queue (Spaced Repetition)
+
+Every submitted question is graded individually, and the ones answered wrongly
+enter a Leitner queue stored alongside the attempt history. A question returns
+after 1, 3, 7, 16, 35 then 90 days; answering it correctly each time moves it up
+a box, a wrong answer sends it back to the start, and clearing the last box
+retires it from the queue altogether.
+
+Questions answered correctly the first time are never tracked, so the queue
+stays a working set of "what I still get wrong" rather than a copy of the
+question bank. It is capped at 1,500 entries, evicting the closest to mastery
+first.
+
+The Progress screen shows what is due and starts a revision session of up to 20
+questions drawn from across every source set. Answers there update the schedule
+of the *original* questions, and revision runs carry no negative marking.
+
+The model and scheduling live in `app/progress.js`, covered by
+`test/progress.test.js`.
+
+## Search
+
+The search palette (⌘K / Ctrl-K) matches note titles and question-set metadata
+instantly from the content manifest, and searches the full text of every note
+against an inverted index built at deploy time by
+`scripts/generate_search_index.js`.
+
+The index is split into one shard per note month. Content lands daily, so a
+single index file would be invalidated and re-downloaded every day; sharded,
+only the current month changes and earlier months stay cached indefinitely. The
+client loads the four newest shards on demand and offers to search older ones.
+
+Snippets are not stored in the index — the note body is fetched and cached only
+for the handful of results actually on screen.
+
+`config/search/` is generated output and is **not** committed: at ~170 KB of
+churn per day it would bloat git history for no benefit, since the Pages build
+regenerates it on every deploy. Run `npm run search-index` once locally to get
+full-text search in dev; without it, title and metadata search still work.
+
+The tokenizer is duplicated between `scripts/generate_search_index.js` (build)
+and `app/search.js` (browser) because they run in different places;
+`test/search.test.js` asserts the two agree, since any divergence would silently
+stop queries from matching.
+
+## Offline Use
+
+The production build ships a service worker (`scripts/generate_service_worker.js`)
+and a web app manifest, so the site is installable and works with no connection:
+
+- The app shell — bundle, styles, content manifest, vendored libraries — is
+  precached on first visit and swapped atomically when a new build is deployed.
+- Notes and question sets are cached as they are opened (stale-while-revalidate:
+  instant from cache, refreshed in the background).
+- **Save for offline** on the Progress screen stores the last 14 days of notes
+  and question sets plus the search index in one go, so material can be read and
+  attempted without ever having opened it online.
+
+The worker is registered only by the production page. `index.html` deliberately
+does not register it, because the dev server serves everything `no-store`.
 
 ## Deploy On GitHub Pages
 
-The repo ships with a workflow at `.github/workflows/pages.yml` that builds a
-production bundle (esbuild) and deploys to GitHub Pages on every push to `main`.
+The repo ships with a workflow at `.github/workflows/pages.yml`. It runs the
+test suite and content validation first, then builds a production bundle
+(esbuild) and deploys to GitHub Pages on every push to `main`. Because content
+arrives from unattended scheduled jobs, a malformed drop fails the `check` job
+instead of reaching the live site.
 
 One-time setup:
 
@@ -208,8 +277,46 @@ committed.
 without a build step. Serve the repo root over HTTP:
 
 ```bash
-python3 -m http.server 8001
+npm run serve
 ```
 
-then open <http://localhost:8001>. The production build is only used by
-the Pages workflow (see `build.js`).
+then open <http://localhost:8001>. That server sends `no-store` on everything,
+so edits always show up on reload. The production build is only used by the
+Pages workflow (see `build.js`).
+
+`build.js` reads its script load order straight from `index.html`, so adding a
+new `app/*.jsx` file to the page is enough — there is no second list to update.
+
+React is vendored under `vendor/react/` (production builds for the deployed
+site, development builds for `index.html`), so the live site has no third-party
+runtime dependency. Only `@babel/standalone` still comes from a CDN: it is
+3.1 MB, is needed solely for the dev loop, and never ships.
+
+### Commands
+
+| Command | What it does |
+| --- | --- |
+| `npm run serve` | Dev server on :8001, no caching |
+| `npm test` | Unit tests (`node --test`, no dependencies) |
+| `npm run validate` | Checks every question set and note the manifest references |
+| `npm run manifest` | Regenerates `config/content_manifest.json` |
+| `npm run search-index` | Regenerates `config/search/` |
+| `npm run build` | Full production build into `dist/` |
+
+`npm run build` regenerates the manifest and search index itself, so the two
+generator commands are only needed to refresh what local dev reads.
+
+### Weekly content checklist
+
+- **Places in News** notes go in `weekly/weekly_news/`. Their map pins live in
+  `data/atlas/news.json` (`weeks` + `features`), which the Atlas fetches on
+  demand rather than shipping in the bundle. `npm run build` warns when a note
+  has no matching Atlas week or features.
+- Run `npm run manifest && npm run search-index` after adding content so local
+  dev picks it up; the Pages build regenerates both either way.
+- A question set that arrives with **no answer keys at all** is dropped from the
+  manifest by the build, with the filename printed — it cannot be scored, so
+  serving it is worse than omitting it. Regenerate the file and it returns.
+- The build fails if the hardcoded fallback list in `app/data.js` points at
+  files that no longer exist, and copies any manifest-referenced file that sits
+  outside the static copy list so it cannot 404 in production.

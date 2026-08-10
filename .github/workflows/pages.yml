@@ -3,6 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
+  pull_request:
   workflow_dispatch:
 
 permissions:
@@ -15,7 +16,28 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  # Content arrives from unattended scheduled jobs, so a malformed drop must
+  # fail here rather than reach the deployed site.
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: npm ci --no-audit --no-fund
+      - name: Unit tests
+        run: npm test
+      - name: Validate question sets and notes
+        run: npm run validate
+
   deploy:
+    needs: check
+    if: github.event_name != 'pull_request'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -25,7 +47,8 @@ jobs:
       - uses: actions/setup-node@v6
         with:
           node-version: '24'
-      - run: npm install --no-audit --no-fund
+          cache: npm
+      - run: npm ci --no-audit --no-fund
       - run: npm run build
       - uses: actions/configure-pages@v6
       - uses: actions/upload-pages-artifact@v5

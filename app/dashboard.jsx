@@ -63,13 +63,85 @@ function exportProgress(progress) {
   const url = URL.createObjectURL(blob);
   const link = document.createElement("a");
   link.href = url;
-  link.download = "pariksha-progress.json";
+  link.download = `pariksha-progress-${new Date().toISOString().slice(0, 10)}.json`;
   link.click();
   URL.revokeObjectURL(url);
 }
 
-function Dashboard({ go, progress, summary, onResetProgress }) {
+function ReviewQueueCard({ review, onStartReview }) {
+  const tracked = review?.tracked || 0;
+  const due = review?.due || 0;
+  const batch = Math.min(due, 20);
+  return (
+    <section className="panel dash-review">
+      <header className="panel-head row">
+        <div>
+          <h3>Revision queue</h3>
+          <p>{tracked ? "Spaced repetition on the questions you get wrong" : "Builds itself as you practise"}</p>
+        </div>
+        {due > 0 && <span className="trend-delta up"><Icon name="clock" size={13} /> {due} due</span>}
+      </header>
+      <div className="panel-body review-body">
+        {tracked ? (
+          <>
+            <div className="review-stats">
+              <div><strong>{due}</strong><span>Due today</span></div>
+              <div><strong>{review.scheduled}</strong><span>Scheduled later</span></div>
+              <div><strong>{tracked}</strong><span>Tracked</span></div>
+            </div>
+            {review.weakest.length > 0 && (
+              <div className="review-subjects">
+                {review.weakest.map((row) => (
+                  <span key={row.subject} className="review-subject">
+                    <i className={`subdot tone-${SUBJECT_TONE[row.subject] || "neutral"}`} />
+                    {row.subject}<b>{row.count}</b>
+                  </span>
+                ))}
+              </div>
+            )}
+            {due > 0 ? (
+              <button className="btn btn-green" onClick={onStartReview}>
+                <Icon name="bolt" size={15} /> Revise {batch} question{batch === 1 ? "" : "s"}
+              </button>
+            ) : (
+              <p className="review-note">Nothing due today. Each question returns after 1, 3, 7, 16, 35 then 90 days — answer it right every time and it retires from the queue.</p>
+            )}
+          </>
+        ) : (
+          <div className="empty-panel">
+            <strong>Nothing to revise yet.</strong>
+            <span>Questions you answer incorrectly are scheduled here automatically.</span>
+          </div>
+        )}
+      </div>
+    </section>
+  );
+}
+
+function OfflineButton() {
   const ds = window.UPSC;
+  const [state, setState] = React.useState("idle");
+  if (!ds.offlineAvailable()) return null;
+  const labels = { idle: "Save for offline", saving: "Saving…", done: "Saved for offline" };
+  return (
+    <button
+      className="btn ghost"
+      disabled={state === "saving"}
+      onClick={() => {
+        setState("saving");
+        ds.saveRecentForOffline({ days: 14 })
+          .then((result) => setState(result.ok ? "done" : "idle"))
+          .catch(() => setState("idle"));
+      }}
+    >
+      <Icon name="download" size={15} /> {labels[state]}
+    </button>
+  );
+}
+
+function Dashboard({ go, progress, summary, review, onStartReview, onResetProgress, onImportProgress }) {
+  const ds = window.UPSC;
+  const importRef = React.useRef(null);
   const history = progress.history || [];
   const subjectRows = buildSubjectRows(history);
   const weakRows = subjectRows.filter((row) => row.attempted > 0).slice(0, 4);
@@ -86,6 +158,19 @@ function Dashboard({ go, progress, summary, onResetProgress }) {
         </div>
         <div className="dash-actions">
           <button className="btn ghost" onClick={() => exportProgress(progress)}><Icon name="download" size={15} /> Export history</button>
+          <button className="btn ghost" onClick={() => importRef.current && importRef.current.click()}><Icon name="upload" size={15} /> Restore backup</button>
+          <input
+            ref={importRef}
+            type="file"
+            accept="application/json,.json"
+            hidden
+            onChange={(event) => {
+              const file = event.target.files && event.target.files[0];
+              event.target.value = "";
+              onImportProgress?.(file);
+            }}
+          />
+          <OfflineButton />
           <button className="btn btn-danger" onClick={onResetProgress}><Icon name="x" size={15} /> Reset stats</button>
         </div>
       </div>
@@ -98,6 +183,8 @@ function Dashboard({ go, progress, summary, onResetProgress }) {
       </div>
 
       <div className="dash-grid">
+        <ReviewQueueCard review={review} onStartReview={onStartReview} />
+
         <section className="panel dash-trend">
           <header className="panel-head row">
             <div><h3>Accuracy trend</h3><p>{history.length ? `Last ${Math.min(history.length, 6)} attempts` : "No attempts recorded"}</p></div>

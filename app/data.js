@@ -38,12 +38,12 @@
     { id: "2020", label: "2020 PYQ", shortLabel: "2020", category: "Previous Year Questions", sourceType: "pyq", year: 2020, questionCount: 100, durationMinutes: 120, path: "data/processed/upsc_2020_processed.json" },
     { id: "2019", label: "2019 PYQ", shortLabel: "2019", category: "Previous Year Questions", sourceType: "pyq", year: 2019, questionCount: 100, durationMinutes: 120, path: "data/processed/upsc_2019_processed.json" },
     { id: "csat_practice_2026_06_09", label: "CSAT Practice - Jun 09, 2026", shortLabel: "CSAT Practice Jun 09", category: "CSAT Practice", sourceType: "csat", paper: "GS Paper II (CSAT)", isoDate: "2026-06-09", questionCount: 22, durationMinutes: 35, marksPerCorrect: 2, negativeMark: -0.66, path: "data/processed/csat_practice_2026_06_09_processed.json" },
-    { id: "daily_questions_2026_06_10", label: "Daily Questions - Jun 10, 2026", shortLabel: "Daily Jun 10", category: "Daily Questions", sourceType: "daily", isoDate: "2026-06-10", questionCount: 7, durationMinutes: 10, path: "generated_questions/daily_questions/daily_questions_2026-06-10.json" },
+    { id: "daily_questions_2026_06_10", label: "Daily Questions - Jun 10, 2026", shortLabel: "Daily Jun 10", category: "Daily Questions", sourceType: "daily", isoDate: "2026-06-10", questionCount: 7, durationMinutes: 10, path: "daily/daily_questions/daily_questions_2026-06-10.json" },
   ];
 
   const fallbackNoteDocuments = [
-    { id: "daily-2026-06-10", cadence: "daily", title: "UPSC Daily CA Briefing", shortTitle: "10 Jun 2026", date: "2026-06-10", path: "daily_current_affairs/UPSC_CA_2026-06-10.md" },
-    { id: "daily-rc-2026-06-10", cadence: "rc", title: "CSAT Daily RC Drill", shortTitle: "RC - 10 Jun", date: "2026-06-10", path: "daily_reading_comprehension/RC_Drill_2026-06-10.md" },
+    { id: "daily-2026-06-10", cadence: "daily", title: "UPSC Daily CA Briefing", shortTitle: "10 Jun 2026", date: "2026-06-10", path: "daily/daily_current_affairs/UPSC_CA_2026-06-10.md" },
+    { id: "daily-rc-2026-06-10", cadence: "rc", title: "CSAT Daily RC Drill", shortTitle: "RC - 10 Jun", date: "2026-06-10", path: "daily/daily_reading_comprehension/RC_Drill_2026-06-10.md" },
     { id: "weekly-sunday-2026-06-07", cadence: "sunday", title: "Sunday Sweep", shortTitle: "Week of 7 Jun", date: "2026-06-07", path: "weekly/Sunday/Sunday_Sweep_2026-06-07.md" },
     { id: "weekly-csat-practice-2026-06-09", cadence: "weekly-csat", title: "CSAT Practice", shortTitle: "Practice - 9 Jun", date: "2026-06-09", path: "weekly/CSAT/CSAT_Practice_2026-06-09.md" },
     { id: "weekly-csat-pyq-2026-06-08", cadence: "weekly-csat", title: "CSAT PYQ Plan", shortTitle: "PYQ - 8 Jun", date: "2026-06-08", path: "weekly/CSAT/CSAT_PYQ_2026-06-08.md" },
@@ -51,6 +51,7 @@
   ];
 
   const todayIso = currentIsoDate();
+  const REVIEW_SET_ID = "__review__";
   const defaultPracticeSetId = "2025";
   const questionCache = new Map();
   const noteCache = new Map();
@@ -223,17 +224,24 @@
     if (notify) subscribers.forEach((callback) => callback(api));
   }
 
-  async function refreshContentManifest() {
-    if (typeof fetch !== "function") return false;
-    try {
-      const response = await fetch("config/content_manifest.json", { cache: "no-store" });
-      if (!response.ok) return false;
-      const manifest = await response.json();
-      applyManifest(manifest, { notify: true });
-      return true;
-    } catch (error) {
-      return false;
-    }
+  // Production builds hand us a content-hashed manifest URL, so the browser can
+  // cache it and only re-download when the content actually changes. Without one
+  // (local dev) fall back to the unversioned path with revalidation.
+  let manifestPromise = null;
+  function refreshContentManifest() {
+    if (typeof fetch !== "function") return Promise.resolve(false);
+    if (manifestPromise) return manifestPromise;
+    const versionedUrl = typeof window !== "undefined" ? window.UPSC_MANIFEST_URL : "";
+    const url = versionedUrl || "config/content_manifest.json";
+    manifestPromise = fetch(url, versionedUrl ? {} : { cache: "no-store" })
+      .then((response) => (response.ok ? response.json() : null))
+      .then((manifest) => {
+        if (!manifest) return false;
+        applyManifest(manifest, { notify: true });
+        return true;
+      })
+      .catch(() => false);
+    return manifestPromise;
   }
 
   function getQuestionSetById(questionSetId) {
@@ -260,6 +268,96 @@
     return { questionSet, questions: questionCache.get(questionSet.id) };
   }
 
+  // Build an ad-hoc question set from questions spread across many sets, for
+  // the spaced-repetition queue. Questions keep a pointer back to where they
+  // came from so their review schedule updates the original, not this session.
+  async function loadReviewSession(refs) {
+    const bySet = new Map();
+    for (const ref of refs) {
+      if (!bySet.has(ref.setId)) bySet.set(ref.setId, new Set());
+      bySet.get(ref.setId).add(Number(ref.n));
+    }
+    const collected = [];
+    const missing = [];
+    for (const [setId, numbers] of bySet) {
+      try {
+        const { questions } = await loadQuestionSet(setId);
+        const found = questions.filter((question) => numbers.has(Number(question.n)));
+        for (const question of found) collected.push({ question, setId });
+        if (found.length < numbers.size) missing.push(setId);
+      } catch (error) {
+        // A set that has since been removed or excluded simply drops out.
+        missing.push(setId);
+      }
+    }
+    // Renumber sequentially: the test screen keys answers by question number,
+    // which is only unique within a single source set.
+    const questions = collected.map((item, index) => ({
+      ...item.question,
+      n: index + 1,
+      sourceSetId: item.setId,
+      sourceQuestionNumber: item.question.n,
+      sourceLabel: getQuestionSetById(item.setId)?.shortLabel || "",
+    }));
+    const questionSet = {
+      id: REVIEW_SET_ID,
+      label: "Revision session",
+      shortLabel: "Revision",
+      category: "Spaced repetition",
+      sourceType: "review",
+      questionCount: questions.length,
+      // Practice, not a mock: no negative marking on a revision run.
+      marksPerCorrect: 2,
+      negativeMark: 0,
+      durationMinutes: Math.max(5, Math.ceil(questions.length * 1.2)),
+      subjects: [...new Set(questions.map((question) => question.subject).filter(Boolean))],
+      isReview: true,
+    };
+    return { questionSet, questions, missing };
+  }
+
+  // Ask the service worker to store recent material so it is readable with no
+  // connection. Without a controlling worker (dev, or first load before the
+  // worker activates) this is a no-op rather than an error.
+  function offlineAvailable() {
+    return typeof navigator !== "undefined"
+      && "serviceWorker" in navigator
+      && Boolean(navigator.serviceWorker.controller);
+  }
+
+  async function saveRecentForOffline({ days = 14 } = {}) {
+    if (!offlineAvailable()) return { ok: false, reason: "unsupported" };
+    const cutoff = new Date(Date.now() - days * 86400000).toISOString().slice(0, 10);
+    const recent = (item, date) => !date || date >= cutoff;
+    // Search shards travel with the notes, otherwise search silently returns
+    // nothing when offline even though the notes themselves are available.
+    let searchShards = [];
+    try {
+      searchShards = (await window.UPSC_SEARCH?.shardUrls()) || [];
+    } catch (error) {
+      searchShards = [];
+    }
+    const urls = [
+      ...noteDocuments.filter((note) => recent(note, note.date)).map((note) => note.path),
+      ...questionSets.filter((set) => recent(set, set.isoDate)).map((set) => set.path),
+      "data/atlas/news.json",
+      ...searchShards,
+    ].filter(Boolean);
+    return new Promise((resolve) => {
+      const done = () => {
+        navigator.serviceWorker.removeEventListener("message", onMessage);
+        resolve({ ok: true, count: urls.length });
+      };
+      function onMessage(event) {
+        if (event.data && event.data.type === "cache-urls-done") done();
+      }
+      navigator.serviceWorker.addEventListener("message", onMessage);
+      navigator.serviceWorker.controller.postMessage({ type: "cache-urls", urls });
+      // Do not leave the UI spinning if the worker never reports back.
+      window.setTimeout(done, 30000);
+    });
+  }
+
   async function loadNoteDocument(noteId) {
     const note = noteDocuments.find((item) => item.id === noteId);
     if (!note) throw new Error("Note not found.");
@@ -269,6 +367,31 @@
       noteCache.set(note.id, await response.text());
     }
     return { note, content: noteCache.get(note.id) };
+  }
+
+  // The weekly-quiz generator sometimes sweeps the surrounding document into
+  // the last question's explanation — the rapid-recap answers and the quiz's
+  // scoring footer. Those belong to the note, not to this question, so they are
+  // trimmed off. The data files are cleaned too; this keeps a future bad drop
+  // from showing a page of unrelated text under one answer.
+  const EXPLANATION_TRAILERS = [
+    // Markdown rule separating the quiz body from its footer.
+    /\s*-{3,}\s[\s\S]*$/,
+    /\s*\*?\s*Scoring guide[\s\S]*$/i,
+    // "Part C — Recall Prompts" and similar section headings.
+    /\s*Part\s+[A-Z]\s*[—–-]\s*Recall[\s\S]*$/i,
+    // Recap items: "R1.", "RP2 —", at a sentence boundary.
+    /([.!?)])\s+RP?\d\s*[.—–]\s[\s\S]*$/,
+  ];
+
+  function cleanExplanation(value) {
+    let text = String(value || "").trim();
+    for (const pattern of EXPLANATION_TRAILERS) {
+      const trimmed = text.replace(pattern, pattern.source.startsWith("(") ? "$1" : "").trim();
+      // Never trim away the whole explanation.
+      if (trimmed) text = trimmed;
+    }
+    return text;
   }
 
   function normalizeQuestion(row, index, questionSet) {
@@ -291,8 +414,111 @@
       options: normalizeOptions(row.options),
       answer,
       acceptedAnswers: (answerOptions.length ? answerOptions : [answer]).map(normalizeAnswerKey).filter(Boolean),
-      explanation: row.explanation || "Explanation not available.",
+      explanation: cleanExplanation(row.explanation) || "Explanation not available.",
     };
+  }
+
+  // Closing clauses ("Which of the statements given above is correct?"). These
+  // must only match at a sentence or line boundary and are case-sensitive: an
+  // earlier version matched case-insensitively anywhere, so a relative clause
+  // inside a statement ("..., which causes renal failure...") was mistaken for
+  // the tail and truncated the list, leaving the whole question as one blob.
+  const TAIL_OPENERS = "Which|How many|How much|Select|Choose|Consider the above|With reference to the statements";
+  const TAIL_START = new RegExp(`(?:^|[.?!\\n])[ \\t]*(?:${TAIL_OPENERS})\\b`, "g");
+
+  function splitTrailingQuestion(text) {
+    let start = -1;
+    let match;
+    TAIL_START.lastIndex = 0;
+    while ((match = TAIL_START.exec(text)) !== null) {
+      // The opener begins after the boundary character and any spacing.
+      const offset = match.index + match[0].length;
+      const openerStart = text.slice(match.index, offset).search(/[A-Z]/) + match.index;
+      // The closing clause is the last one; earlier hits sit inside statements.
+      start = openerStart;
+      TAIL_START.lastIndex = match.index + 1;
+    }
+    if (start <= 0) {
+      // Fallback for statements that end without punctuation ("... 3. Gamma
+      // Which of the statements above is correct?"). Safe because it demands a
+      // capitalised opener whose clause runs unbroken to a final question mark.
+      const trailing = text.match(new RegExp(`\\s((?:${TAIL_OPENERS})\\b[^?]*\\?)\\s*$`));
+      if (trailing && trailing.index > 0) {
+        return { body: text.slice(0, trailing.index).trim(), tail: trailing[1].trim() };
+      }
+      return { body: text, tail: "" };
+    }
+    return { body: text.slice(0, start).trim(), tail: text.slice(start).trim() };
+  }
+
+  // Statement markers seen across the generated sets, in priority order.
+  const STATEMENT_MARKERS = [
+    { name: "arabic-dot", first: /(?:^|\n|\s)\s*1\.\s+/, at: (n) => new RegExp(`(?:^|\\s)${n}\\.\\s+`), strip: (n) => new RegExp(`^${n}\\.\\s+`), labels: null },
+    { name: "arabic-paren", first: /(?:^|\n|\s)\s*1\)\s+/, at: (n) => new RegExp(`(?:^|\\s)${n}\\)\\s+`), strip: (n) => new RegExp(`^${n}\\)\\s+`), labels: null },
+    { name: "arabic-bracketed", first: /(?:^|\n|\s)\s*\(1\)\s+/, at: (n) => new RegExp(`(?:^|\\s)\\(${n}\\)\\s+`), strip: (n) => new RegExp(`^\\(${n}\\)\\s+`), labels: null },
+    { name: "roman-upper", first: /(?:^|\n|\s)\s*I\.\s+/, at: (n, l) => new RegExp(`(?:^|\\s)${l}\\.\\s+`), strip: (n, l) => new RegExp(`^${l}\\.\\s+`), labels: ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"] },
+    { name: "roman-lower", first: /(?:^|\n|\s)\s*i\.\s+/, at: (n, l) => new RegExp(`(?:^|\\s)${l}\\.\\s+`), strip: (n, l) => new RegExp(`^${l}\\.\\s+`), labels: ["i", "ii", "iii", "iv", "v", "vi", "vii", "viii", "ix", "x"] },
+    // "Statement I: ... Statement II: ..." — standard in recent UPSC papers.
+    {
+      name: "statement-roman",
+      // Papers use "Statement I:", "Statement-I:" and "Statement-I :".
+      first: /(?:^|\n|\s)\s*Statement[\s-]+I\s*[:.]/,
+      at: (n, l) => new RegExp(`(?:^|\\s)Statement[\\s-]+${l}\\s*[:.]`),
+      strip: (n, l) => new RegExp(`^Statement[\\s-]+${l}\\s*[:.]\\s*`),
+      keepLabel: (n, l) => `Statement ${l}`,
+      labels: ["I", "II", "III", "IV", "V", "VI"],
+    },
+    // "Statement 1: ... Statement 2: ..." — the Arabic-numeral variant.
+    {
+      name: "statement-arabic",
+      first: /(?:^|\n|\s)\s*Statement[\s-]+1\s*[:.]/,
+      at: (n, l) => new RegExp(`(?:^|\\s)Statement[\\s-]+${l}\\s*[:.]`),
+      strip: (n, l) => new RegExp(`^Statement[\\s-]+${l}\\s*[:.]\\s*`),
+      keepLabel: (n, l) => `Statement ${l}`,
+      labels: ["1", "2", "3", "4", "5", "6"],
+    },
+    // Assertion–Reason pairs.
+    {
+      name: "assertion-reason",
+      first: /(?:^|\n|\s)\s*Assertion\s*\(A\)\s*[:.-]/,
+      at: (n, l) => new RegExp(`(?:^|\\s)${l}\\s*[:.-]`),
+      strip: (n, l) => new RegExp(`^${l}\\s*[:.-]\\s*`),
+      keepLabel: (n, l) => l,
+      labels: ["Assertion \\(A\\)", "Reason \\(R\\)"],
+      display: ["Assertion (A)", "Reason (R)"],
+    },
+  ];
+
+  function extractStatements(rest, marker) {
+    const statements = [];
+    // Assertion/Reason must keep their labels — the list is rendered with plain
+    // numbers, which would otherwise lose which half is which.
+    const label = (index) => {
+      if (!marker.keepLabel) return "";
+      const shown = marker.display ? marker.display[index] : marker.labels[index];
+      return `${marker.keepLabel(index + 1, shown)}: `;
+    };
+    let index = 0;
+    let position = 0;
+    while (index < 12) {
+      const current = marker.labels ? marker.labels[index] : String(index + 1);
+      const next = marker.labels ? marker.labels[index + 1] : String(index + 2);
+      if (!current) break;
+      if (!next) {
+        statements.push(label(index) + rest.slice(position).replace(marker.strip(index + 1, current), "").trim());
+        break;
+      }
+      const found = rest.slice(position).match(marker.at(index + 2, next));
+      if (!found) {
+        statements.push(label(index) + rest.slice(position).replace(marker.strip(index + 1, current), "").trim());
+        break;
+      }
+      const boundary = position + found.index + (/^\s/.test(found[0]) ? 1 : 0);
+      statements.push(label(index) + rest.slice(position, boundary).replace(marker.strip(index + 1, current), "").trim());
+      position = boundary;
+      index++;
+    }
+    return statements.map((item) => item.trim()).filter((item) => item && !/^[A-Za-z()\s]+:$/.test(item));
   }
 
   function splitQuestionParts(rawStem, rawStatements, rawTail) {
@@ -301,6 +527,9 @@
       : [];
     const providedTail = String(rawTail || "").trim();
     if (providedStatements.length) {
+      // When the generator supplies the parts explicitly, take them as given.
+      // A closing clause left inside the stem reads correctly above the list,
+      // so moving it is churn rather than a fix.
       return {
         stem: String(rawStem || "").trim(),
         statements: providedStatements,
@@ -311,145 +540,19 @@
     const rawText = String(rawStem || "").trim();
     if (!rawText) return { stem: "", statements: [], tail: providedTail };
 
-    const tailRegex = /\s+((?:Which|How many|Select|Choose|With reference to the statements|Consider the above)\b[\s\S]*)$/i;
-
-    // 1. Sequential Arabic numerals: 1., 2., 3., ...
-    const numMatch1 = rawText.match(/(?:^|\n|\s)\s*1\.\s+/);
-    if (numMatch1) {
-      const stemEnd = numMatch1.index;
-      const stem = rawText.slice(0, stemEnd).trim();
-      let rest = rawText.slice(stemEnd).trim();
-
-      let tail = providedTail;
-      const tailMatch = rest.match(tailRegex);
-      if (tailMatch) {
-        tail = tailMatch[1].trim();
-        rest = rest.slice(0, tailMatch.index).trim();
-      }
-
-      let statements = [];
-      let currNum = 1;
-      let currPos = 0;
-
-      while (true) {
-        const nextNum = currNum + 1;
-        const nextRegex = new RegExp(`(?:^|\\s)${nextNum}\\.\\s+`);
-        const match = rest.slice(currPos).match(nextRegex);
-        if (match) {
-          const matchIdx = currPos + match.index + (match[0].startsWith(" ") || match[0].startsWith("\n") ? 1 : 0);
-          const currPrefixRegex = new RegExp(`^${currNum}\\.\\s+`);
-          let stmtText = rest.slice(currPos, matchIdx).replace(currPrefixRegex, "").trim();
-          statements.push(stmtText);
-          currPos = matchIdx;
-          currNum = nextNum;
-        } else {
-          const currPrefixRegex = new RegExp(`^${currNum}\\.\\s+`);
-          let stmtText = rest.slice(currPos).replace(currPrefixRegex, "").trim();
-          statements.push(stmtText);
-          break;
-        }
-      }
-
-      if (stem && statements.length >= 2) {
-        return { stem, statements, tail };
+    for (const marker of STATEMENT_MARKERS) {
+      const first = rawText.match(marker.first);
+      if (!first) continue;
+      const stem = rawText.slice(0, first.index).trim();
+      if (!stem) continue;
+      const split = splitTrailingQuestion(rawText.slice(first.index).trim());
+      const statements = extractStatements(split.body, marker);
+      if (statements.length >= 2) {
+        return { stem, statements, tail: split.tail || providedTail };
       }
     }
 
-    // 2. Sequential Roman numerals: I., II., III., ... (or i., ii., iii., ...)
-    const romanMatch1 = rawText.match(/(?:^|\n|\s)\s*(I|i)\.\s+/);
-    if (romanMatch1) {
-      const isLower = romanMatch1[1] === "i";
-      const romanList = isLower 
-        ? ["i", "ii", "iii", "iv", "v", "vi", "vii", "viii", "ix", "x"]
-        : ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"];
-      const stemEnd = romanMatch1.index;
-      const stem = rawText.slice(0, stemEnd).trim();
-      let rest = rawText.slice(stemEnd).trim();
-
-      let tail = providedTail;
-      const tailMatch = rest.match(tailRegex);
-      if (tailMatch) {
-        tail = tailMatch[1].trim();
-        rest = rest.slice(0, tailMatch.index).trim();
-      }
-
-      let statements = [];
-      let currIdx = 0;
-      let currPos = 0;
-
-      while (currIdx < romanList.length) {
-        const currRoman = romanList[currIdx];
-        const nextRoman = romanList[currIdx + 1];
-        if (!nextRoman) {
-          const currPrefixRegex = new RegExp(`^${currRoman}\\.\\s+`);
-          let stmtText = rest.slice(currPos).replace(currPrefixRegex, "").trim();
-          statements.push(stmtText);
-          break;
-        }
-        const nextRegex = new RegExp(`(?:^|\\s)${nextRoman}\\.\\s+`);
-        const match = rest.slice(currPos).match(nextRegex);
-        if (match) {
-          const matchIdx = currPos + match.index + (match[0].startsWith(" ") || match[0].startsWith("\n") ? 1 : 0);
-          const currPrefixRegex = new RegExp(`^${currRoman}\\.\\s+`);
-          let stmtText = rest.slice(currPos, matchIdx).replace(currPrefixRegex, "").trim();
-          statements.push(stmtText);
-          currPos = matchIdx;
-          currIdx++;
-        } else {
-          const currPrefixRegex = new RegExp(`^${currRoman}\\.\\s+`);
-          let stmtText = rest.slice(currPos).replace(currPrefixRegex, "").trim();
-          statements.push(stmtText);
-          break;
-        }
-      }
-
-      if (stem && statements.length >= 2) {
-        return { stem, statements, tail };
-      }
-    }
-
-    // 3. Sequential parenthesized numbers: (1), (2), (3), ...
-    const parenMatch1 = rawText.match(/(?:^|\n|\s)\s*\(1\)\s+/);
-    if (parenMatch1) {
-      const stemEnd = parenMatch1.index;
-      const stem = rawText.slice(0, stemEnd).trim();
-      let rest = rawText.slice(stemEnd).trim();
-
-      let tail = providedTail;
-      const tailMatch = rest.match(tailRegex);
-      if (tailMatch) {
-        tail = tailMatch[1].trim();
-        rest = rest.slice(0, tailMatch.index).trim();
-      }
-
-      let statements = [];
-      let currNum = 1;
-      let currPos = 0;
-
-      while (true) {
-        const nextNum = currNum + 1;
-        const nextRegex = new RegExp(`(?:^|\\s)\\(${nextNum}\\)\\s+`);
-        const match = rest.slice(currPos).match(nextRegex);
-        if (match) {
-          const matchIdx = currPos + match.index + (match[0].startsWith(" ") || match[0].startsWith("\n") ? 1 : 0);
-          const currPrefixRegex = new RegExp(`^\\(${currNum}\\)\\s+`);
-          let stmtText = rest.slice(currPos, matchIdx).replace(currPrefixRegex, "").trim();
-          statements.push(stmtText);
-          currPos = matchIdx;
-          currNum = nextNum;
-        } else {
-          const currPrefixRegex = new RegExp(`^\\(${currNum}\\)\\s+`);
-          let stmtText = rest.slice(currPos).replace(currPrefixRegex, "").trim();
-          statements.push(stmtText);
-          break;
-        }
-      }
-
-      if (stem && statements.length >= 2) {
-        return { stem, statements, tail };
-      }
-    }
-
+    // No statement list: the trailing question, if any, still belongs in tail.
     return { stem: rawText, statements: [], tail: providedTail };
   }
 
@@ -538,12 +641,28 @@
     getQuestionMarking,
     getMarkingLabel,
     loadQuestionSet,
+    loadReviewSession,
+    saveRecentForOffline,
+    offlineAvailable,
     loadNoteDocument,
+    REVIEW_SET_ID,
     refreshContentManifest,
     subscribeContent,
+    // Pure helpers, exposed so scripts/validate_content.js and the test suite
+    // exercise the same parsing the app uses instead of a drifting copy.
+    parsing: {
+      normalizeQuestion,
+      normalizeQuestionSetMeta,
+      normalizeNoteDocument,
+      normalizeOptions,
+      normalizeAnswerKey,
+      splitQuestionParts,
+      inferSourceType,
+      applyManifest,
+    },
   };
 
-  applyManifest(window.UPSC_CONTENT_MANIFEST);
+  applyManifest(null);
   window.UPSC = api;
-  if (!window.UPSC_CONTENT_MANIFEST) refreshContentManifest();
+  refreshContentManifest();
 })();

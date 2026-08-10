@@ -15,15 +15,49 @@ function readSession(setId) {
   }
 }
 function writeSession(setId, snapshot) {
-  try { localStorage.setItem(sessionKeyFor(setId), JSON.stringify(snapshot)); } catch (error) {}
+  try { localStorage.setItem(sessionKeyFor(setId), JSON.stringify({ ...snapshot, savedAt: Date.now() })); } catch (error) {}
 }
 function clearSessionFor(setId) {
   try { localStorage.removeItem(sessionKeyFor(setId)); } catch (error) {}
 }
 
+// A test that is started and never finished leaves its resume snapshot behind
+// forever. Over a year of daily practice that quietly fills localStorage, so
+// snapshots are dropped once they are far too old to resume meaningfully.
+const SESSION_MAX_AGE_MS = 14 * 24 * 60 * 60 * 1000;
+function sweepStaleSessions(now = Date.now()) {
+  let removed = 0;
+  try {
+    const keys = Object.keys(localStorage).filter((key) => key.startsWith(SESSION_PREFIX));
+    for (const key of keys) {
+      let parsed = null;
+      try { parsed = JSON.parse(localStorage.getItem(key) || ""); } catch (error) { parsed = null; }
+      if (!parsed || typeof parsed !== "object") {
+        localStorage.removeItem(key);
+        removed++;
+        continue;
+      }
+      // Snapshots written before savedAt existed get stamped now, so they age
+      // out normally instead of being discarded from under an active attempt.
+      if (!Number.isFinite(parsed.savedAt)) {
+        localStorage.setItem(key, JSON.stringify({ ...parsed, savedAt: now }));
+        continue;
+      }
+      if (now - parsed.savedAt > SESSION_MAX_AGE_MS) {
+        localStorage.removeItem(key);
+        removed++;
+      }
+    }
+  } catch (error) {
+    // localStorage unavailable (private mode); nothing to clean up.
+  }
+  return removed;
+}
+
 function TestScreen({ go, session, onSubmit }) {
   const ds = window.UPSC;
-  const initialQuestionSet = ds.getQuestionSetById(session?.setId);
+  const reviewQueue = Array.isArray(session?.reviewQueue) ? session.reviewQueue : null;
+  const initialQuestionSet = reviewQueue ? null : ds.getQuestionSetById(session?.setId);
   const [loadState, setLoadState] = useTestState({
     loading: true,
     error: "",
@@ -42,12 +76,14 @@ function TestScreen({ go, session, onSubmit }) {
 
   useTestEffect(() => {
     let cancelled = false;
-    const selectedId = session?.setId || ds.defaultQuestionSetId;
-    const selectedSet = ds.getQuestionSetById(selectedId);
+    const selectedId = reviewQueue ? ds.REVIEW_SET_ID : (session?.setId || ds.defaultQuestionSetId);
+    const selectedSet = reviewQueue ? null : ds.getQuestionSetById(selectedId);
     submittedRef.current = false;
     setLoadState({ loading: true, error: "", questionSet: selectedSet, questions: [] });
 
-    const saved = readSession(selectedId);
+    // A revision session is assembled fresh from the due queue each time, so
+    // resuming a stale snapshot of it would answer the wrong questions.
+    const saved = reviewQueue ? null : readSession(selectedId);
     if (saved && saved.answers) {
       setIdx(Number(saved.idx) || 0);
       setAnswers(saved.answers || {});
@@ -66,9 +102,19 @@ function TestScreen({ go, session, onSubmit }) {
     setPaletteOpen(false);
     setExitOpen(false);
 
-    ds.loadQuestionSet(selectedId)
+    const pending = reviewQueue ? ds.loadReviewSession(reviewQueue) : ds.loadQuestionSet(selectedId);
+    pending
       .then((result) => {
         if (cancelled) return;
+        if (reviewQueue && !result.questions.length) {
+          setLoadState({
+            loading: false,
+            error: "These review questions are no longer available.",
+            questionSet: result.questionSet,
+            questions: [],
+          });
+          return;
+        }
         setLoadState({ loading: false, error: "", ...result });
         // Only reset timer for a fresh session — keep saved secs if resuming.
         if (!saved) setSecs((result.questionSet?.durationMinutes || 120) * 60);
@@ -84,7 +130,7 @@ function TestScreen({ go, session, onSubmit }) {
       });
 
     return () => { cancelled = true; };
-  }, [session?.setId]);
+  }, [session?.setId, session?.reviewToken]);
 
   useTestEffect(() => {
     if (loadState.loading || loadState.error) return undefined;
@@ -96,7 +142,7 @@ function TestScreen({ go, session, onSubmit }) {
   useTestEffect(() => {
     if (loadState.loading || loadState.error) return;
     const setId = loadState.questionSet?.id;
-    if (!setId) return;
+    if (!setId || reviewQueue) return;
     if (submittedRef.current) return;
     writeSession(setId, { idx, answers, marked, visited, secs });
   }, [idx, answers, marked, visited, secs, loadState.loading, loadState.error, loadState.questionSet?.id]);
@@ -342,4 +388,4 @@ function TestScreen({ go, session, onSubmit }) {
   );
 }
 
-Object.assign(window, { TestScreen });
+Object.assign(window, { TestScreen, sweepStaleSessions });

@@ -2,11 +2,14 @@
   "name": "pariksha",
   "version": "1.0.0",
   "private": true,
-  "description": "UPSC CSE practice platform — static frontend, no backend.",
+  "description": "UPSC CSE practice platform \u2014 static frontend, no backend.",
   "scripts": {
     "build": "node build.js",
     "manifest": "node scripts/generate_content_manifest.js config/content_manifest.json",
-    "serve": "python3 scripts/dev_server.py 8001"
+    "serve": "python3 scripts/dev_server.py 8001",
+    "search-index": "node scripts/generate_search_index.js config/search",
+    "validate": "node scripts/validate_content.js && python3 scripts/validate_data.py",
+    "test": "node --test test/*.test.js"
   },
   "devDependencies": {
     "esbuild": "^0.24.0"

@@ -390,7 +390,7 @@ function HeroStreak({ go, progress, summary }) {
   );
 }
 
-function ReviseNextCard({ go, progress, summary }) {
+function ReviseNextCard({ go, progress, summary, review, onStartReview }) {
   const ds = window.UPSC;
   const weak = React.useMemo(() => {
     const agg = {};
@@ -408,6 +408,7 @@ function ReviseNextCard({ go, progress, summary }) {
       .slice(0, 3);
   }, [progress]);
   const hasHistory = (progress?.history || []).length > 0;
+  const dueCount = review?.due || 0;
   const accuracyTone = (value) => (value < 50 ? "low" : value < 75 ? "mid" : "high");
 
   return (
@@ -416,6 +417,13 @@ function ReviseNextCard({ go, progress, summary }) {
         <span className="eyebrow small"><span className="eyebrow-line" /> Revise next</span>
         {hasHistory && <span className="revise-count">{summary.attempts} attempt{summary.attempts === 1 ? "" : "s"}</span>}
       </div>
+      {dueCount > 0 && (
+        <button className="revise-due" onClick={onStartReview}>
+          <span className="revise-due-dot" />
+          <span><strong>{dueCount} question{dueCount === 1 ? "" : "s"} due for revision</strong><small>Spaced repetition on what you got wrong</small></span>
+          <Icon name="arrowR" size={15} />
+        </button>
+      )}
       {weak.length ? (
         <>
           <p className="revise-sub">Your lowest-accuracy areas — worth another pass.</p>
@@ -1619,7 +1627,7 @@ function renderMathHtml(formula, display) {
   }
 }
 
-function Home({ go, progress, summary }) {
+function Home({ go, progress, summary, review, onStartReview }) {
   return (
     <div className="home">
       <section className="hero">
@@ -1647,7 +1655,7 @@ function Home({ go, progress, summary }) {
         <div className="home-col-l">
           <DailyQuizCard go={go} progress={progress} />
           <DailyRcCard go={go} />
-          <ReviseNextCard go={go} progress={progress} summary={summary} />
+          <ReviseNextCard go={go} progress={progress} summary={summary} review={review} onStartReview={onStartReview} />
         </div>
         <div className="home-col-r">
           <Snapshot go={go} summary={summary} />
