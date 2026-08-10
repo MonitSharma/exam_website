@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the Asiatic lion in India, consider the following statements:\n1. As per the 2025 population estimation, the Asiatic lion population in India stood at 891, up from 674 in 2020.\n2. A majority of the lions counted in 2025 were found inside notified protected areas such as national parks and wildlife sanctuaries.\n3. Project Lion was announced by the Prime Minister in 2020.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "The 2025 estimation recorded 891 lions against 674 in 2020, and Project Lion was announced on 15 August 2020. Statement 2 is wrong: only about 384 lions were inside protected forest areas while 507 were in non-forested, largely human-dominated landscapes.",
+    "subject": "Environment",
+    "theme": "Wildlife Conservation",
+    "micro_topic": "Asiatic Lion census and Project Lion",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements regarding the recent first-ever sea-route export of Mithila Makhana:\n1. The consignment was facilitated by APEDA, a statutory body under the Ministry of Commerce and Industry.\n2. Mithila Makhana carries a Geographical Indication tag.\n3. Bihar accounts for nearly 85 per cent of India's makhana production.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. APEDA is a statutory body under the APEDA Act, 1985 functioning under the Department of Commerce; Mithila Makhana is GI-tagged; and Bihar produces roughly 85% of India's makhana. The August 2026 shipment carried 18 MT in seven containers from Bihar to Australia.",
+    "subject": "Agriculture",
+    "theme": "Agricultural Exports",
+    "micro_topic": "GI tags and APEDA-facilitated exports",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The \"Jiyo Parsi\" scheme, seen in the news, is implemented by which of the following ministries, and what is its principal objective?",
+    "options": [
+      "(a) Ministry of Health and Family Welfare — to expand assisted reproductive technology services in rural districts",
+      "(b) Ministry of Minority Affairs — to contain and reverse the population decline of the Parsi community in India",
+      "(c) Ministry of Culture — to conserve Zoroastrian heritage structures and manuscripts",
+      "(d) Ministry of Social Justice and Empowerment — to provide old-age care to religious minorities"
+    ],
+    "answer": "(b)",
+    "explanation": "Jiyo Parsi is a central sector scheme of the Ministry of Minority Affairs launched in 2013-14 to arrest the decline of the Parsi (Zoroastrian) population, which fell from about 1,14,000 in 1941 to 57,264 in the 2011 Census. It has three components: Medical Assistance, Health of Community, and Advocacy.",
+    "subject": "Polity & Governance",
+    "theme": "Welfare Schemes",
+    "micro_topic": "Minority welfare — Jiyo Parsi",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]

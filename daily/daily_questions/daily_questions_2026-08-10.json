@@ -1,0 +1,114 @@
+[
+  {
+    "question": "Consider the following statements regarding the Census of India, 2027:\n1. It will be the first Census of India to be conducted digitally.\n2. A single reference date of 1 March 2027 has been notified for the whole of India.\n3. Population enumeration in the snow-bound non-synchronous areas of Ladakh is scheduled for September 2026.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Census 2027 is India's first digitally conducted Census and the first to enumerate caste beyond SC/ST since 1931. Ladakh's population enumeration runs 1-30 September 2026, with a revisional round 1-5 October 2026. Statement 2 is wrong: the snow-bound non-synchronous areas of Ladakh, Jammu & Kashmir, Himachal Pradesh and Uttarakhand have a reference date of 00:00 hrs on 1 October 2026, against 1 March 2027 for the rest of India.",
+    "subject": "Polity & Governance",
+    "theme": "Census and population data systems",
+    "micro_topic": "Census 2027 schedule notified for snow-bound non-synchronous areas; Ladakh enumeration 1-30 September 2026; dual reference dates; first caste enumeration since 1931",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Viksit Bharat - Guarantee for Rozgar and Ajeevika Mission (Gramin), or VB-G RAM G, consider the following statements:\n1. It replaced the Mahatma Gandhi National Rural Employment Guarantee Scheme with effect from 1 July 2026.\n2. It guarantees up to 125 days of unskilled manual wage employment per rural household in a financial year.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 only",
+      "(c) Both 1 and 2",
+      "(d) Neither 1 nor 2"
+    ],
+    "answer": "(c)",
+    "explanation": "VB-G RAM G replaced MGNREGS with effect from 1 July 2026 and raises the statutory entitlement from 100 days to up to 125 days of unskilled manual wage employment per rural household per financial year. Its first month recorded 7.67 crore person-days, down 49.94% year-on-year, with beneficiary households falling 51.45% to 68.94 lakh; the Ministry of Rural Development contested the dashboard figures, citing roughly 9 crore person-days.",
+    "subject": "Economy",
+    "theme": "Employment and inclusive growth",
+    "micro_topic": "VB-G RAM G first-month data for July 2026; replacement of MGNREGS on 1 July 2026; 125-day guarantee; Article 41 DPSP",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "India's non-fossil-fuel-based installed electricity generation capacity crossed 300 GW as on 31 July 2026. Within this capacity, which of the following sources accounts for the second-largest share?",
+    "options": [
+      "(a) Wind power",
+      "(b) Hydro power",
+      "(c) Nuclear power",
+      "(d) Bio-power"
+    ],
+    "answer": "(a)",
+    "explanation": "Of the 300.50 GW of non-fossil capacity, solar leads with 164.59 GW and wind is second at 58.14 GW, narrowly ahead of hydro at 57.24 GW; bio-power is 11.75 GW and nuclear 8.78 GW. Note that 'non-fossil' includes large hydro and nuclear, and that the total of about 552 GW means non-fossil sources now form over 54% of installed capacity - already past the 50% goal in India's updated NDC.",
+    "subject": "Environment",
+    "theme": "Climate change mitigation and energy transition",
+    "micro_topic": "India crosses 300.50 GW non-fossil installed capacity as on 31 July 2026; source-wise break-up; 60% of the 500 GW Panchamrit target",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "The term 'glueball', seen recently in the news, is best described as:",
+    "options": [
+      "(a) A dense cluster of neutrons formed in the core of a collapsing star",
+      "(b) A bound state composed entirely of gluons, containing no valence quarks",
+      "(c) An engineered nucleus in which protons are bound by an artificial adhesive field",
+      "(d) A quark-antiquark pair held together by the weak nuclear force"
+    ],
+    "answer": "(b)",
+    "explanation": "A glueball is a hadron made purely of gluons, with no valence quarks. It is possible because gluons themselves carry colour charge and self-interact, unlike photons in electromagnetism. On 5 August 2026 at ICHEP 2026 in Natal, Brazil, the BESIII collaboration at BEPCII presented a complete evidence chain identifying X(2370), of mass about 2370 MeV and spin-parity 0-+, as the lightest pseudoscalar glueball, matching lattice QCD predictions.",
+    "subject": "Science & Technology",
+    "theme": "Particle physics and fundamental interactions",
+    "micro_topic": "BESIII confirmation of X(2370) as the lightest pseudoscalar glueball, 5 August 2026; QCD colour charge and gluon self-interaction; lattice QCD",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements about Mithila Makhana, recently in the news:\n1. It has been accorded Geographical Indication status and is associated with Bihar.\n2. It is obtained from the aquatic plant Euryale ferox, cultivated in ponds and wetlands.\n3. The promotion of its exports falls within the mandate of the Marine Products Export Development Authority (MPEDA).\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Mithila Makhana received its GI tag in 2022 and is grown in the ponds and wetlands of Bihar's Mithila region from Euryale ferox. Statement 3 is wrong: agricultural and processed food exports fall under APEDA, a statutory body under the APEDA Act, 1985 in the Ministry of Commerce and Industry, while MPEDA handles marine products. APEDA facilitated the first commercial sea shipment of 18 MT of GI-tagged Mithila Makhana from Bihta, Bihar to Australia, giving growers about 18% higher returns.",
+    "subject": "Agriculture",
+    "theme": "Agricultural marketing, exports and food processing",
+    "micro_topic": "First sea-route export of GI-tagged Mithila Makhana from Bihar to Australia, August 2026; APEDA versus MPEDA mandate; Euryale ferox",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the conduct of the Census in India, consider the following statements:\n1. 'Census' is a subject enumerated in the Concurrent List of the Seventh Schedule to the Constitution.\n2. The Census is conducted under the provisions of the Census Act, 1948.\n3. The office of the Registrar General and Census Commissioner of India functions under the Ministry of Home Affairs.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "The Census is conducted under the Census Act, 1948 by the Registrar General and Census Commissioner of India, an office under the Ministry of Home Affairs. Statement 1 is wrong: 'Census' is Entry 69 of the Union List (List I) of the Seventh Schedule, not the Concurrent List, which is why the Union alone determines its scope, schedule and questionnaire.",
+    "subject": "Polity & Governance",
+    "theme": "Centre-State legislative relations and statutory framework",
+    "micro_topic": "Entry 69 of the Union List; Census Act, 1948; Registrar General and Census Commissioner of India under MHA; distinction from SECC 2011",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to India's updated Nationally Determined Contribution (2022) under the Paris Agreement, consider the following statements:\n1. India committed to reducing the emissions intensity of its GDP by 45% from 2005 levels by 2030.\n2. India committed to achieving about 50% cumulative electric power installed capacity from non-fossil-fuel-based energy resources by 2030.\n3. India committed to an absolute cap on its total greenhouse gas emissions by 2030.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "India's updated NDC submitted in August 2022 contains a 45% reduction in the emissions intensity of GDP from 2005 levels by 2030 and about 50% cumulative electric power installed capacity from non-fossil sources by 2030. Statement 3 is wrong: India has taken on no absolute emissions cap, its long-term goal being net zero by 2070. The widely quoted 500 GW non-fossil capacity figure comes from the Panchamrit announcement at COP26, Glasgow, and not from the formal NDC text.",
+    "subject": "Environment",
+    "theme": "International climate negotiations and India's commitments",
+    "micro_topic": "India's updated NDC 2022 versus the Panchamrit announcement at COP26; emissions intensity target; no absolute emissions cap; net zero by 2070",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  }
+]
