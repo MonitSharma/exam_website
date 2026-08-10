@@ -101,7 +101,7 @@ Which are correct?
 - (c) A newly declared biosphere reserve in Sikkim
 - (d) India's largest freshwater lake, in Manipur
 
-**Q12.** Which of the following did India do this week? Consider:
+**Q12.** Which of the following developments occurred this week? Consider:
 
 1. Signed two **INR-denominated Lines of Credit** with Sri Lanka (railways and livestock).
 2. The **Environmental Performance Index (EPI) 2026** ranked India 176th of 177.

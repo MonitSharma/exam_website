@@ -17,104 +17,22 @@ const NAV = [
   { id: "dashboard", label: "Progress", icon: "chart" },
 ];
 
-const PROGRESS_STORAGE_KEY = "parikshaProgressV2";
-
-function createFreshProgress(resetAt = Date.now()) {
-  return {
-    version: 2,
-    resetAt,
-    history: [],
-    dailyCompletions: {},
-  };
-}
-
-function loadProgress() {
-  try {
-    const parsed = JSON.parse(localStorage.getItem(PROGRESS_STORAGE_KEY) || "");
-    if (parsed?.version === 2 && Array.isArray(parsed.history) && parsed.dailyCompletions) return parsed;
-  } catch (error) {
-    // Ignore malformed local progress and start with a clean local model.
-  }
-  return createFreshProgress();
-}
-
-function saveProgress(progress) {
-  localStorage.setItem(PROGRESS_STORAGE_KEY, JSON.stringify(progress));
-}
-
-function getIsoDate(value = Date.now()) {
-  const date = new Date(value);
-  return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}-${String(date.getDate()).padStart(2, "0")}`;
-}
-
-function formatShortDate(value = Date.now()) {
-  return new Intl.DateTimeFormat("en-GB", { day: "2-digit", month: "short" }).format(new Date(value));
-}
-
-function calculateAttemptSummary(questions, answers, questionSet) {
-  let correct = 0, wrong = 0, skipped = 0;
-  let score = 0, max = 0;
-  const subjectBreakdown = {};
-  questions.forEach((q) => {
-    const selected = answers[q.n];
-    const accepted = Array.isArray(q.acceptedAnswers) && q.acceptedAnswers.length ? q.acceptedAnswers : [q.answer].filter(Boolean);
-    const marking = window.UPSC.getQuestionMarking(questionSet, q);
-    const subject = q.subject || "General Studies";
-    subjectBreakdown[subject] = subjectBreakdown[subject] || { correct: 0, attempted: 0, total: 0 };
-    subjectBreakdown[subject].total++;
-    max += marking.correct;
-    if (!selected) {
-      skipped++;
-      return;
-    }
-    subjectBreakdown[subject].attempted++;
-    if (accepted.includes(selected)) {
-      correct++;
-      subjectBreakdown[subject].correct++;
-      score += marking.correct;
-    } else {
-      wrong++;
-      score += marking.wrong;
-    }
-  });
-  const attempted = correct + wrong;
-  const accuracy = Math.round((correct / (attempted || 1)) * 100);
-  return { correct, wrong, skipped, attempted, score: Math.round(score * 100) / 100, max: Math.round(max * 100) / 100, accuracy, subjectBreakdown };
-}
-
-function getProgressSummary(progress) {
-  const history = progress?.history || [];
-  const totals = history.reduce((acc, item) => {
-    acc.correct += Number(item.correct) || 0;
-    acc.attempted += Number(item.attempted) || 0;
-    acc.questions += Number(item.attempted) || 0;
-    acc.score = Math.max(acc.score, Number(item.score) || 0);
-    return acc;
-  }, { correct: 0, attempted: 0, questions: 0, score: 0 });
-  return {
-    attempts: history.length,
-    questionsSolved: totals.questions,
-    averageAccuracy: Math.round((totals.correct / (totals.attempted || 1)) * 100),
-    bestScore: Math.round(totals.score * 100) / 100,
-    streak: calculateDailyStreak(progress?.dailyCompletions || {}),
-    resetAt: progress?.resetAt || null,
-  };
-}
-
-function calculateDailyStreak(completions) {
-  let streak = 0;
-  const dailySets = window.UPSC.getQuestionSetsBySource("daily");
-  const availableDates = dailySets.map((set) => set.isoDate).filter(Boolean).sort();
-  const anchorDate = availableDates.includes(window.UPSC.todayIso)
-    ? window.UPSC.todayIso
-    : availableDates[availableDates.length - 1] || window.UPSC.todayIso;
-  const cursor = new Date(`${anchorDate}T00:00:00`);
-  while (completions[getIsoDate(cursor)]) {
-    streak++;
-    cursor.setDate(cursor.getDate() - 1);
-  }
-  return streak;
-}
+// Progress model, review scheduling and storage live in app/progress.js so the
+// same code can be unit-tested outside the browser.
+const {
+  createFreshProgress,
+  normalizeProgress,
+  compactProgress,
+  recordAttemptQuestions,
+  getDueQuestions,
+  getReviewSummary,
+  loadProgress,
+  saveProgress,
+  getIsoDate,
+  formatShortDate,
+  calculateAttemptSummary,
+  getProgressSummary,
+} = window.UPSC_PROGRESS;
 
 function TopNav({ screen, go, summary, onSearch }) {
   const ds = window.UPSC;
@@ -197,16 +115,47 @@ function buildSearchResults(ds, query) {
 function GlobalSearch({ open, onClose, go }) {
   const ds = window.UPSC;
   const [query, setQuery] = useRootState("");
+  const [fullText, setFullText] = useRootState({ results: [], hasMore: false, loading: false, all: false });
+  const [snippets, setSnippets] = useRootState({});
   const inputRef = React.useRef(null);
 
   useRootEffect(() => {
     if (open) {
       setQuery("");
+      setFullText({ results: [], hasMore: false, loading: false, all: false });
+      setSnippets({});
       const id = window.setTimeout(() => inputRef.current && inputRef.current.focus(), 30);
       return () => window.clearTimeout(id);
     }
     return undefined;
   }, [open]);
+
+  // Full-text lookup is debounced and runs against the lazily fetched index, so
+  // the title/metadata matches above stay instant while this catches up.
+  const trimmedQuery = query.trim();
+  const searchAll = fullText.all;
+  useRootEffect(() => {
+    if (!open || trimmedQuery.length < 3 || !window.UPSC_SEARCH) {
+      setFullText((current) => ({ ...current, results: [], hasMore: false, loading: false }));
+      return undefined;
+    }
+    let cancelled = false;
+    setFullText((current) => ({ ...current, loading: true }));
+    const timer = window.setTimeout(() => {
+      window.UPSC_SEARCH.search(trimmedQuery, { all: searchAll })
+        .then((outcome) => {
+          if (cancelled) return;
+          setFullText({ results: outcome.results, hasMore: outcome.hasMore, loading: false, all: searchAll });
+          for (const result of outcome.results.slice(0, 5)) {
+            window.UPSC_SEARCH.snippetFor(result).then((text) => {
+              if (!cancelled && text) setSnippets((current) => ({ ...current, [result.id]: text }));
+            });
+          }
+        })
+        .catch(() => { if (!cancelled) setFullText((current) => ({ ...current, loading: false })); });
+    }, 160);
+    return () => { cancelled = true; window.clearTimeout(timer); };
+  }, [open, trimmedQuery, searchAll]);
 
   useRootEffect(() => {
     function onKey(event) { if (event.key === "Escape") onClose(); }
@@ -217,6 +166,9 @@ function GlobalSearch({ open, onClose, go }) {
   if (!open) return null;
   const trimmed = query.trim().toLowerCase();
   const results = trimmed.length >= 1 ? buildSearchResults(ds, trimmed) : [];
+  // Notes already listed by the title search do not need a second row.
+  const titleMatchIds = new Set(results.filter((item) => item.kind === "note").map((item) => item.id));
+  const fullTextOnly = fullText.results.filter((item) => !titleMatchIds.has(item.id)).slice(0, 8);
 
   function openResult(result) {
     onClose();
@@ -243,20 +195,53 @@ function GlobalSearch({ open, onClose, go }) {
         </div>
         <div className="search-results">
           {trimmed.length < 1 ? (
-            <p className="search-hint">Type to search across notes and the question bank.</p>
-          ) : results.length ? (
-            results.map((result) => (
-              <button key={`${result.kind}-${result.id}`} className="search-result" onClick={() => openResult(result)}>
-                <span className="search-result-icon"><Icon name={result.kind === "note" ? "book" : "play"} size={16} /></span>
-                <span className="search-result-copy">
-                  <strong>{result.title}</strong>
-                  <small>{result.sub}</small>
-                </span>
-                <span className="search-result-badge">{result.badge}</span>
-              </button>
-            ))
+            <p className="search-hint">Type to search titles, the question bank, and the full text of every note.</p>
           ) : (
-            <p className="search-empty">No matches for “{query.trim()}”.</p>
+            <>
+              {results.length > 0 && (
+                <>
+                  <p className="search-group-label">Titles &amp; question sets</p>
+                  {results.map((result) => (
+                    <button key={`${result.kind}-${result.id}`} className="search-result" onClick={() => openResult(result)}>
+                      <span className="search-result-icon"><Icon name={result.kind === "note" ? "book" : "play"} size={16} /></span>
+                      <span className="search-result-copy">
+                        <strong>{result.title}</strong>
+                        <small>{result.sub}</small>
+                      </span>
+                      <span className="search-result-badge">{result.badge}</span>
+                    </button>
+                  ))}
+                </>
+              )}
+
+              {fullTextOnly.length > 0 && (
+                <>
+                  <p className="search-group-label">Inside notes</p>
+                  {fullTextOnly.map((result) => (
+                    <button key={`ft-${result.id}`} className="search-result search-result-full" onClick={() => openResult({ kind: "note", id: result.id, cadence: result.cadence })}>
+                      <span className="search-result-icon"><Icon name="search" size={16} /></span>
+                      <span className="search-result-copy">
+                        <strong>{result.title}</strong>
+                        <small>{snippets[result.id] || (result.date ? searchDateLabel(result.date) : "")}</small>
+                      </span>
+                      <span className="search-result-badge">{searchCadenceLabel(result.cadence)}</span>
+                    </button>
+                  ))}
+                </>
+              )}
+
+              {fullText.loading && <p className="search-hint">Searching note text…</p>}
+
+              {fullText.hasMore && !fullText.loading && (
+                <button className="search-more" onClick={() => setFullText((current) => ({ ...current, all: true }))}>
+                  Search older notes too
+                </button>
+              )}
+
+              {!results.length && !fullTextOnly.length && !fullText.loading && (
+                <p className="search-empty">No matches for “{query.trim()}”.</p>
+              )}
+            </>
           )}
         </div>
       </div>
@@ -278,6 +263,7 @@ function App() {
   const [progress, setProgress] = useRootState(loadProgress);
   const [searchOpen, setSearchOpen] = useRootState(false);
   const summary = getProgressSummary(progress);
+  const review = getReviewSummary(progress, ds.todayIso);
   void contentVersion;
 
   useRootEffect(() => {
@@ -293,11 +279,12 @@ function App() {
 
   useRootEffect(() => {
     const unsubscribe = window.UPSC.subscribeContent?.(() => setContentVersion((version) => version + 1));
-    // The initial module-load manifest refresh can resolve before this effect
-    // subscribes, so its notify reaches no listeners and the UI keeps stale
-    // fallback data. Re-refresh now that we're subscribed to guarantee the
-    // freshest content triggers a re-render.
-    window.UPSC.refreshContentManifest?.();
+    // The manifest fetch starts at module load and can resolve before this
+    // effect subscribes, so its notify would reach no listeners and the UI
+    // would keep the stale fallback data. Joining the same (de-duplicated)
+    // promise re-renders once it has landed, without a second request.
+    window.UPSC.refreshContentManifest?.().then(() => setContentVersion((version) => version + 1));
+    window.sweepStaleSessions?.();
     return unsubscribe;
   }, []);
 
@@ -320,10 +307,25 @@ function App() {
         setId: String(options.setId || ds.defaultPracticeSetId),
         returnTo: options.returnTo || (screen === "test" ? testSession.returnTo : screen) || "home",
         timed: options.timed !== false,
+        reviewQueue: options.reviewQueue || null,
+        // Changing this forces the test screen to rebuild the queue even when
+        // the synthetic set id is unchanged between two revision runs.
+        reviewToken: options.reviewQueue ? Date.now() : null,
       });
     }
     setScreen(s);
     scrollTop();
+  }
+
+  // Spaced repetition: pull the questions whose review date has arrived.
+  const REVIEW_SESSION_MAX = 20;
+  function startReviewSession() {
+    const due = getDueQuestions(progress, ds.todayIso, REVIEW_SESSION_MAX);
+    if (!due.length) return;
+    go("test", {
+      reviewQueue: due.map((entry) => ({ setId: entry.setId, n: entry.n })),
+      returnTo: screen,
+    });
   }
 
   function finishTest(result) {
@@ -346,11 +348,13 @@ function App() {
       subjectBreakdown: attemptSummary.subjectBreakdown,
     };
     setProgress((current) => {
-      const next = {
-        ...current,
-        history: [...(current.history || []), entry],
-        dailyCompletions: { ...(current.dailyCompletions || {}) },
-      };
+      // Per-question outcomes drive the spaced-repetition queue.
+      const withReview = recordAttemptQuestions(current, attemptSummary.questionResults, entry.isoDate);
+      const next = compactProgress({
+        ...withReview,
+        history: [...(withReview.history || []), entry],
+        dailyCompletions: { ...(withReview.dailyCompletions || {}) },
+      });
       if (result.questionSet.sourceType === "daily" && result.questionSet.isoDate) {
         next.dailyCompletions[result.questionSet.isoDate] = {
           submittedAt,
@@ -379,6 +383,34 @@ function App() {
     setProgress(fresh);
   }
 
+  // Progress lives only in this browser, so an exported file is the only backup
+  // there is. Restoring one has to be possible from the UI.
+  function importProgress(file) {
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = () => {
+      let restored = null;
+      try {
+        restored = normalizeProgress(JSON.parse(String(reader.result)));
+      } catch (error) {
+        restored = null;
+      }
+      if (!restored) {
+        window.alert("That file is not a Pariksha progress export.");
+        return;
+      }
+      const incoming = getProgressSummary(restored).attempts;
+      const existing = summary.attempts;
+      const confirmed = window.confirm(
+        `Replace the ${existing} attempt(s) stored in this browser with the ${incoming} attempt(s) in this file? This cannot be undone.`,
+      );
+      if (!confirmed) return;
+      saveProgress(restored);
+      setProgress(restored);
+    };
+    reader.readAsText(file);
+  }
+
   const isTest = screen === "test";
 
   return (
@@ -386,14 +418,14 @@ function App() {
       {!isTest && <TopNav screen={screen} go={go} summary={summary} onSearch={() => setSearchOpen(true)} />}
       <GlobalSearch open={searchOpen} onClose={() => setSearchOpen(false)} go={go} />
       <div key={screen} className="screen-fade">
-        {screen === "home" && <Home go={go} progress={progress} summary={summary} />}
+        {screen === "home" && <Home go={go} progress={progress} summary={summary} review={review} onStartReview={startReviewSession} />}
         {screen === "atlas" && <NewsAtlas />}
         {screen === "practice" && <PracticeScreen go={go} />}
         {screen === "test" && <TestScreen go={go} session={testSession} onSubmit={finishTest} />}
         {screen === "result" && <Results go={go} result={lastResult} />}
         {screen === "review" && <Review go={go} result={lastResult} />}
         {screen === "workflow" && <StudyWorkflowDashboard go={go} progress={progress} />}
-        {screen === "dashboard" && <Dashboard go={go} progress={progress} summary={summary} onResetProgress={resetProgress} />}
+        {screen === "dashboard" && <Dashboard go={go} progress={progress} summary={summary} review={review} onStartReview={startReviewSession} onResetProgress={resetProgress} onImportProgress={importProgress} />}
       </div>
 
       {!isTest && (
@@ -433,4 +465,18 @@ function App() {
   );
 }
 
-ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+// The manifest is preloaded in the document head and cached across visits, so
+// waiting for it costs nothing on a warm load and avoids painting the built-in
+// fallback content — which is a stale snapshot — before swapping it out. The
+// timeout keeps a slow or failed fetch from holding the page hostage; the app
+// then boots on the fallbacks exactly as it would offline.
+const MANIFEST_BOOT_TIMEOUT_MS = 2000;
+
+function mount() {
+  ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+}
+
+Promise.race([
+  window.UPSC.refreshContentManifest?.() ?? Promise.resolve(false),
+  new Promise((resolve) => window.setTimeout(resolve, MANIFEST_BOOT_TIMEOUT_MS)),
+]).then(mount, mount);

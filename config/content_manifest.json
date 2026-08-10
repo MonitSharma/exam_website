@@ -12,6 +12,24 @@
   ],
   "questionSets": [
     {
+      "id": "daily_questions_2026_08_09",
+      "label": "Daily Questions - 09 Aug 2026",
+      "shortLabel": "Daily 09 Aug",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-08-09.json",
+      "isoDate": "2026-08-09",
+      "subjects": [
+        "Economy",
+        "Science & Technology",
+        "Art & Culture",
+        "Geography",
+        "International Relations"
+      ]
+    },
+    {
       "id": "daily_questions_2026_08_08",
       "label": "Daily Questions - 08 Aug 2026",
       "shortLabel": "Daily 08 Aug",
@@ -1154,6 +1172,23 @@
       ]
     },
     {
+      "id": "daily_rc_2026_08_10",
+      "label": "Daily RC Drill - 10 Aug 2026",
+      "shortLabel": "RC 10 Aug",
+      "category": "Daily Reading Comprehension",
+      "sourceType": "rc",
+      "questionCount": 8,
+      "durationMinutes": 16,
+      "path": "generated_data/rc_questions/2026-08-10.json",
+      "isoDate": "2026-08-10",
+      "paper": "GS Paper II (CSAT)",
+      "marksPerCorrect": 2,
+      "negativeMark": -0.66,
+      "subjects": [
+        "Reading Comprehension"
+      ]
+    },
+    {
       "id": "daily_rc_2026_08_03",
       "label": "Daily RC Drill - 03 Aug 2026",
       "shortLabel": "RC 03 Aug",
@@ -1338,6 +1373,22 @@
       "negativeMark": -0.66,
       "subjects": [
         "Reading Comprehension"
+      ]
+    },
+    {
+      "id": "pib_questions_2026_08_09",
+      "label": "PIB Questions - 09 Aug 2026",
+      "shortLabel": "PIB 09 Aug",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-08-09.json",
+      "isoDate": "2026-08-09",
+      "subjects": [
+        "Environment",
+        "Polity & Governance",
+        "Science & Technology"
       ]
     },
     {
@@ -3383,6 +3434,14 @@
       "path": "anki/Prelims_Flashcards_2026-06-21.txt"
     },
     {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-08-09",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "09 Aug 2026",
+      "date": "2026-08-09",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-08-09.md"
+    },
+    {
       "id": "daily-daily-current-affairs-upsc-ca-2026-08-08",
       "cadence": "daily",
       "title": "UPSC Daily CA Briefing",
@@ -3959,6 +4018,14 @@
       "path": "weekly/Editorials/Editorials_Mains_2026-06-11.md"
     },
     {
+      "id": "ethics-case-2026-08-10",
+      "cadence": "ethics",
+      "title": "Weekly Ethics Case Study",
+      "shortTitle": "Case - 10 Aug",
+      "date": "2026-08-10",
+      "path": "Ethics_Case_2026-08-10.md"
+    },
+    {
       "id": "ethics-case-2026-06-29",
       "cadence": "ethics",
       "title": "Weekly Ethics Case Study",
@@ -4197,6 +4264,14 @@
       "shortTitle": "10 Jun",
       "date": "2026-06-10",
       "path": "weekly/Physics/Physics_Drill_2026-06-10.md"
+    },
+    {
+      "id": "daily-daily-pib-pib-2026-08-09",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 09 Aug",
+      "date": "2026-08-09",
+      "path": "daily/daily_pib/PIB_2026-08-09.md"
     },
     {
       "id": "daily-daily-pib-pib-2026-08-08",
@@ -4663,6 +4738,14 @@
       "path": "daily/daily_pib/PIB_2026-06-11.md"
     },
     {
+      "id": "daily-daily-reading-comprehension-rc-drill-2026-08-10",
+      "cadence": "rc",
+      "title": "CSAT Daily RC Drill",
+      "shortTitle": "RC - 10 Aug",
+      "date": "2026-08-10",
+      "path": "daily/daily_reading_comprehension/RC_Drill_2026-08-10.md"
+    },
+    {
       "id": "daily-daily-reading-comprehension-rc-drill-2026-08-03",
       "cadence": "rc",
       "title": "CSAT Daily RC Drill",
@@ -4749,6 +4832,14 @@
       "shortTitle": "RC - 08 Jun",
       "date": "2026-06-08",
       "path": "daily/daily_reading_comprehension/RC_Drill_2026-06-08.md"
+    },
+    {
+      "id": "weekly-schemes-schemes-reports-2026-08-09",
+      "cadence": "schemes",
+      "title": "Schemes & Reports",
+      "shortTitle": "Reports - 09 Aug",
+      "date": "2026-08-09",
+      "path": "weekly/Schemes/Schemes_Reports_2026-08-09.md"
     },
     {
       "id": "weekly-schemes-schemes-reports-2026-08-02",
@@ -5092,6 +5183,14 @@
       "shortTitle": "PYQ - 15 Jun",
       "date": "2026-06-15",
       "path": "weekly/CSAT/CSAT_PYQ_2026-06-15.md"
+    },
+    {
+      "id": "weekly-csat-csat-practice-2026-06-14",
+      "cadence": "weekly-csat",
+      "title": "CSAT Practice",
+      "shortTitle": "Practice - 14 Jun",
+      "date": "2026-06-14",
+      "path": "weekly/CSAT/CSAT_Practice_2026-06-14.md"
     },
     {
       "id": "weekly-csat-csat-practice-2026-06-09",

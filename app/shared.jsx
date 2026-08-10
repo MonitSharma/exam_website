@@ -28,6 +28,7 @@ function Icon({ name, size = 20, stroke = 1.6, style }) {
     trophy: <><path d="M7 4h10v4a5 5 0 0 1-10 0z" /><path d="M7 6H4v1a3 3 0 0 0 3 3M17 6h3v1a3 3 0 0 1-3 3" /><path d="M9 16h6M10 20h4M12 13v3" /></>,
     layers: <><path d="m12 3 9 5-9 5-9-5z" /><path d="m3 13 9 5 9-5" /></>,
     download: <><path d="M12 4v11" /><path d="m7 11 5 5 5-5" /><path d="M5 20h14" /></>,
+    upload: <><path d="M12 20V9" /><path d="m7 13 5-5 5 5" /><path d="M5 4h14" /></>,
     bolt: <path d="M13 3 5 14h6l-1 7 8-11h-6z" />,
     chevR: <path d="m9 6 6 6-6 6" />,
     flame: <path d="M12 3c1 3-2 4-2 7a4 4 0 0 0 8 0c0-2-1-3-1-3 2 1 3 3 3 5a6 6 0 1 1-12 0c0-4 4-5 4-9z" />,
@@ -136,13 +137,22 @@ function QuestionStem({ q, big }) {
     <div className={`stem${big ? " stem-big" : ""}`}>
       {q.passage && <div className="stem-passage">{q.passage}</div>}
       <p className="stem-lead">{q.stem}</p>
-      {q.statements && q.statements.length > 0 && (
-        <ol className="stmt-list">
-          {q.statements.map((s, i) => (
-            <li key={i}><span className="stmt-num">{i + 1}.</span><span>{s}</span></li>
-          ))}
-        </ol>
-      )}
+      {q.statements && q.statements.length > 0 && (() => {
+        // Assertion–Reason and "Statement I/II" lists carry their own labels,
+        // which the options refer to by name. Numbering those again reads as
+        // "1. Statement I: …", so the counter is dropped for them.
+        const selfLabelled = q.statements.every((s) => /^(Statement\s+(?:[IVX]+|\d+)|Assertion\s*\(A\)|Reason\s*\(R\))\s*:/.test(s));
+        return (
+          <ol className={`stmt-list${selfLabelled ? " stmt-list-labelled" : ""}`}>
+            {q.statements.map((s, i) => (
+              <li key={i}>
+                {!selfLabelled && <span className="stmt-num">{i + 1}.</span>}
+                <span>{s}</span>
+              </li>
+            ))}
+          </ol>
+        );
+      })()}
       {q.tail && <p className="stem-tail">{q.tail}</p>}
     </div>
   );
