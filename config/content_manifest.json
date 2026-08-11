@@ -12,6 +12,24 @@
   ],
   "questionSets": [
     {
+      "id": "daily_questions_2026_08_10",
+      "label": "Daily Questions - 10 Aug 2026",
+      "shortLabel": "Daily 10 Aug",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-08-10.json",
+      "isoDate": "2026-08-10",
+      "subjects": [
+        "Polity & Governance",
+        "Economy",
+        "Environment",
+        "Science & Technology",
+        "Agriculture"
+      ]
+    },
+    {
       "id": "daily_questions_2026_08_09",
       "label": "Daily Questions - 09 Aug 2026",
       "shortLabel": "Daily 09 Aug",
@@ -1376,6 +1394,22 @@
       ]
     },
     {
+      "id": "pib_questions_2026_08_10",
+      "label": "PIB Questions - 10 Aug 2026",
+      "shortLabel": "PIB 10 Aug",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-08-10.json",
+      "isoDate": "2026-08-10",
+      "subjects": [
+        "Environment",
+        "Agriculture",
+        "Polity & Governance"
+      ]
+    },
+    {
       "id": "pib_questions_2026_08_09",
       "label": "PIB Questions - 09 Aug 2026",
       "shortLabel": "PIB 09 Aug",
@@ -2673,6 +2707,55 @@
       ]
     },
     {
+      "id": "sectional_art-culture_2026_08_11",
+      "label": "Art Culture Sectional Test - 11 Aug 2026",
+      "shortLabel": "Art Culture 11 Aug",
+      "category": "Sectional Tests",
+      "sourceType": "sectional",
+      "questionCount": 25,
+      "durationMinutes": 40,
+      "path": "generated_data/sectional_questions/art-culture_2026-08-11.json",
+      "isoDate": "2026-08-11",
+      "subjects": [
+        "Art & Culture"
+      ]
+    },
+    {
+      "id": "sectional_book-topics_2026_08_11_extra",
+      "label": "Sectional Practice Add-on - 11 Aug 2026",
+      "shortLabel": "Extra 11 Aug",
+      "category": "Extra Practice",
+      "sourceType": "sectional",
+      "questionCount": 50,
+      "durationMinutes": 80,
+      "path": "generated_data/sectional_questions/book-topics_2026-08-11_chatgpt.json",
+      "isoDate": "2026-08-11",
+      "variant": "extra-practice",
+      "variantLabel": "Practice Add-on",
+      "isSupplementary": true,
+      "subjects": [
+        "Polity",
+        "Economy",
+        "History",
+        "Environment",
+        "Geography"
+      ]
+    },
+    {
+      "id": "sectional_modern-history_2026_08_10",
+      "label": "Modern History Sectional Test - 10 Aug 2026",
+      "shortLabel": "Modern History 10 Aug",
+      "category": "Sectional Tests",
+      "sourceType": "sectional",
+      "questionCount": 25,
+      "durationMinutes": 40,
+      "path": "generated_data/sectional_questions/modern-history_2026-08-10.json",
+      "isoDate": "2026-08-10",
+      "subjects": [
+        "Modern History"
+      ]
+    },
+    {
       "id": "sectional_book-topics_2026_08_09_extra",
       "label": "Sectional Practice Add-on - 09 Aug 2026",
       "shortLabel": "Extra 09 Aug",
@@ -3434,6 +3517,14 @@
       "path": "anki/Prelims_Flashcards_2026-06-21.txt"
     },
     {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-08-10",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "10 Aug 2026",
+      "date": "2026-08-10",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-08-10.md"
+    },
+    {
       "id": "daily-daily-current-affairs-upsc-ca-2026-08-09",
       "cadence": "daily",
       "title": "UPSC Daily CA Briefing",
@@ -4042,6 +4133,14 @@
       "path": "reference/Fodder_Bank.md"
     },
     {
+      "id": "daily-daily-mains-gs-mains-2026-08-11",
+      "cadence": "mains",
+      "title": "GS Mains Answer Practice",
+      "shortTitle": "Mains - 11 Aug",
+      "date": "2026-08-11",
+      "path": "daily/daily_mains/GS_Mains_2026-08-11.md"
+    },
+    {
       "id": "daily-daily-mains-gs-mains-2026-07-06",
       "cadence": "mains",
       "title": "GS Mains Answer Practice",
@@ -4264,6 +4363,14 @@
       "shortTitle": "10 Jun",
       "date": "2026-06-10",
       "path": "weekly/Physics/Physics_Drill_2026-06-10.md"
+    },
+    {
+      "id": "daily-daily-pib-pib-2026-08-10",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 10 Aug",
+      "date": "2026-08-10",
+      "path": "daily/daily_pib/PIB_2026-08-10.md"
     },
     {
       "id": "daily-daily-pib-pib-2026-08-09",
@@ -4912,6 +5019,33 @@
       "shortTitle": "Reports - 14 Jun",
       "date": "2026-06-14",
       "path": "weekly/Schemes/Schemes_Reports_2026-06-14.md"
+    },
+    {
+      "id": "weekly-sectional-sectional-art-culture-2026-08-11",
+      "cadence": "sectional",
+      "title": "Sectional Test",
+      "shortTitle": "Art Culture - 11 Aug",
+      "date": "2026-08-11",
+      "path": "weekly/Sectional/Sectional_art-culture_2026-08-11.md"
+    },
+    {
+      "id": "weekly-sectional-sectional-book-topics-2026-08-11-chatgpt",
+      "cadence": "sectional",
+      "title": "Weekly Book Topics 50Q Companion",
+      "shortTitle": "Book Topics - 11 Aug",
+      "date": "2026-08-11",
+      "path": "weekly/Sectional/Sectional_book-topics_2026-08-11_chatgpt.md",
+      "variant": "supplementary",
+      "variantLabel": "Companion Brief",
+      "isSupplementary": true
+    },
+    {
+      "id": "weekly-sectional-sectional-modern-history-2026-08-10",
+      "cadence": "sectional",
+      "title": "Sectional Test",
+      "shortTitle": "Modern History - 10 Aug",
+      "date": "2026-08-10",
+      "path": "weekly/Sectional/Sectional_modern-history_2026-08-10.md"
     },
     {
       "id": "weekly-sectional-sectional-book-topics-2026-08-09-2-chatgpt",

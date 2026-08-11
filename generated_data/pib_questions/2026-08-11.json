@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the constitutional procedure for altering the name of a State in India, which one of the following statements is correct?",
+    "options": [
+      "(a) A Bill for the purpose can be introduced in Parliament only on the recommendation of the President, after the President has referred it to the concerned State Legislature for its views",
+      "(b) The views expressed by the concerned State Legislature are binding on Parliament",
+      "(c) Such a Bill must be ratified by the Legislatures of not less than one-half of the States before it is presented to the President for assent",
+      "(d) Alteration of the name of a State requires a constitutional amendment passed by a special majority under Article 368"
+    ],
+    "answer": "(a)",
+    "explanation": "Under the proviso to Article 3, a Bill altering a State's name needs the President's recommendation and a prior reference to the State Legislature for its views, which are not binding; Article 4 expressly provides that consequential changes to the First and Fourth Schedules are not amendments under Article 368, and no ratification by half the States is required.",
+    "subject": "Polity & Governance",
+    "theme": "Constitution: Union and its Territory",
+    "micro_topic": "Article 3 and Article 4 - alteration of name of a State (Kerala (Alteration of Name) Bill, 2026)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements with reference to the accreditation scheme for mobile food testing laboratories launched in August 2026:\n1. It was launched by the National Accreditation Board for Testing and Calibration Laboratories, which is a constituent board of the Quality Council of India.\n2. It is India's first accreditation scheme specifically for mobile food testing laboratories.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 only",
+      "(c) Both 1 and 2",
+      "(d) Neither 1 nor 2"
+    ],
+    "answer": "(c)",
+    "explanation": "NABL, a constituent board of the Quality Council of India, launched India's first accreditation scheme for mobile food testing laboratories on 11 August 2026 under its Integrated Assessment Programme; laboratory accreditation is benchmarked to ISO/IEC 17025.",
+    "subject": "Polity & Governance",
+    "theme": "Regulatory and statutory bodies",
+    "micro_topic": "NABL and Quality Council of India - accreditation of mobile food testing laboratories",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to 'Vande Mataram', consider the following statements:\n1. It was composed by Bankim Chandra Chattopadhyay and later included in his novel Anandamath.\n2. It was first sung at the 1896 session of the Indian National Congress.\n3. The Constituent Assembly resolved that it shall be honoured equally with, and have equal status as, 'Jana Gana Mana'.\nHow many of the statements given above are correct?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All three",
+      "(d) None"
+    ],
+    "answer": "(c)",
+    "explanation": "Bankim Chandra Chattopadhyay composed Vande Mataram in 1875 and included it in Anandamath (1882); it was first sung at the 1896 Calcutta session of the INC by Rabindranath Tagore; and on 24 January 1950 the Constituent Assembly declared it would be honoured equally with Jana Gana Mana. Independence Day 2026 is themed on 150 years of Vande Mataram.",
+    "subject": "Art & Culture",
+    "theme": "National symbols and the freedom movement",
+    "micro_topic": "Vande Mataram - 150 years; National Song vs National Anthem",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]
