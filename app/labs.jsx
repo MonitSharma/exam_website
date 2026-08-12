@@ -150,6 +150,29 @@ const LAB_GUIDES = {
   "case-lab": { path: "GS4 · Ethics · Case studies", syllabus: "Case Studies on the above issues", pyqSubjects: ["Ethics"], exam: "Mains" },
 };
 
+const ECO_MAP_LAYERS = [
+  { id: "protected", label: "National parks & reserves", short: "Protected areas" },
+  { id: "wetlands", label: "Wetlands & lakes", short: "Wetlands" },
+  { id: "rivers", label: "Rivers & tributaries", short: "Rivers" },
+];
+
+const PROTECTED_AREA_META = {
+  hemis: { state: "Ladakh", river: "Indus system", hook: "Cold desert · snow leopard · high altitude" },
+  dachigam: { state: "Jammu & Kashmir", river: "Dachigam stream / Jhelum basin", hook: "Hangul · temperate Himalaya · Kashmir" },
+  "jim-corbett": { state: "Uttarakhand", river: "Ramganga", hook: "Oldest national park · Project Tiger · Terai–Bhabar" },
+  kaziranga: { state: "Assam", river: "Brahmaputra floodplain", hook: "One-horned rhinoceros · floodplain grasslands · UNESCO" },
+  manas: { state: "Assam", river: "Manas", hook: "Bhutan border · tiger reserve · transboundary landscape" },
+  namdapha: { state: "Arunachal Pradesh", river: "Noa-Dihing", hook: "Eastern Himalaya · four big cats · elevation gradient" },
+  sundarbans: { state: "West Bengal", river: "Ganga–Brahmaputra–Meghna delta", hook: "Mangrove delta · tiger habitat · tidal ecology" },
+  similipal: { state: "Odisha", river: "Budhabalanga / Subarnarekha basin", hook: "Biosphere reserve · tiger reserve · melanistic tiger" },
+  kanha: { state: "Madhya Pradesh", river: "Banjar / Narmada basin", hook: "Hard-ground barasingha · sal forest · central highlands" },
+  gir: { state: "Gujarat", river: "Hiran / west-flowing Saurashtra rivers", hook: "Asiatic lion · dry deciduous forest · Kathiawar" },
+  ranthambore: { state: "Rajasthan", river: "Banas / Chambal system", hook: "Tiger reserve · Aravalli–Vindhya transition" },
+  keoladeo: { state: "Rajasthan", river: "Gambhir / Banganga system", hook: "Human-made wetland · migratory birds · Ramsar + UNESCO" },
+  periyar: { state: "Kerala", river: "Periyar", hook: "Western Ghats · reservoir landscape · elephant and tiger" },
+  "silent-valley": { state: "Kerala", river: "Kunthipuzha / Bharathapuzha basin", hook: "Evergreen rainforest · endemic biodiversity · Western Ghats" },
+};
+
 const CONSTITUTION_CARDS = [
   { label: "Article 32", title: "Constitutional remedies", prompt: "Which Article did Ambedkar call the Constitution's 'heart and soul'?", answer: "Article 32 — the right to move the Supreme Court for enforcement of Fundamental Rights.", hook: "Exam hook: unlike many legal remedies, this right itself is guaranteed as a Fundamental Right." },
   { label: "Money Bill", title: "Lok Sabha primacy", prompt: "What is the cleanest way to remember the Money Bill route?", answer: "Introduced only in Lok Sabha on the President's recommendation; Rajya Sabha can recommend, but not amend or reject.", hook: "Exam hook: the Speaker certifies a Money Bill; Rajya Sabha gets 14 days." },
@@ -331,22 +354,46 @@ function EconomyFlowLab({ go }) {
 }
 
 function GeographyExplorerLab({ go }) {
-  const [stats, setStats] = useStateLabs({ states: "—", rivers: "—", countries: "—" });
+  const atlas = window.ATLAS_KNOWLEDGE || [];
+  const [layer, setLayer] = useStateLabs("protected");
+  const [mode, setMode] = useStateLabs("learn");
   const [query, setQuery] = useStateLabs("");
-  useEffectLabs(() => {
-    let cancelled = false;
-    Promise.all(["data/maps/india_states.geojson", "data/maps/india_rivers.geojson", "data/maps/world_countries_india_pov.geojson"].map((path) => fetch(path).then((response) => response.json())))
-      .then(([states, rivers, countries]) => { if (!cancelled) setStats({ states: states.features?.length || 0, rivers: rivers.features?.length || 0, countries: countries.features?.length || 0 }); })
-      .catch(() => {});
-    return () => { cancelled = true; };
-  }, []);
-  const filtered = RIVER_CARDS.filter((item) => (item.answer + " " + item.prompt).toLowerCase().includes(query.toLowerCase()));
+  const [stateFilter, setStateFilter] = useStateLabs("all");
+  const [selectedId, setSelectedId] = useStateLabs(null);
+  const [revealed, setRevealed] = useStateLabs(false);
+  const sourceFeatures = atlas.filter((feature) => feature.layer === layer);
+  const stateOptions = [...new Set(atlas.filter((feature) => feature.layer === "protected").map((feature) => PROTECTED_AREA_META[feature.id]?.state).filter(Boolean))].sort();
+  const filtered = sourceFeatures
+    .map((feature) => ({ ...feature, ...(PROTECTED_AREA_META[feature.id] || {}) }))
+    .filter((feature) => layer !== "protected" || stateFilter === "all" || feature.state === stateFilter)
+    .filter((feature) => {
+      const haystack = [feature.name, feature.state, feature.group, feature.fact, feature.hook, feature.river].filter(Boolean).join(" ").toLowerCase();
+      return haystack.includes(query.trim().toLowerCase());
+    });
+  const selectedFeature = filtered.find((feature) => feature.id === selectedId) || null;
+  const mapFeatures = mode === "recall" ? filtered.map((feature) => ({ ...feature, name: feature.type === "line" ? "Recall route" : "Recall marker" })) : filtered;
+  const activeLayer = ECO_MAP_LAYERS.find((item) => item.id === layer) || ECO_MAP_LAYERS[0];
+  const selectFeature = (feature) => {
+    if (String(feature.id || "").startsWith("boundary-")) {
+      const nextState = stateOptions.find((state) => state === feature.name);
+      if (nextState) setStateFilter(nextState);
+      return;
+    }
+    setSelectedId(feature.id);
+    setRevealed(false);
+  };
+  const reset = () => { setStateFilter("all"); setQuery(""); setSelectedId(null); setRevealed(false); };
   return (
-    <div className="labs-tool-panel labs-geo-panel">
-      <div className="labs-tool-head"><div><span className="labs-kicker">Layers + recall · Geography</span><h2>Search the map, then close it and recall</h2></div><LabIcon name="globe" /></div>
-      <div className="labs-geo-stats"><div><strong>{stats.states}</strong><span>state / UT geometries</span></div><div><strong>{stats.rivers}</strong><span>river features</span></div><div><strong>{stats.countries}</strong><span>world features</span></div></div>
-      <div className="labs-geo-search"><Icon name="search" size={15} /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search river clues…" aria-label="Search river clues" /></div>
-      <div className="labs-geo-results">{filtered.map((item) => <button key={item.answer} onClick={() => setQuery(item.answer)}><strong>{item.answer}</strong><span>{item.hook}</span></button>)}</div>
+    <div className="labs-tool-panel labs-geo-panel labs-eco-map-panel">
+      <div className="labs-tool-head"><div><span className="labs-kicker">Layers + recall · Protected areas</span><h2>Learn the place, then locate it from memory</h2></div><span className="labs-year-badge">{filtered.length} places</span></div>
+      <div className="labs-eco-mode" role="tablist" aria-label="Map study mode"><button role="tab" aria-selected={mode === "learn"} className={mode === "learn" ? "active" : ""} onClick={() => setMode("learn")}>Learn mode</button><button role="tab" aria-selected={mode === "recall"} className={mode === "recall" ? "active" : ""} onClick={() => { setMode("recall"); setRevealed(false); }}>Recall mode</button></div>
+      <div className="labs-eco-search"><Icon name="search" size={15} /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search parks, reserves, wetlands…" aria-label="Search parks, reserves, wetlands and rivers" /></div>
+      <div className="labs-eco-workspace">
+        <aside className="labs-eco-sidebar"><span className="labs-eco-label">Layers</span><div className="labs-eco-layer-list">{ECO_MAP_LAYERS.map((item) => <button key={item.id} className={layer === item.id ? "active" : ""} onClick={() => { setLayer(item.id); setSelectedId(null); setRevealed(false); }}><i className={`labs-eco-swatch ${item.id}`} /><span>{item.label}</span><small>{atlas.filter((feature) => feature.layer === item.id).length}</small></button>)}</div>{layer === "protected" && <label className="labs-eco-state"><span>State filter</span><select value={stateFilter} onChange={(event) => { setStateFilter(event.target.value); setSelectedId(null); }}><option value="all">All India</option>{stateOptions.map((state) => <option key={state} value={state}>{state}</option>)}</select></label>}<button className="labs-eco-reset" onClick={reset}>↺ Reset view</button></aside>
+        <div className="labs-eco-map-stage">{typeof AtlasLeafletMap === "function" ? <AtlasLeafletMap scope="india" features={mapFeatures} boundariesOn={true} riversOn={layer === "rivers"} riverSystem="all" selected={mapFeatures.find((feature) => feature.id === selectedId) || null} onSelect={selectFeature} /> : <div className="labs-eco-map-loading">Loading local India map…</div>}<div className="labs-eco-map-caption"><span>{activeLayer.short}</span><small>Click a marker or state · drag to explore · scroll to zoom</small></div></div>
+        <aside className="labs-eco-detail">{selectedFeature ? <>{mode === "recall" && !revealed ? <><span className="labs-eco-detail-label">Recall prompt</span><h3>Which {layer === "protected" ? "protected area" : activeLayer.short.toLowerCase()} is this?</h3><p>{selectedFeature.state || selectedFeature.group || "Trace the marker on the map."}</p><button className="btn btn-saffron sm" onClick={() => setRevealed(true)}>Reveal place</button></> : <><span className="labs-eco-detail-label">{activeLayer.short}</span><h3>{selectedFeature.name}</h3><p>{selectedFeature.fact}</p>{selectedFeature.state && <div className="labs-eco-facts"><span><b>State</b>{selectedFeature.state}</span><span><b>River / basin</b>{selectedFeature.river}</span></div>}<div className="labs-eco-hook"><span>Exam hook</span><strong>{selectedFeature.hook || selectedFeature.group}</strong></div>{mode === "recall" && <button className="btn ghost sm" onClick={() => setRevealed(false)}>Hide answer</button>}</>}</> : <div className="labs-eco-empty"><span className="labs-eco-detail-label">Select a place</span><strong>Click a marker to open its exam card</strong><p>Use Learn mode to build the association, then switch to Recall mode and test yourself.</p></div>}</aside>
+      </div>
+      <div className="labs-eco-legend"><span><i className="labs-eco-swatch protected" />Protected area</span><span><i className="labs-eco-swatch wetlands" />Wetland</span><span><i className="labs-eco-swatch rivers" />River line</span><span>{filtered.length} visible · local map layers</span></div>
       <div className="labs-tool-actions"><button className="btn btn-green sm" onClick={() => go("atlas")}>Open full News Atlas <Icon name="arrowR" size={14} /></button><LabSources labId="world-geography" go={go} /></div>
     </div>
   );
