@@ -30,6 +30,17 @@ boundaries are approximate reconstructions projected onto modern district
 shapes for educational use; they are not legal or political claims. The
 imported snapshot was retrieved on 26 July 2026.
 
+## Study Labs Inspiration
+
+The **Study Labs** section is inspired by the visual, syllabus-wise learning
+approach demonstrated by [upsc.labs](https://upsclabs.vercel.app/), including
+its use of interactive timelines, maps, and active-recall tools for UPSC
+revision. See the specific [GS1 tool collection](https://upsclabs.vercel.app/gs1)
+for the reference pattern.
+
+Pariksha's Study Labs implementation, content, code, and visual treatment are
+original to this project and are not affiliated with or endorsed by upsc.labs.
+
 ## Run Locally
 
 Normalize the raw JSON:
