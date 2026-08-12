@@ -30,6 +30,7 @@ test("a fresh progress object is at the current version", () => {
   assert.deepEqual(fresh.history, []);
   assert.deepEqual(fresh.archive, []);
   assert.deepEqual(fresh.questionStats, {});
+  assert.deepEqual(fresh.labStats, {});
 });
 
 test("history under the cap is left alone", () => {
@@ -207,6 +208,20 @@ test("getReviewSummary separates due from scheduled and ranks subjects", () => {
   assert.equal(summary.due, 2);
   assert.equal(summary.scheduled, 1);
   assert.deepEqual(summary.weakest[0], { subject: "Polity", count: 2 });
+});
+
+test("lab confidence creates a scheduled review and escalates mastery", () => {
+  const { P } = loadProgressModule();
+  let progress = P.createFreshProgress(0);
+  progress = P.recordLabProgress(progress, { labId: "modern-timeline", confidence: "unsure" }, "2026-08-10");
+  assert.equal(progress.labStats["modern-timeline"].lastConfidence, "unsure");
+  assert.equal(progress.labStats["modern-timeline"].due, "2026-08-11");
+  assert.equal(P.getDueLabs(progress, "2026-08-11").length, 1);
+
+  progress = P.recordLabProgress(progress, { labId: "modern-timeline", confidence: "mastered" }, "2026-08-11");
+  assert.equal(progress.labStats["modern-timeline"].mastered, true);
+  assert.equal(progress.labStats["modern-timeline"].due, "2026-08-14");
+  assert.equal(P.getReviewSummary(progress, "2026-08-11").labMastered, 1);
 });
 
 test("the tracked-question map is capped, dropping the closest to mastery first", () => {

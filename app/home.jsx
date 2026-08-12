@@ -952,6 +952,29 @@ function collapseNoteBundles(docs) {
   return [...byKey.values()].map(preferredNoteFromBundle).filter(Boolean);
 }
 
+function TodayPreparation({ go, progress, review, onStartReview }) {
+  const ds = window.UPSC;
+  const dailySet = latestDatedItem(ds.getQuestionSetsBySource("daily"), "isoDate", ds.todayIso);
+  const dailyDone = Boolean(dailySet && progress?.dailyCompletions?.[dailySet.isoDate]);
+  const dueQuestions = review?.due || 0;
+  const dueLabs = review?.labDue || 0;
+  const weakSubject = review?.weakest?.[0]?.subject || dailySet?.subjects?.[0] || "Mixed GS";
+  const steps = [
+    dueQuestions > 0 && { key: "review", label: "Recall", title: `${dueQuestions} question${dueQuestions === 1 ? "" : "s"} due`, meta: "Weakest questions first", action: onStartReview, done: false },
+    dailySet && { key: "daily", label: "Daily", title: dailyDone ? "Daily quiz completed" : dailySet.shortLabel || "Daily quiz", meta: `${dailySet.questionCount || 0} questions · ${dailySet.durationMinutes || 10} min`, action: () => go("test", { setId: dailySet.id }), done: dailyDone },
+    { key: "focus", label: "Focus", title: weakSubject, meta: dueLabs > 0 ? `${dueLabs} lab review${dueLabs === 1 ? "" : "s"} due` : "Open a visual revision lab", action: () => go("labs"), done: false },
+  ].filter(Boolean);
+  const next = steps.find((step) => !step.done) || steps[steps.length - 1];
+  const minutes = Math.max(12, (dueQuestions ? Math.min(dueQuestions, 12) : 0) + (dailySet && !dailyDone ? Number(dailySet.durationMinutes || 10) : 0) + 8);
+  return (
+    <section className="today-prep">
+      <div className="today-prep-head"><div><span className="eyebrow small"><span className="eyebrow-line" /> Your next session</span><h3>Today’s preparation</h3><p>A small loop: recall what is due, attempt today’s questions, then reinforce your weakest area.</p></div><div className="today-prep-time"><span className="today-prep-time-label">Estimated session</span><strong>~{minutes} min</strong><span>{dailyDone && !dueQuestions ? "Momentum maintained" : "Ready when you are"}</span></div></div>
+      <div className="today-prep-steps">{steps.map((step, index) => <button key={step.key} className={`today-prep-step${step.done ? " done" : ""}`} onClick={step.action} aria-label={`${step.label}: ${step.title}`}><span className="today-prep-number">{step.done ? "✓" : String(index + 1).padStart(2, "0")}</span><span className="today-prep-step-copy"><em>{step.label}</em><strong>{step.title}</strong><small>{step.meta}</small></span><Icon name="arrowR" size={15} /></button>)}</div>
+      <button className="today-prep-cta" onClick={next.action}><span><Icon name="bolt" size={15} /> Start next: {next.title}</span><Icon name="arrowR" size={15} /></button>
+    </section>
+  );
+}
+
 function NotesLibrary() {
   const ds = window.UPSC;
   const order = Object.keys(CADENCE_META);
@@ -1650,6 +1673,7 @@ function Home({ go, progress, summary, review, onStartReview }) {
       </section>
 
       <WeeklyPlanCard />
+      <TodayPreparation go={go} progress={progress} review={review} onStartReview={onStartReview} />
 
       <div className="home-main">
         <div className="home-col-l">

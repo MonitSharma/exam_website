@@ -135,6 +135,44 @@ const LAB_SOURCES = {
   ],
 };
 
+const LAB_GUIDES = {
+  "ancient-timeline": { path: "GS1 · Indian culture · Ancient Indian history", syllabus: "Salient features of art forms, literature and architecture from ancient to modern times", pyqSubjects: ["History", "Art and Culture"], exam: "Prelims + Mains" },
+  "modern-timeline": { path: "GS1 · Modern Indian history · Freedom struggle", syllabus: "The Freedom Struggle — its various stages and important contributors from different parts of the country", pyqSubjects: ["History"], exam: "Prelims + Mains" },
+  "rivers-recall": { path: "GS1 · Physical geography · Indian drainage", syllabus: "Important geophysical phenomena and geographical features, including rivers and water resources", pyqSubjects: ["Geography"], exam: "Prelims" },
+  "world-geography": { path: "GS1 · Geography · Physical and human geography", syllabus: "Distribution of key natural resources and factors responsible for the location of primary, secondary and tertiary activities", pyqSubjects: ["Geography", "Environment"], exam: "Prelims + Mains" },
+  constitution: { path: "GS2 · Indian polity · Constitution and institutions", syllabus: "Indian Constitution — historical underpinnings, evolution, features, amendments, significant provisions and basic structure", pyqSubjects: ["Polity", "Polity & Governance"], exam: "Prelims + Mains" },
+  governance: { path: "GS2 · Governance · Government policies and interventions", syllabus: "Government policies and interventions for development in various sectors and issues arising out of their design and implementation", pyqSubjects: ["Governance", "Polity", "Polity & Governance"], exam: "Mains" },
+  ir: { path: "GS2 · International relations · India and its neighbourhood", syllabus: "India and its neighbourhood — relations; bilateral, regional and global groupings and agreements involving India", pyqSubjects: ["International Relations"], exam: "Mains" },
+  economy: { path: "GS3 · Indian economy · Growth and resource mobilisation", syllabus: "Indian Economy and issues relating to planning, mobilisation of resources, growth, development and employment", pyqSubjects: ["Economy"], exam: "Prelims + Mains" },
+  environment: { path: "GS3 · Environment · Conservation and pollution", syllabus: "Conservation, environmental pollution and degradation, environmental impact assessment", pyqSubjects: ["Environment"], exam: "Prelims + Mains" },
+  science: { path: "GS3 · Science and technology · Developments and applications", syllabus: "Science and Technology — developments and their applications and effects in everyday life", pyqSubjects: ["Science & Technology", "Science and Technology"], exam: "Prelims + Mains" },
+  thinkers: { path: "GS4 · Ethics · Human values and thinkers", syllabus: "Contributions of moral thinkers and philosophers from India and world", pyqSubjects: ["Ethics"], exam: "Mains" },
+  "case-lab": { path: "GS4 · Ethics · Case studies", syllabus: "Case Studies on the above issues", pyqSubjects: ["Ethics"], exam: "Mains" },
+};
+
+const ECO_MAP_LAYERS = [
+  { id: "protected", label: "National parks & reserves", short: "Protected areas" },
+  { id: "wetlands", label: "Wetlands & lakes", short: "Wetlands" },
+  { id: "rivers", label: "Rivers & tributaries", short: "Rivers" },
+];
+
+const PROTECTED_AREA_META = {
+  hemis: { state: "Ladakh", river: "Indus system", hook: "Cold desert · snow leopard · high altitude" },
+  dachigam: { state: "Jammu & Kashmir", river: "Dachigam stream / Jhelum basin", hook: "Hangul · temperate Himalaya · Kashmir" },
+  "jim-corbett": { state: "Uttarakhand", river: "Ramganga", hook: "Oldest national park · Project Tiger · Terai–Bhabar" },
+  kaziranga: { state: "Assam", river: "Brahmaputra floodplain", hook: "One-horned rhinoceros · floodplain grasslands · UNESCO" },
+  manas: { state: "Assam", river: "Manas", hook: "Bhutan border · tiger reserve · transboundary landscape" },
+  namdapha: { state: "Arunachal Pradesh", river: "Noa-Dihing", hook: "Eastern Himalaya · four big cats · elevation gradient" },
+  sundarbans: { state: "West Bengal", river: "Ganga–Brahmaputra–Meghna delta", hook: "Mangrove delta · tiger habitat · tidal ecology" },
+  similipal: { state: "Odisha", river: "Budhabalanga / Subarnarekha basin", hook: "Biosphere reserve · tiger reserve · melanistic tiger" },
+  kanha: { state: "Madhya Pradesh", river: "Banjar / Narmada basin", hook: "Hard-ground barasingha · sal forest · central highlands" },
+  gir: { state: "Gujarat", river: "Hiran / west-flowing Saurashtra rivers", hook: "Asiatic lion · dry deciduous forest · Kathiawar" },
+  ranthambore: { state: "Rajasthan", river: "Banas / Chambal system", hook: "Tiger reserve · Aravalli–Vindhya transition" },
+  keoladeo: { state: "Rajasthan", river: "Gambhir / Banganga system", hook: "Human-made wetland · migratory birds · Ramsar + UNESCO" },
+  periyar: { state: "Kerala", river: "Periyar", hook: "Western Ghats · reservoir landscape · elephant and tiger" },
+  "silent-valley": { state: "Kerala", river: "Kunthipuzha / Bharathapuzha basin", hook: "Evergreen rainforest · endemic biodiversity · Western Ghats" },
+};
+
 const CONSTITUTION_CARDS = [
   { label: "Article 32", title: "Constitutional remedies", prompt: "Which Article did Ambedkar call the Constitution's 'heart and soul'?", answer: "Article 32 — the right to move the Supreme Court for enforcement of Fundamental Rights.", hook: "Exam hook: unlike many legal remedies, this right itself is guaranteed as a Fundamental Right." },
   { label: "Money Bill", title: "Lok Sabha primacy", prompt: "What is the cleanest way to remember the Money Bill route?", answer: "Introduced only in Lok Sabha on the President's recommendation; Rajya Sabha can recommend, but not amend or reject.", hook: "Exam hook: the Speaker certifies a Money Bill; Rajya Sabha gets 14 days." },
@@ -229,6 +267,43 @@ function LabSources({ labId, go }) {
   );
 }
 
+function LabSyllabusMap({ labId, go }) {
+  const ds = window.UPSC;
+  const guide = LAB_GUIDES[labId];
+  if (!guide) return null;
+  const normalizeSubject = (value) => String(value || "").toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, " ").trim();
+  const matchesSubject = (set) => (set.subjects || []).some((subject) => guide.pyqSubjects.some((target) => {
+    const left = normalizeSubject(subject);
+    const right = normalizeSubject(target);
+    return left === right || left.includes(right) || right.includes(left);
+  }));
+  const pyqs = ds.getQuestionSetsBySource("pyq").filter(matchesSubject).sort((a, b) => Number(b.year || 0) - Number(a.year || 0));
+  const sectionals = ds.getQuestionSetsBySource("sectional").filter(matchesSubject).slice(0, 3);
+  return (
+    <section className="labs-syllabus-map">
+      <div className="labs-map-head"><div><span className="labs-kicker">UPSC alignment</span><h3>{guide.path}</h3></div><span className="labs-map-exam">{guide.exam}</span></div>
+      <p>{guide.syllabus}</p>
+      <div className="labs-map-meta"><span>{pyqs.length} related PYQ years</span><span>{sectionals.length} sectional links</span></div>
+      <div className="labs-map-row"><span>Previous-year papers</span><div>{pyqs.map((set) => <button key={set.id} onClick={() => go("test", { setId: set.id, returnTo: "labs" })}>{set.year || set.shortLabel || set.label} · {set.questionCount || 0}Q <Icon name="arrowR" size={11} /></button>)}</div></div>
+      {sectionals.length > 0 && <div className="labs-map-row"><span>Targeted practice</span><div>{sectionals.map((set) => <button key={set.id} onClick={() => go("test", { setId: set.id, returnTo: "labs" })}>{set.shortLabel || set.label} <Icon name="arrowR" size={11} /></button>)}</div></div>}
+    </section>
+  );
+}
+
+function LabProgressPanel({ labId, progress, onLabProgress }) {
+  const ds = window.UPSC;
+  const status = progress?.labStats?.[labId];
+  const due = Boolean(status?.due && status.due <= ds.todayIso);
+  const statusLabel = !status ? "Not started" : due ? "Due for another pass" : status.mastered ? `Scheduled · ${status.due}` : `Last marked ${status.lastConfidence}`;
+  const mark = (confidence) => onLabProgress?.(labId, confidence);
+  return (
+    <section className="labs-progress-panel">
+      <div><span className="labs-kicker">Memory check</span><strong>{statusLabel}</strong><small>{status ? `${status.seen} check-in${status.seen === 1 ? "" : "s"} · confidence is saved on this device` : "Mark how this felt so the next review can find you."}</small></div>
+      <div className="labs-progress-actions"><button className="labs-confidence review" onClick={() => mark("review")}>Need another pass</button><button className="labs-confidence unsure" onClick={() => mark("unsure")}>Getting there</button><button className="labs-confidence mastered" onClick={() => mark("mastered")}>I can recall this</button></div>
+    </section>
+  );
+}
+
 function ToolTabs({ mode, setMode, learnLabel = "Learn", recallLabel = "Recall" }) {
   return <div className="labs-mode-tabs" role="tablist" aria-label="Study mode"><button className={mode === "learn" ? "active" : ""} aria-selected={mode === "learn"} onClick={() => setMode("learn")}>{learnLabel}</button><button className={mode === "recall" ? "active" : ""} aria-selected={mode === "recall"} onClick={() => setMode("recall")}>{recallLabel}</button></div>;
 }
@@ -279,22 +354,46 @@ function EconomyFlowLab({ go }) {
 }
 
 function GeographyExplorerLab({ go }) {
-  const [stats, setStats] = useStateLabs({ states: "—", rivers: "—", countries: "—" });
+  const atlas = window.ATLAS_KNOWLEDGE || [];
+  const [layer, setLayer] = useStateLabs("protected");
+  const [mode, setMode] = useStateLabs("learn");
   const [query, setQuery] = useStateLabs("");
-  useEffectLabs(() => {
-    let cancelled = false;
-    Promise.all(["data/maps/india_states.geojson", "data/maps/india_rivers.geojson", "data/maps/world_countries_india_pov.geojson"].map((path) => fetch(path).then((response) => response.json())))
-      .then(([states, rivers, countries]) => { if (!cancelled) setStats({ states: states.features?.length || 0, rivers: rivers.features?.length || 0, countries: countries.features?.length || 0 }); })
-      .catch(() => {});
-    return () => { cancelled = true; };
-  }, []);
-  const filtered = RIVER_CARDS.filter((item) => (item.answer + " " + item.prompt).toLowerCase().includes(query.toLowerCase()));
+  const [stateFilter, setStateFilter] = useStateLabs("all");
+  const [selectedId, setSelectedId] = useStateLabs(null);
+  const [revealed, setRevealed] = useStateLabs(false);
+  const sourceFeatures = atlas.filter((feature) => feature.layer === layer);
+  const stateOptions = [...new Set(atlas.filter((feature) => feature.layer === "protected").map((feature) => PROTECTED_AREA_META[feature.id]?.state).filter(Boolean))].sort();
+  const filtered = sourceFeatures
+    .map((feature) => ({ ...feature, ...(PROTECTED_AREA_META[feature.id] || {}) }))
+    .filter((feature) => layer !== "protected" || stateFilter === "all" || feature.state === stateFilter)
+    .filter((feature) => {
+      const haystack = [feature.name, feature.state, feature.group, feature.fact, feature.hook, feature.river].filter(Boolean).join(" ").toLowerCase();
+      return haystack.includes(query.trim().toLowerCase());
+    });
+  const selectedFeature = filtered.find((feature) => feature.id === selectedId) || null;
+  const mapFeatures = mode === "recall" ? filtered.map((feature) => ({ ...feature, name: feature.type === "line" ? "Recall route" : "Recall marker" })) : filtered;
+  const activeLayer = ECO_MAP_LAYERS.find((item) => item.id === layer) || ECO_MAP_LAYERS[0];
+  const selectFeature = (feature) => {
+    if (String(feature.id || "").startsWith("boundary-")) {
+      const nextState = stateOptions.find((state) => state === feature.name);
+      if (nextState) setStateFilter(nextState);
+      return;
+    }
+    setSelectedId(feature.id);
+    setRevealed(false);
+  };
+  const reset = () => { setStateFilter("all"); setQuery(""); setSelectedId(null); setRevealed(false); };
   return (
-    <div className="labs-tool-panel labs-geo-panel">
-      <div className="labs-tool-head"><div><span className="labs-kicker">Layers + recall · Geography</span><h2>Search the map, then close it and recall</h2></div><LabIcon name="globe" /></div>
-      <div className="labs-geo-stats"><div><strong>{stats.states}</strong><span>state / UT geometries</span></div><div><strong>{stats.rivers}</strong><span>river features</span></div><div><strong>{stats.countries}</strong><span>world features</span></div></div>
-      <div className="labs-geo-search"><Icon name="search" size={15} /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search river clues…" aria-label="Search river clues" /></div>
-      <div className="labs-geo-results">{filtered.map((item) => <button key={item.answer} onClick={() => setQuery(item.answer)}><strong>{item.answer}</strong><span>{item.hook}</span></button>)}</div>
+    <div className="labs-tool-panel labs-geo-panel labs-eco-map-panel">
+      <div className="labs-tool-head"><div><span className="labs-kicker">Layers + recall · Protected areas</span><h2>Learn the place, then locate it from memory</h2></div><span className="labs-year-badge">{filtered.length} places</span></div>
+      <div className="labs-eco-mode" role="tablist" aria-label="Map study mode"><button role="tab" aria-selected={mode === "learn"} className={mode === "learn" ? "active" : ""} onClick={() => setMode("learn")}>Learn mode</button><button role="tab" aria-selected={mode === "recall"} className={mode === "recall" ? "active" : ""} onClick={() => { setMode("recall"); setRevealed(false); }}>Recall mode</button></div>
+      <div className="labs-eco-search"><Icon name="search" size={15} /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search parks, reserves, wetlands…" aria-label="Search parks, reserves, wetlands and rivers" /></div>
+      <div className="labs-eco-workspace">
+        <aside className="labs-eco-sidebar"><span className="labs-eco-label">Layers</span><div className="labs-eco-layer-list">{ECO_MAP_LAYERS.map((item) => <button key={item.id} className={layer === item.id ? "active" : ""} onClick={() => { setLayer(item.id); setSelectedId(null); setRevealed(false); }}><i className={`labs-eco-swatch ${item.id}`} /><span>{item.label}</span><small>{atlas.filter((feature) => feature.layer === item.id).length}</small></button>)}</div>{layer === "protected" && <label className="labs-eco-state"><span>State filter</span><select value={stateFilter} onChange={(event) => { setStateFilter(event.target.value); setSelectedId(null); }}><option value="all">All India</option>{stateOptions.map((state) => <option key={state} value={state}>{state}</option>)}</select></label>}<button className="labs-eco-reset" onClick={reset}>↺ Reset view</button></aside>
+        <div className="labs-eco-map-stage">{typeof AtlasLeafletMap === "function" ? <AtlasLeafletMap scope="india" features={mapFeatures} boundariesOn={true} riversOn={layer === "rivers"} riverSystem="all" selected={mapFeatures.find((feature) => feature.id === selectedId) || null} onSelect={selectFeature} /> : <div className="labs-eco-map-loading">Loading local India map…</div>}<div className="labs-eco-map-caption"><span>{activeLayer.short}</span><small>Click a marker or state · drag to explore · scroll to zoom</small></div></div>
+        <aside className="labs-eco-detail">{selectedFeature ? <>{mode === "recall" && !revealed ? <><span className="labs-eco-detail-label">Recall prompt</span><h3>Which {layer === "protected" ? "protected area" : activeLayer.short.toLowerCase()} is this?</h3><p>{selectedFeature.state || selectedFeature.group || "Trace the marker on the map."}</p><button className="btn btn-saffron sm" onClick={() => setRevealed(true)}>Reveal place</button></> : <><span className="labs-eco-detail-label">{activeLayer.short}</span><h3>{selectedFeature.name}</h3><p>{selectedFeature.fact}</p>{selectedFeature.state && <div className="labs-eco-facts"><span><b>State</b>{selectedFeature.state}</span><span><b>River / basin</b>{selectedFeature.river}</span></div>}<div className="labs-eco-hook"><span>Exam hook</span><strong>{selectedFeature.hook || selectedFeature.group}</strong></div>{mode === "recall" && <button className="btn ghost sm" onClick={() => setRevealed(false)}>Hide answer</button>}</>}</> : <div className="labs-eco-empty"><span className="labs-eco-detail-label">Select a place</span><strong>Click a marker to open its exam card</strong><p>Use Learn mode to build the association, then switch to Recall mode and test yourself.</p></div>}</aside>
+      </div>
+      <div className="labs-eco-legend"><span><i className="labs-eco-swatch protected" />Protected area</span><span><i className="labs-eco-swatch wetlands" />Wetland</span><span><i className="labs-eco-swatch rivers" />River line</span><span>{filtered.length} visible · local map layers</span></div>
       <div className="labs-tool-actions"><button className="btn btn-green sm" onClick={() => go("atlas")}>Open full News Atlas <Icon name="arrowR" size={14} /></button><LabSources labId="world-geography" go={go} /></div>
     </div>
   );
@@ -389,32 +488,35 @@ function WorldGeographyLab({ go }) {
   return <GeographyExplorerLab go={go} />;
 }
 
-function LabsTool({ lab, go }) {
-  if (lab.id === "ancient-timeline") return <TimelineLab go={go} />;
-  if (lab.id === "modern-timeline") return <TimelineLab modern go={go} />;
-  if (lab.id === "rivers-recall") return <RiverRecallLab go={go} />;
-  if (lab.id === "world-geography") return <WorldGeographyLab go={go} />;
-  if (lab.id === "constitution") return <RecallDeckLab labId="constitution" kicker="Active recall · Polity" title="Anchor the Constitution to the exam hook" cards={CONSTITUTION_CARDS} go={go} />;
-  if (lab.id === "governance") return <RecallDeckLab labId="governance" kicker="Active recall · Governance" title="Turn programmes into answer structures" cards={GOVERNANCE_CARDS} go={go} accent="saffron" />;
-  if (lab.id === "ir") return <NetworkLab go={go} />;
-  if (lab.id === "economy") return <EconomyFlowLab go={go} />;
-  if (lab.id === "environment") return <RecallDeckLab labId="environment" kicker="Active recall · Environment" title="Link the fact to the governance problem" cards={ENVIRONMENT_CARDS} go={go} accent="teal" />;
-  if (lab.id === "science") return <RecallDeckLab labId="science" kicker="Active recall · Science & Technology" title="Explain it in three moves" cards={SCIENCE_CARDS} go={go} accent="blue" />;
-  if (lab.id === "thinkers") return <RecallDeckLab labId="thinkers" kicker="Fodder deck · Ethics" title="Carry one precise thinker into the answer" cards={THINKER_CARDS.map((card) => ({ ...card, answer: card.quote, hook: card.use, prompt: "Which thinker or principle fits this idea: " + card.title + "?" }))} go={go} accent="rose" />;
-  if (lab.id === "case-lab") return <EthicsCaseLab go={go} />;
-  return <div className="labs-tool-panel labs-placeholder-panel"><LabIcon name={lab.icon} /><span className="labs-kicker">{lab.category}</span><h2>{lab.title}</h2><p>{lab.description}</p></div>;
+function LabsTool({ lab, go, progress, onLabProgress }) {
+  let tool;
+  if (lab.id === "ancient-timeline") tool = <TimelineLab go={go} />;
+  else if (lab.id === "modern-timeline") tool = <TimelineLab modern go={go} />;
+  else if (lab.id === "rivers-recall") tool = <RiverRecallLab go={go} />;
+  else if (lab.id === "world-geography") tool = <WorldGeographyLab go={go} />;
+  else if (lab.id === "constitution") tool = <RecallDeckLab labId="constitution" kicker="Active recall · Polity" title="Anchor the Constitution to the exam hook" cards={CONSTITUTION_CARDS} go={go} />;
+  else if (lab.id === "governance") tool = <RecallDeckLab labId="governance" kicker="Active recall · Governance" title="Turn programmes into answer structures" cards={GOVERNANCE_CARDS} go={go} accent="saffron" />;
+  else if (lab.id === "ir") tool = <NetworkLab go={go} />;
+  else if (lab.id === "economy") tool = <EconomyFlowLab go={go} />;
+  else if (lab.id === "environment") tool = <RecallDeckLab labId="environment" kicker="Active recall · Environment" title="Link the fact to the governance problem" cards={ENVIRONMENT_CARDS} go={go} accent="teal" />;
+  else if (lab.id === "science") tool = <RecallDeckLab labId="science" kicker="Active recall · Science & Technology" title="Explain it in three moves" cards={SCIENCE_CARDS} go={go} accent="blue" />;
+  else if (lab.id === "thinkers") tool = <RecallDeckLab labId="thinkers" kicker="Fodder deck · Ethics" title="Carry one precise thinker into the answer" cards={THINKER_CARDS.map((card) => ({ ...card, answer: card.quote, hook: card.use, prompt: "Which thinker or principle fits this idea: " + card.title + "?" }))} go={go} accent="rose" />;
+  else if (lab.id === "case-lab") tool = <EthicsCaseLab go={go} />;
+  else tool = <div className="labs-tool-panel labs-placeholder-panel"><LabIcon name={lab.icon} /><span className="labs-kicker">{lab.category}</span><h2>{lab.title}</h2><p>{lab.description}</p></div>;
+  return <><div>{tool}</div><LabSyllabusMap labId={lab.id} go={go} /><LabProgressPanel labId={lab.id} progress={progress} onLabProgress={onLabProgress} /></>;
 }
 
-function StudyLabs({ go }) {
+function StudyLabs({ go, progress, review, onLabProgress }) {
   const ds = window.UPSC;
-  const [paper, setPaper] = useStateLabs("gs1");
-  const [selectedId, setSelectedId] = useStateLabs("ancient-timeline");
+  const dueLab = Object.keys(LABS_BY_PAPER).flatMap((paperId) => LABS_BY_PAPER[paperId].map((lab) => ({ ...lab, paperId }))).find((lab) => progress?.labStats?.[lab.id]?.due && progress.labStats[lab.id].due <= ds.todayIso);
+  const [paper, setPaper] = useStateLabs(dueLab?.paperId || "gs1");
+  const [selectedId, setSelectedId] = useStateLabs(dueLab?.id || "ancient-timeline");
   const activePaper = LAB_PAPERS.find((item) => item.id === paper);
   const labs = LABS_BY_PAPER[paper];
   const selectedLab = labs.find((item) => item.id === selectedId) || labs[0];
   const questionCount = ds.questionSets.reduce((sum, item) => sum + (Number(item.questionCount) || 0), 0);
   function selectPaper(nextPaper) { setPaper(nextPaper); setSelectedId(LABS_BY_PAPER[nextPaper][0].id); }
-  return <main className="labs-page"><section className="labs-hero"><div><span className="labs-kicker">Pariksha · Study Labs</span><h1>Make the syllabus interactive.</h1><p>A separate home for visual revision tools — timelines, maps, mechanism chains and active recall decks built from your own study library.</p></div><div className="labs-hero-note"><span className="labs-hero-mark">✦</span><strong>Recall over re-reading</strong><small>{ds.noteDocuments.length} notes · {questionCount.toLocaleString()} questions · local map layers</small></div></section><div className="labs-paper-tabs" role="tablist" aria-label="General Studies paper">{LAB_PAPERS.map((item) => <button key={item.id} role="tab" aria-selected={paper === item.id} className={paper === item.id ? "active" : ""} onClick={() => selectPaper(item.id)}><span>{item.label}</span><small>{item.title}</small></button>)}</div><section className="labs-section-head"><div><span className="labs-kicker">{activePaper.label}</span><h2>{activePaper.title}</h2><p>{activePaper.blurb}</p></div><span className="labs-count">{labs.filter((item) => item.status === "Live").length} live · {labs.length} tools</span></section><section className="labs-grid" aria-label={`${activePaper.label} tools`}>{labs.map((lab) => <button key={lab.id} className={`labs-card tone-${lab.tone}${selectedLab.id === lab.id ? " selected" : ""}`} onClick={() => setSelectedId(lab.id)}><div className="labs-card-art"><LabIcon name={lab.icon} /><span className={`tag ${lab.status === "Live" ? "tag-green" : "tag-soft"}`}>{lab.status}</span></div><div className="labs-card-body"><span className="labs-card-category">{activePaper.label} · {lab.category}</span><h3>{lab.title}</h3><p>{lab.description}</p><span className="labs-open-link">{lab.status === "Live" ? "Open lab" : "Preview tool"} <Icon name="arrowR" size={14} /></span></div></button>)}</section><section className="labs-workbench"><div className="labs-workbench-head"><span className="labs-kicker">Selected lab</span><span className="labs-workbench-label">{selectedLab.category}</span></div><LabsTool lab={selectedLab} go={go} /></section></main>;
+  return <main className="labs-page"><section className="labs-hero"><div><span className="labs-kicker">Pariksha · Study Labs</span><h1>Make the syllabus interactive.</h1><p>A separate home for visual revision tools — timelines, maps, mechanism chains and active recall decks built from your own study library.</p></div><div className="labs-hero-note"><span className="labs-hero-mark">✦</span><strong>Recall over re-reading</strong><small>{ds.noteDocuments.length} notes · {questionCount.toLocaleString()} questions · local map layers</small></div></section>{review?.labDue > 0 && <div className="labs-due-banner"><span className="labs-hero-mark">↻</span><div><strong>{review.labDue} lab review{review.labDue === 1 ? "" : "s"} due</strong><small>Start with the highlighted lab and mark your confidence after the pass.</small></div></div>}<div className="labs-paper-tabs" role="tablist" aria-label="General Studies paper">{LAB_PAPERS.map((item) => <button key={item.id} role="tab" aria-selected={paper === item.id} className={paper === item.id ? "active" : ""} onClick={() => selectPaper(item.id)}><span>{item.label}</span><small>{item.title}</small></button>)}</div><section className="labs-section-head"><div><span className="labs-kicker">{activePaper.label}</span><h2>{activePaper.title}</h2><p>{activePaper.blurb}</p></div><span className="labs-count">{labs.filter((item) => item.status === "Live").length} live · {labs.length} tools</span></section><section className="labs-grid" aria-label={`${activePaper.label} tools`}>{labs.map((lab) => <button key={lab.id} className={`labs-card tone-${lab.tone}${selectedLab.id === lab.id ? " selected" : ""}`} onClick={() => setSelectedId(lab.id)}><div className="labs-card-art"><LabIcon name={lab.icon} /><span className={`tag ${lab.status === "Live" ? "tag-green" : "tag-soft"}`}>{lab.status}</span></div><div className="labs-card-body"><span className="labs-card-category">{activePaper.label} · {lab.category}</span><h3>{lab.title}</h3><p>{lab.description}</p><span className="labs-open-link">{lab.status === "Live" ? "Open lab" : "Preview tool"} <Icon name="arrowR" size={14} /></span></div></button>)}</section><section className="labs-workbench"><div className="labs-workbench-head"><span className="labs-kicker">Selected lab</span><span className="labs-workbench-label">{selectedLab.category}</span></div><LabsTool lab={selectedLab} go={go} progress={progress} onLabProgress={onLabProgress} /></section></main>;
 }
 
 Object.assign(window, { StudyLabs });
