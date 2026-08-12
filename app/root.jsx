@@ -33,6 +33,7 @@ const {
   formatShortDate,
   calculateAttemptSummary,
   getProgressSummary,
+  recordLabProgress,
 } = window.UPSC_PROGRESS;
 
 function TopNav({ screen, go, summary, onSearch }) {
@@ -329,6 +330,14 @@ function App() {
     });
   }
 
+  function saveLabProgress(labId, confidence) {
+    setProgress((current) => {
+      const next = recordLabProgress(current, { labId, confidence }, ds.todayIso);
+      saveProgress(next);
+      return next;
+    });
+  }
+
   function finishTest(result) {
     const submittedAt = Date.now();
     const attemptSummary = calculateAttemptSummary(result.questions, result.answers, result.questionSet);
@@ -420,7 +429,7 @@ function App() {
       <GlobalSearch open={searchOpen} onClose={() => setSearchOpen(false)} go={go} />
       <div key={screen} className="screen-fade">
         {screen === "home" && <Home go={go} progress={progress} summary={summary} review={review} onStartReview={startReviewSession} />}
-        {screen === "labs" && <StudyLabs go={go} />}
+        {screen === "labs" && <StudyLabs go={go} progress={progress} review={review} onLabProgress={saveLabProgress} />}
         {screen === "atlas" && <NewsAtlas />}
         {screen === "practice" && <PracticeScreen go={go} />}
         {screen === "test" && <TestScreen go={go} session={testSession} onSubmit={finishTest} />}

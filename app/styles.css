@@ -1881,3 +1881,56 @@ body[data-qfont="serif"] .rev-explain p { font-family: var(--serif); font-size: 
 @media (max-width: 760px) { .labs-flow-picker, .labs-flow-chain { grid-template-columns: repeat(2, 1fr); } .labs-flow-step i { display: none; } .labs-tool-actions { flex-wrap: wrap; } .labs-source-strip { width: 100%; order: 3; } }
 @media (max-width: 700px) { .labs-event-browser { grid-template-columns: 1fr; } }
 @media (max-width: 520px) { .labs-flow-picker, .labs-flow-chain, .labs-geo-stats { grid-template-columns: 1fr; } .labs-geo-results button { grid-template-columns: 1fr; gap: 4px; } .labs-network-card, .labs-case-card, .labs-event-detail { padding: 19px; } }
+
+/* ---------- Guided preparation + lab progress ---------- */
+.today-prep { max-width: 1280px; margin: 22px auto 0; padding: 24px; border: 1px solid var(--line); border-radius: var(--radius-lg); background: linear-gradient(135deg, color-mix(in srgb, var(--green) 7%, var(--surface)), var(--surface)); box-shadow: var(--shadow-sm); }
+.today-prep-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 24px; }
+.today-prep-head h3 { margin-top: 6px; font-family: var(--serif); font-size: clamp(27px, 4vw, 38px); font-weight: 500; letter-spacing: -.03em; }
+.today-prep-head p { max-width: 630px; margin-top: 8px; color: var(--muted); font-size: 14px; line-height: 1.5; }
+.today-prep-time { display: grid; gap: 3px; flex: none; min-width: 110px; padding: 11px 13px; border: 1px solid var(--line); border-radius: var(--radius-sm); background: var(--surface); text-align: right; }
+.today-prep-time strong { color: var(--green); font-family: var(--serif); font-size: 23px; font-weight: 600; }
+.today-prep-time span { color: var(--muted); font-family: var(--mono); font-size: 9px; text-transform: uppercase; }
+.today-prep-steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 9px; margin-top: 22px; }
+.today-prep-step { display: grid; grid-template-columns: 30px minmax(0, 1fr) 15px; align-items: center; gap: 10px; min-width: 0; padding: 13px; border: 1px solid var(--line); border-radius: var(--radius-sm); background: var(--surface); text-align: left; }
+.today-prep-step:hover { border-color: var(--green); background: var(--green-tint); }
+.today-prep-step.done { opacity: .7; }
+.today-prep-number { display: grid; place-items: center; width: 28px; height: 28px; border-radius: 50%; color: var(--green); background: var(--green-tint); font-family: var(--mono); font-size: 10px; }
+.today-prep-step.done .today-prep-number { color: #fff; background: var(--green); }
+.today-prep-step em { display: block; color: var(--muted); font-family: var(--mono); font-size: 9px; font-style: normal; letter-spacing: .08em; text-transform: uppercase; }
+.today-prep-step strong { display: block; overflow: hidden; margin-top: 4px; color: var(--ink); font-size: 14px; text-overflow: ellipsis; white-space: nowrap; }
+.today-prep-step small { display: block; overflow: hidden; margin-top: 3px; color: var(--muted); font-size: 11px; text-overflow: ellipsis; white-space: nowrap; }
+.today-prep-cta { display: flex; align-items: center; justify-content: space-between; width: 100%; margin-top: 12px; padding: 12px 14px; border: 1px solid var(--green); border-radius: var(--radius-sm); color: #fff; background: var(--green); font-size: 13px; font-weight: 600; }
+.today-prep-cta span { display: inline-flex; align-items: center; gap: 8px; }
+.labs-due-banner { display: flex; align-items: center; gap: 12px; margin: 0 0 18px; padding: 12px 14px; border: 1px solid color-mix(in srgb, var(--saffron) 38%, var(--line)); border-radius: var(--radius); background: var(--saffron-tint); }
+.labs-due-banner .labs-hero-mark { width: 32px; height: 32px; font-size: 16px; }
+.labs-due-banner div { display: grid; gap: 2px; }
+.labs-due-banner strong { font-size: 13px; }
+.labs-due-banner small { color: var(--muted); font-size: 11px; }
+.labs-syllabus-map { margin-top: 16px; padding: 19px 20px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface-2); }
+.labs-map-head { display: flex; align-items: start; justify-content: space-between; gap: 16px; }
+.labs-map-head h3 { margin-top: 6px; color: var(--ink); font-family: var(--serif); font-size: 21px; font-weight: 500; line-height: 1.15; }
+.labs-map-exam { flex: none; padding: 6px 8px; border-radius: 999px; color: var(--green); background: var(--green-tint); font-family: var(--mono); font-size: 9px; text-transform: uppercase; }
+.labs-syllabus-map > p { max-width: 780px; margin-top: 9px; color: var(--muted); font-size: 12px; line-height: 1.5; }
+.labs-map-meta { display: flex; flex-wrap: wrap; gap: 7px 14px; margin-top: 12px; color: var(--faint); font-family: var(--mono); font-size: 9px; text-transform: uppercase; }
+.labs-map-row { display: grid; grid-template-columns: 145px 1fr; gap: 12px; margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--line); }
+.labs-map-row > span { color: var(--muted); font-family: var(--mono); font-size: 9px; letter-spacing: .06em; text-transform: uppercase; }
+.labs-map-row > div { display: flex; flex-wrap: wrap; gap: 6px; }
+.labs-map-row button { display: inline-flex; align-items: center; gap: 4px; padding: 6px 8px; border: 1px solid var(--line); border-radius: 999px; color: var(--green); background: var(--surface); font-size: 11px; }
+.labs-map-row button:hover { border-color: var(--green); background: var(--green-tint); }
+.labs-progress-panel { display: flex; align-items: center; justify-content: space-between; gap: 18px; margin-top: 12px; padding: 15px 17px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
+.labs-progress-panel > div:first-child { display: grid; gap: 4px; min-width: 0; }
+.labs-progress-panel strong { font-size: 14px; }
+.labs-progress-panel small { color: var(--muted); font-size: 11px; line-height: 1.4; }
+.labs-progress-actions { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 6px; flex: none; }
+.labs-confidence { padding: 8px 10px; border: 1px solid var(--line); border-radius: 999px; color: var(--muted); background: var(--surface-2); font-size: 11px; }
+.labs-confidence:hover { border-color: var(--green); color: var(--green); background: var(--green-tint); }
+
+@media (max-width: 700px) {
+  .today-prep { padding: 18px; }
+  .today-prep-head { display: grid; gap: 13px; }
+  .today-prep-time { width: max-content; text-align: left; }
+  .today-prep-steps { grid-template-columns: 1fr; }
+  .labs-map-row { grid-template-columns: 1fr; gap: 7px; }
+  .labs-progress-panel { align-items: stretch; flex-direction: column; }
+  .labs-progress-actions { justify-content: flex-start; }
+}

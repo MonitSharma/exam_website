@@ -4,7 +4,7 @@
 // code runs in the browser and under node:test (see test/progress.test.js).
 (function () {
   const PROGRESS_STORAGE_KEY = "parikshaProgressV2";
-  const PROGRESS_VERSION = 4;
+  const PROGRESS_VERSION = 5;
 
   // One attempt per entry, each carrying a full subject breakdown. Left uncapped
   // this reaches four figures within a year of daily practice, and every
@@ -16,6 +16,7 @@
   // later; a wrong answer sends it to box 0 and it returns tomorrow.
   const REVIEW_INTERVALS_DAYS = [1, 3, 7, 16, 35, 90];
   const MASTERED_BOX = REVIEW_INTERVALS_DAYS.length;
+  const LAB_REVIEW_INTERVALS_DAYS = [1, 3, 7, 21];
   // Only questions still being got wrong are tracked, so this cap is a safety
   // net rather than the normal case: mastered questions drop out on their own.
   const MAX_TRACKED_QUESTIONS = 1500;
@@ -32,18 +33,20 @@
       archive: [],
       dailyCompletions: {},
       questionStats: {},
+      labStats: {},
     };
   }
 
   function normalizeProgress(parsed) {
     if (!parsed || !Array.isArray(parsed.history) || !parsed.dailyCompletions) return null;
-    // v2 had no archive, v3 no questionStats; both migrate by filling defaults.
-    if (![2, 3, PROGRESS_VERSION].includes(parsed.version)) return null;
+    // Older versions migrate by filling defaults for fields introduced later.
+    if (![2, 3, 4, PROGRESS_VERSION].includes(parsed.version)) return null;
     return compactProgress({
       ...parsed,
       version: PROGRESS_VERSION,
       archive: Array.isArray(parsed.archive) ? parsed.archive : [],
       questionStats: parsed.questionStats && typeof parsed.questionStats === "object" ? parsed.questionStats : {},
+      labStats: parsed.labStats && typeof parsed.labStats === "object" ? parsed.labStats : {},
     });
   }
 
@@ -138,6 +141,34 @@
     return { ...progress, questionStats: stats };
   }
 
+  function recordLabProgress(progress, result, todayIso) {
+    const labId = String(result?.labId || "");
+    if (!labId) return progress;
+    const confidence = ["review", "unsure", "mastered"].includes(result.confidence) ? result.confidence : "unsure";
+    const existing = progress.labStats?.[labId] || { labId, seen: 0, level: 0, mastered: false };
+    const level = confidence === "mastered"
+      ? Math.min((existing.level || 0) + 1, LAB_REVIEW_INTERVALS_DAYS.length - 1)
+      : confidence === "unsure" ? Math.min(existing.level || 0, 1) : 0;
+    const next = {
+      ...existing,
+      labId,
+      seen: (existing.seen || 0) + 1,
+      level,
+      mastered: confidence === "mastered",
+      lastConfidence: confidence,
+      lastSeen: todayIso,
+      due: addDays(todayIso, LAB_REVIEW_INTERVALS_DAYS[level] || 1),
+    };
+    return { ...progress, labStats: { ...(progress.labStats || {}), [labId]: next } };
+  }
+
+  function getDueLabs(progress, todayIso, limit = 0) {
+    const due = Object.values(progress?.labStats || {})
+      .filter((entry) => entry.due && entry.due <= todayIso)
+      .sort((a, b) => String(a.due).localeCompare(String(b.due)));
+    return limit > 0 ? due.slice(0, limit) : due;
+  }
+
   // Questions whose review date has arrived, weakest first.
   function getDueQuestions(progress, todayIso, limit = 0) {
     const stats = progress?.questionStats || {};
@@ -157,6 +188,7 @@
     const stats = progress?.questionStats || {};
     const all = Object.values(stats);
     const due = getDueQuestions(progress, todayIso);
+    const dueLabs = getDueLabs(progress, todayIso);
     const subjects = {};
     for (const entry of all) {
       const subject = entry.subject || "General Studies";
@@ -169,6 +201,9 @@
     return {
       tracked: all.length,
       due: due.length,
+      labTracked: Object.keys(progress?.labStats || {}).length,
+      labDue: dueLabs.length,
+      labMastered: Object.values(progress?.labStats || {}).filter((entry) => entry.mastered).length,
       // Anything not due yet is scheduled for a future day.
       scheduled: all.length - due.length,
       weakest,
@@ -310,6 +345,7 @@
       MAX_TRACKED_QUESTIONS,
       REVIEW_INTERVALS_DAYS,
       MASTERED_BOX,
+      LAB_REVIEW_INTERVALS_DAYS,
       questionKey,
       createFreshProgress,
       normalizeProgress,
@@ -317,7 +353,9 @@
       addDays,
       recordQuestionResult,
       recordAttemptQuestions,
+      recordLabProgress,
       getDueQuestions,
+      getDueLabs,
       getReviewSummary,
       loadProgress,
       saveProgress,
