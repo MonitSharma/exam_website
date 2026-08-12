@@ -11,6 +11,7 @@ const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
 
 const NAV = [
   { id: "home", label: "Home", icon: "home" },
+  { id: "labs", label: "Study Labs", icon: "spark" },
   { id: "atlas", label: "News Atlas", icon: "map" },
   { id: "practice", label: "Practice", icon: "play" },
   { id: "workflow", label: "Plan", icon: "target" },
@@ -419,6 +420,7 @@ function App() {
       <GlobalSearch open={searchOpen} onClose={() => setSearchOpen(false)} go={go} />
       <div key={screen} className="screen-fade">
         {screen === "home" && <Home go={go} progress={progress} summary={summary} review={review} onStartReview={startReviewSession} />}
+        {screen === "labs" && <StudyLabs go={go} />}
         {screen === "atlas" && <NewsAtlas />}
         {screen === "practice" && <PracticeScreen go={go} />}
         {screen === "test" && <TestScreen go={go} session={testSession} onSubmit={finishTest} />}
@@ -456,7 +458,7 @@ function App() {
           onChange={(v) => setTweak("density", v)} />
         <TweakSection label="Jump to screen" />
         <div className="tweak-jump">
-          {[["home", "Home"], ["atlas", "News Atlas"], ["practice", "Practice"], ["workflow", "Plan"], ["test", "Test"], ["result", "Results"], ["review", "Review"], ["dashboard", "Progress"]].map(([k, l]) => (
+          {[["home", "Home"], ["labs", "Study Labs"], ["atlas", "News Atlas"], ["practice", "Practice"], ["workflow", "Plan"], ["test", "Test"], ["result", "Results"], ["review", "Review"], ["dashboard", "Progress"]].map(([k, l]) => (
             <button key={k} className={`jbtn${screen === k ? " on" : ""}`} onClick={() => go(k, k === "test" ? { setId: ds.defaultPracticeSetId } : {})}>{l}</button>
           ))}
         </div>
