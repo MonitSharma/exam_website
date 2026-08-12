@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to 'Param Pragya', recently in the news, consider the following statements:\n1. It is an Artificial Intelligence-enabled high-performance computing facility inaugurated at the Sonipat campus of IIT Delhi.\n2. The National Supercomputing Mission, under which India's PARAM-series systems are deployed, is steered jointly by the Ministry of Electronics and Information Technology and the Department of Science and Technology.\n3. It is India's first supercomputer to be installed outside a national laboratory.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Param Pragya is an AI-enabled HPC facility at IIT Delhi's Sonipat campus, inaugurated at the 57th Convocation; the National Supercomputing Mission is jointly steered by MeitY and DST and implemented by C-DAC and IISc Bengaluru. Statement 3 is wrong because PARAM-series systems have long been deployed on academic campuses such as IITs, IISERs and NITs.",
+    "subject": "Science & Technology",
+    "theme": "Digital and Computing Infrastructure",
+    "micro_topic": "National Supercomputing Mission and PARAM series",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements about 'AAERI Verify', recently launched:\n1. It is a document-verification platform integrated with DigiLocker for students applying to Australian universities.\n2. It has been launched by the National e-Governance Division under the Ministry of Electronics and Information Technology.\n3. Verification under the platform takes place without requiring the student's consent, to prevent tampering.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "AAERI Verify is a DigiLocker-integrated platform launched by the National e-Governance Division (MeitY) with the Association of Australian Education Representatives in India. Statement 3 is incorrect: the platform is explicitly consent-based, with Australian universities accessing digitally signed records only after the student's explicit consent.",
+    "subject": "Polity & Governance",
+    "theme": "e-Governance and Digital Public Infrastructure",
+    "micro_topic": "DigiLocker and NeGD initiatives",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The V.O. Chidambaranar Port Authority was recently in the news for becoming India's first port to be recognised as 'Scope-2 emission-free'. In greenhouse-gas accounting, Scope-2 emissions refer to:",
+    "options": [
+      "(a) Direct emissions from sources owned or controlled by the organisation, such as fuel burnt in its own vehicles and boilers",
+      "(b) Indirect emissions arising from the generation of purchased electricity, steam, heating or cooling consumed by the organisation",
+      "(c) All indirect emissions occurring in the organisation's value chain, including those of suppliers and customers",
+      "(d) Emissions of short-lived climate pollutants such as black carbon and methane only"
+    ],
+    "answer": "(b)",
+    "explanation": "Scope-1 covers direct emissions from owned or controlled sources, Scope-2 covers indirect emissions from purchased energy (electricity, steam, heating, cooling), and Scope-3 covers other value-chain emissions. VOC Port, Thoothukudi, met 93.89% of its FY 2025-26 electricity needs from renewables and also became the first Indian port to receive ISO 50001:2018 certification for energy management.",
+    "subject": "Environment",
+    "theme": "Climate Change and Decarbonisation",
+    "micro_topic": "Green ports and GHG emission scopes",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]
