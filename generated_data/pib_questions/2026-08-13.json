@@ -1,0 +1,50 @@
+[
+  {
+    "question": "Consider the following statements regarding the Bills passed by both Houses of Parliament during the Monsoon Session, 2026:\n1. The Prevention of Insults to National Honour (Amendment) Bill, 2026 brings Vande Mataram within the ambit of Section 3 of the 1971 Act.\n2. The Tribunals Reforms Bill, 2026 provides for the establishment of a National Tribunals Commission.\n3. The Kerala (Alteration of Name) Bill, 2026 amends the Fourth Schedule to the Constitution.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Statements 1 and 2 are correct. Statement 3 is wrong: the Kerala (Alteration of Name) Bill, 2026 amends the First Schedule to the Constitution (names and territories of States) under Article 3, not the Fourth Schedule, which deals with allocation of seats in the Rajya Sabha.",
+    "subject": "Polity & Governance",
+    "theme": "Parliament and Legislation",
+    "micro_topic": "Monsoon Session 2026 — Bills passed",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Southern African Customs Union (SACU), with which India signed the Terms of Reference for negotiations towards a Preferential Trade Agreement in August 2026, comprises which of the following countries?\n1. South Africa\n2. Botswana\n3. Zimbabwe\n4. Namibia\n5. Lesotho\n6. Eswatini\nSelect the correct answer using the code given below:",
+    "options": [
+      "(a) 1, 2, 4, 5 and 6 only",
+      "(b) 1, 2, 3 and 4 only",
+      "(c) 1, 3, 5 and 6 only",
+      "(d) 1, 2, 3, 4, 5 and 6"
+    ],
+    "answer": "(a)",
+    "explanation": "SACU, the world's oldest functioning customs union (1910), has five members: South Africa, Botswana, Namibia, Lesotho and Eswatini. Zimbabwe is not a member; it belongs to SADC and COMESA. India and SACU signed the ToR on 12 August 2026 to begin PTA negotiations.",
+    "subject": "International Relations",
+    "theme": "India and Regional Groupings",
+    "micro_topic": "India–SACU Preferential Trade Agreement",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to Project Elephant, consider the following statements:\n1. It was launched in 1992 as a Centrally Sponsored Scheme.\n2. The Gaj Gaurav Award is conferred under it to recognise contributions to elephant conservation.\n3. India is home to the largest population of wild Asian elephants in the world.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. Project Elephant was launched in 1992 as a Centrally Sponsored Scheme of the Ministry of Environment, Forest and Climate Change; the Gaj Gaurav Award was instituted in 2022 and was conferred at the World Elephant Day 2026 national celebration at Visakhapatnam; and India hosts close to 60% of the world's wild Asian elephants, the largest population of any country.",
+    "subject": "Environment",
+    "theme": "Wildlife Conservation",
+    "micro_topic": "Project Elephant and World Elephant Day 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]
