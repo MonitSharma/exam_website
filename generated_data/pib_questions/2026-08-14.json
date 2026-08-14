@@ -1,0 +1,50 @@
+[
+  {
+    "question": "Consider the following statements regarding the 'Scheme to Promote Manufacturing of Sintered Rare Earth Permanent Magnets (REPM)', which was in the news recently:\n1. It was approved by the Union Cabinet in November 2025 with a financial outlay of Rs. 7,280 crore.\n2. It targets an integrated manufacturing capacity of 6,000 MTPA, to be allocated among five beneficiaries through global competitive bidding.\n3. It is implemented by the Ministry of Mines.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "The scheme is implemented by the Ministry of Heavy Industries, not the Ministry of Mines; the Cabinet approved it on 26 November 2025 with a Rs. 7,280 crore outlay for 6,000 MTPA capacity split among five beneficiaries (up to 1,200 MTPA each).",
+    "subject": "Economy",
+    "theme": "Industrial Policy and Manufacturing",
+    "micro_topic": "Critical minerals and rare earth permanent magnets",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Anemia Mukt Bharat (AMB) Abhiyaan, consider the following statements:\n1. It is implemented by the Ministry of Health and Family Welfare through the National Health Mission.\n2. Its revised operational guidelines shift the programme from a 6x6x6 strategy to a 7x7x7 strategy.\n3. The revised approach relies exclusively on iron-folic acid supplementation and does not include testing or treatment components.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statement 3 is wrong: the revised AMB framework explicitly moves beyond supplementation to a 'test, treat, talk' style approach covering testing, case management, treatment adherence and dietary diversity, backed by a new AMB application and portal for beneficiary tracking.",
+    "subject": "Polity & Governance",
+    "theme": "Health Schemes and Programmes",
+    "micro_topic": "Anemia Mukt Bharat Abhiyaan and the 7x7x7 strategy",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to India's efforts on space debris and space situational awareness, consider the following statements:\n1. ISRO has been a member of the Inter-Agency Space Debris Coordination Committee (IADC) since its formation in 1996.\n2. The 'Debris Free Space Missions' initiative is an ISRO initiative aimed at debris-free space operations by Indian actors.\n3. IN-SPACe has issued Norms, Guidelines and Procedures that encourage Indian space entities to adopt end-of-life disposal measures or limited post-mission orbital lifetimes.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct as stated in the Government's reply in Parliament: ISRO is an IADC member since 1996, the Debris Free Space Missions initiative targets debris-free operations, and IN-SPACe's 2024 Norms, Guidelines and Procedures cover end-of-life disposal. India also participates in UN-COPUOS on this issue.",
+    "subject": "Science & Technology",
+    "theme": "Space Technology",
+    "micro_topic": "Space debris mitigation and space situational awareness",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]
