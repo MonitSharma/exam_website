@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the 'Sapta Dhara' framework announced from the ramparts of the Red Fort on 15 August 2026, which of the following is NOT one of its seven pillars?",
+    "options": [
+      "(a) Gati Shakti",
+      "(b) Green and blue economy",
+      "(c) Cooperative federalism",
+      "(d) India's soft power"
+    ],
+    "answer": "(c)",
+    "explanation": "The seven 'Dharas' are manufacturing power, agriculture and food processing, technology and innovation, Gati Shakti, Defence Shakti, the green and blue economy, and India's soft power. Cooperative federalism was not listed as a pillar.",
+    "subject": "Economy",
+    "theme": "Government Schemes and Vision Documents",
+    "micro_topic": "Sapta Dhara framework for Viksit Bharat 2047",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Consider the following statements regarding India's Access and Benefit Sharing (ABS) mechanism:\n1. It derives from the Biological Diversity Act, 2002, and implements India's obligations under the Nagoya Protocol.\n2. People's Biodiversity Registers are maintained by the State Biodiversity Boards.\n3. Where the original providers of a biological resource cannot be identified, benefit-sharing proceeds may be distributed among the biodiversity authorities of areas where the resource is cultivated.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statement 2 is incorrect: People's Biodiversity Registers are prepared and maintained by Biodiversity Management Committees (BMCs) at the local body level, not by State Biodiversity Boards. Statements 1 and 3 correctly describe the framework under which the NBA released Rs 15.52 crore from mustard genetic resources to 26 State Biodiversity Boards and 3 UT Biodiversity Councils.",
+    "subject": "Environment",
+    "theme": "Biodiversity Conservation",
+    "micro_topic": "Biological Diversity Act 2002 and Access and Benefit Sharing",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the SHANTI Act and India's nuclear energy sector, consider the following statements:\n1. The Act repeals both the Atomic Energy Act, 1962 and the Civil Liability for Nuclear Damage Act, 2010.\n2. It grants statutory recognition to the Atomic Energy Regulatory Board.\n3. India has set a target of 100 GW of installed nuclear power capacity by 2047.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "The SHANTI (Sustainable Harnessing and Advancement of Nuclear Energy for Transforming India) Act replaces both the Atomic Energy Act, 1962 and the Civil Liability for Nuclear Damage Act, 2010 with a single law, gives the Atomic Energy Regulatory Board statutory status, and opens the sector to private and limited foreign participation. The 100 GW-by-2047 nuclear target was reiterated in the 2026 Independence Day address, against roughly 7.5 GW installed in 2025.",
+    "subject": "Science & Technology",
+    "theme": "Nuclear Energy",
+    "micro_topic": "SHANTI Act and nuclear capacity targets",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]

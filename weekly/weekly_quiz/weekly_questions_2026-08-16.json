@@ -1,0 +1,242 @@
+[
+  {
+    "question": "The Kerala (Alteration of Name) Bill, 2026, renaming the State \"Keralam\", was passed by the Lok Sabha. With reference to altering the name of a State, consider the following statements:\n1. Such a Bill can be introduced in Parliament only on the prior recommendation of the President.\n2. The President must refer the Bill to the legislature of the State concerned for expressing its views within a specified period.\n3. Parliament is bound by the views expressed by the State legislature.\n4. Such a law is deemed to be an amendment of the Constitution for the purposes of Article 368.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1, 2 and 3 only",
+      "(c) 2 and 4 only",
+      "(d) 1, 3 and 4 only"
+    ],
+    "answer": "(a)",
+    "explanation": "Under Article 3, a Bill to alter the name of a State requires the prior recommendation of the President, and the President must refer it to the State legislature for its views within a specified period. Parliament is NOT bound by those views. Article 4 expressly provides that such a law is not deemed to be a constitutional amendment under Article 368.",
+    "subject": "Polity & Governance",
+    "theme": "Union and its Territory",
+    "micro_topic": "Article 3 and 4 - alteration of State names",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Tribunals Reforms Bill, 2026 provides for a National Tribunals Commission. Consider the following statements regarding tribunals in India:\n1. Articles 323A and 323B were inserted by the 42nd Constitutional Amendment Act.\n2. Article 323A empowers only Parliament to provide for administrative tribunals, while Article 323B empowers both Parliament and State legislatures.\n3. In L. Chandra Kumar (1997) the Supreme Court held that the jurisdiction of High Courts under Article 226 over tribunal decisions is part of the basic structure.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. Articles 323A and 323B were inserted by the 42nd Amendment (1976). Art 323A is available to Parliament alone and covers only public service matters; Art 323B is available to Parliament and State legislatures and covers a listed set of subjects. In L. Chandra Kumar (1997) the Supreme Court struck down the exclusion of High Court jurisdiction, holding judicial review under Art 226/227 to be part of the basic structure.",
+    "subject": "Polity & Governance",
+    "theme": "Judiciary and Tribunals",
+    "micro_topic": "Articles 323A and 323B, National Tribunals Commission",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Periodic Labour Force Survey (PLFS) Quarterly Bulletin for April-June 2026 reported an unemployment rate of 5.4% and an LFPR of 54.6%. With reference to the PLFS, consider the following statements:\n1. It is conducted by the National Statistics Office under the Ministry of Statistics and Programme Implementation.\n2. The quarterly bulletins report estimates based on the Current Weekly Status for both rural and urban areas.\n3. The Labour Force Participation Rate is the percentage of persons in the labour force among the population aged 15 years and above.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three correct. PLFS is run by the NSO under MoSPI. Quarterly bulletins report Current Weekly Status (CWS) estimates - since the 2025 redesign, for both rural and urban areas (earlier urban-only). LFPR is the share of the population working or seeking/available for work, conventionally reported for age 15 years and above.",
+    "subject": "Reports & Indices",
+    "theme": "Employment statistics",
+    "micro_topic": "PLFS quarterly bulletin, CWS, LFPR",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Taxation and Other Laws (Amendment) Bill, 2026 has been described as opening the legal door to a Merchant Discount Rate (MDR) on UPI. In this context, MDR is best described as:",
+    "options": [
+      "(a) A fee levied by the Reserve Bank of India on payment system operators for settlement services",
+      "(b) A fee paid by a merchant to the acquiring bank and payment ecosystem for processing a digital transaction",
+      "(c) A discount offered by merchants to customers who pay by UPI rather than by card",
+      "(d) A statutory levy on interchange income earned by card networks"
+    ],
+    "answer": "(b)",
+    "explanation": "MDR is the fee a merchant pays, shared among the acquiring bank, the issuing bank (interchange) and the network/payment operator, for processing a digital transaction. UPI and RuPay debit MDR was set to zero in 2020; the 2026 amendment is what makes a positive MDR legally possible again.",
+    "subject": "Economy",
+    "theme": "Digital payments",
+    "micro_topic": "Merchant Discount Rate on UPI",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to X(2370), in the news recently, consider the following statements:\n1. It is regarded as a candidate for the lightest pseudoscalar glueball.\n2. A glueball is a hypothetical composite particle consisting only of gluons, with no valence quarks.\n3. Its existence is predicted by quantum chromodynamics because gluons themselves carry colour charge.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three correct. X(2370), observed at BESIII (Beijing Spectrometer III), is the leading candidate for the lightest pseudoscalar glueball. A glueball is a bound state of gluons with no valence quarks. QCD predicts glueballs precisely because gluons carry colour charge and therefore self-interact, unlike photons in QED.",
+    "subject": "Science & Technology",
+    "theme": "Particle physics",
+    "micro_topic": "X(2370) glueball and BESIII",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "India recently crossed 300 GW of installed non-fossil-fuel electricity generation capacity. In this context, consider the following statements:\n1. India's updated Nationally Determined Contribution commits it to about 50% of cumulative installed electric power capacity from non-fossil-fuel-based energy resources by 2030.\n2. For the purposes of this target, large hydro and nuclear capacity are counted as non-fossil sources.\n3. Installed capacity and actual generation share are the same measure for this target.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "India's updated NDC targets about 50% of cumulative installed capacity from non-fossil sources by 2030, and the accounting includes large hydro and nuclear. Statement 3 is the classic trap: installed capacity is not the same as generation share, because renewables have far lower capacity utilisation factors than coal, so the non-fossil share of actual generation is substantially lower than its share of capacity.",
+    "subject": "Environment",
+    "theme": "Climate commitments and energy transition",
+    "micro_topic": "Non-fossil installed capacity and the NDC 2030 target",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The India Meteorological Department's second-stage forecast placed the southwest monsoon at about 90% of the Long Period Average. With reference to monsoon forecasting terminology, consider the following statements:\n1. The Long Period Average is the average rainfall recorded over a defined multi-decadal reference period.\n2. Rainfall between 90% and 96% of the LPA is officially categorised as \"below normal\".\n3. El Nino conditions are, on the historical record, negatively correlated with Indian summer monsoon rainfall.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct as stated. LPA is the long-run average over a defined reference period. IMD's bands: below 90% deficient, 90-96% below normal, 96-104% normal, 104-110% above normal, above 110% excess - so 90-96% is indeed 'below normal', and a forecast sitting AT 90% is on the deficient boundary, which is why it made news. El Nino is negatively correlated with Indian monsoon rainfall, though the correlation is not deterministic.",
+    "subject": "Geography",
+    "theme": "Indian monsoon",
+    "micro_topic": "IMD LPA categories and El Nino correlation",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Srikalahasti temple sought funding under the PRASHAD scheme. Consider the following pairs of Pancha Bhoota Sthalams and the element each represents:\n1. Srikalahasti - Air\n2. Thiruvanaikaval (Jambukeswarar) - Water\n3. Chidambaram - Ether/Space\n4. Kanchipuram (Ekambareswarar) - Fire\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) Only three",
+      "(d) All four"
+    ],
+    "answer": "(c)",
+    "explanation": "Three are correct. Srikalahasti = Air (Vayu); Thiruvanaikaval = Water (Appu); Chidambaram = Ether/Space (Akasha). Pair 4 is wrong: Kanchipuram Ekambareswarar is the Earth (Prithvi) sthalam, while Thiruvannamalai is the Fire (Agni) sthalam.",
+    "subject": "Art & Culture",
+    "theme": "Temple architecture and traditions",
+    "micro_topic": "Pancha Bhoota Sthalams and PRASHAD scheme",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the veto powers of the President of India, consider the following statements:\n1. The President enjoys absolute, suspensive and pocket veto, but not qualified veto.\n2. The suspensive veto cannot be exercised in respect of a Money Bill.\n3. With respect to a State Bill reserved for his consideration by the Governor, the President is bound to give assent if the State legislature passes it again after a return.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "The President has absolute, suspensive and pocket veto but no qualified veto (that exists in the US system). The suspensive veto - returning a bill for reconsideration - is not available for Money Bills. Statement 3 is wrong: under Article 201, if a State legislature re-passes a reserved bill after a presidential return, the President is still NOT bound to give assent - the deliberate contrast with Article 111, where the President must assent on re-passage of a Union bill.",
+    "subject": "Polity & Governance",
+    "theme": "Union Executive",
+    "micro_topic": "Presidential veto powers, Article 111 versus Article 201",
+    "nature": "Conceptual",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Consider the following statements comparing the election of the President and the Vice-President of India:\n1. Nominated members of Parliament vote in the election of the Vice-President but not in that of the President.\n2. Elected members of State legislative assemblies vote in the election of the President but not in that of the Vice-President.\n3. Both elections are held in accordance with the system of proportional representation by means of the single transferable vote.\n4. Members of State legislative councils vote in the Presidential election.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "answer": "(a)",
+    "explanation": "The Vice-Presidential electoral college is both Houses of Parliament INCLUDING nominated members; the Presidential electoral college is elected MPs plus elected MLAs of States and of Delhi and Puducherry. Both use proportional representation by single transferable vote. Statement 4 is wrong - members of State legislative COUNCILS do not vote in the Presidential election; only legislative assembly members do.",
+    "subject": "Polity & Governance",
+    "theme": "Union Executive",
+    "micro_topic": "Electoral colleges of the President and Vice-President",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements regarding the Council of Ministers at the Union level:\n1. The total number of ministers, including the Prime Minister, shall not exceed 15% of the total strength of the Lok Sabha.\n2. This ceiling was introduced by the 91st Constitutional Amendment Act.\n3. The principle of collective responsibility is expressly stated in the Constitution, whereas the principle of individual responsibility is only a convention with no constitutional basis.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Article 75(1A), inserted by the 91st Amendment (2003), caps the Council of Ministers including the PM at 15% of the Lok Sabha's total strength. Statement 3 is wrong in its second half: individual responsibility is expressly provided in Article 75(2) - ministers hold office during the pleasure of the President - so it is not merely a convention. Collective responsibility is in Article 75(3).",
+    "subject": "Polity & Governance",
+    "theme": "Union Executive",
+    "micro_topic": "Article 75(1A), 91st Amendment, collective versus individual responsibility",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to a joint sitting of the two Houses of Parliament under Article 108, consider the following statements:\n1. It can be summoned to resolve a deadlock over an ordinary bill and a financial bill, but not over a money bill or a constitutional amendment bill.\n2. The Chairman of the Rajya Sabha presides over a joint sitting.\n3. The quorum for a joint sitting is one-tenth of the total number of members of the two Houses.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "Article 108 covers ordinary and financial bills but excludes Money Bills and Constitutional Amendment Bills. The quorum is one-tenth of the total number of members of the two Houses. Statement 2 is false: the Speaker of the Lok Sabha presides, and in his absence the Deputy Speaker, then the Deputy Chairman of the Rajya Sabha - the Chairman of the Rajya Sabha (Vice-President) NEVER presides over a joint sitting.",
+    "subject": "Polity & Governance",
+    "theme": "Parliament",
+    "micro_topic": "Joint sitting under Article 108 - exclusions, presiding officer, quorum",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements regarding NITI Aayog and the erstwhile Planning Commission:\n1. Unlike the Planning Commission, NITI Aayog does not have the power to allocate funds to States.\n2. Both bodies were created by executive resolution rather than by an Act of Parliament or a constitutional provision.\n3. The Governing Council of NITI Aayog includes the Chief Ministers of all States and the Lieutenant Governors of all Union Territories.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "NITI Aayog is advisory and has no fund-allocation power - the Finance Commission and the Finance Ministry perform that role now. Both the Planning Commission (1950) and NITI Aayog (1 January 2015) were created by executive resolution of the Union Cabinet, with no statutory or constitutional basis. Statement 3 is wrong: the Governing Council includes Chief Ministers of all States and of the UTs with legislature, plus Lieutenant Governors of the OTHER Union Territories - not all LGs as a class.",
+    "subject": "Economy",
+    "theme": "Planning and institutions",
+    "micro_topic": "NITI Aayog versus Planning Commission",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Nehru Report (1928), consider the following statements:\n1. It was the first substantial Indian attempt to draft a constitutional framework for India.\n2. It demanded complete independence as the immediate goal.\n3. It recommended the abolition of separate electorates, with reservation of seats for Muslims only in provinces where they were in a minority.\n4. It recommended the linguistic reorganisation of provinces.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 1, 3 and 4 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 2 and 4 only"
+    ],
+    "answer": "(b)",
+    "explanation": "The Nehru Report (August 1928), drafted by a committee under Motilal Nehru, was the first major Indian-drafted constitutional scheme; it recommended abolition of separate electorates with reservation only where Muslims were a minority, and linguistic provinces. Statement 2 is wrong - it demanded DOMINION STATUS, not complete independence, which is precisely what Jawaharlal Nehru and Subhas Bose objected to, leading to the Independence for India League and, in December 1929, to Purna Swaraj at Lahore.",
+    "subject": "Modern History",
+    "theme": "Constitutional developments and nationalist politics",
+    "micro_topic": "Nehru Report 1928 and dominion status",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Communal Award (1932) and the Poona Pact, consider the following statements:\n1. The Communal Award was announced by British Prime Minister Ramsay MacDonald and extended separate electorates to the Depressed Classes.\n2. Gandhi's fast unto death at Yerwada was directed against the Award's provisions for the Depressed Classes.\n3. Under the Poona Pact, seats reserved for the Depressed Classes in the provincial legislatures were fixed at 71.\n4. The Poona Pact replaced separate electorates for the Depressed Classes with a system of joint electorates and reserved seats.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 1, 2 and 4 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 3 and 4 only"
+    ],
+    "answer": "(b)",
+    "explanation": "The Communal Award (16 August 1932) by Ramsay MacDonald extended separate electorates to the Depressed Classes; Gandhi's fast unto death at Yerwada was directed specifically at that provision; the Poona Pact (24 September 1932) substituted joint electorates with reserved seats. Statement 3 is wrong on the number: the Pact raised provincial reservation from the Award's 71 to 147 seats, plus 18% of seats in the Central legislature - the 71 figure is the pre-Pact Award number, used here as a distractor.",
+    "subject": "Modern History",
+    "theme": "Civil Disobedience era",
+    "micro_topic": "Communal Award and Poona Pact seat arithmetic",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  }
+]
