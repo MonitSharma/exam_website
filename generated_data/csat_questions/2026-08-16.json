@@ -1,0 +1,354 @@
+[
+  {
+    "question": "For two centuries the claim that machines would abolish work has been made confidently and refuted quietly. The refutation, however, has been misread. What history shows is not that technology creates as many jobs as it destroys by some law of nature, but that it has so far happened to do so, through a mechanism that can be described - and that can therefore fail.\n\nThe useful unit of analysis is not the occupation but the task. A radiologist, a clerk and a machinist each perform a bundle of distinct activities, and a new technology rarely takes the bundle whole; it takes some tasks and leaves others. Two effects follow. The displacement effect removes tasks from labour and assigns them to capital, reducing the demand for workers at any given wage. The reinstatement effect works in the other direction: as production is reorganised, new tasks appear in which labour holds a comparative advantage, and these absorb the displaced. The historical record is the sum of the two, and the reassuring aggregate conceals how contingent the second term is.\n\nNothing guarantees that reinstatement will keep pace. A technology may be adopted merely because it is marginally cheaper than the worker it replaces, while adding little to output - automation that is, in the strict sense, mediocre. Such innovation shifts income from labour to capital without expanding the pie enough to compensate anyone. Meanwhile the research subsidies, tax codes and procurement rules of most states are tilted, often unintentionally, towards replacing labour rather than augmenting it.\n\nThe right question, then, is not whether there will be enough work. It is which tasks we choose to create, and who captures the gains from those we automate. That is a matter of policy and of design, not of destiny - which is at once the more hopeful answer and the more demanding one.\n\nQ. Which of the following best captures the central argument of the passage?",
+    "options": [
+      "(a) History proves that technology has always created at least as many jobs as it has destroyed, so present anxieties are unfounded.",
+      "(b) The occupation, rather than the task, is the correct unit for analysing the labour-market effects of new technology.",
+      "(c) The pace of automation must be slowed until displaced workers can be retrained for the jobs that remain.",
+      "(d) The employment effect of automation turns on a contingent, policy-sensitive balance between the displacement and the creation of tasks, rather than on any inevitable law."
+    ],
+    "answer": "(d)",
+    "explanation": "Main idea. The passage's spine is that history's reassuring aggregate is the sum of two effects and that 'nothing guarantees that reinstatement will keep pace', leading to the closing shift to policy and design. (a) is the misreading the first paragraph corrects; (c) is never proposed; (d) is the opposite of the stated method.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Main idea - task-based view of automation",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "For two centuries the claim that machines would abolish work has been made confidently and refuted quietly. The refutation, however, has been misread. What history shows is not that technology creates as many jobs as it destroys by some law of nature, but that it has so far happened to do so, through a mechanism that can be described - and that can therefore fail.\n\nThe useful unit of analysis is not the occupation but the task. A radiologist, a clerk and a machinist each perform a bundle of distinct activities, and a new technology rarely takes the bundle whole; it takes some tasks and leaves others. Two effects follow. The displacement effect removes tasks from labour and assigns them to capital, reducing the demand for workers at any given wage. The reinstatement effect works in the other direction: as production is reorganised, new tasks appear in which labour holds a comparative advantage, and these absorb the displaced. The historical record is the sum of the two, and the reassuring aggregate conceals how contingent the second term is.\n\nNothing guarantees that reinstatement will keep pace. A technology may be adopted merely because it is marginally cheaper than the worker it replaces, while adding little to output - automation that is, in the strict sense, mediocre. Such innovation shifts income from labour to capital without expanding the pie enough to compensate anyone. Meanwhile the research subsidies, tax codes and procurement rules of most states are tilted, often unintentionally, towards replacing labour rather than augmenting it.\n\nThe right question, then, is not whether there will be enough work. It is which tasks we choose to create, and who captures the gains from those we automate. That is a matter of policy and of design, not of destiny - which is at once the more hopeful answer and the more demanding one.\n\nQ. It can be inferred that the author would regard a technology that automates a task at slightly lower cost than the worker it replaces, without materially raising output, as:",
+    "options": [
+      "(a) desirable, since any reduction in cost is a gain to society.",
+      "(b) neutral, since the displaced workers will in due course be reinstated in new tasks.",
+      "(c) harmful on balance, since it redistributes income without enlarging the gains available to be shared.",
+      "(d) impossible, since firms adopt only those technologies that substantially raise productivity."
+    ],
+    "answer": "(c)",
+    "explanation": "Inference. This is the passage's own definition of 'mediocre' automation: it 'shifts income from labour to capital without expanding the pie enough to compensate anyone'. (b) is the trap - reinstatement is presented as contingent, not automatic.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Inference - mediocre automation",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "For two centuries the claim that machines would abolish work has been made confidently and refuted quietly. The refutation, however, has been misread. What history shows is not that technology creates as many jobs as it destroys by some law of nature, but that it has so far happened to do so, through a mechanism that can be described - and that can therefore fail.\n\nThe useful unit of analysis is not the occupation but the task. A radiologist, a clerk and a machinist each perform a bundle of distinct activities, and a new technology rarely takes the bundle whole; it takes some tasks and leaves others. Two effects follow. The displacement effect removes tasks from labour and assigns them to capital, reducing the demand for workers at any given wage. The reinstatement effect works in the other direction: as production is reorganised, new tasks appear in which labour holds a comparative advantage, and these absorb the displaced. The historical record is the sum of the two, and the reassuring aggregate conceals how contingent the second term is.\n\nNothing guarantees that reinstatement will keep pace. A technology may be adopted merely because it is marginally cheaper than the worker it replaces, while adding little to output - automation that is, in the strict sense, mediocre. Such innovation shifts income from labour to capital without expanding the pie enough to compensate anyone. Meanwhile the research subsidies, tax codes and procurement rules of most states are tilted, often unintentionally, towards replacing labour rather than augmenting it.\n\nThe right question, then, is not whether there will be enough work. It is which tasks we choose to create, and who captures the gains from those we automate. That is a matter of policy and of design, not of destiny - which is at once the more hopeful answer and the more demanding one.\n\nQ. The passage's closing claim that the outcome is 'a matter of policy and of design, not of destiny' rests most directly on the assumption that:",
+    "options": [
+      "(a) workers can be retrained for whatever new tasks happen to emerge.",
+      "(b) the direction in which technology develops responds to incentives that states and firms are able to alter.",
+      "(c) capital and labour are close to perfect substitutes in most forms of production.",
+      "(d) earlier waves of mechanisation were centrally planned rather than market-driven."
+    ],
+    "answer": "(b)",
+    "explanation": "Assumption. Negation test: if the direction of technological development were unresponsive to subsidies, tax codes and procurement rules, the outcome would be destiny and the claim collapses. (a) concerns workers, not the direction of innovation; (c) contradicts the task framework; (d) is irrelevant.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Assumption - negation test",
+    "nature": "Aptitude",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "The most common defence of surveillance is also the most misleading: that a person with nothing to hide has nothing to fear. The reply usually offered - that everyone has something to hide - concedes the wrong point. It accepts that privacy is essentially concealment, a shelter for what would embarrass or incriminate us, and then bargains over how much shelter we need. But if privacy were only that, the innocent would indeed have little stake in it, and the argument would be over before it began.\n\nConsider instead what we actually do with the boundaries we keep. We tell our physician what we do not tell our employer, and our closest friend what we do not tell our physician. These are not evasions; they are the substance of the relationships themselves. A friendship is constituted in part by what is shared with the friend and not with others, and a world in which everything were available to everyone would not be a world of perfect honesty but one in which such distinctions had no material to work with. Intimacy is not a feeling added to information; it is a pattern of asymmetric disclosure.\n\nThere is a second loss, less often noticed. Thinking requires a space in which one may entertain a view without yet owning it - where an idea can be tried on, found ridiculous, and abandoned before anyone has seen it. Under observation, the trying-on stops. One rehearses only what one is already prepared to defend, and the interior draft becomes a public statement long before it is ready.\n\nNeither loss registers as a harm in the way a theft does. Nothing is taken; a person is merely, and permanently, in view. That is precisely why the language of \"nothing to hide\" persists: it invites us to produce a victim and a stolen good, when what is being worn away is a condition rather than a possession.\n\nQ. Which of the following best captures the central idea of the passage?",
+    "options": [
+      "(a) Privacy matters not chiefly as the concealment of wrongdoing but as the condition for differentiated relationships and for unfinished thought.",
+      "(b) Since everyone has something to hide, surveillance harms the innocent and the guilty alike.",
+      "(c) Surveillance should be prohibited because it places dangerous powers in the hands of the state.",
+      "(d) Honesty is unattainable in any society whose members keep information from one another."
+    ],
+    "answer": "(a)",
+    "explanation": "Main idea. Two positive claims carry the passage: relationships are constituted by asymmetric disclosure, and thought needs an unobserved draft stage. (a) is explicitly named as conceding the wrong point; (c) is an argument the passage never makes; (d) inverts the friendship paragraph.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Main idea - value of privacy",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The most common defence of surveillance is also the most misleading: that a person with nothing to hide has nothing to fear. The reply usually offered - that everyone has something to hide - concedes the wrong point. It accepts that privacy is essentially concealment, a shelter for what would embarrass or incriminate us, and then bargains over how much shelter we need. But if privacy were only that, the innocent would indeed have little stake in it, and the argument would be over before it began.\n\nConsider instead what we actually do with the boundaries we keep. We tell our physician what we do not tell our employer, and our closest friend what we do not tell our physician. These are not evasions; they are the substance of the relationships themselves. A friendship is constituted in part by what is shared with the friend and not with others, and a world in which everything were available to everyone would not be a world of perfect honesty but one in which such distinctions had no material to work with. Intimacy is not a feeling added to information; it is a pattern of asymmetric disclosure.\n\nThere is a second loss, less often noticed. Thinking requires a space in which one may entertain a view without yet owning it - where an idea can be tried on, found ridiculous, and abandoned before anyone has seen it. Under observation, the trying-on stops. One rehearses only what one is already prepared to defend, and the interior draft becomes a public statement long before it is ready.\n\nNeither loss registers as a harm in the way a theft does. Nothing is taken; a person is merely, and permanently, in view. That is precisely why the language of \"nothing to hide\" persists: it invites us to produce a victim and a stolen good, when what is being worn away is a condition rather than a possession.\n\nQ. It can be inferred that the author regards the reply 'everyone has something to hide' as:",
+    "options": [
+      "(a) factually false, since many people genuinely have nothing to conceal.",
+      "(b) the strongest response available to the nothing-to-hide argument.",
+      "(c) an unsuccessful defence, because it accepts the very account of privacy that ought to be disputed.",
+      "(d) beside the point, since surveillance is a legal rather than a moral question."
+    ],
+    "answer": "(c)",
+    "explanation": "Inference. 'It accepts that privacy is essentially concealment ... and then bargains over how much shelter we need.' The objection is that the reply fights on the wrong ground, not that it is false - which rules out (a).",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Inference - conceding the wrong point",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The most common defence of surveillance is also the most misleading: that a person with nothing to hide has nothing to fear. The reply usually offered - that everyone has something to hide - concedes the wrong point. It accepts that privacy is essentially concealment, a shelter for what would embarrass or incriminate us, and then bargains over how much shelter we need. But if privacy were only that, the innocent would indeed have little stake in it, and the argument would be over before it began.\n\nConsider instead what we actually do with the boundaries we keep. We tell our physician what we do not tell our employer, and our closest friend what we do not tell our physician. These are not evasions; they are the substance of the relationships themselves. A friendship is constituted in part by what is shared with the friend and not with others, and a world in which everything were available to everyone would not be a world of perfect honesty but one in which such distinctions had no material to work with. Intimacy is not a feeling added to information; it is a pattern of asymmetric disclosure.\n\nThere is a second loss, less often noticed. Thinking requires a space in which one may entertain a view without yet owning it - where an idea can be tried on, found ridiculous, and abandoned before anyone has seen it. Under observation, the trying-on stops. One rehearses only what one is already prepared to defend, and the interior draft becomes a public statement long before it is ready.\n\nNeither loss registers as a harm in the way a theft does. Nothing is taken; a person is merely, and permanently, in view. That is precisely why the language of \"nothing to hide\" persists: it invites us to produce a victim and a stolen good, when what is being worn away is a condition rather than a possession.\n\nQ. The tone of the passage is best described as:",
+    "options": [
+      "(a) alarmed and polemical",
+      "(b) detached and non-committal",
+      "(c) reflective and quietly insistent",
+      "(d) nostalgic and resigned"
+    ],
+    "answer": "(c)",
+    "explanation": "Tone. The author reasons calmly, concedes what the opposing slogan gets right before dismantling it, and closes with a measured formulation rather than an alarm. The passage clearly takes a side, so not (b); there is no appeal to a better past, so not (d).",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Tone identification",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Four friends - Neha, Ojas, Pari and Rahul - each come from a different city (Bhopal, Cuttack, Delhi, Erode) and each plays a different game (badminton, chess, hockey, tennis).\n(i) The person from Delhi plays chess.\n(ii) Neha is neither from Delhi nor a hockey player.\n(iii) Ojas plays tennis.\n(iv) Pari is from Cuttack.\n(v) The person from Bhopal plays badminton.\n(vi) Rahul is not from Erode.\n\nWhich of the following combinations is correct?",
+    "options": [
+      "(a) Neha - Delhi - chess",
+      "(b) Rahul - Erode - chess",
+      "(c) Ojas - Bhopal - tennis",
+      "(d) Pari - Cuttack - hockey"
+    ],
+    "answer": "(d)",
+    "explanation": "Ojas plays tennis, so he is not from Delhi (chess) or Bhopal (badminton), and Cuttack is Pari's; hence Ojas = Erode. Rahul is not from Erode or Cuttack, so Neha and Rahul take Bhopal and Delhi; Neha is not from Delhi, so Neha = Bhopal and Rahul = Delhi. Then Neha plays badminton, Rahul chess, and hockey is left for Pari. Final: Neha-Bhopal-badminton, Ojas-Erode-tennis, Pari-Cuttack-hockey, Rahul-Delhi-chess.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Matrix / matching puzzle",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the statements to be true regardless of commonly known facts.\nStatements:\n1. All clerks are auditors.\n2. Some auditors are engineers.\nConclusions:\nI. Some clerks are engineers.\nII. No clerk is an engineer.",
+    "options": [
+      "(a) Only I follows",
+      "(b) Only II follows",
+      "(c) Either I or II follows",
+      "(d) Neither I nor II follows"
+    ],
+    "answer": "(c)",
+    "explanation": "Clerks sit inside the auditor circle; the engineer overlap touches auditors somewhere but need not touch the clerk sub-region, so I does not follow. Equally, the overlap may fall wholly within the clerks, so II does not follow. But 'some clerks are engineers' and 'no clerk is an engineer' are contradictories - exactly one must be true in every diagram - which is the either-or case. Trap (d): neither following individually is the precondition for either-or, not the answer.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Syllogism - complementary pair (either-or)",
+    "nature": "Aptitude",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In a certain code, a word is converted into a single number as follows: add the alphabet positions (A = 1, B = 2, ...) of all its CONSONANTS, and from that total subtract the sum of the alphabet positions of all its VOWELS. For example, FACE -> consonants F(6) + C(3) = 9; vowels A(1) + E(5) = 6; code = 9 - 6 = 3.\n\nUsing the same rule, the code for LOGIC is:",
+    "options": [
+      "(a) 2",
+      "(b) -2",
+      "(c) 46",
+      "(d) -46"
+    ],
+    "answer": "(b)",
+    "explanation": "LOGIC: consonants L(12) + G(7) + C(3) = 22; vowels O(15) + I(9) = 24; code = 22 - 24 = -2. (Example check: 9 - 6 = 3.) Trap (a) 2 reverses the order of subtraction; (c) 46 is the sum 22 + 24.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Coding-decoding - letter-position arithmetic",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Pointing to a photograph, Meera said, \"He is the only son of the only daughter of my father's mother.\"\n\nHow is the person in the photograph related to Meera?",
+    "options": [
+      "(a) Brother",
+      "(b) Uncle",
+      "(c) Nephew",
+      "(d) Cousin"
+    ],
+    "answer": "(d)",
+    "explanation": "'My father's mother' is Meera's paternal grandmother. Her only daughter cannot be Meera's mother, since Meera's father is that grandmother's son; the only daughter is Meera's paternal aunt. That aunt's only son is therefore Meera's cousin. Trap (a) Brother arises from misreading the phrase as Meera's own mother.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Blood relations - photograph statement",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "One morning shortly after sunrise, Vikram and Sunil were standing in a park directly facing each other. Sunil's shadow fell exactly to the right of Vikram.\n\nWhich direction was Vikram facing?",
+    "options": [
+      "(a) North",
+      "(b) South",
+      "(c) East",
+      "(d) West"
+    ],
+    "answer": "(b)",
+    "explanation": "Shortly after sunrise the sun is in the east, so all shadows point west. Sunil's shadow fell to Vikram's right, so west lies on Vikram's right hand, which means Vikram faces south. (Check: facing south, the right hand points west; since they face each other, Sunil faces north.)",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Directions - shadows at sunrise",
+    "nature": "Aptitude",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "A state fellowship is governed by the following conditions. A candidate is ELIGIBLE if:\n(i) the candidate's age on 1 January 2026 is not less than 21 years and not more than 28 years; AND\n(ii) the candidate holds a postgraduate degree with at least 60% marks; AND\n(iii) the candidate has at least two years of field experience.\nHowever:\n(iv) if condition (ii) alone is not satisfied but the candidate holds a doctoral degree, the case shall be referred to the Director;\n(v) if condition (iii) alone is not satisfied but the candidate has published at least three peer-reviewed papers, the case shall be referred to the Selection Committee.\n\nAnanya was 26 years old on 1 January 2026. She holds a postgraduate degree with 58% marks and a doctoral degree, and has three years of field experience. What follows?",
+    "options": [
+      "(a) She is eligible.",
+      "(b) She is not eligible.",
+      "(c) Her case is referred to the Director.",
+      "(d) Her case is referred to the Selection Committee."
+    ],
+    "answer": "(c)",
+    "explanation": "Condition (i) is met (26 lies within 21-28) and condition (iii) is met (3 years >= 2). Condition (ii) fails, since 58% is below 60%. As (ii) alone fails and she holds a doctoral degree, clause (iv) applies exactly: referral to the Director. Clause (v) is irrelevant because (iii) is satisfied, and (b) is wrong because the rules provide a referral rather than a rejection.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Analytical ability - eligibility rules",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Table: Area sown and yield of five crops in a state, 2025-26 (Production = area x yield)\n\nCrop | Area sown (lakh hectares) | Yield (tonnes per hectare)\nRice | 30 | 2.6\nWheat | 24 | 3.5\nMaize | 15 | 4.2\nPulses | 20 | 1.1\nCotton | 12 | 2.0\n\nQ. Which crop recorded the highest total production?",
+    "options": [
+      "(a) Rice",
+      "(b) Pulses",
+      "(c) Maize",
+      "(d) Wheat"
+    ],
+    "answer": "(d)",
+    "explanation": "Production = area x yield: Rice 30 x 2.6 = 78; Wheat 24 x 3.5 = 84; Maize 15 x 4.2 = 63; Pulses 20 x 1.1 = 22; Cotton 12 x 2.0 = 24 (lakh tonnes). Highest is Wheat at 84. Trap (a) Rice has the largest area and trap (c) Maize the highest yield, but neither wins on the product.",
+    "subject": "CSAT",
+    "theme": "DI",
+    "micro_topic": "Table - area x yield product",
+    "nature": "Aptitude",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Table: Area sown and yield of five crops in a state, 2025-26 (Production = area x yield)\n\nCrop | Area sown (lakh hectares) | Yield (tonnes per hectare)\nRice | 30 | 2.6\nWheat | 24 | 3.5\nMaize | 15 | 4.2\nPulses | 20 | 1.1\nCotton | 12 | 2.0\n\nQ. Suppose the area under pulses is increased by 50% and its yield rises to 1.2 tonnes per hectare, all other crops remaining unchanged. Pulses would then account for approximately what percentage of the total production of the five crops?",
+    "options": [
+      "(a) 12.6%",
+      "(b) 13.3%",
+      "(c) 8.1%",
+      "(d) 18.0%"
+    ],
+    "answer": "(a)",
+    "explanation": "New pulses area = 20 x 1.5 = 30 lakh ha, so new pulses production = 30 x 1.2 = 36 lakh tonnes. Old total = 78 + 84 + 63 + 22 + 24 = 271; new total = 271 - 22 + 36 = 285. Share = 36/285 = 12.6%. Trap (b) 13.3% divides by the old total (36/271), forgetting that the denominator also grew; (c) 8.1% is the original share 22/271.",
+    "subject": "CSAT",
+    "theme": "DI",
+    "micro_topic": "Table - revised share with changed denominator",
+    "nature": "Aptitude",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "A state recruitment drive for three departments - Revenue, Health and Education - received 12,000 applications in all. Revenue received 40% of the applications and Health 35%; the remainder went to Education. Of the applications it received, Revenue shortlisted 15%, Health shortlisted 20% and Education shortlisted 25%. Of those shortlisted, one in six was finally selected in Revenue, one in five in Health, and one in three in Education.\n\nQ. How many candidates were finally selected across the three departments taken together?",
+    "options": [
+      "(a) 508",
+      "(b) 480",
+      "(c) 562",
+      "(d) 538"
+    ],
+    "answer": "(d)",
+    "explanation": "Applications: Revenue 40% x 12,000 = 4,800; Health 35% x 12,000 = 4,200; Education = 3,000. Shortlisted: 720, 840 and 750. Selected: 720/6 = 120; 840/5 = 168; 750/3 = 250. Total = 538.",
+    "subject": "CSAT",
+    "theme": "DI",
+    "micro_topic": "Caselet - two-stage funnel",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "A state recruitment drive for three departments - Revenue, Health and Education - received 12,000 applications in all. Revenue received 40% of the applications and Health 35%; the remainder went to Education. Of the applications it received, Revenue shortlisted 15%, Health shortlisted 20% and Education shortlisted 25%. Of those shortlisted, one in six was finally selected in Revenue, one in five in Health, and one in three in Education.\n\nQ. Taking the three departments together, the finally selected candidates formed approximately what percentage of the TOTAL applications received?",
+    "options": [
+      "(a) 4.5%",
+      "(b) 4.9%",
+      "(c) 23.3%",
+      "(d) 19.3%"
+    ],
+    "answer": "(a)",
+    "explanation": "538/12,000 = 4.48%, about 4.5%. Trap (b) 4.9% is the plain average of the three departmental selection rates (2.5%, 4%, 8.33%), which is invalid because the application bases differ widely. Trap (c) 23.3% is selected divided by shortlisted (538/2,310) - the wrong denominator.",
+    "subject": "CSAT",
+    "theme": "DI",
+    "micro_topic": "Caselet - weighted vs simple average trap",
+    "nature": "Aptitude",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "You are the Centre Superintendent for a state recruitment examination. Twenty minutes into the paper, an invigilator reports - with photographs - that about eight candidates in one hall are receiving answer slips passed through a window, and that a local political worker at the gate is telling your staff \"not to make an issue of it\". A police picket is present at the gate, and about 400 other candidates are writing the paper. What is the most appropriate course of action?",
+    "options": [
+      "(a) Ignore it for now to avoid a confrontation that could disrupt the examination for the other 400 candidates, and mention it in your report afterwards.",
+      "(b) Stop the examination at the entire centre immediately and send all candidates home pending an inquiry.",
+      "(c) Warn the eight candidates informally, let them continue, and speak to the political worker so that the matter ends quietly.",
+      "(d) Seize the material and the answer sheets of the candidates involved, record the evidence and their statements, allow the examination to continue undisturbed for the rest, ask the police picket to secure the perimeter, and report the incident with evidence to the examination authority the same day."
+    ],
+    "answer": "(d)",
+    "explanation": "Firm, proportionate and documented: it stops the malpractice and preserves the evidence, penalises only those involved rather than 400 innocent candidates, uses the police for perimeter security, and reports up the same day so no cover-up can later be alleged. (a) abandons the duty of the moment; (b) is grossly disproportionate; (d) yields to political pressure and destroys the evidence trail.",
+    "subject": "CSAT",
+    "theme": "Decision-Making",
+    "micro_topic": "Examination malpractice under political pressure",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "A colleague of your own rank asks you, as the officer who countersigns travel claims, to pass his travel allowance bill, which includes two days he did not in fact spend on tour. He points out that the amount is small, that \"everyone does it\", and that he has recently had heavy medical expenses at home. What would you do?",
+    "options": [
+      "(a) Countersign the bill, since the amount is small and the hardship is genuine.",
+      "(b) Return the bill, decline to certify the two disputed days, explain privately why you cannot, and help him identify the medical advance and reimbursement he is actually entitled to; if such claims recur, raise the pattern with the controlling officer.",
+      "(c) Refuse and report him in writing to the head of office at once as a case of attempted fraud.",
+      "(d) Pass it this once on the understanding that he will not ask again, and keep a private note of the fact."
+    ],
+    "answer": "(b)",
+    "explanation": "Rule-abiding and empathetic: the false claim is refused, the colleague's real difficulty is met with entitlements that actually exist, and escalation is reserved for a pattern rather than a first request. (a) and (d) both certify a false claim - the small amount does not change what it is; (c) is disproportionate for a first approach that caused no loss.",
+    "subject": "CSAT",
+    "theme": "Decision-Making",
+    "micro_topic": "Petty corruption - peer pressure on a claim",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "A High Court order requires your district to stop, with immediate effect, a locally popular scheme under which about 3,000 families receive free monthly ration kits, on the ground that it was funded from a head not authorised for the purpose. Beneficiaries have gathered outside your office and local leaders are describing the stoppage as your personal decision. What is the best course of action?",
+    "options": [
+      "(a) Continue the distribution for a few more months while \"seeking clarification\", since the hardship is real and immediate enforcement is unlikely.",
+      "(b) Stop the distribution and decline to comment, since it is a court matter and explaining it is not your function.",
+      "(c) Stop the distribution as ordered; meet the beneficiaries and local representatives yourself to explain the order and the absence of discretion in the matter; record the hardship caused; and move a proposal through the department for a lawfully funded alternative or interim relief while the available legal remedies are examined.",
+      "(d) Stop the distribution and state publicly that the responsibility lies with the state government, whose sanction created the irregular head."
+    ],
+    "answer": "(c)",
+    "explanation": "An officer has no discretion to disobey a court order but does have a duty to explain and to pursue a lawful remedy for genuine hardship. (c) complies, communicates in person, records the impact and channels relief through the department. (a) is contempt dressed up as compassion; (b) abandons the public exactly when communication matters most; (d) is public buck-passing that helps no one.",
+    "subject": "CSAT",
+    "theme": "Decision-Making",
+    "micro_topic": "Court order vs public hardship - communication",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "A bag contains 5 red, 4 green and 3 blue balls. Three balls are drawn at random, without replacement. What is the probability that all three are of different colours?",
+    "options": [
+      "(a) 2/11",
+      "(b) 1/22",
+      "(c) 5/22",
+      "(d) 3/11"
+    ],
+    "answer": "(d)",
+    "explanation": "Total ways = C(12,3) = 220. One of each colour = 5 x 4 x 3 = 60. Probability = 60/220 = 3/11. Trap (b) 1/22 is the sequential product 5/12 x 4/11 x 3/10 without multiplying by the 3! = 6 possible orders (1/22 x 6 = 3/11).",
+    "subject": "CSAT",
+    "theme": "Quant",
+    "micro_topic": "Probability - combinations without replacement",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Two pipes A and B can fill a tank in 20 minutes and 30 minutes respectively. Both are opened together, but because of a leak at the bottom the tank takes 3 minutes longer to fill than it should. If the tank is full and only the leak is at work, how long will the leak take to empty it?",
+    "options": [
+      "(a) 45 minutes",
+      "(b) 60 minutes",
+      "(c) 75 minutes",
+      "(d) 90 minutes"
+    ],
+    "answer": "(b)",
+    "explanation": "A + B fill at 1/20 + 1/30 = 1/12 per minute, i.e. 12 minutes without the leak. With the leak it takes 15 minutes, a net rate of 1/15. Leak rate = 1/12 - 1/15 = 1/60 per minute, so the leak alone empties a full tank in 60 minutes.",
+    "subject": "CSAT",
+    "theme": "Quant",
+    "micro_topic": "Pipes and cisterns with a leak",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "A vessel contains 80 litres of pure milk. 8 litres are drawn off and replaced with water. This operation is performed two more times (three times in all). How much milk remains in the vessel?",
+    "options": [
+      "(a) 56.00 litres",
+      "(b) 58.32 litres",
+      "(c) 59.05 litres",
+      "(d) 62.72 litres"
+    ],
+    "answer": "(b)",
+    "explanation": "Each replacement leaves the fraction (1 - 8/80) = 0.9 of the milk present, so after three operations milk = 80 x 0.9^3 = 80 x 0.729 = 58.32 litres. Trap (a) 56 is the naive 80 - 3 x 8, which wrongly assumes each draw removes 8 litres of pure milk.",
+    "subject": "CSAT",
+    "theme": "Quant",
+    "micro_topic": "Mixtures - repeated replacement",
+    "nature": "Aptitude",
+    "difficulty": "Hard"
+  }
+]

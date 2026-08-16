@@ -1,0 +1,698 @@
+[
+  {
+    "id": "weekly_quiz_2026_08_14_1",
+    "question_number": 1,
+    "question": "With reference to the Tribunals Reforms Bill, 2026 passed by Parliament this week, consider the following statements:",
+    "statements": [
+      "It repeals the Tribunals Reforms Act, 2021 and creates a permanent National Tribunals Commission (NTC).",
+      "The NTC's chairperson is to be a person who has been a Judge of the Supreme Court or a Chief Justice of a High Court, appointed after consultation with the Chief Justice of India.",
+      "The Bill transfers the jurisdiction of existing tribunals to the High Courts."
+    ],
+    "tail": "Which of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The Bill repeals the 2021 Act and creates the permanent NTC; the chairperson is a former SC Judge / HC Chief Justice appointed after consultation with the CJI. Statement 3 is wrong — the jurisdiction of tribunals is not altered.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_14_2",
+    "question_number": 2,
+    "question": "The Kerala (Alteration of Name) Bill, 2026 renamed the State to \"Keralam.\" In this context, which of the following is/are correct?",
+    "statements": [
+      "Such a Bill can be introduced only on the prior recommendation of the President.",
+      "The Bill must be referred to the State Legislature, whose consent is binding on Parliament.",
+      "Consequential changes to the First Schedule are not deemed to be a constitutional amendment under Article 368."
+    ],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Article 3 requires the President's prior recommendation to introduce the Bill and referral to the State Legislature — but the Legislature's views are advisory, not binding (so 2 is wrong). First Schedule changes under Article 4 are not Article 368 amendments (3 is correct). \"Malayalam\" is unchanged, so no constitutional amendment was needed.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_14_3",
+    "question_number": 3,
+    "question": "The MMDR (Amendment) Bill, 2026 passed this week did which of the following?",
+    "statements": [
+      "Removed the cap on the sale of minerals from captive mines.",
+      "Renamed the National Mineral Exploration Trust as the National Mineral Exploration and Development Trust.",
+      "Abolished the requirement of auction for mineral concessions."
+    ],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The Bill removed the captive-mine sale cap and renamed NMET → NMEDT (exploration *and development*). It did not abolish auction (3 is wrong).",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_14_4",
+    "question_number": 4,
+    "question": "India crossed 300 GW of installed non-fossil-fuel power capacity (as on 31 July 2026). Which statement about this milestone is correct?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "\"Non-fossil\" capacity here excludes large hydro and nuclear, counting only solar, wind and bio-power."
+      },
+      {
+        "key": "b",
+        "text": "Non-fossil sources now make up over 54% of India's total installed capacity, and the figure includes large hydro and nuclear."
+      },
+      {
+        "key": "c",
+        "text": "The 500 GW-by-2030 target is drawn verbatim from India's formal NDC submitted to the UNFCCC."
+      },
+      {
+        "key": "d",
+        "text": "Installed capacity share equals the share of electricity actually generated from these sources."
+      }
+    ],
+    "answer": "b",
+    "explanation": "Non-fossil capacity (300.50 GW of ~552 GW) is over 54% of installed base and includes large hydro and nuclear. The 500 GW figure comes from the Panchamrit / COP26 pledge, not the formal NDC text (c wrong); capacity share ≠ generation share (d wrong).",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_14_5",
+    "question_number": 5,
+    "question": "Regarding Census 2027 and the enumeration of Ladakh in September 2026, consider the following:",
+    "statements": [
+      "Ladakh is being enumerated ahead of schedule because of winter inaccessibility in its snow-bound areas.",
+      "Census 2027 will be the first census since 1931 to enumerate caste beyond SC/ST.",
+      "\"Census\" is a subject in the Concurrent List of the Seventh Schedule."
+    ],
+    "tail": "Which are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Ladakh is enumerated early due to winter inaccessibility; Census 2027 is the first caste enumeration beyond SC/ST since 1931. \"Census\" is a Union List subject (Entry 69), not Concurrent — so 3 is wrong.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_14_6",
+    "question_number": 6,
+    "question": "The President this week assented to an amendment giving statutory protection to \"Vande Mataram.\" Which statement is correct?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Vande Mataram was inserted into Article 51A(a) alongside the National Flag and National Anthem."
+      },
+      {
+        "key": "b",
+        "text": "Vande Mataram was inserted into Section 3 of the Prevention of Insults to National Honour Act, 1971."
+      },
+      {
+        "key": "c",
+        "text": "The amendment made Vande Mataram a Fundamental Right."
+      },
+      {
+        "key": "d",
+        "text": "The National Song enjoys explicit protection under Article 51 of the Constitution."
+      }
+    ],
+    "answer": "b",
+    "explanation": "The Prevention of Insults to National Honour (Amendment) Act, 2026 inserts Vande Mataram into Section 3 of the 1971 Act. It remains absent from Article 51A(a) (which names only the National Flag and Anthem) and is not a Fundamental Right.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_14_7",
+    "question_number": 7,
+    "question": "The Centre approved the RBI's proposal to introduce polymer banknotes (Rs 10 and Rs 20) for field trials, under Section 25 of the RBI Act, 1934. Which of the following correctly pairs the provision with its subject?",
+    "statements": [
+      "Section 22 — RBI's sole right to issue banknotes.",
+      "Section 24 — form, material and design of banknotes.",
+      "Section 26 — banknotes as legal tender guaranteed by the Central Government."
+    ],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Section 22 = sole right to issue; Section 26 = legal tender guaranteed by the Centre. Statement 2 is wrong — form, material and design fall under Section 25 (Section 24 governs denominations, up to Rs 10,000).",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_14_8",
+    "question_number": 8,
+    "question": "The Agni-4 missile test-fired from Chandipur this week is best described as:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "A developmental trial of a new intercontinental ballistic missile by DRDO."
+      },
+      {
+        "key": "b",
+        "text": "A user trial by the Strategic Forces Command of an already-inducted, canisterised, two-stage solid-propellant medium-range ballistic missile."
+      },
+      {
+        "key": "c",
+        "text": "A submarine-launched cruise missile test."
+      },
+      {
+        "key": "d",
+        "text": "A liquid-fuelled short-range tactical missile trial."
+      }
+    ],
+    "answer": "b",
+    "explanation": "It was a user trial by the SFC of the already-inducted Agni-4 — a canisterised, road-mobile, two-stage solid-propellant MRBM. Not an ICBM, SLBM, or liquid-fuelled system.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_14_9",
+    "question_number": 9,
+    "question": "The Chandipura virus (CHPV), for which a National Joint Outbreak Response Team was deployed this week, is:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "A mosquito-borne virus of the Flaviviridae family, like dengue."
+      },
+      {
+        "key": "b",
+        "text": "A sandfly-borne virus of the Rhabdoviridae family, causing febrile illness and encephalitis mainly in children."
+      },
+      {
+        "key": "c",
+        "text": "A water-borne bacterial pathogen."
+      },
+      {
+        "key": "d",
+        "text": "A tick-borne virus first identified in Kerala."
+      }
+    ],
+    "answer": "b",
+    "explanation": "CHPV is a sandfly-borne Rhabdovirus (Vesiculovirus genus) causing acute febrile illness and encephalitis, chiefly in children; historically reported from central/western India.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_14_10",
+    "question_number": 10,
+    "question": "The \"Mecca joint defence pact\" signed this week was between which set of countries?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Saudi Arabia, Egypt and Jordan"
+      },
+      {
+        "key": "b",
+        "text": "Saudi Arabia, Pakistan and Türkiye"
+      },
+      {
+        "key": "c",
+        "text": "Iran, Pakistan and Qatar"
+      },
+      {
+        "key": "d",
+        "text": "Saudi Arabia, UAE and Bahrain"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The Mecca joint defence pact was signed by Saudi Arabia, Pakistan and Türkiye.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_14_11",
+    "question_number": 11,
+    "question": "India's Asiatic lion population, per the 2025 estimation reported this week, has risen to roughly:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "523, up from 411 in 2015"
+      },
+      {
+        "key": "b",
+        "text": "674, up from 523 in 2015"
+      },
+      {
+        "key": "c",
+        "text": "891, up from 523 in 2015"
+      },
+      {
+        "key": "d",
+        "text": "1,215, up from 891 in 2015"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The Asiatic lion population rose to 891 (2025) from 523 (2015) — a ~70% rise, per the latest Gir-region estimation.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_14_12",
+    "question_number": 12,
+    "question": "Consider the following developments reported this week and match them correctly:",
+    "statements": [
+      "Param Pragya — an AI-enabled supercomputing facility inaugurated at IIT Delhi's Sonipat campus.",
+      "Deepak Dhar — shares the 2026 ICTP Dirac Medal for work in statistical mechanics.",
+      "X(2370) — confirmed by the BESIII experiment as the lightest pseudoscalar glueball."
+    ],
+    "tail": "Which of the above statements are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All three are correctly matched: Param Pragya (IIT Delhi–Sonipat AI supercomputer), Deepak Dhar (2026 ICTP Dirac Medal), and X(2370) (BESIII — lightest pseudoscalar glueball).",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_14_13",
+    "question_number": 13,
+    "question": "With reference to Fundamental Duties under Article 51A, consider the following:",
+    "statements": [
+      "They were added by the 42nd Constitutional Amendment Act, 1976, on the recommendation of the Swaran Singh Committee.",
+      "The duty to provide opportunities for education to one's child (aged 6–14) was added by the 86th Amendment, 2002.",
+      "Fundamental Duties are justiciable and directly enforceable by the courts."
+    ],
+    "tail": "Which are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "FDs were added by the 42nd Amendment (1976) per the Swaran Singh Committee; the education duty (6–14 yrs) was added by the 86th Amendment (2002). They are non-justiciable — so 3 is wrong.",
+    "subject": "Polity & Governance",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_14_14",
+    "question_number": 14,
+    "question": "Regarding tribunals under the Constitution, which statement is correct?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Articles 323A and 323B were inserted by the 42nd Amendment Act, 1976."
+      },
+      {
+        "key": "b",
+        "text": "Article 323A allows both Parliament and State Legislatures to set up administrative tribunals."
+      },
+      {
+        "key": "c",
+        "text": "Tribunals under Article 323B can be created only by Parliament."
+      },
+      {
+        "key": "d",
+        "text": "The Constitution originally contained detailed provisions for tribunals from 1950."
+      }
+    ],
+    "answer": "a",
+    "explanation": "Articles 323A and 323B were inserted by the 42nd Amendment, 1976. Article 323A (administrative tribunals) empowers only Parliament (b wrong); Article 323B tribunals can be created by Parliament or State Legislatures within their competence (c wrong); the provisions were added in 1976, not present from 1950 (d wrong).",
+    "subject": "Polity & Governance",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_14_15",
+    "question_number": 15,
+    "question": "Under the Tenth Schedule (anti-defection law), the question of disqualification of a member on the ground of defection is decided by:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "The President or Governor on the advice of the Election Commission."
+      },
+      {
+        "key": "b",
+        "text": "The Chairman or Speaker of the House concerned, subject to judicial review."
+      },
+      {
+        "key": "c",
+        "text": "The Supreme Court exclusively."
+      },
+      {
+        "key": "d",
+        "text": "A special tribunal appointed by the Central Government."
+      }
+    ],
+    "answer": "b",
+    "explanation": "The Chairman/Speaker of the House decides disqualification under the Tenth Schedule; the decision is subject to judicial review (*Kihoto Hollohan*, 1992).",
+    "subject": "Polity & Governance",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_14_16",
+    "question_number": 16,
+    "question": "With reference to the Finance Commission, consider the following:",
+    "statements": [
+      "It is a constitutional body established under Article 280.",
+      "It is constituted by the President every fifth year or earlier.",
+      "Its recommendations on the distribution of taxes are binding on the Union Government."
+    ],
+    "tail": "Which are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All correct: Article 280 constitutional body, constituted every fifth year or earlier by the President, and its recommendations, while advisory in law, are treated as binding in practice on tax devolution and have never been rejected. *(UPSC accepts \"binding\" for the tax-sharing recommendations as the intended answer.)*",
+    "subject": "Polity & Governance",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_14_17",
+    "question_number": 17,
+    "question": "Which of the following correctly describes the effect of adjournment *sine die* of a session of Parliament (as happened this week)?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "It terminates a session and is done by the presiding officer without a fixed date for reassembly."
+      },
+      {
+        "key": "b",
+        "text": "It is the same as prorogation and is ordered by the President."
+      },
+      {
+        "key": "c",
+        "text": "It dissolves the Lok Sabha."
+      },
+      {
+        "key": "d",
+        "text": "It causes all pending bills to lapse automatically."
+      }
+    ],
+    "answer": "a",
+    "explanation": "Adjournment sine die ends a sitting/session with no date fixed for reassembly and is done by the presiding officer. It is *not* prorogation (a President's act), does not dissolve the House, and pending bills do not lapse merely on adjournment.",
+    "subject": "Polity & Governance",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_14_18",
+    "question_number": 18,
+    "question": "When a bill (other than a Money Bill) passed by both Houses is presented to the President under Article 111, the President may:",
+    "statements": [
+      "Give assent to the bill.",
+      "Withhold assent to the bill.",
+      "Return the bill (if not a Money Bill) for reconsideration, but must assent if it is passed again."
+    ],
+    "tail": "Which are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Under Article 111 the President may assent, withhold assent, or return a non-Money Bill for reconsideration — but if the Houses pass it again (with or without changes), the President must assent. All three are correct.",
+    "subject": "Polity & Governance",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_14_19",
+    "question_number": 19,
+    "question": "The Directive Principles of State Policy are best described by which statement?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "They are enforceable in a court of law like Fundamental Rights."
+      },
+      {
+        "key": "b",
+        "text": "They are borrowed from the Constitution of the United States."
+      },
+      {
+        "key": "c",
+        "text": "They are fundamental in the governance of the country, but not enforceable by any court."
+      },
+      {
+        "key": "d",
+        "text": "Article 37 makes them justiciable in the Supreme Court."
+      }
+    ],
+    "answer": "c",
+    "explanation": "DPSPs (Part IV) are fundamental in governance but non-justiciable (Article 37). They are borrowed from Ireland, not the US (b wrong).",
+    "subject": "Polity & Governance",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_14_20",
+    "question_number": 20,
+    "question": "Which of the following is a constitutional body (as opposed to a statutory or executive body)?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "NITI Aayog"
+      },
+      {
+        "key": "b",
+        "text": "National Human Rights Commission"
+      },
+      {
+        "key": "c",
+        "text": "Comptroller and Auditor General of India"
+      },
+      {
+        "key": "d",
+        "text": "Central Information Commission"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The CAG (Article 148) is a constitutional body. NITI Aayog is an executive body; NHRC and CIC are statutory bodies. RP1. (i) Prevention of Insults to National Honour (Amendment) Act, 2026 — inserts *Vande Mataram* into Section 3 of the 1971 Act (national symbol). (ii) Kerala (Alteration of Name) Bill, 2026 — renames Kerala to \"Keralam\" under Article 3 (First Schedule, no Art. 368 amendment needed). RP2. Unemployment rate (15+) rose to 5.4% (from 5.0% in Jan–Mar 2026) and LFPR slipped to 54.6% — PLFS Quarterly Bulletin, April–June 2026 (NSO/MoSPI). --- *Scoring guide: 16–20 strong recall · 11–15 revise weak areas · ≤10 re-read this week's CA + PIB digests and your Polity (Laxmikanth) notes. Next week's static subject: Economy.*",
+    "subject": "Polity & Governance",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  }
+]

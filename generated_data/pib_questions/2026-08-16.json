@@ -1,0 +1,50 @@
+[
+  {
+    "question": "Consider the following statements regarding Integrated Tribal Development Agencies (ITDAs) and Integrated Tribal Development Projects (ITDPs):\n1. They originated as the institutional arm of the Tribal Sub-Plan approach adopted during the Fifth Five Year Plan.\n2. The National Framework released in August 2026 introduces institutional ranking and real-time monitoring for these bodies.\n3. The framework was released jointly by the Ministry of Tribal Affairs and the Ministry of Panchayati Raj.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "ITDAs/ITDPs are the field institutions created under the Tribal Sub-Plan approach of the Fifth Five Year Plan (1974-79), and the August 2026 National Framework does build in institutional ranking, real-time data-driven monitoring and convergence across 214 ITDAs/ITDPs in 17 States and UTs. Statement 3 is incorrect: the framework was released jointly by the Ministry of Tribal Affairs and NITI Aayog, not the Ministry of Panchayati Raj.",
+    "subject": "Polity & Governance",
+    "theme": "Welfare schemes for vulnerable sections",
+    "micro_topic": "Tribal development institutions (ITDA/ITDP)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the South Asian Free Trade Area (SAFTA), consider the following statements:\n1. It was signed at the 12th SAARC Summit and entered into force in January 2006.\n2. It provides for deeper tariff concessions for member countries designated as Least Developed Countries.\n3. India's domestic mechanism to verify origin claims under such trade agreements is the CAROTAR Rules, 2020.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "SAFTA was signed at the 12th SAARC Summit (Islamabad, 2004) and came into force on 1 January 2006, and it grants LDC members a longer liberalisation timeline and deeper concessions. CAROTAR 2020 is India's rules-of-origin verification mechanism. The DRI case of August 2026 involved South-East Asian areca nut routed through a Bangladeshi EPZ and falsely declared as Bangladeshi origin to claim SAFTA benefits, with revenue loss estimated above Rs 2,500 crore and nine arrests.",
+    "subject": "Economy",
+    "theme": "External sector and trade agreements",
+    "micro_topic": "SAFTA and rules of origin",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "'CYBER KUSHTI 2026', seen in the news recently, is:",
+    "options": [
+      "(a) A joint India-Japan cyber defence exercise conducted by the National Security Council Secretariat",
+      "(b) A national cybersecurity and AI hackathon launched by NIELIT in which teams are assessed on prioritising findings in a common security assessment package",
+      "(c) A CERT-In advisory framework mandating incident reporting by critical information infrastructure within six hours",
+      "(d) A MeitY scheme providing financial incentives for domestic manufacturing of hardware security modules"
+    ],
+    "answer": "(b)",
+    "explanation": "CYBER KUSHTI 2026 is NIELIT's national cybersecurity and AI hackathon, run as the official parallel technical track of the 3rd National Conference on Cyber Security, Digital Forensics and Intelligence (NCCDFI 2026), with the ISAC Foundation under the National Security Database and CERT-In as knowledge partner. All teams receive the same deliberately imperfect security assessment package and are scored on judgment and prioritisation rather than detection speed. Registration ran from 15 August to 10 September 2026.",
+    "subject": "Science & Technology",
+    "theme": "Cybersecurity",
+    "micro_topic": "NIELIT / CERT-In cyber capacity building initiatives",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]

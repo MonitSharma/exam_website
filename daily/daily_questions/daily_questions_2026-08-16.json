@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to the Ministry of External Affairs' West Asia outreach in August 2026, consider the following statements:\n1. The Secretary (CPV & OIA) in the Ministry of External Affairs handles consular, passport and visa matters along with Overseas Indian Affairs.\n2. The August 2026 visit covered Egypt, Palestine and Lebanon.\n3. Egypt is a member of BRICS.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. The CPV & OIA vertical of the MEA covers consular, passport and visa work as well as Overseas Indian Affairs; Secretary (CPV & OIA) Sripriya Ranganathan visited Egypt, Palestine and Lebanon from 16-21 August 2026; and Egypt became a BRICS member on 1 January 2024.",
+    "subject": "International Relations",
+    "theme": "India and West Asia",
+    "micro_topic": "MEA institutional structure; BRICS membership and India's 2026 chairship",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "As per the Commerce Ministry's trade data for July 2026, which one of the following statements is correct?",
+    "options": [
+      "(a) Merchandise exports, at about USD 44.24 billion, were the highest ever recorded for the month of July",
+      "(b) Merchandise imports contracted year-on-year, narrowing the goods trade deficit",
+      "(c) India recorded an overall trade surplus once services trade was included",
+      "(d) Services imports exceeded services exports for the month"
+    ],
+    "answer": "(a)",
+    "explanation": "July 2026 merchandise exports of USD 44.24 billion were the highest ever for a July, beating USD 38.34 billion in July 2022. Imports rose 17.52% to USD 76.22 billion, the goods deficit hit a six-month high of USD 31.98 billion, and India still ran an overall deficit of USD 15.03 billion despite a services surplus (exports USD 35.89 bn vs imports USD 18.94 bn).",
+    "subject": "Economy",
+    "theme": "External sector",
+    "micro_topic": "Monthly merchandise and services trade data; trade deficit",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the River Ganga (Rejuvenation, Protection and Management) Authorities (Second Amendment) Order, 2026, consider the following statements:\n1. The parent Order of 2016 was notified under the Environment (Protection) Act, 1986.\n2. The amendment defines the active flood plain with reference to the area inundated by a one-in-five-year flood.\n3. It introduces a 'warning zone' covering areas inundated between a one-in-25-year and a one-in-100-year flood.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. The 2016 parent Order, which created the PM-chaired National Ganga Council and made NMCG the implementing authority, was notified under the Environment (Protection) Act, 1986. The 2026 amendment, gazetted on 10 August 2026, adopts CWC flood-frequency lines: active flood plain = 1-in-5-year flood, regulatory zone = 5 to 25 year, warning zone = 25 to 100 year.",
+    "subject": "Environment",
+    "theme": "Environmental legislation and river conservation",
+    "micro_topic": "Namami Gange; flood-plain zoning under EPA 1986",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "The ground static test conducted by ISRO at Sriharikota on 11 August 2026 was carried out on:",
+    "options": [
+      "(a) the improved solid first stage (SS1) of the Small Satellite Launch Vehicle",
+      "(b) the semi-cryogenic SCE-200 engine intended for future launch vehicles",
+      "(c) the crew escape system of the Gaganyaan programme",
+      "(d) the electric propulsion module of a communication satellite"
+    ],
+    "answer": "(a)",
+    "explanation": "ISRO static-tested an improved SS1 solid booster, the SSLV's first stage, at the static test facility at SDSC Sriharikota on 11 August 2026. Enhanced propellant burn rate in two segments, an optimised thermal protection system and nozzle refinements cut stage mass and are expected to add about 100 kg to SSLV's Low Earth Orbit payload capability; over 600 parameters were instrumented.",
+    "subject": "Science & Technology",
+    "theme": "Space technology",
+    "micro_topic": "Indian launch vehicles; SSLV configuration and upgrades",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to solar eclipses, consider the following statements:\n1. Totality is visible only from within the umbra of the Moon's shadow.\n2. An annular solar eclipse occurs when the Moon is near the farthest point of its orbit from the Earth.\n3. A solar eclipse occurs at every new Moon because the Moon's orbital plane coincides with the plane of the ecliptic.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Totality is confined to the umbra, and an annular 'ring of fire' eclipse occurs near lunar apogee when the Moon's disc appears smaller than the Sun's. Statement 3 is wrong: the Moon's orbit is inclined about 5 degrees to the ecliptic, so most new Moons pass above or below the Sun and eclipses occur only during two eclipse seasons each year.",
+    "subject": "Geography",
+    "theme": "Important geophysical phenomena",
+    "micro_topic": "Solar eclipse geometry - umbra, penumbra, antumbra",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to India's balance of payments, consider the following statements:\n1. Both merchandise trade and services trade are recorded in the current account.\n2. Foreign direct investment is recorded in the capital and financial account.\n3. A merchandise trade deficit necessarily results in a current account deficit.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Goods and services trade both sit in the current account, while FDI is a capital/financial account entry. Statement 3 is wrong: invisibles - the net services surplus plus private remittances - can offset a goods deficit, which is precisely how India keeps its current account deficit far smaller than its merchandise trade gap.",
+    "subject": "Economy",
+    "theme": "Balance of payments",
+    "micro_topic": "Current account vs capital account; invisibles",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to elephant conservation in India, consider the following statements:\n1. Project Elephant is implemented by the Ministry of Environment, Forest and Climate Change.\n2. The Asian elephant is listed in Schedule I of the Wild Life (Protection) Act, 1972.\n3. India accounts for nearly 60% of the world's wild Asian elephant population.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "Project Elephant is a MoEF&CC programme launched in 1992; Elephas maximus enjoys the highest protection as a Schedule I species under the Wild Life (Protection) Act, 1972; and India hosts roughly 60% of the world's wild Asian elephants, with the Synchronous All India Population Estimation of Elephants 2021-25 putting the number at 22,446.",
+    "subject": "Environment",
+    "theme": "Wildlife conservation",
+    "micro_topic": "Project Elephant; Wild Life (Protection) Act schedules",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  }
+]

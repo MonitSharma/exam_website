@@ -1,0 +1,1552 @@
+[
+  {
+    "id": "book_topics_2026_08_16_01",
+    "question_number": 1,
+    "question": "Under the Constitution, the Parliament of India consists of:",
+    "options": [
+      {
+        "key": "a",
+        "text": "the Lok Sabha and the Rajya Sabha only"
+      },
+      {
+        "key": "b",
+        "text": "the President, the Lok Sabha and the Rajya Sabha"
+      },
+      {
+        "key": "c",
+        "text": "the President and the Lok Sabha"
+      },
+      {
+        "key": "d",
+        "text": "the two Houses and the Vice-President"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Article 79 provides that Parliament consists of the President and the two Houses - the Council of States (Rajya Sabha) and the House of the People (Lok Sabha). Though the President is not a member of either House, he is an integral part of Parliament.",
+    "subject": "Polity",
+    "theme": "Polity - Union Legislature & Executive (Laxmikanth Ch 19-22)",
+    "micro_topic": "Composition of Parliament (Article 79)",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_16_02",
+    "question_number": 2,
+    "question": "The maximum strength of the Rajya Sabha fixed by the Constitution is:",
+    "options": [
+      {
+        "key": "a",
+        "text": "238"
+      },
+      {
+        "key": "b",
+        "text": "245"
+      },
+      {
+        "key": "c",
+        "text": "250"
+      },
+      {
+        "key": "d",
+        "text": "552"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The maximum strength of the Rajya Sabha is 250 - up to 238 representatives of States and Union Territories (elected) plus 12 members nominated by the President. Its present actual strength is 245.",
+    "subject": "Polity",
+    "theme": "Polity - Union Legislature & Executive (Laxmikanth Ch 19-22)",
+    "micro_topic": "Strength of Rajya Sabha",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_16_03",
+    "question_number": 3,
+    "question": "The representatives of the States in the Rajya Sabha are elected by:",
+    "options": [
+      {
+        "key": "a",
+        "text": "the people of the States directly"
+      },
+      {
+        "key": "b",
+        "text": "the elected members of the State Legislative Assemblies by proportional representation with a single transferable vote"
+      },
+      {
+        "key": "c",
+        "text": "the members of both Houses of the State Legislature"
+      },
+      {
+        "key": "d",
+        "text": "the State Legislative Councils"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Representatives of each State are elected by the elected members of its Legislative Assembly through proportional representation by means of a single transferable vote, by open ballot. Members of Legislative Councils do not participate.",
+    "subject": "Polity",
+    "theme": "Polity - Union Legislature & Executive (Laxmikanth Ch 19-22)",
+    "micro_topic": "Election to the Rajya Sabha",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_16_04",
+    "question_number": 4,
+    "question": "Consider the following statements about the Lok Sabha:\n1. Its maximum strength envisaged by the Constitution is 550.\n2. The 104th Constitutional Amendment Act discontinued the nomination of members from the Anglo-Indian community.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The maximum strength of the Lok Sabha is 550 (530 from States + 20 from UTs). The 104th Amendment Act, 2019 ended the provision (Article 331) for nomination of two Anglo-Indian members, which had lapsed in January 2020.",
+    "subject": "Polity",
+    "theme": "Polity - Union Legislature & Executive (Laxmikanth Ch 19-22)",
+    "micro_topic": "Strength of Lok Sabha; 104th Amendment",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_16_05",
+    "question_number": 5,
+    "question": "With reference to a Money Bill, consider the following statements:\n1. A Money Bill can be introduced only in the Lok Sabha, and only on the recommendation of the President.\n2. Whether a Bill is a Money Bill or not is decided by the Speaker of the Lok Sabha, whose decision is final.\n3. The Rajya Sabha can amend or reject a Money Bill.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "A Money Bill (Article 110) is introduced only in the Lok Sabha on the President's recommendation, and the Speaker's certification of it as a Money Bill is final. The Rajya Sabha can only make recommendations within 14 days, which the Lok Sabha may accept or reject; it cannot amend or reject the Bill. Hence statement 3 is wrong.",
+    "subject": "Polity",
+    "theme": "Polity - Union Legislature & Executive (Laxmikanth Ch 19-22)",
+    "micro_topic": "Money Bill - Article 110",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_16_06",
+    "question_number": 6,
+    "question": "A joint sitting of the two Houses of Parliament under Article 108 CANNOT be summoned to resolve a deadlock over which of the following?\n1. A Money Bill\n2. A Constitution Amendment Bill\n3. An ordinary Bill",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "3 only"
+      }
+    ],
+    "answer": "b",
+    "explanation": "A joint sitting (Article 108) is a mechanism only for ordinary bills. It cannot be used for Money Bills (the Rajya Sabha has no effective power over them) or for Constitution Amendment Bills (each House must pass them separately by the special majority required under Article 368).",
+    "subject": "Polity",
+    "theme": "Polity - Union Legislature & Executive (Laxmikanth Ch 19-22)",
+    "micro_topic": "Joint sitting - Article 108",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_16_07",
+    "question_number": 7,
+    "question": "Match the following cut motions with their descriptions:\nA. Policy Cut  1. Amount of the demand be reduced to Re 1\nB. Economy Cut 2. Amount be reduced by a specified sum to effect economy\nC. Token Cut   3. Amount be reduced by Rs 100 to ventilate a specific grievance",
+    "options": [
+      {
+        "key": "a",
+        "text": "A-1, B-2, C-3"
+      },
+      {
+        "key": "b",
+        "text": "A-2, B-1, C-3"
+      },
+      {
+        "key": "c",
+        "text": "A-1, B-3, C-2"
+      },
+      {
+        "key": "d",
+        "text": "A-3, B-2, C-1"
+      }
+    ],
+    "answer": "a",
+    "explanation": "A Policy Cut expresses disapproval of the policy underlying a demand and reduces the demand to Re 1. An Economy Cut seeks a reduction by a specified amount to effect economy. A Token Cut reduces the demand by Rs 100 to air a specific grievance.",
+    "subject": "Polity",
+    "theme": "Polity - Union Legislature & Executive (Laxmikanth Ch 19-22)",
+    "micro_topic": "Cut motions and budget",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_16_08",
+    "question_number": 8,
+    "question": "'Zero Hour' in the Indian Parliament is best described as:",
+    "options": [
+      {
+        "key": "a",
+        "text": "the first hour of every sitting reserved for questions"
+      },
+      {
+        "key": "b",
+        "text": "an informal device, not mentioned in the Rules of Procedure, during which members raise matters without notice, immediately after the Question Hour"
+      },
+      {
+        "key": "c",
+        "text": "the period during which the Speaker adjourns the House sine die"
+      },
+      {
+        "key": "d",
+        "text": "the constitutionally mandated hour for passing the budget"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Zero Hour is an Indian innovation, in existence since 1962. It is not mentioned in the Rules of Procedure and is thus an informal device. It starts immediately after the Question Hour (around noon) and allows members to raise matters without prior notice.",
+    "subject": "Polity",
+    "theme": "Polity - Union Legislature & Executive (Laxmikanth Ch 19-22)",
+    "micro_topic": "Parliamentary devices - Zero Hour",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_16_09",
+    "question_number": 9,
+    "question": "The maximum permissible interval between two sessions of Parliament is:",
+    "options": [
+      {
+        "key": "a",
+        "text": "three months"
+      },
+      {
+        "key": "b",
+        "text": "four months"
+      },
+      {
+        "key": "c",
+        "text": "six months"
+      },
+      {
+        "key": "d",
+        "text": "one year"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Under Article 85, six months should not intervene between the last sitting of one session and the first sitting of the next. Consequently Parliament must meet at least twice a year.",
+    "subject": "Polity",
+    "theme": "Polity - Union Legislature & Executive (Laxmikanth Ch 19-22)",
+    "micro_topic": "Sessions of Parliament - Article 85",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_16_10",
+    "question_number": 10,
+    "question": "The Prime Minister of India is:",
+    "options": [
+      {
+        "key": "a",
+        "text": "elected by the members of the Lok Sabha"
+      },
+      {
+        "key": "b",
+        "text": "appointed by the President"
+      },
+      {
+        "key": "c",
+        "text": "elected by an electoral college of both Houses"
+      },
+      {
+        "key": "d",
+        "text": "nominated by the Council of Ministers"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Under Article 75, the Prime Minister is appointed by the President. By convention the President appoints the leader of the majority party in the Lok Sabha; where no party has a clear majority, the President may exercise personal discretion.",
+    "subject": "Polity",
+    "theme": "Polity - Union Legislature & Executive (Laxmikanth Ch 19-22)",
+    "micro_topic": "Appointment of the Prime Minister - Article 75",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_16_11",
+    "question_number": 11,
+    "question": "The 91st Constitutional Amendment Act (2003) provides that the total number of ministers, including the Prime Minister, in the Union Council of Ministers shall not exceed:",
+    "options": [
+      {
+        "key": "a",
+        "text": "10% of the total strength of the Lok Sabha"
+      },
+      {
+        "key": "b",
+        "text": "15% of the total strength of the Lok Sabha"
+      },
+      {
+        "key": "c",
+        "text": "15% of the total strength of both Houses"
+      },
+      {
+        "key": "d",
+        "text": "12% of the total strength of the Lok Sabha"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Article 75(1A), inserted by the 91st Amendment, caps the Council of Ministers (including the PM) at 15% of the total strength of the Lok Sabha. For States, the corresponding cap is 15% of the Assembly strength, subject to a minimum of 12 ministers.",
+    "subject": "Polity",
+    "theme": "Polity - Union Legislature & Executive (Laxmikanth Ch 19-22)",
+    "micro_topic": "Size of Council of Ministers - Article 75(1A)",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_16_12",
+    "question_number": 12,
+    "question": "With reference to Cabinet Committees, consider the following statements:\n1. They are extra-constitutional in emergence, being set up by the Prime Minister under the Rules of Business.\n2. Their membership is confined only to Cabinet ministers.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Cabinet Committees are extra-constitutional - not mentioned in the Constitution but set up by the Prime Minister under the Government of India (Transaction of Business) Rules. Their membership varies from three to eight and may include non-Cabinet (Ministers of State) members, so statement 2 is wrong.",
+    "subject": "Polity",
+    "theme": "Polity - Union Legislature & Executive (Laxmikanth Ch 19-22)",
+    "micro_topic": "Cabinet Committees",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_16_13",
+    "question_number": 13,
+    "question": "Consider the following statements regarding Article 74:\n1. The 42nd Amendment made the advice of the Council of Ministers binding on the President.\n2. The 44th Amendment enabled the President to require the Council to reconsider its advice, but he must act according to the advice tendered after such reconsideration.\n3. Courts can inquire into the nature of advice tendered by ministers to the President.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The 42nd Amendment made ministerial advice binding on the President; the 44th Amendment allowed him to return it for reconsideration once, after which he must accept it. Article 74(2) expressly bars courts from inquiring into the advice tendered, so statement 3 is incorrect.",
+    "subject": "Polity",
+    "theme": "Polity - Union Legislature & Executive (Laxmikanth Ch 19-22)",
+    "micro_topic": "Council of Ministers and the President - Article 74",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_16_14",
+    "question_number": 14,
+    "question": "India's First Five Year Plan (1951-56) was based primarily on which growth model?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Mahalanobis model"
+      },
+      {
+        "key": "b",
+        "text": "Harrod-Domar model"
+      },
+      {
+        "key": "c",
+        "text": "Wage-goods model"
+      },
+      {
+        "key": "d",
+        "text": "Gadgil formula"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The First Plan was based on the Harrod-Domar model, emphasising a higher savings-investment rate, and gave top priority to agriculture in the wake of Partition and rising food prices. The Mahalanobis heavy-industry model shaped the Second Plan.",
+    "subject": "Economy",
+    "theme": "Economy - Planning strategy & Indian Economy after 2014 (Vivek Singh Ch 6-7)",
+    "micro_topic": "First Five Year Plan; Harrod-Domar model",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_16_15",
+    "question_number": 15,
+    "question": "The Second Five Year Plan, which laid the foundation of a heavy-industry-led public-sector strategy, was based on the model developed by:",
+    "options": [
+      {
+        "key": "a",
+        "text": "P. C. Mahalanobis"
+      },
+      {
+        "key": "b",
+        "text": "V. K. R. V. Rao"
+      },
+      {
+        "key": "c",
+        "text": "D. R. Gadgil"
+      },
+      {
+        "key": "d",
+        "text": "Amartya Sen"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The Second Plan (1956-61) was based on the Mahalanobis model, prioritising rapid industrialisation with a focus on heavy and basic industries in the public sector. It underpinned the Industrial Policy Resolution of 1956.",
+    "subject": "Economy",
+    "theme": "Economy - Planning strategy & Indian Economy after 2014 (Vivek Singh Ch 6-7)",
+    "micro_topic": "Second Plan; Mahalanobis model",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_16_16",
+    "question_number": 16,
+    "question": "The 'Plan Holiday' during 1966-69, when annual plans replaced a five year plan, was necessitated by:\n1. Two successive droughts\n2. The India-Pakistan war of 1965\n3. Devaluation of the rupee and inflationary pressure\nSelect the correct answer:",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "After the Third Plan (1961-66), the combined shock of the 1965 war, two consecutive droughts, the 1966 rupee devaluation and general inflation led to a 'Plan Holiday' in which three annual plans were formulated for 1966-69.",
+    "subject": "Economy",
+    "theme": "Economy - Planning strategy & Indian Economy after 2014 (Vivek Singh Ch 6-7)",
+    "micro_topic": "Plan Holiday 1966-69",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_16_17",
+    "question_number": 17,
+    "question": "The Industrial Policy Resolution of 1956 classified industries into three schedules. Schedule A referred to:",
+    "options": [
+      {
+        "key": "a",
+        "text": "industries whose future development was the exclusive responsibility of the State"
+      },
+      {
+        "key": "b",
+        "text": "industries left entirely to the private sector"
+      },
+      {
+        "key": "c",
+        "text": "small-scale and cottage industries"
+      },
+      {
+        "key": "d",
+        "text": "industries reserved for cooperatives"
+      }
+    ],
+    "answer": "a",
+    "explanation": "IPR 1956 divided industries into three categories: Schedule A (17 industries) - exclusive responsibility of the State; Schedule B (12 industries) - State to increasingly establish new units while the private sector could supplement; Schedule C - left to the private sector, subject to licensing.",
+    "subject": "Economy",
+    "theme": "Economy - Planning strategy & Indian Economy after 2014 (Vivek Singh Ch 6-7)",
+    "micro_topic": "Industrial Policy Resolution 1956",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_16_18",
+    "question_number": 18,
+    "question": "NITI Aayog, which replaced the Planning Commission, was established on 1 January 2015. Which of the following is correct about it?",
+    "options": [
+      {
+        "key": "a",
+        "text": "It allocates plan funds to States and Union Territories"
+      },
+      {
+        "key": "b",
+        "text": "It is a constitutional body created by an amendment"
+      },
+      {
+        "key": "c",
+        "text": "It is an advisory think-tank and does not allocate funds to States"
+      },
+      {
+        "key": "d",
+        "text": "It has replaced the Finance Commission"
+      }
+    ],
+    "answer": "c",
+    "explanation": "NITI Aayog is an advisory think-tank set up by an executive resolution (not a constitutional or statutory body) on 1 January 2015. Unlike the erstwhile Planning Commission, it does not allocate funds to States; fund devolution is now the domain of the Finance Commission and the Union Budget.",
+    "subject": "Economy",
+    "theme": "Economy - Planning strategy & Indian Economy after 2014 (Vivek Singh Ch 6-7)",
+    "micro_topic": "NITI Aayog",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_16_19",
+    "question_number": 19,
+    "question": "The 'Make in India' initiative (2014) set a target for the manufacturing sector to contribute what share of GDP, a target originally set by the National Manufacturing Policy, 2011?",
+    "options": [
+      {
+        "key": "a",
+        "text": "15%"
+      },
+      {
+        "key": "b",
+        "text": "20%"
+      },
+      {
+        "key": "c",
+        "text": "25%"
+      },
+      {
+        "key": "d",
+        "text": "40%"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Make in India carried forward the National Manufacturing Policy (2011) goal of raising manufacturing's share of GDP to 25% (originally with a 2022 horizon). The share has, however, remained around the mid-teens, and the target has repeatedly been pushed back.",
+    "subject": "Economy",
+    "theme": "Economy - Planning strategy & Indian Economy after 2014 (Vivek Singh Ch 6-7)",
+    "micro_topic": "Make in India; manufacturing target",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_16_20",
+    "question_number": 20,
+    "question": "The revised MSME classification introduced in 2020 is based on:",
+    "options": [
+      {
+        "key": "a",
+        "text": "investment in plant and machinery only"
+      },
+      {
+        "key": "b",
+        "text": "annual turnover only"
+      },
+      {
+        "key": "c",
+        "text": "a composite criterion of investment in plant/machinery and annual turnover"
+      },
+      {
+        "key": "d",
+        "text": "the number of workers employed"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The 2020 reform replaced the earlier investment-only test with a composite criterion combining investment in plant and machinery/equipment and annual turnover, and made the definition uniform for manufacturing and services. Enterprises register on the Udyam portal.",
+    "subject": "Economy",
+    "theme": "Economy - Planning strategy & Indian Economy after 2014 (Vivek Singh Ch 6-7)",
+    "micro_topic": "MSME definition (2020)",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_16_21",
+    "question_number": 21,
+    "question": "With reference to the Index of Industrial Production (IIP) and the eight core industries, consider the following statements:\n1. The eight core industries have the largest combined weight in the IIP.\n2. Refinery products have the highest weight among the eight core industries.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The eight core industries (coal, crude oil, natural gas, refinery products, fertilisers, steel, cement, electricity) comprise about 40% of the weight of the IIP. Among the eight, refinery products carry the largest weight (roughly 28%). Both statements are correct.",
+    "subject": "Economy",
+    "theme": "Economy - Planning strategy & Indian Economy after 2014 (Vivek Singh Ch 6-7)",
+    "micro_topic": "IIP and eight core industries",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_16_22",
+    "question_number": 22,
+    "question": "Which of the following were part of the pre-1991 control architecture dismantled by the economic reforms?\n1. Monopolies and Restrictive Trade Practices (MRTP) Act, 1969\n2. Foreign Exchange Regulation Act (FERA), 1973\n3. Industrial licensing under the Industries (Development and Regulation) Act\nSelect the correct answer:",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "The 1991 reforms abolished industrial licensing for most industries, diluted the MRTP Act (later replaced by the Competition Act, 2002), and replaced the restrictive FERA, 1973 with the liberal FEMA, 1999. All three were pillars of the pre-1991 'command' architecture.",
+    "subject": "Economy",
+    "theme": "Economy - Planning strategy & Indian Economy after 2014 (Vivek Singh Ch 6-7)",
+    "micro_topic": "Pre-1991 controls and 1991 reforms",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_16_23",
+    "question_number": 23,
+    "question": "Consider the following statements about the Congress ministries formed after the 1937 provincial elections:\n1. The elections were held under the Government of India Act, 1935.\n2. The Congress ministries resigned in 1939 in protest against India being declared a party to the Second World War without consultation.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The 1937 elections were held under the Government of India Act, 1935, and the Congress formed ministries in a majority of provinces. These ministries resigned in October-November 1939 after the Viceroy unilaterally declared India a belligerent in the Second World War.",
+    "subject": "History",
+    "theme": "Modern History - Congress ministries, WWII response, Quit India & INA (Spectrum Ch 21-23)",
+    "micro_topic": "Congress ministries 1937-39",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_16_24",
+    "question_number": 24,
+    "question": "The 'August Offer' of 1940 proposed to:\n1. expand the Viceroy's Executive Council to include more Indians\n2. give India immediate independence\n3. set up a body after the war to frame a new constitution\nSelect the correct answer:",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The August Offer (1940) proposed expansion of the Viceroy's Executive Council, a War Advisory Council, and a post-war body to frame the constitution; it also gave minorities a veto. It did not offer immediate independence, and dominion status remained the eventual goal, so statement 2 is wrong.",
+    "subject": "History",
+    "theme": "Modern History - Congress ministries, WWII response, Quit India & INA (Spectrum Ch 21-23)",
+    "micro_topic": "August Offer 1940",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_16_25",
+    "question_number": 25,
+    "question": "In the Individual Satyagraha launched in 1940, the first and second Satyagrahis chosen by Gandhi were, respectively:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Jawaharlal Nehru and Vinoba Bhave"
+      },
+      {
+        "key": "b",
+        "text": "Vinoba Bhave and Jawaharlal Nehru"
+      },
+      {
+        "key": "c",
+        "text": "Sardar Patel and C. Rajagopalachari"
+      },
+      {
+        "key": "d",
+        "text": "Brahma Datt and Vinoba Bhave"
+      }
+    ],
+    "answer": "b",
+    "explanation": "In the Individual (or symbolic) Satyagraha of 1940, Vinoba Bhave was selected as the first Satyagrahi and Jawaharlal Nehru as the second. The aim was to affirm the right to free speech against the war effort without launching a mass struggle.",
+    "subject": "History",
+    "theme": "Modern History - Congress ministries, WWII response, Quit India & INA (Spectrum Ch 21-23)",
+    "micro_topic": "Individual Satyagraha 1940",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_16_26",
+    "question_number": 26,
+    "question": "Mahatma Gandhi described which proposal as 'a post-dated cheque on a crashing bank'?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The August Offer, 1940"
+      },
+      {
+        "key": "b",
+        "text": "The Cripps Mission, 1942"
+      },
+      {
+        "key": "c",
+        "text": "The Cabinet Mission, 1946"
+      },
+      {
+        "key": "d",
+        "text": "The Wavell Plan, 1945"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Gandhi's famous description referred to the Cripps Mission (1942), which offered dominion status and a constituent assembly only after the war, with the right of provinces to stay out. The offer's post-war, conditional nature prompted the 'post-dated cheque' remark.",
+    "subject": "History",
+    "theme": "Modern History - Congress ministries, WWII response, Quit India & INA (Spectrum Ch 21-23)",
+    "micro_topic": "Cripps Mission 1942",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_16_27",
+    "question_number": 27,
+    "question": "The Quit India Resolution was passed by the All India Congress Committee at Bombay on:",
+    "options": [
+      {
+        "key": "a",
+        "text": "8 August 1942"
+      },
+      {
+        "key": "b",
+        "text": "9 August 1942"
+      },
+      {
+        "key": "c",
+        "text": "26 January 1942"
+      },
+      {
+        "key": "d",
+        "text": "23 March 1940"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The AICC passed the Quit India Resolution at Gowalia Tank, Bombay, on 8 August 1942, where Gandhi gave the mantra 'Do or Die'. Most leaders were arrested in the early hours of 9 August, triggering the mass phase of the movement.",
+    "subject": "History",
+    "theme": "Modern History - Congress ministries, WWII response, Quit India & INA (Spectrum Ch 21-23)",
+    "micro_topic": "Quit India Movement - 1942",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_16_28",
+    "question_number": 28,
+    "question": "Match the parallel governments (during the Quit India Movement) with their locations:\nA. Jatiya Sarkar   1. Satara\nB. Prati Sarkar    2. Tamluk (Midnapore)\nC. First parallel govt (short-lived) 3. Ballia",
+    "options": [
+      {
+        "key": "a",
+        "text": "A-2, B-1, C-3"
+      },
+      {
+        "key": "b",
+        "text": "A-1, B-2, C-3"
+      },
+      {
+        "key": "c",
+        "text": "A-3, B-1, C-2"
+      },
+      {
+        "key": "d",
+        "text": "A-2, B-3, C-1"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The Jatiya Sarkar was set up at Tamluk (Midnapore, Bengal); the Prati Sarkar at Satara (Maharashtra) under Nana Patil; and Ballia (UP), under Chittu Pandey, formed one of the earliest, short-lived parallel governments of 1942.",
+    "subject": "History",
+    "theme": "Modern History - Congress ministries, WWII response, Quit India & INA (Spectrum Ch 21-23)",
+    "micro_topic": "Parallel governments 1942",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_16_29",
+    "question_number": 29,
+    "question": "With reference to the underground activity during the Quit India Movement, consider the following:\n1. Usha Mehta ran a secret Congress Radio.\n2. Aruna Asaf Ali hoisted the national flag at the Gowalia Tank ground and became a leading underground figure.\n3. Ram Manohar Lohia and Jayaprakash Narayan were prominent socialist organisers of the underground.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All three are correct. Usha Mehta operated the underground Congress Radio; Aruna Asaf Ali unfurled the flag at Gowalia Tank on 9 August 1942 and led the underground; and socialists such as Ram Manohar Lohia and Jayaprakash Narayan sustained the clandestine network.",
+    "subject": "History",
+    "theme": "Modern History - Congress ministries, WWII response, Quit India & INA (Spectrum Ch 21-23)",
+    "micro_topic": "Underground leaders of 1942",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_16_30",
+    "question_number": 30,
+    "question": "Consider the following statements about the Indian National Army (INA):\n1. The first INA was organised in 1942 with the initiative of Mohan Singh, under the guidance of Rash Behari Bose.\n2. Subhas Chandra Bose proclaimed the Provisional Government of Free India (Azad Hind) at Singapore in October 1943.\n3. The INA had a women's regiment named after Rani Lakshmibai of Jhansi.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All three are correct. The first INA took shape in 1942 through Mohan Singh under Rash Behari Bose's guidance; Subhas Bose set up the Azad Hind Provisional Government at Singapore in October 1943; and the Rani of Jhansi Regiment was its women's wing led by Captain Lakshmi Sahgal.",
+    "subject": "History",
+    "theme": "Modern History - Congress ministries, WWII response, Quit India & INA (Spectrum Ch 21-23)",
+    "micro_topic": "Indian National Army",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_16_31",
+    "question_number": 31,
+    "question": "The resolution demanding a separate state of 'Pakistan' was formally adopted by the Muslim League in 1940 at its session held in:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Karachi"
+      },
+      {
+        "key": "b",
+        "text": "Lahore"
+      },
+      {
+        "key": "c",
+        "text": "Lucknow"
+      },
+      {
+        "key": "d",
+        "text": "Dhaka"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The Lahore Resolution (also called the Pakistan Resolution) was adopted at the Muslim League session in Lahore on 23 March 1940, demanding autonomous and sovereign 'independent states' in the Muslim-majority zones of the north-west and east.",
+    "subject": "History",
+    "theme": "Modern History - Congress ministries, WWII response, Quit India & INA (Spectrum Ch 21-23)",
+    "micro_topic": "Lahore/Pakistan Resolution 1940",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_16_32",
+    "question_number": 32,
+    "question": "Arrange the following in correct chronological order:\n1. Rajagopalachari (C. R.) Formula\n2. Desai-Liaqat Pact\n3. Wavell Plan / Shimla Conference\n4. Cripps Mission",
+    "options": [
+      {
+        "key": "a",
+        "text": "4 - 1 - 2 - 3"
+      },
+      {
+        "key": "b",
+        "text": "4 - 1 - 3 - 2"
+      },
+      {
+        "key": "c",
+        "text": "1 - 4 - 2 - 3"
+      },
+      {
+        "key": "d",
+        "text": "4 - 2 - 1 - 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Correct order: Cripps Mission (1942), the C. R. Formula (1944), the Desai-Liaqat Pact (early 1945), and the Wavell Plan / Shimla Conference (mid-1945). The C. R. Formula sought a Congress-League settlement on the Pakistan question; the Desai-Liaqat Pact proposed parity in the interim arrangement.",
+    "subject": "History",
+    "theme": "Modern History - Congress ministries, WWII response, Quit India & INA (Spectrum Ch 21-23)",
+    "micro_topic": "Chronology 1942-45",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_16_33",
+    "question_number": 33,
+    "question": "Which of the following launch vehicles is used for India's human spaceflight programme (Gaganyaan)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "PSLV"
+      },
+      {
+        "key": "b",
+        "text": "SSLV"
+      },
+      {
+        "key": "c",
+        "text": "LVM3 (GSLV Mk III)"
+      },
+      {
+        "key": "d",
+        "text": "GSLV Mk II"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The LVM3 (earlier GSLV Mk III), India's heaviest launch vehicle with a cryogenic upper stage, is the vehicle human-rated for Gaganyaan. Its high payload capacity to Low Earth Orbit makes it suitable for carrying the crew module.",
+    "subject": "Science & Technology",
+    "theme": "Science & Technology - Space Technology (launch vehicles, orbits, missions)",
+    "micro_topic": "Launch vehicles - LVM3",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_16_34",
+    "question_number": 34,
+    "question": "Which ISRO launch vehicle is specifically designed to place small satellites (up to about 500 kg) into Low Earth Orbit on demand?",
+    "options": [
+      {
+        "key": "a",
+        "text": "PSLV"
+      },
+      {
+        "key": "b",
+        "text": "SSLV"
+      },
+      {
+        "key": "c",
+        "text": "LVM3"
+      },
+      {
+        "key": "d",
+        "text": "GSLV Mk II"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The Small Satellite Launch Vehicle (SSLV) is a three-stage solid-fuelled vehicle designed for cost-effective, on-demand launch of small satellites (up to about 500 kg) to Low Earth Orbit, complementing the workhorse PSLV.",
+    "subject": "Science & Technology",
+    "theme": "Science & Technology - Space Technology (launch vehicles, orbits, missions)",
+    "micro_topic": "Launch vehicles - SSLV",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_16_35",
+    "question_number": 35,
+    "question": "With reference to the Gaganyaan programme, consider the following statements:\n1. An uncrewed test flight is planned to carry a humanoid robot named Vyommitra.\n2. The first crewed orbital mission is targeted for 2027.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer": "c",
+    "explanation": "ISRO plans uncrewed test flights - one of which is to carry the humanoid robot Vyommitra - ahead of the first crewed orbital mission, which is targeted for 2027. Both statements are correct as per ISRO's stated schedule.",
+    "subject": "Science & Technology",
+    "theme": "Science & Technology - Space Technology (launch vehicles, orbits, missions)",
+    "micro_topic": "Gaganyaan programme",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_16_36",
+    "question_number": 36,
+    "question": "India's Aditya-L1 mission studies the Sun from a halo orbit around which point?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The Lagrange point L1 of the Sun-Earth system, about 1.5 million km from Earth"
+      },
+      {
+        "key": "b",
+        "text": "A geostationary orbit at 36,000 km"
+      },
+      {
+        "key": "c",
+        "text": "The L2 point on the far side of Earth"
+      },
+      {
+        "key": "d",
+        "text": "A polar sun-synchronous orbit around Earth"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Aditya-L1 is placed in a halo orbit around the first Sun-Earth Lagrange point (L1), roughly 1.5 million km from Earth. This vantage allows continuous, unobstructed observation of the Sun without eclipses.",
+    "subject": "Science & Technology",
+    "theme": "Science & Technology - Space Technology (launch vehicles, orbits, missions)",
+    "micro_topic": "Aditya-L1 mission",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_16_37",
+    "question_number": 37,
+    "question": "The NavIC (IRNSS) regional navigation constellation, in its designed configuration, consists of:",
+    "options": [
+      {
+        "key": "a",
+        "text": "four satellites, all in geostationary orbit"
+      },
+      {
+        "key": "b",
+        "text": "seven satellites - three in geostationary and four in inclined geosynchronous orbit"
+      },
+      {
+        "key": "c",
+        "text": "twenty-four satellites in medium Earth orbit"
+      },
+      {
+        "key": "d",
+        "text": "seven satellites, all in Low Earth Orbit"
+      }
+    ],
+    "answer": "b",
+    "explanation": "NavIC (Navigation with Indian Constellation), based on IRNSS, is designed with seven satellites - three in geostationary orbit and four in inclined geosynchronous orbit - providing regional coverage over India and a region extending about 1,500 km around it.",
+    "subject": "Science & Technology",
+    "theme": "Science & Technology - Space Technology (launch vehicles, orbits, missions)",
+    "micro_topic": "NavIC / IRNSS",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_16_38",
+    "question_number": 38,
+    "question": "With reference to the NISAR satellite, consider the following statements:\n1. It is a joint mission of ISRO and NASA.\n2. It is the first satellite to carry dual-frequency (L-band and S-band) synthetic aperture radar.\n3. It was launched from Sriharikota.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "NISAR (NASA-ISRO Synthetic Aperture Radar) is a joint mission carrying two radar frequencies - the L-band supplied by NASA and the S-band by ISRO - making it the first dual-frequency SAR satellite. It was launched in 2025 from the Satish Dhawan Space Centre, Sriharikota. All three statements are correct.",
+    "subject": "Science & Technology",
+    "theme": "Science & Technology - Space Technology (launch vehicles, orbits, missions)",
+    "micro_topic": "NISAR mission",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_16_39",
+    "question_number": 39,
+    "question": "In India's reformed space sector, which body functions as the single-window, independent regulator and promoter authorising private (non-governmental) space activities?",
+    "options": [
+      {
+        "key": "a",
+        "text": "NSIL (NewSpace India Limited)"
+      },
+      {
+        "key": "b",
+        "text": "IN-SPACe"
+      },
+      {
+        "key": "c",
+        "text": "Antrix Corporation"
+      },
+      {
+        "key": "d",
+        "text": "DRDO"
+      }
+    ],
+    "answer": "b",
+    "explanation": "IN-SPACe (Indian National Space Promotion and Authorisation Centre) is the single-window autonomous body that authorises and regulates space activities of non-governmental entities. NSIL is ISRO's commercial arm, while ISRO handles R&D and operations.",
+    "subject": "Science & Technology",
+    "theme": "Science & Technology - Space Technology (launch vehicles, orbits, missions)",
+    "micro_topic": "IN-SPACe / NSIL",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_16_40",
+    "question_number": 40,
+    "question": "Consider the following statements:\n1. Chandrayaan-3 achieved a soft landing near the lunar south pole in 2023.\n2. India plans to have its own space station, the Bharatiya Antariksh Station, operational by 2035.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Chandrayaan-3's Vikram lander achieved a soft landing near the Moon's south polar region in August 2023, making India the first country to land there. ISRO's roadmap envisages the Bharatiya Antariksh Station operational by 2035, with the first module around 2028.",
+    "subject": "Science & Technology",
+    "theme": "Science & Technology - Space Technology (launch vehicles, orbits, missions)",
+    "micro_topic": "Chandrayaan-3; Bharatiya Antariksh Station",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_16_41",
+    "question_number": 41,
+    "question": "Why is a cryogenic engine considered more efficient than a solid or earth-storable liquid stage for the upper stage of a launch vehicle?",
+    "options": [
+      {
+        "key": "a",
+        "text": "It uses solid propellant that burns at a constant rate"
+      },
+      {
+        "key": "b",
+        "text": "It uses liquid oxygen and liquid hydrogen at very low temperatures, giving a higher specific impulse"
+      },
+      {
+        "key": "c",
+        "text": "It needs no oxidiser because it draws oxygen from the atmosphere"
+      },
+      {
+        "key": "d",
+        "text": "It stores propellants at room temperature for easy handling"
+      }
+    ],
+    "answer": "b",
+    "explanation": "A cryogenic engine burns liquefied gases - typically liquid hydrogen (fuel) and liquid oxygen (oxidiser) - stored at extremely low temperatures. This combination yields a higher specific impulse (thrust per unit propellant) than solid or storable-liquid propellants, making it ideal for upper stages, though it is technically complex to handle.",
+    "subject": "Science & Technology",
+    "theme": "Science & Technology - Space Technology (launch vehicles, orbits, missions)",
+    "micro_topic": "Cryogenic propulsion",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_16_42",
+    "question_number": 42,
+    "question": "The Quad (Quadrilateral Security Dialogue) comprises which of the following countries?",
+    "options": [
+      {
+        "key": "a",
+        "text": "India, USA, Japan and South Korea"
+      },
+      {
+        "key": "b",
+        "text": "India, USA, Japan and Australia"
+      },
+      {
+        "key": "c",
+        "text": "India, USA, UK and Australia"
+      },
+      {
+        "key": "d",
+        "text": "India, USA, France and Japan"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The Quad is a strategic grouping of India, the United States, Japan and Australia. The four also participate in the annual Malabar naval exercise. South Korea, the UK and France are not members.",
+    "subject": "International Relations",
+    "theme": "International Relations - India-US Relations",
+    "micro_topic": "Quad grouping",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_16_43",
+    "question_number": 43,
+    "question": "Match the following India-US foundational (enabling) agreements with their focus:\nA. LEMOA   1. Secure communications interoperability\nB. COMCASA 2. Reciprocal logistics support / access\nC. BECA    3. Geospatial intelligence sharing",
+    "options": [
+      {
+        "key": "a",
+        "text": "A-2, B-1, C-3"
+      },
+      {
+        "key": "b",
+        "text": "A-1, B-2, C-3"
+      },
+      {
+        "key": "c",
+        "text": "A-3, B-1, C-2"
+      },
+      {
+        "key": "d",
+        "text": "A-2, B-3, C-1"
+      }
+    ],
+    "answer": "a",
+    "explanation": "LEMOA (2016) enables reciprocal logistics support and access to each other's facilities; COMCASA (2018) provides secure, encrypted communications interoperability; BECA (2020) allows sharing of geospatial intelligence. GSOMIA (2002) was the earliest of these foundational agreements.",
+    "subject": "International Relations",
+    "theme": "International Relations - India-US Relations",
+    "micro_topic": "Foundational defence agreements",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_16_44",
+    "question_number": 44,
+    "question": "The India-US Initiative on Critical and Emerging Technologies (iCET), launched in 2022, was in 2025 succeeded by which broader framework?",
+    "options": [
+      {
+        "key": "a",
+        "text": "COMPACT"
+      },
+      {
+        "key": "b",
+        "text": "TRUST"
+      },
+      {
+        "key": "c",
+        "text": "INDUS-X"
+      },
+      {
+        "key": "d",
+        "text": "QUAD-Tech"
+      }
+    ],
+    "answer": "b",
+    "explanation": "In February 2025 the two governments announced TRUST (Transforming the Relationship Utilizing Strategic Technology) as the successor to iCET, retaining its focus on semiconductors, AI and quantum, and expanding into critical minerals, biotechnology, energy and space.",
+    "subject": "International Relations",
+    "theme": "International Relations - India-US Relations",
+    "micro_topic": "iCET and TRUST",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_16_45",
+    "question_number": 45,
+    "question": "The India-US '2+2 Ministerial Dialogue' brings together which ministers of the two countries?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Finance and Commerce ministers"
+      },
+      {
+        "key": "b",
+        "text": "Defence and External/Foreign Affairs ministers"
+      },
+      {
+        "key": "c",
+        "text": "Home and Defence ministers"
+      },
+      {
+        "key": "d",
+        "text": "Commerce and Science ministers"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The 2+2 Ministerial Dialogue is between the Defence and External Affairs Ministers of India and their US counterparts - the Secretaries of Defense and State. It is the highest-level institutional mechanism between the two on strategic and security issues.",
+    "subject": "International Relations",
+    "theme": "International Relations - India-US Relations",
+    "micro_topic": "2+2 Ministerial Dialogue",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_16_46",
+    "question_number": 46,
+    "question": "India became a signatory to the Artemis Accords - a set of principles for cooperative civil exploration of the Moon and beyond - in which year?",
+    "options": [
+      {
+        "key": "a",
+        "text": "2020"
+      },
+      {
+        "key": "b",
+        "text": "2021"
+      },
+      {
+        "key": "c",
+        "text": "2023"
+      },
+      {
+        "key": "d",
+        "text": "2025"
+      }
+    ],
+    "answer": "c",
+    "explanation": "India signed the US-led Artemis Accords in 2023, becoming one of the growing number of signatory nations. The Accords set out non-binding principles (transparency, interoperability, peaceful purposes) for civil space exploration.",
+    "subject": "International Relations",
+    "theme": "International Relations - India-US Relations",
+    "micro_topic": "Artemis Accords",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_16_47",
+    "question_number": 47,
+    "question": "With reference to recent India-US initiatives, consider the following statements:\n1. TRUST stands for 'Transforming the Relationship Utilizing Strategic Technology'.\n2. COMPACT was announced in 2025 as a broader framework spanning defence, trade and technology.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer": "c",
+    "explanation": "TRUST is the acronym for 'Transforming the Relationship Utilizing Strategic Technology', announced in February 2025. Alongside it, the COMPACT framework was announced in 2025 to advance cooperation across defence, trade, technology and other areas. Both statements are correct.",
+    "subject": "International Relations",
+    "theme": "International Relations - India-US Relations",
+    "micro_topic": "TRUST and COMPACT",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_16_48",
+    "question_number": 48,
+    "question": "Consider the following about the Malabar naval exercise:\n1. It began as a bilateral India-US exercise.\n2. It now includes all four Quad members.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The Malabar exercise started in 1992 as a bilateral India-US naval exercise. It has since expanded and now includes all four Quad members - India, the US, Japan and Australia. Both statements are correct.",
+    "subject": "International Relations",
+    "theme": "International Relations - India-US Relations",
+    "micro_topic": "Malabar exercise",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_16_49",
+    "question_number": 49,
+    "question": "The LEMOA agreement between India and the United States is best described as one that:",
+    "options": [
+      {
+        "key": "a",
+        "text": "establishes permanent US military bases on Indian soil"
+      },
+      {
+        "key": "b",
+        "text": "provides for reciprocal access to designated military facilities for logistics support such as refuelling and replenishment"
+      },
+      {
+        "key": "c",
+        "text": "commits India to a mutual defence treaty"
+      },
+      {
+        "key": "d",
+        "text": "transfers nuclear technology for weapons"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The Logistics Exchange Memorandum of Agreement (LEMOA, 2016) allows the two militaries to use each other's designated facilities for logistics support - refuelling, replenishment, spares - on a reimbursable basis. It does not create bases, a mutual-defence obligation, or any nuclear-weapons transfer.",
+    "subject": "International Relations",
+    "theme": "International Relations - India-US Relations",
+    "micro_topic": "LEMOA - nature of the agreement",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_16_50",
+    "question_number": 50,
+    "question": "The India-US bilateral relationship has, since 2020, been formally characterised as a:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Special Strategic Partnership"
+      },
+      {
+        "key": "b",
+        "text": "Comprehensive Global Strategic Partnership"
+      },
+      {
+        "key": "c",
+        "text": "Non-Aligned Partnership"
+      },
+      {
+        "key": "d",
+        "text": "Collective Defence Alliance"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Since 2020, India and the United States have described their ties as a 'Comprehensive Global Strategic Partnership', reflecting cooperation spanning defence, trade, technology, energy, space and people-to-people ties - short of any binding military alliance, preserving India's strategic autonomy.",
+    "subject": "International Relations",
+    "theme": "International Relations - India-US Relations",
+    "micro_topic": "Nature of India-US partnership",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  }
+]
