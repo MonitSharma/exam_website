@@ -89,6 +89,38 @@ test("splitQuestionParts does not treat a decimal or date as a statement marker"
   assert.match(parts.stem, /GDP grew 7\.8 per cent/);
 });
 
+test("splitQuestionParts keeps interleaved match columns whole", () => {
+  const parts = splitQuestionParts(
+    "Match the following cut motions with their descriptions:\nA. Policy Cut  1. Amount of the demand be reduced to Re 1\nB. Economy Cut 2. Amount be reduced by a specified sum to effect economy\nC. Token Cut   3. Amount be reduced by Rs 100 to ventilate a specific grievance",
+  );
+  assert.equal(parts.stem, "Match the following cut motions with their descriptions:");
+  assert.deepEqual(parts.statements, []);
+  assert.deepEqual(parts.matchLeft, [
+    { label: "A", text: "Policy Cut" },
+    { label: "B", text: "Economy Cut" },
+    { label: "C", text: "Token Cut" },
+  ]);
+  assert.deepEqual(parts.matchRight.map((r) => r.label), ["1", "2", "3"]);
+  assert.equal(parts.matchRight[0].text, "Amount of the demand be reduced to Re 1");
+});
+
+test("splitQuestionParts parses List I / List II match blocks", () => {
+  const parts = splitQuestionParts(
+    "Match List I with List II and select the answer using the code given below the Lists: List I (Project) A. Alpha B. Beta C. Gamma D. Delta List II (Country) 1. Afghanistan 2. Bhutan 3. Sri Lanka 4. Maldives. Code: A B C D",
+  );
+  assert.deepEqual(parts.matchLeft.map((r) => r.label), ["A", "B", "C", "D"]);
+  assert.equal(parts.matchLeft[0].text, "Alpha");
+  assert.deepEqual(parts.matchRight.map((r) => r.text), ["Afghanistan", "Bhutan", "Sri Lanka", "Maldives"]);
+});
+
+test("splitQuestionParts does not treat 'correctly matched pairs' lists as match columns", () => {
+  const parts = splitQuestionParts(
+    "Consider the following pairs and select the correctly matched pairs: 1. Alpha : One 2. Beta : Two 3. Gamma : Three",
+  );
+  assert.equal(parts.matchLeft, undefined);
+  assert.deepEqual(parts.statements, ["Alpha : One", "Beta : Two", "Gamma : Three"]);
+});
+
 test("splitQuestionParts tolerates empty input", () => {
   assert.deepEqual(splitQuestionParts(""), { stem: "", statements: [], tail: "" });
   assert.deepEqual(splitQuestionParts(null), { stem: "", statements: [], tail: "" });

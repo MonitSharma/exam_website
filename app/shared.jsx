@@ -137,6 +137,26 @@ function QuestionStem({ q, big }) {
     <div className={`stem${big ? " stem-big" : ""}`}>
       {q.passage && <div className="stem-passage">{q.passage}</div>}
       <p className="stem-lead">{q.stem}</p>
+      {q.matchLeft && q.matchRight && q.matchLeft.length > 0 && (
+        <div className="match-cols">
+          <ol className="match-col match-col-left">
+            {q.matchLeft.map((it) => (
+              <li key={it.label}>
+                <span className="match-key">{it.label}.</span>
+                <span>{it.text}</span>
+              </li>
+            ))}
+          </ol>
+          <ol className="match-col match-col-right">
+            {q.matchRight.map((it) => (
+              <li key={it.label}>
+                <span className="match-key">{it.label}.</span>
+                <span>{it.text}</span>
+              </li>
+            ))}
+          </ol>
+        </div>
+      )}
       {q.statements && q.statements.length > 0 && (() => {
         // Assertion–Reason and "Statement I/II" lists carry their own labels,
         // which the options refer to by name. Numbering those again reads as
