@@ -410,6 +410,8 @@
       stem: questionParts.stem,
       passage: row.passage || "",
       statements: questionParts.statements,
+      matchLeft: questionParts.matchLeft || null,
+      matchRight: questionParts.matchRight || null,
       tail: questionParts.tail,
       options: normalizeOptions(row.options),
       answer,
@@ -521,6 +523,75 @@
     return statements.map((item) => item.trim()).filter((item) => item && !/^[A-Za-z()\s]+:$/.test(item));
   }
 
+  // Match-the-columns questions carry two parallel lists — a lettered column
+  // (A/B/C…) paired against a numbered column (1/2/3…). They arrive in two
+  // shapes: interleaved lines ("A. Foo   1. Bar") and the classic UPSC "List I
+  // … List II …" block. Both were previously force-fit through the numbered
+  // statement splitter, which sliced each row at its "1." and stranded the "B."
+  // label at the tail of the prior item. Detect them first and keep the columns
+  // whole so the stem can render them side by side.
+  function parseMatchColumns(rawText) {
+    const text = String(rawText || "").replace(/\r/g, "");
+    if (!/\bmatch\b/i.test(text)) return null;
+    return parseInterleavedMatch(text) || parseListMatch(text);
+  }
+
+  // "A. Policy Cut   1. Amount…" — one pair per line.
+  function parseInterleavedMatch(text) {
+    const lineRe = /^\s*([A-Ea-e])\.\s+(.*?)\s+(\d{1,2})\.\s+(.+?)\s*$/;
+    const left = [];
+    const right = [];
+    const stemLines = [];
+    let sawPair = false;
+    for (const line of text.split("\n")) {
+      const m = line.match(lineRe);
+      if (m) {
+        sawPair = true;
+        left.push({ label: m[1].toUpperCase(), text: m[2].trim() });
+        right.push({ label: m[3], text: m[4].trim() });
+      } else if (!sawPair) {
+        stemLines.push(line);
+      }
+    }
+    if (sawPair && left.length >= 2 && left.length === right.length) {
+      return { stem: stemLines.join("\n").trim() || "Match the following:", left, right, tail: "" };
+    }
+    return null;
+  }
+
+  // "…List I (…) A. … B. … List II (…) 1. … 2. … Code: …" on a single line.
+  function parseListMatch(rawText) {
+    const text = rawText.replace(/\s+/g, " ").trim();
+    if (!/List\s*I\b/i.test(text) || !/List\s*II\b/i.test(text)) return null;
+    let iiIdx = -1;
+    let m;
+    const gII = /List\s*II\b/gi;
+    while ((m = gII.exec(text))) iiIdx = m.index;
+    if (iiIdx < 0) return null;
+    // "Match List I with List II …" repeats "List I" in the intro, so take the
+    // last occurrence before List II — that is the actual column header.
+    let iIdx = -1;
+    const gI = /List\s*I\b/gi;
+    while ((m = gI.exec(text))) {
+      if (m.index < iiIdx) iIdx = m.index;
+      else break;
+    }
+    if (iIdx < 0) return null;
+    const stem = text.slice(0, iIdx).replace(/\band select the.*/i, "").replace(/[:\-\s]+$/, "").trim()
+      || "Match the following:";
+    const leftPart = text.slice(iIdx, iiIdx);
+    const rightPart = text.slice(iiIdx).replace(/\bCode\s*:.*$/i, "");
+    const letterRe = /([A-E])\.\s+(.*?)(?=\s+[A-E]\.\s|\s*$)/g;
+    const numRe = /(\d{1,2})\.\s+(.*?)(?=\s+\d{1,2}\.\s|\s*$)/g;
+    const left = [];
+    const right = [];
+    let x;
+    while ((x = letterRe.exec(leftPart))) left.push({ label: x[1], text: x[2].replace(/[.\s]+$/, "").trim() });
+    while ((x = numRe.exec(rightPart))) right.push({ label: x[1], text: x[2].replace(/[.\s]+$/, "").trim() });
+    if (left.length >= 2 && right.length >= 2) return { stem, left, right, tail: "" };
+    return null;
+  }
+
   function splitQuestionParts(rawStem, rawStatements, rawTail) {
     const providedStatements = Array.isArray(rawStatements)
       ? rawStatements.map((item) => String(item || "").trim()).filter(Boolean)
@@ -539,6 +610,11 @@
 
     const rawText = String(rawStem || "").trim();
     if (!rawText) return { stem: "", statements: [], tail: providedTail };
+
+    const match = parseMatchColumns(rawText);
+    if (match) {
+      return { stem: match.stem, statements: [], matchLeft: match.left, matchRight: match.right, tail: providedTail };
+    }
 
     for (const marker of STATEMENT_MARKERS) {
       const first = rawText.match(marker.first);

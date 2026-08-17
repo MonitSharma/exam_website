@@ -150,6 +150,51 @@ const LAB_GUIDES = {
   "case-lab": { path: "GS4 · Ethics · Case studies", syllabus: "Case Studies on the above issues", pyqSubjects: ["Ethics"], exam: "Mains" },
 };
 
+// The Focus card hands Study Labs the learner's weakest subject. Resolve it to
+// the most relevant paper + lab so the screen opens on something useful instead
+// of the generic default. Matches the subject against each lab's syllabus
+// subjects and its category label.
+function normalizeLabSubject(value) {
+  return String(value || "").toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, " ").trim();
+}
+
+function findLabForSubject(subject) {
+  const target = normalizeLabSubject(subject);
+  if (!target) return null;
+  for (const paperId of Object.keys(LABS_BY_PAPER)) {
+    for (const lab of LABS_BY_PAPER[paperId]) {
+      const candidates = [lab.category, ...(LAB_GUIDES[lab.id]?.pyqSubjects || [])].map(normalizeLabSubject);
+      if (candidates.some((c) => c && (c === target || c.includes(target) || target.includes(c)))) {
+        return { paperId, labId: lab.id };
+      }
+    }
+  }
+  return null;
+}
+
+// Every live lab follows the same loop, so one explainer covers them all.
+const LAB_STEPS = [
+  { n: "01", title: "Learn the map", body: "Read through the visual — timeline, chain or map — to see how the pieces connect." },
+  { n: "02", title: "Switch to Recall", body: "Use the Recall tab (or the clues) to answer from memory before revealing." },
+  { n: "03", title: "Mark your confidence", body: "Tell the Memory check how it felt so spaced review can bring it back on time." },
+];
+
+function LabHowTo() {
+  return (
+    <section className="labs-howto" aria-label="How to use this lab">
+      <span className="labs-kicker">How to use this lab</span>
+      <ol className="labs-howto-steps">
+        {LAB_STEPS.map((step) => (
+          <li key={step.n}>
+            <span className="labs-howto-num">{step.n}</span>
+            <div><strong>{step.title}</strong><small>{step.body}</small></div>
+          </li>
+        ))}
+      </ol>
+    </section>
+  );
+}
+
 const ECO_MAP_LAYERS = [
   { id: "protected", label: "National parks & reserves", short: "Protected areas" },
   { id: "wetlands", label: "Wetlands & lakes", short: "Wetlands" },
@@ -506,17 +551,21 @@ function LabsTool({ lab, go, progress, onLabProgress }) {
   return <><div>{tool}</div><LabSyllabusMap labId={lab.id} go={go} /><LabProgressPanel labId={lab.id} progress={progress} onLabProgress={onLabProgress} /></>;
 }
 
-function StudyLabs({ go, progress, review, onLabProgress }) {
+function StudyLabs({ go, progress, review, focusSubject, onLabProgress }) {
   const ds = window.UPSC;
   const dueLab = Object.keys(LABS_BY_PAPER).flatMap((paperId) => LABS_BY_PAPER[paperId].map((lab) => ({ ...lab, paperId }))).find((lab) => progress?.labStats?.[lab.id]?.due && progress.labStats[lab.id].due <= ds.todayIso);
-  const [paper, setPaper] = useStateLabs(dueLab?.paperId || "gs1");
-  const [selectedId, setSelectedId] = useStateLabs(dueLab?.id || "ancient-timeline");
+  // A due review comes first; otherwise honour the Focus subject the learner
+  // arrived with, then fall back to the default opening lab.
+  const focusMatch = !dueLab && focusSubject ? findLabForSubject(focusSubject) : null;
+  const [paper, setPaper] = useStateLabs(dueLab?.paperId || focusMatch?.paperId || "gs1");
+  const [selectedId, setSelectedId] = useStateLabs(dueLab?.id || focusMatch?.labId || "ancient-timeline");
   const activePaper = LAB_PAPERS.find((item) => item.id === paper);
   const labs = LABS_BY_PAPER[paper];
   const selectedLab = labs.find((item) => item.id === selectedId) || labs[0];
   const questionCount = ds.questionSets.reduce((sum, item) => sum + (Number(item.questionCount) || 0), 0);
   function selectPaper(nextPaper) { setPaper(nextPaper); setSelectedId(LABS_BY_PAPER[nextPaper][0].id); }
-  return <main className="labs-page"><section className="labs-hero"><div><span className="labs-kicker">Pariksha · Study Labs</span><h1>Make the syllabus interactive.</h1><p>A separate home for visual revision tools — timelines, maps, mechanism chains and active recall decks built from your own study library.</p></div><div className="labs-hero-note"><span className="labs-hero-mark">✦</span><strong>Recall over re-reading</strong><small>{ds.noteDocuments.length} notes · {questionCount.toLocaleString()} questions · local map layers</small></div></section>{review?.labDue > 0 && <div className="labs-due-banner"><span className="labs-hero-mark">↻</span><div><strong>{review.labDue} lab review{review.labDue === 1 ? "" : "s"} due</strong><small>Start with the highlighted lab and mark your confidence after the pass.</small></div></div>}<div className="labs-paper-tabs" role="tablist" aria-label="General Studies paper">{LAB_PAPERS.map((item) => <button key={item.id} role="tab" aria-selected={paper === item.id} className={paper === item.id ? "active" : ""} onClick={() => selectPaper(item.id)}><span>{item.label}</span><small>{item.title}</small></button>)}</div><section className="labs-section-head"><div><span className="labs-kicker">{activePaper.label}</span><h2>{activePaper.title}</h2><p>{activePaper.blurb}</p></div><span className="labs-count">{labs.filter((item) => item.status === "Live").length} live · {labs.length} tools</span></section><section className="labs-grid" aria-label={`${activePaper.label} tools`}>{labs.map((lab) => <button key={lab.id} className={`labs-card tone-${lab.tone}${selectedLab.id === lab.id ? " selected" : ""}`} onClick={() => setSelectedId(lab.id)}><div className="labs-card-art"><LabIcon name={lab.icon} /><span className={`tag ${lab.status === "Live" ? "tag-green" : "tag-soft"}`}>{lab.status}</span></div><div className="labs-card-body"><span className="labs-card-category">{activePaper.label} · {lab.category}</span><h3>{lab.title}</h3><p>{lab.description}</p><span className="labs-open-link">{lab.status === "Live" ? "Open lab" : "Preview tool"} <Icon name="arrowR" size={14} /></span></div></button>)}</section><section className="labs-workbench"><div className="labs-workbench-head"><span className="labs-kicker">Selected lab</span><span className="labs-workbench-label">{selectedLab.category}</span></div><LabsTool lab={selectedLab} go={go} progress={progress} onLabProgress={onLabProgress} /></section></main>;
+  const showFocus = Boolean(focusMatch && focusSubject);
+  return <main className="labs-page"><section className="labs-hero"><div><span className="labs-kicker">Pariksha · Study Labs</span><h1>Make the syllabus interactive.</h1><p>A separate home for visual revision tools — timelines, maps, mechanism chains and active recall decks built from your own study library.</p></div><div className="labs-hero-note"><span className="labs-hero-mark">✦</span><strong>Recall over re-reading</strong><small>{ds.noteDocuments.length} notes · {questionCount.toLocaleString()} questions · local map layers</small></div></section>{showFocus && <div className="labs-focus-banner"><span className="labs-hero-mark">◎</span><div><strong>Focus: {focusSubject}</strong><small>This is your weakest area right now, so we've opened <em>{selectedLab.title}</em> below. Do a learn pass, then switch to Recall and mark how it felt.</small></div></div>}{review?.labDue > 0 && <div className="labs-due-banner"><span className="labs-hero-mark">↻</span><div><strong>{review.labDue} lab review{review.labDue === 1 ? "" : "s"} due</strong><small>Start with the highlighted lab and mark your confidence after the pass.</small></div></div>}<div className="labs-paper-tabs" role="tablist" aria-label="General Studies paper">{LAB_PAPERS.map((item) => <button key={item.id} role="tab" aria-selected={paper === item.id} className={paper === item.id ? "active" : ""} onClick={() => selectPaper(item.id)}><span>{item.label}</span><small>{item.title}</small></button>)}</div><section className="labs-section-head"><div><span className="labs-kicker">{activePaper.label}</span><h2>{activePaper.title}</h2><p>{activePaper.blurb}</p></div><span className="labs-count">{labs.filter((item) => item.status === "Live").length} live · {labs.length} tools</span></section><section className="labs-grid" aria-label={`${activePaper.label} tools`}>{labs.map((lab) => <button key={lab.id} className={`labs-card tone-${lab.tone}${selectedLab.id === lab.id ? " selected" : ""}`} onClick={() => setSelectedId(lab.id)}><div className="labs-card-art"><LabIcon name={lab.icon} /><span className={`tag ${lab.status === "Live" ? "tag-green" : "tag-soft"}`}>{lab.status}</span></div><div className="labs-card-body"><span className="labs-card-category">{activePaper.label} · {lab.category}</span><h3>{lab.title}</h3><p>{lab.description}</p><span className="labs-open-link">{lab.status === "Live" ? "Open lab" : "Preview tool"} <Icon name="arrowR" size={14} /></span></div></button>)}</section><section className="labs-workbench"><div className="labs-workbench-head"><span className="labs-kicker">Selected lab</span><span className="labs-workbench-label">{selectedLab.category}</span></div><LabHowTo /><LabsTool lab={selectedLab} go={go} progress={progress} onLabProgress={onLabProgress} /></section></main>;
 }
 
 Object.assign(window, { StudyLabs });

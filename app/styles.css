@@ -993,6 +993,12 @@ body[data-qfont="serif"] .stem-big .stem-lead { font-size: clamp(20px, 2.4vw, 25
 .stmt-list li { display: flex; gap: 13px; padding: 14px 16px; background: var(--surface-2); border: 1px solid var(--line-2); border-radius: var(--radius-sm); font-size: 16px; line-height: 1.5; }
 body[data-qfont="serif"] .stmt-list li { font-family: var(--serif); font-size: 17.5px; }
 .stmt-num { font-family: var(--mono); font-weight: 600; color: var(--green); flex: none; font-size: 14px; padding-top: 2px; }
+.match-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 13px; margin: 20px 0; align-items: start; }
+.match-col { list-style: none; padding: 0; margin: 0; display: grid; gap: 13px; align-content: start; }
+.match-col li { display: flex; gap: 12px; padding: 14px 16px; background: var(--surface-2); border: 1px solid var(--line-2); border-radius: var(--radius-sm); font-size: 16px; line-height: 1.5; }
+body[data-qfont="serif"] .match-col li { font-family: var(--serif); font-size: 17.5px; }
+.match-key { font-family: var(--mono); font-weight: 600; color: var(--green); flex: none; font-size: 14px; padding-top: 2px; }
+@media (max-width: 640px) { .match-cols { grid-template-columns: 1fr; } }
 .stem-tail { margin-top: 18px; font-size: 16px; font-weight: 600; color: var(--ink); }
 body[data-qfont="serif"] .stem-tail { font-size: 18px; }
 .stem-big .stem-tail { font-size: 18px; }
@@ -1967,6 +1973,20 @@ body[data-qfont="serif"] .rev-explain p { font-family: var(--serif); font-size: 
 .labs-due-banner div { display: grid; gap: 2px; }
 .labs-due-banner strong { font-size: 13px; }
 .labs-due-banner small { color: var(--muted); font-size: 11px; }
+.labs-focus-banner { display: flex; align-items: center; gap: 12px; margin: 0 0 18px; padding: 12px 14px; border: 1px solid color-mix(in srgb, var(--green) 38%, var(--line)); border-radius: var(--radius); background: color-mix(in srgb, var(--green) 9%, var(--surface)); }
+.labs-focus-banner .labs-hero-mark { width: 32px; height: 32px; font-size: 16px; flex: none; }
+.labs-focus-banner div { display: grid; gap: 2px; }
+.labs-focus-banner strong { font-size: 13px; }
+.labs-focus-banner small { color: var(--muted); font-size: 11.5px; line-height: 1.5; }
+.labs-focus-banner em { font-style: normal; font-weight: 600; color: var(--ink); }
+.labs-howto { margin: 0 2px 18px; padding: 16px 18px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface-2); }
+.labs-howto .labs-kicker { display: block; margin-bottom: 12px; }
+.labs-howto-steps { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+.labs-howto-steps li { display: flex; gap: 10px; align-items: flex-start; }
+.labs-howto-num { font-family: var(--mono); font-size: 12px; font-weight: 600; color: var(--green); flex: none; padding-top: 1px; }
+.labs-howto-steps strong { display: block; font-size: 13px; margin-bottom: 2px; }
+.labs-howto-steps small { color: var(--muted); font-size: 11.5px; line-height: 1.45; }
+@media (max-width: 680px) { .labs-howto-steps { grid-template-columns: 1fr; gap: 12px; } }
 .labs-syllabus-map { margin-top: 16px; padding: 19px 20px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface-2); }
 .labs-map-head { display: flex; align-items: start; justify-content: space-between; gap: 16px; }
 .labs-map-head h3 { margin-top: 6px; color: var(--ink); font-family: var(--serif); font-size: 21px; font-weight: 500; line-height: 1.15; }

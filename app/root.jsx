@@ -261,6 +261,7 @@ function App() {
     returnTo: "home",
     timed: true,
   });
+  const [labFocus, setLabFocus] = useRootState(null);
   const [lastResult, setLastResult] = useRootState(null);
   const [progress, setProgress] = useRootState(loadProgress);
   const [searchOpen, setSearchOpen] = useRootState(false);
@@ -314,6 +315,11 @@ function App() {
         // the synthetic set id is unchanged between two revision runs.
         reviewToken: options.reviewQueue ? Date.now() : null,
       });
+    }
+    if (s === "labs") {
+      // The Focus card routes here with the learner's weakest subject so the
+      // labs screen can open a relevant tool instead of a generic default.
+      setLabFocus(options.focusSubject || null);
     }
     setScreen(s);
     scrollTop();
@@ -429,7 +435,7 @@ function App() {
       <GlobalSearch open={searchOpen} onClose={() => setSearchOpen(false)} go={go} />
       <div key={screen} className="screen-fade">
         {screen === "home" && <Home go={go} progress={progress} summary={summary} review={review} onStartReview={startReviewSession} />}
-        {screen === "labs" && <StudyLabs go={go} progress={progress} review={review} onLabProgress={saveLabProgress} />}
+        {screen === "labs" && <StudyLabs go={go} progress={progress} review={review} focusSubject={labFocus} onLabProgress={saveLabProgress} />}
         {screen === "atlas" && <NewsAtlas />}
         {screen === "practice" && <PracticeScreen go={go} />}
         {screen === "test" && <TestScreen go={go} session={testSession} onSubmit={finishTest} />}

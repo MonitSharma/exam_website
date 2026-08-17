@@ -962,7 +962,7 @@ function TodayPreparation({ go, progress, review, onStartReview }) {
   const steps = [
     dueQuestions > 0 && { key: "review", label: "Recall", title: `${dueQuestions} question${dueQuestions === 1 ? "" : "s"} due`, meta: "Weakest questions first", action: onStartReview, done: false },
     dailySet && { key: "daily", label: "Daily", title: dailyDone ? "Daily quiz completed" : dailySet.shortLabel || "Daily quiz", meta: `${dailySet.questionCount || 0} questions · ${dailySet.durationMinutes || 10} min`, action: () => go("test", { setId: dailySet.id }), done: dailyDone },
-    { key: "focus", label: "Focus", title: weakSubject, meta: dueLabs > 0 ? `${dueLabs} lab review${dueLabs === 1 ? "" : "s"} due` : "Open a visual revision lab", action: () => go("labs"), done: false },
+    { key: "focus", label: "Focus", title: weakSubject, meta: dueLabs > 0 ? `${dueLabs} lab review${dueLabs === 1 ? "" : "s"} due` : "Open a visual revision lab", action: () => go("labs", { focusSubject: weakSubject }), done: false },
   ].filter(Boolean);
   const next = steps.find((step) => !step.done) || steps[steps.length - 1];
   const minutes = Math.max(12, (dueQuestions ? Math.min(dueQuestions, 12) : 0) + (dailySet && !dailyDone ? Number(dailySet.durationMinutes || 10) : 0) + 8);
