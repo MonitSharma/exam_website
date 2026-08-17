@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to 'Bharat Taxi', consider the following statements:\n1. It is registered under the Multi-State Cooperative Societies Act, 2002.\n2. It operates on a zero-commission model with no surge pricing, and profits are distributed to driver-members.\n3. It is promoted by cooperative institutions including NCDC, IFFCO, NAFED and NABARD.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "Bharat Taxi, India's first cooperative-sector ride-hailing platform, is registered under the MSCS Act, 2002 (incorporated 6 June 2025, launched 5 February 2026), runs a zero-commission and surge-free model with profits distributed to driver-members called 'Sarathis', and is promoted by eight cooperatives — NCDC, Amul, IFFCO, KRIBHCO, NAFED, NDDB, NCEL and NABARD.",
+    "subject": "Economy",
+    "theme": "Cooperatives and the platform economy",
+    "micro_topic": "Bharat Taxi — cooperative ride-hailing under the Ministry of Cooperation",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The MQ-9B Sea Guardian, recently in the news, is best described as:",
+    "options": [
+      "(a) A ship-launched supersonic anti-ship cruise missile jointly developed with Russia",
+      "(b) A High-Altitude Long-Endurance Remotely Piloted Aircraft System leased for maritime surveillance",
+      "(c) An indigenous autonomous underwater vehicle developed by DRDO for mine detection",
+      "(d) A satellite of the ocean-observation series launched by ISRO for maritime domain awareness"
+    ],
+    "answer": "(b)",
+    "explanation": "The MQ-9B Sea Guardian is a High-Altitude Long-Endurance (HALE) Remotely Piloted Aircraft System made by General Atomics Aeronautical Systems. On 17 August 2026 the Ministry of Defence signed a contract to lease two of them for the Indian Navy for 30 months (about Rs 1,943 crore) to strengthen Maritime Domain Awareness over the Indian Ocean Region.",
+    "subject": "Internal Security",
+    "theme": "Defence acquisition and maritime surveillance",
+    "micro_topic": "MQ-9B Sea Guardian HALE RPAS lease for the Indian Navy",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Consider the following statements regarding the Container Manufacturing Assistance Scheme (CMAS):\n1. It is implemented by the Ministry of Commerce and Industry.\n2. It has an outlay of Rs 10,000 crore and aims to expand India's domestic container manufacturing capacity.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 only",
+      "(c) Both 1 and 2",
+      "(d) Neither 1 nor 2"
+    ],
+    "answer": "(b)",
+    "explanation": "Statement 1 is incorrect — CMAS is driven by the Ministry of Ports, Shipping and Waterways, not the Ministry of Commerce and Industry. Statement 2 is correct: announced in Union Budget 2026-27, it is a Rs 10,000 crore five-year scheme targeting roughly 7.5 lakh TEUs of annual domestic container manufacturing capacity, rising towards 1 million TEUs a year over a decade.",
+    "subject": "Economy",
+    "theme": "Infrastructure and logistics self-reliance",
+    "micro_topic": "Container Manufacturing Assistance Scheme (CMAS)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]
