@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the Positive Indigenisation Lists (PILs) in the defence sector, consider the following statements:\n1. Once the indicative timeline notified against an item expires, that item can be procured only from Indian industry.\n2. The sixth Positive Indigenisation List notified in August 2026 covers items of Defence PSUs and the Indian Coast Guard.\n3. The lists cover only complete weapon platforms and not spares, components or raw materials.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "A PIL works as a phased import embargo — after the notified indigenisation date, procurement must be from Indian industry. The 6th PIL notified by the Department of Defence Production on 18 August 2026 has 405 items with business potential of about Rs 3,070 crore, comprising 389 items of Defence PSUs and 16 items of the Indian Coast Guard. Statement 3 is incorrect: the lists cover line replaceable units, sub-systems, sub-assemblies, spares, components and raw materials for platforms such as ALH, LUH, Su-30MKI, LCA, AL-31FP engine, T-72, T-90 and BMP-II.",
+    "subject": "Internal Security",
+    "theme": "Defence production and self-reliance",
+    "micro_topic": "6th Positive Indigenisation List of the Department of Defence Production",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to India's coconut sector, consider the following statements:\n1. India ranks first in the world in coconut production and third in area under coconut cultivation.\n2. The State with the largest area under coconut cultivation is also the State with the highest coconut production in India.\n3. Copra is included among the mandated crops for which Minimum Support Price is announced.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Per the official factsheet of 18 August 2026, India accounts for 31.24 per cent of world coconut production (rank 1) and 17.90 per cent of world area (rank 3), producing over 20,301 million nuts in 2024-25 from 2.19 million hectares. Statement 2 is incorrect — Keralam has the largest area (about 7.54 lakh hectares) but Tamil Nadu leads in production, while Andhra Pradesh records the highest productivity. Copra, the dried kernel of coconut, is one of the 22 mandated crops under the MSP regime; the Coconut Promotion Scheme was announced in Union Budget 2026-27.",
+    "subject": "Agriculture",
+    "theme": "Horticulture and crop diversification",
+    "micro_topic": "India's coconut sector — production, State pattern and MSP for copra",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements regarding appeals under the Right to Information Act, 2005:\n1. A second appeal lies to the Central Information Commission or the State Information Commission, as the case may be.\n2. The Appeal and Complaint Management System (AppCoMS) is a portal of the Central Information Commission for filing and processing second appeals and complaints.\n3. The first appeal lies directly to the Central Information Commission against a decision of the Central Public Information Officer.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Under Section 19(3) of the RTI Act, 2005 a second appeal lies to the CIC or the State Information Commission within 90 days. Statement 3 is incorrect — the first appeal lies to the First Appellate Authority, an officer senior in rank to the CPIO within the same public authority. AppCoMS, introduced by the CIC in September 2016, was upgraded and relaunched as AppCoMS 2.0 on 17 August 2026 by Chief Information Commissioner Raj Kumar Goyal, allowing citizens to file and track second appeals and complaints and CPIOs to submit case documents online.",
+    "subject": "Polity & Governance",
+    "theme": "Transparency and accountability institutions",
+    "micro_topic": "RTI Act appeal mechanism and CIC's AppCoMS 2.0 portal",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]
