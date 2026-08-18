@@ -32,6 +32,7 @@
       history: [],
       archive: [],
       dailyCompletions: {},
+      dismissedSessions: {},
       questionStats: {},
       labStats: {},
     };
@@ -45,6 +46,7 @@
       ...parsed,
       version: PROGRESS_VERSION,
       archive: Array.isArray(parsed.archive) ? parsed.archive : [],
+      dismissedSessions: parsed.dismissedSessions && typeof parsed.dismissedSessions === "object" ? parsed.dismissedSessions : {},
       questionStats: parsed.questionStats && typeof parsed.questionStats === "object" ? parsed.questionStats : {},
       labStats: parsed.labStats && typeof parsed.labStats === "object" ? parsed.labStats : {},
     });
@@ -210,6 +212,56 @@
     };
   }
 
+  // Recurring, date-scheduled content the learner is meant to attempt on its
+  // day. PIB is deliberately excluded, and on-demand libraries (sectional,
+  // csat, pyq, ai, csr) are not "missed" — they are always available to pick.
+  const MISSED_SOURCE_TYPES = ["daily", "rc", "weekly-news", "weekly-quiz"];
+
+  // The set ids the learner has already completed. Reads both the attempt
+  // history and the daily-completion map so a set counts as done by either path.
+  function completedSetIds(progress) {
+    const ids = new Set();
+    for (const entry of progress?.history || []) {
+      if (entry.questionSetId) ids.add(entry.questionSetId);
+    }
+    for (const completion of Object.values(progress?.dailyCompletions || {})) {
+      if (completion && completion.questionSetId) ids.add(completion.questionSetId);
+    }
+    return ids;
+  }
+
+  // Dated cadence sets whose day has passed, never attempted and not dismissed —
+  // the catch-up backlog, newest first. `questionSets` is injected so the same
+  // logic runs under node:test; the browser passes window.UPSC.questionSets.
+  function getMissedSessions(progress, todayIso, questionSets) {
+    const sets = questionSets || (typeof window !== "undefined" && window.UPSC ? window.UPSC.questionSets : []) || [];
+    const done = completedSetIds(progress);
+    const dismissed = progress?.dismissedSessions || {};
+    return sets
+      .filter((set) => set && set.isoDate && !set.isSupplementary)
+      .filter((set) => MISSED_SOURCE_TYPES.includes(set.sourceType))
+      .filter((set) => set.isoDate < todayIso)
+      .filter((set) => !done.has(set.id) && !dismissed[set.id])
+      .sort((a, b) => String(b.isoDate).localeCompare(String(a.isoDate)) || String(a.sourceType).localeCompare(String(b.sourceType)))
+      .map((set) => ({
+        id: set.id,
+        label: set.label,
+        shortLabel: set.shortLabel,
+        sourceType: set.sourceType,
+        isoDate: set.isoDate,
+        questionCount: set.questionCount || 0,
+        durationMinutes: set.durationMinutes || 10,
+      }));
+  }
+
+  // Toggle a set in/out of the dismissed map (returns a new progress object).
+  function setSessionDismissed(progress, setId, dismissed) {
+    const next = { ...progress, dismissedSessions: { ...(progress?.dismissedSessions || {}) } };
+    if (dismissed) next.dismissedSessions[setId] = { at: Date.now() };
+    else delete next.dismissedSessions[setId];
+    return next;
+  }
+
   function loadProgress() {
     try {
       const raw = localStorage.getItem(PROGRESS_STORAGE_KEY) || "";
@@ -357,6 +409,9 @@
       getDueQuestions,
       getDueLabs,
       getReviewSummary,
+      MISSED_SOURCE_TYPES,
+      getMissedSessions,
+      setSessionDismissed,
       loadProgress,
       saveProgress,
       getIsoDate,
