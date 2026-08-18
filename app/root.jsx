@@ -14,6 +14,7 @@ const NAV = [
   { id: "labs", label: "Study Labs", icon: "spark" },
   { id: "atlas", label: "News Atlas", icon: "map" },
   { id: "practice", label: "Practice", icon: "play" },
+  { id: "catchup", label: "Catch-up", icon: "clock" },
   { id: "workflow", label: "Plan", icon: "target" },
   { id: "dashboard", label: "Progress", icon: "chart" },
 ];
@@ -27,6 +28,8 @@ const {
   recordAttemptQuestions,
   getDueQuestions,
   getReviewSummary,
+  getMissedSessions,
+  setSessionDismissed,
   loadProgress,
   saveProgress,
   getIsoDate,
@@ -344,6 +347,14 @@ function App() {
     });
   }
 
+  function setSessionDismissedState(setId, dismissed) {
+    setProgress((current) => {
+      const next = setSessionDismissed(current, setId, dismissed);
+      saveProgress(next);
+      return next;
+    });
+  }
+
   function finishTest(result) {
     const submittedAt = Date.now();
     const attemptSummary = calculateAttemptSummary(result.questions, result.answers, result.questionSet);
@@ -438,6 +449,7 @@ function App() {
         {screen === "labs" && <StudyLabs go={go} progress={progress} review={review} focusSubject={labFocus} onLabProgress={saveLabProgress} />}
         {screen === "atlas" && <NewsAtlas />}
         {screen === "practice" && <PracticeScreen go={go} />}
+        {screen === "catchup" && <CatchUpScreen go={go} progress={progress} onDismiss={(id) => setSessionDismissedState(id, true)} onRestore={(id) => setSessionDismissedState(id, false)} />}
         {screen === "test" && <TestScreen go={go} session={testSession} onSubmit={finishTest} />}
         {screen === "result" && <Results go={go} result={lastResult} />}
         {screen === "review" && <Review go={go} result={lastResult} />}
@@ -473,7 +485,7 @@ function App() {
           onChange={(v) => setTweak("density", v)} />
         <TweakSection label="Jump to screen" />
         <div className="tweak-jump">
-          {[["home", "Home"], ["labs", "Study Labs"], ["atlas", "News Atlas"], ["practice", "Practice"], ["workflow", "Plan"], ["test", "Test"], ["result", "Results"], ["review", "Review"], ["dashboard", "Progress"]].map(([k, l]) => (
+          {[["home", "Home"], ["labs", "Study Labs"], ["atlas", "News Atlas"], ["practice", "Practice"], ["catchup", "Catch-up"], ["workflow", "Plan"], ["test", "Test"], ["result", "Results"], ["review", "Review"], ["dashboard", "Progress"]].map(([k, l]) => (
             <button key={k} className={`jbtn${screen === k ? " on" : ""}`} onClick={() => go(k, k === "test" ? { setId: ds.defaultPracticeSetId } : {})}>{l}</button>
           ))}
         </div>

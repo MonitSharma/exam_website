@@ -249,3 +249,43 @@ test("addDays crosses month and year boundaries correctly", () => {
   assert.equal(P.addDays("2028-02-28", 1), "2028-02-29", "2028 is a leap year");
   assert.equal(P.addDays("2026-08-10", 90), "2026-11-08");
 });
+
+const CATCHUP_SETS = [
+  { id: "d-01", label: "Daily 01", sourceType: "daily", isoDate: "2026-08-01", questionCount: 7, durationMinutes: 10 },
+  { id: "d-02", label: "Daily 02", sourceType: "daily", isoDate: "2026-08-02", questionCount: 7, durationMinutes: 10 },
+  { id: "rc-01", label: "RC 01", sourceType: "rc", isoDate: "2026-08-03", questionCount: 8, durationMinutes: 16 },
+  { id: "pib-01", label: "PIB 01", sourceType: "pib", isoDate: "2026-08-01", questionCount: 3, durationMinutes: 10 },
+  { id: "sec-01", label: "Sectional 01", sourceType: "sectional", isoDate: "2026-08-01", questionCount: 40, durationMinutes: 40 },
+  { id: "d-today", label: "Daily today", sourceType: "daily", isoDate: "2026-08-10", questionCount: 7, durationMinutes: 10 },
+  { id: "d-future", label: "Daily future", sourceType: "daily", isoDate: "2026-08-20", questionCount: 7, durationMinutes: 10 },
+  { id: "d-supp", label: "Daily add-on", sourceType: "daily", isoDate: "2026-08-02", isSupplementary: true, questionCount: 5, durationMinutes: 10 },
+];
+
+test("getMissedSessions lists past-due cadence sets, excluding PIB, libraries, today and future", () => {
+  const { P } = loadProgressModule();
+  const progress = P.createFreshProgress(0);
+  const missed = P.getMissedSessions(progress, "2026-08-10", CATCHUP_SETS);
+  const ids = missed.map((m) => m.id);
+  assert.deepEqual(ids, ["rc-01", "d-02", "d-01"], "newest first, PIB/sectional/today/future/add-on excluded");
+});
+
+test("getMissedSessions treats a completed set (history or dailyCompletions) as done", () => {
+  const { P } = loadProgressModule();
+  const progress = {
+    ...P.createFreshProgress(0),
+    history: [{ questionSetId: "d-01", sourceType: "daily", isoDate: "2026-08-05" }],
+    dailyCompletions: { "2026-08-02": { questionSetId: "d-02" } },
+  };
+  const ids = P.getMissedSessions(progress, "2026-08-10", CATCHUP_SETS).map((m) => m.id);
+  assert.deepEqual(ids, ["rc-01"], "both completed dailies drop out");
+});
+
+test("setSessionDismissed hides a set and can restore it", () => {
+  const { P } = loadProgressModule();
+  const dismissed = P.setSessionDismissed(P.createFreshProgress(0), "rc-01", true);
+  assert.ok(dismissed.dismissedSessions["rc-01"]);
+  const missed = P.getMissedSessions(dismissed, "2026-08-10", CATCHUP_SETS).map((m) => m.id);
+  assert.deepEqual(missed, ["d-02", "d-01"], "dismissed set is excluded");
+  const restored = P.setSessionDismissed(dismissed, "rc-01", false);
+  assert.equal(restored.dismissedSessions["rc-01"], undefined);
+});

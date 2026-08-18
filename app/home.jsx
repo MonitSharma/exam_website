@@ -975,6 +975,25 @@ function TodayPreparation({ go, progress, review, onStartReview }) {
   );
 }
 
+function CatchUpTeaser({ go, progress }) {
+  const ds = window.UPSC;
+  const missed = window.UPSC_PROGRESS.getMissedSessions(progress, ds.todayIso, ds.questionSets);
+  if (!missed.length) return null;
+  const preview = missed.slice(0, 3);
+  const previewDates = preview.map((item) => ds.formatDailyDate(item.isoDate, { compact: true })).join(" · ");
+  return (
+    <button className="catchup-teaser" onClick={() => go("catchup")} aria-label={`Catch up: ${missed.length} missed sessions`}>
+      <span className="catchup-teaser-mark"><Icon name="clock" size={17} /></span>
+      <span className="catchup-teaser-copy">
+        <em>Catch-up backlog</em>
+        <strong>{missed.length} missed {missed.length === 1 ? "session" : "sessions"}</strong>
+        <small>Daily &amp; weekly quizzes you skipped{previewDates ? ` — latest: ${previewDates}` : ""}</small>
+      </span>
+      <span className="catchup-teaser-go">Review <Icon name="arrowR" size={15} /></span>
+    </button>
+  );
+}
+
 function NotesLibrary() {
   const ds = window.UPSC;
   const order = Object.keys(CADENCE_META);
@@ -1674,6 +1693,7 @@ function Home({ go, progress, summary, review, onStartReview }) {
 
       <WeeklyPlanCard />
       <TodayPreparation go={go} progress={progress} review={review} onStartReview={onStartReview} />
+      <CatchUpTeaser go={go} progress={progress} />
 
       <div className="home-main">
         <div className="home-col-l">

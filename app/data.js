@@ -716,6 +716,7 @@
     getQuestionSetsBySource,
     getQuestionMarking,
     getMarkingLabel,
+    formatDailyDate,
     loadQuestionSet,
     loadReviewSession,
     saveRecentForOffline,
