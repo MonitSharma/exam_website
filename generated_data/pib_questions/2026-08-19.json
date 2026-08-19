@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the Incentive Scheme for Promotion of Domestic PNG Connections approved in August 2026, consider the following statements:\n1. The incentive is given as a cash subsidy per new household connection to City Gas Distribution entities.\n2. Eligible entities receive an additional allocation of domestically produced APM gas for every incremental billed domestic PNG connection above a fixed threshold.\n3. The scheme is expected to reduce the payback period on capital expenditure for a domestic PNG connection from about ten years to about three years.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "The incentive under the Ministry of Petroleum & Natural Gas scheme is in kind, not cash: for every incremental billed domestic PNG connection above a Geographical Area-wise threshold, the CGD entity receives an additional 200 standard cubic metres of domestically produced APM gas, which is cheaper than imported LNG. Statement 1 is therefore incorrect. The resulting saving is expected to compress the capex payback period from roughly ten years to about three years. The scheme takes effect from 1 September 2026, runs in two tranches over six months, and builds on a base of about 1.74 crore domestic PNG connections.",
+    "subject": "Economy",
+    "theme": "Energy infrastructure and clean cooking fuel",
+    "micro_topic": "Incentive Scheme for Promotion of Domestic PNG Connections and APM gas allocation",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements regarding Zonal Councils in India:\n1. They were established by an amendment to the Constitution and are constitutional bodies.\n2. The Union Home Minister is the Chairman of each of the Zonal Councils.\n3. The North Eastern Council is one of the Zonal Councils.\n4. The Southern Zonal Council includes the Union Territory of Puducherry.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 3 only",
+      "(b) 2 and 4 only",
+      "(c) 1, 2 and 4 only",
+      "(d) 2, 3 and 4 only"
+    ],
+    "answer": "(b)",
+    "explanation": "Zonal Councils are statutory, not constitutional bodies, created under Part III of the States Reorganisation Act, 1956, so statement 1 is incorrect. The Union Home Minister chairs all five Councils (Northern, Central, Eastern, Western and Southern), with the host State's Chief Minister serving as Vice-Chairman by annual rotation. The North Eastern Council is not a Zonal Council; it was constituted under the separate North Eastern Council Act, 1971, so statement 3 is incorrect. The Southern Zonal Council, whose 31st meeting was chaired at Mamallapuram on 20 August 2026, comprises Andhra Pradesh, Karnataka, Kerala, Tamil Nadu and Telangana along with the Union Territories of Puducherry and the Andaman & Nicobar Islands.",
+    "subject": "Polity & Governance",
+    "theme": "Federalism and Centre-State relations",
+    "micro_topic": "Zonal Councils under the States Reorganisation Act, 1956 and the 31st Southern Zonal Council meeting",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Hybrid Annuity Model (HAM), used for the Muzaffarpur-Sitamarhi-Sonbarsa four-laning project approved in August 2026, consider the following statements:\n1. The Government contributes about 40 per cent of the project cost during the construction period, and the developer arranges the balance.\n2. The developer collects toll from users during the operations period to recover its investment.\n3. The Sonbarsa end of this corridor lies on the India-Nepal border.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 3 only",
+      "(d) 1 and 3 only"
+    ],
+    "answer": "(d)",
+    "explanation": "Under the Hybrid Annuity Model the government funds about 40 per cent of the project cost during construction in milestone-linked instalments, while the concessionaire arranges the remaining 60 per cent and recovers it through annuity payments with interest during the operations period. Tolling rights remain with the government/NHAI rather than the developer, so traffic risk is not transferred and statement 2 is incorrect. The CCEA approval of 19 August 2026 covers upgradation of the 82.578 km Muzaffarpur-Sitamarhi-Sonbarsa section of NH-22 in Bihar at a cost of Rs 3,590.73 crore; Sonbarsa is an India-Nepal border point linked through this corridor to Muzaffarpur on NH-27, the East-West Corridor.",
+    "subject": "Economy",
+    "theme": "Infrastructure and public-private partnership models",
+    "micro_topic": "Hybrid Annuity Model and 4-laning of NH-22 Muzaffarpur-Sitamarhi-Sonbarsa section",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  }
+]
