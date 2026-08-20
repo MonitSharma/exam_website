@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the Supreme Court's August 2026 verdict on the definition of \"industry\", consider the following statements:\n1. The verdict was delivered by a nine-judge Constitution Bench, which upheld the broad interpretation laid down in the Bangalore Water Supply and Sewerage Board case of 1978.\n2. The 1978 judgment had been delivered by a five-judge Bench of the Supreme Court.\n3. The Court held that future disputes will be governed by the Industrial Relations Code, 2020, which is to be interpreted on the basis of its own text and context.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "The August 2026 verdict was delivered by a nine-judge Constitution Bench headed by Chief Justice Surya Kant, which upheld by majority the broad meaning of 'industry' laid down in Bangalore Water Supply and Sewerage Board v. A. Rajappa. Statement 2 is incorrect: the 1978 judgment, delivered on 21 February 1978, was by a seven-judge Bench, not a five-judge Bench. The Court expressly held that future disputes will fall under the Industrial Relations Code, 2020, to be interpreted on its own text and context, and that the Bangalore Water Supply ratio will not govern that interpretation.",
+    "subject": "Polity & Governance",
+    "theme": "Judiciary and statutory interpretation",
+    "micro_topic": "Nine-judge Bench on the definition of 'industry' under the Industrial Disputes Act, 1947 and the Industrial Relations Code, 2020",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Consider the following statements regarding the PM Surya Ghar: Muft Bijli Yojana:\n1. It is implemented by the Ministry of Power.\n2. It aims to provide up to 300 units of free electricity per month to one crore households.\n3. It targets 30 GW of rooftop solar capacity by 2026-27.\n4. The 'Get Solar in 60 Secs' platform launched in August 2026 estimates the suitable rooftop plant capacity for a household on the basis of inputs including its previous month's electricity bill and sanctioned load.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 1 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "answer": "(b)",
+    "explanation": "PM Surya Ghar: Muft Bijli Yojana is implemented by the Ministry of New and Renewable Energy (MNRE), not the Ministry of Power, so statement 1 is incorrect. Launched on 29 February 2024, the scheme targets 1 crore households with up to 300 units of free electricity per month and 30 GW of rooftop solar capacity by 2026-27, expected to generate about 1,000 billion units of clean electricity and avoid roughly 720 million tonnes of carbon dioxide over its lifetime. The 'Get Solar in 60 Secs' tool launched by MNRE takes the user's name, phone number, State, district, previous month's electricity bill and sanctioned load, and returns an estimate of the ideal plant capacity, cost and financial benefit. Over 50 lakh households have been covered so far.",
+    "subject": "Environment",
+    "theme": "Renewable energy and energy transition",
+    "micro_topic": "PM Surya Ghar: Muft Bijli Yojana and the 'Get Solar in 60 Secs' platform",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to India-Japan defence cooperation, consider the following pairs:\n1. Dharma Guardian — Army exercise\n2. Veer Guardian — Air Force exercise\n3. MAHASAGAR — India's maritime vision for the wider Indian Ocean and adjoining regions\n4. Free and Open Indo-Pacific — Japan's initiative\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) Only three",
+      "(d) All four"
+    ],
+    "answer": "(d)",
+    "explanation": "All four pairs are correctly matched. Dharma Guardian is the India-Japan Army exercise and Veer Guardian is the Air Force exercise, while the bilateral maritime exercise is JIMEX/JAIMEX. MAHASAGAR stands for Mutual and Holistic Advancement for Security and Growth Across Regions and is India's maritime vision, the successor framing to SAGAR. Free and Open Indo-Pacific (FOIP) is Japan's initiative. At the India-Japan Defence Ministers' Meeting in New Delhi on 20 August 2026, Rajnath Singh and Shinjiro Koizumi described the alignment between MAHASAGAR and FOIP as more important than ever and signed a Memorandum of Arrangement on Maritime Security Cooperation.",
+    "subject": "International Relations",
+    "theme": "India-Japan bilateral relations and the Indo-Pacific",
+    "micro_topic": "India-Japan Defence Ministers' Meeting 2026 and the MoA on Maritime Security Cooperation",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]
