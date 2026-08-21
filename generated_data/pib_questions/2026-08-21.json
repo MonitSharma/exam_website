@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the Union Cabinet's August 2026 decision on judicial infrastructure in Ladakh, consider the following statements:\n1. The Cabinet approved the establishment of a bench of the High Court of Jammu & Kashmir and Ladakh in the Union Territory of Ladakh.\n2. Once established, it will be the third bench of that High Court, in addition to Srinagar and Jammu.\n3. Under the Jammu and Kashmir Reorganisation Act, 2019, the Union Territory of Ladakh was provided with a separate High Court of its own.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Statements 1 and 2 are correct: on 20 August 2026 the Union Cabinet cleared a bench of the High Court of Jammu & Kashmir and Ladakh in Ladakh, which will be its third bench after Srinagar and Jammu. Statement 3 is incorrect — the Jammu and Kashmir Reorganisation Act, 2019 provided a common High Court for both successor Union Territories; Ladakh has no separate High Court of its own, which is precisely why a bench was required.",
+    "subject": "Polity & Governance",
+    "theme": "Judiciary",
+    "micro_topic": "High Courts and benches; Union Territories",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to makhana and the National Makhana Board, consider the following statements:\n1. Makhana is obtained from the aquatic plant Euryale ferox, and India is the world's largest producer of it.\n2. The National Makhana Board is headquartered at Purnea in Bihar and implements a Central Sector Scheme with an outlay of about Rs. 476 crore.\n3. The National Research Centre for Makhana is located at Darbhanga, Bihar.\n4. \"Mithila Makhana\" has been accorded a Geographical Indication tag.\nHow many of the statements given above are correct?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) Only three",
+      "(d) All four"
+    ],
+    "answer": "(d)",
+    "explanation": "All four are correct. Makhana (fox nut) comes from the aquatic plant Euryale ferox and India accounts for roughly 80% of world output. The National Makhana Board, inaugurated at Purnea, Bihar in September 2025, is headquartered there and runs a Rs. 476.03 crore Central Sector Scheme for 2025-26 to 2030-31. The National Research Centre for Makhana is at Darbhanga, and Mithila Makhana holds a GI tag. A PIB backgrounder of 19 August 2026 placed 2025-26 output at 80,590 tonnes, up 26.1% year-on-year.",
+    "subject": "Agriculture",
+    "theme": "Cropping and value addition",
+    "micro_topic": "Makhana sector and National Makhana Board",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the \"Guide to Grasslands and Other Open Natural Ecosystems (ONEs) of India\" launched in August 2026, consider the following statements:\n1. It was launched at the 17th session of the Conference of the Parties to the United Nations Convention to Combat Desertification, held at Ulaanbaatar, Mongolia.\n2. It classifies 24 ecosystem types and covers grasslands, savannas, scrublands, rocky plateaus and ravines.\n3. The United Nations Convention to Combat Desertification is one of the three Rio Conventions that emerged from the 1992 Earth Summit.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. India's first Guide to Grasslands and Other Open Natural Ecosystems, prepared by ATREE with the Ministry of Environment, Forest and Climate Change, was launched on 17 August 2026 at UNCCD COP17 in Ulaanbaatar, Mongolia (theme: 'Restoring Land, Restoring Hope'), and classifies 24 ecosystem types. The UNCCD, adopted in 1994, is one of the three Rio Conventions arising from the 1992 Earth Summit, along with the UNFCCC and the Convention on Biological Diversity.",
+    "subject": "Environment",
+    "theme": "Conservation and international conventions",
+    "micro_topic": "Open Natural Ecosystems; UNCCD COP17",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to the honorary rank of General exchanged between the Indian Army and the Nepali Army, consider the following statements:\n1. The practice began in 1950 when Gen K.M. Cariappa was conferred the honorary rank of General of the Nepal Army.\n2. The honorary rank vests the recipient with operational command authority over specified formations of the other country's army.\n3. The practice is reciprocal, with the serving Army Chiefs of both countries being conferred the rank by the other country.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "The tradition began in 1950 with Gen K.M. Cariappa being made an Honorary General of the Nepal Army, reciprocated the same year for Nepal's Gen Kiran Shumsher Jung Bahadur Rana, and it continues for serving chiefs of both armies. Statement 2 is wrong: the rank is purely ceremonial and confers no command or authority over the other country's army.",
+    "subject": "International Relations",
+    "theme": "India and its Neighbourhood",
+    "micro_topic": "India-Nepal defence and military-to-military ties",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Advanced Medium Combat Aircraft (AMCA) programme, recently in the news, is:",
+    "options": [
+      "(a) a fourth-generation-plus multirole fighter being developed by HAL as a Tejas successor, managed by the Directorate General of Aeronautical Quality Assurance",
+      "(b) a fifth-generation stealth multirole fighter for the Indian Air Force, managed by the Aeronautical Development Agency",
+      "(c) a twin-engine deck-based naval fighter being developed jointly by ADA and the Indian Navy for INS Vikrant",
+      "(d) an unmanned combat aerial vehicle programme of the Gas Turbine Research Establishment"
+    ],
+    "answer": "(b)",
+    "explanation": "AMCA is India's fifth-generation stealth multirole fighter for the Indian Air Force, incorporating stealth shaping, supercruise and AI-assisted avionics. It is managed by the Aeronautical Development Agency (ADA), an autonomous body under the Department of Defence R&D, Ministry of Defence.",
+    "subject": "Science & Technology",
+    "theme": "Defence Technology",
+    "micro_topic": "AMCA fifth-generation fighter programme",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The recently announced Reliance Industries-Rolls-Royce arrangement for an indigenous combat aero-engine is best described as:",
+    "options": [
+      "(a) a signed production contract awarding the AMCA engine programme to the two firms",
+      "(b) a declaration of strategic intent to partner, with the Government yet to select a foreign technology partner for the high-thrust engine",
+      "(c) a government-to-government agreement between India and the United Kingdom for transfer of engine technology",
+      "(d) a joint venture cleared by the Cabinet Committee on Security to replace the Kaveri programme"
+    ],
+    "answer": "(b)",
+    "explanation": "On 14 August 2026 RIL and Rolls-Royce announced only a strategic intent to partner on designing, developing and manufacturing a sovereign combat engine, including exploring an Aerospace Gas Turbine Complex in India. No award has been made; a rival Safran-GTRE proposal for the high-thrust AMCA engine remains under government consideration.",
+    "subject": "Science & Technology",
+    "theme": "Defence Production and Indigenisation",
+    "micro_topic": "AMCA engine partnership",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Hybrid Annuity Model (HAM) used in India's national highway projects, consider the following statements:\n1. The Government funds a part of the project cost during the construction phase, with the balance paid to the concessionaire as annuities over the concession period.\n2. Under HAM, the risk arising from lower-than-projected traffic is borne by the private concessionaire and not by the authority.\n3. The Muzaffarpur-Sitamarhi-Sonbarsa section of NH-22, recently approved for four-laning, is to be developed under HAM.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "Under HAM the authority funds a share of construction cost (commonly 40%) in instalments and pays the balance as annuities with interest. Statement 2 is wrong: HAM's defining feature is that traffic/toll risk stays with the authority (NHAI), unlike BOT-Toll. The 82.578-km Muzaffarpur-Sitamarhi-Sonbarsa four-laning on NH-22 in Bihar was approved under HAM.",
+    "subject": "Economy",
+    "theme": "Infrastructure and PPP",
+    "micro_topic": "Hybrid Annuity Model in highway development",
+    "nature": "Conceptual",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Consider the following statements regarding the Scheme for Economic Empowerment of De-notified, Nomadic and Semi-Nomadic Communities (SEED):\n1. It is implemented by the Development and Welfare Board for De-notified, Nomadic and Semi-Nomadic Communities under the Ministry of Tribal Affairs.\n2. Its components include free coaching for competitive examinations, health insurance, livelihood support and housing assistance.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 only",
+      "(c) Both 1 and 2",
+      "(d) Neither 1 nor 2"
+    ],
+    "answer": "(b)",
+    "explanation": "SEED, launched on 15 February 2022 with an outlay of Rs 200 crore over five years, has four components: free competitive-exam coaching, health insurance, livelihood support and housing. Statement 1 is wrong on the ministry: the DWBDNC and SEED are under the Ministry of Social Justice & Empowerment, not the Ministry of Tribal Affairs.",
+    "subject": "Society",
+    "theme": "Welfare of Vulnerable Sections",
+    "micro_topic": "SEED scheme for DNT/NT/SNT communities",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements about De-notified Tribes in India:\n1. The expression 'de-notified' derives from the repeal, in 1952, of the Criminal Tribes Act under which entire communities had been notified as criminal.\n2. The National Commission for De-notified, Nomadic and Semi-Nomadic Tribes chaired by Bhiku Ramji Idate submitted its report in 2017.\n3. The Development and Welfare Board for De-notified, Nomadic and Semi-Nomadic Communities is a constitutional body established on the lines of the National Commission for Scheduled Tribes.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "The Criminal Tribes Act, 1871 branded whole communities criminal by birth and was repealed in 1952, when they were 'de-notified'. The Idate Commission, constituted in January 2015, submitted its report in December 2017 listing over 1,200 communities. Statement 3 is wrong: the DWBDNC (constituted February 2019) is an executive/administrative body, whereas the NCST is a constitutional body under Article 338A.",
+    "subject": "Society",
+    "theme": "Social Exclusion and Marginalised Communities",
+    "micro_topic": "Denotified tribes - commissions and institutional status",
+    "nature": "Factual",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "With reference to the promotion of drone use in Indian agriculture, consider the following statements:\n1. The Drone Rules, 2021 were notified by the Ministry of Civil Aviation and provide for a Digital Sky platform for registration and permissions.\n2. Under the 'Namo Drone Didi' scheme, drones are provided to women Self-Help Groups under DAY-NRLM to offer rental services to farmers.\n3. Under the Sub-Mission on Agricultural Mechanization, small and marginal, SC/ST, women and North-Eastern farmers are eligible for a higher rate of drone subsidy than other farmers.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "Drone Rules, 2021 are a Ministry of Civil Aviation instrument operating through the Digital Sky platform. Namo Drone Didi is a Central Sector Scheme (outlay Rs 1,261 crore) supplying drones to 14,500 women SHGs under DAY-NRLM at 80% subsidy up to Rs 8 lakh for rental services. Under SMAM, small and marginal, SC/ST, women and North-Eastern farmers get 50% subsidy up to Rs 5 lakh against 40% up to Rs 4 lakh for others.",
+    "subject": "Agriculture",
+    "theme": "Farm Mechanisation and Technology",
+    "micro_topic": "Agricultural drones - Drone Rules 2021, Namo Drone Didi, SMAM",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  }
+]
