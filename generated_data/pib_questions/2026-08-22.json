@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the measures announced in August 2026 to moderate sugar prices, consider the following statements:\n1. A stock limit of 400 tonnes has been imposed on sugar dealers across the country.\n2. Bulk consumers have been permitted to hold sugar stocks of up to 15 days of consumption, reduced from an earlier limit of 30 days.\n3. The Government permitted duty-free import of raw sugar as a precautionary supply-side measure.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct: the 400-tonne dealer stock limit runs 1 August-30 November 2026, the bulk-consumer holding cap was halved from 30 days to 15 days with effect from 1 September 2026, and duty-free import of 10 LMT of raw sugar was permitted as a precaution.",
+    "subject": "Economy",
+    "theme": "Inflation and Price Management",
+    "micro_topic": "Sugar stock limits and Essential Commodities regulation",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "'Mangrol', in the news recently, is:",
+    "options": [
+      "(a) A nuclear-powered ballistic missile submarine commissioned into the Indian Navy",
+      "(b) An Anti-Submarine Warfare Shallow Water Craft delivered to the Indian Navy by Cochin Shipyard Limited",
+      "(c) An offshore patrol vessel delivered to the Indian Coast Guard by Goa Shipyard Limited",
+      "(d) An indigenous survey vessel of the National Institute of Ocean Technology"
+    ],
+    "answer": "(b)",
+    "explanation": "'Mangrol' is the third of eight indigenously designed Anti-Submarine Warfare Shallow Water Craft (ASW-SWC), delivered by Cochin Shipyard Limited to the Indian Navy on 21 August 2026 with about 80% indigenous content.",
+    "subject": "Internal Security",
+    "theme": "Defence Indigenisation",
+    "micro_topic": "Anti-Submarine Warfare Shallow Water Craft and naval shipbuilding",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the recent restriction on Fixed Dose Combinations (FDCs) containing Chlorpheniramine Maleate and Phenylephrine Hydrochloride, consider the following statements:\n1. The restriction applies to the use of such FDCs in children below four years of age.\n2. The notification was issued under Section 26A of the Drugs and Cosmetics Act, 1940.\n3. The measure followed the recommendation of the Drugs Technical Advisory Board.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "The Health Ministry restricted the manufacture, sale and distribution of these FDCs for children below four years, acting under Section 26A of the Drugs and Cosmetics Act, 1940, on the recommendation of an expert committee and the Drugs Technical Advisory Board (DTAB).",
+    "subject": "Polity & Governance",
+    "theme": "Regulatory Bodies and Health Governance",
+    "micro_topic": "Drugs and Cosmetics Act 1940, DTAB and FDC regulation",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]

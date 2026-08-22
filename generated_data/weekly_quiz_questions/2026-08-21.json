@@ -1,0 +1,706 @@
+[
+  {
+    "id": "weekly_quiz_2026_08_21_1",
+    "question_number": 1,
+    "question": "In his 80th Independence Day address, the PM unveiled the \"Shakti ki Sapt Dhara\" (Seven Streams of Strength) framework for Viksit Bharat. Which of the following is NOT one of the seven *dharas*?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Raksha Shakti (Defence)"
+      },
+      {
+        "key": "b",
+        "text": "Green & Blue Economy"
+      },
+      {
+        "key": "c",
+        "text": "Jan Dhan Shakti (Financial Inclusion)"
+      },
+      {
+        "key": "d",
+        "text": "Soft Power"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The seven *dharas* are Manufacturing; Agriculture & Food Processing; Technology & Innovation; Gati-Shakti (logistics); Raksha Shakti (defence); Green & Blue Economy; and Soft Power. \"Jan Dhan Shakti\" is not one of them.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_21_2",
+    "question_number": 2,
+    "question": "With reference to India's merchandise trade data for July 2026, consider the following:",
+    "statements": [
+      "Merchandise exports at USD 44.24 billion were the highest ever recorded for any July.",
+      "The overall (goods + services) trade deficit was larger than the merchandise trade deficit for the month.",
+      "A net services surplus narrowed the overall trade deficit relative to the goods deficit."
+    ],
+    "tail": "Which of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Exports of USD 44.24 bn were a record for any July; a net services surplus (~USD 17 bn) cut the overall deficit to ~USD 15 bn — *smaller*, not larger, than the goods deficit of ~USD 32 bn. So statement 2 is wrong.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_21_3",
+    "question_number": 3,
+    "question": "The Foreign Assets of Small Taxpayers – Disclosure Scheme (FAST-DS) came into force this week. Which one of the following is correct?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "It was introduced through Chapter IV of the Finance Act, 2026, and grants valid declarants immunity from penalty and prosecution under the Black Money Act, 2015."
+      },
+      {
+        "key": "b",
+        "text": "It is open-ended, with no closing date for declarations."
+      },
+      {
+        "key": "c",
+        "text": "It applies only to foreign assets exceeding Rs 100 crore."
+      },
+      {
+        "key": "d",
+        "text": "It was notified by the RBI under FEMA, 1999."
+      }
+    ],
+    "answer": "a",
+    "explanation": "FAST-DS sits in Chapter IV of the Finance Act, 2026, closes on 31 December 2026, targets *small* undisclosed foreign assets (Category 1 ≤ Rs 1 crore), and grants valid declarants immunity from penalty/prosecution under the Black Money Act, 2015.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_21_4",
+    "question_number": 4,
+    "question": "With reference to the Index of Core Industries (ICI) for July 2026, consider the following:",
+    "statements": [
+      "The core sector carries roughly 40% weight in the Index of Industrial Production (IIP).",
+      "With the recent base-year revision, the series is published with base year 2022-23.",
+      "Core-sector growth in July 2026 accelerated relative to June 2026."
+    ],
+    "tail": "Which of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The core sector carries ~40% weight in the IIP and now uses base year 2022-23. Growth *eased* to 5.4% in July from 6.0% in June — so statement 3 is wrong. *(The eight core industries are coal, crude oil, natural gas, refinery products, fertilisers, steel, cement and electricity.)*",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_21_5",
+    "question_number": 5,
+    "question": "S. Somanath and Anand Mahindra were appointed to the Central Board of the RBI this week. The Central Board of the RBI is constituted under which of the following?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "The Banking Regulation Act, 1949"
+      },
+      {
+        "key": "b",
+        "text": "The Reserve Bank of India Act, 1934"
+      },
+      {
+        "key": "c",
+        "text": "Article 280 of the Constitution"
+      },
+      {
+        "key": "d",
+        "text": "The Government Securities Act, 2006"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The RBI's Central Board is constituted under the Reserve Bank of India Act, 1934. Somanath and Mahindra were appointed part-time non-official directors.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_21_6",
+    "question_number": 6,
+    "question": "The Container Manufacturing Assistance Scheme (CMAS) was pushed by the government this week. Which one of the following is correct?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "It is a Rs 10,000-crore, five-year scheme of the Ministry of Ports, Shipping and Waterways to build a domestic shipping-container manufacturing base."
+      },
+      {
+        "key": "b",
+        "text": "It is a Ministry of Commerce scheme to subsidise container exports."
+      },
+      {
+        "key": "c",
+        "text": "It funds semiconductor packaging units."
+      },
+      {
+        "key": "d",
+        "text": "It is administered by the Ministry of Railways for freight wagons."
+      }
+    ],
+    "answer": "a",
+    "explanation": "CMAS is a Rs 10,000-crore, five-year scheme of the Ministry of Ports, Shipping and Waterways to build a domestic shipping-container manufacturing ecosystem (~7.5 lakh TEUs near-term), reducing import dependence on China.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_21_7",
+    "question_number": 7,
+    "question": "India and the Southern African Customs Union (SACU) signed Terms of Reference to open PTA negotiations. Consider the following:",
+    "statements": [
+      "SACU is the world's oldest existing customs union.",
+      "All SACU member states are landlocked.",
+      "SACU comprises South Africa, Botswana, Namibia, Lesotho and Eswatini."
+    ],
+    "tail": "Which of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "SACU (est. 1910; HQ Windhoek) is the world's oldest existing customs union, comprising South Africa, Botswana, Namibia, Lesotho and Eswatini (B-L-E-N-S). Not all are landlocked — South Africa and Namibia have coasts — so statement 2 is wrong.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_21_8",
+    "question_number": 8,
+    "question": "India launched its first Guide to Grasslands and Other Open Natural Ecosystems (ONEs) at UNCCD COP17 this week. Consider the following:",
+    "statements": [
+      "The UNCCD is one of the three Rio Conventions, alongside the UNFCCC and the CBD.",
+      "India hosted UNCCD COP14 in New Delhi in 2019.",
+      "COP17 was held in Riyadh, Saudi Arabia."
+    ],
+    "tail": "Which of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The UNCCD is one of the three Rio Conventions (with UNFCCC and CBD) and India hosted COP14 (New Delhi, 2019). COP17 was at Ulaanbaatar, Mongolia (Riyadh hosted COP16 in 2024) — so statement 3 is wrong.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_21_9",
+    "question_number": 9,
+    "question": "A CAG performance audit of the National Mission for a Green India (GIM) was in the news. Consider the following:",
+    "statements": [
+      "GIM is one of the eight missions under the National Action Plan on Climate Change (NAPCC).",
+      "The exercise was a performance audit conducted by the Comptroller and Auditor General.",
+      "GIM is a Central Sector Scheme funded entirely by the Union government."
+    ],
+    "tail": "Which of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "GIM is one of the eight NAPCC missions, and the CAG conducted a performance audit finding a 97.57% shortfall. GIM is a Centrally Sponsored Scheme (shared funding), not a Central Sector Scheme — so statement 3 is wrong.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_21_10",
+    "question_number": 10,
+    "question": "With reference to Iran and the New Development Bank (NDB) in the news this week, consider the following:",
+    "statements": [
+      "The NDB is headquartered in Shanghai.",
+      "Iran's membership of BRICS automatically confers membership of the NDB.",
+      "The first President of the NDB was K. V. Kamath of India."
+    ],
+    "tail": "Which of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The NDB is headquartered in Shanghai, and its first President was K. V. Kamath (India). NDB accession is *separate* from BRICS membership — Iran joined BRICS in 2024 but must still complete NDB accession — so statement 2 is wrong.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_21_11",
+    "question_number": 11,
+    "question": "A nine-judge Constitution Bench ruled this week on the definition of \"industry\". Consider the following:",
+    "statements": [
+      "The original *Bangalore Water Supply* ruling (1978) was delivered by a seven-judge Bench.",
+      "The nine-judge Bench held that its broad interpretation will also govern the Industrial Relations Code, 2020.",
+      "The broad definition applies wherever an employer–employee relationship exists under the Industrial Disputes Act, 1947."
+    ],
+    "tail": "Which of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The 1978 *Bangalore Water Supply* ruling was by a seven-judge Bench, and the broad \"industry\" test applies wherever an employer–employee relationship exists under the ID Act, 1947. The nine-judge Bench expressly ruled the Industrial Relations Code, 2020 must be read on its own terms — so statement 2 is wrong.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_21_12",
+    "question_number": 12,
+    "question": "SraVaani-1.0, released this week, is best described as:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "An automatic speech-recognition (ASR) model covering 65 Indian languages and dialects, developed by IISc's SPIRE Lab with ARTPARK and Google."
+      },
+      {
+        "key": "b",
+        "text": "A machine-translation platform launched by MeitY for e-governance."
+      },
+      {
+        "key": "c",
+        "text": "An indigenous large language model (LLM) under the IndiaAI Mission."
+      },
+      {
+        "key": "d",
+        "text": "A satellite-based navigation augmentation system."
+      }
+    ],
+    "answer": "a",
+    "explanation": "SraVaani-1.0 is a multilingual ASR model (20 scheduled + 45 regional = 65 languages/dialects) from IISc's SPIRE Lab with ARTPARK and Google, released openly on Hugging Face (built on Project Vaani).",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_21_13",
+    "question_number": 13,
+    "question": "Which one of the following correctly defines the Primary Deficit?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Fiscal Deficit − Interest payments"
+      },
+      {
+        "key": "b",
+        "text": "Revenue Expenditure − Revenue Receipts"
+      },
+      {
+        "key": "c",
+        "text": "Fiscal Deficit − Revenue Deficit"
+      },
+      {
+        "key": "d",
+        "text": "Total Expenditure − Total Receipts (including borrowings)"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Primary Deficit = Fiscal Deficit − Interest payments (it strips out past interest liabilities to show the *current year's* fresh borrowing need).",
+    "subject": "Economy",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_21_14",
+    "question_number": 14,
+    "question": "Which one of the following is recorded under the current account of India's Balance of Payments?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Foreign Direct Investment (FDI)"
+      },
+      {
+        "key": "b",
+        "text": "Foreign Portfolio Investment (FPI)"
+      },
+      {
+        "key": "c",
+        "text": "Private remittances from Indians working abroad"
+      },
+      {
+        "key": "d",
+        "text": "External Commercial Borrowings (ECBs)"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Private remittances (secondary income / transfers) are a current account item. FDI, FPI and ECBs are capital-account flows.",
+    "subject": "Economy",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_21_15",
+    "question_number": 15,
+    "question": "Which one of the following is a qualitative (selective) instrument of monetary policy?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Cash Reserve Ratio (CRR)"
+      },
+      {
+        "key": "b",
+        "text": "Statutory Liquidity Ratio (SLR)"
+      },
+      {
+        "key": "c",
+        "text": "Moral suasion"
+      },
+      {
+        "key": "d",
+        "text": "Open Market Operations (OMO)"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Moral suasion is a qualitative/selective tool. CRR, SLR and OMO are quantitative (general) instruments.",
+    "subject": "Economy",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_21_16",
+    "question_number": 16,
+    "question": "With reference to measures of money supply, consider the following:",
+    "statements": [
+      "M1 is referred to as \"narrow money\".",
+      "M3 (\"broad money\") includes time deposits with the banking system.",
+      "M1 is the least liquid of the money-supply measures."
+    ],
+    "tail": "Which of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "M1 is narrow money (most liquid) and M3 (broad money) adds net time deposits. M1 is the *most* liquid, not the least — so statement 3 is wrong.",
+    "subject": "Economy",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_21_17",
+    "question_number": 17,
+    "question": "With reference to India's monetary policy framework, consider the following:",
+    "statements": [
+      "The RBI targets headline Consumer Price Index (Combined) inflation.",
+      "The inflation target is 4% with a tolerance band of +/− 2%.",
+      "The CPI is compiled by the Reserve Bank of India."
+    ],
+    "tail": "Which of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The RBI targets headline CPI (Combined) at 4% ±2% (retained for 2026–2031; new CPI base year 2024). The CPI is compiled by the NSO/MoSPI, not the RBI — so statement 3 is wrong.",
+    "subject": "Economy",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_21_18",
+    "question_number": 18,
+    "question": "With reference to the Goods and Services Tax (GST), consider the following:",
+    "statements": [
+      "The GST Council is a constitutional body established under Article 279A.",
+      "Alcohol for human consumption is currently outside the ambit of GST.",
+      "GST is an origin-based tax levied on the production of goods."
+    ],
+    "tail": "Which of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The GST Council is a constitutional body under Article 279A, and alcohol for human consumption is constitutionally excluded from GST. GST is a destination-based consumption tax, not an origin/production tax — so statement 3 is wrong.",
+    "subject": "Economy",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_21_19",
+    "question_number": 19,
+    "question": "Which one of the following relationships among national-income aggregates is correct?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "GNP = GDP + Net factor income from abroad"
+      },
+      {
+        "key": "b",
+        "text": "NNP = GNP + Depreciation"
+      },
+      {
+        "key": "c",
+        "text": "GDP = GNP + Net factor income from abroad"
+      },
+      {
+        "key": "d",
+        "text": "National Income = GDP at market prices"
+      }
+    ],
+    "answer": "a",
+    "explanation": "GNP = GDP + Net factor income from abroad. (NNP = GNP − Depreciation; NNP at factor cost = National Income.)",
+    "subject": "Economy",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_08_21_20",
+    "question_number": 20,
+    "question": "With reference to the FRBM Act, 2003 and fiscal management, consider the following:",
+    "statements": [
+      "The FRBM Act was enacted in 2003.",
+      "The N. K. Singh Committee recommended using the debt-to-GDP ratio as the medium-term fiscal anchor.",
+      "The Act mandates the RBI to finance the government's fiscal deficit through ad hoc treasury bills."
+    ],
+    "tail": "Which of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The FRBM Act was enacted in 2003, and the N. K. Singh Committee recommended a debt-to-GDP anchor (60% general govt). The Act did *not* mandate RBI deficit financing via ad hoc T-bills — those were phased out in 1997 — so statement 3 is wrong. RP1. Because a large net services surplus (services exports ≫ services imports, plus remittances/invisibles) offset most of the goods trade gap — the classic reason India's current account stays manageable despite a big merchandise deficit. RP2. GDP and IIP → 2022-23; CPI → 2024 (base 2024=100); Index of Core Industries → 2022-23 (WPI is also being moved to a 2022-23 base). --- *Next week's static subject: Modern History. Scoring guide: 16–20 strong recall · 11–15 revise weak areas · ≤10 re-read this week's CA + PIB digests and your Economy notes.* *Note (auto-generated run): current-affairs questions are drawn from your daily CA/PIB briefings for 15–21 August 2026; static Economy facts and the CPI/WPI/GDP base-year updates were cross-checked against public sources.*",
+    "subject": "Economy",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  }
+]
