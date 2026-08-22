@@ -13,6 +13,51 @@ const CATCHUP_GS_LABEL = {
   GS4: "GS4 · Ethics, Integrity & Aptitude",
 };
 
+// Parse a model-essay note into a learning scaffold: the topic, its type, the
+// step-by-step structure map, and the reusable fodder — so the essay can be
+// studied as "how to build one" rather than just read.
+function stripMd(s) {
+  return String(s || "").replace(/\*\*/g, "").replace(/\*/g, "").replace(/`/g, "").replace(/\s+/g, " ").trim();
+}
+
+function parseEssaySection(text, heading) {
+  const re = new RegExp(`^##\\s+${heading}\\s*$`, "im");
+  const m = text.match(re);
+  if (!m) return [];
+  const rest = text.slice(m.index + m[0].length);
+  const end = rest.search(/^##\s+/m);
+  const body = end >= 0 ? rest.slice(0, end) : rest;
+  const items = [];
+  for (const line of body.split(/\r?\n/)) {
+    const li = line.match(/^\s*(?:\d+\.|[-*])\s+(.*)$/);
+    if (!li) continue;
+    const rawItem = li[1].trim();
+    // Split a leading bold lead ("**Title** — body") into title + body.
+    const lead = rawItem.match(/^\*\*(.+?)\*\*\s*[—:-]?\s*(.*)$/);
+    if (lead) items.push({ title: stripMd(lead[1]), text: stripMd(lead[2]) });
+    else items.push({ title: "", text: stripMd(rawItem) });
+  }
+  return items;
+}
+
+function parseEssay(content) {
+  const text = String(content || "");
+  const h1 = (text.match(/^#\s+(.*)$/m) || [])[1] || "";
+  const quoted = h1.match(/[“”"]([^“”"]+)[“”"]/);
+  const topic = quoted ? quoted[1].trim() : stripMd(h1.replace(/^Model Essay\s*[—:-]\s*/i, ""));
+  const typeLine = (text.match(/Topic type:\s*([^*\n]+)/i) || [])[1] || "";
+  const type = stripMd(typeLine).replace(/\.$/, "");
+  const wc = text.match(/~?([\d,]{2,6})\s*words/i);
+  const words = wc ? wc[1].replace(/,/g, "") : "";
+  return {
+    topic,
+    type,
+    words: words ? Number(words) : null,
+    structure: parseEssaySection(text, "Structure map"),
+    fodder: parseEssaySection(text, "Reusable fodder"),
+  };
+}
+
 // Pull the daily Mains prompt out of the last column of a Sunday-Sweep day row.
 // Returns { gs, text, words } or null when the cell has no answer-writing task.
 function extractMainsQuestion(cell) {
@@ -73,6 +118,10 @@ function CatchUpScreen({ go, progress, onDismiss, onRestore, onMarkDone, onUndoD
   const [showCleared, setShowCleared] = useCatchUpState(false);
   const [showWritten, setShowWritten] = useCatchUpState(false);
   const [mainsQuestions, setMainsQuestions] = useCatchUpState([]);
+  const [openGs, setOpenGs] = useCatchUpState({});
+  const [essays, setEssays] = useCatchUpState([]);
+  const [openEssay, setOpenEssay] = useCatchUpState(null);
+  const toggleGs = (gs) => setOpenGs((m) => ({ ...m, [gs]: !m[gs] }));
 
   // Daily Mains prompts live inside the weekly Sunday-Sweep notes (last column
   // of each day). Load and parse them once so they can be tracked by GS paper.
@@ -102,6 +151,21 @@ function CatchUpScreen({ go, progress, onDismiss, onRestore, onMarkDone, onUndoD
         }
         out.sort((a, b) => String(b.date).localeCompare(String(a.date)));
         setMainsQuestions(out);
+      });
+    return () => { cancelled = true; };
+  }, [ds.noteDocuments.length]);
+
+  // Model essays — load and parse into a learn-to-write scaffold.
+  useCatchUpEffect(() => {
+    let cancelled = false;
+    const notes = ds.noteDocuments.filter((doc) => doc.cadence === "essay");
+    if (!notes.length) return undefined;
+    Promise.all(notes.map((n) => ds.loadNoteDocument(n.id).then(({ content }) => ({ n, content })).catch(() => null)))
+      .then((results) => {
+        if (cancelled) return;
+        const out = results.filter(Boolean).map((r) => ({ id: r.n.id, date: r.n.date, ...parseEssay(r.content) }));
+        out.sort((a, b) => String(b.date).localeCompare(String(a.date)));
+        setEssays(out);
       });
     return () => { cancelled = true; };
   }, [ds.noteDocuments.length]);
@@ -232,35 +296,105 @@ function CatchUpScreen({ go, progress, onDismiss, onRestore, onMarkDone, onUndoD
               <button className="link-btn" onClick={() => setShowWritten((v) => !v)}>{showWritten ? "Hide written" : "Show written"}</button>
             </div>
           </div>
-          <div className="catchup-mains-grid">
+          <div className="catchup-accordion">
             {mainsGroups.map((group) => {
               const done = group.items.filter((q) => mainsDoneMap[q.id]).length;
               const pct = Math.round((done / group.items.length) * 100);
+              const isOpen = Boolean(openGs[group.gs]);
               const visibleItems = showWritten ? group.items : group.items.filter((q) => !mainsDoneMap[q.id]);
               return (
-                <section key={group.gs} className="catchup-gs">
-                  <header className="catchup-gs-head">
-                    <div><strong>{CATCHUP_GS_LABEL[group.gs] || group.gs}</strong><span>{done} / {group.items.length} written</span></div>
-                    <div className="catchup-gs-bar"><div className="catchup-gs-bar-fill" style={{ width: `${pct}%` }} /></div>
-                  </header>
-                  {visibleItems.length === 0 ? (
-                    <p className="catchup-gs-empty">All {group.items.length} written — nice.</p>
-                  ) : (
-                    <div className="catchup-mains-list">
-                      {visibleItems.map((q) => {
-                        const isDone = Boolean(mainsDoneMap[q.id]);
-                        return (
-                          <div key={q.id} className={`catchup-mainsq${isDone ? " is-done" : ""}`}>
-                            <button className={`catchup-mainsq-check${isDone ? " on" : ""}`} onClick={() => (isDone ? onUndoDone(q.id) : onMarkDone(q.id))} aria-label={isDone ? "Mark not done" : "Mark done"}>
-                              {isDone && <Icon name="check" size={13} />}
-                            </button>
-                            <div className="catchup-mainsq-body">
-                              <span className="catchup-mainsq-meta">{catchUpDateLabel(q.date)} · {q.words}-word</span>
-                              <p>{q.text}</p>
+                <section key={group.gs} className={`catchup-drop${isOpen ? " open" : ""}`}>
+                  <button className="catchup-drop-head" onClick={() => toggleGs(group.gs)} aria-expanded={isOpen}>
+                    <Icon name="chevR" size={15} />
+                    <span className="catchup-drop-title">{CATCHUP_GS_LABEL[group.gs] || group.gs}</span>
+                    <span className="catchup-drop-count">{done} / {group.items.length}</span>
+                    <span className="catchup-drop-bar"><span className="catchup-drop-bar-fill" style={{ width: `${pct}%` }} /></span>
+                  </button>
+                  {isOpen && (
+                    visibleItems.length === 0 ? (
+                      <p className="catchup-gs-empty">All {group.items.length} written — nice. <button className="linklike" onClick={() => setShowWritten(true)}>Show them</button></p>
+                    ) : (
+                      <div className="catchup-mains-list">
+                        {visibleItems.map((q) => {
+                          const isDone = Boolean(mainsDoneMap[q.id]);
+                          return (
+                            <div key={q.id} className={`catchup-mainsq${isDone ? " is-done" : ""}`}>
+                              <button className={`catchup-mainsq-check${isDone ? " on" : ""}`} onClick={() => (isDone ? onUndoDone(q.id) : onMarkDone(q.id))} aria-label={isDone ? "Mark not done" : "Mark done"}>
+                                {isDone && <Icon name="check" size={13} />}
+                              </button>
+                              <div className="catchup-mainsq-body">
+                                <span className="catchup-mainsq-meta">{catchUpDateLabel(q.date)} · {q.words}-word</span>
+                                <p>{q.text}</p>
+                              </div>
                             </div>
-                          </div>
-                        );
-                      })}
+                          );
+                        })}
+                      </div>
+                    )
+                  )}
+                </section>
+              );
+            })}
+          </div>
+        </section>
+      )}
+
+      {essays.length > 0 && (
+        <section className="catchup-mains catchup-essays">
+          <div className="catchup-mains-head">
+            <div>
+              <h2>Learn to write essays</h2>
+              <p>Each week's model essay, opened up so you can study the moves before you write your own — the topic, how the essay is built paragraph by paragraph, and the quotes and data worth reusing.</p>
+            </div>
+          </div>
+          <div className="catchup-accordion">
+            {essays.map((essay) => {
+              const isOpen = openEssay === essay.id;
+              const practised = Boolean(mainsDoneMap[essay.id]);
+              return (
+                <section key={essay.id} className={`catchup-drop catchup-essay${isOpen ? " open" : ""}`}>
+                  <button className="catchup-drop-head" onClick={() => setOpenEssay(isOpen ? null : essay.id)} aria-expanded={isOpen}>
+                    <Icon name="chevR" size={15} />
+                    <span className="catchup-drop-title">{essay.topic}</span>
+                    {practised && <span className="catchup-essay-practised"><Icon name="check" size={12} /> practised</span>}
+                  </button>
+                  {isOpen && (
+                    <div className="catchup-essay-body">
+                      <div className="catchup-essay-tags">
+                        {essay.type && <Tag tone="indigo" soft>{essay.type}</Tag>}
+                        <span className="catchup-card-date"><Icon name="calendar" size={13} /> {catchUpDateLabel(essay.date)}</span>
+                        {essay.words && <span className="catchup-card-date">~{essay.words} words</span>}
+                      </div>
+
+                      {essay.structure.length > 0 && (
+                        <div className="catchup-essay-block">
+                          <h4>How this essay is built</h4>
+                          <ol className="catchup-essay-structure">
+                            {essay.structure.map((step, i) => (
+                              <li key={i}><strong>{step.title || `Step ${i + 1}`}</strong>{step.text ? <span> — {step.text}</span> : null}</li>
+                            ))}
+                          </ol>
+                        </div>
+                      )}
+
+                      {essay.fodder.length > 0 && (
+                        <div className="catchup-essay-block">
+                          <h4>Fodder worth reusing</h4>
+                          <ul className="catchup-essay-fodder">
+                            {essay.fodder.map((f, i) => (
+                              <li key={i}>{f.title && <strong>{f.title}: </strong>}{f.text}</li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
+
+                      <div className="catchup-essay-actions">
+                        <button className="btn btn-green sm" onClick={() => openCatchUpNote(go, essay.id)}><Icon name="book" size={15} /> Read the full model essay</button>
+                        <button className={`btn ghost sm${practised ? " on" : ""}`} onClick={() => (practised ? onUndoDone(essay.id) : onMarkDone(essay.id))}>
+                          <Icon name="check" size={15} /> {practised ? "Practised" : "Mark practised"}
+                        </button>
+                      </div>
+                      <p className="catchup-essay-tip">Try it first: spend 5 minutes planning your own paragraphs against the structure above, then read the model and compare.</p>
                     </div>
                   )}
                 </section>
