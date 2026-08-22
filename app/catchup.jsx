@@ -2,7 +2,34 @@
 // "Missed" is computed in app/progress.js (getMissedSessions): every dated quiz
 // (except the daily CA quiz and PIB, which live in the home loop) plus offline
 // answer-writing tasks, minus anything completed, marked done or dismissed.
-const { useState: useCatchUpState } = React;
+const { useState: useCatchUpState, useEffect: useCatchUpEffect } = React;
+
+const CATCHUP_WEEKDAYS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+const CATCHUP_GS_ORDER = ["GS1", "GS2", "GS3", "GS4"];
+const CATCHUP_GS_LABEL = {
+  GS1: "GS1 · History, Geography & Society",
+  GS2: "GS2 · Polity, Governance & IR",
+  GS3: "GS3 · Economy, Environment & Sci-Tech",
+  GS4: "GS4 · Ethics, Integrity & Aptitude",
+};
+
+// Pull the daily Mains prompt out of the last column of a Sunday-Sweep day row.
+// Returns { gs, text, words } or null when the cell has no answer-writing task.
+function extractMainsQuestion(cell) {
+  const raw = String(cell || "").trim();
+  if (!raw) return null;
+  const gsMatch = raw.match(/GS\s?-?\s?([1-4])/i);
+  const gs = gsMatch ? `GS${gsMatch[1]}` : (/\bethics\b/i.test(raw) ? "GS4" : null);
+  if (!gs) return null;
+  const wordMatch = raw.match(/(\d{2,3})\s*-?\s*word/i);
+  const words = wordMatch ? Number(wordMatch[1]) : (gs === "GS4" ? 250 : 150);
+  // Prefer the quoted prompt (the last quote handles "Fallback: …" cases).
+  const quotes = [...raw.matchAll(/[“”"]([^“”"]{8,})[“”"]/g)].map((m) => m[1].trim());
+  let text = quotes.length ? quotes[quotes.length - 1] : raw;
+  text = text.replace(/\*\*/g, "").replace(/\*/g, "").replace(/`/g, "").replace(/\s+/g, " ").trim();
+  if (!quotes.length && text.length > 160) text = `${text.slice(0, 157)}…`;
+  return { gs, text, words };
+}
 
 // Metadata for each backlog category. `kind` decides the primary action:
 // "quiz" sets are attempted in-app, "writing" tasks are opened and self-marked.
@@ -44,6 +71,46 @@ function CatchUpScreen({ go, progress, onDismiss, onRestore, onMarkDone, onUndoD
   const ds = window.UPSC;
   const [filter, setFilter] = useCatchUpState("all");
   const [showCleared, setShowCleared] = useCatchUpState(false);
+  const [showWritten, setShowWritten] = useCatchUpState(false);
+  const [mainsQuestions, setMainsQuestions] = useCatchUpState([]);
+
+  // Daily Mains prompts live inside the weekly Sunday-Sweep notes (last column
+  // of each day). Load and parse them once so they can be tracked by GS paper.
+  useCatchUpEffect(() => {
+    let cancelled = false;
+    const sweeps = ds.noteDocuments.filter((doc) => doc.cadence === "sunday");
+    if (!sweeps.length || typeof window.parseWeekPlan !== "function") return undefined;
+    Promise.all(sweeps.map((s) => ds.loadNoteDocument(s.id).then(({ content }) => ({ s, content })).catch(() => null)))
+      .then((results) => {
+        if (cancelled) return;
+        const out = [];
+        for (const r of results) {
+          if (!r) continue;
+          const plan = window.parseWeekPlan(r.content);
+          if (!plan || !plan.days) continue;
+          plan.days.forEach((day, dayIdx) => {
+            const cell = day.cells[day.cells.length - 1];
+            const q = extractMainsQuestion(cell);
+            if (!q) return;
+            const offset = CATCHUP_WEEKDAYS.indexOf(day.weekday);
+            const date = offset >= 0 ? window.UPSC_PROGRESS.addDays(r.s.date, offset) : r.s.date;
+            if (date > ds.todayIso) return;
+            // Index within the week keeps the id stable and unique even when a
+            // day row has no parseable day number.
+            out.push({ id: `mainsq::${r.s.id}::${dayIdx}`, gs: q.gs, text: q.text, words: q.words, date });
+          });
+        }
+        out.sort((a, b) => String(b.date).localeCompare(String(a.date)));
+        setMainsQuestions(out);
+      });
+    return () => { cancelled = true; };
+  }, [ds.noteDocuments.length]);
+
+  const mainsDoneMap = progress?.manualCompletions || {};
+  const mainsGroups = CATCHUP_GS_ORDER
+    .map((gs) => ({ gs, items: mainsQuestions.filter((q) => q.gs === gs) }))
+    .filter((group) => group.items.length);
+  const mainsDoneCount = mainsQuestions.filter((q) => mainsDoneMap[q.id]).length;
 
   const missed = window.UPSC_PROGRESS.getMissedSessions(progress, ds.todayIso, ds.questionSets, ds.noteDocuments);
   const typeCounts = missed.reduce((acc, item) => { acc[item.category] = (acc[item.category] || 0) + 1; return acc; }, {});
@@ -150,6 +217,57 @@ function CatchUpScreen({ go, progress, onDismiss, onRestore, onMarkDone, onUndoD
             ))}
           </div>
         </>
+      )}
+
+      {mainsGroups.length > 0 && (
+        <section className="catchup-mains">
+          <div className="catchup-mains-head">
+            <div>
+              <h2>Daily mains questions</h2>
+              <p>One answer-writing prompt a day from your Sunday Sweep, grouped by paper. Mark each done when you've written it.</p>
+            </div>
+            <div className="catchup-mains-summary">
+              <strong>{mainsDoneCount}<span> / {mainsQuestions.length}</span></strong>
+              <em>written</em>
+              <button className="link-btn" onClick={() => setShowWritten((v) => !v)}>{showWritten ? "Hide written" : "Show written"}</button>
+            </div>
+          </div>
+          <div className="catchup-mains-grid">
+            {mainsGroups.map((group) => {
+              const done = group.items.filter((q) => mainsDoneMap[q.id]).length;
+              const pct = Math.round((done / group.items.length) * 100);
+              const visibleItems = showWritten ? group.items : group.items.filter((q) => !mainsDoneMap[q.id]);
+              return (
+                <section key={group.gs} className="catchup-gs">
+                  <header className="catchup-gs-head">
+                    <div><strong>{CATCHUP_GS_LABEL[group.gs] || group.gs}</strong><span>{done} / {group.items.length} written</span></div>
+                    <div className="catchup-gs-bar"><div className="catchup-gs-bar-fill" style={{ width: `${pct}%` }} /></div>
+                  </header>
+                  {visibleItems.length === 0 ? (
+                    <p className="catchup-gs-empty">All {group.items.length} written — nice.</p>
+                  ) : (
+                    <div className="catchup-mains-list">
+                      {visibleItems.map((q) => {
+                        const isDone = Boolean(mainsDoneMap[q.id]);
+                        return (
+                          <div key={q.id} className={`catchup-mainsq${isDone ? " is-done" : ""}`}>
+                            <button className={`catchup-mainsq-check${isDone ? " on" : ""}`} onClick={() => (isDone ? onUndoDone(q.id) : onMarkDone(q.id))} aria-label={isDone ? "Mark not done" : "Mark done"}>
+                              {isDone && <Icon name="check" size={13} />}
+                            </button>
+                            <div className="catchup-mainsq-body">
+                              <span className="catchup-mainsq-meta">{catchUpDateLabel(q.date)} · {q.words}-word</span>
+                              <p>{q.text}</p>
+                            </div>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  )}
+                </section>
+              );
+            })}
+          </div>
+        </section>
       )}
 
       {clearedRows.length > 0 && (
