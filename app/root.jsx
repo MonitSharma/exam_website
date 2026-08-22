@@ -9,14 +9,25 @@ const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
   "density": "regular"
 }/*EDITMODE-END*/;
 
+// Primary tabs. "Progress" opens a hub with Plan + Stats sub-tabs (screens
+// "workflow" and "dashboard"), so both live under one nav entry.
 const NAV = [
   { id: "home", label: "Home", icon: "home" },
-  { id: "labs", label: "Study Labs", icon: "spark" },
-  { id: "atlas", label: "News Atlas", icon: "map" },
   { id: "practice", label: "Practice", icon: "play" },
   { id: "catchup", label: "Catch-up", icon: "clock" },
-  { id: "workflow", label: "Plan", icon: "target" },
-  { id: "dashboard", label: "Progress", icon: "chart" },
+  { id: "workflow", label: "Progress", icon: "chart", match: ["workflow", "dashboard"] },
+];
+
+// Secondary tools, tucked into a "More" dropdown to keep the bar uncluttered.
+const NAV_MORE = [
+  { id: "labs", label: "Study Labs", icon: "spark" },
+  { id: "atlas", label: "News Atlas", icon: "map" },
+];
+
+// The Progress hub sub-tabs.
+const PROGRESS_TABS = [
+  { id: "workflow", label: "Plan" },
+  { id: "dashboard", label: "Stats" },
 ];
 
 // Progress model, review scheduling and storage live in app/progress.js so the
@@ -30,6 +41,7 @@ const {
   getReviewSummary,
   getMissedSessions,
   setSessionDismissed,
+  setItemDone,
   loadProgress,
   saveProgress,
   getIsoDate,
@@ -39,15 +51,44 @@ const {
   recordLabProgress,
 } = window.UPSC_PROGRESS;
 
-function TopNav({ screen, go, summary, onSearch }) {
+function TopNav({ screen, go, summary, catchUpCount, onSearch }) {
   const ds = window.UPSC;
+  const [moreOpen, setMoreOpen] = React.useState(false);
+  const navMatches = (n) => (n.match || [n.id]).includes(screen);
+  const moreActive = NAV_MORE.some((n) => n.id === screen);
+  const openMore = (id) => { setMoreOpen(false); go(id); };
   return (
     <header className="topnav">
       <div className="topnav-inner">
         <button className="nav-brand" onClick={() => go("home")}><Wordmark compact /></button>
         <nav className="nav-links">
           {NAV.map((n) => (
-            <button key={n.id} className={`nav-link${screen === n.id ? " active" : ""}`} onClick={() => go(n.id)}>
+            <button key={n.id} className={`nav-link${navMatches(n) ? " active" : ""}`} onClick={() => go(n.id)}>
+              <Icon name={n.icon} size={16} /> {n.label}
+              {n.id === "catchup" && catchUpCount > 0 && <span className="nav-badge">{catchUpCount > 99 ? "99+" : catchUpCount}</span>}
+            </button>
+          ))}
+          <div className="nav-more">
+            <button className={`nav-link${moreActive ? " active" : ""}`} onClick={() => setMoreOpen((v) => !v)} aria-haspopup="true" aria-expanded={moreOpen}>
+              <Icon name="menu" size={16} /> More
+            </button>
+            {moreOpen && (
+              <>
+                <div className="nav-more-overlay" onClick={() => setMoreOpen(false)} />
+                <div className="nav-more-menu" role="menu">
+                  {NAV_MORE.map((n) => (
+                    <button key={n.id} role="menuitem" className={`nav-more-item${screen === n.id ? " active" : ""}`} onClick={() => openMore(n.id)}>
+                      <Icon name={n.icon} size={16} /> {n.label}
+                    </button>
+                  ))}
+                </div>
+              </>
+            )}
+          </div>
+          {/* On mobile the bar scrolls, so the "More" items sit inline instead
+              of in a dropdown (which the scroll container would clip). */}
+          {NAV_MORE.map((n) => (
+            <button key={n.id} className={`nav-link nav-inline-more${screen === n.id ? " active" : ""}`} onClick={() => go(n.id)}>
               <Icon name={n.icon} size={16} /> {n.label}
             </button>
           ))}
@@ -270,6 +311,7 @@ function App() {
   const [searchOpen, setSearchOpen] = useRootState(false);
   const summary = getProgressSummary(progress);
   const review = getReviewSummary(progress, ds.todayIso);
+  const catchUpCount = getMissedSessions(progress, ds.todayIso, ds.questionSets, ds.noteDocuments).length;
   void contentVersion;
 
   useRootEffect(() => {
@@ -350,6 +392,14 @@ function App() {
   function setSessionDismissedState(setId, dismissed) {
     setProgress((current) => {
       const next = setSessionDismissed(current, setId, dismissed);
+      saveProgress(next);
+      return next;
+    });
+  }
+
+  function setItemDoneState(itemId, done) {
+    setProgress((current) => {
+      const next = setItemDone(current, itemId, done, ds.todayIso);
       saveProgress(next);
       return next;
     });
@@ -442,19 +492,29 @@ function App() {
 
   return (
     <div className="root">
-      {!isTest && <TopNav screen={screen} go={go} summary={summary} onSearch={() => setSearchOpen(true)} />}
+      {!isTest && <TopNav screen={screen} go={go} summary={summary} catchUpCount={catchUpCount} onSearch={() => setSearchOpen(true)} />}
       <GlobalSearch open={searchOpen} onClose={() => setSearchOpen(false)} go={go} />
       <div key={screen} className="screen-fade">
         {screen === "home" && <Home go={go} progress={progress} summary={summary} review={review} onStartReview={startReviewSession} />}
         {screen === "labs" && <StudyLabs go={go} progress={progress} review={review} focusSubject={labFocus} onLabProgress={saveLabProgress} />}
         {screen === "atlas" && <NewsAtlas />}
         {screen === "practice" && <PracticeScreen go={go} />}
-        {screen === "catchup" && <CatchUpScreen go={go} progress={progress} onDismiss={(id) => setSessionDismissedState(id, true)} onRestore={(id) => setSessionDismissedState(id, false)} />}
+        {screen === "catchup" && <CatchUpScreen go={go} progress={progress} onDismiss={(id) => setSessionDismissedState(id, true)} onRestore={(id) => setSessionDismissedState(id, false)} onMarkDone={(id) => setItemDoneState(id, true)} onUndoDone={(id) => setItemDoneState(id, false)} />}
         {screen === "test" && <TestScreen go={go} session={testSession} onSubmit={finishTest} />}
         {screen === "result" && <Results go={go} result={lastResult} />}
         {screen === "review" && <Review go={go} result={lastResult} />}
-        {screen === "workflow" && <StudyWorkflowDashboard go={go} progress={progress} />}
-        {screen === "dashboard" && <Dashboard go={go} progress={progress} summary={summary} review={review} onStartReview={startReviewSession} onResetProgress={resetProgress} onImportProgress={importProgress} />}
+        {(screen === "workflow" || screen === "dashboard") && (
+          <div className="progress-hub">
+            <div className="progress-hub-tabs" role="tablist" aria-label="Progress views">
+              {PROGRESS_TABS.map((tab) => (
+                <button key={tab.id} role="tab" aria-selected={screen === tab.id} className={`progress-hub-tab${screen === tab.id ? " on" : ""}`} onClick={() => go(tab.id)}>{tab.label}</button>
+              ))}
+            </div>
+            {screen === "workflow"
+              ? <StudyWorkflowDashboard go={go} progress={progress} review={review} onStartReview={startReviewSession} />
+              : <Dashboard go={go} progress={progress} summary={summary} review={review} onStartReview={startReviewSession} onResetProgress={resetProgress} onImportProgress={importProgress} />}
+          </div>
+        )}
       </div>
 
       {!isTest && (

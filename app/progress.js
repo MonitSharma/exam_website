@@ -33,6 +33,7 @@
       archive: [],
       dailyCompletions: {},
       dismissedSessions: {},
+      manualCompletions: {},
       questionStats: {},
       labStats: {},
     };
@@ -47,6 +48,7 @@
       version: PROGRESS_VERSION,
       archive: Array.isArray(parsed.archive) ? parsed.archive : [],
       dismissedSessions: parsed.dismissedSessions && typeof parsed.dismissedSessions === "object" ? parsed.dismissedSessions : {},
+      manualCompletions: parsed.manualCompletions && typeof parsed.manualCompletions === "object" ? parsed.manualCompletions : {},
       questionStats: parsed.questionStats && typeof parsed.questionStats === "object" ? parsed.questionStats : {},
       labStats: parsed.labStats && typeof parsed.labStats === "object" ? parsed.labStats : {},
     });
@@ -212,13 +214,17 @@
     };
   }
 
-  // Recurring, date-scheduled content the learner is meant to attempt on its
-  // day. PIB is deliberately excluded, and on-demand libraries (sectional,
-  // csat, pyq, ai, csr) are not "missed" — they are always available to pick.
-  const MISSED_SOURCE_TYPES = ["daily", "rc", "weekly-news", "weekly-quiz"];
+  // Catch-up backlog scope. The daily current-affairs quiz and PIB briefs are
+  // deliberately excluded (they refresh every day and live in the home loop);
+  // everything else dated is worth catching up on. Question sets are attempted
+  // in-app; writing cadences (mains/ethics/editorials) are done offline and can
+  // only be cleared by a manual "I've done it".
+  const MISSED_SOURCE_TYPES = ["rc", "weekly-news", "weekly-quiz", "sectional", "csat", "ai"];
+  const MISSED_WRITING_CADENCES = ["mains", "ethics", "editorials"];
 
-  // The set ids the learner has already completed. Reads both the attempt
-  // history and the daily-completion map so a set counts as done by either path.
+  // The set ids the learner has already completed. Reads the attempt history,
+  // the daily-completion map, and any manual "done" marks so a set counts as
+  // done by any of those paths.
   function completedSetIds(progress) {
     const ids = new Set();
     for (const entry of progress?.history || []) {
@@ -227,38 +233,77 @@
     for (const completion of Object.values(progress?.dailyCompletions || {})) {
       if (completion && completion.questionSetId) ids.add(completion.questionSetId);
     }
+    for (const id of Object.keys(progress?.manualCompletions || {})) ids.add(id);
     return ids;
   }
 
-  // Dated cadence sets whose day has passed, never attempted and not dismissed —
-  // the catch-up backlog, newest first. `questionSets` is injected so the same
-  // logic runs under node:test; the browser passes window.UPSC.questionSets.
-  function getMissedSessions(progress, todayIso, questionSets) {
-    const sets = questionSets || (typeof window !== "undefined" && window.UPSC ? window.UPSC.questionSets : []) || [];
+  // Dated content whose day has passed, still not done and not dismissed — the
+  // catch-up backlog, newest first. Merges attemptable question sets with
+  // offline writing tasks (mains/ethics/editorials notes). `questionSets` and
+  // `noteDocuments` are injected so the same logic runs under node:test; the
+  // browser passes them from window.UPSC.
+  function getMissedSessions(progress, todayIso, questionSets, noteDocuments) {
+    const ds = (typeof window !== "undefined" && window.UPSC) ? window.UPSC : null;
+    const sets = questionSets || (ds ? ds.questionSets : []) || [];
+    const notes = noteDocuments || (ds ? ds.noteDocuments : []) || [];
     const done = completedSetIds(progress);
     const dismissed = progress?.dismissedSessions || {};
-    return sets
+    const manual = progress?.manualCompletions || {};
+
+    const quizzes = sets
       .filter((set) => set && set.isoDate && !set.isSupplementary)
       .filter((set) => MISSED_SOURCE_TYPES.includes(set.sourceType))
       .filter((set) => set.isoDate < todayIso)
       .filter((set) => !done.has(set.id) && !dismissed[set.id])
-      .sort((a, b) => String(b.isoDate).localeCompare(String(a.isoDate)) || String(a.sourceType).localeCompare(String(b.sourceType)))
       .map((set) => ({
         id: set.id,
+        kind: "quiz",
         label: set.label,
         shortLabel: set.shortLabel,
-        sourceType: set.sourceType,
+        category: set.sourceType,
         isoDate: set.isoDate,
         questionCount: set.questionCount || 0,
         durationMinutes: set.durationMinutes || 10,
       }));
+
+    const writing = notes
+      .filter((note) => note && note.date && !note.isSupplementary)
+      .filter((note) => MISSED_WRITING_CADENCES.includes(note.cadence))
+      .filter((note) => note.date < todayIso)
+      .filter((note) => !manual[note.id] && !dismissed[note.id])
+      .map((note) => ({
+        id: note.id,
+        kind: "writing",
+        label: note.title || "Answer practice",
+        shortLabel: note.shortTitle || "",
+        category: note.cadence,
+        isoDate: note.date,
+        questionCount: 0,
+        durationMinutes: note.cadence === "editorials" ? 20 : 30,
+      }));
+
+    return [...quizzes, ...writing].sort(
+      (a, b) => String(b.isoDate).localeCompare(String(a.isoDate)) || String(a.category).localeCompare(String(b.category)),
+    );
   }
 
-  // Toggle a set in/out of the dismissed map (returns a new progress object).
-  function setSessionDismissed(progress, setId, dismissed) {
+  // Toggle an id in/out of the dismissed map (returns a new progress object).
+  // Works for both question-set ids and note ids.
+  function setSessionDismissed(progress, id, dismissed) {
     const next = { ...progress, dismissedSessions: { ...(progress?.dismissedSessions || {}) } };
-    if (dismissed) next.dismissedSessions[setId] = { at: Date.now() };
-    else delete next.dismissedSessions[setId];
+    if (dismissed) next.dismissedSessions[id] = { at: Date.now() };
+    else delete next.dismissedSessions[id];
+    return next;
+  }
+
+  // Manually mark an item done (or clear that mark). Used for offline tasks
+  // that have nothing to auto-grade, and as an "I did this elsewhere" escape
+  // hatch for quizzes. Stores the completion date so weekly plan targets can
+  // count it.
+  function setItemDone(progress, id, done, todayIso) {
+    const next = { ...progress, manualCompletions: { ...(progress?.manualCompletions || {}) } };
+    if (done) next.manualCompletions[id] = { at: Date.now(), isoDate: todayIso || getIsoDate() };
+    else delete next.manualCompletions[id];
     return next;
   }
 
@@ -410,8 +455,10 @@
       getDueLabs,
       getReviewSummary,
       MISSED_SOURCE_TYPES,
+      MISSED_WRITING_CADENCES,
       getMissedSessions,
       setSessionDismissed,
+      setItemDone,
       loadProgress,
       saveProgress,
       getIsoDate,

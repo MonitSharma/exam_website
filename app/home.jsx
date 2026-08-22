@@ -977,17 +977,20 @@ function TodayPreparation({ go, progress, review, onStartReview }) {
 
 function CatchUpTeaser({ go, progress }) {
   const ds = window.UPSC;
-  const missed = window.UPSC_PROGRESS.getMissedSessions(progress, ds.todayIso, ds.questionSets);
+  const missed = window.UPSC_PROGRESS.getMissedSessions(progress, ds.todayIso, ds.questionSets, ds.noteDocuments);
   if (!missed.length) return null;
-  const preview = missed.slice(0, 3);
-  const previewDates = preview.map((item) => ds.formatDailyDate(item.isoDate, { compact: true })).join(" · ");
+  const quizCount = missed.filter((item) => item.kind === "quiz").length;
+  const writingCount = missed.length - quizCount;
+  const parts = [];
+  if (quizCount) parts.push(`${quizCount} ${quizCount === 1 ? "quiz" : "quizzes"}`);
+  if (writingCount) parts.push(`${writingCount} answer-writing`);
   return (
-    <button className="catchup-teaser" onClick={() => go("catchup")} aria-label={`Catch up: ${missed.length} missed sessions`}>
+    <button className="catchup-teaser" onClick={() => go("catchup")} aria-label={`Catch up: ${missed.length} pending`}>
       <span className="catchup-teaser-mark"><Icon name="clock" size={17} /></span>
       <span className="catchup-teaser-copy">
         <em>Catch-up backlog</em>
-        <strong>{missed.length} missed {missed.length === 1 ? "session" : "sessions"}</strong>
-        <small>Daily &amp; weekly quizzes you skipped{previewDates ? ` — latest: ${previewDates}` : ""}</small>
+        <strong>{missed.length} {missed.length === 1 ? "item" : "items"} to catch up</strong>
+        <small>{parts.length ? `${parts.join(" · ")} — quizzes, mocks & answer-writing you skipped` : "Quizzes, mocks & answer-writing you skipped"}</small>
       </span>
       <span className="catchup-teaser-go">Review <Icon name="arrowR" size={15} /></span>
     </button>
@@ -1713,4 +1716,4 @@ function Home({ go, progress, summary, review, onStartReview }) {
   );
 }
 
-Object.assign(window, { Home });
+Object.assign(window, { Home, WeeklyPlanCard });
