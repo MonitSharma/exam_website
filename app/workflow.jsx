@@ -28,45 +28,6 @@ const WORKFLOW_FORTNIGHTS = [
   ["F24", "2027-04-20", "2027-05-24", "Prelims countdown", "Prelims Mode"],
 ];
 
-const WORKFLOW_FOCUS = {
-  "Foundation": [
-    ["Sunday Sweep (90m)", "Sectional mock or Mains 4-Q", "Plan next week"],
-    ["Newspaper: IR", "Polity - Laxmikanth", "Physics P-I: Mechanics", "GS2 Mains answer"],
-    ["Newspaper: Economy", "Economy - NCERT + Vivek Singh", "RBI ESI", "GS3 Eco Mains answer"],
-    ["Newspaper: History", "Modern History - Spectrum", "Physics: EM", "GS1 Mains answer"],
-    ["Newspaper: Sci/Env", "Sci-Tech + Environment", "RBI FM Finance", "GS3 Mains answer"],
-    ["Newspaper: IR", "IR - NCERT 12 + MEA", "Physics: Waves/Thermo", "GS2 IR Mains answer"],
-    ["Newspaper + magazine", "Geography / Art&Culture", "CSAT mock or map drill", "Ethics case"],
-  ],
-  "Integration": [
-    ["Sunday Sweep", "Full Prelims mock or Mains sectional", "Plan next week"],
-    ["Newspaper", "Polity Pass-2 + cross-linking", "Physics II: QM", "2 timed Mains answers"],
-    ["Newspaper", "Economy Pass-2 + Eco Survey", "Physics II: Atomic/Nuclear", "2 timed Mains answers"],
-    ["Newspaper", "History Pass-2", "Physics II: Solid State", "2 timed Mains answers"],
-    ["Newspaper", "Sci-Tech + Env Pass-2", "Physics II: Electronics", "2 timed Mains answers"],
-    ["Newspaper", "IR + Internal Security", "Physics II: SR + revision", "2 timed Mains answers"],
-    ["Newspaper", "Geography + Art & Culture", "Per-subject sectional mock", "Ethics case + answer"],
-  ],
-  "Prelims Mode": [
-    ["Sunday Sweep", "Full-length Prelims mock", "Plan next week"],
-    ["News (30m)", "Polity revision", "100 MCQ batch + debrief", "CA revision + Physics formulas"],
-    ["News (30m)", "Economy revision", "100 MCQ batch + debrief", "CA revision + Physics formulas"],
-    ["News (30m)", "History revision", "100 MCQ batch + debrief", "CA revision + Physics formulas"],
-    ["News (30m)", "Sci-Tech / Environment revision", "100 MCQ batch + debrief", "CA revision + Physics formulas"],
-    ["News (30m)", "IR / Geography revision", "100 MCQ batch + debrief", "CA revision + Physics formulas"],
-    ["News (30m)", "Society / Art&Culture / Misc revision", "Mock + debrief", "CA revision + Physics formulas"],
-  ],
-  "Mains Factory": [
-    ["Lighter day", "Essay practice / Ethics case", "Revision rotation"],
-    ["Newspaper (op-eds)", "Physics Optional", "4 GS Mains answers", "Debrief + revision"],
-    ["Newspaper (op-eds)", "Physics Optional", "4 GS Mains answers", "Debrief + revision"],
-    ["Newspaper (op-eds)", "Physics Optional", "4 GS Mains answers", "Debrief + revision"],
-    ["Newspaper (op-eds)", "Physics Optional", "4 GS Mains answers", "Debrief + revision"],
-    ["Newspaper (op-eds)", "Physics Optional", "4 GS Mains answers", "Essay practice"],
-    ["Newspaper (op-eds)", "Physics Optional", "4 GS Mains answers", "Ethics case + revision"],
-  ],
-};
-
 // Trackable weekly targets per phase. Only the metrics the app can actually
 // measure from saved attempts and completions live here, so the meters below
 // reflect real progress instead of static advice.
@@ -81,6 +42,18 @@ const WORKFLOW_TARGETS = {
 const WORKFLOW_MOCK_TYPES = new Set(["sectional", "csat", "ai", "csr", "pyq"]);
 // Note cadences that count as an "answer written" for the mains target.
 const WORKFLOW_ANSWER_CADENCES = new Set(["mains", "ethics"]);
+
+// Fallback subject-of-the-day rotation, used only until there is enough
+// attempt data to know the learner's real weakest subject. Sunday = revision.
+const WORKFLOW_DOW_SUBJECT = {
+  0: "Revision",
+  1: "Polity & Governance",
+  2: "Economy",
+  3: "History",
+  4: "Science & Technology",
+  5: "International Relations",
+  6: "Geography",
+};
 
 // The phase boundaries, derived from the fortnight plan, used for milestones.
 const WORKFLOW_MILESTONES = [
@@ -171,13 +144,12 @@ function WorkflowMeter({ label, actual, target, hint }) {
   );
 }
 
-function StudyWorkflowDashboard({ go, progress }) {
+function StudyWorkflowDashboard({ go, progress, review, onStartReview }) {
   const context = getWorkflowContext();
   const ds = window.UPSC;
   const todayIso = workflowIsoToday();
   const history = progress?.history || [];
   const manual = progress?.manualCompletions || {};
-  const focusBlocks = (WORKFLOW_FOCUS[context.phase] || WORKFLOW_FOCUS.Foundation)[new Date().getDay()];
   const weekStartIso = workflowWeekStart().toISOString().slice(0, 10);
 
   // ---- This week, measured from real activity ----
@@ -222,29 +194,61 @@ function StudyWorkflowDashboard({ go, progress }) {
     setTimeout(() => window.dispatchEvent(new CustomEvent("pariksha:open-note", { detail: { id: note.id } })), 80);
   }
 
-  const queue = [
+  // ---- Today's plan, generated from live content + progress ----
+  // The focus subject is the learner's real weakest area once there's data,
+  // otherwise a weekday rotation. Everything below auto-detects and updates.
+  const dueCount = review?.due || 0;
+  const rcDone = latestRcSet ? attemptedIds.has(latestRcSet.id) : false;
+  const mainsDone = latestMains ? Boolean(manual[latestMains.id]) : false;
+  const latestBrief = workflowLatestByDate(ds.noteDocuments.filter((doc) => doc.cadence === "daily"), "date", todayIso);
+  const focusSubject = review?.weakest?.[0]?.subject || WORKFLOW_DOW_SUBJECT[new Date().getDay()] || "Revision";
+
+  const todayPlan = [
     latestDailySet && {
-      key: "daily", status: dailyDone ? "done" : "next",
-      label: dailyDone ? "Daily complete" : "Do this first", title: latestDailySet.label,
+      key: "daily", icon: "bolt", kicker: "Current affairs", title: latestDailySet.label,
       meta: `${latestDailySet.questionCount || 0} questions · ${latestDailySet.durationMinutes || 10} min`,
-      icon: "bolt", action: () => go("test", { setId: latestDailySet.id }),
+      done: dailyDone, cta: "Start", action: () => go("test", { setId: latestDailySet.id }),
     },
-    missed.length && {
-      key: "catchup", status: "next", label: "Clear backlog",
-      title: `${missed.length} missed ${missed.length === 1 ? "item" : "items"}`,
-      meta: "Quizzes, mocks & answer-writing you skipped", icon: "clock", action: () => go("catchup"),
+    dueCount > 0 && {
+      key: "revise", icon: "rotate", kicker: "Spaced revision", title: `Revise ${dueCount} due question${dueCount === 1 ? "" : "s"}`,
+      meta: "Weakest questions resurface first", done: false, cta: "Revise", action: () => (onStartReview ? onStartReview() : go("catchup")),
+    },
+    missed.length > 0 && {
+      key: "catchup", icon: "clock", kicker: "Backlog", title: `Clear ${missed.length} missed item${missed.length === 1 ? "" : "s"}`,
+      meta: "Quizzes, mocks & answer-writing you skipped", done: false, cta: "Open", action: () => go("catchup"),
     },
     latestRcSet && {
-      key: "rc", status: attemptedIds.has(latestRcSet.id) ? "done" : "next",
-      label: attemptedIds.has(latestRcSet.id) ? "RC attempted" : "CSAT insurance", title: latestRcSet.label,
+      key: "rc", icon: "target", kicker: "CSAT insurance", title: latestRcSet.label,
       meta: `${latestRcSet.questionCount || 0} questions · ${latestRcSet.durationMinutes || 8} min`,
-      icon: "target", action: () => go("test", { setId: latestRcSet.id }),
+      done: rcDone, cta: "Start", action: () => go("test", { setId: latestRcSet.id }),
     },
-    latestMains && targets.mains > 0 && {
-      key: "mains", status: "read", label: "Answer practice", title: "Latest GS Mains prompt",
-      meta: latestMains.shortTitle || workflowFmt(latestMains.date), icon: "fileText", action: () => openNote(latestMains),
+    latestBrief && {
+      key: "brief", icon: "book", kicker: "Read", title: "Today's current-affairs briefing",
+      meta: latestBrief.shortTitle || workflowFmt(latestBrief.date), done: null, cta: "Open", action: () => openNote(latestBrief),
+    },
+    targets.mains > 0 && latestMains && {
+      key: "mains", icon: "fileText", kicker: "Answer writing", title: "GS Mains answer practice",
+      meta: `${latestMains.shortTitle || workflowFmt(latestMains.date)}${mainsDone ? "" : " · mark done in Catch-up"}`,
+      done: mainsDone, cta: "Open", action: () => openNote(latestMains),
+    },
+    {
+      key: "focus", icon: "spark", kicker: "Focus area", title: `Reinforce ${focusSubject}`,
+      meta: review?.weakest?.[0] ? "Your weakest subject right now" : "Today's rotation — build the habit",
+      done: null, cta: "Revise", action: () => go("labs", { focusSubject }),
     },
   ].filter(Boolean);
+
+  const pendingCount = todayPlan.filter((t) => t.done === false).length;
+  const firstPending = todayPlan.find((t) => t.done === false);
+  const todayHeadline = !dailyDone
+    ? "Start with today's daily quiz."
+    : dueCount > 0
+      ? `Revise ${dueCount} due question${dueCount === 1 ? "" : "s"} while they're fresh.`
+      : missed.length > 0
+        ? "Clear a few items from your catch-up backlog."
+        : latestRcSet && !rcDone
+          ? "Keep CSAT sharp with today's reading drill."
+          : `You're on track — reinforce ${focusSubject}.`;
 
   const readingStack = [
     latestSunday && { key: "sunday", label: "Week plan", title: latestSunday.shortTitle || workflowFmt(latestSunday.date), action: () => openNote(latestSunday) },
@@ -267,8 +271,8 @@ function StudyWorkflowDashboard({ go, progress }) {
       <article className="workflow-hero-card workflow-hero-wide">
         <div className="workflow-hero-main">
           <span className="workflow-summary-label">{context.phase} · {context.fortnight}{daysLeftInFn != null ? ` · ${daysLeftInFn}d left in block` : ""}</span>
-          <h3>{context.focus}</h3>
-          <p>{context.fnDates} · Next: {context.next}</p>
+          <h3>{todayHeadline}</h3>
+          <p>{context.focus ? `Roadmap this block: ${context.focus}` : `Next: ${context.next}`}</p>
           <div className="workflow-plan-bar" role="img" aria-label={`Plan ${context.planPercent}% complete`}>
             <div className="workflow-plan-bar-fill" style={{ width: `${context.planPercent}%` }} />
             <span className="workflow-plan-bar-label">{context.planPercent}% of plan · ~{weeksToPrelims} weeks left</span>
@@ -302,22 +306,23 @@ function StudyWorkflowDashboard({ go, progress }) {
       <div className="workflow-plan-grid">
         <article className="workflow-card workflow-queue-card">
           <div className="workflow-card-head">
-            <span>Recommended next</span>
-            <strong>{queue.length} items</strong>
+            <span>Today's plan · {new Date().toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "short" })}</span>
+            <strong>{pendingCount ? `${pendingCount} to do` : "all clear"}</strong>
           </div>
           <div className="workflow-queue">
-            {queue.map((item) => (
-              <button key={item.key} className={`workflow-queue-item ${item.status}`} onClick={item.action}>
-                <span className="workflow-queue-icon"><Icon name={item.icon} size={16} /></span>
+            {todayPlan.map((item) => (
+              <button key={item.key} className={`workflow-queue-item ${item.done === true ? "done" : item.done === null ? "read" : "next"}`} onClick={item.action}>
+                <span className="workflow-queue-icon"><Icon name={item.done === true ? "check" : item.icon} size={16} /></span>
                 <span className="workflow-queue-copy">
-                  <em>{item.label}</em>
+                  <em>{item.kicker}</em>
                   <strong>{item.title}</strong>
                   <small>{item.meta}</small>
                 </span>
-                <span className="workflow-status">{item.status === "done" ? "Done" : item.status === "read" ? "Open" : "Go"}</span>
+                <span className="workflow-status">{item.done === true ? "Done" : item.cta}</span>
               </button>
             ))}
           </div>
+          <p className="workflow-card-note">Built from today's materials, your saved attempts, and your weakest topics — it refreshes on its own each day.</p>
         </article>
 
         <article className="workflow-card workflow-milestone-card">
@@ -336,14 +341,6 @@ function StudyWorkflowDashboard({ go, progress }) {
         </article>
       </div>
 
-      <article className="workflow-card workflow-focus-card">
-        <span>Today’s focus from the plan</span>
-        <h3>{new Date().toLocaleDateString("en-GB", { weekday: "long" })}</h3>
-        <div className="workflow-focus">
-          {focusBlocks.map((block) => <b key={block}>{block}</b>)}
-        </div>
-      </article>
-
       <article className="workflow-card">
         <span>Reading stack</span>
         <div className="workflow-read-list">
@@ -361,7 +358,7 @@ function StudyWorkflowDashboard({ go, progress }) {
 
       <article className="workflow-card workflow-routing">
         <span>How this page works</span>
-        <p>Targets come from the current UPSC phase; the meters fill from quizzes and mocks you attempt and mains/ethics answers you mark done in Catch-up. Nothing here needs manual hour logging.</p>
+        <p>Today's plan is generated each day from the newest materials, what you've already attempted, your due revisions, and your weakest subject — no manual logging. The countdown and phase come from your roadmap; the weekly meters fill from real attempts and the answers you mark done.</p>
       </article>
     </section>
   );

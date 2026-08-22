@@ -511,7 +511,7 @@ function App() {
               ))}
             </div>
             {screen === "workflow"
-              ? <StudyWorkflowDashboard go={go} progress={progress} />
+              ? <StudyWorkflowDashboard go={go} progress={progress} review={review} onStartReview={startReviewSession} />
               : <Dashboard go={go} progress={progress} summary={summary} review={review} onStartReview={startReviewSession} onResetProgress={resetProgress} onImportProgress={importProgress} />}
           </div>
         )}
