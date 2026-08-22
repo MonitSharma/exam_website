@@ -1716,4 +1716,4 @@ function Home({ go, progress, summary, review, onStartReview }) {
   );
 }
 
-Object.assign(window, { Home, WeeklyPlanCard });
+Object.assign(window, { Home, WeeklyPlanCard, parseWeekPlan });

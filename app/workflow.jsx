@@ -163,6 +163,7 @@ function StudyWorkflowDashboard({ go, progress, review, onStartReview }) {
   }).length;
   const weekAnswers = Object.entries(manual).filter(([id, rec]) => {
     if (String(rec?.isoDate || "") < weekStartIso) return false;
+    if (id.startsWith("mainsq::")) return true; // a daily mains prompt written
     const note = ds.noteDocuments.find((n) => n.id === id);
     return note && WORKFLOW_ANSWER_CADENCES.has(note.cadence);
   }).length;

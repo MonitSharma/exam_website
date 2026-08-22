@@ -889,6 +889,12 @@ function buildNoteDocuments(root = DEFAULT_ROOT) {
     docs.push(note(root, absPath, "ethics", noteTitleFromHeading(absPath, "Weekly Ethics Case Study"), `Case - ${formatDate(isoDate, { day: "2-digit", month: "short" })}`, isoDate));
   }
 
+  const essaysDir = path.join(root, "weekly", "Essays");
+  for (const absPath of listTopLevelFiles(essaysDir).filter((item) => /^Essay_\d{4}-\d{2}-\d{2}\.md$/.test(path.basename(item)))) {
+    const isoDate = normalizeIsoDate(absPath);
+    docs.push(note(root, absPath, "essay", noteTitleFromHeading(absPath, "Model Essay"), `Essay - ${formatDate(isoDate, { day: "2-digit", month: "short" })}`, isoDate));
+  }
+
   const legacyWeeklyDir = path.join(root, "weekly");
   for (const absPath of listTopLevelFiles(legacyWeeklyDir).filter((item) => item.endsWith(".md"))) {
     const isoDate = normalizeIsoDate(absPath);
