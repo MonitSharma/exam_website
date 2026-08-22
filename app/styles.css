@@ -177,6 +177,19 @@ ol, ul { margin: 0; }
 .nav-link.active { background: var(--green); color: #fff; }
 .nav-badge { display: inline-grid; place-items: center; min-width: 18px; height: 18px; padding: 0 5px; border-radius: 999px; background: var(--saffron); color: #fff; font-family: var(--mono); font-size: 10px; font-weight: 600; line-height: 1; }
 .nav-link.active .nav-badge { background: rgba(255,255,255,.25); }
+.nav-more { position: relative; }
+.nav-inline-more { display: none; }
+.nav-more-overlay { position: fixed; inset: 0; z-index: 40; }
+.nav-more-menu { position: absolute; top: calc(100% + 8px); right: 0; z-index: 50; min-width: 172px; padding: 6px; border: 1px solid var(--line); border-radius: var(--radius-sm); background: var(--surface); box-shadow: var(--shadow); display: grid; gap: 2px; }
+.nav-more-item { display: flex; align-items: center; gap: 9px; width: 100%; padding: 9px 11px; border-radius: 8px; text-align: left; font-size: 14px; font-weight: 600; color: var(--ink); }
+.nav-more-item:hover { background: var(--green-tint); color: var(--green); }
+.nav-more-item.active { background: var(--green); color: #fff; }
+.progress-hub-tabs { display: flex; width: max-content; gap: 4px; margin: 0 auto 6px; padding: 4px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface-2); }
+.progress-hub { display: flex; flex-direction: column; align-items: center; padding-top: 22px; }
+.progress-hub > :not(.progress-hub-tabs) { width: 100%; }
+.progress-hub-tab { padding: 8px 22px; border-radius: 999px; font-size: 13px; font-weight: 600; color: var(--muted); }
+.progress-hub-tab:hover { color: var(--ink); }
+.progress-hub-tab.on { background: var(--green); color: #fff; }
 .nav-right { display: flex; align-items: center; gap: 12px; }
 .streak-chip { display: inline-flex; align-items: center; gap: 5px; font-family: var(--mono); font-weight: 600; font-size: 13px; color: var(--saffron); background: var(--saffron-tint); padding: 7px 11px; border-radius: 999px; }
 .nav-search { display: inline-flex; align-items: center; gap: 8px; padding: 7px 10px 7px 12px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); color: var(--muted); cursor: pointer; font-size: 13px; transition: border-color .15s ease, color .15s ease; }
@@ -1436,9 +1449,11 @@ body[data-qfont="serif"] .rev-explain p { font-family: var(--serif); font-size: 
   .topnav-inner { flex-wrap: wrap; }
   .nav-brand { order: 1; }
   .nav-right { order: 2; margin-left: auto; }
-  .nav-links { order: 3; width: 100%; overflow-x: auto; justify-content: space-between; scrollbar-width: none; }
+  .nav-links { order: 3; width: 100%; overflow-x: auto; justify-content: flex-start; scrollbar-width: none; }
   .nav-links::-webkit-scrollbar { display: none; }
-  .nav-link { flex: 1; justify-content: center; padding: 8px 10px; font-size: 13px; }
+  .nav-link { flex: none; justify-content: center; padding: 8px 12px; font-size: 13px; white-space: nowrap; }
+  .nav-more { display: none; }
+  .nav-inline-more { display: inline-flex; }
 }
 
 /* Protected-area map study tool */
