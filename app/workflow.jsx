@@ -239,16 +239,6 @@ function StudyWorkflowDashboard({ go, progress, review, onStartReview }) {
   ].filter(Boolean);
 
   const pendingCount = todayPlan.filter((t) => t.done === false).length;
-  const firstPending = todayPlan.find((t) => t.done === false);
-  const todayHeadline = !dailyDone
-    ? "Start with today's daily quiz."
-    : dueCount > 0
-      ? `Revise ${dueCount} due question${dueCount === 1 ? "" : "s"} while they're fresh.`
-      : missed.length > 0
-        ? "Clear a few items from your catch-up backlog."
-        : latestRcSet && !rcDone
-          ? "Keep CSAT sharp with today's reading drill."
-          : `You're on track — reinforce ${focusSubject}.`;
 
   const readingStack = [
     latestSunday && { key: "sunday", label: "Week plan", title: latestSunday.shortTitle || workflowFmt(latestSunday.date), action: () => openNote(latestSunday) },
@@ -271,7 +261,7 @@ function StudyWorkflowDashboard({ go, progress, review, onStartReview }) {
       <article className="workflow-hero-card workflow-hero-wide">
         <div className="workflow-hero-main">
           <span className="workflow-summary-label">{context.phase} · {context.fortnight}{daysLeftInFn != null ? ` · ${daysLeftInFn}d left in block` : ""}</span>
-          <h3>{todayHeadline}</h3>
+          <h3>{new Date().toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long" })}</h3>
           <p>{context.focus ? `Roadmap this block: ${context.focus}` : `Next: ${context.next}`}</p>
           <div className="workflow-plan-bar" role="img" aria-label={`Plan ${context.planPercent}% complete`}>
             <div className="workflow-plan-bar-fill" style={{ width: `${context.planPercent}%` }} />
@@ -283,6 +273,9 @@ function StudyWorkflowDashboard({ go, progress, review, onStartReview }) {
           <span>days to Prelims</span>
         </div>
       </article>
+
+      {/* Today's detailed study blocks, parsed live from the Sunday Sweep. */}
+      {window.WeeklyPlanCard ? <window.WeeklyPlanCard /> : null}
 
       {/* This week vs plan targets — the live part */}
       <article className="workflow-card workflow-week-card">
@@ -306,7 +299,7 @@ function StudyWorkflowDashboard({ go, progress, review, onStartReview }) {
       <div className="workflow-plan-grid">
         <article className="workflow-card workflow-queue-card">
           <div className="workflow-card-head">
-            <span>Today's plan · {new Date().toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "short" })}</span>
+            <span>Quick actions in the app</span>
             <strong>{pendingCount ? `${pendingCount} to do` : "all clear"}</strong>
           </div>
           <div className="workflow-queue">
@@ -322,7 +315,7 @@ function StudyWorkflowDashboard({ go, progress, review, onStartReview }) {
               </button>
             ))}
           </div>
-          <p className="workflow-card-note">Built from today's materials, your saved attempts, and your weakest topics — it refreshes on its own each day.</p>
+          <p className="workflow-card-note">One-tap launches into the app, from today's materials, your due revisions and your weakest topics.</p>
         </article>
 
         <article className="workflow-card workflow-milestone-card">
@@ -358,7 +351,7 @@ function StudyWorkflowDashboard({ go, progress, review, onStartReview }) {
 
       <article className="workflow-card workflow-routing">
         <span>How this page works</span>
-        <p>Today's plan is generated each day from the newest materials, what you've already attempted, your due revisions, and your weakest subject — no manual logging. The countdown and phase come from your roadmap; the weekly meters fill from real attempts and the answers you mark done.</p>
+        <p>"What to study today" is read straight from your latest Sunday Sweep and highlights the current day. The countdown and phase come from your roadmap; the weekly meters and quick actions fill from your real attempts, due revisions and the answers you mark done.</p>
       </article>
     </section>
   );
