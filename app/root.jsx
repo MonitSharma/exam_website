@@ -30,6 +30,7 @@ const {
   getReviewSummary,
   getMissedSessions,
   setSessionDismissed,
+  setItemDone,
   loadProgress,
   saveProgress,
   getIsoDate,
@@ -39,7 +40,7 @@ const {
   recordLabProgress,
 } = window.UPSC_PROGRESS;
 
-function TopNav({ screen, go, summary, onSearch }) {
+function TopNav({ screen, go, summary, catchUpCount, onSearch }) {
   const ds = window.UPSC;
   return (
     <header className="topnav">
@@ -49,6 +50,7 @@ function TopNav({ screen, go, summary, onSearch }) {
           {NAV.map((n) => (
             <button key={n.id} className={`nav-link${screen === n.id ? " active" : ""}`} onClick={() => go(n.id)}>
               <Icon name={n.icon} size={16} /> {n.label}
+              {n.id === "catchup" && catchUpCount > 0 && <span className="nav-badge">{catchUpCount > 99 ? "99+" : catchUpCount}</span>}
             </button>
           ))}
         </nav>
@@ -270,6 +272,7 @@ function App() {
   const [searchOpen, setSearchOpen] = useRootState(false);
   const summary = getProgressSummary(progress);
   const review = getReviewSummary(progress, ds.todayIso);
+  const catchUpCount = getMissedSessions(progress, ds.todayIso, ds.questionSets, ds.noteDocuments).length;
   void contentVersion;
 
   useRootEffect(() => {
@@ -350,6 +353,14 @@ function App() {
   function setSessionDismissedState(setId, dismissed) {
     setProgress((current) => {
       const next = setSessionDismissed(current, setId, dismissed);
+      saveProgress(next);
+      return next;
+    });
+  }
+
+  function setItemDoneState(itemId, done) {
+    setProgress((current) => {
+      const next = setItemDone(current, itemId, done, ds.todayIso);
       saveProgress(next);
       return next;
     });
@@ -442,14 +453,14 @@ function App() {
 
   return (
     <div className="root">
-      {!isTest && <TopNav screen={screen} go={go} summary={summary} onSearch={() => setSearchOpen(true)} />}
+      {!isTest && <TopNav screen={screen} go={go} summary={summary} catchUpCount={catchUpCount} onSearch={() => setSearchOpen(true)} />}
       <GlobalSearch open={searchOpen} onClose={() => setSearchOpen(false)} go={go} />
       <div key={screen} className="screen-fade">
         {screen === "home" && <Home go={go} progress={progress} summary={summary} review={review} onStartReview={startReviewSession} />}
         {screen === "labs" && <StudyLabs go={go} progress={progress} review={review} focusSubject={labFocus} onLabProgress={saveLabProgress} />}
         {screen === "atlas" && <NewsAtlas />}
         {screen === "practice" && <PracticeScreen go={go} />}
-        {screen === "catchup" && <CatchUpScreen go={go} progress={progress} onDismiss={(id) => setSessionDismissedState(id, true)} onRestore={(id) => setSessionDismissedState(id, false)} />}
+        {screen === "catchup" && <CatchUpScreen go={go} progress={progress} onDismiss={(id) => setSessionDismissedState(id, true)} onRestore={(id) => setSessionDismissedState(id, false)} onMarkDone={(id) => setItemDoneState(id, true)} onUndoDone={(id) => setItemDoneState(id, false)} />}
         {screen === "test" && <TestScreen go={go} session={testSession} onSubmit={finishTest} />}
         {screen === "result" && <Results go={go} result={lastResult} />}
         {screen === "review" && <Review go={go} result={lastResult} />}

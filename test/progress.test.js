@@ -251,41 +251,59 @@ test("addDays crosses month and year boundaries correctly", () => {
 });
 
 const CATCHUP_SETS = [
-  { id: "d-01", label: "Daily 01", sourceType: "daily", isoDate: "2026-08-01", questionCount: 7, durationMinutes: 10 },
-  { id: "d-02", label: "Daily 02", sourceType: "daily", isoDate: "2026-08-02", questionCount: 7, durationMinutes: 10 },
+  { id: "daily-01", label: "Daily CA", sourceType: "daily", isoDate: "2026-08-01", questionCount: 7, durationMinutes: 10 },
+  { id: "pib-01", label: "PIB 01", sourceType: "pib", isoDate: "2026-08-02", questionCount: 3, durationMinutes: 10 },
   { id: "rc-01", label: "RC 01", sourceType: "rc", isoDate: "2026-08-03", questionCount: 8, durationMinutes: 16 },
-  { id: "pib-01", label: "PIB 01", sourceType: "pib", isoDate: "2026-08-01", questionCount: 3, durationMinutes: 10 },
-  { id: "sec-01", label: "Sectional 01", sourceType: "sectional", isoDate: "2026-08-01", questionCount: 40, durationMinutes: 40 },
-  { id: "d-today", label: "Daily today", sourceType: "daily", isoDate: "2026-08-10", questionCount: 7, durationMinutes: 10 },
-  { id: "d-future", label: "Daily future", sourceType: "daily", isoDate: "2026-08-20", questionCount: 7, durationMinutes: 10 },
-  { id: "d-supp", label: "Daily add-on", sourceType: "daily", isoDate: "2026-08-02", isSupplementary: true, questionCount: 5, durationMinutes: 10 },
+  { id: "sec-01", label: "Sectional 01", sourceType: "sectional", isoDate: "2026-08-04", questionCount: 40, durationMinutes: 40 },
+  { id: "csat-01", label: "CSAT 01", sourceType: "csat", isoDate: "2026-08-05", questionCount: 22, durationMinutes: 35 },
+  { id: "wq-today", label: "Weekly today", sourceType: "weekly-quiz", isoDate: "2026-08-10", questionCount: 15, durationMinutes: 25 },
+  { id: "sec-future", label: "Sectional future", sourceType: "sectional", isoDate: "2026-08-20", questionCount: 40, durationMinutes: 40 },
+  { id: "sec-supp", label: "Sectional add-on", sourceType: "sectional", isoDate: "2026-08-04", isSupplementary: true, questionCount: 5, durationMinutes: 10 },
 ];
 
-test("getMissedSessions lists past-due cadence sets, excluding PIB, libraries, today and future", () => {
+const CATCHUP_NOTES = [
+  { id: "mains-01", title: "GS Mains Answer Practice", cadence: "mains", date: "2026-08-06" },
+  { id: "ethics-01", title: "Weekly Ethics Case", cadence: "ethics", date: "2026-08-02" },
+  { id: "daily-note", title: "CA Briefing", cadence: "daily", date: "2026-08-07" },
+];
+
+test("getMissedSessions includes dated quizzes+writing, excluding daily CA, PIB, libraries, today, future", () => {
   const { P } = loadProgressModule();
-  const progress = P.createFreshProgress(0);
-  const missed = P.getMissedSessions(progress, "2026-08-10", CATCHUP_SETS);
+  const missed = P.getMissedSessions(P.createFreshProgress(0), "2026-08-10", CATCHUP_SETS, CATCHUP_NOTES);
   const ids = missed.map((m) => m.id);
-  assert.deepEqual(ids, ["rc-01", "d-02", "d-01"], "newest first, PIB/sectional/today/future/add-on excluded");
+  // Newest first: mains-06, csat-05, sec-04, rc-03, ethics-02. daily/pib/today/
+  // future/add-on/daily-note all excluded.
+  assert.deepEqual(ids, ["mains-01", "csat-01", "sec-01", "rc-01", "ethics-01"]);
+  const mains = missed.find((m) => m.id === "mains-01");
+  assert.equal(mains.kind, "writing");
+  assert.equal(missed.find((m) => m.id === "rc-01").kind, "quiz");
 });
 
-test("getMissedSessions treats a completed set (history or dailyCompletions) as done", () => {
+test("getMissedSessions treats attempted, daily-completed and manually-done as done", () => {
   const { P } = loadProgressModule();
   const progress = {
     ...P.createFreshProgress(0),
-    history: [{ questionSetId: "d-01", sourceType: "daily", isoDate: "2026-08-05" }],
-    dailyCompletions: { "2026-08-02": { questionSetId: "d-02" } },
+    history: [{ questionSetId: "rc-01", isoDate: "2026-08-05" }],
+    manualCompletions: { "mains-01": { at: 1, isoDate: "2026-08-08" }, "sec-01": { at: 1, isoDate: "2026-08-08" } },
   };
-  const ids = P.getMissedSessions(progress, "2026-08-10", CATCHUP_SETS).map((m) => m.id);
-  assert.deepEqual(ids, ["rc-01"], "both completed dailies drop out");
+  const ids = P.getMissedSessions(progress, "2026-08-10", CATCHUP_SETS, CATCHUP_NOTES).map((m) => m.id);
+  assert.deepEqual(ids, ["csat-01", "ethics-01"], "rc attempted, mains+sectional manually done");
 });
 
-test("setSessionDismissed hides a set and can restore it", () => {
+test("setSessionDismissed hides an item and can restore it", () => {
   const { P } = loadProgressModule();
-  const dismissed = P.setSessionDismissed(P.createFreshProgress(0), "rc-01", true);
-  assert.ok(dismissed.dismissedSessions["rc-01"]);
-  const missed = P.getMissedSessions(dismissed, "2026-08-10", CATCHUP_SETS).map((m) => m.id);
-  assert.deepEqual(missed, ["d-02", "d-01"], "dismissed set is excluded");
-  const restored = P.setSessionDismissed(dismissed, "rc-01", false);
-  assert.equal(restored.dismissedSessions["rc-01"], undefined);
+  const dismissed = P.setSessionDismissed(P.createFreshProgress(0), "csat-01", true);
+  assert.ok(dismissed.dismissedSessions["csat-01"]);
+  const ids = P.getMissedSessions(dismissed, "2026-08-10", CATCHUP_SETS, CATCHUP_NOTES).map((m) => m.id);
+  assert.ok(!ids.includes("csat-01"), "dismissed item is excluded");
+  assert.equal(P.setSessionDismissed(dismissed, "csat-01", false).dismissedSessions["csat-01"], undefined);
+});
+
+test("setItemDone records and clears a manual completion with a date", () => {
+  const { P } = loadProgressModule();
+  const done = P.setItemDone(P.createFreshProgress(0), "mains-01", true, "2026-08-09");
+  assert.equal(done.manualCompletions["mains-01"].isoDate, "2026-08-09");
+  const ids = P.getMissedSessions(done, "2026-08-10", CATCHUP_SETS, CATCHUP_NOTES).map((m) => m.id);
+  assert.ok(!ids.includes("mains-01"), "manually-done writing task drops out");
+  assert.equal(P.setItemDone(done, "mains-01", false).manualCompletions["mains-01"], undefined);
 });

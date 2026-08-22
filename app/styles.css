@@ -175,6 +175,8 @@ ol, ul { margin: 0; }
 .nav-link { display: inline-flex; align-items: center; gap: 7px; padding: 8px 16px; border-radius: 999px; font-weight: 600; font-size: 14px; color: var(--muted); }
 .nav-link:hover { color: var(--ink); }
 .nav-link.active { background: var(--green); color: #fff; }
+.nav-badge { display: inline-grid; place-items: center; min-width: 18px; height: 18px; padding: 0 5px; border-radius: 999px; background: var(--saffron); color: #fff; font-family: var(--mono); font-size: 10px; font-weight: 600; line-height: 1; }
+.nav-link.active .nav-badge { background: rgba(255,255,255,.25); }
 .nav-right { display: flex; align-items: center; gap: 12px; }
 .streak-chip { display: inline-flex; align-items: center; gap: 5px; font-family: var(--mono); font-weight: 600; font-size: 13px; color: var(--saffron); background: var(--saffron-tint); padding: 7px 11px; border-radius: 999px; }
 .nav-search { display: inline-flex; align-items: center; gap: 8px; padding: 7px 10px 7px 12px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); color: var(--muted); cursor: pointer; font-size: 13px; transition: border-color .15s ease, color .15s ease; }
@@ -1326,6 +1328,42 @@ body[data-qfont="serif"] .rev-explain p { font-family: var(--serif); font-size: 
 .workflow-routing span { margin-bottom: 0; flex: none; }
 .workflow-routing p { color: var(--muted); font-size: 13px; line-height: 1.45; max-width: 760px; }
 
+/* Plan v3 — hero plan bar, weekly meters, milestones */
+.workflow-hero-wide { align-items: stretch; }
+.workflow-hero-main { flex: 1; min-width: 0; display: flex; flex-direction: column; }
+.workflow-plan-bar { position: relative; margin-top: 16px; height: 26px; border-radius: 999px; background: rgba(255,255,255,.16); overflow: hidden; }
+.workflow-plan-bar-fill { position: absolute; inset: 0 auto 0 0; border-radius: 999px; background: rgba(255,255,255,.34); }
+.workflow-plan-bar-label { position: absolute; inset: 0; display: flex; align-items: center; padding: 0 12px; font-family: var(--mono); font-size: 10.5px; letter-spacing: .04em; color: #fff; text-transform: uppercase; }
+.workflow-week-card { }
+.workflow-meters { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.workflow-meter { border: 1px solid var(--line-2); border-radius: var(--radius-sm); background: var(--paper); padding: 12px; min-width: 0; }
+.workflow-meter.done { border-color: color-mix(in srgb, var(--green) 40%, var(--line)); background: var(--green-tint); }
+.workflow-meter-head { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; }
+.workflow-meter-head span { font-family: var(--mono); font-size: 10px; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); }
+.workflow-meter-head strong { font-size: 15px; color: var(--ink); font-variant-numeric: tabular-nums; }
+.workflow-meter-track { height: 7px; margin: 9px 0 8px; border-radius: 999px; background: var(--line-2); overflow: hidden; }
+.workflow-meter-fill { height: 100%; border-radius: 999px; background: var(--green); transition: width .3s ease; }
+.workflow-meter.done .workflow-meter-fill { background: var(--green-deep, var(--green)); }
+.workflow-meter small { display: block; color: var(--muted); font-size: 11px; line-height: 1.35; }
+.workflow-week-foot { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--line-2); }
+.workflow-week-foot div { min-width: 0; }
+.workflow-week-foot span { display: block; font-family: var(--mono); font-size: 9.5px; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.workflow-week-foot strong { display: block; margin-top: 3px; font-size: 15px; color: var(--ink); }
+.workflow-week-foot div.done strong { color: var(--green); }
+.workflow-milestones { display: grid; gap: 8px; }
+.workflow-milestone { display: flex; align-items: center; gap: 12px; border: 1px solid var(--line-2); border-radius: var(--radius-sm); background: var(--surface-2); padding: 10px 12px; }
+.workflow-milestone-days { flex: none; display: grid; place-items: center; min-width: 54px; padding: 6px; border-radius: var(--radius-sm); background: var(--green-tint); }
+.workflow-milestone-days strong { font-family: var(--serif); font-size: 22px; line-height: 1; color: var(--green); }
+.workflow-milestone-days span { font-family: var(--mono); font-size: 9px; text-transform: uppercase; color: var(--muted); }
+.workflow-milestone-copy { min-width: 0; }
+.workflow-milestone-copy strong { display: block; font-size: 14px; color: var(--ink); }
+.workflow-milestone-copy small { display: block; margin-top: 2px; color: var(--muted); font-size: 11.5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+@media (max-width: 720px) {
+  .workflow-meters { grid-template-columns: 1fr; }
+  .workflow-week-foot { grid-template-columns: repeat(2, 1fr); }
+  .workflow-plan-bar-label { font-size: 9.5px; }
+}
+
 /* ===================== Tweaks extras ===================== */
 .tweak-jump { display: flex; flex-wrap: wrap; gap: 7px; }
 .jbtn { padding: 7px 12px; border-radius: 8px; border: 1px solid var(--line); background: var(--surface); font-size: 13px; font-weight: 600; color: var(--muted); }
@@ -2014,9 +2052,12 @@ body[data-qfont="serif"] .rev-explain p { font-family: var(--serif); font-size: 
 .catchup-card-date { display: inline-flex; align-items: center; gap: 5px; color: var(--muted); font-size: 11px; }
 .catchup-card-body strong { color: var(--ink); font-size: 15px; line-height: 1.3; }
 .catchup-card-meta { color: var(--muted); font-size: 12px; }
-.catchup-card-actions { display: grid; gap: 6px; justify-items: end; flex: none; }
-.catchup-dismiss { display: inline-flex; align-items: center; gap: 4px; color: var(--muted); font-size: 11px; }
+.catchup-card-actions { display: grid; gap: 7px; justify-items: end; flex: none; }
+.catchup-card-secondary { display: inline-flex; align-items: center; gap: 12px; }
+.catchup-dismiss, .catchup-done { display: inline-flex; align-items: center; gap: 4px; color: var(--muted); font-size: 11px; }
 .catchup-dismiss:hover { color: var(--ink); }
+.catchup-done:hover { color: var(--green); }
+.catchup-cleared-tag { font-style: normal; font-family: var(--mono); font-size: 9px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); border: 1px solid var(--line-2); border-radius: 4px; padding: 1px 5px; margin-left: 6px; }
 .catchup-empty { display: grid; justify-items: center; gap: 10px; padding: 48px 24px; text-align: center; }
 .catchup-empty-mark { display: grid; place-items: center; width: 56px; height: 56px; border-radius: 50%; color: var(--green); background: var(--green-tint); }
 .catchup-empty strong { font-family: var(--serif); font-size: 24px; font-weight: 500; }
