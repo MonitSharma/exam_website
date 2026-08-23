@@ -236,6 +236,11 @@ function parseMdAnswerMap(answerText) {
       explanation: cleanMarkdownInline(match[5]).replace(/\s+/g, " "),
     });
   }
+  // Some generated quizzes bold the answer and its explanation together:
+  // `1. **B — explanation**`. Keep those answer keys too.
+  for (const match of String(answerText || "").matchAll(/^\s*(?:[-*]\s*)?(?:\*\*)?(?:Q)?(\d+)\.\s*(?:\*\*)?([A-Da-d])\s*[—-]/gm)) {
+    if (!answers.has(Number(match[1]))) answers.set(Number(match[1]), { answer: match[2].toLowerCase(), explanation: "" });
+  }
   return answers;
 }
 
@@ -287,7 +292,7 @@ function parseWeeklyQuizMarkdown(absPath, isoDate) {
   const text = readText(absPath);
   const questionSection = text.split(/^##\s+Part C\b/im)[0] || text;
   const answerSection = splitMarkdownSection(text, "Answers")
-    || (text.match(/^##\s+Part\s+[A-Z]\s+[—-]\s+Answers\s*\n([\s\S]*?)(?=^##\s+|(?![\s\S]))/im)?.[1] || "");
+    || (text.match(/^##\s+Part\s+[A-Z]\s+[—-]\s+\*{0,2}Answers\b[^\n]*\n([\s\S]*?)(?=^##\s+|(?![\s\S]))/im)?.[1] || "");
   const answers = parseMdAnswerMap(answerSection);
   const staticSubject = text.match(/^##\s+Part\s+B\s+[—-]\s+Static Subject:\s*\*{0,2}([^*\n]+?)\*{0,2}\s*(?:·|$)/im)?.[1]?.trim() || "Static";
   return parseMdQuestions(questionSection).map((item) => {

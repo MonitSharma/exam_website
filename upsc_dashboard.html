@@ -104,6 +104,14 @@ details.subj>summary::-webkit-details-marker{display:none;}
       <div id="kpiList"></div>
     </div>
     <div class="card">
+      <h2>Weekly commitment</h2>
+      <div id="commitmentLevels"></div>
+      <div class="muted small" style="margin-top:10px;">Minimum keeps the habit alive; Standard is the normal target; Stretch is optional.</div>
+    </div>
+  </div>
+
+  <div class="grid cols-2">
+    <div class="card">
       <h2>Study Hours — this week</h2>
       <div class="row" style="border:none;padding:0 0 4px;"><span><b id="weekHours">0</b> h logged</span><span class="muted">target <b id="hoursTarget">28+</b></span></div>
       <div class="bar green"><div id="hoursFill" style="width:0%"></div></div>
@@ -366,6 +374,12 @@ document.getElementById("scheduleNote").textContent=inLightWeek
 const kpiBox=document.getElementById("kpiList");
 const displayedKpi=inLightWeek?[["Daily Current Affairs","7/7"],["Daily PIB","7/7"],["Core study","Paused"],["Study hours","Flexible"]]:(BALANCED_KPI[scheduledPhase]||BALANCED_KPI["Foundation"]);
 displayedKpi.forEach(k=>{const r=document.createElement("div");r.className="row";r.innerHTML='<span class="muted">'+k[0]+'</span><b>'+k[1]+'</b>';kpiBox.appendChild(r);});
+const commitmentBox=document.getElementById("commitmentLevels");
+[
+  ["Minimum","CA + PIB daily"],
+  ["Standard","One core block/day"],
+  ["Stretch","Extra revision or test"]
+].forEach(([label,value])=>{const r=document.createElement("div");r.className="row";r.innerHTML='<span class="muted">'+label+'</span><b>'+value+'</b>';commitmentBox.appendChild(r);});
 
 // ---- persistence helpers ----
 const load=(k,d)=>{try{return JSON.parse(localStorage.getItem(k))??d}catch(e){return d}};

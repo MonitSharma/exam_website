@@ -32,11 +32,17 @@ const WORKFLOW_FORTNIGHTS = [
 // measure from saved attempts and completions live here, so the meters below
 // reflect real progress instead of static advice.
 const WORKFLOW_TARGETS = {
-  "Foundation": { mcqs: 50, mains: 5, mocks: 1 },
-  "Integration": { mcqs: 300, mains: 14, mocks: 2 },
-  "Prelims Mode": { mcqs: 700, mains: 0, mocks: 2 },
-  "Mains Factory": { mcqs: 0, mains: 28, mocks: 0 },
+  "Foundation": { mcqs: 50, mains: 2, mocks: 1 },
+  "Integration": { mcqs: 100, mains: 2, mocks: 1 },
+  "Prelims Mode": { mcqs: 150, mains: 0, mocks: 1 },
+  "Mains Factory": { mcqs: 0, mains: 2, mocks: 0 },
+  "Maintenance week": { mcqs: 0, mains: 0, mocks: 0 },
 };
+const WORKFLOW_LIGHT_WEEK = { start: "2026-08-24", end: "2026-08-30" };
+
+function workflowDateKey(date) {
+  return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}-${String(date.getDate()).padStart(2, "0")}`;
+}
 
 // Question-set types that count as a "mock" for the weekly mock target.
 const WORKFLOW_MOCK_TYPES = new Set(["sectional", "csat", "ai", "csr", "pyq"]);
@@ -122,10 +128,19 @@ function getWorkflowContext() {
     focus = "";
     next = WORKFLOW_FORTNIGHTS[0][0];
   }
+  const dateKey = workflowDateKey(today);
+  const lightWeek = dateKey >= WORKFLOW_LIGHT_WEEK.start && dateKey <= WORKFLOW_LIGHT_WEEK.end;
+  if (lightWeek) {
+    phase = "Maintenance week";
+    fortnight = "Pause week";
+    fnDates = `${workflowFmt(WORKFLOW_LIGHT_WEEK.start)} - ${workflowFmt(WORKFLOW_LIGHT_WEEK.end)}`;
+    focus = "Daily CA + PIB; core study paused";
+    next = "F7 - Economy + Sci-Tech build resumes 31 Aug";
+  }
   const totalDays = (WORKFLOW_PRELIMS - WORKFLOW_PLAN_START) / 86400000;
   const planPercent = Math.max(0, Math.min(100, Math.round(((today - WORKFLOW_PLAN_START) / 86400000 / totalDays) * 100)));
-  const fnEnd = current ? current[2] : "";
-  return { today, days, phase, fortnight, fnDates, focus, next, planPercent, fnEnd };
+  const fnEnd = lightWeek ? WORKFLOW_LIGHT_WEEK.end : current ? current[2] : "";
+  return { today, days, phase, fortnight, fnDates, focus, next, planPercent, fnEnd, lightWeek };
 }
 
 function WorkflowMeter({ label, actual, target, hint }) {
@@ -180,6 +195,7 @@ function StudyWorkflowDashboard({ go, progress, review, onStartReview }) {
   const latestRcSet = workflowLatestByDate(ds.getQuestionSetsBySource("rc"), "isoDate", todayIso);
   const latestMains = workflowLatestByDate(ds.noteDocuments.filter((doc) => doc.cadence === "mains"), "date", todayIso);
   const latestEditorial = workflowLatestByDate(ds.noteDocuments.filter((doc) => doc.cadence === "editorials"), "date", todayIso);
+  const latestPib = workflowLatestByDate(ds.noteDocuments.filter((doc) => doc.cadence === "pib"), "date", todayIso);
   const latestSunday = workflowLatestByDate(ds.noteDocuments.filter((doc) => doc.cadence === "sunday"), "date", todayIso);
   const dailyDone = Boolean(progress?.dailyCompletions?.[latestDailySet?.isoDate]);
 
@@ -203,6 +219,8 @@ function StudyWorkflowDashboard({ go, progress, review, onStartReview }) {
   const mainsDone = latestMains ? Boolean(manual[latestMains.id]) : false;
   const latestBrief = workflowLatestByDate(ds.noteDocuments.filter((doc) => doc.cadence === "daily"), "date", todayIso);
   const focusSubject = review?.weakest?.[0]?.subject || WORKFLOW_DOW_SUBJECT[new Date().getDay()] || "Revision";
+  const showRcToday = !context.lightWeek && new Date().getDay() === 6;
+  const showMainsToday = !context.lightWeek && new Date().getDay() === 4;
 
   const todayPlan = [
     latestDailySet && {
@@ -214,11 +232,11 @@ function StudyWorkflowDashboard({ go, progress, review, onStartReview }) {
       key: "revise", icon: "rotate", kicker: "Spaced revision", title: `Revise ${dueCount} due question${dueCount === 1 ? "" : "s"}`,
       meta: "Weakest questions resurface first", done: false, cta: "Revise", action: () => (onStartReview ? onStartReview() : go("catchup")),
     },
-    missed.length > 0 && {
-      key: "catchup", icon: "clock", kicker: "Backlog", title: `Clear ${missed.length} missed item${missed.length === 1 ? "" : "s"}`,
-      meta: "Quizzes, mocks & answer-writing you skipped", done: false, cta: "Open", action: () => go("catchup"),
+    latestPib && {
+      key: "pib", icon: "play", kicker: "Daily PIB", title: latestPib.shortTitle || "PIB briefing",
+      meta: "Daily PIB reading", done: null, cta: "Open", action: () => openNote(latestPib),
     },
-    latestRcSet && {
+    showRcToday && latestRcSet && {
       key: "rc", icon: "target", kicker: "CSAT insurance", title: latestRcSet.label,
       meta: `${latestRcSet.questionCount || 0} questions · ${latestRcSet.durationMinutes || 8} min`,
       done: rcDone, cta: "Start", action: () => go("test", { setId: latestRcSet.id }),
@@ -227,12 +245,12 @@ function StudyWorkflowDashboard({ go, progress, review, onStartReview }) {
       key: "brief", icon: "book", kicker: "Read", title: "Today's current-affairs briefing",
       meta: latestBrief.shortTitle || workflowFmt(latestBrief.date), done: null, cta: "Open", action: () => openNote(latestBrief),
     },
-    targets.mains > 0 && latestMains && {
+    showMainsToday && latestMains && {
       key: "mains", icon: "fileText", kicker: "Answer writing", title: "GS Mains answer practice",
       meta: `${latestMains.shortTitle || workflowFmt(latestMains.date)}${mainsDone ? "" : " · mark done in Catch-up"}`,
       done: mainsDone, cta: "Open", action: () => openNote(latestMains),
     },
-    {
+    !context.lightWeek && {
       key: "focus", icon: "spark", kicker: "Focus area", title: `Reinforce ${focusSubject}`,
       meta: review?.weakest?.[0] ? "Your weakest subject right now" : "Today's rotation — build the habit",
       done: null, cta: "Revise", action: () => go("labs", { focusSubject }),
@@ -288,6 +306,11 @@ function StudyWorkflowDashboard({ go, progress, review, onStartReview }) {
           <WorkflowMeter label="MCQs" actual={weekQuestions} target={targets.mcqs} hint="attempt a quiz or mock" />
           <WorkflowMeter label="Mains answers" actual={weekAnswers} target={targets.mains} hint="mark a mains/ethics answer done" />
           <WorkflowMeter label="Mocks" actual={weekMocks} target={targets.mocks} hint="do a sectional or full mock" />
+        </div>
+        <div className="workflow-commitment-levels" aria-label="Weekly commitment levels">
+          <div><strong>Minimum</strong><span>CA + PIB daily</span></div>
+          <div><strong>Standard</strong><span>one core block/day</span></div>
+          <div><strong>Stretch</strong><span>extra revision or test</span></div>
         </div>
         <div className="workflow-week-foot">
           <div><span>Attempts</span><strong>{weekAttempts.length}</strong></div>

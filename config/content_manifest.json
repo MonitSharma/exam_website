@@ -12,6 +12,24 @@
   ],
   "questionSets": [
     {
+      "id": "daily_questions_2026_08_23",
+      "label": "Daily Questions - 23 Aug 2026",
+      "shortLabel": "Daily 23 Aug",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-08-23.json",
+      "isoDate": "2026-08-23",
+      "subjects": [
+        "Polity & Governance",
+        "Economy",
+        "International Relations",
+        "Environment",
+        "Society"
+      ]
+    },
+    {
       "id": "daily_questions_2026_08_22",
       "label": "Daily Questions - 22 Aug 2026",
       "shortLabel": "Daily 22 Aug",
@@ -1624,6 +1642,22 @@
       "negativeMark": -0.66,
       "subjects": [
         "Reading Comprehension"
+      ]
+    },
+    {
+      "id": "pib_questions_2026_08_23",
+      "label": "PIB Questions - 23 Aug 2026",
+      "shortLabel": "PIB 23 Aug",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-08-23.json",
+      "isoDate": "2026-08-23",
+      "subjects": [
+        "Polity & Governance",
+        "International Relations",
+        "Geography"
       ]
     },
     {
@@ -3475,6 +3509,23 @@
       ]
     },
     {
+      "id": "csat_practice_2026_08_23",
+      "label": "CSAT Practice - 23 Aug 2026",
+      "shortLabel": "CSAT Practice 23 Aug",
+      "category": "CSAT Practice",
+      "sourceType": "csat",
+      "questionCount": 22,
+      "durationMinutes": 35,
+      "path": "generated_data/csat_questions/2026-08-23.json",
+      "isoDate": "2026-08-23",
+      "paper": "GS Paper II (CSAT)",
+      "marksPerCorrect": 2,
+      "negativeMark": -0.66,
+      "subjects": [
+        "CSAT"
+      ]
+    },
+    {
       "id": "csat_practice_2026_08_16",
       "label": "CSAT Practice - 16 Aug 2026",
       "shortLabel": "CSAT Practice 16 Aug",
@@ -4000,6 +4051,14 @@
   ],
   "noteDocuments": [
     {
+      "id": "anki-prelims-flashcards-2026-08-23",
+      "cadence": "anki",
+      "title": "Prelims Flashcards",
+      "shortTitle": "Anki - 23 Aug",
+      "date": "2026-08-23",
+      "path": "anki/Prelims_Flashcards_2026-08-23.txt"
+    },
+    {
       "id": "anki-prelims-flashcards-2026-08-09",
       "cadence": "anki",
       "title": "Prelims Flashcards",
@@ -4062,6 +4121,14 @@
       "shortTitle": "Anki - 21 Jun",
       "date": "2026-06-21",
       "path": "anki/Prelims_Flashcards_2026-06-21.txt"
+    },
+    {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-08-23",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "23 Aug 2026",
+      "date": "2026-08-23",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-08-23.md"
     },
     {
       "id": "daily-daily-current-affairs-upsc-ca-2026-08-22",
@@ -5064,6 +5131,14 @@
       "path": "weekly/Physics/Physics_Drill_2026-06-10.md"
     },
     {
+      "id": "daily-daily-pib-pib-2026-08-23",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 23 Aug",
+      "date": "2026-08-23",
+      "path": "daily/daily_pib/PIB_2026-08-23.md"
+    },
+    {
       "id": "daily-daily-pib-pib-2026-08-22",
       "cadence": "pib",
       "title": "Daily PIB Briefing",
@@ -5744,6 +5819,14 @@
       "path": "daily/daily_reading_comprehension/RC_Drill_2026-06-08.md"
     },
     {
+      "id": "weekly-schemes-schemes-reports-2026-08-23",
+      "cadence": "schemes",
+      "title": "Schemes & Reports",
+      "shortTitle": "Reports - 23 Aug",
+      "date": "2026-08-23",
+      "path": "weekly/Schemes/Schemes_Reports_2026-08-23.md"
+    },
+    {
       "id": "weekly-schemes-schemes-reports-2026-08-16",
       "cadence": "schemes",
       "title": "Schemes & Reports",
@@ -6094,6 +6177,14 @@
       "shortTitle": "Week of 07 Jun",
       "date": "2026-06-07",
       "path": "weekly/Sunday/Sunday_Sweep_2026-06-07.md"
+    },
+    {
+      "id": "weekly-csat-csat-practice-2026-08-23",
+      "cadence": "weekly-csat",
+      "title": "CSAT Practice",
+      "shortTitle": "Practice - 23 Aug",
+      "date": "2026-08-23",
+      "path": "weekly/CSAT/CSAT_Practice_2026-08-23.md"
     },
     {
       "id": "weekly-csat-csat-practice-2026-08-16",

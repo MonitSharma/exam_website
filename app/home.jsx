@@ -117,7 +117,6 @@ function HeroStudyDesk({ go, progress }) {
   const daily = ds.dailyQuiz;
   const dailySet = daily?.questionSetId ? ds.getQuestionSetById(daily.questionSetId) : null;
   const pibSet = latestDatedItem(ds.getQuestionSetsBySource("pib"), "isoDate", ds.todayIso);
-  const rcSet = daily?.isoDate ? latestDatedItem(ds.getQuestionSetsBySource("rc"), "isoDate", ds.todayIso) : null;
   const latestBrief = latestDatedItem(ds.noteDocuments.filter((doc) => doc.cadence === "daily"), "date", ds.todayIso);
   const dailyDone = Boolean(progress.dailyCompletions?.[daily?.isoDate]);
   const items = [
@@ -147,15 +146,6 @@ function HeroStudyDesk({ go, progress }) {
       icon: "play",
       tone: "active",
       action: () => go("test", { setId: pibSet.id }),
-    },
-    rcSet && {
-      key: "rc",
-      label: "CSAT RC",
-      title: rcSet.shortLabel || "RC drill",
-      meta: `${rcSet.questionCount || 0}Q · ${rcSet.durationMinutes || 8}m`,
-      icon: "target",
-      tone: "note",
-      action: () => go("test", { setId: rcSet.id }),
     },
   ].filter(Boolean);
 
@@ -567,6 +557,37 @@ function isIsoWithinWeek(isoDate, weekStartIso) {
   return date >= start && date < end;
 }
 
+function balancedWeekPlan(todayDate) {
+  const start = new Date(todayDate);
+  const day = start.getUTCDay();
+  start.setUTCDate(start.getUTCDate() - day);
+  const labels = [
+    ["Weekly quiz + planning", "Rest if the week was heavy"],
+    ["Static GS — current fortnight", "One focused reading session"],
+    ["Physics Optional", "One focused problem-solving session"],
+    ["Static GS + PYQ recall", "One focused reading session"],
+    ["Mains answer / Ethics", "One answer only"],
+    ["Physics Optional", "One focused problem-solving session"],
+    ["Static GS revision", "Weekly consolidation"],
+  ];
+  const lightStart = "2026-08-24";
+  const lightEnd = "2026-08-30";
+  return {
+    headers: ["Daily baseline", "Core focus"],
+    days: labels.map((cells, index) => {
+      const date = new Date(start);
+      date.setUTCDate(start.getUTCDate() + index);
+      const iso = date.toISOString().slice(0, 10);
+      const light = iso >= lightStart && iso <= lightEnd;
+      return {
+        weekday: WEEKDAYS[index],
+        dayNum: date.getUTCDate(),
+        cells: ["CA + PIB daily", light ? "Recovery week — no scheduled core study" : cells.join(" · ")],
+      };
+    }),
+  };
+}
+
 function WeeklyPlanCard() {
   const ds = window.UPSC;
   const sweeps = React.useMemo(() => {
@@ -603,10 +624,10 @@ function WeeklyPlanCard() {
 
   if (!sweep) return null;
 
-  const plan = state.plan;
   const todayDate = isoDateToUtc(ds.todayIso) || new Date();
   const todayNum = todayDate.getUTCDate();
   const isCurrentWeek = sweep.date && isIsoWithinWeek(ds.todayIso, getSundayWeekStartIso(sweep.date));
+  const plan = isCurrentWeek ? balancedWeekPlan(todayDate) : state.plan;
   const activeIdx = selected == null ? 0 : selected;
   const day = plan && plan.days ? plan.days[activeIdx] : null;
   const isToday = isCurrentWeek && day && day.dayNum === todayNum;

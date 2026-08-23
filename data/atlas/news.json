@@ -1,5 +1,15 @@
 {
  "weeks": [
+ {
+   "id": "2026-08-22",
+   "label": "Week of 22 Aug 2026",
+   "source": "weekly/weekly_news/Places_in_News_2026-08-22.md"
+  },
+  {
+   "id": "2026-08-15",
+   "label": "Week of 15 Aug 2026",
+   "source": "weekly/weekly_news/Places_in_News_2026-08-15.md"
+  },
   {
    "id": "2026-08-08",
    "label": "Week of 08 Aug 2026",
@@ -37,6 +47,66 @@
   }
  ],
  "features": [
+  {
+   "id": "0822-hirakud",
+   "weekId": "2026-08-22",
+   "layer": "current",
+   "name": "Hirakud Dam & Mahanadi",
+   "country": "India",
+   "region": "Odisha",
+   "lat": 21.53,
+   "lon": 83.87,
+   "scope": "india",
+   "topic": "Geography",
+   "hook": "Sambalpur · Mahanadi",
+   "fact": "Hirakud Dam and the Mahanadi were in focus during the August monsoon flood releases.",
+   "locate": "Western Odisha, upstream of the Mahanadi delta."
+  },
+  {
+   "id": "0822-bhadrachalam",
+   "weekId": "2026-08-22",
+   "layer": "current",
+   "name": "Bhadrachalam & Godavari",
+   "country": "India",
+   "region": "Telangana",
+   "lat": 17.67,
+   "lon": 80.89,
+   "scope": "india",
+   "topic": "Geography",
+   "hook": "Godavari floodplain",
+   "fact": "Bhadrachalam was in focus during the monsoon Godavari flood episode.",
+   "locate": "Eastern Telangana on the Godavari, upstream of Rajahmundry."
+  },
+  {
+   "id": "0815-mandi-kullu",
+   "weekId": "2026-08-15",
+   "layer": "current",
+   "name": "Mandi & Kullu",
+   "country": "India",
+   "region": "Himachal Pradesh",
+   "lat": 31.59,
+   "lon": 76.92,
+   "scope": "india",
+   "topic": "Geography",
+   "hook": "Beas valley",
+   "fact": "Mandi and Kullu were in focus during the August monsoon landslides and floods.",
+   "locate": "The Beas valley of Himachal Pradesh, between the lower hills and Pir Panjal."
+  },
+  {
+   "id": "0815-durban",
+   "weekId": "2026-08-15",
+   "layer": "current",
+   "name": "Durban",
+   "country": "South Africa",
+   "region": "KwaZulu-Natal",
+   "lat": -29.86,
+   "lon": 31.02,
+   "scope": "world",
+   "topic": "International Relations",
+   "hook": "Indian Ocean port",
+   "fact": "Durban was in focus as host city for the August SADC summit.",
+   "locate": "South Africa's east coast on the Indian Ocean."
+  },
   {
    "id": "0808-pathanamthitta",
    "weekId": "2026-08-08",
