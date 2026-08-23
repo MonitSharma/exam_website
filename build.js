@@ -49,6 +49,7 @@ const STATIC_PATHS = [
   "favicon.svg",
   "icon-maskable.svg",
   "manifest.webmanifest",
+  "upsc_dashboard.html",
 ];
 
 // Nothing in the app fetches these; they are ~1 MB of source data kept in the
