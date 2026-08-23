@@ -3195,6 +3195,27 @@
       ]
     },
     {
+      "id": "sectional_book-topics_2026_08_23_extra",
+      "label": "Sectional Practice Add-on - 23 Aug 2026",
+      "shortLabel": "Extra 23 Aug",
+      "category": "Extra Practice",
+      "sourceType": "sectional",
+      "questionCount": 50,
+      "durationMinutes": 80,
+      "path": "generated_data/sectional_questions/book-topics_2026-08-23_chatgpt.json",
+      "isoDate": "2026-08-23",
+      "variant": "extra-practice",
+      "variantLabel": "Practice Add-on",
+      "isSupplementary": true,
+      "subjects": [
+        "Polity",
+        "Economy",
+        "History",
+        "Geography",
+        "International Relations"
+      ]
+    },
+    {
       "id": "sectional_book-topics_2026_08_16_extra",
       "label": "Sectional Practice Add-on - 16 Aug 2026",
       "shortLabel": "Extra 16 Aug",
@@ -4755,6 +4776,14 @@
       "path": "weekly/Essays/Essay_2026-08-23.md"
     },
     {
+      "id": "ethics-case-2026-08-23",
+      "cadence": "ethics",
+      "title": "Weekly Ethics Case Study",
+      "shortTitle": "Case - 23 Aug",
+      "date": "2026-08-23",
+      "path": "Ethics_Case_2026-08-23.md"
+    },
+    {
       "id": "ethics-case-2026-08-16",
       "cadence": "ethics",
       "title": "Weekly Ethics Case Study",
@@ -5801,6 +5830,17 @@
       "shortTitle": "Reports - 14 Jun",
       "date": "2026-06-14",
       "path": "weekly/Schemes/Schemes_Reports_2026-06-14.md"
+    },
+    {
+      "id": "weekly-sectional-sectional-book-topics-2026-08-23-chatgpt",
+      "cadence": "sectional",
+      "title": "Weekly Book Topics 50Q Companion",
+      "shortTitle": "Book Topics - 23 Aug",
+      "date": "2026-08-23",
+      "path": "weekly/Sectional/Sectional_book-topics_2026-08-23_chatgpt.md",
+      "variant": "supplementary",
+      "variantLabel": "Companion Brief",
+      "isSupplementary": true
     },
     {
       "id": "weekly-sectional-sectional-book-topics-2026-08-16-chatgpt",

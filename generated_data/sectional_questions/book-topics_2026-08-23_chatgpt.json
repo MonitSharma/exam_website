@@ -1,0 +1,1552 @@
+[
+  {
+    "id": "book_topics_2026_08_23_01",
+    "question_number": 1,
+    "question": "With reference to the Public Accounts Committee (PAC), consider the following statements:\n1. It consists of 22 members - 15 from the Lok Sabha and 7 from the Rajya Sabha.\n2. A minister can be elected as a member of the committee.\n3. Since 1967, its chairman has been appointed from among members of the Opposition.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The PAC has 22 members (15 Lok Sabha + 7 Rajya Sabha). Its term is one year and, by convention since 1967, its chairman is from the Opposition. A minister cannot be elected as a member, so statement 2 is wrong.",
+    "subject": "Polity",
+    "theme": "Polity - Parliamentary Committees, Forums & Groups (Laxmikanth Ch 23-25)",
+    "micro_topic": "Public Accounts Committee - composition",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_23_02",
+    "question_number": 2,
+    "question": "With reference to the Estimates Committee, consider the following statements:\n1. It consists of 30 members, all drawn from the Lok Sabha.\n2. It was constituted for the first time in 1950.\n3. It can question the policy laid down by Parliament.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The Estimates Committee (constituted 1950) is the largest parliamentary committee with 30 members, all from the Lok Sabha; the Rajya Sabha has no representation. It cannot question the policy laid down by Parliament - it only suggests economies in administration. Hence statement 3 is wrong.",
+    "subject": "Polity",
+    "theme": "Polity - Parliamentary Committees, Forums & Groups (Laxmikanth Ch 23-25)",
+    "micro_topic": "Estimates Committee",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_23_03",
+    "question_number": 3,
+    "question": "Consider the following statements about the Committee on Public Undertakings (CoPU):\n1. It was set up in 1964 on the recommendation of the Krishna Menon Committee.\n2. At present it consists of 22 members.\n3. A minister can be elected as one of its members.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The CoPU was created in 1964 on the recommendation of the Krishna Menon Committee. Its membership was raised from the original 15 to 22 (15 Lok Sabha + 7 Rajya Sabha). Like other financial committees, ministers cannot be members, so statement 3 is wrong.",
+    "subject": "Polity",
+    "theme": "Polity - Parliamentary Committees, Forums & Groups (Laxmikanth Ch 23-25)",
+    "micro_topic": "Committee on Public Undertakings",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_23_04",
+    "question_number": 4,
+    "question": "With reference to the Departmentally Related Standing Committees (DRSCs), consider the following statements:\n1. There are 24 such committees, each consisting of 31 members.\n2. Of the 24 committees, 16 work under the Speaker of the Lok Sabha and 8 under the Chairman of the Rajya Sabha.\n3. Their recommendations are binding on Parliament.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The DRSC system began with 17 committees in 1993 and was restructured to 24 in 2004. Each has 31 members (21 Lok Sabha + 10 Rajya Sabha); 16 function under the Speaker and 8 under the Rajya Sabha Chairman. Their recommendations are advisory (persuasive), not binding, so statement 3 is wrong.",
+    "subject": "Polity",
+    "theme": "Polity - Parliamentary Committees, Forums & Groups (Laxmikanth Ch 23-25)",
+    "micro_topic": "Departmentally Related Standing Committees",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_23_05",
+    "question_number": 5,
+    "question": "Match List-I (Committee) with List-II (Year established) and select the correct answer using the codes below:\nList-I\nA. Public Accounts Committee\nB. Estimates Committee\nC. Committee on Public Undertakings\nD. Departmentally Related Standing Committees\nList-II\n1. 1921\n2. 1950\n3. 1964\n4. 1993",
+    "options": [
+      {
+        "key": "a",
+        "text": "A-1, B-3, C-2, D-4"
+      },
+      {
+        "key": "b",
+        "text": "A-2, B-1, C-4, D-3"
+      },
+      {
+        "key": "c",
+        "text": "A-1, B-2, C-3, D-4"
+      },
+      {
+        "key": "d",
+        "text": "A-3, B-2, C-1, D-4"
+      }
+    ],
+    "answer": "c",
+    "explanation": "PAC is the oldest (1921), Estimates Committee 1950, CoPU 1964, and the DRSC system was introduced in 1993. Correct sequence: A-1, B-2, C-3, D-4.",
+    "subject": "Polity",
+    "theme": "Polity - Parliamentary Committees, Forums & Groups (Laxmikanth Ch 23-25)",
+    "micro_topic": "Committees - year of establishment (matching)",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_23_06",
+    "question_number": 6,
+    "question": "The scrutiny carried out by the Public Accounts Committee is often described as a 'post-mortem' because:",
+    "options": [
+      {
+        "key": "a",
+        "text": "it can prevent the executive from spending money that has not been sanctioned"
+      },
+      {
+        "key": "b",
+        "text": "it examines expenditure only after it has been incurred and audited by the Comptroller and Auditor General"
+      },
+      {
+        "key": "c",
+        "text": "it lays down the policy to be followed in the coming financial year"
+      },
+      {
+        "key": "d",
+        "text": "it examines and votes upon the demands for grants before they are passed"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The PAC works on the audited accounts and the audit reports of the CAG - i.e. after the money has been spent. Because it cannot stop expenditure in advance and acts only afterwards, its role is often criticised as a post-mortem examination.",
+    "subject": "Polity",
+    "theme": "Polity - Parliamentary Committees, Forums & Groups (Laxmikanth Ch 23-25)",
+    "micro_topic": "PAC - post-mortem criticism",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_23_07",
+    "question_number": 7,
+    "question": "With reference to the Indian Parliamentary Group (IPG), consider the following statements:\n1. It is an autonomous body and not a parliamentary committee.\n2. It was formed in 1949.\n3. It functions as a link with the Inter-Parliamentary Union (IPU) and the Commonwealth Parliamentary Association (CPA).\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "The IPG, formed in 1949, is an autonomous body (not a parliamentary committee). The Speaker of the Lok Sabha is its ex-officio President, and it serves as the Indian national group of the IPU and the main branch of the CPA in India. All three statements are correct.",
+    "subject": "Polity",
+    "theme": "Polity - Parliamentary Committees, Forums & Groups (Laxmikanth Ch 23-25)",
+    "micro_topic": "Indian Parliamentary Group",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_23_08",
+    "question_number": 8,
+    "question": "With reference to Parliamentary Forums, consider the following statements:\n1. The Parliamentary Forums were constituted from 2005 onwards.\n2. The Speaker of the Lok Sabha is the ex-officio President of the Lok Sabha forums.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Parliamentary Forums were first constituted in 2005 to sensitise members on critical issues (water, youth, population, disaster management, etc.). The Speaker of the Lok Sabha is the ex-officio President of the forums located in the Lok Sabha. Both statements are correct.",
+    "subject": "Polity",
+    "theme": "Polity - Parliamentary Committees, Forums & Groups (Laxmikanth Ch 23-25)",
+    "micro_topic": "Parliamentary Forums",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_23_09",
+    "question_number": 9,
+    "question": "Which one of the following is an example of an ad hoc parliamentary committee?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Business Advisory Committee"
+      },
+      {
+        "key": "b",
+        "text": "Committee on Government Assurances"
+      },
+      {
+        "key": "c",
+        "text": "Select Committee on a Bill"
+      },
+      {
+        "key": "d",
+        "text": "Committee on Subordinate Legislation"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Ad hoc committees are appointed for a specific purpose and cease to exist once the task is completed - e.g. Select/Joint Committees on Bills and Joint Parliamentary Committees. The other three are standing committees, which are permanent and constituted periodically.",
+    "subject": "Polity",
+    "theme": "Polity - Parliamentary Committees, Forums & Groups (Laxmikanth Ch 23-25)",
+    "micro_topic": "Ad hoc vs standing committees",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_23_10",
+    "question_number": 10,
+    "question": "In addition to the appropriation accounts of the Government of India, the Public Accounts Committee also scrutinises:",
+    "options": [
+      {
+        "key": "a",
+        "text": "the audit reports of the Comptroller and Auditor General of India"
+      },
+      {
+        "key": "b",
+        "text": "the estimates of expenditure included in the budget"
+      },
+      {
+        "key": "c",
+        "text": "the demands for grants of each ministry before they are voted"
+      },
+      {
+        "key": "d",
+        "text": "the working of statutory corporations exclusively"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The PAC examines the appropriation accounts and the finance accounts of the Union government together with the audit reports of the CAG. It does not deal with budget estimates (Estimates Committee) or demands for grants; examination of public undertakings falls to the CoPU.",
+    "subject": "Polity",
+    "theme": "Polity - Parliamentary Committees, Forums & Groups (Laxmikanth Ch 23-25)",
+    "micro_topic": "PAC - scope of examination",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_23_11",
+    "question_number": 11,
+    "question": "The Supreme Court of India is established and constituted under which one of the following Articles of the Constitution?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Article 131"
+      },
+      {
+        "key": "b",
+        "text": "Article 124"
+      },
+      {
+        "key": "c",
+        "text": "Article 143"
+      },
+      {
+        "key": "d",
+        "text": "Article 226"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Article 124 provides for the establishment and constitution of the Supreme Court. Article 131 deals with original jurisdiction, Article 143 with advisory jurisdiction, and Article 226 empowers High Courts to issue writs.",
+    "subject": "Polity",
+    "theme": "Polity - Supreme Court, Judicial Review, Judicial Activism & PIL (Laxmikanth Ch 26-29)",
+    "micro_topic": "Article establishing the Supreme Court",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_23_12",
+    "question_number": 12,
+    "question": "As of 2026, the sanctioned strength of the Supreme Court of India is:",
+    "options": [
+      {
+        "key": "a",
+        "text": "31 judges (Chief Justice + 30)"
+      },
+      {
+        "key": "b",
+        "text": "34 judges (Chief Justice + 33)"
+      },
+      {
+        "key": "c",
+        "text": "38 judges (Chief Justice + 37)"
+      },
+      {
+        "key": "d",
+        "text": "30 judges (Chief Justice + 29)"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Under Article 124, Parliament fixes the number of judges. The Supreme Court (Number of Judges) Amendment Act, 2026 raised the sanctioned strength from 34 to 38 (the Chief Justice of India plus 37 other judges). The earlier figure of 34 dated from the 2019 amendment.",
+    "subject": "Polity",
+    "theme": "Polity - Supreme Court, Judicial Review, Judicial Activism & PIL (Laxmikanth Ch 26-29)",
+    "micro_topic": "Sanctioned strength of the Supreme Court",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_23_13",
+    "question_number": 13,
+    "question": "With reference to the qualifications for appointment as a judge of the Supreme Court, consider the following statements:\n1. A person may be appointed if he is, in the opinion of the President, a distinguished jurist.\n2. The Constitution prescribes a minimum age for appointment as a judge of the Supreme Court.\n3. A person who has been a judge of a High Court for at least five years is qualified for appointment.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "A distinguished jurist may be appointed (this route has never yet been used), and five years as a High Court judge (or ten years as a High Court advocate) is a qualifying criterion. The Constitution prescribes no minimum age for a Supreme Court judge, so statement 2 is wrong.",
+    "subject": "Polity",
+    "theme": "Polity - Supreme Court, Judicial Review, Judicial Activism & PIL (Laxmikanth Ch 26-29)",
+    "micro_topic": "Qualifications of a Supreme Court judge",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_23_14",
+    "question_number": 14,
+    "question": "With reference to the original jurisdiction of the Supreme Court under Article 131, consider the following statements:\n1. It extends to disputes between the Government of India and one or more States.\n2. It extends to inter-State water disputes.\n3. It is exclusive, so that no other court can decide such disputes.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Article 131 gives the Supreme Court exclusive original jurisdiction over federal disputes (Centre-State, State-State, etc.). However, inter-State water disputes are expressly excluded - Article 262 allows Parliament to bar the jurisdiction of all courts, done through the Inter-State River Water Disputes Act, 1956. Hence statement 2 is wrong.",
+    "subject": "Polity",
+    "theme": "Polity - Supreme Court, Judicial Review, Judicial Activism & PIL (Laxmikanth Ch 26-29)",
+    "micro_topic": "Original jurisdiction - Article 131",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_23_15",
+    "question_number": 15,
+    "question": "Which one of the following statements is correct regarding the writ jurisdiction of the Supreme Court and the High Courts?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The writ jurisdiction of the Supreme Court under Article 32 is confined to the enforcement of Fundamental Rights, whereas that of a High Court under Article 226 is wider"
+      },
+      {
+        "key": "b",
+        "text": "Article 226 is itself a Fundamental Right"
+      },
+      {
+        "key": "c",
+        "text": "Article 32 can be suspended even without a proclamation of Emergency"
+      },
+      {
+        "key": "d",
+        "text": "High Courts can never issue a writ to an authority situated outside their territorial jurisdiction"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Article 32 is limited to enforcement of Fundamental Rights and is itself a Fundamental Right; Article 226 is wider as it covers both Fundamental Rights and 'any other purpose'. Article 32 can be suspended only during a National Emergency (except Articles 20 and 21). A High Court may issue writs beyond its territory if the cause of action arises within it.",
+    "subject": "Polity",
+    "theme": "Polity - Supreme Court, Judicial Review, Judicial Activism & PIL (Laxmikanth Ch 26-29)",
+    "micro_topic": "Writ jurisdiction Article 32 vs 226",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_23_16",
+    "question_number": 16,
+    "question": "With reference to the advisory jurisdiction of the Supreme Court under Article 143, consider the following statements:\n1. The Court is bound to give its opinion on any matter referred to it under Article 143(1).\n2. The opinion tendered by the Court is not binding on the President.\n3. On matters referred under Article 143(2), relating to certain pre-Constitution disputes, the Court is obliged to give its opinion.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Under Article 143(1) the Court may either give or refuse to give its opinion; under Article 143(2) (certain pre-Constitution treaties/agreements) it must give its opinion. In both cases the opinion is advisory and not binding on the President. Hence statement 1 is wrong.",
+    "subject": "Polity",
+    "theme": "Polity - Supreme Court, Judicial Review, Judicial Activism & PIL (Laxmikanth Ch 26-29)",
+    "micro_topic": "Advisory jurisdiction - Article 143",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_23_17",
+    "question_number": 17,
+    "question": "Match List-I (Article) with List-II (Provision relating to the Supreme Court) and select the correct answer using the codes below:\nList-I\nA. Article 141\nB. Article 142\nC. Article 137\nD. Article 129\nList-II\n1. Law declared by the Supreme Court binding on all courts\n2. Power to pass any decree necessary for doing complete justice\n3. Power to review its own judgments\n4. Supreme Court as a court of record",
+    "options": [
+      {
+        "key": "a",
+        "text": "A-4, B-2, C-3, D-1"
+      },
+      {
+        "key": "b",
+        "text": "A-2, B-1, C-4, D-3"
+      },
+      {
+        "key": "c",
+        "text": "A-1, B-3, C-2, D-4"
+      },
+      {
+        "key": "d",
+        "text": "A-1, B-2, C-3, D-4"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Article 141 - law declared binding on all courts; Article 142 - complete justice; Article 137 - power of review; Article 129 - court of record. Correct: A-1, B-2, C-3, D-4.",
+    "subject": "Polity",
+    "theme": "Polity - Supreme Court, Judicial Review, Judicial Activism & PIL (Laxmikanth Ch 26-29)",
+    "micro_topic": "Supreme Court powers - Articles (matching)",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_23_18",
+    "question_number": 18,
+    "question": "The doctrine of the 'basic structure' of the Constitution, which limits the amending power of Parliament, was propounded by the Supreme Court in:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Golaknath case (1967)"
+      },
+      {
+        "key": "b",
+        "text": "Kesavananda Bharati case (1973)"
+      },
+      {
+        "key": "c",
+        "text": "Minerva Mills case (1980)"
+      },
+      {
+        "key": "d",
+        "text": "Shankari Prasad case (1951)"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The basic structure doctrine was laid down in Kesavananda Bharati (1973), holding that Parliament cannot amend the 'basic structure' of the Constitution. Minerva Mills (1980) later reinforced it; Golaknath (1967) had held Fundamental Rights unamendable, which Kesavananda modified.",
+    "subject": "Polity",
+    "theme": "Polity - Supreme Court, Judicial Review, Judicial Activism & PIL (Laxmikanth Ch 26-29)",
+    "micro_topic": "Basic structure doctrine",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_23_19",
+    "question_number": 19,
+    "question": "Consider the following statements:\n1. The 99th Constitutional Amendment Act sought to establish the National Judicial Appointments Commission (NJAC).\n2. The Supreme Court struck down the NJAC Act and the 99th Amendment in 2015.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The 99th Amendment (2014) and the NJAC Act sought to replace the collegium system. In 2015, in the Supreme Court Advocates-on-Record Association case, the Court struck them down as violative of the independence of the judiciary, a basic feature, restoring the collegium. Both statements are correct.",
+    "subject": "Polity",
+    "theme": "Polity - Supreme Court, Judicial Review, Judicial Activism & PIL (Laxmikanth Ch 26-29)",
+    "micro_topic": "NJAC",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_23_20",
+    "question_number": 20,
+    "question": "Match List-I (Case) with List-II (Principle established) and select the correct answer using the codes below:\nList-I\nA. Vishaka v. State of Rajasthan (1997)\nB. Vellore Citizens Welfare Forum (1996)\nC. Hussainara Khatoon (1979)\nD. Olga Tellis (1985)\nList-II\n1. Guidelines against sexual harassment of women at the workplace\n2. Precautionary principle and polluter pays principle\n3. Right to speedy trial as part of Article 21\n4. Right to livelihood as part of the right to life",
+    "options": [
+      {
+        "key": "a",
+        "text": "A-3, B-2, C-1, D-4"
+      },
+      {
+        "key": "b",
+        "text": "A-2, B-1, C-4, D-3"
+      },
+      {
+        "key": "c",
+        "text": "A-1, B-3, C-2, D-4"
+      },
+      {
+        "key": "d",
+        "text": "A-1, B-2, C-3, D-4"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Vishaka - workplace sexual harassment guidelines; Vellore Citizens - precautionary principle and polluter pays; Hussainara Khatoon - right to speedy trial; Olga Tellis - right to livelihood. Correct: A-1, B-2, C-3, D-4.",
+    "subject": "Polity",
+    "theme": "Polity - Supreme Court, Judicial Review, Judicial Activism & PIL (Laxmikanth Ch 26-29)",
+    "micro_topic": "Landmark PIL cases (matching)",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_23_21",
+    "question_number": 21,
+    "question": "With reference to the Commission for Agricultural Costs and Prices (CACP), consider the following statements:\n1. It is a statutory body.\n2. It recommends Minimum Support Prices to the government.\n3. It was set up in 1965.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The CACP (set up in 1965, originally as the Agricultural Prices Commission) is an attached office of the Ministry of Agriculture and is only an advisory body - it is NOT statutory. It recommends MSPs, but the final decision rests with the Cabinet Committee on Economic Affairs. Statement 1 is wrong.",
+    "subject": "Economy",
+    "theme": "Economy - Agriculture I & II: MSP, procurement, marketing, irrigation, credit, insurance (Vivek Singh Ch 10-11)",
+    "micro_topic": "CACP",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_23_22",
+    "question_number": 22,
+    "question": "The government at present announces Minimum Support Prices (MSP) for how many crops?",
+    "options": [
+      {
+        "key": "a",
+        "text": "14"
+      },
+      {
+        "key": "b",
+        "text": "23"
+      },
+      {
+        "key": "c",
+        "text": "30"
+      },
+      {
+        "key": "d",
+        "text": "7"
+      }
+    ],
+    "answer": "b",
+    "explanation": "MSP is announced for 23 crops - 7 cereals, 5 pulses, 7 oilseeds and 4 commercial crops (copra, raw cotton, raw jute and dehusked coconut/sugarcane category). Sugarcane is covered separately through the Fair and Remunerative Price.",
+    "subject": "Economy",
+    "theme": "Economy - Agriculture I & II: MSP, procurement, marketing, irrigation, credit, insurance (Vivek Singh Ch 10-11)",
+    "micro_topic": "Number of MSP crops",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_23_23",
+    "question_number": 23,
+    "question": "With reference to the cost concepts used in fixing Minimum Support Prices, consider the following statements:\n1. A2 covers all paid-out costs incurred by the farmer in cash and kind.\n2. A2+FL adds to A2 the imputed value of unpaid family labour.\n3. The M.S. Swaminathan Committee recommended fixing MSP at A2+FL plus 50 per cent.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "A2 = actual paid-out costs; A2+FL = A2 plus imputed value of family labour; C2 is the comprehensive cost (A2+FL plus rent and interest on owned land and capital). The Swaminathan Committee recommended MSP at C2 plus 50%, whereas the government's announced formula is 1.5 times A2+FL. Hence statement 3 is wrong.",
+    "subject": "Economy",
+    "theme": "Economy - Agriculture I & II: MSP, procurement, marketing, irrigation, credit, insurance (Vivek Singh Ch 10-11)",
+    "micro_topic": "Cost concepts A2, A2+FL, C2",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_23_24",
+    "question_number": 24,
+    "question": "With reference to the Fair and Remunerative Price (FRP) of sugarcane, consider the following statements:\n1. It is fixed by the Central Government on the recommendation of the CACP.\n2. It is determined under the Sugarcane (Control) Order, 1966.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The FRP for sugarcane is announced by the Central Government (approved by the CCEA) on the recommendation of the CACP under the Sugarcane (Control) Order, 1966. Some states additionally declare a higher State Advised Price (SAP). Both statements are correct.",
+    "subject": "Economy",
+    "theme": "Economy - Agriculture I & II: MSP, procurement, marketing, irrigation, credit, insurance (Vivek Singh Ch 10-11)",
+    "micro_topic": "FRP for sugarcane",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_23_25",
+    "question_number": 25,
+    "question": "The Food Corporation of India (FCI) was established under the Food Corporations Act of:",
+    "options": [
+      {
+        "key": "a",
+        "text": "1955"
+      },
+      {
+        "key": "b",
+        "text": "1964"
+      },
+      {
+        "key": "c",
+        "text": "1992"
+      },
+      {
+        "key": "d",
+        "text": "2013"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The FCI was set up in 1965 under the Food Corporations Act, 1964, to undertake price support operations, procurement, storage, movement and distribution of foodgrains, and maintenance of buffer stocks.",
+    "subject": "Economy",
+    "theme": "Economy - Agriculture I & II: MSP, procurement, marketing, irrigation, credit, insurance (Vivek Singh Ch 10-11)",
+    "micro_topic": "Food Corporation of India",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_23_26",
+    "question_number": 26,
+    "question": "Under the National Food Security Act, 2013, consider the following statements:\n1. It provides coverage for up to 75% of the rural and 50% of the urban population.\n2. Priority households are entitled to 5 kg of foodgrains per person per month.\n3. Antyodaya Anna Yojana households are entitled to 35 kg per household per month.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "The NFSA covers up to 75% of the rural and 50% of the urban population (about two-thirds of the country). Priority households get 5 kg per person per month, while AAY households continue to get 35 kg per household per month. All three statements are correct.",
+    "subject": "Economy",
+    "theme": "Economy - Agriculture I & II: MSP, procurement, marketing, irrigation, credit, insurance (Vivek Singh Ch 10-11)",
+    "micro_topic": "National Food Security Act 2013",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_23_27",
+    "question_number": 27,
+    "question": "Consider the following statements:\n1. e-NAM, launched in 2016, is an electronic pan-India trading portal networking existing APMC mandis.\n2. The Agriculture Infrastructure Fund has a corpus of Rs 1 lakh crore.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer": "c",
+    "explanation": "e-NAM (National Agriculture Market), launched in April 2016, is an online trading platform linking APMC mandis to create a unified national market. The Agriculture Infrastructure Fund, launched in 2020, is a Rs 1 lakh crore financing facility for post-harvest and farm-gate infrastructure. Both statements are correct.",
+    "subject": "Economy",
+    "theme": "Economy - Agriculture I & II: MSP, procurement, marketing, irrigation, credit, insurance (Vivek Singh Ch 10-11)",
+    "micro_topic": "e-NAM and Agriculture Infrastructure Fund",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_23_28",
+    "question_number": 28,
+    "question": "Under the Pradhan Mantri Fasal Bima Yojana (PMFBY), the maximum insurance premium payable by farmers is:\n1. 2% of the sum insured for kharif food and oilseed crops.\n2. 1.5% for rabi food and oilseed crops.\n3. 5% for commercial and horticultural crops.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Under PMFBY the farmer's premium share is capped at 2% for kharif food and oilseed crops, 1.5% for rabi food and oilseed crops, and 5% for commercial/horticultural crops; the balance is shared by the Centre and States. All three statements are correct.",
+    "subject": "Economy",
+    "theme": "Economy - Agriculture I & II: MSP, procurement, marketing, irrigation, credit, insurance (Vivek Singh Ch 10-11)",
+    "micro_topic": "PMFBY premium rates",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_23_29",
+    "question_number": 29,
+    "question": "Which of the following are components of the Pradhan Mantri Krishi Sinchayee Yojana (PMKSY)?\n1. Accelerated Irrigation Benefit Programme\n2. Har Khet Ko Pani\n3. Per Drop More Crop\nSelect the correct answer using the codes given below:",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "PMKSY aims at 'Har Khet Ko Pani' and 'More Crop Per Drop'. Its components include the Accelerated Irrigation Benefit Programme (AIBP), Har Khet Ko Pani, Per Drop More Crop, and the Watershed Development component. All three are correct.",
+    "subject": "Economy",
+    "theme": "Economy - Agriculture I & II: MSP, procurement, marketing, irrigation, credit, insurance (Vivek Singh Ch 10-11)",
+    "micro_topic": "PMKSY components",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_23_30",
+    "question_number": 30,
+    "question": "The Cabinet Mission that came to India in 1946 comprised which of the following members?\n1. Pethick-Lawrence\n2. Stafford Cripps\n3. A.V. Alexander\nSelect the correct answer using the codes given below:",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "The Cabinet Mission (March-June 1946) had three British Cabinet members: Lord Pethick-Lawrence (Secretary of State for India), Sir Stafford Cripps and A.V. Alexander. All three are correct.",
+    "subject": "History",
+    "theme": "Modern History - Post-War Scenario & Independence with Partition + Constitutional Developments (Spectrum Ch 24-25 + thematic)",
+    "micro_topic": "Cabinet Mission members",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_23_31",
+    "question_number": 31,
+    "question": "With reference to the Cabinet Mission Plan of 1946, consider the following statements:\n1. It rejected the demand for a sovereign Pakistan.\n2. It proposed a three-tier structure - Union, Groups of provinces, and Provinces.\n3. It recommended the immediate grant of Dominion status to India.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The Cabinet Mission rejected the demand for a separate sovereign Pakistan and instead proposed a three-tier arrangement of a weak Union, Groups (A, B, C) of provinces, and Provinces. It did not offer immediate Dominion status; it provided for a Constituent Assembly and an interim government. Statement 3 is wrong.",
+    "subject": "History",
+    "theme": "Modern History - Post-War Scenario & Independence with Partition + Constitutional Developments (Spectrum Ch 24-25 + thematic)",
+    "micro_topic": "Cabinet Mission Plan",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_23_32",
+    "question_number": 32,
+    "question": "The Muslim League observed 'Direct Action Day' on:",
+    "options": [
+      {
+        "key": "a",
+        "text": "16 August 1946"
+      },
+      {
+        "key": "b",
+        "text": "3 June 1947"
+      },
+      {
+        "key": "c",
+        "text": "15 August 1947"
+      },
+      {
+        "key": "d",
+        "text": "26 October 1946"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The Muslim League called for Direct Action Day on 16 August 1946 to press for Pakistan, leading to the 'Great Calcutta Killings' and widespread communal violence.",
+    "subject": "History",
+    "theme": "Modern History - Post-War Scenario & Independence with Partition + Constitutional Developments (Spectrum Ch 24-25 + thematic)",
+    "micro_topic": "Direct Action Day",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_23_33",
+    "question_number": 33,
+    "question": "Consider the following events and arrange them in correct chronological order:\n1. RIN (Royal Indian Navy) Mutiny\n2. Formation of the Interim Government\n3. First sitting of the Constituent Assembly\n4. Announcement of the Mountbatten Plan\nSelect the correct answer using the codes given below:",
+    "options": [
+      {
+        "key": "a",
+        "text": "2 - 1 - 4 - 3"
+      },
+      {
+        "key": "b",
+        "text": "1 - 2 - 3 - 4"
+      },
+      {
+        "key": "c",
+        "text": "1 - 3 - 2 - 4"
+      },
+      {
+        "key": "d",
+        "text": "2 - 1 - 3 - 4"
+      }
+    ],
+    "answer": "b",
+    "explanation": "RIN Mutiny (February 1946) -> Interim Government (2 September 1946) -> first sitting of the Constituent Assembly (9 December 1946) -> Mountbatten (June Third) Plan (3 June 1947). Correct order: 1-2-3-4.",
+    "subject": "History",
+    "theme": "Modern History - Post-War Scenario & Independence with Partition + Constitutional Developments (Spectrum Ch 24-25 + thematic)",
+    "micro_topic": "Chronology 1946-47",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_23_34",
+    "question_number": 34,
+    "question": "With reference to the Mountbatten Plan of 3 June 1947, consider the following statements:\n1. It provided for the partition of Bengal and Punjab.\n2. The princely states were given the option to join India, join Pakistan, or remain independent.\n3. A referendum was to be held in the North-West Frontier Province.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The Mountbatten Plan provided for the partition of Bengal and Punjab (their assemblies voting in two halves) and a referendum in NWFP and Sylhet. The princely states were given the choice of acceding to India or Pakistan - independence was NOT offered as an option under the plan. Statement 2 is wrong.",
+    "subject": "History",
+    "theme": "Modern History - Post-War Scenario & Independence with Partition + Constitutional Developments (Spectrum Ch 24-25 + thematic)",
+    "micro_topic": "Mountbatten Plan and princely states",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_23_35",
+    "question_number": 35,
+    "question": "The Indian Independence Act, 1947:\n1. Abolished the office of the Secretary of State for India.\n2. Ended the paramountcy of the British Crown over the princely states.\n3. Made it compulsory for both dominions to have a common Governor-General.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The Act abolished the office of the Secretary of State for India and ended Crown paramountcy over the princely states. It provided that each dominion would have its own Governor-General; it did not make a common Governor-General compulsory (Mountbatten served as common Governor-General only by mutual request). Statement 3 is wrong.",
+    "subject": "History",
+    "theme": "Modern History - Post-War Scenario & Independence with Partition + Constitutional Developments (Spectrum Ch 24-25 + thematic)",
+    "micro_topic": "Indian Independence Act 1947",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_23_36",
+    "question_number": 36,
+    "question": "The boundary line demarcating India and Pakistan at Partition was drawn by a commission chaired by:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Lord Wavell"
+      },
+      {
+        "key": "b",
+        "text": "Stafford Cripps"
+      },
+      {
+        "key": "c",
+        "text": "Cyril Radcliffe"
+      },
+      {
+        "key": "d",
+        "text": "V.P. Menon"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The Boundary Commissions for Bengal and Punjab were headed by Sir Cyril Radcliffe; the demarcation is known as the Radcliffe Line, and the award was published shortly after independence.",
+    "subject": "History",
+    "theme": "Modern History - Post-War Scenario & Independence with Partition + Constitutional Developments (Spectrum Ch 24-25 + thematic)",
+    "micro_topic": "Radcliffe Boundary Commission",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_23_37",
+    "question_number": 37,
+    "question": "Match List-I (Act) with List-II (Provision) and select the correct answer using the codes below:\nList-I\nA. Regulating Act, 1773\nB. Pitt's India Act, 1784\nC. Charter Act, 1833\nD. Government of India Act, 1858\nList-II\n1. Created the office of Governor-General of Bengal\n2. Established the Board of Control (dual government)\n3. Created the Governor-General of India and the first Law Commission\n4. Ended Company rule; the Crown assumed direct government",
+    "options": [
+      {
+        "key": "a",
+        "text": "A-3, B-2, C-1, D-4"
+      },
+      {
+        "key": "b",
+        "text": "A-2, B-1, C-4, D-3"
+      },
+      {
+        "key": "c",
+        "text": "A-1, B-3, C-2, D-4"
+      },
+      {
+        "key": "d",
+        "text": "A-1, B-2, C-3, D-4"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Regulating Act 1773 - Governor-General of Bengal; Pitt's India Act 1784 - Board of Control and dual government; Charter Act 1833 - Governor-General of India and first Law Commission (Macaulay); Government of India Act 1858 - end of Company rule and Crown government. Correct: A-1, B-2, C-3, D-4.",
+    "subject": "History",
+    "theme": "Modern History - Post-War Scenario & Independence with Partition + Constitutional Developments (Spectrum Ch 24-25 + thematic)",
+    "micro_topic": "Constitutional developments (matching)",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_23_38",
+    "question_number": 38,
+    "question": "Consider the following statements:\n1. The Indian Councils Act, 1909 introduced separate electorates for Muslims.\n2. The Government of India Act, 1919 introduced dyarchy in the provinces.\n3. The Government of India Act, 1935 provided for the establishment of a Federal Court.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "The Morley-Minto Reforms (Act of 1909) introduced separate electorates; the Montagu-Chelmsford Reforms (Act of 1919) introduced dyarchy in the provinces; and the Act of 1935 provided for a Federal Court (established 1937), provincial autonomy and the RBI. All three statements are correct.",
+    "subject": "History",
+    "theme": "Modern History - Post-War Scenario & Independence with Partition + Constitutional Developments (Spectrum Ch 24-25 + thematic)",
+    "micro_topic": "Councils Acts and GoI Acts",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_23_39",
+    "question_number": 39,
+    "question": "According to Census data on internal migration in India, which one of the following is the largest migration stream by number of migrants?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Rural to urban"
+      },
+      {
+        "key": "b",
+        "text": "Rural to rural"
+      },
+      {
+        "key": "c",
+        "text": "Urban to urban"
+      },
+      {
+        "key": "d",
+        "text": "Urban to rural"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Rural-to-rural is the dominant migration stream in India, largely on account of marriage migration of women. Rural-to-urban migration is significant for economic reasons but is smaller in absolute numbers.",
+    "subject": "Geography",
+    "theme": "Geography - Population, Migration & Human Development (NCERT-12 India: People and Economy Ch 1-3)",
+    "micro_topic": "Largest migration stream",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_23_40",
+    "question_number": 40,
+    "question": "Consider the following statements about internal migration in India:\n1. For females, marriage is the most important reason for migration.\n2. For males, work and employment is a predominant reason for migration.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Census data show that marriage is by far the leading reason for migration among women, whereas work and employment is the predominant reason for men. Both statements are correct.",
+    "subject": "Geography",
+    "theme": "Geography - Population, Migration & Human Development (NCERT-12 India: People and Economy Ch 1-3)",
+    "micro_topic": "Reasons for migration",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_23_41",
+    "question_number": 41,
+    "question": "The term 'demographic dividend' refers to:",
+    "options": [
+      {
+        "key": "a",
+        "text": "the increase in total population caused mainly by declining death rates"
+      },
+      {
+        "key": "b",
+        "text": "the period during which the share of the working-age population is larger than the dependent population"
+      },
+      {
+        "key": "c",
+        "text": "the excess of births over deaths in a given year"
+      },
+      {
+        "key": "d",
+        "text": "the migration of skilled workers from rural to urban areas"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The demographic dividend is the economic growth potential that arises when the working-age population (15-59/64) is larger than the dependent (non-working) population, lowering the dependency ratio. India is currently in this window.",
+    "subject": "Geography",
+    "theme": "Geography - Population, Migration & Human Development (NCERT-12 India: People and Economy Ch 1-3)",
+    "micro_topic": "Demographic dividend",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_23_42",
+    "question_number": 42,
+    "question": "With reference to the Human Development Index (HDI), consider the following statements:\n1. It is published by the United Nations Development Programme.\n2. It is a composite of life expectancy, education, and per capita income.\n3. Its conceptual foundation is attributed to Mahbub ul Haq.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "The HDI, published by UNDP in the Human Development Report since 1990, combines a long and healthy life (life expectancy), knowledge (education), and a decent standard of living (GNI per capita). It was conceived by Mahbub ul Haq with the collaboration of Amartya Sen. All three statements are correct.",
+    "subject": "Geography",
+    "theme": "Geography - Population, Migration & Human Development (NCERT-12 India: People and Economy Ch 1-3)",
+    "micro_topic": "Human Development Index",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_23_43",
+    "question_number": 43,
+    "question": "In the Indian Census, the sex ratio is conventionally expressed as:",
+    "options": [
+      {
+        "key": "a",
+        "text": "the number of females per 1000 males"
+      },
+      {
+        "key": "b",
+        "text": "the number of males per 1000 females"
+      },
+      {
+        "key": "c",
+        "text": "the number of females per 100 males"
+      },
+      {
+        "key": "d",
+        "text": "the ratio of female births to male births"
+      }
+    ],
+    "answer": "a",
+    "explanation": "In India, the sex ratio is defined as the number of females per 1000 males. (Some countries express it as males per 1000 females, but the Indian convention is females per 1000 males.)",
+    "subject": "Geography",
+    "theme": "Geography - Population, Migration & Human Development (NCERT-12 India: People and Economy Ch 1-3)",
+    "micro_topic": "Sex ratio definition",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_23_44",
+    "question_number": 44,
+    "question": "The 'density of population' of a region is best defined as:",
+    "options": [
+      {
+        "key": "a",
+        "text": "the number of persons per unit area"
+      },
+      {
+        "key": "b",
+        "text": "the total population of the region"
+      },
+      {
+        "key": "c",
+        "text": "the ratio of urban to rural population"
+      },
+      {
+        "key": "d",
+        "text": "the annual rate of growth of population"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Population density is the number of persons living per unit area (usually per square kilometre). It is a measure of the concentration of population, distinct from total population or growth rate.",
+    "subject": "Geography",
+    "theme": "Geography - Population, Migration & Human Development (NCERT-12 India: People and Economy Ch 1-3)",
+    "micro_topic": "Population density",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_23_45",
+    "question_number": 45,
+    "question": "The Panchsheel Agreement, embodying the Five Principles of Peaceful Coexistence, was signed between India and China in:",
+    "options": [
+      {
+        "key": "a",
+        "text": "1962"
+      },
+      {
+        "key": "b",
+        "text": "1954"
+      },
+      {
+        "key": "c",
+        "text": "1988"
+      },
+      {
+        "key": "d",
+        "text": "1993"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The Five Principles of Peaceful Coexistence (Panchsheel) were enunciated in the 1954 Agreement on Trade and Intercourse between the Tibet region of China and India.",
+    "subject": "International Relations",
+    "theme": "International Relations - India-China Relations",
+    "micro_topic": "Panchsheel",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_23_46",
+    "question_number": 46,
+    "question": "Consider the following India-China agreements and arrange them in chronological order of signing:\n1. Agreement on the Maintenance of Peace and Tranquillity along the Line of Actual Control\n2. Border Defence Cooperation Agreement\n3. Panchsheel Agreement\nSelect the correct answer using the codes given below:",
+    "options": [
+      {
+        "key": "a",
+        "text": "3 - 1 - 2"
+      },
+      {
+        "key": "b",
+        "text": "1 - 3 - 2"
+      },
+      {
+        "key": "c",
+        "text": "3 - 2 - 1"
+      },
+      {
+        "key": "d",
+        "text": "2 - 1 - 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Panchsheel Agreement (1954) -> Agreement on Maintenance of Peace and Tranquillity along the LAC (1993) -> Border Defence Cooperation Agreement (2013). Correct order: 3-1-2.",
+    "subject": "International Relations",
+    "theme": "International Relations - India-China Relations",
+    "micro_topic": "India-China agreements chronology",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_23_47",
+    "question_number": 47,
+    "question": "Consider the following statements:\n1. Aksai Chin is administered by China but claimed by India in the western sector of the boundary.\n2. The Shaksgam Valley was ceded by Pakistan to China.\n3. The Brahmaputra is known as the Yarlung Tsangpo in Tibet.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Aksai Chin, in the western sector, is under Chinese control but claimed by India. The Shaksgam Valley (Trans-Karakoram Tract) was ceded by Pakistan to China under the 1963 agreement. The Brahmaputra rises in Tibet as the Yarlung Tsangpo. All three statements are correct.",
+    "subject": "International Relations",
+    "theme": "International Relations - India-China Relations",
+    "micro_topic": "Boundary geography",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_23_48",
+    "question_number": 48,
+    "question": "In October 2024, India and China reached an understanding on the resumption of patrolling relating to which two areas along the LAC in eastern Ladakh?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Depsang and Demchok"
+      },
+      {
+        "key": "b",
+        "text": "Galwan Valley and Pangong Tso"
+      },
+      {
+        "key": "c",
+        "text": "Doklam and Nathu La"
+      },
+      {
+        "key": "d",
+        "text": "Gogra and Hot Springs"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The October 2024 understanding related to Depsang and Demchok - the last two friction points - enabling disengagement and resumption of patrolling there. (Doklam lies in the Sikkim sector, not Ladakh.)",
+    "subject": "International Relations",
+    "theme": "International Relations - India-China Relations",
+    "micro_topic": "October 2024 patrolling understanding",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_23_49",
+    "question_number": 49,
+    "question": "Consider the following environmental legislation and arrange them in chronological order of enactment:\n1. Water (Prevention and Control of Pollution) Act\n2. Air (Prevention and Control of Pollution) Act\n3. Environment (Protection) Act\nSelect the correct answer using the codes given below:",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 - 2 - 3"
+      },
+      {
+        "key": "b",
+        "text": "2 - 1 - 3"
+      },
+      {
+        "key": "c",
+        "text": "1 - 3 - 2"
+      },
+      {
+        "key": "d",
+        "text": "3 - 1 - 2"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Water Act (1974) -> Air Act (1981) -> Environment (Protection) Act (1986, the umbrella legislation enacted after the Bhopal disaster and in the spirit of the 1972 Stockholm Conference). Correct order: 1-2-3.",
+    "subject": "Environment",
+    "theme": "Environment - Environmental Pollution (Shankar IAS Ch 6, revision block)",
+    "micro_topic": "Pollution legislation chronology",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_23_50",
+    "question_number": 50,
+    "question": "With reference to the National Air Quality Index (AQI) launched in 2014, consider the following statements:\n1. It covers eight pollutants.\n2. It has six categories ranging from 'Good' to 'Severe'.\n3. The overall AQI is determined by the pollutant with the worst sub-index.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "The AQI (2014) covers eight pollutants (PM10, PM2.5, NO2, SO2, CO, O3, NH3 and Pb) and has six categories - Good, Satisfactory, Moderate, Poor, Very Poor and Severe. The overall index is set by the pollutant with the worst (highest) sub-index. All three statements are correct.",
+    "subject": "Environment",
+    "theme": "Environment - Environmental Pollution (Shankar IAS Ch 6, revision block)",
+    "micro_topic": "National Air Quality Index",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  }
+]
