@@ -379,6 +379,22 @@ ol, ul { margin: 0; }
 .atlas-mode-switch button { display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-height: 34px; padding: 7px 11px; border-radius: 999px; color: var(--muted); font-size: 11.5px; font-weight: 700; white-space: nowrap; }
 .atlas-mode-switch button:hover { color: var(--ink); background: var(--surface-2); }
 .atlas-mode-switch button.on { color: #fff; background: var(--green); box-shadow: 0 3px 9px rgba(30,77,58,.18); }
+.atlas-atlas-mode { display: grid; grid-template-columns: 1fr 1fr; gap: 3px; margin: 12px 0 4px; padding: 3px; border: 1px solid var(--line); border-radius: 9px; background: var(--surface); }
+.atlas-atlas-mode button { display: inline-flex; align-items: center; justify-content: center; gap: 5px; min-height: 30px; border-radius: 6px; color: var(--muted); font-size: 10.5px; font-weight: 700; }
+.atlas-atlas-mode button.on { color: var(--green); background: var(--green-tint); box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--green) 18%, transparent); }
+.atlas-drill-card { display: grid; gap: 8px; margin: 8px 0 5px; padding: 10px; border: 1px solid #ead8bd; border-radius: var(--radius-sm); background: #fffaf1; }
+.atlas-drill-progress { display: flex; justify-content: space-between; color: var(--ink); font: 600 10px var(--mono); }
+.atlas-drill-progress b { color: var(--saffron); }
+.atlas-drill-bar { height: 5px; overflow: hidden; border-radius: 99px; background: #f0e2cc; }
+.atlas-drill-bar i { display: block; height: 100%; border-radius: inherit; background: var(--saffron); transition: width .2s ease; }
+.atlas-drill-card small { color: var(--muted); font-size: 10.5px; line-height: 1.35; }
+.atlas-drill-prompt { display: grid; gap: 7px; margin-top: 17px; padding: 13px; border-left: 3px solid var(--saffron); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; background: var(--saffron-tint); }
+.atlas-drill-prompt small { color: #9a5916; font: 600 9px var(--mono); letter-spacing: .07em; }
+.atlas-drill-prompt strong { font-family: var(--serif); font-size: 17px; }
+.atlas-drill-prompt p { color: var(--ink-soft); font-size: 12px; line-height: 1.45; }
+.atlas-drill-action { width: 100%; margin-top: 18px; justify-content: center; }
+.atlas-drill-success { margin-top: 14px; padding: 9px 10px; border-radius: var(--radius-sm); background: var(--green-tint); color: var(--green); font-size: 11.5px; line-height: 1.4; }
+.atlas-drill-message { margin-top: 10px; color: var(--saffron); font-size: 11px; line-height: 1.4; }
 
 .atlas-history-page { --history-amber: #C76A1D; }
 .atlas-history-shell { grid-template-columns: 258px minmax(590px, 1fr); min-height: 690px; }

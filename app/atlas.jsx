@@ -89,15 +89,18 @@ function atlasPointIcon(feature, color, isSelected) {
   });
 }
 
-function AtlasLeafletMap({ scope, features, boundariesOn, riversOn, riverSystem, selected, onSelect }) {
+function AtlasLeafletMap({ scope, features, boundariesOn, riversOn, riverSystem, selected, onSelect, onMapClick }) {
   const hostRef = useRefAtlas(null);
   const mapRef = useRefAtlas(null);
   const baseRef = useRefAtlas(null);
   const overlaysRef = useRefAtlas(null);
   const boundaryDataRef = useRefAtlas({ world: null, india: null, lakshadweep: null });
   const riverDataRef = useRefAtlas(null);
+  const onMapClickRef = useRefAtlas(onMapClick);
   const [boundaryVersion, setBoundaryVersion] = useStateAtlas(0);
   const [riverVersion, setRiverVersion] = useStateAtlas(0);
+
+  useEffectAtlas(() => { onMapClickRef.current = onMapClick; }, [onMapClick]);
 
   useEffectAtlas(() => {
     if (!hostRef.current || mapRef.current || !window.L) return undefined;
@@ -109,6 +112,7 @@ function AtlasLeafletMap({ scope, features, boundariesOn, riversOn, riverSystem,
     map.createPane("studyPoints");
     map.getPane("studyPoints").style.zIndex = 430;
     mapRef.current = map;
+    map.on("click", (event) => onMapClickRef.current?.(event.latlng));
     baseRef.current = window.L.layerGroup().addTo(map);
     overlaysRef.current = window.L.layerGroup().addTo(map);
     map.setView([18, 10], 2);
@@ -775,9 +779,20 @@ function CurrentAtlas({ onModeChange }) {
   const [weekId, setWeekId] = useStateAtlas("");
   const [riverSystem, setRiverSystem] = useStateAtlas("all");
   const [selected, setSelected] = useStateAtlas(null);
+  const [atlasMode, setAtlasMode] = useStateAtlas("explore");
+  const [drillIndex, setDrillIndex] = useStateAtlas(0);
+  const [drillRevealed, setDrillRevealed] = useStateAtlas(false);
+  const [drillMessage, setDrillMessage] = useStateAtlas("");
+  const [drillDone, setDrillDone] = useStateAtlas(() => {
+    try { return JSON.parse(window.localStorage.getItem("pariksha:atlas-drill-v1") || "{}"); } catch { return {}; }
+  });
 
   const newsWeeks = news?.weeks || [];
   const newsFeatures = news?.features || [];
+
+  useEffectAtlas(() => {
+    window.localStorage.setItem("pariksha:atlas-drill-v1", JSON.stringify(drillDone));
+  }, [drillDone]);
 
   useEffectAtlas(() => {
     let cancelled = false;
@@ -797,6 +812,10 @@ function CurrentAtlas({ onModeChange }) {
     const knowledge = window.ATLAS_KNOWLEDGE.filter((feature) => atlasFeatureScope(feature) === scope);
     return [...current, ...knowledge, ...(scope === "india" ? atlasRiverReferenceFeatures() : [])];
   }, [news, scope, weekId]);
+  const weekFeatures = useMemoAtlas(() => newsFeatures.filter((feature) => feature.layer === "current" && feature.scope === scope && feature.weekId === weekId), [newsFeatures, scope, weekId]);
+  const drillKey = `${weekId}:${scope}`;
+  const completedIds = drillDone[drillKey] || [];
+  const drillTarget = weekFeatures[drillIndex] || weekFeatures[0] || null;
   const mapFeatures = useMemoAtlas(() => {
     const needle = query.trim().toLowerCase();
     return scopeFeatures.filter((feature) => {
@@ -815,11 +834,41 @@ function CurrentAtlas({ onModeChange }) {
     setRiverSystem("all");
     setActiveLayers(nextScope === "india" ? ["current", "boundaries"] : ["current"]);
     setSelected(newsFeatures.find((item) => item.scope === nextScope && item.weekId === weekId) || null);
+    setDrillIndex(0); setDrillRevealed(false); setDrillMessage("");
   }
   function changeWeek(nextWeek) {
     setWeekId(nextWeek);
     setSelected(newsFeatures.find((item) => item.scope === scope && item.weekId === nextWeek) || null);
+    setDrillIndex(0); setDrillRevealed(false); setDrillMessage("");
   }
+  function startDrill() {
+    setAtlasMode("drill");
+    setActiveLayers(["current"]);
+    setDrillIndex(0);
+    setDrillRevealed(false);
+    setDrillMessage("");
+  }
+  function markDrillDone(feature = drillTarget) {
+    if (!feature) return;
+    setDrillDone((current) => ({ ...current, [drillKey]: Array.from(new Set([...(current[drillKey] || []), feature.id])) }));
+  }
+  function nextDrill() {
+    if (!drillTarget) return;
+    markDrillDone();
+    setDrillIndex((index) => Math.min(index + 1, Math.max(0, weekFeatures.length - 1)));
+    setDrillRevealed(false);
+    setDrillMessage("");
+  }
+  function handleMapClick(latlng) {
+    if (atlasMode !== "drill" || !drillTarget?.lat || !drillTarget?.lon) return;
+    const distance = Math.sqrt((latlng.lat - drillTarget.lat) ** 2 + ((latlng.lng - drillTarget.lon) * Math.cos(drillTarget.lat * Math.PI / 180)) ** 2);
+    const threshold = scope === "india" ? 3.2 : 7.5;
+    if (distance <= threshold) {
+      markDrillDone(); setDrillRevealed(true); setDrillMessage("Good locate — the place is in the right region."); setSelected(drillTarget);
+    } else setDrillMessage("Not quite. Use the clue and try the map again, or reveal the answer when ready.");
+  }
+  const drillMapFeatures = atlasMode === "drill" ? (drillRevealed && drillTarget ? [drillTarget] : []) : mapFeatures;
+  const drillCompleted = completedIds.length;
   function changeRiverSystem(nextSystem) {
     setRiverSystem(nextSystem);
     if (nextSystem === "all") return;
@@ -869,7 +918,16 @@ function CurrentAtlas({ onModeChange }) {
           </div>
           <label className="atlas-search"><Icon name="search" size={16} /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search this atlas…" /></label>
           <label className="atlas-week-select"><span>Places in News week</span><select value={weekId} onChange={(event) => changeWeek(event.target.value)} aria-label="Places in News week">{newsWeeks.map((week) => <option key={week.id} value={week.id}>{week.label}</option>)}</select><small>{activeWeek?.source || ""}</small></label>
-          <div className="atlas-filter-head"><span>Knowledge layers</span><strong>{activeLayers.length}</strong></div>
+          <div className="atlas-atlas-mode" role="tablist" aria-label="News Atlas activity">
+            <button className={atlasMode === "explore" ? "on" : ""} onClick={() => setAtlasMode("explore")}><Icon name="layers" size={13} /> Explore</button>
+            <button className={atlasMode === "drill" ? "on" : ""} onClick={startDrill}><Icon name="target" size={13} /> Map drill</button>
+          </div>
+          {atlasMode === "drill" ? <div className="atlas-drill-card">
+            <div className="atlas-drill-progress"><span>{drillCompleted}/{weekFeatures.length} identified</span><b>{weekFeatures.length ? Math.round((drillCompleted / weekFeatures.length) * 100) : 0}%</b></div>
+            <div className="atlas-drill-bar"><i style={{ width:`${weekFeatures.length ? (drillCompleted / weekFeatures.length) * 100 : 0}%` }} /></div>
+            <small>Read the clue, click the approximate location on the map, then reveal and continue.</small>
+          </div> : <div className="atlas-filter-head"><span>Knowledge layers</span><strong>{activeLayers.length}</strong></div>}
+          {atlasMode !== "drill" && <>
           <div className="atlas-layer-list">
             {layerDefs.map((def) => <label key={def.id} className={activeLayers.includes(def.id) ? "on" : ""}>
               <input type="checkbox" checked={activeLayers.includes(def.id)} onChange={() => toggleLayer(def.id)} />
@@ -878,8 +936,11 @@ function CurrentAtlas({ onModeChange }) {
             </label>)}
           </div>
           {riversOn && <div className="atlas-river-system-picker"><span>Visualise one basin</span>{ATLAS_RIVER_SYSTEMS.map((system) => <button key={system.id} className={riverSystem === system.id ? "on" : ""} onClick={() => changeRiverSystem(system.id)}><i style={{background:system.color}} />{system.label}</button>)}</div>}
+          </>}
           <div className="atlas-place-list atlas-place-list-v2">
-            {listFeatures.slice(0, 80).map((feature) => <button key={`${feature.layer}-${feature.id}`} className={selected?.id === feature.id ? "on" : ""} onClick={() => setSelected(feature)}>
+            {atlasMode === "drill" ? weekFeatures.map((feature, index) => <button key={feature.id} className={index === drillIndex ? "on" : ""} onClick={() => { setDrillIndex(index); setDrillRevealed(false); setDrillMessage(""); }}>
+              <span style={{ background: completedIds.includes(feature.id) ? "var(--green)" : "var(--saffron)" }} /><span><strong>{completedIds.includes(feature.id) ? "✓ " : `${index + 1}. `}{feature.name}</strong><small>{feature.hook || atlasFeatureSub(feature)}</small></span><Icon name="chevR" size={14} />
+            </button>) : listFeatures.slice(0, 80).map((feature) => <button key={`${feature.layer}-${feature.id}`} className={selected?.id === feature.id ? "on" : ""} onClick={() => setSelected(feature)}>
               <span style={{ background:(atlasLayerDef(feature.layer) || {}).color }} />
               <span><strong>{feature.name}</strong><small>{atlasFeatureSub(feature)}</small></span>
               <Icon name="chevR" size={14} />
@@ -891,17 +952,31 @@ function CurrentAtlas({ onModeChange }) {
         <section className="atlas-stage">
           <div className="atlas-stage-bar">
             <span><Icon name="layers" size={15} /> {scope === "world" ? "Political world map · India POV" : "India · States & Union Territories"}</span>
-            <span className="atlas-stage-hint">Scroll to zoom · drag to move</span>
+            <span className="atlas-stage-hint">{atlasMode === "drill" ? "Click the map to locate the place" : "Scroll to zoom · drag to move"}</span>
           </div>
           <div className="atlas-map-wrap atlas-map-wrap-v2">
-            <AtlasLeafletMap scope={scope} features={mapFeatures} boundariesOn={boundariesOn} riversOn={riversOn} riverSystem={riverSystem} selected={selected} onSelect={setSelected} />
+            <AtlasLeafletMap scope={scope} features={drillMapFeatures} boundariesOn={boundariesOn} riversOn={riversOn} riverSystem={riverSystem} selected={selected} onSelect={setSelected} onMapClick={handleMapClick} />
             <div className="atlas-map-key">{activeLayers.filter((id) => id !== "boundaries").map((id) => { const def = atlasLayerDef(id); return def && <span key={id}><i style={{background:def.color}} />{def.short}</span>; })}</div>
             {riversOn && <div className="atlas-river-legend"><span><i className="main" /> Main stem</span><span><i className="tributary" /> Tributary</span><strong>{ATLAS_RIVER_SYSTEMS.find((item) => item.id === riverSystem)?.label}</strong></div>}
           </div>
         </section>
 
         <aside className="atlas-detail" aria-live="polite">
-          {selected ? <>
+          {atlasMode === "drill" && drillTarget ? <>
+            <div className="atlas-detail-kicker"><span style={{ background:"var(--saffron)" }} /> Weekly map drill</div>
+            <h2>{drillRevealed ? drillTarget.name : `Place ${drillIndex + 1} of ${weekFeatures.length}`}</h2>
+            {!drillRevealed ? <>
+              <div className="atlas-drill-prompt"><small>LOCATE FROM THE CLUE</small><strong>{drillTarget.hook || "Use the regional clue in the note."}</strong><p>{drillTarget.locate || drillTarget.fact}</p></div>
+              <button className="btn btn-primary atlas-drill-action" onClick={() => { markDrillDone(); setDrillRevealed(true); setSelected(drillTarget); }}>Reveal place</button>
+            </> : <>
+              <p className="atlas-detail-loc"><Icon name="map" size={14} /> {atlasFeatureSub(drillTarget)}{drillTarget.country ? ` · ${drillTarget.country}` : ""}</p>
+              <div className="atlas-drill-success">{drillMessage || "Place revealed — connect it to the surrounding physical and political geography."}</div>
+              <div className="atlas-detail-section"><h3>Why in news</h3><p>{drillTarget.fact}</p></div>
+              {drillTarget.locate && <div className="atlas-detail-section"><h3>Locate it</h3><p>{drillTarget.locate}</p></div>}
+              <button className="btn btn-primary atlas-drill-action" onClick={nextDrill}>{drillIndex + 1 < weekFeatures.length ? "Next place" : "Review the week"}</button>
+            </>}
+            {drillMessage && !drillRevealed && <p className="atlas-drill-message">{drillMessage}</p>}
+          </> : selected ? <>
             <div className="atlas-detail-kicker"><span style={{ background:selectedDef?.color || "var(--green)" }} /> {selectedDef?.label || "Study layer"}</div>
             <h2>{selected.name}</h2>
             <p className="atlas-detail-loc"><Icon name="map" size={14} /> {atlasFeatureSub(selected)}{selected.country ? ` · ${selected.country}` : ""}</p>
