@@ -65,7 +65,7 @@ details.subj>summary::-webkit-details-marker{display:none;}
 <body>
 <div class="wrap">
   <h1>UPSC CSE 2027 — Progress Dashboard</h1>
-  <div class="sub">Physics optional · Prelims target 24 May 2027 · everything you enter is saved on this device</div>
+  <div class="sub">Balanced working-professional plan · Physics optional · Prelims target 24 May 2027 · everything you enter is saved on this device</div>
 
   <div class="grid cols-3" style="margin-top:0;">
     <div class="card hero">
@@ -95,6 +95,7 @@ details.subj>summary::-webkit-details-marker{display:none;}
   <div class="card">
     <h2>Today's Focus — <span id="todayName" style="text-transform:none;letter-spacing:0;color:var(--ink);"></span></h2>
     <div class="focus" id="focusBlocks"></div>
+    <div class="muted small" id="scheduleNote" style="margin-top:10px;"></div>
   </div>
 
   <div class="grid cols-2">
@@ -194,7 +195,17 @@ const KPI = {
  "Prelims Mode":[["Study hours/week","40+"],["Newspaper","7/7"],["New pages","0 (revision)"],["Mains answers","0"],["MCQs","700+"],["Mocks","2 full"]],
  "Mains Factory":[["Physics Optional","daily"],["GS Mains answers","4/day"],["Essay","weekly"],["Ethics cases","alt days"],["Newspaper","7/7"],["Revision","rotation"]]
 };
-const HOURS_TARGET = {"Foundation":28,"Integration":35,"Prelims Mode":40,"Mains Factory":40};
+const HOURS_TARGET = {"Foundation":19,"Integration":20,"Prelims Mode":22,"Mains Factory":20};
+const LIGHT_WEEK = {start:"2026-08-24", end:"2026-08-30"};
+const LIGHT_WEEK_FOCUS = [
+ ["Daily Current Affairs","Daily PIB","Other light daily items as able","Rest / catch-up only"],
+ ["Daily Current Affairs","Daily PIB","Other light daily items as able","Optional: 20–30 min light revision"],
+ ["Daily Current Affairs","Daily PIB","Other light daily items as able","No scheduled core study"],
+ ["Daily Current Affairs","Daily PIB","Other light daily items as able","No scheduled core study"],
+ ["Daily Current Affairs","Daily PIB","Other light daily items as able","No scheduled core study"],
+ ["Daily Current Affairs","Daily PIB","Other light daily items as able","No scheduled core study"],
+ ["Daily Current Affairs","Daily PIB","Other light daily items as able","Weekly CA/PIB consolidation"]
+];
 
 // Today's focus by phase, indexed by JS getDay() 0=Sun..6=Sat
 const FOCUS = {
@@ -236,6 +247,52 @@ const FOCUS = {
  ]
 };
 
+// Balanced working-professional rotation: CA/PIB daily, then one meaningful core block.
+const BALANCED_FOCUS = {
+ "Foundation":[
+  ["Daily Current Affairs","Daily PIB","Weekly quiz + planning"],
+  ["Daily Current Affairs","Daily PIB","Static GS — current fortnight"],
+  ["Daily Current Affairs","Daily PIB","Physics Optional — focused session"],
+  ["Daily Current Affairs","Daily PIB","Static GS — current fortnight","PYQ recall"],
+  ["Daily Current Affairs","Daily PIB","Mains answer / Ethics"],
+  ["Daily Current Affairs","Daily PIB","Physics Optional — focused session"],
+  ["Daily Current Affairs","Daily PIB","Static GS revision","Weekly consolidation"]
+ ],
+ "Integration":[
+  ["Daily Current Affairs","Daily PIB","Weekly quiz + planning"],
+  ["Daily Current Affairs","Daily PIB","GS integration + PYQs"],
+  ["Daily Current Affairs","Daily PIB","Physics Optional — focused session"],
+  ["Daily Current Affairs","Daily PIB","GS integration + PYQs"],
+  ["Daily Current Affairs","Daily PIB","Mains answer / Ethics"],
+  ["Daily Current Affairs","Daily PIB","Physics Optional — focused session"],
+  ["Daily Current Affairs","Daily PIB","Revision + sectional test"]
+ ],
+ "Prelims Mode":[
+  ["Daily Current Affairs","Daily PIB","Weekly quiz + planning"],
+  ["Daily Current Affairs","Daily PIB","Prelims revision + MCQs"],
+  ["Daily Current Affairs","Daily PIB","Prelims revision + MCQs"],
+  ["Daily Current Affairs","Daily PIB","Prelims revision + MCQs"],
+  ["Daily Current Affairs","Daily PIB","Prelims revision + MCQs"],
+  ["Daily Current Affairs","Daily PIB","Physics formulas + weak areas"],
+  ["Daily Current Affairs","Daily PIB","Sectional test + review"]
+ ],
+ "Mains Factory":[
+  ["Daily Current Affairs","Daily PIB","Weekly planning + revision"],
+  ["Daily Current Affairs","Daily PIB","Physics Optional — focused session"],
+  ["Daily Current Affairs","Daily PIB","GS Mains answer"],
+  ["Daily Current Affairs","Daily PIB","Physics Optional — focused session"],
+  ["Daily Current Affairs","Daily PIB","GS Mains answer / Ethics"],
+  ["Daily Current Affairs","Daily PIB","Physics Optional — focused session"],
+  ["Daily Current Affairs","Daily PIB","Essay or Ethics case + review"]
+ ]
+};
+const BALANCED_KPI = {
+ "Foundation":[["Study hours/week","18–20"],["CA + PIB","7/7"],["Static GS sessions","3"],["Physics sessions","2"],["Mains/Ethics outputs","1–2"],["Weekly test/review","1"]],
+ "Integration":[["Study hours/week","18–20"],["CA + PIB","7/7"],["GS/PYQ sessions","3"],["Physics sessions","2"],["Mains/Ethics outputs","1–2"],["Weekly test/review","1"]],
+ "Prelims Mode":[["Study hours/week","20–22"],["CA + PIB","7/7"],["Revision + MCQs","4"],["Physics revision","1"],["Sectional tests","1/week"],["Weekly review","1"]],
+ "Mains Factory":[["Study hours/week","18–20"],["CA + PIB","7/7"],["Physics sessions","3"],["GS Mains outputs","2"],["Essay/Ethics","1"],["Weekly review","1"]]
+};
+
 const SYLLABUS = {
  "Polity":["NCERT 11","Laxmikanth Pass-1","Laxmikanth Pass-2 (PYQ)","PYQ practice","Cross-linking"],
  "Economy":["NCERT 11 + 12","Mrunal Pillars 1–2","Mrunal Pillars 3–5","Sanjeev Verma","Eco Survey + Budget"],
@@ -258,6 +315,8 @@ const REV_SUBJECTS = ["Polity","Economy","Modern History","Ancient/Medieval","Ar
 const fmt = d => new Date(d).toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric"});
 const todayDate = new Date(); todayDate.setHours(0,0,0,0);
 const isoToday = () => new Date().toISOString().slice(0,10);
+const dateKey = d => { const x=new Date(d); return x.getFullYear()+"-"+String(x.getMonth()+1).padStart(2,"0")+"-"+String(x.getDate()).padStart(2,"0"); };
+const inLightWeek = dateKey(todayDate)>=LIGHT_WEEK.start && dateKey(todayDate)<=LIGHT_WEEK.end;
 
 // ---- countdown / phase / fortnight ----
 const days = Math.round((PRELIMS - todayDate)/86400000);
@@ -272,8 +331,17 @@ else if(todayDate>PRELIMS){phase="Mains Factory";fnLabel="Post-Prelims";fnDates=
 else if(cur){phase=cur[4];fnLabel=cur[0];fnDates=fmt(cur[1])+" – "+fmt(cur[2]);focus=cur[3];const i=FN.indexOf(cur);nextLabel=i<FN.length-1?(FN[i+1][0]+" · "+FN[i+1][3]):"Prelims day";}
 else {phase="Foundation";fnLabel="—";fnDates="";focus="";nextLabel=FN[0][0];}
 
+const scheduledPhase=phase;
+if(inLightWeek){
+  phase="Maintenance week";
+  fnLabel="Pause week";
+  fnDates=fmt(LIGHT_WEEK.start)+" – "+fmt(LIGHT_WEEK.end);
+  focus="Daily CA + PIB; core study paused";
+  nextLabel="F7 · Economy Pillar 4 + Sci-Tech build resumes 31 Aug";
+}
+
 document.getElementById("phaseName").textContent=phase;
-document.getElementById("phaseDates").textContent= phase==="Foundation"?"15 Jun – 31 Oct 2026":phase==="Integration"?"1 Nov 2026 – 31 Jan 2027":phase==="Prelims Mode"?"1 Feb – 24 May 2027":"post-Prelims → 30 Sep 2027";
+document.getElementById("phaseDates").textContent= inLightWeek?"24 Aug – 30 Aug 2026":phase==="Foundation"?"15 Jun – 31 Oct 2026":phase==="Integration"?"1 Nov 2026 – 31 Jan 2027":phase==="Prelims Mode"?"1 Feb – 24 May 2027":"post-Prelims → 30 Sep 2027";
 document.getElementById("fnNum").textContent=fnLabel;
 document.getElementById("fnDates").textContent=fnDates;
 document.getElementById("fnFocus").textContent=focus;
@@ -288,12 +356,16 @@ document.getElementById("pct").textContent=pct+"% of the plan elapsed";
 const dayNames=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 const gd=new Date().getDay();
 document.getElementById("todayName").textContent=dayNames[gd];
-const blocks=(FOCUS[phase]||FOCUS["Foundation"])[gd];
+const blocks=inLightWeek?LIGHT_WEEK_FOCUS[gd]:(BALANCED_FOCUS[scheduledPhase]||BALANCED_FOCUS["Foundation"])[gd];
 document.getElementById("focusBlocks").innerHTML=blocks.map(b=>'<span class="blk">'+b+'</span>').join("");
+document.getElementById("scheduleNote").textContent=inLightWeek
+  ? "This is your planned recovery week. Keep CA and PIB daily; the regular core-study sequence resumes on 31 Aug."
+  : "Balanced rotation: CA/PIB daily, one core block per day, with two Physics sessions and one or two Mains/Ethics outputs each week.";
 
 // ---- KPIs ----
 const kpiBox=document.getElementById("kpiList");
-(KPI[phase]||KPI["Foundation"]).forEach(k=>{const r=document.createElement("div");r.className="row";r.innerHTML='<span class="muted">'+k[0]+'</span><b>'+k[1]+'</b>';kpiBox.appendChild(r);});
+const displayedKpi=inLightWeek?[["Daily Current Affairs","7/7"],["Daily PIB","7/7"],["Core study","Paused"],["Study hours","Flexible"]]:(BALANCED_KPI[scheduledPhase]||BALANCED_KPI["Foundation"]);
+displayedKpi.forEach(k=>{const r=document.createElement("div");r.className="row";r.innerHTML='<span class="muted">'+k[0]+'</span><b>'+k[1]+'</b>';kpiBox.appendChild(r);});
 
 // ---- persistence helpers ----
 const load=(k,d)=>{try{return JSON.parse(localStorage.getItem(k))??d}catch(e){return d}};
@@ -303,11 +375,11 @@ const LS={M:"upsc_mock_scores_v1",W:"upsc_weak_areas_v1",H:"upsc_hours_v1",REV:"
 // ---- study hours ----
 function weekStart(){const d=new Date();const day=(d.getDay()+6)%7;d.setHours(0,0,0,0);d.setDate(d.getDate()-day);return d;}
 document.getElementById("hDate").valueAsDate=new Date();
-document.getElementById("hoursTarget").textContent=(HOURS_TARGET[phase]||28)+"+";
+document.getElementById("hoursTarget").textContent=inLightWeek?"flexible":((HOURS_TARGET[scheduledPhase]||19)+" target");
 function renderHours(){
   const list=load(LS.H,[]);const ws=weekStart();
   const total=list.filter(e=>new Date(e.date)>=ws).reduce((s,e)=>s+(+e.hours||0),0);
-  const target=HOURS_TARGET[phase]||28;
+  const target=inLightWeek?1:(HOURS_TARGET[scheduledPhase]||28);
   document.getElementById("weekHours").textContent=Math.round(total*10)/10;
   document.getElementById("hoursFill").style.width=Math.min(100,Math.round(total/target*100))+"%";
   const recent=list.slice(-5).reverse().map(e=>fmt(e.date)+": "+e.hours+"h").join(" · ");
