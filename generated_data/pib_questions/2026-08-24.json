@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the Unified Payments Interface (UPI), consider the following statements:\n1. It is operated by the National Payments Corporation of India under the regulatory oversight of the Reserve Bank of India.\n2. It is built on the Immediate Payment Service (IMPS) infrastructure and uses a Virtual Payment Address so that bank account details need not be shared.\n3. As of 2025-26, the International Monetary Fund has recognised it as the world's largest real-time payment system by transaction volume.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. UPI, which completed 10 years in August 2026, is operated by NPCI under RBI oversight, runs on IMPS rails using a Virtual Payment Address that keeps account numbers hidden, and has been acknowledged by the IMF as the world's largest real-time payment system by transaction volume, with roughly a 49% share of global real-time payment volume.",
+    "subject": "Economy",
+    "theme": "Banking and Financial Inclusion",
+    "micro_topic": "UPI and Digital Public Infrastructure",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Consider the following statements about the Bonn Challenge and India's land restoration commitments:\n1. The Bonn Challenge is a legally binding target adopted under the United Nations Convention to Combat Desertification.\n2. India raised its land restoration ambition to 26 million hectares by 2030 at the UNCCD Conference of the Parties held in New Delhi.\n3. India reported at UNCCD COP17 that it had brought about 21.76 million hectares of degraded land under restoration during 2011-2020.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statement 1 is incorrect: the Bonn Challenge (2011) is a voluntary global goal hosted by IUCN and the German government, not a legally binding UNCCD instrument. Statement 2 is correct - India enhanced its ambition to 26 million hectares by 2030 at UNCCD COP14, New Delhi (2019). Statement 3 is correct - at COP17 in Ulaanbaatar, Union Minister Bhupender Yadav reported 21.76 million hectares restored during 2011-2020, generating about 1.22 billion person-days of employment.",
+    "subject": "Environment",
+    "theme": "International Environmental Conventions",
+    "micro_topic": "UNCCD, Land Degradation Neutrality and the Bonn Challenge",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The 'GENESIS' programme, seen in the news recently, is associated with which one of the following?",
+    "options": [
+      "(a) A Ministry of Environment scheme for restoring degraded grasslands and open natural ecosystems",
+      "(b) A Ministry of Electronics and Information Technology initiative to support technology startups in Tier-2 and Tier-3 cities",
+      "(c) An ICMR programme for genome sequencing of endemic disease pathogens",
+      "(d) A Ministry of Agriculture mission for the development and release of non-GMO hybrid seeds"
+    ],
+    "answer": "(b)",
+    "explanation": "GENESIS - 'Gen-Next Support for Innovative Startups' - is a MeitY initiative implemented through MeitY Startup Hub, with an outlay of about Rs 490 crore over five years, targeting roughly 1,600 startups via incubators located preferably in Tier-2 and Tier-3 cities. Its Entrepreneur-in-Residence (EiR) Cohort-3, launched on 24 August 2026, offers up to Rs 10 lakh per selected innovator.",
+    "subject": "Science & Technology",
+    "theme": "Innovation and Startup Ecosystem",
+    "micro_topic": "MeitY GENESIS and Entrepreneur-in-Residence programme",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]
