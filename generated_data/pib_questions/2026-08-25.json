@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to missile and rocket systems developed by the Defence Research and Development Organisation (DRDO), consider the following statements:\n1. Akash is a medium-range surface-to-air missile system.\n2. QRSAM stands for Quick Reaction Surface-to-Air Missile.\n3. Pralay is a quasi-ballistic surface-to-surface missile.\n4. Pinaka is a guided anti-tank missile.\nHow many of the statements given above are correct?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) Only three",
+      "(d) All four"
+    ],
+    "answer": "(c)",
+    "explanation": "Statements 1, 2 and 3 are correct. Statement 4 is incorrect - Pinaka is a multi-barrel rocket launcher system (available in guided and unguided variants), not an anti-tank missile; DRDO's anti-tank systems include Nag, HELINA and MPATGM. On 25 August 2026 the Raksha Mantri approved transfer of technology of all conventional DRDO-developed missile systems to Indian defence industry to boost indigenous manufacturing.",
+    "subject": "Internal Security",
+    "theme": "Defence Technology and Indigenisation",
+    "micro_topic": "DRDO missile systems and Transfer of Technology",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The NJ-05, NJ-50 and NJ-100, recently in the news, are best described as:",
+    "options": [
+      "(a) Small modular nuclear reactors designed by BARC for captive industrial power",
+      "(b) Indigenous micro and small gas turbine engines developed by CSIR-National Aerospace Laboratories",
+      "(c) A series of navigation satellites launched under the NavIC augmentation programme",
+      "(d) Ultra-high-yield rice hybrids released by the Indian Council of Agricultural Research"
+    ],
+    "answer": "(b)",
+    "explanation": "CSIR-National Aerospace Laboratories, Bengaluru, unveiled the NJ-05 (5 kgf thrust), NJ-50 (50 kgf) and NJ-100 (100 kgf) micro and small gas turbine engines at CSIR Headquarters, New Delhi. They are meant for tactical UAVs, drone interceptors, loitering munitions and compact cruise missiles, and provide an indigenous alternative to imported engines in this thrust class.",
+    "subject": "Science & Technology",
+    "theme": "Indigenous Technology Development",
+    "micro_topic": "CSIR-NAL gas turbine engines for unmanned systems",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Consider the following statements:\n1. The 'Bal Vivah Mukt Bharat' campaign is run by the Ministry of Women and Child Development.\n2. Childline 1098 is a toll-free, round-the-clock emergency outreach service for children in distress, including for prevention of child marriage.\n3. Under the Prohibition of Child Marriage Act, 2006, every child marriage is void ab initio.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Statements 1 and 2 are correct - the campaign, launched in November 2024 along with the Child Marriage Free Bharat Portal, is a Ministry of Women and Child Development initiative, and Childline 1098 is a toll-free 24x7x365 emergency service that works with police, Child Marriage Prohibition Officers and District Child Protection Units. Statement 3 is incorrect: under the PCMA, 2006 a child marriage is generally voidable at the option of the contracting party who was a child, and is void only in specified circumstances such as enticement, forcible taking away, or sale or trafficking for the purpose of marriage.",
+    "subject": "Society",
+    "theme": "Women and Child Welfare",
+    "micro_topic": "Bal Vivah Mukt Bharat and the Prohibition of Child Marriage Act, 2006",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]
