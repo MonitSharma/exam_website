@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to the Adi Vaani platform, recently in the news, consider the following statements:\n1. It is an initiative of the Ministry of Tribal Affairs and is described as India's first AI-powered translator for tribal languages.\n2. It has been developed by a consortium led by the Central Institute of Indian Languages, Mysuru.\n3. Its beta-stage languages included Santali, Bhili, Mundari and Gondi.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statement 2 is incorrect: the developing consortium is led by IIT Delhi, with BITS Pilani, IIIT Hyderabad and IIIT Naya Raipur, working with Tribal Research Institutes. CIIL, Mysuru, signed an MoU as a partner for tribal-language documentation and corpus development, but did not develop the platform. Statements 1 and 3 are correct; the full-fledged platform and its iOS app were launched at the National Conclave on Tribal Languages & Museums, Mysuru, in August 2026.",
+    "subject": "Society",
+    "theme": "Tribal communities, language preservation and digital inclusion",
+    "micro_topic": "Adi Vaani full launch at the National Conclave on Tribal Languages & Museums, Mysuru, August 2026; IIT Delhi-led consortium; NLLB and IndicTrans2 models; beta languages Santali, Bhili, Mundari, Gondi; MoU with CIIL Mysuru; Jago AI assistant; Tribal Freedom Fighter Museums",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements regarding the Shanghai Cooperation Organisation (SCO), whose Heads of State Council summit is being hosted at Bishkek in 2026:\n1. The SCO grew out of the 'Shanghai Five' grouping and was founded in 2001.\n2. Its Secretariat and its Regional Anti-Terrorist Structure are both located in Beijing.\n3. India and Pakistan were admitted as full members at the Astana Summit of 2017.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statement 2 is incorrect: the SCO Secretariat is in Beijing, but the Regional Anti-Terrorist Structure (RATS) is headquartered in Tashkent, Uzbekistan. Statements 1 and 3 are correct. The SCO was founded in 2001 in Shanghai, evolving from the Shanghai Five (1996); India and Pakistan became full members at the Astana Summit in 2017, followed by Iran (2023) and Belarus (2024).",
+    "subject": "International Relations",
+    "theme": "Regional groupings involving India",
+    "micro_topic": "SCO Heads of State Council Summit, Bishkek, 31 August-1 September 2026 under Kyrgyz chairmanship; 25th anniversary; PM Modi bilateral visit to Uzbekistan 28 August 2026; Secretariat Beijing versus RATS Tashkent; membership timeline 2017 India-Pakistan, 2023 Iran, 2024 Belarus",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The 'IT Resilience Index (ITRI)', introduced in August 2026, is best described as:",
+    "options": [
+      "(a) A NITI Aayog index ranking States on the quality of their digital public infrastructure",
+      "(b) A SEBI framework measuring the resilience of the critical IT systems of stock exchanges, clearing corporations and depositories on a 100-point scale",
+      "(c) An RBI composite index assessing the cyber-preparedness of all scheduled commercial banks and NBFCs",
+      "(d) A MeitY certification standard for data centres hosting government workloads"
+    ],
+    "answer": "(b)",
+    "explanation": "SEBI's circular of 24 August 2026 introduced the ITRI, a system-driven composite index scored out of 100 across nine parameters (Availability 20%, Security 20%, Integrity, Governance, Reliability & Monitoring, Business Continuity, Modularity & Flexibility 10% each, Scalability 5%, Others 5%), applicable only to Market Infrastructure Institutions - stock exchanges, clearing corporations and depositories. It is computed half-yearly within 60 days of each half-year, first for the half-year ended 31 March 2027, and must be operationalised by 28 February 2027.",
+    "subject": "Economy",
+    "theme": "Capital market regulation and financial-system resilience",
+    "micro_topic": "SEBI IT Resilience Index circular of 24 August 2026; nine parameters and weights; Market Infrastructure Institutions; half-yearly computation reported to the Standing Committee on Technology (SCOT) and governing board; Early Warning System and real-time monitoring by 28 February 2027",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "A 2026 study by the ICMR-National Institute of Nutrition, Hyderabad, reported that combined exposure to lead and amyloid-beta peptides in human neuronal cells principally disrupts:",
+    "options": [
+      "(a) Mitochondrial oxidative phosphorylation, by uncoupling the electron transport chain",
+      "(b) Lysosomal function, by disturbing lysosomal acidity and causing membrane leakage",
+      "(c) Ribosomal protein synthesis, by displacing magnesium ions",
+      "(d) Nuclear DNA repair, by inhibiting topoisomerase activity"
+    ],
+    "answer": "(b)",
+    "explanation": "The ICMR-NIN study, published in the Journal of Applied Toxicology and led by Dr Suresh Challa, found that lead and amyloid-beta each impair lysosomal function, and that combined exposure substantially worsens the damage - reducing cell survival, disturbing lysosomal acidity, and causing structural damage and membrane leakage. Proteins and genes implicated included TFEB, TRPML1, LAMP1, LAMP2 and Cathepsin B. The study was laboratory-based and does not by itself establish that lead causes Alzheimer's disease in humans.",
+    "subject": "Science & Technology",
+    "theme": "Cell biology, heavy-metal toxicity and neurodegeneration",
+    "micro_topic": "ICMR-NIN Hyderabad study on lead and amyloid-beta, Journal of Applied Toxicology 2026; lysosome as the cell's waste-disposal organelle requiring acidic pH; TFEB, TRPML1, LAMP1, LAMP2, Cathepsin B; lead atomic number 82, ore galena, no safe blood-lead level",
+    "nature": "Conceptual",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "With reference to 'Nipun', which the Indian Navy is commissioning in August 2026, consider the following statements:\n1. It is the second Diving Support Vessel of the Nistar class, indigenously designed and constructed by Hindustan Shipyard Limited, Visakhapatnam.\n2. Vessels of this class are designed to act as mother ships for a Deep Submergence Rescue Vehicle.\n3. It is equipped with a Dynamic Positioning System and a Self-Propelled Hyperbaric Lifeboat.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three statements are correct. Nipun, delivered on 30 July 2026 and to be commissioned on 31 August 2026 at Naval Dockyard, Mumbai, is the second Nistar-class DSV built by HSL, Visakhapatnam, under a contract of 20 September 2018 worth Rs 2,392.94 crore for two ships, with about 80% indigenous content and SAIL-supplied steel. The class serves as the mother ship for a DSRV, and its fit includes DP-II dynamic positioning, a six-person decompression chamber, a submersible decompression chamber launched through a moon pool, a Self-Propelled Hyperbaric Lifeboat, two Observation-class ROVs, side-scan sonar and a 15-tonne subsea crane.",
+    "subject": "Internal Security",
+    "theme": "Naval capability and defence indigenisation",
+    "micro_topic": "INS Nipun commissioning 31 August 2026 at Naval Dockyard Mumbai; Nistar-class DSV; HSL Visakhapatnam; DSRV mother ship; displacement 9,350 t, length 118.4 m, endurance 60 days; INS Nistar commissioned 18 July 2025 into Eastern Naval Command; original INS Nistar from the Soviet Navy, 1969-1989",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the Eighth Schedule of the Constitution of India, consider the following statements:\n1. Santali is the only language of a Scheduled Tribe community that has been included in the Eighth Schedule.\n2. The Constitution (92nd Amendment) Act, 2003 added four languages to the Eighth Schedule, raising the total to twenty-two.\n3. Inclusion of a language in the Eighth Schedule automatically confers on it the status of a Classical Language.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Statement 3 is incorrect: Eighth Schedule inclusion and Classical Language status are separate. Classical Language status is conferred by the Government of India on the recommendation of a Linguistic Experts Committee, and the two categories only partly overlap. Statements 1 and 2 are correct - Santali is the only Scheduled Tribe language in the Eighth Schedule, added along with Bodo, Dogri and Maithili by the 92nd Amendment Act, 2003, taking the total to 22.",
+    "subject": "Polity & Governance",
+    "theme": "Official language provisions and the Eighth Schedule",
+    "micro_topic": "Eighth Schedule and Articles 343-351; 92nd Amendment Act 2003 adding Bodo, Dogri, Maithili and Santali to make 22; Santali as the only Scheduled Tribe language listed; distinction from Classical Language status and from Articles 350A and 350B",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following pairs of heavy metals and the descriptions associated with them:\n1. Lead - principal ore is galena; exposure impairs neurobehavioural development in children\n2. Mercury - the Minamata disease of Japan resulted from its discharge into coastal waters\n3. Cadmium - associated with the Itai-itai disease of Japan\n4. Arsenic - a major cause of groundwater contamination in the Bengal basin\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) Only three",
+      "(d) All four"
+    ],
+    "answer": "(d)",
+    "explanation": "All four pairs are correctly matched. Lead's principal ore is galena (PbS) and there is no known safe blood-lead level, with children most vulnerable to neurobehavioural harm. Minamata disease resulted from methylmercury discharged into Minamata Bay, Japan. Itai-itai disease in the Jinzu river basin, Japan, was caused by cadmium contamination of rice and water. Arsenic contamination of groundwater is endemic across the Bengal basin covering West Bengal and Bangladesh.",
+    "subject": "Environment",
+    "theme": "Environmental pollution and heavy-metal toxicity",
+    "micro_topic": "Heavy metals and associated diseases - lead and galena, mercury and Minamata, cadmium and Itai-itai, arsenic and Bengal basin groundwater; links to UPSC Prelims 2020 question on coal ash containing arsenic, lead and mercury and Prelims 2017 on bioremediation",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  }
+]

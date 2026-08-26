@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the e-Shram Portal, consider the following statements:\n1. It was launched in 2021 by the Ministry of Labour & Employment and created India's first Aadhaar-authenticated National Database of Unorganised Workers.\n2. Every worker registered on the portal is issued a unique 12-digit Universal Account Number.\n3. Membership of the Employees' Provident Fund Organisation (EPFO) or the Employees' State Insurance Corporation (ESIC) is a pre-condition for registration on the portal.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "e-Shram was launched on 26 August 2021 by the Ministry of Labour & Employment and issues a 12-digit Universal Account Number to each registrant. Statement 3 inverts the rule: an eligible worker must NOT be an EPFO/ESIC member or an income-tax payer.",
+    "subject": "Polity & Governance",
+    "theme": "Welfare Schemes for Vulnerable Sections",
+    "micro_topic": "e-Shram Portal and social security for unorganised workers",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Consider the following statements about India-Seychelles cooperation in fisheries and the blue economy, as discussed at the recent high-level bilateral meeting:\n1. Seychelles is an archipelagic state located in the western Indian Ocean.\n2. The Indian side is led by the Department of Fisheries under the Ministry of Fisheries, Animal Husbandry and Dairying.\n3. The agenda included Monitoring, Control and Surveillance (MCS) infrastructure and the use of Artificial Intelligence in harvest management.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. Seychelles is a western Indian Ocean archipelago; the Indian delegation was led by the Secretary, Department of Fisheries (MoFAH&D); and the agenda covered MCS infrastructure and AI-based harvest management, alongside mariculture, tuna fisheries and post-harvest engineering.",
+    "subject": "International Relations",
+    "theme": "India and the Indian Ocean Region",
+    "micro_topic": "India-Seychelles bilateral cooperation in fisheries and blue economy",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to India's agricultural research and education system, consider the following statements:\n1. The Indian Council of Agricultural Research (ICAR) functions under the Department of Agricultural Research and Education (DARE) of the Ministry of Agriculture & Farmers Welfare.\n2. State Agricultural Universities and Krishi Vigyan Kendras form part of the National Agricultural Research and Education System.\n3. ICAR is a statutory body created by an Act of Parliament.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "ICAR is an autonomous body registered under the Societies Registration Act, 1860 - not a statutory body created by an Act of Parliament - so statement 3 is incorrect. It functions under DARE in the Ministry of Agriculture & Farmers Welfare, and SAUs and KVKs are constituents of the National Agricultural Research and Education System (NARES), whose reform was the focus of the 36th Annual Conference of Vice-Chancellors of Agricultural Universities.",
+    "subject": "Agriculture",
+    "theme": "Agricultural Research and Extension",
+    "micro_topic": "ICAR, DARE and the National Agricultural Research and Education System",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]
