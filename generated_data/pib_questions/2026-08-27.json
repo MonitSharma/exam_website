@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the Pradhan Mantri Jan Dhan Yojana (PMJDY), consider the following statements:\n1. It was launched in 2014 as the National Mission for Financial Inclusion and is implemented by the Department of Financial Services.\n2. Accounts opened under the scheme are Basic Savings Bank Deposit Accounts that require no minimum balance.\n3. The RuPay debit card issued under the scheme carries an in-built accident insurance cover.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "PMJDY was launched on 28 August 2014 as the National Mission for Financial Inclusion under the Department of Financial Services, Ministry of Finance. Its accounts are zero-minimum-balance Basic Savings Bank Deposit Accounts, and the free RuPay debit card carries accident insurance cover of up to Rs 2 lakh for cards issued on or after 28 August 2018.",
+    "subject": "Economy",
+    "theme": "Inclusive Growth and Financial Inclusion",
+    "micro_topic": "Pradhan Mantri Jan Dhan Yojana and the JAM trinity",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Consider the following statements about the International Big Cat Alliance (IBCA) and snow leopard conservation:\n1. The IBCA is headquartered in India and covers seven big cat species, including the snow leopard and the puma.\n2. The snow leopard is currently listed as 'Endangered' on the IUCN Red List.\n3. India is one of the range countries participating in the Global Snow Leopard and Ecosystem Protection (GSLEP) Programme.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "IBCA is headquartered in India and covers seven big cats - tiger, lion, leopard, snow leopard, cheetah, jaguar and puma. The snow leopard is listed as 'Vulnerable' on the IUCN Red List, having been downlisted from 'Endangered' in 2017, so statement 2 is incorrect. India is among the 12 snow leopard range countries under the GSLEP Programme launched through the Bishkek Declaration of 2013.",
+    "subject": "Environment",
+    "theme": "Wildlife Conservation and International Cooperation",
+    "micro_topic": "International Big Cat Alliance and snow leopard conservation",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Price Stabilisation Fund (PSF), in the news recently in connection with the release of onion buffer stocks, is best described as:",
+    "options": [
+      "(a) A fund under the Ministry of Agriculture and Farmers Welfare that pays farmers the difference between the Minimum Support Price and the market price",
+      "(b) A fund under the Department of Consumer Affairs used to build and release buffer stocks of commodities such as onion, potato and pulses to moderate price volatility",
+      "(c) A statutory reserve maintained by the Food Corporation of India for foodgrains under the National Food Security Act",
+      "(d) A market-intervention corpus operated by NAFED exclusively for oilseeds procurement"
+    ],
+    "answer": "(b)",
+    "explanation": "The Price Stabilisation Fund was created in 2014-15 and transferred to the Department of Consumer Affairs in 2016. It finances procurement, storage and calibrated market release of buffer stocks of TOP crops (tomato, onion, potato) and pulses to cushion consumers against price volatility. Option (a) describes a price-deficiency-payment model, (c) confuses the PSF with FCI foodgrain buffer norms, and (d) misstates NAFED's role as an implementing agency rather than the fund itself.",
+    "subject": "Agriculture",
+    "theme": "Food Management and Price Policy",
+    "micro_topic": "Price Stabilisation Fund and buffer stock operations for onion",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]
