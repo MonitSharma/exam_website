@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to BRICS, consider the following statements:\n1. India is a founding member of BRICS and assumed its fourth Chairship in January 2026.\n2. India had earlier held the BRICS Chairship in 2012, 2016 and 2021.\n3. The theme of India's 2026 BRICS Presidency is \"Building for Resilience, Innovation, Cooperation and Sustainability\".\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. India is a founding member of BRIC (2006; South Africa joined in 2010), assumed its fourth Chairship on 1 January 2026, and had chaired earlier in 2012, 2016 and 2021. The Presidency theme is 'Building for Resilience, Innovation, Cooperation and Sustainability'. The 18th BRICS Summit is scheduled for 12-13 September 2026 at Bharat Mandapam, New Delhi.",
+    "subject": "International Relations",
+    "theme": "Groupings and Global Governance",
+    "micro_topic": "BRICS - India's 2026 Chairship and 18th Summit",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to Uzbekistan, consider the following statements:\n1. It is one of only two doubly landlocked countries in the world.\n2. It shares a land border with China.\n3. It is a member of the Shanghai Cooperation Organisation.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 3 only",
+      "(b) 2 only",
+      "(c) 1 and 2 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Uzbekistan and Liechtenstein are the world's only two doubly landlocked countries, meaning every neighbour is itself landlocked. Statement 2 is incorrect: Uzbekistan borders Afghanistan, Kazakhstan, Kyrgyzstan, Tajikistan and Turkmenistan, but not China. It is a full member of the SCO. Context: PM Modi's fourth visit to Uzbekistan on 29-30 August 2026.",
+    "subject": "Geography",
+    "theme": "World Geography and India's Neighbourhood",
+    "micro_topic": "Central Asia - Uzbekistan and India's connectivity",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements regarding the Hallmark Unique Identification (HUID) system recently in the news:\n1. It is administered by the Bureau of Indian Standards, which functions under the Ministry of Commerce and Industry.\n2. The HUID is a six-digit alphanumeric code that enables traceability of an individual jewellery article.\n3. Consumers can verify a HUID number using the BIS CARE mobile application.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statement 1 is incorrect on the ministry: the Bureau of Indian Standards, the National Standards Body established under the BIS Act, 2016, functions under the Department of Consumer Affairs, Ministry of Consumer Affairs, Food and Public Distribution - not Commerce and Industry. The HUID is indeed a six-digit alphanumeric code assuring traceability, and it is verifiable on the BIS CARE app. BIS has expanded the silver HUID ecosystem to 341 Assaying and Hallmarking Centres across 102 districts.",
+    "subject": "Economy",
+    "theme": "Consumer Protection and Regulatory Bodies",
+    "micro_topic": "BIS hallmarking and HUID traceability for silver",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]
