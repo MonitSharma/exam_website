@@ -1,0 +1,1552 @@
+[
+  {
+    "id": "book_topics_2026_08_30_01",
+    "question_number": 1,
+    "question": "With reference to the High Courts in India, consider the following statements:\n1. Article 214 provides that there shall be a High Court for each State.\n2. The Constitution itself prescribes the maximum number of judges of a High Court.\n3. Article 215 makes every High Court a court of record.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Art 214 - a High Court for each State; Art 215 - every High Court is a court of record with power to punish for contempt. Art 216 leaves the strength of a High Court to be determined by the President/Parliament - no maximum is prescribed by the Constitution, unlike the Supreme Court where Parliament fixes the number by law. Hence statement 2 is wrong.",
+    "subject": "Polity",
+    "theme": "Polity - High Court, Subordinate Courts & Tribunals (Laxmikanth Ch 30-32)",
+    "micro_topic": "High Court - Articles 214-216",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_30_02",
+    "question_number": 2,
+    "question": "Which of the following are prescribed by the Constitution as qualifications for appointment as a judge of a High Court?\n1. He should have held a judicial office in the territory of India for ten years.\n2. He should have been an advocate of a High Court for ten years.\n3. He should be, in the opinion of the President, a distinguished jurist.\nSelect the correct answer using the code given below:",
+    "options": [
+      {
+        "key": "a",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Art 217 gives only two routes to a High Court judgeship: ten years in judicial office in India, or ten years as an advocate of a High Court (or of two or more such courts in succession). The 'distinguished jurist' route exists only for the Supreme Court under Art 124(3)(c). This asymmetry is a standing Prelims trap.",
+    "subject": "Polity",
+    "theme": "Polity - High Court, Subordinate Courts & Tribunals (Laxmikanth Ch 30-32)",
+    "micro_topic": "High Court - qualifications (Art 217)",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_30_03",
+    "question_number": 3,
+    "question": "The age of retirement of a judge of a High Court in India is",
+    "options": [
+      {
+        "key": "a",
+        "text": "60 years"
+      },
+      {
+        "key": "b",
+        "text": "62 years"
+      },
+      {
+        "key": "c",
+        "text": "65 years"
+      },
+      {
+        "key": "d",
+        "text": "fixed by Parliament by law from time to time"
+      }
+    ],
+    "answer": "b",
+    "explanation": "A High Court judge holds office until the age of 62 (raised from 60 by the 15th Amendment Act, 1963). A Supreme Court judge retires at 65. Any question of age is decided by the President after consultation with the Chief Justice of India, and that decision is final.",
+    "subject": "Polity",
+    "theme": "Polity - High Court, Subordinate Courts & Tribunals (Laxmikanth Ch 30-32)",
+    "micro_topic": "High Court - tenure and retirement age",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_30_04",
+    "question_number": 4,
+    "question": "With reference to the writ jurisdiction of the High Courts, consider the following statements:\n1. The writ jurisdiction of a High Court under Article 226 is wider in scope than that of the Supreme Court under Article 32.\n2. The remedy provided under Article 226 is itself a Fundamental Right.\n3. A High Court may issue a writ against an authority located outside its territorial jurisdiction if the cause of action arises within its jurisdiction.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1, 2 and 3"
+      },
+      {
+        "key": "d",
+        "text": "1 and 3 only"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Art 226 is wider - it lies for the enforcement of Fundamental Rights 'and for any other purpose', i.e. for ordinary legal rights too. But it is a constitutional right, not itself a Fundamental Right, and its exercise is discretionary - so a High Court may refuse relief, whereas the Supreme Court cannot refuse under Art 32. The 15th Amendment (1963) extended Art 226 to authorities outside a High Court's territory where the cause of action arises wholly or partly within it. Statement 2 is therefore wrong.",
+    "subject": "Polity",
+    "theme": "Polity - High Court, Subordinate Courts & Tribunals (Laxmikanth Ch 30-32)",
+    "micro_topic": "Article 226 vs Article 32",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_30_05",
+    "question_number": 5,
+    "question": "With reference to Article 227 of the Constitution, consider the following statements:\n1. It confers on every High Court a power of superintendence over all courts and tribunals within its territorial jurisdiction.\n2. Military courts and tribunals are excluded from this power of superintendence.\n3. The power extends to administrative superintendence as well as judicial superintendence.\nHow many of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "All three"
+      },
+      {
+        "key": "c",
+        "text": "Only two"
+      },
+      {
+        "key": "d",
+        "text": "None"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Art 227 covers all courts and tribunals in the State except military courts/tribunals, and is both judicial (revisional) and administrative (calling for returns, framing rules, prescribing forms, settling fees). It is broader than Art 226 in one respect - it can be exercised suo motu, whereas a writ under Art 226 must be moved by a party.",
+    "subject": "Polity",
+    "theme": "Polity - High Court, Subordinate Courts & Tribunals (Laxmikanth Ch 30-32)",
+    "micro_topic": "Article 227 - power of superintendence",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_30_06",
+    "question_number": 6,
+    "question": "Consider the following statements regarding the judges of a High Court:\n1. Their salaries and allowances are charged on the Consolidated Fund of the State.\n2. Their pensions are charged on the Consolidated Fund of India.\n3. A retired permanent judge of a High Court is barred from pleading before any court or authority in India.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Art 221 - salaries and allowances are charged on the State's Consolidated Fund; pensions are charged on the Consolidated Fund of India. Art 220 bars a retired permanent High Court judge from pleading in any court or before any authority in India EXCEPT the Supreme Court and the other High Courts. Statement 3 overstates the bar and is wrong.",
+    "subject": "Polity",
+    "theme": "Polity - High Court, Subordinate Courts & Tribunals (Laxmikanth Ch 30-32)",
+    "micro_topic": "High Court - salaries, pensions, practice bar",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_30_07",
+    "question_number": 7,
+    "question": "With reference to Article 224A of the Constitution, consider the following statements:\n1. It enables the Chief Justice of a High Court to request a retired judge to sit and act as a judge of that High Court.\n2. Such a request requires the previous consent of the President.\n3. A person appointed under this provision is deemed to be a judge of that High Court for all purposes.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1, 2 and 3"
+      },
+      {
+        "key": "d",
+        "text": "1 and 2 only"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Art 224A allows the Chief Justice of a High Court, with the previous consent of the President, to request a retired judge of that or any other High Court to sit and act. Such a judge enjoys all the jurisdiction, powers and privileges of a judge of that High Court, but is NOT otherwise deemed to be a judge of it. Statement 3 is therefore wrong.",
+    "subject": "Polity",
+    "theme": "Polity - High Court, Subordinate Courts & Tribunals (Laxmikanth Ch 30-32)",
+    "micro_topic": "Article 224A - ad hoc appointment of retired judges",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_30_08",
+    "question_number": 8,
+    "question": "Consider the following statements about a common High Court for two or more States:\n1. Parliament may by law establish a common High Court for two or more States, or for two or more States and a Union Territory.\n2. The judges of such a common High Court are appointed by the Governors of the States concerned.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "2 only"
+      },
+      {
+        "key": "b",
+        "text": "1 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Art 231 (inserted by the 7th Amendment, 1956) empowers Parliament to establish a common High Court for two or more States, or for States and a Union Territory - Punjab and Haryana, and Bombay, are examples. All High Court judges, however, are appointed by the President under Art 217; the Governor is only one of the consultees. Statement 2 is wrong.",
+    "subject": "Polity",
+    "theme": "Polity - High Court, Subordinate Courts & Tribunals (Laxmikanth Ch 30-32)",
+    "micro_topic": "Article 231 - common High Court",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_30_09",
+    "question_number": 9,
+    "question": "With reference to the subordinate judiciary in a State, consider the following statements:\n1. District judges are appointed by the Governor in consultation with the High Court.\n2. Control over district courts and courts subordinate to them vests in the High Court.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "c",
+        "text": "2 only"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Art 233 - the Governor appoints, posts and promotes district judges in consultation with the High Court. Art 235 vests control over district courts and subordinate courts, including posting, promotion and leave of persons in the State judicial service below the rank of district judge, in the High Court. Both statements are correct.",
+    "subject": "Polity",
+    "theme": "Polity - High Court, Subordinate Courts & Tribunals (Laxmikanth Ch 30-32)",
+    "micro_topic": "Subordinate courts - Articles 233 and 235",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_30_10",
+    "question_number": 10,
+    "question": "With reference to the proposed All India Judicial Service, consider the following statements:\n1. Parliament can provide for its creation under Article 312.\n2. A resolution of the Rajya Sabha supported by two-thirds of the members present and voting is a precondition.\n3. Such a service may include posts inferior to that of a district judge.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1, 2 and 3"
+      },
+      {
+        "key": "d",
+        "text": "1 and 2 only"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Art 312 permits Parliament to create new all-India services, including an all-India judicial service, but only after the Rajya Sabha passes a resolution supported by not less than two-thirds of the members present and voting. The same article expressly provides that such a judicial service shall not include any post inferior to that of a district judge. Statement 3 is wrong.",
+    "subject": "Polity",
+    "theme": "Polity - High Court, Subordinate Courts & Tribunals (Laxmikanth Ch 30-32)",
+    "micro_topic": "All India Judicial Service - Article 312",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_30_11",
+    "question_number": 11,
+    "question": "With reference to tribunals in India, consider the following statements:\n1. Article 323A permits only Parliament to provide for administrative tribunals, and only for public service matters.\n2. Under Article 323B, tribunals for the enumerated matters may be established by Parliament as well as by State legislatures.\n3. Part XIV-A of the Constitution, containing these provisions, was inserted by the 42nd Amendment Act, 1976.\n4. In L. Chandra Kumar (1997) the Supreme Court held that the High Courts' jurisdiction under Articles 226 and 227 over tribunal decisions cannot be excluded.\nHow many of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "All four"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "Only three"
+      },
+      {
+        "key": "d",
+        "text": "Only one"
+      }
+    ],
+    "answer": "a",
+    "explanation": "All four are correct. Art 323A is confined to public service matters and is a Parliament-only power (CAT was set up under it in 1985); Art 323B covers an enumerated list - taxation, foreign exchange, industrial and labour disputes, land reforms, ceiling on urban property, elections to Parliament and State legislatures, food, rent and tenancy - and is available to Parliament and State legislatures alike. Part XIV-A came in with the 42nd Amendment, 1976. L. Chandra Kumar (1997) restored High Court review under Arts 226/227 and struck down the exclusion of that jurisdiction, making tribunals supplementary to, not substitutes for, the High Courts.",
+    "subject": "Polity",
+    "theme": "Polity - High Court, Subordinate Courts & Tribunals (Laxmikanth Ch 30-32)",
+    "micro_topic": "Tribunals - Articles 323A and 323B",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_30_12",
+    "question_number": 12,
+    "question": "With reference to the Election Commission of India, consider the following statements:\n1. Article 324 vests the superintendence, direction and control of elections to Parliament, the State legislatures, and to the offices of President and Vice-President in the Election Commission.\n2. The Constitution fixes the number of Election Commissioners.\n3. The Election Commission has been a multi-member body continuously since 1950.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Art 324 vests superintendence, direction and control of these elections in the ECI (note: elections to panchayats and municipalities are handled by the State Election Commissions under Arts 243K and 243ZA). The Constitution leaves the number of Election Commissioners to the President - it fixes no number. The ECI was single-member from 1950, briefly three-member in Oct 1989 - Jan 1990, and has been multi-member continuously only since 1 October 1993. Statements 2 and 3 are wrong.",
+    "subject": "Polity",
+    "theme": "Polity - Constitutional Bodies (Laxmikanth Ch 33-44)",
+    "micro_topic": "Election Commission - Article 324",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_30_13",
+    "question_number": 13,
+    "question": "Consider the following statements about the removal of the Chief Election Commissioner and other Election Commissioners:\n1. The Chief Election Commissioner can be removed in the same manner and on the same grounds as a judge of the Supreme Court.\n2. Any other Election Commissioner can be removed by the President only on the recommendation of the Chief Election Commissioner.\n3. The Constitution prescribes the qualifications of the Chief Election Commissioner and other Election Commissioners.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1, 2 and 3"
+      },
+      {
+        "key": "d",
+        "text": "1 and 2 only"
+      }
+    ],
+    "answer": "d",
+    "explanation": "The security of tenure is asymmetric: the CEC is removable only in the manner and on the grounds applicable to a Supreme Court judge, while other ECs (and Regional Commissioners) are removable by the President only on the CEC's recommendation. The Constitution prescribes no qualifications - legal, educational, administrative or judicial - for these offices, and no bar on post-retirement appointment. Statement 3 is wrong.",
+    "subject": "Polity",
+    "theme": "Polity - Constitutional Bodies (Laxmikanth Ch 33-44)",
+    "micro_topic": "ECI - security of tenure and removal",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_30_14",
+    "question_number": 14,
+    "question": "Consider the following pairs:\n1. National Commission for Scheduled Tribes - created as a separate body by the 89th Amendment Act, 2003\n2. National Commission for Backward Classes - given constitutional status by the 102nd Amendment Act, 2018\n3. Special Officer for Linguistic Minorities - office inserted by the 7th Amendment Act, 1956\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "All three"
+      },
+      {
+        "key": "d",
+        "text": "None"
+      }
+    ],
+    "answer": "c",
+    "explanation": "All three are correctly matched. The 89th Amendment (2003) split the erstwhile joint commission and inserted Art 338A for the NCST. The 102nd Amendment (2018) inserted Art 338B, converting the NCBC from a statutory body under the NCBC Act, 1993 into a constitutional one. The 7th Amendment (1956), acting on the States Reorganisation Commission's advice, inserted Art 350B - note that this is a constitutional OFFICE (the Commissioner for Linguistic Minorities), not a commission, and the Constitution prescribes neither qualifications nor tenure for it.",
+    "subject": "Polity",
+    "theme": "Polity - Constitutional Bodies (Laxmikanth Ch 33-44)",
+    "micro_topic": "NCST, NCBC and Linguistic Minorities - constitutional origins",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_30_15",
+    "question_number": 15,
+    "question": "With reference to the Comptroller and Auditor General of India, consider the following statements:\n1. He is appointed by the President by warrant under his hand and seal.\n2. He holds office for a term of six years or until he attains the age of 65 years, whichever is earlier.\n3. He is eligible for further office under the Government of India or of any State after ceasing to hold office.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Art 148 - appointment by warrant under the President's hand and seal; tenure of six years or age 65, whichever is earlier; removal in the same manner and on the same grounds as a Supreme Court judge. Crucially, after demitting office the CAG is INELIGIBLE for any further office under the Union or any State - a deliberate insulation against the prospect of a post-retirement reward. Statement 3 is wrong.",
+    "subject": "Polity",
+    "theme": "Polity - Constitutional Bodies (Laxmikanth Ch 33-44)",
+    "micro_topic": "CAG - appointment and tenure (Art 148)",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_30_16",
+    "question_number": 16,
+    "question": "With reference to the powers of the Comptroller and Auditor General of India, consider the following statements:\n1. He exercises control over the issue of money from the Consolidated Fund of India.\n2. He audits all expenditure from the Consolidated Fund of India, the Contingency Fund of India and the Public Account of India.\n3. He is an ex-officio member of the Public Accounts Committee.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Only statement 2 is correct. Unlike the British Comptroller and Auditor General, India's CAG has the role of an auditor only, not of a comptroller: money can be drawn from the Consolidated Fund without his approval, and he audits expenditure AFTER it has been incurred. He is described as the 'friend, philosopher and guide' of the Public Accounts Committee, and he assists it - but he is not a member of it.",
+    "subject": "Polity",
+    "theme": "Polity - Constitutional Bodies (Laxmikanth Ch 33-44)",
+    "micro_topic": "CAG - comptroller versus auditor",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_30_17",
+    "question_number": 17,
+    "question": "With reference to the Union Public Service Commission, consider the following statements:\n1. The Constitution does not specify the strength of the Commission, leaving it to the President to determine.\n2. A member holds office for a term of six years or until he attains the age of 65 years, whichever is earlier.\n3. The Chairman of the UPSC is eligible for reappointment to the same office on the expiry of his term.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Arts 315-323. The Constitution fixes neither the strength nor the qualifications of UPSC members - both are left to the President. Tenure is six years or age 65. But the UPSC Chairman is INELIGIBLE for any further employment under the Government of India or of a State, including reappointment as Chairman. A UPSC member, by contrast, may go on to become UPSC Chairman or the Chairman of a State PSC, and nothing else. Statement 3 is wrong.",
+    "subject": "Polity",
+    "theme": "Polity - Constitutional Bodies (Laxmikanth Ch 33-44)",
+    "micro_topic": "UPSC - composition, tenure and post-tenure bar",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_30_18",
+    "question_number": 18,
+    "question": "Consider the following statements about the State Public Service Commission:\n1. Its Chairman and members are appointed by the Governor but can be removed only by the President.\n2. A member holds office for six years or until he attains the age of 62 years, whichever is earlier.\n3. The President can remove a member of a State Public Service Commission for misbehaviour only after an inquiry by the Supreme Court.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1, 2 and 3"
+      },
+      {
+        "key": "d",
+        "text": "1 and 3 only"
+      }
+    ],
+    "answer": "c",
+    "explanation": "All three are correct, and the combination is the exam point: appointment is by the Governor, but removal is a presidential power alone - a State cannot dismiss its own PSC members. The retirement age is 62 for a State PSC (against 65 for the UPSC). Under Art 317, removal on the ground of misbehaviour requires a reference to, and an inquiry by, the Supreme Court, whose advice in this case is binding on the President.",
+    "subject": "Polity",
+    "theme": "Polity - Constitutional Bodies (Laxmikanth Ch 33-44)",
+    "micro_topic": "State PSC - appointment, tenure and removal",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_30_19",
+    "question_number": 19,
+    "question": "With reference to the Finance Commission, consider the following statements:\n1. It is constituted by the President every fifth year or at such earlier time as he considers necessary.\n2. The qualifications of its members are determined by Parliament by law.\n3. Its recommendations on the distribution of tax proceeds are binding on the Union Government.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1, 2 and 3"
+      },
+      {
+        "key": "d",
+        "text": "1 and 2 only"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Art 280 - a quasi-judicial body constituted by the President every fifth year or earlier, with a Chairman and four other members whose qualifications and manner of selection Parliament prescribes (the Finance Commission (Miscellaneous Provisions) Act, 1951). Its recommendations are ADVISORY only; they bind no one, and the Union has in practice accepted the core devolution recommendations by convention rather than by compulsion. The Sixteenth Finance Commission's award period runs from 2026-27 to 2030-31. Statement 3 is wrong.",
+    "subject": "Polity",
+    "theme": "Polity - Constitutional Bodies (Laxmikanth Ch 33-44)",
+    "micro_topic": "Finance Commission - Article 280",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_30_20",
+    "question_number": 20,
+    "question": "With reference to the GST Council, consider the following statements:\n1. It was created by the insertion of Article 279A by the 101st Constitutional Amendment Act, 2016.\n2. Every decision is taken by a majority of not less than three-fourths of the weighted votes of the members present and voting, the Centre having one-third of the total votes cast and all the States together two-thirds.\n3. Its recommendations are binding on both the Union and the States.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Art 279A was inserted by the 101st Amendment, 2016. The quorum is one-half of the total members, and decisions need three-fourths of the weighted votes of those present and voting, with the Centre's vote weighted at one-third and all States together at two-thirds - so neither side can act alone. In Union of India v. Mohit Minerals (2022) the Supreme Court held that the Council's recommendations are persuasive, not binding, since both Parliament and the State legislatures have simultaneous power to legislate on GST. Statement 3 is wrong.",
+    "subject": "Polity",
+    "theme": "Polity - Constitutional Bodies (Laxmikanth Ch 33-44)",
+    "micro_topic": "GST Council - Article 279A",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_30_21",
+    "question_number": 21,
+    "question": "With reference to the Attorney General of India, consider the following statements:\n1. He must be a person qualified to be appointed a judge of the Supreme Court.\n2. He has the right to speak and take part in the proceedings of both Houses of Parliament and to vote therein.\n3. He is a whole-time counsel of the Government and is debarred from private legal practice.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1, 2 and 3"
+      },
+      {
+        "key": "d",
+        "text": "1 only"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Only statement 1 is correct. Under Art 88 the Attorney General has the right of audience in all courts, and the right to speak and take part in the proceedings of both Houses, any joint sitting, and any committee of which he is named a member - but NO right to vote. He is not a whole-time counsel of the Government and is not a member of the Cabinet; he is permitted private practice, subject to the bars on advising against the Government of India and on defending accused persons without the Government's permission. The Solicitor General and Additional Solicitors General assist him but find no mention in the Constitution.",
+    "subject": "Polity",
+    "theme": "Polity - Constitutional Bodies (Laxmikanth Ch 33-44)",
+    "micro_topic": "Attorney General - Article 76 and Article 88",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_30_22",
+    "question_number": 22,
+    "question": "The Pradhan Mantri Kisan SAMPADA Yojana, an umbrella scheme for creating modern infrastructure with efficient supply-chain management from farm gate to retail outlet, is implemented by which one of the following ministries?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Ministry of Agriculture and Farmers Welfare"
+      },
+      {
+        "key": "b",
+        "text": "Ministry of Food Processing Industries"
+      },
+      {
+        "key": "c",
+        "text": "Ministry of Consumer Affairs, Food and Public Distribution"
+      },
+      {
+        "key": "d",
+        "text": "Ministry of Commerce and Industry"
+      }
+    ],
+    "answer": "b",
+    "explanation": "PMKSY (Scheme for Agro-Marine Processing and Development of Agro-Processing Clusters) is an umbrella scheme of the Ministry of Food Processing Industries. Its components include Mega Food Parks, Integrated Cold Chain and Value Addition Infrastructure, Creation/Expansion of Food Processing and Preservation Capacities, Agro-Processing Clusters, Backward and Forward Linkages, Food Safety and Quality Assurance Infrastructure, and Operation Greens. Do not confuse the nodal ministry with the Ministry of Agriculture, which handles production rather than processing.",
+    "subject": "Economy",
+    "theme": "Economy - Food Processing, Services & Infrastructure (Vivek Singh Ch 12-14 + NCERT)",
+    "micro_topic": "PM Kisan SAMPADA Yojana - nodal ministry",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_30_23",
+    "question_number": 23,
+    "question": "With reference to the Food Safety and Standards Authority of India (FSSAI), consider the following statements:\n1. It is a statutory body established under the Food Safety and Standards Act, 2006.\n2. It functions under the administrative control of the Ministry of Food Processing Industries.\n3. Its headquarters is at New Delhi.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "FSSAI is a statutory body created by the Food Safety and Standards Act, 2006, and is headquartered in New Delhi. It works under the Ministry of Health and Family Welfare, not the Ministry of Food Processing Industries - a distinction UPSC has tested before, because food processing as an industry and food safety as a public-health function sit in different ministries. Statement 2 is wrong.",
+    "subject": "Economy",
+    "theme": "Economy - Food Processing, Services & Infrastructure (Vivek Singh Ch 12-14 + NCERT)",
+    "micro_topic": "FSSAI - statutory status and parent ministry",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_30_24",
+    "question_number": 24,
+    "question": "Consider the following pairs:\n1. Operation Greens - price stabilisation and reduction of post-harvest losses, initially for tomato, onion and potato\n2. Production Linked Incentive Scheme for the Food Processing Industry - support for branded Indian food products, including expenditure on branding and marketing abroad\n3. Mega Food Park - a cluster with a central processing centre supported by primary processing centres and collection centres\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "All three"
+      },
+      {
+        "key": "b",
+        "text": "Only one"
+      },
+      {
+        "key": "c",
+        "text": "Only two"
+      },
+      {
+        "key": "d",
+        "text": "None"
+      }
+    ],
+    "answer": "a",
+    "explanation": "All three are correctly matched. Operation Greens began with the 'TOP' crops - tomato, onion, potato - and was later expanded to a wider basket of notified fruits and vegetables ('TOP to TOTAL'). PLISFPI incentivises manufacture of identified food product categories and, distinctively, supports branding and marketing abroad. The Mega Food Park follows a cluster design - collection centres feed primary processing centres, which feed a central processing centre - as against an Agro-Processing Cluster, which is a smaller, demand-driven unit built around an existing production belt.",
+    "subject": "Economy",
+    "theme": "Economy - Food Processing, Services & Infrastructure (Vivek Singh Ch 12-14 + NCERT)",
+    "micro_topic": "Food processing schemes - Operation Greens, PLISFPI, Mega Food Parks",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_30_25",
+    "question_number": 25,
+    "question": "With reference to the PM Formalisation of Micro Food Processing Enterprises (PMFME) scheme, consider the following statements:\n1. It adopts a One District One Product approach.\n2. It provides a credit-linked capital subsidy to individual micro food processing units.\n3. It is a centrally sponsored scheme with cost sharing between the Centre and the States.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All three are correct. PMFME (launched 2020 under the Atmanirbhar Bharat package) is a centrally sponsored scheme of the Ministry of Food Processing Industries, with Centre-State cost sharing, that targets the unorganised micro segment. It offers a credit-linked capital subsidy to individual units, seed capital to SHG members, and grants to FPOs, producer cooperatives and SHGs, all organised around the One District One Product framework so that common infrastructure and branding can be shared within a district.",
+    "subject": "Economy",
+    "theme": "Economy - Food Processing, Services & Infrastructure (Vivek Singh Ch 12-14 + NCERT)",
+    "micro_topic": "PMFME - design and financing",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_30_26",
+    "question_number": 26,
+    "question": "Which one of the following statements best describes the position of the services sector in the Indian economy?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Its share in Gross Value Added is substantially larger than its share in total employment"
+      },
+      {
+        "key": "b",
+        "text": "Its share in Gross Value Added is broadly equal to its share in total employment"
+      },
+      {
+        "key": "c",
+        "text": "Its share in total employment is substantially larger than its share in Gross Value Added"
+      },
+      {
+        "key": "d",
+        "text": "It contributes less to Gross Value Added than either agriculture or industry"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The services sector accounts for over half of India's Gross Value Added but employs a much smaller share of the workforce - roughly a third. This gap is the central puzzle of India's structural transformation: output moved out of agriculture much faster than labour did, so a large share of the workforce remains in low-productivity agriculture while the high-productivity services sector absorbs comparatively few workers.",
+    "subject": "Economy",
+    "theme": "Economy - Food Processing, Services & Infrastructure (Vivek Singh Ch 12-14 + NCERT)",
+    "micro_topic": "Services sector - output versus employment",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_30_27",
+    "question_number": 27,
+    "question": "Under the General Agreement on Trade in Services (GATS), consider the following statements:\n1. Mode 1 (cross-border supply) covers services supplied from the territory of one member into the territory of another, such as software services delivered electronically.\n2. Mode 4 (presence of natural persons) covers the temporary movement of individual service suppliers into another member's territory.\n3. Mode 2 (consumption abroad) covers the supply of a service through commercial presence, such as a subsidiary established in another member's territory.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1, 2 and 3"
+      },
+      {
+        "key": "d",
+        "text": "1 and 2 only"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Mode 1 is cross-border supply; Mode 2 is consumption abroad (a foreign tourist or medical-value traveller consuming a service in India); Mode 3 is commercial presence (a subsidiary or branch); Mode 4 is the temporary presence of natural persons. Statement 3 describes Mode 3, not Mode 2, and is therefore wrong. India's offensive interest in services trade negotiations lies chiefly in Modes 1 and 4.",
+    "subject": "Economy",
+    "theme": "Economy - Food Processing, Services & Infrastructure (Vivek Singh Ch 12-14 + NCERT)",
+    "micro_topic": "GATS - four modes of supply",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_30_28",
+    "question_number": 28,
+    "question": "With reference to PM GatiShakti and the National Logistics Policy, consider the following statements:\n1. PM GatiShakti is a National Master Plan for multi-modal connectivity built on a GIS-based digital platform that integrates the infrastructure plans of various ministries.\n2. The National Logistics Policy, 2022 seeks to reduce the cost of logistics in India and improve its Logistics Performance Index ranking.\n3. Both are administered by the Ministry of Road Transport and Highways.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "PM GatiShakti (2021) is a digital, GIS-based National Master Plan that layers the infrastructure plans of the economic ministries onto a single map so that projects are planned and sequenced together instead of in silos. The National Logistics Policy (2022) is its soft-infrastructure complement, aimed at cutting logistics cost as a share of GDP and improving India's Logistics Performance Index position. Both are driven by the Department for Promotion of Industry and Internal Trade under the Ministry of Commerce and Industry, not by MoRTH. Statement 3 is wrong.",
+    "subject": "Economy",
+    "theme": "Economy - Food Processing, Services & Infrastructure (Vivek Singh Ch 12-14 + NCERT)",
+    "micro_topic": "PM GatiShakti and National Logistics Policy",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_30_29",
+    "question_number": 29,
+    "question": "With reference to the National Bank for Financing Infrastructure and Development (NaBFID), consider the following statements:\n1. It was established under an Act of Parliament passed in 2021.\n2. It is regulated and supervised by the Reserve Bank of India as an All India Financial Institution.\n3. It is a wholly private sector institution with no government shareholding.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "NaBFID was set up under the National Bank for Financing Infrastructure and Development Act, 2021 as a development financial institution to provide long-term, non-recourse infrastructure finance and to deepen the domestic bond and derivatives markets. It is regulated and supervised by the RBI as an All India Financial Institution, alongside NABARD, SIDBI, EXIM Bank and NHB. It was established with government capital, so statement 3 is wrong.",
+    "subject": "Economy",
+    "theme": "Economy - Food Processing, Services & Infrastructure (Vivek Singh Ch 12-14 + NCERT)",
+    "micro_topic": "NaBFID - development financial institution for infrastructure",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_30_30",
+    "question_number": 30,
+    "question": "Which one of the following pairs is correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "R.C. Dutt - Poverty and Un-British Rule in India"
+      },
+      {
+        "key": "b",
+        "text": "Dadabhai Naoroji - The Economic History of India"
+      },
+      {
+        "key": "c",
+        "text": "M.G. Ranade - Poverty and Un-British Rule in India"
+      },
+      {
+        "key": "d",
+        "text": "Dadabhai Naoroji - Poverty and Un-British Rule in India"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Dadabhai Naoroji wrote Poverty and Un-British Rule in India (1901), the fullest statement of the drain theory; Romesh Chunder Dutt wrote The Economic History of India. Along with M.G. Ranade and G.V. Joshi, they built the Moderates' economic critique - the argument that British rule was draining India's wealth through Home Charges, interest on public debt, guaranteed railway returns and official remittances, an export surplus that bought India nothing in return.",
+    "subject": "Modern History",
+    "theme": "Modern History - Economic Impact of British Rule, Press, Education & Survey of British Policies (Spectrum thematic)",
+    "micro_topic": "Drain of wealth - the early economic nationalists",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_30_31",
+    "question_number": 31,
+    "question": "Consider the following pairs:\n1. Permanent Settlement - Lord Cornwallis - Bengal, Bihar and Odisha\n2. Ryotwari Settlement - Thomas Munro - Madras and Bombay Presidencies\n3. Mahalwari Settlement - Holt Mackenzie - North-Western Provinces\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "None"
+      },
+      {
+        "key": "d",
+        "text": "All three"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All three are correct. The Permanent Settlement (1793) was introduced by Cornwallis in Bengal, Bihar and Odisha, later extended to the Northern Circars and the Varanasi district. The Ryotwari system, associated with Thomas Munro and Alexander Read, settled revenue directly with the cultivating ryot in the Madras and Bombay Presidencies (and later Assam and Coorg). The Mahalwari system was framed by Holt Mackenzie in 1822 and revised under R.M. Bird in 1833, settling revenue with the village community or mahal in the North-Western Provinces, Punjab and parts of Central India.",
+    "subject": "Modern History",
+    "theme": "Modern History - Economic Impact of British Rule, Press, Education & Survey of British Policies (Spectrum thematic)",
+    "micro_topic": "Land revenue systems - the three settlements",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_30_32",
+    "question_number": 32,
+    "question": "With reference to the Permanent Settlement of 1793, consider the following statements:\n1. The zamindars were to pay 10/11ths of the rental to the state, retaining 1/11th for themselves.\n2. Under the Sunset Law, a zamindar's estate could be auctioned if the revenue was not paid by sunset of a fixed date.\n3. It was extended as a permanent arrangement to the whole of British India.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The zamindars were recognised as proprietors on condition of paying a revenue fixed in perpetuity, set at 10/11ths of the rental with 1/11th retained; the Sunset Law made punctuality absolute, and large numbers of old zamindaris changed hands at auction in the first two decades. It was never extended to the whole of British India - roughly nineteen per cent of British India came under it, while the Ryotwari and Mahalwari systems covered most of the rest. Statement 3 is wrong.",
+    "subject": "Modern History",
+    "theme": "Modern History - Economic Impact of British Rule, Press, Education & Survey of British Policies (Spectrum thematic)",
+    "micro_topic": "Permanent Settlement - terms and consequences",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_30_33",
+    "question_number": 33,
+    "question": "With reference to the Vernacular Press Act, consider the following statements:\n1. It was enacted during the viceroyalty of Lord Lytton.\n2. It drew a distinction between English language and vernacular language newspapers.\n3. It was repealed during the viceroyalty of Lord Ripon.\nHow many of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "All three"
+      },
+      {
+        "key": "d",
+        "text": "None"
+      }
+    ],
+    "answer": "c",
+    "explanation": "All three are correct. The Vernacular Press Act, 1878 was passed under Lytton and was popularly called 'the gagging Act': it applied only to vernacular papers, allowed magistrates to demand a bond and security from printers and publishers, and provided no right of appeal to a court of law. Ripon repealed it in 1882. The Amrita Bazar Patrika famously converted overnight into an English language paper to escape it.",
+    "subject": "Modern History",
+    "theme": "Modern History - Economic Impact of British Rule, Press, Education & Survey of British Policies (Spectrum thematic)",
+    "micro_topic": "Vernacular Press Act, 1878",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_30_34",
+    "question_number": 34,
+    "question": "Which Governor-General is popularly known as the 'liberator of the Indian press'?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Lord Wellesley"
+      },
+      {
+        "key": "b",
+        "text": "Charles Metcalfe"
+      },
+      {
+        "key": "c",
+        "text": "Lord Hastings"
+      },
+      {
+        "key": "d",
+        "text": "Lord Lytton"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Charles Metcalfe, as acting Governor-General, repealed the restrictive Licensing Regulations of 1823 through the Press Act of 1835, earning the title 'liberator of the Indian press'. For contrast: Wellesley enacted the Censorship of Press Act, 1799 (pre-censorship of all newspapers); John Adam's Licensing Regulations of 1823 required a licence for every press; and Lytton passed the Vernacular Press Act, 1878.",
+    "subject": "Modern History",
+    "theme": "Modern History - Economic Impact of British Rule, Press, Education & Survey of British Policies (Spectrum thematic)",
+    "micro_topic": "Development of the Indian press - Metcalfe",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_30_35",
+    "question_number": 35,
+    "question": "With reference to Wood's Despatch of 1854, consider the following statements:\n1. It is often described as the Magna Carta of English education in India.\n2. It recommended the establishment of departments of public instruction in the provinces.\n3. It recommended the setting up of universities on the model of the London University.\nHow many of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "All three"
+      },
+      {
+        "key": "c",
+        "text": "Only two"
+      },
+      {
+        "key": "d",
+        "text": "None"
+      }
+    ],
+    "answer": "b",
+    "explanation": "All three are correct. Wood's Despatch asked for a department of public instruction in each of the five provinces, universities on the London model at Calcutta, Bombay and Madras (established 1857), a graded system of schools, government support to a network of aided private schools, vernacular instruction at the primary level with English at higher levels, and attention to vocational and women's education. It set the architecture of Indian education for the rest of the colonial period.",
+    "subject": "Modern History",
+    "theme": "Modern History - Economic Impact of British Rule, Press, Education & Survey of British Policies (Spectrum thematic)",
+    "micro_topic": "Wood's Despatch, 1854",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_30_36",
+    "question_number": 36,
+    "question": "Arrange the following in correct chronological order:\n1. Hunter Education Commission\n2. The Charter Act provision setting apart one lakh rupees annually for education\n3. Sadler University Commission\n4. Indian Universities Act\nSelect the correct answer using the code given below:",
+    "options": [
+      {
+        "key": "a",
+        "text": "2 - 1 - 4 - 3"
+      },
+      {
+        "key": "b",
+        "text": "2 - 4 - 1 - 3"
+      },
+      {
+        "key": "c",
+        "text": "1 - 2 - 3 - 4"
+      },
+      {
+        "key": "d",
+        "text": "2 - 1 - 3 - 4"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Charter Act of 1813 (one lakh rupees a year for the revival of literature and the encouragement of the learned natives of India) - Hunter Commission, 1882 (primary and secondary education, appointed under Ripon) - Indian Universities Act, 1904 (following the Raleigh Commission, 1902, tightening government control over universities under Curzon) - Sadler Commission, 1917-19 (on Calcutta University, but reviewing the whole system). Correct order: 2-1-4-3. The Hartog Committee (1929) and the Sargent Plan (1944) come later still.",
+    "subject": "Modern History",
+    "theme": "Modern History - Economic Impact of British Rule, Press, Education & Survey of British Policies (Spectrum thematic)",
+    "micro_topic": "Development of education - chronology of commissions",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_30_37",
+    "question_number": 37,
+    "question": "Consider the following pairs of Harappan sites and the features for which they are known:\n1. Lothal - dockyard\n2. Kalibangan - ploughed field\n3. Dholavira - a series of water reservoirs\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "None"
+      },
+      {
+        "key": "b",
+        "text": "Only one"
+      },
+      {
+        "key": "c",
+        "text": "Only two"
+      },
+      {
+        "key": "d",
+        "text": "All three"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All three are correctly matched. Lothal, on the Bhogava in Gujarat, has the structure widely interpreted as a dockyard, along with rice husk and fire altars. Kalibangan, on the Ghaggar in Rajasthan, yielded a ploughed field from the pre-Harappan level and a row of fire altars. Dholavira, in the Rann of Kutch, is distinguished by its three-part town plan and its elaborate system of rock-cut water reservoirs, and by the large 'signboard' inscription.",
+    "subject": "Ancient History",
+    "theme": "Ancient History - Indus Civilisation & the Vedic Age (Tamil Nadu State Board Class 11)",
+    "micro_topic": "Harappan sites and their distinctive features",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_30_38",
+    "question_number": 38,
+    "question": "Consider the following statements about Harappan sites:\n1. Chanhudaro is the only major excavated Harappan site without a citadel.\n2. Surkotada has yielded bones that have been interpreted as those of the horse.\n3. Rakhigarhi is located in the state of Gujarat.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1, 2 and 3"
+      },
+      {
+        "key": "d",
+        "text": "1 and 2 only"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Chanhudaro, a bead-making and craft centre in Sindh, is the one major site excavated without a citadel. Surkotada in Gujarat produced the bone finds identified by some scholars as horse remains - a contested but frequently examined point. Rakhigarhi, however, is in Hisar district of HARYANA, not Gujarat, and is among the largest Harappan sites known. Statement 3 is wrong.",
+    "subject": "Ancient History",
+    "theme": "Ancient History - Indus Civilisation & the Vedic Age (Tamil Nadu State Board Class 11)",
+    "micro_topic": "Harappan sites - Chanhudaro, Surkotada, Rakhigarhi",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_30_39",
+    "question_number": 39,
+    "question": "With reference to the Indus (Harappan) Civilisation, consider the following statements:\n1. The script is generally believed to have been written in the boustrophedon manner and remains undeciphered.\n2. Harappan weights follow a system that is binary in the lower denominations and decimal in the higher ones.\n3. Large temple structures have been definitively identified at Mohenjo-daro.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The script, with roughly 375-400 signs, is written boustrophedon - right to left on the first line, left to right on the next - and has not been deciphered. Standardised chert weights follow the ratios 1, 2, 4, 8, 16, 32 in the lower denominations and then proceed in decimal multiples of 16. What has NOT been found is any structure that can be identified with confidence as a temple or a palace - one of the civilisation's most striking silences and a favourite Prelims point. Statement 3 is wrong.",
+    "subject": "Ancient History",
+    "theme": "Ancient History - Indus Civilisation & the Vedic Age (Tamil Nadu State Board Class 11)",
+    "micro_topic": "Harappan script, weights and the absence of temples",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_30_40",
+    "question_number": 40,
+    "question": "In Mesopotamian records, the region that is generally identified with the Harappan civilisation is referred to as",
+    "options": [
+      {
+        "key": "a",
+        "text": "Dilmun"
+      },
+      {
+        "key": "b",
+        "text": "Magan"
+      },
+      {
+        "key": "c",
+        "text": "Meluhha"
+      },
+      {
+        "key": "d",
+        "text": "Elam"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Mesopotamian texts refer to trade with Dilmun (generally identified with Bahrain), Magan (Oman) and Meluhha, the last of which is usually taken to be the Harappan region. Harappan seals found at Mesopotamian sites, and finds of carnelian beads, shell and timber, corroborate the link.",
+    "subject": "Ancient History",
+    "theme": "Ancient History - Indus Civilisation & the Vedic Age (Tamil Nadu State Board Class 11)",
+    "micro_topic": "Harappan external trade - Meluhha, Dilmun, Magan",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_30_41",
+    "question_number": 41,
+    "question": "With reference to the Rig Vedic period, consider the following statements:\n1. The Battle of Ten Kings (dasarajna) was fought on the banks of the Parushni river.\n2. The Sabha and the Samiti were assemblies of the Rig Vedic period.\n3. The Rig Veda describes the fourfold varna order as fully developed and rigid throughout the text.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The dasarajna, in which the Bharata chief Sudas defeated a confederacy of ten tribes, was fought on the Parushni (the modern Ravi). The Sabha, Samiti, Vidatha and Gana are the assemblies named in the Rig Veda. But the fourfold varna order appears only in the Purusha Sukta of the tenth mandala, generally regarded as a late addition; through the rest of the text social divisions are fluid and occupational rather than hereditary and rigid. Statement 3 is wrong.",
+    "subject": "Ancient History",
+    "theme": "Ancient History - Indus Civilisation & the Vedic Age (Tamil Nadu State Board Class 11)",
+    "micro_topic": "Rig Vedic polity, assemblies and social order",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_30_42",
+    "question_number": 42,
+    "question": "With reference to the Later Vedic period, consider the following statements:\n1. The geographical focus shifted from the Sapta-Sindhu region eastwards to the Ganga-Yamuna doab.\n2. Painted Grey Ware pottery is associated with this period.\n3. The rajasuya, ashvamedha and vajapeya sacrifices are prominent in the texts of this period.\nHow many of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "All three"
+      },
+      {
+        "key": "d",
+        "text": "None"
+      }
+    ],
+    "answer": "c",
+    "explanation": "All three are correct, and together they describe a single transition. The move east into the Ganga-Yamuna doab is accompanied by Painted Grey Ware and the growing use of iron, by a shift from a largely pastoral to a settled agrarian economy, by the enlargement of the jana into the janapada and of the rajan into a samrat, and by the elaboration of great royal sacrifices - rajasuya (consecration), ashvamedha (horse sacrifice asserting supremacy) and vajapeya (a chariot race conferring pre-eminence) - which is precisely how ritual came to do the work of legitimising the new territorial kingship.",
+    "subject": "Ancient History",
+    "theme": "Ancient History - Indus Civilisation & the Vedic Age (Tamil Nadu State Board Class 11)",
+    "micro_topic": "Later Vedic period - geography, material culture, ritual",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_30_43",
+    "question_number": 43,
+    "question": "Which one of the following is NOT a type of rural settlement pattern as classified in Indian human geography?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Clustered settlement"
+      },
+      {
+        "key": "b",
+        "text": "Semi-clustered settlement"
+      },
+      {
+        "key": "c",
+        "text": "Conurbation"
+      },
+      {
+        "key": "d",
+        "text": "Hamleted settlement"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Rural settlements in India are classified as clustered (nucleated), semi-clustered or fragmented, hamleted, and dispersed or isolated. A conurbation is an urban form - a large area formed by the merging of several towns and cities into a continuous built-up mass (the term is Patrick Geddes's) - and is therefore not a rural settlement type.",
+    "subject": "Geography",
+    "theme": "Geography - Human Settlements, Land Resources & Agriculture (NCERT-12 India: People and Economy Ch 4-5)",
+    "micro_topic": "Rural settlement types",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_30_44",
+    "question_number": 44,
+    "question": "For a place to be classified as a census town in India, it must satisfy which of the following criteria?\n1. A minimum population of 5,000.\n2. At least 75 per cent of the male working population engaged in non-agricultural pursuits.\n3. A population density of at least 400 persons per square kilometre.\nSelect the correct answer using the code given below:",
+    "options": [
+      {
+        "key": "a",
+        "text": "1, 2 and 3"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1 and 3 only"
+      }
+    ],
+    "answer": "a",
+    "explanation": "All three conditions must be satisfied together for a census town. Note the contrast with a STATUTORY town, which is any place with a municipality, corporation, cantonment board or notified town area committee, regardless of these three criteria. The distinction matters because much of the growth in India's recorded urban population comes from new census towns rather than from the expansion of statutory ones.",
+    "subject": "Geography",
+    "theme": "Geography - Human Settlements, Land Resources & Agriculture (NCERT-12 India: People and Economy Ch 4-5)",
+    "micro_topic": "Census definition of urban - statutory and census towns",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_30_45",
+    "question_number": 45,
+    "question": "With reference to India's cropping seasons, consider the following statements:\n1. Kharif crops are sown with the onset of the south-west monsoon and harvested around September-October.\n2. Rabi crops are sown in the winter months and harvested in spring or early summer.\n3. Zaid is a short cropping season falling between the rabi and the kharif seasons.\nHow many of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "All three"
+      },
+      {
+        "key": "c",
+        "text": "Only two"
+      },
+      {
+        "key": "d",
+        "text": "None"
+      }
+    ],
+    "answer": "b",
+    "explanation": "All three are correct. Kharif is the monsoon crop - rice, jowar, bajra, maize, cotton, groundnut, jute. Rabi is the winter crop, dependent on winter precipitation and irrigation - wheat, barley, gram, mustard, peas. Zaid is the short summer season between the two, when watermelon, muskmelon, cucumber, fodder crops and some vegetables are grown on irrigated land.",
+    "subject": "Geography",
+    "theme": "Geography - Human Settlements, Land Resources & Agriculture (NCERT-12 India: People and Economy Ch 4-5)",
+    "micro_topic": "Cropping seasons - kharif, rabi, zaid",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_30_46",
+    "question_number": 46,
+    "question": "With reference to land-use categories in India, consider the following statements:\n1. Culturable waste land is land left uncultivated for more than five agricultural years.\n2. Current fallow is land left uncultivated for one agricultural year.\n3. Gross cropped area is obtained by adding current fallow to the net sown area.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Culturable waste is land available for cultivation but left uncultivated for more than five agricultural years in a row; current fallow is left uncultivated for one agricultural year, and fallow other than current fallow for one to five years. Gross cropped area, however, is the net sown area PLUS the area sown more than once in an agricultural year - fallow land is by definition not sown, so it cannot be added in. Statement 3 is wrong.",
+    "subject": "Geography",
+    "theme": "Geography - Human Settlements, Land Resources & Agriculture (NCERT-12 India: People and Economy Ch 4-5)",
+    "micro_topic": "Nine-fold land use classification",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_30_47",
+    "question_number": 47,
+    "question": "With reference to CRISPR-Cas9, consider the following statements:\n1. It is a genome editing tool adapted from an adaptive immune mechanism found in bacteria and archaea.\n2. A guide RNA directs the Cas9 nuclease to a specific target sequence in the DNA.\n3. The Nobel Prize in Chemistry for 2020 was awarded for the development of this method of genome editing.\nHow many of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "All three"
+      },
+      {
+        "key": "d",
+        "text": "None"
+      }
+    ],
+    "answer": "c",
+    "explanation": "All three are correct. CRISPR (Clustered Regularly Interspaced Short Palindromic Repeats) with the Cas9 endonuclease is derived from a bacterial defence system that stores fragments of invading viral DNA and uses them to recognise the invader on its return. In the engineered version, a synthetic guide RNA carries Cas9 to a chosen sequence, where it makes a double-strand break; the cell's own repair machinery then produces the edit. Emmanuelle Charpentier and Jennifer Doudna received the 2020 Chemistry Nobel for it.",
+    "subject": "Science & Technology",
+    "theme": "Science & Technology - Biotechnology",
+    "micro_topic": "CRISPR-Cas9 - mechanism and origin",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_30_48",
+    "question_number": 48,
+    "question": "With reference to the regulation of genetically engineered and genome-edited crops in India, consider the following statements:\n1. Bt cotton is at present the only genetically modified crop approved for commercial cultivation in India.\n2. The Genetic Engineering Appraisal Committee functions under the Department of Biotechnology.\n3. Genome-edited plants of the SDN-1 and SDN-2 categories that are free of exogenous introduced DNA have been exempted from certain requirements of the 1989 Rules.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Bt cotton remains the only GM crop cleared for commercial cultivation; Bt brinjal was placed under an indefinite moratorium in 2010 and GM mustard DMH-11 remains in litigation. The Genetic Engineering Appraisal Committee is the apex approval body under the Ministry of Environment, Forest and Climate Change, operating under the Environment (Protection) Act, 1986 and the Rules of 1989 - not under the Department of Biotechnology, so statement 2 is wrong. In March 2022 the Ministry exempted SDN-1 and SDN-2 genome-edited plants free of exogenous DNA from Rules 7 to 11 of the 1989 Rules; SDN-3, which introduces foreign DNA, continues to be regulated as a GMO.",
+    "subject": "Science & Technology",
+    "theme": "Science & Technology - Biotechnology",
+    "micro_topic": "GEAC, Bt crops and the genome-editing exemption",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_30_49",
+    "question_number": 49,
+    "question": "Consider the following statements:\n1. Covaxin is a whole-virion inactivated vaccine.\n2. Covishield is a viral vector vaccine.\n3. CERVAVAC is India's first indigenously developed vaccine against tuberculosis.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Covaxin uses a whole inactivated virion with an adjuvant; Covishield is a replication-deficient chimpanzee adenovirus vector carrying the spike protein gene. CERVAVAC is India's first indigenously developed quadrivalent vaccine against the human papillomavirus, aimed at cervical cancer - not tuberculosis - so statement 3 is wrong. Note also ZyCoV-D, the world's first approved plasmid DNA vaccine for human use.",
+    "subject": "Science & Technology",
+    "theme": "Science & Technology - Biotechnology",
+    "micro_topic": "Vaccine platforms and Indian vaccines",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_08_30_50",
+    "question_number": 50,
+    "question": "With reference to India-Russia relations, consider the following statements:\n1. India and Russia signed a Declaration on Strategic Partnership in 2000.\n2. The relationship was elevated to a Special and Privileged Strategic Partnership in 2010.\n3. BrahMos is a joint venture between an Indian and a Russian entity.\nHow many of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "All three"
+      },
+      {
+        "key": "d",
+        "text": "None"
+      }
+    ],
+    "answer": "c",
+    "explanation": "All three are correct. The Declaration on Strategic Partnership was signed in October 2000 and institutionalised an annual summit; the partnership was upgraded to a 'Special and Privileged Strategic Partnership' in 2010. BrahMos Aerospace is an India-Russia joint venture producing the supersonic cruise missile, and is now an export platform in its own right. The other pillars to hold: defence (S-400, the AK-203 project at Korwa, licensed production), energy (crude imports, Sakhalin and other equity stakes, Kudankulam), and connectivity (the International North-South Transport Corridor, the Chennai-Vladivostok Eastern Maritime Corridor).",
+    "subject": "International Relations",
+    "theme": "International Relations - India-Russia Relations",
+    "micro_topic": "India-Russia - the agreement ladder and defence cooperation",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to the India-Kuwait Joint Defence Committee (JDC) that met in August 2026, consider the following statements: 1. It was the inaugural meeting of the mechanism. 2. It gives effect to a Memorandum of Understanding on Defence Cooperation signed during the Indian Prime Minister's visit to Kuwait in December 2024. 3. The agreed areas of cooperation include military medicine and defence-industry Research & Development. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. The meeting held in New Delhi on 28 August 2026 was the first-ever India-Kuwait JDC, co-chaired by Joint Secretary Amitabh Prasad and Brigadier General Raed Alsakran. It operationalises the MoU on Defence Cooperation signed during PM Modi's December 2024 Kuwait visit - the first by an Indian PM in 43 years, when ties were elevated to a Strategic Partnership. The agreed areas expressly span training, exercises, staff talks, military medicine, defence industry and R&D, which is why the Indian delegation included the Armed Forces Medical Services, DDP and DRDO.",
+    "subject": "International Relations",
+    "theme": "India and West Asia / Gulf",
+    "micro_topic": "Inaugural India-Kuwait Joint Defence Committee, New Delhi, 28 August 2026; MoU on Defence Cooperation signed during PM's Kuwait visit December 2024; elevation to Strategic Partnership; Indian delegation composition including AFMS, DDP and DRDO; visit to DPSU Bhawan",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements about the Pradhan Mantri Jan Dhan Yojana (PMJDY) as it completed twelve years in August 2026: 1. The number of PMJDY accounts has crossed 59 crore, with aggregate deposits of over Rs 3 lakh crore. 2. More than half of all PMJDY account holders are women. 3. The scheme was made open-ended in 2018, with the target shifting from 'every household' to 'every unbanked adult'. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. As on 19 August 2026 there were 59.09 crore PMJDY accounts holding Rs 3,16,514 crore - a 12.8-fold rise in deposits over twelve years, with the average balance at Rs 5,356 (up 3.4 times). Of these, 32.92 crore account holders are women, i.e. over half. The 2018 revamp made the scheme open-ended and shifted the unit of targeting from 'every household' to 'every unbanked adult', while raising the overdraft limit to Rs 10,000 and the RuPay accident cover to Rs 2 lakh for cards issued on or after 28.08.2018.",
+    "subject": "Economy",
+    "theme": "Financial inclusion and banking",
+    "micro_topic": "PMJDY twelfth anniversary, 28 August 2026; 59.09 crore accounts and Rs 3,16,514 crore deposits as on 19 August 2026; average deposit Rs 5,356; 41.29 crore RuPay cards; 32.92 crore women beneficiaries; 45.95 crore rural/semi-urban vs 13.14 crore urban/metro accounts; 2018 open-ended revamp and shift to 'every unbanked adult'",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the PARIVARTAN scheme, consider the following statements: 1. It is administered by the Ministry of Road Transport and Highways, while its funding is routed through the National Capital Region Planning Board. 2. It seeks to replace old commercial trucks and buses in the National Capital Region with BS-VI or electric vehicles. 3. Its benefits are confined to vehicles registered in the National Capital Territory of Delhi. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Statements 1 and 2 are correct. PARIVARTAN (Programme for Accelerated Renewal and Incentivization of Vehicle Assets for Reducing Transport Air Pollution and Network Emissions) is administered by MoRTH with funding routed through the NCR Planning Board under MoHUA, and targets the replacement of about 2.07 lakh pre-BS-IV and BS-IV commercial trucks and buses with BS-VI or electric vehicles. Statement 3 is wrong: the 100 per cent motor-vehicle tax concession and registration-fee waiver have been notified across Delhi, Haryana, Rajasthan and Uttar Pradesh, because the scheme covers the wider NCR rather than the NCT alone.",
+    "subject": "Environment",
+    "theme": "Air pollution control",
+    "micro_topic": "PARIVARTAN scheme uptake reported August 2026 - 1,300+ beneficiaries, 42 banks/NBFCs, 15 OEMs; Cabinet approval 3 June 2026 and MoHUA guidelines 16 July 2026; outlay Rs 9,585 crore with Rs 5,041 crore central support; 2.07 lakh vehicles; 5% interest subvention, 8% minimum OEM discount, fuel vouchers Rs 1,200-4,800, EV incentive Rs 64,000-2.56 lakh; notified in Delhi, Haryana, Rajasthan and Uttar Pradesh",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "'Evon 3.3', which was in the news recently, is:",
+    "options": [
+      "(a) a satellite-based flood-forecasting system developed by ISRO for the Brahmaputra basin",
+      "(b) an indigenously developed open-weights large language model using a Mixture-of-Experts architecture",
+      "(c) a next-generation indigenous nuclear reactor design cleared by the Atomic Energy Regulatory Board",
+      "(d) a national digital registry for research grants proposed by NITI Aayog"
+    ],
+    "answer": "(b)",
+    "explanation": "Evon 3.3 is the foundation model at the core of 'Gnani Artha', the sovereign AI stack launched by the Vice-President on 28 August 2026 and built by the Bengaluru start-up Gnani AI. It is a 30-billion-parameter open-weights model released under the Apache 2.0 licence, using Mixture-of-Experts routing so that only about 3.5 billion parameters are active per token, and trained natively across 11 Indian languages with a re-engineered Indic tokenizer that needs up to 20 per cent fewer tokens per word. The companion component, Plexus, is an agentic orchestration platform.",
+    "subject": "Science & Technology",
+    "theme": "Artificial intelligence and indigenisation",
+    "micro_topic": "Gnani Artha sovereign AI stack launched 28 August 2026 by VP C. P. Radhakrishnan; Gnani AI, Bengaluru; Evon 3.3 as a 30B-parameter open-weights Mixture-of-Experts LLM with ~3.5B active parameters per token, Apache 2.0 licence, 11 Indian languages, Indic tokenizer with ~20% fewer tokens per word; Plexus agentic orchestration; on-premise single-node deployment and DPDP Act 2023 data localisation",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the FGM-148 Javelin system for which India signed a Letter of Offer and Acceptance in August 2026, consider the following statements: 1. It is a wire-guided missile that requires the operator to keep the target in sight until impact. 2. It has a top-attack mode in which the missile climbs before striking the target from above. 3. Its tandem-charge warhead is designed to defeat Explosive Reactive Armour. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statement 1 is wrong - it describes a second-generation SACLOS wire-guided missile such as the Milan or Konkurs. The Javelin is a third-generation fire-and-forget ATGM with a passive Imaging Infrared seeker locked on before launch, allowing the operator to move immediately. Statements 2 and 3 are correct: it climbs to roughly 150 m to strike the thinly armoured roof of a tank (with a direct-attack mode for bunkers and helicopters), and its tandem-charge HEAT warhead uses a precursor charge to defeat Explosive Reactive Armour before the main charge penetrates the order of 750-800 mm RHA.",
+    "subject": "Internal Security",
+    "theme": "Defence technology and procurement",
+    "micro_topic": "Indian Army LOA for FGM-148 Javelin ATGM via the US Foreign Military Sales route, 28 August 2026; Javelin Joint Venture of Raytheon (RTX) and Lockheed Martin; fire-and-forget imaging-infrared seeker, top-attack at ~150 m, tandem-charge HEAT, soft launch, reusable CLU, ~2.5 km range extending to 4-4.75 km; DSCA-notified value about US$45.7 million; contrast with Milan-2T, Konkurs-M and DRDO's MPATGM",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements regarding the institutional framework for air-quality management in the National Capital Region: 1. The Commission for Air Quality Management in the National Capital Region and Adjoining Areas is a statutory body created by an Act of Parliament. 2. The Graded Response Action Plan prescribes progressively stricter restrictions linked to measured Air Quality Index levels. 3. The National Clean Air Programme was launched by the Ministry of Environment, Forest and Climate Change. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. CAQM is a statutory body under the Commission for Air Quality Management in National Capital Region and Adjoining Areas Act, 2021, which replaced the earlier ordinance and subsumed the Supreme Court-appointed EPCA. GRAP escalates curbs in stages tied to AQI bands - Poor, Very Poor, Severe and Severe-plus. NCAP was launched in January 2019 by MoEF&CC as a time-bound national programme for particulate-matter reduction across non-attainment cities.",
+    "subject": "Environment",
+    "theme": "Air pollution governance",
+    "micro_topic": "CAQM Act 2021 and the statutory Commission for Air Quality Management replacing EPCA; Graded Response Action Plan stages tied to AQI bands; National Clean Air Programme (2019, MoEF&CC) and non-attainment cities; distinction from the National Vehicle Scrappage Policy 2021",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Gulf Cooperation Council (GCC), consider the following statements: 1. It has six member states, and its Secretariat is located in Riyadh. 2. Iraq and Yemen are among its founding members. 3. Kuwait is a member of the GCC. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statements 1 and 3 are correct: the GCC, established in 1981, has six members - Saudi Arabia, the United Arab Emirates, Kuwait, Qatar, Bahrain and Oman - with its Secretariat at Riyadh. Statement 2 is wrong: neither Iraq nor Yemen is a member, founding or otherwise, although Yemen has long sought accession. The GCC's joint military arm is the Peninsula Shield Force.",
+    "subject": "International Relations",
+    "theme": "Regional groupings",
+    "micro_topic": "Gulf Cooperation Council - established 1981, six members (Saudi Arabia, UAE, Kuwait, Qatar, Bahrain, Oman), Secretariat at Riyadh, Peninsula Shield Force; exclusion of Iraq and Yemen; relevance to India-GCC engagement",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  }
+]

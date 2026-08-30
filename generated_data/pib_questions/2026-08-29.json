@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the National Shipping Board (NSB), consider the following statements:\n1. It is a statutory advisory body that advises the Government on shipping policy, tonnage and seafarer welfare.\n2. It was first constituted under the Merchant Shipping Act, 1958, which has since been repealed and replaced by the Merchant Shipping Act, 2025.\n3. It functions under the Ministry of Commerce & Industry.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "The NSB advises the Government on shipping policy, tonnage, seafarer welfare and port-linked maritime development, and was first constituted in 1959 under the Merchant Shipping Act, 1958, now continued under the Merchant Shipping Act, 2025. It functions under the Ministry of Ports, Shipping & Waterways, not Commerce & Industry, so statement 3 is incorrect.",
+    "subject": "Economy",
+    "theme": "Infrastructure and Transport",
+    "micro_topic": "National Shipping Board and Sagar Samvad",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Critical Minerals Innovation Hackathon 2026 (CMiH 2026), recently in the news, is associated with which one of the following?",
+    "options": [
+      "(a) The Ministry of Science & Technology, to develop battery-recycling technologies under the National Green Hydrogen Mission",
+      "(b) The Ministry of Mines, to develop mineral prospectivity mapping and patent-tracking solutions under the National Critical Mineral Mission",
+      "(c) NITI Aayog, to prepare a strategic stockpile plan for cobalt and nickel imports",
+      "(d) The Ministry of Coal, to auction rare-earth blocks to private explorers"
+    ],
+    "answer": "(b)",
+    "explanation": "CMiH 2026 was launched by the Union Minister of Coal and Mines and is organised by JNARDDC, Nagpur, an autonomous body under the Ministry of Mines, in support of the National Critical Mineral Mission. Its two problem statements are mineral prospectivity mapping for lithium and REE pegmatites, and a smart technology-and-patent tracker for critical minerals.",
+    "subject": "Economy",
+    "theme": "Mineral Resources and Resource Security",
+    "micro_topic": "National Critical Mineral Mission and CMiH 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Consider the following statements about Adi Vaani:\n1. It is an AI-powered translation platform for tribal languages developed under the Ministry of Tribal Affairs.\n2. Its beta version supported Santali, Bhili, Mundari and Gondi.\n3. Its upgraded version was launched at the National Conclave on Tribal Languages & Museums held at Mysuru.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three statements are correct. Adi Vaani is the Ministry of Tribal Affairs' AI-powered translator for tribal languages, built by a consortium led by IIT Delhi; its beta covered Santali, Bhili, Mundari and Gondi, with Kui and Garo under development; and the upgraded platform, along with the 'Jago' AI conversational assistant, was launched at the Mysuru conclave where the Mysuru Declaration was adopted.",
+    "subject": "Society",
+    "theme": "Tribal Communities and Language Preservation",
+    "micro_topic": "Adi Vaani and National Conclave on Tribal Languages & Museums",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]
