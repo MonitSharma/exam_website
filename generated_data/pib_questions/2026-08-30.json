@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the Legal Metrology (Indian Standard Time) Rules, 2026, consider the following statements:\n1. The Rules establish Indian Standard Time as the common time reference for legal, administrative and commercial purposes across India.\n2. The Rules provide for the use of NavIC and other approved Indian timing sources for time dissemination.\n3. The Rules came into force with immediate effect from the date of their notification.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Statements 1 and 2 are correct — the Rules, notified on 27 August 2026 by the Department of Consumer Affairs, make IST the common time reference and expressly allow NavIC and other approved Indian timing sources. Statement 3 is wrong: the Rules come into force 180 days after publication in the Official Gazette.",
+    "subject": "Science & Technology",
+    "theme": "Standards and Timekeeping Infrastructure",
+    "micro_topic": "Legal Metrology (Indian Standard Time) Rules, 2026 and 'One Nation, One Time'",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "\"Mission Rangeen Machhli 2031\", seen recently in the news, is associated with which one of the following?",
+    "options": [
+      "(a) A national programme for conservation of coral reefs in the Gulf of Mannar and the Andaman Sea",
+      "(b) A strategic action plan for the development of ornamental fisheries, released under the Department of Fisheries",
+      "(c) A scheme of the Ministry of Environment, Forest and Climate Change for tagging and tracking migratory fish species",
+      "(d) A dye and colourant standardisation initiative of the Ministry of Textiles for handloom clusters"
+    ],
+    "answer": "(b)",
+    "explanation": "Mission Rangeen Machhli 2031 is the Strategic Action Plan for Ornamental Fisheries Development of the Department of Fisheries, Ministry of Fisheries, Animal Husbandry & Dairying, released at Agatti, Lakshadweep. It lays down SOPs for broodstock management, breeding, quarantine, traceability and trade.",
+    "subject": "Economy",
+    "theme": "Blue Economy and Fisheries",
+    "micro_topic": "Mission Rangeen Machhli 2031 — ornamental fisheries action plan",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the Pradhan Mantri Fasal Bima Yojana (PMFBY), consider the following statements:\n1. The maximum premium payable by a farmer is 2% of the sum insured for Kharif foodgrain and oilseed crops and 5% for commercial and horticultural crops.\n2. YES-TECH uses remote sensing-based methods for crop yield estimation, while WINDS provides hyperlocal weather data through automatic weather stations and rain gauges.\n3. The scheme covers losses arising from theft and from riots affecting standing crops.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Statements 1 and 2 are correct — farmer premium is capped at 2% for Kharif and 1.5% for Rabi foodgrains/oilseeds and 5% for commercial and horticultural crops, and YES-TECH (remote sensing yield estimation) and WINDS (AWS/ARG hyperlocal weather data) are the scheme's technology pillars. Statement 3 is wrong: PMFBY explicitly excludes war, nuclear risks, riots, theft and other preventable or man-made risks.",
+    "subject": "Agriculture",
+    "theme": "Agricultural Risk Management",
+    "micro_topic": "Pradhan Mantri Fasal Bima Yojana — premium structure, risks covered and technology stack",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]

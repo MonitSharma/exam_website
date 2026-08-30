@@ -1,0 +1,354 @@
+[
+  {
+    "question": "Read the following passage and answer the question that follows.\n\nAntibiotic resistance is usually presented as a biological problem to which the answer is better science. The framing is not wrong, but it is incomplete in a way that explains why forty years of warnings have produced so little. Resistance is, in the strict sense, a common-pool resource problem: the effectiveness of an antibiotic is a finite stock, held collectively, depleted by each use, and replenished - if at all - only slowly. A physician who prescribes a broad-spectrum drug for a probably viral infection captures the whole of the small benefit, while the cost, a marginal increase in the resistant fraction of the bacterial population, is dispersed across every future patient, in every country, in perpetuity. No individual actor in the chain faces the full price of the decision, and each is behaving reasonably given the price he does face.\n\nThe supply side inverts the same logic. A newly discovered antibiotic is valuable precisely to the extent that it is withheld - reserved for the infections that nothing else will treat. A firm that has spent a decade and a great deal of money bringing such a drug to market is therefore rewarded, if it behaves as a good citizen, with negligible sales; and its patent, meanwhile, runs down whether the drug is used or not. It would be difficult to design an incentive more perfectly opposed to the public interest, and it is unsurprising that most large firms have quietly left the field.\n\nWhat follows is that stewardship campaigns and laboratory subsidies, however admirable, address the symptoms of a pricing failure. The remedies that have any prospect of working - subscription payments detached from volume, prizes awarded on entry rather than on sales, procurement that pays for availability rather than for doses - all share a single feature: they sever a company's revenue from the quantity of the drug consumed. Until that severance is made, the discovery of new antibiotics will remain an act of charity, and their conservation an appeal to virtue.\n\nWhich of the following best captures the central argument of the passage?",
+    "options": [
+      "(a) Antibiotic resistance would be largely solved if physicians could be persuaded to stop prescribing broad-spectrum drugs for viral infections.",
+      "(b) The persistence of resistance is chiefly explained by the profit-seeking of pharmaceutical firms, which have abandoned a socially necessary field.",
+      "(c) Resistance persists because the costs and rewards facing both prescribers and producers are misaligned with the collective interest, so the remedies with any prospect of working are those that detach revenue from the volume consumed.",
+      "(d) The scientific difficulty of discovering new classes of antibiotics is the binding constraint, and public subsidy of laboratories is therefore the most urgent response."
+    ],
+    "answer": "(c)",
+    "explanation": "The passage runs demand-side externality, then supply-side inversion, then the single feature shared by workable remedies: they sever revenue from quantity consumed. (a) and (d) are the partial framings the passage calls incomplete; (b) is ruled out by the statement that each actor is behaving reasonably given the price he faces - the diagnosis is structural, not moral.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Main idea - structural diagnosis of a commons plus incentive problem",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Read the following passage and answer the question that follows.\n\nAntibiotic resistance is usually presented as a biological problem to which the answer is better science. The framing is not wrong, but it is incomplete in a way that explains why forty years of warnings have produced so little. Resistance is, in the strict sense, a common-pool resource problem: the effectiveness of an antibiotic is a finite stock, held collectively, depleted by each use, and replenished - if at all - only slowly. A physician who prescribes a broad-spectrum drug for a probably viral infection captures the whole of the small benefit, while the cost, a marginal increase in the resistant fraction of the bacterial population, is dispersed across every future patient, in every country, in perpetuity. No individual actor in the chain faces the full price of the decision, and each is behaving reasonably given the price he does face.\n\nThe supply side inverts the same logic. A newly discovered antibiotic is valuable precisely to the extent that it is withheld - reserved for the infections that nothing else will treat. A firm that has spent a decade and a great deal of money bringing such a drug to market is therefore rewarded, if it behaves as a good citizen, with negligible sales; and its patent, meanwhile, runs down whether the drug is used or not. It would be difficult to design an incentive more perfectly opposed to the public interest, and it is unsurprising that most large firms have quietly left the field.\n\nWhat follows is that stewardship campaigns and laboratory subsidies, however admirable, address the symptoms of a pricing failure. The remedies that have any prospect of working - subscription payments detached from volume, prizes awarded on entry rather than on sales, procurement that pays for availability rather than for doses - all share a single feature: they sever a company's revenue from the quantity of the drug consumed. Until that severance is made, the discovery of new antibiotics will remain an act of charity, and their conservation an appeal to virtue.\n\nIt can be inferred that the author would regard a government scheme that pays a firm a generous price for each dose sold of a new reserve antibiotic as:",
+    "options": [
+      "(a) broadly adequate, since a higher price per dose restores the commercial case for research.",
+      "(b) inadequate for firms but beneficial for patients, since it would lower the effective cost of treatment.",
+      "(c) self-defeating, since it ties the firm's reward to precisely the consumption that the drug's value depends on avoiding.",
+      "(d) unnecessary, because the patent system already compensates firms whether or not the drug is used."
+    ],
+    "answer": "(c)",
+    "explanation": "The drug is valuable precisely to the extent that it is withheld, so a per-dose reward pays the firm for the very consumption that destroys the asset. (a) is the trap: it treats the price level rather than the price structure as the problem, whereas every remedy the author endorses is volume-detached.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Inference - applying the author's principle to a new case",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Read the following passage and answer the question that follows.\n\nAntibiotic resistance is usually presented as a biological problem to which the answer is better science. The framing is not wrong, but it is incomplete in a way that explains why forty years of warnings have produced so little. Resistance is, in the strict sense, a common-pool resource problem: the effectiveness of an antibiotic is a finite stock, held collectively, depleted by each use, and replenished - if at all - only slowly. A physician who prescribes a broad-spectrum drug for a probably viral infection captures the whole of the small benefit, while the cost, a marginal increase in the resistant fraction of the bacterial population, is dispersed across every future patient, in every country, in perpetuity. No individual actor in the chain faces the full price of the decision, and each is behaving reasonably given the price he does face.\n\nThe supply side inverts the same logic. A newly discovered antibiotic is valuable precisely to the extent that it is withheld - reserved for the infections that nothing else will treat. A firm that has spent a decade and a great deal of money bringing such a drug to market is therefore rewarded, if it behaves as a good citizen, with negligible sales; and its patent, meanwhile, runs down whether the drug is used or not. It would be difficult to design an incentive more perfectly opposed to the public interest, and it is unsurprising that most large firms have quietly left the field.\n\nWhat follows is that stewardship campaigns and laboratory subsidies, however admirable, address the symptoms of a pricing failure. The remedies that have any prospect of working - subscription payments detached from volume, prizes awarded on entry rather than on sales, procurement that pays for availability rather than for doses - all share a single feature: they sever a company's revenue from the quantity of the drug consumed. Until that severance is made, the discovery of new antibiotics will remain an act of charity, and their conservation an appeal to virtue.\n\nThe author's claim that stewardship campaigns address only 'the symptoms of a pricing failure' rests most directly on the assumption that:",
+    "options": [
+      "(a) physicians are generally unaware of the consequences of over-prescription.",
+      "(b) the conduct of prescribers and firms responds primarily to the incentives they face rather than to exhortation.",
+      "(c) no new class of antibiotics can be discovered without public funding.",
+      "(d) resistance would decline if antibiotic use were reduced in agriculture as well as in medicine."
+    ],
+    "answer": "(b)",
+    "explanation": "Negation test: if conduct responded principally to exhortation rather than to incentives, stewardship campaigns would be a cure rather than symptom-treatment, and the claim collapses. (a) concerns knowledge rather than incentives; (c) and (d) fall outside the argument.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Assumption - negation test on an incentive claim",
+    "nature": "Aptitude",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Read the following passage and answer the question that follows.\n\nThere is something faintly magical about a promise. A person utters a form of words, and an obligation exists where a moment before there was none. Nothing has been transferred; no one has been injured; the world is materially as it was. Yet afterwards the speaker is bound, and the hearer may complain if the binding fails. Philosophers have long been uneasy about how a mere act of will can conjure a duty out of air, and their attempts to dissolve the mystery are instructive chiefly in their failure.\n\nThe most popular attempt makes promising a device for creating expectations: to break a promise is wrong because someone has relied upon it and will be worse off. This has the merit of grounding the duty in harm, which is familiar terrain. But it explains too little. A promise on which the hearer has not yet acted is not, for that reason, less binding; and a promise I fail to keep, in circumstances where the failure is never discovered and costs no one anything, still feels like something I have broken rather than something that has quietly lapsed. Reliance, moreover, reverses the direction of explanation. We are not bound because others rely on us; they rely on us because we are bound.\n\nA better account begins by noticing what promising is for. Human beings need a way of making their future selves available to one another - of placing some part of what one will do beyond the reach of one's own later reasoning about it. Without such a device, cooperation must be renegotiated at every step, and can extend no further than the parties' present interests happen to run together. On this view the obligation is not an awkward cost of the practice but its entire point: a form of words that did not bind would leave us exactly where we were, each of us alone with his own revisable intentions.\n\nWhich of the following best captures the central idea of the passage?",
+    "options": [
+      "(a) Promises create obligations that cannot be explained at all, and philosophy should accept the mystery.",
+      "(b) Breaking a promise is wrong only in so far as it disappoints an expectation that someone has acted upon.",
+      "(c) The bindingness of a promise is better explained by the function the practice serves - making one's future conduct available to others independently of one's later reasoning - than by the harm of disappointed reliance.",
+      "(d) Promises ought to be given the force of legal contracts, since informal assurances are too easily revised."
+    ],
+    "answer": "(c)",
+    "explanation": "The third paragraph is the thesis: promising places part of one's future conduct beyond the reach of one's own later reasoning, and the obligation is not a cost of the practice but its entire point. (b) is the account the passage rejects; (a) is contradicted by the fact that an explanation is offered; (d) is never proposed.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Main idea - functional versus reliance account of obligation",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Read the following passage and answer the question that follows.\n\nThere is something faintly magical about a promise. A person utters a form of words, and an obligation exists where a moment before there was none. Nothing has been transferred; no one has been injured; the world is materially as it was. Yet afterwards the speaker is bound, and the hearer may complain if the binding fails. Philosophers have long been uneasy about how a mere act of will can conjure a duty out of air, and their attempts to dissolve the mystery are instructive chiefly in their failure.\n\nThe most popular attempt makes promising a device for creating expectations: to break a promise is wrong because someone has relied upon it and will be worse off. This has the merit of grounding the duty in harm, which is familiar terrain. But it explains too little. A promise on which the hearer has not yet acted is not, for that reason, less binding; and a promise I fail to keep, in circumstances where the failure is never discovered and costs no one anything, still feels like something I have broken rather than something that has quietly lapsed. Reliance, moreover, reverses the direction of explanation. We are not bound because others rely on us; they rely on us because we are bound.\n\nA better account begins by noticing what promising is for. Human beings need a way of making their future selves available to one another - of placing some part of what one will do beyond the reach of one's own later reasoning about it. Without such a device, cooperation must be renegotiated at every step, and can extend no further than the parties' present interests happen to run together. On this view the obligation is not an awkward cost of the practice but its entire point: a form of words that did not bind would leave us exactly where we were, each of us alone with his own revisable intentions.\n\nIt can be inferred that the author would regard a community in which a promise carried no weight beyond the promisor's current judgement of the merits as one that:",
+    "options": [
+      "(a) would be more honest, since no one would be held hostage to the decisions of a past self.",
+      "(b) could sustain cooperation only so far as the parties' interests already happened to coincide.",
+      "(c) would be indistinguishable from our own, since most promises are kept out of self-interest anyway.",
+      "(d) would have to replace promising with enforceable contracts in every sphere of life."
+    ],
+    "answer": "(b)",
+    "explanation": "Directly from the text: without such a device, cooperation must be renegotiated at every step and can extend no further than the parties' present interests happen to run together. (a) is the trap - for this author revisability is the loss, not a gain in honesty.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Inference - consequence of removing the practice",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Read the following passage and answer the question that follows.\n\nThere is something faintly magical about a promise. A person utters a form of words, and an obligation exists where a moment before there was none. Nothing has been transferred; no one has been injured; the world is materially as it was. Yet afterwards the speaker is bound, and the hearer may complain if the binding fails. Philosophers have long been uneasy about how a mere act of will can conjure a duty out of air, and their attempts to dissolve the mystery are instructive chiefly in their failure.\n\nThe most popular attempt makes promising a device for creating expectations: to break a promise is wrong because someone has relied upon it and will be worse off. This has the merit of grounding the duty in harm, which is familiar terrain. But it explains too little. A promise on which the hearer has not yet acted is not, for that reason, less binding; and a promise I fail to keep, in circumstances where the failure is never discovered and costs no one anything, still feels like something I have broken rather than something that has quietly lapsed. Reliance, moreover, reverses the direction of explanation. We are not bound because others rely on us; they rely on us because we are bound.\n\nA better account begins by noticing what promising is for. Human beings need a way of making their future selves available to one another - of placing some part of what one will do beyond the reach of one's own later reasoning about it. Without such a device, cooperation must be renegotiated at every step, and can extend no further than the parties' present interests happen to run together. On this view the obligation is not an awkward cost of the practice but its entire point: a form of words that did not bind would leave us exactly where we were, each of us alone with his own revisable intentions.\n\nThe author's attitude towards the reliance-based account of promising is best described as:",
+    "options": [
+      "(a) contemptuous - he treats it as an obvious confusion unworthy of extended reply.",
+      "(b) undecided - he presents it and the functional account as equally defensible.",
+      "(c) appreciative of what motivates it, but convinced that it is incomplete and inverts the order of explanation.",
+      "(d) approving - he adopts it after removing a minor difficulty."
+    ],
+    "answer": "(c)",
+    "explanation": "He credits it with the merit of grounding the duty in harm, familiar terrain, then says it explains too little and reverses the direction of explanation - respectful but rejecting. He plainly takes a side, so not (b), and he does not adopt it, so not (d).",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Tone and attitude - qualified rejection",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Five officers - A, B, C, D and E - conduct field inspections on five consecutive days, Monday to Friday, one officer on each day.\n1. C inspects on a later day than E but on an earlier day than A.\n2. B inspects neither on Monday nor on Friday.\n3. There are exactly two days between D's inspection and B's inspection.\n4. A does not inspect on Friday.\n\nWho inspects on Wednesday?",
+    "options": [
+      "(a) A",
+      "(b) B",
+      "(c) C",
+      "(d) D"
+    ],
+    "answer": "(c)",
+    "explanation": "Number the days 1 (Mon) to 5 (Fri). Clue 3 means |D - B| = 3, and clue 2 puts B in {2,3,4}, so (B,D) = (2,5) or (4,1). If (B,D) = (4,1), the days 2, 3, 5 remain for E < C < A, forcing A = 5, which clue 4 forbids. So (B,D) = (2,5), leaving days 1, 3, 4 with E = 1, C = 3, A = 4. Unique order: Mon E, Tue B, Wed C, Thu A, Fri D. Wednesday = C.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Scheduling puzzle - ordering across five days",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the statements to be true regardless of commonly known facts.\nStatements:\n1. All scholars are readers.\n2. Some readers are critics.\n3. No critic is a poet.\nConclusions:\nI. Some scholars are critics.\nII. Some readers are not poets.",
+    "options": [
+      "(a) Only conclusion I follows",
+      "(b) Only conclusion II follows",
+      "(c) Both I and II follow",
+      "(d) Neither I nor II follows"
+    ],
+    "answer": "(b)",
+    "explanation": "For I: 'some readers are critics' locates the overlap somewhere inside readers, and nothing forces it into the scholar sub-region - a diagram with every critic-reader outside the scholar circle satisfies all three statements, so I does not follow. For II: the readers who are critics exist (statement 2) and no critic is a poet (statement 3), so those readers are not poets - II follows. Trap (a): statements 1 and 2 share the term 'readers', but it is undistributed, so no valid link to scholars is created.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Syllogism - undistributed middle versus valid particular negative",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "In a certain code, a word is encoded in two steps: first each letter is replaced by the letter as far from the end of the alphabet as the original is from the beginning (A and Z, B and Y, and so on); then the resulting string is written in reverse order.\nFor example, MIND becomes NRMW, and then WMRN.\n\nWhat is the code for BRAVE?",
+    "options": [
+      "(a) VEZIY",
+      "(b) YIZEV",
+      "(c) VEZYI",
+      "(d) EVZIY"
+    ],
+    "answer": "(a)",
+    "explanation": "Opposite letters (position becomes 27 minus position): B(2)->Y(25), R(18)->I(9), A(1)->Z(26), V(22)->E(5), E(5)->V(22), giving YIZEV. Reversing gives VEZIY. Check the example: M->N, I->R, N->M, D->W gives NRMW, reversed WMRN. Trap (b) YIZEV omits the second step.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Coding-decoding - opposite letters followed by reversal",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "In a group of 120 research students, 65 study statistics, 58 study economics and 42 study history. Of these, 28 study both statistics and economics, 20 study both economics and history, and 22 study both statistics and history. Exactly 10 students study all three subjects.\n\nHow many students in the group study none of the three subjects?",
+    "options": [
+      "(a) 5",
+      "(b) 15",
+      "(c) 25",
+      "(d) 30"
+    ],
+    "answer": "(b)",
+    "explanation": "Inclusion-exclusion: 65 + 58 + 42 - 28 - 20 - 22 + 10 = 165 - 70 + 10 = 105 students study at least one subject. None = 120 - 105 = 15. Trap (c) 25 comes from stopping at 165 - 70 = 95 and forgetting to add the triple overlap back once.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Set counting - three-set inclusion-exclusion",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "A man is initially facing south-west. He turns 90 degrees anticlockwise, then turns 225 degrees clockwise, and finally turns 45 degrees anticlockwise.\n\nWhich direction is he facing at the end?",
+    "options": [
+      "(a) North",
+      "(b) North-west",
+      "(c) West",
+      "(d) South-east"
+    ],
+    "answer": "(b)",
+    "explanation": "Measure bearings clockwise from north. Start south-west = 225 degrees. 90 anticlockwise: 225 - 90 = 135 = south-east. 225 clockwise: 135 + 225 = 360 = 0 = north. 45 anticlockwise: 0 - 45 = 315 = north-west. Trap (d) south-east is the intermediate position after the first turn only.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Directions - successive angular turns",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "In each row below, the third number is obtained from the first two by the same rule.\nRow 1: 6, 4, 20\nRow 2: 9, 5, 56\nRow 3: 12, 7, ?\n\nWhat should replace the question mark?",
+    "options": [
+      "(a) 84",
+      "(b) 105",
+      "(c) 119",
+      "(d) 95"
+    ],
+    "answer": "(d)",
+    "explanation": "The rule is (first)^2 - (second)^2 = (first - second)(first + second). Row 1: 36 - 16 = 20, or 2 x 10. Row 2: 81 - 25 = 56, or 4 x 14. Row 3: 144 - 49 = 95, or 5 x 19. Trap (a) 84 is the plain product 12 x 7; trap (c) 119 is 144 - 25, mixing rows.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Number analogy - difference of squares in a matrix",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The table gives the total number of students in five colleges and the ratio of boys to girls in each.\nCollege | Total students | Boys : Girls\nP | 840 | 4 : 3\nQ | 720 | 5 : 4\nR | 960 | 7 : 5\nS | 630 | 5 : 4\nT | 900 | 11 : 7\n\nTaking all five colleges together, the ratio of the number of boys to the number of girls is:",
+    "options": [
+      "(a) 26 : 19",
+      "(b) 27 : 20",
+      "(c) 6 : 5",
+      "(d) 32 : 23"
+    ],
+    "answer": "(a)",
+    "explanation": "Split each total in its ratio: P 480/360, Q 400/320, R 560/400, S 350/280, T 550/350. Boys = 2,340; girls = 1,710 (total 4,050, matching the sum of the totals). 2,340 : 1,710 = 26 : 19 on dividing by 90. Trap (b) 27 : 20 results from averaging the five ratios instead of pooling the counts - invalid because the colleges differ in size.",
+    "subject": "CSAT",
+    "theme": "DI",
+    "micro_topic": "Table with ratios - pooled versus averaged ratio",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The table gives the total number of students in five colleges and the ratio of boys to girls in each.\nCollege | Total students | Boys : Girls\nP | 840 | 4 : 3\nQ | 720 | 5 : 4\nR | 960 | 7 : 5\nS | 630 | 5 : 4\nT | 900 | 11 : 7\n\nThe number of girls in colleges P and Q taken together is approximately what percentage of the number of boys in colleges R and T taken together?",
+    "options": [
+      "(a) 55.4%",
+      "(b) 61.3%",
+      "(c) 68.0%",
+      "(d) 163.2%"
+    ],
+    "answer": "(b)",
+    "explanation": "Girls in P and Q = 360 + 320 = 680. Boys in R and T = 560 + 550 = 1,110. 680/1,110 = 0.6126, about 61.3%. Trap (d) 163.2% is the reciprocal ratio 1,110/680, i.e. reading the comparison the other way round.",
+    "subject": "CSAT",
+    "theme": "DI",
+    "micro_topic": "Table with ratios - cross-group percentage comparison",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "A publisher printed 8,000 copies of a book. 12% of the copies were damaged in transit and destroyed. Of the copies that survived, 65% were sold through retail stores and 20% through online channels; the rest were given away as review copies.\nThe retail price is Rs 450 per copy, of which the publisher receives 70% (the store retains the remainder). Online copies are sold at a discount of 20% on the retail price, and on each such sale the publisher receives 85% of the discounted price.\n\nHow many copies were given away as review copies?",
+    "options": [
+      "(a) 1,200",
+      "(b) 1,126",
+      "(c) 960",
+      "(d) 1,056"
+    ],
+    "answer": "(d)",
+    "explanation": "Surviving copies = 8,000 x 0.88 = 7,040. Retail 65% plus online 20% = 85%, so review copies = 15% of 7,040 = 1,056. Trap (a) 1,200 applies the 15% to the original 8,000 and ignores the destroyed stock.",
+    "subject": "CSAT",
+    "theme": "DI",
+    "micro_topic": "Caselet - successive percentages on a reduced base",
+    "nature": "Aptitude",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "A publisher printed 8,000 copies of a book. 12% of the copies were damaged in transit and destroyed. Of the copies that survived, 65% were sold through retail stores and 20% through online channels; the rest were given away as review copies.\nThe retail price is Rs 450 per copy, of which the publisher receives 70% (the store retains the remainder). Online copies are sold at a discount of 20% on the retail price, and on each such sale the publisher receives 85% of the discounted price.\n\nThe publisher's total receipts from retail and online sales taken together are approximately:",
+    "options": [
+      "(a) Rs 18.72 lakh",
+      "(b) Rs 21.28 lakh",
+      "(c) Rs 14.41 lakh",
+      "(d) Rs 25.66 lakh"
+    ],
+    "answer": "(a)",
+    "explanation": "Retail: 65% of 7,040 = 4,576 copies at 450 x 0.70 = Rs 315 each = Rs 14,41,440. Online: 20% of 7,040 = 1,408 copies at 450 x 0.80 x 0.85 = Rs 306 each = Rs 4,30,848. Total = Rs 18,72,288, about Rs 18.72 lakh. Trap (d) Rs 25.66 lakh is gross sales value, forgetting the publisher's share; trap (b) Rs 21.28 lakh runs the correct share calculation on 8,000 copies instead of 7,040; trap (c) is the retail leg alone.",
+    "subject": "CSAT",
+    "theme": "DI",
+    "micro_topic": "Caselet - revenue share after discount and damage",
+    "nature": "Aptitude",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "You are the Executive Engineer for a district. A new school building is to be inaugurated by a minister in four days' time. Two days before the ceremony, routine cube-test reports placed before you show that the concrete used in one of the two blocks falls well short of the specified strength. The contractor assures you that the block is 'safe enough to stand empty for a day' and offers to strengthen it immediately after the function, at his own cost. Your superior telephones to say that the date cannot be changed at this stage. What is the most appropriate course of action?",
+    "options": [
+      "(a) Allow the inauguration to proceed as scheduled, since the building will not be occupied that day, and have the contractor rectify the block afterwards.",
+      "(b) Certify the building but record your reservations in the file, so that responsibility for any consequence rests elsewhere.",
+      "(c) Decline to certify the defective block, inform your superior and the district administration in writing the same day, propose that the ceremony be confined to the sound block or the date deferred, and have the defective block re-tested by an independent laboratory at the contractor's cost before any occupation is permitted.",
+      "(d) Inform a journalist confidentially so that public pressure compels a postponement without your having to oppose your superior."
+    ],
+    "answer": "(c)",
+    "explanation": "A structural-safety finding cannot be traded against a ceremony date. (c) refuses the false certificate, puts the position on record the same day, offers a workable alternative rather than simply obstructing, and fixes verification and cost on the contractor. (a) accepts a substandard structure on the contractor's word; (b) is the self-protective file note that still certifies the risk; (d) substitutes an unauthorised leak for the responsibility the engineer must exercise himself.",
+    "subject": "CSAT",
+    "theme": "Decision-Making",
+    "micro_topic": "Public safety versus political and hierarchical pressure",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "An officer in your section has been absent or late repeatedly over the past two months while caring for a parent with a terminal illness. His output has fallen, and two colleagues have complained that his work is landing on them without acknowledgement. He has not applied for leave, and says he does not want his situation discussed in the office. What would you do?",
+    "options": [
+      "(a) Take no formal action out of compassion, and let the section absorb the additional work for as long as necessary.",
+      "(b) Issue him a written warning for unauthorised absence, since the rules apply equally to everyone.",
+      "(c) Meet him privately, regularise the absences through the leave he is actually entitled to, agree a temporary and time-bound redistribution of his duties with a date for review, and tell the section that the workload change is a temporary arrangement - without disclosing his personal circumstances.",
+      "(d) Move him to a section with lighter duties so that the problem does not arise in your unit."
+    ],
+    "answer": "(c)",
+    "explanation": "Balanced and rule-abiding: it converts an irregular absence into the leave he is entitled to, so the record is correct and he is protected; it shares the load explicitly rather than by default and gives the colleagues a reason and an end-date; and it respects his privacy. (a) leaves the record irregular and the resentment growing; (b) applies the rules without using the relief they themselves provide; (d) moves the person instead of managing the situation.",
+    "subject": "CSAT",
+    "theme": "Decision-Making",
+    "micro_topic": "Team fairness, empathy and correct use of leave rules",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "You head a district office that is short of computers, and your requisitions have been pending with the department for a year. A local NGO - which also bids for, and currently holds, a departmental training contract that your office supervises - offers to donate ten computers. It asks only that its logo be displayed on the machines and that the donation be acknowledged in your office's annual report. What is the best course of action?",
+    "options": [
+      "(a) Accept the offer; the office genuinely needs the equipment and the conditions attached are trivial.",
+      "(b) Decline the offer courteously; place the shortage on record with a costed proposal and pursue it through the prescribed channel, including any approved CSR or donation route, and make clear that no contribution can be accepted from an entity whose work your office supervises.",
+      "(c) Accept the computers but refuse permission for the logo, so that no publicity benefit accrues to the NGO.",
+      "(d) Refer the offer to your superior and take no further action on the shortage."
+    ],
+    "answer": "(b)",
+    "explanation": "The donor is an entity whose contract your office supervises, so accepting anything from it creates a live conflict of interest regardless of value or branding. (b) removes the conflict and, importantly, still addresses the genuine shortage by escalating it properly with a costed case. (a) accepts a benefit from a current contractor; (c) removes the publicity but not the obligation, which is the part that matters; (d) is refusal by inaction and solves nothing.",
+    "subject": "CSAT",
+    "theme": "Decision-Making",
+    "micro_topic": "Conflict of interest - gifts from a supervised contractor",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "At what time between 4 o'clock and 5 o'clock will the hands of a correct clock be at right angles for the second time?",
+    "options": [
+      "(a) 4 : 38 2/11",
+      "(b) 4 : 5 5/11",
+      "(c) 4 : 36 4/11",
+      "(d) 4 : 40"
+    ],
+    "answer": "(a)",
+    "explanation": "At 4 o'clock the hour hand is at 120 degrees and the minute hand at 0. After m minutes the minute hand has gained 5.5m degrees, so the angle between them is |5.5m - 120|. First right angle: 5.5m - 120 = -90, m = 60/11 = 5 5/11. Second: 5.5m - 120 = +90, m = 420/11 = 38 2/11. Trap (b) is the first right angle; trap (c) 36 4/11 solves 5.5m = 200, taking the hour hand's lead as 110 instead of 120 degrees.",
+    "subject": "CSAT",
+    "theme": "Quant",
+    "micro_topic": "Clocks - second right angle in an hour",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Two trains, of lengths 180 m and 220 m, run on parallel tracks at uniform speeds. Running in the same direction, they cross each other completely in 40 seconds; running in opposite directions, they cross each other completely in 8 seconds. The speed of the faster train is:",
+    "options": [
+      "(a) 108 km/h",
+      "(b) 72 km/h",
+      "(c) 90 km/h",
+      "(d) 120 km/h"
+    ],
+    "answer": "(a)",
+    "explanation": "Combined length = 400 m. Opposite directions: relative speed = 400/8 = 50 m/s = u + v. Same direction: 400/40 = 10 m/s = u - v. Adding, 2u = 60, so u = 30 m/s = 108 km/h. Trap (b) 72 km/h is the slower train (20 m/s). Check: 108 + 72 = 180 km/h = 50 m/s and 108 - 72 = 36 km/h = 10 m/s.",
+    "subject": "CSAT",
+    "theme": "Quant",
+    "micro_topic": "Trains - relative speed in same and opposite directions",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The difference between the compound interest (compounded annually) and the simple interest on a certain sum for 3 years at 10% per annum is Rs 1,240. The sum is:",
+    "options": [
+      "(a) Rs 40,000",
+      "(b) Rs 1,24,000",
+      "(c) Rs 50,000",
+      "(d) Rs 62,000"
+    ],
+    "answer": "(a)",
+    "explanation": "For 3 years, CI - SI = P[(1 + r)^3 - 1 - 3r]. With r = 0.10 the bracket is 1.331 - 1 - 0.30 = 0.031, so 0.031P = 1,240 and P = Rs 40,000. Verification: SI = Rs 12,000, CI = 40,000(1.331 - 1) = Rs 13,240, difference Rs 1,240. Trap (b) Rs 1,24,000 uses the two-year formula, difference = P x r^2 = 0.01P.",
+    "subject": "CSAT",
+    "theme": "Quant",
+    "micro_topic": "Compound versus simple interest - three-year difference",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  }
+]
