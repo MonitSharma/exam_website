@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the Quarterly Estimates of Gross Domestic Product for Q1 (April-June) of 2026-27 released by the Ministry of Statistics and Programme Implementation, consider the following statements:\n1. Real GDP growth for the quarter was higher than Real GVA growth for the same quarter.\n2. The estimates are compiled with 2022-23 as the base year.\n3. Quarterly GDP estimates in India are compiled using the Benchmark-Indicator methodology rather than by independent quarterly measurement.\nHow many of the statements given above are correct?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All three",
+      "(d) None"
+    ],
+    "answer": "(b)",
+    "explanation": "Statement 1 is incorrect: Real GVA grew 8.2% while Real GDP grew 7.8%, so GVA grew faster. Statements 2 and 3 are correct - the new series uses base year 2022-23 and quarterly estimates use the Benchmark-Indicator method, broadly following the IMF Quarterly National Accounts Manual, 2017.",
+    "subject": "Economy",
+    "theme": "National Income Accounting",
+    "micro_topic": "Quarterly GDP estimates, GDP-GVA wedge and base year revision",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements regarding the Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin) (VB-G RAM G) Act, 2025:\n1. It guarantees 125 days of wage employment in a financial year to a rural household.\n2. It replaced the Mahatma Gandhi National Rural Employment Guarantee Act, 2005.\n3. The Viksit Gram Panchayat Plan (VGPP) is the planning instrument under the Act.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. The Act raised the guarantee from 100 to 125 days per rural household per financial year, replaced MGNREGA 2005, and uses the Viksit Gram Panchayat Plan along with the Rural Rozgar Guarantee Card, statutory social audit and grievance redressal.",
+    "subject": "Polity & Governance",
+    "theme": "Welfare Schemes and Panchayati Raj",
+    "micro_topic": "VB-G RAM G Act 2025 and Panch Sammelan capacity-building campaign",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the Shanghai Cooperation Organisation (SCO) and India's recent Central Asia engagement, consider the following statements:\n1. The 2026 SCO Summit was held at Bishkek, the capital of the Kyrgyz Republic.\n2. Iran is a full member of the SCO.\n3. Armenia is a full member of the SCO.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statements 1 and 2 are correct - the summit was held at Bishkek, where the Prime Minister held bilaterals with the Presidents of Kyrgyzstan and Iran and the Prime Minister of Armenia, and Iran became a full SCO member in 2023. Statement 3 is incorrect: Armenia is a dialogue partner, not a full member.",
+    "subject": "International Relations",
+    "theme": "Regional Groupings",
+    "micro_topic": "SCO Summit Bishkek 2026 and India-Uzbekistan Comprehensive Strategic Partnership",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]
