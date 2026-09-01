@@ -1,0 +1,482 @@
+[
+  {
+    "question": "Primary deficit is best defined as:",
+    "options": [
+      "(a) Revenue expenditure minus revenue receipts",
+      "(b) Revenue deficit minus grants for creation of capital assets",
+      "(c) Fiscal deficit minus interest payments",
+      "(d) Fiscal deficit minus borrowings"
+    ],
+    "answer": "(c)",
+    "explanation": "Primary deficit = fiscal deficit minus interest payments; it shows the current year's borrowing need excluding the burden of past debt.",
+    "subject": "Economy",
+    "theme": "Public Finance",
+    "micro_topic": "Types of deficit",
+    "nature": "conceptual",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Effective Revenue Deficit is arrived at by deducting from the revenue deficit:",
+    "options": [
+      "(a) Grants given to States/UTs for creation of capital assets",
+      "(b) Subsidies",
+      "(c) Defence revenue expenditure",
+      "(d) Interest payments"
+    ],
+    "answer": "(a)",
+    "explanation": "Effective Revenue Deficit = Revenue Deficit minus grants for creation of capital assets. The concept was introduced in the Union Budget 2011-12.",
+    "subject": "Economy",
+    "theme": "Public Finance",
+    "micro_topic": "Effective revenue deficit",
+    "nature": "conceptual",
+    "difficulty": "medium"
+  },
+  {
+    "question": "With reference to the GST Council, consider the following statements:\n1. It is a constitutional body created under Article 279A.\n2. Every decision must be taken by a majority of not less than three-fourths of the weighted votes of the members present and voting.\n3. The Union Government's vote has a weightage of one-half of the total votes cast.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Article 279A (101st Amendment) created the GST Council. Decisions need a three-fourths weighted majority, but the Centre's vote carries one-third weightage and all States together two-thirds, not one-half.",
+    "subject": "Economy",
+    "theme": "Taxation",
+    "micro_topic": "GST Council",
+    "nature": "conceptual",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which one of the following is classified as capital expenditure in the Union Budget?",
+    "options": [
+      "(a) Salaries and pensions of government employees",
+      "(b) Interest payments on past borrowings",
+      "(c) Food and fertiliser subsidies",
+      "(d) Loans disbursed by the Centre to State governments"
+    ],
+    "answer": "(d)",
+    "explanation": "Capital expenditure either creates assets or reduces liabilities. Loans given to States are capital expenditure; interest, salaries and subsidies are revenue expenditure.",
+    "subject": "Economy",
+    "theme": "Public Finance",
+    "micro_topic": "Budget classification",
+    "nature": "conceptual",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following is/are direct taxes in India?\n1. Corporation tax\n2. Securities Transaction Tax\n3. Goods and Services Tax\nSelect the correct answer using the code given below:",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Corporation tax and STT are direct taxes, where impact and incidence fall on the same person. GST is an indirect tax whose burden is shifted to the consumer.",
+    "subject": "Economy",
+    "theme": "Taxation",
+    "micro_topic": "Direct vs indirect taxes",
+    "nature": "factual",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Under the revised MSME classification in force in India, an enterprise is categorised on the basis of:",
+    "options": [
+      "(a) Number of workers employed",
+      "(b) Both investment in plant and machinery/equipment and annual turnover",
+      "(c) Investment in plant and machinery only",
+      "(d) Annual turnover only"
+    ],
+    "answer": "(b)",
+    "explanation": "The 2020 revision replaced the investment-only test with a composite criterion of investment plus turnover, and removed the manufacturing/services distinction.",
+    "subject": "Economy",
+    "theme": "Industry",
+    "micro_topic": "MSME classification",
+    "nature": "factual",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Minimum Support Prices in India are recommended by which body?",
+    "options": [
+      "(a) NITI Aayog",
+      "(b) Food Corporation of India",
+      "(c) Commission for Agricultural Costs and Prices",
+      "(d) Agricultural Prices Commission of the Reserve Bank"
+    ],
+    "answer": "(c)",
+    "explanation": "CACP, an attached office of the Ministry of Agriculture, recommends MSPs; the final announcement is made by the Cabinet Committee on Economic Affairs.",
+    "subject": "Economy",
+    "theme": "Agriculture Economics",
+    "micro_topic": "MSP mechanism",
+    "nature": "factual",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Under the Hybrid Annuity Model (HAM) used for highway projects in India:",
+    "options": [
+      "(a) The government builds the asset and hands it over to a private operator for a fixed fee",
+      "(b) The project is financed entirely by multilateral loans",
+      "(c) The entire project cost is borne by the private developer and recovered through tolls",
+      "(d) The government pays about 40 per cent of the project cost during construction and the balance as annuities"
+    ],
+    "answer": "(d)",
+    "explanation": "HAM blends EPC and BOT: about 40 per cent of the bid cost is paid by the government in instalments during construction and the remaining 60 per cent as annuities over the concession period, with the government retaining toll risk.",
+    "subject": "Economy",
+    "theme": "Infrastructure",
+    "micro_topic": "PPP models",
+    "nature": "conceptual",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In its August 2026 policy review, the Reserve Bank of India kept the policy repo rate unchanged at:",
+    "options": [
+      "(a) 5.25 per cent",
+      "(b) 6.75 per cent",
+      "(c) 6.50 per cent",
+      "(d) 4.00 per cent"
+    ],
+    "answer": "(a)",
+    "explanation": "The RBI held the repo rate at 5.25 per cent, revised FY27 growth up to 6.7 per cent and lowered its inflation projection to 5.0 per cent.",
+    "subject": "Economy",
+    "theme": "Monetary Policy",
+    "micro_topic": "Repo rate",
+    "nature": "factual",
+    "difficulty": "medium"
+  },
+  {
+    "question": "The expression 'internal disturbance' as a ground for proclaiming a National Emergency under Article 352 was replaced by 'armed rebellion' by which Constitutional Amendment?",
+    "options": [
+      "(a) 61st Amendment Act, 1988",
+      "(b) 42nd Amendment Act, 1976",
+      "(c) 52nd Amendment Act, 1985",
+      "(d) 44th Amendment Act, 1978"
+    ],
+    "answer": "(d)",
+    "explanation": "The 44th Amendment narrowed the ground to 'armed rebellion' and required the Cabinet's written advice for a proclamation, reversing several 42nd Amendment changes.",
+    "subject": "Polity & Governance",
+    "theme": "Emergency Provisions",
+    "micro_topic": "Article 352",
+    "nature": "factual",
+    "difficulty": "medium"
+  },
+  {
+    "question": "With reference to a Money Bill, consider the following statements:\n1. It can be introduced only in the Lok Sabha, and only on the President's recommendation.\n2. The Rajya Sabha must return it within fourteen days with or without recommendations.\n3. The decision of the Speaker of the Lok Sabha on whether a Bill is a Money Bill is final.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct under Articles 109 and 110. The Rajya Sabha can only make recommendations, which the Lok Sabha may accept or reject.",
+    "subject": "Polity & Governance",
+    "theme": "Parliament",
+    "micro_topic": "Money Bill",
+    "nature": "conceptual",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Who among the following participate in the electoral college for the election of the President of India?",
+    "options": [
+      "(a) All members of both Houses of Parliament and of all State Legislatures",
+      "(b) Elected members of the Lok Sabha and of the State Legislative Assemblies only",
+      "(c) Elected members of both Houses of Parliament and elected members of the Legislative Assemblies of States and of Delhi and Puducherry",
+      "(d) Elected members of Parliament and of both Houses of the State Legislatures"
+    ],
+    "answer": "(c)",
+    "explanation": "Nominated members and members of Legislative Councils do not vote. The election is by proportional representation with a single transferable vote and secret ballot.",
+    "subject": "Polity & Governance",
+    "theme": "Union Executive",
+    "micro_topic": "Presidential election",
+    "nature": "factual",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Under which Article can Parliament legislate on a subject in the State List in the national interest, upon a resolution passed by the Rajya Sabha supported by two-thirds of the members present and voting?",
+    "options": [
+      "(a) Article 249",
+      "(b) Article 252",
+      "(c) Article 250",
+      "(d) Article 248"
+    ],
+    "answer": "(a)",
+    "explanation": "Article 249 allows such legislation for up to one year at a time. Article 250 applies during a National Emergency; Article 252 relates to two or more States requesting Parliament to legislate.",
+    "subject": "Polity & Governance",
+    "theme": "Centre-State Relations",
+    "micro_topic": "Legislative relations",
+    "nature": "factual",
+    "difficulty": "medium"
+  },
+  {
+    "question": "The National Judicial Appointments Commission Act and the 99th Constitutional Amendment were struck down by the Supreme Court in 2015 primarily on the ground that they violated:",
+    "options": [
+      "(a) Article 14 alone",
+      "(b) The doctrine of pleasure",
+      "(c) The independence of the judiciary as part of the basic structure",
+      "(d) The principle of collective responsibility"
+    ],
+    "answer": "(c)",
+    "explanation": "In the Fourth Judges Case the Court held that the NJAC compromised judicial independence and the primacy of the judiciary in appointments, both facets of the basic structure, restoring the collegium.",
+    "subject": "Polity & Governance",
+    "theme": "Judiciary",
+    "micro_topic": "Judicial appointments",
+    "nature": "conceptual",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Under the Tenth Schedule of the Constitution, the question of disqualification of a member on the ground of defection is decided by:",
+    "options": [
+      "(a) The Election Commission of India",
+      "(b) The Chairman or Speaker of the House concerned",
+      "(c) The High Court having jurisdiction",
+      "(d) The President or Governor on the Election Commission's advice"
+    ],
+    "answer": "(b)",
+    "explanation": "The presiding officer decides, and in Kihoto Hollohan (1992) the Supreme Court held this decision is subject to judicial review.",
+    "subject": "Polity & Governance",
+    "theme": "Parliament",
+    "micro_topic": "Anti-defection law",
+    "nature": "factual",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The Khilafat Movement in India was led by which pair of leaders?",
+    "options": [
+      "(a) Shaukat Ali and Muhammad Ali",
+      "(b) Abul Kalam Azad and Muhammad Ali Jinnah",
+      "(c) Bipin Chandra Pal and Lala Lajpat Rai",
+      "(d) Hakim Ajmal Khan and Syed Ahmed Khan"
+    ],
+    "answer": "(a)",
+    "explanation": "The Ali brothers, Shaukat Ali and Muhammad Ali, along with Maulana Azad and Hasrat Mohani led the Khilafat agitation, which Gandhi merged with Non-Cooperation in 1920.",
+    "subject": "Modern History",
+    "theme": "National Movement",
+    "micro_topic": "Khilafat and Non-Cooperation",
+    "nature": "factual",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The Nehru Report (1928) recommended which one of the following for India?",
+    "options": [
+      "(a) Dominion status with a declaration of rights and joint electorates",
+      "(b) A federation of princely states under British paramountcy",
+      "(c) Continuation of separate electorates for all minorities",
+      "(d) Complete independence with immediate effect"
+    ],
+    "answer": "(a)",
+    "explanation": "Drafted under Motilal Nehru in response to the all-white Simon Commission, it proposed dominion status, a bill of rights and joint electorates with reservation in certain cases.",
+    "subject": "Modern History",
+    "theme": "Constitutional Development",
+    "micro_topic": "Simon Commission and Nehru Report",
+    "nature": "factual",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Consider the following events of the Civil Disobedience phase:\n1. Dandi March\n2. Gandhi-Irwin Pact\n3. Second Round Table Conference\n4. Poona Pact\nWhat is the correct chronological order?",
+    "options": [
+      "(a) 1-2-3-4",
+      "(b) 2-1-3-4",
+      "(c) 1-3-2-4",
+      "(d) 1-2-4-3"
+    ],
+    "answer": "(a)",
+    "explanation": "Dandi March (March 1930), Gandhi-Irwin Pact (March 1931), Second Round Table Conference (September-December 1931), Poona Pact (September 1932).",
+    "subject": "Modern History",
+    "theme": "National Movement",
+    "micro_topic": "Civil Disobedience Movement",
+    "nature": "conceptual",
+    "difficulty": "medium"
+  },
+  {
+    "question": "The Quit India Resolution was passed by the All India Congress Committee in August 1942 at:",
+    "options": [
+      "(a) Wardha",
+      "(b) Tripuri",
+      "(c) Bombay",
+      "(d) Ramgarh"
+    ],
+    "answer": "(c)",
+    "explanation": "The AICC adopted the resolution at Gowalia Tank Maidan, Bombay, on 8 August 1942, where Gandhi gave the 'Do or Die' call. The Working Committee had approved the draft earlier at Wardha.",
+    "subject": "Modern History",
+    "theme": "National Movement",
+    "micro_topic": "Quit India Movement",
+    "nature": "factual",
+    "difficulty": "easy"
+  },
+  {
+    "question": "With reference to the Indian National Army, consider the following statements:\n1. The Provisional Government of Azad Hind was proclaimed by Subhas Chandra Bose at Singapore in 1943.\n2. The Rani Jhansi Regiment was its women's wing.\n3. The INA trials of 1945-46 were held at the Red Fort, Delhi.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. The INA trials at the Red Fort, with Bhulabhai Desai among the defence counsel, triggered widespread public agitation.",
+    "subject": "Modern History",
+    "theme": "National Movement",
+    "micro_topic": "INA and Subhas Chandra Bose",
+    "nature": "factual",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Evidence of a ploughed field, indicating early agriculture, has been found at which Harappan site?",
+    "options": [
+      "(a) Banawali",
+      "(b) Lothal",
+      "(c) Kalibangan",
+      "(d) Dholavira"
+    ],
+    "answer": "(c)",
+    "explanation": "Kalibangan in Rajasthan yielded a pre-Harappan ploughed field with criss-cross furrows. Lothal is known for its dockyard and Dholavira for its water management and signboard.",
+    "subject": "Ancient & Medieval History",
+    "theme": "Indus Valley Civilisation",
+    "micro_topic": "Harappan sites",
+    "nature": "factual",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which one of the following is the correct sequence of passes and gaps in the Western Ghats from north to south?",
+    "options": [
+      "(a) Shencottah - Palghat - Bhor Ghat - Thal Ghat",
+      "(b) Thal Ghat - Bhor Ghat - Palghat - Shencottah",
+      "(c) Palghat - Thal Ghat - Bhor Ghat - Shencottah",
+      "(d) Bhor Ghat - Thal Ghat - Shencottah - Palghat"
+    ],
+    "answer": "(b)",
+    "explanation": "Thal Ghat and Bhor Ghat lie in Maharashtra, the Palghat gap separates the Nilgiris from the Anaimalais, and the Shencottah gap lies further south between the Anaimalai and Cardamom hills.",
+    "subject": "Geography",
+    "theme": "Indian Physiography",
+    "micro_topic": "Western Ghats passes",
+    "nature": "factual",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In August 2026, a mapping exercise reported 219 hanging glaciers in which river basin, flagging a hazard category that had not been systematically counted?",
+    "options": [
+      "(a) Beas basin",
+      "(b) Teesta basin",
+      "(c) Alaknanda basin",
+      "(d) Bhagirathi basin"
+    ],
+    "answer": "(c)",
+    "explanation": "The study mapped 219 hanging glaciers in the Alaknanda basin, a class of ice masses that can detach and trigger downstream disasters.",
+    "subject": "Geography",
+    "theme": "Himalayan Geography",
+    "micro_topic": "Glacial hazards",
+    "nature": "factual",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of the following are the criteria for a region to be designated a biodiversity hotspot?\n1. It must contain at least 1,500 species of endemic vascular plants.\n2. It must have lost at least 70 per cent of its original primary vegetation.\n3. It must lie entirely within the tropics.\nSelect the correct answer using the code given below:",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "The two Myers criteria are endemism (at least 1,500 endemic vascular plants) and threat (at least 70 per cent of primary vegetation lost). There is no requirement of lying within the tropics.",
+    "subject": "Environment",
+    "theme": "Biodiversity",
+    "micro_topic": "Biodiversity hotspots",
+    "nature": "conceptual",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Glaw Lake, which became India's 101st Ramsar Site in August 2026, is located in which State/UT?",
+    "options": [
+      "(a) Arunachal Pradesh",
+      "(b) Sikkim",
+      "(c) Mizoram",
+      "(d) Manipur"
+    ],
+    "answer": "(a)",
+    "explanation": "Glaw Lake is Arunachal Pradesh's first Ramsar Site and India's 101st wetland of international importance.",
+    "subject": "Environment",
+    "theme": "Wetlands",
+    "micro_topic": "Ramsar Sites",
+    "nature": "factual",
+    "difficulty": "medium"
+  },
+  {
+    "question": "The Special Representatives mechanism, whose 25th round was held in Beijing in August 2026, deals primarily with:",
+    "options": [
+      "(a) India-Nepal open border management",
+      "(b) India-Pakistan Indus water disputes",
+      "(c) The India-Bangladesh land boundary",
+      "(d) The India-China boundary question"
+    ],
+    "answer": "(d)",
+    "explanation": "Established in 2003, the Special Representatives dialogue is India and China's principal channel for the boundary question and wider bilateral ties.",
+    "subject": "International Relations",
+    "theme": "India-China Relations",
+    "micro_topic": "Special Representatives talks",
+    "nature": "factual",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In August 2026, India elevated its ties with which Central Asian country to a Comprehensive Strategic Partnership, accompanied by a uranium supply arrangement?",
+    "options": [
+      "(a) Turkmenistan",
+      "(b) Kazakhstan",
+      "(c) Tajikistan",
+      "(d) Uzbekistan"
+    ],
+    "answer": "(d)",
+    "explanation": "India and Uzbekistan became Comprehensive Strategic Partners during the late-August visit, which also opened a uranium supply line.",
+    "subject": "International Relations",
+    "theme": "India and Central Asia",
+    "micro_topic": "India-Uzbekistan relations",
+    "nature": "factual",
+    "difficulty": "medium"
+  },
+  {
+    "question": "NavIC's reported inability to provide standalone position fixes arises because reliable three-dimensional positioning requires signals from a minimum of how many satellites?",
+    "options": [
+      "(a) Four",
+      "(b) Two",
+      "(c) Three",
+      "(d) Six"
+    ],
+    "answer": "(a)",
+    "explanation": "A receiver needs four satellites to solve for three position coordinates plus the receiver clock error. With only three operational satellites, NavIC could not offer standalone navigation.",
+    "subject": "Science & Technology",
+    "theme": "Space Technology",
+    "micro_topic": "Satellite navigation (NavIC)",
+    "nature": "conceptual",
+    "difficulty": "medium"
+  },
+  {
+    "question": "The Legal Metrology (Indian Standard Time) Rules, 2026 are significant because they:",
+    "options": [
+      "(a) Make Indian Standard Time the single legal time reference for official and commercial use",
+      "(b) Introduce a second time zone for the North-East",
+      "(c) Shift IST from UTC+5:30 to UTC+6:00",
+      "(d) Permit daylight saving time during summer months"
+    ],
+    "answer": "(a)",
+    "explanation": "The Rules establish one legally mandated time reference for the country, requiring synchronisation with IST disseminated by the national time-keeping infrastructure.",
+    "subject": "Science & Technology",
+    "theme": "Standards and Metrology",
+    "micro_topic": "Indian Standard Time",
+    "nature": "conceptual",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In the Environmental Performance Index 2026, India's rank was:",
+    "options": [
+      "(a) 168th of 180",
+      "(b) 176th of 177",
+      "(c) 155th of 170",
+      "(d) 120th of 180"
+    ],
+    "answer": "(b)",
+    "explanation": "India was placed 176th out of 177 countries in the EPI 2026, an index produced by Yale and Columbia University researchers.",
+    "subject": "Reports & Indices",
+    "theme": "Global Indices",
+    "micro_topic": "Environmental Performance Index",
+    "nature": "factual",
+    "difficulty": "medium"
+  }
+]

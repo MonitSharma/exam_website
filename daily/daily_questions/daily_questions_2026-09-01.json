@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to the national income estimates for the first quarter of 2026-27 released on 31 August 2026, consider the following statements: 1. Real GDP grew at 7.8%, which was higher than the growth recorded in the corresponding quarter of the previous year. 2. Real Gross Value Added grew faster than real GDP during the quarter. 3. The estimates are based on a National Accounts series with 2011-12 as the base year. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Real GDP grew 7.8% in Q1 FY27 against 6.9% in Q1 FY26, so statement 1 is correct. Real GVA grew 8.2%, faster than real GDP's 7.8% - the wedge being net product taxes - so statement 2 is correct. Statement 3 is wrong: the estimates use the new National Accounts series with base year 2022-23, not 2011-12.",
+    "subject": "Economy",
+    "theme": "Growth and development - national income accounting",
+    "micro_topic": "MoSPI Q1 FY27 estimates released 31 August 2026; real GDP 7.8% (Rs 81.36 lakh crore vs Rs 75.46 lakh crore); nominal GDP Rs 88.27 lakh crore, growth ~10%; real GVA 8.2% (Rs 73.82 lakh crore); nominal GVA 11.5%; new base year 2022-23; RBI projection ~7%",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements regarding 'Semicon 2.0' notified in 2026: 1. It carries a larger financial outlay than the Semicon India Programme launched in 2021. 2. Its scope is confined to wafer fabrication and display fabrication units, with assembly and packaging left to the earlier scheme. 3. It provides for seed funding to semiconductor design startups and MSMEs, along with access to Electronic Design Automation tools and multi-project wafer services. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Semicon 2.0's outlay of Rs 1,27,500 crore exceeds Semicon 1.0's Rs 76,000 crore, so statement 1 is correct. Statement 2 is wrong - Semicon 2.0 is deliberately broader, built on six pillars that include ATMP/OSAT and advanced packaging (35% capex support) and conventional packaging (25%), alongside equipment and materials, chip design and IP, R&D, and talent. Statement 3 is correct: design startups and MSMEs receive seed funding up to Rs 15 crore capped at 50% of project cost, plus national EDA tool access and multi-project wafer services.",
+    "subject": "Science & Technology",
+    "theme": "Indigenisation of technology - semiconductor ecosystem",
+    "micro_topic": "Semicon 2.0 (India Semiconductor Mission 2.0) notified end-August 2026; Cabinet approval July 2026; outlay Rs 1,27,500 crore vs Semicon 1.0's Rs 76,000 crore; six pillars and ten categories; capex support 40% silicon fabs, 35% compound/photonics/MEMS/display and advanced packaging, 25% conventional packaging; seed funding up to Rs 15 crore for design startups; target of 1 lakh additional semiconductor engineers",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The 'Electoral Democracy Index', which placed India at its lowest score since 1975 in its 2025 assessment, is published by:",
+    "options": [
+      "(a) The Economist Intelligence Unit, London",
+      "(b) Freedom House, Washington D.C.",
+      "(c) The V-Dem Institute, University of Gothenburg",
+      "(d) The Inter-Parliamentary Union, Geneva"
+    ],
+    "answer": "(c)",
+    "explanation": "The Electoral Democracy Index is published by the V-Dem (Varieties of Democracy) Institute, hosted at the University of Gothenburg, Sweden. India scored 0.38 for 2025 and ranked 106th of 179 countries - its lowest since 1975. The Economist Intelligence Unit publishes the separate 'Democracy Index', Freedom House publishes 'Freedom in the World', and the Inter-Parliamentary Union publishes parliamentary data - a standard Prelims confusion set.",
+    "subject": "Reports & Indices",
+    "theme": "Global governance and democracy indices",
+    "micro_topic": "V-Dem Institute, University of Gothenburg; Electoral Democracy Index 2025 - India 0.38, rank 106/179, lowest since 1975; India classified 'electoral autocracy' since 2017 and 'autocratising'; five V-Dem dimensions (electoral, liberal, participatory, egalitarian, deliberative); Liberal Democracy Index rank ~100/179; UN CERD first India review since 2007",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the Viksit Bharat - Guarantee for Rozgar and Ajeevika Mission (Gramin) Act, 2025, consider the following statements: 1. It came into force in rural areas from 1 July 2026, and the Mahatma Gandhi National Rural Employment Guarantee Act, 2005 stands repealed from the same date. 2. It guarantees 125 days of unskilled manual work per rural household in a financial year. 3. It restricts permissible works to four thematic domains, one of which is mitigation of extreme weather events. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. The VB-G RAM G Act, 2025 (Bill introduced in Lok Sabha on 16 December 2025) commenced in all rural areas on 1 July 2026, with MGNREGA, 2005 repealed from the same date. It guarantees 125 days of unskilled manual work per rural household per financial year, up from MGNREGA's 100, with an unemployment allowance if work is not provided within 15 days. Permissible works are confined to four thematic domains: water security, rural infrastructure, livelihood-related infrastructure, and mitigation of extreme weather events.",
+    "subject": "Polity & Governance",
+    "theme": "Welfare schemes and the right to work",
+    "micro_topic": "VB-G RAM G Act, 2025 replacing MGNREGA from 1 July 2026; 125 days guarantee; 15-day unemployment allowance trigger; four thematic domains; July 2026 person-days 7.67 crore (-49.94% y-o-y), households 68.94 lakh (-51.45%); Article 41 DPSP; Olga Tellis (1985); Sanjit Roy (1983); doctrine of non-retrogression",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements regarding the Solid Waste Management Rules, 2026: 1. They were notified by the Ministry of Environment, Forest and Climate Change and replaced the Solid Waste Management Rules, 2016. 2. They require segregation of waste at source into four streams. 3. Under directions issued in 2026, District Collectors were required to identify bulk waste generators and constitute dedicated Special Cells to monitor implementation. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. The SWM Rules 2026 were notified by MoEFCC and came into full effect from 1 April 2026, replacing the 2016 Rules; they mandate four-stream segregation at source and expand obligations on bulk waste generators with digital monitoring; and judicial directions in 2026 required District Collectors to identify all bulk waste generators within six weeks and set up dedicated Special Cells, including State Pollution Control Board officials, to monitor implementation.",
+    "subject": "Environment",
+    "theme": "Environmental pollution - solid waste management",
+    "micro_topic": "Solid Waste Management Rules 2026 (MoEFCC, in force 1 April 2026); four-stream source segregation; bulk waste generators; District Collector enforcement and Special Cells; India generates ~1.7 lakh tonnes/day of solid waste, ~22% to landfills, ~17% unaccounted; rural models - Majuli (Assam) CMCFs and Brahmaputra boat transfer, Tawang/Zemithang Swachchata Divas with 22 household categories and 35-category MRFs; EPR; 11th Schedule Entry 6",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following Directive Principles of State Policy: 1. Securing adequate means of livelihood for all citizens 2. Right to work, to education and to public assistance in cases of unemployment, old age, sickness and disablement 3. Securing a living wage and conditions of work ensuring a decent standard of life for all workers 4. Securing the participation of workers in the management of industries Which of the above were part of the Constitution of India as originally adopted in 1949?",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 1, 3 and 4 only",
+      "(c) 2 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "answer": "(a)",
+    "explanation": "Adequate means of livelihood is Article 39(a); the right to work, education and public assistance is Article 41; and a living wage with decent conditions of work is Article 43 - all three were in the Constitution as originally adopted. Participation of workers in the management of industries is Article 43A, inserted by the 42nd Constitutional Amendment Act, 1976, so it was not part of the original Constitution.",
+    "subject": "Polity & Governance",
+    "theme": "Directive Principles of State Policy",
+    "micro_topic": "Articles 39(a), 41, 43 in the original Constitution; Article 43A (worker participation in management) inserted by the 42nd Amendment Act, 1976; distinction between original and amendment-inserted DPSPs; Article 41 as the constitutional anchor of the right to work",
+    "nature": "Factual",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "With reference to the measurement of national income in India, consider the following statements: 1. Gross Value Added at basic prices, plus product taxes and minus product subsidies, equals Gross Domestic Product at market prices. 2. Real GDP is measured at the constant prices of a chosen base year, whereas nominal GDP is measured at current prices. 3. Quarterly estimates of Gross Domestic Product are released by the Ministry of Statistics and Programme Implementation. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are standard national-accounts propositions. GDP at market prices equals GVA at basic prices plus product taxes minus product subsidies - which is why GDP and GVA growth rates diverge when net indirect taxes move. Real GDP is computed at base-year constant prices to strip out price change, while nominal GDP uses current prices; the gap between them is captured by the implicit GDP deflator. Quarterly GDP estimates are released by MoSPI through the National Statistical Office.",
+    "subject": "Economy",
+    "theme": "National income accounting",
+    "micro_topic": "GVA at basic prices vs GDP at market prices identity; product taxes and product subsidies; real vs nominal GDP and the implicit GDP deflator; MoSPI/NSO as the releasing authority for quarterly national accounts; base year revision to 2022-23",
+    "nature": "Conceptual",
+    "difficulty": "Hard"
+  }
+]

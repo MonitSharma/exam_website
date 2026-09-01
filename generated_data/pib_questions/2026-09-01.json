@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to 'Kavach', recently seen in the news, consider the following statements:\n1. It is an indigenously developed Automatic Train Protection (ATP) system.\n2. It can automatically apply brakes to prevent Signal Passing at Danger (SPAD).\n3. It is deployed by the Ministry of Road Transport and Highways on national highways.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Kavach is an indigenously developed Automatic Train Protection system of Indian Railways (Ministry of Railways) that prevents Signal Passing at Danger, applies automatic braking and enforces speed limits; it has nothing to do with highways, so statement 3 is incorrect. Indian Railways has approved Rs 170 crore for Kavach 4.0 on the remaining 712 Rkm of Moradabad Division, with 2,633 Rkm commissioned as on 31 July 2026.",
+    "subject": "Science & Technology",
+    "theme": "Indigenous Technology and Infrastructure",
+    "micro_topic": "Kavach Automatic Train Protection system, Indian Railways safety",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The 'Free Sale and Commerce Certificate', whose issuance was recently automated to promote ease of doing business, is issued by which one of the following?",
+    "options": [
+      "(a) Bureau of Indian Standards (BIS)",
+      "(b) Central Drugs Standard Control Organisation (CDSCO)",
+      "(c) Directorate General of Foreign Trade (DGFT)",
+      "(d) Food Safety and Standards Authority of India (FSSAI)"
+    ],
+    "answer": "(c)",
+    "explanation": "The Free Sale and Commerce Certificate is issued by the DGFT under the Foreign Trade Policy for products not covered under the Drugs & Cosmetics Act, 1940, certifying that the product is freely sold in India. DGFT Trade Notice No. 24/2026-2027 dated 31 August 2026 enabled automatic, system-based issuance with risk-based post-issue oversight, replacing mandatory manual scrutiny by Regional Authorities.",
+    "subject": "Economy",
+    "theme": "External Sector and Trade Facilitation",
+    "micro_topic": "DGFT, Foreign Trade Policy, export certification and ease of doing business",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Tampering with telecommunication identifiers, such as the IMEI number of a mobile handset, is an offence under which one of the following?",
+    "options": [
+      "(a) Information Technology Act, 2000",
+      "(b) Indian Telegraph Act, 1885",
+      "(c) Telecommunications Act, 2023",
+      "(d) Bharatiya Nyaya Sanhita, 2023"
+    ],
+    "answer": "(c)",
+    "explanation": "Section 42(3)(c) of the Telecommunications Act, 2023 prohibits tampering with telecommunication identifiers and Section 42(3)(e) bars obtaining SIM cards or other identifiers through fraud, cheating or impersonation. The Department of Telecommunications has warned that offenders face up to 3 years' imprisonment, a fine up to Rs 50 lakh, or both. IMEI details can be verified on the Sanchar Saathi portal/app.",
+    "subject": "Polity & Governance",
+    "theme": "Recent Legislation and Regulation",
+    "micro_topic": "Telecommunications Act 2023, telecom identifiers, Sanchar Saathi",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]
