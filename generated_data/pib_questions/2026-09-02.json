@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the International Big Cat Alliance (IBCA), consider the following statements:\n1. It was launched by India in 2023 and is headquartered in India.\n2. Its conservation focus covers seven big cat species, of which two are not found in the wild in India.\n3. It is a body constituted under the Wild Life (Protection) Act, 1972.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "IBCA was launched by India in April 2023, marking 50 years of Project Tiger, and is headquartered in India, so statement 1 is correct. It covers seven big cats - tiger, lion, leopard, snow leopard, cheetah, jaguar and puma - of which the jaguar and puma are not found in India, so statement 2 is correct. IBCA is an intergovernmental alliance and not a body created under the Wild Life (Protection) Act, 1972; the statutory body under that Act is the National Tiger Conservation Authority. Hence statement 3 is incorrect. IBCA signed an MoU with the Asian Development Bank at the international workshop on tiger landscapes inaugurated in New Delhi on 2 September 2026.",
+    "subject": "Environment",
+    "theme": "Biodiversity Conservation",
+    "micro_topic": "International Big Cat Alliance and tiger conservation institutions",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Research, Development and Innovation (RDI) Scheme, consider the following statements:\n1. It was approved by the Union Cabinet with a corpus of Rs 1 lakh crore.\n2. It is anchored by the Anusandhan National Research Foundation, with the Department of Science and Technology as the nodal implementing department.\n3. Its primary instrument is outright capital grants to public research laboratories.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "The Union Cabinet approved the RDI Scheme on 1 July 2025 with a corpus of Rs 1 lakh crore, so statement 1 is correct. It is anchored by the Anusandhan National Research Foundation (ANRF) with the Department of Science and Technology as the nodal implementing department, so statement 2 is correct. Statement 3 is incorrect: the scheme is designed to catalyse private-sector-led R&D through long-tenure, low- or nil-interest loans (and equity in deep-tech) routed via second-level fund managers, not outright grants to public laboratories. On 1 September 2026 the Union Minister called for wider awareness of the Fund's purpose and eligibility at the Technology Development Board's 30th Foundation Day.",
+    "subject": "Science & Technology",
+    "theme": "Research and Innovation Ecosystem",
+    "micro_topic": "RDI Scheme, ANRF and DST funding architecture",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Central Consumer Protection Authority (CCPA) recently penalised an online marketplace for listing ammonium nitrate. In this context, consider the following statements:\n1. The CCPA is a statutory authority established under the Consumer Protection Act, 2019.\n2. Ammonium nitrate is regulated as an explosive substance under the Explosives Act, 1884.\n3. The CCPA can pass orders against false or misleading advertisements.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. The CCPA is established under Section 10 of the Consumer Protection Act, 2019. Ammonium nitrate is regulated as an explosive substance under the Explosives Act, 1884, read with the Ammonium Nitrate Rules, 2012. Under Section 21 of the 2019 Act the CCPA can issue directions and impose penalties for false or misleading advertisements - the ground on which it imposed a Rs 10 lakh penalty on Dial4Trade for listing ammonium nitrate as an ordinary product without disclosing the licensing requirement, while rejecting the platform's safe-harbour defence.",
+    "subject": "Polity & Governance",
+    "theme": "Regulatory Bodies and Consumer Protection",
+    "micro_topic": "CCPA powers under the Consumer Protection Act, 2019",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]
