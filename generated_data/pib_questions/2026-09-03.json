@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the 'Swachh Sagar, Surakshit Sagar' (SSSS) campaign, consider the following statements:\n1. It is implemented by the Ministry of Environment, Forest and Climate Change.\n2. The 2026 edition introduces a national 'Ocean Olympiad' for students and youth for the first time.\n3. The campaign is linked to the Deep Ocean Mission.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statement 1 is incorrect: Swachh Sagar, Surakshit Sagar is spearheaded by the Ministry of Earth Sciences, with NIOT Chennai hosting the pledge portal, not by MoEFCC. Statement 2 is correct: the 5th edition (SSSS v.5.0), launched on 3 September 2026 for the window 12-19 September, introduces the first-ever national Ocean Olympiad. Statement 3 is correct: the Minister explicitly described the campaign as inspired by the Deep Ocean Mission. The campaign covers beach clean-ups at 100+ locations along India's 11,000+ km coastline.",
+    "subject": "Environment",
+    "theme": "Marine pollution and coastal conservation",
+    "micro_topic": "Swachh Sagar Surakshit Sagar 5.0",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements regarding BHASHINI:\n1. It is India's National Language Translation Mission implemented under the Ministry of Electronics and Information Technology.\n2. In 2026 it engaged Kathmandu University to develop Language AI models for Nepali, Newari, Tamang and Gurung.\n3. It is designed only for the 22 languages listed in the Eighth Schedule to the Constitution.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Statements 1 and 2 are correct: BHASHINI is the National Language Translation Mission under MeitY, and the Digital India BHASHINI Division held the BHASHINI SANGAM workshop in Kathmandu with Kathmandu University's DPI-AI centre, covering Nepali, Newari, Tamang and Gurung as well as the Prachalit and Ranjana scripts. Statement 3 is incorrect: BHASHINI is not restricted to the 22 Eighth Schedule languages, and its Nepal engagement explicitly targets non-scheduled, low-resource languages. The engagement builds on an MoU signed in June 2026.",
+    "subject": "Science & Technology",
+    "theme": "Artificial Intelligence and Digital Public Infrastructure",
+    "micro_topic": "BHASHINI Language AI and India-Nepal DPI cooperation",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Shipbuilding Development Scheme (SbDS), seen in the news recently in connection with an in-principle approval for a large cluster in Kendrapara, Odisha, is administered by which one of the following?",
+    "options": [
+      "(a) Ministry of Heavy Industries",
+      "(b) Ministry of Ports, Shipping and Waterways",
+      "(c) Ministry of Commerce and Industry",
+      "(d) Ministry of Defence (Department of Defence Production)"
+    ],
+    "answer": "(b)",
+    "explanation": "The Shipbuilding Development Scheme is a scheme of the Ministry of Ports, Shipping and Waterways. Under it, the National Shipbuilding and Heavy Industries Park Odisha Limited (NSHIPOL) received in-principle approval for a Rs 24,700 crore shipbuilding and heavy industries cluster on the northern bank of the Mahanadi in Kendrapara, opposite the IFFCO plant at Paradip. The cluster envisages about 1.2 million GT annual capacity over 2,000-2,500 acres with a 2-2.5 km waterfront, to be built through an SPV involving the Odisha Maritime Board and Paradip Port Authority. Final approval requires a DPR plus environmental and CRZ clearances.",
+    "subject": "Economy",
+    "theme": "Infrastructure and manufacturing",
+    "micro_topic": "Shipbuilding Development Scheme and maritime clusters",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]
