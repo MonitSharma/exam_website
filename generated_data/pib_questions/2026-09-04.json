@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to geothermal energy in India, consider the following statements:\n1. The Ministry of Earth Sciences is the nodal ministry for implementing the National Policy on Geothermal Energy.\n2. India's first geothermal wells have been commissioned in the Puga Valley of Ladakh.\n3. The Geological Survey of India has identified ten geothermal provinces in the country.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statement 1 is incorrect: the Ministry of New and Renewable Energy (MNRE) is the nodal ministry for the National Policy on Geothermal Energy, which was notified in September 2025. Statement 2 is correct: the ONGC Energy Centre commissioned India's first two geothermal wells, each 1,000 metres deep, at Puga Valley in Ladakh at over 14,000 feet, paving the way for a 1 MW demonstration geothermal power project. Statement 3 is correct: the Geological Survey of India has mapped 381 hot springs and identified 10 geothermal provinces - Himalayan, Naga-Lusai, Andaman and Nicobar, Son-Narmada-Tapi (SONATA), West Coast, Cambay Graben, Aravalli, Mahanadi, Godavari and South Indian Cratonic - with a theoretical prospect of about 10.6 GW across 42 promising sites.",
+    "subject": "Environment",
+    "theme": "Renewable energy and clean energy transition",
+    "micro_topic": "Geothermal energy and the National Policy on Geothermal Energy",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The document 'RAKSHA', released in September 2026, is best described as:",
+    "options": [
+      "(a) A Ministry of External Affairs white paper on India's neighbourhood-first policy",
+      "(b) A defence diplomacy document setting out India's strategic roadmap for global defence partnerships over the next ten years",
+      "(c) A tri-service joint doctrine on the creation of integrated theatre commands",
+      "(d) A scheme for transfer of DRDO-developed technologies to the private defence industry"
+    ],
+    "answer": "(b)",
+    "explanation": "'RAKSHA' was released by Raksha Mantri Rajnath Singh in New Delhi on 3 September 2026. It is a comprehensive document on defence diplomacy that outlines India's strategic roadmap and vision for global defence partnerships over the next ten years. Its four pillars are strategic partnerships (bilateral and multilateral security cooperation), capacity building (joint exercises and training with friendly foreign countries), indigenous exports (positioning India as a credible global defence manufacturing hub), and maritime security (India as net security provider and first responder in the Indian Ocean Region). Option (d) refers to the separate August 2026 approval for transfer of technology of DRDO-developed missile systems to Indian industry.",
+    "subject": "International Relations",
+    "theme": "India's defence diplomacy and strategic partnerships",
+    "micro_topic": "'RAKSHA' defence diplomacy document, Ministry of Defence",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Consider the following statements regarding tribal development programmes:\n1. Both PM-JANMAN and Dharti Aaba Janjatiya Gram Utkarsh Abhiyan (DA-JGUA) are anchored in the Ministry of Tribal Affairs.\n2. PM-JANMAN specifically targets Particularly Vulnerable Tribal Groups (PVTGs).\n3. Article 275(1) of the Constitution provides for grants-in-aid to States for promoting the welfare of Scheduled Tribes.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three statements are correct. PM-JANMAN (Pradhan Mantri Janjati Adivasi Nyaya Maha Abhiyan) and DA-JGUA (Dharti Aaba Janjatiya Gram Utkarsh Abhiyan) are both anchored in the Ministry of Tribal Affairs, which conducted a component-wise review of the two on 3 September 2026 and released 'Adi Darpan' along with an ITDA/ITDP roadmap and operational guidelines. PM-JANMAN is specifically directed at Particularly Vulnerable Tribal Groups. Article 275(1) provides grants-in-aid from the Consolidated Fund of India to States for promoting the welfare of Scheduled Tribes and for administration of Scheduled Areas; the review covered Utilisation Certificates under Article 275(1) alongside the two schemes.",
+    "subject": "Polity & Governance",
+    "theme": "Welfare schemes for vulnerable sections",
+    "micro_topic": "PM-JANMAN, DA-JGUA and Article 275(1) grants",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]
