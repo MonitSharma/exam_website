@@ -627,7 +627,12 @@ function WeeklyPlanCard() {
   const todayDate = isoDateToUtc(ds.todayIso) || new Date();
   const todayNum = todayDate.getUTCDate();
   const isCurrentWeek = sweep.date && isIsoWithinWeek(ds.todayIso, getSundayWeekStartIso(sweep.date));
-  const plan = isCurrentWeek ? balancedWeekPlan(todayDate) : state.plan;
+  // Prefer the real parsed Sunday Sweep (its day-by-day chapters) for every week,
+  // including the current one. Fall back to the generic template only if the
+  // sweep could not be parsed.
+  const plan = (state.plan && state.plan.days && state.plan.days.length)
+    ? state.plan
+    : (isCurrentWeek ? balancedWeekPlan(todayDate) : state.plan);
   const activeIdx = selected == null ? 0 : selected;
   const day = plan && plan.days ? plan.days[activeIdx] : null;
   const isToday = isCurrentWeek && day && day.dayNum === todayNum;
