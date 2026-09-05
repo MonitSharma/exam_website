@@ -1,0 +1,698 @@
+[
+  {
+    "id": "weekly_quiz_2026_09_04_1",
+    "question_number": 1,
+    "question": "With reference to the elevation of India–Uzbekistan ties in the news this week, consider the following:",
+    "statements": [
+      "The relationship was elevated to a Comprehensive Strategic Partnership, and a framework for long-term supply of Uzbek uranium to India was agreed.",
+      "Uzbekistan is one of only two doubly landlocked countries in the world.",
+      "Indian UPI apps are to be enabled to scan Uzbekistan's UZQR for merchant payments."
+    ],
+    "tail": "Which of the statements above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All three are correct: elevation to Comprehensive Strategic Partnership plus a uranium supply framework; Uzbekistan is doubly landlocked (with Liechtenstein); and UPI–UZQR interoperability was agreed.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_04_2",
+    "question_number": 2,
+    "question": "The Legal Metrology (Indian Standard Time) Rules, 2026 were in the news. Which of the following is/are correct?",
+    "statements": [
+      "They are notified under the Legal Metrology Act, 2009.",
+      "CSIR–National Physical Laboratory is the technical custodian of IST, working with ISRO.",
+      "IST is based on the 82°30′ E meridian passing near Mirzapur, Uttar Pradesh."
+    ],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All correct — enabling statute is the Legal Metrology Act, 2009; CSIR-NPL is custodian with ISRO; IST = UTC+5:30 on the 82°30′ E meridian near Mirzapur.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_04_3",
+    "question_number": 3,
+    "question": "Regarding the Q1 FY27 (April–June 2026) national income estimates released on 31 August 2026:",
+    "statements": [
+      "Real GDP grew 7.8%, higher than in the corresponding quarter a year earlier.",
+      "Real Gross Value Added grew faster than real GDP during the quarter.",
+      "The estimates use a National Accounts series with base year 2011-12."
+    ],
+    "tail": "Which are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "1 and 2 are correct (7.8% vs 6.9% a year earlier; real GVA 8.2% > real GDP 7.8%). Statement 3 is wrong — the new series uses base year 2022-23, not 2011-12.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_04_4",
+    "question_number": 4,
+    "question": "\"Semicon 2.0\" (India Semiconductor Mission 2.0), notified this week, is best described as:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "a pure capex subsidy scheme confined to setting up silicon wafer fabrication plants"
+      },
+      {
+        "key": "b",
+        "text": "an ecosystem programme extending support across fabrication, ATMP/OSAT, equipment and materials, chip design and IP, R&D and talent"
+      },
+      {
+        "key": "c",
+        "text": "a scheme to import finished chips at concessional duty"
+      },
+      {
+        "key": "d",
+        "text": "a fund exclusively for building semiconductor design software abroad"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Semicon 2.0 (Rs 1,27,500 crore, six pillars, ten categories) shifts from a fabs-only capex subsidy to whole-of-stack ecosystem support.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_04_5",
+    "question_number": 5,
+    "question": "The Electoral Democracy Index that placed India at 0.38 (2025) is published by:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "The Economist Intelligence Unit"
+      },
+      {
+        "key": "b",
+        "text": "Freedom House"
+      },
+      {
+        "key": "c",
+        "text": "the V-Dem Institute, University of Gothenburg"
+      },
+      {
+        "key": "d",
+        "text": "the UN Committee on the Elimination of Racial Discrimination"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The Electoral Democracy Index is a V-Dem (Varieties of Democracy) product, hosted at the University of Gothenburg, Sweden — distinct from EIU's Democracy Index and Freedom House.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_04_6",
+    "question_number": 6,
+    "question": "The Supreme Court's 1 September 2026 order quashing all FIRs from the NEET-UG protests relied on Article 142. Which is correct?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Article 142 can be exercised by both the Supreme Court and High Courts"
+      },
+      {
+        "key": "b",
+        "text": "Article 142 empowers the Supreme Court to pass any order \"necessary for doing complete justice\", a power unique to it"
+      },
+      {
+        "key": "c",
+        "text": "Article 142 can override fundamental rights under any circumstance"
+      },
+      {
+        "key": "d",
+        "text": "High Courts exercise the identical power under Article 226"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Article 142 lets only the Supreme Court pass orders \"necessary for doing complete justice\"; High Courts cannot import it into Article 226, and per *Prem Chand Garg* it cannot override fundamental rights or substantive law.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_04_7",
+    "question_number": 7,
+    "question": "With reference to the GCRMN's *Status of Coral Reefs of the World* report:",
+    "statements": [
+      "Coral bleaching is the expulsion of endosymbiotic zooxanthellae under thermal stress.",
+      "The report finds the interval between mass bleaching events has shortened from about a decade to roughly 4–6 years.",
+      "Degree Heating Weeks (DHW) is the accumulated thermal-stress metric used to gauge bleaching risk."
+    ],
+    "tail": "Which are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All correct — bleaching = loss of zooxanthellae; disturbance interval down to ~4–6 years; DHW (4 °C-weeks = significant bleaching, 8 °C-weeks = widespread mortality) is the stress metric.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_04_8",
+    "question_number": 8,
+    "question": "The Nancy Grace Roman Space Telescope, launched on 30 August 2026, is headed for which location, and by which technique will it chiefly hunt exoplanets?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Sun-Earth L1; radial-velocity method"
+      },
+      {
+        "key": "b",
+        "text": "Sun-Earth L2; gravitational microlensing"
+      },
+      {
+        "key": "c",
+        "text": "Low Earth orbit; transit photometry"
+      },
+      {
+        "key": "d",
+        "text": "Sun-Earth L2; direct spectroscopy only"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Roman heads for a halo orbit at Sun-Earth L2 (~1.5 million km) and will census exoplanets chiefly via gravitational microlensing.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_04_9",
+    "question_number": 9,
+    "question": "Larak Island, in the news this week, is located in:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "the Bab-el-Mandeb strait, off Djibouti"
+      },
+      {
+        "key": "b",
+        "text": "the Strait of Hormuz, off Bandar Abbas, Iran"
+      },
+      {
+        "key": "c",
+        "text": "the Palk Strait, off Sri Lanka"
+      },
+      {
+        "key": "d",
+        "text": "the Strait of Malacca, off Sumatra"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Larak is an Iranian island in the Strait of Hormuz, off Bandar Abbas, east of Qeshm — a chokepoint carrying roughly a fifth of global seaborne oil.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_04_10",
+    "question_number": 10,
+    "question": "The FGM-148 Javelin, for which India signed a Letter of Offer and Acceptance this week, is:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "a first-generation wire-guided ATGM acquired via a Direct Commercial Sale"
+      },
+      {
+        "key": "b",
+        "text": "a third-generation, fire-and-forget, top-attack ATGM acquired through the US Foreign Military Sales route"
+      },
+      {
+        "key": "c",
+        "text": "a surface-to-air missile bought from Russia"
+      },
+      {
+        "key": "d",
+        "text": "an indigenous DRDO anti-tank missile"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Javelin is a third-generation, fire-and-forget, top-attack ATGM (tandem HEAT warhead) acquired via the US Foreign Military Sales route through the DSCA.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_04_11",
+    "question_number": 11,
+    "question": "On the credit-rating action reported on 2 September 2026, which is correct?",
+    "statements": [
+      "The Japan Credit Rating Agency raised India's long-term issuer rating to 'A−' from 'BBB+'.",
+      "JCR is one of the \"Big Three\" global rating agencies.",
+      "The action also raised India's country ceiling to 'A'."
+    ],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "1 and 3 correct. Statement 2 is wrong — JCR is Japanese and not one of the Big Three (S&P, Moody's, Fitch).",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_04_12",
+    "question_number": 12,
+    "question": "The Gollalagudi (Gollala Gudi) temple at Palampet, declared a Monument of National Importance this week, is:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "a Hoysala temple built by Vishnuvardhana"
+      },
+      {
+        "key": "b",
+        "text": "a Kakatiya-era trikutalaya (three-shrine) temple in the same village as the Ramappa Temple"
+      },
+      {
+        "key": "c",
+        "text": "a Pallava rock-cut cave temple at Mahabalipuram"
+      },
+      {
+        "key": "d",
+        "text": "a Chola temple built by Rajaraja I"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Gollalagudi is a Kakatiya-era trikutalaya (three-shrine) temple at Palampet — the same village as the UNESCO-listed Ramappa (Rudreshwara) Temple.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_04_13",
+    "question_number": 13,
+    "question": "Aihole in Karnataka is often called the \"cradle of Indian temple architecture.\" Its Durga temple is notable for:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "a fully developed Nagara curvilinear shikhara"
+      },
+      {
+        "key": "b",
+        "text": "an apsidal (gajaprishta, \"elephant-back\") plan echoing a Buddhist chaitya"
+      },
+      {
+        "key": "c",
+        "text": "being the earliest brick temple in India"
+      },
+      {
+        "key": "d",
+        "text": "a stepped pyramidal vimana identical to Thanjavur"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The Durga temple's apsidal *gajaprishta* plan resembles a Buddhist chaitya; Aihole was the Chalukyas' architectural laboratory.",
+    "subject": "Ancient & Medieval History & Art/Culture",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_04_14",
+    "question_number": 14,
+    "question": "With reference to the Fourth Buddhist Council:",
+    "statements": [
+      "It was convened under the patronage of the Kushan ruler Kanishka in Kashmir.",
+      "It was associated with the Sarvastivada school and its proceedings were compiled in Sanskrit.",
+      "Vasumitra presided, with Ashvaghosha as deputy."
+    ],
+    "tail": "Which are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All correct — Kanishka's council in Kashmir, Sarvastivada school, compiled in Sanskrit (the *Mahavibhasha*), with Vasumitra presiding and Ashvaghosha as deputy.",
+    "subject": "Ancient & Medieval History & Art/Culture",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_04_15",
+    "question_number": 15,
+    "question": "The Brihadisvara Temple at Thanjavur:",
+    "statements": [
+      "was built by the Chola ruler Rajaraja I around 1010 CE.",
+      "is a classic example of the Dravida style, crowned by a towering vimana.",
+      "forms part of the UNESCO \"Great Living Chola Temples\" World Heritage site."
+    ],
+    "tail": "Which are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All correct — Rajaraja I, c. 1010 CE; Dravida vimana; part of the UNESCO Great Living Chola Temples.",
+    "subject": "Ancient & Medieval History & Art/Culture",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_04_16",
+    "question_number": 16,
+    "question": "The gold coins of Samudragupta depict him in several roles. Which coin type shows the emperor playing the veena (lyre)?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Ashvamedha type"
+      },
+      {
+        "key": "b",
+        "text": "Tiger-slayer type"
+      },
+      {
+        "key": "c",
+        "text": "Lyrist type"
+      },
+      {
+        "key": "d",
+        "text": "Battle-axe type"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The Lyrist type shows Samudragupta playing the veena, projecting him as a cultured ruler; the Ashvamedha type commemorates his horse sacrifice.",
+    "subject": "Ancient & Medieval History & Art/Culture",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_04_17",
+    "question_number": 17,
+    "question": "Nalanda Mahavihara is traditionally held to have been founded by which Gupta ruler (identified with \"Shakraditya\")?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Chandragupta I"
+      },
+      {
+        "key": "b",
+        "text": "Samudragupta"
+      },
+      {
+        "key": "c",
+        "text": "Kumaragupta I"
+      },
+      {
+        "key": "d",
+        "text": "Skandagupta"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Nalanda Mahavihara is traditionally credited to Kumaragupta I (identified with \"Shakraditya\"), 5th century CE.",
+    "subject": "Ancient & Medieval History & Art/Culture",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_04_18",
+    "question_number": 18,
+    "question": "Match the Indus (Harappan) site with the feature for which it is best known:",
+    "statements": [
+      "Mohenjodaro — Great Bath",
+      "Lothal — dockyard",
+      "Dholavira — sophisticated water-harvesting reservoirs"
+    ],
+    "tail": "Which pairings are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All pairings are correct: Mohenjodaro–Great Bath, Lothal–dockyard, Dholavira–water reservoirs.",
+    "subject": "Ancient & Medieval History & Art/Culture",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_04_19",
+    "question_number": 19,
+    "question": "With reference to Sangam literature:",
+    "statements": [
+      "It was composed in old Tamil and compiled at assemblies traditionally associated with Madurai under Pandya patronage.",
+      "The *Tolkappiyam* is a work on Tamil grammar and poetics.",
+      "It was composed primarily in Sanskrit under Chola patronage."
+    ],
+    "tail": "Which are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "1 and 2 correct. Statement 3 is wrong — Sangam literature is in old Tamil, associated with Pandya (Madurai) patronage, not Sanskrit/Chola.",
+    "subject": "Ancient & Medieval History & Art/Culture",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_04_20",
+    "question_number": 20,
+    "question": "In Indo-Islamic architecture of the early Delhi Sultanate (e.g., the Quwwat-ul-Islam mosque and Qutb Minar complex), a defining structural shift from earlier Indian temple building was:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "from arcuate (true arch and dome) to trabeate (post-and-lintel) construction"
+      },
+      {
+        "key": "b",
+        "text": "from trabeate (post-and-lintel) toward arcuate (true arch and dome) construction"
+      },
+      {
+        "key": "c",
+        "text": "the first use of the curvilinear Nagara shikhara"
+      },
+      {
+        "key": "d",
+        "text": "the abandonment of stone in favour of timber"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Indo-Islamic building introduced arcuate construction (true arches and domes) in place of the indigenous trabeate (post-and-lintel) system; early Delhi Sultanate work used corbelling before true arches matured. R1. Real GDP grew 7.8% in Q1 FY27, estimated on the new 2022-23 base-year National Accounts series. R2. The Nancy Grace Roman Space Telescope, bound for Sun-Earth L2. --- *Scoring guide: 16–20 strong recall · 11–15 revise weak areas · ≤10 re-read this week's CA + PIB digests and your Ancient & Medieval / Art & Culture (Nitin Singhania + NCERT) notes. Next week's static subject: Geography.* *Auto-generated run note: current-affairs questions (Part A) are drawn strictly from your daily CA/PIB briefings for 29 August – 4 September 2026 in `daily/daily_current_affairs/` and `daily/daily_pib/`. Static facts (Part B) were cross-checked against standard public sources. No questions repeat the last four recall quizzes; the static subject rotates to Ancient & Medieval History & Art/Culture (rotation #4 of 9).*",
+    "subject": "Ancient & Medieval History & Art/Culture",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  }
+]

@@ -12,6 +12,132 @@
   ],
   "questionSets": [
     {
+      "id": "daily_questions_2026_09_05",
+      "label": "Daily Questions - 05 Sept 2026",
+      "shortLabel": "Daily 05 Sept",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-09-05.json",
+      "isoDate": "2026-09-05",
+      "subjects": [
+        "Polity & Governance",
+        "Society",
+        "Economy",
+        "Science & Technology",
+        "Environment"
+      ]
+    },
+    {
+      "id": "daily_questions_2026_09_04",
+      "label": "Daily Questions - 04 Sept 2026",
+      "shortLabel": "Daily 04 Sept",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-09-04.json",
+      "isoDate": "2026-09-04",
+      "subjects": [
+        "International Relations",
+        "Internal Security",
+        "Environment",
+        "Polity & Governance",
+        "Society"
+      ]
+    },
+    {
+      "id": "daily_questions_2026_09_03",
+      "label": "Daily Questions - 03 Sept 2026",
+      "shortLabel": "Daily 03 Sept",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-09-03.json",
+      "isoDate": "2026-09-03",
+      "subjects": [
+        "Science & Technology",
+        "Economy",
+        "Reports & Indices",
+        "Art & Culture",
+        "Geography"
+      ]
+    },
+    {
+      "id": "daily_questions_2026_09_02",
+      "label": "Daily Questions - 02 Sept 2026",
+      "shortLabel": "Daily 02 Sept",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-09-02.json",
+      "isoDate": "2026-09-02",
+      "subjects": [
+        "Polity & Governance",
+        "Environment",
+        "Science & Technology",
+        "Geography",
+        "Modern History"
+      ]
+    },
+    {
+      "id": "daily_questions_2026_09_01",
+      "label": "Daily Questions - 01 Sept 2026",
+      "shortLabel": "Daily 01 Sept",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-09-01.json",
+      "isoDate": "2026-09-01",
+      "subjects": [
+        "Economy",
+        "Science & Technology",
+        "Reports & Indices",
+        "Polity & Governance",
+        "Environment"
+      ]
+    },
+    {
+      "id": "daily_questions_2026_08_31",
+      "label": "Daily Questions - 31 Aug 2026",
+      "shortLabel": "Daily 31 Aug",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-08-31.json",
+      "isoDate": "2026-08-31",
+      "subjects": [
+        "International Relations",
+        "Polity & Governance",
+        "Science & Technology",
+        "Geography",
+        "Modern History"
+      ]
+    },
+    {
+      "id": "daily_questions_2026_08_30",
+      "label": "Daily Questions - 30 Aug 2026",
+      "shortLabel": "Daily 30 Aug",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-08-30.json",
+      "isoDate": "2026-08-30",
+      "subjects": [
+        "Economy",
+        "Society",
+        "Environment",
+        "Science & Technology",
+        "Agriculture"
+      ]
+    },
+    {
       "id": "daily_questions_2026_08_29",
       "label": "Daily Questions - 29 Aug 2026",
       "shortLabel": "Daily 29 Aug",
@@ -1532,6 +1658,23 @@
       ]
     },
     {
+      "id": "daily_rc_2026_08_31",
+      "label": "Daily RC Drill - 31 Aug 2026",
+      "shortLabel": "RC 31 Aug",
+      "category": "Daily Reading Comprehension",
+      "sourceType": "rc",
+      "questionCount": 8,
+      "durationMinutes": 16,
+      "path": "generated_data/rc_questions/2026-08-31.json",
+      "isoDate": "2026-08-31",
+      "paper": "GS Paper II (CSAT)",
+      "marksPerCorrect": 2,
+      "negativeMark": -0.66,
+      "subjects": [
+        "Reading Comprehension"
+      ]
+    },
+    {
       "id": "daily_rc_2026_08_24",
       "label": "Daily RC Drill - 24 Aug 2026",
       "shortLabel": "RC 24 Aug",
@@ -1767,6 +1910,118 @@
       "negativeMark": -0.66,
       "subjects": [
         "Reading Comprehension"
+      ]
+    },
+    {
+      "id": "pib_questions_2026_09_05",
+      "label": "PIB Questions - 05 Sept 2026",
+      "shortLabel": "PIB 05 Sept",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-09-05.json",
+      "isoDate": "2026-09-05",
+      "subjects": [
+        "Science & Technology",
+        "Polity & Governance",
+        "Economy"
+      ]
+    },
+    {
+      "id": "pib_questions_2026_09_04",
+      "label": "PIB Questions - 04 Sept 2026",
+      "shortLabel": "PIB 04 Sept",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-09-04.json",
+      "isoDate": "2026-09-04",
+      "subjects": [
+        "Environment",
+        "International Relations",
+        "Polity & Governance"
+      ]
+    },
+    {
+      "id": "pib_questions_2026_09_03",
+      "label": "PIB Questions - 03 Sept 2026",
+      "shortLabel": "PIB 03 Sept",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-09-03.json",
+      "isoDate": "2026-09-03",
+      "subjects": [
+        "Environment",
+        "Science & Technology",
+        "Economy"
+      ]
+    },
+    {
+      "id": "pib_questions_2026_09_02",
+      "label": "PIB Questions - 02 Sept 2026",
+      "shortLabel": "PIB 02 Sept",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-09-02.json",
+      "isoDate": "2026-09-02",
+      "subjects": [
+        "Environment",
+        "Science & Technology",
+        "Polity & Governance"
+      ]
+    },
+    {
+      "id": "pib_questions_2026_09_01",
+      "label": "PIB Questions - 01 Sept 2026",
+      "shortLabel": "PIB 01 Sept",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-09-01.json",
+      "isoDate": "2026-09-01",
+      "subjects": [
+        "Science & Technology",
+        "Economy",
+        "Polity & Governance"
+      ]
+    },
+    {
+      "id": "pib_questions_2026_08_31",
+      "label": "PIB Questions - 31 Aug 2026",
+      "shortLabel": "PIB 31 Aug",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-08-31.json",
+      "isoDate": "2026-08-31",
+      "subjects": [
+        "Economy",
+        "Polity & Governance",
+        "International Relations"
+      ]
+    },
+    {
+      "id": "pib_questions_2026_08_30",
+      "label": "PIB Questions - 30 Aug 2026",
+      "shortLabel": "PIB 30 Aug",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-08-30.json",
+      "isoDate": "2026-08-30",
+      "subjects": [
+        "Science & Technology",
+        "Economy",
+        "Agriculture"
       ]
     },
     {
@@ -3104,6 +3359,39 @@
       ]
     },
     {
+      "id": "weekly_quiz_2026_09_06",
+      "label": "Weekly Recall Quiz - 06 Sept 2026",
+      "shortLabel": "Weekly Quiz 06 Sept",
+      "category": "Weekly Quiz",
+      "sourceType": "weekly-quiz",
+      "questionCount": 15,
+      "durationMinutes": 25,
+      "path": "weekly/weekly_quiz/weekly_questions_2026-09-06.json",
+      "isoDate": "2026-09-06",
+      "subjects": [
+        "Polity & Governance",
+        "Science & Technology",
+        "International Relations",
+        "Economy",
+        "Environment"
+      ]
+    },
+    {
+      "id": "weekly_quiz_2026_09_04",
+      "label": "Weekly Recall Quiz - 04 Sept 2026",
+      "shortLabel": "Weekly Quiz 04 Sept",
+      "category": "Weekly Quiz",
+      "sourceType": "weekly-quiz",
+      "questionCount": 20,
+      "durationMinutes": 30,
+      "path": "generated_data/weekly_quiz_questions/2026-09-04.json",
+      "isoDate": "2026-09-04",
+      "subjects": [
+        "Current Affairs",
+        "Ancient & Medieval History & Art/Culture"
+      ]
+    },
+    {
       "id": "weekly_quiz_2026_08_30",
       "label": "Weekly Recall Quiz - 30 Aug 2026",
       "shortLabel": "Weekly Quiz 30 Aug",
@@ -3783,6 +4071,23 @@
       ]
     },
     {
+      "id": "csat_practice_2026_08_30",
+      "label": "CSAT Practice - 30 Aug 2026",
+      "shortLabel": "CSAT Practice 30 Aug",
+      "category": "CSAT Practice",
+      "sourceType": "csat",
+      "questionCount": 22,
+      "durationMinutes": 35,
+      "path": "generated_data/csat_questions/2026-08-30.json",
+      "isoDate": "2026-08-30",
+      "paper": "GS Paper II (CSAT)",
+      "marksPerCorrect": 2,
+      "negativeMark": -0.66,
+      "subjects": [
+        "CSAT"
+      ]
+    },
+    {
       "id": "csat_practice_2026_08_23",
       "label": "CSAT Practice - 23 Aug 2026",
       "shortLabel": "CSAT Practice 23 Aug",
@@ -4150,6 +4455,24 @@
       ]
     },
     {
+      "id": "monthly_mock_2026_09_01",
+      "label": "Monthly Mock - 01 Sept 2026",
+      "shortLabel": "Monthly 01 Sept",
+      "category": "Monthly Mock",
+      "sourceType": "ai",
+      "questionCount": 30,
+      "durationMinutes": 120,
+      "path": "generated_data/monthly_questions/2026-09-01.json",
+      "isoDate": "2026-09-01",
+      "subjects": [
+        "Economy",
+        "Polity & Governance",
+        "Modern History",
+        "Ancient & Medieval History",
+        "Geography"
+      ]
+    },
+    {
       "id": "monthly_mock_2026_08_01",
       "label": "Monthly Mock - 01 Aug 2026",
       "shortLabel": "Monthly 01 Aug",
@@ -4325,6 +4648,14 @@
   ],
   "noteDocuments": [
     {
+      "id": "anki-prelims-flashcards-2026-08-30",
+      "cadence": "anki",
+      "title": "Prelims Flashcards",
+      "shortTitle": "Anki - 30 Aug",
+      "date": "2026-08-30",
+      "path": "anki/Prelims_Flashcards_2026-08-30.txt"
+    },
+    {
       "id": "anki-prelims-flashcards-2026-08-23",
       "cadence": "anki",
       "title": "Prelims Flashcards",
@@ -4395,6 +4726,62 @@
       "shortTitle": "Anki - 21 Jun",
       "date": "2026-06-21",
       "path": "anki/Prelims_Flashcards_2026-06-21.txt"
+    },
+    {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-09-05",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "05 Sept 2026",
+      "date": "2026-09-05",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-09-05.md"
+    },
+    {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-09-04",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "04 Sept 2026",
+      "date": "2026-09-04",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-09-04.md"
+    },
+    {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-09-03",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "03 Sept 2026",
+      "date": "2026-09-03",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-09-03.md"
+    },
+    {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-09-02",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "02 Sept 2026",
+      "date": "2026-09-02",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-09-02.md"
+    },
+    {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-09-01",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "01 Sept 2026",
+      "date": "2026-09-01",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-09-01.md"
+    },
+    {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-08-31",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "31 Aug 2026",
+      "date": "2026-08-31",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-08-31.md"
+    },
+    {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-08-30",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "30 Aug 2026",
+      "date": "2026-08-30",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-08-30.md"
     },
     {
       "id": "daily-daily-current-affairs-upsc-ca-2026-08-29",
@@ -5069,6 +5456,14 @@
       "path": "daily/daily_current_affairs/UPSC_CA_2026-06-07.md"
     },
     {
+      "id": "weekly-editorials-editorials-mains-2026-09-03",
+      "cadence": "editorials",
+      "title": "Editorials to Mains",
+      "shortTitle": "Mains - 03 Sept",
+      "date": "2026-09-03",
+      "path": "weekly/Editorials/Editorials_Mains_2026-09-03.md"
+    },
+    {
       "id": "weekly-editorials-editorials-mains-2026-08-27",
       "cadence": "editorials",
       "title": "Editorials to Mains",
@@ -5163,6 +5558,14 @@
       "shortTitle": "Mains - 11 Jun",
       "date": "2026-06-11",
       "path": "weekly/Editorials/Editorials_Mains_2026-06-11.md"
+    },
+    {
+      "id": "weekly-essays-essay-2026-09-05",
+      "cadence": "essay",
+      "title": "Model Essay",
+      "shortTitle": "Essay - 05 Sept",
+      "date": "2026-09-05",
+      "path": "weekly/Essays/Essay_2026-09-05.md"
     },
     {
       "id": "weekly-essays-essay-2026-08-29",
@@ -5365,6 +5768,14 @@
       "path": "monthly/CA_Compilation_2026-07.md"
     },
     {
+      "id": "monthly-ca-compilation-2026-08",
+      "cadence": "monthly",
+      "title": "Monthly CA Compilation",
+      "shortTitle": "",
+      "date": "",
+      "path": "monthly/CA_Compilation_2026-08.md"
+    },
+    {
       "id": "monthly-monthly-checkpoint-2026-06",
       "cadence": "monthly",
       "title": "Monthly Checkpoint",
@@ -5379,6 +5790,14 @@
       "shortTitle": "",
       "date": "",
       "path": "monthly/Monthly_Checkpoint_2026-07.md"
+    },
+    {
+      "id": "monthly-monthly-checkpoint-2026-08",
+      "cadence": "monthly",
+      "title": "Monthly Checkpoint",
+      "shortTitle": "",
+      "date": "",
+      "path": "monthly/Monthly_Checkpoint_2026-08.md"
     },
     {
       "id": "weekly-physics-physics-pyq-2026-08-18",
@@ -5483,6 +5902,62 @@
       "shortTitle": "10 Jun",
       "date": "2026-06-10",
       "path": "weekly/Physics/Physics_Drill_2026-06-10.md"
+    },
+    {
+      "id": "daily-daily-pib-pib-2026-09-05",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 05 Sept",
+      "date": "2026-09-05",
+      "path": "daily/daily_pib/PIB_2026-09-05.md"
+    },
+    {
+      "id": "daily-daily-pib-pib-2026-09-04",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 04 Sept",
+      "date": "2026-09-04",
+      "path": "daily/daily_pib/PIB_2026-09-04.md"
+    },
+    {
+      "id": "daily-daily-pib-pib-2026-09-03",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 03 Sept",
+      "date": "2026-09-03",
+      "path": "daily/daily_pib/PIB_2026-09-03.md"
+    },
+    {
+      "id": "daily-daily-pib-pib-2026-09-02",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 02 Sept",
+      "date": "2026-09-02",
+      "path": "daily/daily_pib/PIB_2026-09-02.md"
+    },
+    {
+      "id": "daily-daily-pib-pib-2026-09-01",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 01 Sept",
+      "date": "2026-09-01",
+      "path": "daily/daily_pib/PIB_2026-09-01.md"
+    },
+    {
+      "id": "daily-daily-pib-pib-2026-08-31",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 31 Aug",
+      "date": "2026-08-31",
+      "path": "daily/daily_pib/PIB_2026-08-31.md"
+    },
+    {
+      "id": "daily-daily-pib-pib-2026-08-30",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 30 Aug",
+      "date": "2026-08-30",
+      "path": "daily/daily_pib/PIB_2026-08-30.md"
     },
     {
       "id": "daily-daily-pib-pib-2026-08-29",
@@ -6117,6 +6592,14 @@
       "path": "daily/daily_pib/PIB_2026-06-11.md"
     },
     {
+      "id": "daily-daily-reading-comprehension-rc-drill-2026-08-31",
+      "cadence": "rc",
+      "title": "CSAT Daily RC Drill",
+      "shortTitle": "RC - 31 Aug",
+      "date": "2026-08-31",
+      "path": "daily/daily_reading_comprehension/RC_Drill_2026-08-31.md"
+    },
+    {
       "id": "daily-daily-reading-comprehension-rc-drill-2026-08-24",
       "cadence": "rc",
       "title": "CSAT Daily RC Drill",
@@ -6227,6 +6710,14 @@
       "shortTitle": "RC - 08 Jun",
       "date": "2026-06-08",
       "path": "daily/daily_reading_comprehension/RC_Drill_2026-06-08.md"
+    },
+    {
+      "id": "weekly-schemes-schemes-reports-2026-08-30",
+      "cadence": "schemes",
+      "title": "Schemes & Reports",
+      "shortTitle": "Reports - 30 Aug",
+      "date": "2026-08-30",
+      "path": "weekly/Schemes/Schemes_Reports_2026-08-30.md"
     },
     {
       "id": "weekly-schemes-schemes-reports-2026-08-23",
@@ -6504,6 +6995,14 @@
       "path": "CSAT_Strategy_Guide.md"
     },
     {
+      "id": "weekly-sunday-sunday-sweep-2026-09-06",
+      "cadence": "sunday",
+      "title": "Sunday Sweep",
+      "shortTitle": "Week of 06 Sept",
+      "date": "2026-09-06",
+      "path": "weekly/Sunday/Sunday_Sweep_2026-09-06.md"
+    },
+    {
       "id": "weekly-sunday-sunday-sweep-2026-08-30",
       "cadence": "sunday",
       "title": "Sunday Sweep",
@@ -6606,6 +7105,14 @@
       "shortTitle": "Week of 07 Jun",
       "date": "2026-06-07",
       "path": "weekly/Sunday/Sunday_Sweep_2026-06-07.md"
+    },
+    {
+      "id": "weekly-csat-csat-practice-2026-08-30",
+      "cadence": "weekly-csat",
+      "title": "CSAT Practice",
+      "shortTitle": "Practice - 30 Aug",
+      "date": "2026-08-30",
+      "path": "weekly/CSAT/CSAT_Practice_2026-08-30.md"
     },
     {
       "id": "weekly-csat-csat-practice-2026-08-23",
@@ -6718,6 +7225,14 @@
       "shortTitle": "PYQ - 08 Jun",
       "date": "2026-06-08",
       "path": "weekly/CSAT/CSAT_PYQ_2026-06-08.md"
+    },
+    {
+      "id": "weekly-weekly-news-places-in-news-2026-09-05",
+      "cadence": "weekly-news",
+      "title": "Places in News",
+      "shortTitle": "Map - 05 Sept",
+      "date": "2026-09-05",
+      "path": "weekly/weekly_news/Places_in_News_2026-09-05.md"
     },
     {
       "id": "weekly-weekly-news-places-in-news-2026-08-29",
