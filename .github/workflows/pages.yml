@@ -5,6 +5,11 @@ on:
     branches: [main]
   pull_request:
   workflow_dispatch:
+  # Rebuild + redeploy in the cloud every day at 01:00 UTC (~06:30 IST), so the
+  # live site always reflects the latest committed content even if no push
+  # happened to trigger a deploy that day.
+  schedule:
+    - cron: '0 1 * * *'
 
 permissions:
   contents: read
