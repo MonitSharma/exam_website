@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the GSLV-F17/EOS-05 mission, consider the following statements:\n1. EOS-05 is India's first imaging satellite designed to operate from a geosynchronous orbit.\n2. GSLV-F17 was the 19th flight of India's Geosynchronous Satellite Launch Vehicle.\n3. GSLV-F17 injected EOS-05 directly into a circular geostationary orbit.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 3 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 2 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "Statements 1 and 2 are correct: ISRO describes EOS-05 as India's first-ever imaging satellite from geosynchronous orbit, and GSLV-F17 was the 19th flight of the GSLV, launched from the Second Launch Pad at Satish Dhawan Space Centre, SHAR. Statement 3 is incorrect - the vehicle placed EOS-05 into a Sub-Geosynchronous Transfer Orbit (Sub-GTO), from which the satellite raises itself to its final geosynchronous slot using onboard propulsion.",
+    "subject": "Science & Technology",
+    "theme": "Space Technology",
+    "micro_topic": "GSLV-F17 / EOS-05 geosynchronous imaging satellite",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to Zonal Councils in India, consider the following statements:\n1. They were established under the States Reorganisation Act, 1956.\n2. The Union Home Minister is the Chairman of each of the five Zonal Councils, while a Chief Minister of a member State serves as Vice-Chairman on a rotational basis.\n3. The recommendations made by a Zonal Council are binding on its member States.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statements 1 and 2 are correct: the five Zonal Councils are statutory bodies constituted under Sections 15 to 22 of the States Reorganisation Act, 1956; the Union Home Minister chairs all five, and a Chief Minister of a member State is Vice-Chairman by annual rotation. The Western Zonal Council covers Goa, Gujarat, Maharashtra and the UT of Dadra and Nagar Haveli and Daman and Diu, and its 28th meeting is to be held in Panaji on 7 September 2026. Statement 3 is incorrect - the role of the Zonal Councils is purely advisory and recommendatory, not binding.",
+    "subject": "Polity & Governance",
+    "theme": "Centre-State Relations",
+    "micro_topic": "Zonal Councils and the Inter-State Council Secretariat",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Emergency Credit Line Guarantee Scheme (ECLGS) 5.0, consider the following statements:\n1. It is implemented by the National Credit Guarantee Trustee Company (NCGTC).\n2. It provides 100% credit guarantee coverage on loans extended to eligible MSMEs and 90% coverage for eligible non-MSME borrowers.\n3. Scheduled passenger airline companies are among the categories eligible for support under the scheme.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three statements are correct. ECLGS 5.0, approved on 5 May 2026 to cushion businesses against external supply-chain and liquidity shocks, is implemented by the National Credit Guarantee Trustee Company (NCGTC) and targets additional credit flow of up to Rs 2.55 lakh crore, remaining operational until 31 March 2027. Guarantee cover is 100% for eligible MSMEs and 90% for eligible non-MSMEs. Scheduled passenger airline companies form a distinct eligible category with 90% cover, a ceiling of Rs 1,500 crore per borrower and a 7-year tenure including a 2-year moratorium.",
+    "subject": "Economy",
+    "theme": "Banking and Credit",
+    "micro_topic": "ECLGS 5.0 credit guarantee scheme for MSMEs and airlines",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]
