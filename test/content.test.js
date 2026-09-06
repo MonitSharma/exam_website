@@ -63,6 +63,12 @@ test("the Atlas news data covers every Places in News note", () => {
   assert.ok(Array.isArray(news.weeks) && news.weeks.length, "weeks are present");
   assert.ok(Array.isArray(news.features) && news.features.length, "features are present");
 
+  for (const note of manifest.noteDocuments.filter((n) => n.cadence === "weekly-news")) {
+    const week = news.weeks.find((w) => w.source === note.path);
+    assert.ok(week, `Missing Atlas week for ${note.path}`);
+    assert.ok(news.features.some((f) => f.weekId === week.id), `Missing pins for ${note.path}`);
+  }
+
   // Every feature must belong to a declared week, or it can never be shown.
   const weekIds = new Set(news.weeks.map((week) => week.id));
   const orphans = news.features.filter((feature) => !weekIds.has(feature.weekId));

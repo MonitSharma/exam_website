@@ -8,7 +8,7 @@ function practiceDateLabel(isoDate) {
 }
 
 function practiceBundleKey(set) {
-  return set && set.isoDate ? `${set.sourceType}:${set.isoDate}` : set?.id || "";
+  return window.UPSC_CONTENT.bundleKey(set);
 }
 
 function practiceBundleFor(set, sets) {
@@ -46,7 +46,9 @@ function PracticeScreen({ go }) {
     { id: "weekly-quiz", title: "Weekly quiz", desc: "Current affairs plus static recall MCQs.", sourceType: "weekly-quiz", tone: "indigo", icon: "layers" },
     { id: "pib", title: "PIB questions", desc: "Daily questions from PIB briefs and releases.", sourceType: "pib", tone: "green", icon: "fileText" },
     { id: "sectional", title: "Sectional test", desc: "Subject-wise prelims practice sets.", sourceType: "sectional", tone: "saffron", icon: "target" },
-    { id: "ai", title: "AI question set", desc: "Generated practice sets by batch.", sourceType: "ai", tone: "saffron", icon: "spark" },
+    { id: "full", title: "GS full mock", desc: "Complete GS practice papers.", sourceType: "ai", format: "full-paper", tone: "green", icon: "fileText" },
+    { id: "monthly", title: "Monthly mock", desc: "Consolidated monthly practice.", sourceType: "ai", format: "monthly-mock", tone: "indigo", icon: "calendar" },
+    { id: "ai", title: "Generated question set", desc: "Practice sets by batch.", sourceType: "ai", format: "drill", tone: "saffron", icon: "spark" },
     { id: "csr", title: "CSR mock test", desc: "Curated CSR mock batches.", sourceType: "csr", tone: "indigo", icon: "book" },
     { id: "csat", title: "CSAT practice", desc: "Paper II mocks and drills with CSAT marking.", sourceType: "csat", tone: "blue", icon: "target" },
   ];
@@ -54,14 +56,14 @@ function PracticeScreen({ go }) {
   const [type, setType] = usePracticeState("pyq");
   const [timed, setTimed] = usePracticeState(true);
   const currentType = types.find((item) => item.id === type) || types[0];
-  const sets = ds.getQuestionSetsBySource(currentType.sourceType);
+  const sets = ds.getQuestionSetsBySource(currentType.sourceType).filter((set) => !currentType.format || set.format === currentType.format);
   const setBundles = practiceCollapseBundles(sets);
   const [selectedSetId, setSelectedSetId] = usePracticeState(ds.getQuestionSetsBySource("pyq")[0]?.id || ds.defaultPracticeSetId);
   const selectedSet = sets.find((set) => set.id === selectedSetId) || sets[0] || null;
   const selectedExam = exams.find((item) => item.id === exam) || exams[0];
 
   function chooseType(nextType) {
-    const nextSets = ds.getQuestionSetsBySource(nextType.sourceType);
+    const nextSets = ds.getQuestionSetsBySource(nextType.sourceType).filter((set) => !nextType.format || set.format === nextType.format);
     setType(nextType.id);
     setSelectedSetId(nextSets[0]?.id || "");
   }
@@ -81,30 +83,13 @@ function PracticeScreen({ go }) {
         </div>
         <div className="practice-summary">
           <span>{selectedExam.name}</span>
-          <strong>{selectedSet?.label || "No set selected"}</strong>
+          <strong>{selectedSet?.label || "No set selected"}</strong><button className="btn btn-green sm" onClick={beginSelected} disabled={!selectedSet}>Begin selected test</button>
           <em>{selectedSet ? `${selectedSet.questionCount} questions · ${timed ? selectedSet.durationMinutes + " min timed" : "untimed"}` : "Choose an available set"}</em>
         </div>
       </div>
 
       <div className="practice-grid">
-        <section className="panel practice-panel">
-          <header className="panel-head">
-            <h3>Exam</h3>
-            <p>Only live exams can be started.</p>
-          </header>
-          <div className="panel-body practice-exams">
-            {exams.map((item) => (
-              <button
-                key={item.id}
-                className={`practice-exam${exam === item.id ? " on" : ""}${!item.live ? " locked" : ""}`}
-                onClick={() => item.live && setExam(item.id)}
-                disabled={!item.live}>
-                <strong>{item.name}</strong>
-                <span>{item.note}</span>
-              </button>
-            ))}
-          </div>
-        </section>
+        <div className="practice-exam-summary"><strong>UPSC CSE</strong><span>Prelims · GS + CSAT</span><details><summary>Other exams · coming soon</summary><p>SSC CGL · RBI Grade B · Banking</p></details></div>
 
         <section className="panel practice-panel">
           <header className="panel-head">
@@ -143,11 +128,13 @@ function PracticeScreen({ go }) {
               const addOn = bundle.find((item) => item.isSupplementary);
               const selectedInBundle = bundle.find((item) => item.id === selectedSet?.id) || set;
               return (
-              <div key={practiceBundleKey(set)} className={`set-option${active ? " selected" : ""}`} onClick={() => setSelectedSetId(selectedInBundle.id)}>
+              <div key={practiceBundleKey(set)} className={`set-option${active ? " selected" : ""}`}>
+                <button className="set-select" aria-pressed={active} onClick={() => setSelectedSetId(selectedInBundle.id)}>
                 <span className="set-option-kicker">{set.year || (set.isoDate ? practiceDateLabel(set.isoDate) : set.shortLabel)}</span>
                 {addOn && <span className="variant-chip">Practice Add-on</span>}
                 <strong>{set.label}</strong>
-                <span>{bundle.map((item) => `${item.isSupplementary ? "Add-on" : "Core"} ${item.questionCount}q`).join(" · ")}</span>
+                <span>{bundle.map((item) => `${window.UPSC_CONTENT.variantLabel(item)} ${item.questionCount}q`).join(" · ")}</span>
+                </button>
                 {bundle.length > 1 && (
                   <div className="set-variant-tabs" onClick={(event) => event.stopPropagation()}>
                     {bundle.map((item) => (
@@ -155,7 +142,7 @@ function PracticeScreen({ go }) {
                         key={item.id}
                         className={selectedSet?.id === item.id ? "on" : ""}
                         onClick={() => setSelectedSetId(item.id)}>
-                        {item.isSupplementary ? "Add-on" : "Core"}
+                        {window.UPSC_CONTENT.variantLabel(item)}
                       </button>
                     ))}
                   </div>
@@ -163,7 +150,7 @@ function PracticeScreen({ go }) {
               </div>
             );})}
           </div>
-          {!sets.length && <div className="empty-panel"><strong>No sets yet.</strong><span>Add a question file in the expected folder, then rebuild or push to GitHub.</span></div>}
+          {!sets.length && <div className="empty-panel"><strong>No sets yet.</strong><span>Choose another practice type or check back for the next set.</span></div>}
           <div className="practice-start">
             <button className="btn ghost" onClick={() => go("home")}><Icon name="arrowL" size={16} /> Home</button>
             <button className="btn btn-green" onClick={beginSelected} disabled={!selectedExam.live || !selectedSet}>

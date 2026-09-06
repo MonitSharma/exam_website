@@ -84,27 +84,7 @@ function questionSetCalendarLabel(set) {
   return "Practice set";
 }
 
-function noteCalendarLabel(doc) {
-  const labels = {
-    daily: "CA briefing",
-    pib: "PIB note",
-    mains: "Mains practice",
-    editorials: "Editorials",
-    monthly: "Monthly note",
-    rc: "RC note",
-    sunday: "Sunday plan",
-    anki: "Flashcards",
-    physics: "Physics note",
-    "weekly-csat": "CSAT note",
-    "weekly-news": "Places note",
-    schemes: "Schemes note",
-    sectional: "Sectional note",
-    fodder: "Fodder bank",
-    ethics: "Ethics case",
-    strategy: "Strategy note",
-  };
-  return labels[doc.cadence] || "Note";
-}
+function noteCalendarLabel(doc) { return window.UPSC_CONTENT.notes[doc.cadence]?.label || "Note"; }
 
 function latestDatedItem(items, dateKey, todayIso) {
   return [...items]
@@ -310,7 +290,7 @@ function HeroCalendar({ go, progress }) {
                 key={iso}
                 className={`cal-day${iso === today ? " today" : ""}${iso === selectedDate ? " selected" : ""}${materialCount ? " available" : ""}${complete ? " done" : ""}`}
                 onClick={() => setSelectedDate(iso)}
-                title={materialCount ? `${materialCount} materials` : "No materials"}>
+                aria-label={`${formatIsoDate(iso)}, ${materialCount} materials`} aria-pressed={iso === selectedDate} title={materialCount ? `${materialCount} materials` : "No materials"}>
                 <span>{day}</span>
                 {materialCount > 0 && <i className="cal-count">{materialCount}</i>}
                 {complete && <Icon name="check" size={12} />}
@@ -333,7 +313,7 @@ function HeroCalendar({ go, progress }) {
                     <small>{item.meta}</small>
                   </span>
                 </span>
-                <Icon name={item.type === "test" ? "play" : "book"} size={15} />
+                <span className="calendar-material-status">{progress.manualCompletions?.[item.id] || progress.history?.some((entry) => entry.questionSetId === item.id) ? <><Icon name="check" size={15} /> Done</> : <Icon name={item.type === "test" ? "play" : "book"} size={15} />}</span>
               </button>
             )) : <p>No notes or practice sets for this date.</p>}
           </div>
@@ -888,12 +868,12 @@ function QuestionSetPicker({ bank, sets, go, onClose }) {
             <span className="set-option-kicker">{set.year || (set.isoDate ? formatIsoDate(set.isoDate, { day: "2-digit", month: "short" }) : set.shortLabel)}</span>
             {addOn && <span className="variant-chip">Practice Add-on</span>}
             <strong>{set.label}</strong>
-            <span>{bundle.map((item) => `${item.isSupplementary ? "Add-on" : "Core"} ${item.questionCount}q`).join(" · ")}</span>
+            <span>{bundle.map((item) => `${window.UPSC_CONTENT.variantLabel(item)} ${item.questionCount}q`).join(" · ")}</span>
             {bundle.length > 1 ? (
               <div className="set-variant-tabs">
                 {bundle.map((item) => (
                   <button key={item.id} onClick={() => go("test", { setId: item.id })}>
-                    {item.isSupplementary ? "Add-on" : "Core"}
+                    {window.UPSC_CONTENT.variantLabel(item)}
                   </button>
                 ))}
               </div>
@@ -908,7 +888,7 @@ function QuestionSetPicker({ bank, sets, go, onClose }) {
 }
 
 function questionSetBundleKey(set) {
-  return set && set.isoDate ? `${set.sourceType}:${set.isoDate}` : set?.id || "";
+  return window.UPSC_CONTENT.bundleKey(set);
 }
 
 function questionSetBundleFor(set, sets) {
@@ -930,29 +910,11 @@ function collapseQuestionSetBundles(sets) {
   return [...byKey.values()].map((items) => items.find((set) => !set.isSupplementary) || items[0]).filter(Boolean);
 }
 
-const CADENCE_META = {
-  "daily": { label: "Daily CA", group: "Daily" },
-  "pib": { label: "Daily PIB", group: "Daily" },
-  "rc": { label: "Daily RC", group: "Daily" },
-  "mains": { label: "Daily Mains", group: "Daily" },
-  "editorials": { label: "Editorials", group: "Weekly" },
-  "schemes": { label: "Schemes", group: "Weekly" },
-  "sunday": { label: "Sunday Sweep", group: "Weekly" },
-  "weekly-csat": { label: "CSAT", group: "Weekly" },
-  "physics": { label: "Physics", group: "Weekly" },
-  "weekly-news": { label: "Weekly News", group: "Weekly" },
-  "weekly": { label: "Weekly", group: "Weekly" },
-  "sectional": { label: "Sectional", group: "Weekly" },
-  "ethics": { label: "Ethics", group: "Weekly" },
-  "monthly": { label: "Monthly", group: "Monthly" },
-  "anki": { label: "Anki", group: "Reference" },
-  "fodder": { label: "Fodder", group: "Reference" },
-  "strategy": { label: "Strategy", group: "Reference" },
-};
+const CADENCE_META = window.UPSC_CONTENT.notes;
 const GROUP_ORDER = ["Daily", "Weekly", "Monthly", "Reference"];
 
 function noteBundleKey(doc) {
-  return doc && doc.date ? `${doc.cadence}:${doc.date}` : doc?.id || "";
+  return window.UPSC_CONTENT.bundleKey(doc);
 }
 
 function noteBundleFor(doc, docs) {
@@ -994,9 +956,9 @@ function TodayPreparation({ go, progress, review, onStartReview }) {
   const minutes = Math.max(12, (dueQuestions ? Math.min(dueQuestions, 12) : 0) + (dailySet && !dailyDone ? Number(dailySet.durationMinutes || 10) : 0) + 8);
   return (
     <section className="today-prep">
-      <div className="today-prep-head"><div><span className="eyebrow small"><span className="eyebrow-line" /> Your next session</span><h3>Today’s preparation</h3><p>A small loop: recall what is due, attempt today’s questions, then reinforce your weakest area.</p></div><div className="today-prep-time"><span className="today-prep-time-label">Estimated session</span><strong>~{minutes} min</strong><span>{dailyDone && !dueQuestions ? "Momentum maintained" : "Ready when you are"}</span></div></div>
+      <div className="today-prep-head"><div><span className="eyebrow small"><span className="eyebrow-line" /> Your next session</span><h2>Your next session</h2><p>A small loop: recall what is due, attempt today’s questions, then reinforce your weakest area.</p></div><div className="today-prep-time"><span className="today-prep-time-label">Estimated session</span><strong>~{minutes} min</strong><span>{dailyDone && !dueQuestions ? "Momentum maintained" : "Ready when you are"}</span></div></div>
       <div className="today-prep-steps">{steps.map((step, index) => <button key={step.key} className={`today-prep-step${step.done ? " done" : ""}`} onClick={step.action} aria-label={`${step.label}: ${step.title}`}><span className="today-prep-number">{step.done ? "✓" : String(index + 1).padStart(2, "0")}</span><span className="today-prep-step-copy"><em>{step.label}</em><strong>{step.title}</strong><small>{step.meta}</small></span><Icon name="arrowR" size={15} /></button>)}</div>
-      <button className="today-prep-cta" onClick={next.action}><span><Icon name="bolt" size={15} /> Start next: {next.title}</span><Icon name="arrowR" size={15} /></button>
+      <button className="today-prep-cta" onClick={next.action}><span><Icon name="bolt" size={15} /> Continue preparation: {next.title}</span><Icon name="arrowR" size={15} /></button>
     </section>
   );
 }
@@ -1023,7 +985,7 @@ function CatchUpTeaser({ go, progress }) {
   );
 }
 
-function NotesLibrary() {
+function NotesLibrary({ go, noteId, progress, onMarkDone }) {
   const ds = window.UPSC;
   const order = Object.keys(CADENCE_META);
   const availableCadences = new Set(ds.noteDocuments.map((doc) => doc.cadence));
@@ -1033,12 +995,12 @@ function NotesLibrary() {
     items: tabs.filter((key) => CADENCE_META[key].group === g),
   })).filter((cluster) => cluster.items.length);
 
-  const [cadence, setCadence] = useStateHome(() => loadPref("notesCadence", tabs[0] || "daily"));
+  const [cadence, setCadence] = useStateHome(() => ds.noteDocuments.find((doc) => doc.id === noteId)?.cadence || loadPref("notesCadence", tabs[0] || "daily"));
   const activeCadence = tabs.includes(cadence) ? cadence : tabs[0] || cadence;
   const meta = CADENCE_META[activeCadence] || { label: "Notes" };
   const docs = ds.noteDocuments.filter((doc) => doc.cadence === activeCadence);
   const docIds = docs.map((doc) => doc.id).join("|");
-  const [selectedId, setSelectedId] = useStateHome(docs[0]?.id || null);
+  const [selectedId, setSelectedId] = useStateHome(noteId || docs[0]?.id || null);
   const [monthFilter, setMonthFilter] = useStateHome("latest");
   const [weekFilter, setWeekFilter] = useStateHome("latest");
   const [noteState, setNoteState] = useStateHome({ loading: false, error: "", note: null, content: "" });
@@ -1078,25 +1040,13 @@ function NotesLibrary() {
   }, [activeCadence, docIds]);
 
   useEffectHome(() => {
-    function onOpenNote(event) {
-      const target = (event.detail && event.detail.cadence) || "";
-      const targetId = (event.detail && event.detail.id) || "";
-      const targetDoc = targetId ? ds.noteDocuments.find((doc) => doc.id === targetId) : null;
-      const targetCadence = targetDoc ? targetDoc.cadence : target;
-      if (targetCadence && tabs.includes(targetCadence)) setCadence(targetCadence);
-      if (targetDoc) {
-        setMonthFilter(noteMonthKey(targetDoc));
-        setSelectedId(targetDoc.id);
-      }
-      const scrollToNotes = () => {
-        const section = document.querySelector(".notes-library");
-        if (section) window.scrollTo({ top: section.getBoundingClientRect().top + window.scrollY - 64, behavior: "smooth" });
-      };
-      requestAnimationFrame(() => requestAnimationFrame(scrollToNotes));
-    }
-    window.addEventListener("pariksha:open-note", onOpenNote);
-    return () => window.removeEventListener("pariksha:open-note", onOpenNote);
-  }, [tabs.join("|")]);
+    const target = ds.noteDocuments.find((doc) => doc.id === noteId);
+    if (!target) return;
+    setCadence(target.cadence);
+    setMonthFilter(noteMonthKey(target));
+    setWeekFilter(noteWeekKey(target));
+    setSelectedId(target.id);
+  }, [noteId]);
 
   useEffectHome(() => {
     if (!selectedId) {
@@ -1116,12 +1066,12 @@ function NotesLibrary() {
   }, [selectedId]);
 
   return (
-    <section className="notes-library notes-v2">
+    <section className="notes-library notes-v2" aria-label="Study library">
       <div className="notes-head">
         <div className="notes-title">
           <span className="eyebrow small"><span className="eyebrow-line" /> Notes &amp; briefings</span>
-          <h3>Briefs, drills &amp; strategy</h3>
-          <p className="notes-sub">Daily current-affairs briefs, weekly drills and evergreen strategy - read them in one place, filtered by month.</p>
+          <h1>Study library</h1>
+          <p className="notes-sub">Briefings, writing practice and revision notes. Choose a category and week to begin.</p>
         </div>
         <div className="notes-cats" role="tablist" aria-label="Notes categories">
           {grouped.map((cluster) => (
@@ -1221,12 +1171,14 @@ function NotesLibrary() {
                       aria-selected={selectedId === doc.id}
                       className={selectedId === doc.id ? "on" : ""}
                       onClick={() => setSelectedId(doc.id)}>
-                      {doc.isSupplementary ? "Companion" : "Brief"}
+                      {window.UPSC_CONTENT.variantLabel(doc)}
                     </button>
                   ))}
                 </div>
               )}
-              <h4>{selectedDoc.title}</h4>
+              <h2>{selectedDoc.title}</h2>
+              {window.UPSC_CONTENT.notes[selectedDoc.cadence]?.writing && <button className="btn ghost sm" aria-pressed={Boolean(progress?.manualCompletions?.[selectedDoc.id])} onClick={() => onMarkDone(selectedDoc.id, !progress?.manualCompletions?.[selectedDoc.id])}>{progress?.manualCompletions?.[selectedDoc.id] ? "Written · undo" : "Mark answer written"}</button>}
+              <RelatedStudy doc={selectedDoc} go={go} />
               {selectedDoc.shortTitle && selectedDoc.shortTitle !== formatIsoDate(selectedDoc.date) && <p>{selectedDoc.shortTitle}</p>}
             </header>
           )}
@@ -1412,12 +1364,13 @@ function MarkdownView({ text }) {
       continue;
     }
     if (/^\d+\.\s+/.test(line)) {
+      const start = Number(line.match(/^\d+/)[0]);
       const items = [];
       while (i < lines.length && /^\d+\.\s+/.test(lines[i])) {
         items.push(lines[i].replace(/^\d+\.\s+/, ""));
         i++;
       }
-      blocks.push({ type: "ordered-list", items });
+      blocks.push({ type: "ordered-list", items, start });
       continue;
     }
     const paragraph = [];
@@ -1443,7 +1396,7 @@ function MarkdownView({ text }) {
         }
         if (block.type === "quote") return <blockquote key={index}>{renderInline(block.text)}</blockquote>;
         if (block.type === "list") return <ul key={index}>{block.items.map((item, itemIndex) => <li key={itemIndex}>{renderInline(item)}</li>)}</ul>;
-        if (block.type === "ordered-list") return <ol key={index}>{block.items.map((item, itemIndex) => <li key={itemIndex}>{renderInline(item)}</li>)}</ol>;
+        if (block.type === "ordered-list") return <ol key={index} start={block.start}>{block.items.map((item, itemIndex) => <li key={itemIndex}>{renderInline(item)}</li>)}</ol>;
         if (block.type === "math") return <MathText key={index} value={block.text} display />;
         if (block.type === "rule") return <hr key={index} />;
         if (block.type === "table") {
@@ -1598,6 +1551,20 @@ function renderInline(text) {
   }
 
   while (i < source.length) {
+    if (source[i] === "[") {
+      const labelEnd = source.indexOf("](", i + 1);
+      if (labelEnd > i) {
+        let end = labelEnd + 2, depth = 1;
+        while (end < source.length && depth) { if (source[end] === "(") depth++; if (source[end] === ")") depth--; end++; }
+        if (!depth) {
+          const href = source.slice(labelEnd + 2, end - 1).trim();
+          if (/^https?:\/\//i.test(href) && !/[\s\u0000-\u001f]/.test(href)) {
+            parts.push({ type: "link", value: source.slice(i + 1, labelEnd), href });
+            i = end; continue;
+          }
+        }
+      }
+    }
     if (source.startsWith("`", i)) {
       const end = source.indexOf("`", i + 1);
       if (end > i) {
@@ -1638,6 +1605,7 @@ function renderInline(text) {
   }
 
   return parts.map((part, index) => {
+    if (part.type === "link") return <a key={index} href={part.href} target="_blank" rel="noopener noreferrer">{renderInline(part.value)}</a>;
     if (part.type === "strong") return <strong key={index}>{renderInline(part.value)}</strong>;
     if (part.type === "code") return <code key={index}>{part.value}</code>;
     if (part.type === "math") return <MathText key={index} value={part.value} />;
@@ -1647,7 +1615,7 @@ function renderInline(text) {
 }
 
 function nextInlineMarker(source, fromIndex) {
-  const markers = ["`", "$", "**", "*"]
+  const markers = ["[", "`", "$", "**", "*"]
     .map((marker) => source.indexOf(marker, fromIndex))
     .filter((index) => index >= 0);
   return markers.length ? Math.min(...markers) : source.length;
@@ -1699,47 +1667,38 @@ function renderMathHtml(formula, display) {
 }
 
 function Home({ go, progress, summary, review, onStartReview }) {
+  const ds = window.UPSC;
   return (
-    <div className="home">
-      <section className="hero">
-        <div className="hero-grid">
-          <div className="hero-inner">
-            <span className="eyebrow"><span className="eyebrow-line" /> Free · No login · Open practice bank</span>
-            <h1 className="hero-title">
-              Every UPSC question,<br /><em>one calm place to practise.</em>
-            </h1>
-            <p className="hero-sub">
-              A decade of previous-year papers, AI-generated sets and a fresh daily quiz —
-              with score tracking that quietly shows you what to revise next.
-            </p>
-            <ExamSwitcher />
-            <HeroStudyDesk go={go} progress={progress} />
-            <HeroStreak go={go} progress={progress} summary={summary} />
-          </div>
-          <HeroCalendar go={go} progress={progress} />
+    <div className="home home-focused">
+      <section className="hero"><div className="hero-grid">
+        <div className="hero-inner">
+          <span className="eyebrow"><span className="eyebrow-line" /> UPSC CSE · Your study desk</span>
+          <h1 className="hero-title">One day at a time.<br /><em>One step closer.</em></h1>
+          <p className="hero-sub">{ds.years.length} years of previous-year papers, daily briefings and focused practice. Pick up where you left off.</p>
+          <TodayPreparation go={go} progress={progress} review={review} onStartReview={onStartReview} />
+          <div className="home-shortcuts"><button className="btn ghost" onClick={() => go("library")}><Icon name="book" size={16} /> Read the library</button><button className="btn ghost" onClick={() => go("practice")}><Icon name="play" size={16} /> Browse practice</button></div>
+          <div className="home-summary" aria-label="Your progress"><span><strong>{summary.streak}</strong> day streak</span><span><strong>{summary.questionsSolved || summary.questions || 0}</strong> questions solved</span><button className="link-btn" onClick={() => go("dashboard")}>View progress <Icon name="arrowR" size={14} /></button></div>
         </div>
-      </section>
-
+        <HeroCalendar go={go} progress={progress} />
+      </div></section>
       <WeeklyPlanCard />
-      <TodayPreparation go={go} progress={progress} review={review} onStartReview={onStartReview} />
       <CatchUpTeaser go={go} progress={progress} />
-
-      <div className="home-main">
-        <div className="home-col-l">
-          <DailyQuizCard go={go} progress={progress} />
-          <DailyRcCard go={go} />
-          <ReviseNextCard go={go} progress={progress} summary={summary} review={review} onStartReview={onStartReview} />
-        </div>
-        <div className="home-col-r">
-          <Snapshot go={go} summary={summary} />
-          <BuildTest go={go} />
-        </div>
-      </div>
-
-      <BankBrowse go={go} />
-      <NotesLibrary />
     </div>
   );
 }
 
-Object.assign(window, { Home, WeeklyPlanCard, parseWeekPlan });
+function RelatedStudy({ doc, go }) {
+  const ds = window.UPSC;
+  const sets = ds.questionSets.filter((set) => doc.relatedSetIds?.includes(set.id));
+  const notes = ds.noteDocuments.filter((note) => doc.relatedNoteIds?.includes(note.id));
+  const labs = Object.entries(typeof LAB_GUIDES === "undefined" ? {} : LAB_GUIDES).filter(([, guide]) => guide.pyqSubjects.some((subject) => doc.subjectIds?.includes(window.UPSC_CONTENT.subjectId(subject))));
+  if (!sets.length && !notes.length && !doc.atlasWeekId && !labs.length) return null;
+  return <section className="related-study" aria-label="Related study"><strong>Continue from this note</strong><div>
+    {sets.map((set) => <button className="btn ghost sm" key={set.id} onClick={() => go("test", { setId: set.id, returnTo: "library" })}>{set.label} · {set.questionCount}Q</button>)}
+    {notes.map((note) => <button className="btn ghost sm" key={note.id} onClick={() => go("library", { noteId: note.id })}>{note.title}</button>)}
+    {doc.atlasWeekId && (doc.mapStatus === "ready" ? <button className="btn ghost sm" onClick={() => go("atlas", { weekId: doc.atlasWeekId })}>Locate {doc.atlasFeatureIds.length} places on the map</button> : <span>Map pending for this briefing</span>)}
+    {labs.slice(0, 4).map(([id, guide]) => <button className="btn ghost sm" key={id} onClick={() => go("labs", { focusSubject: guide.pyqSubjects[0] })}>{guide.path.split(" · ").slice(-1)[0]} · revision &amp; PYQs</button>)}
+  </div></section>;
+}
+
+Object.assign(window, { Home, NotesLibrary, WeeklyPlanCard, parseWeekPlan });

@@ -78,7 +78,7 @@ test("a question marked dropped does not make a set look unscoreable on its own"
 
 test("the production build output is complete", () => {
   const dist = path.join(ROOT, "dist");
-  if (!fs.existsSync(dist)) return; // only meaningful after `npm run build`
+  assert.ok(fs.existsSync(dist), "Run npm run check to build and test the deployment artifact");
   for (const required of ["index.html", "sw.js", "manifest.webmanifest", "favicon.svg",
     "app/app.bundle.js", "app/styles.css", "config/content_manifest.json", "config/search/shards.json"]) {
     assert.ok(fs.existsSync(path.join(dist, required)), `dist/${required} is missing`);

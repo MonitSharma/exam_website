@@ -68,6 +68,8 @@ function TestScreen({ go, session, onSubmit }) {
   const [answers, setAnswers] = useTestState({});
   const [marked, setMarked] = useTestState({});
   const [visited, setVisited] = useTestState({ 0: true });
+  const [isMobile, setIsMobile] = useTestState(() => window.matchMedia("(max-width: 940px)").matches);
+  useTestEffect(() => { const query = window.matchMedia("(max-width: 940px)"); const update = () => setIsMobile(query.matches); query.addEventListener("change", update); return () => query.removeEventListener("change", update); }, []);
   const [paletteOpen, setPaletteOpen] = useTestState(false);
   const [exitOpen, setExitOpen] = useTestState(false);
   const [secs, setSecs] = useTestState((initialQuestionSet?.durationMinutes || 120) * 60);
@@ -83,7 +85,7 @@ function TestScreen({ go, session, onSubmit }) {
 
     // A revision session is assembled fresh from the due queue each time, so
     // resuming a stale snapshot of it would answer the wrong questions.
-    const saved = reviewQueue ? null : readSession(selectedId);
+    const saved = reviewQueue || session?.subjects ? null : readSession(selectedId);
     if (saved && saved.answers) {
       setIdx(Number(saved.idx) || 0);
       setAnswers(saved.answers || {});
@@ -102,7 +104,7 @@ function TestScreen({ go, session, onSubmit }) {
     setPaletteOpen(false);
     setExitOpen(false);
 
-    const pending = reviewQueue ? ds.loadReviewSession(reviewQueue) : ds.loadQuestionSet(selectedId);
+    const pending = reviewQueue ? ds.loadReviewSession(reviewQueue) : session?.subjects ? ds.loadSubjectSession(selectedId, session.subjects) : ds.loadQuestionSet(selectedId);
     pending
       .then((result) => {
         if (cancelled) return;
@@ -130,10 +132,10 @@ function TestScreen({ go, session, onSubmit }) {
       });
 
     return () => { cancelled = true; };
-  }, [session?.setId, session?.reviewToken]);
+  }, [session?.setId, session?.reviewToken, session?.subjects?.join(",")]);
 
   useTestEffect(() => {
-    if (loadState.loading || loadState.error) return undefined;
+    if (loadState.loading || loadState.error || session?.timed === false) return undefined;
     const timer = setInterval(() => setSecs((s) => (s > 0 ? s - 1 : 0)), 1000);
     return () => clearInterval(timer);
   }, [loadState.loading, loadState.error, session?.setId]);
@@ -142,14 +144,14 @@ function TestScreen({ go, session, onSubmit }) {
   useTestEffect(() => {
     if (loadState.loading || loadState.error) return;
     const setId = loadState.questionSet?.id;
-    if (!setId || reviewQueue) return;
+    if (!setId || reviewQueue || session?.subjects) return;
     if (submittedRef.current) return;
     writeSession(setId, { idx, answers, marked, visited, secs });
   }, [idx, answers, marked, visited, secs, loadState.loading, loadState.error, loadState.questionSet?.id]);
 
   // Auto-submit when the timer hits zero.
   useTestEffect(() => {
-    if (secs > 0 || loadState.loading || loadState.error) return;
+    if (session?.timed === false || secs > 0 || loadState.loading || loadState.error) return;
     if (submittedRef.current) return;
     if (!loadState.questions?.length) return;
     submitTest();
@@ -355,7 +357,7 @@ function TestScreen({ go, session, onSubmit }) {
           </div>
         </main>
 
-        <aside className={`navigator${paletteOpen ? " open" : ""}`}>
+        <aside className={`navigator${paletteOpen ? " open" : ""}`} inert={isMobile && !paletteOpen ? "" : undefined} aria-hidden={isMobile && !paletteOpen ? true : undefined}>
           <div className="nav-scrim" onClick={() => setPaletteOpen(false)} />
           <div className="nav-inner">
             <div className="nav-head">
@@ -363,7 +365,7 @@ function TestScreen({ go, session, onSubmit }) {
                 <h3>Question palette</h3>
                 <span className="nav-count">{answeredCount} of {qs.length} answered</span>
               </div>
-              <button className="icon-btn ghost only-mobile" onClick={() => setPaletteOpen(false)}><Icon name="x" size={18} /></button>
+              <button className="icon-btn ghost only-mobile" onClick={() => setPaletteOpen(false)} aria-label="Close question palette"><Icon name="x" size={18} /></button>
             </div>
             <div className="palette">
               {qs.map((qq, i) => (

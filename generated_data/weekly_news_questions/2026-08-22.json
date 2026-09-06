@@ -1,0 +1,188 @@
+[
+  {
+    "id": "weekly_news_2026_08_22_1",
+    "question_number": 1,
+    "question": "Hirakud Dam, which opened its gates this monsoon, impounds which river?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Godavari"
+      },
+      {
+        "key": "b",
+        "text": "Mahanadi"
+      },
+      {
+        "key": "c",
+        "text": "Krishna"
+      },
+      {
+        "key": "d",
+        "text": "Subarnarekha"
+      }
+    ],
+    "answer": "b",
+    "explanation": "(Mahanadi; Hirakud is at Sambalpur, western Odisha)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_08_22_2",
+    "question_number": 2,
+    "question": "The Aug 15 M7.7 earthquake and tsunami warning struck near Ende, on which Indonesian island, lying between the Flores Sea and the Savu Sea?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Sumba"
+      },
+      {
+        "key": "b",
+        "text": "Timor"
+      },
+      {
+        "key": "c",
+        "text": "Flores"
+      },
+      {
+        "key": "d",
+        "text": "Lombok"
+      }
+    ],
+    "answer": "c",
+    "explanation": "(Flores, in the Lesser Sundas; epicentre ~68 km NNW of Ende)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_08_22_3",
+    "question_number": 3,
+    "question": "Iturup, which Putin visited on Aug 13, is the largest of which disputed island chain, stretching between the Sea of Okhotsk and the Pacific?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Ryukyu Islands"
+      },
+      {
+        "key": "b",
+        "text": "Sakhalin group"
+      },
+      {
+        "key": "c",
+        "text": "Kuril Islands"
+      },
+      {
+        "key": "d",
+        "text": "Aleutian Islands"
+      }
+    ],
+    "answer": "c",
+    "explanation": "(Kuril Islands; Iturup/Etorofu is Japan's \"Northern Territories\")",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_08_22_4",
+    "question_number": 4,
+    "question": "The Strait of Hormuz, at the centre of the 2026 blockade crisis, connects the Persian Gulf to which water body?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Red Sea"
+      },
+      {
+        "key": "b",
+        "text": "Gulf of Aden"
+      },
+      {
+        "key": "c",
+        "text": "Gulf of Oman"
+      },
+      {
+        "key": "d",
+        "text": "Caspian Sea"
+      }
+    ],
+    "answer": "c",
+    "explanation": "(Gulf of Oman; Iran to the north, Oman's Musandam to the south)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_08_22_5",
+    "question_number": 5,
+    "question": "Pag-asa (Thitu) Island, where China massed vessels this week, lies in which contested island group, west of Palawan?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Paracel Islands"
+      },
+      {
+        "key": "b",
+        "text": "Spratly Islands"
+      },
+      {
+        "key": "c",
+        "text": "Pratas Islands"
+      },
+      {
+        "key": "d",
+        "text": "Senkaku Islands"
+      }
+    ],
+    "answer": "b",
+    "explanation": "(Spratly Islands; Philippine-held Pag-asa, near Subi Reef/Sandy Cay)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_08_22_6",
+    "question_number": 6,
+    "question": "Kalpeshwar, hit by monsoon debris this week, is one of the Panch Kedar in which Himalayan district, in the Alaknanda basin?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Uttarkashi"
+      },
+      {
+        "key": "b",
+        "text": "Chamoli"
+      },
+      {
+        "key": "c",
+        "text": "Rudraprayag"
+      },
+      {
+        "key": "d",
+        "text": "Pithoragarh"
+      }
+    ],
+    "answer": "b",
+    "explanation": "(Chamoli; Kalpeshwar sits in the Urgam valley, Alaknanda basin)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  }
+]

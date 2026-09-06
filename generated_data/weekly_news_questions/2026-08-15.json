@@ -1,0 +1,188 @@
+[
+  {
+    "id": "weekly_news_2026_08_15_1",
+    "question_number": 1,
+    "question": "The magnitude-7.4 quake of Aug 10 struck Chocó, which lies on Colombia's coast facing which ocean, west of which Andean range?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Caribbean; Eastern Cordillera"
+      },
+      {
+        "key": "b",
+        "text": "Pacific; Western Cordillera"
+      },
+      {
+        "key": "c",
+        "text": "Atlantic; Central Cordillera"
+      },
+      {
+        "key": "d",
+        "text": "Pacific; Eastern Cordillera"
+      }
+    ],
+    "answer": "b",
+    "explanation": "(Chocó fronts the Pacific, west of the Western Cordillera; felt across Panama/Ecuador/Peru)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_08_15_2",
+    "question_number": 2,
+    "question": "Puracé volcano sits in the Colombian Massif, the highland source of which two major rivers?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Orinoco & Amazon"
+      },
+      {
+        "key": "b",
+        "text": "Magdalena & Cauca"
+      },
+      {
+        "key": "c",
+        "text": "Atrato & San Juan"
+      },
+      {
+        "key": "d",
+        "text": "Caquetá & Putumayo"
+      }
+    ],
+    "answer": "b",
+    "explanation": "(Magdalena & Cauca rise in the Colombian Massif around Puracé)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_08_15_3",
+    "question_number": 3,
+    "question": "Karangetang, erupting through mid-August, stands on Siau Island in the Sangihe arc — between which two large islands?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Java & Bali"
+      },
+      {
+        "key": "b",
+        "text": "Sumatra & Borneo"
+      },
+      {
+        "key": "c",
+        "text": "Sulawesi (Celebes) & Mindanao"
+      },
+      {
+        "key": "d",
+        "text": "New Guinea & Halmahera"
+      }
+    ],
+    "answer": "c",
+    "explanation": "(Siau/Sangihe arc lies between Sulawesi and Mindanao)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_08_15_4",
+    "question_number": 4,
+    "question": "The Aug 12 total solar eclipse path of totality crossed which sequence of lands?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Canada → USA → Mexico"
+      },
+      {
+        "key": "b",
+        "text": "Siberia → Greenland → Iceland → northern Spain"
+      },
+      {
+        "key": "c",
+        "text": "Chile → Argentina"
+      },
+      {
+        "key": "d",
+        "text": "Egypt → Saudi Arabia → India"
+      }
+    ],
+    "answer": "b",
+    "explanation": "(Arctic Siberia → E Greenland → W Iceland → N Spain; first European totality since 1999)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_08_15_5",
+    "question_number": 5,
+    "question": "Durban, host of the Aug 17 SADC Summit, is a port on which ocean, in which South African province?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Atlantic; Western Cape"
+      },
+      {
+        "key": "b",
+        "text": "Indian Ocean; KwaZulu-Natal"
+      },
+      {
+        "key": "c",
+        "text": "Atlantic; Eastern Cape"
+      },
+      {
+        "key": "d",
+        "text": "Indian Ocean; Gauteng"
+      }
+    ],
+    "answer": "b",
+    "explanation": "(Durban, KwaZulu-Natal, on the Indian Ocean)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_08_15_6",
+    "question_number": 6,
+    "question": "In India, Mandi and Kullu, hardest hit by this monsoon's landslides, lie along which river?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Ravi"
+      },
+      {
+        "key": "b",
+        "text": "Sutlej"
+      },
+      {
+        "key": "c",
+        "text": "Beas"
+      },
+      {
+        "key": "d",
+        "text": "Chenab"
+      }
+    ],
+    "answer": "c",
+    "explanation": "(the Beas; Mandi sits below Pandoh dam, Kullu upstream toward Manali)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  }
+]

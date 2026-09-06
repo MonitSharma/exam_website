@@ -1,0 +1,114 @@
+[
+ {
+  "question": "With reference to the semi-cryogenic engine (SCE-200 / SE-2000) recently hot-tested by ISRO, consider the following statements:\n1. It uses refined kerosene as fuel with liquid oxygen as oxidiser.\n2. It employs an oxidiser-rich staged combustion cycle.\n3. It is being developed to replace the cryogenic upper stage (C25) of the LVM3.\nWhich of the statements given above are correct?",
+  "options": [
+   "(a) 1 and 2 only",
+   "(b) 2 and 3 only",
+   "(c) 1 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(a)",
+  "explanation": "Statements 1 and 2 are correct: SCE-200/SE-2000 burns ISROSENE (refined kerosene, RP-1 class) with liquid oxygen in an oxidiser-rich staged combustion cycle - 'semi'-cryogenic because only the oxidiser is cryogenic. Statement 3 is wrong: the engine is intended to replace the L110 earth-storable core stage (two Vikas engines on UDMH/N2O4) of LVM3 with an SC120 semi-cryogenic stage, not the C25 cryogenic upper stage powered by CE-20. The PHTA was hot-tested at 100% (200 tonne) power for the first time on 5 September 2026 at IPRC Mahendragiri.",
+  "subject": "Science & Technology",
+  "theme": "Indian launch vehicle propulsion; indigenisation of rocket engine technology",
+  "micro_topic": "SCE-200 / SE-2000 semi-cryogenic engine Power Head Test Article hot-tested at full 200 tonne (100%) level on 5 September 2026 at the Semi-cryogenic Integrated Engine Test facility, IPRC Mahendragiri; 9th PHTA test; 35 s duration with 5 s at full power; earlier steps 47% (94 t), 60% (120 t), 88% (175 t); 2,000 kN thrust class; LOX + ISROSENE; oxidiser-rich staged combustion; chamber pressure ~180 bar, feed pressures up to ~600 bar; developed by LPSC, programme sanctioned 2009 at about Rs 1,798 crore; intended SC120 replacement for LVM3's L110 stage and booster for NGLV; first pre-burner ignition May 2024, first PHTA hot test March 2025",
+  "nature": "Current Affairs",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "With reference to the National Policy on Geothermal Energy, 2025 and geothermal energy in India, consider the following statements:\n1. The Ministry of New and Renewable Energy is the nodal ministry for the policy.\n2. India's geothermal resources are predominantly high-enthalpy dry-steam systems, and the policy therefore prioritises grid electricity generation over direct-use applications.\n3. India's first geothermal wells have been commissioned in the Puga Valley of Ladakh.\nWhich of the statements given above are correct?",
+  "options": [
+   "(a) 1 and 2 only",
+   "(b) 1 and 3 only",
+   "(c) 2 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(b)",
+  "explanation": "Statements 1 and 3 are correct: MNRE is the nodal ministry under the National Policy on Geothermal Energy notified on 15 September 2025, and India's first two geothermal wells (1,000 m each) were commissioned at Puga Valley in eastern Ladakh in July 2026 by the ONGC Energy Centre. Statement 2 inverts the position - India's resources are predominantly LOW-to-MEDIUM enthalpy (hot water in the 60-150 degrees C band, not high-pressure dry steam), which is precisely why the policy prioritises direct-use applications such as ground-source heat pumps, industrial process heat, greenhouse cultivation and cold storage, while keeping a 1 MW demonstration power project at Puga.",
+  "subject": "Environment",
+  "theme": "Renewable energy policy; firm and dispatchable clean energy sources",
+  "micro_topic": "National Policy on Geothermal Energy notified 15 September 2025 by MNRE, India's first; single-window clearance, 100% FDI, viability gap funding, accelerated depreciation, GST and import-duty exemptions, repurposing of abandoned oil and gas wells; GSI estimate of about 10,600 MW theoretical potential from 381 thermally anomalous areas across 10 geothermal provinces (Himalayan, Naga-Lushai, Andaman-Nicobar, SONATA, West Coast, Cambay Graben, Aravalli, Mahanadi, Godavari, South Indian Cratonic); Puga Valley, Changthang, eastern Ladakh, above 14,000 ft; two wells of 1,000 m each with about 135 degrees C at 400 m; second well spudded 3 June 2026 and completed 8 July 2026; ONGC Energy Centre with the Ladakh Administration and LAHDC Leh; proposed 1 MW demonstration plant; PIB backgrounder of 5 September 2026",
+  "nature": "Current Affairs",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "The directive that took effect on 4 September 2026 relating to the Unified Payments Interface requires that:\n1. only the last four digits of a user's registered mobile number be displayed to the counterparty in a transaction.\n2. account numbers and Virtual Payment Addresses be similarly masked.\n3. every UPI transaction above a specified value be routed through the Digital Rupee (e-rupee) platform.\nWhich of the statements given above are correct?",
+  "options": [
+   "(a) 1 only",
+   "(b) 1 and 2 only",
+   "(c) 2 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(b)",
+  "explanation": "Statements 1 and 2 are correct: the NPCI directive effective 4 September 2026 limits display to the last four digits of the registered mobile number and extends the same masking to account numbers and Virtual Payment Addresses, with QR-code payments hiding the full number even after the transaction completes; NPCI has also pushed username-based VPAs as the default. Statement 3 is fabricated - there is no requirement to route UPI transactions through the Digital Rupee. UPI moves bank deposit money and is a payment interface; the Digital Rupee is a central bank liability (CBDC).",
+  "subject": "Economy",
+  "theme": "Digital payments architecture and data protection; regulation of retail payment systems",
+  "micro_topic": "NPCI directive effective 4 September 2026 masking the registered mobile number (last four digits visible), account numbers and VPAs on UPI apps, with QR payments hiding the number even post-transaction and username-based VPAs to be the default; rationale of privacy, safety and identity theft, framed against the Digital Personal Data Protection Act, 2023; NPCI set up 2008 at the initiative of the RBI and the Indian Banks' Association under the Payment and Settlement Systems Act, 2007, incorporated as a not-for-profit company under Section 8 of the Companies Act, 2013; NPCI products UPI (2016), IMPS, RuPay, NACH, AePS, BBPS, NETC FASTag, NFS; NPCI International Payments Ltd (2020); distinction between UPI as deposit money and the Digital Rupee as a central bank liability",
+  "nature": "Current Affairs",
+  "difficulty": "Easy"
+ },
+ {
+  "question": "Consider the following statements regarding the 26th Shanghai Cooperation Organisation Heads of State Council Summit:\n1. It was held at Bishkek and adopted the Bishkek Declaration.\n2. English was recognised as an official and working language of the organisation.\n3. The chairmanship for 2026-27 was handed over to Iran.\nWhich of the statements given above are correct?",
+  "options": [
+   "(a) 1 and 2 only",
+   "(b) 2 and 3 only",
+   "(c) 1 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(a)",
+  "explanation": "Statements 1 and 2 are correct: the 26th Council of Heads of State met at Bishkek, Kyrgyzstan, on 31 August-1 September 2026, adopted the Bishkek Declaration and approved 28 documents, and recognised English as an official and working language of the SCO alongside Russian and Chinese - a change supported by India. Statement 3 is wrong: the chairmanship for 2026-27 passed to Pakistan under the theme 'Turning Vision into Action: Connectivity, Innovation and Shared Prosperity', with Lahore designated SCO Tourism and Cultural Capital.",
+  "subject": "International Relations",
+  "theme": "Regional groupings involving India; Eurasian multilateralism",
+  "micro_topic": "26th SCO Council of Heads of State, Yrys-Ordo Congress Hall, Bishkek, 31 August-1 September 2026, chaired by President Sadyr Japarov under the motto '25 Years of the SCO: Together for Sustainable Peace, Development and Prosperity'; SCO Plus meeting on the sidelines; Bishkek Declaration plus 28 documents including 4 MoUs; English recognised as an official and working language; SCO Young Scientists Forum, SCO Young Authors Conference, regulations for the executive committee of the SCO Anti-Narcotics Centre, SCO Civilisational Dialogue Forum to be hosted in India; chairmanship 2026-27 to Pakistan and Lahore as SCO Tourism and Cultural Capital; SCO founded 2001 from the Shanghai Five (1996), Secretariat at Beijing, RATS at Tashkent, India and Pakistan 2017, Iran 2023, Belarus 2024",
+  "nature": "Current Affairs",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "With reference to the National Family Health Survey-6 (NFHS-6), consider the following statements:\n1. It was conducted by the Ministry of Statistics and Programme Implementation with the National Sample Survey Office as the nodal agency.\n2. It records a decline in child stunting compared with NFHS-5.\n3. It records an increase in the proportion of women with at least ten years of schooling.\nWhich of the statements given above are correct?",
+  "options": [
+   "(a) 1 and 2 only",
+   "(b) 2 and 3 only",
+   "(c) 1 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(b)",
+  "explanation": "Statements 2 and 3 are correct: NFHS-6 (fieldwork 2023-24, released May 2026) records child stunting falling from 35.5% in NFHS-5 to 29.3%, and women with at least ten years of schooling rising from 41% to 46.4%. Statement 1 is wrong - the NFHS is conducted by the Ministry of Health and Family Welfare with the International Institute for Population Sciences (IIPS), Mumbai, as the nodal agency; MoSPI and the NSSO conduct the PLFS and the Household Consumption Expenditure Survey instead.",
+  "subject": "Society",
+  "theme": "Education, health and gender indicators; rural-urban disparity",
+  "micro_topic": "NFHS-6 fieldwork 2023-24, released May 2026, Ministry of Health and Family Welfare with IIPS Mumbai as nodal agency, about 6.79 lakh households across 715 districts; females aged 6+ ever attending school 71.8% to 73.7%; women with at least 10 years of schooling 41% to 46.4%; institutional deliveries 90.6%; ANC coverage 92.6% to 95.9%; four or more ANC visits 58.5% to 65.2%; full immunisation of children 12-23 months 83.8% to 87%; stunting 35.5% to 29.3%; health insurance coverage 60.2%; rising adult obesity and diabetes; reported analysis of 4 September 2026 finding the rural male-female education attainment gap about four times the urban gap, driven by secondary-school distance and availability",
+  "nature": "Current Affairs",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "With reference to geothermal resources in India, consider the following pairs:\n1. Puga - Ladakh\n2. Manikaran - Himachal Pradesh\n3. Tattapani - Chhattisgarh\n4. Bakreshwar - Odisha\nHow many of the pairs given above are correctly matched?",
+  "options": [
+   "(a) Only one",
+   "(b) Only two",
+   "(c) Only three",
+   "(d) All four"
+  ],
+  "answer": "(c)",
+  "explanation": "Pairs 1, 2 and 3 are correctly matched. Puga lies in the Changthang region of eastern Ladakh (Himalayan geothermal province); Manikaran is in the Parvati valley of Kullu district, Himachal Pradesh; Tattapani is in Balrampur district, Chhattisgarh, on the SONATA (Son-Narmada-Tapi) lineament. Pair 4 is wrong - Bakreshwar is a well-known hot-spring and geothermal site in Birbhum district, West Bengal, not Odisha.",
+  "subject": "Geography",
+  "theme": "Energy resources and their distribution; Indian geothermal provinces",
+  "micro_topic": "Ten geothermal provinces of India identified by the GSI and the National Policy on Geothermal Energy, 2025 - Himalayan, Naga-Lushai, Andaman-Nicobar, Son-Narmada-Tapi (SONATA), West Coast, Cambay Graben, Aravalli, Mahanadi, Godavari and South Indian Cratonic; site-state mapping for Puga (Ladakh), Manikaran (Kullu, Himachal Pradesh), Tattapani (Balrampur, Chhattisgarh, SONATA belt), Bakreshwar (Birbhum, West Bengal); collisional tectonics, crustal thickening and deep fault circulation as the heat source in the Himalayan belt as against volcanic-arc geothermal systems",
+  "nature": "Factual",
+  "difficulty": "Hard"
+ },
+ {
+  "question": "With reference to the right to education in India, consider the following statements:\n1. Article 21A was inserted by the 86th Constitutional Amendment Act, 2002.\n2. The Right of Children to Free and Compulsory Education Act, 2009 makes education a fundamental right for children in the age group of 6 to 18 years.\n3. Article 45, as amended, directs the State to provide early childhood care and education for all children until they complete the age of six years.\nWhich of the statements given above are correct?",
+  "options": [
+   "(a) 1 and 2 only",
+   "(b) 1 and 3 only",
+   "(c) 2 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(b)",
+  "explanation": "Statements 1 and 3 are correct: the 86th Constitutional Amendment Act, 2002 inserted Article 21A (right to free and compulsory education for children aged 6-14), recast Article 45 as a directive on early childhood care and education below the age of six, and added Article 51A(k) as a fundamental duty of parents and guardians. Statement 2 is wrong - the RTE Act, 2009 covers the 6-14 age group (elementary education), not 6-18; there is no statutory guarantee at the secondary stage, which is precisely where rural gender disparity in attainment opens up.",
+  "subject": "Polity & Governance",
+  "theme": "Fundamental rights and directive principles relating to education",
+  "micro_topic": "Article 21A inserted by the 86th Constitutional Amendment Act, 2002 covering ages 6-14; Article 45 recast as early childhood care and education below six; Article 51A(k) parental fundamental duty; Right of Children to Free and Compulsory Education Act, 2009 in force 1 April 2010 with 25% reservation in private unaided schools under Section 12(1)(c) and no-detention policy amended in 2019; distinction from secondary education, which has no statutory guarantee; programme architecture of Samagra Shiksha (merging SSA, RMSA and Teacher Education), Kasturba Gandhi Balika Vidyalayas, PM SHRI, PM POSHAN and NEP 2020's 5+3+3+4 structure",
+  "nature": "Conceptual",
+  "difficulty": "Easy"
+ }
+]

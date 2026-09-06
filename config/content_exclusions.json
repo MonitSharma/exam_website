@@ -1,0 +1,110 @@
+{
+  "daily/daily_questions/daily_questions_2026-06-07.json": {
+    "status": "source-only",
+    "reason": "Retained upstream source; the corresponding normalized or canonical question set is published."
+  },
+  "daily/daily_questions/daily_questions_2026-06-08.json": {
+    "status": "source-only",
+    "reason": "Retained upstream source; the corresponding normalized or canonical question set is published."
+  },
+  "daily/daily_questions/daily_questions_2026-06-09.json": {
+    "status": "source-only",
+    "reason": "Retained upstream source; the corresponding normalized or canonical question set is published."
+  },
+  "generated_questions/ai_generated_questions/batch_1.json": {
+    "status": "source-only",
+    "reason": "Retained upstream source; the corresponding normalized or canonical question set is published."
+  },
+  "generated_questions/ai_generated_questions/batch_2.json": {
+    "status": "source-only",
+    "reason": "Retained upstream source; the corresponding normalized or canonical question set is published."
+  },
+  "generated_questions/ai_generated_questions/batch_3.json": {
+    "status": "source-only",
+    "reason": "Retained upstream source; the corresponding normalized or canonical question set is published."
+  },
+  "generated_questions/csat_mocks/2026-06-08.json": {
+    "status": "source-only",
+    "reason": "Retained upstream source; the corresponding normalized or canonical question set is published."
+  },
+  "generated_questions/csat_mocks/2026-06-09.json": {
+    "status": "source-only",
+    "reason": "Retained upstream source; the corresponding normalized or canonical question set is published."
+  },
+  "generated_questions/csat_questions/2026-06-09.json": {
+    "status": "source-only",
+    "reason": "Retained upstream source; the corresponding normalized or canonical question set is published."
+  },
+  "generated_questions/csr_questions/batch_1.json": {
+    "status": "source-only",
+    "reason": "Retained upstream source; the corresponding normalized or canonical question set is published."
+  },
+  "generated_questions/csr_questions/batch_1_answer_key.json": {
+    "status": "source-only",
+    "reason": "Source answer key merged into the processed question set."
+  },
+  "generated_questions/question_bank/daily_questions_2026_06_07.json": {
+    "status": "source-only",
+    "reason": "Retained upstream source; the corresponding normalized or canonical question set is published."
+  },
+  "generated_questions/question_bank/daily_questions_2026_06_08.json": {
+    "status": "source-only",
+    "reason": "Retained upstream source; the corresponding normalized or canonical question set is published."
+  },
+  "generated_questions/question_bank/daily_questions_2026_06_09.json": {
+    "status": "source-only",
+    "reason": "Retained upstream source; the corresponding normalized or canonical question set is published."
+  },
+  "generated_questions/unified_dataset.csv": {
+    "status": "intentionally-excluded",
+    "reason": "Analysis-only aggregate; individual question sets are published."
+  },
+  "generated_questions/unified_dataset.json": {
+    "status": "intentionally-excluded",
+    "reason": "Analysis-only aggregate; individual question sets are published."
+  },
+  "generated_questions/upsc_2019.json": {
+    "status": "source-only",
+    "reason": "Retained upstream source; the corresponding normalized or canonical question set is published."
+  },
+  "generated_questions/upsc_2020.json": {
+    "status": "source-only",
+    "reason": "Retained upstream source; the corresponding normalized or canonical question set is published."
+  },
+  "generated_questions/upsc_2021.json": {
+    "status": "source-only",
+    "reason": "Retained upstream source; the corresponding normalized or canonical question set is published."
+  },
+  "generated_questions/upsc_2022.json": {
+    "status": "source-only",
+    "reason": "Retained upstream source; the corresponding normalized or canonical question set is published."
+  },
+  "generated_questions/upsc_2023.json": {
+    "status": "source-only",
+    "reason": "Retained upstream source; the corresponding normalized or canonical question set is published."
+  },
+  "generated_questions/upsc_2024.json": {
+    "status": "source-only",
+    "reason": "Retained upstream source; the corresponding normalized or canonical question set is published."
+  },
+  "generated_questions/upsc_2025.json": {
+    "status": "source-only",
+    "reason": "Retained upstream source; the corresponding normalized or canonical question set is published."
+  },
+  "generated_questions/upsc_2026.json": {
+    "status": "source-only",
+    "reason": "Retained upstream source; the corresponding normalized or canonical question set is published."
+  },
+  "weekly/CSAT/2026-06-14.json": {
+    "status": "source-only",
+    "reason": "Retained upstream source; the corresponding normalized or canonical question set is published."
+  },
+  "weekly/Physics/UPSC_Physics_Optional_Paper_I.docx": {
+    "status": "source-only",
+    "reason": "Original document; the corresponding Physics Optional Paper Markdown is published in the library."
+  },
+  "weekly/Physics/UPSC_Physics_Optional_Paper_II.docx": {
+    "status": "source-only",
+    "reason": "Original document; the corresponding Physics Optional Paper Markdown is published in the library."
+  }
+}

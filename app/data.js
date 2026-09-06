@@ -84,6 +84,7 @@
     const questionCount = Number(set.questionCount || set.question_count || 0);
     const durationMinutes = Number(set.durationMinutes || set.duration_minutes || (sourceType === "daily" || sourceType === "pib" ? 10 : sourceType === "rc" ? 8 : sourceType === "sectional" ? 40 : 120));
     const normalized = {
+      ...set,
       id: String(set.id || ""),
       label: set.label || set.id || "Question set",
       shortLabel: set.shortLabel || set.short_label || set.label || set.id || "Set",
@@ -122,6 +123,7 @@
 
   function normalizeNoteDocument(note) {
     return {
+      ...note,
       id: String(note.id || note.path || ""),
       cadence: note.cadence || "daily",
       title: note.title || "Note",
@@ -268,6 +270,14 @@
     return { questionSet, questions: questionCache.get(questionSet.id) };
   }
 
+  async function loadSubjectSession(setId, subjects) {
+    const loaded = await loadQuestionSet(setId);
+    const selected = loaded.questions.filter((q) => window.UPSC_CONTENT.matchesSubjects(q, subjects));
+    const questions = selected.map((q, index) => ({ ...q, n: index + 1, sourceSetId: setId, sourceQuestionNumber: q.n }));
+    if (!questions.length) throw new Error("No matching questions in this paper.");
+    return { questions, questionSet: { ...loaded.questionSet, id: `subject::${setId}::${subjects.map(window.UPSC_CONTENT.subjectId).sort().join(",")}`, label: `${subjects[0]} · ${loaded.questionSet.label}`, questionCount: questions.length, durationMinutes: Math.max(5, Math.ceil(questions.length * 1.2)), isSubjectPractice: true } };
+  }
+
   // Build an ad-hoc question set from questions spread across many sets, for
   // the spaced-repetition queue. Questions keep a pointer back to where they
   // came from so their review schedule updates the original, not this session.
@@ -402,6 +412,7 @@
       id: row.id || `${questionSet.id}_${index + 1}`,
       n: Number(row.question_number || row.source_question_number || index + 1),
       subject: row.subject || "General Studies",
+      topicId: window.UPSC_CONTENT.topicId(row.subject, row.micro_topic || row.theme),
       theme: row.theme || "",
       micro: row.micro_topic || row.micro || row.theme || "Topic",
       nature: row.nature || "",
@@ -719,6 +730,7 @@
     formatDailyDate,
     loadQuestionSet,
     loadReviewSession,
+    loadSubjectSession,
     saveRecentForOffline,
     offlineAvailable,
     loadNoteDocument,

@@ -1,0 +1,1552 @@
+[
+  {
+    "id": "book_topics_2026_09_06_01",
+    "question_number": 1,
+    "question": "With reference to the office of the Governor of a State, consider the following statements:\n1. Article 153 provides that there shall be a Governor for each State.\n2. The same person may be appointed as Governor for two or more States.\n3. The Governor is elected by the members of the State Legislative Assembly.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Article 153 provides a Governor for each State; the proviso added by the Seventh Amendment Act, 1956 allows the same person to be appointed Governor of two or more States. Statement 3 is wrong: under Article 155 the Governor is appointed by the President by warrant under his hand and seal. The Constituent Assembly considered and deliberately rejected an elected Governor, because an elected Governor with an independent mandate would rival the Chief Minister.",
+    "subject": "Polity",
+    "theme": "Polity - State Government: Governor, CM, State Council of Ministers, State Legislature, Special Provisions (Laxmikanth Ch 45-49)",
+    "micro_topic": "Governor - Articles 153-155, Seventh Amendment 1956",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_06_02",
+    "question_number": 2,
+    "question": "Which one of the following correctly describes the tenure of a Governor?",
+    "options": [
+      {
+        "key": "a",
+        "text": "He has a fixed term of five years and can be removed only by impeachment by Parliament"
+      },
+      {
+        "key": "b",
+        "text": "He holds office during the pleasure of the Prime Minister"
+      },
+      {
+        "key": "c",
+        "text": "He holds office during the pleasure of the President, with a normal term of five years"
+      },
+      {
+        "key": "d",
+        "text": "He has a term of five years and may be removed by a resolution of the State Legislative Assembly"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Article 156: the Governor holds office during the pleasure of the President and, subject to that, for a term of five years; he may resign by writing addressed to the President. There is no impeachment procedure for a Governor. In B.P. Singhal v. Union of India (2010) the Supreme Court held that removal need not be for cause, but cannot be arbitrary, capricious or for reasons extraneous, and is open to limited judicial review.",
+    "subject": "Polity",
+    "theme": "Polity - State Government: Governor, CM, State Council of Ministers, State Legislature, Special Provisions (Laxmikanth Ch 45-49)",
+    "micro_topic": "Governor - Article 156, doctrine of pleasure, B.P. Singhal (2010)",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_06_03",
+    "question_number": 3,
+    "question": "Consider the following statements in respect of the office of Governor:\n1. He must be a citizen of India and must have completed 35 years of age.\n2. He must not be a member of Parliament or of a State legislature; if he is, he is deemed to have vacated that seat on entering office.\n3. His emoluments and allowances are charged on the Consolidated Fund of India.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Article 157 lays down only two qualifications - citizenship of India and 35 years of age. Everything else (that he be an outsider to the State, that the Chief Minister be consulted) is convention, not law. Article 158 bars membership of a legislature and any office of profit. Statement 3 is wrong: under Article 158(3) his emoluments are charged on the Consolidated Fund of the STATE, and cannot be diminished during his term.",
+    "subject": "Polity",
+    "theme": "Polity - State Government: Governor, CM, State Council of Ministers, State Legislature, Special Provisions (Laxmikanth Ch 45-49)",
+    "micro_topic": "Governor - Articles 157-158, qualifications and conditions of office",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_06_04",
+    "question_number": 4,
+    "question": "The pardoning power of the Governor under Article 161 differs from that of the President under Article 72 in that the Governor cannot:\n1. pardon a sentence of death.\n2. deal with a sentence passed by a court-martial.\n3. remit a sentence for an offence against a law relating to a matter to which the executive power of the State extends.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Two exclusions separate Article 161 from Article 72: the Governor cannot pardon a death sentence, and he has no power over court-martial sentences. Statement 3 is the Governor's core power, not an exclusion - Article 161 extends precisely to offences against laws relating to matters to which the State's executive power extends. Note the trap: the Governor CAN suspend, remit or commute a death sentence under Section 473 of the BNSS (formerly Section 432 CrPC); what he cannot do is grant a PARDON for it.",
+    "subject": "Polity",
+    "theme": "Polity - State Government: Governor, CM, State Council of Ministers, State Legislature, Special Provisions (Laxmikanth Ch 45-49)",
+    "micro_topic": "Governor - Article 161 pardoning power vs Article 72",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_06_05",
+    "question_number": 5,
+    "question": "With reference to Article 163 of the Constitution, consider the following statements:\n1. There shall be a Council of Ministers to aid and advise the Governor, except in so far as he is required to exercise his functions in his discretion.\n2. If a question arises whether a matter falls within the Governor's discretion, his decision on it is final.\n3. The validity of anything done by the Governor cannot be called in question on the ground that he ought or ought not to have acted in his discretion.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All three are correct - 163(1) carries the discretion exception, and 163(2) makes the Governor the judge of what is discretionary and shields that determination from challenge on that ground. This is the textual reason the Governor's discretion is wider than the President's: Article 74(1), after the 42nd and 44th Amendments, binds the President to ministerial advice with no corresponding discretion clause. Article 163(2) does not, however, immunise the substantive decision itself from every form of review.",
+    "subject": "Polity",
+    "theme": "Polity - State Government: Governor, CM, State Council of Ministers, State Legislature, Special Provisions (Laxmikanth Ch 45-49)",
+    "micro_topic": "Governor - Article 163, scope of discretion",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_06_06",
+    "question_number": 6,
+    "question": "Under Article 200, when a Bill passed by the State Legislature is presented to the Governor, which of the following are correct?\n1. He must reserve for the President's consideration a Bill which in his opinion would derogate from the powers of the High Court.\n2. He may return a Money Bill to the House for reconsideration.\n3. If a Bill is passed again by the House after reconsideration, he shall not withhold assent from it.\nSelect the correct answer using the code given below.",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "2 and 3 only"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The second proviso to Article 200 makes reservation MANDATORY where the Bill would, if it became law, so derogate from the powers of the High Court as to endanger its constitutional position. The first proviso allows the Governor to return a Bill for reconsideration - but expressly NOT a Money Bill, so statement 2 is wrong - and provides that if the House passes it again, with or without amendment, the Governor shall not withhold assent.",
+    "subject": "Polity",
+    "theme": "Polity - State Government: Governor, CM, State Council of Ministers, State Legislature, Special Provisions (Laxmikanth Ch 45-49)",
+    "micro_topic": "Governor - Article 200, assent, return and reservation of Bills",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_06_07",
+    "question_number": 7,
+    "question": "In its advisory opinion on the Presidential Reference concerning Articles 200 and 201 (November 2025), the Supreme Court held that:\n1. courts cannot impose timelines on the Governor or the President for acting on Bills.\n2. there is no concept of 'deemed assent' to a Bill.\n3. prolonged and unexplained inaction by a Governor on a Bill is entirely beyond judicial scrutiny.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1 and 2 only"
+      }
+    ],
+    "answer": "d",
+    "explanation": "A five-judge Constitution Bench (advisory opinion of 20 November 2025) held that the timelines read into Articles 200 and 201 in State of Tamil Nadu v. Governor of Tamil Nadu (2025) were erroneous, that there is no 'deemed assent', and that the assent decision is not ordinarily justiciable. Statement 3 overstates it: the Court expressly preserved LIMITED judicial review where a Governor simply chooses not to act and thereby frustrates the legislative process, in which case a court may issue a limited direction to act - without commenting on the merits. Note this opinion also held the Governor has three options, not four, and that a reconsidered Bill may still be reserved for the President.",
+    "subject": "Polity",
+    "theme": "Polity - State Government: Governor, CM, State Council of Ministers, State Legislature, Special Provisions (Laxmikanth Ch 45-49)",
+    "micro_topic": "Governor - Articles 200/201, Presidential Reference advisory opinion 2025",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_06_08",
+    "question_number": 8,
+    "question": "The Governor requires the prior instructions of the President before promulgating an ordinance under Article 213 in which of the following situations?\n1. A Bill containing the same provisions would have required the previous sanction of the President for its introduction in the legislature.\n2. The Governor would have deemed it necessary to reserve a Bill containing the same provisions for the President's consideration.\n3. An Act of the State legislature containing the same provisions would have been invalid without the President's assent.\n4. The ordinance relates to any matter enumerated in the Concurrent List.\nSelect the correct answer using the code given below.",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 4 only"
+      },
+      {
+        "key": "b",
+        "text": "1, 2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2, 3 and 4 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Article 213(1) provisos list exactly three cases requiring the President's instructions - the three in statements 1 to 3. Statement 4 is a distractor: subject-matter in the Concurrent List by itself triggers no such requirement. Remember also that the Governor's ordinance power, unlike the President's, cannot be exercised at all without instructions in those three cases, and that an ordinance must be laid before the legislature and expires six weeks after reassembly.",
+    "subject": "Polity",
+    "theme": "Polity - State Government: Governor, CM, State Council of Ministers, State Legislature, Special Provisions (Laxmikanth Ch 45-49)",
+    "micro_topic": "Governor - Article 213 ordinance-making power",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_06_09",
+    "question_number": 9,
+    "question": "Consider the following statements regarding the State Council of Ministers:\n1. The Chief Minister is appointed by the Governor.\n2. The other Ministers are appointed by the Governor on the advice of the Chief Minister.\n3. The Council of Ministers is collectively responsible to the State legislature as a whole, including the Legislative Council where one exists.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Article 164(1): the Chief Minister is appointed by the Governor and the other Ministers are appointed by the Governor on the Chief Minister's advice. Statement 3 is wrong - Article 164(2) makes the Council collectively responsible to the LEGISLATIVE ASSEMBLY alone, even in the six bicameral States. This is the exact parallel of the Union position, where responsibility runs to the Lok Sabha and not to the Rajya Sabha.",
+    "subject": "Polity",
+    "theme": "Polity - State Government: Governor, CM, State Council of Ministers, State Legislature, Special Provisions (Laxmikanth Ch 45-49)",
+    "micro_topic": "Chief Minister and State Council of Ministers - Article 164",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_06_10",
+    "question_number": 10,
+    "question": "The 91st Constitutional Amendment Act, 2003 provides that the total number of Ministers, including the Chief Minister, in the Council of Ministers of a State:",
+    "options": [
+      {
+        "key": "a",
+        "text": "shall not exceed 15% of the total number of members of the Legislative Assembly, subject to a minimum of 12"
+      },
+      {
+        "key": "b",
+        "text": "shall not exceed 15% of the total strength of both Houses of the State legislature taken together"
+      },
+      {
+        "key": "c",
+        "text": "shall not exceed 10% of the total number of members of the Legislative Assembly, subject to a minimum of 12"
+      },
+      {
+        "key": "d",
+        "text": "shall not exceed 15% of the strength of the Legislative Assembly, with no minimum prescribed"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Article 164(1A), inserted by the 91st Amendment, 2003: 15% of the Legislative Assembly's total strength, with a FLOOR of 12. Option (d) is the trap - it states the Union position under Article 75(1A), which caps the Union Council at 15% of the Lok Sabha's strength with no floor. The same amendment inserted Article 164(1B): a member disqualified on the ground of defection is also disqualified from being appointed a Minister.",
+    "subject": "Polity",
+    "theme": "Polity - State Government: Governor, CM, State Council of Ministers, State Legislature, Special Provisions (Laxmikanth Ch 45-49)",
+    "micro_topic": "State Council of Ministers - Articles 164(1A) and 164(1B), 91st Amendment",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_06_11",
+    "question_number": 11,
+    "question": "The Constitution expressly requires the appointment of a Minister in charge of tribal welfare in which of the following States?\n1. Chhattisgarh\n2. Jharkhand\n3. Madhya Pradesh\n4. Odisha\n5. Rajasthan\nSelect the correct answer using the code given below.",
+    "options": [
+      {
+        "key": "a",
+        "text": "1, 2 and 3 only"
+      },
+      {
+        "key": "b",
+        "text": "1, 2, 3 and 4 only"
+      },
+      {
+        "key": "c",
+        "text": "2, 3, 4 and 5 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3, 4 and 5"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The proviso to Article 164(1) names four States - Chhattisgarh, Jharkhand, Madhya Pradesh and Odisha - where there shall be a Minister in charge of tribal welfare, who may in addition be in charge of the welfare of the Scheduled Castes and backward classes or any other work. Bihar was in the original list; Chhattisgarh and Jharkhand were added by the Madhya Pradesh and Bihar Reorganisation Acts of 2000, and Bihar was subsequently dropped. Rajasthan has never been in the list.",
+    "subject": "Polity",
+    "theme": "Polity - State Government: Governor, CM, State Council of Ministers, State Legislature, Special Provisions (Laxmikanth Ch 45-49)",
+    "micro_topic": "State Council of Ministers - proviso to Article 164(1), tribal welfare minister",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_06_12",
+    "question_number": 12,
+    "question": "With reference to the creation or abolition of a State Legislative Council, consider the following statements:\n1. Parliament may create or abolish a Council by a law passed by a simple majority.\n2. Such a law requires the Legislative Assembly of the State concerned first to pass a resolution by a special majority.\n3. Parliament is bound to give effect to such a resolution of the Assembly.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Article 169: Parliament may by ordinary law abolish or create a Council, but only if the Assembly first passes a resolution by a majority of its total membership AND a majority of not less than two-thirds of members present and voting. Statement 3 is wrong - Parliament is not obliged to act on the resolution; several States have passed such resolutions without a Council following. Note also that a law under Article 169 is expressly not deemed an amendment of the Constitution for the purposes of Article 368.",
+    "subject": "Polity",
+    "theme": "Polity - State Government: Governor, CM, State Council of Ministers, State Legislature, Special Provisions (Laxmikanth Ch 45-49)",
+    "micro_topic": "State Legislature - Article 169, creation and abolition of Legislative Councils",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_06_13",
+    "question_number": 13,
+    "question": "With reference to the composition of a State Legislative Council under Article 171, consider the following:\n1. One-third of the members are elected by electorates consisting of local authorities.\n2. One-twelfth are elected by graduates of three years' standing residing within the State.\n3. One-third are elected by the members of the Legislative Assembly from among persons who are not members of the Assembly.\n4. One-third are nominated by the Governor.\nWhich of the above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1, 2 and 4 only"
+      },
+      {
+        "key": "b",
+        "text": "2, 3 and 4 only"
+      },
+      {
+        "key": "c",
+        "text": "1, 2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 3 and 4 only"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Article 171(3): 1/3 by local authorities, 1/12 by graduates, 1/12 by teachers of at least secondary standard with three years' standing, 1/3 by MLAs from non-members, and 1/6 NOMINATED by the Governor from persons with special knowledge or practical experience in literature, science, art, the cooperative movement and social service. Statement 4 is therefore wrong. The arithmetic to carry: 5/6 indirectly elected, 1/6 nominated, and not a single member directly elected by the general electorate. Total strength is not more than one-third of the Assembly's strength, and not less than 40.",
+    "subject": "Polity",
+    "theme": "Polity - State Government: Governor, CM, State Council of Ministers, State Legislature, Special Provisions (Laxmikanth Ch 45-49)",
+    "micro_topic": "State Legislature - Article 171, composition of the Legislative Council",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_06_14",
+    "question_number": 14,
+    "question": "Consider the following statements about a State legislature having two Houses:\n1. The Legislative Council can delay a Money Bill for a maximum of 14 days.\n2. The Constitution provides for a joint sitting of the two Houses to resolve a deadlock over an ordinary Bill.\n3. The maximum strength of a Legislative Assembly is 500 and the minimum is 60, subject to specified exceptions.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Statement 2 is the key point of contrast with Parliament: there is NO joint-sitting provision for State legislatures. On an ordinary Bill the Council can delay for a maximum of about four months in total (three months on first reference plus one month on second), after which the Assembly's will simply prevails - which is why a Council is a revising chamber and not a second chamber in any real sense. Article 170 sets the Assembly at not more than 500 and not less than 60, with exceptions - Arunachal Pradesh and Goa 30, Sikkim 32, Mizoram 40.",
+    "subject": "Polity",
+    "theme": "Polity - State Government: Governor, CM, State Council of Ministers, State Legislature, Special Provisions (Laxmikanth Ch 45-49)",
+    "micro_topic": "State Legislature - Articles 170, 197-199, Money Bills and absence of joint sitting",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_06_15",
+    "question_number": 15,
+    "question": "Consider the following statements about Part XXI of the Constitution:\n1. Under Article 371A, no Act of Parliament relating to Naga customary law or to ownership and transfer of land and its resources applies to Nagaland unless its Legislative Assembly so decides by a resolution.\n2. Article 371-J, inserted by the 98th Amendment Act, 2012, makes special provision for the Hyderabad-Karnataka region.\n3. Article 371H confers on the Governor of Arunachal Pradesh a special responsibility with respect to law and order.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All three are correct. Article 371A is the strongest such protection in the Constitution, covering Naga religious or social practices, Naga customary law and procedure, administration of civil and criminal justice involving decisions according to Naga customary law, and ownership and transfer of land and its resources. Article 371G gives Mizoram an almost identical protection. Article 371-J (98th Amendment, 2012) covers the Hyderabad-Karnataka region. Article 371H gives the Arunachal Governor a special responsibility for law and order, exercised in his individual judgement.",
+    "subject": "Polity",
+    "theme": "Polity - State Government: Governor, CM, State Council of Ministers, State Legislature, Special Provisions (Laxmikanth Ch 45-49)",
+    "micro_topic": "Special Provisions - Part XXI, Articles 371A, 371G, 371H, 371-J",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_06_16",
+    "question_number": 16,
+    "question": "Under the Hybrid Annuity Model (HAM) used for national highway projects, consider the following:\n1. The government provides 40% of the project cost during the construction period.\n2. The balance is paid to the concessionaire as annuities over the concession period.\n3. Traffic (revenue) risk is borne by the private concessionaire.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "HAM is a hybrid of EPC and BOT-Annuity: the government contributes 40% of the project cost in instalments during construction, and the remaining 60% is paid as annuities linked to a benchmark rate over the concession period. Statement 3 is wrong - under HAM the government (NHAI) collects the toll and bears the TRAFFIC risk; the concessionaire is paid its annuities irrespective of traffic. That risk split is precisely why HAM revived private participation in highways after BOT-Toll stalled.",
+    "subject": "Economy",
+    "theme": "Economy - Infrastructure and Land Reforms (Vivek Singh Ch 14 and Ch 5)",
+    "micro_topic": "Infrastructure - PPP models, Hybrid Annuity Model",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_06_17",
+    "question_number": 17,
+    "question": "Match the highway project model with the party that bears traffic (revenue) risk:\n1. EPC\n2. BOT (Toll)\n3. BOT (Annuity)\nA. Government    B. Private concessionaire\nSelect the correct code:",
+    "options": [
+      {
+        "key": "a",
+        "text": "1-B, 2-B, 3-A"
+      },
+      {
+        "key": "b",
+        "text": "1-A, 2-A, 3-B"
+      },
+      {
+        "key": "c",
+        "text": "1-A, 2-B, 3-A"
+      },
+      {
+        "key": "d",
+        "text": "1-B, 2-A, 3-B"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Under EPC the government funds and owns the asset and the contractor is merely paid to build it, so no traffic risk passes to the private party. Under BOT-Toll the concessionaire finances, builds and recovers its investment from toll collection, so it carries both construction and traffic risk. Under BOT-Annuity the concessionaire carries construction risk but is paid fixed semi-annual annuities by the authority, so traffic risk stays with the government. TOT (Toll-Operate-Transfer) is different again - it monetises an already operational asset and does transfer traffic risk to the buyer.",
+    "subject": "Economy",
+    "theme": "Economy - Infrastructure and Land Reforms (Vivek Singh Ch 14 and Ch 5)",
+    "micro_topic": "Infrastructure - risk allocation across EPC, BOT-Toll, BOT-Annuity",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_06_18",
+    "question_number": 18,
+    "question": "The National Bank for Financing Infrastructure and Development (NaBFID) was established under an Act of Parliament passed in the year:",
+    "options": [
+      {
+        "key": "a",
+        "text": "2016"
+      },
+      {
+        "key": "b",
+        "text": "2019"
+      },
+      {
+        "key": "c",
+        "text": "2021"
+      },
+      {
+        "key": "d",
+        "text": "2023"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The NaBFID Act, 2021 set up NaBFID as a development finance institution to fill the long-tenor infrastructure financing gap left after the winding down of earlier DFIs such as IDBI and IFCI. It has both developmental and financial objectives, and is regulated by the RBI as an All India Financial Institution. Related items in the same page: the Kelkar Committee (2015) on revitalising PPP and the renegotiation problem, viability gap funding, and municipal bonds.",
+    "subject": "Economy",
+    "theme": "Economy - Infrastructure and Land Reforms (Vivek Singh Ch 14 and Ch 5)",
+    "micro_topic": "Infrastructure - infrastructure financing institutions, NaBFID Act 2021",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_06_19",
+    "question_number": 19,
+    "question": "Consider the following statements about Infrastructure Investment Trusts (InvITs) in India:\n1. They are regulated by the Securities and Exchange Board of India.\n2. They allow a sponsor to monetise operating infrastructure assets and recycle the capital into new projects.\n3. Units of an InvIT cannot be listed on a recognised stock exchange.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "InvITs and REITs are regulated by SEBI under its 2014 regulations. Their whole purpose is asset recycling - transferring completed, revenue-generating assets into a trust, selling units to investors, and redeploying the proceeds. Statement 3 is wrong: InvIT units are listed and traded on stock exchanges (publicly offered InvITs must be listed), which is what gives investors an exit and makes the instrument work.",
+    "subject": "Economy",
+    "theme": "Economy - Infrastructure and Land Reforms (Vivek Singh Ch 14 and Ch 5)",
+    "micro_topic": "Infrastructure - asset monetisation, InvITs and REITs",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_06_20",
+    "question_number": 20,
+    "question": "Among the four components of India's land reform programme after Independence, the one generally regarded as having been most successfully implemented is:",
+    "options": [
+      {
+        "key": "a",
+        "text": "abolition of intermediaries"
+      },
+      {
+        "key": "b",
+        "text": "tenancy reform"
+      },
+      {
+        "key": "c",
+        "text": "imposition of ceilings on land holdings"
+      },
+      {
+        "key": "d",
+        "text": "consolidation of holdings"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Abolition of intermediaries - zamindari, jagirdari, inamdari - was largely accomplished in the 1950s, bringing roughly 20 million erstwhile tenants into direct relationship with the State. Tenancy reform mostly failed because tenancies were oral and unrecorded and tenants were evicted ahead of the law through 'voluntary surrenders'. Ceilings were gutted by benami transfers, partition within the family, exempted categories such as plantations, and litigation. Consolidation succeeded, but only regionally - Punjab, Haryana and western Uttar Pradesh - and was barely attempted elsewhere.",
+    "subject": "Economy",
+    "theme": "Economy - Infrastructure and Land Reforms (Vivek Singh Ch 14 and Ch 5)",
+    "micro_topic": "Land Reforms - the four components and their relative success",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_06_21",
+    "question_number": 21,
+    "question": "'Operation Barga' is best described as:",
+    "options": [
+      {
+        "key": "a",
+        "text": "a programme of voluntary land donation initiated in the Telangana region"
+      },
+      {
+        "key": "b",
+        "text": "a drive to record the names of sharecroppers so as to secure their tenancy rights, launched in West Bengal"
+      },
+      {
+        "key": "c",
+        "text": "a scheme for consolidation of fragmented holdings in Punjab"
+      },
+      {
+        "key": "d",
+        "text": "a centrally sponsored scheme for the digitisation of land records"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Operation Barga, launched in West Bengal from 1978, registered bargadars (sharecroppers) so that their cultivation rights became a matter of record. Its lesson is the one that matters for the exam: tenancy reform succeeded where the tenant was RECORDED, and failed where the law merely conferred a right that an unrecorded tenant could not prove. Kerala's near-complete abolition of tenancy is the other success. Option (a) describes Bhoodan; option (d) describes DILRMP.",
+    "subject": "Economy",
+    "theme": "Economy - Infrastructure and Land Reforms (Vivek Singh Ch 14 and Ch 5)",
+    "micro_topic": "Land Reforms - tenancy reform, Operation Barga",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_06_22",
+    "question_number": 22,
+    "question": "The Ninth Schedule was inserted into the Constitution primarily in order to:",
+    "options": [
+      {
+        "key": "a",
+        "text": "list the languages recognised by the Constitution"
+      },
+      {
+        "key": "b",
+        "text": "enumerate the grounds of disqualification on the ground of defection"
+      },
+      {
+        "key": "c",
+        "text": "protect land reform and zamindari abolition laws from challenge on the ground of violation of fundamental rights"
+      },
+      {
+        "key": "d",
+        "text": "specify the subjects to be devolved to Panchayats"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The First Amendment Act, 1951 inserted Article 31B and the Ninth Schedule to shield zamindari abolition laws from challenge under the fundamental rights, chiefly the then Article 31 (right to property) and Article 14. Important qualification: in I.R. Coelho v. State of Tamil Nadu (2007) the Supreme Court held that laws placed in the Ninth Schedule AFTER 24 April 1973 - the date of Kesavananda Bharati - are open to review for violation of the basic structure. The Ninth Schedule is therefore a shield, not an absolute one.",
+    "subject": "Economy",
+    "theme": "Economy - Infrastructure and Land Reforms (Vivek Singh Ch 14 and Ch 5)",
+    "micro_topic": "Land Reforms - First Amendment 1951, Article 31B and the Ninth Schedule",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_06_23",
+    "question_number": 23,
+    "question": "The Bhoodan movement was:",
+    "options": [
+      {
+        "key": "a",
+        "text": "launched by Jayaprakash Narayan in Bihar in 1947"
+      },
+      {
+        "key": "b",
+        "text": "launched by Vinoba Bhave in 1951, beginning at Pochampally"
+      },
+      {
+        "key": "c",
+        "text": "a statutory ceiling-surplus land redistribution programme administered by the Planning Commission"
+      },
+      {
+        "key": "d",
+        "text": "a drive to record the rights of tenants in Kerala"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Vinoba Bhave began the Bhoodan (land-gift) movement in 1951 at Pochampally, in present-day Telangana, seeking voluntary donations of land for the landless. Gramdan, its later extension, sought the donation of whole villages. Morally serious and statistically marginal: a large share of the land donated was uncultivable or already under litigation, and only a fraction was ever distributed. Contrast with the modern turn from redistribution to records - DILRMP, SVAMITVA, and the NITI Aayog Model Agricultural Land Leasing Act, 2016.",
+    "subject": "Economy",
+    "theme": "Economy - Infrastructure and Land Reforms (Vivek Singh Ch 14 and Ch 5)",
+    "micro_topic": "Land Reforms - Bhoodan and Gramdan",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_06_24",
+    "question_number": 24,
+    "question": "With reference to the Mahajanapadas, consider the following statements:\n1. Buddhist and Jaina texts refer to sixteen Mahajanapadas.\n2. All of them were monarchies.\n3. The Vajji confederacy, with its centre at Vaishali, was a gana-sangha.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1, 2 and 3"
+      },
+      {
+        "key": "d",
+        "text": "1 and 3 only"
+      }
+    ],
+    "answer": "d",
+    "explanation": "The Anguttara Nikaya and the Jaina Bhagavati Sutra both list sixteen Mahajanapadas (their lists differ in detail). Statement 2 is wrong: alongside the monarchies stood the gana-sanghas or oligarchic republics - the Vajji or Licchavi confederacy at Vaishali, the Mallas, the Shakyas of Kapilavastu. Of the sixteen, four came to matter - Magadha, Kosala, Vatsa and Avanti - and by the fifth century BCE the contest had narrowed to Magadha and Avanti.",
+    "subject": "Ancient History",
+    "theme": "Ancient History - Mahajanapadas, the rise of Magadha and the Mauryan Empire (TN State Board Class 11)",
+    "micro_topic": "Mahajanapadas - the sixteen states, monarchy vs gana-sangha",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_06_25",
+    "question_number": 25,
+    "question": "Which of the following contributed to the rise of Magadha as the dominant power of the sixth to fourth centuries BCE?\n1. Access to iron ore deposits in the neighbouring hill regions\n2. Fertile alluvial soil of the middle Ganga plain\n3. Location on the Ganga, giving control over river-borne trade and troop movement\n4. Access to elephants from the eastern forests\nSelect the correct answer using the code given below.",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "1, 2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2, 3 and 4 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All four are standard explanations, and to them should be added timber from the same forests for building and for boats, and a succession of unsentimental and expansionist rulers. Both Mauryan-era capitals - Rajagriha, ringed by five hills, and later Pataliputra at the confluence of the Ganga and Son - were also militarily well sited. The exam favours the multi-causal answer here; single-cause options are usually the trap.",
+    "subject": "Ancient History",
+    "theme": "Ancient History - Mahajanapadas, the rise of Magadha and the Mauryan Empire (TN State Board Class 11)",
+    "micro_topic": "Rise of Magadha - geographical and material factors",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_06_26",
+    "question_number": 26,
+    "question": "Arrange the following dynasties that ruled over Magadha in correct chronological order:\n1. Nanda\n2. Haryanka\n3. Shishunaga\n4. Maurya",
+    "options": [
+      {
+        "key": "a",
+        "text": "2-3-1-4"
+      },
+      {
+        "key": "b",
+        "text": "3-2-1-4"
+      },
+      {
+        "key": "c",
+        "text": "2-1-3-4"
+      },
+      {
+        "key": "d",
+        "text": "3-1-2-4"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Haryanka (Bimbisara, Ajatashatru, Udayin - who is credited with founding Pataliputra) - Shishunaga (who destroyed the power of Avanti) - Nanda (Mahapadma Nanda, described in the Puranas as the destroyer of all Kshatriyas, and the first great empire-builder of non-Kshatriya origin; the last Nanda was Dhana Nanda) - Maurya, from about 321 BCE.",
+    "subject": "Ancient History",
+    "theme": "Ancient History - Mahajanapadas, the rise of Magadha and the Mauryan Empire (TN State Board Class 11)",
+    "micro_topic": "Magadha - dynastic chronology, Haryanka to Maurya",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_06_27",
+    "question_number": 27,
+    "question": "The Junagadh rock inscription of Rudradaman is historically significant chiefly because it:",
+    "options": [
+      {
+        "key": "a",
+        "text": "is the earliest known inscription written in the Brahmi script"
+      },
+      {
+        "key": "b",
+        "text": "records Ashoka's remorse following the Kalinga war"
+      },
+      {
+        "key": "c",
+        "text": "records that the Sudarshana lake was constructed under Chandragupta Maurya and improved under Ashoka"
+      },
+      {
+        "key": "d",
+        "text": "is the earliest inscription in Sanskrit issued by a Mauryan ruler"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The Junagadh inscription is a second-century CE record of the Western Kshatrapa (Saka) ruler Rudradaman I - not a Mauryan inscription at all. It states that the Sudarshana lake was built by Pushyagupta, a provincial governor of Chandragupta Maurya, and furnished with conduits by Tushaspha under Ashoka; Rudradaman repaired it after a breach. It is thus the best single example of an inscription of one dynasty serving as a source for another, and is also celebrated as one of the earliest long inscriptions in chaste Sanskrit.",
+    "subject": "Ancient History",
+    "theme": "Ancient History - Mahajanapadas, the rise of Magadha and the Mauryan Empire (TN State Board Class 11)",
+    "micro_topic": "Mauryan sources - Junagadh inscription of Rudradaman, Sudarshana lake",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_06_28",
+    "question_number": 28,
+    "question": "Consider the following pairs of Mauryan provincial capitals and provinces:\n1. Taxila - Uttarapatha\n2. Ujjain - Avantirashtra\n3. Suvarnagiri - Dakshinapatha\n4. Tosali - Kalinga\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one pair"
+      },
+      {
+        "key": "b",
+        "text": "Only two pairs"
+      },
+      {
+        "key": "c",
+        "text": "Only three pairs"
+      },
+      {
+        "key": "d",
+        "text": "All four pairs"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All four are correctly matched. The empire was administered from Pataliputra with four (later five) provinces under kumaras or princes of the blood as viceroys - Taxila for the north-west, Ujjain for the west, Suvarnagiri for the south and Tosali for Kalinga after its conquest. Below them ran the Pradeshika, the Rajukas (revenue settlement, and under Ashoka judicial authority in the countryside per Pillar Edict IV) and the Yuktas, with the Adhyakshas of the Arthashastra heading departments.",
+    "subject": "Ancient History",
+    "theme": "Ancient History - Mahajanapadas, the rise of Magadha and the Mauryan Empire (TN State Board Class 11)",
+    "micro_topic": "Mauryan administration - provinces and provincial capitals",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_06_29",
+    "question_number": 29,
+    "question": "Consider the following statements about the Ashokan inscriptions:\n1. The Bhabru (Bairat) edict records Ashoka's faith in the Buddha, the Dhamma and the Sangha.\n2. The Barabar hill caves were dedicated by Ashoka to the Ajivika sect.\n3. The two Separate Kalinga Edicts are found at Dhauli and Jaugada.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All three are correct. The Bhabru or Bairat edict (Rajasthan) is the one place where Ashoka states his Buddhist affiliation plainly and recommends specific texts to the monks - which is precisely why his Dhamma elsewhere, a civic ethic of ahimsa, respect for elders and tolerance among sects, must not be read as simple Buddhist proselytising. The Barabar caves in Bihar were dedicated to the Ajivikas by Ashoka, and the neighbouring Nagarjuni caves by his successor Dasharatha. Dhauli and Jaugada, both in Kalinga, carry the two Separate Kalinga Edicts in place of Rock Edicts XI-XIII.",
+    "subject": "Ancient History",
+    "theme": "Ancient History - Mahajanapadas, the rise of Magadha and the Mauryan Empire (TN State Board Class 11)",
+    "micro_topic": "Ashokan edicts - Bhabru edict, Barabar caves, Separate Kalinga Edicts",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_06_30",
+    "question_number": 30,
+    "question": "With reference to the scripts and decipherment of the Ashokan inscriptions, consider the following:\n1. Most of them are written in the Brahmi script.\n2. Those at Shahbazgarhi and Mansehra are in Kharoshthi.\n3. A bilingual inscription in Greek and Aramaic has been found at Kandahar.\n4. Brahmi was deciphered by James Prinsep in 1837.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "1, 2, 3 and 4"
+      },
+      {
+        "key": "c",
+        "text": "1, 3 and 4 only"
+      },
+      {
+        "key": "d",
+        "text": "2, 3 and 4 only"
+      }
+    ],
+    "answer": "b",
+    "explanation": "All four are correct. Brahmi, written left to right, carries the great majority of the edicts; Kharoshthi, written right to left, appears in the north-west at Shahbazgarhi and Mansehra; Greek and Aramaic appear at Kandahar, at the empire's Hellenistic frontier. James Prinsep's decipherment of Brahmi in 1837 is the reason any of this is readable - and the reason the king called 'Devanampiya Piyadasi' in the edicts could later be identified with Ashoka, an identification clinched by the Maski and Gujarra minor rock edicts, which name him directly.",
+    "subject": "Ancient History",
+    "theme": "Ancient History - Mahajanapadas, the rise of Magadha and the Mauryan Empire (TN State Board Class 11)",
+    "micro_topic": "Ashokan inscriptions - Brahmi, Kharoshthi, Greek and Aramaic; Prinsep 1837",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_06_31",
+    "question_number": 31,
+    "question": "The Kalinga war was fought in about:",
+    "options": [
+      {
+        "key": "a",
+        "text": "321 BCE, in the reign of Chandragupta Maurya"
+      },
+      {
+        "key": "b",
+        "text": "305 BCE, against Seleucus Nicator"
+      },
+      {
+        "key": "c",
+        "text": "261 BCE, in the eighth regnal year of Ashoka"
+      },
+      {
+        "key": "d",
+        "text": "185 BCE, in the reign of Brihadratha"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Rock Edict XIII records that Kalinga was conquered eight years after Ashoka's consecration - conventionally about 261 BCE - and records the remorse that followed. The edict is significantly NOT inscribed in Kalinga itself, where the two Separate Kalinga Edicts were substituted. Option (b) refers to the Chandragupta-Seleucus treaty; option (d) to the killing of the last Mauryan, Brihadratha, by Pushyamitra Shunga in about 185 BCE.",
+    "subject": "Ancient History",
+    "theme": "Ancient History - Mahajanapadas, the rise of Magadha and the Mauryan Empire (TN State Board Class 11)",
+    "micro_topic": "Ashoka - Kalinga war and Rock Edict XIII",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_06_32",
+    "question_number": 32,
+    "question": "The Solid Waste Management Rules, 2016 require every waste generator to segregate waste at source into which of the following streams?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Biodegradable, non-biodegradable and domestic hazardous waste"
+      },
+      {
+        "key": "b",
+        "text": "Wet, dry and plastic waste"
+      },
+      {
+        "key": "c",
+        "text": "Organic, inorganic and radioactive waste"
+      },
+      {
+        "key": "d",
+        "text": "Recyclable and non-recyclable waste"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The 2016 Rules mandate three-way segregation at source into biodegradable, non-biodegradable and domestic hazardous waste, to be handed over in separate streams to authorised waste pickers or collectors. The Rules also introduced user fees, spot fines for littering, duties for bulk generators such as hotels and institutions to process biodegradable waste on their premises, and for the first time gave formal recognition to the informal waste-picker sector.",
+    "subject": "Environment",
+    "theme": "Environment - Waste Management and Climate Change (Shankar IAS Ch 7-8)",
+    "micro_topic": "Waste Management - Solid Waste Management Rules 2016",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_06_33",
+    "question_number": 33,
+    "question": "Extended Producer Responsibility (EPR) was first formally introduced into Indian environmental law through which of the following?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The Plastic Waste Management Rules, 2016"
+      },
+      {
+        "key": "b",
+        "text": "The E-Waste (Management and Handling) Rules, 2011"
+      },
+      {
+        "key": "c",
+        "text": "The Hazardous Wastes (Management, Handling and Transboundary Movement) Rules, 2008"
+      },
+      {
+        "key": "d",
+        "text": "The Battery Waste Management Rules, 2022"
+      }
+    ],
+    "answer": "b",
+    "explanation": "EPR - the principle that a producer's responsibility for a product extends to its end-of-life management - entered Indian law through the E-Waste (Management and Handling) Rules, 2011, and was subsequently extended to plastics, batteries, tyres and used oil. The plastic EPR architecture now runs on registered producers, importers and brand owners meeting annual recycling and end-of-life targets through tradable EPR certificates on the CPCB portal.",
+    "subject": "Environment",
+    "theme": "Environment - Waste Management and Climate Change (Shankar IAS Ch 7-8)",
+    "micro_topic": "Waste Management - Extended Producer Responsibility, E-Waste Rules 2011",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_06_34",
+    "question_number": 34,
+    "question": "Under the Bio-Medical Waste Management Rules, 2016, human anatomical waste and soiled waste are to be collected in containers or bags of which colour?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Yellow"
+      },
+      {
+        "key": "b",
+        "text": "Red"
+      },
+      {
+        "key": "c",
+        "text": "Blue"
+      },
+      {
+        "key": "d",
+        "text": "White (translucent)"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Yellow covers human and animal anatomical waste, soiled waste, expired medicines, chemical waste and discarded linen, and goes to incineration or deep burial. Red is for contaminated recyclable waste - tubing, bottles, catheters, syringes without needles - which is autoclaved and then recycled. White (translucent) puncture-proof containers are for sharps. Blue is for broken or discarded glassware and metallic body implants.",
+    "subject": "Environment",
+    "theme": "Environment - Waste Management and Climate Change (Shankar IAS Ch 7-8)",
+    "micro_topic": "Waste Management - Bio-Medical Waste Rules 2016, colour coding",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_06_35",
+    "question_number": 35,
+    "question": "Waste-to-energy incineration plants have generally underperformed when fed with Indian municipal solid waste chiefly because such waste has:",
+    "options": [
+      {
+        "key": "a",
+        "text": "high calorific value and low moisture content"
+      },
+      {
+        "key": "b",
+        "text": "low organic content and a high proportion of plastics"
+      },
+      {
+        "key": "c",
+        "text": "low calorific value and high moisture content"
+      },
+      {
+        "key": "d",
+        "text": "a uniformly high inert content that makes segregation unnecessary"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Indian mixed municipal waste is heavy in wet organic matter, giving it low calorific value and high moisture - the opposite of what mass-burn incineration needs - so plants either run below capacity or need auxiliary fuel, which destroys the economics and adds emissions. The corollary is the exam point: waste-to-energy is not an alternative to segregation at source but depends on it; the wet fraction belongs in composting or bio-methanation, and only the dry high-calorific fraction (RDF) is a sensible feedstock.",
+    "subject": "Environment",
+    "theme": "Environment - Waste Management and Climate Change (Shankar IAS Ch 7-8)",
+    "micro_topic": "Waste Management - waste-to-energy, calorific value of Indian MSW",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_06_36",
+    "question_number": 36,
+    "question": "With reference to the Paris Agreement (2015), consider the following statements:\n1. Mitigation commitments take the form of Nationally Determined Contributions decided by each Party itself.\n2. A global stocktake of collective progress is to be conducted every five years.\n3. It departs from the Kyoto Protocol's approach of placing binding quantified targets only on Annex-I Parties.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All three are correct. Paris replaced Kyoto's top-down, Annex-I-only binding targets with a bottom-up architecture in which every Party submits an NDC, backed by a transparency framework and a five-yearly global stocktake (the first concluded at COP28 in 2023) intended to ratchet ambition. Article 6 provides the market and non-market cooperation mechanisms. The principle of common but differentiated responsibilities and respective capabilities survives, but now qualified by 'in the light of different national circumstances'.",
+    "subject": "Environment",
+    "theme": "Environment - Waste Management and Climate Change (Shankar IAS Ch 7-8)",
+    "micro_topic": "Climate Change - UNFCCC, Kyoto Protocol and Paris Agreement architecture",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_06_37",
+    "question_number": 37,
+    "question": "India's updated Nationally Determined Contribution submitted in 2022 includes which of the following?\n1. Reducing the emissions intensity of GDP by 45% from 2005 levels by 2030\n2. Achieving about 50% of cumulative electric power installed capacity from non-fossil-fuel-based energy resources by 2030\n3. An absolute cap on total greenhouse gas emissions by 2030\nSelect the correct answer using the code given below.",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "India's updated NDC raised the emissions-intensity target from 33-35% to 45% below 2005 levels by 2030, and the non-fossil installed capacity share from 40% to about 50% by 2030. Statement 3 is wrong and is the standard trap: India's NDC is INTENSITY-based, not an absolute emissions cap, consistent with its position on CBDR-RC and its per-capita emissions. The third element of the NDC is the additional carbon sink of 2.5 to 3 billion tonnes of CO2 equivalent through forest and tree cover by 2030; the long-term goal is net zero by 2070.",
+    "subject": "Environment",
+    "theme": "Environment - Waste Management and Climate Change (Shankar IAS Ch 7-8)",
+    "micro_topic": "Climate Change - India's updated NDC and Net Zero 2070",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_06_38",
+    "question_number": 38,
+    "question": "Consider the following statements:\n1. The National Action Plan on Climate Change comprises eight national missions.\n2. The Carbon Credit Trading Scheme establishes a compliance carbon market in India.\n3. Mission LiFE seeks to promote sustainable individual and community lifestyles as a climate response.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All three are correct. NAPCC (2008) has eight missions - solar, enhanced energy efficiency, sustainable habitat, water, sustaining the Himalayan ecosystem, Green India, sustainable agriculture, and strategic knowledge for climate change - with State Action Plans mirroring them. The Carbon Credit Trading Scheme, notified under the Energy Conservation (Amendment) Act, 2022, creates a compliance market with obligated entities and intensity targets, alongside an offset mechanism. Mission LiFE (Lifestyle for Environment) was launched by India in 2022 and folded into the COP27 cover text.",
+    "subject": "Environment",
+    "theme": "Environment - Waste Management and Climate Change (Shankar IAS Ch 7-8)",
+    "micro_topic": "Climate Change - NAPCC missions, CCTS, Mission LiFE",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_06_39",
+    "question_number": 39,
+    "question": "Which of the following distinguish Ashokan pillars from Achaemenid pillars?\n1. Ashokan pillar shafts are monolithic, whereas Achaemenid shafts were built up in segments.\n2. Ashokan pillars are sunk directly into the ground without a separate base, whereas Achaemenid pillars stand on a base.\n3. Ashokan pillars carry no animal capital.\nSelect the correct answer using the code given below.",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Statements 1 and 2 are the two contrasts that matter and are the standard basis for arguing that Mauryan pillars are not simply borrowed from Persepolis. Statement 3 is plainly wrong - the animal capital is the most famous feature of the Ashokan pillar. The full anatomy runs: monolithic shaft of Chunar sandstone with the characteristic Mauryan polish, then an inverted lotus or bell-shaped member, then the abacus, then the crowning animal - lion at Sarnath and Lauriya-Nandangarh, bull at Rampurva, elephant at Sankisa.",
+    "subject": "Art & Culture",
+    "theme": "Art & Culture - Indian Architecture: Harappan to post-Mauryan (Nitin Singhania Part 1, Ch 1)",
+    "micro_topic": "Mauryan court art - pillars, comparison with Achaemenid pillars",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_06_40",
+    "question_number": 40,
+    "question": "The Lion Capital at Sarnath, adopted as the State Emblem of India, carries on its abacus four animals separated by wheels. These animals are:",
+    "options": [
+      {
+        "key": "a",
+        "text": "lion, tiger, deer and bull"
+      },
+      {
+        "key": "b",
+        "text": "lion, elephant, deer and horse"
+      },
+      {
+        "key": "c",
+        "text": "lion, elephant, horse and bull"
+      },
+      {
+        "key": "d",
+        "text": "elephant, horse, bull and peacock"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The abacus of the Sarnath capital bears four animals in motion - lion, elephant, horse and bull - separated by four Dharmachakras. Four addorsed lions stand above; the crowning wheel, of which fragments survive, is not part of the emblem as adopted in 1950, though a Dharmachakra from the abacus was placed at the centre of the national flag. The capital was carved in Chunar sandstone with the Mauryan polish and marks the site of the Buddha's first sermon.",
+    "subject": "Art & Culture",
+    "theme": "Art & Culture - Indian Architecture: Harappan to post-Mauryan (Nitin Singhania Part 1, Ch 1)",
+    "micro_topic": "Mauryan court art - Sarnath Lion Capital and the State Emblem",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_06_41",
+    "question_number": 41,
+    "question": "Match the parts of a stupa with their descriptions:\n1. Anda\n2. Harmika\n3. Medhi\n4. Vedika\nA. Railing enclosing the circumambulatory path\nB. Hemispherical mound covering the relic\nC. Balcony-like railing atop the dome, from which the shaft of the umbrella rises\nD. Raised drum or base on which the dome rests\nSelect the correct code:",
+    "options": [
+      {
+        "key": "a",
+        "text": "1-B, 2-D, 3-C, 4-A"
+      },
+      {
+        "key": "b",
+        "text": "1-D, 2-C, 3-B, 4-A"
+      },
+      {
+        "key": "c",
+        "text": "1-B, 2-C, 3-D, 4-A"
+      },
+      {
+        "key": "d",
+        "text": "1-B, 2-C, 3-A, 4-D"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Anda is the hemispherical mound, symbolically the burial mound over the relic. Harmika is the square railed balcony on its summit, from which rises the yashti bearing the chhatra or umbrella. Medhi is the raised drum or terrace on which the anda rests and which carries the upper pradakshina patha. Vedika is the railing that encloses the circumambulatory path, pierced at the cardinal points by toranas - the great carved gateways of Sanchi Stupa 1, added under the Satavahanas.",
+    "subject": "Art & Culture",
+    "theme": "Art & Culture - Indian Architecture: Harappan to post-Mauryan (Nitin Singhania Part 1, Ch 1)",
+    "micro_topic": "Buddhist architecture - anatomy of the stupa",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_06_42",
+    "question_number": 42,
+    "question": "The Barabar and Nagarjuni hill caves in Bihar are notable because they:\n1. are among the earliest surviving examples of rock-cut architecture in India.\n2. were dedicated by Ashoka and by his successor Dasharatha to the Ajivika sect.\n3. display the characteristic Mauryan polish on their interior walls.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All three are correct. The Barabar caves (Sudama, Lomas Rishi, Karna Chaupar, Vishwa Zopri) were dedicated by Ashoka and the neighbouring Nagarjuni caves by Dasharatha, in both cases to the Ajivikas - a striking fact given Ashoka's own Buddhist affiliation, and good evidence for the tolerance his Dhamma preached. The mirror-like interior polish is the Mauryan signature. The Lomas Rishi facade imitates in stone a wooden chaitya arch, and is the ancestor of the chaitya-window motif that runs through later rock-cut architecture.",
+    "subject": "Art & Culture",
+    "theme": "Art & Culture - Indian Architecture: Harappan to post-Mauryan (Nitin Singhania Part 1, Ch 1)",
+    "micro_topic": "Mauryan rock-cut architecture - Barabar and Nagarjuni caves, Lomas Rishi",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_06_43",
+    "question_number": 43,
+    "question": "The Didarganj Yakshi, a celebrated example of Mauryan popular sculpture, is made of:",
+    "options": [
+      {
+        "key": "a",
+        "text": "grey schist"
+      },
+      {
+        "key": "b",
+        "text": "polished sandstone"
+      },
+      {
+        "key": "c",
+        "text": "bronze"
+      },
+      {
+        "key": "d",
+        "text": "terracotta"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The Didarganj Yakshi, found near Patna and now in the Bihar Museum, is carved in sandstone and carries the high Mauryan polish, holding a chauri or fly-whisk. It belongs to the 'popular art' strand of Mauryan sculpture - the Yaksha and Yakshi figures of Parkham, Patna and Besnagar, made for local cults - as distinct from the court art of pillars and palaces. Grey schist is the signature material of the later Gandhara school; the Mathura school used spotted red sandstone.",
+    "subject": "Art & Culture",
+    "theme": "Art & Culture - Indian Architecture: Harappan to post-Mauryan (Nitin Singhania Part 1, Ch 1)",
+    "micro_topic": "Mauryan popular art - Didarganj Yakshi, Yaksha-Yakshi sculpture",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_06_44",
+    "question_number": 44,
+    "question": "The Central Ground Water Board classifies groundwater assessment units on the basis of the stage of groundwater extraction into which of the following categories?\n1. Safe\n2. Semi-critical\n3. Critical\n4. Over-exploited\nSelect the correct answer using the code given below.",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 4 only"
+      },
+      {
+        "key": "b",
+        "text": "1, 2 and 4 only"
+      },
+      {
+        "key": "c",
+        "text": "1, 2, 3 and 4"
+      },
+      {
+        "key": "d",
+        "text": "2, 3 and 4 only"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The four categories are Safe (extraction up to 70% of the annually replenishable resource), Semi-critical (70-90%), Critical (90-100%) and Over-exploited (above 100%, i.e. extraction exceeding annual recharge). Over-exploited and critical units are concentrated in Punjab, Haryana, Rajasthan, Delhi and western Uttar Pradesh, and in pockets of Tamil Nadu - the belt where assured canal or tubewell irrigation met a paddy-wheat cycle and free or heavily subsidised power.",
+    "subject": "Geography",
+    "theme": "Geography - Water Resources (NCERT-12 India: People and Economy, Ch 6)",
+    "micro_topic": "Water Resources - groundwater assessment, CGWB categories",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_06_45",
+    "question_number": 45,
+    "question": "The largest share of water use in India is accounted for by:",
+    "options": [
+      {
+        "key": "a",
+        "text": "irrigation and agriculture"
+      },
+      {
+        "key": "b",
+        "text": "domestic use"
+      },
+      {
+        "key": "c",
+        "text": "industry"
+      },
+      {
+        "key": "d",
+        "text": "thermal power generation"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Agriculture accounts for roughly 85-90% of water use in India, and its share of surface and groundwater use alike is overwhelming; the projected share falls only modestly by 2050 as industrial and domestic demand grow. The policy consequence follows directly: no meaningful reduction in India's water stress is possible through domestic conservation alone - it requires a change in the crop mix and in irrigation efficiency, which is why micro-irrigation and crop diversification away from paddy in the north-west are the operative levers.",
+    "subject": "Geography",
+    "theme": "Geography - Water Resources (NCERT-12 India: People and Economy, Ch 6)",
+    "micro_topic": "Water Resources - sectoral water demand",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_06_46",
+    "question_number": 46,
+    "question": "Atal Bhujal Yojana is primarily concerned with:",
+    "options": [
+      {
+        "key": "a",
+        "text": "providing a functional tap water connection to every rural household"
+      },
+      {
+        "key": "b",
+        "text": "interlinking of the peninsular river systems"
+      },
+      {
+        "key": "c",
+        "text": "desilting of major reservoirs and dams"
+      },
+      {
+        "key": "d",
+        "text": "community-led sustainable groundwater management in water-stressed areas"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Atal Bhujal Yojana, a World Bank-assisted central sector scheme of the Ministry of Jal Shakti, promotes community participation and demand-side management of groundwater in identified water-stressed blocks across seven States, with incentive funds released against measurable outcomes such as water-security plans and improved data. Option (a) describes the Jal Jeevan Mission (Har Ghar Jal). The distinction to hold: Jal Jeevan is about supply and access; Atal Bhujal is about the sustainability of the source.",
+    "subject": "Geography",
+    "theme": "Geography - Water Resources (NCERT-12 India: People and Economy, Ch 6)",
+    "micro_topic": "Water Resources - Atal Bhujal Yojana and Jal Jeevan Mission",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_06_47",
+    "question_number": 47,
+    "question": "With reference to India's water resources, consider the following statements:\n1. India has about 4% of the world's water resources and about 18% of the world's population.\n2. The utilisable water resource of the country is smaller than its total water resource potential.\n3. Groundwater utilisation is highest in the north-western States of Punjab, Haryana and western Uttar Pradesh.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1, 2 and 3"
+      },
+      {
+        "key": "d",
+        "text": "1 and 3 only"
+      }
+    ],
+    "answer": "c",
+    "explanation": "All three are correct. The 4%-of-water against roughly 18%-of-population contrast is the standard opening of the NCERT chapter. Utilisable resource is far smaller than total potential because much of the monsoon flow runs off to the sea within a few weeks and cannot be stored or diverted with existing infrastructure and terrain - the gap between the two figures, not the headline total, is what defines the constraint. The north-western groundwater concentration is the direct result of the Green Revolution cropping pattern.",
+    "subject": "Geography",
+    "theme": "Geography - Water Resources (NCERT-12 India: People and Economy, Ch 6)",
+    "micro_topic": "Water Resources - potential vs utilisable resources, regional groundwater use",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_06_48",
+    "question_number": 48,
+    "question": "With reference to India-Nepal relations, consider the following statements:\n1. The Treaty of Peace and Friendship of 1950 provides for an open border and for national treatment in specified respects.\n2. Kalapani, Lipulekh and Limpiyadhura are areas of boundary dispute between the two countries.\n3. Nepal is landlocked and depends substantially on transit through Indian territory for third-country trade.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All three are correct. The 1950 Treaty underpins the open border and reciprocal treatment of nationals in residence, property and trade; Nepal has long sought its revision, and an Eminent Persons Group report prepared for that purpose has never been formally received. The Kalapani-Lipulekh-Limpiyadhura tract at the Nepal-India-China trijunction was included in Nepal's revised political map of 2020. Nepal's landlocked status and transit dependence is the structural fact that makes its periodic outreach to China rational rather than merely hostile.",
+    "subject": "International Relations",
+    "theme": "International Relations - Neighbourhood First, part 1: Nepal, Bhutan, Bangladesh",
+    "micro_topic": "Neighbourhood First - Nepal, 1950 Treaty and boundary questions",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_06_49",
+    "question_number": 49,
+    "question": "The India-Bhutan Treaty of Friendship, originally signed in 1949, was revised in 2007 principally in order to:",
+    "options": [
+      {
+        "key": "a",
+        "text": "transfer responsibility for Bhutan's defence to India"
+      },
+      {
+        "key": "b",
+        "text": "remove the provision under which Bhutan agreed to be guided by India in its external relations"
+      },
+      {
+        "key": "c",
+        "text": "create a customs union between the two countries"
+      },
+      {
+        "key": "d",
+        "text": "settle the Bhutan-China boundary"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The 2007 revision replaced Article 2 of the 1949 Treaty, under which Bhutan had agreed to be guided by India's advice in its external relations, with a mutual undertaking to cooperate closely and not to allow the use of their territory for activities harmful to the other's security. That single change is the whole point of the revision, and marks Bhutan's emergence as a sovereign actor in its own right. Hydropower - Chukha, Kurichhu, Tala, Mangdechhu, and the cost-overrun problem at Punatsangchhu I and II - remains the economic spine of the relationship.",
+    "subject": "International Relations",
+    "theme": "International Relations - Neighbourhood First, part 1: Nepal, Bhutan, Bangladesh",
+    "micro_topic": "Neighbourhood First - Bhutan, 1949 Treaty as revised in 2007",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_06_50",
+    "question_number": 50,
+    "question": "With reference to India-Bangladesh relations, consider the following statements:\n1. The Land Boundary Agreement was given effect through the 100th Constitutional Amendment Act, 2015.\n2. The maritime boundary between the two countries was settled in 2014 by an arbitral tribunal constituted under Annex VII of the UNCLOS.\n3. The Ganga Waters Treaty of 1996 has a term of thirty years and is due to expire at the end of 2026.\n4. The Teesta water-sharing agreement was signed in 2011.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1, 2 and 3 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2, 3 and 4 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Statements 1 to 3 are correct. The 100th Amendment, 2015 operationalised the 1974 Land Boundary Agreement and the exchange of enclaves and adverse possessions. The 2014 award of the Annex VII tribunal delimited the maritime boundary, and both sides accepted it - a rare and cited instance of peaceful settlement in the region. The Ganga Waters Treaty, signed on 12 December 1996 for thirty years, governs dry-season sharing at Farakka (below 70,000 cusecs the flow is shared equally) and expires on 31 December 2026; renewal discussions are under way. Statement 4 is wrong: the Teesta agreement was initialled in 2011 but has never been signed.",
+    "subject": "International Relations",
+    "theme": "International Relations - Neighbourhood First, part 1: Nepal, Bhutan, Bangladesh",
+    "micro_topic": "Neighbourhood First - Bangladesh, LBA, maritime award, Ganga Waters Treaty",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  }
+]

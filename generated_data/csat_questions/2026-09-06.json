@@ -1,0 +1,354 @@
+[
+ {
+  "question": "Read the following passage and answer the question that follows.\n\nHousing debates in growing cities are conducted almost entirely in the language of shortage, and this choice of word does much of the damage. A shortage is what occurs when a price is prevented from rising: queues form, waiting lists lengthen, and the remedy is obvious enough - let the price move, or supply more of the thing. Urban housing is not, for the most part, in shortage in this sense. Prices are free to rise and they do rise, spectacularly, which is precisely the complaint. What the city confronts is a different condition: the supply of dwellings responds feebly, or not at all, to the signal that those prices send.\n\nThe reason is that a dwelling is a bundle of two goods sold as one. The structure is a manufactured object, reproducible at roughly constant cost anywhere; the location is not reproducible at all. When a city's rents climb, the climb is almost entirely in the second component. Builders would happily add structures - that is their trade - but the quantity of structure permitted on a given plot is fixed in advance by rules that a previous generation of residents wrote, and those rules are not indexed to demand. The market signal arrives at a door that has been bolted from the inside.\n\nThis has an uncomfortable implication for the standard remedies. Subsidies to buyers, cheap mortgages, tax relief on interest - each raises what households can pay without altering what may be built, and so is absorbed into the price of land. The subsidy is real, but its beneficiary is not the household; it is whoever owned the plot on the morning the policy was announced. Nor is it enough to observe that new construction is expensive. Where the binding constraint is a permission rather than a resource, cost is a symptom. The city is not running out of concrete. It is running out of consent.\n\nWhich of the following best captures the central argument of the passage?",
+  "options": [
+   "(a) Urban housing prices rise because construction costs have risen faster than incomes in growing cities.",
+   "(b) Because dwellings combine a reproducible structure with a non-reproducible location, and building rights are fixed independently of demand, high urban prices reflect a supply that cannot respond rather than a classical shortage.",
+   "(c) Housing subsidies are ineffective because households misuse them, and should therefore be replaced by direct public construction.",
+   "(d) Cities should abandon the vocabulary of shortage because economic terminology confuses the public and delays reform."
+  ],
+  "answer": "(b)",
+  "explanation": "The passage's spine is the two-good structure of a dwelling (reproducible structure, non-reproducible location) plus rules that fix permitted quantity independently of demand. (a) is contradicted - 'cost is a symptom'; (c) and (d) are never argued.",
+  "subject": "CSAT",
+  "theme": "RC",
+  "micro_topic": "Main idea - economic analysis (urban land and building rights)",
+  "nature": "Aptitude",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "Read the following passage and answer the question that follows.\n\nHousing debates in growing cities are conducted almost entirely in the language of shortage, and this choice of word does much of the damage. A shortage is what occurs when a price is prevented from rising: queues form, waiting lists lengthen, and the remedy is obvious enough - let the price move, or supply more of the thing. Urban housing is not, for the most part, in shortage in this sense. Prices are free to rise and they do rise, spectacularly, which is precisely the complaint. What the city confronts is a different condition: the supply of dwellings responds feebly, or not at all, to the signal that those prices send.\n\nThe reason is that a dwelling is a bundle of two goods sold as one. The structure is a manufactured object, reproducible at roughly constant cost anywhere; the location is not reproducible at all. When a city's rents climb, the climb is almost entirely in the second component. Builders would happily add structures - that is their trade - but the quantity of structure permitted on a given plot is fixed in advance by rules that a previous generation of residents wrote, and those rules are not indexed to demand. The market signal arrives at a door that has been bolted from the inside.\n\nThis has an uncomfortable implication for the standard remedies. Subsidies to buyers, cheap mortgages, tax relief on interest - each raises what households can pay without altering what may be built, and so is absorbed into the price of land. The subsidy is real, but its beneficiary is not the household; it is whoever owned the plot on the morning the policy was announced. Nor is it enough to observe that new construction is expensive. Where the binding constraint is a permission rather than a resource, cost is a symptom. The city is not running out of concrete. It is running out of consent.\n\nIt can be inferred that the author would regard a new scheme granting first-time buyers an interest subsidy, introduced in a city whose building rules are left unchanged, as:",
+  "options": [
+   "(a) effective in the short run but self-defeating over a decade as construction costs rise.",
+   "(b) sound in principle, provided the subsidy is large enough to overcome the feeble response of supply.",
+   "(c) misguided, because first-time buyers are not the group most burdened by high rents.",
+   "(d) beneficial mainly to landowners, since the additional purchasing power would be absorbed into land prices rather than into more dwellings."
+  ],
+  "answer": "(d)",
+  "explanation": "The author states explicitly that measures raising what households can pay, without altering what may be built, are absorbed into land price and benefit 'whoever owned the plot on the morning the policy was announced'.",
+  "subject": "CSAT",
+  "theme": "RC",
+  "micro_topic": "Inference - application of the argument to a new case",
+  "nature": "Aptitude",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "Read the following passage and answer the question that follows.\n\nHousing debates in growing cities are conducted almost entirely in the language of shortage, and this choice of word does much of the damage. A shortage is what occurs when a price is prevented from rising: queues form, waiting lists lengthen, and the remedy is obvious enough - let the price move, or supply more of the thing. Urban housing is not, for the most part, in shortage in this sense. Prices are free to rise and they do rise, spectacularly, which is precisely the complaint. What the city confronts is a different condition: the supply of dwellings responds feebly, or not at all, to the signal that those prices send.\n\nThe reason is that a dwelling is a bundle of two goods sold as one. The structure is a manufactured object, reproducible at roughly constant cost anywhere; the location is not reproducible at all. When a city's rents climb, the climb is almost entirely in the second component. Builders would happily add structures - that is their trade - but the quantity of structure permitted on a given plot is fixed in advance by rules that a previous generation of residents wrote, and those rules are not indexed to demand. The market signal arrives at a door that has been bolted from the inside.\n\nThis has an uncomfortable implication for the standard remedies. Subsidies to buyers, cheap mortgages, tax relief on interest - each raises what households can pay without altering what may be built, and so is absorbed into the price of land. The subsidy is real, but its beneficiary is not the household; it is whoever owned the plot on the morning the policy was announced. Nor is it enough to observe that new construction is expensive. Where the binding constraint is a permission rather than a resource, cost is a symptom. The city is not running out of concrete. It is running out of consent.\n\nThe author's closing claim that the city \"is running out of consent\" rests most directly on the assumption that:",
+  "options": [
+   "(a) residents who wrote the existing rules were indifferent to the welfare of future arrivals.",
+   "(b) the materials and labour required for additional construction remain available at costs that do not themselves choke off supply.",
+   "(c) political consent, once withheld, cannot be recovered by any policy instrument.",
+   "(d) land in growing cities is owned by a small number of people who benefit from restriction."
+  ],
+  "answer": "(b)",
+  "explanation": "'Running out of consent, not concrete' holds only if physical inputs are not the binding constraint - i.e. materials and labour remain available at non-prohibitive cost. (c) overstates; (a) and (d) attribute motives the passage never claims.",
+  "subject": "CSAT",
+  "theme": "RC",
+  "micro_topic": "Assumption identification",
+  "nature": "Aptitude",
+  "difficulty": "Hard"
+ },
+ {
+  "question": "Read the following passage and answer the question that follows.\n\nThere is a temptation, when a question is difficult and an expert stands nearby, to treat deference as a form of humility and independent judgement as a form of vanity. The temptation is respectable and mostly correct: no one can verify everything, and a person who insists on personally checking the chemistry of every medicine will die of something ordinary while checking. Deference is not the abdication of reason; it is one of reason's economies.\n\nBut an economy has a price, and the price here is that the deferring person acquires a belief without acquiring any of the machinery that would let him revise it. He holds a conclusion that is, from the inside, indistinguishable from a conclusion he had reached himself, and he will defend it with the confidence appropriate to the latter. This is why deference so easily curdles. The believer cannot say what would change his mind, because the reasons that would change it were never his to begin with. He has borrowed the verdict without the evidence, and a verdict without evidence is not knowledge held lightly - it is dogma held cheaply.\n\nWhat follows is not that we should defer less, but that we should defer differently. The judgement that a layperson can competently make is not the object-level one - whether this drug works - but the second-order one: whether this person, on this question, in this institution, has been placed under conditions that reward being right and penalise being wrong. That judgement requires no technical training. It requires attention to incentives, to track records, to whether dissent within the field is tolerated or punished. It is, admittedly, a harder discipline than either credulity or contrarianism, both of which relieve their practitioners of the duty to look closely. The contrarian and the devotee make the same mistake in opposite directions: each has decided in advance what expertise is worth, and so neither has to examine any particular expert at all.\n\nWhich of the following best captures the central idea of the passage?",
+  "options": [
+   "(a) Deference to experts is an unavoidable but corrupting habit that erodes the capacity for independent thought.",
+   "(b) Since laypeople cannot evaluate technical claims, they should suspend judgement on specialist questions altogether.",
+   "(c) Deference is a legitimate economy of reason, but it must be directed at a second-order assessment of the conditions under which an expert operates rather than accepted as a substitute for evidence.",
+   "(d) Contrarianism is a more serious intellectual failing than credulity, because it rejects knowledge that is freely available."
+  ],
+  "answer": "(c)",
+  "explanation": "The final paragraph makes the prescription explicit: not defer less but defer differently - judging incentives, track record and tolerance of dissent. (a) and (b) are stronger than anything the author says; (d) reverses his point that the two errors are symmetrical.",
+  "subject": "CSAT",
+  "theme": "RC",
+  "micro_topic": "Main idea - philosophical (epistemic deference)",
+  "nature": "Aptitude",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "Read the following passage and answer the question that follows.\n\nThere is a temptation, when a question is difficult and an expert stands nearby, to treat deference as a form of humility and independent judgement as a form of vanity. The temptation is respectable and mostly correct: no one can verify everything, and a person who insists on personally checking the chemistry of every medicine will die of something ordinary while checking. Deference is not the abdication of reason; it is one of reason's economies.\n\nBut an economy has a price, and the price here is that the deferring person acquires a belief without acquiring any of the machinery that would let him revise it. He holds a conclusion that is, from the inside, indistinguishable from a conclusion he had reached himself, and he will defend it with the confidence appropriate to the latter. This is why deference so easily curdles. The believer cannot say what would change his mind, because the reasons that would change it were never his to begin with. He has borrowed the verdict without the evidence, and a verdict without evidence is not knowledge held lightly - it is dogma held cheaply.\n\nWhat follows is not that we should defer less, but that we should defer differently. The judgement that a layperson can competently make is not the object-level one - whether this drug works - but the second-order one: whether this person, on this question, in this institution, has been placed under conditions that reward being right and penalise being wrong. That judgement requires no technical training. It requires attention to incentives, to track records, to whether dissent within the field is tolerated or punished. It is, admittedly, a harder discipline than either credulity or contrarianism, both of which relieve their practitioners of the duty to look closely. The contrarian and the devotee make the same mistake in opposite directions: each has decided in advance what expertise is worth, and so neither has to examine any particular expert at all.\n\nIt can be inferred that the author would regard a person who accepts an expert's conclusion and, when challenged, can state precisely which findings would lead him to abandon it, as:",
+  "options": [
+   "(a) deferring in the manner the author commends, because the borrowed verdict has been accompanied by something that permits revision.",
+   "(b) inconsistent, since genuine deference precludes holding any conditions for revision.",
+   "(c) a contrarian in disguise, since the readiness to abandon the conclusion reveals distrust of the expert.",
+   "(d) unusually well informed, and therefore no longer a layperson in the relevant sense."
+  ],
+  "answer": "(a)",
+  "explanation": "The author's complaint is that the deferring person 'cannot say what would change his mind'; someone who can has exactly the machinery for revision whose absence turns deference into cheap dogma.",
+  "subject": "CSAT",
+  "theme": "RC",
+  "micro_topic": "Inference - author's likely judgement on a case",
+  "nature": "Aptitude",
+  "difficulty": "Hard"
+ },
+ {
+  "question": "Read the following passage and answer the question that follows.\n\nThere is a temptation, when a question is difficult and an expert stands nearby, to treat deference as a form of humility and independent judgement as a form of vanity. The temptation is respectable and mostly correct: no one can verify everything, and a person who insists on personally checking the chemistry of every medicine will die of something ordinary while checking. Deference is not the abdication of reason; it is one of reason's economies.\n\nBut an economy has a price, and the price here is that the deferring person acquires a belief without acquiring any of the machinery that would let him revise it. He holds a conclusion that is, from the inside, indistinguishable from a conclusion he had reached himself, and he will defend it with the confidence appropriate to the latter. This is why deference so easily curdles. The believer cannot say what would change his mind, because the reasons that would change it were never his to begin with. He has borrowed the verdict without the evidence, and a verdict without evidence is not knowledge held lightly - it is dogma held cheaply.\n\nWhat follows is not that we should defer less, but that we should defer differently. The judgement that a layperson can competently make is not the object-level one - whether this drug works - but the second-order one: whether this person, on this question, in this institution, has been placed under conditions that reward being right and penalise being wrong. That judgement requires no technical training. It requires attention to incentives, to track records, to whether dissent within the field is tolerated or punished. It is, admittedly, a harder discipline than either credulity or contrarianism, both of which relieve their practitioners of the duty to look closely. The contrarian and the devotee make the same mistake in opposite directions: each has decided in advance what expertise is worth, and so neither has to examine any particular expert at all.\n\nThe author's attitude towards deference is best described as:",
+  "options": [
+   "(a) enthusiastic, on the ground that the division of intellectual labour is the foundation of modern knowledge.",
+   "(b) sceptical of it as a habit that disguises intellectual laziness as modesty.",
+   "(c) neutral, presenting the arguments of both the devotee and the contrarian without preference.",
+   "(d) approving of it as a necessary economy while insisting that it be exercised with a discipline most of its practitioners neglect."
+  ],
+  "answer": "(d)",
+  "explanation": "He calls deference 'one of reason's economies' (approval) yet demands 'a harder discipline than either credulity or contrarianism' - approval coupled with a demand, not scepticism, neutrality or enthusiasm.",
+  "subject": "CSAT",
+  "theme": "RC",
+  "micro_topic": "Tone and attitude",
+  "nature": "Aptitude",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "On an island, every inhabitant is either a knight, who always speaks the truth, or a knave, who always lies. Three inhabitants P, Q and R make the following statements:\n\nP: \"Q and R are of the same type.\"\nQ: \"P and I are of different types.\"\nR: \"Exactly one of the three of us is a knight.\"\n\nWhich of the following is correct?",
+  "options": [
+   "(a) Only R is a knight.",
+   "(b) P and R are knights, Q is a knave.",
+   "(c) Only Q is a knave.",
+   "(d) All three are knaves."
+  ],
+  "answer": "(a)",
+  "explanation": "Suppose R is a knave, so 'exactly one is a knight' is false. If P were then a knight, P's statement would make Q a knave like R, but Q's claim that P and Q differ in type would then be true - impossible for a knave. If P and R are both knaves, P's false statement means Q and R differ, so Q is a knight; Q's true statement is consistent, but then exactly one knight (Q) exists, making R's statement true - impossible for a knave. Hence R is a knight, so exactly one of the three is a knight and P and Q are knaves. Check: P (knave) falsely says Q and R are alike; Q (knave) falsely says P and Q differ; R (knight) truly says exactly one is a knight. Unique solution.",
+  "subject": "CSAT",
+  "theme": "Reasoning",
+  "micro_topic": "Truth-tellers and liars (knights and knaves)",
+  "nature": "Aptitude",
+  "difficulty": "Hard"
+ },
+ {
+  "question": "A solid wooden cube of edge 6 cm is painted on all six faces: the four side faces are painted green and the top and bottom faces are painted red. The cube is then cut into 216 unit cubes of edge 1 cm each. How many of these unit cubes have exactly two green faces and no red face?",
+  "options": [
+   "(a) 12",
+   "(b) 16",
+   "(c) 24",
+   "(d) 32"
+  ],
+  "answer": "(b)",
+  "explanation": "Two green faces occur only where two green side faces meet, i.e. along the four vertical edges of the big cube. Each vertical edge contains 6 unit cubes, but the top and bottom ones also carry a red face. So each edge contributes 6 - 2 = 4 cubes, giving 4 x 4 = 16.",
+  "subject": "CSAT",
+  "theme": "Reasoning",
+  "micro_topic": "Cube painting and cutting",
+  "nature": "Aptitude",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "Consider the statements to be true regardless of commonly known facts.\n\nStatements:\n1. All poets are dreamers.\n2. Some dreamers are cynics.\n3. No cynic is an optimist.\n\nConclusions:\nI. Some poets are cynics.\nII. Some dreamers are not optimists.\nIII. No poet is an optimist.\n\nWhich of the conclusions follow?",
+  "options": [
+   "(a) Only I and II",
+   "(b) Only III",
+   "(c) Only II and III",
+   "(d) Only II"
+  ],
+  "answer": "(d)",
+  "explanation": "Poets are a subset of dreamers; some dreamers are cynics; cynics and optimists are disjoint. I fails because the cynical dreamers need not be poets. II follows: those dreamers who are cynics cannot be optimists. III fails because every poet may lie outside the cynic region and be an optimist. Only II.",
+  "subject": "CSAT",
+  "theme": "Reasoning",
+  "micro_topic": "Syllogism - three statements, three conclusions",
+  "nature": "Aptitude",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "A machine rearranges a line of words and numbers. In each step it performs two operations simultaneously:\n- the alphabetically earliest of the words not yet placed is moved to the leftmost unplaced position, and\n- the largest of the numbers not yet placed is moved to the rightmost unplaced position.\n\nInput: 42 cart 17 nest 63 aim 28 pool\n\nWhich element occupies the fifth position from the left in Step II?",
+  "options": [
+   "(a) nest",
+   "(b) 17",
+   "(c) pool",
+   "(d) 28"
+  ],
+  "answer": "(d)",
+  "explanation": "Words in alphabetical order: aim, cart, nest, pool. Numbers in descending order: 63, 42, 28, 17. Step I sends aim to the left end and 63 to the right end: aim 42 cart 17 nest 28 pool 63. Step II sends cart to position 2 and 42 to position 7: aim cart 17 nest 28 pool 42 63. The fifth element from the left is 28.",
+  "subject": "CSAT",
+  "theme": "Reasoning",
+  "micro_topic": "Input-output machine sequencing",
+  "nature": "Aptitude",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "Statement: A state government has announced free bus travel for all women, stating that the measure is intended to raise women's participation in paid employment.\n\nWhich one of the following is an assumption implicit in the announcement?",
+  "options": [
+   "(a) The cost of travel is, for a significant number of women, a real obstacle to taking up paid work.",
+   "(b) Women in the state currently make no use of public buses.",
+   "(c) The state's bus fleet is large enough to carry every woman who wishes to travel.",
+   "(d) Men in the state do not face any obstacle to employment."
+  ],
+  "answer": "(a)",
+  "explanation": "An implicit assumption is what must hold for the stated means to serve the stated end. Waiving fares can raise employment only if fare cost is an actual barrier. (b) is self-defeating - a fare waiver presupposes bus use; (c) concerns implementation capacity, not the reasoning; (d) is irrelevant to the stated aim.",
+  "subject": "CSAT",
+  "theme": "Reasoning",
+  "micro_topic": "Implicit assumption (statement-assumption)",
+  "nature": "Aptitude",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "A four-member committee is to be formed from three economists (A, B, C), three engineers (D, E, F) and two lawyers (G, H), subject to the following conditions:\n1. The committee must include at least one member from each of the three groups.\n2. A and D cannot both be selected.\n3. If B is selected, G must also be selected.\n4. E and H cannot both be selected.\n5. C can be selected only if F is also selected.\n\nIf G is not selected, which of the following must be true?",
+  "options": [
+   "(a) E is selected.",
+   "(b) A is selected.",
+   "(c) D is selected.",
+   "(d) F is selected."
+  ],
+  "answer": "(d)",
+  "explanation": "If G is out, condition 1 forces the lawyer to be H. Condition 4 then excludes E, and the contrapositive of condition 3 excludes B. The other three seats come from {A, C, D, F}: {A, C, D} breaks rule 5, {A, D, F} breaks rule 2, leaving {A, C, F} and {C, D, F} - committees A-C-F-H and C-D-F-H. F belongs to both valid committees, so \"F is selected\" must be true; A is missing from the second and D from the first, and E is excluded outright.",
+  "subject": "CSAT",
+  "theme": "Reasoning",
+  "micro_topic": "Committee selection with conditional constraints",
+  "nature": "Aptitude",
+  "difficulty": "Hard"
+ },
+ {
+  "question": "Study the table and answer the question that follows.\n\nThe table gives the percentage share of each category in a state's total exports. Total exports were Rs 4,000 crore in 2020 and Rs 7,500 crore in 2025.\n\n| Category | Share in 2020 (%) | Share in 2025 (%) |\n|---|---|---|\n| Engineering goods | 30 | 26 |\n| Textiles | 22 | 15 |\n| Chemicals | 18 | 21 |\n| Agricultural products | 16 | 14 |\n| Others | 14 | 24 |\n\nAmong the four named categories (i.e. excluding \"Others\"), the increase in export value between 2020 and 2025 was the largest for:",
+  "options": [
+   "(a) Engineering goods",
+   "(b) Textiles",
+   "(c) Chemicals",
+   "(d) Agricultural products"
+  ],
+  "answer": "(c)",
+  "explanation": "Convert shares to values. 2020: engineering 1,200; textiles 880; chemicals 720; agriculture 640. 2025: engineering 1,950; textiles 1,125; chemicals 1,575; agriculture 1,050. Increases: +750, +245, +855, +410 respectively. Chemicals is largest. Trap: engineering goods have the largest share and the largest absolute values in both years, but not the largest increase.",
+  "subject": "CSAT",
+  "theme": "DI",
+  "micro_topic": "Percentage shares converted to absolute values",
+  "nature": "Aptitude",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "Study the table and answer the question that follows.\n\nThe table gives the percentage share of each category in a state's total exports. Total exports were Rs 4,000 crore in 2020 and Rs 7,500 crore in 2025.\n\n| Category | Share in 2020 (%) | Share in 2025 (%) |\n|---|---|---|\n| Engineering goods | 30 | 26 |\n| Textiles | 22 | 15 |\n| Chemicals | 18 | 21 |\n| Agricultural products | 16 | 14 |\n| Others | 14 | 24 |\n\nThe export value of agricultural products in 2025 was approximately what percentage higher than in 2020?",
+  "options": [
+   "(a) 39%",
+   "(b) 64%",
+   "(c) 87.5%",
+   "(d) 164%"
+  ],
+  "answer": "(b)",
+  "explanation": "2020 value = 16% of 4,000 = 640; 2025 value = 14% of 7,500 = 1,050. Increase = 410, and 410/640 = 0.6406, about 64%. Trap (d) reads the ratio 1050/640 = 1.64 as a percentage increase; trap (c) is the growth of the total (4,000 to 7,500).",
+  "subject": "CSAT",
+  "theme": "DI",
+  "micro_topic": "Percentage increase from share-based values",
+  "nature": "Aptitude",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "Read the following caselet and answer the question that follows.\n\nA state utility bills domestic consumers monthly as follows:\n- Fixed charge: Rs 120 per month, irrespective of consumption.\n- Energy charge on a slab basis: first 100 units at Rs 4.00 per unit; next 100 units (101-200) at Rs 6.50 per unit; next 200 units (201-400) at Rs 8.00 per unit; above 400 units at Rs 9.50 per unit.\n- Electricity duty: 5% of the energy charge only (the fixed charge is not subject to duty).\n\nA household consumes 320 units in a month. Its total bill is:",
+  "options": [
+   "(a) Rs 2,110.50",
+   "(b) Rs 2,130.00",
+   "(c) Rs 2,230.50",
+   "(d) Rs 2,245.00"
+  ],
+  "answer": "(c)",
+  "explanation": "Energy charge = 100 x 4 + 100 x 6.50 + 120 x 8 = 400 + 650 + 960 = Rs 2,010. Duty = 5% of 2,010 = Rs 100.50. Adding the fixed charge of Rs 120 gives 2,010 + 100.50 + 120 = Rs 2,230.50. Trap (b) omits the duty.",
+  "subject": "CSAT",
+  "theme": "DI",
+  "micro_topic": "Slab tariff computation",
+  "nature": "Aptitude",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "Read the following caselet and answer the question that follows.\n\nA state utility bills domestic consumers monthly as follows:\n- Fixed charge: Rs 120 per month, irrespective of consumption.\n- Energy charge on a slab basis: first 100 units at Rs 4.00 per unit; next 100 units (101-200) at Rs 6.50 per unit; next 200 units (201-400) at Rs 8.00 per unit; above 400 units at Rs 9.50 per unit.\n- Electricity duty: 5% of the energy charge only (the fixed charge is not subject to duty).\n\nA household's consumption rises from 380 units in one month to 420 units in the next. By how much does its total bill increase?",
+  "options": [
+   "(a) Rs 320.00",
+   "(b) Rs 350.00",
+   "(c) Rs 367.50",
+   "(d) Rs 399.00"
+  ],
+  "answer": "(c)",
+  "explanation": "380 units: 400 + 650 + 180 x 8 = Rs 2,490. 420 units: 400 + 650 + 200 x 8 + 20 x 9.50 = 400 + 650 + 1,600 + 190 = Rs 2,840. The energy charge rises by Rs 350, and the 5% duty makes the bill rise by 350 x 1.05 = Rs 367.50; the fixed charge is unchanged. Trap (b) ignores the duty; trap (a) prices all 40 extra units at Rs 8.",
+  "subject": "CSAT",
+  "theme": "DI",
+  "micro_topic": "Marginal cost across tariff slabs",
+  "nature": "Aptitude",
+  "difficulty": "Hard"
+ },
+ {
+  "question": "You are the Sub-Divisional Officer handling old-age and widow pension sanctions. An elderly widow has been visiting your office for three months; her file is rejected each time because she cannot produce her late husband's death certificate, the municipal record having been destroyed in a fire. She is visibly destitute. A private \"facilitator\" waiting outside tells your clerk that he can \"arrange\" a certificate for a fee, and the clerk mentions this to you as a practical solution. What would you do?",
+  "options": [
+   "(a) Permit the facilitator's route informally, since the applicant's entitlement is genuine and the delay is the state's fault, not hers.",
+   "(b) Reject the file finally and advise her to approach the courts, as the rules leave you no discretion.",
+   "(c) Refuse the facilitator's route, examine the rules for alternative proof of death (an affidavit, a certificate from the local registrar or panchayat, hospital or cremation records), have the case processed under that provision, and simultaneously report the facilitator's activity to the authority concerned.",
+   "(d) Sanction the pension on your own authority without any documentation and record the reasons in the file."
+  ],
+  "answer": "(c)",
+  "explanation": "Only (c) is both lawful and humane: it uses the discretion the rules actually provide, protects a genuine entitlement, and acts against a person trading in forged documents. (a) and (d) are irregular; (b) abandons a destitute applicant when a lawful remedy exists.",
+  "subject": "CSAT",
+  "theme": "Decision-Making",
+  "micro_topic": "Rules versus compassion; integrity",
+  "nature": "Aptitude",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "You head a district unit that reports monthly progress figures. On the eve of a review meeting chaired by a senior officer, your immediate superior instructs you to present the achievement figure as 80% when the verified figure is 71%, saying that the difference \"will be made up within the fortnight\" and that a low figure will invite avoidable criticism of the whole district. What is the most appropriate course of action?",
+  "options": [
+   "(a) Present 80% as instructed, since your superior has taken responsibility for the figure.",
+   "(b) Present the verified figure of 71% along with the reasons for the shortfall and the specific plan to reach 80% within the fortnight, having first told your superior that you are unable to certify a figure you cannot verify.",
+   "(c) Present the figure without a percentage at all, so that the discrepancy does not arise.",
+   "(d) Write to the reviewing officer separately before the meeting, reporting that your superior asked you to inflate the figure."
+  ],
+  "answer": "(b)",
+  "explanation": "(b) keeps the record truthful while framing the shortfall constructively, and gives the superior notice rather than a surprise. (a) is falsification, (c) is evasion, and (d) escalates behind the superior's back before he has had a chance to reconsider.",
+  "subject": "CSAT",
+  "theme": "Decision-Making",
+  "micro_topic": "Honesty in official reporting; handling a superior's instruction",
+  "nature": "Aptitude",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "Two members of your team, both competent, have fallen out after a personal disagreement. One of them now refuses to attend meetings the other chairs, and a joint deliverable is slipping. Neither has made any formal complaint, and both are otherwise well regarded. What would you do first?",
+  "options": [
+   "(a) Reassign one of them to another section immediately, since the work must not suffer.",
+   "(b) Meet each of them separately to understand the position, then bring them together to agree on the minimum working arrangements needed for the deliverable, keeping the personal dispute outside the office and making clear that professional obligations are not optional.",
+   "(c) Ignore the matter, as personal disputes between adults usually resolve themselves and intervention may worsen them.",
+   "(d) Issue a written warning to the member who is refusing to attend meetings, as the refusal is an act of indiscipline."
+  ],
+  "answer": "(b)",
+  "explanation": "(b) addresses the problem at the lowest level - listen to both, secure the minimum professional cooperation the work needs, and set a clear expectation. (a) and (d) are premature and punitive; (c) neglects a dispute that is already damaging output.",
+  "subject": "CSAT",
+  "theme": "Decision-Making",
+  "micro_topic": "Interpersonal conflict within a team",
+  "nature": "Aptitude",
+  "difficulty": "Easy"
+ },
+ {
+  "question": "A can complete a piece of work in 12 days and B can complete the same work in 18 days. They work on alternate days, beginning with B. In how many days is the work completed?",
+  "options": [
+   "(a) 14",
+   "(b) 14 1/2",
+   "(c) 15",
+   "(d) 15 1/2"
+  ],
+  "answer": "(b)",
+  "explanation": "Take the work as LCM(12, 18) = 36 units, so A does 3 units a day and B does 2. Starting with B, each two-day block (B then A) completes 5 units. Seven blocks = 14 days = 35 units, leaving 1 unit. Day 15 is B's turn and B needs half a day for 1 unit. Total = 14 1/2 days. (Starting with A instead would give 14 1/3 days - the order matters.)",
+  "subject": "CSAT",
+  "theme": "Quant",
+  "micro_topic": "Time and work - alternate days",
+  "nature": "Aptitude",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "A solid metallic right circular cone of height 24 cm and base radius 6 cm is melted and recast into solid spheres of radius 2 cm each. If 10% of the metal is lost in the process, the number of complete spheres obtained is:",
+  "options": [
+   "(a) 21",
+   "(b) 24",
+   "(c) 25",
+   "(d) 27"
+  ],
+  "answer": "(b)",
+  "explanation": "Cone volume = (1/3) x pi x 36 x 24 = 288 pi cubic cm. After a 10% loss the usable metal is 0.9 x 288 pi = 259.2 pi. One sphere = (4/3) pi x 8 = 32 pi/3. Number = 259.2 x 3/32 = 24.3, so 24 complete spheres. Trap (d) 27 is the answer with no wastage.",
+  "subject": "CSAT",
+  "theme": "Quant",
+  "micro_topic": "Mensuration - volume conservation with wastage",
+  "nature": "Aptitude",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "How many three-digit numbers have their digits in strictly increasing order (for example, 137 or 489)?",
+  "options": [
+   "(a) 84",
+   "(b) 120",
+   "(c) 168",
+   "(d) 216"
+  ],
+  "answer": "(a)",
+  "explanation": "In a strictly increasing three-digit number the digit 0 can never appear, since it could only be the smallest digit and that position is the leading digit. So choose any 3 distinct digits from 1 to 9; each choice can be written in increasing order in exactly one way. Count = C(9,3) = 84. Trap (b) 120 = C(10,3), which wrongly allows 0.",
+  "subject": "CSAT",
+  "theme": "Quant",
+  "micro_topic": "Combinatorics - counting with ordering constraint",
+  "nature": "Aptitude",
+  "difficulty": "Hard"
+ }
+]

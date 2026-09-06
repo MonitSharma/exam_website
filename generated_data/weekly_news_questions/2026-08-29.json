@@ -1,0 +1,219 @@
+[
+  {
+    "id": "weekly_news_2026_08_29_1",
+    "question_number": 1,
+    "question": "The Aug 26 Himalayan flood surge travelled down which sequence before threatening Bihar?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Lhende → Bhote Koshi → Trishuli → Narayani → Gandak"
+      },
+      {
+        "key": "b",
+        "text": "Arun → Sun Koshi → Kosi"
+      },
+      {
+        "key": "c",
+        "text": "Karnali → Ghaghara"
+      },
+      {
+        "key": "d",
+        "text": "Kali Gandaki → Rapti"
+      }
+    ],
+    "answer": "a",
+    "explanation": "(Lhende Khola → Bhote Koshi → Trishuli → Narayani; it is the Gandak in India)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_08_29_2",
+    "question_number": 2,
+    "question": "Gyirong Port, hit by the same flood, is a China–Nepal trade gateway in which prefecture of Tibet?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Ngari"
+      },
+      {
+        "key": "b",
+        "text": "Shigatse"
+      },
+      {
+        "key": "c",
+        "text": "Lhasa"
+      },
+      {
+        "key": "d",
+        "text": "Nyingchi"
+      }
+    ],
+    "answer": "b",
+    "explanation": "(Gyirong County, Shigatse prefecture, southern Tibet)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_08_29_3",
+    "question_number": 3,
+    "question": "Kaziranga National Park lies in which two Assam districts, with which hills forming its southern boundary?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Sonitpur & Biswanath; Bhutan hills"
+      },
+      {
+        "key": "b",
+        "text": "Golaghat & Nagaon; Karbi Anglong hills"
+      },
+      {
+        "key": "c",
+        "text": "Dhubri & Kokrajhar; Garo hills"
+      },
+      {
+        "key": "d",
+        "text": "Tinsukia & Dibrugarh; Patkai hills"
+      }
+    ],
+    "answer": "b",
+    "explanation": "(Golaghat & Nagaon; the Karbi Anglong hills, where the mining violations occurred)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_08_29_4",
+    "question_number": 4,
+    "question": "Kaub, which fell to a record 21 cm this summer, is the shallowest reference gauge on which river?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Danube"
+      },
+      {
+        "key": "b",
+        "text": "Elbe"
+      },
+      {
+        "key": "c",
+        "text": "Rhine"
+      },
+      {
+        "key": "d",
+        "text": "Rhône"
+      }
+    ],
+    "answer": "c",
+    "explanation": "(the Rhine, in the gorge between Bingen and Koblenz; record low since 1880)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_08_29_5",
+    "question_number": 5,
+    "question": "The China–Kyrgyzstan–Uzbekistan railway crosses the Tian Shan at which pass, running from Kashgar toward the Fergana valley?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Khunjerab"
+      },
+      {
+        "key": "b",
+        "text": "Torugart"
+      },
+      {
+        "key": "c",
+        "text": "Karakoram"
+      },
+      {
+        "key": "d",
+        "text": "Zoji La"
+      }
+    ],
+    "answer": "b",
+    "explanation": "(Torugart Pass; note the Makmal gauge break, 1,435 mm → 1,520 mm)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_08_29_6",
+    "question_number": 6,
+    "question": "Kīlauea, erupting again on Aug 25, is best described as which type of volcano?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A Ring-of-Fire subduction stratovolcano"
+      },
+      {
+        "key": "b",
+        "text": "A mid-ocean-ridge fissure volcano"
+      },
+      {
+        "key": "c",
+        "text": "An intra-plate hotspot shield volcano"
+      },
+      {
+        "key": "d",
+        "text": "A continental rift volcano"
+      }
+    ],
+    "answer": "c",
+    "explanation": "(Hawaiian hotspot shield volcano — *not* on the Ring of Fire)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_08_29_7",
+    "question_number": 7,
+    "question": "The Singhbhum Craton, source of the 3.5-billion-year biosignature, spans which two states?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Chhattisgarh & Telangana"
+      },
+      {
+        "key": "b",
+        "text": "Jharkhand & Odisha"
+      },
+      {
+        "key": "c",
+        "text": "Bihar & West Bengal"
+      },
+      {
+        "key": "d",
+        "text": "Odisha & Andhra Pradesh"
+      }
+    ],
+    "answer": "b",
+    "explanation": "(Jharkhand & north Odisha, the Chota Nagpur–Singhbhum shield)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  }
+]

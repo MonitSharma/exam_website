@@ -85,6 +85,7 @@ const CATCHUP_META = {
   sectional: { label: "Sectional test", tone: "saffron", icon: "target", kind: "quiz", unit: "questions" },
   csat: { label: "CSAT practice", tone: "blue", icon: "target", kind: "quiz", unit: "questions" },
   ai: { label: "Mock test", tone: "saffron", icon: "spark", kind: "quiz", unit: "questions" },
+  essay: { label: "Essay writing", tone: "indigo", icon: "fileText", kind: "writing", unit: "min" },
   mains: { label: "Mains answers", tone: "green", icon: "fileText", kind: "writing", unit: "min" },
   ethics: { label: "Ethics case", tone: "rose", icon: "target", kind: "writing", unit: "min" },
   editorials: { label: "Editorials", tone: "indigo", icon: "book", kind: "writing", unit: "min" },
@@ -108,12 +109,12 @@ function catchUpMonthLabel(monthKey) {
 
 // Open a note (writing task) inside the Home notes library.
 function openCatchUpNote(go, id) {
-  go("home");
-  setTimeout(() => window.dispatchEvent(new CustomEvent("pariksha:open-note", { detail: { id } })), 80);
+  go("library", { noteId: id });
 }
 
-function CatchUpScreen({ go, progress, onDismiss, onRestore, onMarkDone, onUndoDone }) {
+function CatchUpScreen({ go, progress, onStartDate, onDismiss, onRestore, onMarkDone, onUndoDone }) {
   const ds = window.UPSC;
+  const startDate = progress.catchUpStartDate || ds.todayIso;
   const [filter, setFilter] = useCatchUpState("all");
   const [showCleared, setShowCleared] = useCatchUpState(false);
   const [showWritten, setShowWritten] = useCatchUpState(false);
@@ -143,7 +144,7 @@ function CatchUpScreen({ go, progress, onDismiss, onRestore, onMarkDone, onUndoD
             if (!q) return;
             const offset = CATCHUP_WEEKDAYS.indexOf(day.weekday);
             const date = offset >= 0 ? window.UPSC_PROGRESS.addDays(r.s.date, offset) : r.s.date;
-            if (date > ds.todayIso) return;
+            if (date > ds.todayIso || date < startDate) return;
             // Index within the week keeps the id stable and unique even when a
             // day row has no parseable day number.
             out.push({ id: `mainsq::${r.s.id}::${dayIdx}`, gs: q.gs, text: q.text, words: q.words, date });
@@ -153,12 +154,12 @@ function CatchUpScreen({ go, progress, onDismiss, onRestore, onMarkDone, onUndoD
         setMainsQuestions(out);
       });
     return () => { cancelled = true; };
-  }, [ds.noteDocuments.length]);
+  }, [ds.noteDocuments.length, startDate]);
 
   // Model essays — load and parse into a learn-to-write scaffold.
   useCatchUpEffect(() => {
     let cancelled = false;
-    const notes = ds.noteDocuments.filter((doc) => doc.cadence === "essay");
+    const notes = ds.noteDocuments.filter((doc) => doc.cadence === "essay" && doc.date >= startDate);
     if (!notes.length) return undefined;
     Promise.all(notes.map((n) => ds.loadNoteDocument(n.id).then(({ content }) => ({ n, content })).catch(() => null)))
       .then((results) => {
@@ -168,7 +169,7 @@ function CatchUpScreen({ go, progress, onDismiss, onRestore, onMarkDone, onUndoD
         setEssays(out);
       });
     return () => { cancelled = true; };
-  }, [ds.noteDocuments.length]);
+  }, [ds.noteDocuments.length, startDate]);
 
   const mainsDoneMap = progress?.manualCompletions || {};
   const mainsGroups = CATCHUP_GS_ORDER
@@ -223,6 +224,8 @@ function CatchUpScreen({ go, progress, onDismiss, onRestore, onMarkDone, onUndoD
           {missed.length > 0 && <em>{filter === "all" ? "" : `${visible.length} shown · `}~{totalMinutes} min{filter === "all" ? " total" : ""}</em>}
         </div>
       </div>
+
+      <section className="catchup-start panel"><div><h2>Your catch-up window</h2><p>Only include work from your chosen start date. Your completed work stays saved.</p></div><label>Start date<input type="date" aria-label="Catch-up start date" max={ds.todayIso} value={startDate} onChange={(event) => onStartDate(event.target.value)} /></label><button className="btn ghost sm" onClick={() => onStartDate(ds.todayIso)}>Start today</button><button className="btn ghost sm" onClick={() => onStartDate(window.UPSC_PROGRESS.addDays(ds.todayIso, -7))}>Include last 7 days</button></section>
 
       {missed.length === 0 ? (
         <section className="panel catchup-empty">

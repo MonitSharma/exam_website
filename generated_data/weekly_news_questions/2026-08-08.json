@@ -1,0 +1,188 @@
+[
+  {
+    "id": "weekly_news_2026_08_08_1",
+    "question_number": 1,
+    "question": "The Pamba river, in the news as Kerala floods hit its district, is best associated with which pilgrimage centre?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Guruvayur"
+      },
+      {
+        "key": "b",
+        "text": "Sabarimala"
+      },
+      {
+        "key": "c",
+        "text": "Thiruvananthapuram"
+      },
+      {
+        "key": "d",
+        "text": "Malayattoor"
+      }
+    ],
+    "answer": "b",
+    "explanation": "(Sabarimala, on the Pamba in Pathanamthitta)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_08_08_2",
+    "question_number": 2,
+    "question": "Glaw Lake, India's 101st Ramsar site, lies inside which tiger reserve and in which state?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Namdapha, Assam"
+      },
+      {
+        "key": "b",
+        "text": "Kamlang, Arunachal Pradesh"
+      },
+      {
+        "key": "c",
+        "text": "Pakke, Nagaland"
+      },
+      {
+        "key": "d",
+        "text": "Dampa, Mizoram"
+      }
+    ],
+    "answer": "b",
+    "explanation": "(Kamlang Tiger Reserve, Arunachal Pradesh — the state's first Ramsar site)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_08_08_3",
+    "question_number": 3,
+    "question": "The Asan Wetland Conservation Reserve sits at the confluence of the Asan river with which major river?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Ganga"
+      },
+      {
+        "key": "b",
+        "text": "Ramganga"
+      },
+      {
+        "key": "c",
+        "text": "Yamuna"
+      },
+      {
+        "key": "d",
+        "text": "Kali"
+      }
+    ],
+    "answer": "c",
+    "explanation": "(Yamuna; the Asan meets it near Dehradun in the Doon valley)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_08_08_4",
+    "question_number": 4,
+    "question": "The Gulf of Suez, jolted by an August earthquake, separates mainland Egypt from which landmass?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Arabian Peninsula"
+      },
+      {
+        "key": "b",
+        "text": "Sinai Peninsula"
+      },
+      {
+        "key": "c",
+        "text": "Cyprus"
+      },
+      {
+        "key": "d",
+        "text": "Anatolia"
+      }
+    ],
+    "answer": "b",
+    "explanation": "(Sinai Peninsula; the Gulf of Suez is the Red Sea's NW arm)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_08_08_5",
+    "question_number": 5,
+    "question": "Goma, a flashpoint in the DRC's M23 conflict, lies on the shore of which lake, beneath the Virunga volcanoes?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Lake Tanganyika"
+      },
+      {
+        "key": "b",
+        "text": "Lake Edward"
+      },
+      {
+        "key": "c",
+        "text": "Lake Kivu"
+      },
+      {
+        "key": "d",
+        "text": "Lake Albert"
+      }
+    ],
+    "answer": "c",
+    "explanation": "(Lake Kivu, on the Rwanda border in eastern DRC)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_08_08_6",
+    "question_number": 6,
+    "question": "Mangaluru and the Dakshina Kannada landslides this week lie along which mountain belt, crossed by the Charmadi and Shiradi ghats?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Eastern Ghats"
+      },
+      {
+        "key": "b",
+        "text": "Western Ghats"
+      },
+      {
+        "key": "c",
+        "text": "Satpura range"
+      },
+      {
+        "key": "d",
+        "text": "Nilgiris only"
+      }
+    ],
+    "answer": "b",
+    "explanation": "(Western Ghats; the ghat passes link coastal Karnataka to the Deccan)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  }
+]

@@ -4,6 +4,8 @@
 const fs = require("fs");
 const path = require("path");
 
+const contentModel = require("../app/content-model");
+
 const DEFAULT_ROOT = path.resolve(__dirname, "..");
 
 function toPosix(value) {
@@ -155,13 +157,18 @@ function uniqueSubjects(rows) {
     const subject = String(row && row.subject ? row.subject : "").trim();
     if (subject) seen.add(subject);
   }
-  return [...seen].slice(0, 5);
+  return [...seen];
 }
 
 function writeDerivedQuestions(root, relFilePath, rows) {
   const absPath = path.join(root, relFilePath);
   fs.mkdirSync(path.dirname(absPath), { recursive: true });
-  fs.writeFileSync(absPath, `${JSON.stringify(rows, null, 2)}\n`, "utf8");
+  const serialized = `${JSON.stringify(rows, null, 2)}\n`;
+  if (readText(absPath, null) !== serialized) {
+    const temporary = `${absPath}.${process.pid}.tmp`;
+    fs.writeFileSync(temporary, serialized, "utf8");
+    fs.renameSync(temporary, absPath);
+  }
   return relFilePath;
 }
 
@@ -293,7 +300,7 @@ function parseWeeklyQuizMarkdown(absPath, isoDate) {
   const questionSection = text.split(/^##\s+Part C\b/im)[0] || text;
   const answerSection = splitMarkdownSection(text, "Answers")
     || (text.match(/^##\s+Part\s+[A-Z]\s+[—-]\s+\*{0,2}Answers\b[^\n]*\n([\s\S]*?)(?=^##\s+|(?![\s\S]))/im)?.[1] || "");
-  const answers = parseMdAnswerMap(answerSection);
+  const answers = parseMdAnswerMap(answerSection.split(/^\s*(?:\*\*)?RP?\d+[. —-]|^\s*\*\*Part\s+[A-Z]\s*[—–-]\s*Recall|^---+|^\*?Scoring guide|^\*?Auto-generated/m)[0]);
   const staticSubject = text.match(/^##\s+Part\s+B\s+[—-]\s+Static Subject:\s*\*{0,2}([^*\n]+?)\*{0,2}\s*(?:·|$)/im)?.[1]?.trim() || "Static";
   return parseMdQuestions(questionSection).map((item) => {
     const answer = answers.get(item.number) || {};
@@ -318,10 +325,13 @@ function parseWeeklyQuizMarkdown(absPath, isoDate) {
 
 function parseWeeklyNewsMarkdown(absPath, isoDate) {
   const text = readText(absPath);
-  const questionSection = splitMarkdownSection(text, "Quick map MCQs");
+  const questionSection = splitMarkdownSection(text, "Quick map MCQs") || splitMarkdownSection(text, "Map / location MCQs");
   const answerSection = text.match(/^#{3}\s+Answer key\s*\n([\s\S]*?)(?=^##\s+|^---+|(?![\s\S]))/im)?.[1] || "";
   const answers = parseMdAnswerMap(answerSection);
-  const matches = [...questionSection.matchAll(/^\*\*Q?(\d+)\.\*\*\s*([^\n]+)\n([^\n]+)/gm)];
+  for (const match of answerSection.matchAll(/^\s*-?\s*\*\*Q?(\d+)\s*[—-]\s*([a-d])\*\*\s*(.*)$/gim)) {
+    answers.set(Number(match[1]), { answer: match[2].toLowerCase(), explanation: cleanMarkdownInline(match[3]) });
+  }
+  const matches = [...questionSection.split(/^###/m)[0].matchAll(/^\*\*Q?(\d+)\.\*\*[^\S\n]*([^\n]+)\n([\s\S]*?)(?=^\*\*Q?\d+\.\*\*|(?![\s\S]))/gm)];
   return matches.map((match) => {
     const number = Number(match[1]);
     const answer = answers.get(number) || {};
@@ -443,6 +453,7 @@ function normalizeQuestionSet(root, raw) {
     questionCount: count,
     durationMinutes,
     path: filePath,
+    sourcePath: raw.sourcePath || filePath,
   };
   if (year) normalized.year = year;
   if (isoDate) normalized.isoDate = isoDate;
@@ -460,7 +471,7 @@ function normalizeQuestionSet(root, raw) {
     normalized.marksPerCorrect = 2;
     normalized.negativeMark = -0.66;
   }
-  const subjects = Array.isArray(raw.subjects) ? raw.subjects : uniqueSubjects(rows);
+  const subjects = [...new Set([...uniqueSubjects(rows), ...(raw.subjects || [])])];
   if (subjects.length) normalized.subjects = subjects;
   return normalized;
 }
@@ -598,6 +609,7 @@ function addRawCsatQuestionSets(root, byId) {
     path.join(root, "generated_data", "csat_questions"),
     path.join(root, "generated_questions", "csat_questions"),
     path.join(root, "generated_questions", "csat_mocks"),
+    path.join(root, "weekly", "CSAT"),
   ];
   for (const dir of sources) {
     for (const absPath of listTopLevelFiles(dir).filter((item) => item.endsWith(".json"))) {
@@ -688,6 +700,7 @@ function addDailyRcQuestionSets(root, byId) {
       isoDate,
       durationMinutes: defaultDuration("rc", "", rows.length),
       path: rel,
+      sourcePath: relPath(root, absPath),
       ...questionLabel("rc", isoDate, absPath),
       ...variantMeta(absPath, "question"),
     });
@@ -709,6 +722,7 @@ function addWeeklyQuizQuestionSets(root, byId) {
       isoDate,
       durationMinutes: defaultDuration("weekly-quiz", "", rows.length),
       path: rel,
+      sourcePath: relPath(root, absPath),
       ...questionLabel("weekly-quiz", isoDate, absPath),
       ...variantMeta(absPath, "question"),
     });
@@ -737,7 +751,10 @@ function addWeeklyNewsQuestionSets(root, byId) {
     const isoDate = normalizeIsoDate(path.basename(absPath));
     if (!isoDate) continue;
     const rows = parseWeeklyNewsMarkdown(absPath, isoDate);
-    if (!rows.length) continue;
+    const expected = [...readText(absPath).matchAll(/^\*\*Q\d+\./gm)].length;
+    if (!expected || rows.length !== expected || rows.some((row) => row.options.length !== 4 || !row.answer)) {
+      throw new Error(`Incomplete map quiz extraction: ${relPath(root, absPath)} (${rows.length}/${expected} questions)`);
+    }
     const rel = writeDerivedQuestions(root, path.join("generated_data", "weekly_news_questions", variantFileName(isoDate, absPath)), rows);
     upsertQuestionSet(root, byId, {
       id: questionId(`weekly_news_${dateSlug(isoDate)}`, absPath),
@@ -746,6 +763,7 @@ function addWeeklyNewsQuestionSets(root, byId) {
       isoDate,
       durationMinutes: defaultDuration("weekly-news", "", rows.length),
       path: rel,
+      sourcePath: relPath(root, absPath),
       ...questionLabel("weekly-news", isoDate, absPath),
       ...variantMeta(absPath, "question"),
     });
@@ -912,6 +930,17 @@ function buildNoteDocuments(root = DEFAULT_ROOT) {
     docs.push(note(root, absPath, "monthly", noteTitleFromHeading(absPath, "Monthly Note"), formatDate(isoDate), isoDate));
   }
 
+  for (const [dir, pattern, cadence, title] of [
+    [root, /^Essay_Topic_.*\.md$/, "essay", "Essay Topic"],
+    [path.join(root, "reviews"), /\.md$/, "review", "Study Review"],
+    [path.join(root, "weekly", "weekly_quiz"), /^Recall_Quiz_.*\.md$/, "weekly-quiz", "Weekly Recall Quiz"],
+  ]) {
+    for (const absPath of listTopLevelFiles(dir).filter((file) => pattern.test(path.basename(file)))) {
+      const isoDate = normalizeIsoDate(absPath);
+      docs.push(note(root, absPath, cadence, noteTitleFromHeading(absPath, title), formatDate(isoDate), isoDate));
+    }
+  }
+
   const csatGuide = path.join(root, "CSAT_Strategy_Guide.md");
   if (fs.existsSync(csatGuide)) {
     docs.push(note(root, csatGuide, "strategy", "CSAT Strategy & Technique Guide", "Paper 2", ""));
@@ -958,12 +987,13 @@ function buildQuestionSets(root = DEFAULT_ROOT) {
 }
 
 function buildContentManifest(root = DEFAULT_ROOT) {
-  return {
-    version: 1,
+  require("./sync_atlas_news").syncAtlasNews(root);
+  return require("./content_relationships").enrichManifest(root, {
+    version: 2,
     years: [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019],
     questionSets: buildQuestionSets(root),
     noteDocuments: buildNoteDocuments(root),
-  };
+  });
 }
 
 function writeManifestFile(outPath, root = DEFAULT_ROOT, manifest = buildContentManifest(root)) {

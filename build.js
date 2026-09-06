@@ -10,7 +10,7 @@ const fs = require("fs");
 const path = require("path");
 const crypto = require("crypto");
 const esbuild = require("esbuild");
-const { buildContentManifest } = require("./scripts/generate_content_manifest");
+const { buildContentManifest, writeManifestFile } = require("./scripts/generate_content_manifest");
 const { unscoreableSetIds } = require("./scripts/validate_content");
 const { writeSearchIndex } = require("./scripts/generate_search_index");
 const { writeServiceWorker } = require("./scripts/generate_service_worker");
@@ -239,8 +239,8 @@ function validateAtlasNewsCoverage() {
   const missingWeeks = noteDates.filter((date) => !mappedWeeks.includes(date));
   const missingFeatures = noteDates.filter((date) => !mappedFeatureWeeks.has(date));
   if (missingWeeks.length || missingFeatures.length) {
-    console.warn([
-      "Atlas coverage warning (the site will still build):",
+    throw new Error([
+      "Atlas coverage incomplete:",
       missingWeeks.length ? `Atlas week entries missing for: ${missingWeeks.join(", ")}` : "",
       missingFeatures.length ? `Atlas feature entries missing for: ${missingFeatures.join(", ")}` : "",
     ].filter(Boolean).join(" "));
@@ -250,7 +250,10 @@ function validateAtlasNewsCoverage() {
 function run() {
   console.log("Building production bundle into dist/");
   contentManifest = buildContentManifest(ROOT);
-  dropUnscoreableSets();
+  const unscoreable = unscoreableSetIds(contentManifest);
+  if (unscoreable.length) throw new Error(`Unscoreable generated content: ${unscoreable.map((item) => item.path).join(", ")}`);
+  require("./scripts/content_coverage").validateCoverage(ROOT, contentManifest);
+  writeManifestFile(path.join(ROOT, MANIFEST_REL), ROOT, contentManifest);
   validateFallbackPaths();
   validateAtlasNewsCoverage();
   const sources = readSources();

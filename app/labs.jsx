@@ -290,8 +290,7 @@ function LabIcon({ name }) {
 
 function openLabSource(go, source) {
   if (!source.id) return;
-  go("home");
-  window.setTimeout(() => window.dispatchEvent(new CustomEvent("pariksha:open-note", { detail: { id: source.id } })), 80);
+  go("library", { noteId: source.id });
 }
 
 function LabSources({ labId, go }) {
@@ -329,8 +328,8 @@ function LabSyllabusMap({ labId, go }) {
       <div className="labs-map-head"><div><span className="labs-kicker">UPSC alignment</span><h3>{guide.path}</h3></div><span className="labs-map-exam">{guide.exam}</span></div>
       <p>{guide.syllabus}</p>
       <div className="labs-map-meta"><span>{pyqs.length} related PYQ years</span><span>{sectionals.length} sectional links</span></div>
-      <div className="labs-map-row"><span>Previous-year papers</span><div>{pyqs.map((set) => <button key={set.id} onClick={() => go("test", { setId: set.id, returnTo: "labs" })}>{set.year || set.shortLabel || set.label} · {set.questionCount || 0}Q <Icon name="arrowR" size={11} /></button>)}</div></div>
-      {sectionals.length > 0 && <div className="labs-map-row"><span>Targeted practice</span><div>{sectionals.map((set) => <button key={set.id} onClick={() => go("test", { setId: set.id, returnTo: "labs" })}>{set.shortLabel || set.label} <Icon name="arrowR" size={11} /></button>)}</div></div>}
+      <div className="labs-map-row"><span>Previous-year papers</span><div>{pyqs.map((set) => <button key={set.id} onClick={() => go("test", { setId: set.id, subjects: guide.pyqSubjects, returnTo: "labs" })}>{set.year || set.shortLabel || set.label} · topic questions <Icon name="arrowR" size={11} /></button>)}</div></div>
+      {sectionals.length > 0 && <div className="labs-map-row"><span>Targeted practice</span><div>{sectionals.map((set) => <button key={set.id} onClick={() => go("test", { setId: set.id, subjects: guide.pyqSubjects, returnTo: "labs" })}>{set.shortLabel || set.label} <Icon name="arrowR" size={11} /></button>)}</div></div>}
     </section>
   );
 }

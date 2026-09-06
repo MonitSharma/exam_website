@@ -14,6 +14,7 @@ const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
 const NAV = [
   { id: "home", label: "Home", icon: "home" },
   { id: "practice", label: "Practice", icon: "play" },
+  { id: "library", label: "Library", icon: "book" },
   { id: "catchup", label: "Catch-up", icon: "clock" },
   { id: "workflow", label: "Progress", icon: "chart", match: ["workflow", "dashboard"] },
 ];
@@ -98,7 +99,7 @@ function TopNav({ screen, go, summary, catchUpCount, onSearch }) {
             <Icon name="search" size={15} /> <span>Search</span> <kbd>⌘K</kbd>
           </button>
           <span className="streak-chip"><Icon name="flame" size={15} /> {summary.streak}</span>
-          <button className="btn btn-green sm" onClick={() => go("test", { setId: ds.defaultQuestionSetId })}><Icon name="bolt" size={15} /> Daily quiz</button>
+
         </div>
       </div>
     </header>
@@ -120,15 +121,7 @@ function searchSourceLabel(sourceType) {
   return map[sourceType] || "Question set";
 }
 
-function searchCadenceLabel(cadence) {
-  const map = {
-    daily: "Daily CA", pib: "Daily PIB", rc: "Daily RC", "daily-mains": "Daily Mains",
-    editorials: "Editorials", schemes: "Schemes", sunday: "Sunday Sweep", physics: "Physics",
-    "weekly-news": "Weekly News", sectional: "Sectional", ethics: "Ethics", monthly: "Monthly",
-    anki: "Anki", fodder: "Fodder", strategy: "Strategy",
-  };
-  return map[cadence] || "Note";
-}
+function searchCadenceLabel(cadence) { return window.UPSC_CONTENT.notes[cadence]?.label || "Note"; }
 
 function buildSearchResults(ds, query) {
   const notes = ds.noteDocuments
@@ -219,8 +212,7 @@ function GlobalSearch({ open, onClose, go }) {
   function openResult(result) {
     onClose();
     if (result.kind === "note") {
-      go("home");
-      window.setTimeout(() => window.dispatchEvent(new CustomEvent("pariksha:open-note", { detail: { id: result.id, cadence: result.cadence } })), 70);
+      go("library", { noteId: result.id });
     } else {
       go("test", { setId: result.id });
     }
@@ -299,12 +291,14 @@ function App() {
   const [contentVersion, setContentVersion] = useRootState(0);
   const ds = window.UPSC;
   const [t, setTweak] = useTweaks(TWEAK_DEFAULTS);
-  const [screen, setScreen] = useRootState("home");
+  const [screen, setScreen] = useRootState(() => window.location.hash.startsWith("#library") ? "library" : "home");
   const [testSession, setTestSession] = useRootState({
     setId: ds.defaultPracticeSetId,
     returnTo: "home",
     timed: true,
   });
+  const [libraryNoteId, setLibraryNoteId] = useRootState(() => new URLSearchParams(window.location.hash.split("?")[1] || "").get("note"));
+  const [atlasWeekId, setAtlasWeekId] = useRootState(null);
   const [labFocus, setLabFocus] = useRootState(null);
   const [lastResult, setLastResult] = useRootState(null);
   const [progress, setProgress] = useRootState(loadProgress);
@@ -350,12 +344,19 @@ function App() {
   }
 
   function go(s, options = {}) {
+    if (s === "library") {
+      if (options.noteId) setLibraryNoteId(options.noteId);
+      const id = options.noteId || libraryNoteId;
+      window.history.replaceState(null, "", `#library${id ? "?note=" + encodeURIComponent(id) : ""}`);
+    } else window.history.replaceState(null, "", window.location.pathname + window.location.search);
+    if (s === "atlas") setAtlasWeekId(options.weekId || null);
     if (s === "test") {
       setTestSession({
         setId: String(options.setId || ds.defaultPracticeSetId),
         returnTo: options.returnTo || (screen === "test" ? testSession.returnTo : screen) || "home",
         timed: options.timed !== false,
         reviewQueue: options.reviewQueue || null,
+        subjects: options.subjects || null,
         // Changing this forces the test screen to rebuild the queue even when
         // the synthetic set id is unchanged between two revision runs.
         reviewToken: options.reviewQueue ? Date.now() : null,
@@ -368,6 +369,20 @@ function App() {
     }
     setScreen(s);
     scrollTop();
+  }
+
+  useRootEffect(() => {
+    const openNote = (event) => {
+      const target = ds.noteDocuments.find((doc) => doc.id === event.detail?.id) || ds.noteDocuments.find((doc) => doc.cadence === event.detail?.cadence);
+      if (target) go("library", { noteId: target.id });
+    };
+    window.addEventListener("pariksha:open-note", openNote);
+    return () => window.removeEventListener("pariksha:open-note", openNote);
+  }, [screen, libraryNoteId, contentVersion]);
+
+  function setCatchUpStart(isoDate) {
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(isoDate) || isoDate > ds.todayIso) return;
+    setProgress((current) => { const next = { ...current, catchUpStartDate: isoDate }; saveProgress(next); return next; });
   }
 
   // Spaced repetition: pull the questions whose review date has arrived.
@@ -497,9 +512,10 @@ function App() {
       <div key={screen} className="screen-fade">
         {screen === "home" && <Home go={go} progress={progress} summary={summary} review={review} onStartReview={startReviewSession} />}
         {screen === "labs" && <StudyLabs go={go} progress={progress} review={review} focusSubject={labFocus} onLabProgress={saveLabProgress} />}
-        {screen === "atlas" && <NewsAtlas />}
+        {screen === "library" && <div className="page-wrap library-page"><NotesLibrary key={libraryNoteId || "library"} go={go} noteId={libraryNoteId} progress={progress} onMarkDone={setItemDoneState} /></div>}
+        {screen === "atlas" && <NewsAtlas weekId={atlasWeekId} go={go} />}
         {screen === "practice" && <PracticeScreen go={go} />}
-        {screen === "catchup" && <CatchUpScreen go={go} progress={progress} onDismiss={(id) => setSessionDismissedState(id, true)} onRestore={(id) => setSessionDismissedState(id, false)} onMarkDone={(id) => setItemDoneState(id, true)} onUndoDone={(id) => setItemDoneState(id, false)} />}
+        {screen === "catchup" && <CatchUpScreen go={go} progress={progress} onStartDate={setCatchUpStart} onDismiss={(id) => setSessionDismissedState(id, true)} onRestore={(id) => setSessionDismissedState(id, false)} onMarkDone={(id) => setItemDoneState(id, true)} onUndoDone={(id) => setItemDoneState(id, false)} />}
         {screen === "test" && <TestScreen go={go} session={testSession} onSubmit={finishTest} />}
         {screen === "result" && <Results go={go} result={lastResult} />}
         {screen === "review" && <Review go={go} result={lastResult} />}

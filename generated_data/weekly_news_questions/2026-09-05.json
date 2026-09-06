@@ -1,0 +1,219 @@
+[
+  {
+    "id": "weekly_news_2026_09_05_1",
+    "question_number": 1,
+    "question": "Sriharikota, from which GSLV-F17 lifted off on Sep 4, is a barrier island separating the Bay of Bengal from which lagoon?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Chilika Lake"
+      },
+      {
+        "key": "b",
+        "text": "Kolleru Lake"
+      },
+      {
+        "key": "c",
+        "text": "Pulicat Lake"
+      },
+      {
+        "key": "d",
+        "text": "Vembanad Lake"
+      }
+    ],
+    "answer": "c",
+    "explanation": "(Pulicat Lake; Sriharikota is the barrier island in Tirupati district, AP)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_09_05_2",
+    "question_number": 2,
+    "question": "The Pakal Dul project, being readied for commissioning, is built on the Marusudar, the largest tributary of which river?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Jhelum"
+      },
+      {
+        "key": "b",
+        "text": "Chenab"
+      },
+      {
+        "key": "c",
+        "text": "Ravi"
+      },
+      {
+        "key": "d",
+        "text": "Beas"
+      }
+    ],
+    "answer": "b",
+    "explanation": "(Chenab; the Marusudar rises in the Warwan valley and joins the Chenab in Kishtwar)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_09_05_3",
+    "question_number": 3,
+    "question": "Anak Krakatau, which erupted on Sep 5, stands in which strait?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Malacca Strait"
+      },
+      {
+        "key": "b",
+        "text": "Lombok Strait"
+      },
+      {
+        "key": "c",
+        "text": "Makassar Strait"
+      },
+      {
+        "key": "d",
+        "text": "Sunda Strait"
+      }
+    ],
+    "answer": "d",
+    "explanation": "(Sunda Strait, between Sumatra and Java)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_09_05_4",
+    "question_number": 4,
+    "question": "Mount Sinabung, raised to Level III on Aug 31, lies in the Barisan range of North Sumatra, close to which lake?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Lake Toba"
+      },
+      {
+        "key": "b",
+        "text": "Lake Maninjau"
+      },
+      {
+        "key": "c",
+        "text": "Lake Singkarak"
+      },
+      {
+        "key": "d",
+        "text": "Lake Ranau"
+      }
+    ],
+    "answer": "a",
+    "explanation": "(Lake Toba; Sinabung sits in Karo regency, Barisan range)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_09_05_5",
+    "question_number": 5,
+    "question": "\"Pickaxe Mountain\" (Kuh-e Kolang Gaz La), threatened with strikes on Sep 5, adjoins which Iranian nuclear site?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Fordow"
+      },
+      {
+        "key": "b",
+        "text": "Arak"
+      },
+      {
+        "key": "c",
+        "text": "Natanz"
+      },
+      {
+        "key": "d",
+        "text": "Bushehr"
+      }
+    ],
+    "answer": "c",
+    "explanation": "(Natanz; the buried hall lies immediately south of the enrichment complex, Isfahan province)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_09_05_6",
+    "question_number": 6,
+    "question": "Niger's Tillabéri region, home to several of the Aug 28–29 mutineers, forms part of which tri-border zone?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Lake Chad basin"
+      },
+      {
+        "key": "b",
+        "text": "Liptako-Gourma (Mali–Burkina Faso–Niger)"
+      },
+      {
+        "key": "c",
+        "text": "Aouzou strip"
+      },
+      {
+        "key": "d",
+        "text": "Ténéré"
+      }
+    ],
+    "answer": "b",
+    "explanation": "(Liptako-Gourma; Téra and Ouallam lie within Tillabéri)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_09_05_7",
+    "question_number": 7,
+    "question": "Gollala Gudi, notified as a Monument of National Importance on Aug 31, stands at Palampet beside which UNESCO World Heritage temple?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Thousand Pillar Temple, Hanamkonda"
+      },
+      {
+        "key": "b",
+        "text": "Ramappa (Rudreshwara) Temple"
+      },
+      {
+        "key": "c",
+        "text": "Bhongir Fort temple"
+      },
+      {
+        "key": "d",
+        "text": "Alampur Navabrahma temples"
+      }
+    ],
+    "answer": "b",
+    "explanation": "(Ramappa/Rudreshwara Temple, inscribed 2021 — Gollala Gudi is a Kakatiya *trikutalaya* alongside it)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  }
+]

@@ -2210,3 +2210,69 @@ body[data-qfont="serif"] .catchup-mainsq-body p { font-family: var(--serif); fon
   .labs-progress-panel { align-items: stretch; flex-direction: column; }
   .labs-progress-actions { justify-content: flex-start; }
 }
+
+/* Study desk and library: one primary action, readable resource identities. */
+.home-focused .hero-grid { grid-template-columns: minmax(0, 1.15fr) minmax(340px, .85fr); align-items: start; }
+.home-focused .hero-title { font-size: clamp(38px, 4.5vw, 64px); }
+.home-focused .today-prep { margin-top: 24px; padding: 22px; }
+.home-focused .today-prep-head h2 { font: 500 28px var(--serif); margin: 6px 0; }
+.home-focused .today-prep-head .eyebrow { display: none; }
+.home-focused .today-prep-steps { grid-template-columns: 1fr; margin-top: 16px; }
+.home-focused .today-prep-step { min-height: 70px; }
+.home-shortcuts, .home-summary { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; margin-top: 20px; }
+.home-summary { padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; }
+.home-summary strong { color: var(--ink); font-size: 18px; }
+.home-focused .calendar-materials { display: grid; grid-template-columns: 1fr; max-height: 360px; overflow-y: auto; }
+.home-focused .calendar-material { padding: 12px; min-height: 68px; }
+.home-focused .calendar-material strong { white-space: normal; overflow: visible; text-overflow: clip; font-size: 14px; line-height: 1.4; }
+.home-focused .calendar-material-meta { flex-wrap: wrap; white-space: normal; }
+.home-focused .calendar-material-meta small { white-space: normal; overflow: visible; font-size: 12px; }
+.calendar-material-status { display: flex; align-items: center; gap: 4px; color: var(--green); font-size: 12px; flex-shrink: 0; }
+.library-page { max-width: 1280px; }
+.library-page .notes-library { margin-top: 0; }
+.library-page .notes-title h1 { font: 500 clamp(32px, 4vw, 46px) var(--serif); }
+.note-reader-head h2 { font: 500 30px var(--serif); margin: 14px 0; }
+.related-study { margin-top: 18px; padding-top: 16px; border-top: 1px solid var(--line); }
+.related-study > strong { font-size: 12px; color: var(--muted); }
+.related-study > div { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+.related-study button { text-align: left; white-space: normal; }
+.markdown-view a { color: var(--green); text-decoration: underline; text-underline-offset: 3px; overflow-wrap: anywhere; }
+.practice-grid { display: block; }
+.practice-exam-summary { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; margin: 12px 0 20px; color: var(--muted); font-size: 13px; }
+.practice-exam-summary strong { color: var(--green); }
+.practice-exam-summary details { margin-left: auto; }
+.practice-exam-summary summary { cursor: pointer; padding: 8px; }
+.practice-summary .btn { margin-top: 10px; }
+.set-option { padding: 0; cursor: default; overflow: hidden; }
+.set-select { display: grid; gap: 6px; width: 100%; height: 100%; min-height: 100px; padding: 16px; text-align: left; border: 0; background: transparent; color: inherit; cursor: pointer; }
+.set-option .set-variant-tabs { padding: 0 12px 12px; }
+.set-select span:last-child { overflow-wrap: anywhere; }
+.catchup-start { display: flex; align-items: center; flex-wrap: wrap; gap: 16px; padding: 20px; margin: 20px 0; }
+.catchup-start h2 { font: 500 25px var(--serif); margin-bottom: 6px; }
+.catchup-start p { color: var(--muted); font-size: 13px; }
+.catchup-start label { display: grid; gap: 6px; font-size: 12px; }
+.catchup-start input { font: inherit; padding: 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--ink); }
+button:focus-visible, a:focus-visible, summary:focus-visible, input:focus-visible, select:focus-visible { outline: 3px solid var(--saffron); outline-offset: 3px; }
+.nav-more-menu button { min-height: 44px; }
+@media (max-width: 1050px) {
+  .home-focused .hero-grid { grid-template-columns: 1fr; }
+  .home-focused .hero-calendar { width: 100%; max-width: none; }
+  .topnav-inner { flex-wrap: wrap; gap: 12px; }
+  .nav-links { order: 3; width: 100%; justify-content: flex-start; overflow-x: auto; }
+}
+@media (max-width: 640px) {
+  .home-focused .today-prep { padding: 16px; }
+  .home-focused .today-prep-head { display: block; }
+  .home-focused .today-prep-time { display: none; }
+  .home-focused .today-prep-cta { text-align: left; line-height: 1.5; }
+  .home-focused .hero-title { font-size: 42px; }
+  .home-focused .hero-sub { font-size: 16px; }
+  .practice-types { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .practice-type { padding: 12px; min-height: 90px; }
+  .practice-type > span:last-child { display: none; }
+  .practice-exam-summary details { margin-left: 0; }
+  .related-study > div { display: grid; }
+  .notes-layout { min-width: 0; }
+  .note-reader { min-width: 0; }
+  .catchup-start { align-items: stretch; }
+}

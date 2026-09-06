@@ -770,7 +770,7 @@ function HistoricalAtlas({ onModeChange }) {
   </main>;
 }
 
-function CurrentAtlas({ onModeChange }) {
+function CurrentAtlas({ onModeChange, initialWeekId, go }) {
   const [scope, setScope] = useStateAtlas("world");
   const [activeLayers, setActiveLayers] = useStateAtlas(["current"]);
   const [query, setQuery] = useStateAtlas("");
@@ -799,7 +799,7 @@ function CurrentAtlas({ onModeChange }) {
     loadAtlasNews().then((loaded) => {
       if (cancelled) return;
       setNews(loaded);
-      const firstWeek = loaded.weeks[0]?.id || "";
+      const firstWeek = loaded.weeks.some((week) => week.id === initialWeekId) ? initialWeekId : loaded.weeks[0]?.id || "";
       setWeekId(firstWeek);
       setSelected(loaded.features.find((item) => item.weekId === firstWeek && item.scope === "world") || null);
     }).catch((error) => { if (!cancelled) setNewsError(error.message); });
@@ -917,7 +917,7 @@ function CurrentAtlas({ onModeChange }) {
             <button className={scope === "india" ? "on" : ""} onClick={() => changeScope("india")}><Icon name="target" size={15} /> India</button>
           </div>
           <label className="atlas-search"><Icon name="search" size={16} /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search this atlas…" /></label>
-          <label className="atlas-week-select"><span>Places in News week</span><select value={weekId} onChange={(event) => changeWeek(event.target.value)} aria-label="Places in News week">{newsWeeks.map((week) => <option key={week.id} value={week.id}>{week.label}</option>)}</select><small>{activeWeek?.source || ""}</small></label>
+          <label className="atlas-week-select"><span>Places in News week</span><select value={weekId} onChange={(event) => changeWeek(event.target.value)} aria-label="Places in News week">{newsWeeks.map((week) => <option key={week.id} value={week.id}>{week.label}</option>)}</select><small>{activeWeek ? "Approximate locations for study" : ""}</small>{activeWeek && <button className="link-btn" onClick={() => go("library", { noteId: window.UPSC.noteDocuments.find((note) => note.path === activeWeek.source)?.id })}>Read this week’s briefing</button>}</label>
           <div className="atlas-atlas-mode" role="tablist" aria-label="News Atlas activity">
             <button className={atlasMode === "explore" ? "on" : ""} onClick={() => setAtlasMode("explore")}><Icon name="layers" size={13} /> Explore</button>
             <button className={atlasMode === "drill" ? "on" : ""} onClick={startDrill}><Icon name="target" size={13} /> Map drill</button>
@@ -993,9 +993,9 @@ function CurrentAtlas({ onModeChange }) {
   );
 }
 
-function NewsAtlas() {
+function NewsAtlas({ weekId, go }) {
   const [mode, setMode] = useStateAtlas("news");
-  return mode === "history" ? <HistoricalAtlas onModeChange={setMode} /> : <CurrentAtlas onModeChange={setMode} />;
+  return mode === "history" ? <HistoricalAtlas onModeChange={setMode} /> : <CurrentAtlas key={weekId || "latest"} onModeChange={setMode} initialWeekId={weekId} go={go} />;
 }
 
 Object.assign(window, { NewsAtlas });

@@ -47,7 +47,7 @@ function workflowDateKey(date) {
 // Question-set types that count as a "mock" for the weekly mock target.
 const WORKFLOW_MOCK_TYPES = new Set(["sectional", "csat", "ai", "csr", "pyq"]);
 // Note cadences that count as an "answer written" for the mains target.
-const WORKFLOW_ANSWER_CADENCES = new Set(["mains", "ethics"]);
+const WORKFLOW_ANSWER_CADENCES = new Set(window.UPSC_CONTENT.writingCadences);
 
 // Fallback subject-of-the-day rotation, used only until there is enough
 // attempt data to know the learner's real weakest subject. Sunday = revision.
@@ -207,8 +207,7 @@ function StudyWorkflowDashboard({ go, progress, review, onStartReview }) {
 
   function openNote(note) {
     if (!note) return;
-    go("home");
-    setTimeout(() => window.dispatchEvent(new CustomEvent("pariksha:open-note", { detail: { id: note.id } })), 80);
+    go("library", { noteId: note.id });
   }
 
   // ---- Today's plan, generated from live content + progress ----

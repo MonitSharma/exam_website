@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the Vibrant Villages Programme (VVP), consider the following statements:\n1. VVP-I is a Centrally Sponsored Scheme covering villages along the northern border, while VVP-II is a Central Sector Scheme extending to the other international land borders.\n2. VVP-II was approved by the Union Cabinet in April 2025 and was formally launched from Nathanpur village in Assam.\n3. The Ministry of Defence is the nodal ministry for the implementation of both phases of the programme.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "VVP-I is a Centrally Sponsored Scheme launched at Kibithoo (Arunachal Pradesh) on 10 April 2023 for the northern border; VVP-II is a fully centrally funded Central Sector Scheme approved on 2 April 2025 and launched on 20 February 2026 at Nathanpur, Cachar district, Assam. The Ministry of Home Affairs — not Defence — is the nodal ministry, so statement 3 is incorrect.",
+    "subject": "Internal Security",
+    "theme": "Border Management",
+    "micro_topic": "Vibrant Villages Programme (VVP-I and VVP-II)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements regarding India's biodiversity governance framework:\n1. Biodiversity Management Committees are constituted at the local body level under the Biological Diversity Act, 2002.\n2. India's updated National Biodiversity Strategy and Action Plan 2024-2030 is aligned with the Kunming-Montreal Global Biodiversity Framework.\n3. The Nagoya Protocol deals with access to genetic resources and the fair and equitable sharing of benefits arising from their utilisation.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. The Biological Diversity Act, 2002 creates a three-tier structure — National Biodiversity Authority, State Biodiversity Boards and Biodiversity Management Committees at the local body level (over 2.76 lakh BMCs). The updated NBSAP 2024-2030 is aligned with the KMGBF, and the Nagoya Protocol under the CBD governs Access and Benefit Sharing of genetic resources.",
+    "subject": "Environment",
+    "theme": "Biodiversity Conservation",
+    "micro_topic": "Biological Diversity Act 2002, NBA, BMCs and Nagoya Protocol",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Asian-Pacific Postal Union (APPU), recently seen in the news, is best described as:",
+    "options": [
+      "(a) A specialised agency of the United Nations dealing exclusively with cross-border e-commerce logistics",
+      "(b) A regional union of the Universal Postal Union, headquartered in Bangkok",
+      "(c) An organ of the Asia-Pacific Economic Cooperation (APEC) dealing with postal tariffs",
+      "(d) A private sector consortium of courier companies operating in the Asia-Pacific region"
+    ],
+    "answer": "(b)",
+    "explanation": "APPU is an intergovernmental organisation of 32 member countries headquartered in Bangkok and functions as a Regional (restricted) Union of the Universal Postal Union, which is the UN specialised agency for the postal sector. Dr. Vinaya Prakash Singh of the Indian Postal Service was re-elected APPU Secretary-General at the 14th APPU Congress on 4 September 2026.",
+    "subject": "International Relations",
+    "theme": "International Organisations",
+    "micro_topic": "Asian-Pacific Postal Union and the Universal Postal Union",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]

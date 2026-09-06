@@ -16,6 +16,7 @@ const path = require("path");
 const ROOT = path.resolve(__dirname, "..");
 
 function runBrowserModule(relPath, windowStub) {
+  if (relPath !== "app/content-model.js" && !windowStub.UPSC_CONTENT) runBrowserModule("app/content-model.js", windowStub);
   const source = fs.readFileSync(path.join(ROOT, relPath), "utf8");
   // `fetch` and `navigator` are passed as undefined so the module takes its
   // no-network branches deterministically; Node would otherwise supply real

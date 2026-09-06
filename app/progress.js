@@ -4,7 +4,7 @@
 // code runs in the browser and under node:test (see test/progress.test.js).
 (function () {
   const PROGRESS_STORAGE_KEY = "parikshaProgressV2";
-  const PROGRESS_VERSION = 5;
+  const PROGRESS_VERSION = 6;
 
   // One attempt per entry, each carrying a full subject breakdown. Left uncapped
   // this reaches four figures within a year of daily practice, and every
@@ -29,6 +29,7 @@
     return {
       version: PROGRESS_VERSION,
       resetAt,
+      catchUpStartDate: getIsoDate(resetAt),
       history: [],
       archive: [],
       dailyCompletions: {},
@@ -42,10 +43,11 @@
   function normalizeProgress(parsed) {
     if (!parsed || !Array.isArray(parsed.history) || !parsed.dailyCompletions) return null;
     // Older versions migrate by filling defaults for fields introduced later.
-    if (![2, 3, 4, PROGRESS_VERSION].includes(parsed.version)) return null;
+    if (![2, 3, 4, 5, PROGRESS_VERSION].includes(parsed.version)) return null;
     return compactProgress({
       ...parsed,
       version: PROGRESS_VERSION,
+      catchUpStartDate: /^\d{4}-\d{2}-\d{2}$/.test(parsed.catchUpStartDate || "") ? parsed.catchUpStartDate : getIsoDate(parsed.resetAt ?? Date.now()),
       archive: Array.isArray(parsed.archive) ? parsed.archive : [],
       dismissedSessions: parsed.dismissedSessions && typeof parsed.dismissedSessions === "object" ? parsed.dismissedSessions : {},
       manualCompletions: parsed.manualCompletions && typeof parsed.manualCompletions === "object" ? parsed.manualCompletions : {},
@@ -220,7 +222,7 @@
   // in-app; writing cadences (mains/ethics/editorials) are done offline and can
   // only be cleared by a manual "I've done it".
   const MISSED_SOURCE_TYPES = ["rc", "weekly-news", "weekly-quiz", "sectional", "csat", "ai"];
-  const MISSED_WRITING_CADENCES = ["mains", "ethics", "editorials"];
+  const MISSED_WRITING_CADENCES = window.UPSC_CONTENT.writingCadences;
 
   // The set ids the learner has already completed. Reads the attempt history,
   // the daily-completion map, and any manual "done" marks so a set counts as
@@ -246,6 +248,7 @@
     const ds = (typeof window !== "undefined" && window.UPSC) ? window.UPSC : null;
     const sets = questionSets || (ds ? ds.questionSets : []) || [];
     const notes = noteDocuments || (ds ? ds.noteDocuments : []) || [];
+    const startDate = progress?.catchUpStartDate || getIsoDate(progress?.resetAt ?? Date.now());
     const done = completedSetIds(progress);
     const dismissed = progress?.dismissedSessions || {};
     const manual = progress?.manualCompletions || {};
@@ -253,7 +256,7 @@
     const quizzes = sets
       .filter((set) => set && set.isoDate && !set.isSupplementary)
       .filter((set) => MISSED_SOURCE_TYPES.includes(set.sourceType))
-      .filter((set) => set.isoDate < todayIso)
+      .filter((set) => set.isoDate < todayIso && set.isoDate >= startDate)
       .filter((set) => !done.has(set.id) && !dismissed[set.id])
       .map((set) => ({
         id: set.id,
@@ -269,7 +272,7 @@
     const writing = notes
       .filter((note) => note && note.date && !note.isSupplementary)
       .filter((note) => MISSED_WRITING_CADENCES.includes(note.cadence))
-      .filter((note) => note.date < todayIso)
+      .filter((note) => note.date < todayIso && note.date >= startDate)
       .filter((note) => !manual[note.id] && !dismissed[note.id])
       .map((note) => ({
         id: note.id,
@@ -311,14 +314,14 @@
     try {
       const raw = localStorage.getItem(PROGRESS_STORAGE_KEY) || "";
       const normalized = normalizeProgress(JSON.parse(raw));
-      if (!normalized) return createFreshProgress();
+      if (!normalized) { const fresh = createFreshProgress(); saveProgress(fresh); return fresh; }
       // A migration or a compaction pass has to be written back, otherwise the
       // oversized copy stays in storage until the next test is submitted.
       if (JSON.stringify(normalized) !== raw) saveProgress(normalized);
       return normalized;
     } catch (error) {
       // Ignore malformed local progress and start with a clean local model.
-      return createFreshProgress();
+      const fresh = createFreshProgress(); saveProgress(fresh); return fresh;
     }
   }
 

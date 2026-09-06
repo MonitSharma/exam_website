@@ -9,7 +9,9 @@
     "serve": "python3 scripts/dev_server.py 8001",
     "search-index": "node scripts/generate_search_index.js config/search",
     "validate": "node scripts/validate_content.js && python3 scripts/validate_data.py",
-    "test": "node --test test/*.test.js"
+    "test": "node --test test/*.test.js",
+    "check": "npm run build && npm run validate && npm test",
+    "coverage": "node scripts/content_coverage.js"
   },
   "devDependencies": {
     "esbuild": "^0.24.0"
