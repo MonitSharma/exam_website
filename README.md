@@ -94,11 +94,7 @@ Open:
 http://localhost:8000
 ```
 
-The default entry point now uses the Pariksha frontend design. The previous static UI is still available at:
-
-```text
-http://localhost:8000/legacy.html
-```
+The default entry point now uses the Pariksha frontend design. Open Library in the main navigation to read briefing and revision notes.
 
 ## Data Pipeline
 
@@ -267,9 +263,8 @@ does not register it, because the dev server serves everything `no-store`.
 
 ## Deploy On GitHub Pages
 
-The repo ships with a workflow at `.github/workflows/pages.yml`. It runs the
-test suite and content validation first, then builds a production bundle
-(esbuild) and deploys to GitHub Pages on every push to `main`. Because content
+The repo ships with a workflow at `.github/workflows/pages.yml`. It builds a production bundle (esbuild), validates its content and runs the
+test suite, then deploys that same artifact to GitHub Pages on every push to `main`. Because content
 arrives from unattended scheduled jobs, a malformed drop fails the `check` job
 instead of reaching the live site.
 
@@ -321,13 +316,61 @@ generator commands are only needed to refresh what local dev reads.
 
 - **Places in News** notes go in `weekly/weekly_news/`. Their map pins live in
   `data/atlas/news.json` (`weeks` + `features`), which the Atlas fetches on
-  demand rather than shipping in the bundle. `npm run build` warns when a note
+  demand rather than shipping in the bundle. `npm run build` fails when a note
   has no matching Atlas week or features.
 - Run `npm run manifest && npm run search-index` after adding content so local
   dev picks it up; the Pages build regenerates both either way.
-- A question set that arrives with **no answer keys at all** is dropped from the
-  manifest by the build, with the filename printed — it cannot be scored, so
-  serving it is worse than omitting it. Regenerate the file and it returns.
+- A question set that arrives with **no answer keys at all** fails the build.
+  Regenerate the file before publishing.
 - The build fails if the hardcoded fallback list in `app/data.js` points at
   files that no longer exist, and copies any manifest-referenced file that sits
   outside the static copy list so it cannot 404 in production.
+
+## Content and UI contract (September 2026)
+
+Home now focuses on the next preparation session and the daily calendar. The
+**Library** navigation item opens the note reader; `#library?note=NOTE_ID` links
+to a specific note. Essays, recall-quiz source notes and study reviews are
+available there. Reading a writing prompt does not complete it: use **Mark
+answer written** after writing your answer. Catch-up starts on the learner's
+first visit; its start-date control can include earlier work without resetting
+attempt history.
+
+Run **`npm run check`** before publishing. It builds, validates content and
+relationships, then tests the exact production output. CI uploads that checked
+artifact and deploys it without a second build. `npm run serve` generates the
+manifest and search index before starting. Build also refreshes the local
+manifest, so development and production discover the same resources.
+
+Generation rules:
+
+- `app/content-model.js` owns note categories, writing targets and subject
+  aliases. Add new categories here before publishing a new stream.
+- Full subject metadata is retained. Individual loaded questions receive stable
+  topic IDs derived from subject and micro-topic; Study Labs launch subject
+  practice while preserving original question identities for revision.
+- A resource's ID is its identity. Only a companion with a matching canonical
+  source path joins a parent bundle; sharing a date does not merge resources.
+- Quiz source files must contain four options and answer keys. Places notes
+  accept `Quick map MCQs` or `Map / location MCQs`, with `**Q1.**` numbered
+  questions and a `### Answer key` section. Options can occupy one line or
+  separate lines. Missing or partial extraction fails the build.
+- Each Places note needs an Atlas companion. Add
+  `data/atlas/weeks/YYYY-MM-DD.json` using the September 5 file as the schema:
+  week ID, source path and features with stable IDs, source item numbers,
+  coordinates, scope and location descriptions. Every numbered source place
+  needs a feature. The build synchronizes companions into `data/atlas/news.json`
+  and validates both note-to-map and map-to-note references. Regional anchors
+  must be identified as approximate; do not present them as surveyed locations.
+- `scripts/content_relationships.js` records exact parser lineage and the known
+  filename contracts as explicit note/set IDs. For relationships across streams
+  or dates, add source paths to `config/content_links.json`; links are reciprocal
+  and validated. The current flashcard links identify shared topics, not a claim
+  that a deck contains only that briefing's material.
+- Every generated document or question resource must be published, a declared
+  source, or explicitly classified in `config/content_exclusions.json` with a
+  reason. `npm run coverage` reports coverage; unknown files fail checks.
+- Incomplete quizzes and missing Atlas companions fail publication. The Library
+  can display “Map pending” during local content preparation.
+
+The audit and implementation verification are recorded under `audits/`.

@@ -112,7 +112,7 @@ function PracticeScreen({ go }) {
         <header className="panel-head row">
           <div>
             <h3>{currentType.title}</h3>
-            <p>{setBundles.length ? `${setBundles.length} date${setBundles.length === 1 ? "" : "s"} available` : "No sets are loaded yet."}</p>
+            <p>{setBundles.length ? `${setBundles.length} set${setBundles.length === 1 ? "" : "s"} available` : "No sets are loaded yet."}</p>
           </div>
           <label className="switch">
             <input type="checkbox" checked={timed} onChange={(event) => setTimed(event.target.checked)} />
@@ -133,7 +133,7 @@ function PracticeScreen({ go }) {
                 <span className="set-option-kicker">{set.year || (set.isoDate ? practiceDateLabel(set.isoDate) : set.shortLabel)}</span>
                 {addOn && <span className="variant-chip">Practice Add-on</span>}
                 <strong>{set.label}</strong>
-                <span>{bundle.map((item) => `${window.UPSC_CONTENT.variantLabel(item)} ${item.questionCount}q`).join(" · ")}</span>
+                <span>{bundle.length === 1 ? `${set.questionCount} questions` : bundle.map((item) => `${window.UPSC_CONTENT.variantLabel(item)} · ${item.questionCount} questions`).join(" · ")}</span>
                 </button>
                 {bundle.length > 1 && (
                   <div className="set-variant-tabs" onClick={(event) => event.stopPropagation()}>

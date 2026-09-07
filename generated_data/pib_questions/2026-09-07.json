@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the National Clean Air Programme (NCAP) and the Swachh Vayu Sarvekshan, consider the following statements:\n1. The Swachh Vayu Sarvekshan ranks participating cities in three groups based on population size.\n2. The final selection of best-performing cities follows a sequence of self-assessment by cities, approval by a State-level Monitoring Committee, evaluation by the Central Pollution Control Board and field verification by independent committees.\n3. As announced on Swachh Vayu Diwas 2026, all 130 NCAP cities have met the National Ambient Air Quality Standards.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Cities are ranked in three population groups (below 3 lakh, 3-10 lakh, above 10 lakh) and the evaluation chain is exactly as described. However, only 14 of the 130 NCAP cities had met the NAAQS; 108 showed PM10 improvement over the FY 2017-18 baseline, 72 exceeded 20% reduction and 26 exceeded 40%.",
+    "subject": "Environment",
+    "theme": "Air Pollution and Clean Air Governance",
+    "micro_topic": "National Clean Air Programme and Swachh Vayu Sarvekshan 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements regarding the National Internet Exchange of India (NIXI) and APNIC:\n1. NIXI is a not-for-profit organisation functioning under the Ministry of Electronics and Information Technology.\n2. APNIC is the Regional Internet Registry responsible for allocating Internet number resources in the Asia-Pacific region.\n3. APNIC 62 was hosted in India for the first time by the Telecom Regulatory Authority of India.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "NIXI is a not-for-profit company set up in 2003 under MeitY, running India's internet exchange points, the .IN registry and IRINN. APNIC is one of five Regional Internet Registries allocating IP addresses and AS numbers in the Asia-Pacific. APNIC 62 in Mumbai was hosted by NIXI with ISPAI, supported by MeitY and the Government of Maharashtra, not by TRAI.",
+    "subject": "Science & Technology",
+    "theme": "Digital and Internet Infrastructure",
+    "micro_topic": "NIXI, APNIC and internet governance bodies",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "In the context of defence procurement in India, the term 'Acceptance of Necessity (AoN)' refers to",
+    "options": [
+      "(a) the final signing of a contract between the Ministry of Defence and a selected vendor",
+      "(b) in-principle administrative approval accorded to a capital acquisition proposal, marking the beginning of the procurement process",
+      "(c) the certification issued by the Directorate General of Quality Assurance after field trials of equipment",
+      "(d) the clearance granted by the Cabinet Committee on Security for the import of defence equipment above a specified value"
+    ],
+    "answer": "(b)",
+    "explanation": "AoN is the in-principle administrative approval accorded by the Defence Acquisition Council to a capital acquisition proposal; it initiates the cycle under the Defence Acquisition Procedure, followed by RFP, trials, negotiation and contract signature. On 7 September 2026 the DAC accorded AoN worth about Rs 1.10 lakh crore, with roughly 98% of value earmarked for Indian industry.",
+    "subject": "Internal Security",
+    "theme": "Defence Acquisition and Indigenisation",
+    "micro_topic": "Defence Acquisition Council and Acceptance of Necessity",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]

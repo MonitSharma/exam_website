@@ -8,6 +8,9 @@ function syncAtlasNews(root) {
   for (const file of fs.readdirSync(dir).filter((f) => f.endsWith('.json'))) {
     const { features, ...week } = JSON.parse(fs.readFileSync(path.join(dir, file), 'utf8'));
     if (!week.id || !fs.existsSync(path.join(root, week.source)) || !features?.length) throw new Error(`Incomplete Atlas companion: ${file}`);
+    const sourceText = fs.readFileSync(path.join(root, week.source), 'utf8').split('## Mark these')[0];
+    const sourceItems = [...sourceText.matchAll(/^\*\*(\d+)\./gm)].map((match) => Number(match[1]));
+    if (sourceItems.some((n) => !features.some((f) => f.sourceItem === n)) || features.some((f) => f.weekId !== week.id || f.source !== week.source || !sourceItems.includes(f.sourceItem))) throw new Error(`Atlas companion/source mismatch: ${file}`);
     news.weeks = news.weeks.filter((w) => w.id !== week.id).concat(week);
     news.features = news.features.filter((f) => f.weekId !== week.id).concat(features);
   }

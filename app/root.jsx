@@ -55,6 +55,12 @@ const {
 function TopNav({ screen, go, summary, catchUpCount, onSearch }) {
   const ds = window.UPSC;
   const [moreOpen, setMoreOpen] = React.useState(false);
+  React.useEffect(() => {
+    if (!moreOpen) return;
+    const onKey = (event) => { if (event.key === "Escape") { setMoreOpen(false); document.querySelector('.nav-more > button')?.focus(); } };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [moreOpen]);
   const navMatches = (n) => (n.match || [n.id]).includes(screen);
   const moreActive = NAV_MORE.some((n) => n.id === screen);
   const openMore = (id) => { setMoreOpen(false); go(id); };
@@ -202,6 +208,7 @@ function GlobalSearch({ open, onClose, go }) {
     return () => window.removeEventListener("keydown", onKey);
   }, [open, onClose]);
 
+  useModalFocus(open, ".search-box", onClose);
   if (!open) return null;
   const trimmed = query.trim().toLowerCase();
   const results = trimmed.length >= 1 ? buildSearchResults(ds, trimmed) : [];
@@ -220,7 +227,7 @@ function GlobalSearch({ open, onClose, go }) {
 
   return (
     <div className="search-layer" onMouseDown={onClose}>
-      <div className="search-box" role="dialog" aria-label="Search" onMouseDown={(event) => event.stopPropagation()}>
+      <div className="search-box" role="dialog" aria-modal="true" aria-label="Search" onMouseDown={(event) => event.stopPropagation()}>
         <div className="search-input-row">
           <Icon name="search" size={18} />
           <input
@@ -298,6 +305,7 @@ function App() {
     timed: true,
   });
   const [libraryNoteId, setLibraryNoteId] = useRootState(() => new URLSearchParams(window.location.hash.split("?")[1] || "").get("note"));
+  const [libraryRequest, setLibraryRequest] = useRootState(() => ({ id: new URLSearchParams(window.location.hash.split("?")[1] || "").get("note"), token: 0 }));
   const [atlasWeekId, setAtlasWeekId] = useRootState(null);
   const [labFocus, setLabFocus] = useRootState(null);
   const [lastResult, setLastResult] = useRootState(null);
@@ -347,6 +355,7 @@ function App() {
     if (s === "library") {
       if (options.noteId) setLibraryNoteId(options.noteId);
       const id = options.noteId || libraryNoteId;
+      setLibraryRequest({ id, token: Date.now() });
       window.history.replaceState(null, "", `#library${id ? "?note=" + encodeURIComponent(id) : ""}`);
     } else window.history.replaceState(null, "", window.location.pathname + window.location.search);
     if (s === "atlas") setAtlasWeekId(options.weekId || null);
@@ -379,6 +388,11 @@ function App() {
     window.addEventListener("pariksha:open-note", openNote);
     return () => window.removeEventListener("pariksha:open-note", openNote);
   }, [screen, libraryNoteId, contentVersion]);
+
+  function rememberLibraryNote(id) {
+    setLibraryNoteId(id);
+    window.history.replaceState(null, "", `#library?note=${encodeURIComponent(id)}`);
+  }
 
   function setCatchUpStart(isoDate) {
     if (!/^\d{4}-\d{2}-\d{2}$/.test(isoDate) || isoDate > ds.todayIso) return;
@@ -430,6 +444,7 @@ function App() {
       label: result.questionSet.label,
       questionSetId: result.questionSet.id,
       sourceType: result.questionSet.sourceType,
+      isSubjectPractice: Boolean(result.questionSet.isSubjectPractice),
       score: attemptSummary.score,
       max: attemptSummary.max,
       accuracy: attemptSummary.accuracy,
@@ -447,7 +462,7 @@ function App() {
         history: [...(withReview.history || []), entry],
         dailyCompletions: { ...(withReview.dailyCompletions || {}) },
       });
-      if (result.questionSet.sourceType === "daily" && result.questionSet.isoDate) {
+      if (!result.questionSet.isSubjectPractice && result.questionSet.sourceType === "daily" && result.questionSet.isoDate) {
         next.dailyCompletions[result.questionSet.isoDate] = {
           submittedAt,
           questionSetId: result.questionSet.id,
@@ -512,7 +527,7 @@ function App() {
       <div key={screen} className="screen-fade">
         {screen === "home" && <Home go={go} progress={progress} summary={summary} review={review} onStartReview={startReviewSession} />}
         {screen === "labs" && <StudyLabs go={go} progress={progress} review={review} focusSubject={labFocus} onLabProgress={saveLabProgress} />}
-        {screen === "library" && <div className="page-wrap library-page"><NotesLibrary key={libraryNoteId || "library"} go={go} noteId={libraryNoteId} progress={progress} onMarkDone={setItemDoneState} /></div>}
+        {screen === "library" && <div className="page-wrap library-page"><NotesLibrary key={libraryRequest.token} go={go} noteId={libraryRequest.id} progress={progress} onMarkDone={setItemDoneState} onSelectNote={rememberLibraryNote} /></div>}
         {screen === "atlas" && <NewsAtlas weekId={atlasWeekId} go={go} />}
         {screen === "practice" && <PracticeScreen go={go} />}
         {screen === "catchup" && <CatchUpScreen go={go} progress={progress} onStartDate={setCatchUpStart} onDismiss={(id) => setSessionDismissedState(id, true)} onRestore={(id) => setSessionDismissedState(id, false)} onMarkDone={(id) => setItemDoneState(id, true)} onUndoDone={(id) => setItemDoneState(id, false)} />}

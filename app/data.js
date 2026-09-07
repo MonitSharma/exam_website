@@ -259,7 +259,7 @@
   }
 
   async function loadQuestionSet(questionSetId) {
-    const questionSet = getQuestionSetById(questionSetId);
+    const questionSet = questionSets.find((set) => set.id === String(questionSetId || defaultQuestionSetId));
     if (!questionSet) throw new Error("Question set not found.");
     if (!questionCache.has(questionSet.id)) {
       const response = await fetch(questionSet.path);

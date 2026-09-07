@@ -10,6 +10,28 @@ const { validateCoverage, inventory } = require('../scripts/content_coverage');
 const model = require('../app/content-model');
 const manifest = buildContentManifest(ROOT);
 
+test('subject sessions retain original question identities and reject unknown sets', async () => {
+  const window = { UPSC_CONTENT: model };
+  const fetch = async (file) => ({ ok: true, json: async () => JSON.parse(fs.readFileSync(path.join(ROOT, file), 'utf8')) });
+  new Function('window', 'fetch', fs.readFileSync(path.join(ROOT, 'app/data.js'), 'utf8'))(window, fetch);
+  window.UPSC.parsing.applyManifest(manifest);
+  const set = manifest.questionSets.find((s) => s.sourceType === 'pyq');
+  const original = await window.UPSC.loadQuestionSet(set.id);
+  const subject = original.questions[0].subject;
+  const focused = await window.UPSC.loadSubjectSession(set.id, [subject]);
+  assert.ok(focused.questions.length > 0 && focused.questions.length < original.questions.length);
+  assert.equal(focused.questionSet.isSubjectPractice, true);
+  for (const [index, question] of focused.questions.entries()) {
+    assert.equal(question.n, index + 1);
+    assert.equal(question.sourceSetId, set.id);
+    const source = original.questions.find((q) => q.n === question.sourceQuestionNumber);
+    assert.ok(source);
+    const { sourceSetId, sourceQuestionNumber, ...copy } = question;
+    assert.deepEqual({ ...copy, n: source.n }, source);
+  }
+  await assert.rejects(window.UPSC.loadQuestionSet('missing-set'), /not found/);
+});
+
 function homeFunctions() {
   const source = fs.readFileSync(path.join(ROOT, 'app/home.jsx'), 'utf8');
   const React = { Fragment: 'fragment', createElement: (type, props, ...children) => ({ type, props: props || {}, children }) };
@@ -125,5 +147,22 @@ test('deployment uses the same manifest and content assets as the checked source
   assert.deepEqual(JSON.parse(fs.readFileSync(path.join(ROOT,'config/content_manifest.json'),'utf8')),built);
   for (const item of [...built.noteDocuments,...built.questionSets]) {
     assert.ok(fs.readFileSync(path.join(ROOT,item.path)).equals(fs.readFileSync(path.join(ROOT,'dist',item.path))),item.path);
+  }
+});
+
+
+test('real companions share their parent identity without mistaking the day for a variant number', () => {
+  const note = manifest.noteDocuments.find((n) => n.path === 'weekly/Sectional/Sectional_book-topics_2026-09-06_chatgpt.md');
+  assert.equal(note.variantLabel, 'Companion');
+  const second = manifest.noteDocuments.find((n) => n.path.endsWith('2026-08-09-2_chatgpt.md'));
+  assert.equal(second.variantLabel, 'Companion 2');
+  const paired = manifest.noteDocuments.filter((n) => n.parentId);
+  for (const child of paired) assert.equal(child.bundleId, child.parentId);
+});
+
+test('every flashcard deck has an explicit, reciprocal related briefing', () => {
+  for (const deck of manifest.noteDocuments.filter((n) => n.cadence === 'anki')) {
+    assert.ok(deck.relatedNoteIds.length, deck.path);
+    for (const id of deck.relatedNoteIds) assert.ok(manifest.noteDocuments.find((n) => n.id === id).relatedNoteIds.includes(deck.id));
   }
 });

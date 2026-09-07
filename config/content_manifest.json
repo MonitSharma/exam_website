@@ -12,6 +12,92 @@
   ],
   "questionSets": [
     {
+      "id": "daily_questions_2026_09_07",
+      "label": "Daily Questions - 07 Sept 2026",
+      "shortLabel": "Daily 07 Sept",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-09-07.json",
+      "sourcePath": "daily/daily_questions/daily_questions_2026-09-07.json",
+      "isoDate": "2026-09-07",
+      "subjects": [
+        "Geography",
+        "Economy",
+        "Polity & Governance",
+        "Science & Technology"
+      ],
+      "bundleId": "daily_questions_2026_09_07",
+      "relatedNoteIds": [
+        "daily-daily-current-affairs-upsc-ca-2026-09-07"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "geography",
+        "economy",
+        "polity",
+        "science-technology"
+      ],
+      "topicIds": [
+        "geography/anak-krakatau-eruption-of-4-6-september-2026-in-the-sunda-strait-ash-plume-to-about-50-000-ft-alert-level-iii-of-four-3-km-exclusion-zone-declared-by-pvmbg-eight-airports-closed-and-1-558-flights-disrupted-sunda-arc-subduction-setting-1883-krakatau-eruption-ejecting-12-20-cubic-km-with-a-roughly-40-m-tsunami-and-about-36-000-deaths-emergence-of-anak-krakatau-in-1929-and-growth-to-about-328-m-by-2018-22-december-2018-flank-collapse-tsunami-with-run-ups-up-to-13-m-and-at-least-437-deaths-contrast-with-barren-island-as-india-s-only-confirmed-active-volcano",
+        "economy/supreme-court-bench-of-justices-j-b-pardiwala-and-k-vinod-chandran-disposing-sebi-s-appeals-against-nse-in-the-co-location-and-dark-fibre-matters-september-2026-settlement-value-rs-1-491-21-crore-with-rs-714-74-crore-paid-in-july-2026-after-in-principle-approval-of-january-2026-and-an-earlier-nse-offer-of-about-rs-1-388-crore-tick-by-tick-data-dissemination-and-first-connect-first-served-architecture-settlement-mechanism-under-section-15jb-of-the-sebi-act-1992-inserted-by-the-securities-laws-amendment-act-2014-read-with-the-sebi-settlement-proceedings-regulations-2018-without-admission-or-denial-of-guilt-appellate-chain-sebi-to-sat-under-section-15t-to-the-supreme-court-on-a-question-of-law-under-section-15z-nse-as-a-market-infrastructure-institution-clearing-of-the-regulatory-overhang-on-the-nse-ipo",
+        "polity/ministry-of-law-and-justice-notification-of-5-september-2026-appointing-chief-justices-to-eight-high-courts-leaving-every-high-court-with-a-regular-chief-justice-appointees-v-kameswar-rao-to-patna-ravindra-v-ghuge-to-calcutta-mahesh-chandra-tripathi-to-bombay-sanjay-kumar-agrawal-as-the-44th-chief-justice-of-rajasthan-ashwani-kumar-mishra-to-punjab-and-haryana-krushna-ram-mohapatra-to-chhattisgarh-alpesh-y-kogje-to-madhya-pradesh-and-pushpendra-singh-bhati-to-jammu-and-kashmir-and-ladakh-article-217-1-consultation-requirement-and-the-asymmetry-for-the-chief-justice-s-own-successor-hc-collegium-of-cji-plus-two-senior-most-judges-versus-sc-collegium-of-cji-plus-four-s-p-gupta-1981-second-judges-case-1993-and-third-judges-case-1998-under-article-143-njac-and-the-99th-amendment-struck-down-4-1-in-2015-unfinalised-memorandum-of-procedure-since-2015-surya-kant-led-collegium-s-early-transfer-policy-for-high-court-chief-justices-of-february-2026-25-high-courts",
+        "science-technology/drdo-solid-state-physics-laboratory-sspl-delhi-developing-500-watt-pulsed-laser-diode-stacks-at-905-nm-wavelength-with-50-prototype-stacks-delivered-to-the-instruments-research-and-development-establishment-irde-dehradun-for-evaluation-reported-september-2026-intended-for-laser-proximity-fuzes-on-qrsam-and-ngarm-rudram-1-choice-of-905-nm-for-atmospheric-transmission-and-silicon-photodiode-responsivity-versus-the-more-eye-safe-but-costlier-1550-nm-with-ingaas-detectors-comparison-of-impact-time-rf-proximity-and-laser-proximity-fuzes-qrsam-as-a-canisterised-short-range-air-defence-system-with-aesa-radar-and-active-rf-seeker-ngarm-as-india-s-first-indigenous-air-launched-anti-radiation-missile-for-sead-import-substitution-in-seekers-emitters-and-focal-plane-arrays-link-to-the-august-2026-transfer-of-drdo-conventional-missile-technologies-to-indian-industry",
+        "economy/cbdt-time-series-data-for-fy-2000-01-to-fy-2024-25-net-direct-tax-collections-of-rs-22-26-lakh-crore-in-fy-2024-25-against-rs-19-60-lakh-crore-in-fy-2023-24-corporate-tax-rs-9-86-lakh-crore-and-non-corporate-tax-rs-12-35-lakh-crore-with-non-corporate-now-exceeding-corporate-direct-tax-to-gdp-ratio-6-73-cost-of-collection-at-a-historic-low-of-0-41-taxpayer-base-of-12-13-crore-for-ay-2024-25-including-11-61-crore-individuals-direct-tax-buoyancy-of-1-39-above-1-for-the-third-consecutive-year-against-about-2-52-in-fy22-and-below-2-in-fy23-buoyancy-formula-and-its-distinction-from-tax-elasticity-cbdt-as-a-statutory-body-under-the-central-board-of-revenue-act-1963-in-the-department-of-revenue-with-cbic-as-its-indirect-tax-counterpart",
+        "geography/classification-of-volcanoes-by-form-and-eruptive-style-calderas-formed-by-magma-chamber-evacuation-and-edifice-collapse-composite-or-strato-volcanoes-of-subduction-zones-with-andesitic-to-rhyolitic-silica-rich-viscous-lava-and-explosive-eruptions-shield-volcanoes-built-by-low-viscosity-basaltic-lava-with-gentle-slopes-and-effusive-eruptions-the-pacific-ring-of-fire-and-its-western-sunda-arc-limb-barren-island-in-the-andaman-sea-as-india-s-only-confirmed-active-volcano-and-narcondam-as-dormant",
+        "polity/articles-214-to-231-of-the-constitution-article-214-high-court-for-each-state-article-216-composition-article-217-1-appointment-and-the-proviso-fixing-retirement-at-62-article-217-2-qualifications-of-ten-years-as-a-judicial-officer-or-as-an-advocate-of-a-high-court-article-222-transfer-of-judges-after-consultation-with-the-cji-article-223-acting-chief-justice-article-224-additional-and-acting-judges-article-224a-ad-hoc-appointment-of-retired-judges-with-the-president-s-previous-consent-article-231-common-high-court-for-two-or-more-states-or-union-territories-25-high-courts-in-india"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
+      "id": "daily_questions_2026_09_06",
+      "label": "Daily Questions - 06 Sept 2026",
+      "shortLabel": "Daily 06 Sept",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-09-06.json",
+      "sourcePath": "daily/daily_questions/daily_questions_2026-09-06.json",
+      "isoDate": "2026-09-06",
+      "subjects": [
+        "Science & Technology",
+        "Environment",
+        "Economy",
+        "International Relations",
+        "Society",
+        "Geography",
+        "Polity & Governance"
+      ],
+      "bundleId": "daily_questions_2026_09_06",
+      "relatedNoteIds": [
+        "daily-daily-current-affairs-upsc-ca-2026-09-06"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "science-technology",
+        "environment",
+        "economy",
+        "international-relations",
+        "society",
+        "geography",
+        "polity"
+      ],
+      "topicIds": [
+        "science-technology/sce-200-se-2000-semi-cryogenic-engine-power-head-test-article-hot-tested-at-full-200-tonne-100-level-on-5-september-2026-at-the-semi-cryogenic-integrated-engine-test-facility-iprc-mahendragiri-9th-phta-test-35-s-duration-with-5-s-at-full-power-earlier-steps-47-94-t-60-120-t-88-175-t-2-000-kn-thrust-class-lox-isrosene-oxidiser-rich-staged-combustion-chamber-pressure-180-bar-feed-pressures-up-to-600-bar-developed-by-lpsc-programme-sanctioned-2009-at-about-rs-1-798-crore-intended-sc120-replacement-for-lvm3-s-l110-stage-and-booster-for-nglv-first-pre-burner-ignition-may-2024-first-phta-hot-test-march-2025",
+        "environment/national-policy-on-geothermal-energy-notified-15-september-2025-by-mnre-india-s-first-single-window-clearance-100-fdi-viability-gap-funding-accelerated-depreciation-gst-and-import-duty-exemptions-repurposing-of-abandoned-oil-and-gas-wells-gsi-estimate-of-about-10-600-mw-theoretical-potential-from-381-thermally-anomalous-areas-across-10-geothermal-provinces-himalayan-naga-lushai-andaman-nicobar-sonata-west-coast-cambay-graben-aravalli-mahanadi-godavari-south-indian-cratonic-puga-valley-changthang-eastern-ladakh-above-14-000-ft-two-wells-of-1-000-m-each-with-about-135-degrees-c-at-400-m-second-well-spudded-3-june-2026-and-completed-8-july-2026-ongc-energy-centre-with-the-ladakh-administration-and-lahdc-leh-proposed-1-mw-demonstration-plant-pib-backgrounder-of-5-september-2026",
+        "economy/npci-directive-effective-4-september-2026-masking-the-registered-mobile-number-last-four-digits-visible-account-numbers-and-vpas-on-upi-apps-with-qr-payments-hiding-the-number-even-post-transaction-and-username-based-vpas-to-be-the-default-rationale-of-privacy-safety-and-identity-theft-framed-against-the-digital-personal-data-protection-act-2023-npci-set-up-2008-at-the-initiative-of-the-rbi-and-the-indian-banks-association-under-the-payment-and-settlement-systems-act-2007-incorporated-as-a-not-for-profit-company-under-section-8-of-the-companies-act-2013-npci-products-upi-2016-imps-rupay-nach-aeps-bbps-netc-fastag-nfs-npci-international-payments-ltd-2020-distinction-between-upi-as-deposit-money-and-the-digital-rupee-as-a-central-bank-liability",
+        "international-relations/26th-sco-council-of-heads-of-state-yrys-ordo-congress-hall-bishkek-31-august-1-september-2026-chaired-by-president-sadyr-japarov-under-the-motto-25-years-of-the-sco-together-for-sustainable-peace-development-and-prosperity-sco-plus-meeting-on-the-sidelines-bishkek-declaration-plus-28-documents-including-4-mous-english-recognised-as-an-official-and-working-language-sco-young-scientists-forum-sco-young-authors-conference-regulations-for-the-executive-committee-of-the-sco-anti-narcotics-centre-sco-civilisational-dialogue-forum-to-be-hosted-in-india-chairmanship-2026-27-to-pakistan-and-lahore-as-sco-tourism-and-cultural-capital-sco-founded-2001-from-the-shanghai-five-1996-secretariat-at-beijing-rats-at-tashkent-india-and-pakistan-2017-iran-2023-belarus-2024",
+        "society/nfhs-6-fieldwork-2023-24-released-may-2026-ministry-of-health-and-family-welfare-with-iips-mumbai-as-nodal-agency-about-6-79-lakh-households-across-715-districts-females-aged-6-ever-attending-school-71-8-to-73-7-women-with-at-least-10-years-of-schooling-41-to-46-4-institutional-deliveries-90-6-anc-coverage-92-6-to-95-9-four-or-more-anc-visits-58-5-to-65-2-full-immunisation-of-children-12-23-months-83-8-to-87-stunting-35-5-to-29-3-health-insurance-coverage-60-2-rising-adult-obesity-and-diabetes-reported-analysis-of-4-september-2026-finding-the-rural-male-female-education-attainment-gap-about-four-times-the-urban-gap-driven-by-secondary-school-distance-and-availability",
+        "geography/ten-geothermal-provinces-of-india-identified-by-the-gsi-and-the-national-policy-on-geothermal-energy-2025-himalayan-naga-lushai-andaman-nicobar-son-narmada-tapi-sonata-west-coast-cambay-graben-aravalli-mahanadi-godavari-and-south-indian-cratonic-site-state-mapping-for-puga-ladakh-manikaran-kullu-himachal-pradesh-tattapani-balrampur-chhattisgarh-sonata-belt-bakreshwar-birbhum-west-bengal-collisional-tectonics-crustal-thickening-and-deep-fault-circulation-as-the-heat-source-in-the-himalayan-belt-as-against-volcanic-arc-geothermal-systems",
+        "polity/article-21a-inserted-by-the-86th-constitutional-amendment-act-2002-covering-ages-6-14-article-45-recast-as-early-childhood-care-and-education-below-six-article-51a-k-parental-fundamental-duty-right-of-children-to-free-and-compulsory-education-act-2009-in-force-1-april-2010-with-25-reservation-in-private-unaided-schools-under-section-12-1-c-and-no-detention-policy-amended-in-2019-distinction-from-secondary-education-which-has-no-statutory-guarantee-programme-architecture-of-samagra-shiksha-merging-ssa-rmsa-and-teacher-education-kasturba-gandhi-balika-vidyalayas-pm-shri-pm-poshan-and-nep-2020-s-5-3-3-4-structure"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
       "id": "daily_questions_2026_09_05",
       "label": "Daily Questions - 05 Sept 2026",
       "shortLabel": "Daily 05 Sept",
@@ -3918,6 +4004,38 @@
       "provenance": "generated"
     },
     {
+      "id": "daily_rc_2026_09_07",
+      "label": "Daily RC Drill - 07 Sept 2026",
+      "shortLabel": "RC 07 Sept",
+      "category": "Daily Reading Comprehension",
+      "sourceType": "rc",
+      "questionCount": 8,
+      "durationMinutes": 16,
+      "path": "generated_data/rc_questions/2026-09-07.json",
+      "sourcePath": "generated_data/rc_questions/2026-09-07.json",
+      "isoDate": "2026-09-07",
+      "paper": "GS Paper II (CSAT)",
+      "marksPerCorrect": 2,
+      "negativeMark": -0.66,
+      "subjects": [
+        "Reading Comprehension"
+      ],
+      "bundleId": "daily_rc_2026_09_07",
+      "relatedNoteIds": [
+        "daily-daily-reading-comprehension-rc-drill-2026-09-07"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "reading-comprehension"
+      ],
+      "topicIds": [
+        "reading-comprehension/society-meritocracy-as-a-rule-of-allocation-versus-a-theory-of-desert",
+        "reading-comprehension/environment-deep-uncertainty-versus-quantifiable-risk-in-policy"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
       "id": "daily_rc_2026_08_31",
       "label": "Daily RC Drill - 31 Aug 2026",
       "shortLabel": "RC 31 Aug",
@@ -4386,6 +4504,74 @@
       ],
       "topicIds": [
         "reading-comprehension/reading-comprehension"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
+      "id": "pib_questions_2026_09_07",
+      "label": "PIB Questions - 07 Sept 2026",
+      "shortLabel": "PIB 07 Sept",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-09-07.json",
+      "sourcePath": "generated_data/pib_questions/2026-09-07.json",
+      "isoDate": "2026-09-07",
+      "subjects": [
+        "Environment",
+        "Science & Technology",
+        "Internal Security"
+      ],
+      "bundleId": "pib_questions_2026_09_07",
+      "relatedNoteIds": [
+        "daily-daily-pib-pib-2026-09-07"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "environment",
+        "science-technology",
+        "internal-security"
+      ],
+      "topicIds": [
+        "environment/national-clean-air-programme-and-swachh-vayu-sarvekshan-2026",
+        "science-technology/nixi-apnic-and-internet-governance-bodies",
+        "internal-security/defence-acquisition-council-and-acceptance-of-necessity"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
+      "id": "pib_questions_2026_09_06",
+      "label": "PIB Questions - 06 Sept 2026",
+      "shortLabel": "PIB 06 Sept",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-09-06.json",
+      "sourcePath": "generated_data/pib_questions/2026-09-06.json",
+      "isoDate": "2026-09-06",
+      "subjects": [
+        "Internal Security",
+        "Environment",
+        "International Relations"
+      ],
+      "bundleId": "pib_questions_2026_09_06",
+      "relatedNoteIds": [
+        "daily-daily-pib-pib-2026-09-06"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "internal-security",
+        "environment",
+        "international-relations"
+      ],
+      "topicIds": [
+        "internal-security/vibrant-villages-programme-vvp-i-and-vvp-ii",
+        "environment/biological-diversity-act-2002-nba-bmcs-and-nagoya-protocol",
+        "international-relations/asian-pacific-postal-union-and-the-universal-postal-union"
       ],
       "format": "drill",
       "provenance": "generated"
@@ -8655,8 +8841,8 @@
     },
     {
       "id": "sectional_book-topics_2026_09_06_extra",
-      "label": "Sectional Practice Add-on - 06 Sept 2026",
-      "shortLabel": "Extra 06 Sept",
+      "label": "Book Topics · Add-on · 2026-09-06",
+      "shortLabel": "Book Topics · 2026-09-06",
       "category": "Extra Practice",
       "sourceType": "sectional",
       "questionCount": 50,
@@ -8665,7 +8851,7 @@
       "sourcePath": "generated_data/sectional_questions/book-topics_2026-09-06_chatgpt.json",
       "isoDate": "2026-09-06",
       "variant": "extra-practice",
-      "variantLabel": "Add-on 06",
+      "variantLabel": "Add-on",
       "isSupplementary": true,
       "subjects": [
         "Polity",
@@ -8747,8 +8933,8 @@
     },
     {
       "id": "sectional_book-topics_2026_08_30_extra",
-      "label": "Sectional Practice Add-on - 30 Aug 2026",
-      "shortLabel": "Extra 30 Aug",
+      "label": "Book Topics · Add-on · 2026-08-30",
+      "shortLabel": "Book Topics · 2026-08-30",
       "category": "Extra Practice",
       "sourceType": "sectional",
       "questionCount": 50,
@@ -8757,7 +8943,7 @@
       "sourcePath": "generated_data/sectional_questions/book-topics_2026-08-30_chatgpt.json",
       "isoDate": "2026-08-30",
       "variant": "extra-practice",
-      "variantLabel": "Add-on 30",
+      "variantLabel": "Add-on",
       "isSupplementary": true,
       "subjects": [
         "Polity",
@@ -8838,8 +9024,8 @@
     },
     {
       "id": "sectional_book-topics_2026_08_23_extra",
-      "label": "Sectional Practice Add-on - 23 Aug 2026",
-      "shortLabel": "Extra 23 Aug",
+      "label": "Book Topics · Add-on · 2026-08-23",
+      "shortLabel": "Book Topics · 2026-08-23",
       "category": "Extra Practice",
       "sourceType": "sectional",
       "questionCount": 50,
@@ -8848,7 +9034,7 @@
       "sourcePath": "generated_data/sectional_questions/book-topics_2026-08-23_chatgpt.json",
       "isoDate": "2026-08-23",
       "variant": "extra-practice",
-      "variantLabel": "Add-on 23",
+      "variantLabel": "Add-on",
       "isSupplementary": true,
       "subjects": [
         "Polity",
@@ -8928,8 +9114,8 @@
     },
     {
       "id": "sectional_book-topics_2026_08_16_extra",
-      "label": "Sectional Practice Add-on - 16 Aug 2026",
-      "shortLabel": "Extra 16 Aug",
+      "label": "Book Topics · Add-on · 2026-08-16",
+      "shortLabel": "Book Topics · 2026-08-16",
       "category": "Extra Practice",
       "sourceType": "sectional",
       "questionCount": 50,
@@ -8938,7 +9124,7 @@
       "sourcePath": "generated_data/sectional_questions/book-topics_2026-08-16_chatgpt.json",
       "isoDate": "2026-08-16",
       "variant": "extra-practice",
-      "variantLabel": "Add-on 16",
+      "variantLabel": "Add-on",
       "isSupplementary": true,
       "subjects": [
         "Polity",
@@ -9068,8 +9254,8 @@
     },
     {
       "id": "sectional_book-topics_2026_08_11_extra",
-      "label": "Sectional Practice Add-on - 11 Aug 2026",
-      "shortLabel": "Extra 11 Aug",
+      "label": "Book Topics · Add-on · 2026-08-11",
+      "shortLabel": "Book Topics · 2026-08-11",
       "category": "Extra Practice",
       "sourceType": "sectional",
       "questionCount": 50,
@@ -9078,7 +9264,7 @@
       "sourcePath": "generated_data/sectional_questions/book-topics_2026-08-11_chatgpt.json",
       "isoDate": "2026-08-11",
       "variant": "extra-practice",
-      "variantLabel": "Add-on 11",
+      "variantLabel": "Add-on",
       "isSupplementary": true,
       "subjects": [
         "Polity",
@@ -9212,8 +9398,8 @@
     },
     {
       "id": "sectional_book-topics_2026_08_09_extra",
-      "label": "Sectional Practice Add-on - 09 Aug 2026",
-      "shortLabel": "Extra 09 Aug",
+      "label": "Book Topics · Add-on · 2026-08-09",
+      "shortLabel": "Book Topics · 2026-08-09",
       "category": "Extra Practice",
       "sourceType": "sectional",
       "questionCount": 50,
@@ -9222,7 +9408,7 @@
       "sourcePath": "generated_data/sectional_questions/book-topics_2026-08-09_chatgpt.json",
       "isoDate": "2026-08-09",
       "variant": "extra-practice",
-      "variantLabel": "Add-on 09",
+      "variantLabel": "Add-on",
       "isSupplementary": true,
       "subjects": [
         "Polity",
@@ -9302,8 +9488,8 @@
     },
     {
       "id": "sectional_book-topics_2026_08_09_extra_2",
-      "label": "Sectional Practice Add-on 2 - 09 Aug 2026",
-      "shortLabel": "Extra 2 09 Aug",
+      "label": "Book Topics · Add-on 2 · 2026-08-09",
+      "shortLabel": "Book Topics · 2026-08-09",
       "category": "Extra Practice",
       "sourceType": "sectional",
       "questionCount": 50,
@@ -9392,8 +9578,8 @@
     },
     {
       "id": "sectional_book-topics_2026_08_02_extra",
-      "label": "Sectional Practice Add-on - 02 Aug 2026",
-      "shortLabel": "Extra 02 Aug",
+      "label": "Book Topics · Add-on · 2026-08-02",
+      "shortLabel": "Book Topics · 2026-08-02",
       "category": "Extra Practice",
       "sourceType": "sectional",
       "questionCount": 50,
@@ -9402,7 +9588,7 @@
       "sourcePath": "generated_data/sectional_questions/book-topics_2026-08-02_chatgpt.json",
       "isoDate": "2026-08-02",
       "variant": "extra-practice",
-      "variantLabel": "Add-on 02",
+      "variantLabel": "Add-on",
       "isSupplementary": true,
       "subjects": [
         "Polity",
@@ -9478,8 +9664,8 @@
     },
     {
       "id": "sectional_book-topics_2026_08_02_extra_2",
-      "label": "Sectional Practice Add-on 2 - 02 Aug 2026",
-      "shortLabel": "Extra 2 02 Aug",
+      "label": "Book Topics · Add-on 2 · 2026-08-02",
+      "shortLabel": "Book Topics · 2026-08-02",
       "category": "Extra Practice",
       "sourceType": "sectional",
       "questionCount": 50,
@@ -9566,8 +9752,8 @@
     },
     {
       "id": "sectional_book-topics_2026_07_26_extra",
-      "label": "Sectional Practice Add-on - 26 Jul 2026",
-      "shortLabel": "Extra 26 Jul",
+      "label": "Book Topics · Add-on · 2026-07-26",
+      "shortLabel": "Book Topics · 2026-07-26",
       "category": "Extra Practice",
       "sourceType": "sectional",
       "questionCount": 50,
@@ -9576,7 +9762,7 @@
       "sourcePath": "generated_data/sectional_questions/book-topics_2026-07-26_chatgpt.json",
       "isoDate": "2026-07-26",
       "variant": "extra-practice",
-      "variantLabel": "Add-on 26",
+      "variantLabel": "Add-on",
       "isSupplementary": true,
       "subjects": [
         "Polity",
@@ -13126,7 +13312,9 @@
       "date": "2026-09-06",
       "path": "anki/Prelims_Flashcards_2026-09-06.txt",
       "bundleId": "anki-prelims-flashcards-2026-09-06",
-      "relatedNoteIds": [],
+      "relatedNoteIds": [
+        "daily-daily-current-affairs-upsc-ca-2026-09-05"
+      ],
       "relatedSetIds": [],
       "subjectIds": [],
       "topicIds": []
@@ -13139,7 +13327,9 @@
       "date": "2026-08-30",
       "path": "anki/Prelims_Flashcards_2026-08-30.txt",
       "bundleId": "anki-prelims-flashcards-2026-08-30",
-      "relatedNoteIds": [],
+      "relatedNoteIds": [
+        "daily-daily-current-affairs-upsc-ca-2026-08-23"
+      ],
       "relatedSetIds": [],
       "subjectIds": [],
       "topicIds": []
@@ -13152,7 +13342,9 @@
       "date": "2026-08-23",
       "path": "anki/Prelims_Flashcards_2026-08-23.txt",
       "bundleId": "anki-prelims-flashcards-2026-08-23",
-      "relatedNoteIds": [],
+      "relatedNoteIds": [
+        "daily-daily-current-affairs-upsc-ca-2026-08-16"
+      ],
       "relatedSetIds": [],
       "subjectIds": [],
       "topicIds": []
@@ -13165,7 +13357,9 @@
       "date": "2026-08-09",
       "path": "anki/Prelims_Flashcards_2026-08-09.txt",
       "bundleId": "anki-prelims-flashcards-2026-08-09",
-      "relatedNoteIds": [],
+      "relatedNoteIds": [
+        "daily-daily-current-affairs-upsc-ca-2026-08-06"
+      ],
       "relatedSetIds": [],
       "subjectIds": [],
       "topicIds": []
@@ -13178,7 +13372,9 @@
       "date": "2026-08-02",
       "path": "anki/Prelims_Flashcards_2026-08-02.txt",
       "bundleId": "anki-prelims-flashcards-2026-08-02",
-      "relatedNoteIds": [],
+      "relatedNoteIds": [
+        "daily-daily-current-affairs-upsc-ca-2026-07-27"
+      ],
       "relatedSetIds": [],
       "subjectIds": [],
       "topicIds": []
@@ -13191,7 +13387,9 @@
       "date": "2026-07-26",
       "path": "anki/Prelims_Flashcards_2026-07-26.txt",
       "bundleId": "anki-prelims-flashcards-2026-07-26",
-      "relatedNoteIds": [],
+      "relatedNoteIds": [
+        "daily-daily-current-affairs-upsc-ca-2026-07-19"
+      ],
       "relatedSetIds": [],
       "subjectIds": [],
       "topicIds": []
@@ -13204,7 +13402,9 @@
       "date": "2026-07-19",
       "path": "anki/Prelims_Flashcards_2026-07-19.txt",
       "bundleId": "anki-prelims-flashcards-2026-07-19",
-      "relatedNoteIds": [],
+      "relatedNoteIds": [
+        "daily-daily-current-affairs-upsc-ca-2026-07-12"
+      ],
       "relatedSetIds": [],
       "subjectIds": [],
       "topicIds": []
@@ -13217,7 +13417,9 @@
       "date": "2026-07-12",
       "path": "anki/Prelims_Flashcards_2026-07-12.txt",
       "bundleId": "anki-prelims-flashcards-2026-07-12",
-      "relatedNoteIds": [],
+      "relatedNoteIds": [
+        "daily-daily-current-affairs-upsc-ca-2026-07-05"
+      ],
       "relatedSetIds": [],
       "subjectIds": [],
       "topicIds": []
@@ -13230,7 +13432,9 @@
       "date": "2026-07-05",
       "path": "anki/Prelims_Flashcards_2026-07-05.txt",
       "bundleId": "anki-prelims-flashcards-2026-07-05",
-      "relatedNoteIds": [],
+      "relatedNoteIds": [
+        "daily-daily-current-affairs-upsc-ca-2026-06-28"
+      ],
       "relatedSetIds": [],
       "subjectIds": [],
       "topicIds": []
@@ -13243,7 +13447,10 @@
       "date": "2026-06-28",
       "path": "anki/Prelims_Flashcards_2026-06-28.txt",
       "bundleId": "anki-prelims-flashcards-2026-06-28",
-      "relatedNoteIds": [],
+      "relatedNoteIds": [
+        "daily-daily-current-affairs-upsc-ca-2026-06-23",
+        "daily-daily-current-affairs-upsc-ca-2026-06-24"
+      ],
       "relatedSetIds": [],
       "subjectIds": [],
       "topicIds": []
@@ -13256,10 +13463,72 @@
       "date": "2026-06-21",
       "path": "anki/Prelims_Flashcards_2026-06-21.txt",
       "bundleId": "anki-prelims-flashcards-2026-06-21",
-      "relatedNoteIds": [],
+      "relatedNoteIds": [
+        "daily-daily-current-affairs-upsc-ca-2026-06-20",
+        "daily-daily-current-affairs-upsc-ca-2026-06-21"
+      ],
       "relatedSetIds": [],
       "subjectIds": [],
       "topicIds": []
+    },
+    {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-09-07",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "07 Sept 2026",
+      "date": "2026-09-07",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-09-07.md",
+      "bundleId": "daily-daily-current-affairs-upsc-ca-2026-09-07",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "daily_questions_2026_09_07"
+      ],
+      "subjectIds": [
+        "geography",
+        "economy",
+        "polity",
+        "science-technology"
+      ],
+      "topicIds": [
+        "geography/anak-krakatau-eruption-of-4-6-september-2026-in-the-sunda-strait-ash-plume-to-about-50-000-ft-alert-level-iii-of-four-3-km-exclusion-zone-declared-by-pvmbg-eight-airports-closed-and-1-558-flights-disrupted-sunda-arc-subduction-setting-1883-krakatau-eruption-ejecting-12-20-cubic-km-with-a-roughly-40-m-tsunami-and-about-36-000-deaths-emergence-of-anak-krakatau-in-1929-and-growth-to-about-328-m-by-2018-22-december-2018-flank-collapse-tsunami-with-run-ups-up-to-13-m-and-at-least-437-deaths-contrast-with-barren-island-as-india-s-only-confirmed-active-volcano",
+        "economy/supreme-court-bench-of-justices-j-b-pardiwala-and-k-vinod-chandran-disposing-sebi-s-appeals-against-nse-in-the-co-location-and-dark-fibre-matters-september-2026-settlement-value-rs-1-491-21-crore-with-rs-714-74-crore-paid-in-july-2026-after-in-principle-approval-of-january-2026-and-an-earlier-nse-offer-of-about-rs-1-388-crore-tick-by-tick-data-dissemination-and-first-connect-first-served-architecture-settlement-mechanism-under-section-15jb-of-the-sebi-act-1992-inserted-by-the-securities-laws-amendment-act-2014-read-with-the-sebi-settlement-proceedings-regulations-2018-without-admission-or-denial-of-guilt-appellate-chain-sebi-to-sat-under-section-15t-to-the-supreme-court-on-a-question-of-law-under-section-15z-nse-as-a-market-infrastructure-institution-clearing-of-the-regulatory-overhang-on-the-nse-ipo",
+        "polity/ministry-of-law-and-justice-notification-of-5-september-2026-appointing-chief-justices-to-eight-high-courts-leaving-every-high-court-with-a-regular-chief-justice-appointees-v-kameswar-rao-to-patna-ravindra-v-ghuge-to-calcutta-mahesh-chandra-tripathi-to-bombay-sanjay-kumar-agrawal-as-the-44th-chief-justice-of-rajasthan-ashwani-kumar-mishra-to-punjab-and-haryana-krushna-ram-mohapatra-to-chhattisgarh-alpesh-y-kogje-to-madhya-pradesh-and-pushpendra-singh-bhati-to-jammu-and-kashmir-and-ladakh-article-217-1-consultation-requirement-and-the-asymmetry-for-the-chief-justice-s-own-successor-hc-collegium-of-cji-plus-two-senior-most-judges-versus-sc-collegium-of-cji-plus-four-s-p-gupta-1981-second-judges-case-1993-and-third-judges-case-1998-under-article-143-njac-and-the-99th-amendment-struck-down-4-1-in-2015-unfinalised-memorandum-of-procedure-since-2015-surya-kant-led-collegium-s-early-transfer-policy-for-high-court-chief-justices-of-february-2026-25-high-courts",
+        "science-technology/drdo-solid-state-physics-laboratory-sspl-delhi-developing-500-watt-pulsed-laser-diode-stacks-at-905-nm-wavelength-with-50-prototype-stacks-delivered-to-the-instruments-research-and-development-establishment-irde-dehradun-for-evaluation-reported-september-2026-intended-for-laser-proximity-fuzes-on-qrsam-and-ngarm-rudram-1-choice-of-905-nm-for-atmospheric-transmission-and-silicon-photodiode-responsivity-versus-the-more-eye-safe-but-costlier-1550-nm-with-ingaas-detectors-comparison-of-impact-time-rf-proximity-and-laser-proximity-fuzes-qrsam-as-a-canisterised-short-range-air-defence-system-with-aesa-radar-and-active-rf-seeker-ngarm-as-india-s-first-indigenous-air-launched-anti-radiation-missile-for-sead-import-substitution-in-seekers-emitters-and-focal-plane-arrays-link-to-the-august-2026-transfer-of-drdo-conventional-missile-technologies-to-indian-industry",
+        "economy/cbdt-time-series-data-for-fy-2000-01-to-fy-2024-25-net-direct-tax-collections-of-rs-22-26-lakh-crore-in-fy-2024-25-against-rs-19-60-lakh-crore-in-fy-2023-24-corporate-tax-rs-9-86-lakh-crore-and-non-corporate-tax-rs-12-35-lakh-crore-with-non-corporate-now-exceeding-corporate-direct-tax-to-gdp-ratio-6-73-cost-of-collection-at-a-historic-low-of-0-41-taxpayer-base-of-12-13-crore-for-ay-2024-25-including-11-61-crore-individuals-direct-tax-buoyancy-of-1-39-above-1-for-the-third-consecutive-year-against-about-2-52-in-fy22-and-below-2-in-fy23-buoyancy-formula-and-its-distinction-from-tax-elasticity-cbdt-as-a-statutory-body-under-the-central-board-of-revenue-act-1963-in-the-department-of-revenue-with-cbic-as-its-indirect-tax-counterpart",
+        "geography/classification-of-volcanoes-by-form-and-eruptive-style-calderas-formed-by-magma-chamber-evacuation-and-edifice-collapse-composite-or-strato-volcanoes-of-subduction-zones-with-andesitic-to-rhyolitic-silica-rich-viscous-lava-and-explosive-eruptions-shield-volcanoes-built-by-low-viscosity-basaltic-lava-with-gentle-slopes-and-effusive-eruptions-the-pacific-ring-of-fire-and-its-western-sunda-arc-limb-barren-island-in-the-andaman-sea-as-india-s-only-confirmed-active-volcano-and-narcondam-as-dormant",
+        "polity/articles-214-to-231-of-the-constitution-article-214-high-court-for-each-state-article-216-composition-article-217-1-appointment-and-the-proviso-fixing-retirement-at-62-article-217-2-qualifications-of-ten-years-as-a-judicial-officer-or-as-an-advocate-of-a-high-court-article-222-transfer-of-judges-after-consultation-with-the-cji-article-223-acting-chief-justice-article-224-additional-and-acting-judges-article-224a-ad-hoc-appointment-of-retired-judges-with-the-president-s-previous-consent-article-231-common-high-court-for-two-or-more-states-or-union-territories-25-high-courts-in-india"
+      ]
+    },
+    {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-09-06",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "06 Sept 2026",
+      "date": "2026-09-06",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-09-06.md",
+      "bundleId": "daily-daily-current-affairs-upsc-ca-2026-09-06",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "daily_questions_2026_09_06"
+      ],
+      "subjectIds": [
+        "science-technology",
+        "environment",
+        "economy",
+        "international-relations",
+        "society",
+        "geography",
+        "polity"
+      ],
+      "topicIds": [
+        "science-technology/sce-200-se-2000-semi-cryogenic-engine-power-head-test-article-hot-tested-at-full-200-tonne-100-level-on-5-september-2026-at-the-semi-cryogenic-integrated-engine-test-facility-iprc-mahendragiri-9th-phta-test-35-s-duration-with-5-s-at-full-power-earlier-steps-47-94-t-60-120-t-88-175-t-2-000-kn-thrust-class-lox-isrosene-oxidiser-rich-staged-combustion-chamber-pressure-180-bar-feed-pressures-up-to-600-bar-developed-by-lpsc-programme-sanctioned-2009-at-about-rs-1-798-crore-intended-sc120-replacement-for-lvm3-s-l110-stage-and-booster-for-nglv-first-pre-burner-ignition-may-2024-first-phta-hot-test-march-2025",
+        "environment/national-policy-on-geothermal-energy-notified-15-september-2025-by-mnre-india-s-first-single-window-clearance-100-fdi-viability-gap-funding-accelerated-depreciation-gst-and-import-duty-exemptions-repurposing-of-abandoned-oil-and-gas-wells-gsi-estimate-of-about-10-600-mw-theoretical-potential-from-381-thermally-anomalous-areas-across-10-geothermal-provinces-himalayan-naga-lushai-andaman-nicobar-sonata-west-coast-cambay-graben-aravalli-mahanadi-godavari-south-indian-cratonic-puga-valley-changthang-eastern-ladakh-above-14-000-ft-two-wells-of-1-000-m-each-with-about-135-degrees-c-at-400-m-second-well-spudded-3-june-2026-and-completed-8-july-2026-ongc-energy-centre-with-the-ladakh-administration-and-lahdc-leh-proposed-1-mw-demonstration-plant-pib-backgrounder-of-5-september-2026",
+        "economy/npci-directive-effective-4-september-2026-masking-the-registered-mobile-number-last-four-digits-visible-account-numbers-and-vpas-on-upi-apps-with-qr-payments-hiding-the-number-even-post-transaction-and-username-based-vpas-to-be-the-default-rationale-of-privacy-safety-and-identity-theft-framed-against-the-digital-personal-data-protection-act-2023-npci-set-up-2008-at-the-initiative-of-the-rbi-and-the-indian-banks-association-under-the-payment-and-settlement-systems-act-2007-incorporated-as-a-not-for-profit-company-under-section-8-of-the-companies-act-2013-npci-products-upi-2016-imps-rupay-nach-aeps-bbps-netc-fastag-nfs-npci-international-payments-ltd-2020-distinction-between-upi-as-deposit-money-and-the-digital-rupee-as-a-central-bank-liability",
+        "international-relations/26th-sco-council-of-heads-of-state-yrys-ordo-congress-hall-bishkek-31-august-1-september-2026-chaired-by-president-sadyr-japarov-under-the-motto-25-years-of-the-sco-together-for-sustainable-peace-development-and-prosperity-sco-plus-meeting-on-the-sidelines-bishkek-declaration-plus-28-documents-including-4-mous-english-recognised-as-an-official-and-working-language-sco-young-scientists-forum-sco-young-authors-conference-regulations-for-the-executive-committee-of-the-sco-anti-narcotics-centre-sco-civilisational-dialogue-forum-to-be-hosted-in-india-chairmanship-2026-27-to-pakistan-and-lahore-as-sco-tourism-and-cultural-capital-sco-founded-2001-from-the-shanghai-five-1996-secretariat-at-beijing-rats-at-tashkent-india-and-pakistan-2017-iran-2023-belarus-2024",
+        "society/nfhs-6-fieldwork-2023-24-released-may-2026-ministry-of-health-and-family-welfare-with-iips-mumbai-as-nodal-agency-about-6-79-lakh-households-across-715-districts-females-aged-6-ever-attending-school-71-8-to-73-7-women-with-at-least-10-years-of-schooling-41-to-46-4-institutional-deliveries-90-6-anc-coverage-92-6-to-95-9-four-or-more-anc-visits-58-5-to-65-2-full-immunisation-of-children-12-23-months-83-8-to-87-stunting-35-5-to-29-3-health-insurance-coverage-60-2-rising-adult-obesity-and-diabetes-reported-analysis-of-4-september-2026-finding-the-rural-male-female-education-attainment-gap-about-four-times-the-urban-gap-driven-by-secondary-school-distance-and-availability",
+        "geography/ten-geothermal-provinces-of-india-identified-by-the-gsi-and-the-national-policy-on-geothermal-energy-2025-himalayan-naga-lushai-andaman-nicobar-son-narmada-tapi-sonata-west-coast-cambay-graben-aravalli-mahanadi-godavari-and-south-indian-cratonic-site-state-mapping-for-puga-ladakh-manikaran-kullu-himachal-pradesh-tattapani-balrampur-chhattisgarh-sonata-belt-bakreshwar-birbhum-west-bengal-collisional-tectonics-crustal-thickening-and-deep-fault-circulation-as-the-heat-source-in-the-himalayan-belt-as-against-volcanic-arc-geothermal-systems",
+        "polity/article-21a-inserted-by-the-86th-constitutional-amendment-act-2002-covering-ages-6-14-article-45-recast-as-early-childhood-care-and-education-below-six-article-51a-k-parental-fundamental-duty-right-of-children-to-free-and-compulsory-education-act-2009-in-force-1-april-2010-with-25-reservation-in-private-unaided-schools-under-section-12-1-c-and-no-detention-policy-amended-in-2019-distinction-from-secondary-education-which-has-no-statutory-guarantee-programme-architecture-of-samagra-shiksha-merging-ssa-rmsa-and-teacher-education-kasturba-gandhi-balika-vidyalayas-pm-shri-pm-poshan-and-nep-2020-s-5-3-3-4-structure"
+      ]
     },
     {
       "id": "daily-daily-current-affairs-upsc-ca-2026-09-05",
@@ -13269,7 +13538,9 @@
       "date": "2026-09-05",
       "path": "daily/daily_current_affairs/UPSC_CA_2026-09-05.md",
       "bundleId": "daily-daily-current-affairs-upsc-ca-2026-09-05",
-      "relatedNoteIds": [],
+      "relatedNoteIds": [
+        "anki-prelims-flashcards-2026-09-06"
+      ],
       "relatedSetIds": [
         "daily_questions_2026_09_05"
       ],
@@ -13652,7 +13923,9 @@
       "date": "2026-08-23",
       "path": "daily/daily_current_affairs/UPSC_CA_2026-08-23.md",
       "bundleId": "daily-daily-current-affairs-upsc-ca-2026-08-23",
-      "relatedNoteIds": [],
+      "relatedNoteIds": [
+        "anki-prelims-flashcards-2026-08-30"
+      ],
       "relatedSetIds": [
         "daily_questions_2026_08_23"
       ],
@@ -13858,7 +14131,9 @@
       "date": "2026-08-16",
       "path": "daily/daily_current_affairs/UPSC_CA_2026-08-16.md",
       "bundleId": "daily-daily-current-affairs-upsc-ca-2026-08-16",
-      "relatedNoteIds": [],
+      "relatedNoteIds": [
+        "anki-prelims-flashcards-2026-08-23"
+      ],
       "relatedSetIds": [
         "daily_questions_2026_08_16"
       ],
@@ -14153,7 +14428,9 @@
       "date": "2026-08-06",
       "path": "daily/daily_current_affairs/UPSC_CA_2026-08-06.md",
       "bundleId": "daily-daily-current-affairs-upsc-ca-2026-08-06",
-      "relatedNoteIds": [],
+      "relatedNoteIds": [
+        "anki-prelims-flashcards-2026-08-09"
+      ],
       "relatedSetIds": [
         "daily_questions_2026_08_06"
       ],
@@ -14452,7 +14729,9 @@
       "date": "2026-07-27",
       "path": "daily/daily_current_affairs/UPSC_CA_2026-07-27.md",
       "bundleId": "daily-daily-current-affairs-upsc-ca-2026-07-27",
-      "relatedNoteIds": [],
+      "relatedNoteIds": [
+        "anki-prelims-flashcards-2026-08-02"
+      ],
       "relatedSetIds": [
         "daily_questions_2026_07_27"
       ],
@@ -14689,7 +14968,9 @@
       "date": "2026-07-19",
       "path": "daily/daily_current_affairs/UPSC_CA_2026-07-19.md",
       "bundleId": "daily-daily-current-affairs-upsc-ca-2026-07-19",
-      "relatedNoteIds": [],
+      "relatedNoteIds": [
+        "anki-prelims-flashcards-2026-07-26"
+      ],
       "relatedSetIds": [
         "daily_questions_2026_07_19"
       ],
@@ -14895,7 +15176,9 @@
       "date": "2026-07-12",
       "path": "daily/daily_current_affairs/UPSC_CA_2026-07-12.md",
       "bundleId": "daily-daily-current-affairs-upsc-ca-2026-07-12",
-      "relatedNoteIds": [],
+      "relatedNoteIds": [
+        "anki-prelims-flashcards-2026-07-19"
+      ],
       "relatedSetIds": [
         "daily_questions_2026_07_12"
       ],
@@ -15096,7 +15379,9 @@
       "date": "2026-07-05",
       "path": "daily/daily_current_affairs/UPSC_CA_2026-07-05.md",
       "bundleId": "daily-daily-current-affairs-upsc-ca-2026-07-05",
-      "relatedNoteIds": [],
+      "relatedNoteIds": [
+        "anki-prelims-flashcards-2026-07-12"
+      ],
       "relatedSetIds": [
         "daily_questions_2026_07_05"
       ],
@@ -15298,7 +15583,9 @@
       "date": "2026-06-28",
       "path": "daily/daily_current_affairs/UPSC_CA_2026-06-28.md",
       "bundleId": "daily-daily-current-affairs-upsc-ca-2026-06-28",
-      "relatedNoteIds": [],
+      "relatedNoteIds": [
+        "anki-prelims-flashcards-2026-07-05"
+      ],
       "relatedSetIds": [
         "daily_questions_2026_06_28"
       ],
@@ -15414,7 +15701,9 @@
       "date": "2026-06-24",
       "path": "daily/daily_current_affairs/UPSC_CA_2026-06-24.md",
       "bundleId": "daily-daily-current-affairs-upsc-ca-2026-06-24",
-      "relatedNoteIds": [],
+      "relatedNoteIds": [
+        "anki-prelims-flashcards-2026-06-28"
+      ],
       "relatedSetIds": [
         "daily_questions_2026_06_24"
       ],
@@ -15444,7 +15733,9 @@
       "date": "2026-06-23",
       "path": "daily/daily_current_affairs/UPSC_CA_2026-06-23.md",
       "bundleId": "daily-daily-current-affairs-upsc-ca-2026-06-23",
-      "relatedNoteIds": [],
+      "relatedNoteIds": [
+        "anki-prelims-flashcards-2026-06-28"
+      ],
       "relatedSetIds": [
         "daily_questions_2026_06_23"
       ],
@@ -15503,7 +15794,9 @@
       "date": "2026-06-21",
       "path": "daily/daily_current_affairs/UPSC_CA_2026-06-21.md",
       "bundleId": "daily-daily-current-affairs-upsc-ca-2026-06-21",
-      "relatedNoteIds": [],
+      "relatedNoteIds": [
+        "anki-prelims-flashcards-2026-06-21"
+      ],
       "relatedSetIds": [
         "daily_questions_2026_06_21"
       ],
@@ -15532,7 +15825,9 @@
       "date": "2026-06-20",
       "path": "daily/daily_current_affairs/UPSC_CA_2026-06-20.md",
       "bundleId": "daily-daily-current-affairs-upsc-ca-2026-06-20",
-      "relatedNoteIds": [],
+      "relatedNoteIds": [
+        "anki-prelims-flashcards-2026-06-21"
+      ],
       "relatedSetIds": [
         "daily_questions_2026_06_20"
       ],
@@ -16251,6 +16546,19 @@
       "topicIds": []
     },
     {
+      "id": "daily-daily-mains-gs-mains-2026-09-07",
+      "cadence": "mains",
+      "title": "GS Mains Answer Practice",
+      "shortTitle": "Mains - 07 Sept",
+      "date": "2026-09-07",
+      "path": "daily/daily_mains/GS_Mains_2026-09-07.md",
+      "bundleId": "daily-daily-mains-gs-mains-2026-09-07",
+      "relatedNoteIds": [],
+      "relatedSetIds": [],
+      "subjectIds": [],
+      "topicIds": []
+    },
+    {
       "id": "daily-daily-mains-gs-mains-2026-09-06",
       "cadence": "mains",
       "title": "GS Mains Answer Practice",
@@ -16704,6 +17012,52 @@
       "relatedSetIds": [],
       "subjectIds": [],
       "topicIds": []
+    },
+    {
+      "id": "daily-daily-pib-pib-2026-09-07",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 07 Sept",
+      "date": "2026-09-07",
+      "path": "daily/daily_pib/PIB_2026-09-07.md",
+      "bundleId": "daily-daily-pib-pib-2026-09-07",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "pib_questions_2026_09_07"
+      ],
+      "subjectIds": [
+        "environment",
+        "science-technology",
+        "internal-security"
+      ],
+      "topicIds": [
+        "environment/national-clean-air-programme-and-swachh-vayu-sarvekshan-2026",
+        "science-technology/nixi-apnic-and-internet-governance-bodies",
+        "internal-security/defence-acquisition-council-and-acceptance-of-necessity"
+      ]
+    },
+    {
+      "id": "daily-daily-pib-pib-2026-09-06",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 06 Sept",
+      "date": "2026-09-06",
+      "path": "daily/daily_pib/PIB_2026-09-06.md",
+      "bundleId": "daily-daily-pib-pib-2026-09-06",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "pib_questions_2026_09_06"
+      ],
+      "subjectIds": [
+        "internal-security",
+        "environment",
+        "international-relations"
+      ],
+      "topicIds": [
+        "internal-security/vibrant-villages-programme-vvp-i-and-vvp-ii",
+        "environment/biological-diversity-act-2002-nba-bmcs-and-nagoya-protocol",
+        "international-relations/asian-pacific-postal-union-and-the-universal-postal-union"
+      ]
     },
     {
       "id": "daily-daily-pib-pib-2026-09-05",
@@ -18673,6 +19027,26 @@
       ]
     },
     {
+      "id": "daily-daily-reading-comprehension-rc-drill-2026-09-07",
+      "cadence": "rc",
+      "title": "CSAT Daily RC Drill",
+      "shortTitle": "RC - 07 Sept",
+      "date": "2026-09-07",
+      "path": "daily/daily_reading_comprehension/RC_Drill_2026-09-07.md",
+      "bundleId": "daily-daily-reading-comprehension-rc-drill-2026-09-07",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "daily_rc_2026_09_07"
+      ],
+      "subjectIds": [
+        "reading-comprehension"
+      ],
+      "topicIds": [
+        "reading-comprehension/society-meritocracy-as-a-rule-of-allocation-versus-a-theory-of-desert",
+        "reading-comprehension/environment-deep-uncertainty-versus-quantifiable-risk-in-policy"
+      ]
+    },
+    {
       "id": "daily-daily-reading-comprehension-rc-drill-2026-08-31",
       "cadence": "rc",
       "title": "CSAT Daily RC Drill",
@@ -18979,6 +19353,19 @@
       "topicIds": []
     },
     {
+      "id": "weekly-schemes-schemes-reports-2026-09-06",
+      "cadence": "schemes",
+      "title": "Schemes & Reports",
+      "shortTitle": "Reports - 06 Sept",
+      "date": "2026-09-06",
+      "path": "weekly/Schemes/Schemes_Reports_2026-09-06.md",
+      "bundleId": "weekly-schemes-schemes-reports-2026-09-06",
+      "relatedNoteIds": [],
+      "relatedSetIds": [],
+      "subjectIds": [],
+      "topicIds": []
+    },
+    {
       "id": "weekly-schemes-schemes-reports-2026-08-30",
       "cadence": "schemes",
       "title": "Schemes & Reports",
@@ -19155,10 +19542,12 @@
       "date": "2026-09-06",
       "path": "weekly/Sectional/Sectional_book-topics_2026-09-06_chatgpt.md",
       "variant": "supplementary",
-      "variantLabel": "Companion 06",
+      "variantLabel": "Companion",
       "isSupplementary": true,
       "bundleId": "weekly-sectional-sectional-book-topics-2026-09-06-chatgpt",
-      "relatedNoteIds": [],
+      "relatedNoteIds": [
+        "weekly-sunday-sunday-sweep-2026-09-06"
+      ],
       "relatedSetIds": [
         "sectional_book-topics_2026_09_06_extra"
       ],
@@ -19232,7 +19621,7 @@
       "date": "2026-08-30",
       "path": "weekly/Sectional/Sectional_book-topics_2026-08-30_chatgpt.md",
       "variant": "supplementary",
-      "variantLabel": "Companion 30",
+      "variantLabel": "Companion",
       "isSupplementary": true,
       "bundleId": "weekly-sectional-sectional-book-topics-2026-08-30-chatgpt",
       "relatedNoteIds": [],
@@ -19308,7 +19697,7 @@
       "date": "2026-08-23",
       "path": "weekly/Sectional/Sectional_book-topics_2026-08-23_chatgpt.md",
       "variant": "supplementary",
-      "variantLabel": "Companion 23",
+      "variantLabel": "Companion",
       "isSupplementary": true,
       "bundleId": "weekly-sectional-sectional-book-topics-2026-08-23-chatgpt",
       "relatedNoteIds": [],
@@ -19384,7 +19773,7 @@
       "date": "2026-08-16",
       "path": "weekly/Sectional/Sectional_book-topics_2026-08-16_chatgpt.md",
       "variant": "supplementary",
-      "variantLabel": "Companion 16",
+      "variantLabel": "Companion",
       "isSupplementary": true,
       "bundleId": "weekly-sectional-sectional-book-topics-2026-08-16-chatgpt",
       "relatedNoteIds": [],
@@ -19502,7 +19891,7 @@
       "date": "2026-08-11",
       "path": "weekly/Sectional/Sectional_book-topics_2026-08-11_chatgpt.md",
       "variant": "supplementary",
-      "variantLabel": "Companion 11",
+      "variantLabel": "Companion",
       "isSupplementary": true,
       "bundleId": "weekly-sectional-sectional-book-topics-2026-08-11-chatgpt",
       "relatedNoteIds": [],
@@ -19638,7 +20027,7 @@
       "date": "2026-08-09",
       "path": "weekly/Sectional/Sectional_book-topics_2026-08-09_chatgpt.md",
       "variant": "supplementary",
-      "variantLabel": "Companion 09",
+      "variantLabel": "Companion",
       "isSupplementary": true,
       "bundleId": "weekly-sectional-sectional-book-topics-2026-08-09-chatgpt",
       "relatedNoteIds": [],
@@ -19670,7 +20059,7 @@
       "date": "2026-08-02",
       "path": "weekly/Sectional/Sectional_book-topics_2026-08-02_chatgpt.md",
       "variant": "supplementary",
-      "variantLabel": "Companion 02",
+      "variantLabel": "Companion",
       "isSupplementary": true,
       "bundleId": "weekly-sectional-sectional-book-topics-2026-08-02-chatgpt",
       "relatedNoteIds": [],
@@ -19686,7 +20075,7 @@
       "date": "2026-07-26",
       "path": "weekly/Sectional/Sectional_book-topics_2026-07-26_chatgpt.md",
       "variant": "supplementary",
-      "variantLabel": "Companion 26",
+      "variantLabel": "Companion",
       "isSupplementary": true,
       "bundleId": "weekly-sectional-sectional-book-topics-2026-07-26-chatgpt",
       "relatedNoteIds": [],
@@ -20044,7 +20433,9 @@
       "date": "2026-09-06",
       "path": "weekly/Sunday/Sunday_Sweep_2026-09-06.md",
       "bundleId": "weekly-sunday-sunday-sweep-2026-09-06",
-      "relatedNoteIds": [],
+      "relatedNoteIds": [
+        "weekly-sectional-sectional-book-topics-2026-09-06-chatgpt"
+      ],
       "relatedSetIds": [],
       "subjectIds": [],
       "topicIds": []

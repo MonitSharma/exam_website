@@ -2259,6 +2259,8 @@ button:focus-visible, a:focus-visible, summary:focus-visible, input:focus-visibl
   .home-focused .hero-calendar { width: 100%; max-width: none; }
   .topnav-inner { flex-wrap: wrap; gap: 12px; }
   .nav-links { order: 3; width: 100%; justify-content: flex-start; overflow-x: auto; }
+  .nav-more { display: none; }
+  .nav-inline-more { display: inline-flex; }
 }
 @media (max-width: 640px) {
   .home-focused .today-prep { padding: 16px; }
@@ -2276,3 +2278,6 @@ button:focus-visible, a:focus-visible, summary:focus-visible, input:focus-visibl
   .note-reader { min-width: 0; }
   .catchup-start { align-items: stretch; }
 }
+.switch { position: relative; }
+.switch input { display: block; position: absolute; width: 1px; height: 1px; opacity: 0; }
+.switch:focus-within .track { outline: 3px solid var(--saffron); outline-offset: 3px; }

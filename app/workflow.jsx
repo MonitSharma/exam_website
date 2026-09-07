@@ -173,6 +173,7 @@ function StudyWorkflowDashboard({ go, progress, review, onStartReview }) {
   const weekCorrect = weekAttempts.reduce((sum, item) => sum + (Number(item.correct) || 0), 0);
   const weekAccuracy = Math.round((weekCorrect / (weekQuestions || 1)) * 100);
   const weekMocks = weekAttempts.filter((item) => {
+    if (item.isSubjectPractice) return false;
     const set = ds.getQuestionSetById(item.questionSetId);
     return set && WORKFLOW_MOCK_TYPES.has(set.sourceType);
   }).length;

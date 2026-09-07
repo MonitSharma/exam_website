@@ -985,7 +985,7 @@ function CatchUpTeaser({ go, progress }) {
   );
 }
 
-function NotesLibrary({ go, noteId, progress, onMarkDone }) {
+function NotesLibrary({ go, noteId, progress, onMarkDone, onSelectNote }) {
   const ds = window.UPSC;
   const order = Object.keys(CADENCE_META);
   const availableCadences = new Set(ds.noteDocuments.map((doc) => doc.cadence));
@@ -1022,6 +1022,9 @@ function NotesLibrary({ go, noteId, progress, onMarkDone }) {
   const selectedDoc = loadedDoc || docs.find((doc) => doc.id === selectedId) || null;
   const selectedBundle = noteBundleFor(selectedDoc, docs);
   const readingMinutes = estimateReadingMinutes(noteState.content);
+  useEffectHome(() => {
+    if (selectedId && docs.some((doc) => doc.id === selectedId)) onSelectNote?.(selectedId);
+  }, [selectedId]);
 
   useEffectHome(() => { savePref("notesCadence", activeCadence); }, [activeCadence]);
 
@@ -1697,7 +1700,7 @@ function RelatedStudy({ doc, go }) {
     {sets.map((set) => <button className="btn ghost sm" key={set.id} onClick={() => go("test", { setId: set.id, returnTo: "library" })}>{set.label} · {set.questionCount}Q</button>)}
     {notes.map((note) => <button className="btn ghost sm" key={note.id} onClick={() => go("library", { noteId: note.id })}>{note.title}</button>)}
     {doc.atlasWeekId && (doc.mapStatus === "ready" ? <button className="btn ghost sm" onClick={() => go("atlas", { weekId: doc.atlasWeekId })}>Locate {doc.atlasFeatureIds.length} places on the map</button> : <span>Map pending for this briefing</span>)}
-    {labs.slice(0, 4).map(([id, guide]) => <button className="btn ghost sm" key={id} onClick={() => go("labs", { focusSubject: guide.pyqSubjects[0] })}>{guide.path.split(" · ").slice(-1)[0]} · revision &amp; PYQs</button>)}
+    {labs.map(([id, guide]) => <button className="btn ghost sm" key={id} onClick={() => go("labs", { focusSubject: guide.pyqSubjects[0] })}>{guide.path.split(" · ").slice(-1)[0]} · revision &amp; PYQs</button>)}
   </div></section>;
 }
 

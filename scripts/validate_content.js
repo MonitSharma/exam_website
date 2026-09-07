@@ -166,7 +166,9 @@ function validateNote(note, report) {
 }
 
 function run({ quiet = false, manifest = null } = {}) {
-  const api = loadAppData({ manifest: manifest || buildContentManifest(ROOT) });
+  const generated = manifest || buildContentManifest(ROOT);
+  require("./content_coverage").validateCoverage(ROOT, generated);
+  const api = loadAppData({ manifest: generated });
   const errors = [];
   const warnings = [];
   const trimmed = [];

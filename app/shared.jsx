@@ -179,3 +179,28 @@ function QuestionStem({ q, big }) {
 }
 
 Object.assign(window, { Icon, Logo, Wordmark, Tag, DiffMeter, Ring, Stat, QuestionStem, SUBJECT_TONE, DIFF_TONE });
+
+// Keep keyboard focus within a modal, then return it to the opening control.
+function useModalFocus(open, selector, onClose) {
+  const closeRef = React.useRef(onClose);
+  closeRef.current = onClose;
+  React.useEffect(() => {
+    if (!open) return undefined;
+    const modal = document.querySelector(selector);
+    if (!modal) return undefined;
+    const previous = document.activeElement;
+    const focusable = () => [...modal.querySelectorAll('button:not([disabled]), input:not([disabled]), select:not([disabled]), a[href], [tabindex="0"]')].filter((el) => el.getClientRects().length);
+    focusable()[0]?.focus();
+    function key(event) {
+      if (event.key === 'Escape') { event.preventDefault(); event.stopPropagation(); closeRef.current?.(); }
+      if (event.key !== 'Tab') return;
+      const targets = focusable();
+      const first = targets[0], last = targets[targets.length - 1];
+      if (!first) { event.preventDefault(); return; }
+      if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); }
+      else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
+    }
+    modal.addEventListener('keydown', key);
+    return () => { modal.removeEventListener('keydown', key); if (previous?.isConnected) previous.focus(); };
+  }, [open, selector]);
+}

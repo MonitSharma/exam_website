@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const model = require('../app/content-model');
 
-function parentPath(file) { return file.replace(/(?:-\d+)?_chatgpt(?=\.[^.]+$)/, ''); }
+function parentPath(file) { return file.replace(/(\d{4}-\d{2}-\d{2})(?:-\d+)?_chatgpt(?=\.[^.]+$)/, '$1'); }
 function enrichManifest(root, manifest) {
   const { questionSets: sets, noteDocuments: notes } = manifest;
   const overridesPath = path.join(root, 'config/content_links.json');
@@ -16,7 +16,7 @@ function enrichManifest(root, manifest) {
     item.bundleId = parent ? parent.id : item.id;
     if (parent) item.parentId = parent.id;
     if (item.isSupplementary) {
-      const index = item.path.match(/-(\d+)_chatgpt|_extra_(\d+)/);
+      const index = item.path.match(/\d{4}-\d{2}-\d{2}-(\d+)_chatgpt|_extra_(\d+)/);
       item.variantLabel = `${item.cadence ? 'Companion' : 'Add-on'}${index ? ' ' + (index[1] || index[2]) : ''}`;
     }
     item.relatedNoteIds = [];
@@ -33,6 +33,11 @@ function enrichManifest(root, manifest) {
     set.subjectIds = [...new Set(set.subjects.map(model.subjectId))];
     set.topicIds = [...new Set(rows.map((q) => model.topicId(q.subject, q.micro_topic || q.theme)))];
     set.format = set.category?.includes('Full Mock') || set.sourceType === 'pyq' ? 'full-paper' : set.category?.includes('Monthly') ? 'monthly-mock' : set.sourceType === 'sectional' ? 'sectional' : 'drill';
+    if (set.sourceType === 'sectional' && set.isSupplementary) {
+      const topic = path.basename(set.path).replace(/_\d{4}-.*$/, '').replace(/[-_]/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
+      set.label = `${topic} · ${set.variantLabel} · ${set.isoDate}`;
+      set.shortLabel = `${topic} · ${set.isoDate}`;
+    }
     set.provenance = set.sourceType === 'pyq' ? 'previous-year' : set.sourceType === 'csr' ? 'csr' : 'generated';
     // Exact parser lineage takes precedence. Known generation streams use a
     // deterministic filename contract; record the resulting IDs explicitly.

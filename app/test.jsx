@@ -75,6 +75,8 @@ function TestScreen({ go, session, onSubmit }) {
   const [secs, setSecs] = useTestState((initialQuestionSet?.durationMinutes || 120) * 60);
   const [resumed, setResumed] = useTestState(false);
   const submittedRef = useTestRef(false);
+  useModalFocus(exitOpen, ".confirm-layer", () => setExitOpen(false));
+  useModalFocus(paletteOpen && isMobile, ".navigator .nav-inner", () => setPaletteOpen(false));
 
   useTestEffect(() => {
     let cancelled = false;
@@ -235,7 +237,7 @@ function TestScreen({ go, session, onSubmit }) {
         </div>
         <div className="test-bar-r">
           <div className={`timer-pill${secs < 300 ? " low" : ""}`}>
-            <Icon name="clock" size={15} /> <span className="timer-num">{fmt(secs)}</span>
+            <Icon name="clock" size={15} /> <span className="timer-num">{session?.timed === false ? "Untimed" : fmt(secs)}</span>
           </div>
           {canSubmit && <button className="icon-btn only-mobile" onClick={() => setPaletteOpen(true)} aria-label="Question palette"><Icon name="grid" size={18} /></button>}
           {canSubmit && <button className="btn btn-green sm" onClick={submitTest}>Submit</button>}
@@ -250,10 +252,10 @@ function TestScreen({ go, session, onSubmit }) {
       <div className="confirm-layer" role="dialog" aria-modal="true" aria-labelledby="exit-title">
         <div className="confirm-box">
           <h3 id="exit-title">Leave this test?</h3>
-          <p>Your progress is saved on this device — you can resume from where you left off the next time you open this set.</p>
+          <p>{reviewQueue || session?.subjects ? "This focused session will restart when you open it again. Submit it first to record your answers." : "Your progress is saved on this device — you can resume from where you left off the next time you open this set."}</p>
           <div className="confirm-actions">
             <button className="btn ghost" onClick={() => setExitOpen(false)}>Stay</button>
-            <button className="btn btn-green" onClick={() => go(exitTarget())}>Save &amp; exit</button>
+            <button className="btn btn-green" onClick={() => go(exitTarget())}>{reviewQueue || session?.subjects ? "Leave session" : "Save & exit"}</button>
           </div>
         </div>
       </div>
