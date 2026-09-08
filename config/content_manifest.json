@@ -12,6 +12,48 @@
   ],
   "questionSets": [
     {
+      "id": "daily_questions_2026_09_08",
+      "label": "Daily Questions - 08 Sept 2026",
+      "shortLabel": "Daily 08 Sept",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-09-08.json",
+      "sourcePath": "daily/daily_questions/daily_questions_2026-09-08.json",
+      "isoDate": "2026-09-08",
+      "subjects": [
+        "Environment",
+        "Economy",
+        "Agriculture",
+        "Art & Culture",
+        "Society"
+      ],
+      "bundleId": "daily_questions_2026_09_08",
+      "relatedNoteIds": [
+        "daily-daily-current-affairs-upsc-ca-2026-09-08"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "environment",
+        "economy",
+        "agriculture",
+        "culture",
+        "society"
+      ],
+      "topicIds": [
+        "environment/international-vulture-awareness-day-2026-national-workshop-from-crisis-to-recovery-conserving-india-s-vultures-at-pinjore-panchkula-6-september-2026-moefcc-central-zoo-authority-bnhs-haryana-forest-department-and-jatayu-conservation-breeding-centre-vultures-absent-from-72-of-historically-recorded-nesting-sites-diclofenac-ban-2006-meloxicam-as-safe-alternative-gyps-genus-taxonomy",
+        "economy/round-1-of-the-scheme-for-promotion-of-surface-coal-lignite-gasification-projects-closed-on-8-september-2026-with-seven-applications-from-adani-enterprises-three-urea-gallantt-ispat-ntpc-shyam-sel-and-power-and-talcher-fertilisers-cabinet-approval-13-may-2026-rs-37-500-crore-outlay-target-of-about-75-mt-gasification-national-mission-target-of-100-mt-coal-gasification-by-2030",
+        "agriculture/kharif-sowing-data-as-on-4-september-2026-total-area-1-086-31-lakh-hectares-versus-1-104-lakh-hectares-in-the-corresponding-period-of-2025-rice-421-82-lakh-ha-pulses-117-13-lakh-ha-up-1-83-lakh-ha-urad-and-moong-oilseeds-184-46-lakh-ha-cotton-109-17-lakh-ha-jute-recorded-a-rise-el-nino-linked-deficient-monsoon",
+        "culture/birth-centenary-of-dr-bhupen-hazarika-observed-on-8-september-2026-opening-a-year-long-programme-culminating-at-bharat-mandapam-new-delhi-on-29-november-2026-with-a-rs-100-commemorative-coin-epithets-sudhakantha-and-bard-of-the-brahmaputra-national-film-award-for-best-music-direction-1975-for-chameli-memsaab-asom-ratna-2009",
+        "society/5th-national-steering-committee-of-pm-setu-8-september-2026-approved-strategic-investment-plans-worth-rs-735-70-crore-for-bhiwadi-rajasthan-rs-241-crore-medchal-telangana-rs-254-30-crore-and-meerut-uttar-pradesh-rs-240-40-crore-clusters-taking-total-sanctioned-investment-to-rs-2-171-crore-across-nine-iti-clusters-pan-india-rollout-across-200-clusters-target-of-20-lakh-youth-over-five-years-five-nstis-and-five-national-centres-of-excellence-for-skilling",
+        "environment/conservation-status-of-indian-vulture-species-white-rumped-indian-slender-billed-and-red-headed-vultures-as-critically-endangered-egyptian-vulture-endangered-himalayan-griffon-cinereous-and-bearded-vultures-near-threatened-vulture-action-plan-2020-25-save-consortium",
+        "culture/assam-cultural-cluster-srimanta-sankardeva-ekasarana-dharma-sattra-institution-borgeet-ankiya-naat-and-bhaona-sattriya-recognised-as-a-classical-dance-form-by-the-sangeet-natak-akademi-in-2000-madhavdeva"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
       "id": "daily_questions_2026_09_07",
       "label": "Daily Questions - 07 Sept 2026",
       "shortLabel": "Daily 07 Sept",
@@ -4504,6 +4546,40 @@
       ],
       "topicIds": [
         "reading-comprehension/reading-comprehension"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
+      "id": "pib_questions_2026_09_08",
+      "label": "PIB Questions - 08 Sept 2026",
+      "shortLabel": "PIB 08 Sept",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-09-08.json",
+      "sourcePath": "generated_data/pib_questions/2026-09-08.json",
+      "isoDate": "2026-09-08",
+      "subjects": [
+        "Internal Security",
+        "Agriculture",
+        "Environment"
+      ],
+      "bundleId": "pib_questions_2026_09_08",
+      "relatedNoteIds": [
+        "daily-daily-pib-pib-2026-09-08"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "internal-security",
+        "agriculture",
+        "environment"
+      ],
+      "topicIds": [
+        "internal-security/financial-fraud-risk-indicator-and-digital-intelligence-platform",
+        "agriculture/jute-sector-msp-and-national-jute-development-programme",
+        "environment/electric-freight-e-fast-india-and-zero-emission-trucks"
       ],
       "format": "drill",
       "provenance": "generated"
@@ -13472,6 +13548,35 @@
       "topicIds": []
     },
     {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-09-08",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "08 Sept 2026",
+      "date": "2026-09-08",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-09-08.md",
+      "bundleId": "daily-daily-current-affairs-upsc-ca-2026-09-08",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "daily_questions_2026_09_08"
+      ],
+      "subjectIds": [
+        "environment",
+        "economy",
+        "agriculture",
+        "culture",
+        "society"
+      ],
+      "topicIds": [
+        "environment/international-vulture-awareness-day-2026-national-workshop-from-crisis-to-recovery-conserving-india-s-vultures-at-pinjore-panchkula-6-september-2026-moefcc-central-zoo-authority-bnhs-haryana-forest-department-and-jatayu-conservation-breeding-centre-vultures-absent-from-72-of-historically-recorded-nesting-sites-diclofenac-ban-2006-meloxicam-as-safe-alternative-gyps-genus-taxonomy",
+        "economy/round-1-of-the-scheme-for-promotion-of-surface-coal-lignite-gasification-projects-closed-on-8-september-2026-with-seven-applications-from-adani-enterprises-three-urea-gallantt-ispat-ntpc-shyam-sel-and-power-and-talcher-fertilisers-cabinet-approval-13-may-2026-rs-37-500-crore-outlay-target-of-about-75-mt-gasification-national-mission-target-of-100-mt-coal-gasification-by-2030",
+        "agriculture/kharif-sowing-data-as-on-4-september-2026-total-area-1-086-31-lakh-hectares-versus-1-104-lakh-hectares-in-the-corresponding-period-of-2025-rice-421-82-lakh-ha-pulses-117-13-lakh-ha-up-1-83-lakh-ha-urad-and-moong-oilseeds-184-46-lakh-ha-cotton-109-17-lakh-ha-jute-recorded-a-rise-el-nino-linked-deficient-monsoon",
+        "culture/birth-centenary-of-dr-bhupen-hazarika-observed-on-8-september-2026-opening-a-year-long-programme-culminating-at-bharat-mandapam-new-delhi-on-29-november-2026-with-a-rs-100-commemorative-coin-epithets-sudhakantha-and-bard-of-the-brahmaputra-national-film-award-for-best-music-direction-1975-for-chameli-memsaab-asom-ratna-2009",
+        "society/5th-national-steering-committee-of-pm-setu-8-september-2026-approved-strategic-investment-plans-worth-rs-735-70-crore-for-bhiwadi-rajasthan-rs-241-crore-medchal-telangana-rs-254-30-crore-and-meerut-uttar-pradesh-rs-240-40-crore-clusters-taking-total-sanctioned-investment-to-rs-2-171-crore-across-nine-iti-clusters-pan-india-rollout-across-200-clusters-target-of-20-lakh-youth-over-five-years-five-nstis-and-five-national-centres-of-excellence-for-skilling",
+        "environment/conservation-status-of-indian-vulture-species-white-rumped-indian-slender-billed-and-red-headed-vultures-as-critically-endangered-egyptian-vulture-endangered-himalayan-griffon-cinereous-and-bearded-vultures-near-threatened-vulture-action-plan-2020-25-save-consortium",
+        "culture/assam-cultural-cluster-srimanta-sankardeva-ekasarana-dharma-sattra-institution-borgeet-ankiya-naat-and-bhaona-sattriya-recognised-as-a-classical-dance-form-by-the-sangeet-natak-akademi-in-2000-madhavdeva"
+      ]
+    },
+    {
       "id": "daily-daily-current-affairs-upsc-ca-2026-09-07",
       "cadence": "daily",
       "title": "UPSC Daily CA Briefing",
@@ -16546,6 +16651,19 @@
       "topicIds": []
     },
     {
+      "id": "daily-daily-mains-gs-mains-2026-09-08",
+      "cadence": "mains",
+      "title": "GS Mains Answer Practice",
+      "shortTitle": "Mains - 08 Sept",
+      "date": "2026-09-08",
+      "path": "daily/daily_mains/GS_Mains_2026-09-08.md",
+      "bundleId": "daily-daily-mains-gs-mains-2026-09-08",
+      "relatedNoteIds": [],
+      "relatedSetIds": [],
+      "subjectIds": [],
+      "topicIds": []
+    },
+    {
       "id": "daily-daily-mains-gs-mains-2026-09-07",
       "cadence": "mains",
       "title": "GS Mains Answer Practice",
@@ -17012,6 +17130,29 @@
       "relatedSetIds": [],
       "subjectIds": [],
       "topicIds": []
+    },
+    {
+      "id": "daily-daily-pib-pib-2026-09-08",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 08 Sept",
+      "date": "2026-09-08",
+      "path": "daily/daily_pib/PIB_2026-09-08.md",
+      "bundleId": "daily-daily-pib-pib-2026-09-08",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "pib_questions_2026_09_08"
+      ],
+      "subjectIds": [
+        "internal-security",
+        "agriculture",
+        "environment"
+      ],
+      "topicIds": [
+        "internal-security/financial-fraud-risk-indicator-and-digital-intelligence-platform",
+        "agriculture/jute-sector-msp-and-national-jute-development-programme",
+        "environment/electric-freight-e-fast-india-and-zero-emission-trucks"
+      ]
     },
     {
       "id": "daily-daily-pib-pib-2026-09-07",

@@ -171,7 +171,16 @@ function CatchUpScreen({ go, progress, onStartDate, onDismiss, onRestore, onMark
     return () => { cancelled = true; };
   }, [ds.noteDocuments.length, startDate]);
 
-  const mainsDoneMap = progress?.manualCompletions || {};
+  const manualCompletions = progress?.manualCompletions || {};
+  // The backlog prompts are parsed from Sunday Sweep rows and therefore have
+  // synthetic `mainsq::...` ids. The daily mains note for the same date has a
+  // separate note id, so completing that note must also complete its prompt.
+  const mainsDoneMap = mainsQuestions.reduce((done, question) => {
+    if (manualCompletions[question.id]) done[question.id] = manualCompletions[question.id];
+    const dailyNote = ds.noteDocuments.find((note) => note.cadence === "mains" && note.date === question.date);
+    if (dailyNote && manualCompletions[dailyNote.id]) done[question.id] = manualCompletions[dailyNote.id];
+    return done;
+  }, {});
   const mainsGroups = CATCHUP_GS_ORDER
     .map((gs) => ({ gs, items: mainsQuestions.filter((q) => q.gs === gs) }))
     .filter((group) => group.items.length);
