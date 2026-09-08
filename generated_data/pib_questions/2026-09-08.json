@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the Financial Fraud Risk Indicator (FRI), recently in the news, consider the following statements:\n1. It is an initiative of the Reserve Bank of India developed jointly with the National Payments Corporation of India.\n2. It classifies mobile numbers into Medium, High and Very High risk categories based on the likelihood of their involvement in financial fraud.\n3. It operates under the Digital Intelligence Platform and draws on citizen reports made through Sanchar Saathi and the National Cybercrime Reporting Portal.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "FRI is an initiative of the Department of Telecommunications (Ministry of Communications), launched on 22 May 2025 under its Digital Intelligence Platform; RBI, NPCI and SEBI are collaborating institutions that consume the signal, not its developers, so statement 1 is incorrect. FRI classifies mobile numbers into Medium, High and Very High risk bands using Sanchar Saathi citizen reports, the NCRP of I4C and telecom/financial-institution intelligence. It had prevented suspected cyber-fraud transactions of Rs 5,043.73 crore as of August 2026.",
+    "subject": "Internal Security",
+    "theme": "Cyber Security and Financial Fraud",
+    "micro_topic": "Financial Fraud Risk Indicator and Digital Intelligence Platform",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the jute sector in India, consider the following statements:\n1. India accounts for about three-fourths of the estimated world production of jute goods.\n2. The JUTE-ICARE scheme is implemented by the Ministry of Agriculture and Farmers Welfare.\n3. West Bengal has the largest number of composite jute mills among all Indian States.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "India is the world's largest producer of raw jute and accounts for about 75% of estimated world jute-goods production, so statement 1 is correct. JUTE-ICARE (Improved Cultivation and Advanced Retting Exercise) is a component of the National Jute Development Programme implemented by the National Jute Board under the Ministry of Textiles, with CRIJAF and the Jute Corporation of India, so statement 2 is incorrect. Of 120 composite jute mills in India as of December 2025, 89 are in West Bengal, so statement 3 is correct.",
+    "subject": "Agriculture",
+    "theme": "Commercial and Fibre Crops",
+    "micro_topic": "Jute sector, MSP and National Jute Development Programme",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Platform for Aggregating Clean Transport (PACT) and the Zero Emission Truck (ZET) Marketplace, launched in September 2026, consider the following statements:\n1. They were launched by NITI Aayog at the 5th e-FAST India Summit.\n2. They are intended to address demand aggregation, financing and corridor-based planning for electric freight vehicles.\n3. Heavy trucks constitute only about 3-4% of India's vehicle fleet but account for more than one-third of transport-sector carbon emissions.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "PACT and the ZET Marketplace were launched by Shri Rajiv Gauba, Member, NITI Aayog, at the 5th e-FAST India Summit 2026 on 7 September 2026. They are designed to close the gap created by fragmentation among logistics operators, high financing costs and the absence of coordinated corridor planning, through demand aggregation, financing innovation and corridor-based projectisation. Heavy trucks are 3-4% of the fleet but contribute over one-third of transport-sector carbon emissions; only about 800 heavy-duty electric trucks were sold in India in 2025 and 70% of India's freight moves by road.",
+    "subject": "Environment",
+    "theme": "Climate Change and Clean Mobility",
+    "micro_topic": "Electric freight, e-FAST India and zero-emission trucks",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]
