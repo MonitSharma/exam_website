@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to ORV Sagar Manthan, consider the following statements:\n1. It has been built by Garden Reach Shipbuilders & Engineers for the National Centre for Polar and Ocean Research under the Ministry of Earth Sciences.\n2. It has been constructed under Vertical-4 (Deep Ocean Survey and Exploration) of the Deep Ocean Mission.\n3. It is India's first nuclear-powered ocean research vessel.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "ORV Sagar Manthan, launched at Kolkata on 9 September 2026, was designed and built by GRSE for NCPOR under the Ministry of Earth Sciences at about Rs 840 crore under Vertical-4 of the Deep Ocean Mission. It is a conventionally powered all-weather research vessel, not nuclear-powered, and will replace the 43-year-old ORV Sagar Kanya acquired from Germany in 1983.",
+    "subject": "Science & Technology",
+    "theme": "Ocean Science and the Deep Ocean Mission",
+    "micro_topic": "ORV Sagar Manthan and NCPOR research vessels",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the regulation of Virtual Digital Asset Service Providers (VDA SPs) in India, consider the following statements:\n1. The Financial Intelligence Unit-India (FIU-IND) functions under the Ministry of Finance.\n2. VDA service providers were brought within the anti-money laundering framework of the Prevention of Money Laundering Act, 2002 in March 2023.\n3. Obligations under the PMLA apply only to those VDA service providers that have a physical presence in India.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "FIU-IND, under the Ministry of Finance, issued notices to 15 VDA service providers under Section 13 of the PMLA on 9 September 2026, and also ordered removal of their apps/URLs under Section 79(3)(b) of the IT Act, 2000. VDA SPs were brought under the PMLA AML/CFT framework in March 2023. Statement 3 is wrong because the obligations are activity-based and apply to offshore entities serving Indian users regardless of physical presence in India.",
+    "subject": "Economy",
+    "theme": "Financial Regulation and Anti-Money Laundering",
+    "micro_topic": "FIU-IND, PMLA and Virtual Digital Asset Service Providers",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the three railway multitracking projects approved by the Cabinet Committee on Economic Affairs in September 2026, consider the following statements:\n1. They cover districts in West Bengal, Jharkhand, Odisha, Madhya Pradesh and Chhattisgarh.\n2. They have been prepared under the PM Gati Shakti National Master Plan.\n3. They will add about 656 km to the existing network of Indian Railways.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "The CCEA approved the Kharagpur-Jharsuguda (Bagdehi) 4th line, Katni-Pendra Road 4th line and Bilaspur (Uslapur)-Pendra Road 3rd line at a total cost of Rs 10,783 crore. They span 14 districts across the five States named, are framed under the PM Gati Shakti National Master Plan, add about 656 km to the network and provide roughly 27 MTPA of additional freight capacity.",
+    "subject": "Economy",
+    "theme": "Infrastructure and Logistics",
+    "micro_topic": "Railway multitracking projects and PM Gati Shakti National Master Plan",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]
