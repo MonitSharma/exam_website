@@ -63,6 +63,10 @@ function parseEssay(content) {
 function extractMainsQuestion(cell) {
   const raw = String(cell || "").trim();
   if (!raw) return null;
+  // Older Sunday Sweep rows sometimes contain only a planning placeholder
+  // such as "GS3 answer". It is not a usable question, so do not surface it
+  // as if it were one in the daily mains list.
+  if (/^GS\s?-?[1-4](?:\s*\([^)]*\))?\s+answer\.?$/i.test(raw)) return null;
   const gsMatch = raw.match(/GS\s?-?\s?([1-4])/i);
   const gs = gsMatch ? `GS${gsMatch[1]}` : (/\bethics\b/i.test(raw) ? "GS4" : null);
   if (!gs) return null;
@@ -74,6 +78,23 @@ function extractMainsQuestion(cell) {
   text = text.replace(/\*\*/g, "").replace(/\*/g, "").replace(/`/g, "").replace(/\s+/g, " ").trim();
   if (!quotes.length && text.length > 160) text = `${text.slice(0, 157)}…`;
   return { gs, text, words };
+}
+
+function physicsPaperForNote(note, content) {
+  const text = `${note?.path || ""}\n${content || ""}`;
+  const match = text.match(/\bPaper\s+(I{1,2})\b/i);
+  return match ? `Paper ${match[1].toUpperCase()}` : "Paper I";
+}
+
+function physicsTopicForNote(note, content) {
+  const text = String(content || "");
+  const paperLine = text.match(/^\*\*Paper\s+I{1,2}\s*[·:-]\s*(.+?)\*\*\s*$/im);
+  if (paperLine) return paperLine[1].trim();
+  const topicLine = text.match(/^\*\*(?:Fortnight[^\n]*?·\s*)?Topic:\s*(.+?)\*\*\s*$/im);
+  if (topicLine) return topicLine[1].trim();
+  if (/Optional_Paper_I/i.test(note?.path || "")) return "Full-length Paper I";
+  if (/Optional_Paper_II/i.test(note?.path || "")) return "Full-length Paper II";
+  return note?.title || "Physics Optional practice";
 }
 
 // Metadata for each backlog category. `kind` decides the primary action:
@@ -122,6 +143,7 @@ function CatchUpScreen({ go, progress, onStartDate, onDismiss, onRestore, onMark
   const [openGs, setOpenGs] = useCatchUpState({});
   const [essays, setEssays] = useCatchUpState([]);
   const [openEssay, setOpenEssay] = useCatchUpState(null);
+  const [optionalQuestions, setOptionalQuestions] = useCatchUpState([]);
   const toggleGs = (gs) => setOpenGs((m) => ({ ...m, [gs]: !m[gs] }));
 
   // Daily Mains prompts live inside the weekly Sunday-Sweep notes (last column
@@ -152,6 +174,27 @@ function CatchUpScreen({ go, progress, onStartDate, onDismiss, onRestore, onMark
         }
         out.sort((a, b) => String(b.date).localeCompare(String(a.date)));
         setMainsQuestions(out);
+      });
+    return () => { cancelled = true; };
+  }, [ds.noteDocuments.length, startDate]);
+
+  // Physics Optional is kept as detailed markdown question sets in the
+  // weekly/Physics folder. Load their headings so the two paper sections show
+  // the actual topic rather than the generic manifest title.
+  useCatchUpEffect(() => {
+    let cancelled = false;
+    const notes = ds.noteDocuments.filter((doc) => doc.cadence === "physics" && doc.date && doc.date <= ds.todayIso && doc.date >= startDate);
+    Promise.all(notes.map((note) => ds.loadNoteDocument(note.id).then(({ content }) => ({ note, content })).catch(() => null)))
+      .then((results) => {
+        if (cancelled) return;
+        const out = results.filter(Boolean).map(({ note, content }) => ({
+          id: note.id,
+          date: note.date,
+          paper: physicsPaperForNote(note, content),
+          topic: physicsTopicForNote(note, content),
+        }));
+        out.sort((a, b) => String(b.date).localeCompare(String(a.date)) || a.paper.localeCompare(b.paper));
+        setOptionalQuestions(out);
       });
     return () => { cancelled = true; };
   }, [ds.noteDocuments.length, startDate]);
@@ -192,6 +235,10 @@ function CatchUpScreen({ go, progress, onStartDate, onDismiss, onRestore, onMark
     .map((gs) => ({ gs, items: mainsQuestions.filter((q) => q.gs === gs) }))
     .filter((group) => group.items.length);
   const mainsDoneCount = mainsQuestions.filter((q) => mainsDoneMap[q.id]).length;
+  const optionalGroups = ["Paper I", "Paper II"]
+    .map((paper) => ({ paper, items: optionalQuestions.filter((q) => q.paper === paper) }))
+    .filter((group) => group.items.length);
+  const optionalDoneCount = optionalQuestions.filter((q) => manualCompletions[q.id]).length;
 
   const missed = window.UPSC_PROGRESS.getMissedSessions(progress, ds.todayIso, ds.questionSets, ds.noteDocuments);
   const typeCounts = missed.reduce((acc, item) => { acc[item.category] = (acc[item.category] || 0) + 1; return acc; }, {});
@@ -357,6 +404,51 @@ function CatchUpScreen({ go, progress, onStartDate, onDismiss, onRestore, onMark
               );
             })}
           </div>
+          {optionalGroups.length > 0 && (
+            <div className="catchup-optional">
+              <div className="catchup-optional-head">
+                <div>
+                  <h3>Physics Optional</h3>
+                  <p>Detailed topic plans, drills and full papers from your Physics Optional study folder.</p>
+                </div>
+                <span>{optionalDoneCount} / {optionalQuestions.length} done</span>
+              </div>
+              <div className="catchup-accordion">
+                {optionalGroups.map((group) => {
+                  const done = group.items.filter((item) => manualCompletions[item.id]).length;
+                  const isOpen = Boolean(openGs[`optional-${group.paper}`]);
+                  return (
+                    <section key={group.paper} className={`catchup-drop${isOpen ? " open" : ""}`}>
+                      <button className="catchup-drop-head" onClick={() => toggleGs(`optional-${group.paper}`)} aria-expanded={isOpen}>
+                        <Icon name="chevR" size={15} />
+                        <span className="catchup-drop-title">Physics Optional {group.paper.replace("Paper ", "")}</span>
+                        <span className="catchup-drop-count">{done} / {group.items.length}</span>
+                        <span className="catchup-drop-bar"><span className="catchup-drop-bar-fill" style={{ width: `${Math.round((done / group.items.length) * 100)}%` }} /></span>
+                      </button>
+                      {isOpen && (
+                        <div className="catchup-mains-list">
+                          {group.items.map((item) => {
+                            const isDone = Boolean(manualCompletions[item.id]);
+                            return (
+                              <div key={item.id} className={`catchup-mainsq${isDone ? " is-done" : ""}`}>
+                                <button className={`catchup-mainsq-check${isDone ? " on" : ""}`} onClick={() => (isDone ? onUndoDone(item.id) : onMarkDone(item.id))} aria-label={isDone ? "Mark not done" : "Mark done"}>
+                                  {isDone && <Icon name="check" size={13} />}
+                                </button>
+                                <button className="catchup-mainsq-body catchup-mainsq-open" onClick={() => openCatchUpNote(go, item.id)} title="Open detailed Physics Optional questions">
+                                  <span className="catchup-mainsq-meta">{catchUpDateLabel(item.date)} · detailed questions</span>
+                                  <p>{item.topic}</p>
+                                </button>
+                              </div>
+                            );
+                          })}
+                        </div>
+                      )}
+                    </section>
+                  );
+                })}
+              </div>
+            </div>
+          )}
         </section>
       )}
 
