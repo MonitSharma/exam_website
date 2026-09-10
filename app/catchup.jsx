@@ -66,7 +66,8 @@ function extractMainsQuestion(cell) {
   // Older Sunday Sweep rows sometimes contain only a planning placeholder
   // such as "GS3 answer". It is not a usable question, so do not surface it
   // as if it were one in the daily mains list.
-  if (/^GS\s?-?[1-4](?:\s*\([^)]*\))?\s+answer\.?$/i.test(raw)) return null;
+  const placeholder = raw.replace(/\*\*/g, "").replace(/`/g, "").replace(/\s+/g, " ").trim();
+  if (/^GS\s?-?[1-4](?:\s*\([^)]*\))?\s+answer\.?$/i.test(placeholder)) return null;
   const gsMatch = raw.match(/GS\s?-?\s?([1-4])/i);
   const gs = gsMatch ? `GS${gsMatch[1]}` : (/\bethics\b/i.test(raw) ? "GS4" : null);
   if (!gs) return null;
