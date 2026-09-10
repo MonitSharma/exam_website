@@ -294,18 +294,28 @@ function GlobalSearch({ open, onClose, go }) {
   );
 }
 
+function readAppRoute() {
+  const hash = String(window.location.hash || "").replace(/^#/, "");
+  const [route, query] = hash.split("?");
+  const known = new Set(["home", "labs", "atlas", "practice", "catchup", "workflow", "dashboard", "test", "result", "review", "library"]);
+  const screen = known.has(route) ? route : "home";
+  const params = new URLSearchParams(query || "");
+  return { screen, noteId: params.get("note") || null };
+}
+
 function App() {
   const [contentVersion, setContentVersion] = useRootState(0);
   const ds = window.UPSC;
   const [t, setTweak] = useTweaks(TWEAK_DEFAULTS);
-  const [screen, setScreen] = useRootState(() => window.location.hash.startsWith("#library") ? "library" : "home");
+  const initialRoute = readAppRoute();
+  const [screen, setScreen] = useRootState(initialRoute.screen);
   const [testSession, setTestSession] = useRootState({
     setId: ds.defaultPracticeSetId,
     returnTo: "home",
     timed: true,
   });
-  const [libraryNoteId, setLibraryNoteId] = useRootState(() => new URLSearchParams(window.location.hash.split("?")[1] || "").get("note"));
-  const [libraryRequest, setLibraryRequest] = useRootState(() => ({ id: new URLSearchParams(window.location.hash.split("?")[1] || "").get("note"), token: 0 }));
+  const [libraryNoteId, setLibraryNoteId] = useRootState(initialRoute.noteId);
+  const [libraryRequest, setLibraryRequest] = useRootState(() => ({ id: initialRoute.noteId, token: 0 }));
   const [atlasWeekId, setAtlasWeekId] = useRootState(null);
   const [labFocus, setLabFocus] = useRootState(null);
   const [lastResult, setLastResult] = useRootState(null);
@@ -325,6 +335,20 @@ function App() {
     }
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
+  }, []);
+
+  useRootEffect(() => {
+    const onPopState = () => {
+      const route = readAppRoute();
+      setScreen(route.screen);
+      if (route.screen === "library") {
+        setLibraryNoteId(route.noteId);
+        setLibraryRequest({ id: route.noteId, token: Date.now() });
+      }
+      scrollTop();
+    };
+    window.addEventListener("popstate", onPopState);
+    return () => window.removeEventListener("popstate", onPopState);
   }, []);
 
   useRootEffect(() => {
@@ -352,12 +376,16 @@ function App() {
   }
 
   function go(s, options = {}) {
+    const id = options.noteId || (s === "library" ? libraryNoteId : null);
     if (s === "library") {
       if (options.noteId) setLibraryNoteId(options.noteId);
-      const id = options.noteId || libraryNoteId;
       setLibraryRequest({ id, token: Date.now() });
-      window.history.replaceState(null, "", `#library${id ? "?note=" + encodeURIComponent(id) : ""}`);
-    } else window.history.replaceState(null, "", window.location.pathname + window.location.search);
+    }
+    const target = s === "library"
+      ? `#library${id ? "?note=" + encodeURIComponent(id) : ""}`
+      : `#${s}`;
+    const current = `${window.location.pathname}${window.location.search}${window.location.hash}`;
+    if (current !== target) window.history.pushState({ screen: s, noteId: id }, "", target);
     if (s === "atlas") setAtlasWeekId(options.weekId || null);
     if (s === "test") {
       setTestSession({

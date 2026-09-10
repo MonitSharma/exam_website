@@ -170,7 +170,7 @@ function CatchUpScreen({ go, progress, onStartDate, onDismiss, onRestore, onMark
             if (date > ds.todayIso || date < startDate) return;
             // Index within the week keeps the id stable and unique even when a
             // day row has no parseable day number.
-            out.push({ id: `mainsq::${r.s.id}::${dayIdx}`, gs: q.gs, text: q.text, words: q.words, date });
+            out.push({ id: `mainsq::${r.s.id}::${dayIdx}`, sourceNoteId: r.s.id, gs: q.gs, text: q.text, words: q.words, date });
           });
         }
         out.sort((a, b) => String(b.date).localeCompare(String(a.date)));
@@ -385,13 +385,14 @@ function CatchUpScreen({ go, progress, onStartDate, onDismiss, onRestore, onMark
                         {visibleItems.map((q) => {
                           const isDone = Boolean(mainsDoneMap[q.id]);
                           const dailyNote = ds.noteDocuments.find((note) => note.cadence === "mains" && note.date === q.date);
+                          const sourceNote = ds.noteDocuments.find((note) => note.id === q.sourceNoteId);
                           const completionId = mainsCompletionIds[q.id] || q.id;
                           return (
                             <div key={q.id} className={`catchup-mainsq${isDone ? " is-done" : ""}`}>
                               <button className={`catchup-mainsq-check${isDone ? " on" : ""}`} onClick={() => (isDone ? onUndoDone(completionId) : onMarkDone(q.id))} aria-label={isDone ? "Mark not done" : "Mark done"}>
                                 {isDone && <Icon name="check" size={13} />}
                               </button>
-                              <button className="catchup-mainsq-body catchup-mainsq-open" onClick={() => dailyNote && openCatchUpNote(go, dailyNote.id)} disabled={!dailyNote} title={dailyNote ? "Open daily mains answer" : "Daily mains answer unavailable"}>
+                              <button className="catchup-mainsq-body catchup-mainsq-open" onClick={() => sourceNote && openCatchUpNote(go, sourceNote.id)} disabled={!sourceNote} title={sourceNote ? "Open the source note for this question" : "Source note unavailable"}>
                                 <span className="catchup-mainsq-meta">{catchUpDateLabel(q.date)} · {q.words}-word</span>
                                 <p>{q.text}</p>
                               </button>
