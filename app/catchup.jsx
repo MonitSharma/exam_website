@@ -385,14 +385,13 @@ function CatchUpScreen({ go, progress, onStartDate, onDismiss, onRestore, onMark
                         {visibleItems.map((q) => {
                           const isDone = Boolean(mainsDoneMap[q.id]);
                           const dailyNote = ds.noteDocuments.find((note) => note.cadence === "mains" && note.date === q.date);
-                          const sourceNote = ds.noteDocuments.find((note) => note.id === q.sourceNoteId);
                           const completionId = mainsCompletionIds[q.id] || q.id;
                           return (
                             <div key={q.id} className={`catchup-mainsq${isDone ? " is-done" : ""}`}>
                               <button className={`catchup-mainsq-check${isDone ? " on" : ""}`} onClick={() => (isDone ? onUndoDone(completionId) : onMarkDone(q.id))} aria-label={isDone ? "Mark not done" : "Mark done"}>
                                 {isDone && <Icon name="check" size={13} />}
                               </button>
-                              <button className="catchup-mainsq-body catchup-mainsq-open" onClick={() => sourceNote && openCatchUpNote(go, sourceNote.id)} disabled={!sourceNote} title={sourceNote ? "Open the source note for this question" : "Source note unavailable"}>
+                              <button className="catchup-mainsq-body catchup-mainsq-open" onClick={() => openCatchUpNote(go, q.sourceNoteId)} title="Open the source note for this question">
                                 <span className="catchup-mainsq-meta">{catchUpDateLabel(q.date)} · {q.words}-word</span>
                                 <p>{q.text}</p>
                               </button>
