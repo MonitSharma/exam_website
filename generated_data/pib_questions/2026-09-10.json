@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to Digital Bharat Nidhi (DBN), consider the following statements:\n1. It is the Universal Service Obligation Fund renamed under the Telecommunications Act, 2023.\n2. It is an attached office of the Department of Telecommunications, Ministry of Communications.\n3. Its mandate covers only the BharatNet project and does not extend to mobile connectivity projects.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "The Universal Service Obligation Fund, created under the Indian Telegraph (Amendment) Act, 2003 with effect from 1 April 2002, became the Digital Bharat Nidhi under the Telecommunications Act, 2023; DBN is an attached office of DoT. Statement 3 is wrong: besides BharatNet, DBN covers the 4G Saturation Project and mobile services in Aspirational Districts, LWE-affected areas, Himalayan and border areas, islands and the North-East. DBN signed the Amended BharatNet Program agreement for Jharkhand (Rs 1,684 crore, 4,395 Gram Panchayats) on 10 September 2026.",
+    "subject": "Polity & Governance",
+    "theme": "Government Schemes and Digital Infrastructure",
+    "micro_topic": "Digital Bharat Nidhi and Amended BharatNet Program",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements about Bakhira Lake, recently in the news:\n1. It is an oxbow/floodplain wetland of the Ghaghara-Rapti alluvial system in Uttar Pradesh.\n2. It was designated a Ramsar Site in 2022.\n3. The recent palaeoclimate study of its sediments was carried out by an autonomous institute of the Department of Science and Technology.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "Bakhira Lake in Sant Kabir Nagar district is one of Uttar Pradesh's largest wetlands, a perennial oxbow/floodplain wetland of the Ghaghara-Rapti alluvial system formed by the migration and cut-off of the Rapti River, and was designated a Ramsar Site in 2022. The 25,000-year Indian Summer Monsoon reconstruction using environmental magnetic properties of its sediments was done by the Birbal Sahni Institute of Palaeosciences (BSIP), an autonomous institute of the Department of Science and Technology.",
+    "subject": "Geography",
+    "theme": "Physical Geography and Wetlands",
+    "micro_topic": "Bakhira Lake, oxbow wetlands and Indian Summer Monsoon palaeoclimate",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to Small Hydro Power (SHP) in India, as stated by the Ministry of New and Renewable Energy in September 2026, consider the following statements:\n1. India's assessed SHP potential is about 21 GW across more than 7,100 identified sites, of which roughly a quarter has been harnessed.\n2. The proposed Small Hydro Power Development Scheme for 2026-27 to 2030-31 has an outlay of Rs 2,584.60 crore and targets about 1,500 MW of new capacity.\n3. India has crossed 300 GW of installed non-fossil-fuel capacity.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "MNRE stated that India's assessed SHP potential is about 21 GW across more than 7,100 sites, of which about 5.2 GW (roughly a quarter) is harnessed; the proposed SHP Development Scheme for 2026-27 to 2030-31 carries an outlay of Rs 2,584.60 crore with a target of about 1,500 MW plus DPR support for about 200 projects; and India has crossed 300 GW of installed non-fossil-fuel capacity. Run-of-river SHP needs less land and avoids the large-scale submergence of major reservoir projects.",
+    "subject": "Environment",
+    "theme": "Renewable Energy and Climate Action",
+    "micro_topic": "Small Hydro Power potential and the proposed SHP Development Scheme",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]
