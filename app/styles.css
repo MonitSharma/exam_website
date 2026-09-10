@@ -2145,6 +2145,9 @@ body[data-qfont="serif"] .rev-explain p { font-family: var(--serif); font-size: 
 .catchup-mainsq-check:hover { border-color: var(--green); }
 .catchup-mainsq-check.on { background: var(--green); border-color: var(--green); }
 .catchup-mainsq-body { min-width: 0; }
+.catchup-mainsq-open { flex: 1; padding: 0; border: 0; background: transparent; text-align: left; cursor: pointer; }
+.catchup-mainsq-open:hover p { color: var(--green); }
+.catchup-mainsq-open:disabled { cursor: default; }
 .catchup-mainsq-meta { display: block; font-family: var(--mono); font-size: 9.5px; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); margin-bottom: 3px; }
 .catchup-mainsq-body p { font-size: 13.5px; line-height: 1.45; color: var(--ink); }
 body[data-qfont="serif"] .catchup-mainsq-body p { font-family: var(--serif); font-size: 15px; }

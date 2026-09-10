@@ -175,10 +175,17 @@ function CatchUpScreen({ go, progress, onStartDate, onDismiss, onRestore, onMark
   // The backlog prompts are parsed from Sunday Sweep rows and therefore have
   // synthetic `mainsq::...` ids. The daily mains note for the same date has a
   // separate note id, so completing that note must also complete its prompt.
+  const mainsCompletionIds = {};
   const mainsDoneMap = mainsQuestions.reduce((done, question) => {
-    if (manualCompletions[question.id]) done[question.id] = manualCompletions[question.id];
+    if (manualCompletions[question.id]) {
+      done[question.id] = manualCompletions[question.id];
+      mainsCompletionIds[question.id] = question.id;
+    }
     const dailyNote = ds.noteDocuments.find((note) => note.cadence === "mains" && note.date === question.date);
-    if (dailyNote && manualCompletions[dailyNote.id]) done[question.id] = manualCompletions[dailyNote.id];
+    if (!mainsCompletionIds[question.id] && dailyNote && manualCompletions[dailyNote.id]) {
+      done[question.id] = manualCompletions[dailyNote.id];
+      mainsCompletionIds[question.id] = dailyNote.id;
+    }
     return done;
   }, {});
   const mainsGroups = CATCHUP_GS_ORDER
@@ -329,15 +336,17 @@ function CatchUpScreen({ go, progress, onStartDate, onDismiss, onRestore, onMark
                       <div className="catchup-mains-list">
                         {visibleItems.map((q) => {
                           const isDone = Boolean(mainsDoneMap[q.id]);
+                          const dailyNote = ds.noteDocuments.find((note) => note.cadence === "mains" && note.date === q.date);
+                          const completionId = mainsCompletionIds[q.id] || q.id;
                           return (
                             <div key={q.id} className={`catchup-mainsq${isDone ? " is-done" : ""}`}>
-                              <button className={`catchup-mainsq-check${isDone ? " on" : ""}`} onClick={() => (isDone ? onUndoDone(q.id) : onMarkDone(q.id))} aria-label={isDone ? "Mark not done" : "Mark done"}>
+                              <button className={`catchup-mainsq-check${isDone ? " on" : ""}`} onClick={() => (isDone ? onUndoDone(completionId) : onMarkDone(q.id))} aria-label={isDone ? "Mark not done" : "Mark done"}>
                                 {isDone && <Icon name="check" size={13} />}
                               </button>
-                              <div className="catchup-mainsq-body">
+                              <button className="catchup-mainsq-body catchup-mainsq-open" onClick={() => dailyNote && openCatchUpNote(go, dailyNote.id)} disabled={!dailyNote} title={dailyNote ? "Open daily mains answer" : "Daily mains answer unavailable"}>
                                 <span className="catchup-mainsq-meta">{catchUpDateLabel(q.date)} · {q.words}-word</span>
                                 <p>{q.text}</p>
-                              </div>
+                              </button>
                             </div>
                           );
                         })}
