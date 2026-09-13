@@ -13858,6 +13858,21 @@
   ],
   "noteDocuments": [
     {
+      "id": "anki-prelims-flashcards-2026-09-13",
+      "cadence": "anki",
+      "title": "Prelims Flashcards",
+      "shortTitle": "Anki - 13 Sept",
+      "date": "2026-09-13",
+      "path": "anki/Prelims_Flashcards_2026-09-13.txt",
+      "bundleId": "anki-prelims-flashcards-2026-09-13",
+      "relatedNoteIds": [
+        "daily-daily-current-affairs-upsc-ca-2026-09-12"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [],
+      "topicIds": []
+    },
+    {
       "id": "anki-prelims-flashcards-2026-09-06",
       "cadence": "anki",
       "title": "Prelims Flashcards",
@@ -14032,7 +14047,9 @@
       "date": "2026-09-12",
       "path": "daily/daily_current_affairs/UPSC_CA_2026-09-12.md",
       "bundleId": "daily-daily-current-affairs-upsc-ca-2026-09-12",
-      "relatedNoteIds": [],
+      "relatedNoteIds": [
+        "anki-prelims-flashcards-2026-09-13"
+      ],
       "relatedSetIds": [
         "daily_questions_2026_09_12"
       ],
@@ -20475,7 +20492,9 @@
       "variantLabel": "Companion",
       "isSupplementary": true,
       "bundleId": "weekly-sectional-sectional-book-topics-2026-09-13-chatgpt",
-      "relatedNoteIds": [],
+      "relatedNoteIds": [
+        "weekly-sunday-sunday-sweep-2026-09-13"
+      ],
       "relatedSetIds": [
         "sectional_book-topics_2026_09_13_extra"
       ],
@@ -21439,7 +21458,9 @@
       "date": "2026-09-13",
       "path": "weekly/Sunday/Sunday_Sweep_2026-09-13.md",
       "bundleId": "weekly-sunday-sunday-sweep-2026-09-13",
-      "relatedNoteIds": [],
+      "relatedNoteIds": [
+        "weekly-sectional-sectional-book-topics-2026-09-13-chatgpt"
+      ],
       "relatedSetIds": [],
       "subjectIds": [],
       "topicIds": []
