@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the Bankers' Books Evidence Act, 2026, consider the following statements:\n1. It replaces the Bankers' Books Evidence Act, 1891.\n2. It adopts a technology-neutral approach, recognising banking records maintained in electronic, digital, virtual and cloud-based forms.\n3. It came into force immediately upon receiving the assent of the President in August 2026.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "The Act replaces the 135-year-old Bankers' Books Evidence Act, 1891 and is explicitly technology-neutral, recognising physical, electronic, digital, virtual and cloud-based records. Statement 3 is wrong: the Act received the President's assent on 13 August 2026, but a separate Finance Ministry notification dated 10 September 2026 appointed 1 October 2026 as its commencement date.",
+    "subject": "Polity & Governance",
+    "theme": "Laws and Legislation",
+    "micro_topic": "Bankers' Books Evidence Act, 2026 and repeal of colonial-era statutes",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Pradhan Mantri Kisan Maandhan Yojana (PM-KMY), consider the following statements:\n1. It is a Central Sector Scheme of the Ministry of Agriculture & Farmers Welfare, implemented in partnership with the Life Insurance Corporation of India.\n2. It is a voluntary and contributory scheme providing a minimum assured pension of Rs 3,000 per month on attaining 60 years of age.\n3. Enrolment is open to small and marginal farmers with cultivable landholding up to two hectares who are between 18 and 40 years of age.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. PM-KMY, launched on 12 September 2019, is a Central Sector Scheme of the Department of Agriculture & Farmers Welfare with LIC as pension fund manager; it is voluntary and contributory with a government-matched contribution and a minimum assured pension of Rs 3,000 per month from age 60; and eligibility is restricted to small and marginal farmers holding up to 2 hectares of cultivable land, aged 18-40 at entry, whose names appear in State/UT land records as on 1 August 2019.",
+    "subject": "Agriculture",
+    "theme": "Farmer Welfare and Social Security",
+    "micro_topic": "Pradhan Mantri Kisan Maandhan Yojana (PM-KMY) - seven years",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The Colombo Security Conclave, in the news recently in connection with a Table Top Exercise at the Eastern Naval Command, Visakhapatnam, is best described as:",
+    "options": [
+      "(a) A regional maritime and non-traditional security grouping of Indian Ocean states, with its Secretariat at Colombo, in which India is a founding member",
+      "(b) A trade and connectivity initiative of BIMSTEC member states headquartered at Colombo",
+      "(c) A United Nations-mandated counter-piracy task force operating in the Gulf of Aden",
+      "(d) A grouping of Bay of Bengal littoral states created under the Indian Ocean Rim Association to coordinate disaster relief"
+    ],
+    "answer": "(a)",
+    "explanation": "The Colombo Security Conclave began in 2011 as a trilateral NSA-level maritime security dialogue among India, Sri Lanka and the Maldives, later expanding to include Mauritius (2022), Bangladesh (2024) and Seychelles (2026), with its Secretariat at Colombo. It is not a BIMSTEC, UN or IORA body. Its pillars cover maritime safety and security, counter-terrorism and de-radicalisation, trafficking and transnational crime, cyber security and critical infrastructure, and HADR - which is why the September 2026 Table Top Exercise addressed maritime terrorism, narcotics smuggling, human trafficking and IUU fishing, aligned with the MAHASAGAR vision.",
+    "subject": "International Relations",
+    "theme": "India and its Neighbourhood",
+    "micro_topic": "Colombo Security Conclave and Indian Ocean maritime minilaterals",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]

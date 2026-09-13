@@ -12,6 +12,176 @@
   ],
   "questionSets": [
     {
+      "id": "daily_questions_2026_09_12",
+      "label": "Daily Questions - 12 Sept 2026",
+      "shortLabel": "Daily 12 Sept",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-09-12.json",
+      "sourcePath": "daily/daily_questions/daily_questions_2026-09-12.json",
+      "isoDate": "2026-09-12",
+      "subjects": [
+        "Polity & Governance",
+        "Economy",
+        "Science & Technology",
+        "Environment",
+        "Reports & Indices",
+        "Geography"
+      ],
+      "bundleId": "daily_questions_2026_09_12",
+      "relatedNoteIds": [
+        "daily-daily-current-affairs-upsc-ca-2026-09-12"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "polity",
+        "economy",
+        "science-technology",
+        "environment",
+        "reports-and-indices",
+        "geography"
+      ],
+      "topicIds": [
+        "polity/registered-unrecognised-political-parties-section-29a-and-29c-of-the-rp-act-1951-section-13a-income-tax-act-exemption-indian-national-congress-i-v-institute-of-social-welfare-2002-delisting-versus-de-registration-six-gujarat-rupps-receiving-about-rs-1-700-crore-in-fy-2023-24-against-rs-1-480-crore-for-five-national-parties-2-800-rupps-with-about-750-contesting-in-2024",
+        "economy/dilrmp-3-0-2026-2031-rs-565-50-crore-central-sector-scheme-with-100-central-funding-ulpin-bhu-aadhaar-14-digit-parcel-id-georeferencing-of-cadastral-maps-75-sub-registrar-offices-upgraded-to-registration-seva-kendras-rccms-integration-api-based-state-land-stack-naksha-urban-mapping-lineage-nlrmp-2008-to-dilrmp-2016",
+        "science-technology/india-photonics-association-launched-9-september-2026-with-65-founding-members-photonics-as-generation-detection-and-manipulation-of-photons-silicon-photonics-and-photonic-integrated-circuits-optical-interconnects-for-ai-data-centres-lidar-and-quantum-key-distribution-links-to-india-semiconductor-mission-and-national-quantum-mission-distinct-from-the-indian-laser-association",
+        "environment/schizopygopsis-waddellii-first-record-for-india-july-2026-pangkang-teng-tso-lake-12-800-ft-tawang-district-arunachal-pradesh-family-cyprinidae-schizothoracine-snowtrout-group-type-locality-yamdrok-lake-tibet-integrative-taxonomy-using-morphology-plus-mtdna-subterminal-mouth-with-horny-lower-lip-plate-deeply-forked-caudal-fin-nuptial-tubercles-in-males-eastern-himalaya-biodiversity-hotspot",
+        "reports-and-indices/india-s-research-paradox-2026-1-6-million-scopus-indexed-papers-2020-2025-3rd-by-volume-versus-19th-by-aggregate-h-index-925-vs-us-3-213-university-patent-filings-11-150-to-45-776-3-university-grant-rate-vs-24-national-commercial-working-rate-12-1-to-1-6-india-3rd-in-retractions-rate-1-5-to-3-5-per-1-000-papers-2012-2022-qs-2026-54-indian-institutions-the-2026-only-4-in-top-500-with-iisc-in-201-250-nirf-30-weight-to-research-and-professional-practice-anrf-act-2023",
+        "polity/election-commission-of-india-article-324-section-29a-rp-act-1951-registration-of-parties-election-symbols-reservation-and-allotment-order-1968-and-disputes-over-splits-and-mergers-indian-national-congress-i-v-institute-of-social-welfare-2002-no-implied-power-of-de-registration-administrative-delisting-as-workaround",
+        "geography/high-altitude-himalayan-lakes-tso-moriri-ladakh-ramsar-chandra-taal-lahaul-spiti-himachal-pradesh-ramsar-tsomgo-changu-sikkim-sela-lake-tawang-arunachal-pradesh-high-altitude-wetlands-and-ramsar-designation"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
+      "id": "daily_questions_2026_09_11",
+      "label": "Daily Questions - 11 Sept 2026",
+      "shortLabel": "Daily 11 Sept",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-09-11.json",
+      "sourcePath": "daily/daily_questions/daily_questions_2026-09-11.json",
+      "isoDate": "2026-09-11",
+      "subjects": [
+        "International Relations",
+        "Polity & Governance",
+        "Economy",
+        "Agriculture",
+        "Science & Technology"
+      ],
+      "bundleId": "daily_questions_2026_09_11",
+      "relatedNoteIds": [
+        "daily-daily-current-affairs-upsc-ca-2026-09-11"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "international-relations",
+        "polity",
+        "economy",
+        "agriculture",
+        "science-technology"
+      ],
+      "topicIds": [
+        "international-relations/18th-brics-summit-new-delhi-12-13-september-2026-india-s-fourth-chairship-from-1-january-2026-under-the-theme-building-for-resilience-innovation-cooperation-and-sustainability-expansion-sequence-2006-2011-january-2024-january-2025-11-members-and-10-partner-countries-ndb-and-contingent-reserve-arrangement",
+        "polity/ministry-of-tribal-affairs-office-memorandum-of-31-august-2026-on-gram-sabha-consent-section-11-fra-nodal-authority-allocation-of-business-rules-1961-amended-march-2005-niyamgiri-2013-6-scc-476-and-free-prior-and-informed-consent-committee-on-public-undertakings-proposal-to-lower-the-consent-threshold-from-100-to-70-75",
+        "economy/consumer-protection-e-commerce-amendment-rules-2026-notified-by-the-department-of-consumer-affairs-effective-1-january-2027-prior-price-as-lowest-price-in-preceding-30-days-sponsored-listing-disclosure-ccpa-dark-patterns-guidelines-2023-and-annual-self-audit-national-consumer-helpline-convergence-nch-grievances-17-71-622-in-2025-with-5-11-196-e-commerce-complaints",
+        "agriculture/pmmsy-completes-six-years-on-10-september-2026-be-2026-27-allocation-rs-2-500-crore-fish-production-141-64-lakh-tonnes-2019-20-to-197-75-lakh-tonnes-2024-25-fisheries-exports-rs-46-663-crore-to-rs-73-890-crore-pm-mkssy-sub-scheme-rs-6-000-crore-national-fisheries-digital-platform-with-37-lakh-plus-registrations-central-sector-and-centrally-sponsored-components",
+        "science-technology/mercury-s-global-contraction-revised-upward-by-about-30-to-as-much-as-23-km-of-diameter-loss-lobate-scarps-and-wrinkle-ridges-as-compressional-thrust-faults-single-plate-planet-with-the-largest-relative-iron-core-missions-mariner-10-1974-75-messenger-2011-2015-and-bepicolombo-with-mercury-orbit-insertion-expected-november-2026-mpo-and-mio-orbiters",
+        "polity/forest-rights-act-2006-section-6-gram-sabha-as-initiating-authority-section-3-1-i-community-forest-resource-rights-section-11-nodal-agency-13-december-2005-cut-off-and-the-three-generation-75-year-test-for-other-traditional-forest-dwellers-4-hectare-cap-on-individual-forest-rights-pesa-1996-read-alongside",
+        "international-relations/new-development-bank-agreed-at-the-fortaleza-summit-2014-with-headquarters-at-shanghai-and-an-african-regional-centre-at-johannesburg-contingent-reserve-arrangement-as-a-us-100-billion-central-bank-currency-swap-treaty-rather-than-a-pooled-fund-absence-of-a-permanent-brics-secretariat-and-the-rotating-chairship-model"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
+      "id": "daily_questions_2026_09_10",
+      "label": "Daily Questions - 10 Sept 2026",
+      "shortLabel": "Daily 10 Sept",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-09-10.json",
+      "sourcePath": "daily/daily_questions/daily_questions_2026-09-10.json",
+      "isoDate": "2026-09-10",
+      "subjects": [
+        "Polity & Governance",
+        "Science & Technology",
+        "Agriculture",
+        "International Relations",
+        "Environment"
+      ],
+      "bundleId": "daily_questions_2026_09_10",
+      "relatedNoteIds": [
+        "daily-daily-current-affairs-upsc-ca-2026-09-10"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "polity",
+        "science-technology",
+        "agriculture",
+        "international-relations",
+        "environment"
+      ],
+      "topicIds": [
+        "polity/part-xxi-special-provisions-union-territory-of-ladakh",
+        "science-technology/high-power-microwave-systems-drdo-technology-development-fund",
+        "agriculture/pm-kusum-components-agrivoltaics",
+        "international-relations/asean-india-sectoral-cooperation-act-east-policy",
+        "environment/lichens-western-ghats-shola-protected-areas",
+        "polity/articles-371-to-371j-special-provisions-for-states",
+        "environment/lichens-as-pioneer-species-and-bioindicators"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
+      "id": "daily_questions_2026_09_09",
+      "label": "Daily Questions - 09 Sept 2026",
+      "shortLabel": "Daily 09 Sept",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-09-09.json",
+      "sourcePath": "daily/daily_questions/daily_questions_2026-09-09.json",
+      "isoDate": "2026-09-09",
+      "subjects": [
+        "Internal Security",
+        "Economy",
+        "Polity & Governance",
+        "International Relations",
+        "Environment"
+      ],
+      "bundleId": "daily_questions_2026_09_09",
+      "relatedNoteIds": [
+        "daily-daily-current-affairs-upsc-ca-2026-09-09"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "internal-security",
+        "economy",
+        "polity",
+        "international-relations",
+        "environment"
+      ],
+      "topicIds": [
+        "internal-security/defence-acquisition-council-meeting-of-7-september-2026-according-acceptance-of-necessity-worth-about-rs-1-10-000-crore-across-the-army-navy-and-air-force-with-about-98-indigenous-sourcing-government-stated-aon-as-stage-one-of-the-dap-2020-cycle-aon-request-for-proposal-trials-and-evaluation-contract-negotiation-contract-signing-dac-chaired-by-the-raksha-mantri-dap-2020-succeeding-the-defence-procurement-procedure-framework-with-buy-indian-iddm-prioritised-army-items-including-cbrn-reconnaissance-vehicles-high-mobility-vehicles-self-propelled-mechanical-mine-layers-advanced-light-helicopters-trawl-tanks-and-the-sarvatra-bridge-system-navy-s-arudhra-radars-replacing-air-route-surveillance-radars-and-design-and-development-of-indigenous-marine-gas-turbines-air-force-ground-based-multi-purpose-jammer-and-rfid-based-defsac-access-system-distinction-between-indigenous-share-of-procurement-value-and-technology-depth-in-critical-sub-systems",
+        "economy/pact-platform-for-aggregating-clean-transport-and-zet-marketplace-launched-by-niti-aayog-at-the-5th-e-fast-india-summit-8-september-2026-parent-platform-e-fast-india-electric-freight-accelerator-for-sustainable-transport-with-morth-and-the-ministry-of-heavy-industries-as-partners-electric-freight-vehicle-deployments-rising-from-201-units-in-fy25-to-826-in-fy26-with-over-3-000-e-mhd-trucks-operating-nationally-e-mhdv-and-charge-point-operator-cpo-terminology-distinction-between-coordination-and-market-linkage-platforms-and-fiscal-incentive-instruments-such-as-fame-and-pm-e-drive-freight-electrification-as-a-coordination-failure-involving-demand-visibility-charging-corridor-planning-and-financing-risk",
+        "polity/ncsk-reconstitution-with-effect-from-6-september-2026-bhagwat-prasad-makwana-as-chairperson-and-kaishab-bihari-as-vice-chairperson-with-three-members-completing-the-10th-commission-s-tenure-up-to-31-march-2028-constituted-12-august-1994-under-the-ncsk-act-1993-with-extensions-by-amendments-in-1997-and-2001-act-lapsed-29-february-2004-leaving-the-body-non-statutory-under-the-ministry-of-social-justice-and-empowerment-contrast-with-ncsc-article-338-ncst-article-338a-and-ncbc-article-338b-as-constitutional-bodies-and-nhrc-ncw-and-ncpcr-as-statutory-bodies-prohibition-of-employment-as-manual-scavengers-and-their-rehabilitation-pemsr-act-2013-replacing-the-1993-act-safai-karamchari-andolan-v-union-of-india-2014-dr-balram-singh-v-union-of-india-20-october-2023-raising-sewer-death-compensation-to-rs-30-lakh-namaste-scheme-subsuming-srms-articles-17-21-23-and-46",
+        "international-relations/14th-appu-congress-bangkok-4-september-2026-dr-vinaya-prakash-singh-indian-postal-service-1988-batch-re-elected-unopposed-by-acclamation-as-secretary-general-for-a-second-four-year-term-january-2027-to-december-2030-appu-as-an-intergovernmental-organisation-of-32-member-states-a-restricted-union-under-article-8-of-the-universal-postal-union-upu-as-a-un-specialised-agency-headquartered-at-berne-appu-constituted-by-the-asian-pacific-postal-convention-signed-at-yogyakarta-on-27-march-1981-formed-1-july-1982-origins-traced-to-1961-headquarters-at-bangkok-moved-from-manila-in-2002-asian-pacific-postal-college-founded-1970-at-bangkok-other-restricted-unions-postal-union-of-the-americas-spain-and-portugal-caribbean-postal-union-and-cept",
+        "environment/boma-badingilo-migratory-landscape-great-nile-migration-landscape-south-sudan-boma-national-park-badingilo-bandingilo-national-park-and-connecting-corridors-inscribed-as-south-sudan-s-first-unesco-world-heritage-site-in-july-2026-through-the-emergency-procedure-and-simultaneously-placed-on-the-list-of-world-heritage-in-danger-about-6-million-antelope-per-the-2024-aerial-survey-white-eared-kob-about-5-000-000-mongalla-gazelle-about-350-000-tiang-about-300-000-bohor-reedbuck-about-160-000-more-than-double-the-serengeti-wildebeest-migration-of-about-2-million-known-migration-range-about-122-774-sq-km-extending-into-gambella-national-park-ethiopia-migration-january-to-june-and-reversing-november-to-january-african-savanna-elephant-endangered-beisa-oryx-lion-cheetah-and-giraffe-vulnerable-and-critically-endangered-nubian-giraffe-10-year-management-agreement-between-the-government-of-south-sudan-and-african-parks-signed-2022-threats-of-commercial-poaching-wildlife-trafficking-infrastructure-and-extractive-development-and-climate-change",
+        "environment/world-heritage-convention-1972-convention-concerning-the-protection-of-the-world-cultural-and-natural-heritage-unesco-as-the-parent-agency-and-the-world-heritage-committee-of-21-states-parties-elected-by-the-general-assembly-of-states-parties-cultural-natural-and-mixed-properties-and-the-criteria-of-outstanding-universal-value-three-advisory-bodies-iucn-for-natural-properties-icomos-for-cultural-properties-iccrom-for-training-and-conservation-expertise-list-of-world-heritage-in-danger-under-article-11-4-and-the-emergency-inscription-procedure-allowing-simultaneous-listing-on-both-lists-inscription-on-the-in-danger-list-not-requiring-state-party-consent-world-heritage-fund-distinction-from-the-ramsar-convention-on-wetlands-1971-the-man-and-the-biosphere-programme-and-the-convention-on-migratory-species",
+        "polity/threefold-classification-of-commissions-constitutional-bodies-ncsc-article-338-ncst-article-338a-and-ncbc-article-338b-inserted-by-the-102nd-constitutional-amendment-act-2018-following-indra-sawhney-statutory-bodies-including-the-national-commission-for-women-ncw-act-1990-the-national-human-rights-commission-protection-of-human-rights-act-1993-the-national-commission-for-protection-of-child-rights-commissions-for-protection-of-child-rights-act-2005-and-the-national-commission-for-minorities-1992-non-statutory-executive-bodies-including-niti-aayog-the-central-vigilance-commission-before-2003-and-the-national-commission-for-safai-karamcharis-after-the-lapse-of-its-act-in-2004-implications-of-statutory-backing-for-enforcement-powers-civil-court-powers-and-independence-of-tenure"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
       "id": "daily_questions_2026_09_08",
       "label": "Daily Questions - 08 Sept 2026",
       "shortLabel": "Daily 08 Sept",
@@ -4551,6 +4721,140 @@
       "provenance": "generated"
     },
     {
+      "id": "pib_questions_2026_09_12",
+      "label": "PIB Questions - 12 Sept 2026",
+      "shortLabel": "PIB 12 Sept",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-09-12.json",
+      "sourcePath": "generated_data/pib_questions/2026-09-12.json",
+      "isoDate": "2026-09-12",
+      "subjects": [
+        "Polity & Governance",
+        "Agriculture",
+        "International Relations"
+      ],
+      "bundleId": "pib_questions_2026_09_12",
+      "relatedNoteIds": [
+        "daily-daily-pib-pib-2026-09-12"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "polity",
+        "agriculture",
+        "international-relations"
+      ],
+      "topicIds": [
+        "polity/bankers-books-evidence-act-2026-and-repeal-of-colonial-era-statutes",
+        "agriculture/pradhan-mantri-kisan-maandhan-yojana-pm-kmy-seven-years",
+        "international-relations/colombo-security-conclave-and-indian-ocean-maritime-minilaterals"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
+      "id": "pib_questions_2026_09_11",
+      "label": "PIB Questions - 11 Sept 2026",
+      "shortLabel": "PIB 11 Sept",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-09-11.json",
+      "sourcePath": "generated_data/pib_questions/2026-09-11.json",
+      "isoDate": "2026-09-11",
+      "subjects": [
+        "Polity & Governance",
+        "Agriculture",
+        "International Relations"
+      ],
+      "bundleId": "pib_questions_2026_09_11",
+      "relatedNoteIds": [
+        "daily-daily-pib-pib-2026-09-11"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "polity",
+        "agriculture",
+        "international-relations"
+      ],
+      "topicIds": [
+        "polity/consumer-protection-e-commerce-amendment-rules-2026-and-dark-patterns",
+        "agriculture/pradhan-mantri-matsya-sampada-yojana-pmmsy-and-pm-mkssy",
+        "international-relations/brics-expansion-and-india-s-2026-chairship"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
+      "id": "pib_questions_2026_09_10",
+      "label": "PIB Questions - 10 Sept 2026",
+      "shortLabel": "PIB 10 Sept",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-09-10.json",
+      "sourcePath": "generated_data/pib_questions/2026-09-10.json",
+      "isoDate": "2026-09-10",
+      "subjects": [
+        "Polity & Governance",
+        "Geography",
+        "Environment"
+      ],
+      "bundleId": "pib_questions_2026_09_10",
+      "relatedNoteIds": [
+        "daily-daily-pib-pib-2026-09-10"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "polity",
+        "geography",
+        "environment"
+      ],
+      "topicIds": [
+        "polity/digital-bharat-nidhi-and-amended-bharatnet-program",
+        "geography/bakhira-lake-oxbow-wetlands-and-indian-summer-monsoon-palaeoclimate",
+        "environment/small-hydro-power-potential-and-the-proposed-shp-development-scheme"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
+      "id": "pib_questions_2026_09_09",
+      "label": "PIB Questions - 09 Sept 2026",
+      "shortLabel": "PIB 09 Sept",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-09-09.json",
+      "sourcePath": "generated_data/pib_questions/2026-09-09.json",
+      "isoDate": "2026-09-09",
+      "subjects": [
+        "Science & Technology",
+        "Economy"
+      ],
+      "bundleId": "pib_questions_2026_09_09",
+      "relatedNoteIds": [
+        "daily-daily-pib-pib-2026-09-09"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "science-technology",
+        "economy"
+      ],
+      "topicIds": [
+        "science-technology/orv-sagar-manthan-and-ncpor-research-vessels",
+        "economy/fiu-ind-pmla-and-virtual-digital-asset-service-providers",
+        "economy/railway-multitracking-projects-and-pm-gati-shakti-national-master-plan"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
       "id": "pib_questions_2026_09_08",
       "label": "PIB Questions - 08 Sept 2026",
       "shortLabel": "PIB 08 Sept",
@@ -7860,6 +8164,89 @@
       "provenance": "generated"
     },
     {
+      "id": "weekly_quiz_2026_09_13",
+      "label": "Weekly Recall Quiz - 13 Sept 2026",
+      "shortLabel": "Weekly Quiz 13 Sept",
+      "category": "Weekly Quiz",
+      "sourceType": "weekly-quiz",
+      "questionCount": 15,
+      "durationMinutes": 25,
+      "path": "weekly/weekly_quiz/weekly_questions_2026-09-13.json",
+      "sourcePath": "weekly/weekly_quiz/weekly_questions_2026-09-13.json",
+      "isoDate": "2026-09-13",
+      "subjects": [
+        "Polity & Governance",
+        "International Relations",
+        "Environment",
+        "Economy",
+        "Geography",
+        "Ancient & Medieval History",
+        "Science & Technology"
+      ],
+      "bundleId": "weekly_quiz_2026_09_13",
+      "relatedNoteIds": [],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "polity",
+        "international-relations",
+        "environment",
+        "economy",
+        "geography",
+        "ancient-and-medieval-history",
+        "science-technology"
+      ],
+      "topicIds": [
+        "polity/articles-239-239a-and-240-ladakh-ut-and-the-draft-article-371-k",
+        "international-relations/brics-enlargement-the-new-development-bank-and-the-contingent-reserve-arrangement",
+        "polity/ncsk-s-lapsed-statute-and-the-classification-of-welfare-commissions",
+        "environment/vulture-decline-diclofenac-and-vulture-safe-zones",
+        "economy/pact-the-zet-marketplace-and-freight-decarbonisation-instruments",
+        "economy/small-hydro-power-definition-potential-and-the-proposed-shp-scheme",
+        "geography/the-three-mineral-belts-and-the-gondwana-tertiary-coal-distinction",
+        "economy/bankers-books-evidence-act-2026-and-its-relation-to-the-bharatiya-sakshya-adhiniyam",
+        "polity/73rd-amendment-compulsory-and-voluntary-provisions-of-part-ix",
+        "polity/fifth-schedule-sixth-schedule-autonomous-district-councils-and-pesa-1996",
+        "polity/74th-amendment-wards-committees-district-and-metropolitan-planning-committees",
+        "economy/nfsa-coverage-the-urea-versus-nbs-distinction-and-subsidies-as-revenue-expenditure",
+        "ancient-and-medieval-history/indo-greek-coinage-the-junagadh-inscription-and-satavahana-land-grants",
+        "ancient-and-medieval-history/sangam-corpus-the-twin-epics-and-the-tinai-eco-zones",
+        "science-technology/sce-200-semi-cryogenic-engine-engine-cycles-and-the-indian-launcher-fleet"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
+      "id": "weekly_quiz_2026_09_11",
+      "label": "Weekly Recall Quiz - 11 Sept 2026",
+      "shortLabel": "Weekly Quiz 11 Sept",
+      "category": "Weekly Quiz",
+      "sourceType": "weekly-quiz",
+      "questionCount": 20,
+      "durationMinutes": 30,
+      "path": "generated_data/weekly_quiz_questions/2026-09-11.json",
+      "sourcePath": "weekly/weekly_quiz/Recall_Quiz_2026-09-11.md",
+      "isoDate": "2026-09-11",
+      "subjects": [
+        "Current Affairs",
+        "Geography"
+      ],
+      "bundleId": "weekly_quiz_2026_09_11",
+      "relatedNoteIds": [
+        "weekly-weekly-quiz-recall-quiz-2026-09-11"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "current-affairs",
+        "geography"
+      ],
+      "topicIds": [
+        "current-affairs/weekly-recall-quiz",
+        "geography/weekly-recall-quiz"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
       "id": "weekly_quiz_2026_09_06",
       "label": "Weekly Recall Quiz - 06 Sept 2026",
       "shortLabel": "Weekly Quiz 06 Sept",
@@ -8913,6 +9300,96 @@
         "polity/weekly-recall-quiz"
       ],
       "format": "drill",
+      "provenance": "generated"
+    },
+    {
+      "id": "sectional_book-topics_2026_09_13_extra",
+      "label": "Book Topics · Add-on · 2026-09-13",
+      "shortLabel": "Book Topics · 2026-09-13",
+      "category": "Extra Practice",
+      "sourceType": "sectional",
+      "questionCount": 50,
+      "durationMinutes": 80,
+      "path": "generated_data/sectional_questions/book-topics_2026-09-13_chatgpt.json",
+      "sourcePath": "generated_data/sectional_questions/book-topics_2026-09-13_chatgpt.json",
+      "isoDate": "2026-09-13",
+      "variant": "extra-practice",
+      "variantLabel": "Add-on",
+      "isSupplementary": true,
+      "subjects": [
+        "Polity",
+        "Economy",
+        "Ancient History",
+        "Geography",
+        "International Relations",
+        "Science & Technology"
+      ],
+      "bundleId": "sectional_book-topics_2026_09_13_extra",
+      "relatedNoteIds": [
+        "weekly-sectional-sectional-book-topics-2026-09-13-chatgpt"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "polity",
+        "economy",
+        "history",
+        "geography",
+        "international-relations",
+        "science-technology"
+      ],
+      "topicIds": [
+        "polity/73rd-amendment-act-1992-part-ix-articles-243-243-o-eleventh-schedule",
+        "polity/gram-sabha-articles-243-b-and-243a",
+        "polity/committees-on-panchayati-raj-balwant-rai-mehta-ashok-mehta-g-v-k-rao-l-m-singhvi-64th-amendment-bill",
+        "polity/article-243b-three-tier-structure-and-the-20-lakh-exception-article-243g-devolution",
+        "polity/article-243c-direct-election-of-seats-indirect-election-of-chairpersons",
+        "polity/article-243d-reservation-of-seats-women-s-one-third-floor",
+        "polity/article-243e-five-year-term-six-month-election-rule-remainder-of-term-principle",
+        "polity/article-243f-disqualifications-minimum-age-21",
+        "polity/article-243k-state-election-commission-appointment-by-governor-removal-like-a-high-court-judge",
+        "polity/compulsory-versus-voluntary-provisions-of-part-ix",
+        "polity/article-243m-exemptions-from-part-ix-and-parliament-s-extension-power",
+        "polity/article-243-o-bar-to-interference-by-courts-in-electoral-matters",
+        "polity/74th-amendment-act-1992-part-ixa-articles-243p-243zg-twelfth-schedule",
+        "polity/article-243q-three-types-of-municipalities",
+        "polity/bodies-outside-part-ixa-cantonment-boards-notified-area-committees-industrial-townships",
+        "polity/article-243s-wards-committees-three-lakh-threshold",
+        "polity/articles-243zd-and-243ze-district-and-metropolitan-planning-committees-four-fifths-versus-two-thirds",
+        "polity/institutions-shared-between-part-ix-and-part-ixa-articles-243-i-243y-and-243k-243za",
+        "polity/article-243r-composition-of-municipalities-non-voting-nominated-members",
+        "polity/article-239-administration-of-union-territories-governor-as-administrator",
+        "polity/article-240-president-s-regulation-making-power-and-the-puducherry-proviso",
+        "polity/article-239aa-special-provisions-for-delhi-69th-amendment-1991-excluded-entries",
+        "polity/article-244-fifth-schedule-versus-sixth-schedule-coverage",
+        "polity/fifth-schedule-tribes-advisory-council-composition-and-advisory-character",
+        "polity/fifth-schedule-governor-s-powers-president-s-assent-report-to-the-president",
+        "polity/sixth-schedule-autonomous-district-councils-composition-applicable-states",
+        "polity/pesa-1996-gram-sabha-powers-consultation-versus-consent-minor-minerals",
+        "economy/measuring-inequality-lorenz-curve-gini-coefficient-palma-ratio",
+        "economy/national-mpi-alkire-foster-method-three-dimensions-twelve-indicators",
+        "economy/poverty-estimation-tendulkar-and-rangarajan-committees",
+        "economy/subsidies-as-revenue-expenditure-revenue-versus-capital-expenditure",
+        "economy/explicit-versus-implicit-subsidies-merit-versus-non-merit-goods",
+        "economy/food-subsidy-fci-economic-cost-central-issue-price-msp-cip-wedge",
+        "economy/fertiliser-subsidy-nbs-2010-urea-statutory-mrp-n-p-k-imbalance",
+        "economy/petroleum-subsidy-deregulation-pahal-dbt-leakage-versus-exclusion-error",
+        "history/sungas-pushyamitra-bharhut-and-sanchi-the-persecution-narrative",
+        "history/indo-greeks-portrait-coinage-menander-and-the-milindapanha-gold-coinage",
+        "history/heliodorus-pillar-antialcidas-bhagabhadra-garuda-pillar-to-vasudeva",
+        "history/junagadh-inscription-rudradaman-i-saka-western-kshatrapas-sanskrit-epigraphy",
+        "history/kushanas-saka-era-78-ce-fourth-buddhist-council-the-kushana-court",
+        "history/post-mauryan-art-gandhara-mathura-and-amaravati-schools",
+        "history/satavahanas-prakrit-metronymics-coinage-nashik-prashasti-land-grants",
+        "history/sangam-age-tolkappiyam-corpus-structure-post-sangam-epics-the-tinai-scheme",
+        "geography/coal-gondwana-versus-tertiary-deposits-damodar-valley-coalfields",
+        "geography/the-three-mineral-belts-of-india-and-their-coal-endowment",
+        "geography/monazite-and-thorium-beach-sands-the-three-stage-nuclear-programme",
+        "geography/industrial-regions-location-factors-the-sugar-industry-s-southward-shift",
+        "international-relations/india-sri-lanka-1987-accord-thirteenth-amendment-ipkf-katchatheevu",
+        "international-relations/neighbourhood-connectivity-projects-maldives-myanmar-afghanistan",
+        "science-technology/in-space-nsil-and-the-indian-space-policy-2023"
+      ],
+      "format": "sectional",
       "provenance": "generated"
     },
     {
@@ -13548,6 +14025,123 @@
       "topicIds": []
     },
     {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-09-12",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "12 Sept 2026",
+      "date": "2026-09-12",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-09-12.md",
+      "bundleId": "daily-daily-current-affairs-upsc-ca-2026-09-12",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "daily_questions_2026_09_12"
+      ],
+      "subjectIds": [
+        "polity",
+        "economy",
+        "science-technology",
+        "environment",
+        "reports-and-indices",
+        "geography"
+      ],
+      "topicIds": [
+        "polity/registered-unrecognised-political-parties-section-29a-and-29c-of-the-rp-act-1951-section-13a-income-tax-act-exemption-indian-national-congress-i-v-institute-of-social-welfare-2002-delisting-versus-de-registration-six-gujarat-rupps-receiving-about-rs-1-700-crore-in-fy-2023-24-against-rs-1-480-crore-for-five-national-parties-2-800-rupps-with-about-750-contesting-in-2024",
+        "economy/dilrmp-3-0-2026-2031-rs-565-50-crore-central-sector-scheme-with-100-central-funding-ulpin-bhu-aadhaar-14-digit-parcel-id-georeferencing-of-cadastral-maps-75-sub-registrar-offices-upgraded-to-registration-seva-kendras-rccms-integration-api-based-state-land-stack-naksha-urban-mapping-lineage-nlrmp-2008-to-dilrmp-2016",
+        "science-technology/india-photonics-association-launched-9-september-2026-with-65-founding-members-photonics-as-generation-detection-and-manipulation-of-photons-silicon-photonics-and-photonic-integrated-circuits-optical-interconnects-for-ai-data-centres-lidar-and-quantum-key-distribution-links-to-india-semiconductor-mission-and-national-quantum-mission-distinct-from-the-indian-laser-association",
+        "environment/schizopygopsis-waddellii-first-record-for-india-july-2026-pangkang-teng-tso-lake-12-800-ft-tawang-district-arunachal-pradesh-family-cyprinidae-schizothoracine-snowtrout-group-type-locality-yamdrok-lake-tibet-integrative-taxonomy-using-morphology-plus-mtdna-subterminal-mouth-with-horny-lower-lip-plate-deeply-forked-caudal-fin-nuptial-tubercles-in-males-eastern-himalaya-biodiversity-hotspot",
+        "reports-and-indices/india-s-research-paradox-2026-1-6-million-scopus-indexed-papers-2020-2025-3rd-by-volume-versus-19th-by-aggregate-h-index-925-vs-us-3-213-university-patent-filings-11-150-to-45-776-3-university-grant-rate-vs-24-national-commercial-working-rate-12-1-to-1-6-india-3rd-in-retractions-rate-1-5-to-3-5-per-1-000-papers-2012-2022-qs-2026-54-indian-institutions-the-2026-only-4-in-top-500-with-iisc-in-201-250-nirf-30-weight-to-research-and-professional-practice-anrf-act-2023",
+        "polity/election-commission-of-india-article-324-section-29a-rp-act-1951-registration-of-parties-election-symbols-reservation-and-allotment-order-1968-and-disputes-over-splits-and-mergers-indian-national-congress-i-v-institute-of-social-welfare-2002-no-implied-power-of-de-registration-administrative-delisting-as-workaround",
+        "geography/high-altitude-himalayan-lakes-tso-moriri-ladakh-ramsar-chandra-taal-lahaul-spiti-himachal-pradesh-ramsar-tsomgo-changu-sikkim-sela-lake-tawang-arunachal-pradesh-high-altitude-wetlands-and-ramsar-designation"
+      ]
+    },
+    {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-09-11",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "11 Sept 2026",
+      "date": "2026-09-11",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-09-11.md",
+      "bundleId": "daily-daily-current-affairs-upsc-ca-2026-09-11",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "daily_questions_2026_09_11"
+      ],
+      "subjectIds": [
+        "international-relations",
+        "polity",
+        "economy",
+        "agriculture",
+        "science-technology"
+      ],
+      "topicIds": [
+        "international-relations/18th-brics-summit-new-delhi-12-13-september-2026-india-s-fourth-chairship-from-1-january-2026-under-the-theme-building-for-resilience-innovation-cooperation-and-sustainability-expansion-sequence-2006-2011-january-2024-january-2025-11-members-and-10-partner-countries-ndb-and-contingent-reserve-arrangement",
+        "polity/ministry-of-tribal-affairs-office-memorandum-of-31-august-2026-on-gram-sabha-consent-section-11-fra-nodal-authority-allocation-of-business-rules-1961-amended-march-2005-niyamgiri-2013-6-scc-476-and-free-prior-and-informed-consent-committee-on-public-undertakings-proposal-to-lower-the-consent-threshold-from-100-to-70-75",
+        "economy/consumer-protection-e-commerce-amendment-rules-2026-notified-by-the-department-of-consumer-affairs-effective-1-january-2027-prior-price-as-lowest-price-in-preceding-30-days-sponsored-listing-disclosure-ccpa-dark-patterns-guidelines-2023-and-annual-self-audit-national-consumer-helpline-convergence-nch-grievances-17-71-622-in-2025-with-5-11-196-e-commerce-complaints",
+        "agriculture/pmmsy-completes-six-years-on-10-september-2026-be-2026-27-allocation-rs-2-500-crore-fish-production-141-64-lakh-tonnes-2019-20-to-197-75-lakh-tonnes-2024-25-fisheries-exports-rs-46-663-crore-to-rs-73-890-crore-pm-mkssy-sub-scheme-rs-6-000-crore-national-fisheries-digital-platform-with-37-lakh-plus-registrations-central-sector-and-centrally-sponsored-components",
+        "science-technology/mercury-s-global-contraction-revised-upward-by-about-30-to-as-much-as-23-km-of-diameter-loss-lobate-scarps-and-wrinkle-ridges-as-compressional-thrust-faults-single-plate-planet-with-the-largest-relative-iron-core-missions-mariner-10-1974-75-messenger-2011-2015-and-bepicolombo-with-mercury-orbit-insertion-expected-november-2026-mpo-and-mio-orbiters",
+        "polity/forest-rights-act-2006-section-6-gram-sabha-as-initiating-authority-section-3-1-i-community-forest-resource-rights-section-11-nodal-agency-13-december-2005-cut-off-and-the-three-generation-75-year-test-for-other-traditional-forest-dwellers-4-hectare-cap-on-individual-forest-rights-pesa-1996-read-alongside",
+        "international-relations/new-development-bank-agreed-at-the-fortaleza-summit-2014-with-headquarters-at-shanghai-and-an-african-regional-centre-at-johannesburg-contingent-reserve-arrangement-as-a-us-100-billion-central-bank-currency-swap-treaty-rather-than-a-pooled-fund-absence-of-a-permanent-brics-secretariat-and-the-rotating-chairship-model"
+      ]
+    },
+    {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-09-10",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "10 Sept 2026",
+      "date": "2026-09-10",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-09-10.md",
+      "bundleId": "daily-daily-current-affairs-upsc-ca-2026-09-10",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "daily_questions_2026_09_10"
+      ],
+      "subjectIds": [
+        "polity",
+        "science-technology",
+        "agriculture",
+        "international-relations",
+        "environment"
+      ],
+      "topicIds": [
+        "polity/part-xxi-special-provisions-union-territory-of-ladakh",
+        "science-technology/high-power-microwave-systems-drdo-technology-development-fund",
+        "agriculture/pm-kusum-components-agrivoltaics",
+        "international-relations/asean-india-sectoral-cooperation-act-east-policy",
+        "environment/lichens-western-ghats-shola-protected-areas",
+        "polity/articles-371-to-371j-special-provisions-for-states",
+        "environment/lichens-as-pioneer-species-and-bioindicators"
+      ]
+    },
+    {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-09-09",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "09 Sept 2026",
+      "date": "2026-09-09",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-09-09.md",
+      "bundleId": "daily-daily-current-affairs-upsc-ca-2026-09-09",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "daily_questions_2026_09_09"
+      ],
+      "subjectIds": [
+        "internal-security",
+        "economy",
+        "polity",
+        "international-relations",
+        "environment"
+      ],
+      "topicIds": [
+        "internal-security/defence-acquisition-council-meeting-of-7-september-2026-according-acceptance-of-necessity-worth-about-rs-1-10-000-crore-across-the-army-navy-and-air-force-with-about-98-indigenous-sourcing-government-stated-aon-as-stage-one-of-the-dap-2020-cycle-aon-request-for-proposal-trials-and-evaluation-contract-negotiation-contract-signing-dac-chaired-by-the-raksha-mantri-dap-2020-succeeding-the-defence-procurement-procedure-framework-with-buy-indian-iddm-prioritised-army-items-including-cbrn-reconnaissance-vehicles-high-mobility-vehicles-self-propelled-mechanical-mine-layers-advanced-light-helicopters-trawl-tanks-and-the-sarvatra-bridge-system-navy-s-arudhra-radars-replacing-air-route-surveillance-radars-and-design-and-development-of-indigenous-marine-gas-turbines-air-force-ground-based-multi-purpose-jammer-and-rfid-based-defsac-access-system-distinction-between-indigenous-share-of-procurement-value-and-technology-depth-in-critical-sub-systems",
+        "economy/pact-platform-for-aggregating-clean-transport-and-zet-marketplace-launched-by-niti-aayog-at-the-5th-e-fast-india-summit-8-september-2026-parent-platform-e-fast-india-electric-freight-accelerator-for-sustainable-transport-with-morth-and-the-ministry-of-heavy-industries-as-partners-electric-freight-vehicle-deployments-rising-from-201-units-in-fy25-to-826-in-fy26-with-over-3-000-e-mhd-trucks-operating-nationally-e-mhdv-and-charge-point-operator-cpo-terminology-distinction-between-coordination-and-market-linkage-platforms-and-fiscal-incentive-instruments-such-as-fame-and-pm-e-drive-freight-electrification-as-a-coordination-failure-involving-demand-visibility-charging-corridor-planning-and-financing-risk",
+        "polity/ncsk-reconstitution-with-effect-from-6-september-2026-bhagwat-prasad-makwana-as-chairperson-and-kaishab-bihari-as-vice-chairperson-with-three-members-completing-the-10th-commission-s-tenure-up-to-31-march-2028-constituted-12-august-1994-under-the-ncsk-act-1993-with-extensions-by-amendments-in-1997-and-2001-act-lapsed-29-february-2004-leaving-the-body-non-statutory-under-the-ministry-of-social-justice-and-empowerment-contrast-with-ncsc-article-338-ncst-article-338a-and-ncbc-article-338b-as-constitutional-bodies-and-nhrc-ncw-and-ncpcr-as-statutory-bodies-prohibition-of-employment-as-manual-scavengers-and-their-rehabilitation-pemsr-act-2013-replacing-the-1993-act-safai-karamchari-andolan-v-union-of-india-2014-dr-balram-singh-v-union-of-india-20-october-2023-raising-sewer-death-compensation-to-rs-30-lakh-namaste-scheme-subsuming-srms-articles-17-21-23-and-46",
+        "international-relations/14th-appu-congress-bangkok-4-september-2026-dr-vinaya-prakash-singh-indian-postal-service-1988-batch-re-elected-unopposed-by-acclamation-as-secretary-general-for-a-second-four-year-term-january-2027-to-december-2030-appu-as-an-intergovernmental-organisation-of-32-member-states-a-restricted-union-under-article-8-of-the-universal-postal-union-upu-as-a-un-specialised-agency-headquartered-at-berne-appu-constituted-by-the-asian-pacific-postal-convention-signed-at-yogyakarta-on-27-march-1981-formed-1-july-1982-origins-traced-to-1961-headquarters-at-bangkok-moved-from-manila-in-2002-asian-pacific-postal-college-founded-1970-at-bangkok-other-restricted-unions-postal-union-of-the-americas-spain-and-portugal-caribbean-postal-union-and-cept",
+        "environment/boma-badingilo-migratory-landscape-great-nile-migration-landscape-south-sudan-boma-national-park-badingilo-bandingilo-national-park-and-connecting-corridors-inscribed-as-south-sudan-s-first-unesco-world-heritage-site-in-july-2026-through-the-emergency-procedure-and-simultaneously-placed-on-the-list-of-world-heritage-in-danger-about-6-million-antelope-per-the-2024-aerial-survey-white-eared-kob-about-5-000-000-mongalla-gazelle-about-350-000-tiang-about-300-000-bohor-reedbuck-about-160-000-more-than-double-the-serengeti-wildebeest-migration-of-about-2-million-known-migration-range-about-122-774-sq-km-extending-into-gambella-national-park-ethiopia-migration-january-to-june-and-reversing-november-to-january-african-savanna-elephant-endangered-beisa-oryx-lion-cheetah-and-giraffe-vulnerable-and-critically-endangered-nubian-giraffe-10-year-management-agreement-between-the-government-of-south-sudan-and-african-parks-signed-2022-threats-of-commercial-poaching-wildlife-trafficking-infrastructure-and-extractive-development-and-climate-change",
+        "environment/world-heritage-convention-1972-convention-concerning-the-protection-of-the-world-cultural-and-natural-heritage-unesco-as-the-parent-agency-and-the-world-heritage-committee-of-21-states-parties-elected-by-the-general-assembly-of-states-parties-cultural-natural-and-mixed-properties-and-the-criteria-of-outstanding-universal-value-three-advisory-bodies-iucn-for-natural-properties-icomos-for-cultural-properties-iccrom-for-training-and-conservation-expertise-list-of-world-heritage-in-danger-under-article-11-4-and-the-emergency-inscription-procedure-allowing-simultaneous-listing-on-both-lists-inscription-on-the-in-danger-list-not-requiring-state-party-consent-world-heritage-fund-distinction-from-the-ramsar-convention-on-wetlands-1971-the-man-and-the-biosphere-programme-and-the-convention-on-migratory-species",
+        "polity/threefold-classification-of-commissions-constitutional-bodies-ncsc-article-338-ncst-article-338a-and-ncbc-article-338b-inserted-by-the-102nd-constitutional-amendment-act-2018-following-indra-sawhney-statutory-bodies-including-the-national-commission-for-women-ncw-act-1990-the-national-human-rights-commission-protection-of-human-rights-act-1993-the-national-commission-for-protection-of-child-rights-commissions-for-protection-of-child-rights-act-2005-and-the-national-commission-for-minorities-1992-non-statutory-executive-bodies-including-niti-aayog-the-central-vigilance-commission-before-2003-and-the-national-commission-for-safai-karamcharis-after-the-lapse-of-its-act-in-2004-implications-of-statutory-backing-for-enforcement-powers-civil-court-powers-and-independence-of-tenure"
+      ]
+    },
+    {
       "id": "daily-daily-current-affairs-upsc-ca-2026-09-08",
       "cadence": "daily",
       "title": "UPSC Daily CA Briefing",
@@ -16326,6 +16920,19 @@
       ]
     },
     {
+      "id": "weekly-editorials-editorials-mains-2026-09-10",
+      "cadence": "editorials",
+      "title": "Editorials to Mains",
+      "shortTitle": "Mains - 10 Sept",
+      "date": "2026-09-10",
+      "path": "weekly/Editorials/Editorials_Mains_2026-09-10.md",
+      "bundleId": "weekly-editorials-editorials-mains-2026-09-10",
+      "relatedNoteIds": [],
+      "relatedSetIds": [],
+      "subjectIds": [],
+      "topicIds": []
+    },
+    {
       "id": "weekly-editorials-editorials-mains-2026-09-03",
       "cadence": "editorials",
       "title": "Editorials to Mains",
@@ -16495,6 +17102,19 @@
       "topicIds": []
     },
     {
+      "id": "weekly-essays-essay-2026-09-12",
+      "cadence": "essay",
+      "title": "Model Essay",
+      "shortTitle": "Essay - 12 Sept",
+      "date": "2026-09-12",
+      "path": "weekly/Essays/Essay_2026-09-12.md",
+      "bundleId": "weekly-essays-essay-2026-09-12",
+      "relatedNoteIds": [],
+      "relatedSetIds": [],
+      "subjectIds": [],
+      "topicIds": []
+    },
+    {
       "id": "weekly-essays-essay-2026-09-06",
       "cadence": "essay",
       "title": "Model Essay",
@@ -16554,6 +17174,19 @@
       "date": "2026-08-10",
       "path": "Essay_Topic_2026-08-10.md",
       "bundleId": "essay-topic-2026-08-10",
+      "relatedNoteIds": [],
+      "relatedSetIds": [],
+      "subjectIds": [],
+      "topicIds": []
+    },
+    {
+      "id": "ethics-case-2026-09-13",
+      "cadence": "ethics",
+      "title": "Weekly Ethics Case Study",
+      "shortTitle": "Case - 13 Sept",
+      "date": "2026-09-13",
+      "path": "Ethics_Case_2026-09-13.md",
+      "bundleId": "ethics-case-2026-09-13",
       "relatedNoteIds": [],
       "relatedSetIds": [],
       "subjectIds": [],
@@ -16645,6 +17278,71 @@
       "date": "",
       "path": "reference/Fodder_Bank.md",
       "bundleId": "reference-fodder-bank",
+      "relatedNoteIds": [],
+      "relatedSetIds": [],
+      "subjectIds": [],
+      "topicIds": []
+    },
+    {
+      "id": "daily-daily-mains-gs-mains-2026-09-13",
+      "cadence": "mains",
+      "title": "GS Mains Answer Practice",
+      "shortTitle": "Mains - 13 Sept",
+      "date": "2026-09-13",
+      "path": "daily/daily_mains/GS_Mains_2026-09-13.md",
+      "bundleId": "daily-daily-mains-gs-mains-2026-09-13",
+      "relatedNoteIds": [],
+      "relatedSetIds": [],
+      "subjectIds": [],
+      "topicIds": []
+    },
+    {
+      "id": "daily-daily-mains-gs-mains-2026-09-12",
+      "cadence": "mains",
+      "title": "GS Mains Answer Practice",
+      "shortTitle": "Mains - 12 Sept",
+      "date": "2026-09-12",
+      "path": "daily/daily_mains/GS_Mains_2026-09-12.md",
+      "bundleId": "daily-daily-mains-gs-mains-2026-09-12",
+      "relatedNoteIds": [],
+      "relatedSetIds": [],
+      "subjectIds": [],
+      "topicIds": []
+    },
+    {
+      "id": "daily-daily-mains-gs-mains-2026-09-11",
+      "cadence": "mains",
+      "title": "GS Mains Answer Practice",
+      "shortTitle": "Mains - 11 Sept",
+      "date": "2026-09-11",
+      "path": "daily/daily_mains/GS_Mains_2026-09-11.md",
+      "bundleId": "daily-daily-mains-gs-mains-2026-09-11",
+      "relatedNoteIds": [],
+      "relatedSetIds": [],
+      "subjectIds": [],
+      "topicIds": []
+    },
+    {
+      "id": "daily-daily-mains-gs-mains-2026-09-10",
+      "cadence": "mains",
+      "title": "GS Mains Answer Practice",
+      "shortTitle": "Mains - 10 Sept",
+      "date": "2026-09-10",
+      "path": "daily/daily_mains/GS_Mains_2026-09-10.md",
+      "bundleId": "daily-daily-mains-gs-mains-2026-09-10",
+      "relatedNoteIds": [],
+      "relatedSetIds": [],
+      "subjectIds": [],
+      "topicIds": []
+    },
+    {
+      "id": "daily-daily-mains-gs-mains-2026-09-09",
+      "cadence": "mains",
+      "title": "GS Mains Answer Practice",
+      "shortTitle": "Mains - 09 Sept",
+      "date": "2026-09-09",
+      "path": "daily/daily_mains/GS_Mains_2026-09-09.md",
+      "bundleId": "daily-daily-mains-gs-mains-2026-09-09",
       "relatedNoteIds": [],
       "relatedSetIds": [],
       "subjectIds": [],
@@ -17130,6 +17828,97 @@
       "relatedSetIds": [],
       "subjectIds": [],
       "topicIds": []
+    },
+    {
+      "id": "daily-daily-pib-pib-2026-09-12",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 12 Sept",
+      "date": "2026-09-12",
+      "path": "daily/daily_pib/PIB_2026-09-12.md",
+      "bundleId": "daily-daily-pib-pib-2026-09-12",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "pib_questions_2026_09_12"
+      ],
+      "subjectIds": [
+        "polity",
+        "agriculture",
+        "international-relations"
+      ],
+      "topicIds": [
+        "polity/bankers-books-evidence-act-2026-and-repeal-of-colonial-era-statutes",
+        "agriculture/pradhan-mantri-kisan-maandhan-yojana-pm-kmy-seven-years",
+        "international-relations/colombo-security-conclave-and-indian-ocean-maritime-minilaterals"
+      ]
+    },
+    {
+      "id": "daily-daily-pib-pib-2026-09-11",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 11 Sept",
+      "date": "2026-09-11",
+      "path": "daily/daily_pib/PIB_2026-09-11.md",
+      "bundleId": "daily-daily-pib-pib-2026-09-11",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "pib_questions_2026_09_11"
+      ],
+      "subjectIds": [
+        "polity",
+        "agriculture",
+        "international-relations"
+      ],
+      "topicIds": [
+        "polity/consumer-protection-e-commerce-amendment-rules-2026-and-dark-patterns",
+        "agriculture/pradhan-mantri-matsya-sampada-yojana-pmmsy-and-pm-mkssy",
+        "international-relations/brics-expansion-and-india-s-2026-chairship"
+      ]
+    },
+    {
+      "id": "daily-daily-pib-pib-2026-09-10",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 10 Sept",
+      "date": "2026-09-10",
+      "path": "daily/daily_pib/PIB_2026-09-10.md",
+      "bundleId": "daily-daily-pib-pib-2026-09-10",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "pib_questions_2026_09_10"
+      ],
+      "subjectIds": [
+        "polity",
+        "geography",
+        "environment"
+      ],
+      "topicIds": [
+        "polity/digital-bharat-nidhi-and-amended-bharatnet-program",
+        "geography/bakhira-lake-oxbow-wetlands-and-indian-summer-monsoon-palaeoclimate",
+        "environment/small-hydro-power-potential-and-the-proposed-shp-development-scheme"
+      ]
+    },
+    {
+      "id": "daily-daily-pib-pib-2026-09-09",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 09 Sept",
+      "date": "2026-09-09",
+      "path": "daily/daily_pib/PIB_2026-09-09.md",
+      "bundleId": "daily-daily-pib-pib-2026-09-09",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "pib_questions_2026_09_09"
+      ],
+      "subjectIds": [
+        "science-technology",
+        "economy"
+      ],
+      "topicIds": [
+        "science-technology/orv-sagar-manthan-and-ncpor-research-vessels",
+        "economy/fiu-ind-pmla-and-virtual-digital-asset-service-providers",
+        "economy/railway-multitracking-projects-and-pm-gati-shakti-national-master-plan"
+      ]
     },
     {
       "id": "daily-daily-pib-pib-2026-09-08",
@@ -19676,6 +20465,82 @@
       "topicIds": []
     },
     {
+      "id": "weekly-sectional-sectional-book-topics-2026-09-13-chatgpt",
+      "cadence": "sectional",
+      "title": "Weekly Book Topics 50Q Companion",
+      "shortTitle": "Book Topics - 13 Sept",
+      "date": "2026-09-13",
+      "path": "weekly/Sectional/Sectional_book-topics_2026-09-13_chatgpt.md",
+      "variant": "supplementary",
+      "variantLabel": "Companion",
+      "isSupplementary": true,
+      "bundleId": "weekly-sectional-sectional-book-topics-2026-09-13-chatgpt",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "sectional_book-topics_2026_09_13_extra"
+      ],
+      "subjectIds": [
+        "polity",
+        "economy",
+        "history",
+        "geography",
+        "international-relations",
+        "science-technology"
+      ],
+      "topicIds": [
+        "polity/73rd-amendment-act-1992-part-ix-articles-243-243-o-eleventh-schedule",
+        "polity/gram-sabha-articles-243-b-and-243a",
+        "polity/committees-on-panchayati-raj-balwant-rai-mehta-ashok-mehta-g-v-k-rao-l-m-singhvi-64th-amendment-bill",
+        "polity/article-243b-three-tier-structure-and-the-20-lakh-exception-article-243g-devolution",
+        "polity/article-243c-direct-election-of-seats-indirect-election-of-chairpersons",
+        "polity/article-243d-reservation-of-seats-women-s-one-third-floor",
+        "polity/article-243e-five-year-term-six-month-election-rule-remainder-of-term-principle",
+        "polity/article-243f-disqualifications-minimum-age-21",
+        "polity/article-243k-state-election-commission-appointment-by-governor-removal-like-a-high-court-judge",
+        "polity/compulsory-versus-voluntary-provisions-of-part-ix",
+        "polity/article-243m-exemptions-from-part-ix-and-parliament-s-extension-power",
+        "polity/article-243-o-bar-to-interference-by-courts-in-electoral-matters",
+        "polity/74th-amendment-act-1992-part-ixa-articles-243p-243zg-twelfth-schedule",
+        "polity/article-243q-three-types-of-municipalities",
+        "polity/bodies-outside-part-ixa-cantonment-boards-notified-area-committees-industrial-townships",
+        "polity/article-243s-wards-committees-three-lakh-threshold",
+        "polity/articles-243zd-and-243ze-district-and-metropolitan-planning-committees-four-fifths-versus-two-thirds",
+        "polity/institutions-shared-between-part-ix-and-part-ixa-articles-243-i-243y-and-243k-243za",
+        "polity/article-243r-composition-of-municipalities-non-voting-nominated-members",
+        "polity/article-239-administration-of-union-territories-governor-as-administrator",
+        "polity/article-240-president-s-regulation-making-power-and-the-puducherry-proviso",
+        "polity/article-239aa-special-provisions-for-delhi-69th-amendment-1991-excluded-entries",
+        "polity/article-244-fifth-schedule-versus-sixth-schedule-coverage",
+        "polity/fifth-schedule-tribes-advisory-council-composition-and-advisory-character",
+        "polity/fifth-schedule-governor-s-powers-president-s-assent-report-to-the-president",
+        "polity/sixth-schedule-autonomous-district-councils-composition-applicable-states",
+        "polity/pesa-1996-gram-sabha-powers-consultation-versus-consent-minor-minerals",
+        "economy/measuring-inequality-lorenz-curve-gini-coefficient-palma-ratio",
+        "economy/national-mpi-alkire-foster-method-three-dimensions-twelve-indicators",
+        "economy/poverty-estimation-tendulkar-and-rangarajan-committees",
+        "economy/subsidies-as-revenue-expenditure-revenue-versus-capital-expenditure",
+        "economy/explicit-versus-implicit-subsidies-merit-versus-non-merit-goods",
+        "economy/food-subsidy-fci-economic-cost-central-issue-price-msp-cip-wedge",
+        "economy/fertiliser-subsidy-nbs-2010-urea-statutory-mrp-n-p-k-imbalance",
+        "economy/petroleum-subsidy-deregulation-pahal-dbt-leakage-versus-exclusion-error",
+        "history/sungas-pushyamitra-bharhut-and-sanchi-the-persecution-narrative",
+        "history/indo-greeks-portrait-coinage-menander-and-the-milindapanha-gold-coinage",
+        "history/heliodorus-pillar-antialcidas-bhagabhadra-garuda-pillar-to-vasudeva",
+        "history/junagadh-inscription-rudradaman-i-saka-western-kshatrapas-sanskrit-epigraphy",
+        "history/kushanas-saka-era-78-ce-fourth-buddhist-council-the-kushana-court",
+        "history/post-mauryan-art-gandhara-mathura-and-amaravati-schools",
+        "history/satavahanas-prakrit-metronymics-coinage-nashik-prashasti-land-grants",
+        "history/sangam-age-tolkappiyam-corpus-structure-post-sangam-epics-the-tinai-scheme",
+        "geography/coal-gondwana-versus-tertiary-deposits-damodar-valley-coalfields",
+        "geography/the-three-mineral-belts-of-india-and-their-coal-endowment",
+        "geography/monazite-and-thorium-beach-sands-the-three-stage-nuclear-programme",
+        "geography/industrial-regions-location-factors-the-sugar-industry-s-southward-shift",
+        "international-relations/india-sri-lanka-1987-accord-thirteenth-amendment-ipkf-katchatheevu",
+        "international-relations/neighbourhood-connectivity-projects-maldives-myanmar-afghanistan",
+        "science-technology/in-space-nsil-and-the-indian-space-policy-2023"
+      ]
+    },
+    {
       "id": "weekly-sectional-sectional-book-topics-2026-09-06-chatgpt",
       "cadence": "sectional",
       "title": "Weekly Book Topics 50Q Companion",
@@ -20561,6 +21426,19 @@
       "date": "",
       "path": "CSAT_Strategy_Guide.md",
       "bundleId": "csat-strategy-guide",
+      "relatedNoteIds": [],
+      "relatedSetIds": [],
+      "subjectIds": [],
+      "topicIds": []
+    },
+    {
+      "id": "weekly-sunday-sunday-sweep-2026-09-13",
+      "cadence": "sunday",
+      "title": "Sunday Sweep",
+      "shortTitle": "Week of 13 Sept",
+      "date": "2026-09-13",
+      "path": "weekly/Sunday/Sunday_Sweep_2026-09-13.md",
+      "bundleId": "weekly-sunday-sunday-sweep-2026-09-13",
       "relatedNoteIds": [],
       "relatedSetIds": [],
       "subjectIds": [],
@@ -21688,6 +22566,27 @@
         "0613-kanlaon"
       ],
       "mapStatus": "ready"
+    },
+    {
+      "id": "weekly-weekly-quiz-recall-quiz-2026-09-11",
+      "cadence": "weekly-quiz",
+      "title": "Weekly Recall Quiz",
+      "shortTitle": "11 Sept 2026",
+      "date": "2026-09-11",
+      "path": "weekly/weekly_quiz/Recall_Quiz_2026-09-11.md",
+      "bundleId": "weekly-weekly-quiz-recall-quiz-2026-09-11",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "weekly_quiz_2026_09_11"
+      ],
+      "subjectIds": [
+        "current-affairs",
+        "geography"
+      ],
+      "topicIds": [
+        "current-affairs/weekly-recall-quiz",
+        "geography/weekly-recall-quiz"
+      ]
     },
     {
       "id": "weekly-weekly-quiz-recall-quiz-2026-09-04",
