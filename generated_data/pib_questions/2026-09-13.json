@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the Incentive Scheme for Promotion of Domestic PNG Connections, consider the following statements:\n1. Eligible City Gas Distribution entities receive an additional allocation of domestically produced APM gas for every incremental billed domestic PNG connection above a prescribed threshold.\n2. The scheme is administered by the Ministry of New and Renewable Energy.\n3. It is expected to reduce the payback period on per-household capital expenditure from about ten years to nearly three years.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "The scheme grants 200 SCM of additional APM (Administered Price Mechanism) gas for every incremental billed domestic PNG connection above a Geographical Area threshold, and is expected to cut the per-household capex payback period from about 10 years to nearly 3 years. Statement 2 is wrong: it is a Ministry of Petroleum & Natural Gas scheme, implemented through CGD entities authorised by the PNGRB.",
+    "subject": "Economy",
+    "theme": "Energy and Infrastructure",
+    "micro_topic": "Incentive Scheme for Promotion of Domestic PNG Connections and City Gas Distribution",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following pairs of events held or to be held in India in 2026 and their associated outcomes/themes:\n1. World Circular Economy Forum 2026 — \"Circular Economy: Transition for People and Prosperity\"\n2. Dryland Congress 2026 — Delhi Declaration on Drylands\n3. BRICS Summit 2026 — proposal for an Expert Working Group on Traditional, Complementary and Integrative Medicine\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All three",
+      "(d) None"
+    ],
+    "answer": "(c)",
+    "explanation": "All three are correct. WCEF 2026, hosted for the first time in South Asia at Gandhinagar from 15-18 September 2026, carries the theme 'Circular Economy: Transition for People and Prosperity'. The Dryland Congress 2026 in New Delhi concluded with the adoption of the Delhi Declaration on Drylands (3D) emphasising South-South and triangular cooperation. The New Delhi Declaration of the 18th BRICS Summit welcomed the proposed BRICS Expert Working Group on TCIM under the BRICS Health Track.",
+    "subject": "Environment",
+    "theme": "Global Conferences and Declarations",
+    "micro_topic": "WCEF 2026 Gandhinagar, Delhi Declaration on Drylands, BRICS TCIM Working Group",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the constitutional and statutory position of the official language of the Union, consider the following statements:\n1. Hindi Diwas commemorates the day in 1949 on which the Constituent Assembly adopted Hindi in the Devanagari script as the official language of the Union.\n2. Article 351 of the Constitution directs the Union to promote the spread of the Hindi language.\n3. The Eighth Schedule to the Constitution currently lists 22 languages.\n4. 'Vande Mataram' has been accorded a status specifically superior to that of 'Jana Gana Mana' by a provision of the Constitution.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 1 and 4 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "answer": "(a)",
+    "explanation": "Hindi Diwas marks 14 September 1949, when the Constituent Assembly adopted Hindi in Devanagari script as the official language of the Union, now reflected in Article 343. Article 351 is the directive for the development and spread of Hindi. The Eighth Schedule lists 22 languages. Statement 4 is wrong: 'Vande Mataram' is the National Song and is held to have equal status with the National Anthem; no constitutional provision grants it superior status.",
+    "subject": "Polity & Governance",
+    "theme": "Constitutional Provisions",
+    "micro_topic": "Official language of the Union, Articles 343-351, Eighth Schedule, Hindi Diwas 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]

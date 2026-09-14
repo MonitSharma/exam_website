@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to the New Delhi Declaration adopted at the 18th BRICS Summit in September 2026, consider the following statements:\n1. The Declaration endorsed the creation of a common BRICS currency to reduce dependence on the US dollar.\n2. It endorsed the International Big Cats Alliance and provided for an expert working group on Traditional, Complementary and Integrative Medicine.\n3. India proposed a BRICS Continuity and Implementation Mechanism under which follow-up of initiatives would be routed through the Troika.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statements 2 and 3 are correct. The New Delhi Declaration, adopted unanimously on 12 September 2026 on the first day of the 18th Summit at Bharat Mandapam, endorsed India's International Big Cats Alliance and provided for an expert working group on Traditional, Complementary and Integrative Medicine (TCIM). In his opening remarks India's Prime Minister proposed a BRICS Continuity and Implementation Mechanism, with follow-up of all initiatives routed through the Troika (outgoing, current and incoming chairs), to preserve institutional momentum despite the annually rotating chairship. Statement 1 is incorrect: the Declaration advanced cross-border payments and local-currency settlement but did not endorse a common BRICS currency.",
+    "subject": "International Relations",
+    "theme": "Global groupings and India's role in multilateral fora",
+    "micro_topic": "18th BRICS Summit, Bharat Mandapam, New Delhi, 12-13 September 2026; theme 'Building for Resilience, Innovation, Cooperation and Sustainability'; India's fourth chairship; 140-point New Delhi Declaration adopted unanimously on day one; BRICS Continuity and Implementation Mechanism routed through the Troika; Seafarers Emergency Support Network; ten proposals for global governance reform to be consolidated into a BRICS reform roadmap by 2027; endorsement of the International Big Cats Alliance; TCIM expert working group; BRICS Leaders' Statement on the Global Governance of Artificial Intelligence; no common currency; China assumes the chair in 2027",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "In September 2026 the European Commission transmitted to the Council of the European Union its proposals for the signing and conclusion of the India-EU Free Trade Agreement. In this context, consider the following statements:\n1. Negotiations for an India-EU trade agreement were first launched in 2007 under the Broad-based Trade and Investment Agreement framework and were suspended in 2013 before being relaunched in 2022.\n2. Once the Council authorises signature, the agreement enters into force without any further approval from the European Parliament.\n3. The EU's Carbon Border Adjustment Mechanism forms a chapter of the negotiated India-EU Free Trade Agreement.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Only statement 1 is correct. Talks began in 2007 under the Broad-based Trade and Investment Agreement (BTIA) framework, were suspended in 2013 over tariff and intellectual-property disagreements, were relaunched in 2022 and concluded on 27 January 2026; the Commission sent its proposals for signature and conclusion to the Council on 11 September 2026. Statement 2 is incorrect: after the Council authorises signature, the consent of the European Parliament is still required before the agreement can be concluded and enter into force, with India completing its own internal ratification in parallel. Statement 3 is incorrect: the Carbon Border Adjustment Mechanism is an autonomous EU measure lying outside the FTA, which is why it remains an unresolved irritant even after tariffs fall.",
+    "subject": "Economy",
+    "theme": "External sector, trade agreements and liberalisation",
+    "micro_topic": "India-EU Free Trade Agreement; European Commission proposals for signature and conclusion sent to the Council of the European Union on 11 September 2026; BTIA framework launched 2007, suspended 2013, relaunched 2022, negotiations concluded 27 January 2026 in New Delhi after the 14th round; elimination or reduction of tariffs on about 96% of EU goods exports to India; EU-India trade above EUR 180 billion a year; roughly 20 chapters; parallel Investment Protection Agreement and Geographical Indications Agreement; ratification chain of Commission-Council-European Parliament; CBAM outside the agreement; distinction between the European Council, the Council of the European Union and the Council of Europe",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Perim Island, in the news in September 2026, is located in which one of the following?",
+    "options": [
+      "(a) The Strait of Hormuz, between Iran and Oman",
+      "(b) The Bab el-Mandeb, between Yemen and Djibouti",
+      "(c) The Gulf of Aqaba, between Egypt and Saudi Arabia",
+      "(d) The Mozambique Channel, between Madagascar and Mozambique"
+    ],
+    "answer": "(b)",
+    "explanation": "Perim (Mayyun) is a Yemeni island lying inside the Bab el-Mandeb, the strait separating Yemen on the Arabian Peninsula from Djibouti and Eritrea in the Horn of Africa and linking the Red Sea to the Gulf of Aden. It sits at the strait's narrowest point, splits it into two navigable channels and has its own airstrip, which makes it a recurring military objective; Houthi forces seized it on 11 September 2026 after taking the port city of Mokha, giving them the whole of Yemen's Red Sea coastline. Larak Island lies in the Strait of Hormuz; Tiran and Sanafir lie at the mouth of the Gulf of Aqaba.",
+    "subject": "Geography",
+    "theme": "Places in news and maritime chokepoints",
+    "micro_topic": "Perim (Mayyun) Island seized on 11 September 2026; Bab el-Mandeb connecting the Red Sea to the Gulf of Aden and thence the Arabian Sea; separates Yemen from Djibouti and Eritrea; about 30 km at its narrowest; carries roughly one-tenth of global seaborne oil trade and about a quarter of container trade; third-busiest oil chokepoint after Hormuz and Malacca; no land bypass unlike Hormuz, whose alternatives are the Yanbu and Fujairah pipelines; Cape of Good Hope as the fallback route; Suez Canal opened 1869 and nationalised 1956; Mokha, Hodeidah, Socotra, Hanish Islands and Djibouti as nearby features",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The term 'superalignment', recently in the news, is best described as:",
+    "options": [
+      "(a) A technique for synchronising the training data of multiple large language models so that they produce identical outputs",
+      "(b) A branch of artificial-intelligence safety research concerned with keeping AI systems that surpass human capability reliably steerable by human intent",
+      "(c) A hardware standard for interconnecting graphics processing units in high-performance computing clusters",
+      "(d) An international treaty framework harmonising national artificial-intelligence regulations"
+    ],
+    "answer": "(b)",
+    "explanation": "Superalignment is the branch of AI-safety research that addresses the oversight asymmetry created when a system's reasoning exceeds what any human evaluator can audit, so that ordinary human-supervised alignment no longer works. Its standard techniques are weak-to-strong generalisation (training a smaller aligned model to supervise a more capable one), scalable automated oversight (AI agents that red-team and audit other models) and mechanistic interpretability (inspecting internal activations to detect deceptive alignment). It is a research agenda, not a hardware standard, a data-synchronisation technique or a treaty. The issue returned to prominence after safety resignations at a leading AI lab in the week of 9-11 September 2026.",
+    "subject": "Science & Technology",
+    "theme": "Artificial intelligence and technology governance",
+    "micro_topic": "Superalignment and the oversight-asymmetry problem; weak-to-strong generalisation; scalable automated oversight; mechanistic interpretability; deceptive alignment, sycophancy, instrumental convergence and recursive self-improvement; AI-safety resignations of 9-11 September 2026; IndiaAI Mission (Rs 10,371.92 crore, MeitY, 2024) and its Safe and Trusted AI pillar; India-AI Impact Summit, 19-20 February 2026 at Bharat Mandapam with the sutras People, Planet and Progress; summit ladder Bletchley Park 2023, Seoul 2024, Paris 2025, New Delhi 2026; International Scientific Panel on AI and Global Dialogue on AI Governance (UNGA, 2025); EU AI Act 2024",
+    "nature": "Conceptual",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to Acharya Vinoba Bhave, consider the following statements:\n1. He was selected by Mahatma Gandhi as the first Satyagrahi of the Individual Civil Disobedience Movement launched in 1940.\n2. He launched the Bhoodan movement in 1951 at Pochampally in what is now Telangana.\n3. He was awarded the Bharat Ratna during his lifetime.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Statements 1 and 2 are correct. Gandhi hand-picked Vinoba Bhave as the first individual Satyagrahi when the Individual Civil Disobedience Movement was launched in October 1940, with Jawaharlal Nehru as the second, and introduced him to the public through the essay 'Who is Vinoba?'. The Bhoodan movement began on 18 April 1951 at Pochampally village in Nalgonda district, then in Hyderabad State and now in Telangana, where Vedre Ramachandra Reddy donated 100 acres to landless families; Gramdan, the donation of whole villages, followed from 1954. Statement 3 is incorrect: Bhave died on 15 November 1982 and the Bharat Ratna was conferred on him posthumously in 1983. He did, however, receive the first international Ramon Magsaysay Award for Community Leadership in 1958, during his lifetime.",
+    "subject": "Modern History",
+    "theme": "Social reformers and post-independence land reform",
+    "micro_topic": "Vinayak Narahari 'Vinoba' Bhave, born 11 September 1895 at Gagode, Raigad district, Maharashtra, died 15 November 1982; met Gandhi at Ahmedabad on 7 June 1916; first individual Satyagrahi in October 1940 with Nehru second; Nagpur Flag Satyagraha 1923; Gram Seva Mandal, Wardha, 1934; Bhoodan launched 18 April 1951 at Pochampally, Nalgonda; Gramdan from 1954 with Mangroth as the first Gramdan village; Sarva Seva Sangh; Geetai (1930-31) and Gita Pravachane (Dhule jail, 1932); Ramon Magsaysay Award 1958; Bharat Ratna posthumously in 1983; contrast between voluntary Bhoodan and statutory land-ceiling laws",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to India's institutional arrangements for maritime security in the Indian Ocean Region, consider the following statements:\n1. The Information Fusion Centre - Indian Ocean Region is hosted by the Indian Navy at Gurugram.\n2. Operation Sankalp was launched by the Indian Navy to provide maritime security to Indian-flagged vessels in the Gulf of Oman and the Persian Gulf.\n3. India is a member of the Combined Maritime Forces, a multinational maritime partnership headquartered in Bahrain.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. The Information Fusion Centre - Indian Ocean Region (IFC-IOR) was established in 2018 at Gurugram under the Indian Navy as a hub for white-shipping information exchange with partner countries and multinational agencies. Operation Sankalp was launched in June 2019 to provide maritime security to Indian-flagged vessels transiting the Gulf of Oman and the Persian Gulf after attacks on shipping in the region. India joined the Combined Maritime Forces, the multinational maritime partnership headquartered in Bahrain, as a full member, having earlier been an associate partner.",
+    "subject": "Internal Security",
+    "theme": "Maritime security and sea lines of communication",
+    "micro_topic": "Information Fusion Centre - Indian Ocean Region at Gurugram (2018) and white-shipping information exchange; Operation Sankalp (June 2019) in the Gulf of Oman and Persian Gulf; continuous Indian Navy anti-piracy patrol in the Gulf of Aden since 2008; Combined Maritime Forces headquartered in Bahrain; India's exposure to the Bab el-Mandeb and Strait of Hormuz chokepoints; IMEC as a route-diversification hedge",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Ninth Schedule to the Constitution of India, consider the following statements:\n1. It was added by the Constitution (First Amendment) Act, 1951, primarily to protect land-reform laws from being struck down for violating fundamental rights.\n2. Article 31B confers protection on the laws placed in the Ninth Schedule.\n3. In I.R. Coelho v. State of Tamil Nadu (2007) the Supreme Court held that laws placed in the Ninth Schedule after 24 April 1973 are open to judicial review on the ground of violation of the basic structure.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. The Ninth Schedule was inserted by the Constitution (First Amendment) Act, 1951, largely to shield zamindari-abolition and other agrarian-reform legislation from challenge on fundamental-rights grounds. Article 31B, added by the same amendment, is the operative provision granting that immunity, and it is wider than Article 31A because it protects the listed laws retrospectively even if they contravene any fundamental right. In I.R. Coelho v. State of Tamil Nadu (2007) a nine-judge Bench held that laws inserted into the Ninth Schedule after 24 April 1973 - the date of the Kesavananda Bharati judgment - remain open to challenge for violating the basic structure, so the Schedule is not an absolute shield.",
+    "subject": "Polity & Governance",
+    "theme": "Constitutional amendments, fundamental rights and judicial review",
+    "micro_topic": "Ninth Schedule inserted by the Constitution (First Amendment) Act, 1951; Articles 31A, 31B and 31C; Article 31B's retrospective and wider protection compared with Article 31A; Kesavananda Bharati (24 April 1973) and the basic-structure doctrine; I.R. Coelho v. State of Tamil Nadu (2007) nine-judge Bench; link to zamindari abolition and land-ceiling legislation and to the Bhoodan-Gramdan alternative",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  }
+]
