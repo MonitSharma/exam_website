@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to data centres in India, consider the following statements:\n1. Data centres were included in the Harmonized List of Infrastructure in the Union Budget 2022-23.\n2. The Central Electricity Authority has projected that data-centre power demand could reach about 17 GW by 2031-32.\n3. The Bureau of Indian Standards has published standards on Power Usage Effectiveness and Water Usage Effectiveness for data centres.\nHow many of the statements given above are correct?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All three",
+      "(d) None"
+    ],
+    "answer": "(c)",
+    "explanation": "All three are correct. Infrastructure status was granted in Union Budget 2022-23, easing access to long-term credit; the CEA projects data-centre demand of about 17 GW by 2031-32; and BIS technical committee LITD 31 has published PUE, CUE, CER and WUE standards.",
+    "subject": "Science & Technology",
+    "theme": "Digital Infrastructure",
+    "micro_topic": "Data Centres and Digital Infrastructure Policy",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following pairs of cross-border electricity transmission links between India and Nepal:\n1. Muzaffarpur - Dhalkebar : 400 kV\n2. Tanakpur - Mahendranagar : 132 kV\nWhich of the pairs given above is/are correctly matched?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 only",
+      "(c) Both 1 and 2",
+      "(d) Neither 1 nor 2"
+    ],
+    "answer": "(c)",
+    "explanation": "Both are correctly matched. The Ministry of Power's September 2026 approval covers up to 600 MW through the Muzaffarpur-Dhalkebar 400 kV double-circuit line and up to 54 MW through the Tanakpur-Mahendranagar 132 kV single-circuit line, to help Nepal meet demand after flood damage to its hydropower infrastructure.",
+    "subject": "International Relations",
+    "theme": "India and its Neighbourhood",
+    "micro_topic": "India-Nepal Energy Cooperation and Cross-Border Power Trade",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "With reference to the Wholesale Price Index (WPI) in India, consider the following statements:\n1. The current WPI series uses 2022-23 as the base year.\n2. Among the three major groups of the WPI, 'Manufactured Products' carries the largest weight.\n3. The WPI Food Index is drawn only from the 'Primary Articles' major group.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Statement 3 is incorrect: the WPI Food Index (weight 24.99 per cent) combines 'Food Articles' from Primary Articles and 'Manufacture of Food Products' from Manufactured Products, so it draws on two major groups. Statements 1 and 2 are correct: the base year is 2022-23 and Manufactured Products carries the largest weight at 63.13 per cent.",
+    "subject": "Economy",
+    "theme": "Inflation and Price Indices",
+    "micro_topic": "Wholesale Price Index - Composition and Base Year",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]
