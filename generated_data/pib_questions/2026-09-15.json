@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the Periodic Labour Force Survey (PLFS) Monthly Bulletin for August 2026, consider the following statements:\n1. The PLFS is conducted by the National Statistical Office under the Ministry of Statistics and Programme Implementation.\n2. The monthly bulletins present all-India estimates of labour market indicators following the Current Weekly Status approach.\n3. In August 2026, the unemployment rate in rural areas was higher than that in urban areas.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Statement 3 is incorrect: in August 2026 the rural unemployment rate was 4.1% (the lowest since January 2026), lower than the urban rate of 6.8%. Statements 1 and 2 are correct - PLFS is conducted by the NSO under MoSPI, and the monthly bulletins give all-India estimates of LFPR, WPR and UR using the Current Weekly Status approach.",
+    "subject": "Economy",
+    "theme": "Employment and Labour",
+    "micro_topic": "Periodic Labour Force Survey - Monthly Bulletin",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the India-MERCOSUR Preferential Trade Agreement, consider the following statements:\n1. MERCOSUR was established by the Treaty of Asuncion, and Argentina, Brazil, Paraguay and Uruguay were its founding members.\n2. The India-MERCOSUR Preferential Trade Agreement entered into force in 2009.\n3. The First Additional Protocol signed in September 2026 amends the Rules of Origin annex to give electronic Certificates of Origin the same legal validity as those issued in paper format.\nHow many of the statements given above are correct?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All three",
+      "(d) None"
+    ],
+    "answer": "(c)",
+    "explanation": "All three are correct. MERCOSUR was created by the Treaty of Asuncion (1991) with Argentina, Brazil, Paraguay and Uruguay as founding members. The India-MERCOSUR PTA was signed on 25 January 2004 and entered into force on 1 June 2009, covering 450 tariff lines on India's side and 452 on MERCOSUR's. The First Additional Protocol, signed on 14 September 2026, amends Article 16 of Annex III (Rules of Origin) so that electronic Certificates of Origin have the same legal validity as paper ones.",
+    "subject": "International Relations",
+    "theme": "Regional Groupings and Trade Agreements",
+    "micro_topic": "India-MERCOSUR Preferential Trade Agreement",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements regarding the Scholarships for Higher Education for Young Achievers Scheme (SHREYAS):\n1. It is implemented by the Ministry of Education.\n2. The National Overseas Scholarship component enables Scheduled Caste students to pursue higher studies at institutions abroad.\n3. Among its four major components, the National Fellowship for Scheduled Caste Students has accounted for the largest share of expenditure since 2014-15.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statement 1 is incorrect: SHREYAS is implemented by the Ministry of Social Justice & Empowerment, not the Ministry of Education. Statement 2 is correct - the National Overseas Scholarship supports SC students studying abroad (764 beneficiaries between 2014-15 and 2025-26). Statement 3 is correct - the National Fellowship for SC Students accounted for about Rs. 2,199.28 crore of the scheme's Rs. 3,509.39 crore cumulative expenditure, the largest of the four components.",
+    "subject": "Polity & Governance",
+    "theme": "Welfare Schemes for Vulnerable Sections",
+    "micro_topic": "SHREYAS - Scholarships for SC and OBC Students",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]
