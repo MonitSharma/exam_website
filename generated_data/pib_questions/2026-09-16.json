@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the Union Cabinet's decision of September 2026 on the Employees' Provident Fund Organisation (EPFO), consider the following statements:\n1. The wage ceiling for mandatory coverage under EPFO has been raised from Rs.15,000 to Rs.25,000 per month.\n2. The wage ceiling being revised had last been enhanced in September 2014.\n3. The revision extends coverage under the Employees' Pension Scheme and the Employees' Deposit Linked Insurance Scheme in addition to the provident fund.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. The Union Cabinet raised the EPFO mandatory-coverage wage ceiling from Rs.15,000 to Rs.25,000 per month, expected to bring over 51 lakh additional employees under coverage. The ceiling was last enhanced in September 2014, having remained unchanged from 2004 to 2014. The revision expands access to EPF, the Employees' Pension Scheme (EPS) and the Employees' Deposit Linked Insurance Scheme (EDLI). Annual Government outgo is estimated at about Rs.11,339 crore, with a five-year cost of about Rs.56,696 crore.",
+    "subject": "Polity & Governance",
+    "theme": "Social Security and Welfare",
+    "micro_topic": "EPFO wage ceiling enhancement - Cabinet decision 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements regarding the PM Vishwakarma Scheme:\n1. It is implemented by the Ministry of Skill Development and Entrepreneurship.\n2. It provides credit support of up to Rs.1 lakh at a concessional interest rate of 5% per annum.\n3. It covers traditional artisans and craftspeople engaged in 18 identified trades.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statement 1 is incorrect: PM Vishwakarma is implemented by the Ministry of Micro, Small & Medium Enterprises, although the Ministry of Skill Development and Entrepreneurship delivers the Basic Skill Training component (about 24.50 lakh trained). Statement 2 is correct - 6.18 lakh beneficiaries have received loans of up to Rs.1 lakh at 5% per annum, totalling Rs.5,297 crore. Statement 3 is correct - the scheme, launched on 17 September 2023, covers 18 identified trades and has now registered 30 lakh beneficiaries, meeting its registration target.",
+    "subject": "Economy",
+    "theme": "MSME and Informal Sector",
+    "micro_topic": "PM Vishwakarma Scheme - three-year milestone",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "'Swachh Seva Aankalan', recently seen in the news, is:",
+    "options": [
+      "(a) A ranking of urban local bodies on solid waste management under the Swachh Survekshan framework",
+      "(b) An annual Gram Panchayat-level digital self-assessment framework for rural sanitation service delivery under Swachh Bharat Mission (Grameen)",
+      "(c) A certification scheme for sanitation workers under the NAMASTE scheme",
+      "(d) A third-party audit of faecal sludge treatment plants conducted by the Central Pollution Control Board"
+    ],
+    "answer": "(b)",
+    "explanation": "Swachh Seva Aankalan is an annual, Gram Panchayat-level digital self-assessment framework launched by the Department of Drinking Water and Sanitation, Ministry of Jal Shakti, under Swachh Bharat Mission (Grameen) 2.0. ODF Plus (Model) declared Gram Panchayats, with their Village Water & Sanitation Committees, self-assess ODF sustainability, visual cleanliness and Solid and Liquid Waste Management; findings are validated by the Gram Sabha and reviewed by District and State authorities in DWSM/SWSM meetings. Option (a) describes Swachh Survekshan, which is urban; option (c) misstates NAMASTE, a Ministry of Social Justice & Empowerment scheme for sanitation workers.",
+    "subject": "Polity & Governance",
+    "theme": "Local Governance and Rural Development",
+    "micro_topic": "Swachh Seva Aankalan - SBM(G) 2.0 self-assessment framework",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]
