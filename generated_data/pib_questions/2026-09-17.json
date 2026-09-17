@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the Certificate (Bridge) Course in Primary Teacher Education launched in September 2026, consider the following statements:\n1. The course has been designed as per the framework of the National Council for Teacher Education and is implemented through the National Institute of Open Schooling.\n2. It is intended for in-service primary teachers who hold a B.Ed. degree.\n3. It gives effect to a direction of the Supreme Court of India in the Devesh Sharma case.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. The six-month Certificate (Bridge) Course in Primary Teacher Education was designed as per the NCTE framework and is delivered by NIOS in Open and Distance Learning mode. It is meant for in-service primary teachers holding a B.Ed., specifically those appointed between 28 June 2018 and 11 August 2023. It operationalises the Supreme Court judgment of 8 April 2024 in Devesh Sharma v. Union of India (Civil Appeal No. 5068 of 2023), which empowered NCTE to devise a bridge course for primary teachers lacking a D.El.Ed.",
+    "subject": "Polity & Governance",
+    "theme": "Education Policy and Regulatory Bodies",
+    "micro_topic": "NCTE bridge course for B.Ed-qualified primary teachers",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Electronics Components Manufacturing Scheme (ECMS), consider the following statements:\n1. It is administered by the Ministry of Commerce and Industry.\n2. It targets electronic components, sub-assemblies and capital goods rather than finished electronic products.\n3. Approved investment under the scheme has exceeded the investment target originally envisaged for it.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 2 only"
+    ],
+    "answer": "(b)",
+    "explanation": "Statement 1 is incorrect: ECMS is administered by the Ministry of Electronics and Information Technology (MeitY), not the Ministry of Commerce and Industry. Statement 2 is correct: ECMS deliberately targets the component, sub-assembly and capital-goods layer, complementing the Semicon India Programme (chips) and the PLI schemes (finished goods). Statement 3 is correct: approved investment stands at about Rs.69,548 crore against an original target of Rs.59,350 crore, spread over 106 approved projects across 15 States, with 38 plants already manufacturing.",
+    "subject": "Science & Technology",
+    "theme": "Electronics and Semiconductor Manufacturing",
+    "micro_topic": "Electronics Components Manufacturing Scheme (ECMS)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Exercise YUDH ABHYAS, seen in the news recently, is a joint military exercise between India and which country, and involves which service?",
+    "options": [
+      "(a) France — Air Force",
+      "(b) United States — Army",
+      "(c) Russia — tri-services",
+      "(d) Japan — Navy"
+    ],
+    "answer": "(b)",
+    "explanation": "YUDH ABHYAS is the annual India-United States Army exercise. The 22nd edition began at Auli (Uttarakhand) and Mahajan Field Firing Range (Rajasthan) with about 600 troops from each side, focusing on mountain warfare, Integrated Battle Groups and drones/autonomous systems. Related India-US exercises: Vajra Prahar (Special Forces), Cope India (Air Force), Tiger Triumph (tri-services amphibious/HADR); Malabar is the naval exercise involving India, the US, Japan and Australia.",
+    "subject": "Internal Security",
+    "theme": "Military Exercises and Defence Cooperation",
+    "micro_topic": "Exercise Yudh Abhyas 2026 (India-US Army)",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]
