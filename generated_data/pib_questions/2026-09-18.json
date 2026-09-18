@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the soil-carbon payments made to farmers in Punjab and Haryana in September 2026, consider the following statements:\n1. The payments were made through Direct Benefit Transfer after independent verification of greenhouse-gas reductions and soil-carbon gains.\n2. The farming practices for which credits were issued included Direct Seeded Rice, reduced tillage and crop residue management.\n3. The payments were made under the Pradhan Mantri Fasal Bima Yojana.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Statements 1 and 2 are correct: over Rs 2.9 crore was transferred by DBT to 2,550 smallholder farmers after greenhouse-gas reductions and soil-carbon increases were measured and independently verified, covering about 30,000 acres and more than 50,000 carbon credits; the qualifying practices adopted between 2019 and 2022 were Direct Seeded Rice, reduced tillage and crop residue management. Statement 3 is wrong - the payments came from the 'Aadi' farmer carbon programme run by Grow Indigo with technical guidance from ICAR, not from PMFBY, which is a crop insurance scheme paying out against yield loss, not ecosystem services.",
+    "subject": "Agriculture",
+    "theme": "Sustainable Agriculture and Farmer Income",
+    "micro_topic": "Soil carbon credits and regenerative agriculture",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements regarding the revised stockholding limit for bulk sugar consumers announced in September 2026:\n1. The limit was relaxed from 15 days' to 30 days' consumption, but the additional stock must be sourced only from sugar imported under the Advance Authorisation Scheme and the Tariff Rate Quota.\n2. A \"bulk consumer\" under the relevant order is an entity consuming more than 10 metric tonnes of sugar per month.\n3. Stock purchased from the domestic open market may also now be held for up to 30 days' consumption.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Statements 1 and 2 are correct. Statement 3 is the trap and is wrong: the relaxation is source-conditional - purchases from the domestic open market remain capped at 15 days' consumption, and only sugar imported under the Advance Authorisation Scheme (AAS) and Tariff Rate Quota (TRQ) may be held for the additional 15 days. The parent Sugar (Stockholding Limit of Bulk Consumers) Order, 2026 runs from 1 September to 30 November 2026 and defines a bulk consumer as an entity using more than 10 MT of sugar per month as raw material.",
+    "subject": "Economy",
+    "theme": "Essential Commodities and Price Management",
+    "micro_topic": "Sugar stockholding limits, AAS and TRQ imports",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "The Shanghai Cooperation Organisation (SCO) was in the news in September 2026 following the 25th Meeting of Ministers responsible for Foreign Economic and Trade Activities. With reference to the SCO, consider the following statements:\n1. Its Regional Anti-Terrorist Structure (RATS) is headquartered in Tashkent.\n2. Its Secretariat is located in Beijing.\n3. Programmes of multilateral trade and economic cooperation are approved by the Council of Heads of Government, not the Council of Heads of State.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. The SCO Secretariat is in Beijing and the Regional Anti-Terrorist Structure (RATS) is in Tashkent - the two permanent bodies, and a very common prelims pairing. Trade and economic programmes, including the Action Plan 2026-2030 for implementing the SCO Programme of Multilateral Trade and Economic Cooperation agreed at Dushanbe on 17 September 2026, go to the Council of Heads of Government (CHG) for approval, while the Council of Heads of State (CHS) is the annual summit-level body. India was represented at Dushanbe by Shri Yashvir Singh, Additional Secretary, Department of Commerce.",
+    "subject": "International Relations",
+    "theme": "Regional Groupings and India",
+    "micro_topic": "Shanghai Cooperation Organisation structure and economic cooperation",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]
