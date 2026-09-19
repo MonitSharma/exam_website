@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the appointment of Judges of High Courts in India, consider the following statements:\n1. Additional Judges of a High Court are appointed under Article 224 of the Constitution for a period not exceeding two years.\n2. A Judge of a High Court is appointed by the President after consultation with the Chief Justice of India and the Governor of the State concerned.\n3. The Constitution prescribes a minimum age of 45 years for appointment as a Judge of a High Court.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Statements 1 and 2 are correct. Article 224 allows the President to appoint Additional Judges when a High Court's business is temporarily increased or arrears have accumulated, for a period not exceeding two years. Under Article 217(1) a High Court judge is appointed by the President after consultation with the CJI, the Governor of the State, and - for a judge other than the Chief Justice - the Chief Justice of that High Court. Statement 3 is wrong: the Constitution prescribes no minimum age for a High Court judge; Article 217(2) requires only citizenship plus ten years of judicial office or ten years as an advocate of a High Court, and the retirement age is 62. On 19 September 2026 the President appointed 14 judicial officers, five of them women, to the Delhi, Jammu & Kashmir and Ladakh, Jharkhand and Karnataka High Courts.",
+    "subject": "Polity & Governance",
+    "theme": "Judiciary",
+    "micro_topic": "Appointment of High Court judges (Articles 217 and 224)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Telecom Commercial Communication Customer Preference (Third Amendment) Regulations, 2026, consider the following statements:\n1. Application-to-Person (A2P) calls have been defined to include autodialled calls, robo-calls and calls made using pre-recorded or artificial voice.\n2. The threshold for complaint-based action against a sender has been reduced from five to three unique complaints within ten days, where the sender's CLI is also flagged by an AI/ML-based system.\n3. Numbers in the 140xx, 1600xx and 1601xx series will henceforth be flagged as suspected spam for recipients.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statements 1 and 2 are correct as notified by TRAI on 18 September 2026. A2P calls are defined as voice calls initiated by an application, software system or automated platform without direct human dialling, expressly including autodialling, robo-calls and pre-recorded or artificial voice; and the complaint trigger has been cut from five to three unique complaints in ten days when corroborated by AI/ML flagging of the sender's CLI. Statement 3 inverts the regulation: the special series designated for commercial communications - 140xx, 1600xx and 1601xx - shall NOT be flagged as suspected spam, so that legitimate commercial and government communications are not missed. Also notified: undeclared A2P calls are treated as UCC, a termination charge of up to Rs 0.05 per minute applies, and a new 15-day consumer appeal to the Appellate Authority has been created.",
+    "subject": "Science & Technology",
+    "theme": "Telecom regulation and AI in enforcement",
+    "micro_topic": "TRAI TCCCPR Third Amendment Regulations 2026 - A2P calls and UCC",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Consider the following:\n1. Integrated Programme for Senior Citizens (IPSrC)\n2. Rashtriya Vayoshri Yojana\n3. Elderline - National Helpline for Senior Citizens\n4. Atal Pension Yojana\nHow many of the above are components of the Atal Vayo Abhyuday Yojana (AVYAY)?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) Only three",
+      "(d) All four"
+    ],
+    "answer": "(c)",
+    "explanation": "IPSrC, Rashtriya Vayoshri Yojana and Elderline (14567) are all components of AVYAY, along with the State Action Plan for Senior Citizens (SAPSrC) and the Training of Geriatric Caregivers. Atal Pension Yojana is the odd one out - it is a guaranteed pension scheme administered by the PFRDA under the Ministry of Finance, not a component of AVYAY, which is an umbrella scheme of the Ministry of Social Justice and Empowerment. The 18 September 2026 release stated that about Rs 1,089.58 crore has been released under IPSrC and SAPSrC together, with more than 10.76 lakh senior citizens supported under IPSrC from FY 2014-15 to FY 2025-26.",
+    "subject": "Society",
+    "theme": "Welfare of vulnerable sections",
+    "micro_topic": "Atal Vayo Abhyuday Yojana (AVYAY) and senior citizen welfare",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]
