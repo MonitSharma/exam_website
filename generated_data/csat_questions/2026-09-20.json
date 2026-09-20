@@ -1,0 +1,354 @@
+[
+  {
+    "question": "Read the following passage and answer the question that follows.\n\nEngineers who improve the efficiency of a machine usually describe their achievement in terms of the fuel it will save. The calculation looks simple: if a lamp now delivers the same light for a quarter of the energy, then lighting a house should require a quarter of the energy it did before. Economists have long been sceptical of this arithmetic. Efficiency lowers the effective price of the service a device provides — light, warmth, distance travelled — and when the price of anything falls, people tend to buy more of it. Householders who once lit one room now light gardens, façades and corridors; freight firms whose lorries travel further on a litre of diesel find longer routes worth running. Part of the engineer's saving is spent rather than banked. Where the saving is large enough to lower production costs across an entire economy, the additional output it makes possible may consume more energy than the original improvement saved.\n\nThe size of this \"rebound\" is contested, and the dispute is less empirical than definitional. Measured narrowly — one household, one appliance, one year — rebound is usually modest, perhaps a fifth of the expected saving. Measured across an economy over decades, the effect of efficiency cannot be cleanly separated from everything else that changed in the same period, and the estimates diverge accordingly. What is not in doubt is the direction. Efficiency is a means of obtaining more service from a given quantity of energy; it is not, by itself, an instrument for obtaining less energy. Policies that treat the two as equivalent will be disappointed by their own success. If the object is to reduce consumption, the price of energy must be prevented from falling as efficiency rises — which is precisely what a carbon tax, a quantity cap or a rising standard is for. Efficiency then becomes what it can be: a way of making a constraint cheaper to bear, rather than a substitute for imposing one.\n\nQ. Which one of the following best captures the central idea of the passage?",
+    "options": [
+      "(a) Estimates of the rebound effect are unreliable because economy-wide effects cannot be isolated from other changes occurring at the same time.",
+      "(b) Engineers systematically overstate the benefits of their work because they disregard how consumers behave.",
+      "(c) Efficiency increases the service obtained per unit of energy, and therefore reduces total energy use only when it is paired with a measure that stops energy services from becoming cheaper.",
+      "(d) Carbon taxes and quantity caps are superior to efficiency standards as instruments of energy policy."
+    ],
+    "answer": "(c)",
+    "explanation": "The passage's arc is: efficiency lowers the effective price of an energy service, so consumption of that service rises; efficiency alone is therefore not an instrument for cutting energy use, and must be paired with something that keeps the price from falling. (a) and (b) are subsidiary points; (d) reverses the author's position, which treats the two as complements rather than rivals.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Main idea - science/economics passage on the rebound effect",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Read the following passage and answer the question that follows.\n\nEngineers who improve the efficiency of a machine usually describe their achievement in terms of the fuel it will save. The calculation looks simple: if a lamp now delivers the same light for a quarter of the energy, then lighting a house should require a quarter of the energy it did before. Economists have long been sceptical of this arithmetic. Efficiency lowers the effective price of the service a device provides — light, warmth, distance travelled — and when the price of anything falls, people tend to buy more of it. Householders who once lit one room now light gardens, façades and corridors; freight firms whose lorries travel further on a litre of diesel find longer routes worth running. Part of the engineer's saving is spent rather than banked. Where the saving is large enough to lower production costs across an entire economy, the additional output it makes possible may consume more energy than the original improvement saved.\n\nThe size of this \"rebound\" is contested, and the dispute is less empirical than definitional. Measured narrowly — one household, one appliance, one year — rebound is usually modest, perhaps a fifth of the expected saving. Measured across an economy over decades, the effect of efficiency cannot be cleanly separated from everything else that changed in the same period, and the estimates diverge accordingly. What is not in doubt is the direction. Efficiency is a means of obtaining more service from a given quantity of energy; it is not, by itself, an instrument for obtaining less energy. Policies that treat the two as equivalent will be disappointed by their own success. If the object is to reduce consumption, the price of energy must be prevented from falling as efficiency rises — which is precisely what a carbon tax, a quantity cap or a rising standard is for. Efficiency then becomes what it can be: a way of making a constraint cheaper to bear, rather than a substitute for imposing one.\n\nQ. A city replaces its bus fleet with vehicles that consume 40 per cent less fuel per kilometre, and at the same time cuts fares in proportion to the fuel saved. On the author's reasoning, which one of the following is most likely?",
+    "options": [
+      "(a) The fleet's total fuel consumption will fall by close to 40 per cent.",
+      "(b) The fleet's total fuel consumption will fall by less than 40 per cent, and may not fall at all.",
+      "(c) Passenger numbers will be unaffected, because bus travel is a necessity rather than a discretionary purchase.",
+      "(d) The city's total energy use will certainly rise."
+    ],
+    "answer": "(b)",
+    "explanation": "Cheaper bus travel raises the demand for bus-kilometres, so part of the 40 per cent engineering saving is spent rather than banked. (a) ignores rebound; (d) overreaches, since the passage says economy-wide backfire may occur, not that it must; (c) contradicts the passage's premise that demand responds to price.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Inference - applying the argument to a new case",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Read the following passage and answer the question that follows.\n\nEngineers who improve the efficiency of a machine usually describe their achievement in terms of the fuel it will save. The calculation looks simple: if a lamp now delivers the same light for a quarter of the energy, then lighting a house should require a quarter of the energy it did before. Economists have long been sceptical of this arithmetic. Efficiency lowers the effective price of the service a device provides — light, warmth, distance travelled — and when the price of anything falls, people tend to buy more of it. Householders who once lit one room now light gardens, façades and corridors; freight firms whose lorries travel further on a litre of diesel find longer routes worth running. Part of the engineer's saving is spent rather than banked. Where the saving is large enough to lower production costs across an entire economy, the additional output it makes possible may consume more energy than the original improvement saved.\n\nThe size of this \"rebound\" is contested, and the dispute is less empirical than definitional. Measured narrowly — one household, one appliance, one year — rebound is usually modest, perhaps a fifth of the expected saving. Measured across an economy over decades, the effect of efficiency cannot be cleanly separated from everything else that changed in the same period, and the estimates diverge accordingly. What is not in doubt is the direction. Efficiency is a means of obtaining more service from a given quantity of energy; it is not, by itself, an instrument for obtaining less energy. Policies that treat the two as equivalent will be disappointed by their own success. If the object is to reduce consumption, the price of energy must be prevented from falling as efficiency rises — which is precisely what a carbon tax, a quantity cap or a rising standard is for. Efficiency then becomes what it can be: a way of making a constraint cheaper to bear, rather than a substitute for imposing one.\n\nQ. The author's recommendation that efficiency be accompanied by a carbon tax, a cap or a rising standard rests on which one of the following assumptions?",
+    "options": [
+      "(a) Consumers respond to a fall in the effective price of an energy service by consuming more of that service.",
+      "(b) Engineers are unaware that consumer behaviour changes in response to efficiency.",
+      "(c) The rebound effect exceeds 100 per cent in most modern economies.",
+      "(d) Efficiency improvements are generally cheaper to achieve than carbon taxes are to administer."
+    ],
+    "answer": "(a)",
+    "explanation": "Negation test: if consumers did not buy more of a service when its effective price fell, there would be no rebound and nothing for a tax or cap to offset, so the recommendation would collapse. That makes (a) necessary. (c) is far stronger than the argument requires, since the author puts typical rebound at about a fifth.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Assumption identification - negation test",
+    "nature": "Aptitude",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Read the following passage and answer the question that follows.\n\nTwo drivers set out one evening equally careless, equally drunk, equally indifferent to the risk they impose on others. One reaches home; the other, on a road no more dangerous than the first, meets a child who has stepped off a kerb. We do not judge them alike. The second is a killer — tried, imprisoned and, more to the point, reviled. The first collects a fine and an insurance penalty and is, within a year, forgiven by everyone including himself. Yet the entire difference between them lies in a fact neither of them controlled. Whether a child stepped off a kerb was not something either driver decided.\n\nThis is uncomfortable, because morality is supposed to be the one domain that luck does not reach. We do not blame people for their height or their inheritance; we blame them for what they do, and what they do is meant to be theirs. But once the thought is followed through, the province of the truly voluntary contracts alarmingly. What a person is disposed to want, the temperament that makes courage easy or cruelty tempting, the situations that arise to test them — none of these are chosen either. Strip away everything that luck supplied and there may be nothing left over to praise or blame.\n\nTwo responses are available, and neither is comfortable. The first insists that our ordinary judgements are simply confused, and that the two drivers deserve identical censure; the practice of punishing outcomes is then an administrative convenience, not a moral truth. The second accepts that moral assessment never was a matter of assessing a person's inner will alone, but of responding to what people actually do in a world they do not control. The first response is tidy, and leaves our deepest practices looking like a mistake. The second saves the practices at the cost of the very idea that made them seem defensible.\n\nQ. Which one of the following best expresses the main idea of the passage?",
+    "options": [
+      "(a) Drunk drivers who cause a death should receive exactly the same punishment as those who do not.",
+      "(b) Ordinary moral judgement lets outcomes matter even though outcomes depend on luck, and neither available way of resolving that tension is free of cost.",
+      "(c) Since almost nothing a person does is truly voluntary, praise and blame ought to be abandoned altogether.",
+      "(d) The law punishes outcomes for reasons of administrative convenience rather than for moral reasons."
+    ],
+    "answer": "(b)",
+    "explanation": "The passage sets up a conflict - outcomes govern our judgements, yet outcomes are luck - and closes by noting that the tidy response discredits our practices while the other saves them by surrendering their rationale. (a) and (d) belong only to the first response; (c) is a possibility raised and not endorsed.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Main idea - philosophical passage on moral luck",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Read the following passage and answer the question that follows.\n\nTwo drivers set out one evening equally careless, equally drunk, equally indifferent to the risk they impose on others. One reaches home; the other, on a road no more dangerous than the first, meets a child who has stepped off a kerb. We do not judge them alike. The second is a killer — tried, imprisoned and, more to the point, reviled. The first collects a fine and an insurance penalty and is, within a year, forgiven by everyone including himself. Yet the entire difference between them lies in a fact neither of them controlled. Whether a child stepped off a kerb was not something either driver decided.\n\nThis is uncomfortable, because morality is supposed to be the one domain that luck does not reach. We do not blame people for their height or their inheritance; we blame them for what they do, and what they do is meant to be theirs. But once the thought is followed through, the province of the truly voluntary contracts alarmingly. What a person is disposed to want, the temperament that makes courage easy or cruelty tempting, the situations that arise to test them — none of these are chosen either. Strip away everything that luck supplied and there may be nothing left over to praise or blame.\n\nTwo responses are available, and neither is comfortable. The first insists that our ordinary judgements are simply confused, and that the two drivers deserve identical censure; the practice of punishing outcomes is then an administrative convenience, not a moral truth. The second accepts that moral assessment never was a matter of assessing a person's inner will alone, but of responding to what people actually do in a world they do not control. The first response is tidy, and leaves our deepest practices looking like a mistake. The second saves the practices at the cost of the very idea that made them seem defensible.\n\nQ. A general orders an attack that is reckless by every professional standard; an accident of weather routs the enemy and he is decorated. In terms of the author's argument, this case is best described as",
+    "options": [
+      "(a) an instance of the same phenomenon, with luck operating in the direction of praise rather than blame.",
+      "(b) a counter-example, since military judgement is not moral judgement.",
+      "(c) irrelevant, because the general's recklessness was not itself voluntary.",
+      "(d) evidence that our moral practices are, after all, internally consistent."
+    ],
+    "answer": "(a)",
+    "explanation": "Moral luck cuts both ways. The general's standing, like the second driver's, is fixed by an outcome he did not control; since the author's point concerns moral assessment generally, praise is affected exactly as blame is.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Inference - extending the argument to praise as well as blame",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Read the following passage and answer the question that follows.\n\nTwo drivers set out one evening equally careless, equally drunk, equally indifferent to the risk they impose on others. One reaches home; the other, on a road no more dangerous than the first, meets a child who has stepped off a kerb. We do not judge them alike. The second is a killer — tried, imprisoned and, more to the point, reviled. The first collects a fine and an insurance penalty and is, within a year, forgiven by everyone including himself. Yet the entire difference between them lies in a fact neither of them controlled. Whether a child stepped off a kerb was not something either driver decided.\n\nThis is uncomfortable, because morality is supposed to be the one domain that luck does not reach. We do not blame people for their height or their inheritance; we blame them for what they do, and what they do is meant to be theirs. But once the thought is followed through, the province of the truly voluntary contracts alarmingly. What a person is disposed to want, the temperament that makes courage easy or cruelty tempting, the situations that arise to test them — none of these are chosen either. Strip away everything that luck supplied and there may be nothing left over to praise or blame.\n\nTwo responses are available, and neither is comfortable. The first insists that our ordinary judgements are simply confused, and that the two drivers deserve identical censure; the practice of punishing outcomes is then an administrative convenience, not a moral truth. The second accepts that moral assessment never was a matter of assessing a person's inner will alone, but of responding to what people actually do in a world they do not control. The first response is tidy, and leaves our deepest practices looking like a mistake. The second saves the practices at the cost of the very idea that made them seem defensible.\n\nQ. The tone of the passage is best described as",
+    "options": [
+      "(a) sceptical of the idea that morality can be insulated from luck, while declining to settle the question.",
+      "(b) indignant at a legal system that punishes misfortune.",
+      "(c) confident that ordinary moral judgement is mistaken and should be reformed.",
+      "(d) detached and purely descriptive, taking no position of its own."
+    ],
+    "answer": "(a)",
+    "explanation": "The author calls the situation 'uncomfortable', says the province of the voluntary contracts 'alarmingly', and ends by pricing both responses - engaged and sceptical, but deliberately unresolved. (d) fails on the evaluative language; (c) mistakes one of the two responses for the author's own view.",
+    "subject": "CSAT",
+    "theme": "RC",
+    "micro_topic": "Tone and attitude",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Seven persons - P, Q, R, S, T, U and V - live on seven floors of a building, numbered 1 (lowest) to 7 (highest), one person per floor.\n(i) Exactly three persons live between V and Q.\n(ii) S lives on the floor immediately above T.\n(iii) R lives on an odd-numbered floor above floor 3.\n(iv) Q lives on a floor below V.\n(v) P lives on floor 2.\n(vi) U does not live on the topmost floor.\n\nQ. Who lives on the floor immediately below R?",
+    "options": [
+      "(a) S",
+      "(b) V",
+      "(c) U",
+      "(d) T"
+    ],
+    "answer": "(c)",
+    "explanation": "From (i) and (iv), Q is below V with exactly three persons between them, so their floor numbers differ by 4: (Q, V) = (1, 5), (2, 6) or (3, 7). By (v) P is on floor 2, so (2, 6) is out. If Q = 3 and V = 7, then by (iii) R = 5, leaving floors 1, 4 and 6 for S, T and U - but no two of these are consecutive, so (ii) fails and the case is rejected. Hence Q = 1 and V = 5; by (iii) R = 7. Floors 3, 4 and 6 remain, and the only consecutive pair is (3, 4), so T = 3, S = 4 and U = 6, which satisfies (vi). The order from floor 1 upward is Q, P, T, S, V, U, R, so the person immediately below R is U.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Floor arrangement puzzle with case elimination",
+    "nature": "Aptitude",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In a certain code:\n'A % B' means 'A is the daughter of B';\n'A $ B' means 'A is the sister of B';\n'A * B' means 'A is the father of B'.\n\nQ. Given the expression K % L $ M * O, how is O related to K?",
+    "options": [
+      "(a) Brother",
+      "(b) Nephew",
+      "(c) Cousin",
+      "(d) Cannot be determined"
+    ],
+    "answer": "(c)",
+    "explanation": "K % L means K is L's daughter. L $ M means L is M's sister, so L is female and M is her brother. M * O means M is O's father. Thus K is the child of L and O is the child of M, where L and M are siblings - so K and O are the children of a sister and a brother, that is, cousins. O's gender is unknown but 'cousin' does not depend on it, so the relation is fully determined.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Coded blood relations",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Statements:\nI. Only a few engineers are writers.\nII. All writers are readers.\nIII. No reader is a farmer.\n\nConclusions:\n1. Some engineers are readers.\n2. No writer is a farmer.\n3. Some engineers are not farmers.\n\nQ. Which of the conclusions follow from the statements?",
+    "options": [
+      "(a) Only 1 and 2",
+      "(b) Only 2 and 3",
+      "(c) Only 1 and 3",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "'Only a few engineers are writers' asserts both that some engineers are writers and that some engineers are not writers. Conclusion 1: some engineers are writers, and all writers are readers, so some engineers are readers - it follows. Conclusion 2: all writers are readers and no reader is a farmer, so no writer is a farmer - it follows. Conclusion 3: from Conclusion 1 there exist engineers who are readers, and no reader is a farmer, so those engineers are not farmers, giving 'some engineers are not farmers' - it follows. All three hold.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Syllogism with an 'Only a few' statement",
+    "nature": "Aptitude",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Data sufficiency. What is the two-digit number N?\nStatement 1: The sum of the digits of N is 12.\nStatement 2: The tens digit of N is twice its units digit.",
+    "options": [
+      "(a) Statement 1 alone is sufficient, but Statement 2 alone is not.",
+      "(b) Statement 2 alone is sufficient, but Statement 1 alone is not.",
+      "(c) Both statements together are sufficient, but neither alone is sufficient.",
+      "(d) Each statement alone is sufficient."
+    ],
+    "answer": "(c)",
+    "explanation": "Statement 1 alone allows 39, 48, 57, 66, 75, 84 and 93 - not unique. Statement 2 alone allows 21, 42, 63 and 84 - not unique. Taking both, the digit sums of the second list are 3, 6, 9 and 12, so only 84 has digit sum 12. The two statements together pin down N = 84, and neither does so on its own.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Data sufficiency - two-digit number",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Find the next term of the series:\n7, 9, 14, 24, 41, ?",
+    "options": [
+      "(a) 62",
+      "(b) 65",
+      "(c) 67",
+      "(d) 70"
+    ],
+    "answer": "(c)",
+    "explanation": "The successive differences are 2, 5, 10 and 17, which are 1 squared plus 1, 2 squared plus 1, 3 squared plus 1 and 4 squared plus 1. The next difference is therefore 5 squared plus 1 = 26, giving 41 + 26 = 67. Option (a) 62 results from assuming the differences increase by a constant 4.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Number series - second-order pattern (n squared plus 1)",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "In a department the following rules hold without exception:\n(i) If a file is marked 'urgent', it must be cleared on the same day.\n(ii) No file is cleared on the same day unless it has been signed by the Section Officer.\n(iii) Every file signed by the Section Officer is entered in the register.\n\nFile X is marked 'urgent'.\n\nQ. Which one of the following must be true?",
+    "options": [
+      "(a) File X has been entered in the register.",
+      "(b) File X has been signed by the Head of Department.",
+      "(c) Every file entered in the register is marked 'urgent'.",
+      "(d) File X will be cleared on the day after it is received."
+    ],
+    "answer": "(a)",
+    "explanation": "Chain the conditionals: urgent implies cleared the same day (rule i); cleared the same day implies signed by the Section Officer (rule ii, read as 'only if'); signed by the Section Officer implies entered in the register (rule iii). Hence urgent implies entered in the register. Option (c) is the converse of rule (iii) and does not follow; (d) contradicts rule (i); (b) introduces a person the rules never mention.",
+    "subject": "CSAT",
+    "theme": "Reasoning",
+    "micro_topic": "Conditional reasoning - chaining rules and avoiding the converse",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Production = Area x Yield. Some entries in the table have been left blank.\n\n| District | Area ('000 hectares) | Yield (tonnes/hectare) | Production ('000 tonnes) |\n|---|---|---|---|\n| A | 120 | 2.5 | - |\n| B | - | 3.0 | 270 |\n| C | 150 | - | 420 |\n| D | 80 | 2.0 | - |\n\nQ. Taking the four districts together, the average yield (tonnes per hectare) is closest to",
+    "options": [
+      "(a) 2.48",
+      "(b) 2.575",
+      "(c) 2.61",
+      "(d) 2.75"
+    ],
+    "answer": "(c)",
+    "explanation": "Fill the blanks first: A's production = 120 x 2.5 = 300; B's area = 270 / 3.0 = 90; C's yield = 420 / 150 = 2.8; D's production = 80 x 2.0 = 160. Total area = 120 + 90 + 150 + 80 = 440 thousand hectares and total production = 300 + 270 + 420 + 160 = 1150 thousand tonnes, so the overall yield = 1150 / 440 = 2.6136, closest to 2.61. The trap is option (b) 2.575, the plain average of the four yields; a yield is a ratio and must be weighted by area, and the areas here are unequal.",
+    "subject": "CSAT",
+    "theme": "DI",
+    "micro_topic": "Partially filled table - weighted versus unweighted average ratio",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Production = Area x Yield. Some entries in the table have been left blank.\n\n| District | Area ('000 hectares) | Yield (tonnes/hectare) | Production ('000 tonnes) |\n|---|---|---|---|\n| A | 120 | 2.5 | - |\n| B | - | 3.0 | 270 |\n| C | 150 | - | 420 |\n| D | 80 | 2.0 | - |\n\nQ. Suppose district D's area under the crop is increased by 50 per cent and its yield rises to 2.61 tonnes per hectare. By approximately how much does D's production increase?",
+    "options": [
+      "(a) 49 thousand tonnes",
+      "(b) 80 thousand tonnes",
+      "(c) 153 thousand tonnes",
+      "(d) 313 thousand tonnes"
+    ],
+    "answer": "(c)",
+    "explanation": "D's new area = 80 x 1.5 = 120 thousand hectares and its new yield is 2.61, so new production = 120 x 2.61 = 313.2 thousand tonnes. The old production was 80 x 2.0 = 160 thousand tonnes, so the increase is 313.2 - 160 = 153.2, about 153 thousand tonnes. Option (d) 313 is the new production rather than the increase; (a) 49 comes from raising only the yield and (b) 80 from raising only the area.",
+    "subject": "CSAT",
+    "theme": "DI",
+    "micro_topic": "Partially filled table - change in production from area and yield together",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "A factory held an opening stock of 20 thousand units at the start of 2021. Units produced are added to stock and units dispatched are removed from it; there are no other additions or losses.\n\n| Year | Produced ('000 units) | Dispatched ('000 units) |\n|---|---|---|\n| 2021 | 180 | 165 |\n| 2022 | 210 | 200 |\n| 2023 | 195 | 215 |\n| 2024 | 230 | 205 |\n| 2025 | 240 | 250 |\n\nQ. At the end of which year was the stock held by the factory the highest?",
+    "options": [
+      "(a) 2021",
+      "(b) 2022",
+      "(c) 2024",
+      "(d) 2025"
+    ],
+    "answer": "(c)",
+    "explanation": "Carry the stock forward: closing stock = opening + produced - dispatched. 2021: 20 + 180 - 165 = 35. 2022: 35 + 210 - 200 = 45. 2023: 45 + 195 - 215 = 25. 2024: 25 + 230 - 205 = 50. 2025: 50 + 240 - 250 = 40. The peak of 50 thousand units occurs at the end of 2024. The trap is option (d): 2025 has the largest production, but stock is cumulative and 2025 also has the largest dispatch.",
+    "subject": "CSAT",
+    "theme": "DI",
+    "micro_topic": "Caselet - cumulative stock across years",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "A factory held an opening stock of 20 thousand units at the start of 2021. Units produced are added to stock and units dispatched are removed from it; there are no other additions or losses.\n\n| Year | Produced ('000 units) | Dispatched ('000 units) |\n|---|---|---|\n| 2021 | 180 | 165 |\n| 2022 | 210 | 200 |\n| 2023 | 195 | 215 |\n| 2024 | 230 | 205 |\n| 2025 | 240 | 250 |\n\nQ. Over the five years taken together, total dispatches as a percentage of total production were closest to",
+    "options": [
+      "(a) 94.5%",
+      "(b) 96.2%",
+      "(c) 98.1%",
+      "(d) 101.9%"
+    ],
+    "answer": "(c)",
+    "explanation": "Total produced = 180 + 210 + 195 + 230 + 240 = 1055 and total dispatched = 165 + 200 + 215 + 205 + 250 = 1035, so the ratio is 1035 / 1055 = 0.9810, that is 98.1 per cent. Option (d) 101.9 per cent is 1055 / 1035, the ratio taken the wrong way round; since stock rose from 20 to 40 thousand units over the period, dispatches must have been less than production and the answer must lie below 100 per cent.",
+    "subject": "CSAT",
+    "theme": "DI",
+    "micro_topic": "Caselet - ratio of aggregates with a direction trap",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "You are the District Collector. A private company that partners the district on a health outreach programme asks for the full beneficiary database - names, telephone numbers, addresses and health details - saying it needs these to 'improve targeting'. The MoU with the company says nothing about sharing personal data. The company's head is well connected and hints that the programme's continuation depends on your cooperation.\n\nQ. What is the most appropriate course of action?",
+    "options": [
+      "(a) Share the database, since the company is a programme partner and the data will be used for the programme itself.",
+      "(b) Refuse outright, terminate the partnership immediately, and report the request as an attempt at coercion.",
+      "(c) Decline to share identifiable personal data; offer aggregated or de-identified data sufficient for targeting, and route any wider data-sharing through a formal amendment to the MoU, with the competent authority's approval and written safeguards on use, storage and deletion.",
+      "(d) Seek oral instructions from a senior officer and hand over the data if he agrees."
+    ],
+    "answer": "(c)",
+    "explanation": "Option (c) protects beneficiaries' personal data, still meets the partner's stated need through de-identified data, and puts any wider sharing on a lawful and documented footing without sacrificing the programme. (a) discloses sensitive data with no legal basis, (b) punishes beneficiaries for the company's overreach, and (d) attempts to launder the decision through an oral instruction.",
+    "subject": "CSAT",
+    "theme": "Decision-Making",
+    "micro_topic": "Protection of personal data against pressure from a programme partner",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "You head a district office. A video circulating widely on social media claims that a government-run shelter under your charge turned away a family on a cold night. Journalists are asking for a comment within the hour. You do not yet know whether the incident occurred.\n\nQ. What should you do?",
+    "options": [
+      "(a) Say nothing at all until the inquiry is complete, since commenting on unverified matters is improper.",
+      "(b) Deny the allegation at once to stop the rumour spreading, and investigate quietly afterwards.",
+      "(c) Issue a brief factual statement acknowledging the video, confirming that an inquiry has been ordered with a stated date for its findings, meanwhile instructing all shelters that no family is to be turned away and ensuring capacity for the night; publish the findings once verified.",
+      "(d) Ask the platform to take the video down and have the person who posted it identified."
+    ],
+    "answer": "(c)",
+    "explanation": "Option (c) combines honesty - acknowledging without denying what is still unverified - with accountability through a time-bound inquiry and published findings, and it protects the people at immediate risk tonight. (a) cedes the narrative and looks evasive, (b) risks an official denial of something that may be true, and (d) treats the criticism rather than the alleged failure as the problem.",
+    "subject": "CSAT",
+    "theme": "Decision-Making",
+    "micro_topic": "Responding publicly to an unverified allegation under media pressure",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "You are conducting recruitment for a field post. A candidate with a locomotor disability qualifies on merit; there is no reserved vacancy for the post in this cycle, and the selection rules do not bar him. A junior officer argues informally that he 'will not manage the field work' and suggests quietly placing him lower in the merit list.\n\nQ. What is the best response?",
+    "options": [
+      "(a) Accept the junior officer's advice, since field capability is a genuine requirement of the job.",
+      "(b) Select him, make no change of any kind, and treat any difficulty he faces on the job as his own to solve.",
+      "(c) Select him strictly on merit as the rules require; record that no rule permits downgrading a candidate on an assumption of incapacity; have the post's essential functional requirements assessed objectively; and arrange the reasonable accommodation provided for in law - transport support, assistive equipment, or redistribution of non-essential duties.",
+      "(d) Refer the entire matter to the State Government and withhold the result until a clarification is received."
+    ],
+    "answer": "(c)",
+    "explanation": "Option (c) keeps merit and the rules in control of the selection, settles capability by an objective assessment of the post's essential functions rather than a colleague's assumption, and uses statutory reasonable accommodation to handle any genuine difficulty. (a) is disability-based discrimination, (b) is formally correct but leaves the officer unsupported, and (d) delays the whole result over a question the selecting authority can decide itself.",
+    "subject": "CSAT",
+    "theme": "Decision-Making",
+    "micro_topic": "Merit, non-discrimination and reasonable accommodation in selection",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Two pipes A and B can fill a tank in 12 hours and 15 hours respectively. Both are opened together, but owing to a leak at the bottom the tank takes 10 hours to fill.\n\nQ. How long would the leak alone take to empty a full tank?",
+    "options": [
+      "(a) 15 hours",
+      "(b) 20 hours",
+      "(c) 24 hours",
+      "(d) 30 hours"
+    ],
+    "answer": "(b)",
+    "explanation": "The combined filling rate of A and B is 1/12 + 1/15 = 5/60 + 4/60 = 9/60 = 3/20 of the tank per hour. With the leak the tank fills in 10 hours, so the observed net rate is 1/10 per hour. The leak's rate is therefore 3/20 - 1/10 = 3/20 - 2/20 = 1/20 of the tank per hour, so the leak alone would empty a full tank in 20 hours.",
+    "subject": "CSAT",
+    "theme": "Quant",
+    "micro_topic": "Pipes and cisterns with a leak",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "A vessel contains 80 litres of pure milk. 8 litres are drawn out and replaced with water; this operation is performed three times in all. Thereafter, 20 litres of the resulting mixture are drawn out and replaced with water.\n\nQ. How much milk remains in the vessel?",
+    "options": [
+      "(a) 40.50 litres",
+      "(b) 43.74 litres",
+      "(c) 48.60 litres",
+      "(d) 58.32 litres"
+    ],
+    "answer": "(b)",
+    "explanation": "Each replacement of 8 litres out of 80 leaves the fraction 1 - 8/80 = 9/10 of the milk, so after three operations the milk is 80 x 0.9 cubed = 80 x 0.729 = 58.32 litres, the volume still being 80 litres. Drawing 20 litres of a uniform 80-litre mixture removes one quarter of everything, leaving three quarters: 58.32 x 0.75 = 43.74 litres. Topping up with water does not change the milk. Option (d) is the answer if the final step is missed, and (c) results from performing only two replacements before the final draw.",
+    "subject": "CSAT",
+    "theme": "Quant",
+    "micro_topic": "Mixtures - successive replacement followed by a proportional draw",
+    "nature": "Aptitude",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "A committee of 4 members is chosen at random from a group of 6 men and 5 women.\n\nQ. What is the probability that the committee contains at least 2 women?",
+    "options": [
+      "(a) 23/66",
+      "(b) 25/66",
+      "(c) 41/66",
+      "(d) 43/66"
+    ],
+    "answer": "(d)",
+    "explanation": "The total number of committees is C(11, 4) = 330. Favourable cases: 2 women and 2 men, C(5,2) x C(6,2) = 10 x 15 = 150; 3 women and 1 man, C(5,3) x C(6,1) = 10 x 6 = 60; 4 women, C(5,4) = 5. The total is 150 + 60 + 5 = 215, so the probability is 215/330 = 43/66. Check by complement: no woman gives C(6,4) = 15 and exactly one woman gives C(5,1) x C(6,3) = 5 x 20 = 100, and 330 - 115 = 215.",
+    "subject": "CSAT",
+    "theme": "Quant",
+    "micro_topic": "Probability - at least-two case via combinations",
+    "nature": "Aptitude",
+    "difficulty": "Hard"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to Biometric Aadhaar Authentication (BAA) for domestic LPG connections, which is to take effect from 1 October 2026, consider the following statements:\n\n1. Consumers who do not complete BAA will cease to be supplied LPG altogether.\n2. As on 19 September 2026, over 27 crore active domestic LPG consumers — about 90 per cent — had completed BAA.\n3. BAA can be completed at the time of refill delivery, at the distributor's showroom, or through the oil marketing company's mobile application.\n\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statement 1 is wrong: a consumer unwilling or unable to complete BAA is not denied LPG — after registering that choice on the OMC's digital channels, they receive LPG at market price without subsidy in 5 kg or 10 kg cylinders, subject to local availability. BAA gates the subsidised refill at the regulated Retail Selling Price, not supply itself. Statement 2 is correct — 27.43 crore consumers, or 89.9 per cent, as on 19 September 2026. Statement 3 is correct — authentication is possible on the spot during delivery via the OMC app, at the distributor's showroom, or by self e-KYC on IndianOil ONE, HelloBPCL or HP PAY. The fiscal backdrop: implicit subsidy of about Rs 210 per 14.2 kg cylinder in September 2026, peaking at Rs 721 in June 2026, with accumulated OMC under-recoveries on domestic LPG above Rs 62,000 crore as on 31 August 2026.",
+    "subject": "Economy",
+    "theme": "Subsidies and Direct Benefit Transfer",
+    "micro_topic": "LPG subsidy targeting and Biometric Aadhaar Authentication",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to SLINEX, consider the following statements:\n\n1. It is a bilateral maritime exercise between the navies of India and Sri Lanka, conceptualised in 2005.\n2. SLINEX-26, its 13th edition, was conducted at Visakhapatnam under the aegis of the Eastern Naval Command.\n3. MAHASAGAR, the vision under which the exercise was framed, expands the earlier SAGAR vision beyond the Indian Ocean Region to the wider Global South.\n\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. SLINEX was conceptualised in 2005 and is the India-Sri Lanka bilateral maritime exercise; the 13th edition ran at Visakhapatnam from 17 to 21 September 2026, opening with a Harbour Phase under the Eastern Naval Command before the Sea Phase. INS Kavaratti — an indigenous Kamorta-class (Project 28) anti-submarine warfare corvette built by GRSE, with a carbon-fibre composite superstructure — and the fleet tanker INS Jyoti represented India, while SLNS Sindurala represented Sri Lanka. MAHASAGAR (Mutual and Holistic Advancement for Security and Growth Across Regions) was announced by the Prime Minister in Mauritius in March 2025 as the expansion of SAGAR (Security and Growth for All in the Region, 2015) from an Indian Ocean Region focus to the wider Global South. The common confusion to avoid: the India-Sri Lanka army exercise is Mitra Shakti, not SLINEX.",
+    "subject": "International Relations",
+    "theme": "India and its neighbourhood",
+    "micro_topic": "India-Sri Lanka defence cooperation, SLINEX and Vision MAHASAGAR",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to sericulture and silk production in India, consider the following statements:\n\n1. The Central Silk Board is a statutory body functioning under the administrative control of the Ministry of Agriculture and Farmers Welfare.\n2. India is at present the world's second largest producer of raw silk.\n3. Muga silk, which carries a Geographical Indication tag, is produced almost exclusively in Assam.\n\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statement 1 is wrong and is the intended trap: the Central Silk Board is indeed a statutory body, constituted under the Central Silk Board Act, 1948, but it functions under the Ministry of Textiles, not Agriculture — and is headquartered at Bengaluru, where its 77th Foundation Day was held on 20 September 2026. Statement 2 is correct: India is the world's second largest producer of raw silk after China, which is why the Union Textiles Minister's stated resolve to reach the No. 1 position by 2028-29 is significant. Statement 3 is correct: Muga, the golden silk, is produced almost exclusively in Assam and holds a GI tag. From the release: production has risen from 26,000 metric tonnes in 2014 to 42,000 MT, with a target of 60,000 MT by 2030-31; Karnataka leads in total silk production; India uniquely produces all four commercial varieties — Mulberry, Tasar, Eri and Muga; and the central scheme is Silk Samagra.",
+    "subject": "Agriculture",
+    "theme": "Allied sectors and rural livelihoods",
+    "micro_topic": "Sericulture, Central Silk Board and silk varieties",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]

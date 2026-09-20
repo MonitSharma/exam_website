@@ -1,0 +1,678 @@
+[
+  {
+    "id": "weekly_quiz_2026_09_18_1",
+    "question_number": 1,
+    "question": "India's foreign-exchange reserves touched a record high in the week reported in mid-September 2026, making India the fourth-largest holder of forex reserves globally. Which country did India displace from that fourth position, and which three sit above it?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Displaced Saudi Arabia; above it are China, Japan and the United States"
+      },
+      {
+        "key": "b",
+        "text": "Displaced Russia; above it are China, Japan and Switzerland"
+      },
+      {
+        "key": "c",
+        "text": "Displaced Switzerland; above it are China, the USA and Japan"
+      },
+      {
+        "key": "d",
+        "text": "Displaced Taiwan; above it are China, Japan and Russia"
+      }
+    ],
+    "answer": "b",
+    "explanation": "India's reserves hit a record ~$785.7 billion, overtaking Russia to become the world's 4th-largest holder, behind China, Japan and Switzerland.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_18_2",
+    "question_number": 2,
+    "question": "India's Wholesale Price Index (WPI) inflation rose to 9.92% in August 2026. Which major group recorded the *highest* group-level inflation, and roughly at what rate?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Primary Articles — about 7.8%"
+      },
+      {
+        "key": "b",
+        "text": "Manufactured Products — about 8.4%"
+      },
+      {
+        "key": "c",
+        "text": "Fuel & Power — about 22.9%"
+      },
+      {
+        "key": "d",
+        "text": "Food Index — about 7.1%"
+      }
+    ],
+    "answer": "c",
+    "explanation": "WPI inflation was 9.92% in August 2026; Fuel & Power led at 22.93% (Primary Articles ~7.76%, Manufactured Products ~8.37%).",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_18_3",
+    "question_number": 3,
+    "question": "The Union Cabinet raised the EPFO wage ceiling for mandatory coverage in September 2026. What was the change?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "From Rs 15,000 to Rs 21,000 per month, the first revision in eight years"
+      },
+      {
+        "key": "b",
+        "text": "From Rs 15,000 to Rs 25,000 per month, the first revision in twelve years"
+      },
+      {
+        "key": "c",
+        "text": "From Rs 21,000 to Rs 30,000 per month, the first revision in five years"
+      },
+      {
+        "key": "d",
+        "text": "From Rs 15,000 to Rs 30,000 per month, the first revision since 2001"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The wage ceiling rose from Rs 15,000 to Rs 25,000/month — the first revision in twelve years — effective 17 September 2026, extending coverage to ~51 lakh more workers.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_18_4",
+    "question_number": 4,
+    "question": "Regarding the NPCI's revised UPI Merchant Discount Rate (MDR) framework announced this week, consider the following:",
+    "statements": [
+      "An MDR of 0.4% will apply on Person-to-Merchant (P2M) transactions above Rs 2,000.",
+      "The MDR is capped at Rs 300 per transaction.",
+      "Person-to-Person (P2P) transfers and P2M payments up to Rs 2,000 remain outside MDR."
+    ],
+    "tail": "Which are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All three are correct: 0.4% MDR on P2M above Rs 2,000, capped at Rs 300, with P2P and sub-Rs 2,000 P2M staying zero-MDR; the framework takes effect 15 October 2026.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_18_5",
+    "question_number": 5,
+    "question": "The World Circular Economy Forum (WCEF) 2026 was held this week. Which statement is correct?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "It was hosted in Mumbai and was the first edition ever held in Asia"
+      },
+      {
+        "key": "b",
+        "text": "It was hosted in Gandhinagar and was its first edition in South Asia"
+      },
+      {
+        "key": "c",
+        "text": "It was hosted in New Delhi as part of the BRICS Summit agenda"
+      },
+      {
+        "key": "d",
+        "text": "It was hosted in Bengaluru and was its 5th global edition"
+      }
+    ],
+    "answer": "b",
+    "explanation": "WCEF 2026 was held in Gandhinagar — its first edition in South Asia (10th edition overall).",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_18_6",
+    "question_number": 6,
+    "question": "'Operation Deep Manifest', in the news this week, was an enforcement action by which agency, and against what?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "The NIA, against a terror-financing network in the Northeast"
+      },
+      {
+        "key": "b",
+        "text": "The Directorate of Revenue Intelligence (DRI), against Pakistan-origin dry dates transshipped through a third country"
+      },
+      {
+        "key": "c",
+        "text": "The Enforcement Directorate, against a hawala racket routed through Dubai"
+      },
+      {
+        "key": "d",
+        "text": "Customs, against gold smuggling through Kerala ports"
+      }
+    ],
+    "answer": "b",
+    "explanation": "'Operation Deep Manifest' was a DRI action seizing 362+ MT of Pakistan-origin dry dates transshipped through a third country (UAE/Jebel Ali) to evade origin rules.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_18_7",
+    "question_number": 7,
+    "question": "*Schizopygopsis waddellii*, reported this week, was recorded in India for the first time. What is it, and where?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "A snow leopard sub-population, in Ladakh"
+      },
+      {
+        "key": "b",
+        "text": "A Tibetan snowtrout (a fish), in Tawang, Arunachal Pradesh"
+      },
+      {
+        "key": "c",
+        "text": "A high-altitude orchid, in Sikkim"
+      },
+      {
+        "key": "d",
+        "text": "A migratory crane, in the Rann of Kutch"
+      }
+    ],
+    "answer": "b",
+    "explanation": "*Schizopygopsis waddellii* is a Tibetan snowtrout (fish), recorded in India for the first time in Tawang, Arunachal Pradesh.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_18_8",
+    "question_number": 8,
+    "question": "At the 18th BRICS Summit hosted by India this week, a decision was taken to set up an Expert Working Group on Traditional Medicine. Under which Indian ministry does this initiative primarily sit?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Ministry of Health & Family Welfare"
+      },
+      {
+        "key": "b",
+        "text": "Ministry of Ayush"
+      },
+      {
+        "key": "c",
+        "text": "Ministry of Science & Technology"
+      },
+      {
+        "key": "d",
+        "text": "Ministry of Culture"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The BRICS Traditional Medicine Expert Working Group sits primarily under the Ministry of Ayush.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_18_9",
+    "question_number": 9,
+    "question": "India and MERCOSUR signed an instrument this week to deepen their trade relationship. What was signed?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "A full Free Trade Agreement replacing the 2004 PTA"
+      },
+      {
+        "key": "b",
+        "text": "The First Additional Protocol to their Preferential Trade Agreement, giving electronic Certificates of Origin legal parity with paper"
+      },
+      {
+        "key": "c",
+        "text": "A Comprehensive Economic Partnership Agreement"
+      },
+      {
+        "key": "d",
+        "text": "A customs union treaty eliminating all tariffs"
+      }
+    ],
+    "answer": "b",
+    "explanation": "India–MERCOSUR signed the First Additional Protocol to their 2004 PTA, giving electronic Certificates of Origin legal parity with paper — not a full FTA.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_18_10",
+    "question_number": 10,
+    "question": "SEMICON India 2026 was inaugurated this week. Consider:",
+    "statements": [
+      "Its theme was \"Silicon to Systems: Building the Ecosystem\".",
+      "It was held at Yashobhoomi, New Delhi.",
+      "It was accompanied by a backgrounder on the Electronics Components Manufacturing Scheme (ECMS)."
+    ],
+    "tail": "Which are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All three: theme \"Silicon to Systems\", venue Yashobhoomi, New Delhi, with an ECMS backgrounder (106 projects, ~Rs 69,548 crore approved investment).",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_18_11",
+    "question_number": 11,
+    "question": "This week India made its first-ever soil-carbon payments to farmers via Direct Benefit Transfer. Which best describes it?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Rs 2.9 crore transferred to about 2,550 smallholder farmers in Punjab and Haryana"
+      },
+      {
+        "key": "b",
+        "text": "Rs 29 crore transferred to farmers across all Indian states"
+      },
+      {
+        "key": "c",
+        "text": "Rs 2.9 crore transferred to tea growers in Assam"
+      },
+      {
+        "key": "d",
+        "text": "Rs 290 crore transferred under PM-KISAN top-up"
+      }
+    ],
+    "answer": "a",
+    "explanation": "India's first soil-carbon payments: Rs 2.9 crore via DBT to ~2,550 smallholder farmers in Punjab and Haryana.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_18_12",
+    "question_number": 12,
+    "question": "As per the Periodic Labour Force Survey (PLFS) Monthly Bulletin for August 2026, which statement is correct?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "The overall unemployment rate rose to 8.0% and LFPR fell below 50%"
+      },
+      {
+        "key": "b",
+        "text": "The unemployment rate was around 5.0%, with rural unemployment easing and overall LFPR rising to about 55.6%"
+      },
+      {
+        "key": "c",
+        "text": "Urban unemployment crossed 12% for the first time"
+      },
+      {
+        "key": "d",
+        "text": "Female labour-force participation fell sharply during the month"
+      }
+    ],
+    "answer": "b",
+    "explanation": "August 2026 PLFS: unemployment ~5.0%, rural joblessness at a multi-month low (~4.1%), and overall LFPR rising to ~55.6%. Part B — Environment",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_18_13",
+    "question_number": 13,
+    "question": "With reference to the Ramsar Convention, consider the following:",
+    "statements": [
+      "It is an intergovernmental treaty for the conservation and wise use of wetlands.",
+      "A \"Montreux Record\" lists Ramsar sites where ecological character has changed or is likely to change.",
+      "India has more Ramsar sites than any other country in the world."
+    ],
+    "tail": "Which are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "1 and 2 are correct. The Ramsar Convention protects wetlands, and the Montreux Record flags sites with adverse ecological change. Statement 3 is wrong — the UK has the most Ramsar sites; India leads in Asia but not the world.",
+    "subject": "Environment",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_18_14",
+    "question_number": 14,
+    "question": "In a biosphere reserve, which zone is legally protected, kept free of human activity, and used only for non-manipulative research and monitoring?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Buffer zone"
+      },
+      {
+        "key": "b",
+        "text": "Transition zone"
+      },
+      {
+        "key": "c",
+        "text": "Core zone"
+      },
+      {
+        "key": "d",
+        "text": "Manipulative zone"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The core zone is legally protected, undisturbed, and reserved for non-manipulative research; the buffer allows limited activity and the transition zone permits sustainable human use.",
+    "subject": "Environment",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_18_15",
+    "question_number": 15,
+    "question": "The Montreal Protocol and its Kigali Amendment are associated with which environmental objective?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Reducing greenhouse-gas emissions from aviation"
+      },
+      {
+        "key": "b",
+        "text": "Phasing out ozone-depleting substances, with Kigali adding the phase-down of hydrofluorocarbons (HFCs)"
+      },
+      {
+        "key": "c",
+        "text": "Regulating trade in endangered species"
+      },
+      {
+        "key": "d",
+        "text": "Controlling transboundary movement of hazardous wastes"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The Montreal Protocol phases out ozone-depleting substances; the Kigali Amendment (2016) adds the phase-down of HFCs, which are potent greenhouse gases.",
+    "subject": "Environment",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_18_16",
+    "question_number": 16,
+    "question": "With reference to CITES, consider the following:",
+    "statements": [
+      "It regulates international trade in specimens of wild fauna and flora.",
+      "Species listed in Appendix I are the most endangered and international commercial trade in them is generally prohibited.",
+      "It is a legally binding convention administered under UNEP."
+    ],
+    "tail": "Which are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All three are correct. CITES regulates wildlife trade, Appendix I species get the strictest protection (commercial trade generally banned), and it operates under UNEP.",
+    "subject": "Environment",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_18_17",
+    "question_number": 17,
+    "question": "A keystone species is best defined as one that:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Is the most numerically abundant species in an ecosystem"
+      },
+      {
+        "key": "b",
+        "text": "Has a disproportionately large effect on its ecosystem relative to its abundance"
+      },
+      {
+        "key": "c",
+        "text": "Is found only within a single geographic region"
+      },
+      {
+        "key": "d",
+        "text": "Occupies the highest trophic level in a food web"
+      }
+    ],
+    "answer": "b",
+    "explanation": "A keystone species has an outsized effect on its ecosystem relative to its abundance (e.g., a top predator or a fig tree); removing it can collapse community structure.",
+    "subject": "Environment",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_18_18",
+    "question_number": 18,
+    "question": "Which of the following statements about India's biodiversity hotspots is correct?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "India has four of the world's biodiversity hotspots: the Himalaya, the Western Ghats–Sri Lanka, the Indo-Burma region, and the Sundaland (Nicobar Islands)"
+      },
+      {
+        "key": "b",
+        "text": "India has only one biodiversity hotspot, the Western Ghats"
+      },
+      {
+        "key": "c",
+        "text": "The Eastern Ghats are recognised as a global biodiversity hotspot"
+      },
+      {
+        "key": "d",
+        "text": "The Thar Desert is one of the world's biodiversity hotspots"
+      }
+    ],
+    "answer": "a",
+    "explanation": "India has parts of four hotspots: the Himalaya, Western Ghats–Sri Lanka, Indo-Burma, and Sundaland (Nicobar Islands).",
+    "subject": "Environment",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_18_19",
+    "question_number": 19,
+    "question": "Under the Wildlife (Protection) Act, 1972 as amended, animals granted the highest degree of protection (absolute protection, stiffest penalties) are listed in:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Schedule III"
+      },
+      {
+        "key": "b",
+        "text": "Schedule II"
+      },
+      {
+        "key": "c",
+        "text": "Schedule I"
+      },
+      {
+        "key": "d",
+        "text": "Schedule V"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Schedule I of the Wildlife (Protection) Act, 1972 confers the highest protection with the harshest penalties. (After the 2022 amendment the Act was restructured to fewer schedules, but Schedule I retains top protection.)",
+    "subject": "Environment",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_18_20",
+    "question_number": 20,
+    "question": "Mangroves are ecologically valued as \"blue carbon\" ecosystems. Which statement is correct?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "They store little carbon and are climate-neutral"
+      },
+      {
+        "key": "b",
+        "text": "They sequester and store large amounts of carbon in their biomass and waterlogged soils, and buffer coasts against storm surges"
+      },
+      {
+        "key": "c",
+        "text": "They grow only in freshwater lakes"
+      },
+      {
+        "key": "d",
+        "text": "They are exclusively found along India's western coast"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Mangroves store large amounts of \"blue carbon\" in biomass and waterlogged soils and protect coasts from storm surges and erosion.",
+    "subject": "Environment",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  }
+]
