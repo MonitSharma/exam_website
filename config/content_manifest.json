@@ -12,6 +12,48 @@
   ],
   "questionSets": [
     {
+      "id": "daily_questions_2026_09_20",
+      "label": "Daily Questions - 20 Sept 2026",
+      "shortLabel": "Daily 20 Sept",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-09-20.json",
+      "sourcePath": "daily/daily_questions/daily_questions_2026-09-20.json",
+      "isoDate": "2026-09-20",
+      "subjects": [
+        "International Relations",
+        "Polity & Governance",
+        "Environment",
+        "Reports & Indices",
+        "Economy"
+      ],
+      "bundleId": "daily_questions_2026_09_20",
+      "relatedNoteIds": [
+        "daily-daily-current-affairs-upsc-ca-2026-09-20"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "international-relations",
+        "polity",
+        "environment",
+        "reports-and-indices",
+        "economy"
+      ],
+      "topicIds": [
+        "international-relations/lindsey-o-graham-sanctioning-russia-and-iran-act-of-2026-h-r-5334-signed-18-september-2026-up-to-100-tariff-authority-on-the-five-largest-importers-of-russian-crude-or-gas-presidential-waiver-retained-sanctions-on-putin-russian-officials-oligarchs-banks-and-the-shadow-fleet-five-year-extension-of-iran-energy-and-weapons-sanctions-named-for-senator-lindsey-graham-died-july-2026-existing-50-us-tariff-on-india-including-a-25-point-russian-energy-component-mea-response-on-energy-security-for-1-4-billion-people-comparison-with-caatsa-2017-and-the-g7-price-cap",
+        "polity/foreign-contribution-regulation-amendment-bill-2026-introduced-in-lok-sabha-25-march-2026-referred-to-a-31-member-jpc-21-ls-10-rs-on-12-august-2026-report-due-first-week-of-winter-session-designated-authority-to-take-custody-manage-and-dispose-of-foreign-contribution-assets-on-cancellation-surrender-or-lapse-gap-in-section-15-of-fcra-2010-objections-on-absence-of-prior-hearing-or-judicial-review-and-on-separating-foreign-funded-from-domestically-funded-assets-mha-administers-fcra-lineage-fcra-1976-to-fcra-2010-to-fcra-amendment-act-2020-sbi-ndmb-account-aadhaar-ban-on-sub-granting-administrative-expense-cap-cut-50-to-20-article-19-1-c-19-4-and-article-300a",
+        "environment/eco-sensitive-zones-notified-by-moefcc-under-the-environment-protection-act-1986-origin-in-national-wildlife-action-plan-2002-2016-and-moefcc-guidelines-2011-activities-classified-as-prohibited-regulated-or-permitted-zonal-master-plan-zonal-management-plan-as-the-operative-instrument-and-the-zonal-management-committee-as-the-oversight-body-jurisdictional-gap-between-the-wild-life-protection-act-inside-the-park-and-revenue-and-town-planning-law-outside-illustrations-of-kbr-national-park-mrugavani-national-park-and-mahavir-harina-vanasthali-wildlife-sanctuary-in-hyderabad-elephant-home-ranges-of-300-600-sq-km-invisible-stressors-of-eutrophication-and-acoustic-masking-proposed-reforms-of-ecological-baseline-before-boundary-a-statutory-two-year-deadline-for-the-zonal-master-plan-and-mandatory-esz-overlays-in-master-plans-supreme-court-1-km-default-esz-direction-of-2022-as-modified-in-2023",
+        "reports-and-indices/fao-and-landscape-alliance-report-forests-for-food-nourishing-people-sustaining-the-planet-15-september-2026-more-than-5-billion-people-dependent-on-forests-and-trees-over-50-000-wild-species-used-for-food-and-medicine-with-at-least-10-000-eaten-directly-up-to-20-of-rural-incomes-woodfuel-used-by-about-a-quarter-of-the-global-population-more-than-1-billion-reliant-on-medicinal-plants-forested-watersheds-supplying-more-than-85-of-major-cities-up-to-80-of-daily-protein-from-wild-meat-in-parts-of-africa-and-fish-at-44-of-amazon-food-by-weight-10-9-million-hectares-deforested-annually-to-2025-and-about-645-million-chronically-hungry-in-2025-fao-founded-1945-headquartered-in-rome-distinguish-from-state-of-the-world-s-forests-global-forest-resources-assessment-and-sofi-indian-instruments-of-fra-2006-mfp-msp-for-mfp-van-dhan-vikas-kendras-under-trifed-national-agroforestry-policy-2014-and-the-india-state-of-forest-report",
+        "economy/us-fomc-raises-the-federal-funds-rate-by-25-basis-points-to-3-75-4-in-september-2026-on-a-unanimous-12-0-vote-the-first-hike-since-2023-under-chair-kevin-warsh-succeeding-jerome-powell-median-projection-of-one-further-hike-summary-of-economic-projections-and-dot-plot-fed-dual-mandate-of-price-stability-at-2-and-maximum-employment-versus-india-s-flexible-inflation-targeting-at-4-cpi-plus-or-minus-2-mpc-created-by-the-finance-act-2016-amending-the-rbi-act-1934-six-members-governor-s-casting-vote-at-least-four-meetings-a-year-report-to-government-on-missing-the-target-for-three-consecutive-quarters-transmission-channels-of-capital-flows-rupee-depreciation-and-imported-crude-and-fertiliser-costs-ecb-and-external-borrowing-costs-impossible-trinity-mundell-fleming-trilemma-central-bank-independence-under-political-pressure",
+        "polity/standing-versus-ad-hoc-parliamentary-committees-joint-committee-on-a-bill-constituted-by-a-motion-adopted-in-one-house-and-concurred-in-by-the-other-with-members-from-both-houses-department-related-standing-committees-introduced-in-1993-now-24-reconstituted-annually-with-31-members-21-lok-sabha-10-rajya-sabha-select-committee-of-one-house-distinguished-from-a-joint-committee-recommendations-advisory-and-not-binding-committee-reports-as-instruments-of-executive-accountability-under-article-105-privileges",
+        "environment/wild-life-protection-act-1972-protected-area-categories-of-national-park-wildlife-sanctuary-conservation-reserve-and-community-reserve-conservation-reserves-and-community-reserves-added-by-the-wild-life-protection-amendment-act-2002-under-sections-36a-to-36d-conservation-reserve-over-government-owned-land-adjacent-to-or-linking-protected-areas-community-reserve-over-private-or-community-land-volunteered-for-conservation-grazing-prohibited-in-a-national-park-but-regulable-by-the-chief-wildlife-warden-in-a-sanctuary-rights-of-people-extinguished-in-national-parks-but-capable-of-continuing-in-sanctuaries-national-board-for-wild-life-and-state-board-for-wild-life-eco-sensitive-zone-as-a-buffer-notified-under-the-environment-protection-act-1986-around-these-areas"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
       "id": "daily_questions_2026_09_19",
       "label": "Daily Questions - 19 Sept 2026",
       "shortLabel": "Daily 19 Sept",
@@ -5051,6 +5093,40 @@
       ],
       "topicIds": [
         "reading-comprehension/reading-comprehension"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
+      "id": "pib_questions_2026_09_20",
+      "label": "PIB Questions - 20 Sept 2026",
+      "shortLabel": "PIB 20 Sept",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-09-20.json",
+      "sourcePath": "generated_data/pib_questions/2026-09-20.json",
+      "isoDate": "2026-09-20",
+      "subjects": [
+        "Economy",
+        "International Relations",
+        "Agriculture"
+      ],
+      "bundleId": "pib_questions_2026_09_20",
+      "relatedNoteIds": [
+        "daily-daily-pib-pib-2026-09-20"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "economy",
+        "international-relations",
+        "agriculture"
+      ],
+      "topicIds": [
+        "economy/lpg-subsidy-targeting-and-biometric-aadhaar-authentication",
+        "international-relations/india-sri-lanka-defence-cooperation-slinex-and-vision-mahasagar",
+        "agriculture/sericulture-central-silk-board-and-silk-varieties"
       ],
       "format": "drill",
       "provenance": "generated"
@@ -11455,6 +11531,58 @@
       "provenance": "generated"
     },
     {
+      "id": "csat_practice_2026_09_20",
+      "label": "CSAT Practice - 20 Sept 2026",
+      "shortLabel": "CSAT Practice 20 Sept",
+      "category": "CSAT Practice",
+      "sourceType": "csat",
+      "questionCount": 22,
+      "durationMinutes": 35,
+      "path": "generated_data/csat_questions/2026-09-20.json",
+      "sourcePath": "generated_data/csat_questions/2026-09-20.json",
+      "isoDate": "2026-09-20",
+      "paper": "GS Paper II (CSAT)",
+      "marksPerCorrect": 2,
+      "negativeMark": -0.66,
+      "subjects": [
+        "CSAT"
+      ],
+      "bundleId": "csat_practice_2026_09_20",
+      "relatedNoteIds": [
+        "weekly-csat-csat-practice-2026-09-20"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "csat"
+      ],
+      "topicIds": [
+        "csat/main-idea-science-economics-passage-on-the-rebound-effect",
+        "csat/inference-applying-the-argument-to-a-new-case",
+        "csat/assumption-identification-negation-test",
+        "csat/main-idea-philosophical-passage-on-moral-luck",
+        "csat/inference-extending-the-argument-to-praise-as-well-as-blame",
+        "csat/tone-and-attitude",
+        "csat/floor-arrangement-puzzle-with-case-elimination",
+        "csat/coded-blood-relations",
+        "csat/syllogism-with-an-only-a-few-statement",
+        "csat/data-sufficiency-two-digit-number",
+        "csat/number-series-second-order-pattern-n-squared-plus-1",
+        "csat/conditional-reasoning-chaining-rules-and-avoiding-the-converse",
+        "csat/partially-filled-table-weighted-versus-unweighted-average-ratio",
+        "csat/partially-filled-table-change-in-production-from-area-and-yield-together",
+        "csat/caselet-cumulative-stock-across-years",
+        "csat/caselet-ratio-of-aggregates-with-a-direction-trap",
+        "csat/protection-of-personal-data-against-pressure-from-a-programme-partner",
+        "csat/responding-publicly-to-an-unverified-allegation-under-media-pressure",
+        "csat/merit-non-discrimination-and-reasonable-accommodation-in-selection",
+        "csat/pipes-and-cisterns-with-a-leak",
+        "csat/mixtures-successive-replacement-followed-by-a-proportional-draw",
+        "csat/probability-at-least-two-case-via-combinations"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
       "id": "csat_practice_2026_09_13",
       "label": "CSAT Practice - 13 Sept 2026",
       "shortLabel": "CSAT Practice 13 Sept",
@@ -14662,6 +14790,21 @@
   ],
   "noteDocuments": [
     {
+      "id": "anki-prelims-flashcards-2026-09-20",
+      "cadence": "anki",
+      "title": "Prelims Flashcards",
+      "shortTitle": "Anki - 20 Sept",
+      "date": "2026-09-20",
+      "path": "anki/Prelims_Flashcards_2026-09-20.txt",
+      "bundleId": "anki-prelims-flashcards-2026-09-20",
+      "relatedNoteIds": [
+        "daily-daily-current-affairs-upsc-ca-2026-09-19"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [],
+      "topicIds": []
+    },
+    {
       "id": "anki-prelims-flashcards-2026-09-13",
       "cadence": "anki",
       "title": "Prelims Flashcards",
@@ -14844,6 +14987,35 @@
       "topicIds": []
     },
     {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-09-20",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "20 Sept 2026",
+      "date": "2026-09-20",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-09-20.md",
+      "bundleId": "daily-daily-current-affairs-upsc-ca-2026-09-20",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "daily_questions_2026_09_20"
+      ],
+      "subjectIds": [
+        "international-relations",
+        "polity",
+        "environment",
+        "reports-and-indices",
+        "economy"
+      ],
+      "topicIds": [
+        "international-relations/lindsey-o-graham-sanctioning-russia-and-iran-act-of-2026-h-r-5334-signed-18-september-2026-up-to-100-tariff-authority-on-the-five-largest-importers-of-russian-crude-or-gas-presidential-waiver-retained-sanctions-on-putin-russian-officials-oligarchs-banks-and-the-shadow-fleet-five-year-extension-of-iran-energy-and-weapons-sanctions-named-for-senator-lindsey-graham-died-july-2026-existing-50-us-tariff-on-india-including-a-25-point-russian-energy-component-mea-response-on-energy-security-for-1-4-billion-people-comparison-with-caatsa-2017-and-the-g7-price-cap",
+        "polity/foreign-contribution-regulation-amendment-bill-2026-introduced-in-lok-sabha-25-march-2026-referred-to-a-31-member-jpc-21-ls-10-rs-on-12-august-2026-report-due-first-week-of-winter-session-designated-authority-to-take-custody-manage-and-dispose-of-foreign-contribution-assets-on-cancellation-surrender-or-lapse-gap-in-section-15-of-fcra-2010-objections-on-absence-of-prior-hearing-or-judicial-review-and-on-separating-foreign-funded-from-domestically-funded-assets-mha-administers-fcra-lineage-fcra-1976-to-fcra-2010-to-fcra-amendment-act-2020-sbi-ndmb-account-aadhaar-ban-on-sub-granting-administrative-expense-cap-cut-50-to-20-article-19-1-c-19-4-and-article-300a",
+        "environment/eco-sensitive-zones-notified-by-moefcc-under-the-environment-protection-act-1986-origin-in-national-wildlife-action-plan-2002-2016-and-moefcc-guidelines-2011-activities-classified-as-prohibited-regulated-or-permitted-zonal-master-plan-zonal-management-plan-as-the-operative-instrument-and-the-zonal-management-committee-as-the-oversight-body-jurisdictional-gap-between-the-wild-life-protection-act-inside-the-park-and-revenue-and-town-planning-law-outside-illustrations-of-kbr-national-park-mrugavani-national-park-and-mahavir-harina-vanasthali-wildlife-sanctuary-in-hyderabad-elephant-home-ranges-of-300-600-sq-km-invisible-stressors-of-eutrophication-and-acoustic-masking-proposed-reforms-of-ecological-baseline-before-boundary-a-statutory-two-year-deadline-for-the-zonal-master-plan-and-mandatory-esz-overlays-in-master-plans-supreme-court-1-km-default-esz-direction-of-2022-as-modified-in-2023",
+        "reports-and-indices/fao-and-landscape-alliance-report-forests-for-food-nourishing-people-sustaining-the-planet-15-september-2026-more-than-5-billion-people-dependent-on-forests-and-trees-over-50-000-wild-species-used-for-food-and-medicine-with-at-least-10-000-eaten-directly-up-to-20-of-rural-incomes-woodfuel-used-by-about-a-quarter-of-the-global-population-more-than-1-billion-reliant-on-medicinal-plants-forested-watersheds-supplying-more-than-85-of-major-cities-up-to-80-of-daily-protein-from-wild-meat-in-parts-of-africa-and-fish-at-44-of-amazon-food-by-weight-10-9-million-hectares-deforested-annually-to-2025-and-about-645-million-chronically-hungry-in-2025-fao-founded-1945-headquartered-in-rome-distinguish-from-state-of-the-world-s-forests-global-forest-resources-assessment-and-sofi-indian-instruments-of-fra-2006-mfp-msp-for-mfp-van-dhan-vikas-kendras-under-trifed-national-agroforestry-policy-2014-and-the-india-state-of-forest-report",
+        "economy/us-fomc-raises-the-federal-funds-rate-by-25-basis-points-to-3-75-4-in-september-2026-on-a-unanimous-12-0-vote-the-first-hike-since-2023-under-chair-kevin-warsh-succeeding-jerome-powell-median-projection-of-one-further-hike-summary-of-economic-projections-and-dot-plot-fed-dual-mandate-of-price-stability-at-2-and-maximum-employment-versus-india-s-flexible-inflation-targeting-at-4-cpi-plus-or-minus-2-mpc-created-by-the-finance-act-2016-amending-the-rbi-act-1934-six-members-governor-s-casting-vote-at-least-four-meetings-a-year-report-to-government-on-missing-the-target-for-three-consecutive-quarters-transmission-channels-of-capital-flows-rupee-depreciation-and-imported-crude-and-fertiliser-costs-ecb-and-external-borrowing-costs-impossible-trinity-mundell-fleming-trilemma-central-bank-independence-under-political-pressure",
+        "polity/standing-versus-ad-hoc-parliamentary-committees-joint-committee-on-a-bill-constituted-by-a-motion-adopted-in-one-house-and-concurred-in-by-the-other-with-members-from-both-houses-department-related-standing-committees-introduced-in-1993-now-24-reconstituted-annually-with-31-members-21-lok-sabha-10-rajya-sabha-select-committee-of-one-house-distinguished-from-a-joint-committee-recommendations-advisory-and-not-binding-committee-reports-as-instruments-of-executive-accountability-under-article-105-privileges",
+        "environment/wild-life-protection-act-1972-protected-area-categories-of-national-park-wildlife-sanctuary-conservation-reserve-and-community-reserve-conservation-reserves-and-community-reserves-added-by-the-wild-life-protection-amendment-act-2002-under-sections-36a-to-36d-conservation-reserve-over-government-owned-land-adjacent-to-or-linking-protected-areas-community-reserve-over-private-or-community-land-volunteered-for-conservation-grazing-prohibited-in-a-national-park-but-regulable-by-the-chief-wildlife-warden-in-a-sanctuary-rights-of-people-extinguished-in-national-parks-but-capable-of-continuing-in-sanctuaries-national-board-for-wild-life-and-state-board-for-wild-life-eco-sensitive-zone-as-a-buffer-notified-under-the-environment-protection-act-1986-around-these-areas"
+      ]
+    },
+    {
       "id": "daily-daily-current-affairs-upsc-ca-2026-09-19",
       "cadence": "daily",
       "title": "UPSC Daily CA Briefing",
@@ -14851,7 +15023,9 @@
       "date": "2026-09-19",
       "path": "daily/daily_current_affairs/UPSC_CA_2026-09-19.md",
       "bundleId": "daily-daily-current-affairs-upsc-ca-2026-09-19",
-      "relatedNoteIds": [],
+      "relatedNoteIds": [
+        "anki-prelims-flashcards-2026-09-20"
+      ],
       "relatedSetIds": [
         "daily_questions_2026_09_19"
       ],
@@ -18988,6 +19162,29 @@
       "topicIds": []
     },
     {
+      "id": "daily-daily-pib-pib-2026-09-20",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 20 Sept",
+      "date": "2026-09-20",
+      "path": "daily/daily_pib/PIB_2026-09-20.md",
+      "bundleId": "daily-daily-pib-pib-2026-09-20",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "pib_questions_2026_09_20"
+      ],
+      "subjectIds": [
+        "economy",
+        "international-relations",
+        "agriculture"
+      ],
+      "topicIds": [
+        "economy/lpg-subsidy-targeting-and-biometric-aadhaar-authentication",
+        "international-relations/india-sri-lanka-defence-cooperation-slinex-and-vision-mahasagar",
+        "agriculture/sericulture-central-silk-board-and-silk-varieties"
+      ]
+    },
+    {
       "id": "daily-daily-pib-pib-2026-09-19",
       "cadence": "pib",
       "title": "Daily PIB Briefing",
@@ -21621,6 +21818,19 @@
       "topicIds": []
     },
     {
+      "id": "weekly-schemes-schemes-reports-2026-09-20",
+      "cadence": "schemes",
+      "title": "Schemes & Reports",
+      "shortTitle": "Reports - 20 Sept",
+      "date": "2026-09-20",
+      "path": "weekly/Schemes/Schemes_Reports_2026-09-20.md",
+      "bundleId": "weekly-schemes-schemes-reports-2026-09-20",
+      "relatedNoteIds": [],
+      "relatedSetIds": [],
+      "subjectIds": [],
+      "topicIds": []
+    },
+    {
       "id": "weekly-schemes-schemes-reports-2026-09-13",
       "cadence": "schemes",
       "title": "Schemes & Reports",
@@ -21826,7 +22036,9 @@
       "variantLabel": "Companion",
       "isSupplementary": true,
       "bundleId": "weekly-sectional-sectional-book-topics-2026-09-20-chatgpt",
-      "relatedNoteIds": [],
+      "relatedNoteIds": [
+        "weekly-sunday-sunday-sweep-2026-09-20"
+      ],
       "relatedSetIds": [
         "sectional_book-topics_2026_09_20_extra"
       ],
@@ -22868,7 +23080,9 @@
       "date": "2026-09-20",
       "path": "weekly/Sunday/Sunday_Sweep_2026-09-20.md",
       "bundleId": "weekly-sunday-sunday-sweep-2026-09-20",
-      "relatedNoteIds": [],
+      "relatedNoteIds": [
+        "weekly-sectional-sectional-book-topics-2026-09-20-chatgpt"
+      ],
       "relatedSetIds": [],
       "subjectIds": [],
       "topicIds": []
@@ -23071,6 +23285,46 @@
       "relatedSetIds": [],
       "subjectIds": [],
       "topicIds": []
+    },
+    {
+      "id": "weekly-csat-csat-practice-2026-09-20",
+      "cadence": "weekly-csat",
+      "title": "CSAT Practice",
+      "shortTitle": "Practice - 20 Sept",
+      "date": "2026-09-20",
+      "path": "weekly/CSAT/CSAT_Practice_2026-09-20.md",
+      "bundleId": "weekly-csat-csat-practice-2026-09-20",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "csat_practice_2026_09_20"
+      ],
+      "subjectIds": [
+        "csat"
+      ],
+      "topicIds": [
+        "csat/main-idea-science-economics-passage-on-the-rebound-effect",
+        "csat/inference-applying-the-argument-to-a-new-case",
+        "csat/assumption-identification-negation-test",
+        "csat/main-idea-philosophical-passage-on-moral-luck",
+        "csat/inference-extending-the-argument-to-praise-as-well-as-blame",
+        "csat/tone-and-attitude",
+        "csat/floor-arrangement-puzzle-with-case-elimination",
+        "csat/coded-blood-relations",
+        "csat/syllogism-with-an-only-a-few-statement",
+        "csat/data-sufficiency-two-digit-number",
+        "csat/number-series-second-order-pattern-n-squared-plus-1",
+        "csat/conditional-reasoning-chaining-rules-and-avoiding-the-converse",
+        "csat/partially-filled-table-weighted-versus-unweighted-average-ratio",
+        "csat/partially-filled-table-change-in-production-from-area-and-yield-together",
+        "csat/caselet-cumulative-stock-across-years",
+        "csat/caselet-ratio-of-aggregates-with-a-direction-trap",
+        "csat/protection-of-personal-data-against-pressure-from-a-programme-partner",
+        "csat/responding-publicly-to-an-unverified-allegation-under-media-pressure",
+        "csat/merit-non-discrimination-and-reasonable-accommodation-in-selection",
+        "csat/pipes-and-cisterns-with-a-leak",
+        "csat/mixtures-successive-replacement-followed-by-a-proportional-draw",
+        "csat/probability-at-least-two-case-via-combinations"
+      ]
     },
     {
       "id": "weekly-csat-csat-practice-2026-09-13",
