@@ -1,0 +1,50 @@
+[
+  {
+    "question": "Consider the following statements regarding the India-New Zealand Free Trade Agreement, which is to enter into force in October 2026:\n1. From the date of entry into force, every tariff line covering 100% of India's exports to New Zealand becomes duty-free.\n2. Dairy products, sugar and edible oils have been kept out of India's tariff concessions.\n3. New Zealand's apples, kiwifruit and Manuka honey have been granted unrestricted duty-free access to the Indian market.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "All of India's export tariff lines to New Zealand become duty-free from day one, and dairy, animal meat (except sheep), key agricultural commodities, sugar and edible oils are excluded from India's concessions; statement 3 is wrong because apples, kiwifruit and Manuka honey get only calibrated access through Tariff Rate Quotas with a Minimum Import Price and seasonal import windows.",
+    "subject": "Economy",
+    "theme": "External Sector and Trade Agreements",
+    "micro_topic": "India-New Zealand Free Trade Agreement",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Pharmacopoeia Commission for Indian Medicine & Homoeopathy (PCIM&H), which recently constituted a Sowa-Rigpa Working Group, functions under which one of the following?",
+    "options": [
+      "(a) Ministry of Health and Family Welfare",
+      "(b) Ministry of Ayush",
+      "(c) Department of Pharmaceuticals, Ministry of Chemicals and Fertilizers",
+      "(d) Department of Biotechnology, Ministry of Science and Technology"
+    ],
+    "answer": "(b)",
+    "explanation": "PCIM&H is a subordinate office under the Ministry of Ayush that develops Pharmacopoeias and Formularies and acts as the Central Drug Testing-cum-Appellate Laboratory for Indian Systems of Medicine and Homoeopathy; the National Institute of Sowa-Rigpa is located at Leh.",
+    "subject": "Science & Technology",
+    "theme": "Health and Traditional Medicine",
+    "micro_topic": "PCIM&H and Sowa-Rigpa standardisation",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to India's institutional framework against narcotics, consider the following statements:\n1. The Narcotics Control Bureau functions under the Ministry of Home Affairs.\n2. The Central Bureau of Narcotics functions under the Department of Revenue, Ministry of Finance.\n3. Anti-Narcotics Task Forces (ANTFs) are constituted at the level of States and Union Territories.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1, 2 and 3",
+      "(d) 1 and 3 only"
+    ],
+    "answer": "(c)",
+    "explanation": "The NCB is under the Ministry of Home Affairs, while the Central Bureau of Narcotics and the Directorate of Revenue Intelligence are under the Department of Revenue, Ministry of Finance, and ANTFs are State/UT-level bodies whose heads from all 36 States and UTs attend the national conference convened by the NCB.",
+    "subject": "Internal Security",
+    "theme": "Drug Trafficking and Enforcement Agencies",
+    "micro_topic": "NCB, CBN and State Anti-Narcotics Task Forces",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]
