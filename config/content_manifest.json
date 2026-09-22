@@ -12,6 +12,52 @@
   ],
   "questionSets": [
     {
+      "id": "daily_questions_2026_09_21",
+      "label": "Daily Questions - 21 Sept 2026",
+      "shortLabel": "Daily 21 Sept",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-09-21.json",
+      "sourcePath": "daily/daily_questions/daily_questions_2026-09-21.json",
+      "isoDate": "2026-09-21",
+      "subjects": [
+        "International Relations",
+        "Economy",
+        "Environment",
+        "Art & Culture",
+        "Society",
+        "Polity & Governance",
+        "Science & Technology"
+      ],
+      "bundleId": "daily_questions_2026_09_21",
+      "relatedNoteIds": [
+        "daily-daily-current-affairs-upsc-ca-2026-09-21"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "international-relations",
+        "economy",
+        "environment",
+        "culture",
+        "society",
+        "polity",
+        "science-technology"
+      ],
+      "topicIds": [
+        "international-relations/81st-unga-session-opened-8-september-2026-with-president-dr-khalilur-rahman-of-bangladesh-elected-2-june-2026-99-91-asia-pacific-group-on-the-theme-restoring-trust-managing-transformation-a-united-nations-that-delivers-for-all-general-debate-22-28-september-2026-with-eam-s-jaishankar-delivering-india-s-national-statement-on-26-september-intergovernmental-negotiations-on-unsc-reform-rolled-over-into-the-81st-session-india-s-non-permanent-seat-bid-for-2028-29-under-the-india4unsc-peace-planet-progress-campaign-and-shanti-vision-election-june-2027-against-tajikistan-for-the-sole-asia-pacific-seat-india-has-served-eight-previous-terms-article-23-of-the-un-charter-and-ga-resolution-1991a-1963-on-regional-distribution",
+        "economy/gobardhan-operational-guidelines-dated-15-september-2026-issued-by-the-ministry-of-petroleum-and-natural-gas-union-cabinet-approval-6-august-2026-outlay-rs-23-731-crore-for-fy-2026-27-to-fy-2035-36-six-components-cbg-offtake-assurance-mechanism-cbg-pricing-framework-capital-assistance-development-of-pipeline-infrastructure-credit-guarantee-support-cbg-ecosystem-challenge-fund-administered-price-rs-2-110-per-mmbtu-about-rs-98-kg-at-95-methane-fixed-to-31-march-2036-cbg-obligation-3-4-5-across-fy27-fy29-assured-offtake-of-up-to-100-of-output-capital-assistance-up-to-rs-2-crore-per-tpd-for-greenfield-projects-predecessor-satat-launched-1-october-2018",
+        "environment/9th-india-international-water-week-iiww-2026-22-26-september-2026-bharat-mandapam-new-delhi-organised-by-the-ministry-of-jal-shakti-on-the-theme-climate-resilient-water-management-inaugurated-by-vice-president-c-p-radhakrishnan-49-sessions-around-150-countries-invited-and-about-11-partner-countries-expected-including-the-netherlands-and-germany-second-international-wash-conference-2026-held-22-24-september-as-part-of-it-jal-sanchay-jan-bhagidari-september-2024-with-over-60-lakh-artificial-recharge-and-water-conservation-structures-against-a-one-crore-target-65-to-30-of-mgnregs-expenditure-earmarked-for-water-conservation",
+        "culture/karnataka-cabinet-decision-of-18-september-2026-at-mangaluru-chaired-by-chief-minister-d-k-shivakumar-granting-tulu-status-as-a-second-additional-official-language-for-administrative-purposes-in-dakshina-kannada-and-udupi-districts-with-an-annual-allocation-of-rs-82-lakh-for-translation-and-staff-training-and-rs-32-611-crore-of-projects-cleared-at-the-same-meeting-tulu-as-a-south-dravidian-language-with-18-46-427-speakers-in-census-2011-tigalari-script-derived-from-grantha-with-inscriptions-around-barkur-and-kundapura-karnataka-official-language-act-1963-karnataka-tulu-sahitya-academy-established-1994-yakshagana-bhuta-kola-and-kambala-as-tulu-nadu-traditions",
+        "society/pib-backgrounder-of-20-september-2026-consolidating-frontline-community-cadre-data-across-the-ministries-of-rural-development-health-and-family-welfare-women-and-child-development-and-jal-shakti-over-30-lakh-trained-village-level-workers-10-40-lakh-ashas-and-10-58-lakh-anganwadi-workers-over-9-lakh-community-resource-persons-under-day-nrlm-of-which-4-08-lakh-are-livelihood-crps-krishi-sakhi-1-91-lakh-pashu-sakhi-1-70-lakh-udyog-sakhi-48-785-van-sakhi-2-993-matsya-sakhi-2-012-1-48-lakh-bc-sakhis-swachhagrahis-and-awaas-mitras-community-cadre-approach-based-on-activity-linked-incentives-rather-than-salaries-shg-to-village-organisation-to-cluster-level-federation-architecture",
+        "polity/part-xvii-of-the-constitution-articles-343-to-351-article-345-on-official-languages-of-a-state-eighth-schedule-with-22-languages-the-last-four-bodo-dogri-maithili-santhali-added-by-the-92nd-constitutional-amendment-act-2003-with-no-fixed-criteria-for-inclusion-classical-language-status-as-an-executive-decision-of-the-ministry-of-culture-now-covering-11-languages-tamil-2004-sanskrit-2005-kannada-and-telugu-2008-malayalam-2013-odia-2014-and-marathi-pali-prakrit-assamese-and-bengali-october-2024-pali-and-prakrit-as-classical-languages-outside-the-eighth-schedule",
+        "science-technology/anaerobic-digestion-of-organic-matter-producing-biogas-composed-chiefly-of-methane-with-carbon-dioxide-hydrogen-sulphide-and-moisture-upgradation-and-compression-to-about-90-95-methane-to-yield-compressed-biogas-meeting-cng-specifications-feedstocks-including-cattle-dung-agricultural-residue-food-waste-municipal-solid-waste-and-sewage-fermented-organic-manure-as-a-by-product-satat-scheme-of-1-october-2018-and-the-gobardhan-national-unified-scheme-for-compressed-biogas-as-the-policy-vehicles"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
       "id": "daily_questions_2026_09_20",
       "label": "Daily Questions - 20 Sept 2026",
       "shortLabel": "Daily 20 Sept",
@@ -4561,6 +4607,38 @@
       "provenance": "generated"
     },
     {
+      "id": "daily_rc_2026_09_21",
+      "label": "Daily RC Drill - 21 Sept 2026",
+      "shortLabel": "RC 21 Sept",
+      "category": "Daily Reading Comprehension",
+      "sourceType": "rc",
+      "questionCount": 8,
+      "durationMinutes": 16,
+      "path": "generated_data/rc_questions/2026-09-21.json",
+      "sourcePath": "generated_data/rc_questions/2026-09-21.json",
+      "isoDate": "2026-09-21",
+      "paper": "GS Paper II (CSAT)",
+      "marksPerCorrect": 2,
+      "negativeMark": -0.66,
+      "subjects": [
+        "Reading Comprehension"
+      ],
+      "bundleId": "daily_rc_2026_09_21",
+      "relatedNoteIds": [
+        "daily-daily-reading-comprehension-rc-drill-2026-09-21"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "reading-comprehension"
+      ],
+      "topicIds": [
+        "reading-comprehension/philosophy-ethics-moral-luck-and-the-control-principle",
+        "reading-comprehension/international-affairs-compliance-and-the-authority-of-international-law"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
       "id": "daily_rc_2026_09_14",
       "label": "Daily RC Drill - 14 Sept 2026",
       "shortLabel": "RC 14 Sept",
@@ -5093,6 +5171,40 @@
       ],
       "topicIds": [
         "reading-comprehension/reading-comprehension"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
+      "id": "pib_questions_2026_09_21",
+      "label": "PIB Questions - 21 Sept 2026",
+      "shortLabel": "PIB 21 Sept",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-09-21.json",
+      "sourcePath": "generated_data/pib_questions/2026-09-21.json",
+      "isoDate": "2026-09-21",
+      "subjects": [
+        "Economy",
+        "Science & Technology",
+        "Internal Security"
+      ],
+      "bundleId": "pib_questions_2026_09_21",
+      "relatedNoteIds": [
+        "daily-daily-pib-pib-2026-09-21"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "economy",
+        "science-technology",
+        "internal-security"
+      ],
+      "topicIds": [
+        "economy/india-new-zealand-free-trade-agreement",
+        "science-technology/pcimandh-and-sowa-rigpa-standardisation",
+        "internal-security/ncb-cbn-and-state-anti-narcotics-task-forces"
       ],
       "format": "drill",
       "provenance": "generated"
@@ -14987,6 +15099,37 @@
       "topicIds": []
     },
     {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-09-21",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "21 Sept 2026",
+      "date": "2026-09-21",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-09-21.md",
+      "bundleId": "daily-daily-current-affairs-upsc-ca-2026-09-21",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "daily_questions_2026_09_21"
+      ],
+      "subjectIds": [
+        "international-relations",
+        "economy",
+        "environment",
+        "culture",
+        "society",
+        "polity",
+        "science-technology"
+      ],
+      "topicIds": [
+        "international-relations/81st-unga-session-opened-8-september-2026-with-president-dr-khalilur-rahman-of-bangladesh-elected-2-june-2026-99-91-asia-pacific-group-on-the-theme-restoring-trust-managing-transformation-a-united-nations-that-delivers-for-all-general-debate-22-28-september-2026-with-eam-s-jaishankar-delivering-india-s-national-statement-on-26-september-intergovernmental-negotiations-on-unsc-reform-rolled-over-into-the-81st-session-india-s-non-permanent-seat-bid-for-2028-29-under-the-india4unsc-peace-planet-progress-campaign-and-shanti-vision-election-june-2027-against-tajikistan-for-the-sole-asia-pacific-seat-india-has-served-eight-previous-terms-article-23-of-the-un-charter-and-ga-resolution-1991a-1963-on-regional-distribution",
+        "economy/gobardhan-operational-guidelines-dated-15-september-2026-issued-by-the-ministry-of-petroleum-and-natural-gas-union-cabinet-approval-6-august-2026-outlay-rs-23-731-crore-for-fy-2026-27-to-fy-2035-36-six-components-cbg-offtake-assurance-mechanism-cbg-pricing-framework-capital-assistance-development-of-pipeline-infrastructure-credit-guarantee-support-cbg-ecosystem-challenge-fund-administered-price-rs-2-110-per-mmbtu-about-rs-98-kg-at-95-methane-fixed-to-31-march-2036-cbg-obligation-3-4-5-across-fy27-fy29-assured-offtake-of-up-to-100-of-output-capital-assistance-up-to-rs-2-crore-per-tpd-for-greenfield-projects-predecessor-satat-launched-1-october-2018",
+        "environment/9th-india-international-water-week-iiww-2026-22-26-september-2026-bharat-mandapam-new-delhi-organised-by-the-ministry-of-jal-shakti-on-the-theme-climate-resilient-water-management-inaugurated-by-vice-president-c-p-radhakrishnan-49-sessions-around-150-countries-invited-and-about-11-partner-countries-expected-including-the-netherlands-and-germany-second-international-wash-conference-2026-held-22-24-september-as-part-of-it-jal-sanchay-jan-bhagidari-september-2024-with-over-60-lakh-artificial-recharge-and-water-conservation-structures-against-a-one-crore-target-65-to-30-of-mgnregs-expenditure-earmarked-for-water-conservation",
+        "culture/karnataka-cabinet-decision-of-18-september-2026-at-mangaluru-chaired-by-chief-minister-d-k-shivakumar-granting-tulu-status-as-a-second-additional-official-language-for-administrative-purposes-in-dakshina-kannada-and-udupi-districts-with-an-annual-allocation-of-rs-82-lakh-for-translation-and-staff-training-and-rs-32-611-crore-of-projects-cleared-at-the-same-meeting-tulu-as-a-south-dravidian-language-with-18-46-427-speakers-in-census-2011-tigalari-script-derived-from-grantha-with-inscriptions-around-barkur-and-kundapura-karnataka-official-language-act-1963-karnataka-tulu-sahitya-academy-established-1994-yakshagana-bhuta-kola-and-kambala-as-tulu-nadu-traditions",
+        "society/pib-backgrounder-of-20-september-2026-consolidating-frontline-community-cadre-data-across-the-ministries-of-rural-development-health-and-family-welfare-women-and-child-development-and-jal-shakti-over-30-lakh-trained-village-level-workers-10-40-lakh-ashas-and-10-58-lakh-anganwadi-workers-over-9-lakh-community-resource-persons-under-day-nrlm-of-which-4-08-lakh-are-livelihood-crps-krishi-sakhi-1-91-lakh-pashu-sakhi-1-70-lakh-udyog-sakhi-48-785-van-sakhi-2-993-matsya-sakhi-2-012-1-48-lakh-bc-sakhis-swachhagrahis-and-awaas-mitras-community-cadre-approach-based-on-activity-linked-incentives-rather-than-salaries-shg-to-village-organisation-to-cluster-level-federation-architecture",
+        "polity/part-xvii-of-the-constitution-articles-343-to-351-article-345-on-official-languages-of-a-state-eighth-schedule-with-22-languages-the-last-four-bodo-dogri-maithili-santhali-added-by-the-92nd-constitutional-amendment-act-2003-with-no-fixed-criteria-for-inclusion-classical-language-status-as-an-executive-decision-of-the-ministry-of-culture-now-covering-11-languages-tamil-2004-sanskrit-2005-kannada-and-telugu-2008-malayalam-2013-odia-2014-and-marathi-pali-prakrit-assamese-and-bengali-october-2024-pali-and-prakrit-as-classical-languages-outside-the-eighth-schedule",
+        "science-technology/anaerobic-digestion-of-organic-matter-producing-biogas-composed-chiefly-of-methane-with-carbon-dioxide-hydrogen-sulphide-and-moisture-upgradation-and-compression-to-about-90-95-methane-to-yield-compressed-biogas-meeting-cng-specifications-feedstocks-including-cattle-dung-agricultural-residue-food-waste-municipal-solid-waste-and-sewage-fermented-organic-manure-as-a-by-product-satat-scheme-of-1-october-2018-and-the-gobardhan-national-unified-scheme-for-compressed-biogas-as-the-policy-vehicles"
+      ]
+    },
+    {
       "id": "daily-daily-current-affairs-upsc-ca-2026-09-20",
       "cadence": "daily",
       "title": "UPSC Daily CA Briefing",
@@ -18525,6 +18668,19 @@
       "topicIds": []
     },
     {
+      "id": "daily-daily-mains-gs-mains-2026-09-21",
+      "cadence": "mains",
+      "title": "GS Mains Answer Practice",
+      "shortTitle": "Mains - 21 Sept",
+      "date": "2026-09-21",
+      "path": "daily/daily_mains/GS_Mains_2026-09-21.md",
+      "bundleId": "daily-daily-mains-gs-mains-2026-09-21",
+      "relatedNoteIds": [],
+      "relatedSetIds": [],
+      "subjectIds": [],
+      "topicIds": []
+    },
+    {
       "id": "daily-daily-mains-gs-mains-2026-09-20",
       "cadence": "mains",
       "title": "GS Mains Answer Practice",
@@ -19160,6 +19316,29 @@
       "relatedSetIds": [],
       "subjectIds": [],
       "topicIds": []
+    },
+    {
+      "id": "daily-daily-pib-pib-2026-09-21",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 21 Sept",
+      "date": "2026-09-21",
+      "path": "daily/daily_pib/PIB_2026-09-21.md",
+      "bundleId": "daily-daily-pib-pib-2026-09-21",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "pib_questions_2026_09_21"
+      ],
+      "subjectIds": [
+        "economy",
+        "science-technology",
+        "internal-security"
+      ],
+      "topicIds": [
+        "economy/india-new-zealand-free-trade-agreement",
+        "science-technology/pcimandh-and-sowa-rigpa-standardisation",
+        "internal-security/ncb-cbn-and-state-anti-narcotics-task-forces"
+      ]
     },
     {
       "id": "daily-daily-pib-pib-2026-09-20",
@@ -21469,6 +21648,26 @@
         "agriculture/mission-for-cotton-productivity",
         "infrastructure/zojila-tunnel-nhidcl",
         "polity/prime-minister-research-chair-pmrc-scheme-2026"
+      ]
+    },
+    {
+      "id": "daily-daily-reading-comprehension-rc-drill-2026-09-21",
+      "cadence": "rc",
+      "title": "CSAT Daily RC Drill",
+      "shortTitle": "RC - 21 Sept",
+      "date": "2026-09-21",
+      "path": "daily/daily_reading_comprehension/RC_Drill_2026-09-21.md",
+      "bundleId": "daily-daily-reading-comprehension-rc-drill-2026-09-21",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "daily_rc_2026_09_21"
+      ],
+      "subjectIds": [
+        "reading-comprehension"
+      ],
+      "topicIds": [
+        "reading-comprehension/philosophy-ethics-moral-luck-and-the-control-principle",
+        "reading-comprehension/international-affairs-compliance-and-the-authority-of-international-law"
       ]
     },
     {

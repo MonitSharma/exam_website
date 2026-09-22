@@ -440,7 +440,7 @@ function DailyQuizCard({ go, progress }) {
       <h2 className="daily-title">{dailyQuiz.title}</h2>
       <p className="daily-desc">{dailyQuiz.description}</p>
       <div className="daily-meta">
-        <span><strong>{dailySet?.questionCount || 0}</strong> questions</span>
+        <span><strong>{dailySet?.blendedQuestionCount || dailySet?.questionCount || 0}</strong> questions{dailySet?.pyqCount ? ` · ${dailySet.pyqCount} PYQs` : ""}</span>
         <span className="dot-sep" />
         <span><strong>~{dailyQuiz.durationMinutes}</strong> min</span>
         <span className="dot-sep" />
@@ -943,17 +943,20 @@ function collapseNoteBundles(docs) {
 function TodayPreparation({ go, progress, review, onStartReview }) {
   const ds = window.UPSC;
   const dailySet = latestDatedItem(ds.getQuestionSetsBySource("daily"), "isoDate", ds.todayIso);
+  const dailyPyq = ds.dailyPyq;
   const dailyDone = Boolean(dailySet && progress?.dailyCompletions?.[dailySet.isoDate]);
+  const dailyPyqDone = Boolean(dailyPyq && progress?.history?.some((entry) => entry.questionSetId === dailyPyq.id));
   const dueQuestions = review?.due || 0;
   const dueLabs = review?.labDue || 0;
   const weakSubject = review?.weakest?.[0]?.subject || dailySet?.subjects?.[0] || "Mixed GS";
   const steps = [
     dueQuestions > 0 && { key: "review", label: "Recall", title: `${dueQuestions} question${dueQuestions === 1 ? "" : "s"} due`, meta: "Weakest questions first", action: onStartReview, done: false },
-    dailySet && { key: "daily", label: "Daily", title: dailyDone ? "Daily quiz completed" : dailySet.shortLabel || "Daily quiz", meta: `${dailySet.questionCount || 0} questions · ${dailySet.durationMinutes || 10} min`, action: () => go("test", { setId: dailySet.id }), done: dailyDone },
+    dailySet && { key: "daily", label: "Daily", title: dailyDone ? "Daily quiz completed" : dailySet.shortLabel || "Daily quiz", meta: `${dailySet.blendedQuestionCount || dailySet.questionCount || 0} questions · ${dailySet.durationMinutes || 10} min`, action: () => go("test", { setId: dailySet.id }), done: dailyDone },
+    dailyPyq && { key: "daily-pyq", label: "PYQ", title: dailyPyqDone ? "Daily PYQ completed" : "Daily PYQ", meta: `${dailyPyq.questionCount} questions · ${dailyPyq.durationMinutes} min`, action: () => go("test", { setId: dailyPyq.id }), done: dailyPyqDone },
     { key: "focus", label: "Focus", title: weakSubject, meta: dueLabs > 0 ? `${dueLabs} lab review${dueLabs === 1 ? "" : "s"} due` : "Open a visual revision lab", action: () => go("labs", { focusSubject: weakSubject }), done: false },
   ].filter(Boolean);
   const next = steps.find((step) => !step.done) || steps[steps.length - 1];
-  const minutes = Math.max(12, (dueQuestions ? Math.min(dueQuestions, 12) : 0) + (dailySet && !dailyDone ? Number(dailySet.durationMinutes || 10) : 0) + 8);
+  const minutes = Math.max(12, (dueQuestions ? Math.min(dueQuestions, 12) : 0) + (dailySet && !dailyDone ? Number(dailySet.durationMinutes || 10) : 0) + (dailyPyq && !dailyPyqDone ? dailyPyq.durationMinutes : 0) + 8);
   return (
     <section className="today-prep">
       <div className="today-prep-head"><div><span className="eyebrow small"><span className="eyebrow-line" /> Your next session</span><h2>Your next session</h2><p>A small loop: recall what is due, attempt today’s questions, then reinforce your weakest area.</p></div><div className="today-prep-time"><span className="today-prep-time-label">Estimated session</span><strong>~{minutes} min</strong><span>{dailyDone && !dueQuestions ? "Momentum maintained" : "Ready when you are"}</span></div></div>

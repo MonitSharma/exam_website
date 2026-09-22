@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the Modified UDAN (Regional Connectivity Scheme), consider the following statements:\n1. It has been approved for a period of ten years from FY 2026-27 to FY 2035-36.\n2. Its budgetary outlay is over Rs 28,000 crore, of which the largest single head is viability gap funding for airlines.\n3. It includes a dedicated component for developing modern helipads in hilly, remote, island and aspirational regions.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Modified UDAN runs for ten years (FY 2026-27 to FY 2035-36) with an outlay of Rs 28,840 crore, but the largest single head is airport development at Rs 12,159 crore, not airline viability gap funding (Rs 10,043 crore); Rs 3,661 crore is earmarked for 200 modern helipads, so statements 1 and 3 are correct.",
+    "subject": "Economy",
+    "theme": "Infrastructure",
+    "micro_topic": "Civil aviation and regional connectivity schemes",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements about the NAMASTE (National Action for Mechanised Sanitation Ecosystem) scheme:\n1. It is implemented by the Ministry of Housing and Urban Affairs alone.\n2. Its coverage has been extended from sewer and septic tank workers to waste pickers.\n3. It provides capital subsidy for sanitation-related enterprises under the Swachhta Udyami Yojana component.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "NAMASTE is a Ministry of Social Justice and Empowerment scheme implemented with MoHUA through NSKFDC, so statement 1 is wrong; profiling now covers 2,51,756 waste pickers besides 90,186 validated sewer and septic tank workers, and 983 beneficiaries have received Rs 34.16 crore capital subsidy under Swachhta Udyami Yojana.",
+    "subject": "Polity & Governance",
+    "theme": "Welfare schemes for vulnerable sections",
+    "micro_topic": "NAMASTE and elimination of hazardous manual cleaning",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The OPEC-India Energy Dialogue, seen in the news recently, is best described as:",
+    "options": [
+      "(a) A multilateral treaty obliging OPEC members to supply crude oil to India at concessional rates",
+      "(b) A dispute-settlement mechanism under the International Energy Agency for oil-pricing disagreements",
+      "(c) A joint venture between OPEC and Indian public sector oil companies for overseas exploration",
+      "(d) An institutionalised producer-consumer dialogue between OPEC and India's Ministry of Petroleum and Natural Gas"
+    ],
+    "answer": "(d)",
+    "explanation": "It is an institutionalised producer-consumer platform between OPEC and India's Ministry of Petroleum and Natural Gas; its 7th High-Level Meeting was held on 22 September 2026 between Minister Hardeep Singh Puri and OPEC Secretary General Haitham Al Ghais, and it carries no concessional-pricing obligation.",
+    "subject": "International Relations",
+    "theme": "Groupings and agreements involving India",
+    "micro_topic": "India-OPEC energy cooperation and energy security",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]

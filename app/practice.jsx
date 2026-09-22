@@ -84,7 +84,7 @@ function PracticeScreen({ go }) {
         <div className="practice-summary">
           <span>{selectedExam.name}</span>
           <strong>{selectedSet?.label || "No set selected"}</strong><button className="btn btn-green sm" onClick={beginSelected} disabled={!selectedSet}>Begin selected test</button>
-          <em>{selectedSet ? `${selectedSet.questionCount} questions · ${timed ? selectedSet.durationMinutes + " min timed" : "untimed"}` : "Choose an available set"}</em>
+          <em>{selectedSet ? `${selectedSet.blendedQuestionCount || selectedSet.questionCount} questions${selectedSet.pyqCount ? ` · ${selectedSet.pyqCount} PYQs` : ""} · ${timed ? selectedSet.durationMinutes + " min timed" : "untimed"}` : "Choose an available set"}</em>
         </div>
       </div>
 
@@ -133,7 +133,7 @@ function PracticeScreen({ go }) {
                 <span className="set-option-kicker">{set.year || (set.isoDate ? practiceDateLabel(set.isoDate) : set.shortLabel)}</span>
                 {addOn && <span className="variant-chip">Practice Add-on</span>}
                 <strong>{set.label}</strong>
-                <span>{bundle.length === 1 ? `${set.questionCount} questions` : bundle.map((item) => `${window.UPSC_CONTENT.variantLabel(item)} · ${item.questionCount} questions`).join(" · ")}</span>
+                <span>{bundle.length === 1 ? `${set.blendedQuestionCount || set.questionCount} questions${set.pyqCount ? ` · includes ${set.pyqCount} PYQs` : ""}` : bundle.map((item) => `${window.UPSC_CONTENT.variantLabel(item)} · ${item.blendedQuestionCount || item.questionCount} questions`).join(" · ")}</span>
                 </button>
                 {bundle.length > 1 && (
                   <div className="set-variant-tabs" onClick={(event) => event.stopPropagation()}>

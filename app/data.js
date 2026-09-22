@@ -53,6 +53,15 @@
   const todayIso = currentIsoDate();
   const REVIEW_SET_ID = "__review__";
   const defaultPracticeSetId = "2025";
+  // Keep the short current-affairs sets useful for long-term preparation too.
+  // These are added at runtime, so new daily/weekly files automatically get
+  // the same PYQ coverage without changing the generated content manifest.
+  const PYQ_BLEND_COUNTS = {
+    daily: 2,
+    pib: 2,
+    "weekly-quiz": 3,
+    sectional: 3,
+  };
   const questionCache = new Map();
   const noteCache = new Map();
   const subscribers = new Set();
@@ -61,6 +70,7 @@
   let noteDocuments = [];
   let dailyQuiz = null;
   let dailyRc = null;
+  let dailyPyq = null;
   let defaultQuestionSetId = defaultPracticeSetId;
 
   function inferSourceType(set) {
@@ -81,7 +91,9 @@
 
   function normalizeQuestionSetMeta(set) {
     const sourceType = inferSourceType(set);
-    const questionCount = Number(set.questionCount || set.question_count || 0);
+    const baseQuestionCount = Number(set.questionCount || set.question_count || 0);
+    const pyqCount = PYQ_BLEND_COUNTS[sourceType] || 0;
+    const questionCount = baseQuestionCount;
     const durationMinutes = Number(set.durationMinutes || set.duration_minutes || (sourceType === "daily" || sourceType === "pib" ? 10 : sourceType === "rc" ? 8 : sourceType === "sectional" ? 40 : 120));
     const normalized = {
       ...set,
@@ -91,6 +103,9 @@
       category: set.category || "Practice",
       sourceType,
       questionCount,
+      baseQuestionCount,
+      pyqCount,
+      blendedQuestionCount: baseQuestionCount + pyqCount,
       durationMinutes,
       path: set.path,
       subjects: Array.isArray(set.subjects) ? set.subjects : [],
@@ -215,6 +230,24 @@
     };
   }
 
+  function deriveDailyPyq() {
+    const questionSetId = `daily_pyq_${todayIso.replace(/-/g, "_")}`;
+    return {
+      id: questionSetId,
+      questionSetId,
+      label: "Daily PYQ",
+      shortLabel: "Daily PYQ",
+      category: "Daily PYQ",
+      sourceType: "daily-pyq",
+      isoDate: todayIso,
+      questionCount: 5,
+      durationMinutes: 8,
+      pyqCount: 5,
+      description: "Five PYQs selected automatically for today’s morning revision.",
+      dateLabel: formatDailyDate(todayIso),
+    };
+  }
+
   function applyManifest(manifest, { notify = false } = {}) {
     const source = manifest && Array.isArray(manifest.questionSets) ? manifest : {};
     years = Array.isArray(source.years) && source.years.length ? source.years : years;
@@ -222,6 +255,7 @@
     noteDocuments = sortNoteDocuments((source.noteDocuments || fallbackNoteDocuments).map(normalizeNoteDocument).filter((note) => note.id && note.path));
     dailyQuiz = deriveDailyQuiz();
     dailyRc = deriveDailyRc();
+    dailyPyq = deriveDailyPyq();
     defaultQuestionSetId = dailyQuiz.questionSetId || defaultPracticeSetId;
     if (notify) subscribers.forEach((callback) => callback(api));
   }
@@ -248,6 +282,7 @@
 
   function getQuestionSetById(questionSetId) {
     const normalizedId = String(questionSetId || defaultQuestionSetId);
+    if (dailyPyq && normalizedId === dailyPyq.id) return dailyPyq;
     return questionSets.find((set) => set.id === normalizedId)
       || questionSets.find((set) => set.id === defaultQuestionSetId)
       || questionSets[0]
@@ -259,15 +294,119 @@
   }
 
   async function loadQuestionSet(questionSetId) {
-    const questionSet = questionSets.find((set) => set.id === String(questionSetId || defaultQuestionSetId));
+    const normalizedId = String(questionSetId || defaultQuestionSetId);
+    if (dailyPyq && normalizedId === dailyPyq.id) return loadDailyPyqQuestionSet();
+    const questionSet = questionSets.find((set) => set.id === normalizedId);
     if (!questionSet) throw new Error("Question set not found.");
     if (!questionCache.has(questionSet.id)) {
       const response = await fetch(questionSet.path);
       if (!response.ok) throw new Error(`Could not load ${questionSet.label}.`);
       const rows = await response.json();
-      questionCache.set(questionSet.id, rows.map((row, index) => normalizeQuestion(row, index, questionSet)));
+      const baseQuestions = rows.map((row, index) => normalizeQuestion(row, index, questionSet));
+      const blended = await blendWithPyqs(baseQuestions, questionSet);
+      questionCache.set(questionSet.id, blended);
     }
-    return { questionSet, questions: questionCache.get(questionSet.id) };
+    return {
+      questionSet: { ...questionSet, questionCount: questionCache.get(questionSet.id).length },
+      questions: questionCache.get(questionSet.id),
+    };
+  }
+
+  async function loadDailyPyqQuestionSet() {
+    const questionSet = dailyPyq;
+    if (questionCache.has(questionSet.id)) return { questionSet, questions: questionCache.get(questionSet.id) };
+    const pyqSets = questionSets
+      .filter((set) => set.sourceType === "pyq" && set.path)
+      .sort((a, b) => Number(a.year || 0) - Number(b.year || 0));
+    const selected = [];
+    const used = new Set();
+    const seed = blendSeed(questionSet.id);
+    for (let index = 0; index < questionSet.questionCount; index++) {
+      const pyqSet = pyqSets[(seed + index * 7) % pyqSets.length];
+      if (!pyqSet) continue;
+      if (!questionCache.has(pyqSet.id)) {
+        const response = await fetch(pyqSet.path);
+        if (!response.ok) continue;
+        const rows = await response.json();
+        questionCache.set(pyqSet.id, rows.map((row, rowIndex) => normalizeQuestion(row, rowIndex, pyqSet)));
+      }
+      const available = questionCache.get(pyqSet.id) || [];
+      if (!available.length) continue;
+      let offset = (seed * 13 + index * 31) % available.length;
+      let candidate = available[offset];
+      while (candidate && used.has(`${pyqSet.id}:${candidate.n}`)) {
+        offset = (offset + 1) % available.length;
+        candidate = available[offset];
+      }
+      if (!candidate) continue;
+      used.add(`${pyqSet.id}:${candidate.n}`);
+      selected.push({ ...candidate, n: selected.length + 1, sourceSetId: pyqSet.id, sourceQuestionNumber: candidate.n, isDailyPyq: true, source: "pyq" });
+    }
+    questionCache.set(questionSet.id, selected);
+    return { questionSet: { ...questionSet, questionCount: selected.length }, questions: selected };
+  }
+
+  function blendSeed(value) {
+    return String(value || "").split("").reduce((sum, char, index) => (sum + char.charCodeAt(0) * (index + 1)) % 2147483647, 17);
+  }
+
+  // Select a different, stable slice for each dated set. Stability matters:
+  // refreshing a quiz must not silently replace the questions in an attempt.
+  async function blendWithPyqs(baseQuestions, questionSet) {
+    const count = PYQ_BLEND_COUNTS[questionSet.sourceType] || 0;
+    if (!count || !questionSets.length) return baseQuestions;
+
+    const pyqSets = questionSets
+      .filter((set) => set.sourceType === "pyq" && set.path)
+      .sort((a, b) => Number(a.year || 0) - Number(b.year || 0));
+    if (!pyqSets.length) return baseQuestions;
+
+    const seed = blendSeed(questionSet.id);
+    const selected = [];
+    const used = new Set();
+    for (let index = 0; index < count; index++) {
+      const pyqSet = pyqSets[(seed + index * 7) % pyqSets.length];
+      if (!questionCache.has(pyqSet.id)) {
+        const response = await fetch(pyqSet.path);
+        if (!response.ok) continue;
+        const rows = await response.json();
+        questionCache.set(pyqSet.id, rows.map((row, rowIndex) => normalizeQuestion(row, rowIndex, pyqSet)));
+      }
+      const available = questionCache.get(pyqSet.id) || [];
+      if (!available.length) continue;
+      let offset = (seed * 13 + index * 31) % available.length;
+      let candidate = available[offset];
+      while (candidate && used.has(candidate.id) && used.size < available.length * pyqSets.length) {
+        offset = (offset + 1) % available.length;
+        candidate = available[offset];
+      }
+      if (!candidate || used.has(candidate.id)) continue;
+      used.add(candidate.id);
+      selected.push({
+        ...candidate,
+        // The visible question number belongs to the blended session, while
+        // these pointers keep spaced repetition tied to the original PYQ.
+        sourceSetId: pyqSet.id,
+        sourceQuestionNumber: candidate.n,
+        isPyqBlend: true,
+        source: "pyq",
+      });
+    }
+
+    if (!selected.length) return baseQuestions;
+    const combined = [];
+    const stride = Math.max(1, Math.ceil(baseQuestions.length / (selected.length + 1)));
+    let nextPyq = 0;
+    baseQuestions.forEach((question, index) => {
+      combined.push({
+        ...question,
+        sourceSetId: questionSet.id,
+        sourceQuestionNumber: question.n,
+      });
+      if ((index + 1) % stride === 0 && nextPyq < selected.length) combined.push(selected[nextPyq++]);
+    });
+    while (nextPyq < selected.length) combined.push(selected[nextPyq++]);
+    return combined.map((question, index) => ({ ...question, n: index + 1 }));
   }
 
   async function loadSubjectSession(setId, subjects) {
@@ -717,6 +856,7 @@
   const api = {
     get dailyQuiz() { return dailyQuiz; },
     get dailyRc() { return dailyRc; },
+    get dailyPyq() { return dailyPyq; },
     get todayIso() { return todayIso; },
     get years() { return years; },
     get questionSets() { return questionSets; },
