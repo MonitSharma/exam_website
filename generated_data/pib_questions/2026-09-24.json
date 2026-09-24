@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the edible oil import duty changes notified with effect from 24 September 2026, consider the following statements:\n1. The customs duty on crude sunflower oil has been reduced to nil.\n2. The duty on crude palm oil and crude soybean oil has been reduced from 10% to 5%.\n3. The Government has removed the duty differential between crude and refined edible oils.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Statement 3 is incorrect: PIB states the Government has maintained an import duty differential of 19.25% between crude and refined edible oils. Refined palm and soybean oil were cut from 32.5% to 27.5% and refined sunflower to 22.5%, preserving the wedge that protects domestic refining. Crude sunflower went to nil and crude palm/soybean from 10% to 5%, effective 24 September 2026.",
+    "subject": "Economy",
+    "theme": "Inflation and Price Management",
+    "micro_topic": "Edible oil import duty and food inflation",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements regarding the Research, Development and Innovation (RDI) Scheme:\n1. It was approved by the Union Cabinet with a total outlay of Rs 1 lakh crore spread over six years.\n2. Support under the scheme is extended only as outright grants to government research laboratories.\n3. The Technology Development Board functions as a Second Level Fund Manager under the scheme.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statement 2 is incorrect and is the trap. The RDI Scheme is expressly designed for private-sector-led R&D, not grants to government labs: it offers long-tenure, collateral-free loans at 3-4% interest for 12-15 years (capped at 50% of project cost), equity up to 25% of assistance sought, and hybrid debt convertible to equity. Cabinet approval came on 1 July 2025 with Rs 1 lakh crore over six years, and TDB acts as a Second Level Fund Manager, as seen in the Rs 63.84 crore agreement with GalaxEye.",
+    "subject": "Science & Technology",
+    "theme": "Research and Innovation Ecosystem",
+    "micro_topic": "RDI Scheme and Technology Development Board",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Exercise VARUNA, recently in the news, is a bilateral maritime exercise conducted between India and which one of the following countries?",
+    "options": [
+      "(a) United Kingdom",
+      "(b) France",
+      "(c) Russia",
+      "(d) Japan"
+    ],
+    "answer": "(b)",
+    "explanation": "VARUNA is the India-France bilateral naval exercise. The series began in 1993 and was christened VARUNA in 2001; its 24th edition is being held at Toulon, France, with the guided-missile frigate INS Trishul participating. For contrast, INDRA is with Russia, KONKAN with the United Kingdom and JIMEX with Japan.",
+    "subject": "International Relations",
+    "theme": "India's Bilateral Defence Cooperation",
+    "micro_topic": "India-France Exercise VARUNA",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]
