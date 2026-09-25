@@ -1,0 +1,114 @@
+[
+ {
+  "question": "With reference to the weather system that crossed the Andhra Pradesh-Odisha coast in September 2026, consider the following statements: 1. It made landfall close to Kalingapatnam, between Visakhapatnam and Gopalpur. 2. The India Meteorological Department classified it as a cyclonic storm at the time of landfall. 3. The name 'Arnab' was contributed to the North Indian Ocean naming list by Bangladesh. Which of the statements given above is/are correct?",
+  "options": [
+   "(a) 1 and 2 only",
+   "(b) 1 and 3 only",
+   "(c) 2 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(b)",
+  "explanation": "The system made landfall close to Kalingapatnam, between Visakhapatnam and Gopalpur, at about 02:47 IST on 24 September 2026, and 'Arnab' (Bengali for 'ocean') is Bangladesh's contribution to the North Indian Ocean name list. Statement 2 is wrong: IMD kept it at deep depression intensity (50-61 kmph), below the 62 kmph threshold for a cyclonic storm, which is why the name was never formally assigned.",
+  "subject": "Geography",
+  "theme": "Climatology and Indian monsoon",
+  "micro_topic": "Tropical cyclones over the North Indian Ocean - intensity classification and naming",
+  "nature": "Current Affairs",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "With reference to the changes in basic customs duty on edible oils notified in September 2026, consider the following statements: 1. Basic customs duty on crude sunflower oil was reduced to nil. 2. Basic customs duty on crude palm oil and crude soybean oil was reduced from 10% to 5%. 3. The duty differential between crude and refined grades was narrowed. Which of the statements given above is/are correct?",
+  "options": [
+   "(a) 1 and 2 only",
+   "(b) 2 and 3 only",
+   "(c) 1 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(a)",
+  "explanation": "Notification No. 31/2026-Customs dated 23 September 2026, effective 24 September 2026, cut basic customs duty on crude sunflower oil from 10% to nil and on crude palm and crude soybean oil from 10% to 5%. Statement 3 is wrong: refined palm and soybean oil fell only from 32.5% to 27.5% and refined sunflower oil to 22.5%, so the crude-refined differential was widened, favouring import of crude oil and domestic refining.",
+  "subject": "Economy",
+  "theme": "External sector and inflation management",
+  "micro_topic": "Customs tariffs on edible oils and the crude-refined duty differential",
+  "nature": "Current Affairs",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "The 'Special Report on Electrification', released in September 2026 at a Pre-COP dialogue in New Delhi, was published by which one of the following organisations?",
+  "options": [
+   "(a) International Renewable Energy Agency (IRENA)",
+   "(b) International Energy Agency (IEA)",
+   "(c) United Nations Environment Programme (UNEP)",
+   "(d) World Resources Institute (WRI)"
+  ],
+  "answer": "(b)",
+  "explanation": "The International Energy Agency released its Special Report on Electrification on 23 September 2026 at a Pre-COP dialogue in New Delhi. It was commissioned at the request of Turkiye as COP31 President and Australia as President of Negotiations, and projects India's electrification rate - the share of electricity in final energy consumption - rising from about 19% to 32% by 2035.",
+  "subject": "Reports & Indices",
+  "theme": "International energy and climate reports",
+  "micro_topic": "IEA Special Report on Electrification 2026 and the COP31 presidency",
+  "nature": "Current Affairs",
+  "difficulty": "Easy"
+ },
+ {
+  "question": "With reference to DDU-GKY 2.0, as announced by the Government of India in September 2026, consider the following statements: 1. It is implemented by the Ministry of Skill Development and Entrepreneurship. 2. It provides placement-linked skill training to rural youth in the age group of 15-35 years. 3. 'Himayat' and 'Roshni' are sub-schemes associated with it. Which of the statements given above is/are correct?",
+  "options": [
+   "(a) 1 and 2 only",
+   "(b) 2 and 3 only",
+   "(c) 1 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(b)",
+  "explanation": "The Deen Dayal Upadhyaya Grameen Kaushalya Yojana is implemented by the Ministry of Rural Development, not the Ministry of Skill Development and Entrepreneurship, so statement 1 is wrong. It offers placement-linked, NSQF-aligned training of 3-12 months to rural youth aged 15-35 from marginalised households, with Himayat (Jammu and Kashmir and Ladakh) and Roshni (LWE-affected districts) as sub-schemes. Under DDU-GKY 2.0, 2,015 batches covering about 70,000 youth begin in October 2026.",
+  "subject": "Society",
+  "theme": "Welfare schemes and human resource development",
+  "micro_topic": "DDU-GKY 2.0 - rural placement-linked skilling",
+  "nature": "Current Affairs",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "The Mahalanobis National Crop Forecast Centre, which assessed drought stress across several States in September 2026, uses which of the following as inputs? 1. SMAP satellite soil-moisture data 2. VIIRS-derived vegetation indices 3. Sentinel-1 synthetic aperture radar backscatter Select the correct answer using the code given below:",
+  "options": [
+   "(a) 1 and 2 only",
+   "(b) 2 and 3 only",
+   "(c) 1 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(d)",
+  "explanation": "The NCFC assessment placed before the Crop Weather Watch Group on 21 September 2026 combined IMD rainfall data, SMAP root-zone soil moisture, VIIRS NDVI and LSWI at 500 m resolution, Sentinel-1 SAR backscatter and Central Water Commission reservoir levels. It flagged drought stress in Rajasthan, Gujarat, Maharashtra, Karnataka, Andhra Pradesh and Tamil Nadu, with NDVI down over 30% in Jaisalmer, Bikaner, Barmer and Kutch.",
+  "subject": "Agriculture",
+  "theme": "Technology in agriculture and drought management",
+  "micro_topic": "NCFC, NADAMS and satellite-based agricultural drought monitoring",
+  "nature": "Current Affairs",
+  "difficulty": "Hard"
+ },
+ {
+  "question": "With reference to the classification and naming of tropical cyclones over the North Indian Ocean, consider the following statements: 1. A low-pressure system is assigned a name only after its associated maximum sustained wind speed reaches the 'cyclonic storm' category. 2. The Regional Specialised Meteorological Centre, New Delhi, is the naming authority for tropical cyclones over the North Indian Ocean. 3. Once used, a cyclone name over the North Indian Ocean is repeated in a fixed cyclical order. Which of the statements given above is/are correct?",
+  "options": [
+   "(a) 1 and 2 only",
+   "(b) 2 and 3 only",
+   "(c) 1 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(a)",
+  "explanation": "A name is assigned only when a system attains cyclonic storm intensity, that is maximum sustained winds of 62 kmph or more; a depression (31-49 kmph) or deep depression (50-61 kmph) goes unnamed. RSMC New Delhi, run by the IMD, is the naming authority for the North Indian Ocean under the 13-member WMO/ESCAP Panel on Tropical Cyclones, whose 2020 list carries 169 names. Statement 3 is wrong: unlike Atlantic practice, North Indian Ocean names are retired after use and never repeated.",
+  "subject": "Geography",
+  "theme": "Climatology - atmospheric disturbances",
+  "micro_topic": "IMD cyclone intensity scale and the RSMC New Delhi naming system",
+  "nature": "Factual",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "Consider the following statements regarding India's edible oil economy: 1. The National Mission on Edible Oils - Oil Palm identified the North Eastern region and the Andaman and Nicobar Islands as focus areas. 2. The National Mission on Edible Oils - Oilseeds, approved in 2024, runs up to 2030-31 and is implemented as part of the Krishonnati Yojana. 3. India is a net exporter of edible oils. Which of the statements given above is/are correct?",
+  "options": [
+   "(a) 1 and 2 only",
+   "(b) 2 and 3 only",
+   "(c) 1 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(a)",
+  "explanation": "NMEO-Oil Palm, launched in 2021 with an outlay of about Rs 11,040 crore, treats the North Eastern States and the Andaman and Nicobar Islands as priority areas because of their agro-climatic suitability. NMEO-Oilseeds was approved in October 2024 with an outlay of Rs 10,103 crore for 2024-25 to 2030-31 under the Krishonnati Yojana. Statement 3 is wrong: India is a large net importer, meeting over half of its edible oil demand through imports, palm oil being the single largest item.",
+  "subject": "Agriculture",
+  "theme": "Cropping pattern and agricultural missions",
+  "micro_topic": "Oilseeds, NMEO-Oil Palm and NMEO-Oilseeds",
+  "nature": "Factual",
+  "difficulty": "Hard"
+ }
+]

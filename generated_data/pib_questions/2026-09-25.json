@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the BioE3 Policy and the facility recently launched under it at Kumbhi, Uttar Pradesh, consider the following statements: 1. The facility produces Polylactic Acid (PLA) and its co-polymers from sugar-based feedstock. 2. \"BioE3\" stands for Biotechnology for Economy, Environment and Employment. 3. The grant support was extended by the Biotechnology Industry Research Assistance Council (BIRAC). Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. The 100 TPA pilot facility at Balrampur Chini Mills' Kumbhi complex makes PLA and co-polymers from sugar-based feedstock with a Rs 75 crore BIRAC grant; BioE3 stands for Biotechnology for Economy, Environment and Employment.",
+    "subject": "Science & Technology",
+    "theme": "Biotechnology and Biomanufacturing",
+    "micro_topic": "BioE3 Policy and bio-based biodegradable plastics (PLA)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to District Mineral Foundations (DMFs) and the Pradhan Mantri Khanij Kshetra Kalyan Yojana (PMKKKY), consider the following statements: 1. DMFs are statutory trusts established under the Mines and Minerals (Development and Regulation) Act, 1957. 2. Under PMKKKY guidelines, at least 70% of DMF funds are to be used for high-priority sectors such as drinking water supply, health and education. 3. PMKKKY is administered by the Ministry of Panchayati Raj. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "DMFs are statutory trusts under the MMDR Act, 1957, and PMKKKY earmarks at least 70% of funds for high-priority sectors. Statement 3 is wrong: PMKKKY is administered by the Ministry of Mines.",
+    "subject": "Polity & Governance",
+    "theme": "Government Schemes and Development Funds",
+    "micro_topic": "PMKKKY and District Mineral Foundations",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Technology Development Fund (TDF) Scheme, recently in the news for financing an indigenous 20 millikelvin dilution refrigerator, is implemented by:",
+    "options": [
+      "(a) The Department of Science and Technology, Ministry of Science and Technology",
+      "(b) The Defence Research and Development Organisation, Ministry of Defence",
+      "(c) The Ministry of Electronics and Information Technology",
+      "(d) NITI Aayog, through the Atal Innovation Mission"
+    ],
+    "answer": "(b)",
+    "explanation": "TDF is a DRDO-implemented scheme with a Rs 500 crore corpus that funds Indian industry, especially MSMEs and start-ups, to develop defence technologies. The dilution refrigerator project is with Zero mK India Pvt. Ltd., mentored by DRDO's Solid State Physics Laboratory, and feeds the National Quantum Mission.",
+    "subject": "Science & Technology",
+    "theme": "Defence Technology and Indigenisation",
+    "micro_topic": "DRDO Technology Development Fund; quantum enabling infrastructure",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]
