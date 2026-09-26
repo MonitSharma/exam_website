@@ -1,0 +1,242 @@
+[
+  {
+    "question": "With reference to elections to the United Nations Security Council, consider the following statements:\n1. Non-permanent members are elected for two-year terms, and a retiring member is not eligible for immediate re-election.\n2. Election to a non-permanent seat requires a simple majority of the members of the General Assembly present and voting.\n3. An amendment to the UN Charter enlarging the Security Council enters into force only after ratification by two-thirds of UN members, including all permanent members of the Security Council.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "Election of non-permanent members is an 'important question' needing two-thirds of members present and voting (~129 of 193) — India vs Tajikistan for the 2028-29 Asia-Pacific seat in June 2027. Art 23(2) fixes two-year terms with no immediate re-election. Charter amendment (Arts 108-109) needs two-thirds of the GA plus ratification by two-thirds of members including all five permanent members.",
+    "subject": "International Relations",
+    "theme": "United Nations",
+    "micro_topic": "UNSC non-permanent seat election rules versus Charter amendment route",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the GOBARdhan scheme for compressed biogas (CBG), consider the following statements:\n1. It is administered by the Ministry of New and Renewable Energy.\n2. It places a CBG purchase obligation on City Gas Distribution entities in the CNG (Transport) and PNG (Domestic) segments.\n3. It fixes an administered CBG price until 31 March 2036, unless revised.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "GOBARdhan (Rs 23,731 crore, FY27-FY36) is administered by the Ministry of Petroleum and Natural Gas, not MNRE. The CBG obligation on CGD entities rises from 3% (FY27) to 5% (from FY29); the administered price of Rs 2,110/MMBTU is fixed to 31 March 2036. Predecessor: SATAT (2018).",
+    "subject": "Economy",
+    "theme": "Infrastructure — Energy",
+    "micro_topic": "GOBARdhan CBG offtake obligation, administered price and nodal ministry",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements:\n1. The agreement establishing the International North-South Transport Corridor was signed by India, Iran and Russia in 2000.\n2. India acceded to the Ashgabat Agreement on an international transport and transit corridor in 2018.\n3. The proposed Chennai-Vladivostok Eastern Maritime Corridor passes through the Strait of Hormuz.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "The INSTC agreement was signed by India, Iran and Russia in 2000 (Mumbai - Bandar Abbas - Caspian - Russia). India acceded to the Ashgabat Agreement in 2018. The Chennai-Vladivostok corridor runs east through the Malacca Strait and the South China Sea, not through Hormuz.",
+    "subject": "International Relations",
+    "theme": "India-Russia and Eurasian connectivity",
+    "micro_topic": "INSTC, Ashgabat Agreement and the Chennai-Vladivostok Eastern Maritime Corridor",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to environmental clearance for port projects, consider the following statements:\n1. The EIA Notification, 2006 was issued under the Environment (Protection) Act, 1986.\n2. The September 2026 amendment fixed a shorter validity period for port clearances than the one proposed in the May 2026 draft.\n3. An appeal against the grant of an environmental clearance lies before the National Green Tribunal.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "The 22 September 2026 amendment gave ports, harbours, breakwaters and dredging 20 years, extendable by two 5-year blocks (max 30) — longer than the May 2026 draft's 15 years. The EIA Notification 2006 is framed under the EPA 1986, and appeals against clearances lie before the NGT (s.16, NGT Act 2010).",
+    "subject": "Environment",
+    "theme": "Environmental Impact Assessment",
+    "micro_topic": "EIA Notification 2006 amendment on port clearance validity and NGT appeals",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements about the planetary boundaries framework:\n1. It was proposed in 2009 by a group of scientists led by Johan Rockstrom at the Stockholm Resilience Centre.\n2. According to the Planetary Health Check 2026, stratospheric ozone depletion and atmospheric aerosol loading remain within the safe operating space.\n3. Ocean acidification was declared a transgressed boundary in the 2025 edition of the Planetary Health Check.\nHow many of the above statements are correct?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All three",
+      "(d) None"
+    ],
+    "answer": "(c)",
+    "explanation": "The framework dates to Rockstrom et al. (2009), Stockholm Resilience Centre. The Planetary Health Check 2026 (PIK, 21 Sep 2026) finds 7 of 9 boundaries transgressed, with ozone and aerosols still within safe limits; ocean acidification was declared breached in the 2025 edition.",
+    "subject": "Environment",
+    "theme": "Climate change and global environmental assessments",
+    "micro_topic": "Planetary boundaries — Planetary Health Check 2026 findings",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the naming of tropical cyclones in the North Indian Ocean, consider the following statements:\n1. A system receives a name only when it reaches cyclonic-storm intensity (maximum sustained winds of 62 km/h or more).\n2. The current list of names was contributed by the thirteen member countries of the WMO/ESCAP Panel on Tropical Cyclones.\n3. The name 'Arnab', next in line in September 2026, was contributed by Bangladesh.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "Names are assigned at cyclonic-storm intensity (34 knots / 62 km/h). The Bay of Bengal system that crossed near Kalingapatnam on 24 Sep 2026 stayed a deep depression, so 'Arnab' (Bangladesh; 'ocean') was not used. The 2020 list of 169 names came from the 13 WMO/ESCAP PTC members.",
+    "subject": "Geography",
+    "theme": "Climatology — tropical cyclones",
+    "micro_topic": "North Indian Ocean cyclone naming rules and the Arnab deep depression",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Consider the following statements regarding India's edible-oil sector:\n1. Palm oil is the single largest edible oil imported by India.\n2. Following the duty cut effective 24 September 2026, crude sunflower oil attracts zero basic customs duty.\n3. India imports less than a quarter of its edible-oil requirement.\nHow many of the above statements are correct?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All three",
+      "(d) None"
+    ],
+    "answer": "(b)",
+    "explanation": "India imports over half its edible-oil requirement, so statement 3 is wrong. Palm is the largest import. Customs Notification 31/2026 (effective 24 Sep 2026) cut crude sunflower oil to 0% and crude palm/soy from 10% to 5%, triggered by WPI food inflation of 7.1% in August.",
+    "subject": "Economy",
+    "theme": "Agriculture trade and inflation management",
+    "micro_topic": "Edible-oil import dependence and the September 2026 customs duty cut",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the Management Effectiveness Evaluation of Tiger Reserves (MEE-TR), consider the following statements:\n1. It is conducted by the National Tiger Conservation Authority together with the Wildlife Institute of India.\n2. It is carried out every two years.\n3. Corbett Tiger Reserve was ranked highest in the 2022 cycle.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "MEE-TR is conducted by NTCA with WII on the IUCN-WCPA framework. Cycles were 2006, 2010, 2014, 2018 and 2022 — every four years; the 6th cycle (2026) covers all 58 reserves and grades solid-waste management for the first time. Periyar (Kerala) topped in 2022.",
+    "subject": "Environment",
+    "theme": "Biodiversity conservation — protected areas",
+    "micro_topic": "Management Effectiveness Evaluation of Tiger Reserves 2026 cycle",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the India-New Zealand Free Trade Agreement, consider the following statements:\n1. India has excluded dairy products from its tariff concessions.\n2. New Zealand has committed to facilitating US$20 billion of investment in India over 15 years.\n3. Indian exports receive zero-duty access on all of New Zealand's tariff lines.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "Signed 27 April 2026 and in force from 20 October 2026. NZ gives zero duty on 100% of tariff lines; India liberalises about 70% of lines (~95% of trade value) and excludes dairy. The US$20 bn/15-year investment pledge is India's second such FTA commitment after the EFTA TEPA.",
+    "subject": "International Relations",
+    "theme": "Trade agreements",
+    "micro_topic": "India-New Zealand FTA — dairy exclusion, investment pledge and market access",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following pairs of properties added to India's UNESCO World Heritage Tentative List in September 2026 and their locations:\n1. Rangpur-Sivasagar Historic Ensemble : Assam\n2. Painted Haveli Towns of Shekhawati : Gujarat\n3. Colonial Penal Settlement : Andaman and Nicobar Islands\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All three",
+      "(d) None"
+    ],
+    "answer": "(b)",
+    "explanation": "Shekhawati's painted havelis (Mandawa, Nawalgarh, Fatehpur, Jhunjhunu, Churu, Sikar) are in Rajasthan. Rangpur-Sivasagar (Tai-Ahom capital from 1704; Sivadol, Rang Ghar) is in Assam; the Colonial Penal Settlement (Cellular Jail, Viper, Chatham, Netaji Subhas Chandra Bose Islands) is at Sri Vijaya Puram.",
+    "subject": "Art & Culture",
+    "theme": "World Heritage",
+    "micro_topic": "UNESCO Tentative List additions, September 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which of the following languages were added to the Eighth Schedule of the Constitution by the 92nd Constitutional Amendment Act, 2003?\n1. Konkani\n2. Bodo\n3. Maithili\n4. Santhali\n5. Nepali\nSelect the correct answer using the code given below:",
+    "options": [
+      "(a) 1, 2 and 3 only",
+      "(b) 2, 3 and 4 only",
+      "(c) 2, 3, 4 and 5 only",
+      "(d) 1, 4 and 5 only"
+    ],
+    "answer": "(b)",
+    "explanation": "The 92nd Amendment (2003) added Bodo, Dogri, Maithili and Santhali. Konkani, Manipuri and Nepali were added by the 71st Amendment (1992); Sindhi by the 21st (1967). The Schedule now lists 22 languages.",
+    "subject": "Polity & Governance",
+    "theme": "Official language provisions",
+    "micro_topic": "Eighth Schedule additions by constitutional amendment",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements:\n1. Tribunals under Article 323A can be established only by Parliament, whereas tribunals under Article 323B can be established by Parliament or a State Legislature.\n2. In L. Chandra Kumar (1997), the Supreme Court held that the power of judicial review of the High Courts over tribunal decisions is part of the basic structure.\n3. Part IXB on co-operative societies, inserted by the 97th Amendment, was upheld in its entirety by the Supreme Court in 2021.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Part XIVA (42nd Amendment 1976) distinguishes 323A (Parliament only) from 323B (Parliament or State). L. Chandra Kumar made HC/SC review over tribunals basic structure. In Union of India v. Rajendra N. Shah (2021) the SC struck down Part IXB insofar as it applied to State co-operative societies, saving it for multi-State co-operatives.",
+    "subject": "Polity & Governance",
+    "theme": "Tribunals and other constitutional dimensions",
+    "micro_topic": "Articles 323A-323B, L. Chandra Kumar and the Part IXB judgment",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Arrange the following events in chronological order:\n1. Timur's sack of Delhi\n2. The Second Battle of Tarain\n3. The transfer of the capital from Delhi to Daulatabad\n4. Malik Kafur's campaigns in the Deccan and the far south\nSelect the correct answer using the code given below:",
+    "options": [
+      "(a) 2-3-4-1",
+      "(b) 4-2-3-1",
+      "(c) 2-4-1-3",
+      "(d) 2-4-3-1"
+    ],
+    "answer": "(d)",
+    "explanation": "Second Tarain 1192 -> Malik Kafur's southern campaigns c. 1307-1311 under Alauddin Khalji -> Muhammad bin Tughlaq's shift to Daulatabad c. 1327 -> Timur's invasion 1398.",
+    "subject": "Ancient & Medieval History",
+    "theme": "Delhi Sultanate",
+    "micro_topic": "Chronology of the Delhi Sultanate from Tarain to Timur",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Consider the following statements:\n1. BrahMos is a supersonic cruise missile developed through a joint venture between India's DRDO and a Russian enterprise.\n2. A loitering munition is recovered and reused after each mission, like an armed UAV.\n3. India is a member of the Missile Technology Control Regime.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "A loitering munition or one-way attack drone is expended — the airframe is the warhead — unlike a reusable armed UAV. BrahMos is a DRDO-NPO Mashinostroyeniya JV. India joined the MTCR in June 2016 (Wassenaar 2017, Australia Group 2018; not NSG).",
+    "subject": "Science & Technology",
+    "theme": "Defence technology",
+    "micro_topic": "BrahMos, loitering munitions versus armed UAVs, and export-control regimes",
+    "nature": "Conceptual",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to India's National Waterways, consider the following statements:\n1. National Waterway-1 runs on the Ganga-Bhagirathi-Hooghly system between Haldia and Prayagraj.\n2. National Waterway-2 runs on the Brahmaputra between Sadiya and Dhubri.\n3. National Waterway-3, the West Coast Canal, lies in Tamil Nadu.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "NW-3 (West Coast Canal, Kottapuram-Kollam, with the Champakara and Udyogmandal canals) is in Kerala. NW-1 is Haldia-Prayagraj (~1,620 km) and NW-2 is Sadiya-Dhubri (~891 km). The National Waterways Act 2016 raised the total to 111.",
+    "subject": "Geography",
+    "theme": "Transport and communication",
+    "micro_topic": "National Waterways 1, 2 and 3 — alignment and location",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  }
+]

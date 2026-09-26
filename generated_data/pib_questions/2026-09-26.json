@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the Kalpasar project, recently in the news for India–Netherlands MoUs, consider the following statements: 1. It proposes a dam across the Gulf of Khambhat to create a coastal freshwater reservoir for the Saurashtra region. 2. The Dutch partners in the MoUs are Deltares and the Delft University of Technology (TU Delft). 3. The proposed dam would close off the Gulf of Kutch between Kandla and Okha. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Kalpasar would dam the Gulf of Khambhat (Ghogha–Hansot) to create a freshwater reservoir for Saurashtra, and the tripartite MoUs signed on 24 September 2026 involve CWC, Gujarat's Kalpasar Department, Deltares and TU Delft. Statement 3 is wrong because the project is in the Gulf of Khambhat, not the Gulf of Kutch.",
+    "subject": "Geography",
+    "theme": "Water Resources and Coastal Infrastructure",
+    "micro_topic": "Kalpasar (Gulf of Khambhat Development) Project and India–Netherlands water MoUs",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements regarding World Tourism Day 2026: 1. World Tourism Day is observed every year on 27 September. 2. El Salvador is the global host country for the 2026 observance. 3. The global theme for 2026 is 'Tourism and Sustainable Transformation'. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "World Tourism Day falls on 27 September, and El Salvador hosts in 2026. The 2026 theme is 'Digital Agenda and Artificial Intelligence to Redesign Tourism'; 'Tourism and Sustainable Transformation' was the 2025 theme.",
+    "subject": "Economy",
+    "theme": "Services Sector and Tourism",
+    "micro_topic": "World Tourism Day 2026 theme and host",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In the context of the WHO Pandemic Agreement, the term 'PABS', which India emphasised at the UN High-Level Meeting on Pandemic Prevention, Preparedness and Response, refers to:",
+    "options": [
+      "(a) Pathogen Access and Benefit-Sharing",
+      "(b) Pandemic Alert and Biosurveillance System",
+      "(c) Public-health Assistance for Biological Security",
+      "(d) Preparedness Assessment Baseline Standard"
+    ],
+    "answer": "(a)",
+    "explanation": "The PABS annex to the WHO Pandemic Agreement (adopted by the World Health Assembly in May 2025) will govern how pathogen samples and sequence data are shared and how the resulting vaccines, diagnostics and therapeutics are shared fairly. India said the Agreement's credibility depends on it.",
+    "subject": "International Relations",
+    "theme": "Global Health Governance",
+    "micro_topic": "WHO Pandemic Agreement and Pathogen Access and Benefit-Sharing (PABS)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]
