@@ -12,6 +12,220 @@
   ],
   "questionSets": [
     {
+      "id": "daily_questions_2026_09_26",
+      "label": "Daily Questions - 26 Sept 2026",
+      "shortLabel": "Daily 26 Sept",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-09-26.json",
+      "sourcePath": "daily/daily_questions/daily_questions_2026-09-26.json",
+      "isoDate": "2026-09-26",
+      "subjects": [
+        "Polity & Governance",
+        "International Relations",
+        "Environment",
+        "Science & Technology",
+        "Society"
+      ],
+      "bundleId": "daily_questions_2026_09_26",
+      "relatedNoteIds": [
+        "daily-daily-current-affairs-upsc-ca-2026-09-26"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "polity",
+        "international-relations",
+        "environment",
+        "science-technology",
+        "society"
+      ],
+      "topicIds": [
+        "polity/section-123-3-rpa-1951-religious-appeal-as-corrupt-practice-malegaon-central-case-2026",
+        "international-relations/india-new-zealand-fta-entry-into-force-dairy-exclusion-investment-pledge",
+        "environment/management-effectiveness-evaluation-of-tiger-reserves-mee-tr-2026",
+        "science-technology/satellite-guided-smart-anti-airfield-weapon-sat-saaw",
+        "society/fssai-draft-on-analogue-paneer-fssai-s-statutory-basis",
+        "polity/election-petitions-forum-limitation-abhiram-singh-case",
+        "environment/ntca-statutory-basis-chair-notification-of-tiger-reserves"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
+      "id": "daily_questions_2026_09_25",
+      "label": "Daily Questions - 25 Sept 2026",
+      "shortLabel": "Daily 25 Sept",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-09-25.json",
+      "sourcePath": "daily/daily_questions/daily_questions_2026-09-25.json",
+      "isoDate": "2026-09-25",
+      "subjects": [
+        "Geography",
+        "Economy",
+        "Reports & Indices",
+        "Society",
+        "Agriculture"
+      ],
+      "bundleId": "daily_questions_2026_09_25",
+      "relatedNoteIds": [
+        "daily-daily-current-affairs-upsc-ca-2026-09-25"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "geography",
+        "economy",
+        "reports-and-indices",
+        "society",
+        "agriculture"
+      ],
+      "topicIds": [
+        "geography/tropical-cyclones-over-the-north-indian-ocean-intensity-classification-and-naming",
+        "economy/customs-tariffs-on-edible-oils-and-the-crude-refined-duty-differential",
+        "reports-and-indices/iea-special-report-on-electrification-2026-and-the-cop31-presidency",
+        "society/ddu-gky-2-0-rural-placement-linked-skilling",
+        "agriculture/ncfc-nadams-and-satellite-based-agricultural-drought-monitoring",
+        "geography/imd-cyclone-intensity-scale-and-the-rsmc-new-delhi-naming-system",
+        "agriculture/oilseeds-nmeo-oil-palm-and-nmeo-oilseeds"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
+      "id": "daily_questions_2026_09_24",
+      "label": "Daily Questions - 24 Sept 2026",
+      "shortLabel": "Daily 24 Sept",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-09-24.json",
+      "sourcePath": "daily/daily_questions/daily_questions_2026-09-24.json",
+      "isoDate": "2026-09-24",
+      "subjects": [
+        "Economy",
+        "Internal Security",
+        "Science & Technology",
+        "Environment",
+        "Art & Culture"
+      ],
+      "bundleId": "daily_questions_2026_09_24",
+      "relatedNoteIds": [
+        "daily-daily-current-affairs-upsc-ca-2026-09-24"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "economy",
+        "internal-security",
+        "science-technology",
+        "environment",
+        "culture"
+      ],
+      "topicIds": [
+        "economy/oecd-interim-economic-outlook-september-2026-india-fy-2026-27-raised-6-3-to-7-1-80-bps-fy-2025-26-at-7-8-and-fy-2027-28-at-6-5-global-growth-2-9-in-2026-india-cpi-4-7-average-peer-forecasts-adb-sandp-moody-s-7-0-fitch-6-9-rbi-6-7",
+        "internal-security/3rd-national-antf-conference-new-delhi-22-23-september-2026-vision-document-on-narcotics-control-2026-2029-target-31-december-2029-theme-united-resolve-shared-responsibility-eight-technical-sessions-ncb-zonal-complexes-at-lucknow-and-dehradun-46-780-nashamukt-mitras-against-1-lakh-target-telangana-antf-adjudged-best-performing",
+        "science-technology/isro-advanced-radar-research-facility-at-chandrapur-near-guwahati-assam-foundation-stone-21-september-2026-project-netra-istrac-headquartered-at-bengaluru-is4om-control-centre-operational-since-2022-kessler-syndrome",
+        "environment/planetary-health-check-2026-released-21-september-2026-by-the-planetary-boundaries-science-lab-at-pik-potsdam-with-60-authors-7-of-9-boundaries-transgressed-stratospheric-ozone-depletion-and-atmospheric-aerosol-loading-still-safe-ocean-acidification-declared-breached-in-the-2025-edition-first-data-based-food-system-boundaries-framework",
+        "culture/four-additions-to-india-s-unesco-tentative-list-2026-colonial-penal-settlement-of-the-andaman-islands-cellular-jail-1896-1906-seven-radial-wings-viper-chatham-and-netaji-subhas-chandra-bose-islands-rangpur-sivasagar-historic-ensemble-tai-ahom-capital-1704-sivadol-32-m-rang-ghar-nicobarese-cultural-continuity-stilted-beehive-huts-chowra-island-coil-and-pinch-pottery-painted-haveli-towns-of-shekhawati-india-s-world-heritage-sites-total-45-after-sarnath",
+        "environment/planetary-boundaries-framework-rockstrom-et-al-2009-stockholm-resilience-centre-the-nine-boundaries-climate-change-biosphere-integrity-land-system-change-freshwater-change-biogeochemical-flows-n-and-p-ocean-acidification-novel-entities-stratospheric-ozone-depletion-atmospheric-aerosol-loading",
+        "internal-security/ndps-act-1985-narcotics-control-bureau-constituted-1986-under-mha-four-tier-ncord-from-apex-to-district-level-manas-helpline-1933-nasha-mukt-bharat-abhiyaan-2020-ndps-sections-39-and-64a-treatment-not-punishment-provisions"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
+      "id": "daily_questions_2026_09_23",
+      "label": "Daily Questions - 23 Sept 2026",
+      "shortLabel": "Daily 23 Sept",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-09-23.json",
+      "sourcePath": "daily/daily_questions/daily_questions_2026-09-23.json",
+      "isoDate": "2026-09-23",
+      "subjects": [
+        "International Relations",
+        "Environment",
+        "Economy",
+        "Society",
+        "Modern History",
+        "Ancient & Medieval History"
+      ],
+      "bundleId": "daily_questions_2026_09_23",
+      "relatedNoteIds": [
+        "daily-daily-current-affairs-upsc-ca-2026-09-23"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "international-relations",
+        "environment",
+        "economy",
+        "society",
+        "history",
+        "ancient-and-medieval-history"
+      ],
+      "topicIds": [
+        "international-relations/exercise-veer-guardian-2026-concluded-at-afs-jodhpur-on-22-september-2026-second-edition-first-hosted-in-india-maiden-edition-january-2023-at-hyakuri-air-base-japan-japan-deployed-three-mitsubishi-f-2-fighters-of-the-8th-wing-with-about-110-personnel-india-flew-su-30mki-rafale-and-lca-tejas-within-visual-range-air-combat-and-coordinated-multi-aircraft-operations-the-two-air-chiefs-flew-together-in-a-tejas-on-distinguished-visitors-day-india-japan-special-strategic-and-global-partnership-2-2-ministerial-dialogue-and-the-acquisition-and-cross-servicing-agreement-2020-other-exercises-dharma-guardian-army-jimex-navy-and-malabar",
+        "environment/moefcc-amendment-of-22-september-2026-to-the-eia-notification-2006-extending-prior-environmental-clearance-validity-for-ports-harbours-breakwaters-and-dredging-from-10-years-plus-1-to-20-years-extendable-by-two-blocks-of-5-years-to-a-maximum-of-30-effected-through-a-new-paragraph-9-iva-modelled-on-the-mining-provisions-rather-than-the-draft-amendments-to-paras-9-ii-b-9-ii-c-and-the-proviso-to-9-iii-may-2026-draft-had-proposed-15-years-rationale-of-long-gestation-and-phased-development-accepted-by-the-sectoral-expert-appraisal-committee-criticism-by-jairam-ramesh-linking-it-to-the-great-nicobar-transshipment-port-comparison-with-river-valley-projects-at-10-years-and-mining-at-up-to-30-years",
+        "economy/mines-secretary-keshav-chandra-on-22-september-2026-flagging-squatting-on-auctioned-mineral-blocks-and-announcing-a-forthcoming-incentive-scheme-for-domestic-lithium-and-nickel-processing-critical-mineral-processing-parks-approved-in-gujarat-maharashtra-odisha-and-andhra-pradesh-midstream-processing-gap-rather-than-upstream-reserves-as-the-binding-constraint-national-critical-mineral-mission-2025-mmdr-amendment-act-2023-empowering-the-centre-to-exclusively-auction-leases-and-composite-licences-for-specified-critical-minerals-and-opening-lithium-and-beryllium-to-private-exploration-offshore-areas-mineral-development-and-regulation-act-2002-as-amended-2023-minerals-security-partnership-joined-by-india-in-2023-kabil-for-overseas-assets",
+        "society/11th-ayurveda-day-on-23-september-2026-theme-ayurveda-for-a-healthier-tomorrow-date-fixed-to-23-september-by-gazette-notification-of-23-march-2025-replacing-the-lunar-dhanteras-or-dhanvantari-jayanti-observance-first-held-in-2016-12-260-ayush-ayushman-arogya-mandirs-operational-against-a-target-of-12-500-ayush-co-located-in-13-249-public-health-facilities-25-322-ayush-doctors-and-5-666-paramedics-supported-ministry-of-ayush-budget-of-rs-4-408-crore-for-2026-27-all-india-institute-of-ayurveda-empanelled-with-all-32-general-insurers-on-10-february-2026-who-icd-11-traditional-medicine-module-2-launched-january-2024-ministry-of-ayush-carved-out-in-2014-national-ayush-mission-2014-ccras-ncism-under-the-national-commission-for-indian-system-of-medicine-act-2020-who-global-centre-for-traditional-medicine-at-jamnagar",
+        "history/supreme-court-of-22-september-2026-cji-surya-kant-joymalya-bagchi-and-v-mohana-on-t-m-krishna-s-petition-challenging-section-3-of-the-prevention-of-insults-to-national-honour-act-1971-as-amended-in-2026-and-mha-orders-of-28-january-and-9-july-2026-observing-orally-that-bijoe-emmanuel-v-state-of-kerala-1986-will-govern-the-act-and-that-there-should-be-no-criminal-consequences-for-refusal-on-religious-grounds-notice-issued-to-the-union-not-a-final-judgment-karnataka-governor-thaawarchand-gehlot-s-letter-of-22-september-2026-on-the-state-order-of-8-september-2026-limiting-rendition-to-two-stanzas-vande-mataram-in-bankim-chandra-chattopadhyay-s-anandamath-1882-sung-at-the-1896-calcutta-congress-session-rallying-cry-of-the-swadeshi-movement-1905-six-stanzas-with-the-congress-resolution-of-1937-confining-public-rendition-to-the-first-two-constituent-assembly-statement-of-24-january-1950-article-25-and-article-51a-a",
+        "environment/eia-notification-2006-under-the-environment-protection-act-1986-category-a-appraised-centrally-by-moefcc-on-the-recommendation-of-the-expert-appraisal-committee-and-category-b-by-the-state-environment-impact-assessment-authority-advised-by-the-state-expert-appraisal-committee-four-stages-of-screening-scoping-public-consultation-and-appraisal-category-a-exempt-from-screening-b1-requires-eia-while-b2-is-exempt-exemptions-from-public-consultation-terms-of-reference-eia-report-and-environment-management-plan-parivesh-portal-appeal-to-the-national-green-tribunal-under-the-ngt-act-2010-coastal-regulation-zone-notification-2019-for-coastal-and-port-projects",
+        "ancient-and-medieval-history/classical-ayurvedic-canon-brihat-trayi-comprising-the-charaka-samhita-kayachikitsa-or-internal-medicine-a-redaction-of-the-agnivesha-tantra-the-sushruta-samhita-shalya-tantra-or-surgery-and-the-ashtanga-hridaya-of-vagbhata-who-also-composed-the-ashtanga-sangraha-laghu-trayi-comprising-the-madhava-nidana-sharngadhara-samhita-and-bhavaprakasha-ashtanga-or-eight-branches-of-ayurveda-dhanvantari-in-the-ayurvedic-tradition"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
+      "id": "daily_questions_2026_09_22",
+      "label": "Daily Questions - 22 Sept 2026",
+      "shortLabel": "Daily 22 Sept",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-09-22.json",
+      "sourcePath": "daily/daily_questions/daily_questions_2026-09-22.json",
+      "isoDate": "2026-09-22",
+      "subjects": [
+        "International Relations",
+        "Science & Technology",
+        "Environment",
+        "Economy",
+        "Polity & Governance",
+        "Geography"
+      ],
+      "bundleId": "daily_questions_2026_09_22",
+      "relatedNoteIds": [
+        "daily-daily-current-affairs-upsc-ca-2026-09-22"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "international-relations",
+        "science-technology",
+        "environment",
+        "economy",
+        "polity",
+        "geography"
+      ],
+      "topicIds": [
+        "international-relations/india-bhutan-relations-and-development-assistance",
+        "science-technology/loitering-munitions-and-one-way-attack-drones",
+        "environment/solid-waste-management-rules-2026-and-legacy-dumpsite-biomining",
+        "economy/alternative-fuel-vehicle-transition-and-ev-penetration",
+        "polity/article-19-1-g-proportionality-and-judicial-review-of-subordinate-legislation",
+        "polity/74th-amendment-twelfth-schedule-and-article-243w",
+        "geography/himalayan-rivers-of-bhutan-and-brahmaputra-tributaries"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
       "id": "daily_questions_2026_09_21",
       "label": "Daily Questions - 21 Sept 2026",
       "shortLabel": "Daily 21 Sept",
@@ -5176,6 +5390,174 @@
       "provenance": "generated"
     },
     {
+      "id": "pib_questions_2026_09_26",
+      "label": "PIB Questions - 26 Sept 2026",
+      "shortLabel": "PIB 26 Sept",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-09-26.json",
+      "sourcePath": "generated_data/pib_questions/2026-09-26.json",
+      "isoDate": "2026-09-26",
+      "subjects": [
+        "Geography",
+        "Economy",
+        "International Relations"
+      ],
+      "bundleId": "pib_questions_2026_09_26",
+      "relatedNoteIds": [
+        "daily-daily-pib-pib-2026-09-26"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "geography",
+        "economy",
+        "international-relations"
+      ],
+      "topicIds": [
+        "geography/kalpasar-gulf-of-khambhat-development-project-and-india-netherlands-water-mous",
+        "economy/world-tourism-day-2026-theme-and-host",
+        "international-relations/who-pandemic-agreement-and-pathogen-access-and-benefit-sharing-pabs"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
+      "id": "pib_questions_2026_09_25",
+      "label": "PIB Questions - 25 Sept 2026",
+      "shortLabel": "PIB 25 Sept",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-09-25.json",
+      "sourcePath": "generated_data/pib_questions/2026-09-25.json",
+      "isoDate": "2026-09-25",
+      "subjects": [
+        "Science & Technology",
+        "Polity & Governance"
+      ],
+      "bundleId": "pib_questions_2026_09_25",
+      "relatedNoteIds": [
+        "daily-daily-pib-pib-2026-09-25"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "science-technology",
+        "polity"
+      ],
+      "topicIds": [
+        "science-technology/bioe3-policy-and-bio-based-biodegradable-plastics-pla",
+        "polity/pmkkky-and-district-mineral-foundations",
+        "science-technology/drdo-technology-development-fund-quantum-enabling-infrastructure"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
+      "id": "pib_questions_2026_09_24",
+      "label": "PIB Questions - 24 Sept 2026",
+      "shortLabel": "PIB 24 Sept",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-09-24.json",
+      "sourcePath": "generated_data/pib_questions/2026-09-24.json",
+      "isoDate": "2026-09-24",
+      "subjects": [
+        "Economy",
+        "Science & Technology",
+        "International Relations"
+      ],
+      "bundleId": "pib_questions_2026_09_24",
+      "relatedNoteIds": [
+        "daily-daily-pib-pib-2026-09-24"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "economy",
+        "science-technology",
+        "international-relations"
+      ],
+      "topicIds": [
+        "economy/edible-oil-import-duty-and-food-inflation",
+        "science-technology/rdi-scheme-and-technology-development-board",
+        "international-relations/india-france-exercise-varuna"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
+      "id": "pib_questions_2026_09_23",
+      "label": "PIB Questions - 23 Sept 2026",
+      "shortLabel": "PIB 23 Sept",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-09-23.json",
+      "sourcePath": "generated_data/pib_questions/2026-09-23.json",
+      "isoDate": "2026-09-23",
+      "subjects": [
+        "Polity & Governance",
+        "Environment",
+        "International Relations"
+      ],
+      "bundleId": "pib_questions_2026_09_23",
+      "relatedNoteIds": [
+        "daily-daily-pib-pib-2026-09-23"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "polity",
+        "environment",
+        "international-relations"
+      ],
+      "topicIds": [
+        "polity/health-insurance-and-universal-health-coverage",
+        "environment/species-specific-conservation-projects",
+        "international-relations/india-and-regional-minilateral-groupings"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
+      "id": "pib_questions_2026_09_22",
+      "label": "PIB Questions - 22 Sept 2026",
+      "shortLabel": "PIB 22 Sept",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-09-22.json",
+      "sourcePath": "generated_data/pib_questions/2026-09-22.json",
+      "isoDate": "2026-09-22",
+      "subjects": [
+        "Economy",
+        "Polity & Governance",
+        "International Relations"
+      ],
+      "bundleId": "pib_questions_2026_09_22",
+      "relatedNoteIds": [
+        "daily-daily-pib-pib-2026-09-22"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "economy",
+        "polity",
+        "international-relations"
+      ],
+      "topicIds": [
+        "economy/civil-aviation-and-regional-connectivity-schemes",
+        "polity/namaste-and-elimination-of-hazardous-manual-cleaning",
+        "international-relations/india-opec-energy-cooperation-and-energy-security"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
       "id": "pib_questions_2026_09_21",
       "label": "PIB Questions - 21 Sept 2026",
       "shortLabel": "PIB 21 Sept",
@@ -8923,6 +9305,91 @@
       "provenance": "generated"
     },
     {
+      "id": "weekly_quiz_2026_09_27",
+      "label": "Weekly Recall Quiz - 27 Sept 2026",
+      "shortLabel": "Weekly Quiz 27 Sept",
+      "category": "Weekly Quiz",
+      "sourceType": "weekly-quiz",
+      "questionCount": 15,
+      "durationMinutes": 25,
+      "path": "weekly/weekly_quiz/weekly_questions_2026-09-27.json",
+      "sourcePath": "weekly/weekly_quiz/weekly_questions_2026-09-27.json",
+      "isoDate": "2026-09-27",
+      "subjects": [
+        "International Relations",
+        "Economy",
+        "Environment",
+        "Geography",
+        "Art & Culture",
+        "Polity & Governance",
+        "Ancient & Medieval History",
+        "Science & Technology"
+      ],
+      "bundleId": "weekly_quiz_2026_09_27",
+      "relatedNoteIds": [],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "international-relations",
+        "economy",
+        "environment",
+        "geography",
+        "culture",
+        "polity",
+        "ancient-and-medieval-history",
+        "science-technology"
+      ],
+      "topicIds": [
+        "international-relations/unsc-non-permanent-seat-election-rules-versus-charter-amendment-route",
+        "economy/gobardhan-cbg-offtake-obligation-administered-price-and-nodal-ministry",
+        "international-relations/instc-ashgabat-agreement-and-the-chennai-vladivostok-eastern-maritime-corridor",
+        "environment/eia-notification-2006-amendment-on-port-clearance-validity-and-ngt-appeals",
+        "environment/planetary-boundaries-planetary-health-check-2026-findings",
+        "geography/north-indian-ocean-cyclone-naming-rules-and-the-arnab-deep-depression",
+        "economy/edible-oil-import-dependence-and-the-september-2026-customs-duty-cut",
+        "environment/management-effectiveness-evaluation-of-tiger-reserves-2026-cycle",
+        "international-relations/india-new-zealand-fta-dairy-exclusion-investment-pledge-and-market-access",
+        "culture/unesco-tentative-list-additions-september-2026",
+        "polity/eighth-schedule-additions-by-constitutional-amendment",
+        "polity/articles-323a-323b-l-chandra-kumar-and-the-part-ixb-judgment",
+        "ancient-and-medieval-history/chronology-of-the-delhi-sultanate-from-tarain-to-timur",
+        "science-technology/brahmos-loitering-munitions-versus-armed-uavs-and-export-control-regimes",
+        "geography/national-waterways-1-2-and-3-alignment-and-location"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
+      "id": "weekly_quiz_2026_09_25",
+      "label": "Weekly Recall Quiz - 25 Sept 2026",
+      "shortLabel": "Weekly Quiz 25 Sept",
+      "category": "Weekly Quiz",
+      "sourceType": "weekly-quiz",
+      "questionCount": 20,
+      "durationMinutes": 30,
+      "path": "generated_data/weekly_quiz_questions/2026-09-25.json",
+      "sourcePath": "weekly/weekly_quiz/Recall_Quiz_2026-09-25.md",
+      "isoDate": "2026-09-25",
+      "subjects": [
+        "Current Affairs",
+        "Science & Technology"
+      ],
+      "bundleId": "weekly_quiz_2026_09_25",
+      "relatedNoteIds": [
+        "weekly-weekly-quiz-recall-quiz-2026-09-25"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "current-affairs",
+        "science-technology"
+      ],
+      "topicIds": [
+        "current-affairs/weekly-recall-quiz",
+        "science-technology/weekly-recall-quiz"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
       "id": "weekly_quiz_2026_09_20",
       "label": "Weekly Recall Quiz - 20 Sept 2026",
       "shortLabel": "Weekly Quiz 20 Sept",
@@ -10150,6 +10617,96 @@
         "polity/weekly-recall-quiz"
       ],
       "format": "drill",
+      "provenance": "generated"
+    },
+    {
+      "id": "sectional_book-topics_2026_09_27_extra",
+      "label": "Book Topics · Add-on · 2026-09-27",
+      "shortLabel": "Book Topics · 2026-09-27",
+      "category": "Extra Practice",
+      "sourceType": "sectional",
+      "questionCount": 50,
+      "durationMinutes": 80,
+      "path": "generated_data/sectional_questions/book-topics_2026-09-27_chatgpt.json",
+      "sourcePath": "generated_data/sectional_questions/book-topics_2026-09-27_chatgpt.json",
+      "isoDate": "2026-09-27",
+      "variant": "extra-practice",
+      "variantLabel": "Add-on",
+      "isSupplementary": true,
+      "subjects": [
+        "Polity",
+        "Economy",
+        "Medieval History",
+        "Science & Technology",
+        "International Relations",
+        "Geography"
+      ],
+      "bundleId": "sectional_book-topics_2026_09_27_extra",
+      "relatedNoteIds": [
+        "weekly-sectional-sectional-book-topics-2026-09-27-chatgpt"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "polity",
+        "economy",
+        "medieval-history",
+        "science-technology",
+        "international-relations",
+        "geography"
+      ],
+      "topicIds": [
+        "polity/eighth-schedule-languages-added-by-the-92nd-amendment-2003",
+        "polity/article-343-official-language-of-the-union-numerals-15-year-english-window",
+        "polity/article-344-official-language-commission-and-committee-of-parliament",
+        "polity/article-348-language-of-the-supreme-court-high-courts-and-bills-348-2",
+        "polity/articles-350a-and-350b-classical-language-status",
+        "polity/articles-310-and-311-doctrine-of-pleasure-and-its-safeguards",
+        "polity/article-311-2-the-three-exceptions-to-the-inquiry-requirement",
+        "polity/article-312-creation-of-all-india-services",
+        "polity/articles-299-and-300-government-contracts-and-suits",
+        "polity/sovereign-immunity-kasturi-lal-1965",
+        "polity/article-334-and-the-104th-amendment-2019",
+        "polity/backward-classes-articles-338b-340-342a-102nd-and-105th-amendments",
+        "polity/97th-amendment-2011-what-it-changed",
+        "polity/union-of-india-v-rajendra-n-shah-2021-part-ixb",
+        "economy/human-development-index-dimensions",
+        "economy/national-multidimensional-poverty-index-structure-and-publishers",
+        "economy/poverty-lines-tendulkar-vs-rangarajan",
+        "economy/gross-vs-net-enrolment-ratio",
+        "economy/ayushman-bharat-pm-jay-cover-and-eligibility",
+        "economy/plfs-usual-status-vs-current-weekly-status",
+        "economy/gini-coefficient-and-the-lorenz-curve",
+        "medieval-history/arab-conquest-of-sindh-712",
+        "medieval-history/battles-of-tarain-and-chandawar",
+        "medieval-history/al-biruni-and-kitab-ul-hind",
+        "medieval-history/iltutmish-coinage-investiture-the-forty",
+        "medieval-history/balban-theory-of-kingship",
+        "medieval-history/alauddin-khalji-market-control-and-military-reforms",
+        "medieval-history/malik-kafur-s-deccan-campaigns-capitals-and-dynasties",
+        "medieval-history/muhammad-bin-tughlaq-experiments",
+        "medieval-history/firoz-shah-tughlaq-departments-and-public-works",
+        "medieval-history/sultanate-chronology",
+        "medieval-history/sultanate-revenue-terms",
+        "medieval-history/sufi-silsilas-and-their-centres",
+        "science-technology/export-control-regimes-india-s-memberships",
+        "science-technology/prototype-fast-breeder-reactor-kalpakkam",
+        "science-technology/hypersonic-weapons-hgv-scramjet",
+        "science-technology/iter-fusion-project",
+        "international-relations/instc-and-the-ashgabat-agreement",
+        "international-relations/chabahar-location",
+        "international-relations/india-russia-defence-cooperation-brahmos-ak-203",
+        "international-relations/kudankulam-russian-nuclear-cooperation",
+        "international-relations/central-asia-states-bordering-afghanistan",
+        "international-relations/shanghai-cooperation-organisation-structure",
+        "geography/target-area-and-hill-area-programmes-ncert-12-ch-9",
+        "geography/bharmaur-tribal-region-case-study",
+        "geography/indira-gandhi-canal-command-area",
+        "geography/north-south-and-east-west-corridors",
+        "geography/national-waterways-1-3",
+        "geography/oil-and-gas-pipelines",
+        "geography/konkan-railway"
+      ],
+      "format": "sectional",
       "provenance": "generated"
     },
     {
@@ -15099,6 +15656,153 @@
       "topicIds": []
     },
     {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-09-26",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "26 Sept 2026",
+      "date": "2026-09-26",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-09-26.md",
+      "bundleId": "daily-daily-current-affairs-upsc-ca-2026-09-26",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "daily_questions_2026_09_26"
+      ],
+      "subjectIds": [
+        "polity",
+        "international-relations",
+        "environment",
+        "science-technology",
+        "society"
+      ],
+      "topicIds": [
+        "polity/section-123-3-rpa-1951-religious-appeal-as-corrupt-practice-malegaon-central-case-2026",
+        "international-relations/india-new-zealand-fta-entry-into-force-dairy-exclusion-investment-pledge",
+        "environment/management-effectiveness-evaluation-of-tiger-reserves-mee-tr-2026",
+        "science-technology/satellite-guided-smart-anti-airfield-weapon-sat-saaw",
+        "society/fssai-draft-on-analogue-paneer-fssai-s-statutory-basis",
+        "polity/election-petitions-forum-limitation-abhiram-singh-case",
+        "environment/ntca-statutory-basis-chair-notification-of-tiger-reserves"
+      ]
+    },
+    {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-09-25",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "25 Sept 2026",
+      "date": "2026-09-25",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-09-25.md",
+      "bundleId": "daily-daily-current-affairs-upsc-ca-2026-09-25",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "daily_questions_2026_09_25"
+      ],
+      "subjectIds": [
+        "geography",
+        "economy",
+        "reports-and-indices",
+        "society",
+        "agriculture"
+      ],
+      "topicIds": [
+        "geography/tropical-cyclones-over-the-north-indian-ocean-intensity-classification-and-naming",
+        "economy/customs-tariffs-on-edible-oils-and-the-crude-refined-duty-differential",
+        "reports-and-indices/iea-special-report-on-electrification-2026-and-the-cop31-presidency",
+        "society/ddu-gky-2-0-rural-placement-linked-skilling",
+        "agriculture/ncfc-nadams-and-satellite-based-agricultural-drought-monitoring",
+        "geography/imd-cyclone-intensity-scale-and-the-rsmc-new-delhi-naming-system",
+        "agriculture/oilseeds-nmeo-oil-palm-and-nmeo-oilseeds"
+      ]
+    },
+    {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-09-24",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "24 Sept 2026",
+      "date": "2026-09-24",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-09-24.md",
+      "bundleId": "daily-daily-current-affairs-upsc-ca-2026-09-24",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "daily_questions_2026_09_24"
+      ],
+      "subjectIds": [
+        "economy",
+        "internal-security",
+        "science-technology",
+        "environment",
+        "culture"
+      ],
+      "topicIds": [
+        "economy/oecd-interim-economic-outlook-september-2026-india-fy-2026-27-raised-6-3-to-7-1-80-bps-fy-2025-26-at-7-8-and-fy-2027-28-at-6-5-global-growth-2-9-in-2026-india-cpi-4-7-average-peer-forecasts-adb-sandp-moody-s-7-0-fitch-6-9-rbi-6-7",
+        "internal-security/3rd-national-antf-conference-new-delhi-22-23-september-2026-vision-document-on-narcotics-control-2026-2029-target-31-december-2029-theme-united-resolve-shared-responsibility-eight-technical-sessions-ncb-zonal-complexes-at-lucknow-and-dehradun-46-780-nashamukt-mitras-against-1-lakh-target-telangana-antf-adjudged-best-performing",
+        "science-technology/isro-advanced-radar-research-facility-at-chandrapur-near-guwahati-assam-foundation-stone-21-september-2026-project-netra-istrac-headquartered-at-bengaluru-is4om-control-centre-operational-since-2022-kessler-syndrome",
+        "environment/planetary-health-check-2026-released-21-september-2026-by-the-planetary-boundaries-science-lab-at-pik-potsdam-with-60-authors-7-of-9-boundaries-transgressed-stratospheric-ozone-depletion-and-atmospheric-aerosol-loading-still-safe-ocean-acidification-declared-breached-in-the-2025-edition-first-data-based-food-system-boundaries-framework",
+        "culture/four-additions-to-india-s-unesco-tentative-list-2026-colonial-penal-settlement-of-the-andaman-islands-cellular-jail-1896-1906-seven-radial-wings-viper-chatham-and-netaji-subhas-chandra-bose-islands-rangpur-sivasagar-historic-ensemble-tai-ahom-capital-1704-sivadol-32-m-rang-ghar-nicobarese-cultural-continuity-stilted-beehive-huts-chowra-island-coil-and-pinch-pottery-painted-haveli-towns-of-shekhawati-india-s-world-heritage-sites-total-45-after-sarnath",
+        "environment/planetary-boundaries-framework-rockstrom-et-al-2009-stockholm-resilience-centre-the-nine-boundaries-climate-change-biosphere-integrity-land-system-change-freshwater-change-biogeochemical-flows-n-and-p-ocean-acidification-novel-entities-stratospheric-ozone-depletion-atmospheric-aerosol-loading",
+        "internal-security/ndps-act-1985-narcotics-control-bureau-constituted-1986-under-mha-four-tier-ncord-from-apex-to-district-level-manas-helpline-1933-nasha-mukt-bharat-abhiyaan-2020-ndps-sections-39-and-64a-treatment-not-punishment-provisions"
+      ]
+    },
+    {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-09-23",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "23 Sept 2026",
+      "date": "2026-09-23",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-09-23.md",
+      "bundleId": "daily-daily-current-affairs-upsc-ca-2026-09-23",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "daily_questions_2026_09_23"
+      ],
+      "subjectIds": [
+        "international-relations",
+        "environment",
+        "economy",
+        "society",
+        "history",
+        "ancient-and-medieval-history"
+      ],
+      "topicIds": [
+        "international-relations/exercise-veer-guardian-2026-concluded-at-afs-jodhpur-on-22-september-2026-second-edition-first-hosted-in-india-maiden-edition-january-2023-at-hyakuri-air-base-japan-japan-deployed-three-mitsubishi-f-2-fighters-of-the-8th-wing-with-about-110-personnel-india-flew-su-30mki-rafale-and-lca-tejas-within-visual-range-air-combat-and-coordinated-multi-aircraft-operations-the-two-air-chiefs-flew-together-in-a-tejas-on-distinguished-visitors-day-india-japan-special-strategic-and-global-partnership-2-2-ministerial-dialogue-and-the-acquisition-and-cross-servicing-agreement-2020-other-exercises-dharma-guardian-army-jimex-navy-and-malabar",
+        "environment/moefcc-amendment-of-22-september-2026-to-the-eia-notification-2006-extending-prior-environmental-clearance-validity-for-ports-harbours-breakwaters-and-dredging-from-10-years-plus-1-to-20-years-extendable-by-two-blocks-of-5-years-to-a-maximum-of-30-effected-through-a-new-paragraph-9-iva-modelled-on-the-mining-provisions-rather-than-the-draft-amendments-to-paras-9-ii-b-9-ii-c-and-the-proviso-to-9-iii-may-2026-draft-had-proposed-15-years-rationale-of-long-gestation-and-phased-development-accepted-by-the-sectoral-expert-appraisal-committee-criticism-by-jairam-ramesh-linking-it-to-the-great-nicobar-transshipment-port-comparison-with-river-valley-projects-at-10-years-and-mining-at-up-to-30-years",
+        "economy/mines-secretary-keshav-chandra-on-22-september-2026-flagging-squatting-on-auctioned-mineral-blocks-and-announcing-a-forthcoming-incentive-scheme-for-domestic-lithium-and-nickel-processing-critical-mineral-processing-parks-approved-in-gujarat-maharashtra-odisha-and-andhra-pradesh-midstream-processing-gap-rather-than-upstream-reserves-as-the-binding-constraint-national-critical-mineral-mission-2025-mmdr-amendment-act-2023-empowering-the-centre-to-exclusively-auction-leases-and-composite-licences-for-specified-critical-minerals-and-opening-lithium-and-beryllium-to-private-exploration-offshore-areas-mineral-development-and-regulation-act-2002-as-amended-2023-minerals-security-partnership-joined-by-india-in-2023-kabil-for-overseas-assets",
+        "society/11th-ayurveda-day-on-23-september-2026-theme-ayurveda-for-a-healthier-tomorrow-date-fixed-to-23-september-by-gazette-notification-of-23-march-2025-replacing-the-lunar-dhanteras-or-dhanvantari-jayanti-observance-first-held-in-2016-12-260-ayush-ayushman-arogya-mandirs-operational-against-a-target-of-12-500-ayush-co-located-in-13-249-public-health-facilities-25-322-ayush-doctors-and-5-666-paramedics-supported-ministry-of-ayush-budget-of-rs-4-408-crore-for-2026-27-all-india-institute-of-ayurveda-empanelled-with-all-32-general-insurers-on-10-february-2026-who-icd-11-traditional-medicine-module-2-launched-january-2024-ministry-of-ayush-carved-out-in-2014-national-ayush-mission-2014-ccras-ncism-under-the-national-commission-for-indian-system-of-medicine-act-2020-who-global-centre-for-traditional-medicine-at-jamnagar",
+        "history/supreme-court-of-22-september-2026-cji-surya-kant-joymalya-bagchi-and-v-mohana-on-t-m-krishna-s-petition-challenging-section-3-of-the-prevention-of-insults-to-national-honour-act-1971-as-amended-in-2026-and-mha-orders-of-28-january-and-9-july-2026-observing-orally-that-bijoe-emmanuel-v-state-of-kerala-1986-will-govern-the-act-and-that-there-should-be-no-criminal-consequences-for-refusal-on-religious-grounds-notice-issued-to-the-union-not-a-final-judgment-karnataka-governor-thaawarchand-gehlot-s-letter-of-22-september-2026-on-the-state-order-of-8-september-2026-limiting-rendition-to-two-stanzas-vande-mataram-in-bankim-chandra-chattopadhyay-s-anandamath-1882-sung-at-the-1896-calcutta-congress-session-rallying-cry-of-the-swadeshi-movement-1905-six-stanzas-with-the-congress-resolution-of-1937-confining-public-rendition-to-the-first-two-constituent-assembly-statement-of-24-january-1950-article-25-and-article-51a-a",
+        "environment/eia-notification-2006-under-the-environment-protection-act-1986-category-a-appraised-centrally-by-moefcc-on-the-recommendation-of-the-expert-appraisal-committee-and-category-b-by-the-state-environment-impact-assessment-authority-advised-by-the-state-expert-appraisal-committee-four-stages-of-screening-scoping-public-consultation-and-appraisal-category-a-exempt-from-screening-b1-requires-eia-while-b2-is-exempt-exemptions-from-public-consultation-terms-of-reference-eia-report-and-environment-management-plan-parivesh-portal-appeal-to-the-national-green-tribunal-under-the-ngt-act-2010-coastal-regulation-zone-notification-2019-for-coastal-and-port-projects",
+        "ancient-and-medieval-history/classical-ayurvedic-canon-brihat-trayi-comprising-the-charaka-samhita-kayachikitsa-or-internal-medicine-a-redaction-of-the-agnivesha-tantra-the-sushruta-samhita-shalya-tantra-or-surgery-and-the-ashtanga-hridaya-of-vagbhata-who-also-composed-the-ashtanga-sangraha-laghu-trayi-comprising-the-madhava-nidana-sharngadhara-samhita-and-bhavaprakasha-ashtanga-or-eight-branches-of-ayurveda-dhanvantari-in-the-ayurvedic-tradition"
+      ]
+    },
+    {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-09-22",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "22 Sept 2026",
+      "date": "2026-09-22",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-09-22.md",
+      "bundleId": "daily-daily-current-affairs-upsc-ca-2026-09-22",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "daily_questions_2026_09_22"
+      ],
+      "subjectIds": [
+        "international-relations",
+        "science-technology",
+        "environment",
+        "economy",
+        "polity",
+        "geography"
+      ],
+      "topicIds": [
+        "international-relations/india-bhutan-relations-and-development-assistance",
+        "science-technology/loitering-munitions-and-one-way-attack-drones",
+        "environment/solid-waste-management-rules-2026-and-legacy-dumpsite-biomining",
+        "economy/alternative-fuel-vehicle-transition-and-ev-penetration",
+        "polity/article-19-1-g-proportionality-and-judicial-review-of-subordinate-legislation",
+        "polity/74th-amendment-twelfth-schedule-and-article-243w",
+        "geography/himalayan-rivers-of-bhutan-and-brahmaputra-tributaries"
+      ]
+    },
+    {
       "id": "daily-daily-current-affairs-upsc-ca-2026-09-21",
       "cadence": "daily",
       "title": "UPSC Daily CA Briefing",
@@ -18460,6 +19164,19 @@
       "topicIds": []
     },
     {
+      "id": "weekly-essays-essay-2026-09-26",
+      "cadence": "essay",
+      "title": "Model Essay",
+      "shortTitle": "Essay - 26 Sept",
+      "date": "2026-09-26",
+      "path": "weekly/Essays/Essay_2026-09-26.md",
+      "bundleId": "weekly-essays-essay-2026-09-26",
+      "relatedNoteIds": [],
+      "relatedSetIds": [],
+      "subjectIds": [],
+      "topicIds": []
+    },
+    {
       "id": "weekly-essays-essay-2026-09-19",
       "cadence": "essay",
       "title": "Model Essay",
@@ -18545,6 +19262,19 @@
       "date": "2026-08-10",
       "path": "Essay_Topic_2026-08-10.md",
       "bundleId": "essay-topic-2026-08-10",
+      "relatedNoteIds": [],
+      "relatedSetIds": [],
+      "subjectIds": [],
+      "topicIds": []
+    },
+    {
+      "id": "ethics-case-2026-09-24",
+      "cadence": "ethics",
+      "title": "Weekly Ethics Case Study",
+      "shortTitle": "Case - 24 Sept",
+      "date": "2026-09-24",
+      "path": "Ethics_Case_2026-09-24.md",
+      "bundleId": "ethics-case-2026-09-24",
       "relatedNoteIds": [],
       "relatedSetIds": [],
       "subjectIds": [],
@@ -18662,6 +19392,45 @@
       "date": "",
       "path": "reference/Fodder_Bank.md",
       "bundleId": "reference-fodder-bank",
+      "relatedNoteIds": [],
+      "relatedSetIds": [],
+      "subjectIds": [],
+      "topicIds": []
+    },
+    {
+      "id": "daily-daily-mains-gs-mains-2026-09-27",
+      "cadence": "mains",
+      "title": "GS Mains Answer Practice",
+      "shortTitle": "Mains - 27 Sept",
+      "date": "2026-09-27",
+      "path": "daily/daily_mains/GS_Mains_2026-09-27.md",
+      "bundleId": "daily-daily-mains-gs-mains-2026-09-27",
+      "relatedNoteIds": [],
+      "relatedSetIds": [],
+      "subjectIds": [],
+      "topicIds": []
+    },
+    {
+      "id": "daily-daily-mains-gs-mains-2026-09-25",
+      "cadence": "mains",
+      "title": "GS Mains Answer Practice",
+      "shortTitle": "Mains - 25 Sept",
+      "date": "2026-09-25",
+      "path": "daily/daily_mains/GS_Mains_2026-09-25.md",
+      "bundleId": "daily-daily-mains-gs-mains-2026-09-25",
+      "relatedNoteIds": [],
+      "relatedSetIds": [],
+      "subjectIds": [],
+      "topicIds": []
+    },
+    {
+      "id": "daily-daily-mains-gs-mains-2026-09-22",
+      "cadence": "mains",
+      "title": "GS Mains Answer Practice",
+      "shortTitle": "Mains - 22 Sept",
+      "date": "2026-09-22",
+      "path": "daily/daily_mains/GS_Mains_2026-09-22.md",
+      "bundleId": "daily-daily-mains-gs-mains-2026-09-22",
       "relatedNoteIds": [],
       "relatedSetIds": [],
       "subjectIds": [],
@@ -19316,6 +20085,120 @@
       "relatedSetIds": [],
       "subjectIds": [],
       "topicIds": []
+    },
+    {
+      "id": "daily-daily-pib-pib-2026-09-26",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 26 Sept",
+      "date": "2026-09-26",
+      "path": "daily/daily_pib/PIB_2026-09-26.md",
+      "bundleId": "daily-daily-pib-pib-2026-09-26",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "pib_questions_2026_09_26"
+      ],
+      "subjectIds": [
+        "geography",
+        "economy",
+        "international-relations"
+      ],
+      "topicIds": [
+        "geography/kalpasar-gulf-of-khambhat-development-project-and-india-netherlands-water-mous",
+        "economy/world-tourism-day-2026-theme-and-host",
+        "international-relations/who-pandemic-agreement-and-pathogen-access-and-benefit-sharing-pabs"
+      ]
+    },
+    {
+      "id": "daily-daily-pib-pib-2026-09-25",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 25 Sept",
+      "date": "2026-09-25",
+      "path": "daily/daily_pib/PIB_2026-09-25.md",
+      "bundleId": "daily-daily-pib-pib-2026-09-25",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "pib_questions_2026_09_25"
+      ],
+      "subjectIds": [
+        "science-technology",
+        "polity"
+      ],
+      "topicIds": [
+        "science-technology/bioe3-policy-and-bio-based-biodegradable-plastics-pla",
+        "polity/pmkkky-and-district-mineral-foundations",
+        "science-technology/drdo-technology-development-fund-quantum-enabling-infrastructure"
+      ]
+    },
+    {
+      "id": "daily-daily-pib-pib-2026-09-24",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 24 Sept",
+      "date": "2026-09-24",
+      "path": "daily/daily_pib/PIB_2026-09-24.md",
+      "bundleId": "daily-daily-pib-pib-2026-09-24",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "pib_questions_2026_09_24"
+      ],
+      "subjectIds": [
+        "economy",
+        "science-technology",
+        "international-relations"
+      ],
+      "topicIds": [
+        "economy/edible-oil-import-duty-and-food-inflation",
+        "science-technology/rdi-scheme-and-technology-development-board",
+        "international-relations/india-france-exercise-varuna"
+      ]
+    },
+    {
+      "id": "daily-daily-pib-pib-2026-09-23",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 23 Sept",
+      "date": "2026-09-23",
+      "path": "daily/daily_pib/PIB_2026-09-23.md",
+      "bundleId": "daily-daily-pib-pib-2026-09-23",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "pib_questions_2026_09_23"
+      ],
+      "subjectIds": [
+        "polity",
+        "environment",
+        "international-relations"
+      ],
+      "topicIds": [
+        "polity/health-insurance-and-universal-health-coverage",
+        "environment/species-specific-conservation-projects",
+        "international-relations/india-and-regional-minilateral-groupings"
+      ]
+    },
+    {
+      "id": "daily-daily-pib-pib-2026-09-22",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 22 Sept",
+      "date": "2026-09-22",
+      "path": "daily/daily_pib/PIB_2026-09-22.md",
+      "bundleId": "daily-daily-pib-pib-2026-09-22",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "pib_questions_2026_09_22"
+      ],
+      "subjectIds": [
+        "economy",
+        "polity",
+        "international-relations"
+      ],
+      "topicIds": [
+        "economy/civil-aviation-and-regional-connectivity-schemes",
+        "polity/namaste-and-elimination-of-hazardous-manual-cleaning",
+        "international-relations/india-opec-energy-cooperation-and-energy-security"
+      ]
     },
     {
       "id": "daily-daily-pib-pib-2026-09-21",
@@ -22225,6 +23108,82 @@
       "topicIds": []
     },
     {
+      "id": "weekly-sectional-sectional-book-topics-2026-09-27-chatgpt",
+      "cadence": "sectional",
+      "title": "Weekly Book Topics 50Q Companion",
+      "shortTitle": "Book Topics - 27 Sept",
+      "date": "2026-09-27",
+      "path": "weekly/Sectional/Sectional_book-topics_2026-09-27_chatgpt.md",
+      "variant": "supplementary",
+      "variantLabel": "Companion",
+      "isSupplementary": true,
+      "bundleId": "weekly-sectional-sectional-book-topics-2026-09-27-chatgpt",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "sectional_book-topics_2026_09_27_extra"
+      ],
+      "subjectIds": [
+        "polity",
+        "economy",
+        "medieval-history",
+        "science-technology",
+        "international-relations",
+        "geography"
+      ],
+      "topicIds": [
+        "polity/eighth-schedule-languages-added-by-the-92nd-amendment-2003",
+        "polity/article-343-official-language-of-the-union-numerals-15-year-english-window",
+        "polity/article-344-official-language-commission-and-committee-of-parliament",
+        "polity/article-348-language-of-the-supreme-court-high-courts-and-bills-348-2",
+        "polity/articles-350a-and-350b-classical-language-status",
+        "polity/articles-310-and-311-doctrine-of-pleasure-and-its-safeguards",
+        "polity/article-311-2-the-three-exceptions-to-the-inquiry-requirement",
+        "polity/article-312-creation-of-all-india-services",
+        "polity/articles-299-and-300-government-contracts-and-suits",
+        "polity/sovereign-immunity-kasturi-lal-1965",
+        "polity/article-334-and-the-104th-amendment-2019",
+        "polity/backward-classes-articles-338b-340-342a-102nd-and-105th-amendments",
+        "polity/97th-amendment-2011-what-it-changed",
+        "polity/union-of-india-v-rajendra-n-shah-2021-part-ixb",
+        "economy/human-development-index-dimensions",
+        "economy/national-multidimensional-poverty-index-structure-and-publishers",
+        "economy/poverty-lines-tendulkar-vs-rangarajan",
+        "economy/gross-vs-net-enrolment-ratio",
+        "economy/ayushman-bharat-pm-jay-cover-and-eligibility",
+        "economy/plfs-usual-status-vs-current-weekly-status",
+        "economy/gini-coefficient-and-the-lorenz-curve",
+        "medieval-history/arab-conquest-of-sindh-712",
+        "medieval-history/battles-of-tarain-and-chandawar",
+        "medieval-history/al-biruni-and-kitab-ul-hind",
+        "medieval-history/iltutmish-coinage-investiture-the-forty",
+        "medieval-history/balban-theory-of-kingship",
+        "medieval-history/alauddin-khalji-market-control-and-military-reforms",
+        "medieval-history/malik-kafur-s-deccan-campaigns-capitals-and-dynasties",
+        "medieval-history/muhammad-bin-tughlaq-experiments",
+        "medieval-history/firoz-shah-tughlaq-departments-and-public-works",
+        "medieval-history/sultanate-chronology",
+        "medieval-history/sultanate-revenue-terms",
+        "medieval-history/sufi-silsilas-and-their-centres",
+        "science-technology/export-control-regimes-india-s-memberships",
+        "science-technology/prototype-fast-breeder-reactor-kalpakkam",
+        "science-technology/hypersonic-weapons-hgv-scramjet",
+        "science-technology/iter-fusion-project",
+        "international-relations/instc-and-the-ashgabat-agreement",
+        "international-relations/chabahar-location",
+        "international-relations/india-russia-defence-cooperation-brahmos-ak-203",
+        "international-relations/kudankulam-russian-nuclear-cooperation",
+        "international-relations/central-asia-states-bordering-afghanistan",
+        "international-relations/shanghai-cooperation-organisation-structure",
+        "geography/target-area-and-hill-area-programmes-ncert-12-ch-9",
+        "geography/bharmaur-tribal-region-case-study",
+        "geography/indira-gandhi-canal-command-area",
+        "geography/north-south-and-east-west-corridors",
+        "geography/national-waterways-1-3",
+        "geography/oil-and-gas-pipelines",
+        "geography/konkan-railway"
+      ]
+    },
+    {
       "id": "weekly-sectional-sectional-book-topics-2026-09-20-chatgpt",
       "cadence": "sectional",
       "title": "Weekly Book Topics 50Q Companion",
@@ -23266,6 +24225,19 @@
       "date": "",
       "path": "CSAT_Strategy_Guide.md",
       "bundleId": "csat-strategy-guide",
+      "relatedNoteIds": [],
+      "relatedSetIds": [],
+      "subjectIds": [],
+      "topicIds": []
+    },
+    {
+      "id": "weekly-sunday-sunday-sweep-2026-09-27",
+      "cadence": "sunday",
+      "title": "Sunday Sweep",
+      "shortTitle": "Week of 27 Sept",
+      "date": "2026-09-27",
+      "path": "weekly/Sunday/Sunday_Sweep_2026-09-27.md",
+      "bundleId": "weekly-sunday-sunday-sweep-2026-09-27",
       "relatedNoteIds": [],
       "relatedSetIds": [],
       "subjectIds": [],
@@ -24503,6 +25475,27 @@
         "0613-kanlaon"
       ],
       "mapStatus": "ready"
+    },
+    {
+      "id": "weekly-weekly-quiz-recall-quiz-2026-09-25",
+      "cadence": "weekly-quiz",
+      "title": "Weekly Recall Quiz",
+      "shortTitle": "25 Sept 2026",
+      "date": "2026-09-25",
+      "path": "weekly/weekly_quiz/Recall_Quiz_2026-09-25.md",
+      "bundleId": "weekly-weekly-quiz-recall-quiz-2026-09-25",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "weekly_quiz_2026_09_25"
+      ],
+      "subjectIds": [
+        "current-affairs",
+        "science-technology"
+      ],
+      "topicIds": [
+        "current-affairs/weekly-recall-quiz",
+        "science-technology/weekly-recall-quiz"
+      ]
     },
     {
       "id": "weekly-weekly-quiz-recall-quiz-2026-09-18",

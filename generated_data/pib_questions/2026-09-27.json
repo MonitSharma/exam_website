@@ -1,0 +1,50 @@
+[
+  {
+    "question": "Consider the following statements about the PAIMANA portal: 1. It is administered by NITI Aayog to monitor centrally sponsored schemes. 2. It monitors central sector infrastructure projects costing ₹150 crore and above. 3. By number of projects, the Ministry of Road Transport & Highways has the largest share of projects monitored on it. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "PAIMANA is run by MoSPI, not NITI Aayog, and it tracks central sector infrastructure projects worth ₹150 crore or more. In the August 2026 report, MoRTH accounts for 982 of the 1,731 projects (57%).",
+    "subject": "Economy",
+    "theme": "Infrastructure and Public Investment",
+    "micro_topic": "MoSPI PAIMANA infrastructure project monitoring report (August 2026)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Under the Registration of Electors Rules, 1960, 'Form 6' is used for:",
+    "options": [
+      "(a) Objecting to the inclusion of a name in the electoral roll",
+      "(b) Correcting entries in the electoral roll",
+      "(c) Applying for inclusion of name as a new elector in the electoral roll",
+      "(d) Requesting transposition of an entry within the same constituency"
+    ],
+    "answer": "(c)",
+    "explanation": "Form 6 is the application for inclusion of a new elector. Form 7 is used for objections or deletions, and Form 8 for corrections, shifting of residence and replacement EPIC. The ECI's 26 September 2026 decisions on the Special Intensive Revision referred to the Form 6 declaration.",
+    "subject": "Polity & Governance",
+    "theme": "Elections and Electoral Rolls",
+    "micro_topic": "ECI decisions on Special Intensive Revision; Form 6 under Registration of Electors Rules, 1960",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Consider the following statements: 1. Ecological Task Force battalions, such as the one partnering AIIA in a recent Ashwagandha plantation drive, are units of the Territorial Army. 2. Ashwagandha (Withania somnifera) belongs to the family Solanaceae. 3. The All India Institute of Ayurveda is a statutory body created by an Act of Parliament. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Ecological Task Force battalions belong to the Territorial Army, and Ashwagandha is in the Solanaceae (nightshade) family. AIIA is an autonomous institute under the Ministry of Ayush registered as a society, not a statutory body.",
+    "subject": "Environment",
+    "theme": "Ecological Restoration and Medicinal Plants",
+    "micro_topic": "AIIA–132 ECO Task Force Ashwagandha plantation at Bhatti Mines, Aravalli ridge",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]

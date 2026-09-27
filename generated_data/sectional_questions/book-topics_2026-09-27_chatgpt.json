@@ -1,0 +1,1552 @@
+[
+  {
+    "id": "book_topics_2026_09_27_01",
+    "question_number": 1,
+    "question": "Which of the following languages were added to the Eighth Schedule of the Constitution by the Constitution (Ninety-second Amendment) Act, 2003?\n1. Bodo\n2. Konkani\n3. Maithili\n4. Santhali\n5. Dogri\n6. Nepali\nSelect the correct answer using the code given below.",
+    "options": [
+      {
+        "key": "a",
+        "text": "1, 3, 4 and 5 only"
+      },
+      {
+        "key": "b",
+        "text": "1, 2, 4 and 6 only"
+      },
+      {
+        "key": "c",
+        "text": "2, 3, 5 and 6 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 3, 4, 5 and 6 only"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The 92nd Amendment (2003) added Bodo, Dogri, Maithili and Santhali, taking the Schedule from 18 to 22 languages. Konkani, Manipuri and Nepali came earlier through the 71st Amendment (1992); Sindhi through the 21st (1967). Learn the three batches as 1 + 3 + 4.",
+    "subject": "Polity",
+    "theme": "Polity - Other Constitutional Dimensions: Official Language, Public Services, Rights & Liabilities of Government, Special Provisions, Co-operative Societies (Laxmikanth)",
+    "micro_topic": "Eighth Schedule - languages added by the 92nd Amendment, 2003",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_27_02",
+    "question_number": 2,
+    "question": "With reference to Article 343 of the Constitution of India, consider the following statements:\n1. The official language of the Union shall be Hindi in Devanagari script.\n2. The form of numerals to be used for the official purposes of the Union shall be the Devanagari form of numerals.\n3. Parliament may by law provide for the continued use of English for official purposes of the Union even after fifteen years from the commencement of the Constitution.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Statement 2 is the trap: Article 343(1) prescribes the international form of Indian numerals, not Devanagari numerals. Article 343(3) let Parliament extend English beyond 15 years; the Official Languages Act, 1963 (amended 1967) did so, and English now continues indefinitely alongside Hindi.",
+    "subject": "Polity",
+    "theme": "Polity - Other Constitutional Dimensions: Official Language, Public Services, Rights & Liabilities of Government, Special Provisions, Co-operative Societies (Laxmikanth)",
+    "micro_topic": "Article 343 - official language of the Union, numerals, 15-year English window",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_27_03",
+    "question_number": 3,
+    "question": "Consider the following statements regarding Article 344 of the Constitution:\n1. It required the President to constitute a Commission at the expiration of five years, and again at the expiration of ten years, from the commencement of the Constitution.\n2. It provides for a Committee of thirty members of Parliament - twenty from the Lok Sabha and ten from the Rajya Sabha.\n3. The members of that Committee are nominated by the Speaker and the Chairman of the Rajya Sabha respectively.\n4. The first Official Language Commission was headed by B.G. Kher.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1, 2 and 4 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2, 3 and 4 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Statement 3 is wrong: under Article 344(4) the Committee's members are elected by the members of each House by proportional representation through the single transferable vote - not nominated. The first Commission (1955) was chaired by B.G. Kher, and a parliamentary committee then examined its report.",
+    "subject": "Polity",
+    "theme": "Polity - Other Constitutional Dimensions: Official Language, Public Services, Rights & Liabilities of Government, Special Provisions, Co-operative Societies (Laxmikanth)",
+    "micro_topic": "Article 344 - Official Language Commission and Committee of Parliament",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_27_04",
+    "question_number": 4,
+    "question": "Consider the following statements:\n1. Until Parliament by law otherwise provides, all proceedings in the Supreme Court and in every High Court shall be in the English language.\n2. The Governor of a State may, with the previous consent of the President, authorise the use of Hindi or the official language of the State in proceedings in the High Court of that State.\n3. Such an authorisation under Article 348(2) also extends to judgments, decrees and orders passed by that High Court.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Article 348(1) keeps English for Supreme Court and High Court proceedings (and for authoritative texts of Bills and Acts) until Parliament provides otherwise. Article 348(2) lets the Governor, with the President's previous consent, authorise Hindi or the State language in High Court proceedings - but expressly excludes judgments, decrees and orders. So 3 is wrong.",
+    "subject": "Polity",
+    "theme": "Polity - Other Constitutional Dimensions: Official Language, Public Services, Rights & Liabilities of Government, Special Provisions, Co-operative Societies (Laxmikanth)",
+    "micro_topic": "Article 348 - language of the Supreme Court, High Courts and Bills; 348(2)",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_27_05",
+    "question_number": 5,
+    "question": "Consider the following statements:\n1. Article 350A directs every State to endeavour to provide facilities for instruction in the mother-tongue at the primary stage of education to children belonging to linguistic minority groups.\n2. The Special Officer for Linguistic Minorities under Article 350B is appointed by the President.\n3. The status of a 'classical language' is conferred under a provision of the Eighth Schedule.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Articles 350A and 350B were both inserted by the 7th Amendment (1956); the Special Officer is appointed by the President and reports to him. Classical-language status is an executive categorisation by the Union Government (Ministry of Culture), not a constitutional one - the Constitution has no 'classical language' provision. There are 11 such languages after the October 2024 additions.",
+    "subject": "Polity",
+    "theme": "Polity - Other Constitutional Dimensions: Official Language, Public Services, Rights & Liabilities of Government, Special Provisions, Co-operative Societies (Laxmikanth)",
+    "micro_topic": "Articles 350A and 350B; classical language status",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_27_06",
+    "question_number": 6,
+    "question": "Consider the following statements:\n1. Under Article 310, members of the defence services, the civil services of the Union and the all-India services hold office during the pleasure of the President.\n2. The safeguards of Article 311 are equally available to members of the defence services.\n3. Under Article 311(1), a civil servant cannot be dismissed or removed by an authority subordinate to that by which he was appointed.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Article 310 codifies the English doctrine of pleasure and covers defence personnel too. Article 311, however, protects only persons who are members of a civil service of the Union or a State, an all-India service, or who hold a civil post - defence personnel are outside it. So the pleasure is wider than the protection; statement 2 is wrong.",
+    "subject": "Polity",
+    "theme": "Polity - Other Constitutional Dimensions: Official Language, Public Services, Rights & Liabilities of Government, Special Provisions, Co-operative Societies (Laxmikanth)",
+    "micro_topic": "Articles 310 and 311 - doctrine of pleasure and its safeguards",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_27_07",
+    "question_number": 7,
+    "question": "The inquiry ordinarily required under Article 311(2) before dismissal, removal or reduction in rank of a civil servant need NOT be held in which of the following situations?\n1. The penalty is imposed on the ground of conduct which has led to his conviction on a criminal charge.\n2. The disciplinary authority is satisfied, for reasons to be recorded in writing, that it is not reasonably practicable to hold the inquiry.\n3. The President or the Governor is satisfied that in the interest of the security of the State it is not expedient to hold the inquiry.\n4. The civil servant is on probation at the time of the action.\nSelect the correct answer using the code given below.",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2, 3 and 4 only"
+      },
+      {
+        "key": "c",
+        "text": "1, 2, 3 and 4"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3 only"
+      }
+    ],
+    "answer": "d",
+    "explanation": "The second proviso to Article 311(2) lists exactly three exceptions: criminal conviction, impracticability (reasons recorded in writing), and security of the State (satisfaction of the President or Governor). Probation is not a constitutional exception - a probationer's termination is governed by service rules and case law, not by the proviso.",
+    "subject": "Polity",
+    "theme": "Polity - Other Constitutional Dimensions: Official Language, Public Services, Rights & Liabilities of Government, Special Provisions, Co-operative Societies (Laxmikanth)",
+    "micro_topic": "Article 311(2) - the three exceptions to the inquiry requirement",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_27_08",
+    "question_number": 8,
+    "question": "With reference to Article 312 of the Constitution, consider the following statements:\n1. A new all-India service can be created by Parliament if the Rajya Sabha passes a resolution supported by not less than two-thirds of the members present and voting.\n2. The IAS and the IPS are deemed to be services created by Parliament under this Article.\n3. The Indian Forest Service was created under this provision in 1966.\n4. Once created, an all-India service is controlled exclusively by the States in which its officers serve.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2, 3 and 4 only"
+      },
+      {
+        "key": "c",
+        "text": "1, 3 and 4 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3 only"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Statements 1-3 are correct: Article 312(1) needs the Rajya Sabha resolution (2/3 present and voting) - the Council of States' federal consent; Article 312(2) deems the IAS and IPS to be Parliament-created; the Indian Forest Service followed in 1966. Statement 4 is wrong: all-India services are under joint Union-State control, with ultimate control (recruitment, cadre, major penalties) resting with the Centre.",
+    "subject": "Polity",
+    "theme": "Polity - Other Constitutional Dimensions: Official Language, Public Services, Rights & Liabilities of Government, Special Provisions, Co-operative Societies (Laxmikanth)",
+    "micro_topic": "Article 312 - creation of all-India services",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_27_09",
+    "question_number": 9,
+    "question": "Consider the following statements:\n1. All contracts made in the exercise of the executive power of the Union shall be expressed to be made by the President.\n2. The President is personally liable in respect of any contract made in the exercise of the executive power of the Union.\n3. The Government of India may sue or be sued by the name of the Union of India.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Article 299(1) requires Union contracts to be expressed as made by the President; Article 299(2) expressly says neither the President nor the person executing the contract is personally liable. Article 300 lets the Government of India sue and be sued as 'the Union of India' (and a State by its name). Statement 2 is the inversion.",
+    "subject": "Polity",
+    "theme": "Polity - Other Constitutional Dimensions: Official Language, Public Services, Rights & Liabilities of Government, Special Provisions, Co-operative Societies (Laxmikanth)",
+    "micro_topic": "Articles 299 and 300 - Government contracts and suits",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_27_10",
+    "question_number": 10,
+    "question": "In which of the following cases did the Supreme Court hold that the State was not liable for the loss caused by the negligence of its police officers because the act was done in the exercise of a sovereign function?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Kasturi Lal Ralia Ram Jain v. State of Uttar Pradesh"
+      },
+      {
+        "key": "b",
+        "text": "State of Rajasthan v. Vidyawati"
+      },
+      {
+        "key": "c",
+        "text": "N. Nagendra Rao & Co. v. State of Andhra Pradesh"
+      },
+      {
+        "key": "d",
+        "text": "Rudul Sah v. State of Bihar"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Kasturi Lal (1965) - gold seized by police and misappropriated - applied the sovereign/non-sovereign distinction and denied compensation. Vidyawati (1962) held the State liable for a government jeep accident (non-sovereign). Nagendra Rao (1994) diluted the sovereign-immunity defence. Rudul Sah (1983) is the landmark on compensation for illegal detention under Article 32.",
+    "subject": "Polity",
+    "theme": "Polity - Other Constitutional Dimensions: Official Language, Public Services, Rights & Liabilities of Government, Special Provisions, Co-operative Societies (Laxmikanth)",
+    "micro_topic": "Sovereign immunity - Kasturi Lal (1965)",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_27_11",
+    "question_number": 11,
+    "question": "The Constitution (One Hundred and Fourth Amendment) Act, 2019:\n1. extended the reservation of seats for SCs and STs in the Lok Sabha and State Legislative Assemblies until January 2030.\n2. discontinued the nomination of Anglo-Indian members to the Lok Sabha and State Legislative Assemblies.\n3. extended the reservation for SCs and STs in government jobs by ten years.\nSelect the correct answer using the code given below.",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The 104th Amendment amended Article 334 to extend SC/ST seat reservation to 80 years from commencement (25 January 2030) and let the Anglo-Indian nomination under Articles 331 and 333 lapse from January 2020. Job reservation under Article 16(4)/335 carries no time limit, so there was nothing to extend - statement 3 is wrong.",
+    "subject": "Polity",
+    "theme": "Polity - Other Constitutional Dimensions: Official Language, Public Services, Rights & Liabilities of Government, Special Provisions, Co-operative Societies (Laxmikanth)",
+    "micro_topic": "Article 334 and the 104th Amendment, 2019",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_27_12",
+    "question_number": 12,
+    "question": "Consider the following statements:\n1. The 102nd Amendment Act, 2018 gave constitutional status to the National Commission for Backward Classes by inserting Article 338B.\n2. The 105th Amendment Act, 2021 restored the power of the States to prepare their own lists of socially and educationally backward classes.\n3. Article 340 empowers the President to appoint a commission to investigate the conditions of backward classes.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All three are correct. The 102nd Amendment inserted Articles 338B and 342A; after the Maratha-reservation judgment read 342A as centralising SEBC identification, the 105th Amendment (2021) restored the States' power to maintain their own lists. Article 340 is the basis of both the Kaka Kalelkar (1953) and Mandal (1979) Commissions.",
+    "subject": "Polity",
+    "theme": "Polity - Other Constitutional Dimensions: Official Language, Public Services, Rights & Liabilities of Government, Special Provisions, Co-operative Societies (Laxmikanth)",
+    "micro_topic": "Backward classes - Articles 338B, 340, 342A; 102nd and 105th Amendments",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_27_13",
+    "question_number": 13,
+    "question": "The Constitution (Ninety-seventh Amendment) Act, 2011 made which of the following changes?\n1. Added the right to form co-operative societies to Article 19(1)(c).\n2. Inserted a new Directive Principle (Article 43B) on the promotion of co-operative societies.\n3. Inserted Part IXB titled 'The Co-operative Societies'.\n4. Transferred 'co-operative societies' from the State List to the Concurrent List.\nSelect the correct answer using the code given below.",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "b",
+        "text": "1, 2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2, 3 and 4 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The 97th Amendment touched three places: Article 19(1)(c) (co-operatives joined associations and unions), Article 43B (DPSP) and Part IXB (Articles 243ZH-243ZT). It did not touch the Seventh Schedule - co-operative societies remain Entry 32 of the State List, which is exactly why ratification became the issue in Rajendra N. Shah.",
+    "subject": "Polity",
+    "theme": "Polity - Other Constitutional Dimensions: Official Language, Public Services, Rights & Liabilities of Government, Special Provisions, Co-operative Societies (Laxmikanth)",
+    "micro_topic": "97th Amendment, 2011 - what it changed",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_27_14",
+    "question_number": 14,
+    "question": "With reference to the Supreme Court's judgment in Union of India v. Rajendra N. Shah (2021), consider the following statements:\n1. The Court held that Part IXB required ratification by at least half of the State Legislatures because it dealt with a subject in the State List.\n2. The Court struck down Part IXB in its entirety.\n3. The provisions of Part IXB relating to multi-State co-operative societies were saved as severable.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "2 and 3 only"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The majority held that Part IXB significantly affected State List Entry 32 and so needed ratification under the proviso to Article 368(2), which it never received. It did not strike the Part wholesale: provisions dealing with multi-State co-operative societies (a Union subject) were held severable and valid. Statement 2 is the overreach trap.",
+    "subject": "Polity",
+    "theme": "Polity - Other Constitutional Dimensions: Official Language, Public Services, Rights & Liabilities of Government, Special Provisions, Co-operative Societies (Laxmikanth)",
+    "micro_topic": "Union of India v. Rajendra N. Shah (2021) - Part IXB",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_27_15",
+    "question_number": 15,
+    "question": "The Human Development Index published by the UNDP captures which of the following dimensions?\n1. A long and healthy life\n2. Knowledge\n3. A decent standard of living\n4. Income inequality within the country\nSelect the correct answer using the code given below.",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2, 3 and 4 only"
+      },
+      {
+        "key": "c",
+        "text": "1, 2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer": "c",
+    "explanation": "HDI = geometric mean of three dimension indices: life expectancy at birth; mean and expected years of schooling; GNI per capita (PPP). Inequality is not in the HDI itself - it is captured by the separate Inequality-adjusted HDI (IHDI), and gender gaps by the GDI/GII.",
+    "subject": "Economy",
+    "theme": "Economy - Economic Survey social sector: poverty, human development, health, education, employment (NCERT + Vivek Singh frame)",
+    "micro_topic": "Human Development Index - dimensions",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_27_16",
+    "question_number": 16,
+    "question": "With reference to NITI Aayog's National Multidimensional Poverty Index (MPI), consider the following statements:\n1. It uses three equally weighted dimensions - health, education and standard of living.\n2. It uses twelve indicators, adding maternal health and bank account to the ten indicators of the global MPI.\n3. The global MPI on which it is based is published by the World Bank.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "India's national MPI keeps the global MPI's three equally weighted dimensions and its ten indicators, and adds two - maternal health and bank account - for twelve. The global MPI is produced by the Oxford Poverty and Human Development Initiative (OPHI) with UNDP, not the World Bank (which publishes the monetary poverty lines such as USD 3.00/day PPP).",
+    "subject": "Economy",
+    "theme": "Economy - Economic Survey social sector: poverty, human development, health, education, employment (NCERT + Vivek Singh frame)",
+    "micro_topic": "National Multidimensional Poverty Index - structure and publishers",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_27_17",
+    "question_number": 17,
+    "question": "Consider the following statements:\n1. The Tendulkar Committee moved away from anchoring the poverty line to calorie norms and included private expenditure on health and education in the poverty line basket.\n2. The Tendulkar Committee recommended a uniform poverty line basket for rural and urban areas.\n3. The Rangarajan Expert Group (2014) estimated a higher poverty ratio for 2011-12 than the Tendulkar method did.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All correct. Tendulkar (2009) dropped the calorie anchor, used a single all-India poverty line basket (the urban basket) for both rural and urban India, and valued health and education spending - giving 21.9% poverty for 2011-12. Rangarajan (2014) went back to a calorie-protein-fat norm plus non-food needs and raised the lines, giving 29.5% for the same year.",
+    "subject": "Economy",
+    "theme": "Economy - Economic Survey social sector: poverty, human development, health, education, employment (NCERT + Vivek Singh frame)",
+    "micro_topic": "Poverty lines - Tendulkar vs Rangarajan",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_27_18",
+    "question_number": 18,
+    "question": "Consider the following statements about enrolment indicators in education:\n1. The Gross Enrolment Ratio (GER) of a level of education can exceed 100 per cent.\n2. The Net Enrolment Ratio (NER) counts only those enrolled students who belong to the official age-group for that level.\n3. The Net Enrolment Ratio can exceed 100 per cent when there are many over-age students.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "GER divides all enrolment at a level, of any age, by the official-age population - so over-age and under-age pupils can push it above 100. NER counts only official-age pupils in the numerator, so it cannot exceed 100; the GER-NER gap is itself a measure of over/under-age enrolment. Statement 3 is wrong.",
+    "subject": "Economy",
+    "theme": "Economy - Economic Survey social sector: poverty, human development, health, education, employment (NCERT + Vivek Singh frame)",
+    "micro_topic": "Gross vs Net Enrolment Ratio",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_27_19",
+    "question_number": 19,
+    "question": "With reference to Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (PM-JAY), consider the following statements:\n1. It provides health cover of up to Rs 5 lakh per family per year for secondary and tertiary care hospitalisation.\n2. It covers routine outpatient (OPD) consultations at primary level.\n3. Since October 2024, all citizens aged 70 years and above are eligible irrespective of income.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "PM-JAY (September 2018) is a hospitalisation scheme: Rs 5 lakh per family per year, cashless, for secondary and tertiary care. Primary care is the job of the other pillar of Ayushman Bharat - the Ayushman Arogya Mandirs (health and wellness centres) - so statement 2 is wrong. The October 2024 expansion covers all persons 70+ regardless of income.",
+    "subject": "Economy",
+    "theme": "Economy - Economic Survey social sector: poverty, human development, health, education, employment (NCERT + Vivek Singh frame)",
+    "micro_topic": "Ayushman Bharat PM-JAY - cover and eligibility",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_27_20",
+    "question_number": 20,
+    "question": "In the Periodic Labour Force Survey (PLFS), the activity status of a person under the Current Weekly Status (CWS) approach is determined with reference to:",
+    "options": [
+      {
+        "key": "a",
+        "text": "the last 365 days preceding the survey"
+      },
+      {
+        "key": "b",
+        "text": "the last 7 days preceding the survey"
+      },
+      {
+        "key": "c",
+        "text": "the last 30 days preceding the survey"
+      },
+      {
+        "key": "d",
+        "text": "the agricultural season preceding the survey"
+      }
+    ],
+    "answer": "b",
+    "explanation": "PLFS (NSO, since 2017-18) uses three yardsticks: Usual Status (reference period 365 days, principal + subsidiary), Current Weekly Status (7 days) and Current Daily Status (each day of the reference week, in half-day units). CWS unemployment is higher than usual-status unemployment because it catches short spells.",
+    "subject": "Economy",
+    "theme": "Economy - Economic Survey social sector: poverty, human development, health, education, employment (NCERT + Vivek Singh frame)",
+    "micro_topic": "PLFS - usual status vs current weekly status",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_27_21",
+    "question_number": 21,
+    "question": "Consider the following statements:\n1. A Gini coefficient of zero indicates perfect equality in the distribution of income.\n2. The farther the Lorenz curve lies from the line of equality, the greater the inequality.\n3. A Gini coefficient of one indicates that income is equally distributed across all households.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The Gini coefficient is the area between the 45-degree line of equality and the Lorenz curve, divided by the whole area under the line of equality. 0 = perfect equality; 1 = one household holds all income. So statement 3 inverts the scale.",
+    "subject": "Economy",
+    "theme": "Economy - Economic Survey social sector: poverty, human development, health, education, employment (NCERT + Vivek Singh frame)",
+    "micro_topic": "Gini coefficient and the Lorenz curve",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_27_22",
+    "question_number": 22,
+    "question": "The Arab conquest of Sindh in 712 CE was led by:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Mahmud of Ghazni"
+      },
+      {
+        "key": "b",
+        "text": "Muhammad bin Qasim"
+      },
+      {
+        "key": "c",
+        "text": "Muhammad Ghori"
+      },
+      {
+        "key": "d",
+        "text": "Qutbuddin Aibak"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Muhammad bin Qasim, sent under the Umayyad Caliphate by the governor Hajjaj bin Yusuf, defeated Raja Dahir and took Sindh and Multan. Mahmud's raids came three centuries later (c. 1000-1027); Ghori's campaigns laid the Sultanate's foundation in the 1190s.",
+    "subject": "Medieval History",
+    "theme": "Medieval History - Arabs, Turks and the Delhi Sultanate, 712-1526 (TN State Board Class 11)",
+    "micro_topic": "Arab conquest of Sindh, 712",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_27_23",
+    "question_number": 23,
+    "question": "Consider the following statements:\n1. In the First Battle of Tarain (1191), Prithviraj Chauhan defeated Muhammad Ghori.\n2. In the Second Battle of Tarain (1192), Muhammad Ghori defeated Prithviraj Chauhan.\n3. In the Battle of Chandawar (1194), Muhammad Ghori defeated Jaichand, the Gahadavala ruler of Kanauj.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All three are correct. Tarain I (1191) was Ghori's defeat; Tarain II (1192) opened the Ganga plain; Chandawar (1194) removed the Gahadavalas. Aibak, Ghori's slave-general, was left in charge of the Indian conquests and became Sultan in 1206.",
+    "subject": "Medieval History",
+    "theme": "Medieval History - Arabs, Turks and the Delhi Sultanate, 712-1526 (TN State Board Class 11)",
+    "micro_topic": "Battles of Tarain and Chandawar",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_27_24",
+    "question_number": 24,
+    "question": "Consider the following statements about Al-Biruni:\n1. He came to India in the train of Mahmud of Ghazni.\n2. His Kitab-ul-Hind (Tahqiq-i-Hind) was written in Arabic.\n3. He was a court poet of Alauddin Khalji.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Al-Biruni (from Khwarizm) accompanied Mahmud, learnt Sanskrit and wrote Kitab-ul-Hind in Arabic - a systematic account of Indian religion, philosophy, astronomy and society. The court poet of the Khaljis (and later rulers) was Amir Khusrau, not Al-Biruni.",
+    "subject": "Medieval History",
+    "theme": "Medieval History - Arabs, Turks and the Delhi Sultanate, 712-1526 (TN State Board Class 11)",
+    "micro_topic": "Al-Biruni and Kitab-ul-Hind",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_27_25",
+    "question_number": 25,
+    "question": "Which one of the following is NOT correctly attributed to Iltutmish?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Introduction of the silver tanka and the copper jital"
+      },
+      {
+        "key": "b",
+        "text": "Receipt of a letter of investiture from the Abbasid Caliph"
+      },
+      {
+        "key": "c",
+        "text": "Organisation of the Turkan-i-Chahalgani (the Forty)"
+      },
+      {
+        "key": "d",
+        "text": "Construction of the Alai Darwaza"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Iltutmish (1211-36) is the real consolidator: silver tanka and copper jital, the iqta system, the Forty, and investiture from the Abbasid Caliph (1229). He also completed the Qutb Minar begun by Aibak. The Alai Darwaza (1311), the gateway to the Quwwat-ul-Islam complex, was built by Alauddin Khalji.",
+    "subject": "Medieval History",
+    "theme": "Medieval History - Arabs, Turks and the Delhi Sultanate, 712-1526 (TN State Board Class 11)",
+    "micro_topic": "Iltutmish - coinage, investiture, the Forty",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_27_26",
+    "question_number": 26,
+    "question": "Which of the following are associated with Sultan Ghiyasuddin Balban?\n1. Introduction of the court practices of sijda and paibos\n2. Projection of the Sultan as zil-i-ilahi (shadow of God)\n3. Breaking the power of the Turkan-i-Chahalgani\n4. Introduction of token currency\nSelect the correct answer using the code given below.",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2, 3 and 4 only"
+      },
+      {
+        "key": "c",
+        "text": "1, 2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Balban (1266-87) raised the Sultan's prestige through Persian court ritual (sijda - prostration; paibos - kissing the feet), the doctrine of the Sultan as God's shadow, and by destroying the Forty of which he had himself been a member. Token currency belongs to Muhammad bin Tughlaq (1329-30).",
+    "subject": "Medieval History",
+    "theme": "Medieval History - Arabs, Turks and the Delhi Sultanate, 712-1526 (TN State Board Class 11)",
+    "micro_topic": "Balban - theory of kingship",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_27_27",
+    "question_number": 27,
+    "question": "Consider the following statements about the measures of Alauddin Khalji:\n1. He appointed a Shahna-i-Mandi to superintend the markets.\n2. He set up the Diwan-i-Riyasat to enforce the market regulations.\n3. He introduced the branding of horses (dagh) and the descriptive roll of soldiers (huliya/chehra).\n4. He fixed land revenue at one-third of the produce.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "1, 2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "3 and 4 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Statement 4 is the trap: Alauddin raised the demand to half (50%) of the produce, assessed by measurement (masahat). The market regime - price control through the Shahna-i-Mandi and the Diwan-i-Riyasat, with a spy network - served a large standing army paid in cash, which is why dagh and huliya belong to the same package.",
+    "subject": "Medieval History",
+    "theme": "Medieval History - Arabs, Turks and the Delhi Sultanate, 712-1526 (TN State Board Class 11)",
+    "micro_topic": "Alauddin Khalji - market control and military reforms",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_27_28",
+    "question_number": 28,
+    "question": "Consider the following pairs of capitals raided during Malik Kafur's campaigns and their ruling dynasties:\n1. Devagiri - Yadavas\n2. Warangal - Hoysalas\n3. Dwarasamudra - Kakatiyas\n4. Madurai - Pandyas\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "Only three"
+      },
+      {
+        "key": "d",
+        "text": "All four"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Only 1 and 4 are correct. Warangal was the Kakatiya capital (Prataparudra) and Dwarasamudra the Hoysala capital (Ballala III) - the two are swapped. Kafur's campaigns (1307-11) ran Devagiri -> Warangal -> Dwarasamudra -> Madurai, extracting tribute rather than annexing.",
+    "subject": "Medieval History",
+    "theme": "Medieval History - Arabs, Turks and the Delhi Sultanate, 712-1526 (TN State Board Class 11)",
+    "micro_topic": "Malik Kafur's Deccan campaigns - capitals and dynasties",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_27_29",
+    "question_number": 29,
+    "question": "Consider the following statements about Muhammad bin Tughlaq:\n1. He transferred the capital from Delhi to Devagiri, renamed Daulatabad.\n2. He issued token currency in bronze/copper to be valued at par with silver coins.\n3. He created the Diwan-i-Amir-i-Kohi to extend cultivation.\n4. The Moroccan traveller Ibn Battuta served as qazi of Delhi during his reign.\nHow many of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "Only three"
+      },
+      {
+        "key": "d",
+        "text": "All four"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All four are correct. The Daulatabad transfer (1327), token currency (1329-30), the Doab tax increase, and the agricultural department Diwan-i-Amir-i-Kohi are the four 'experiments'. Ibn Battuta arrived in 1333, was appointed qazi of Delhi, and later wrote the Rihla.",
+    "subject": "Medieval History",
+    "theme": "Medieval History - Arabs, Turks and the Delhi Sultanate, 712-1526 (TN State Board Class 11)",
+    "micro_topic": "Muhammad bin Tughlaq - experiments",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_27_30",
+    "question_number": 30,
+    "question": "Which of the following are associated with Firoz Shah Tughlaq?\n1. Diwan-i-Khairat, a department of charity\n2. Diwan-i-Bandagan, a department of slaves\n3. Transfer of Ashokan pillars from Topra and Meerut to Delhi\n4. Abolition of jizya\nSelect the correct answer using the code given below.",
+    "options": [
+      {
+        "key": "a",
+        "text": "1, 2 and 3 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 4 only"
+      },
+      {
+        "key": "c",
+        "text": "2, 3 and 4 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Firoz (1351-88) set up the Diwan-i-Khairat and the Diwan-i-Bandagan, dug canals, levied the irrigation tax haq-i-sharb, and moved the Topra and Meerut Ashokan pillars to Delhi. Far from abolishing jizya, he extended it to Brahmins, who had earlier been exempt. Jizya was abolished by Akbar (1564).",
+    "subject": "Medieval History",
+    "theme": "Medieval History - Arabs, Turks and the Delhi Sultanate, 712-1526 (TN State Board Class 11)",
+    "micro_topic": "Firoz Shah Tughlaq - departments and public works",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_27_31",
+    "question_number": 31,
+    "question": "Arrange the following events in chronological order:\n1. Timur's sack of Delhi\n2. Transfer of the capital to Daulatabad\n3. Foundation of Agra by Sikandar Lodi\n4. Malik Kafur's expedition to Madurai\nSelect the correct answer using the code given below.",
+    "options": [
+      {
+        "key": "a",
+        "text": "2-4-1-3"
+      },
+      {
+        "key": "b",
+        "text": "4-1-2-3"
+      },
+      {
+        "key": "c",
+        "text": "4-2-1-3"
+      },
+      {
+        "key": "d",
+        "text": "2-4-3-1"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Kafur reaches Madurai in 1311 (Khalji); the capital shifts to Daulatabad in 1327 (Muhammad bin Tughlaq); Timur sacks Delhi in 1398 (under Nasiruddin Mahmud Tughlaq); Sikandar Lodi founds Agra in 1504. Khalji -> Tughlaq -> Timur -> Lodi.",
+    "subject": "Medieval History",
+    "theme": "Medieval History - Arabs, Turks and the Delhi Sultanate, 712-1526 (TN State Board Class 11)",
+    "micro_topic": "Sultanate chronology",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_27_32",
+    "question_number": 32,
+    "question": "Consider the following pairs:\n1. Kharaj - land revenue\n2. Jizya - tax levied on non-Muslims\n3. Zakat - one-fifth share of the spoils of war\n4. Haq-i-sharb - irrigation tax\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "Only three"
+      },
+      {
+        "key": "d",
+        "text": "All four"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Pair 3 is wrong: zakat is the religious tax on the property of well-off Muslims; the one-fifth share of war booty is khams (under the rule the state took one-fifth and the soldiers four-fifths; Alauddin is said to have reversed the proportion). Haq-i-sharb, the water tax on canal-irrigated land, is associated with Firoz Shah Tughlaq.",
+    "subject": "Medieval History",
+    "theme": "Medieval History - Arabs, Turks and the Delhi Sultanate, 712-1526 (TN State Board Class 11)",
+    "micro_topic": "Sultanate revenue terms",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_27_33",
+    "question_number": 33,
+    "question": "Consider the following statements:\n1. Khwaja Moinuddin Chishti established the Chishti order at Ajmer.\n2. Shaikh Nizamuddin Auliya's khanqah was in Delhi.\n3. Shaikh Bahauddin Zakariya established the Chishti order at Multan.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Bahauddin Zakariya founded the Suhrawardi order at Multan - and, unlike the Chishtis, the Suhrawardis accepted state patronage and grants. Moinuddin (Ajmer) and Nizamuddin Auliya (Delhi; Amir Khusrau was his disciple) are the Chishti pillars.",
+    "subject": "Medieval History",
+    "theme": "Medieval History - Arabs, Turks and the Delhi Sultanate, 712-1526 (TN State Board Class 11)",
+    "micro_topic": "Sufi silsilas and their centres",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_27_34",
+    "question_number": 34,
+    "question": "India is a member of which of the following export control regimes?\n1. Missile Technology Control Regime\n2. Wassenaar Arrangement\n3. Australia Group\n4. Nuclear Suppliers Group\nSelect the correct answer using the code given below.",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "1, 2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2, 3 and 4 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer": "b",
+    "explanation": "India joined the MTCR (2016), the Wassenaar Arrangement (2017, conventional arms and dual-use goods) and the Australia Group (2018, chemical and biological). Its NSG membership bid remains blocked (it has only the 2008 NSG waiver).",
+    "subject": "Science & Technology",
+    "theme": "Science & Technology - Defence and Nuclear Technology (revision round, new angles)",
+    "micro_topic": "Export control regimes - India's memberships",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_27_35",
+    "question_number": 35,
+    "question": "Consider the following statements about the Prototype Fast Breeder Reactor (PFBR) at Kalpakkam:\n1. It uses liquid sodium as coolant.\n2. Its core fuel is uranium-plutonium mixed oxide (MOX).\n3. It uses heavy water as moderator.\n4. It attained first criticality in 2026.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "1, 2 and 4 only"
+      },
+      {
+        "key": "c",
+        "text": "2, 3 and 4 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer": "b",
+    "explanation": "A fast reactor uses no moderator - it needs fast neutrons to convert fertile U-238 in the blanket into fissile Pu-239, which is why it can breed more fuel than it consumes; heavy water is the moderator of first-stage PHWRs. The 500 MWe PFBR, built by BHAVINI with MOX fuel and liquid-sodium cooling, attained first criticality on 6 April 2026 (DAE). It is the second-stage gateway to thorium use.",
+    "subject": "Science & Technology",
+    "theme": "Science & Technology - Defence and Nuclear Technology (revision round, new angles)",
+    "micro_topic": "Prototype Fast Breeder Reactor, Kalpakkam",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_27_36",
+    "question_number": 36,
+    "question": "Consider the following statements:\n1. Hypersonic speed refers to speeds greater than Mach 5.\n2. A hypersonic glide vehicle is boosted by a rocket and then glides towards its target on a manoeuvrable trajectory.\n3. A scramjet engine carries its own oxidiser, like a rocket engine.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "A scramjet (supersonic-combustion ramjet) is air-breathing: it takes oxygen from the atmosphere, which is precisely what powers hypersonic cruise missiles. A glide vehicle (HGV) is unpowered after boost; its low, manoeuvring flight path is what defeats ballistic-missile defences.",
+    "subject": "Science & Technology",
+    "theme": "Science & Technology - Defence and Nuclear Technology (revision round, new angles)",
+    "micro_topic": "Hypersonic weapons - HGV, scramjet",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_27_37",
+    "question_number": 37,
+    "question": "With reference to ITER, consider the following statements:\n1. It is being built at Cadarache in France.\n2. India is one of its member countries.\n3. It is a tokamak designed to fuse deuterium and tritium.\n4. Its primary purpose is to supply electricity commercially to the European grid.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2, 3 and 4 only"
+      },
+      {
+        "key": "c",
+        "text": "1, 2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer": "c",
+    "explanation": "ITER (India joined in 2005; the other members are the EU, China, Japan, Korea, Russia and the US) is an experimental tokamak meant to prove net fusion power at scale using D-T fusion. It will not sell power to any grid - demonstration reactors are meant to follow it.",
+    "subject": "Science & Technology",
+    "theme": "Science & Technology - Defence and Nuclear Technology (revision round, new angles)",
+    "micro_topic": "ITER - fusion project",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_27_38",
+    "question_number": 38,
+    "question": "Consider the following statements:\n1. The International North-South Transport Corridor (INSTC) agreement was originally signed by India, Iran and Russia in 2000.\n2. India acceded to the Ashgabat Agreement in 2018.\n3. The Ashgabat Agreement seeks to create a transport and transit corridor between Central Asia and the Persian Gulf.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All three are correct. The INSTC (St Petersburg, 2000) runs Mumbai -> Bandar Abbas -> Caspian -> Astrakhan/Moscow. The Ashgabat Agreement (2011; Iran, Oman, Turkmenistan, Uzbekistan, later Kazakhstan, Pakistan and India) is a multimodal Central Asia-Gulf corridor; India joined on 3 February 2018, complementing INSTC and Chabahar.",
+    "subject": "International Relations",
+    "theme": "International Relations - Russia and the Eurasian connectivity arc",
+    "micro_topic": "INSTC and the Ashgabat Agreement",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_27_39",
+    "question_number": 39,
+    "question": "The port of Chabahar, in which India operates the Shahid Beheshti terminal, lies:",
+    "options": [
+      {
+        "key": "a",
+        "text": "on Iran's Caspian Sea coast"
+      },
+      {
+        "key": "b",
+        "text": "on the Gulf of Oman, outside the Strait of Hormuz"
+      },
+      {
+        "key": "c",
+        "text": "in the Persian Gulf, inside the Strait of Hormuz"
+      },
+      {
+        "key": "d",
+        "text": "on the Makran coast of Pakistan's Balochistan"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Chabahar is in Iran's Sistan-Baluchestan province on the Gulf of Oman - outside Hormuz, ~170 km west of Pakistan's Gwadar. Bandar Abbas sits on the Strait of Hormuz. India's IPGL runs the Shahid Beheshti terminal (10-year contract signed May 2024).",
+    "subject": "International Relations",
+    "theme": "International Relations - Russia and the Eurasian connectivity arc",
+    "micro_topic": "Chabahar - location",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_27_40",
+    "question_number": 40,
+    "question": "Consider the following statements:\n1. BrahMos Aerospace is a joint venture of DRDO and Russia's NPO Mashinostroyeniya; its name combines the Brahmaputra and the Moskva rivers.\n2. BrahMos is a subsonic cruise missile.\n3. AK-203 rifles are produced by Indo-Russian Rifles Pvt Ltd at Korwa in Amethi.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "BrahMos is a supersonic cruise missile (about Mach 2.8) - India's subsonic cruise missile programme is Nirbhay. The AK-203 JV at Korwa (Amethi, UP) is an Indo-Russian joint venture involving the OFB successor companies and Rosoboronexport/Kalashnikov.",
+    "subject": "International Relations",
+    "theme": "International Relations - Russia and the Eurasian connectivity arc",
+    "micro_topic": "India-Russia defence cooperation - BrahMos, AK-203",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_27_41",
+    "question_number": 41,
+    "question": "The Kudankulam Nuclear Power Project, built with Russian cooperation, is located in:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Andhra Pradesh"
+      },
+      {
+        "key": "b",
+        "text": "Karnataka"
+      },
+      {
+        "key": "c",
+        "text": "Tamil Nadu"
+      },
+      {
+        "key": "d",
+        "text": "Kerala"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Kudankulam (Tirunelveli district, Tamil Nadu) uses Russian-designed VVER-1000 pressurised light-water reactors, built by NPCIL with Rosatom. It is the flagship of India-Russia civil nuclear cooperation.",
+    "subject": "International Relations",
+    "theme": "International Relations - Russia and the Eurasian connectivity arc",
+    "micro_topic": "Kudankulam - Russian nuclear cooperation",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_27_42",
+    "question_number": 42,
+    "question": "Which of the following Central Asian republics share a land border with Afghanistan?\n1. Kazakhstan\n2. Kyrgyzstan\n3. Tajikistan\n4. Turkmenistan\n5. Uzbekistan\nSelect the correct answer using the code given below.",
+    "options": [
+      {
+        "key": "a",
+        "text": "1, 3 and 5 only"
+      },
+      {
+        "key": "b",
+        "text": "2, 3 and 4 only"
+      },
+      {
+        "key": "c",
+        "text": "3 and 5 only"
+      },
+      {
+        "key": "d",
+        "text": "3, 4 and 5 only"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Tajikistan (the longest border, along the Amu Darya/Panj), Uzbekistan (the shortest, at Termez) and Turkmenistan border Afghanistan. Kazakhstan and Kyrgyzstan do not. The Ayni airbase, long associated with Indian assistance, is in Tajikistan.",
+    "subject": "International Relations",
+    "theme": "International Relations - Russia and the Eurasian connectivity arc",
+    "micro_topic": "Central Asia - states bordering Afghanistan",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_27_43",
+    "question_number": 43,
+    "question": "Consider the following statements about the Shanghai Cooperation Organisation (SCO):\n1. India and Pakistan became full members in 2017.\n2. Its Regional Anti-Terrorist Structure (RATS) is headquartered in Tashkent.\n3. Its Secretariat is located in Moscow.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "India and Pakistan joined at the Astana summit (June 2017). SCO has two permanent bodies: the Secretariat in Beijing and RATS in Tashkent. Statement 3 is wrong.",
+    "subject": "International Relations",
+    "theme": "International Relations - Russia and the Eurasian connectivity arc",
+    "micro_topic": "Shanghai Cooperation Organisation - structure",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_27_44",
+    "question_number": 44,
+    "question": "Consider the following statements:\n1. Hill Area Development Programmes were initiated during the Fifth Five Year Plan.\n2. The National Committee on the Development of Backward Areas (1981) recommended that hill areas above 600 m not covered under the tribal sub-plan be treated as backward hill areas.\n3. The Drought Prone Area Programme was initiated during the Fourth Five Year Plan.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All three are straight from NCERT-12 Ch 9. The Hill Area programmes (Fifth Plan) initially covered 15 districts - the hill districts of present Uttarakhand, Mikir Hills and North Cachar (Assam), Darjeeling and the Nilgiris. The DPAP (Fourth Plan) was meant to provide employment and create productive assets in drought-prone areas; the Desert Development Programme is its companion.",
+    "subject": "Geography",
+    "theme": "Geography - Planning & Sustainable Development; Transport & Communication (NCERT-12 India: People and Economy Ch 9-10)",
+    "micro_topic": "Target-area and hill-area programmes (NCERT-12 Ch 9)",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_27_45",
+    "question_number": 45,
+    "question": "Consider the following statements about the Bharmaur tribal region:\n1. It lies in Chamba district of Himachal Pradesh.\n2. It is inhabited by the Gaddi tribe, who practise transhumance.\n3. It is drained by the Beas and its tributaries.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Bharmaur (Bharmaur and Holi tehsils, Chamba) has been a notified tribal area since 1975 and was developed under the Integrated Tribal Development Project from the Fifth Plan. It is drained by the Ravi and its tributaries, the Budhil and the Tundahen - not the Beas.",
+    "subject": "Geography",
+    "theme": "Geography - Planning & Sustainable Development; Transport & Communication (NCERT-12 India: People and Economy Ch 9-10)",
+    "micro_topic": "Bharmaur tribal region - case study",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_27_46",
+    "question_number": 46,
+    "question": "Consider the following statements about the Indira Gandhi Canal:\n1. It originates at the Harike barrage in Punjab.\n2. It runs broadly parallel to the India-Pakistan border in the Thar Desert.\n3. Waterlogging and soil salinity are among the major concerns in its command area.\n4. Its Stage-I command area lies mainly in Jaisalmer and Barmer districts.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "1, 2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2, 3 and 4 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Harike barrage (Satluj-Beas confluence) is the source; the canal runs roughly 40 km inside the border. Stage-I covers Ganganagar, Hanumangarh and northern Bikaner; Stage-II covers Bikaner, Jaisalmer, Barmer, Jodhpur, Nagaur and Churu. Intensive irrigation has brought waterlogging and salinity, the core sustainability critique in NCERT.",
+    "subject": "Geography",
+    "theme": "Geography - Planning & Sustainable Development; Transport & Communication (NCERT-12 India: People and Economy Ch 9-10)",
+    "micro_topic": "Indira Gandhi Canal - command area",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_27_47",
+    "question_number": 47,
+    "question": "The East-West Corridor of the National Highways Development Project connects:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Silchar and Porbandar"
+      },
+      {
+        "key": "b",
+        "text": "Guwahati and Surat"
+      },
+      {
+        "key": "c",
+        "text": "Kolkata and Mumbai"
+      },
+      {
+        "key": "d",
+        "text": "Silchar and Kandla"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The North-South Corridor links Srinagar and Kanyakumari; the East-West Corridor links Silchar (Assam) and Porbandar (Gujarat); the two intersect at Jhansi. The Golden Quadrilateral links Delhi-Mumbai-Chennai-Kolkata.",
+    "subject": "Geography",
+    "theme": "Geography - Planning & Sustainable Development; Transport & Communication (NCERT-12 India: People and Economy Ch 9-10)",
+    "micro_topic": "North-South and East-West corridors",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_27_48",
+    "question_number": 48,
+    "question": "Consider the following pairs:\n1. National Waterway 1 - Ganga-Bhagirathi-Hooghly, Haldia to Prayagraj\n2. National Waterway 2 - Brahmaputra, Sadiya to Dhubri\n3. National Waterway 3 - West Coast Canal, Kottapuram to Kollam\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "None"
+      },
+      {
+        "key": "b",
+        "text": "Only one"
+      },
+      {
+        "key": "c",
+        "text": "Only two"
+      },
+      {
+        "key": "d",
+        "text": "All three"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All three are correct. NW-1 (about 1,620 km) is the longest; NW-2 about 891 km; NW-3 about 205 km in Kerala (with the Champakara and Udyogamandal canals). The National Waterways Act, 2016 raised the total to 111.",
+    "subject": "Geography",
+    "theme": "Geography - Planning & Sustainable Development; Transport & Communication (NCERT-12 India: People and Economy Ch 9-10)",
+    "micro_topic": "National Waterways 1-3",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_27_49",
+    "question_number": 49,
+    "question": "Consider the following statements:\n1. The Hazira-Bijaipur-Jagdishpur (HBJ) pipeline carries natural gas.\n2. The Salaya-Mathura pipeline carries natural gas from Bombay High to Mathura.\n3. India's first crude oil pipeline connected the Naharkatia oilfield to the Nunmati refinery in Assam and was later extended to Barauni.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Salaya-Mathura is a crude-oil pipeline from the Gujarat coast (Salaya, Gulf of Kutch) to the Mathura refinery, with branches to Panipat - statement 2 is wrong. HBJ (GAIL) is the country's first cross-state gas trunk line; the Naharkatia-Nunmati-Barauni line (later extended to Kanpur) is the NCERT's 'first' crude pipeline.",
+    "subject": "Geography",
+    "theme": "Geography - Planning & Sustainable Development; Transport & Communication (NCERT-12 India: People and Economy Ch 9-10)",
+    "micro_topic": "Oil and gas pipelines",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_09_27_50",
+    "question_number": 50,
+    "question": "Consider the following statements about the Konkan Railway:\n1. It was completed in 1998.\n2. It runs for about 760 km from Roha to Mangaluru.\n3. It passes through Maharashtra, Goa, Karnataka and Kerala.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "NCERT-12 Ch 10: the Konkan Railway (1998) connects Roha (Maharashtra) to Mangaluru (Karnataka), about 760 km, crossing some 146 rivers and over 2,000 bridges. It runs through three States - Maharashtra, Goa and Karnataka - not four.",
+    "subject": "Geography",
+    "theme": "Geography - Planning & Sustainable Development; Transport & Communication (NCERT-12 India: People and Economy Ch 9-10)",
+    "micro_topic": "Konkan Railway",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  }
+]

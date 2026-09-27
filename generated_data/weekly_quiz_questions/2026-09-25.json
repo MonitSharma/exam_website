@@ -1,0 +1,681 @@
+[
+  {
+    "id": "weekly_quiz_2026_09_25_1",
+    "question_number": 1,
+    "question": "The Shaksgam Valley (Trans-Karakoram Tract) returned to the news after a new Pakistan–China \"Boundary Joint Commission\" met in Islamabad. Under which instrument, and roughly how much territory, did Pakistan purport to cede this area to China?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "The Simla Agreement, 1972 — about 2,000 sq km"
+      },
+      {
+        "key": "b",
+        "text": "The Sino-Pakistan Boundary Agreement, 1963 — about 5,180 sq km"
+      },
+      {
+        "key": "c",
+        "text": "The Karachi Agreement, 1949 — about 5,180 sq km"
+      },
+      {
+        "key": "d",
+        "text": "The Lahore Declaration, 1999 — about 1,500 sq km"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Pakistan purported to cede ~5,180 sq km of the Shaksgam Valley to China under the Sino-Pakistan Boundary Agreement of 2 March 1963; India has never recognised it, and Article 6 of that pact itself makes the settlement provisional pending resolution of the Kashmir dispute.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_25_2",
+    "question_number": 2,
+    "question": "With reference to the RBI's Scale-Based Regulation (SBR) framework for NBFCs — the frame behind the Tata Sons decision this week — consider:",
+    "statements": [
+      "It classifies NBFCs into four layers — Base, Middle, Upper and Top.",
+      "An NBFC placed in the Upper Layer must mandatorily list on the stock exchanges within three years of being identified.",
+      "The Top Layer is expected to remain empty unless the RBI sees substantial systemic risk."
+    ],
+    "tail": "Which are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All three. SBR (effective 1 October 2022) has four layers — Base, Middle, Upper, Top; Upper-Layer NBFCs must list within three years of identification; the Top Layer stays empty unless the RBI perceives substantial systemic risk. (Tata Sons was classified NBFC-UL on 30 Sep 2022; its bid to surrender CIC registration was rejected on 11 Sep 2026.)",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_25_3",
+    "question_number": 3,
+    "question": "The Union Health Ministry's advisory this week on stem cell therapy stated that its therapeutic use in one specific condition is confined to duly approved clinical trials. Which condition, and what is the one currently accepted standard-of-care use of stem cells in India?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Autism Spectrum Disorder restricted to trials; haematopoietic stem cell transplantation accepted for defined blood disorders"
+      },
+      {
+        "key": "b",
+        "text": "Parkinson's disease restricted to trials; cosmetic skin therapy accepted"
+      },
+      {
+        "key": "c",
+        "text": "Type-1 diabetes restricted to trials; all mesenchymal therapies accepted"
+      },
+      {
+        "key": "d",
+        "text": "Autism Spectrum Disorder restricted to trials; no use of stem cells is accepted in India"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Use in Autism Spectrum Disorder is confined to approved clinical trials; the one accepted standard-of-care use is haematopoietic stem cell transplantation for defined blood disorders. Everything else remains investigational.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_25_4",
+    "question_number": 4,
+    "question": "A study on the Himalayan monal (*Lophophorus impejanus*) reported this week found the bird calling at higher frequencies in noisier valleys. This upward shift to escape low-frequency human noise is an example of:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "The greenhouse effect"
+      },
+      {
+        "key": "b",
+        "text": "Acoustic masking avoidance (vocal plasticity), related to the Lombard effect"
+      },
+      {
+        "key": "c",
+        "text": "Sexual dimorphism"
+      },
+      {
+        "key": "d",
+        "text": "Altitudinal migration"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The bird shifts its call upward to escape low-frequency traffic/crowd noise — acoustic masking avoidance / vocal plasticity, linked to the Lombard effect (raising vocal effort in noise). Studied in Kedarnath WLS (Chopta vs Madmaheshwar valleys).",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_25_5",
+    "question_number": 5,
+    "question": "The \"Lindsey O. Graham Sanctioning Russia and Iran Act of 2026\", in the news, is best described as a law that:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Automatically imposes 100% tariffs on India and China"
+      },
+      {
+        "key": "b",
+        "text": "Authorises the US President to impose tariffs of up to 100% on the largest buyers of Russian oil/gas, while retaining a presidential waiver"
+      },
+      {
+        "key": "c",
+        "text": "Bans all US trade with India"
+      },
+      {
+        "key": "d",
+        "text": "Imposes fresh UN Security Council sanctions on Russia"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The Graham Act (signed 18 Sep 2026) authorises — it does not automatically impose — tariffs of up to 100% on the five largest buyers of Russian oil/gas, and preserves a presidential waiver. It sits on top of the pre-existing 50% US tariff on India.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_25_6",
+    "question_number": 6,
+    "question": "The US Fed's September 2026 rate hike put India's own rate-setting body back in focus. Which statement about the Monetary Policy Committee (MPC) is correct?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "It has six members — three from the RBI and three nominated by the Central Government — with the Governor holding a casting vote"
+      },
+      {
+        "key": "b",
+        "text": "It was created by the RBI Act, 1934, as originally enacted in 1934"
+      },
+      {
+        "key": "c",
+        "text": "Its target is 2% CPI inflation with a band of ±2%"
+      },
+      {
+        "key": "d",
+        "text": "It is statutorily required to meet at least twelve times a year"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The MPC has six members (3 RBI + 3 Centre-nominated), with the Governor holding the casting vote. It was created by the Finance Act, 2016 (amending the RBI Act, 1934), targets 4% CPI ±2%, and meets at least four times a year — so (b), (c) and (d) are wrong.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_25_7",
+    "question_number": 7,
+    "question": "With reference to India's candidature ahead of the 81st UN General Assembly, consider:",
+    "statements": [
+      "A UNSC non-permanent member is elected for a two-year term by two-thirds of the members present and voting in the UNGA.",
+      "India is contesting the single Asia-Pacific Group non-permanent seat (2028–29) against Tajikistan.",
+      "Adding new permanent members to the Security Council requires an amendment of the UN Charter."
+    ],
+    "tail": "Which are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All three. Non-permanent members serve two-year terms, elected by two-thirds present and voting; India faces Tajikistan for the single Asia-Pacific seat (2028–29); and adding permanent members needs a Charter amendment (Articles 108–109). These are India's two distinct tracks — reform vs election.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_25_8",
+    "question_number": 8,
+    "question": "The GOBARdhan scheme, whose operational guidelines were rolled out this week, is chiefly designed to:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Provide free LPG connections to rural households"
+      },
+      {
+        "key": "b",
+        "text": "Assure offtake of up to 100% of output and a decade-long administered price for Compressed Biogas (CBG) producers"
+      },
+      {
+        "key": "c",
+        "text": "Distribute solar irrigation pumps to farmers"
+      },
+      {
+        "key": "d",
+        "text": "Impose penalties on farmers for stubble burning"
+      }
+    ],
+    "answer": "b",
+    "explanation": "GOBARdhan (Rs 23,731 crore; MoP&NG) assures up to 100% offtake and a decade-long administered price (Rs 2,110/MMBTU to 31 March 2036) for Compressed Biogas producers, with a purchase obligation on City Gas Distribution entities.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_25_9",
+    "question_number": 9,
+    "question": "'KAL', tested at Pokhran this week, is India's first indigenous long-range one-way attack (OWA) drone / loitering munition. What most sharply distinguishes such a system from an armed UAV of the Predator/MQ-9 class?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "It returns to base after releasing its munition"
+      },
+      {
+        "key": "b",
+        "text": "The airframe itself is the weapon and is expended in the strike"
+      },
+      {
+        "key": "c",
+        "text": "It always carries a nuclear warhead"
+      },
+      {
+        "key": "d",
+        "text": "It cannot be launched from a ground vehicle"
+      }
+    ],
+    "answer": "b",
+    "explanation": "A one-way attack drone / loitering munition is expendable — the airframe is the weapon — unlike a reusable armed UAV that releases a munition and returns, or a cruise missile that flies a fast pre-planned profile without loitering. KAL: 1,000 km range, 50 kg payload, built by the private firm IG Defence.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_25_10",
+    "question_number": 10,
+    "question": "On the FADA data showing alternative-fuel vehicles outselling petrol cars for the first time (August 2026), consider:",
+    "statements": [
+      "Within the alternative-fuel set, CNG/LPG was the largest component, not EVs.",
+      "FADA reports retail registrations (off the VAHAN portal), distinct from SIAM's wholesale despatch numbers."
+    ],
+    "tail": "Which are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Both. Within the alternative-fuel set, CNG/LPG (25.28%) dwarfed EVs (7.63%) and hybrids (9.04%) — a *gas* transition with an electric tail. FADA reports retail registrations (VAHAN), distinct from SIAM's wholesale despatches.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_25_11",
+    "question_number": 11,
+    "question": "The India–Japan air exercise 'Veer Guardian 2026' concluded this week. Which statement is correct?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "It was the maiden edition of the series and was held in Japan"
+      },
+      {
+        "key": "b",
+        "text": "It was the second edition and the first held in India, at AFS Jodhpur, with Japanese F-2 fighters flying from Indian soil for the first time"
+      },
+      {
+        "key": "c",
+        "text": "It is a naval exercise conducted jointly with the United States and Australia"
+      },
+      {
+        "key": "d",
+        "text": "It was a purely ceremonial flypast with no combat drills"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Veer Guardian 2026 was the second edition and the first held in India (AFS Jodhpur) — Japanese F-2 fighters flew from Indian soil for the first time. (The maiden 2023 edition was at Hyakuri, Japan.) It is an air exercise, not naval.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_25_12",
+    "question_number": 12,
+    "question": "The Planetary Health Check 2026 reported that seven of the nine planetary boundaries have now been transgressed. Which two remain within the \"safe operating space\"?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Climate change and ocean acidification"
+      },
+      {
+        "key": "b",
+        "text": "Stratospheric ozone depletion and atmospheric aerosol loading"
+      },
+      {
+        "key": "c",
+        "text": "Freshwater change and land-system change"
+      },
+      {
+        "key": "d",
+        "text": "Biosphere integrity and novel entities"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Only stratospheric ozone depletion and atmospheric aerosol loading remain within the safe operating space; ocean acidification was the most recent boundary declared breached (2025). The 2026 edition newly names the food system as the dominant driver across all nine. Part B — Science & Technology",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_25_13",
+    "question_number": 13,
+    "question": "With reference to Chandrayaan-3, consider:",
+    "statements": [
+      "Its lander was named Vikram and its rover Pragyan.",
+      "The landing site has been named Statio Shiv Shakti.",
+      "India became the first country to soft-land a craft near the lunar south pole."
+    ],
+    "tail": "Which are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All three. Vikram (lander) and Pragyan (rover) soft-landed on 23 August 2023; the site is Statio Shiv Shakti; India was the first country to land near the lunar south pole (and 4th overall to soft-land on the Moon).",
+    "subject": "Science & Technology",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_25_14",
+    "question_number": 14,
+    "question": "In India's three-stage nuclear power programme (conceived by Homi Bhabha), which statement is correct?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Stage 1 uses fast breeder reactors fuelled by thorium"
+      },
+      {
+        "key": "b",
+        "text": "Stage 1 uses Pressurised Heavy Water Reactors (PHWRs) running on natural uranium, producing plutonium-239 as a by-product"
+      },
+      {
+        "key": "c",
+        "text": "Stage 3 runs on natural uranium in boiling-water reactors"
+      },
+      {
+        "key": "d",
+        "text": "The programme aims to avoid using India's thorium reserves"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Stage 1 = PHWRs on natural uranium, breeding plutonium-239. Stage 2 = Fast Breeder Reactors (Pu-239 + U-238, with a thorium blanket breeding U-233); Stage 3 = thorium–U-233 reactors — the whole point being to exploit India's large thorium reserves.",
+    "subject": "Science & Technology",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_25_15",
+    "question_number": 15,
+    "question": "With reference to NavIC (IRNSS), consider:",
+    "statements": [
+      "It is a regional navigation system covering India and roughly 1,500 km around it.",
+      "Its constellation uses a mix of geostationary and inclined geosynchronous orbit satellites.",
+      "It offers two services — a Standard Positioning Service and a Restricted Service."
+    ],
+    "tail": "Which are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All three. NavIC is a regional system (India + ~1,500 km), uses geostationary + inclined geosynchronous satellites, and provides a Standard Positioning Service and a Restricted Service.",
+    "subject": "Science & Technology",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_25_16",
+    "question_number": 16,
+    "question": "Which of the following pairings about stem cells is correctly matched?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Totipotent cells — can form only red blood cells"
+      },
+      {
+        "key": "b",
+        "text": "Induced pluripotent stem cells (iPSCs) — adult cells reprogrammed to a pluripotent state"
+      },
+      {
+        "key": "c",
+        "text": "Multipotent cells — can build an entire organism including the placenta"
+      },
+      {
+        "key": "d",
+        "text": "Autologous — cells sourced from a matched donor"
+      }
+    ],
+    "answer": "b",
+    "explanation": "iPSCs are adult somatic cells reprogrammed to a pluripotent state. Totipotent cells can form a whole organism *plus* extra-embryonic tissue (placenta); multipotent cells are limited to related lineages; autologous = from the patient (allogeneic = from a donor).",
+    "subject": "Science & Technology",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_25_17",
+    "question_number": 17,
+    "question": "Regarding missile and drone taxonomy, which statement is correct?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "A ballistic missile is powered and guided throughout its entire flight"
+      },
+      {
+        "key": "b",
+        "text": "A cruise missile sustains powered, guided flight within the atmosphere, using aerodynamic lift, typically at low altitude"
+      },
+      {
+        "key": "c",
+        "text": "A loitering munition is a reusable platform that returns to base after a strike"
+      },
+      {
+        "key": "d",
+        "text": "Ballistic missiles are incapable of carrying conventional warheads"
+      }
+    ],
+    "answer": "b",
+    "explanation": "A cruise missile sustains powered, guided, low-altitude flight using aerodynamic lift. A ballistic missile is powered only in its boost phase then follows a ballistic (gravity-driven) trajectory; a loitering munition is expendable, not reusable; and ballistic missiles can carry conventional warheads.",
+    "subject": "Science & Technology",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_25_18",
+    "question_number": 18,
+    "question": "CRISPR-Cas9, a landmark biotechnology tool, is best described as:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "An mRNA vaccine platform"
+      },
+      {
+        "key": "b",
+        "text": "A genome-editing system in which a guide RNA directs the Cas9 nuclease to cut a target DNA sequence"
+      },
+      {
+        "key": "c",
+        "text": "A somatic-cell nuclear-transfer method used only for cloning"
+      },
+      {
+        "key": "d",
+        "text": "A purely diagnostic PCR technique"
+      }
+    ],
+    "answer": "b",
+    "explanation": "CRISPR-Cas9 is a genome-editing tool: a guide RNA directs the Cas9 nuclease to a specific DNA sequence, where it makes a cut for editing (2020 Nobel Prize in Chemistry, Doudna & Charpentier).",
+    "subject": "Science & Technology",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_25_19",
+    "question_number": 19,
+    "question": "The \"Kessler syndrome\", relevant to space situational awareness and Project NETRA, refers to:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "The burning up of satellites during atmospheric re-entry"
+      },
+      {
+        "key": "b",
+        "text": "A self-sustaining cascade of collisions in a debris-crowded orbit that generates ever more debris"
+      },
+      {
+        "key": "c",
+        "text": "The gravitational slingshot used to accelerate interplanetary probes"
+      },
+      {
+        "key": "d",
+        "text": "Degradation of solar panels by solar radiation pressure"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The Kessler syndrome is a runaway cascade of orbital collisions in a debris-saturated orbit, each collision generating more fragments — the core rationale for space situational awareness programmes like NETRA.",
+    "subject": "Science & Technology",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_09_25_20",
+    "question_number": 20,
+    "question": "Which statement about a geostationary orbit is correct?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "It lies at about 2,000 km altitude within low-Earth orbit"
+      },
+      {
+        "key": "b",
+        "text": "A satellite in it appears fixed over a point on the equator, orbiting at ~35,786 km with a period of about 24 hours"
+      },
+      {
+        "key": "c",
+        "text": "It passes over both poles on every revolution"
+      },
+      {
+        "key": "d",
+        "text": "It is the orbit used by the International Space Station"
+      }
+    ],
+    "answer": "b",
+    "explanation": "A geostationary satellite sits over the equator at ~35,786 km with a ~24-hour period, appearing fixed. Polar/sun-synchronous orbits pass over the poles (remote sensing); the ISS is in low-Earth orbit (~400 km).",
+    "subject": "Science & Technology",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  }
+]
