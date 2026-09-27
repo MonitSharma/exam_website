@@ -1467,9 +1467,9 @@
         "text": "1, 2, 3, 4 and 5"
       }
     ],
-    "answer_option": "d",
+    "answer_option": "b",
     "accepted_answer_options": [
-      "d"
+      "b"
     ],
     "explanation": "",
     "subject": "Science & Technology",
@@ -1478,8 +1478,8 @@
     "nature": "Current Affairs / Conceptual",
     "difficulty": "Moderate",
     "source": "User-provided UPSC PYQ JSON",
-    "answer_source": "Extracted from generated_data/answer_keys/2020_answer_key_setA.png",
-    "verification_status": "verified_image"
+    "answer_source": "Official UPSC 2020 Prelims Answer Key",
+    "verification_status": "verified_manual"
   },
   {
     "id": "upsc_2020_q039",
