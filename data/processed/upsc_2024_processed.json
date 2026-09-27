@@ -1621,9 +1621,9 @@
         "text": "2 and 3 only"
       }
     ],
-    "answer_option": "c",
+    "answer_option": "d",
     "accepted_answer_options": [
-      "c"
+      "d"
     ],
     "explanation": "",
     "subject": "Economy",
@@ -1632,8 +1632,8 @@
     "nature": "Conceptual",
     "difficulty": "Moderate",
     "source": "User-provided UPSC PYQ JSON",
-    "answer_source": "Extracted from generated_data/answer_keys/2024_answer_key_setA.png",
-    "verification_status": "verified_image"
+    "answer_source": "Official UPSC 2024 Prelims Answer Key",
+    "verification_status": "verified_manual"
   },
   {
     "id": "upsc_2024_q043",
