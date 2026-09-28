@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to the \"enemy state\" clauses of the UN Charter, consider the following statements:\n1. They are contained in Articles 53, 77 and 107 of the Charter.\n2. Amending the Charter requires a two-thirds vote in the General Assembly and ratification by two-thirds of the members including all the permanent members of the Security Council.\n3. They were formally deleted from the Charter through the 2005 World Summit Outcome.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "1 and 2 are correct. The 2005 World Summit Outcome only expressed the intent to delete the clauses; no formal amendment has been made, so 3 is wrong.",
+    "subject": "International Relations",
+    "theme": "UN and UNSC reform",
+    "micro_topic": "Enemy state clauses, Art. 108",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Technology Development Board (TDB)'s agreement with Agnikul Cosmos in September 2026, consider the following statements:\n1. The TDB is a statutory body functioning under the Department of Science and Technology.\n2. The support is structured through Optionally Convertible Debentures under the RDI fund.\n3. It aims to raise the technology readiness level from TRL-4 to TRL-8.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1, 2 and 3",
+      "(d) 1 and 3 only"
+    ],
+    "answer": "(c)",
+    "explanation": "All three are correct per the PIB release: TDB is a DST statutory body; the Rs 200 crore support is via OCDs from the RDI fund; the target is TRL-4 to TRL-8 for the reusable Agnibaan.",
+    "subject": "Science & Technology",
+    "theme": "Space technology",
+    "micro_topic": "Reusable launch vehicles, TRL",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Which one of the following statements about the \"mega ports\" notified in September 2026 is correct?",
+    "options": [
+      "(a) They were notified under the Major Port Authorities Act, 2021.",
+      "(b) The list includes Chennai and Visakhapatnam ports.",
+      "(c) They were notified by the Ministry of Ports, Shipping and Waterways under Section 73 of the Indian Ports Act, 2025.",
+      "(d) All four notified ports are administered by Port Authority boards under the Union Government."
+    ],
+    "answer": "(c)",
+    "explanation": "The notification was issued under Section 73 of the Indian Ports Act, 2025. The four ports are Deendayal, JNPA, Paradip and Mundra; Mundra is privately operated, so (d) is wrong.",
+    "subject": "Economy",
+    "theme": "Infrastructure and logistics",
+    "micro_topic": "Mega ports, Indian Ports Act 2025",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the Western Ghats ecologically sensitive area (ESA) debate, consider the following statements:\n1. The Gadgil Committee proposed treating the entire Western Ghats as ecologically sensitive, graded into three zones.\n2. The Kasturirangan Committee recommended about 37% of the Western Ghats be demarcated as ESA.\n3. Draft ESA notifications for the Western Ghats are issued under the Wild Life (Protection) Act, 1972.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "1 and 2 are correct. ESA drafts are issued under the Environment (Protection) Act, 1986, not the Wild Life (Protection) Act, 1972.",
+    "subject": "Environment",
+    "theme": "Conservation in India",
+    "micro_topic": "Western Ghats ESA, Gadgil vs Kasturirangan",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the preparation of electoral rolls in India, consider the following statements:\n1. The superintendence, direction and control of the preparation of electoral rolls is vested in the Election Commission under Article 324.\n2. Form 6 is the form used to apply for inclusion of a name in the electoral roll.\n3. Other Election Commissioners can be removed from office only in the same manner and on the same grounds as a Judge of the Supreme Court.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 3 only",
+      "(c) 1 and 2 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "1 and 2 are correct. Only the CEC has the Supreme-Court-judge removal protection; other ECs are removed on the CEC's recommendation (Art. 324(5)).",
+    "subject": "Polity & Governance",
+    "theme": "Elections",
+    "micro_topic": "Electoral rolls, Art. 324, Form 6, SIR",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements regarding ports in India:\n1. The Major Port Authorities Act, 2021 replaced the Major Port Trusts Act, 1963.\n2. Ports declared \"major\" by law fall under Entry 27 of the Union List.\n3. All ports in India, including non-major ports, are under the exclusive control of the Union Government.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "1 and 2 are correct. Non-major (minor/intermediate) ports are administered mainly by States through maritime boards, so 3 is wrong.",
+    "subject": "Economy",
+    "theme": "Infrastructure",
+    "micro_topic": "Ports legislation, Union List Entry 27",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements regarding the \"Western Ghats\" World Heritage Site:\n1. UNESCO inscribed the Western Ghats as a natural World Heritage property in 2012.\n2. It is a serial property of 39 component sites across Kerala, Karnataka, Tamil Nadu and Maharashtra.\n3. Gujarat's Dang forests form a component of the property.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "1 and 2 are correct: inscribed in 2012 as a serial property of 39 sites in four states. Gujarat is not part of it.",
+    "subject": "Environment",
+    "theme": "Biodiversity and heritage",
+    "micro_topic": "UNESCO Western Ghats WHS",
+    "nature": "Factual",
+    "difficulty": "Hard"
+  }
+]

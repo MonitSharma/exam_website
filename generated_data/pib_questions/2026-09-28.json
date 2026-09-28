@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the 'PRAHAAR' counter-terrorism policy framework discussed at the conference chaired by the Union Home Minister, consider the following statements: 1. It is structured around seven pillars, including Prevention, Response and Recovery & Resilience. 2. Human Rights is one of its stated pillars. 3. It is a legally binding statute enacted by Parliament that overrides State police laws. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "PRAHAAR is a policy/strategy framework with seven pillars (Prevention, Response, Aggregating internal capacities, Human rights, Attenuating conditions for terrorism, Aligning international efforts, Recovery & resilience); it is not a statute and police remains a State subject.",
+    "subject": "Internal Security",
+    "theme": "Counter-Terrorism Policy",
+    "micro_topic": "PRAHAAR CT policy and strategy",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Livestock Insurance Portal recently launched in New Delhi is associated with which of the following? 1. Department of Animal Husbandry & Dairying. 2. A web-based workflow under the National Livestock Mission. 3. Service availability in 11 regional languages in addition to Hindi and English. Select the correct answer using the code below:",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "The portal is run by DAHD as a web-based workflow under the National Livestock Mission and supports 11 regional languages plus Hindi and English.",
+    "subject": "Agriculture",
+    "theme": "Allied Sectors and Farm Risk Management",
+    "micro_topic": "Livestock Insurance Portal / National Livestock Mission",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the pygmy hog, recently highlighted in Mann Ki Baat, consider the following statements: 1. It is the smallest wild pig species in the world. 2. It is categorised as Critically Endangered on the IUCN Red List. 3. Its natural habitat is mangrove forests of the Sundarbans. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "The pygmy hog is the world's smallest wild pig and is Critically Endangered; it inhabits tall wet grasslands in the Himalayan foothills of Assam, not Sundarbans mangroves.",
+    "subject": "Environment",
+    "theme": "Species Conservation",
+    "micro_topic": "Pygmy hog conservation, Assam",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]
