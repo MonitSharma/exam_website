@@ -12,6 +12,48 @@
   ],
   "questionSets": [
     {
+      "id": "daily_questions_2026_09_28",
+      "label": "Daily Questions - 28 Sept 2026",
+      "shortLabel": "Daily 28 Sept",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-09-28.json",
+      "sourcePath": "daily/daily_questions/daily_questions_2026-09-28.json",
+      "isoDate": "2026-09-28",
+      "subjects": [
+        "International Relations",
+        "Science & Technology",
+        "Economy",
+        "Environment",
+        "Polity & Governance"
+      ],
+      "bundleId": "daily_questions_2026_09_28",
+      "relatedNoteIds": [
+        "daily-daily-current-affairs-upsc-ca-2026-09-28"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "international-relations",
+        "science-technology",
+        "economy",
+        "environment",
+        "polity"
+      ],
+      "topicIds": [
+        "international-relations/enemy-state-clauses-art-108",
+        "science-technology/reusable-launch-vehicles-trl",
+        "economy/mega-ports-indian-ports-act-2025",
+        "environment/western-ghats-esa-gadgil-vs-kasturirangan",
+        "polity/electoral-rolls-art-324-form-6-sir",
+        "economy/ports-legislation-union-list-entry-27",
+        "environment/unesco-western-ghats-whs"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
       "id": "daily_questions_2026_09_27",
       "label": "Daily Questions - 27 Sept 2026",
       "shortLabel": "Daily 27 Sept",
@@ -5427,6 +5469,40 @@
       ],
       "topicIds": [
         "reading-comprehension/reading-comprehension"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
+      "id": "pib_questions_2026_09_28",
+      "label": "PIB Questions - 28 Sept 2026",
+      "shortLabel": "PIB 28 Sept",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-09-28.json",
+      "sourcePath": "generated_data/pib_questions/2026-09-28.json",
+      "isoDate": "2026-09-28",
+      "subjects": [
+        "Internal Security",
+        "Agriculture",
+        "Environment"
+      ],
+      "bundleId": "pib_questions_2026_09_28",
+      "relatedNoteIds": [
+        "daily-daily-pib-pib-2026-09-28"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "internal-security",
+        "agriculture",
+        "environment"
+      ],
+      "topicIds": [
+        "internal-security/prahaar-ct-policy-and-strategy",
+        "agriculture/livestock-insurance-portal-national-livestock-mission",
+        "environment/pygmy-hog-conservation-assam"
       ],
       "format": "drill",
       "provenance": "generated"
@@ -15799,6 +15875,35 @@
       "topicIds": []
     },
     {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-09-28",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "28 Sept 2026",
+      "date": "2026-09-28",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-09-28.md",
+      "bundleId": "daily-daily-current-affairs-upsc-ca-2026-09-28",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "daily_questions_2026_09_28"
+      ],
+      "subjectIds": [
+        "international-relations",
+        "science-technology",
+        "economy",
+        "environment",
+        "polity"
+      ],
+      "topicIds": [
+        "international-relations/enemy-state-clauses-art-108",
+        "science-technology/reusable-launch-vehicles-trl",
+        "economy/mega-ports-indian-ports-act-2025",
+        "environment/western-ghats-esa-gadgil-vs-kasturirangan",
+        "polity/electoral-rolls-art-324-form-6-sir",
+        "economy/ports-legislation-union-list-entry-27",
+        "environment/unesco-western-ghats-whs"
+      ]
+    },
+    {
       "id": "daily-daily-current-affairs-upsc-ca-2026-09-27",
       "cadence": "daily",
       "title": "UPSC Daily CA Briefing",
@@ -20259,6 +20364,29 @@
       "relatedSetIds": [],
       "subjectIds": [],
       "topicIds": []
+    },
+    {
+      "id": "daily-daily-pib-pib-2026-09-28",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 28 Sept",
+      "date": "2026-09-28",
+      "path": "daily/daily_pib/PIB_2026-09-28.md",
+      "bundleId": "daily-daily-pib-pib-2026-09-28",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "pib_questions_2026_09_28"
+      ],
+      "subjectIds": [
+        "internal-security",
+        "agriculture",
+        "environment"
+      ],
+      "topicIds": [
+        "internal-security/prahaar-ct-policy-and-strategy",
+        "agriculture/livestock-insurance-portal-national-livestock-mission",
+        "environment/pygmy-hog-conservation-assam"
+      ]
     },
     {
       "id": "daily-daily-pib-pib-2026-09-27",
