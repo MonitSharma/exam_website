@@ -1,0 +1,50 @@
+[
+  {
+    "question": "Pradhan Mantri Anusuchit Jaati Abhyuday Yojana (PM-AJAY) was formed by merging which of the following schemes? 1. Pradhan Mantri Adarsh Gram Yojana 2. Special Central Assistance to Scheduled Castes Sub-Plan 3. Babu Jagjivan Ram Chhatrawas Yojana 4. Post-Matric Scholarship for Scheduled Castes. Select the correct answer using the code below:",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1, 2 and 3 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "answer": "(b)",
+    "explanation": "PM-AJAY (launched 2021-22) merged PMAGY, SCA to SCSP and BJRCY; the Post-Matric Scholarship for SCs is a separate scheme.",
+    "subject": "Polity & Governance",
+    "theme": "Welfare Schemes for Vulnerable Sections",
+    "micro_topic": "PM-AJAY merged schemes",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the e-methanol plant recently started at Deendayal Port, Kandla, consider the following statements: 1. It will produce methanol from renewable electricity, water and biogenic carbon dioxide. 2. It is being developed entirely by a foreign private shipping company under a concession. 3. One use of the fuel is bunkering of ships as part of maritime decarbonisation. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "The plant uses renewable power, water and biogenic CO2 to supply green marine fuel for bunkering; it is a public-sector venture of Deendayal Port Authority (76%) and Assam Petro-Chemicals Ltd (24%).",
+    "subject": "Economy",
+    "theme": "Infrastructure - Ports and Green Fuels",
+    "micro_topic": "Kandla port-based e-methanol plant",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "'Tarang Shakti', recently in the news, is:",
+    "options": [
+      "(a) a bilateral naval exercise between India and France",
+      "(b) a multinational air exercise hosted by the Indian Air Force",
+      "(c) an indigenous hypersonic missile test programme of DRDO",
+      "(d) a joint Army-Air Force disaster-relief drill with Bangladesh"
+    ],
+    "answer": "(b)",
+    "explanation": "Tarang Shakti is the IAF-hosted multinational air exercise; its second edition (2026) is being held at Jodhpur from 26 September to 12 October.",
+    "subject": "Internal Security",
+    "theme": "Defence Exercises",
+    "micro_topic": "Exercise Tarang Shakti 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]

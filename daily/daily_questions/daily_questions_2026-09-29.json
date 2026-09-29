@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to the Travel & Tourism Development Index (TTDI) 2026, consider the following statements:\n1. India has been ranked 31st among 110 economies.\n2. Economies are scored on a scale of 1 to 7 across 17 pillars.\n3. Economies are ranked mainly by international tourist arrivals and tourism receipts.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "India is 31st of 110, and the index scores on a 1-7 scale across 17 pillars (5 dimensions, 102 indicators). It measures the conditions that enable tourism development, not arrivals or receipts, so statement 3 is wrong.",
+    "subject": "Reports & Indices",
+    "theme": "Global indices on India",
+    "micro_topic": "WEF TTDI 2026: India 31st of 110, Japan 1st, 17 pillars, 1-7 scale",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Supreme Court Collegium's recommendations of September 2026, consider the following statements:\n1. All three judges recommended are currently Chief Justices of High Courts.\n2. The sanctioned strength of the Supreme Court, including the Chief Justice of India, is now 38 following an amendment to the Supreme Court (Number of Judges) Act, 1956.\n3. Once the three are appointed, the Supreme Court will be at its full sanctioned strength.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 only",
+      "(c) 1 and 2 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "All three are HC Chief Justices (Gujarat, Delhi, Telangana), and the 2026 Amendment Act raised the strength to 38. After their appointment the Court would have 37, with one vacancy left, so statement 3 is wrong.",
+    "subject": "Polity & Governance",
+    "theme": "Judiciary",
+    "micro_topic": "Collegium recommendation 28 Sept 2026; SC strength 38 (2026 Amendment Act)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "'Mandar', which recently received a Geographical Indication tag, is:",
+    "options": [
+      "(a) a terracotta votive horse from Bankura, West Bengal",
+      "(b) a bamboo mouth-organ of the Mishing community of Assam",
+      "(c) a bowed string instrument of Manipur",
+      "(d) a clay-bodied, double-headed drum of Jharkhand"
+    ],
+    "answer": "(d)",
+    "explanation": "Mandar is a red-clay, double-headed drum from Jarjatta, Raidih block, Gumla (Jharkhand), played at Sarhul and Karma.",
+    "subject": "Art & Culture",
+    "theme": "GI tags and folk instruments",
+    "micro_topic": "Mandar drum of Gumla, Jharkhand (GI 2026)",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the livestock insurance portal launched in September 2026, consider the following statements:\n1. It is a workflow platform of the Department of Animal Husbandry & Dairying under the National Livestock Mission.\n2. The beneficiary pays 15% of the premium, and the Centre and the States share the rest.\n3. The subsidised cover is available only for indigenous cattle and buffaloes.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Cover extends to crossbred cattle, buffalo, sheep, goats, pigs, rabbits, yaks, mithuns, horses, donkeys and camels, not only indigenous cattle and buffaloes. The farmer pays 15%, and the Centre and States share 85% at 60:40 (90:10 for Himalayan/NE States).",
+    "subject": "Agriculture",
+    "theme": "Animal husbandry and agri-insurance",
+    "micro_topic": "Livestock insurance portal under NLM; 15% farmer premium; 10 cattle units cap",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements about the e-methanol plant for which a foundation stone was laid at Kandla in September 2026:\n1. The e-methanol will be made from green hydrogen and biogenic carbon dioxide.\n2. Assam Petro-Chemicals Ltd holds the majority stake in the project.\n3. Burning e-methanol as a marine fuel releases no carbon dioxide.\nHow many of the above statements are correct?",
+    "options": [
+      "(a) None",
+      "(b) Only one",
+      "(c) Only two",
+      "(d) All three"
+    ],
+    "answer": "(b)",
+    "explanation": "Only statement 1 is correct. Deendayal Port Authority holds 76% and APL 24%. Burning e-methanol still emits CO2; it is called carbon-neutral only because that CO2 was taken from a biogenic source.",
+    "subject": "Science & Technology",
+    "theme": "Energy and green fuels",
+    "micro_topic": "Kandla e-methanol plant: 150 TPD, DPA 76:APL 24, green H2 + biogenic CO2",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "With reference to the Supreme Court of India, consider the following statements:\n1. Parliament may by law change the number of judges of the Supreme Court.\n2. A distinguished jurist, in the opinion of the President, is eligible for appointment as a judge of the Supreme Court.\n3. The Constitution prescribes a minimum age for appointment as a judge of the Supreme Court.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Art. 124(1) lets Parliament fix the number by law, and Art. 124(3) includes the distinguished-jurist route. The Constitution sets no minimum age, only the retirement age of 65.",
+    "subject": "Polity & Governance",
+    "theme": "Judiciary",
+    "micro_topic": "Article 124: composition and qualifications of SC judges",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to methods of producing hydrogen, consider the following statements:\n1. In the electrolysis of water, hydrogen gas is released at the cathode.\n2. Hydrogen from steam methane reforming without carbon capture is called \"grey\" hydrogen.\n3. \"Blue\" hydrogen is hydrogen produced by electrolysis powered by nuclear electricity.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 3 only",
+      "(c) 1 and 2 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "H2 is released at the cathode (reduction), and SMR without CCS gives grey hydrogen. Blue = SMR with carbon capture; nuclear-powered electrolysis is usually called pink hydrogen.",
+    "subject": "Science & Technology",
+    "theme": "Energy and green fuels",
+    "micro_topic": "Hydrogen colours and electrolysis",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  }
+]
