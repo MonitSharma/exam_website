@@ -1,0 +1,35 @@
+[
+  {
+    "question": "With reference to PRAMAAN, recently in the news, consider the following statements: 1. It is the label of the Indian Forest and Wood Certification Scheme, and the Indian Institute of Forest Management, Bhopal is its scheme operator. 2. It certifies only natural forests managed by State Forest Departments; trees outside forests and agroforestry are excluded. 3. Certification audits are done by independent bodies accredited by the National Accreditation Board for Certification Bodies (NABCB). Which of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 1 and 3 only", "(c) 2 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(b)",
+    "explanation": "PRAMAAN (IFWCS, launched Dec 2023, operated by IIFM Bhopal) has Forest Management, Trees Outside Forests and Chain of Custody streams, with audits by NABCB-accredited bodies; one of the first certificates went to an Odisha bamboo farmer, so statement 2 is wrong.",
+    "subject": "Environment",
+    "theme": "Forest Conservation & Certification",
+    "micro_topic": "PRAMAAN / Indian Forest and Wood Certification Scheme",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Ministry of Labour & Employment's 'Shram Samvad' campaign covers the four Labour Codes. Which one of the following is NOT one of the four Labour Codes?",
+    "options": ["(a) Code on Wages, 2019", "(b) Industrial Relations Code, 2020", "(c) Occupational Safety, Health and Working Conditions Code, 2020", "(d) Code on Employment Guarantee and Minimum Livelihood, 2020"],
+    "answer": "(d)",
+    "explanation": "The four Codes are the Code on Wages (2019), Industrial Relations Code (2020), Code on Social Security (2020) and OSH&WC Code (2020), consolidating 29 central labour laws; option (d) does not exist.",
+    "subject": "Polity & Governance",
+    "theme": "Labour Reforms",
+    "micro_topic": "Four Labour Codes / Shram Samvad campaign",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the Steel Industry Safety Council (SISC), recently constituted in India, which one of the following statements is correct?",
+    "options": ["(a) It is a statutory body under the Factories Act, 1948, chaired by the Union Labour Secretary.", "(b) It is chaired by the Secretary, Ministry of Steel, includes representatives of DGMS, PESO and NDMA, and is supported by a Steel Industry Safety Directorate.", "(c) It is an international body set up under the World Steel Association to certify Indian steel plants.", "(d) It replaces the Bureau of Indian Standards as the authority for notifying steel quality standards."],
+    "answer": "(b)",
+    "explanation": "The SISC was set up by the Ministry of Steel under the Steel Secretary with DGMS, PESO, NDMA and industry CEOs; the Steel Industry Safety Directorate is its technical arm for audits, incident investigation and safety standards.",
+    "subject": "Economy",
+    "theme": "Industry & Industrial Safety",
+    "micro_topic": "Steel Industry Safety Council and SISD",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to the Shanghai Cooperation Organisation (SCO) meeting held in Islamabad in September 2026, consider the following statements:\n1. Pakistan holds the SCO chairmanship for 2026-27, having taken it over from Kyrgyzstan.\n2. The Islamabad meeting was a session of the SCO Council of Foreign Ministers.\n3. The next SCO Heads of State summit is scheduled to be held in Islamabad in 2027.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Pakistan took the 2026-27 chair from Kyrgyzstan on 1 September 2026, and the summit is due in Islamabad in August 2027. The Islamabad meeting (28-30 September) was of the Council of National Coordinators, not the Council of Foreign Ministers, so statement 2 is wrong.",
+    "subject": "International Relations",
+    "theme": "Regional groupings - SCO",
+    "micro_topic": "SCO Council of National Coordinators, Islamabad 28-30 Sept 2026; Pakistan chair 2026-27; summit Aug 2027",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Green Energy Corridor Phase-III approved by the Union Cabinet in September 2026, consider the following statements:\n1. The scheme includes a dedicated component for deploying 50 GWh of battery energy storage systems.\n2. The scheme is meant mainly to strengthen the Inter-State Transmission System built by the Central Transmission Utility.\n3. Greenfield transmission projects under the scheme are to be awarded through Tariff-Based Competitive Bidding.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "GEC-III (Rs 1,86,405 crore) covers intra-state transmission (InSTS) through State Transmission Utilities, not the ISTS, so statement 2 is wrong. It includes Rs 50,000 crore for 50 GWh of BESS, and greenfield InSTS works go through TBCB.",
+    "subject": "Economy",
+    "theme": "Infrastructure - Energy and transmission",
+    "micro_topic": "Green Energy Corridor-III: Rs 1.86 lakh crore, 135 GW evacuation, 50 GWh BESS, CFA Rs 54,082 crore, by 2032-33",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Supreme Court judgment in Mulla Afroz v. Union of India (September 2026), recently in the news, held that:",
+    "options": [
+      "(a) A detention order under the National Security Act, 1980 cannot be based solely on a confession made in police custody.",
+      "(b) The National Security Act, 1980 is unconstitutional because it violates Article 21.",
+      "(c) An Advisory Board under preventive-detention law must be headed by a sitting Supreme Court judge.",
+      "(d) Once a High Court grants bail, the State is barred from issuing any preventive-detention order against that person."
+    ],
+    "answer": "(a)",
+    "explanation": "A bench of Justices Dipankar Datta and Sheel Nagu held that a custodial confession alone cannot ground the satisfaction needed for NSA detention. It quashed the order against the Sambhal violence accused and imposed Rs 10 lakh costs on Uttar Pradesh. The Act itself was not struck down.",
+    "subject": "Polity & Governance",
+    "theme": "Fundamental Rights - preventive detention",
+    "micro_topic": "Mulla Afroz v. Union of India (29 Sept 2026): NSA detention quashed; custodial confession insufficient; Rs 10 lakh costs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to 'PRAMAAN' certification, recently in the news, consider the following statements:\n1. It is issued under the Indian Forest and Wood Certification Scheme, for which the Indian Institute of Forest Management, Bhopal is the operating agency.\n2. Audits are carried out by third-party certification bodies accredited by the National Accreditation Board for Certification Bodies (NABCB).\n3. It is mandatory for all timber and bamboo products exported from India to the European Union.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "IFWCS/PRAMAAN is run by IIFM Bhopal, with NABCB-accredited third-party auditors. It is voluntary, a tool to help exporters meet due-diligence rules such as the EU Deforestation Regulation, not a mandate. The first certificates went to APFDC and an Odisha bamboo farmer on 30 September 2026.",
+    "subject": "Environment",
+    "theme": "Forests and sustainable trade",
+    "micro_topic": "PRAMAAN / Indian Forest and Wood Certification Scheme: IIFM Bhopal, NABCB, first certificates Sept 2026, EUDR",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to glacial-lake risk in Uttarakhand, consider the following statements:\n1. Vasundhara Tal, where the State's first glacial-lake early-warning system is being installed, is in Chamoli district.\n2. Among the State's high-risk glacial lakes, Pithoragarh district has the largest number.\n3. The Wadia Institute of Himalayan Geology, one of the technical partners in the project, is headquartered in Shimla.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Vasundhara Tal is in Chamoli, and Pithoragarh has 6 of Uttarakhand's 13 high-risk glacial lakes (Chamoli 4; one each in Bageshwar, Tehri Garhwal and Uttarkashi). The Wadia Institute of Himalayan Geology is in Dehradun, not Shimla.",
+    "subject": "Geography",
+    "theme": "Places in News - Himalayan hazards",
+    "micro_topic": "Vasundhara Tal (Chamoli) glacial-lake early-warning system, 29 Sept-15 Oct 2026; 344 lakes, 13 high-risk",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Consider the following statements regarding confessions under the Bharatiya Sakshya Adhiniyam, 2023:\n1. A confession made to a police officer cannot be proved against a person accused of an offence.\n2. A confession made by a person while in police custody can be proved against them if it was made in the immediate presence of a Magistrate.\n3. Where information received from an accused in police custody leads to the discovery of a fact, so much of the information as relates distinctly to the fact discovered may be proved.\nHow many of the above statements are correct?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All three",
+      "(d) None"
+    ],
+    "answer": "(c)",
+    "explanation": "All three are correct. Section 23 of the BSA, 2023 bars confessions to police, bars custodial confessions unless made in the immediate presence of a Magistrate, and keeps the discovery-of-fact proviso (formerly Sections 25-27 of the Indian Evidence Act, 1872).",
+    "subject": "Polity & Governance",
+    "theme": "Criminal law and evidence",
+    "micro_topic": "Section 23 Bharatiya Sakshya Adhiniyam 2023 - confessions to police, custodial confessions, discovery proviso",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the regulation of electricity in India, consider the following statements:\n1. The Central Electricity Regulatory Commission regulates the tariff for inter-State transmission of electricity.\n2. The State Electricity Regulatory Commissions determine tariffs for intra-State transmission of electricity.\n3. 'Electricity' is an entry in the Union List of the Seventh Schedule.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Under the Electricity Act, 2003, CERC regulates inter-State transmission tariff (Section 79) and SERCs regulate intra-State transmission tariff (Section 86). Electricity is Entry 38 of the Concurrent List, not the Union List.",
+    "subject": "Economy",
+    "theme": "Infrastructure - Power sector regulation",
+    "micro_topic": "Electricity Act 2003: CERC vs SERC jurisdiction; Electricity in Concurrent List Entry 38",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  }
+]
