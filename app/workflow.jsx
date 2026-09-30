@@ -295,6 +295,7 @@ function StudyWorkflowDashboard({ go, progress, review, onStartReview }) {
 
       {/* Today's detailed study blocks, parsed live from the Sunday Sweep. */}
       {window.WeeklyPlanCard ? <window.WeeklyPlanCard /> : null}
+      {window.StudyChecklist ? <window.StudyChecklist go={go} /> : null}
 
       {/* This week vs plan targets — the live part */}
       <article className="workflow-card workflow-week-card">

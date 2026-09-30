@@ -31,6 +31,7 @@ function Icon({ name, size = 20, stroke = 1.6, style }) {
     upload: <><path d="M12 20V9" /><path d="m7 13 5-5 5 5" /><path d="M5 4h14" /></>,
     bolt: <path d="M13 3 5 14h6l-1 7 8-11h-6z" />,
     chevR: <path d="m9 6 6 6-6 6" />,
+    chevDown: <path d="m6 9 6 6 6-6" />,
     flame: <path d="M12 3c1 3-2 4-2 7a4 4 0 0 0 8 0c0-2-1-3-1-3 2 1 3 3 3 5a6 6 0 1 1-12 0c0-4 4-5 4-9z" />,
     menu: <><path d="M4 7h16M4 12h16M4 17h16" /></>,
     info: <><circle cx="12" cy="12" r="9" /><path d="M12 11v5M12 8h.01" /></>,
