@@ -274,3 +274,23 @@ test("a clean explanation is never truncated", () => {
   const question = normalizeQuestion({ question: "Q?", options: [], answer: "a", explanation: text }, 0, SET);
   assert.equal(question.explanation, text);
 });
+
+test("statements ending with parenthesized acronyms before Select tail retain all statements", () => {
+  const text = "Which among the following is/are the objective(s) of the Rainfed Area Development (RAD) initiative under the National Mission for Sustainable Agriculture (NMSA)? 1. Encouraging monoculture in rainfed areas 2. Increasing rice cultivation in irrigated regions 3. Enhancing productivity and minimising climatic risks through Integrated Farming Systems (IFS) Select the answer using the code given below:";
+  const parts = splitQuestionParts(text);
+  assert.equal(parts.stem, "Which among the following is/are the objective(s) of the Rainfed Area Development (RAD) initiative under the National Mission for Sustainable Agriculture (NMSA)?");
+  assert.equal(parts.statements.length, 3);
+  assert.equal(parts.statements[0], "Encouraging monoculture in rainfed areas");
+  assert.equal(parts.statements[1], "Increasing rice cultivation in irrigated regions");
+  assert.equal(parts.statements[2], "Enhancing productivity and minimising climatic risks through Integrated Farming Systems (IFS)");
+  assert.equal(parts.tail, "Select the answer using the code given below:");
+});
+
+test("statements ending without punctuation followed by a period-terminated Select tail are cleanly parsed", () => {
+  const text = "In the first quarter of seventeenth century, in which of the following was/are the factory/factories of the English East India Company located? 1. Broach 2. Chicacole 3. Trichinopoly Select the correct answer using the code given below.";
+  const parts = splitQuestionParts(text);
+  assert.equal(parts.statements.length, 3);
+  assert.equal(parts.statements[2], "Trichinopoly");
+  assert.equal(parts.tail, "Select the correct answer using the code given below.");
+});
+

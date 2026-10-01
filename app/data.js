@@ -575,8 +575,8 @@
   // earlier version matched case-insensitively anywhere, so a relative clause
   // inside a statement ("..., which causes renal failure...") was mistaken for
   // the tail and truncated the list, leaving the whole question as one blob.
-  const TAIL_OPENERS = "Which|How many|How much|Select|Choose|Consider the above|With reference to the statements";
-  const TAIL_START = new RegExp(`(?:^|[.?!\\n])[ \\t]*(?:${TAIL_OPENERS})\\b`, "g");
+  const TAIL_OPENERS = "Which|How many|How much|Select|Choose|Consider the above|With reference to the statements|In which|In how many";
+  const TAIL_START = new RegExp(`(?:^|[.?!)\\n])[ \\t]*(?:${TAIL_OPENERS})\\b`, "g");
 
   function splitTrailingQuestion(text) {
     let start = -1;
@@ -592,9 +592,11 @@
     }
     if (start <= 0) {
       // Fallback for statements that end without punctuation ("... 3. Gamma
-      // Which of the statements above is correct?"). Safe because it demands a
-      // capitalised opener whose clause runs unbroken to a final question mark.
-      const trailing = text.match(new RegExp(`\\s((?:${TAIL_OPENERS})\\b[^?]*\\?)\\s*$`));
+      // Which of the statements above is correct?" or "... 3. (IFS)
+      // Select the answer using the code given below:"). Safe because it
+      // demands a capitalised opener whose clause runs unbroken to a terminal
+      // question mark, colon, period, or end of string.
+      const trailing = text.match(new RegExp(`\\s((?:(?:Select|Choose)\\b[\\s\\S]*$)|(?:(?:${TAIL_OPENERS})\\b[^?:]*?[?:]\\s*$))`));
       if (trailing && trailing.index > 0) {
         return { body: text.slice(0, trailing.index).trim(), tail: trailing[1].trim() };
       }
@@ -670,7 +672,9 @@
       position = boundary;
       index++;
     }
-    return statements.map((item) => item.trim()).filter((item) => item && !/^[A-Za-z()\s]+:$/.test(item));
+    return statements
+      .map((item) => item.trim())
+      .filter((item) => item && !(item.length < 40 && /^[A-Za-z()\s\d-]+:$/.test(item)));
   }
 
   // Match-the-columns questions carry two parallel lists — a lettered column
