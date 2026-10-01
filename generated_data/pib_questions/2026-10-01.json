@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the Minimum Support Prices (MSP) for Rabi crops for Marketing Season 2027-28, consider the following statements: 1. The Cabinet Committee on Economic Affairs approved the hike on the recommendation of the CACP. 2. Wheat MSP was raised by the largest absolute amount among all rabi crops. 3. Safflower recorded the highest absolute increase among the rabi crops. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "CCEA approves MSP on CACP advice; wheat got the smallest rise (+₹25 to ₹2,610) while safflower got the largest (+₹675 to ₹7,215).",
+    "subject": "Agriculture",
+    "theme": "Price Support & Procurement",
+    "micro_topic": "Rabi MSP 2027-28",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the new CAFE-III norms notified in September 2026, consider the following statements: 1. They apply to passenger cars for the period 1 April 2027 to 31 March 2032. 2. They are administered by the Bureau of Energy Efficiency under the Energy Conservation Act, 2001. 3. They provide a Carbon Neutrality Factor that rewards ethanol blends and compressed biogas. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "CAFE-III covers 2027-32, is administered by BEE under the Energy Conservation Act, and rewards ethanol/CBG through a Carbon Neutrality Factor.",
+    "subject": "Environment",
+    "theme": "Energy Efficiency & Climate Mitigation",
+    "micro_topic": "CAFE-III fuel consumption norms",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Ministry of Mines recently launched an auction of offshore mineral blocks in the Andaman Sea. Which one of the following statements is correct?",
+    "options": [
+      "(a) The blocks are being offered under the Mines and Minerals (Development and Regulation) Act, 1957 only.",
+      "(b) Composite licences confer both exploration and mining rights.",
+      "(c) The first-attempt rule now requires at least three technically qualified bidders.",
+      "(d) The blocks mainly contain hydrocarbons and gas hydrates."
+    ],
+    "answer": "(b)",
+    "explanation": "Offshore blocks are auctioned under the Offshore Areas Mineral (Development & Regulation) Act, 2002; a composite licence covers exploration and mining; the minimum bidders was cut from three to two; the blocks hold polymetallic nodules/crusts.",
+    "subject": "Economy",
+    "theme": "Mining & Critical Minerals",
+    "micro_topic": "Offshore mineral auction, Andaman Sea",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to India's GST collections for September 2026, consider the following statements:\n1. Gross GST collections were about ₹2.04 lakh crore, a rise of roughly 14.7% over September 2025.\n2. Import-linked GST grew faster than domestic GST.\n3. Total refunds rose compared with September 2025.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Gross GST was ₹2.04 lakh crore (+14.7%); import GST grew 25.9% against 10.1% for domestic. Statement 3 is wrong: refunds fell 3% to ₹27,001 crore.",
+    "subject": "Economy",
+    "theme": "Taxation - GST",
+    "micro_topic": "GST collections Sept 2026: gross, net, domestic vs import, refunds",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the G20, consider the following statements:\n1. The United States holds the G20 presidency in 2026.\n2. The African Union has been a full member of the G20 since 2023.\n3. The G20 has a permanent secretariat that coordinates its working groups.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "The US holds the 2026 presidency and the AU became a full member in 2023. The G20 has no permanent secretariat; it relies on the rotating presidency and troika.",
+    "subject": "International Relations",
+    "theme": "Global groupings - G20",
+    "micro_topic": "G20 Trade Ministers' Meeting Milwaukee (Goyal visit), US presidency 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The second Indian spaceport, recently in news as due to become operational in 2026-27, is at Kulasekarapattinam. It is located in which State and is primarily meant for which launch vehicle?",
+    "options": [
+      "(a) Andhra Pradesh – GSLV",
+      "(b) Kerala – PSLV",
+      "(c) Tamil Nadu – SSLV",
+      "(d) Tamil Nadu – LVM3"
+    ],
+    "answer": "(c)",
+    "explanation": "Kulasekarapattinam in Tamil Nadu is planned for SSLV launches; Sriharikota (Andhra Pradesh) is the main spaceport.",
+    "subject": "Science & Technology",
+    "theme": "Space technology - launch infrastructure",
+    "micro_topic": "Kulasekarapattinam spaceport (TN) for SSLV; ISRO seven launches by March 2027",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the revised Graded Response Action Plan (GRAP) for Delhi-NCR announced in September 2026, consider the following statements:\n1. It was approved by the Commission for Air Quality Management (CAQM).\n2. Restrictions on diesel generator sets were moved from Stage II to Stage I.\n3. It is issued by the Central Pollution Control Board under the Air (Prevention and Control of Pollution) Act, 1981.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 2 only",
+      "(b) 1 and 3 only",
+      "(c) 1, 2 and 3",
+      "(d) 1 and 2 only"
+    ],
+    "answer": "(d)",
+    "explanation": "CAQM approved the revision on 28 Sept 2026 and moved DG-set curbs to Stage I. Statement 3 is wrong: GRAP is implemented under CAQM direction (CAQM Act, 2021), not issued by the CPCB.",
+    "subject": "Environment",
+    "theme": "Pollution - air quality management",
+    "micro_topic": "Revised GRAP, CAQM 28 Sept 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Supreme Court's September 2026 hearing in the firecracker matter (Arjun Gopal v. Union of India), consider the following statements:\n1. The Court said it would neither order a total ban nor allow unrestricted bursting.\n2. It approved the manufacture of joint (series) crackers subject to conditions based on CSIR-NEERI specifications.\n3. It finally banned barium-based Generation-2 green crackers across India.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statements 1 and 2 match the bench's remarks and order. Statement 3 is wrong: the decision on barium content in Gen-2 green crackers is deferred to 15 Oct 2026 pending tests in four cities.",
+    "subject": "Polity & Governance",
+    "theme": "Judiciary - Art 21 vs Art 25 balancing",
+    "micro_topic": "Arjun Gopal v. UoI firecrackers: no total ban, joint crackers, barium decision 15 Oct",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Under Article 25(1) of the Constitution of India, freedom of conscience and the right to freely profess, practise and propagate religion is subject to:",
+    "options": [
+      "(a) public order only",
+      "(b) public order and morality only",
+      "(c) security of the State, public order and decency",
+      "(d) public order, morality and health, and the other provisions of Part III"
+    ],
+    "answer": "(d)",
+    "explanation": "Art. 25(1) reads 'subject to public order, morality and health and to the other provisions of this Part'.",
+    "subject": "Polity & Governance",
+    "theme": "Fundamental Rights - Art 25",
+    "micro_topic": "Limits on freedom of religion under Art 25(1)",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the GST Council, consider the following statements:\n1. It was provided for by Article 279A, inserted by the 101st Constitutional Amendment Act, 2016.\n2. The Union Finance Minister is its Chairperson.\n3. Its decisions require a majority of not less than three-fourths of the weighted votes of members present and voting, with the Centre holding one-third of the weight.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1, 2 and 3",
+      "(d) 1 and 3 only"
+    ],
+    "answer": "(c)",
+    "explanation": "All three are correct: Art. 279A via the 101st Amendment (2016), Union Finance Minister as Chairperson, and the three-fourths weighted-vote rule (Centre one-third, States two-thirds).",
+    "subject": "Economy",
+    "theme": "GST Council - constitutional provisions",
+    "micro_topic": "Art 279A, composition and voting weights",
+    "nature": "Factual",
+    "difficulty": "Hard"
+  }
+]
