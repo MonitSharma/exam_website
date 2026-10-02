@@ -74,10 +74,11 @@ function enrichManifest(root, manifest) {
     const linkedSets = sets.filter((s) => note.relatedSetIds.includes(s.id));
     note.subjectIds = [...new Set(linkedSets.flatMap((s) => s.subjectIds))];
     note.topicIds = [...new Set(linkedSets.flatMap((s) => s.topicIds))];
-    const week = atlas.weeks.find((w) => w.source === note.path);
-    if (note.cadence === 'weekly-news') {
+    const libraryFeatures = atlas.features.filter((feature) => feature.libraryDerived && feature.references?.some((ref) => ref.source === note.path));
+    const week = atlas.weeks.find((w) => w.source === note.path) || atlas.weeks.find((w) => libraryFeatures.some((feature) => feature.weekId === w.id));
+    if (note.cadence === 'weekly-news' || libraryFeatures.length) {
       note.atlasWeekId = week?.id || note.date;
-      note.atlasFeatureIds = atlas.features.filter((f) => f.weekId === week?.id).map((f) => f.id);
+      note.atlasFeatureIds = (libraryFeatures.length ? libraryFeatures : atlas.features.filter((f) => f.weekId === week?.id)).map((f) => f.id);
       note.mapStatus = note.atlasFeatureIds.length ? 'ready' : 'pending';
     }
   }

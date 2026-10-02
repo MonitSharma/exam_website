@@ -14,6 +14,7 @@ function syncAtlasNews(root) {
     news.weeks = news.weeks.filter((w) => w.id !== week.id).concat(week);
     news.features = news.features.filter((f) => f.weekId !== week.id).concat(features);
   }
+  require('./generate_library_atlas').syncLibraryAtlas(root, news);
   news.weeks.sort((a, b) => b.id.localeCompare(a.id));
   const text = JSON.stringify(news, null, 2) + '\n';
   if (fs.readFileSync(output, 'utf8') !== text) fs.writeFileSync(output, text);

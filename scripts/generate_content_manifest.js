@@ -988,11 +988,14 @@ function buildQuestionSets(root = DEFAULT_ROOT) {
 
 function buildContentManifest(root = DEFAULT_ROOT) {
   require("./sync_atlas_news").syncAtlasNews(root);
+  require("./sync_reference_layers").syncReferenceLayers(root);
+  const noteDocuments = buildNoteDocuments(root);
+  require("./generate_lab_articles").writeLabArticles(root, noteDocuments);
   return require("./content_relationships").enrichManifest(root, {
     version: 2,
     years: [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019],
     questionSets: buildQuestionSets(root),
-    noteDocuments: buildNoteDocuments(root),
+    noteDocuments,
   });
 }
 

@@ -1703,8 +1703,8 @@ function RelatedStudy({ doc, go }) {
     {sets.map((set) => <button className="btn ghost sm" key={set.id} onClick={() => go("test", { setId: set.id, returnTo: "library" })}>{set.label} · {set.questionCount}Q</button>)}
     {notes.map((note) => <button className="btn ghost sm" key={note.id} onClick={() => go("library", { noteId: note.id })}>{note.title}</button>)}
     {doc.atlasWeekId && (doc.mapStatus === "ready" ? <button className="btn ghost sm" onClick={() => go("atlas", { weekId: doc.atlasWeekId })}>Locate {doc.atlasFeatureIds.length} places on the map</button> : <span>Map pending for this briefing</span>)}
-    {labs.map(([id, guide]) => <button className="btn ghost sm" key={id} onClick={() => go("labs", { focusSubject: guide.pyqSubjects[0] })}>{guide.path.split(" · ").slice(-1)[0]} · revision &amp; PYQs</button>)}
+    {labs.map(([id, guide]) => <button className="btn ghost sm" key={id} onClick={() => go("labs", { labId: id, fromNoteId: doc.id })}>{guide.path.split(" · ").slice(-1)[0]} · subject revision</button>)}
   </div></section>;
 }
 
-Object.assign(window, { Home, NotesLibrary, WeeklyPlanCard, parseWeekPlan });
+Object.assign(window, { Home, NotesLibrary, WeeklyPlanCard, parseWeekPlan, AnkiDeckView });

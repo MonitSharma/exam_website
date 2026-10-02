@@ -1,0 +1,2729 @@
+{
+  "verifiedOn": "2026-10-02",
+  "catalogueSource": "https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-India.pdf",
+  "ramsarCount": 101,
+  "features": [
+    {
+      "id": "ramsar-2407",
+      "layer": "wetlands",
+      "name": "Nangal Wildlife Sanctuary",
+      "lat": 31.396111,
+      "lon": 76.371111,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Rupnagar",
+      "ramsar": true,
+      "siteNumber": 2407,
+      "areaHa": 116,
+      "designationDate": "2019-09-26",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2407 \u00b7 Rupnagar. Designated 2019-09-26; listed area 116 hectares.",
+      "hook": "Rupnagar",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2407"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2412",
+      "layer": "wetlands",
+      "name": "Nawabganj Bird Sanctuary",
+      "lat": 26.613611,
+      "lon": 80.654722,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Nawabganj Bird Sanctuary is situated in Hasanganj tehsil of Unnao district of Uttar Pradesh, India. It is about 50 Km from Lucknow on the Lucknow-Kanpur highway. It is 18 Km from district head quarter Unnao.",
+      "ramsar": true,
+      "siteNumber": 2412,
+      "areaHa": 225,
+      "designationDate": "2019-09-19",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2412 \u00b7 Nawabganj Bird Sanctuary is situated in Hasanganj tehsil of Unnao district of Uttar Pradesh, India. It is about 50 Km from Lucknow on the Lucknow-Kanpur highway. It is 18 Km from district head quarter Unnao. Designated 2019-09-19; listed area 225 hectares.",
+      "hook": "Nawabganj Bird Sanctuary is situated in Hasanganj tehsil of Unnao district of Uttar Pradesh, India. It is about 50 Km from Lucknow on the Lucknow-Kanpur highway. It is 18 Km from district head quarter Unnao.",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2412"
+        }
+      ]
+    },
+    {
+      "id": "lonar",
+      "layer": "wetlands",
+      "name": "Lonar Lake",
+      "lat": 19.975833,
+      "lon": 76.508333,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Site lies in Buldhana district in the state of Maharashtra",
+      "ramsar": true,
+      "siteNumber": 2441,
+      "areaHa": 427,
+      "designationDate": "2020-07-22",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2441 \u00b7 Site lies in Buldhana district in the state of Maharashtra. Designated 2020-07-22; listed area 427 hectares.",
+      "hook": "Site lies in Buldhana district in the state of Maharashtra",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2441"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2436",
+      "layer": "wetlands",
+      "name": "Kabartal Wetland",
+      "lat": 25.616667,
+      "lon": 86.133333,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "The wetland is situated in Begusarai district in the state of Bihar",
+      "ramsar": true,
+      "siteNumber": 2436,
+      "areaHa": 2620,
+      "designationDate": "2020-07-21",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2436 \u00b7 The wetland is situated in Begusarai district in the state of Bihar. Designated 2020-07-21; listed area 2,620 hectares.",
+      "hook": "The wetland is situated in Begusarai district in the state of Bihar",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2436"
+        },
+        {
+          "label": "Coordinate cross-check",
+          "url": "https://www.ramsar.org/sites/default/files/2023-08/sitelist.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2437",
+      "layer": "wetlands",
+      "name": "Asan Conservation Reserve",
+      "lat": 30.433611,
+      "lon": 77.682778,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Uttarakhand",
+      "ramsar": true,
+      "siteNumber": 2437,
+      "areaHa": 444,
+      "designationDate": "2020-07-21",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2437 \u00b7 Uttarakhand. Designated 2020-07-21; listed area 444 hectares.",
+      "hook": "Uttarakhand",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2437"
+        },
+        {
+          "label": "Coordinate cross-check",
+          "url": "https://static.pib.gov.in/WriteReadData/userfiles/Faunal_Diversity_of_Ramsar_Wetlands_of_India_E_verion_02.02.2021.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2470",
+      "layer": "wetlands",
+      "name": "Satkosia Gorge",
+      "lat": 20.572222,
+      "lon": 84.832222,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Angul, Nayagarh,Boudha, Cuttack District,Odisha",
+      "ramsar": true,
+      "siteNumber": 2470,
+      "areaHa": 98197,
+      "designationDate": "2021-10-12",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2470 \u00b7 Angul, Nayagarh,Boudha, Cuttack District,Odisha. Designated 2021-10-12; listed area 98,197 hectares.",
+      "hook": "Angul, Nayagarh,Boudha, Cuttack District,Odisha",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2470"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2484",
+      "layer": "wetlands",
+      "name": "Pala Wetland",
+      "lat": 22.196944,
+      "lon": 92.901944,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Mizoram",
+      "ramsar": true,
+      "siteNumber": 2484,
+      "areaHa": 1850,
+      "designationDate": "2021-08-31",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2484 \u00b7 Mizoram. Designated 2021-08-31; listed area 1,850 hectares.",
+      "hook": "Mizoram",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2484"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2487",
+      "layer": "wetlands",
+      "name": "Ansupa Lake",
+      "lat": 20.46,
+      "lon": 85.603056,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Subranpur, Cuttack, Odisha",
+      "ramsar": true,
+      "siteNumber": 2487,
+      "areaHa": 231,
+      "designationDate": "2021-10-12",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2487 \u00b7 Subranpur, Cuttack, Odisha. Designated 2021-10-12; listed area 231 hectares.",
+      "hook": "Subranpur, Cuttack, Odisha",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2487"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2410",
+      "layer": "wetlands",
+      "name": "Nandur Madhameshwar",
+      "lat": 20.021667,
+      "lon": 74.106667,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Maharashtra, India",
+      "ramsar": true,
+      "siteNumber": 2410,
+      "areaHa": 1437,
+      "designationDate": "2019-06-21",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2410 \u00b7 Maharashtra, India. Designated 2019-06-21; listed area 1,437 hectares.",
+      "hook": "Maharashtra, India",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2410"
+        },
+        {
+          "label": "Coordinate cross-check",
+          "url": "https://rsis.ramsar.org/ris/2410?language=es"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2458",
+      "layer": "wetlands",
+      "name": "Thol Lake Wildlife Sanctuary",
+      "lat": 23.141389,
+      "lon": 72.410833,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "The area falls within the administrative jurisdiction of Mehsana district of Gujarat state, India between 23o 15\u2019 to 23o 30\u2019 N latitudes and 72o 30\u2019 to 72o 45\u2019 E longitudes.",
+      "ramsar": true,
+      "siteNumber": 2458,
+      "areaHa": 699,
+      "designationDate": "2021-04-05",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2458 \u00b7 The area falls within the administrative jurisdiction of Mehsana district of Gujarat state, India between 23o 15\u2019 to 23o 30\u2019 N latitudes and 72o 30\u2019 to 72o 45\u2019 E longitudes. Designated 2021-04-05; listed area 699 hectares.",
+      "hook": "The area falls within the administrative jurisdiction of Mehsana district of Gujarat state, India between 23o 15\u2019 to 23o 30\u2019 N latitudes and 72o 30\u2019 to 72o 45\u2019 E longitudes.",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2458"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2459",
+      "layer": "wetlands",
+      "name": "Bhindawas Wildlife Sanctuary",
+      "lat": 28.533611,
+      "lon": 76.550278,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Rohtak, Haryana",
+      "ramsar": true,
+      "siteNumber": 2459,
+      "areaHa": 412,
+      "designationDate": "2021-05-25",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2459 \u00b7 Rohtak, Haryana. Designated 2021-05-25; listed area 412 hectares.",
+      "hook": "Rohtak, Haryana",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2459"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2454",
+      "layer": "wetlands",
+      "name": "Wadhvana Wetland",
+      "lat": 22.171944,
+      "lon": 73.486667,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "The wetland is situated in the state of Gujarat. It is located in Dabhoi Tehsil (Taluka), Vadodara district at a distance of 45 km from Vadodara city and 15 km from Dabhoi town.",
+      "ramsar": true,
+      "siteNumber": 2454,
+      "areaHa": 630,
+      "designationDate": "2021-04-05",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2454 \u00b7 The wetland is situated in the state of Gujarat. It is located in Dabhoi Tehsil (Taluka), Vadodara district at a distance of 45 km from Vadodara city and 15 km from Dabhoi town. Designated 2021-04-05; listed area 630 hectares.",
+      "hook": "The wetland is situated in the state of Gujarat. It is located in Dabhoi Tehsil (Taluka), Vadodara district at a distance of 45 km from Vadodara city and 15 km from Dabhoi town.",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2454"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2473",
+      "layer": "wetlands",
+      "name": "Ranganathittu Bird Sanctuary",
+      "lat": 12.407778,
+      "lon": 76.681944,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "The site is located in Mandya district of Karnataka State, India.",
+      "ramsar": true,
+      "siteNumber": 2473,
+      "areaHa": 518,
+      "designationDate": "2022-02-15",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2473 \u00b7 The site is located in Mandya district of Karnataka State, India. Designated 2022-02-15; listed area 518 hectares.",
+      "hook": "The site is located in Mandya district of Karnataka State, India.",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2473"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2415",
+      "layer": "wetlands",
+      "name": "Samaspur Bird Sanctuary",
+      "lat": 25.995556,
+      "lon": 81.388611,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Raebareli district in state of Uttar Pradesh, India",
+      "ramsar": true,
+      "siteNumber": 2415,
+      "areaHa": 799,
+      "designationDate": "2019-10-03",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2415 \u00b7 Raebareli district in state of Uttar Pradesh, India. Designated 2019-10-03; listed area 799 hectares.",
+      "hook": "Raebareli district in state of Uttar Pradesh, India",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2415"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2416",
+      "layer": "wetlands",
+      "name": "Parvati Arga Bird Sanctuary",
+      "lat": 26.935833,
+      "lon": 82.1625,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "The Sanctuary is located in the state of Uttar Pradesh, Tarabganj Tehsil, at a distance of about 40 km from Gonda District at Mankapur- Nawabganj Road.",
+      "ramsar": true,
+      "siteNumber": 2416,
+      "areaHa": 722,
+      "designationDate": "2019-12-02",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2416 \u00b7 The Sanctuary is located in the state of Uttar Pradesh, Tarabganj Tehsil, at a distance of about 40 km from Gonda District at Mankapur- Nawabganj Road. Designated 2019-12-02; listed area 722 hectares.",
+      "hook": "The Sanctuary is located in the state of Uttar Pradesh, Tarabganj Tehsil, at a distance of about 40 km from Gonda District at Mankapur- Nawabganj Road.",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2416"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2465",
+      "layer": "wetlands",
+      "name": "Bakhira Wildlife Sanctuary",
+      "lat": 26.91,
+      "lon": 83.129722,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "The site is situated in Sant Kabir Nagar district in the state of Uttar Pradesh.",
+      "ramsar": true,
+      "siteNumber": 2465,
+      "areaHa": 2894,
+      "designationDate": "2021-06-29",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2465 \u00b7 The site is situated in Sant Kabir Nagar district in the state of Uttar Pradesh. Designated 2021-06-29; listed area 2,894 hectares.",
+      "hook": "The site is situated in Sant Kabir Nagar district in the state of Uttar Pradesh.",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2465"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-1210",
+      "layer": "wetlands",
+      "name": "Point Calimere Wildlife and Bird Sanctuary",
+      "lat": 10.316389,
+      "lon": 79.633333,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Tamil Nadu",
+      "ramsar": true,
+      "siteNumber": 1210,
+      "areaHa": 38500,
+      "designationDate": "2002-08-19",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 1210 \u00b7 Tamil Nadu. Designated 2002-08-19; listed area 38,500 hectares.",
+      "hook": "Tamil Nadu",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/1210"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2463",
+      "layer": "wetlands",
+      "name": "Haiderpur Wetland",
+      "lat": 29.416389,
+      "lon": 78.016389,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Uttar Pradesh",
+      "ramsar": true,
+      "siteNumber": 2463,
+      "areaHa": 6908,
+      "designationDate": "2021-04-13",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2463 \u00b7 Uttar Pradesh. Designated 2021-04-13; listed area 6,908 hectares.",
+      "hook": "Uttar Pradesh",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2463"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-1211",
+      "layer": "wetlands",
+      "name": "Pong Dam Lake",
+      "lat": 32.016389,
+      "lon": 76.083056,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Himachal Pradesh",
+      "ramsar": true,
+      "siteNumber": 1211,
+      "areaHa": 15662,
+      "designationDate": "2002-08-19",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 1211 \u00b7 Himachal Pradesh. Designated 2002-08-19; listed area 15,662 hectares.",
+      "hook": "Himachal Pradesh",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/1211"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2409",
+      "layer": "wetlands",
+      "name": "Sandi Bird Sanctuary",
+      "lat": 27.313611,
+      "lon": 79.971944,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "The Sanctuary is located in the Bilgram tehsil of Hardoi district in state of Uttar Pradesh, India. It is just 1 Km from the Sandi town, 19 Km from city Hardoi and 129 Km from Lucknow, the state capital.",
+      "ramsar": true,
+      "siteNumber": 2409,
+      "areaHa": 309,
+      "designationDate": "2019-09-26",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2409 \u00b7 The Sanctuary is located in the Bilgram tehsil of Hardoi district in state of Uttar Pradesh, India. It is just 1 Km from the Sandi town, 19 Km from city Hardoi and 129 Km from Lucknow, the state capital. Designated 2019-09-26; listed area 309 hectares.",
+      "hook": "The Sanctuary is located in the Bilgram tehsil of Hardoi district in state of Uttar Pradesh, India. It is just 1 Km from the Sandi town, 19 Km from city Hardoi and 129 Km from Lucknow, the state capital.",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2409"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2408",
+      "layer": "wetlands",
+      "name": "Beas Conservation Reserve",
+      "lat": 31.394722,
+      "lon": 75.194444,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Hoshiarpur, Amritsar, Gurdaspur, Kaputhala, Jalandhar, Tarn Taran",
+      "ramsar": true,
+      "siteNumber": 2408,
+      "areaHa": 6429,
+      "designationDate": "2019-09-26",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2408 \u00b7 Hoshiarpur, Amritsar, Gurdaspur, Kaputhala, Jalandhar, Tarn Taran. Designated 2019-09-26; listed area 6,429 hectares.",
+      "hook": "Hoshiarpur, Amritsar, Gurdaspur, Kaputhala, Jalandhar, Tarn Taran",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2408"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2413",
+      "layer": "wetlands",
+      "name": "Saman Bird Sanctuary",
+      "lat": 27.015556,
+      "lon": 79.176667,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Saman Bird Sanctuary is located near village Saman in Karhal tehsil of Mainpuri district in the state of Uttar Pradesh.",
+      "ramsar": true,
+      "siteNumber": 2413,
+      "areaHa": 526,
+      "designationDate": "2019-12-02",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2413 \u00b7 Saman Bird Sanctuary is located near village Saman in Karhal tehsil of Mainpuri district in the state of Uttar Pradesh. Designated 2019-12-02; listed area 526 hectares.",
+      "hook": "Saman Bird Sanctuary is located near village Saman in Karhal tehsil of Mainpuri district in the state of Uttar Pradesh.",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2413"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2414",
+      "layer": "wetlands",
+      "name": "Keshopur-Miani Community Reserve",
+      "lat": 32.092778,
+      "lon": 75.389722,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Gurdaspur district of Punjab",
+      "ramsar": true,
+      "siteNumber": 2414,
+      "areaHa": 344,
+      "designationDate": "2019-09-26",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2414 \u00b7 Gurdaspur district of Punjab. Designated 2019-09-26; listed area 344 hectares.",
+      "hook": "Gurdaspur district of Punjab",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2414"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-1160",
+      "layer": "wetlands",
+      "name": "Kanjli",
+      "lat": 31.416667,
+      "lon": 75.366389,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Punjab",
+      "ramsar": true,
+      "siteNumber": 1160,
+      "areaHa": 183,
+      "designationDate": "2002-01-22",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 1160 \u00b7 Punjab. Designated 2002-01-22; listed area 183 hectares.",
+      "hook": "Punjab",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/1160"
+        }
+      ]
+    },
+    {
+      "id": "keoladeo-wetland",
+      "layer": "wetlands",
+      "name": "Keoladeo National Park",
+      "lat": 27.216389,
+      "lon": 77.533056,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Rajasthan",
+      "ramsar": true,
+      "siteNumber": 230,
+      "areaHa": 2873,
+      "designationDate": "1981-10-01",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 230 \u00b7 Rajasthan. Designated 1981-10-01; listed area 2,873 hectares.",
+      "hook": "Rajasthan",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/230"
+        },
+        {
+          "label": "Coordinate cross-check",
+          "url": "https://www.ramsar.org/sites/default/files/2023-08/sitelist.pdf"
+        }
+      ]
+    },
+    {
+      "id": "kolleru",
+      "layer": "wetlands",
+      "name": "Kolleru Lake",
+      "lat": 16.616667,
+      "lon": 81.2,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Andhra Pradesh",
+      "ramsar": true,
+      "siteNumber": 1209,
+      "areaHa": 90100,
+      "designationDate": "2002-08-19",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 1209 \u00b7 Andhra Pradesh. Designated 2002-08-19; listed area 90,100 hectares.",
+      "hook": "Andhra Pradesh",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/1209"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-1212",
+      "layer": "wetlands",
+      "name": "Sasthamkotta Lake",
+      "lat": 9.033056,
+      "lon": 76.616389,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Kerala District",
+      "ramsar": true,
+      "siteNumber": 1212,
+      "areaHa": 373,
+      "designationDate": "2002-08-19",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 1212 \u00b7 Kerala District. Designated 2002-08-19; listed area 373 hectares.",
+      "hook": "Kerala District",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/1212"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-1571",
+      "layer": "wetlands",
+      "name": "Renuka Wetland",
+      "lat": 31.616667,
+      "lon": 77.45,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Himachal Pradesh State",
+      "ramsar": true,
+      "siteNumber": 1571,
+      "areaHa": 20,
+      "designationDate": "2005-11-08",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 1571 \u00b7 Himachal Pradesh State. Designated 2005-11-08; listed area 20 hectares.",
+      "hook": "Himachal Pradesh State",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/1571"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-1161",
+      "layer": "wetlands",
+      "name": "Ropar",
+      "lat": 31.016389,
+      "lon": 76.5,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Punjab",
+      "ramsar": true,
+      "siteNumber": 1161,
+      "areaHa": 1365,
+      "designationDate": "2002-01-22",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 1161 \u00b7 Punjab. Designated 2002-01-22; listed area 1,365 hectares.",
+      "hook": "Punjab",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/1161"
+        }
+      ]
+    },
+    {
+      "id": "sambhar",
+      "layer": "wetlands",
+      "name": "Sambhar Lake",
+      "lat": 27.0,
+      "lon": 75.0,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Rajasthan",
+      "ramsar": true,
+      "siteNumber": 464,
+      "areaHa": 24000,
+      "designationDate": "1990-03-23",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 464 \u00b7 Rajasthan. Designated 1990-03-23; listed area 24,000 hectares.",
+      "hook": "Rajasthan",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/464"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-1573",
+      "layer": "wetlands",
+      "name": "Surinsar-Mansar Lakes",
+      "lat": 32.75,
+      "lon": 75.2,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Jammu, Kashmir State",
+      "ramsar": true,
+      "siteNumber": 1573,
+      "areaHa": 350,
+      "designationDate": "2005-11-08",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 1573 \u00b7 Jammu, Kashmir State. Designated 2005-11-08; listed area 350 hectares.",
+      "hook": "Jammu, Kashmir State",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/1573"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-1213",
+      "layer": "wetlands",
+      "name": "Tsomoriri",
+      "lat": 32.9,
+      "lon": 78.3,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Eastern Ladakh, Jammu & Kashmir",
+      "ramsar": true,
+      "siteNumber": 1213,
+      "areaHa": 12000,
+      "designationDate": "2002-08-19",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 1213 \u00b7 Eastern Ladakh, Jammu & Kashmir. Designated 2002-08-19; listed area 12,000 hectares.",
+      "hook": "Eastern Ladakh, Jammu & Kashmir",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/1213"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-1574",
+      "layer": "wetlands",
+      "name": "Upper Ganga River",
+      "lat": 28.55,
+      "lon": 78.2,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Uttar Pradesh",
+      "ramsar": true,
+      "siteNumber": 1574,
+      "areaHa": 26590,
+      "designationDate": "2005-11-08",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 1574 \u00b7 Uttar Pradesh. Designated 2005-11-08; listed area 26,590 hectares.",
+      "hook": "Uttar Pradesh",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/1574"
+        }
+      ]
+    },
+    {
+      "id": "vembanad",
+      "layer": "wetlands",
+      "name": "Vembanad-Kol Wetland",
+      "lat": 9.833333,
+      "lon": 76.75,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Kerala State",
+      "ramsar": true,
+      "siteNumber": 1214,
+      "areaHa": 151250,
+      "designationDate": "2002-08-19",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 1214 \u00b7 Kerala State. Designated 2002-08-19; listed area 151,250 hectares.",
+      "hook": "Kerala State",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/1214"
+        }
+      ]
+    },
+    {
+      "id": "ashtamudi",
+      "layer": "wetlands",
+      "name": "Ashtamudi Wetland",
+      "lat": 8.95,
+      "lon": 76.583056,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Kerala State",
+      "ramsar": true,
+      "siteNumber": 1204,
+      "areaHa": 6140,
+      "designationDate": "2002-08-19",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 1204 \u00b7 Kerala State. Designated 2002-08-19; listed area 6,140 hectares.",
+      "hook": "Kerala State",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/1204"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-1205",
+      "layer": "wetlands",
+      "name": "Bhitarkanika Mangroves",
+      "lat": 20.65,
+      "lon": 86.9,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Orissa",
+      "ramsar": true,
+      "siteNumber": 1205,
+      "areaHa": 65000,
+      "designationDate": "2002-08-19",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 1205 \u00b7 Orissa. Designated 2002-08-19; listed area 65,000 hectares.",
+      "hook": "Orissa",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/1205"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-1569",
+      "layer": "wetlands",
+      "name": "Chandertal Wetland",
+      "lat": 32.483056,
+      "lon": 77.6,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Himachal Pradesh State",
+      "ramsar": true,
+      "siteNumber": 1569,
+      "areaHa": 49,
+      "designationDate": "2005-11-08",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 1569 \u00b7 Himachal Pradesh State. Designated 2005-11-08; listed area 49 hectares.",
+      "hook": "Himachal Pradesh State",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/1569"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-1206",
+      "layer": "wetlands",
+      "name": "Bhoj Wetland",
+      "lat": 23.233333,
+      "lon": 77.333056,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Madhya Pradesh",
+      "ramsar": true,
+      "siteNumber": 1206,
+      "areaHa": 3201,
+      "designationDate": "2002-08-19",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 1206 \u00b7 Madhya Pradesh. Designated 2002-08-19; listed area 3,201 hectares.",
+      "hook": "Madhya Pradesh",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/1206"
+        }
+      ]
+    },
+    {
+      "id": "chilika",
+      "layer": "wetlands",
+      "name": "Chilika Lake",
+      "lat": 19.7,
+      "lon": 85.35,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Orissa State",
+      "ramsar": true,
+      "siteNumber": 229,
+      "areaHa": 116500,
+      "designationDate": "1981-10-01",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 229 \u00b7 Orissa State. Designated 1981-10-01; listed area 116,500 hectares.",
+      "hook": "Orissa State",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/229"
+        }
+      ]
+    },
+    {
+      "id": "deepor",
+      "layer": "wetlands",
+      "name": "Deepor Beel",
+      "lat": 26.133056,
+      "lon": 91.65,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Assam",
+      "ramsar": true,
+      "siteNumber": 1207,
+      "areaHa": 4000,
+      "designationDate": "2002-08-19",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 1207 \u00b7 Assam. Designated 2002-08-19; listed area 4,000 hectares.",
+      "hook": "Assam",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/1207"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-1208",
+      "layer": "wetlands",
+      "name": "East Calcutta Wetlands",
+      "lat": 22.45,
+      "lon": 88.45,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "West Bengal",
+      "ramsar": true,
+      "siteNumber": 1208,
+      "areaHa": 12500,
+      "designationDate": "2002-08-19",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 1208 \u00b7 West Bengal. Designated 2002-08-19; listed area 12,500 hectares.",
+      "hook": "West Bengal",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/1208"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-462",
+      "layer": "wetlands",
+      "name": "Harike Lake",
+      "lat": 31.216389,
+      "lon": 75.2,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Punjab",
+      "ramsar": true,
+      "siteNumber": 462,
+      "areaHa": 4100,
+      "designationDate": "1990-03-23",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 462 \u00b7 Punjab. Designated 1990-03-23; listed area 4,100 hectares.",
+      "hook": "Punjab",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/462"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-1570",
+      "layer": "wetlands",
+      "name": "Hokera Wetland",
+      "lat": 34.083056,
+      "lon": 74.7,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Jammu and Kashmir State",
+      "ramsar": true,
+      "siteNumber": 1570,
+      "areaHa": 1375,
+      "designationDate": "2005-11-08",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 1570 \u00b7 Jammu and Kashmir State. Designated 2005-11-08; listed area 1,375 hectares.",
+      "hook": "Jammu and Kashmir State",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/1570"
+        }
+      ]
+    },
+    {
+      "id": "wular",
+      "layer": "wetlands",
+      "name": "Wular Lake",
+      "lat": 34.266389,
+      "lon": 74.55,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Jammu & Kashmir State",
+      "ramsar": true,
+      "siteNumber": 461,
+      "areaHa": 18900,
+      "designationDate": "1990-03-23",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 461 \u00b7 Jammu & Kashmir State. Designated 1990-03-23; listed area 18,900 hectares.",
+      "hook": "Jammu & Kashmir State",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/461"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2464",
+      "layer": "wetlands",
+      "name": "Khijadia Wildlife Sanctuary",
+      "lat": 22.514444,
+      "lon": 70.145833,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Khijadia wildlife sanctuary falls within Jamnagar District of Gujarat State, India. Khijadia Wildlife Sanctuary located virtually between 22\u00b031\u201927\u201d N and 70\u00b007\u201917\u201dE.",
+      "ramsar": true,
+      "siteNumber": 2464,
+      "areaHa": 512,
+      "designationDate": "2021-04-13",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2464 \u00b7 Khijadia wildlife sanctuary falls within Jamnagar District of Gujarat State, India. Khijadia Wildlife Sanctuary located virtually between 22\u00b031\u201927\u201d N and 70\u00b007\u201917\u201dE. Designated 2021-04-13; listed area 512 hectares.",
+      "hook": "Khijadia wildlife sanctuary falls within Jamnagar District of Gujarat State, India. Khijadia Wildlife Sanctuary located virtually between 22\u00b031\u201927\u201d N and 70\u00b007\u201917\u201dE.",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2464"
+        }
+      ]
+    },
+    {
+      "id": "loktak",
+      "layer": "wetlands",
+      "name": "Loktak Lake",
+      "lat": 24.433333,
+      "lon": 93.816389,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Manipur",
+      "ramsar": true,
+      "siteNumber": 463,
+      "areaHa": 26600,
+      "designationDate": "1990-03-23",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 463 \u00b7 Manipur. Designated 1990-03-23; listed area 26,600 hectares.",
+      "hook": "Manipur",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/463"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-1572",
+      "layer": "wetlands",
+      "name": "Rudrasagar Lake",
+      "lat": 23.483056,
+      "lon": 91.266667,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "West Tripura District",
+      "ramsar": true,
+      "siteNumber": 1572,
+      "areaHa": 240,
+      "designationDate": "2005-11-08",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 1572 \u00b7 West Tripura District. Designated 2005-11-08; listed area 240 hectares.",
+      "hook": "West Tripura District",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/1572"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2078",
+      "layer": "wetlands",
+      "name": "Nalsarovar",
+      "lat": 22.775556,
+      "lon": 72.039167,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Gujarat State",
+      "ramsar": true,
+      "siteNumber": 2078,
+      "areaHa": 12000,
+      "designationDate": "2012-09-24",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2078 \u00b7 Gujarat State. Designated 2012-09-24; listed area 12,000 hectares.",
+      "hook": "Gujarat State",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2078"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2370",
+      "layer": "wetlands",
+      "name": "Sundarban Wetland",
+      "lat": 21.774722,
+      "lon": 88.714167,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "The Headquaters of the Sundarban Tiger Reserve is located at Canning town, South 24 Parganas district and is connected with broad gauge railway line with Sealdah South suburban station, which is 46 kms from Canning.",
+      "ramsar": true,
+      "siteNumber": 2370,
+      "areaHa": 423000,
+      "designationDate": "2019-01-30",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2370 \u00b7 The Headquaters of the Sundarban Tiger Reserve is located at Canning town, South 24 Parganas district and is connected with broad gauge railway line with Sealdah South suburban station, which is 46 kms from Canning. Designated 2019-01-30; listed area 423,000 hectares.",
+      "hook": "The Headquaters of the Sundarban Tiger Reserve is located at Canning town, South 24 Parganas district and is connected with broad gauge railway line with Sealdah South suburban station, which is 46 kms from Canning.",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2370"
+        },
+        {
+          "label": "Coordinate cross-check",
+          "url": "https://rsis.ramsar.org/fr/ris/2370"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2561",
+      "layer": "wetlands",
+      "name": "Sakkarakottai Bird Sanctuary",
+      "lat": 9.338889,
+      "lon": 78.823056,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Ramanathapuram District",
+      "ramsar": true,
+      "siteNumber": 2561,
+      "areaHa": 230,
+      "designationDate": "2024-07-15",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2561 \u00b7 Ramanathapuram District. Designated 2024-07-15; listed area 230 hectares.",
+      "hook": "Ramanathapuram District",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2561"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2474",
+      "layer": "wetlands",
+      "name": "Vembannur Wetland Complex",
+      "lat": 8.181667,
+      "lon": 77.376111,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "close to Bay of Bengal, comes under Melasankarankuzhi Panchayath; located 8km towards W from Nagercoil, 4km from Rajakkamangalam &736km from Chennai; surrounded by Kurunthancode,Nagercoil,Thackalai& Agastiswaram blocks towards W,E,N & E respectively",
+      "ramsar": true,
+      "siteNumber": 2474,
+      "areaHa": 20,
+      "designationDate": "2022-04-08",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2474 \u00b7 close to Bay of Bengal, comes under Melasankarankuzhi Panchayath; located 8km towards W from Nagercoil, 4km from Rajakkamangalam &736km from Chennai; surrounded by Kurunthancode,Nagercoil,Thackalai& Agastiswaram blocks towards W,E,N & E respectively. Designated 2022-04-08; listed area 20 hectares.",
+      "hook": "close to Bay of Bengal, comes under Melasankarankuzhi Panchayath; located 8km towards W from Nagercoil, 4km from Rajakkamangalam &736km from Chennai; surrounded by Kurunthancode,Nagercoil,Thackalai& Agastiswaram blocks towards W,E,N & E respectively",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2474"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2546",
+      "layer": "wetlands",
+      "name": "Nakti Bird Sanctuary",
+      "lat": 24.847222,
+      "lon": 86.447222,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "The Nakti Bird Sanctuary is located in the Jamui district of the State of Bihar",
+      "ramsar": true,
+      "siteNumber": 2546,
+      "areaHa": 333,
+      "designationDate": "2023-10-11",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2546 \u00b7 The Nakti Bird Sanctuary is located in the Jamui district of the State of Bihar. Designated 2023-10-11; listed area 333 hectares.",
+      "hook": "The Nakti Bird Sanctuary is located in the Jamui district of the State of Bihar",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2546"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2560",
+      "layer": "wetlands",
+      "name": "Khachoedpalri wetland",
+      "lat": 27.351667,
+      "lon": 88.183611,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "GYALSHING DISTRICT, SIKKIM, INDIA",
+      "ramsar": true,
+      "siteNumber": 2560,
+      "areaHa": 172,
+      "designationDate": "2024-07-15",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2560 \u00b7 GYALSHING DISTRICT, SIKKIM, INDIA. Designated 2024-07-15; listed area 172 hectares.",
+      "hook": "GYALSHING DISTRICT, SIKKIM, INDIA",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2560"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2547",
+      "layer": "wetlands",
+      "name": "Tawa Reservoir",
+      "lat": 22.511111,
+      "lon": 77.975,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "The Tawa Reservoir is situated in Narmadapuram District in the state of Madhya Pradesh",
+      "ramsar": true,
+      "siteNumber": 2547,
+      "areaHa": 20050,
+      "designationDate": "2024-01-08",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2547 \u00b7 The Tawa Reservoir is situated in Narmadapuram District in the state of Madhya Pradesh. Designated 2024-01-08; listed area 20,050 hectares.",
+      "hook": "The Tawa Reservoir is situated in Narmadapuram District in the state of Madhya Pradesh",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2547"
+        },
+        {
+          "label": "Coordinate cross-check",
+          "url": "https://rsis.ramsar.org/RISapp/files/44274743/documents/IN2547_lit240731.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2562",
+      "layer": "wetlands",
+      "name": "Therthangal Bird Sanctuary",
+      "lat": 14.510278,
+      "lon": 74.383056,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Ramanathapuram District",
+      "ramsar": true,
+      "siteNumber": 2562,
+      "areaHa": 29,
+      "designationDate": "2024-07-15",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2562 \u00b7 Ramanathapuram District. Designated 2024-07-15; listed area 29 hectares.",
+      "hook": "Ramanathapuram District",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2562"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2576",
+      "layer": "wetlands",
+      "name": "Gokul Jalashay",
+      "lat": 25.641389,
+      "lon": 84.288333,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Gokul Jalashay is located at 25.625899 N, and 84.290909o E in Buxar district in the state of Bihar",
+      "ramsar": true,
+      "siteNumber": 2576,
+      "areaHa": 448,
+      "designationDate": "2025-05-13",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2576 \u00b7 Gokul Jalashay is located at 25.625899 N, and 84.290909o E in Buxar district in the state of Bihar. Designated 2025-05-13; listed area 448 hectares.",
+      "hook": "Gokul Jalashay is located at 25.625899 N, and 84.290909o E in Buxar district in the state of Bihar",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2576"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2583",
+      "layer": "wetlands",
+      "name": "Kopra Jalashay",
+      "lat": 22.064722,
+      "lon": 82.052222,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Kopra Jalashay is situated in Bilaspur Dist. Takhatpur Block, Chhattisgarh, India.",
+      "ramsar": true,
+      "siteNumber": 2583,
+      "areaHa": 210,
+      "designationDate": "2025-08-08",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2583 \u00b7 Kopra Jalashay is situated in Bilaspur Dist. Takhatpur Block, Chhattisgarh, India. Designated 2025-08-08; listed area 210 hectares.",
+      "hook": "Kopra Jalashay is situated in Bilaspur Dist. Takhatpur Block, Chhattisgarh, India.",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2583"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2567",
+      "layer": "wetlands",
+      "name": "Menar Wetland Complex",
+      "lat": 24.598056,
+      "lon": 74.097778,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Menar and Kheroda village, Vallabhnagar taluka, Udaipur District, Rajasthan, India.",
+      "ramsar": true,
+      "siteNumber": 2567,
+      "areaHa": 463,
+      "designationDate": "2025-02-19",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2567 \u00b7 Menar and Kheroda village, Vallabhnagar taluka, Udaipur District, Rajasthan, India. Designated 2025-02-19; listed area 463 hectares.",
+      "hook": "Menar and Kheroda village, Vallabhnagar taluka, Udaipur District, Rajasthan, India.",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2567"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2581",
+      "layer": "wetlands",
+      "name": "Siliserh lake",
+      "lat": 27.530833,
+      "lon": 76.529167,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Alwar District",
+      "ramsar": true,
+      "siteNumber": 2581,
+      "areaHa": 316,
+      "designationDate": "2025-07-07",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2581 \u00b7 Alwar District. Designated 2025-07-07; listed area 316 hectares.",
+      "hook": "Alwar District",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2581"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2568",
+      "layer": "wetlands",
+      "name": "Khichan wetland",
+      "lat": 27.141111,
+      "lon": 72.416667,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Jodhpur and Phalodi District, Rajasthan, India.",
+      "ramsar": true,
+      "siteNumber": 2568,
+      "areaHa": 54,
+      "designationDate": "2025-02-19",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2568 \u00b7 Jodhpur and Phalodi District, Rajasthan, India. Designated 2025-02-19; listed area 54 hectares.",
+      "hook": "Jodhpur and Phalodi District, Rajasthan, India.",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2568"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2579",
+      "layer": "wetlands",
+      "name": "Gogabil Lake",
+      "lat": 25.374444,
+      "lon": 87.693056,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Amdabad block",
+      "ramsar": true,
+      "siteNumber": 2579,
+      "areaHa": 87,
+      "designationDate": "2025-05-13",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2579 \u00b7 Amdabad block. Designated 2025-05-13; listed area 87 hectares.",
+      "hook": "Amdabad block",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2579"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2494",
+      "layer": "wetlands",
+      "name": "Hirakud Reservoir",
+      "lat": 21.610556,
+      "lon": 83.766389,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Bargarh district",
+      "ramsar": true,
+      "siteNumber": 2494,
+      "areaHa": 65400,
+      "designationDate": "2021-10-12",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2494 \u00b7 Bargarh district. Designated 2021-10-12; listed area 65,400 hectares.",
+      "hook": "Bargarh district",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2494"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2489",
+      "layer": "wetlands",
+      "name": "Tampara Lake",
+      "lat": 20.572222,
+      "lon": 84.832222,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Ganjam District, Odisha,India",
+      "ramsar": true,
+      "siteNumber": 2489,
+      "areaHa": 300,
+      "designationDate": "2021-10-12",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2489 \u00b7 Ganjam District, Odisha,India. Designated 2021-10-12; listed area 300 hectares.",
+      "hook": "Ganjam District, Odisha,India",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2489"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2481",
+      "layer": "wetlands",
+      "name": "Pallikaranai Marsh Reserve Forest",
+      "lat": 12.927778,
+      "lon": 80.220278,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Chennai City",
+      "ramsar": true,
+      "siteNumber": 2481,
+      "areaHa": 1248,
+      "designationDate": "2022-04-08",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2481 \u00b7 Chennai City. Designated 2022-04-08; listed area 1,248 hectares.",
+      "hook": "Chennai City",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2481"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2482",
+      "layer": "wetlands",
+      "name": "Pichavaram Mangrove",
+      "lat": 11.438056,
+      "lon": 79.786389,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "The Headquaters of the pichavaram Mangrove is located at Cuddalore town, in Cuddalore district,Tamil Nadu",
+      "ramsar": true,
+      "siteNumber": 2482,
+      "areaHa": 1479,
+      "designationDate": "2022-04-08",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2482 \u00b7 The Headquaters of the pichavaram Mangrove is located at Cuddalore town, in Cuddalore district,Tamil Nadu. Designated 2022-04-08; listed area 1,479 hectares.",
+      "hook": "The Headquaters of the pichavaram Mangrove is located at Cuddalore town, in Cuddalore district,Tamil Nadu",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2482"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2479",
+      "layer": "wetlands",
+      "name": "Koonthankulam Bird Sanctuary",
+      "lat": 8.495556,
+      "lon": 77.753889,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Tirunelveli district",
+      "ramsar": true,
+      "siteNumber": 2479,
+      "areaHa": 72,
+      "designationDate": "2021-11-08",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2479 \u00b7 Tirunelveli district. Designated 2021-11-08; listed area 72 hectares.",
+      "hook": "Tirunelveli district",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2479"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2491",
+      "layer": "wetlands",
+      "name": "Chitrangudi Bird Sanctuary",
+      "lat": 9.341111,
+      "lon": 78.477778,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Ramanathapuram",
+      "ramsar": true,
+      "siteNumber": 2491,
+      "areaHa": 260,
+      "designationDate": "2021-11-08",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2491 \u00b7 Ramanathapuram. Designated 2021-11-08; listed area 260 hectares.",
+      "hook": "Ramanathapuram",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2491"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2493",
+      "layer": "wetlands",
+      "name": "Vaduvur Bird Sanctuary",
+      "lat": 10.702778,
+      "lon": 79.316389,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Is located on Thanjavur-Mannargudi highway, Thiruvarur District, Tamil Nadu; 22km from Thanjavur on Thanjavur\u2013Mannargudi highway(SH- 63), 45km from Thiruvarur, 58km from Udayamarthandapuram Bird Sanctuary& 50km from Point Calimere Sanctuary Block A",
+      "ramsar": true,
+      "siteNumber": 2493,
+      "areaHa": 113,
+      "designationDate": "2022-04-08",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2493 \u00b7 Is located on Thanjavur-Mannargudi highway, Thiruvarur District, Tamil Nadu; 22km from Thanjavur on Thanjavur\u2013Mannargudi highway(SH- 63), 45km from Thiruvarur, 58km from Udayamarthandapuram Bird Sanctuary& 50km from Point Calimere Sanctuary Block A. Designated 2022-04-08; listed area 113 hectares.",
+      "hook": "Is located on Thanjavur-Mannargudi highway, Thiruvarur District, Tamil Nadu; 22km from Thanjavur on Thanjavur\u2013Mannargudi highway(SH- 63), 45km from Thiruvarur, 58km from Udayamarthandapuram Bird Sanctuary& 50km from Point Calimere Sanctuary Block A",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2493"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2476",
+      "layer": "wetlands",
+      "name": "Udhayamarthandapuram Bird Sanctuary",
+      "lat": 10.450556,
+      "lon": 79.554444,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "The Sanctuary is located on Tiruthuraipoondi Taluk of Tiruvarur district in Tamil Nadu., and is located about 80 kilometres from Thanjavur, about 58km from Vaduvur Birds sanctuary and 10 km from Point Calimere Birds Sanctuary Block A.",
+      "ramsar": true,
+      "siteNumber": 2476,
+      "areaHa": 44,
+      "designationDate": "2022-04-08",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2476 \u00b7 The Sanctuary is located on Tiruthuraipoondi Taluk of Tiruvarur district in Tamil Nadu., and is located about 80 kilometres from Thanjavur, about 58km from Vaduvur Birds sanctuary and 10 km from Point Calimere Birds Sanctuary Block A. Designated 2022-04-08; listed area 44 hectares.",
+      "hook": "The Sanctuary is located on Tiruthuraipoondi Taluk of Tiruvarur district in Tamil Nadu., and is located about 80 kilometres from Thanjavur, about 58km from Vaduvur Birds sanctuary and 10 km from Point Calimere Birds Sanctuary Block A.",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2476"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2478",
+      "layer": "wetlands",
+      "name": "Sirpur Wetland",
+      "lat": 22.699444,
+      "lon": 75.812222,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "The wetland is situated in Indore District in the state of Madhya Pradesh",
+      "ramsar": true,
+      "siteNumber": 2478,
+      "areaHa": 161,
+      "designationDate": "2022-01-07",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2478 \u00b7 The wetland is situated in Indore District in the state of Madhya Pradesh. Designated 2022-01-07; listed area 161 hectares.",
+      "hook": "The wetland is situated in Indore District in the state of Madhya Pradesh",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2478"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2495",
+      "layer": "wetlands",
+      "name": "Yashwant Sagar",
+      "lat": 22.803889,
+      "lon": 75.695556,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "District Indore, Madhya Pradesh",
+      "ramsar": true,
+      "siteNumber": 2495,
+      "areaHa": 823,
+      "designationDate": "2022-01-07",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2495 \u00b7 District Indore, Madhya Pradesh. Designated 2022-01-07; listed area 823 hectares.",
+      "hook": "District Indore, Madhya Pradesh",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2495"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2471",
+      "layer": "wetlands",
+      "name": "Nanda Lake",
+      "lat": 15.236667,
+      "lon": 74.107222,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Quepem municipality, Village Quepem, Quepem Taluka, South Goa, Goa, India",
+      "ramsar": true,
+      "siteNumber": 2471,
+      "areaHa": 42,
+      "designationDate": "2022-06-08",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2471 \u00b7 Quepem municipality, Village Quepem, Quepem Taluka, South Goa, Goa, India. Designated 2022-06-08; listed area 42 hectares.",
+      "hook": "Quepem municipality, Village Quepem, Quepem Taluka, South Goa, Goa, India",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2471"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2492",
+      "layer": "wetlands",
+      "name": "Suchindram Theroor Wetland Complex",
+      "lat": 8.150833,
+      "lon": 77.453889,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Commonly known as Suchindrum Eri & Theroor kulam; located at Kanniyakumari Dist. of Tamil Nadu State; is a Protected Area; declared as Conservation Reserve as per Sec 36 A of Wild Life Protection Act 1972; Env.& Forest Dept.,G.O.(Ms)No.41, Dated:19.3.2015",
+      "ramsar": true,
+      "siteNumber": 2492,
+      "areaHa": 94,
+      "designationDate": "2022-04-08",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2492 \u00b7 Commonly known as Suchindrum Eri & Theroor kulam; located at Kanniyakumari Dist. of Tamil Nadu State; is a Protected Area; declared as Conservation Reserve as per Sec 36 A of Wild Life Protection Act 1972; Env.& Forest Dept.,G.O.(Ms)No.41, Dated:19.3.2015. Designated 2022-04-08; listed area 94 hectares.",
+      "hook": "Commonly known as Suchindrum Eri & Theroor kulam; located at Kanniyakumari Dist. of Tamil Nadu State; is a Protected Area; declared as Conservation Reserve as per Sec 36 A of Wild Life Protection Act 1972; Env.& Forest Dept.,G.O.(Ms)No.41, Dated:19.3.2015",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2492"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2496",
+      "layer": "wetlands",
+      "name": "Hygam Wetland Conservation Reserve",
+      "lat": 34.24,
+      "lon": 74.526667,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "The wetland is 40 km from Srinagar, the UT summer capital and located in district Baramulla (34015'N, 74031\u2019E) of Jammu & Kashmir on the flood plains of river Jhelum at an altitudinal height of 1580 m asl.",
+      "ramsar": true,
+      "siteNumber": 2496,
+      "areaHa": 802,
+      "designationDate": "2022-06-08",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2496 \u00b7 The wetland is 40 km from Srinagar, the UT summer capital and located in district Baramulla (34015'N, 74031\u2019E) of Jammu & Kashmir on the flood plains of river Jhelum at an altitudinal height of 1580 m asl. Designated 2022-06-08; listed area 802 hectares.",
+      "hook": "The wetland is 40 km from Srinagar, the UT summer capital and located in district Baramulla (34015'N, 74031\u2019E) of Jammu & Kashmir on the flood plains of river Jhelum at an altitudinal height of 1580 m asl.",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2496"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2488",
+      "layer": "wetlands",
+      "name": "Shallbugh Wetland Conservation Reserve",
+      "lat": 34.161389,
+      "lon": 74.728056,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "The wetland is 18 km from Srinagar, the UT summer capital and located in district Srinagar and District Ganderbal of Jammu & Kashmir on the flood plains of river Jhelum at an altitudinal height of 1580 m asl. 34\u00b0 9.663'N 74\u00b0 43.457'E",
+      "ramsar": true,
+      "siteNumber": 2488,
+      "areaHa": 1675,
+      "designationDate": "2022-06-08",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2488 \u00b7 The wetland is 18 km from Srinagar, the UT summer capital and located in district Srinagar and District Ganderbal of Jammu & Kashmir on the flood plains of river Jhelum at an altitudinal height of 1580 m asl. 34\u00b0 9.663'N 74\u00b0 43.457'E. Designated 2022-06-08; listed area 1,675 hectares.",
+      "hook": "The wetland is 18 km from Srinagar, the UT summer capital and located in district Srinagar and District Ganderbal of Jammu & Kashmir on the flood plains of river Jhelum at an altitudinal height of 1580 m asl. 34\u00b0 9.663'N 74\u00b0 43.457'E",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2488"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2490",
+      "layer": "wetlands",
+      "name": "Thane Creek",
+      "lat": 19.108611,
+      "lon": 72.965,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "The site lies in the Thane, Mumbai and Mumbai Suburban district of Maharashtra State",
+      "ramsar": true,
+      "siteNumber": 2490,
+      "areaHa": 6521,
+      "designationDate": "2022-04-13",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2490 \u00b7 The site lies in the Thane, Mumbai and Mumbai Suburban district of Maharashtra State. Designated 2022-04-13; listed area 6,521 hectares.",
+      "hook": "The site lies in the Thane, Mumbai and Mumbai Suburban district of Maharashtra State",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2490"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2545",
+      "layer": "wetlands",
+      "name": "Nagi Bird Sanctuary",
+      "lat": 15.127778,
+      "lon": 76.233611,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "The Site lies in the Jamui District of Bihar State in India",
+      "ramsar": true,
+      "siteNumber": 2545,
+      "areaHa": 206,
+      "designationDate": "2023-10-11",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2545 \u00b7 The Site lies in the Jamui District of Bihar State in India. Designated 2023-10-11; listed area 206 hectares.",
+      "hook": "The Site lies in the Jamui District of Bihar State in India",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2545"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2536",
+      "layer": "wetlands",
+      "name": "Magadi Kere Conservation Reserve",
+      "lat": 15.223333,
+      "lon": 75.516667,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Shirahatti",
+      "ramsar": true,
+      "siteNumber": 2536,
+      "areaHa": 54,
+      "designationDate": "2023-02-14",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2536 \u00b7 Shirahatti. Designated 2023-02-14; listed area 54 hectares.",
+      "hook": "Shirahatti",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2536"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2548",
+      "layer": "wetlands",
+      "name": "Kazhuveli Bird Sanctuary",
+      "lat": 12.110278,
+      "lon": 79.861389,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Tamil Nadu",
+      "ramsar": true,
+      "siteNumber": 2548,
+      "areaHa": 5152,
+      "designationDate": "2024-01-16",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2548 \u00b7 Tamil Nadu. Designated 2024-01-16; listed area 5,152 hectares.",
+      "hook": "Tamil Nadu",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2548"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2559",
+      "layer": "wetlands",
+      "name": "Udhwa Lake Bird Sanctuary",
+      "lat": 24.995278,
+      "lon": 87.810278,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Sahibganj district in the state of Jharkhand.",
+      "ramsar": true,
+      "siteNumber": 2559,
+      "areaHa": 936,
+      "designationDate": "2024-01-08",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2559 \u00b7 Sahibganj district in the state of Jharkhand. Designated 2024-01-08; listed area 936 hectares.",
+      "hook": "Sahibganj district in the state of Jharkhand.",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2559"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2549",
+      "layer": "wetlands",
+      "name": "Nanjarayan Bird Sanctuary",
+      "lat": 11.134167,
+      "lon": 77.386111,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "The wetland is situated at a distance of approximately 10 kms from Tiruppur town on the north side on the Tiruppur-Uthukuli main road. Nanjarayan Lake Bird Sanctuary is locally known as",
+      "ramsar": true,
+      "siteNumber": 2549,
+      "areaHa": 126,
+      "designationDate": "2024-01-16",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2549 \u00b7 The wetland is situated at a distance of approximately 10 kms from Tiruppur town on the north side on the Tiruppur-Uthukuli main road. Nanjarayan Lake Bird Sanctuary is locally known as. Designated 2024-01-16; listed area 126 hectares.",
+      "hook": "The wetland is situated at a distance of approximately 10 kms from Tiruppur town on the north side on the Tiruppur-Uthukuli main road. Nanjarayan Lake Bird Sanctuary is locally known as",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2549"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2534",
+      "layer": "wetlands",
+      "name": "Aghanashini Estuary",
+      "lat": 14.510278,
+      "lon": 74.383056,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Kumta Taluk, Uttara Kannada District, Karnataka State, India",
+      "ramsar": true,
+      "siteNumber": 2534,
+      "areaHa": 4801,
+      "designationDate": "2023-02-14",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2534 \u00b7 Kumta Taluk, Uttara Kannada District, Karnataka State, India. Designated 2023-02-14; listed area 4,801 hectares.",
+      "hook": "Kumta Taluk, Uttara Kannada District, Karnataka State, India",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2534"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2537",
+      "layer": "wetlands",
+      "name": "Karaivetti Bird Sanctuary",
+      "lat": 10.98,
+      "lon": 79.045556,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Ariyalur District",
+      "ramsar": true,
+      "siteNumber": 2537,
+      "areaHa": 454,
+      "designationDate": "2023-05-24",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2537 \u00b7 Ariyalur District. Designated 2023-05-24; listed area 454 hectares.",
+      "hook": "Ariyalur District",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2537"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2538",
+      "layer": "wetlands",
+      "name": "Longwood Shola Reserve Forest",
+      "lat": 11.439444,
+      "lon": 76.877222,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Ooty",
+      "ramsar": true,
+      "siteNumber": 2538,
+      "areaHa": 116,
+      "designationDate": "2023-05-24",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2538 \u00b7 Ooty. Designated 2023-05-24; listed area 116 hectares.",
+      "hook": "Ooty",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2538"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2535",
+      "layer": "wetlands",
+      "name": "Ankasamudra Bird Conservation Reserve",
+      "lat": 15.127778,
+      "lon": 76.233611,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "The Site is found in the Vijayanagara District, Karnataka State, India",
+      "ramsar": true,
+      "siteNumber": 2535,
+      "areaHa": 99,
+      "designationDate": "2023-03-10",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2535 \u00b7 The Site is found in the Vijayanagara District, Karnataka State, India. Designated 2023-03-10; listed area 99 hectares.",
+      "hook": "The Site is found in the Vijayanagara District, Karnataka State, India",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2535"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2577",
+      "layer": "wetlands",
+      "name": "Udaipur Jheel",
+      "lat": 26.796944,
+      "lon": 84.437222,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "The site lies in West Champaran District of Bihar State in India",
+      "ramsar": true,
+      "siteNumber": 2577,
+      "areaHa": 319,
+      "designationDate": "2025-05-13",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2577 \u00b7 The site lies in West Champaran District of Bihar State in India. Designated 2025-05-13; listed area 319 hectares.",
+      "hook": "The site lies in West Champaran District of Bihar State in India",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2577"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2472",
+      "layer": "wetlands",
+      "name": "Gulf of Mannar Marine Biosphere Reserve",
+      "lat": 9.115833,
+      "lon": 78.786667,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Gulf of Mannar Biosphere Reserve (GoMBR), extends between Toothukudi & Ramanathapuram districts; joint declaration of Government of India & Government of Tamil Nadu.",
+      "ramsar": true,
+      "siteNumber": 2472,
+      "areaHa": 52672,
+      "designationDate": "2022-04-08",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2472 \u00b7 Gulf of Mannar Biosphere Reserve (GoMBR), extends between Toothukudi & Ramanathapuram districts; joint declaration of Government of India & Government of Tamil Nadu. Designated 2022-04-08; listed area 52,672 hectares.",
+      "hook": "Gulf of Mannar Biosphere Reserve (GoMBR), extends between Toothukudi & Ramanathapuram districts; joint declaration of Government of India & Government of Tamil Nadu.",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2472"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2483",
+      "layer": "wetlands",
+      "name": "Sakhya Sagar",
+      "lat": 25.434167,
+      "lon": 77.706944,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "The wetland is situated in Shivpuri District in the state of Madhya Pradesh",
+      "ramsar": true,
+      "siteNumber": 2483,
+      "areaHa": 248,
+      "designationDate": "2022-01-07",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2483 \u00b7 The wetland is situated in Shivpuri District in the state of Madhya Pradesh. Designated 2022-01-07; listed area 248 hectares.",
+      "hook": "The wetland is situated in Shivpuri District in the state of Madhya Pradesh",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2483"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2443",
+      "layer": "wetlands",
+      "name": "Tso Kar Wetland Complex",
+      "lat": 33.298056,
+      "lon": 78.011667,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Nyoma Block, Leh District, Union Territory of Ladakh.",
+      "ramsar": true,
+      "siteNumber": 2443,
+      "areaHa": 9577,
+      "designationDate": "2020-11-17",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2443 \u00b7 Nyoma Block, Leh District, Union Territory of Ladakh. Designated 2020-11-17; listed area 9,577 hectares.",
+      "hook": "Nyoma Block, Leh District, Union Territory of Ladakh.",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2443"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2475",
+      "layer": "wetlands",
+      "name": "Vellode Bird Sanctuary",
+      "lat": 11.251667,
+      "lon": 77.651667,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Declared Bird Sanctuary under Section 26(1) of Wildlife Protection Act 1972 (Central Act 53) in G.O.Ms.No.44, Environment& Forests (FRV) Dept. dated 29.2.2000 in Tamil Nadu Gazette.",
+      "ramsar": true,
+      "siteNumber": 2475,
+      "areaHa": 77,
+      "designationDate": "2022-04-08",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2475 \u00b7 Declared Bird Sanctuary under Section 26(1) of Wildlife Protection Act 1972 (Central Act 53) in G.O.Ms.No.44, Environment& Forests (FRV) Dept. dated 29.2.2000 in Tamil Nadu Gazette. Designated 2022-04-08; listed area 77 hectares.",
+      "hook": "Declared Bird Sanctuary under Section 26(1) of Wildlife Protection Act 1972 (Central Act 53) in G.O.Ms.No.44, Environment& Forests (FRV) Dept. dated 29.2.2000 in Tamil Nadu Gazette.",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2475"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2477",
+      "layer": "wetlands",
+      "name": "Vedanthangal Bird Sanctuary",
+      "lat": 12.546389,
+      "lon": 79.855833,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Maduranthagam Taluk of Chengalpattu District",
+      "ramsar": true,
+      "siteNumber": 2477,
+      "areaHa": 40,
+      "designationDate": "2022-04-08",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2477 \u00b7 Maduranthagam Taluk of Chengalpattu District. Designated 2022-04-08; listed area 40 hectares.",
+      "hook": "Maduranthagam Taluk of Chengalpattu District",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2477"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2440",
+      "layer": "wetlands",
+      "name": "Sur Sarovar",
+      "lat": 27.251667,
+      "lon": 77.84,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "The wetland is located on Delhi-Mathura highway (National Highway-2), in Agra district, Uttar Pradesh",
+      "ramsar": true,
+      "siteNumber": 2440,
+      "areaHa": 431,
+      "designationDate": "2020-08-21",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2440 \u00b7 The wetland is located on Delhi-Mathura highway (National Highway-2), in Agra district, Uttar Pradesh. Designated 2020-08-21; listed area 431 hectares.",
+      "hook": "The wetland is located on Delhi-Mathura highway (National Highway-2), in Agra district, Uttar Pradesh",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2440"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2457",
+      "layer": "wetlands",
+      "name": "Sultanpur National Park",
+      "lat": 28.465,
+      "lon": 76.891944,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Gurugram, Haryana",
+      "ramsar": true,
+      "siteNumber": 2457,
+      "areaHa": 143,
+      "designationDate": "2021-05-25",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2457 \u00b7 Gurugram, Haryana. Designated 2021-05-25; listed area 143 hectares.",
+      "hook": "Gurugram, Haryana",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2457"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2480",
+      "layer": "wetlands",
+      "name": "Karikili Bird Sanctuary",
+      "lat": 12.598889,
+      "lon": 79.842222,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Partly Maduranthagam Taluk, Chengalpattu District & partly Kancheepuram District",
+      "ramsar": true,
+      "siteNumber": 2480,
+      "areaHa": 58,
+      "designationDate": "2022-04-08",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2480 \u00b7 Partly Maduranthagam Taluk, Chengalpattu District & partly Kancheepuram District. Designated 2022-04-08; listed area 58 hectares.",
+      "hook": "Partly Maduranthagam Taluk, Chengalpattu District & partly Kancheepuram District",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2480"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2486",
+      "layer": "wetlands",
+      "name": "Kanjirankulam Bird Sanctuary",
+      "lat": 9.359722,
+      "lon": 78.478889,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Peraiyur Panchayat, Mudukulathur Taluk, Ramanathapuram District, Tamilnadu, India",
+      "ramsar": true,
+      "siteNumber": 2486,
+      "areaHa": 97,
+      "designationDate": "2022-04-08",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2486 \u00b7 Peraiyur Panchayat, Mudukulathur Taluk, Ramanathapuram District, Tamilnadu, India. Designated 2022-04-08; listed area 97 hectares.",
+      "hook": "Peraiyur Panchayat, Mudukulathur Taluk, Ramanathapuram District, Tamilnadu, India",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2486"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2589",
+      "layer": "wetlands",
+      "name": "Patna Bird Sanctuary",
+      "lat": 27.524722,
+      "lon": 78.311667,
+      "group": "Ramsar wetland",
+      "state": "Uttar Pradesh",
+      "region": "Jalesar tehsil of Etah district of Uttar Pradesh",
+      "ramsar": true,
+      "siteNumber": 2589,
+      "areaHa": 109,
+      "designationDate": "2025-12-04",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2589 \u00b7 Jalesar tehsil of Etah district of Uttar Pradesh. Designated 2025-12-04; listed area 109 hectares.",
+      "hook": "Etah \u00b7 bird sanctuary; do not confuse it with Patna city in Bihar.",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2589"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2588",
+      "layer": "wetlands",
+      "name": "Chhari Dhand",
+      "lat": 23.5775,
+      "lon": 69.406667,
+      "group": "Ramsar wetland",
+      "state": "Gujarat",
+      "region": "The area falls in administrative jurisdiction of Kachchh District of Gujarat.",
+      "ramsar": true,
+      "siteNumber": 2588,
+      "areaHa": 22700,
+      "designationDate": "2025-06-16",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2588 \u00b7 The area falls in administrative jurisdiction of Kachchh District of Gujarat. Designated 2025-06-16; listed area 22,700 hectares.",
+      "hook": "Kachchh \u00b7 seasonal saline wetland beside the Banni grasslands.",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2588"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2594",
+      "layer": "wetlands",
+      "name": "Sheikha Jheel Bird Sanctuary",
+      "lat": 27.8575,
+      "lon": 78.2175,
+      "group": "Ramsar wetland",
+      "state": "Uttar Pradesh",
+      "region": "Koil Tehsil, District \u2013Aligarh",
+      "ramsar": true,
+      "siteNumber": 2594,
+      "areaHa": 40,
+      "designationDate": "2026-01-19",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2594 \u00b7 Koil Tehsil, District \u2013Aligarh. Designated 2026-01-19; listed area 40 hectares.",
+      "hook": "Aligarh \u00b7 wetland associated with the Upper Ganges Canal.",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2594"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2595",
+      "layer": "wetlands",
+      "name": "Jai Prakash Narayan Bird Sanctuary",
+      "lat": 25.839444,
+      "lon": 84.171667,
+      "group": "Ramsar wetland",
+      "state": "Uttar Pradesh",
+      "region": "Bansdeeh Tehsil and Ballia Tehsil, Ballia District",
+      "ramsar": true,
+      "siteNumber": 2595,
+      "areaHa": 3432,
+      "designationDate": "2026-01-19",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2595 \u00b7 Bansdeeh Tehsil and Ballia Tehsil, Ballia District. Designated 2026-01-19; listed area 3,432 hectares.",
+      "hook": "Surha Tal \u00b7 Ballia \u00b7 announced as India\u2019s 100th Ramsar site in June 2026.",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2595"
+        },
+        {
+          "label": "PIB announcement, 5 June 2026",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2269189"
+        }
+      ],
+      "aliases": [
+        "Surha Tal"
+      ]
+    },
+    {
+      "id": "ramsar-2411",
+      "layer": "wetlands",
+      "name": "Sarsai Nawar Jheel",
+      "lat": 26.968889,
+      "lon": 79.250556,
+      "group": "Ramsar wetland",
+      "state": "",
+      "region": "Takha tehsil, Etawah District, Uttar Pradesh",
+      "ramsar": true,
+      "siteNumber": 2411,
+      "areaHa": 161,
+      "designationDate": "2019-09-19",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2411 \u00b7 Takha tehsil, Etawah District, Uttar Pradesh. Designated 2019-09-19; listed area 161 hectares.",
+      "hook": "Takha tehsil, Etawah District, Uttar Pradesh",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2411"
+        }
+      ]
+    },
+    {
+      "id": "ramsar-2597",
+      "layer": "wetlands",
+      "name": "Glaw Lake",
+      "lat": 27.696389,
+      "lon": 96.453056,
+      "group": "Ramsar wetland",
+      "state": "Arunachal Pradesh",
+      "region": "Lohit district, Arunachal Pradesh, India",
+      "ramsar": true,
+      "siteNumber": 2597,
+      "areaHa": 129,
+      "designationDate": "2026-01-21",
+      "verifiedOn": "2026-10-02",
+      "fact": "Ramsar site 2597 \u00b7 Lohit district, Arunachal Pradesh, India. Designated 2026-01-21; listed area 129 hectares.",
+      "hook": "Lohit \u00b7 freshwater lake within Kamlang Tiger Reserve and Wildlife Sanctuary.",
+      "sources": [
+        {
+          "label": "Ramsar site record",
+          "url": "https://rsis.ramsar.org/ris/2597"
+        },
+        {
+          "label": "Ramsar announcement, 3 August 2026",
+          "url": "https://www.ramsar.org/news/india-designates-glaw-lake-wetland-international-importance"
+        }
+      ]
+    },
+    {
+      "id": "sikhna-jwhwlao",
+      "layer": "protected",
+      "name": "Sikhna Jwhwlao National Park",
+      "state": "Assam",
+      "lat": 26.75,
+      "lon": 90.33,
+      "group": "National park",
+      "fact": "Notified on 5 March 2025 across Kokrajhar and Chirang districts; area 316.29 km\u00b2.",
+      "hook": "Bhutan border \u00b7 Saralbhanga river \u00b7 adjoining Raimona",
+      "verifiedOn": "2026-10-02",
+      "coordinateNote": "Approximate study-map anchor, not a park boundary.",
+      "sources": [
+        {
+          "label": "State Forest Department",
+          "url": "https://forest.assam.gov.in/sites/default/files/swf_utility_folder/departments/envforest_lipl_in_oid_3/menu/document/document-131-1_0.pdf"
+        }
+      ]
+    },
+    {
+      "id": "similipal",
+      "layer": "protected",
+      "name": "Similipal National Park",
+      "state": "Odisha",
+      "lat": 21.75,
+      "lon": 86.35,
+      "group": "National park",
+      "fact": "National-park final notification approved on 24 April 2025; national-park area 845.70 km\u00b2. This area is distinct from the larger tiger reserve and biosphere reserve.",
+      "hook": "Mayurbhanj \u00b7 sal forests \u00b7 melanistic tigers",
+      "verifiedOn": "2026-10-02",
+      "coordinateNote": "Approximate study-map anchor, not a park boundary.",
+      "sources": [
+        {
+          "label": "State Forest Department",
+          "url": "https://inpr.odisha.gov.in/sites/default/files/2025-04/News-Forest_24042025EEEE.pdf"
+        }
+      ]
+    },
+    {
+      "id": "raimona",
+      "layer": "protected",
+      "name": "Raimona National Park",
+      "state": "Assam",
+      "lat": 26.73,
+      "lon": 90.12,
+      "group": "National park",
+      "fact": "National park in Assam, included in the state Forest Department\u2019s 2024 protected-area elephant assessment.",
+      "hook": "Assam \u00b7 protected forest landscape",
+      "verifiedOn": "2026-10-02",
+      "coordinateNote": "Approximate study-map anchor, not a park boundary.",
+      "sources": [
+        {
+          "label": "State Forest Department",
+          "url": "https://forest.assam.gov.in/sites/default/files/swf_utility_folder/departments/pccf_lipl_in_oid_4/latest/elephant_population_estimation_in_assam_2024.pdf"
+        }
+      ]
+    },
+    {
+      "id": "dehing-patkai",
+      "layer": "protected",
+      "name": "Dehing Patkai National Park",
+      "state": "Assam",
+      "lat": 27.28,
+      "lon": 95.48,
+      "group": "National park",
+      "fact": "National park in Assam, included in the state Forest Department\u2019s 2024 protected-area elephant assessment.",
+      "hook": "Assam \u00b7 eastern forest landscape",
+      "verifiedOn": "2026-10-02",
+      "coordinateNote": "Approximate study-map anchor, not a park boundary.",
+      "sources": [
+        {
+          "label": "State Forest Department",
+          "url": "https://forest.assam.gov.in/sites/default/files/swf_utility_folder/departments/pccf_lipl_in_oid_4/latest/elephant_population_estimation_in_assam_2024.pdf"
+        }
+      ]
+    },
+    {
+      "id": "indus",
+      "name": "Indus",
+      "layer": "rivers",
+      "fact": "Originates in the Kailash region of Tibet; flows through Ladakh and Pakistan to the Arabian Sea. Its major tributaries include Jhelum, Chenab, Ravi, Beas and Sutlej.",
+      "hook": "Kailash region \u2192 Ladakh \u2192 Pakistan \u2192 Arabian Sea",
+      "recallPrompt": "Rises in the Kailash region, crosses Ladakh and drains Pakistan into the Arabian Sea.",
+      "verifiedOn": "2026-10-02",
+      "coordinateNote": "Simplified study line; use the river centreline layer for the mapped course.",
+      "sources": [
+        {
+          "label": "Central Water Commission",
+          "url": "https://cwc.gov.in/en/ibo/about-basins"
+        }
+      ]
+    },
+    {
+      "id": "jhelum",
+      "name": "Jhelum",
+      "layer": "rivers",
+      "fact": "Rises at the Verinag spring in Kashmir; flows through Srinagar and Wular Lake before continuing towards Pakistan.",
+      "hook": "Verinag \u2192 Srinagar \u2192 Wular \u2192 Indus system",
+      "recallPrompt": "Rises at Verinag, flows through Srinagar and passes through Wular Lake.",
+      "verifiedOn": "2026-10-02",
+      "coordinateNote": "Simplified study line; use the river centreline layer for the mapped course.",
+      "sources": [
+        {
+          "label": "Central Water Commission",
+          "url": "https://cwc.gov.in/en/ibo/about-basins"
+        }
+      ],
+      "type": "line",
+      "coords": [
+        [
+          33.54,
+          75.25
+        ],
+        [
+          34.08,
+          74.86
+        ],
+        [
+          34.35,
+          74.55
+        ],
+        [
+          34.2,
+          73.5
+        ]
+      ],
+      "group": "Indus tributary"
+    },
+    {
+      "id": "chenab",
+      "name": "Chenab",
+      "layer": "rivers",
+      "fact": "Formed by the Chandra and Bhaga at Tandi in Himachal Pradesh; continues through Jammu and Kashmir into Pakistan.",
+      "hook": "Chandra + Bhaga \u2192 Tandi \u2192 Indus system",
+      "recallPrompt": "Formed at Tandi by the Chandra and Bhaga streams.",
+      "verifiedOn": "2026-10-02",
+      "coordinateNote": "Simplified study line; use the river centreline layer for the mapped course.",
+      "sources": [
+        {
+          "label": "Central Water Commission",
+          "url": "https://cwc.gov.in/en/ibo/about-basins"
+        }
+      ],
+      "type": "line",
+      "coords": [
+        [
+          32.55,
+          76.98
+        ],
+        [
+          33.3,
+          76
+        ],
+        [
+          33.1,
+          75.5
+        ],
+        [
+          32.85,
+          74.6
+        ],
+        [
+          31.8,
+          72.9
+        ]
+      ],
+      "group": "Indus tributary"
+    },
+    {
+      "id": "ravi",
+      "name": "Ravi",
+      "layer": "rivers",
+      "fact": "Rises in the Chamba district of Himachal Pradesh and belongs to the Indus river system.",
+      "hook": "Chamba \u2192 Punjab region \u2192 Indus system",
+      "recallPrompt": "Rises in Himachal Pradesh\u2019s Chamba district; one of the five Punjab rivers.",
+      "verifiedOn": "2026-10-02",
+      "coordinateNote": "Simplified study line; use the river centreline layer for the mapped course.",
+      "sources": [
+        {
+          "label": "Central Water Commission",
+          "url": "https://cwc.gov.in/en/ibo/about-basins"
+        }
+      ],
+      "type": "line",
+      "coords": [
+        [
+          32.35,
+          76.4
+        ],
+        [
+          32.55,
+          76.12
+        ],
+        [
+          32.4,
+          75.6
+        ],
+        [
+          31.5,
+          74.3
+        ],
+        [
+          30.6,
+          72.3
+        ]
+      ],
+      "group": "Indus tributary"
+    },
+    {
+      "id": "sutlej",
+      "name": "Sutlej",
+      "layer": "rivers",
+      "fact": "A major Indus tributary originating near the Manasarovar region in Tibet; enters Himachal Pradesh near Shipki La and feeds Gobind Sagar at Bhakra.",
+      "hook": "Tibet \u2192 Shipki La \u2192 Gobind Sagar \u2192 Punjab",
+      "recallPrompt": "Enters India near Shipki La and feeds the Gobind Sagar reservoir.",
+      "verifiedOn": "2026-10-02",
+      "coordinateNote": "Simplified study line; use the river centreline layer for the mapped course.",
+      "sources": [
+        {
+          "label": "Central Water Commission",
+          "url": "https://cwc.gov.in/en/ibo/about-basins"
+        }
+      ],
+      "type": "line",
+      "coords": [
+        [
+          31.2,
+          81.4
+        ],
+        [
+          31.82,
+          78.72
+        ],
+        [
+          31.45,
+          77.65
+        ],
+        [
+          31.4,
+          76.44
+        ],
+        [
+          31,
+          75
+        ],
+        [
+          30.4,
+          73.8
+        ]
+      ],
+      "group": "Indus tributary"
+    },
+    {
+      "id": "ganga",
+      "name": "Ganga",
+      "layer": "rivers",
+      "fact": "The Bhagirathi and Alaknanda meet at Devprayag; their combined flow is called Ganga. Major tributaries include Yamuna, Ghaghara, Gandak, Kosi and Son.",
+      "hook": "Bhagirathi + Alaknanda \u2192 Devprayag \u2192 Ganga",
+      "recallPrompt": "Its two main Himalayan headstreams meet at Devprayag.",
+      "verifiedOn": "2026-10-02",
+      "coordinateNote": "Simplified study line; use the river centreline layer for the mapped course.",
+      "sources": [
+        {
+          "label": "Central Water Commission",
+          "url": "https://cwc.gov.in/sites/default/files/vol-1reportcommitteeconductingjointdetailedtechnicalstudy.pdf"
+        }
+      ]
+    },
+    {
+      "id": "godavari",
+      "name": "Godavari",
+      "layer": "rivers",
+      "fact": "Rises at Trimbakeshwar in Maharashtra and flows to the Bay of Bengal; major tributaries include Manjra, Indravati, Wardha and Wainganga.",
+      "hook": "Trimbakeshwar \u2192 Deccan \u2192 Bay of Bengal",
+      "recallPrompt": "Rises at Trimbakeshwar in Nashik district and drains eastwards to the Bay of Bengal.",
+      "verifiedOn": "2026-10-02",
+      "coordinateNote": "Simplified study line; use the river centreline layer for the mapped course.",
+      "sources": [
+        {
+          "label": "Central Water Commission",
+          "url": "https://cwc.gov.in/sites/default/files/status-trace-and-toxic-metals-river-india-8th-edition-2024-1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "krishna",
+      "name": "Krishna",
+      "layer": "rivers",
+      "fact": "Rises near Mahabaleshwar in Maharashtra and flows to the Bay of Bengal; Bhima and Tungabhadra are major tributaries.",
+      "hook": "Mahabaleshwar \u2192 Bhima / Tungabhadra \u2192 Bay of Bengal",
+      "recallPrompt": "Rises near Mahabaleshwar; receives Bhima and Tungabhadra.",
+      "verifiedOn": "2026-10-02",
+      "coordinateNote": "Simplified study line; use the river centreline layer for the mapped course.",
+      "sources": [
+        {
+          "label": "Central Water Commission",
+          "url": "https://cwc.gov.in/sites/default/files/main-report.pdf"
+        }
+      ]
+    },
+    {
+      "id": "narmada",
+      "name": "Narmada",
+      "layer": "rivers",
+      "fact": "Rises at Amarkantak and flows westwards into the Gulf of Khambhat; Tawa is a major tributary.",
+      "hook": "Amarkantak \u2192 westward valley \u2192 Gulf of Khambhat",
+      "recallPrompt": "Rises at Amarkantak and flows west to the Gulf of Khambhat.",
+      "verifiedOn": "2026-10-02",
+      "coordinateNote": "Simplified study line; use the river centreline layer for the mapped course.",
+      "sources": [
+        {
+          "label": "Central Water Commission",
+          "url": "https://cwc.gov.in/sites/default/files/combined-final-hdd-09042012.pdf"
+        }
+      ]
+    },
+    {
+      "id": "tapi",
+      "name": "Tapi / Tapti",
+      "layer": "rivers",
+      "fact": "Rises near Multai in Betul district, Madhya Pradesh; flows through Maharashtra and Gujarat to the Arabian Sea near Surat.",
+      "hook": "Multai \u2192 Khandesh \u2192 Surat",
+      "recallPrompt": "Rises near Multai in Betul district and flows west via Maharashtra and Gujarat.",
+      "verifiedOn": "2026-10-02",
+      "coordinateNote": "Simplified study line; use the river centreline layer for the mapped course.",
+      "sources": [
+        {
+          "label": "Central Water Commission",
+          "url": "https://cwc.gov.in/sites/default/files/ntbouser/wqyb-2012-13-final.pdf"
+        }
+      ]
+    },
+    {
+      "id": "kaveri",
+      "name": "Kaveri / Cauvery",
+      "layer": "rivers",
+      "fact": "Rises at Talakaveri in Karnataka\u2019s Brahmagiri hills; its basin spans Karnataka, Tamil Nadu, Kerala and Puducherry.",
+      "hook": "Talakaveri \u2192 Karnataka \u2192 Tamil Nadu \u2192 Bay of Bengal",
+      "recallPrompt": "Rises at Talakaveri in the Brahmagiri hills of Karnataka.",
+      "verifiedOn": "2026-10-02",
+      "coordinateNote": "Simplified study line; use the river centreline layer for the mapped course.",
+      "sources": [
+        {
+          "label": "Central Water Commission",
+          "url": "https://www.cwc.gov.in/sites/default/files/cauvery-basin-final-report-a4.pdf"
+        }
+      ]
+    },
+    {
+      "id": "brahmaputra",
+      "name": "Brahmaputra / Yarlung Tsangpo",
+      "layer": "rivers",
+      "fact": "Flows through Tibet as the Tsangpo, enters Arunachal Pradesh as Siang/Dihang and flows through Assam into Bangladesh.",
+      "hook": "Tsangpo \u2192 Siang / Dihang \u2192 Brahmaputra \u2192 Jamuna",
+      "recallPrompt": "Known as Tsangpo in Tibet and Siang/Dihang in Arunachal Pradesh.",
+      "verifiedOn": "2026-10-02",
+      "coordinateNote": "Simplified study line; use the river centreline layer for the mapped course.",
+      "sources": [
+        {
+          "label": "Central Water Commission",
+          "url": "https://cwc.gov.in/sites/default/files/volume-i.pdf"
+        }
+      ]
+    }
+  ]
+}

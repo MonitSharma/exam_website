@@ -16349,7 +16349,15 @@
         "polity/arjun-gopal-v-uoi-firecrackers-no-total-ban-joint-crackers-barium-decision-15-oct",
         "polity/limits-on-freedom-of-religion-under-art-25-1",
         "economy/art-279a-composition-and-voting-weights"
-      ]
+      ],
+      "atlasWeekId": "2026-09-27-library",
+      "atlasFeatureIds": [
+        "2026-09-27-library-united-states-of-america-united-states-of-america",
+        "2026-09-27-library-india-sriharikota",
+        "2026-09-27-library-new-zealand-new-zealand",
+        "2026-09-27-library-india-thoothukkudi"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-current-affairs-upsc-ca-2026-09-30",
@@ -16378,7 +16386,18 @@
         "geography/vasundhara-tal-chamoli-glacial-lake-early-warning-system-29-sept-15-oct-2026-344-lakes-13-high-risk",
         "polity/section-23-bharatiya-sakshya-adhiniyam-2023-confessions-to-police-custodial-confessions-discovery-proviso",
         "economy/electricity-act-2003-cerc-vs-serc-jurisdiction-electricity-in-concurrent-list-entry-38"
-      ]
+      ],
+      "atlasWeekId": "2026-09-27-library",
+      "atlasFeatureIds": [
+        "2026-09-27-library-pakistan-pakistan",
+        "2026-09-27-library-uzbekistan-tashkent",
+        "2026-09-27-library-kyrgyzstan-bishkek",
+        "2026-09-27-library-belarus-belarus",
+        "2026-09-27-library-kyrgyzstan-kyrgyzstan",
+        "2026-09-27-library-india-chamoli",
+        "2026-09-27-library-india-sambhal"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-current-affairs-upsc-ca-2026-09-29",
@@ -16407,7 +16426,17 @@
         "science-technology/kandla-e-methanol-plant-150-tpd-dpa-76-apl-24-green-h2-biogenic-co2",
         "polity/article-124-composition-and-qualifications-of-sc-judges",
         "science-technology/hydrogen-colours-and-electrolysis"
-      ]
+      ],
+      "atlasWeekId": "2026-09-27-library",
+      "atlasFeatureIds": [
+        "2026-09-27-library-china-china",
+        "2026-09-27-library-japan-japan",
+        "2026-09-27-library-france-france",
+        "2026-09-27-library-spain-spain",
+        "2026-09-27-library-united-states-of-america-united-states-of-america",
+        "2026-09-27-library-australia-australia"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-current-affairs-upsc-ca-2026-09-28",
@@ -16436,7 +16465,17 @@
         "polity/electoral-rolls-art-324-form-6-sir",
         "economy/ports-legislation-union-list-entry-27",
         "environment/unesco-western-ghats-whs"
-      ]
+      ],
+      "atlasWeekId": "2026-09-27-library",
+      "atlasFeatureIds": [
+        "2026-09-27-library-india-western-ghats-kerala",
+        "2026-09-27-library-india-mundra-nhava-sheva",
+        "2026-09-27-library-china-china",
+        "2026-09-27-library-russia-russia",
+        "2026-09-27-library-taiwan-taiwan",
+        "2026-09-27-library-japan-japan"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-current-affairs-upsc-ca-2026-09-27",
@@ -16465,7 +16504,21 @@
         "geography/ethiopia-tigray-mekelle-danakil-depression-lake-tana",
         "polity/article-22-preventive-detention-safeguards-and-legislative-competence",
         "economy/treasury-bills-issuer-pricing-and-tenors"
-      ]
+      ],
+      "atlasWeekId": "2026-09-27-library",
+      "atlasFeatureIds": [
+        "2026-09-27-library-ethiopia-ethiopia",
+        "2026-09-27-library-south-sudan-south-sudan",
+        "2026-09-27-library-somalia-somalia",
+        "2026-09-27-library-kenya-kenya",
+        "2026-09-27-library-ukraine-ukraine",
+        "2026-09-27-library-liberia-liberia",
+        "2026-09-27-library-sudan-sudan",
+        "2026-09-27-library-djibouti-djibouti",
+        "2026-09-27-library-eritrea-eritrea",
+        "2026-09-27-library-pakistan-pakistan"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-current-affairs-upsc-ca-2026-09-26",
@@ -16496,7 +16549,21 @@
         "society/fssai-draft-on-analogue-paneer-fssai-s-statutory-basis",
         "polity/election-petitions-forum-limitation-abhiram-singh-case",
         "environment/ntca-statutory-basis-chair-notification-of-tiger-reserves"
-      ]
+      ],
+      "atlasWeekId": "2026-09-20-library",
+      "atlasFeatureIds": [
+        "2026-09-20-library-india-hyderabad",
+        "2026-09-20-library-united-states-of-america-united-states-of-america",
+        "2026-09-20-library-australia-australia",
+        "2026-09-20-library-france-france",
+        "2026-09-20-library-oman-oman",
+        "2026-09-20-library-mongolia-mongolia",
+        "2026-09-20-library-united-arab-emirates-united-arab-emirates",
+        "2026-09-20-library-united-kingdom-united-kingdom",
+        "2026-09-20-library-new-zealand-new-zealand",
+        "2026-09-20-library-mauritius-mauritius"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-current-affairs-upsc-ca-2026-09-25",
@@ -16525,7 +16592,14 @@
         "agriculture/ncfc-nadams-and-satellite-based-agricultural-drought-monitoring",
         "geography/imd-cyclone-intensity-scale-and-the-rsmc-new-delhi-naming-system",
         "agriculture/oilseeds-nmeo-oil-palm-and-nmeo-oilseeds"
-      ]
+      ],
+      "atlasWeekId": "2026-09-20-library",
+      "atlasFeatureIds": [
+        "2026-09-20-library-australia-australia",
+        "2026-09-20-library-bangladesh-bangladesh",
+        "2026-09-20-library-india-new-delhi"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-current-affairs-upsc-ca-2026-09-24",
@@ -16554,7 +16628,14 @@
         "culture/four-additions-to-india-s-unesco-tentative-list-2026-colonial-penal-settlement-of-the-andaman-islands-cellular-jail-1896-1906-seven-radial-wings-viper-chatham-and-netaji-subhas-chandra-bose-islands-rangpur-sivasagar-historic-ensemble-tai-ahom-capital-1704-sivadol-32-m-rang-ghar-nicobarese-cultural-continuity-stilted-beehive-huts-chowra-island-coil-and-pinch-pottery-painted-haveli-towns-of-shekhawati-india-s-world-heritage-sites-total-45-after-sarnath",
         "environment/planetary-boundaries-framework-rockstrom-et-al-2009-stockholm-resilience-centre-the-nine-boundaries-climate-change-biosphere-integrity-land-system-change-freshwater-change-biogeochemical-flows-n-and-p-ocean-acidification-novel-entities-stratospheric-ozone-depletion-atmospheric-aerosol-loading",
         "internal-security/ndps-act-1985-narcotics-control-bureau-constituted-1986-under-mha-four-tier-ncord-from-apex-to-district-level-manas-helpline-1933-nasha-mukt-bharat-abhiyaan-2020-ndps-sections-39-and-64a-treatment-not-punishment-provisions"
-      ]
+      ],
+      "atlasWeekId": "2026-09-20-library",
+      "atlasFeatureIds": [
+        "2026-09-20-library-united-states-of-america-united-states-of-america",
+        "2026-09-20-library-india-sarnath",
+        "2026-09-20-library-india-chandrapur"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-current-affairs-upsc-ca-2026-09-23",
@@ -16584,7 +16665,18 @@
         "history/supreme-court-of-22-september-2026-cji-surya-kant-joymalya-bagchi-and-v-mohana-on-t-m-krishna-s-petition-challenging-section-3-of-the-prevention-of-insults-to-national-honour-act-1971-as-amended-in-2026-and-mha-orders-of-28-january-and-9-july-2026-observing-orally-that-bijoe-emmanuel-v-state-of-kerala-1986-will-govern-the-act-and-that-there-should-be-no-criminal-consequences-for-refusal-on-religious-grounds-notice-issued-to-the-union-not-a-final-judgment-karnataka-governor-thaawarchand-gehlot-s-letter-of-22-september-2026-on-the-state-order-of-8-september-2026-limiting-rendition-to-two-stanzas-vande-mataram-in-bankim-chandra-chattopadhyay-s-anandamath-1882-sung-at-the-1896-calcutta-congress-session-rallying-cry-of-the-swadeshi-movement-1905-six-stanzas-with-the-congress-resolution-of-1937-confining-public-rendition-to-the-first-two-constituent-assembly-statement-of-24-january-1950-article-25-and-article-51a-a",
         "environment/eia-notification-2006-under-the-environment-protection-act-1986-category-a-appraised-centrally-by-moefcc-on-the-recommendation-of-the-expert-appraisal-committee-and-category-b-by-the-state-environment-impact-assessment-authority-advised-by-the-state-expert-appraisal-committee-four-stages-of-screening-scoping-public-consultation-and-appraisal-category-a-exempt-from-screening-b1-requires-eia-while-b2-is-exempt-exemptions-from-public-consultation-terms-of-reference-eia-report-and-environment-management-plan-parivesh-portal-appeal-to-the-national-green-tribunal-under-the-ngt-act-2010-coastal-regulation-zone-notification-2019-for-coastal-and-port-projects",
         "ancient-and-medieval-history/classical-ayurvedic-canon-brihat-trayi-comprising-the-charaka-samhita-kayachikitsa-or-internal-medicine-a-redaction-of-the-agnivesha-tantra-the-sushruta-samhita-shalya-tantra-or-surgery-and-the-ashtanga-hridaya-of-vagbhata-who-also-composed-the-ashtanga-sangraha-laghu-trayi-comprising-the-madhava-nidana-sharngadhara-samhita-and-bhavaprakasha-ashtanga-or-eight-branches-of-ayurveda-dhanvantari-in-the-ayurvedic-tradition"
-      ]
+      ],
+      "atlasWeekId": "2026-09-20-library",
+      "atlasFeatureIds": [
+        "2026-09-20-library-united-states-of-america-united-states-of-america",
+        "2026-09-20-library-australia-australia",
+        "2026-09-20-library-india-great-nicobar-island",
+        "2026-09-20-library-france-france",
+        "2026-09-20-library-japan-japan",
+        "2026-09-20-library-singapore-singapore",
+        "2026-09-20-library-india-jodhpur"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-current-affairs-upsc-ca-2026-09-22",
@@ -16614,7 +16706,15 @@
         "polity/article-19-1-g-proportionality-and-judicial-review-of-subordinate-legislation",
         "polity/74th-amendment-twelfth-schedule-and-article-243w",
         "geography/himalayan-rivers-of-bhutan-and-brahmaputra-tributaries"
-      ]
+      ],
+      "atlasWeekId": "2026-09-20-library",
+      "atlasFeatureIds": [
+        "2026-09-20-library-china-china",
+        "2026-09-20-library-india-nagpur",
+        "2026-09-20-library-bhutan-bhutan",
+        "2026-09-20-library-jersey-jersey"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-current-affairs-upsc-ca-2026-09-21",
@@ -16645,7 +16745,17 @@
         "society/pib-backgrounder-of-20-september-2026-consolidating-frontline-community-cadre-data-across-the-ministries-of-rural-development-health-and-family-welfare-women-and-child-development-and-jal-shakti-over-30-lakh-trained-village-level-workers-10-40-lakh-ashas-and-10-58-lakh-anganwadi-workers-over-9-lakh-community-resource-persons-under-day-nrlm-of-which-4-08-lakh-are-livelihood-crps-krishi-sakhi-1-91-lakh-pashu-sakhi-1-70-lakh-udyog-sakhi-48-785-van-sakhi-2-993-matsya-sakhi-2-012-1-48-lakh-bc-sakhis-swachhagrahis-and-awaas-mitras-community-cadre-approach-based-on-activity-linked-incentives-rather-than-salaries-shg-to-village-organisation-to-cluster-level-federation-architecture",
         "polity/part-xvii-of-the-constitution-articles-343-to-351-article-345-on-official-languages-of-a-state-eighth-schedule-with-22-languages-the-last-four-bodo-dogri-maithili-santhali-added-by-the-92nd-constitutional-amendment-act-2003-with-no-fixed-criteria-for-inclusion-classical-language-status-as-an-executive-decision-of-the-ministry-of-culture-now-covering-11-languages-tamil-2004-sanskrit-2005-kannada-and-telugu-2008-malayalam-2013-odia-2014-and-marathi-pali-prakrit-assamese-and-bengali-october-2024-pali-and-prakrit-as-classical-languages-outside-the-eighth-schedule",
         "science-technology/anaerobic-digestion-of-organic-matter-producing-biogas-composed-chiefly-of-methane-with-carbon-dioxide-hydrogen-sulphide-and-moisture-upgradation-and-compression-to-about-90-95-methane-to-yield-compressed-biogas-meeting-cng-specifications-feedstocks-including-cattle-dung-agricultural-residue-food-waste-municipal-solid-waste-and-sewage-fermented-organic-manure-as-a-by-product-satat-scheme-of-1-october-2018-and-the-gobardhan-national-unified-scheme-for-compressed-biogas-as-the-policy-vehicles"
-      ]
+      ],
+      "atlasWeekId": "2026-09-20-library",
+      "atlasFeatureIds": [
+        "2026-09-20-library-india-dakshina-kannada-mangaluru",
+        "2026-09-20-library-india-bharat-mandapam-delhi",
+        "2026-09-20-library-tajikistan-tajikistan",
+        "2026-09-20-library-germany-germany",
+        "2026-09-20-library-netherlands-netherlands",
+        "2026-09-20-library-bangladesh-bangladesh"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-current-affairs-upsc-ca-2026-09-20",
@@ -16674,7 +16784,17 @@
         "economy/us-fomc-raises-the-federal-funds-rate-by-25-basis-points-to-3-75-4-in-september-2026-on-a-unanimous-12-0-vote-the-first-hike-since-2023-under-chair-kevin-warsh-succeeding-jerome-powell-median-projection-of-one-further-hike-summary-of-economic-projections-and-dot-plot-fed-dual-mandate-of-price-stability-at-2-and-maximum-employment-versus-india-s-flexible-inflation-targeting-at-4-cpi-plus-or-minus-2-mpc-created-by-the-finance-act-2016-amending-the-rbi-act-1934-six-members-governor-s-casting-vote-at-least-four-meetings-a-year-report-to-government-on-missing-the-target-for-three-consecutive-quarters-transmission-channels-of-capital-flows-rupee-depreciation-and-imported-crude-and-fertiliser-costs-ecb-and-external-borrowing-costs-impossible-trinity-mundell-fleming-trilemma-central-bank-independence-under-political-pressure",
         "polity/standing-versus-ad-hoc-parliamentary-committees-joint-committee-on-a-bill-constituted-by-a-motion-adopted-in-one-house-and-concurred-in-by-the-other-with-members-from-both-houses-department-related-standing-committees-introduced-in-1993-now-24-reconstituted-annually-with-31-members-21-lok-sabha-10-rajya-sabha-select-committee-of-one-house-distinguished-from-a-joint-committee-recommendations-advisory-and-not-binding-committee-reports-as-instruments-of-executive-accountability-under-article-105-privileges",
         "environment/wild-life-protection-act-1972-protected-area-categories-of-national-park-wildlife-sanctuary-conservation-reserve-and-community-reserve-conservation-reserves-and-community-reserves-added-by-the-wild-life-protection-amendment-act-2002-under-sections-36a-to-36d-conservation-reserve-over-government-owned-land-adjacent-to-or-linking-protected-areas-community-reserve-over-private-or-community-land-volunteered-for-conservation-grazing-prohibited-in-a-national-park-but-regulable-by-the-chief-wildlife-warden-in-a-sanctuary-rights-of-people-extinguished-in-national-parks-but-capable-of-continuing-in-sanctuaries-national-board-for-wild-life-and-state-board-for-wild-life-eco-sensitive-zone-as-a-buffer-notified-under-the-environment-protection-act-1986-around-these-areas"
-      ]
+      ],
+      "atlasWeekId": "2026-09-20-library",
+      "atlasFeatureIds": [
+        "2026-09-20-library-india-hyderabad",
+        "2026-09-20-library-china-china",
+        "2026-09-20-library-russia-russia",
+        "2026-09-20-library-iran-iran",
+        "2026-09-20-library-united-states-of-america-united-states-of-america",
+        "2026-09-20-library-australia-australia"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-current-affairs-upsc-ca-2026-09-19",
@@ -16705,7 +16825,14 @@
         "culture/gondhal-as-a-ritual-devotional-folk-performance-of-maharashtra-hereditary-gondhalis-goddesses-renuka-mahur-and-tulja-bhavani-tuljapur-and-khandoba-instruments-sambal-twin-wooden-drums-struck-with-two-sticks-one-curved-and-tuntune-single-string-drone-with-torch-or-lamp-night-long-performance-at-weddings-and-auspicious-family-occasions-marathi-film-gondhal-by-santosh-davakhar-chosen-by-the-film-federation-of-india-on-18-september-2026-from-33-films-by-a-14-member-committee-chaired-by-p-sheshadri-as-india-s-entry-for-best-international-feature-film-at-the-99th-academy-awards-fourth-marathi-entry-after-shwaas-2005-harishchandrachi-factory-2009-and-court-2015-india-s-only-three-nominees-in-the-category-are-mother-india-salaam-bombay-and-lagaan",
         "polity/entry-17-of-the-state-list-water-and-entry-56-of-the-union-list-regulation-and-development-of-inter-state-rivers-and-river-valleys-to-the-extent-declared-by-parliament-by-law-to-be-expedient-in-the-public-interest-article-262-1-empowering-parliament-to-provide-for-adjudication-of-inter-state-river-water-disputes-and-article-262-2-enabling-exclusion-of-the-jurisdiction-of-the-supreme-court-and-other-courts-inter-state-river-water-disputes-act-1956-and-its-2002-amendment-river-boards-act-1956-under-which-no-board-has-been-constituted-tribunals-as-the-standing-mechanism-versus-negotiated-inter-state-agreements",
         "culture/folk-performing-arts-of-maharashtra-tamasha-folk-theatre-incorporating-lavani-powada-heroic-ballad-sung-by-shahirs-associated-with-shivaji-bharud-allegorical-devotional-song-associated-with-eknath-gondhal-ritual-devotional-performance-for-renuka-and-tulja-bhavani-keertan-and-jagran-dashavatara-as-folk-theatre-of-the-konkan-sindhudurg-and-goa-rather-than-odisha-distinguishing-state-wise-folk-theatre-forms-for-prelims-pair-matching-questions"
-      ]
+      ],
+      "atlasWeekId": "2026-09-13-library",
+      "atlasFeatureIds": [
+        "2026-09-13-library-india-yamunotri-kalpeshwar",
+        "2026-09-13-library-india-prayagraj-sangam",
+        "2026-09-13-library-nepal-nepal"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-current-affairs-upsc-ca-2026-09-18",
@@ -16735,7 +16862,21 @@
         "society/supreme-court-on-17-september-2026-three-judge-bench-headed-by-chief-justice-of-india-surya-kant-hearing-petitions-against-cbse-circulars-advancing-the-mandatory-three-language-requirement-for-class-6-to-the-2026-27-session-court-urged-deferral-to-the-2027-academic-year-and-suggested-making-the-requirement-optional-for-the-current-year-three-language-formula-formalised-in-the-national-policy-on-education-1968-following-the-kothari-commission-1964-66-reaffirmed-in-nep-1986-and-nep-2020-nep-2020-provides-that-no-language-will-be-imposed-on-any-state-and-at-least-two-of-the-three-should-be-native-to-india-education-is-in-the-concurrent-list-entry-25-after-the-42nd-amendment-1976",
         "economy/rbi-scale-based-regulation-for-nbfcs-announced-october-2021-and-effective-1-october-2022-four-layers-base-non-deposit-taking-nbfcs-with-assets-below-rs-1-000-crore-middle-all-deposit-taking-nbfcs-irrespective-of-size-plus-non-deposit-taking-nbfcs-with-assets-of-rs-1-000-crore-and-above-upper-identified-by-rbi-on-a-parametric-scoring-basis-subject-to-enhanced-regulation-for-at-least-five-years-including-mandatory-listing-within-three-years-of-identification-and-top-intended-to-remain-empty-classification-criteria-are-size-activity-and-perceived-riskiness-rbi-publishes-the-nbfc-ul-list-annually-most-recently-naming-17-nbfcs-regulatory-response-traceable-to-the-ilandfs-episode-of-2018",
         "polity/part-xvii-of-the-constitution-articles-343-to-351-article-343-hindi-in-devanagari-as-the-official-language-of-the-union-with-english-continued-under-the-official-languages-act-1963-article-350a-facilities-for-instruction-in-the-mother-tongue-at-the-primary-stage-for-linguistic-minorities-inserted-by-the-7th-amendment-act-1956-article-351-duty-of-the-union-to-promote-the-spread-of-hindi-eighth-schedule-currently-lists-22-languages-14-at-commencement-sindhi-added-by-the-21st-amendment-1967-konkani-manipuri-and-nepali-by-the-71st-amendment-1992-and-bodo-dogri-maithili-and-santhali-by-the-92nd-amendment-2003"
-      ]
+      ],
+      "atlasWeekId": "2026-09-13-library",
+      "atlasFeatureIds": [
+        "2026-09-13-library-china-china",
+        "2026-09-13-library-sweden-sweden",
+        "2026-09-13-library-united-states-of-america-united-states-of-america",
+        "2026-09-13-library-pakistan-pakistan",
+        "2026-09-13-library-japan-japan",
+        "2026-09-13-library-south-korea-south-korea",
+        "2026-09-13-library-malaysia-malaysia",
+        "2026-09-13-library-netherlands-netherlands",
+        "2026-09-13-library-iceland-iceland",
+        "2026-09-13-library-singapore-singapore"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-current-affairs-upsc-ca-2026-09-17",
@@ -16795,7 +16936,23 @@
         "society/meta-agrees-to-report-child-safety-cases-directly-to-india-s-i4c-cybercrime-portal-september-2026-earlier-route-was-the-us-based-national-center-for-missing-and-exploited-children-ncmec-cybertipline-under-the-ncrb-ncmec-mou-of-2019-over-69-lakh-cybertipline-reports-shared-with-states-uts-by-march-2024-followed-a-bbc-eye-investigation-on-instagram-csam-advertisements-and-ncpcr-summons-with-meta-india-appearing-on-9-september-2026-i4c-under-mha-operationalised-2020-runs-cybercrime-gov-in-and-the-1930-helpline-verticals-include-national-cybercrime-threat-analytics-unit-national-cybercrime-forensic-laboratory-cytrain-and-joint-cybercrime-coordination-teams",
         "internal-security/cert-in-under-meity-statutory-under-section-70b-of-the-information-technology-act-2000-nciipc-designated-under-section-70a-and-functioning-as-a-unit-of-the-national-technical-research-organisation-national-cyber-crime-reporting-portal-and-1930-helpline-run-by-i4c-under-the-ministry-of-home-affairs-other-components-include-the-national-cyber-coordination-centre-and-cyber-swachhta-kendra",
         "polity/national-commission-for-protection-of-child-rights-constituted-under-the-commissions-for-protection-of-child-rights-act-2005-a-statutory-body-under-the-ministry-of-women-and-child-development-powers-of-a-civil-court-in-inquiries-designated-monitoring-authority-for-the-pocso-act-2012-and-for-the-right-to-education-act-2009-distinction-from-constitutional-commissions-such-as-the-national-commission-for-backward-classes-under-article-338b-the-national-commission-for-scheduled-castes-under-article-338-and-the-national-commission-for-scheduled-tribes-under-article-338a"
-      ]
+      ],
+      "atlasWeekId": "2026-09-13-library",
+      "atlasFeatureIds": [
+        "2026-09-13-library-china-china",
+        "2026-09-13-library-united-states-of-america-united-states-of-america",
+        "2026-09-13-library-japan-japan",
+        "2026-09-13-library-russia-russia",
+        "2026-09-13-library-indonesia-indonesia",
+        "2026-09-13-library-south-korea-south-korea",
+        "2026-09-13-library-namibia-namibia",
+        "2026-09-13-library-south-africa-south-africa",
+        "2026-09-13-library-vietnam-vietnam",
+        "2026-09-13-library-australia-australia",
+        "2026-09-13-library-new-zealand-new-zealand",
+        "2026-09-13-library-philippines-philippines"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-current-affairs-upsc-ca-2026-09-15",
@@ -16823,7 +16980,26 @@
         "agriculture/first-badri-calf-born-through-opu-ivf-on-11-september-2026-at-the-academic-dairy-farm-gb-pant-university-of-agriculture-and-technology-pantnagar-from-a-badri-embryo-transferred-into-a-sahiwal-recipient-collaboration-of-icar-ndri-karnal-and-gbpuat-funded-by-the-uttarakhand-biotechnology-council-programme-running-since-2023-badri-registered-by-nbagr-in-2016-accession-india-cattle-2400-badri-03040-yield-1-3-litres-per-day-with-milk-about-90-a2-beta-casein-distinction-between-opu-ivf-and-moet-superovulation-plus-uterine-flushing-of-fertilised-embryos-rashtriya-gokul-mission-2014",
         "international-relations/mercosur-southern-common-market-treaty-of-asuncion-26-march-1991-and-ouro-preto-protocol-1994-establishing-the-customs-union-and-common-external-tariff-founding-members-argentina-brazil-paraguay-and-uruguay-bolivia-full-member-july-2024-venezuela-suspended-since-december-2016-associate-members-chile-colombia-ecuador-guyana-peru-and-suriname-rotating-six-monthly-pro-tempore-presidency-distinction-between-preferential-trade-agreement-free-trade-area-customs-union-common-market-and-economic-union-contrast-with-the-pacific-alliance-and-the-andean-community",
         "culture/geographical-indications-of-goods-registration-and-protection-act-1999-in-force-15-september-2003-administered-by-the-controller-general-of-patents-designs-and-trade-marks-under-dpiit-with-the-gi-registry-at-chennai-registration-valid-ten-years-and-renewable-a-gi-is-a-collective-right-and-is-not-assignable-or-transmissible-trips-articles-22-24-as-the-international-basis-darjeeling-tea-as-india-s-first-gi-kashmiri-papier-mache-kar-i-qalamdani-as-a-gi-tagged-craft-associated-with-sultan-zain-ul-abidin-with-sakhtsazi-and-naqashi-stages-banaras-brocades-and-sarees-2009-and-tirupathi-laddu-2014"
-      ]
+      ],
+      "atlasWeekId": "2026-09-13-library",
+      "atlasFeatureIds": [
+        "2026-09-13-library-china-china",
+        "2026-09-13-library-oman-oman",
+        "2026-09-13-library-paraguay-paraguay",
+        "2026-09-13-library-united-states-of-america-united-states-of-america",
+        "2026-09-13-library-japan-japan",
+        "2026-09-13-library-chile-chile",
+        "2026-09-13-library-bolivia-bolivia",
+        "2026-09-13-library-argentina-argentina",
+        "2026-09-13-library-brazil-brazil",
+        "2026-09-13-library-uruguay-uruguay",
+        "2026-09-13-library-russia-russia",
+        "2026-09-13-library-finland-finland",
+        "2026-09-13-library-switzerland-switzerland",
+        "2026-09-13-library-venezuela-venezuela",
+        "2026-09-13-library-india-gandhinagar"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-current-affairs-upsc-ca-2026-09-14",
@@ -16852,7 +17028,45 @@
         "international-relations/colombo-security-conclave-table-top-exercise-9-11-september-2026-eastern-naval-command-visakhapatnam-theme-coordinated-response-to-illicit-maritime-activities-in-the-ior-maritime-terrorism-narcotics-human-trafficking-and-iuu-fishing-maritime-domain-awareness-mahasagar-as-successor-to-sagar-csc-members-india-sri-lanka-maldives-mauritius-bangladesh-and-seychelles-charter-and-secretariat-mou-signed-august-2024-secretariat-at-colombo-five-pillars-of-cooperation",
         "economy/wpi-versus-cpi-in-india-wpi-as-a-goods-only-producer-side-index-with-three-major-groups-cpi-combined-compiled-by-nso-mospi-on-base-2024-100-wpi-compiled-by-office-of-the-economic-adviser-dpiit-rbi-flexible-inflation-targeting-anchored-to-cpi-c-under-the-rbi-act-mirrors-upsc-prelims-2020-question-on-cpi-wpi-food-weightage",
         "agriculture/cgiar-centres-and-mandate-crops-icrisat-at-patancheru-hyderabad-established-1972-mandate-crops-sorghum-pearl-millet-chickpea-pigeonpea-groundnut-cimmyt-maize-and-wheat-mexico-icarda-dry-areas-lebanon-irri-rice-philippines-with-south-asia-regional-centre-at-varanasi"
-      ]
+      ],
+      "atlasWeekId": "2026-09-13-library",
+      "atlasFeatureIds": [
+        "2026-09-13-library-india-hyderabad",
+        "2026-09-13-library-united-arab-emirates-united-arab-emirates",
+        "2026-09-13-library-united-kingdom-united-kingdom",
+        "2026-09-13-library-canada-canada",
+        "2026-09-13-library-india-new-delhi",
+        "2026-09-13-library-kyrgyzstan-bishkek",
+        "2026-09-13-library-india-vizhinjam",
+        "2026-09-13-library-indonesia-anak-krakatau",
+        "2026-09-13-library-lebanon-lebanon",
+        "2026-09-13-library-france-france",
+        "2026-09-13-library-costa-rica-costa-rica",
+        "2026-09-13-library-czechia-czechia",
+        "2026-09-13-library-germany-germany",
+        "2026-09-13-library-estonia-estonia",
+        "2026-09-13-library-latvia-latvia",
+        "2026-09-13-library-norway-norway",
+        "2026-09-13-library-sweden-sweden",
+        "2026-09-13-library-belgium-belgium",
+        "2026-09-13-library-denmark-denmark",
+        "2026-09-13-library-romania-romania",
+        "2026-09-13-library-greece-greece",
+        "2026-09-13-library-italy-italy",
+        "2026-09-13-library-bangladesh-bangladesh",
+        "2026-09-13-library-honduras-honduras",
+        "2026-09-13-library-paraguay-paraguay",
+        "2026-09-13-library-united-states-of-america-united-states-of-america",
+        "2026-09-13-library-mexico-mexico",
+        "2026-09-13-library-pakistan-pakistan",
+        "2026-09-13-library-sri-lanka-sri-lanka",
+        "2026-09-13-library-japan-japan",
+        "2026-09-13-library-seychelles-seychelles",
+        "2026-09-13-library-mauritius-mauritius",
+        "2026-09-13-library-maldives-maldives",
+        "2026-09-13-library-india-visakhapatnam"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-current-affairs-upsc-ca-2026-09-13",
@@ -16883,7 +17097,33 @@
         "history/vinayak-narahari-vinoba-bhave-born-11-september-1895-at-gagode-raigad-district-maharashtra-died-15-november-1982-met-gandhi-at-ahmedabad-on-7-june-1916-first-individual-satyagrahi-in-october-1940-with-nehru-second-nagpur-flag-satyagraha-1923-gram-seva-mandal-wardha-1934-bhoodan-launched-18-april-1951-at-pochampally-nalgonda-gramdan-from-1954-with-mangroth-as-the-first-gramdan-village-sarva-seva-sangh-geetai-1930-31-and-gita-pravachane-dhule-jail-1932-ramon-magsaysay-award-1958-bharat-ratna-posthumously-in-1983-contrast-between-voluntary-bhoodan-and-statutory-land-ceiling-laws",
         "internal-security/information-fusion-centre-indian-ocean-region-at-gurugram-2018-and-white-shipping-information-exchange-operation-sankalp-june-2019-in-the-gulf-of-oman-and-persian-gulf-continuous-indian-navy-anti-piracy-patrol-in-the-gulf-of-aden-since-2008-combined-maritime-forces-headquartered-in-bahrain-india-s-exposure-to-the-bab-el-mandeb-and-strait-of-hormuz-chokepoints-imec-as-a-route-diversification-hedge",
         "polity/ninth-schedule-inserted-by-the-constitution-first-amendment-act-1951-articles-31a-31b-and-31c-article-31b-s-retrospective-and-wider-protection-compared-with-article-31a-kesavananda-bharati-24-april-1973-and-the-basic-structure-doctrine-i-r-coelho-v-state-of-tamil-nadu-2007-nine-judge-bench-link-to-zamindari-abolition-and-land-ceiling-legislation-and-to-the-bhoodan-gramdan-alternative"
-      ]
+      ],
+      "atlasWeekId": "2026-09-13-library",
+      "atlasFeatureIds": [
+        "2026-09-13-library-iran-oman-uae-strait-of-hormuz",
+        "2026-09-13-library-india-hyderabad",
+        "2026-09-13-library-egypt-gulf-of-suez",
+        "2026-09-13-library-india-nagpur",
+        "2026-09-13-library-iran-oman-strait-of-hormuz",
+        "2026-09-13-library-yemen-djibouti-gulf-of-aden-bab-el-mandeb",
+        "2026-09-13-library-india-bharat-mandapam-delhi",
+        "2026-09-13-library-israel-israel",
+        "2026-09-13-library-china-china",
+        "2026-09-13-library-oman-oman",
+        "2026-09-13-library-united-arab-emirates-united-arab-emirates",
+        "2026-09-13-library-united-kingdom-united-kingdom",
+        "2026-09-13-library-sudan-sudan",
+        "2026-09-13-library-djibouti-djibouti",
+        "2026-09-13-library-eritrea-eritrea",
+        "2026-09-13-library-saudi-arabia-saudi-arabia",
+        "2026-09-13-library-jordan-jordan",
+        "2026-09-13-library-canada-canada",
+        "2026-09-13-library-egypt-egypt",
+        "2026-09-13-library-yemen-yemen",
+        "2026-09-13-library-bahrain-bahrain",
+        "2026-09-13-library-india-new-delhi"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-current-affairs-upsc-ca-2026-09-12",
@@ -16915,7 +17155,15 @@
         "reports-and-indices/india-s-research-paradox-2026-1-6-million-scopus-indexed-papers-2020-2025-3rd-by-volume-versus-19th-by-aggregate-h-index-925-vs-us-3-213-university-patent-filings-11-150-to-45-776-3-university-grant-rate-vs-24-national-commercial-working-rate-12-1-to-1-6-india-3rd-in-retractions-rate-1-5-to-3-5-per-1-000-papers-2012-2022-qs-2026-54-indian-institutions-the-2026-only-4-in-top-500-with-iisc-in-201-250-nirf-30-weight-to-research-and-professional-practice-anrf-act-2023",
         "polity/election-commission-of-india-article-324-section-29a-rp-act-1951-registration-of-parties-election-symbols-reservation-and-allotment-order-1968-and-disputes-over-splits-and-mergers-indian-national-congress-i-v-institute-of-social-welfare-2002-no-implied-power-of-de-registration-administrative-delisting-as-workaround",
         "geography/high-altitude-himalayan-lakes-tso-moriri-ladakh-ramsar-chandra-taal-lahaul-spiti-himachal-pradesh-ramsar-tsomgo-changu-sikkim-sela-lake-tawang-arunachal-pradesh-high-altitude-wetlands-and-ramsar-designation"
-      ]
+      ],
+      "atlasWeekId": "2026-09-06-library",
+      "atlasFeatureIds": [
+        "2026-09-06-library-china-china",
+        "2026-09-06-library-united-kingdom-united-kingdom",
+        "2026-09-06-library-united-states-of-america-united-states-of-america",
+        "2026-09-06-library-india-tawang"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-current-affairs-upsc-ca-2026-09-11",
@@ -16944,7 +17192,34 @@
         "science-technology/mercury-s-global-contraction-revised-upward-by-about-30-to-as-much-as-23-km-of-diameter-loss-lobate-scarps-and-wrinkle-ridges-as-compressional-thrust-faults-single-plate-planet-with-the-largest-relative-iron-core-missions-mariner-10-1974-75-messenger-2011-2015-and-bepicolombo-with-mercury-orbit-insertion-expected-november-2026-mpo-and-mio-orbiters",
         "polity/forest-rights-act-2006-section-6-gram-sabha-as-initiating-authority-section-3-1-i-community-forest-resource-rights-section-11-nodal-agency-13-december-2005-cut-off-and-the-three-generation-75-year-test-for-other-traditional-forest-dwellers-4-hectare-cap-on-individual-forest-rights-pesa-1996-read-alongside",
         "international-relations/new-development-bank-agreed-at-the-fortaleza-summit-2014-with-headquarters-at-shanghai-and-an-african-regional-centre-at-johannesburg-contingent-reserve-arrangement-as-a-us-100-billion-central-bank-currency-swap-treaty-rather-than-a-pooled-fund-absence-of-a-permanent-brics-secretariat-and-the-rotating-chairship-model"
-      ]
+      ],
+      "atlasWeekId": "2026-09-06-library",
+      "atlasFeatureIds": [
+        "2026-09-06-library-kyrgyzstan-bishkek",
+        "2026-09-06-library-china-china",
+        "2026-09-06-library-belarus-belarus",
+        "2026-09-06-library-uzbekistan-uzbekistan",
+        "2026-09-06-library-russia-russia",
+        "2026-09-06-library-iran-iran",
+        "2026-09-06-library-indonesia-indonesia",
+        "2026-09-06-library-ethiopia-ethiopia",
+        "2026-09-06-library-india-hyderabad",
+        "2026-09-06-library-india-new-delhi",
+        "2026-09-06-library-malaysia-malaysia",
+        "2026-09-06-library-bolivia-bolivia",
+        "2026-09-06-library-south-africa-south-africa",
+        "2026-09-06-library-kazakhstan-kazakhstan",
+        "2026-09-06-library-brazil-brazil",
+        "2026-09-06-library-vietnam-vietnam",
+        "2026-09-06-library-united-arab-emirates-united-arab-emirates",
+        "2026-09-06-library-nigeria-nigeria",
+        "2026-09-06-library-saudi-arabia-saudi-arabia",
+        "2026-09-06-library-thailand-thailand",
+        "2026-09-06-library-uganda-uganda",
+        "2026-09-06-library-cuba-cuba",
+        "2026-09-06-library-egypt-egypt"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-current-affairs-upsc-ca-2026-09-10",
@@ -16973,7 +17248,16 @@
         "environment/lichens-western-ghats-shola-protected-areas",
         "polity/articles-371-to-371j-special-provisions-for-states",
         "environment/lichens-as-pioneer-species-and-bioindicators"
-      ]
+      ],
+      "atlasWeekId": "2026-09-06-library",
+      "atlasFeatureIds": [
+        "2026-09-06-library-china-china",
+        "2026-09-06-library-philippines-philippines",
+        "2026-09-06-library-india-hyderabad",
+        "2026-09-06-library-india-western-ghats-kerala",
+        "2026-09-06-library-india-new-delhi"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-current-affairs-upsc-ca-2026-09-09",
@@ -17002,7 +17286,29 @@
         "environment/boma-badingilo-migratory-landscape-great-nile-migration-landscape-south-sudan-boma-national-park-badingilo-bandingilo-national-park-and-connecting-corridors-inscribed-as-south-sudan-s-first-unesco-world-heritage-site-in-july-2026-through-the-emergency-procedure-and-simultaneously-placed-on-the-list-of-world-heritage-in-danger-about-6-million-antelope-per-the-2024-aerial-survey-white-eared-kob-about-5-000-000-mongalla-gazelle-about-350-000-tiang-about-300-000-bohor-reedbuck-about-160-000-more-than-double-the-serengeti-wildebeest-migration-of-about-2-million-known-migration-range-about-122-774-sq-km-extending-into-gambella-national-park-ethiopia-migration-january-to-june-and-reversing-november-to-january-african-savanna-elephant-endangered-beisa-oryx-lion-cheetah-and-giraffe-vulnerable-and-critically-endangered-nubian-giraffe-10-year-management-agreement-between-the-government-of-south-sudan-and-african-parks-signed-2022-threats-of-commercial-poaching-wildlife-trafficking-infrastructure-and-extractive-development-and-climate-change",
         "environment/world-heritage-convention-1972-convention-concerning-the-protection-of-the-world-cultural-and-natural-heritage-unesco-as-the-parent-agency-and-the-world-heritage-committee-of-21-states-parties-elected-by-the-general-assembly-of-states-parties-cultural-natural-and-mixed-properties-and-the-criteria-of-outstanding-universal-value-three-advisory-bodies-iucn-for-natural-properties-icomos-for-cultural-properties-iccrom-for-training-and-conservation-expertise-list-of-world-heritage-in-danger-under-article-11-4-and-the-emergency-inscription-procedure-allowing-simultaneous-listing-on-both-lists-inscription-on-the-in-danger-list-not-requiring-state-party-consent-world-heritage-fund-distinction-from-the-ramsar-convention-on-wetlands-1971-the-man-and-the-biosphere-programme-and-the-convention-on-migratory-species",
         "polity/threefold-classification-of-commissions-constitutional-bodies-ncsc-article-338-ncst-article-338a-and-ncbc-article-338b-inserted-by-the-102nd-constitutional-amendment-act-2018-following-indra-sawhney-statutory-bodies-including-the-national-commission-for-women-ncw-act-1990-the-national-human-rights-commission-protection-of-human-rights-act-1993-the-national-commission-for-protection-of-child-rights-commissions-for-protection-of-child-rights-act-2005-and-the-national-commission-for-minorities-1992-non-statutory-executive-bodies-including-niti-aayog-the-central-vigilance-commission-before-2003-and-the-national-commission-for-safai-karamcharis-after-the-lapse-of-its-act-in-2004-implications-of-statutory-backing-for-enforcement-powers-civil-court-powers-and-independence-of-tenure"
-      ]
+      ],
+      "atlasWeekId": "2026-09-06-library",
+      "atlasFeatureIds": [
+        "2026-09-06-library-china-china",
+        "2026-09-06-library-iran-iran",
+        "2026-09-06-library-pakistan-pakistan",
+        "2026-09-06-library-ethiopia-ethiopia",
+        "2026-09-06-library-south-sudan-south-sudan",
+        "2026-09-06-library-bhutan-bhutan",
+        "2026-09-06-library-spain-spain",
+        "2026-09-06-library-sudan-sudan",
+        "2026-09-06-library-switzerland-switzerland",
+        "2026-09-06-library-bangladesh-bangladesh",
+        "2026-09-06-library-afghanistan-afghanistan",
+        "2026-09-06-library-portugal-portugal",
+        "2026-09-06-library-nepal-nepal",
+        "2026-09-06-library-australia-australia",
+        "2026-09-06-library-new-zealand-new-zealand",
+        "2026-09-06-library-sri-lanka-sri-lanka",
+        "2026-09-06-library-japan-japan",
+        "2026-09-06-library-maldives-maldives"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-current-affairs-upsc-ca-2026-09-08",
@@ -17031,7 +17337,12 @@
         "society/5th-national-steering-committee-of-pm-setu-8-september-2026-approved-strategic-investment-plans-worth-rs-735-70-crore-for-bhiwadi-rajasthan-rs-241-crore-medchal-telangana-rs-254-30-crore-and-meerut-uttar-pradesh-rs-240-40-crore-clusters-taking-total-sanctioned-investment-to-rs-2-171-crore-across-nine-iti-clusters-pan-india-rollout-across-200-clusters-target-of-20-lakh-youth-over-five-years-five-nstis-and-five-national-centres-of-excellence-for-skilling",
         "environment/conservation-status-of-indian-vulture-species-white-rumped-indian-slender-billed-and-red-headed-vultures-as-critically-endangered-egyptian-vulture-endangered-himalayan-griffon-cinereous-and-bearded-vultures-near-threatened-vulture-action-plan-2020-25-save-consortium",
         "culture/assam-cultural-cluster-srimanta-sankardeva-ekasarana-dharma-sattra-institution-borgeet-ankiya-naat-and-bhaona-sattriya-recognised-as-a-classical-dance-form-by-the-sangeet-natak-akademi-in-2000-madhavdeva"
-      ]
+      ],
+      "atlasWeekId": "2026-09-06-library",
+      "atlasFeatureIds": [
+        "2026-09-06-library-india-bharat-mandapam-delhi"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-current-affairs-upsc-ca-2026-09-07",
@@ -17059,7 +17370,16 @@
         "economy/cbdt-time-series-data-for-fy-2000-01-to-fy-2024-25-net-direct-tax-collections-of-rs-22-26-lakh-crore-in-fy-2024-25-against-rs-19-60-lakh-crore-in-fy-2023-24-corporate-tax-rs-9-86-lakh-crore-and-non-corporate-tax-rs-12-35-lakh-crore-with-non-corporate-now-exceeding-corporate-direct-tax-to-gdp-ratio-6-73-cost-of-collection-at-a-historic-low-of-0-41-taxpayer-base-of-12-13-crore-for-ay-2024-25-including-11-61-crore-individuals-direct-tax-buoyancy-of-1-39-above-1-for-the-third-consecutive-year-against-about-2-52-in-fy22-and-below-2-in-fy23-buoyancy-formula-and-its-distinction-from-tax-elasticity-cbdt-as-a-statutory-body-under-the-central-board-of-revenue-act-1963-in-the-department-of-revenue-with-cbic-as-its-indirect-tax-counterpart",
         "geography/classification-of-volcanoes-by-form-and-eruptive-style-calderas-formed-by-magma-chamber-evacuation-and-edifice-collapse-composite-or-strato-volcanoes-of-subduction-zones-with-andesitic-to-rhyolitic-silica-rich-viscous-lava-and-explosive-eruptions-shield-volcanoes-built-by-low-viscosity-basaltic-lava-with-gentle-slopes-and-effusive-eruptions-the-pacific-ring-of-fire-and-its-western-sunda-arc-limb-barren-island-in-the-andaman-sea-as-india-s-only-confirmed-active-volcano-and-narcondam-as-dormant",
         "polity/articles-214-to-231-of-the-constitution-article-214-high-court-for-each-state-article-216-composition-article-217-1-appointment-and-the-proviso-fixing-retirement-at-62-article-217-2-qualifications-of-ten-years-as-a-judicial-officer-or-as-an-advocate-of-a-high-court-article-222-transfer-of-judges-after-consultation-with-the-cji-article-223-acting-chief-justice-article-224-additional-and-acting-judges-article-224a-ad-hoc-appointment-of-retired-judges-with-the-president-s-previous-consent-article-231-common-high-court-for-two-or-more-states-or-union-territories-25-high-courts-in-india"
-      ]
+      ],
+      "atlasWeekId": "2026-09-06-library",
+      "atlasFeatureIds": [
+        "2026-09-06-library-kyrgyzstan-bishkek",
+        "2026-09-06-library-india-vizhinjam",
+        "2026-09-06-library-indonesia-anak-krakatau",
+        "2026-09-06-library-indonesia-indonesia",
+        "2026-09-06-library-belgium-belgium"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-current-affairs-upsc-ca-2026-09-06",
@@ -17090,7 +17410,25 @@
         "society/nfhs-6-fieldwork-2023-24-released-may-2026-ministry-of-health-and-family-welfare-with-iips-mumbai-as-nodal-agency-about-6-79-lakh-households-across-715-districts-females-aged-6-ever-attending-school-71-8-to-73-7-women-with-at-least-10-years-of-schooling-41-to-46-4-institutional-deliveries-90-6-anc-coverage-92-6-to-95-9-four-or-more-anc-visits-58-5-to-65-2-full-immunisation-of-children-12-23-months-83-8-to-87-stunting-35-5-to-29-3-health-insurance-coverage-60-2-rising-adult-obesity-and-diabetes-reported-analysis-of-4-september-2026-finding-the-rural-male-female-education-attainment-gap-about-four-times-the-urban-gap-driven-by-secondary-school-distance-and-availability",
         "geography/ten-geothermal-provinces-of-india-identified-by-the-gsi-and-the-national-policy-on-geothermal-energy-2025-himalayan-naga-lushai-andaman-nicobar-son-narmada-tapi-sonata-west-coast-cambay-graben-aravalli-mahanadi-godavari-and-south-indian-cratonic-site-state-mapping-for-puga-ladakh-manikaran-kullu-himachal-pradesh-tattapani-balrampur-chhattisgarh-sonata-belt-bakreshwar-birbhum-west-bengal-collisional-tectonics-crustal-thickening-and-deep-fault-circulation-as-the-heat-source-in-the-himalayan-belt-as-against-volcanic-arc-geothermal-systems",
         "polity/article-21a-inserted-by-the-86th-constitutional-amendment-act-2002-covering-ages-6-14-article-45-recast-as-early-childhood-care-and-education-below-six-article-51a-k-parental-fundamental-duty-right-of-children-to-free-and-compulsory-education-act-2009-in-force-1-april-2010-with-25-reservation-in-private-unaided-schools-under-section-12-1-c-and-no-detention-policy-amended-in-2019-distinction-from-secondary-education-which-has-no-statutory-guarantee-programme-architecture-of-samagra-shiksha-merging-ssa-rmsa-and-teacher-education-kasturba-gandhi-balika-vidyalayas-pm-shri-pm-poshan-and-nep-2020-s-5-3-3-4-structure"
-      ]
+      ],
+      "atlasWeekId": "2026-09-06-library",
+      "atlasFeatureIds": [
+        "2026-09-06-library-india-changthang-karakoram-sanctuaries",
+        "2026-09-06-library-india-eastern-ladakh-lac",
+        "2026-09-06-library-uzbekistan-tashkent",
+        "2026-09-06-library-kyrgyzstan-bishkek",
+        "2026-09-06-library-kenya-kenya",
+        "2026-09-06-library-china-china",
+        "2026-09-06-library-belarus-belarus",
+        "2026-09-06-library-uzbekistan-uzbekistan",
+        "2026-09-06-library-russia-russia",
+        "2026-09-06-library-kyrgyzstan-kyrgyzstan",
+        "2026-09-06-library-iran-iran",
+        "2026-09-06-library-pakistan-pakistan",
+        "2026-09-06-library-philippines-philippines",
+        "2026-09-06-library-iceland-iceland"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-current-affairs-upsc-ca-2026-09-05",
@@ -20999,7 +21337,12 @@
         "agriculture/rabi-msp-2027-28",
         "environment/cafe-iii-fuel-consumption-norms",
         "economy/offshore-mineral-auction-andaman-sea"
-      ]
+      ],
+      "atlasWeekId": "2026-09-27-library",
+      "atlasFeatureIds": [
+        "2026-09-27-library-india-kolkata"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-pib-pib-2026-09-30",
@@ -21022,7 +21365,12 @@
         "environment/pramaan-indian-forest-and-wood-certification-scheme",
         "polity/four-labour-codes-shram-samvad-campaign",
         "economy/steel-industry-safety-council-and-sisd"
-      ]
+      ],
+      "atlasWeekId": "2026-09-27-library",
+      "atlasFeatureIds": [
+        "2026-09-27-library-china-china"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-pib-pib-2026-09-29",
@@ -21045,7 +21393,19 @@
         "polity/pm-ajay-merged-schemes",
         "economy/kandla-port-based-e-methanol-plant",
         "internal-security/exercise-tarang-shakti-2026"
-      ]
+      ],
+      "atlasWeekId": "2026-09-27-library",
+      "atlasFeatureIds": [
+        "2026-09-27-library-france-france",
+        "2026-09-27-library-united-states-of-america-united-states-of-america",
+        "2026-09-27-library-australia-australia",
+        "2026-09-27-library-germany-germany",
+        "2026-09-27-library-united-arab-emirates-united-arab-emirates",
+        "2026-09-27-library-bangladesh-bangladesh",
+        "2026-09-27-library-sri-lanka-sri-lanka",
+        "2026-09-27-library-india-jodhpur"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-pib-pib-2026-09-28",
@@ -21068,7 +21428,13 @@
         "internal-security/prahaar-ct-policy-and-strategy",
         "agriculture/livestock-insurance-portal-national-livestock-mission",
         "environment/pygmy-hog-conservation-assam"
-      ]
+      ],
+      "atlasWeekId": "2026-09-27-library",
+      "atlasFeatureIds": [
+        "2026-09-27-library-india-new-delhi",
+        "2026-09-27-library-thailand-thailand"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-pib-pib-2026-09-27",
@@ -21091,7 +21457,12 @@
         "economy/mospi-paimana-infrastructure-project-monitoring-report-august-2026",
         "polity/eci-decisions-on-special-intensive-revision-form-6-under-registration-of-electors-rules-1960",
         "environment/aiia-132-eco-task-force-ashwagandha-plantation-at-bhatti-mines-aravalli-ridge"
-      ]
+      ],
+      "atlasWeekId": "2026-09-27-library",
+      "atlasFeatureIds": [
+        "2026-09-27-library-india-new-delhi"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-pib-pib-2026-09-26",
@@ -21114,7 +21485,15 @@
         "geography/kalpasar-gulf-of-khambhat-development-project-and-india-netherlands-water-mous",
         "economy/world-tourism-day-2026-theme-and-host",
         "international-relations/who-pandemic-agreement-and-pathogen-access-and-benefit-sharing-pabs"
-      ]
+      ],
+      "atlasWeekId": "2026-09-20-library",
+      "atlasFeatureIds": [
+        "2026-09-20-library-united-states-of-america-united-states-of-america",
+        "2026-09-20-library-india-bharat-mandapam-delhi",
+        "2026-09-20-library-netherlands-netherlands",
+        "2026-09-20-library-el-salvador-el-salvador"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-pib-pib-2026-09-25",
@@ -21136,7 +21515,28 @@
         "science-technology/bioe3-policy-and-bio-based-biodegradable-plastics-pla",
         "polity/pmkkky-and-district-mineral-foundations",
         "science-technology/drdo-technology-development-fund-quantum-enabling-infrastructure"
-      ]
+      ],
+      "atlasWeekId": "2026-09-20-library",
+      "atlasFeatureIds": [
+        "2026-09-20-library-china-china",
+        "2026-09-20-library-russia-russia",
+        "2026-09-20-library-iran-iran",
+        "2026-09-20-library-united-states-of-america-united-states-of-america",
+        "2026-09-20-library-netherlands-netherlands",
+        "2026-09-20-library-japan-japan",
+        "2026-09-20-library-india-new-delhi",
+        "2026-09-20-library-united-arab-emirates-united-arab-emirates",
+        "2026-09-20-library-indonesia-indonesia",
+        "2026-09-20-library-ethiopia-ethiopia",
+        "2026-09-20-library-south-korea-south-korea",
+        "2026-09-20-library-south-africa-south-africa",
+        "2026-09-20-library-kazakhstan-kazakhstan",
+        "2026-09-20-library-brazil-brazil",
+        "2026-09-20-library-vietnam-vietnam",
+        "2026-09-20-library-italy-italy",
+        "2026-09-20-library-thailand-thailand"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-pib-pib-2026-09-24",
@@ -21159,7 +21559,13 @@
         "economy/edible-oil-import-duty-and-food-inflation",
         "science-technology/rdi-scheme-and-technology-development-board",
         "international-relations/india-france-exercise-varuna"
-      ]
+      ],
+      "atlasWeekId": "2026-09-20-library",
+      "atlasFeatureIds": [
+        "2026-09-20-library-france-france",
+        "2026-09-20-library-united-arab-emirates-united-arab-emirates"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-pib-pib-2026-09-23",
@@ -21182,7 +21588,19 @@
         "polity/health-insurance-and-universal-health-coverage",
         "environment/species-specific-conservation-projects",
         "international-relations/india-and-regional-minilateral-groupings"
-      ]
+      ],
+      "atlasWeekId": "2026-09-20-library",
+      "atlasFeatureIds": [
+        "2026-09-20-library-india-bharat-mandapam-delhi",
+        "2026-09-20-library-india-new-delhi",
+        "2026-09-20-library-india-kaziranga",
+        "2026-09-20-library-czechia-czechia",
+        "2026-09-20-library-hungary-hungary",
+        "2026-09-20-library-slovakia-slovakia",
+        "2026-09-20-library-poland-poland",
+        "2026-09-20-library-india-gwalior"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-pib-pib-2026-09-22",
@@ -21205,7 +21623,27 @@
         "economy/civil-aviation-and-regional-connectivity-schemes",
         "polity/namaste-and-elimination-of-hazardous-manual-cleaning",
         "international-relations/india-opec-energy-cooperation-and-energy-security"
-      ]
+      ],
+      "atlasWeekId": "2026-09-20-library",
+      "atlasFeatureIds": [
+        "2026-09-20-library-china-china",
+        "2026-09-20-library-united-states-of-america-united-states-of-america",
+        "2026-09-20-library-australia-australia",
+        "2026-09-20-library-india-bharat-mandapam-delhi",
+        "2026-09-20-library-india-new-delhi",
+        "2026-09-20-library-united-kingdom-united-kingdom",
+        "2026-09-20-library-iran-oman-uae-strait-of-hormuz",
+        "2026-09-20-library-iran-oman-strait-of-hormuz",
+        "2026-09-20-library-spain-spain",
+        "2026-09-20-library-denmark-denmark",
+        "2026-09-20-library-bulgaria-bulgaria",
+        "2026-09-20-library-algeria-algeria",
+        "2026-09-20-library-afghanistan-afghanistan",
+        "2026-09-20-library-iceland-iceland",
+        "2026-09-20-library-british-indian-ocean-territory-british-indian-ocean-territory",
+        "2026-09-20-library-india-nagar"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-pib-pib-2026-09-21",
@@ -21228,7 +21666,19 @@
         "economy/india-new-zealand-free-trade-agreement",
         "science-technology/pcimandh-and-sowa-rigpa-standardisation",
         "internal-security/ncb-cbn-and-state-anti-narcotics-task-forces"
-      ]
+      ],
+      "atlasWeekId": "2026-09-20-library",
+      "atlasFeatureIds": [
+        "2026-09-20-library-united-states-of-america-united-states-of-america",
+        "2026-09-20-library-india-bharat-mandapam-delhi",
+        "2026-09-20-library-india-nagpur",
+        "2026-09-20-library-mongolia-mongolia",
+        "2026-09-20-library-united-kingdom-united-kingdom",
+        "2026-09-20-library-new-zealand-new-zealand",
+        "2026-09-20-library-nepal-nepal",
+        "2026-09-20-library-canada-canada"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-pib-pib-2026-09-20",
@@ -21251,7 +21701,24 @@
         "economy/lpg-subsidy-targeting-and-biometric-aadhaar-authentication",
         "international-relations/india-sri-lanka-defence-cooperation-slinex-and-vision-mahasagar",
         "agriculture/sericulture-central-silk-board-and-silk-varieties"
-      ]
+      ],
+      "atlasWeekId": "2026-09-20-library",
+      "atlasFeatureIds": [
+        "2026-09-20-library-china-china",
+        "2026-09-20-library-united-states-of-america-united-states-of-america",
+        "2026-09-20-library-india-bharat-mandapam-delhi",
+        "2026-09-20-library-germany-germany",
+        "2026-09-20-library-netherlands-netherlands",
+        "2026-09-20-library-bangladesh-bangladesh",
+        "2026-09-20-library-india-nagpur",
+        "2026-09-20-library-mauritius-mauritius",
+        "2026-09-20-library-egypt-egypt",
+        "2026-09-20-library-sri-lanka-sri-lanka",
+        "2026-09-20-library-seychelles-seychelles",
+        "2026-09-20-library-maldives-maldives",
+        "2026-09-20-library-india-visakhapatnam"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-pib-pib-2026-09-19",
@@ -21274,7 +21741,13 @@
         "polity/appointment-of-high-court-judges-articles-217-and-224",
         "science-technology/trai-tcccpr-third-amendment-regulations-2026-a2p-calls-and-ucc",
         "society/atal-vayo-abhyuday-yojana-avyay-and-senior-citizen-welfare"
-      ]
+      ],
+      "atlasWeekId": "2026-09-13-library",
+      "atlasFeatureIds": [
+        "2026-09-13-library-australia-australia",
+        "2026-09-13-library-new-zealand-new-zealand"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-pib-pib-2026-09-18",
@@ -21297,7 +21770,20 @@
         "agriculture/soil-carbon-credits-and-regenerative-agriculture",
         "economy/sugar-stockholding-limits-aas-and-trq-imports",
         "international-relations/shanghai-cooperation-organisation-structure-and-economic-cooperation"
-      ]
+      ],
+      "atlasWeekId": "2026-09-13-library",
+      "atlasFeatureIds": [
+        "2026-09-13-library-china-china",
+        "2026-09-13-library-kyrgyzstan-bishkek",
+        "2026-09-13-library-pakistan-pakistan",
+        "2026-09-13-library-nepal-nepal",
+        "2026-09-13-library-india-kochi",
+        "2026-09-13-library-uzbekistan-tashkent",
+        "2026-09-13-library-belarus-belarus",
+        "2026-09-13-library-tajikistan-tajikistan",
+        "2026-09-13-library-iran-iran"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-pib-pib-2026-09-17",
@@ -21320,7 +21806,16 @@
         "polity/ncte-bridge-course-for-b-ed-qualified-primary-teachers",
         "science-technology/electronics-components-manufacturing-scheme-ecms",
         "internal-security/exercise-yudh-abhyas-2026-india-us-army"
-      ]
+      ],
+      "atlasWeekId": "2026-09-13-library",
+      "atlasFeatureIds": [
+        "2026-09-13-library-united-states-of-america-united-states-of-america",
+        "2026-09-13-library-japan-japan",
+        "2026-09-13-library-finland-finland",
+        "2026-09-13-library-australia-australia",
+        "2026-09-13-library-india-prayagraj-sangam"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-pib-pib-2026-09-16",
@@ -21342,7 +21837,14 @@
         "polity/epfo-wage-ceiling-enhancement-cabinet-decision-2026",
         "economy/pm-vishwakarma-scheme-three-year-milestone",
         "polity/swachh-seva-aankalan-sbm-g-2-0-self-assessment-framework"
-      ]
+      ],
+      "atlasWeekId": "2026-09-13-library",
+      "atlasFeatureIds": [
+        "2026-09-13-library-china-china",
+        "2026-09-13-library-canada-canada",
+        "2026-09-13-library-united-states-of-america-united-states-of-america"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-pib-pib-2026-09-15",
@@ -21365,7 +21867,19 @@
         "economy/periodic-labour-force-survey-monthly-bulletin",
         "international-relations/india-mercosur-preferential-trade-agreement",
         "polity/shreyas-scholarships-for-sc-and-obc-students"
-      ]
+      ],
+      "atlasWeekId": "2026-09-13-library",
+      "atlasFeatureIds": [
+        "2026-09-13-library-paraguay-paraguay",
+        "2026-09-13-library-united-states-of-america-united-states-of-america",
+        "2026-09-13-library-bolivia-bolivia",
+        "2026-09-13-library-argentina-argentina",
+        "2026-09-13-library-brazil-brazil",
+        "2026-09-13-library-uruguay-uruguay",
+        "2026-09-13-library-finland-finland",
+        "2026-09-13-library-venezuela-venezuela"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-pib-pib-2026-09-14",
@@ -21388,7 +21902,18 @@
         "science-technology/data-centres-and-digital-infrastructure-policy",
         "international-relations/india-nepal-energy-cooperation-and-cross-border-power-trade",
         "economy/wholesale-price-index-composition-and-base-year"
-      ]
+      ],
+      "atlasWeekId": "2026-09-13-library",
+      "atlasFeatureIds": [
+        "2026-09-13-library-india-hyderabad",
+        "2026-09-13-library-united-arab-emirates-united-arab-emirates",
+        "2026-09-13-library-india-new-delhi",
+        "2026-09-13-library-pakistan-pakistan",
+        "2026-09-13-library-malaysia-malaysia",
+        "2026-09-13-library-nepal-nepal",
+        "2026-09-13-library-india-kozhikode"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-pib-pib-2026-09-13",
@@ -21411,7 +21936,17 @@
         "economy/incentive-scheme-for-promotion-of-domestic-png-connections-and-city-gas-distribution",
         "environment/wcef-2026-gandhinagar-delhi-declaration-on-drylands-brics-tcim-working-group",
         "polity/official-language-of-the-union-articles-343-351-eighth-schedule-hindi-diwas-2026"
-      ]
+      ],
+      "atlasWeekId": "2026-09-13-library",
+      "atlasFeatureIds": [
+        "2026-09-13-library-india-new-delhi",
+        "2026-09-13-library-brazil-brazil",
+        "2026-09-13-library-finland-finland",
+        "2026-09-13-library-india-gandhinagar",
+        "2026-09-13-library-cambodia-cambodia",
+        "2026-09-13-library-india-mumbai"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-pib-pib-2026-09-12",
@@ -21434,7 +21969,18 @@
         "polity/bankers-books-evidence-act-2026-and-repeal-of-colonial-era-statutes",
         "agriculture/pradhan-mantri-kisan-maandhan-yojana-pm-kmy-seven-years",
         "international-relations/colombo-security-conclave-and-indian-ocean-maritime-minilaterals"
-      ]
+      ],
+      "atlasWeekId": "2026-09-06-library",
+      "atlasFeatureIds": [
+        "2026-09-06-library-bangladesh-bangladesh",
+        "2026-09-06-library-sri-lanka-sri-lanka",
+        "2026-09-06-library-maldives-maldives",
+        "2026-09-06-library-united-states-of-america-united-states-of-america",
+        "2026-09-06-library-seychelles-seychelles",
+        "2026-09-06-library-mauritius-mauritius",
+        "2026-09-06-library-india-visakhapatnam"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-pib-pib-2026-09-11",
@@ -21457,7 +22003,19 @@
         "polity/consumer-protection-e-commerce-amendment-rules-2026-and-dark-patterns",
         "agriculture/pradhan-mantri-matsya-sampada-yojana-pmmsy-and-pm-mkssy",
         "international-relations/brics-expansion-and-india-s-2026-chairship"
-      ]
+      ],
+      "atlasWeekId": "2026-09-06-library",
+      "atlasFeatureIds": [
+        "2026-09-06-library-iran-iran",
+        "2026-09-06-library-indonesia-indonesia",
+        "2026-09-06-library-india-bharat-mandapam-delhi",
+        "2026-09-06-library-ethiopia-ethiopia",
+        "2026-09-06-library-brazil-brazil",
+        "2026-09-06-library-united-arab-emirates-united-arab-emirates",
+        "2026-09-06-library-saudi-arabia-saudi-arabia",
+        "2026-09-06-library-egypt-egypt"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-pib-pib-2026-09-10",
@@ -21480,7 +22038,17 @@
         "polity/digital-bharat-nidhi-and-amended-bharatnet-program",
         "geography/bakhira-lake-oxbow-wetlands-and-indian-summer-monsoon-palaeoclimate",
         "environment/small-hydro-power-potential-and-the-proposed-shp-development-scheme"
-      ]
+      ],
+      "atlasWeekId": "2026-09-06-library",
+      "atlasFeatureIds": [
+        "2026-09-06-library-philippines-philippines",
+        "2026-09-06-library-india-bharat-mandapam-delhi",
+        "2026-09-06-library-india-new-delhi",
+        "2026-09-06-library-malaysia-malaysia",
+        "2026-09-06-library-united-states-of-america-united-states-of-america",
+        "2026-09-06-library-france-france"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-pib-pib-2026-09-09",
@@ -21502,7 +22070,17 @@
         "science-technology/orv-sagar-manthan-and-ncpor-research-vessels",
         "economy/fiu-ind-pmla-and-virtual-digital-asset-service-providers",
         "economy/railway-multitracking-projects-and-pm-gati-shakti-national-master-plan"
-      ]
+      ],
+      "atlasWeekId": "2026-09-06-library",
+      "atlasFeatureIds": [
+        "2026-09-06-library-china-china",
+        "2026-09-06-library-sri-lanka-sri-lanka",
+        "2026-09-06-library-japan-japan",
+        "2026-09-06-library-india-hyderabad",
+        "2026-09-06-library-india-mumbai",
+        "2026-09-06-library-germany-germany"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-pib-pib-2026-09-08",
@@ -21525,7 +22103,14 @@
         "internal-security/financial-fraud-risk-indicator-and-digital-intelligence-platform",
         "agriculture/jute-sector-msp-and-national-jute-development-programme",
         "environment/electric-freight-e-fast-india-and-zero-emission-trucks"
-      ]
+      ],
+      "atlasWeekId": "2026-09-06-library",
+      "atlasFeatureIds": [
+        "2026-09-06-library-pakistan-pakistan",
+        "2026-09-06-library-japan-japan",
+        "2026-09-06-library-india-vadodara"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-pib-pib-2026-09-07",
@@ -21548,7 +22133,16 @@
         "environment/national-clean-air-programme-and-swachh-vayu-sarvekshan-2026",
         "science-technology/nixi-apnic-and-internet-governance-bodies",
         "internal-security/defence-acquisition-council-and-acceptance-of-necessity"
-      ]
+      ],
+      "atlasWeekId": "2026-09-06-library",
+      "atlasFeatureIds": [
+        "2026-09-06-library-india-nagpur",
+        "2026-09-06-library-india-mundra-nhava-sheva",
+        "2026-09-06-library-luxembourg-luxembourg",
+        "2026-09-06-library-india-mumbai",
+        "2026-09-06-library-india-varanasi"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-pib-pib-2026-09-06",
@@ -21571,7 +22165,20 @@
         "internal-security/vibrant-villages-programme-vvp-i-and-vvp-ii",
         "environment/biological-diversity-act-2002-nba-bmcs-and-nagoya-protocol",
         "international-relations/asian-pacific-postal-union-and-the-universal-postal-union"
-      ]
+      ],
+      "atlasWeekId": "2026-09-06-library",
+      "atlasFeatureIds": [
+        "2026-09-06-library-china-china",
+        "2026-09-06-library-pakistan-pakistan",
+        "2026-09-06-library-bangladesh-bangladesh",
+        "2026-09-06-library-afghanistan-afghanistan",
+        "2026-09-06-library-sri-lanka-sri-lanka",
+        "2026-09-06-library-egypt-egypt",
+        "2026-09-06-library-india-surat",
+        "2026-09-06-library-india-panchkula",
+        "2026-09-06-library-india-chandigarh"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-pib-pib-2026-09-05",

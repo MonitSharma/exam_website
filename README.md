@@ -374,3 +374,31 @@ Generation rules:
   can display “Map pending” during local content preparation.
 
 The audit and implementation verification are recorded under `audits/`.
+
+
+### Study Labs and briefing geography
+
+Study Labs reads all published Anki decks from the content manifest and uses
+Library's card viewer for reveal, shuffle and browse. The newest deck opens
+by default; when arriving at an exact subject lab, the deck is collapsed so
+the selected workbench stays in view. Revision sources, ethics cases and
+subject practice links use newer available resources automatically.
+
+The Atlas keeps the original Places in News weeks and adds **CA & PIB**
+collections for later briefings. During manifest generation,
+`scripts/generate_library_atlas.js` matches explicit place names against the
+project's existing map markers, country label points and district geometry.
+District matches require a briefing heading; ambiguous district names are
+excluded. The Kulasekarapattinam alias uses the Thoothukkudi district anchor
+(the relationship is documented in the 21 July CA note).
+
+These are approximate regional study anchors. Source excerpts can include
+background geography, and do not assert that every mentioned place is the
+main news event. Each marker links to the original note. Unknown place names
+are omitted rather than assigned guessed coordinates. New CA/PIB notes update
+these collections on the next manifest generation or build; the standalone
+weekly Places in News companion contract remains unchanged.
+
+Study Labs opens the selected tool before related reading. `scripts/generate_lab_articles.js` extracts numbered CA/PIB stories, matches their individual titles to lab topics, and builds a small lazy-loaded `data/lab_articles.json` on every manifest/build run. Related stories expand inline; mixed briefings are only accessible via an explicitly labelled source button. Flashcard labels use chronological set numbers within each month and year.
+
+The reviewed geography snapshot is `data/atlas/reference_updates.json`, checked on 2 October 2026. It includes the 101-site Ramsar catalogue (site IDs, area, designation dates and official record links), recent park notifications, and sourced CWC river profiles used in recall cards. Six coordinates outside India in the downloaded Ramsar catalogue were cross-checked against other official records; correction links are retained on each affected card. Registration dates differ from announcement dates. Park anchors and schematic river lines are study aids, not surveyed boundaries; the protected-area collection is not a national census. Run `npm run manifest` after editing the snapshot to regenerate `app/atlas-verified.js`.

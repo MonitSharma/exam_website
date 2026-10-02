@@ -300,7 +300,7 @@ function readAppRoute() {
   const known = new Set(["home", "labs", "atlas", "practice", "catchup", "workflow", "dashboard", "test", "result", "review", "library"]);
   const screen = known.has(route) ? route : "home";
   const params = new URLSearchParams(query || "");
-  return { screen, noteId: params.get("note") || null };
+  return { screen, noteId: params.get("note") || null, labId: params.get("lab") || null, fromNoteId: params.get("from") || null, focusSubject: params.get("focus") || null };
 }
 
 function App() {
@@ -317,7 +317,9 @@ function App() {
   const [libraryNoteId, setLibraryNoteId] = useRootState(initialRoute.noteId);
   const [libraryRequest, setLibraryRequest] = useRootState(() => ({ id: initialRoute.noteId, token: 0 }));
   const [atlasWeekId, setAtlasWeekId] = useRootState(null);
-  const [labFocus, setLabFocus] = useRootState(null);
+  const [labFocus, setLabFocus] = useRootState(initialRoute.focusSubject);
+  const [labId, setLabId] = useRootState(initialRoute.labId);
+  const [labFromNoteId, setLabFromNoteId] = useRootState(initialRoute.fromNoteId);
   const [lastResult, setLastResult] = useRootState(null);
   const [progress, setProgress] = useRootState(loadProgress);
   const [searchOpen, setSearchOpen] = useRootState(false);
@@ -344,6 +346,11 @@ function App() {
       if (route.screen === "library") {
         setLibraryNoteId(route.noteId);
         setLibraryRequest({ id: route.noteId, token: Date.now() });
+      }
+      if (route.screen === "labs") {
+        setLabId(route.labId);
+        setLabFromNoteId(route.fromNoteId);
+        setLabFocus(route.focusSubject);
       }
       scrollTop();
     };
@@ -381,9 +388,13 @@ function App() {
       if (options.noteId) setLibraryNoteId(options.noteId);
       setLibraryRequest({ id, token: Date.now() });
     }
+    const labParams = new URLSearchParams();
+    if (options.labId) labParams.set("lab", options.labId);
+    if (options.fromNoteId) labParams.set("from", options.fromNoteId);
+    if (options.focusSubject) labParams.set("focus", options.focusSubject);
     const target = s === "library"
       ? `#library${id ? "?note=" + encodeURIComponent(id) : ""}`
-      : `#${s}`;
+      : s === "labs" && labParams.size ? `#labs?${labParams}` : `#${s}`;
     const current = `${window.location.pathname}${window.location.search}${window.location.hash}`;
     if (current !== target) window.history.pushState({ screen: s, noteId: id }, "", target);
     if (s === "atlas") setAtlasWeekId(options.weekId || null);
@@ -403,6 +414,8 @@ function App() {
       // The Focus card routes here with the learner's weakest subject so the
       // labs screen can open a relevant tool instead of a generic default.
       setLabFocus(options.focusSubject || null);
+      setLabId(options.labId || null);
+      setLabFromNoteId(options.fromNoteId || null);
     }
     setScreen(s);
     scrollTop();
@@ -554,7 +567,7 @@ function App() {
       <GlobalSearch open={searchOpen} onClose={() => setSearchOpen(false)} go={go} />
       <div key={screen} className="screen-fade">
         {screen === "home" && <Home go={go} progress={progress} summary={summary} review={review} onStartReview={startReviewSession} />}
-        {screen === "labs" && <StudyLabs go={go} progress={progress} review={review} focusSubject={labFocus} onLabProgress={saveLabProgress} />}
+        {screen === "labs" && <StudyLabs go={go} progress={progress} review={review} focusSubject={labFocus} labId={labId} fromNoteId={labFromNoteId} onLabProgress={saveLabProgress} />}
         {screen === "library" && <div className="page-wrap library-page"><NotesLibrary key={libraryRequest.token} go={go} noteId={libraryRequest.id} progress={progress} onMarkDone={setItemDoneState} onSelectNote={rememberLibraryNote} /></div>}
         {screen === "atlas" && <NewsAtlas weekId={atlasWeekId} go={go} />}
         {screen === "practice" && <PracticeScreen go={go} />}

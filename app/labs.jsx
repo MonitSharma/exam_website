@@ -13,7 +13,7 @@ const LABS_BY_PAPER = {
     { id: "ancient-timeline", category: "History", status: "Live", tone: "indigo", icon: "timeline", title: "Ancient India Dynastic Timeline", description: "Scrub across four millennia and revise dynasties through overlap, sequence and place." },
     { id: "modern-timeline", category: "History", status: "Live", tone: "green", icon: "timeline", title: "Modern India Timeline (1857–1947)", description: "Trace the freedom struggle as a chain of cause, event and consequence — then test recall." },
     { id: "rivers-recall", category: "Geography", status: "Live", tone: "blue", icon: "map", title: "Rivers of India Recall", description: "Name a river from its source, course and basin clues before revealing the answer." },
-    { id: "world-geography", category: "Geography", status: "Live", tone: "teal", icon: "globe", title: "Geography Layers & Recall", description: "Search local river and state layers, then switch to a clue-based physical geography drill." },
+    { id: "world-geography", category: "Geography", status: "Live", tone: "teal", icon: "globe", title: "Geography Layers & Recall", description: "Locate national parks, Ramsar wetlands and rivers, then test recall on the map." },
   ],
   gs2: [
     { id: "constitution", category: "Polity", status: "Live", tone: "green", icon: "scale", title: "Constitutional Architecture", description: "Recall Articles, amendments and institutions through anchor → function → exam hook cards." },
@@ -75,13 +75,6 @@ const MODERN_EVENTS = [
   { label: "1947", name: "Independence and Partition", note: "Power was transferred amid freedom, displacement and the creation of two dominions." },
   { label: "1947", name: "Accession of Junagadh", note: "The Nawab's accession to Pakistan against the demographic majority led to Indian intervention and a plebiscite." },
   { label: "1947", name: "First Kashmir War", note: "The Maharaja's accession to India followed the tribal and Pakistani invasion; the conflict became the first India–Pakistan war." },
-];
-
-const RIVER_CARDS = [
-  { prompt: "Rises near Lake Mansarovar, flows through the Himalayas and enters India in Arunachal Pradesh.", answer: "Brahmaputra", hook: "Think: Tsangpo in Tibet → Siang/Dihang in Arunachal Pradesh → Brahmaputra in Assam." },
-  { prompt: "Rises at Amarkantak and flows west through a rift valley before meeting the Arabian Sea.", answer: "Narmada", hook: "Think: central Indian rift valley, marble rocks at Bhedaghat and westward flow." },
-  { prompt: "Rises in the Gangotri glacier and joins the Alaknanda at Devprayag.", answer: "Bhagirathi", hook: "Think: Bhagirathi + Alaknanda = Ganga at Devprayag." },
-  { prompt: "Rises in the Brahmagiri Hills and is a major east-flowing river of peninsular India.", answer: "Cauvery", hook: "Think: Karnataka → Tamil Nadu, deltaic agriculture and the Cauvery water dispute." },
 ];
 
 const LAB_SOURCES = {
@@ -170,6 +163,89 @@ function findLabForSubject(subject) {
     }
   }
   return null;
+}
+
+// Exact links take precedence over broad subject matching and due reviews.
+function findLabById(id) {
+  for (const [paperId, labs] of Object.entries(LABS_BY_PAPER)) {
+    if (labs.some((lab) => lab.id === id)) return { paperId, labId: id };
+  }
+  return null;
+}
+
+function recentLabNotes(labId, documents, fromNoteId) {
+  const subjects = (LAB_GUIDES[labId]?.pyqSubjects || []).map(window.UPSC_CONTENT.subjectId);
+  return documents.filter((note) => note.id !== fromNoteId && ["daily", "pib"].includes(note.cadence)
+    && note.subjectIds?.some((id) => subjects.includes(id)))
+    .sort((a, b) => String(b.date || "").localeCompare(String(a.date || "")) || a.id.localeCompare(b.id)).slice(0, 4);
+}
+
+function labLibraryResources(labId, documents) {
+  const subjects = (LAB_GUIDES[labId]?.pyqSubjects || []).map(window.UPSC_CONTENT.subjectId);
+  const cadence = { governance: "schemes", "case-lab": "ethics", thinkers: "ethics" }[labId];
+  return documents.filter((note) => !["daily", "pib", "anki"].includes(note.cadence)
+    && (note.cadence === cadence || note.subjectIds?.some((id) => subjects.includes(id))))
+    .sort((a, b) => String(b.date || "").localeCompare(String(a.date || "")) || a.id.localeCompare(b.id)).slice(0, 4);
+}
+
+function flashcardDeckLabel(deck, decks) {
+  const month = deck.date.slice(0, 7);
+  const monthly = decks.filter(item => item.date.slice(0, 7) === month).sort((a,b) => a.date.localeCompare(b.date) || a.id.localeCompare(b.id));
+  const name = new Intl.DateTimeFormat("en", { month: "long", timeZone: "UTC" }).format(new Date(deck.date + "T00:00:00Z"));
+  return `${name} ${deck.date.slice(0, 4)} · Set ${monthly.findIndex(item => item.id === deck.id) + 1} Flashcards`;
+}
+
+function LibraryFlashcards({ go, compact = false }) {
+  const ds = window.UPSC;
+  const decks = ds.noteDocuments.filter((note) => note.cadence === "anki").sort((a, b) => b.date.localeCompare(a.date));
+  const [deckId, setDeckId] = useStateLabs("");
+  const [expanded, setExpanded] = useStateLabs(!compact);
+  const selected = decks.find((note) => note.id === deckId) || decks[0];
+  const [loaded, setLoaded] = useStateLabs(null);
+  const [error, setError] = useStateLabs("");
+  useEffectLabs(() => {
+    let cancelled = false;
+    setLoaded(null); setError("");
+    if (selected) ds.loadNoteDocument(selected.id).then((result) => {
+      if (!cancelled) setLoaded(result);
+    }).catch((err) => { if (!cancelled) setError(err.message); });
+    return () => { cancelled = true; };
+  }, [selected?.id]);
+  if (!selected) return null;
+  const DeckView = window.AnkiDeckView;
+  return <section className="labs-library-decks" aria-label="Library flashcards">
+    <div className="labs-map-head"><div><span className="labs-kicker">From your study library</span><h2>Weekly flashcards</h2><p>Study the original decks with reveal, shuffle and browse. Each deck covers several subjects.</p></div>
+      <label>Choose a deck<select aria-label="Flashcard deck" value={selected.id} onChange={(event) => { setDeckId(event.target.value); setExpanded(true); }}>{decks.map((deck) => <option key={deck.id} value={deck.id}>{flashcardDeckLabel(deck, decks)}</option>)}</select></label>
+    </div>
+    <div className="labs-deck-links"><button className="btn ghost sm" aria-expanded={expanded} onClick={() => setExpanded(!expanded)}>{expanded ? "Hide flashcards" : "Study flashcards"}</button><span>{decks.length} decks · latest {decks[0].date}</span><button className="btn ghost sm" onClick={() => go("library", { noteId: selected.id })}>Open deck in Library</button><button className="btn ghost sm" onClick={() => go("atlas")}>Connect places in News Atlas</button></div>
+    {expanded && (error ? <p role="alert">{error}</p> : loaded?.note.id === selected.id && DeckView ? <DeckView key={selected.id} text={loaded.content} /> : <p role="status">Loading flashcards…</p>)}
+    {expanded && selected.relatedNoteIds?.length > 0 && <div className="labs-briefing-list" aria-label="Flashcard source briefings">{ds.noteDocuments.filter((note) => selected.relatedNoteIds.includes(note.id)).map((note) => <button className="btn ghost sm" key={note.id} onClick={() => go("library", { noteId: note.id })}>{note.title} · {note.date}</button>)}</div>}
+  </section>;
+}
+
+let labArticlesPromise;
+function LabBriefings({ labId, fromNoteId, go }) {
+  const [articles, setArticles] = useStateLabs(null);
+  const [error, setError] = useStateLabs(false);
+  useEffectLabs(() => {
+    let cancelled = false;
+    labArticlesPromise ||= fetch("data/lab_articles.json").then(response => {
+      if (!response.ok) throw new Error("Articles unavailable");
+      return response.json();
+    }).then(data => data.articles).catch(error => { labArticlesPromise = null; throw error; });
+    labArticlesPromise.then(items => { if (!cancelled) setArticles(items); }).catch(() => { if (!cancelled) setError(true); });
+    return () => { cancelled = true; };
+  }, []);
+  const relevant = (articles || []).filter(article => article.labIds.includes(labId)).slice(0, 4);
+  const origin = window.UPSC.noteDocuments.find(note => note.id === fromNoteId);
+  return <section className="labs-syllabus-map labs-briefings" aria-label="Related articles">
+    <span className="labs-kicker">Related reading</span><h3>Stories that connect to this tool</h3>
+    <p>Matched to each article’s topic. Expand a story to read that article here.</p>
+    {origin && <button className="btn ghost sm" onClick={() => go("library", { noteId: origin.id })}>Back to your original briefing · {origin.date}</button>}
+    {!articles && <p role="status">{error ? "Related articles could not load. Reload to retry." : "Finding related articles…"}</p>}
+    {articles && !relevant.length && <p>No directly related CA or PIB articles in the library yet. Use the revision tool and its practice links above.</p>}
+    {relevant.map(article => <details className="labs-article" key={article.id}><summary><small>{article.cadence === "pib" ? "PIB" : "Daily CA"} · {article.date}</small><strong>{article.title}</strong><span>Read article</span></summary><MarkdownView text={article.text} /><button className="btn ghost sm" onClick={() => go("library", { noteId: article.noteId })}>Open full source briefing</button></details>)}
+  </section>;
 }
 
 // Every live lab follows the same loop, so one explainer covers them all.
@@ -296,14 +372,23 @@ function openLabSource(go, source) {
 function LabSources({ labId, go }) {
   const ds = window.UPSC;
   const sources = LAB_SOURCES[labId] || [];
-  const resolved = sources.map((source) => ({ ...source, note: source.id ? ds.noteDocuments.find((item) => item.id === source.id) : null }));
+  const resolved = sources.map((source) => {
+    let note = source.id ? ds.noteDocuments.find((item) => item.id === source.id) : null;
+    if (note && ["sectional", "schemes", "ethics", "monthly"].includes(note.cadence)) {
+      const candidates = ds.noteDocuments.filter((item) => item.cadence === note.cadence && !item.isSupplementary
+        && (note.cadence !== "sectional" || item.subjectIds?.some((id) => note.subjectIds?.includes(id)))
+        && (note.cadence !== "monthly" || /ca-compilation/.test(item.id)));
+      note = candidates.sort((a, b) => (b.date || b.id).localeCompare(a.date || a.id))[0] || note;
+    }
+    return { ...source, id: note?.id || source.id, note };
+  }).filter((source, index, items) => !source.id || items.findIndex((item) => item.id === source.id) === index);
   return (
     <div className="labs-source-strip">
-      <span className="labs-source-label">Built from local library</span>
+      <span className="labs-source-label">Revision sources</span>
       <div className="labs-source-list">
         {resolved.map((source) => (
           source.id && source.note
-            ? <button key={source.id} onClick={() => openLabSource(go, source)}>{source.label} <Icon name="arrowR" size={11} /></button>
+            ? <button key={source.id} onClick={() => openLabSource(go, source)}>{source.note.title} · {source.note.date || "Reference"} <Icon name="arrowR" size={11} /></button>
             : <span key={source.path || source.label}>{source.label}</span>
         ))}
       </div>
@@ -323,12 +408,14 @@ function LabSyllabusMap({ labId, go }) {
   }));
   const pyqs = ds.getQuestionSetsBySource("pyq").filter(matchesSubject).sort((a, b) => Number(b.year || 0) - Number(a.year || 0));
   const sectionals = ds.getQuestionSetsBySource("sectional").filter(matchesSubject).slice(0, 3);
+  const daily = ds.questionSets.filter((set) => ["daily", "pib", "weekly-quiz"].includes(set.sourceType) && matchesSubject(set)).sort((a, b) => String(b.isoDate || "").localeCompare(String(a.isoDate || ""))).slice(0, 3);
   return (
     <section className="labs-syllabus-map">
       <div className="labs-map-head"><div><span className="labs-kicker">UPSC alignment</span><h3>{guide.path}</h3></div><span className="labs-map-exam">{guide.exam}</span></div>
       <p>{guide.syllabus}</p>
       <div className="labs-map-meta"><span>{pyqs.length} related PYQ years</span><span>{sectionals.length} sectional links</span></div>
       <div className="labs-map-row"><span>Previous-year papers</span><div>{pyqs.map((set) => <button key={set.id} onClick={() => go("test", { setId: set.id, subjects: guide.pyqSubjects, returnTo: "labs" })}>{set.year || set.shortLabel || set.label} · subject questions <Icon name="arrowR" size={11} /></button>)}</div></div>
+      {daily.length > 0 && <div className="labs-map-row"><span>Recent recall practice</span><div>{daily.map((set) => <button key={set.id} onClick={() => go("test", { setId: set.id, subjects: guide.pyqSubjects, returnTo: "labs" })}>{set.shortLabel || set.label} · subject questions <Icon name="arrowR" size={11} /></button>)}</div></div>}
       {sectionals.length > 0 && <div className="labs-map-row"><span>Targeted practice</span><div>{sectionals.map((set) => <button key={set.id} onClick={() => go("test", { setId: set.id, subjects: guide.pyqSubjects, returnTo: "labs" })}>{set.shortLabel || set.label} <Icon name="arrowR" size={11} /></button>)}</div></div>}
     </section>
   );
@@ -406,12 +493,12 @@ function GeographyExplorerLab({ go }) {
   const [selectedId, setSelectedId] = useStateLabs(null);
   const [revealed, setRevealed] = useStateLabs(false);
   const sourceFeatures = atlas.filter((feature) => feature.layer === layer);
-  const stateOptions = [...new Set(atlas.filter((feature) => feature.layer === "protected").map((feature) => PROTECTED_AREA_META[feature.id]?.state).filter(Boolean))].sort();
+  const stateOptions = [...new Set(atlas.filter((feature) => feature.layer === "protected").map((feature) => (feature.state || PROTECTED_AREA_META[feature.id]?.state)).filter(Boolean))].sort();
   const filtered = sourceFeatures
-    .map((feature) => ({ ...feature, ...(PROTECTED_AREA_META[feature.id] || {}) }))
+    .map((feature) => ({ ...(PROTECTED_AREA_META[feature.id] || {}), ...feature }))
     .filter((feature) => layer !== "protected" || stateFilter === "all" || feature.state === stateFilter)
     .filter((feature) => {
-      const haystack = [feature.name, feature.state, feature.group, feature.fact, feature.hook, feature.river].filter(Boolean).join(" ").toLowerCase();
+      const haystack = [feature.name, ...(feature.aliases || []), feature.state, feature.region, feature.group, feature.fact, feature.hook, feature.river].filter(Boolean).join(" ").toLowerCase();
       return haystack.includes(query.trim().toLowerCase());
     });
   const selectedFeature = filtered.find((feature) => feature.id === selectedId) || null;
@@ -429,15 +516,15 @@ function GeographyExplorerLab({ go }) {
   const reset = () => { setStateFilter("all"); setQuery(""); setSelectedId(null); setRevealed(false); };
   return (
     <div className="labs-tool-panel labs-geo-panel labs-eco-map-panel">
-      <div className="labs-tool-head"><div><span className="labs-kicker">Layers + recall · Protected areas</span><h2>Learn the place, then locate it from memory</h2></div><span className="labs-year-badge">{filtered.length} places</span></div>
+      <div className="labs-tool-head"><div><span className="labs-kicker">Layers + recall · {activeLayer.short}</span><h2>Learn the place, then locate it from memory</h2></div><span className="labs-year-badge">{filtered.length} {filtered.length === 1 ? "place" : "places"}</span></div>
       <div className="labs-eco-mode" role="tablist" aria-label="Map study mode"><button role="tab" aria-selected={mode === "learn"} className={mode === "learn" ? "active" : ""} onClick={() => setMode("learn")}>Learn mode</button><button role="tab" aria-selected={mode === "recall"} className={mode === "recall" ? "active" : ""} onClick={() => { setMode("recall"); setRevealed(false); }}>Recall mode</button></div>
       <div className="labs-eco-search"><Icon name="search" size={15} /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search parks, reserves, wetlands…" aria-label="Search parks, reserves, wetlands and rivers" /></div>
       <div className="labs-eco-workspace">
         <aside className="labs-eco-sidebar"><span className="labs-eco-label">Layers</span><div className="labs-eco-layer-list">{ECO_MAP_LAYERS.map((item) => <button key={item.id} className={layer === item.id ? "active" : ""} onClick={() => { setLayer(item.id); setSelectedId(null); setRevealed(false); }}><i className={`labs-eco-swatch ${item.id}`} /><span>{item.label}</span><small>{atlas.filter((feature) => feature.layer === item.id).length}</small></button>)}</div>{layer === "protected" && <label className="labs-eco-state"><span>State filter</span><select value={stateFilter} onChange={(event) => { setStateFilter(event.target.value); setSelectedId(null); }}><option value="all">All India</option>{stateOptions.map((state) => <option key={state} value={state}>{state}</option>)}</select></label>}<button className="labs-eco-reset" onClick={reset}>↺ Reset view</button></aside>
-        <div className="labs-eco-map-stage">{typeof AtlasLeafletMap === "function" ? <AtlasLeafletMap scope="india" features={mapFeatures} boundariesOn={true} riversOn={layer === "rivers"} riverSystem="all" selected={mapFeatures.find((feature) => feature.id === selectedId) || null} onSelect={selectFeature} /> : <div className="labs-eco-map-loading">Loading local India map…</div>}<div className="labs-eco-map-caption"><span>{activeLayer.short}</span><small>Click a marker or state · drag to explore · scroll to zoom</small></div></div>
-        <aside className="labs-eco-detail">{selectedFeature ? <>{mode === "recall" && !revealed ? <><span className="labs-eco-detail-label">Recall prompt</span><h3>Which {layer === "protected" ? "protected area" : activeLayer.short.toLowerCase()} is this?</h3><p>{selectedFeature.state || selectedFeature.group || "Trace the marker on the map."}</p><button className="btn btn-saffron sm" onClick={() => setRevealed(true)}>Reveal place</button></> : <><span className="labs-eco-detail-label">{activeLayer.short}</span><h3>{selectedFeature.name}</h3><p>{selectedFeature.fact}</p>{selectedFeature.state && <div className="labs-eco-facts"><span><b>State</b>{selectedFeature.state}</span><span><b>River / basin</b>{selectedFeature.river}</span></div>}<div className="labs-eco-hook"><span>Exam hook</span><strong>{selectedFeature.hook || selectedFeature.group}</strong></div>{mode === "recall" && <button className="btn ghost sm" onClick={() => setRevealed(false)}>Hide answer</button>}</>}</> : <div className="labs-eco-empty"><span className="labs-eco-detail-label">Select a place</span><strong>Click a marker to open its exam card</strong><p>Use Learn mode to build the association, then switch to Recall mode and test yourself.</p></div>}</aside>
+        <div className="labs-eco-map-stage">{typeof AtlasLeafletMap === "function" ? <AtlasLeafletMap scope="india" features={mapFeatures} boundariesOn={true} riversOn={layer === "rivers"} riverSystem="all" selected={mapFeatures.find((feature) => feature.id === selectedId) || null} onSelect={selectFeature} /> : <div className="labs-eco-map-loading">Loading local India map…</div>}<div className="labs-eco-map-caption"><span>{activeLayer.short}</span><small>Study anchors and simplified river lines · click a marker to read sources</small></div></div>
+        <aside className="labs-eco-detail">{selectedFeature ? <>{mode === "recall" && !revealed ? <><span className="labs-eco-detail-label">Recall prompt</span><h3>Which {layer === "protected" ? "protected area" : activeLayer.short.toLowerCase()} is this?</h3><p>{selectedFeature.state || selectedFeature.group || "Trace the marker on the map."}</p><button className="btn btn-saffron sm" onClick={() => setRevealed(true)}>Reveal place</button></> : <><span className="labs-eco-detail-label">{activeLayer.short}</span><h3>{selectedFeature.name}</h3><p>{selectedFeature.fact}</p><AtlasVerification feature={selectedFeature} />{selectedFeature.state && <div className="labs-eco-facts"><span><b>State</b>{selectedFeature.state}</span><span><b>{selectedFeature.river ? "River / basin" : "Designation"}</b>{selectedFeature.river || selectedFeature.designationDate || selectedFeature.group}</span></div>}<div className="labs-eco-hook"><span>Exam hook</span><strong>{selectedFeature.hook || selectedFeature.group}</strong></div>{mode === "recall" && <button className="btn ghost sm" onClick={() => setRevealed(false)}>Hide answer</button>}</>}</> : <div className="labs-eco-empty"><span className="labs-eco-detail-label">Select a place</span><strong>Click a marker to open its exam card</strong><p>Use Learn mode to build the association, then switch to Recall mode and test yourself.</p></div>}</aside>
       </div>
-      <div className="labs-eco-legend"><span><i className="labs-eco-swatch protected" />Protected area</span><span><i className="labs-eco-swatch wetlands" />Wetland</span><span><i className="labs-eco-swatch rivers" />River line</span><span>{filtered.length} visible · local map layers</span></div>
+      <p className="labs-tool-note">{window.ATLAS_REFERENCE_STATUS?.ramsarCount} Ramsar sites in the official catalogue · checked {window.ATLAS_REFERENCE_STATUS?.verifiedOn}. The protected-area layer is a selected study collection.</p><div className="labs-eco-legend"><span><i className="labs-eco-swatch protected" />Protected area</span><span><i className="labs-eco-swatch wetlands" />Wetland</span><span><i className="labs-eco-swatch rivers" />River line</span><span>{filtered.length} visible · local map layers</span></div>
       <div className="labs-tool-actions"><button className="btn btn-green sm" onClick={() => go("atlas")}>Open full News Atlas <Icon name="arrowR" size={14} /></button><LabSources labId="world-geography" go={go} /></div>
     </div>
   );
@@ -521,11 +608,12 @@ function TimelineLab({ modern = false, go }) {
 }
 
 function RiverRecallLab({ go }) {
+  const cards = window.ATLAS_KNOWLEDGE.filter(feature => feature.layer === "rivers" && feature.recallPrompt).map(feature => ({ prompt: feature.recallPrompt, answer: feature.name, hook: feature.hook, feature }));
   const [index, setIndex] = useStateLabs(0);
   const [revealed, setRevealed] = useStateLabs(false);
-  const card = RIVER_CARDS[index];
-  function move(delta) { setIndex((index + delta + RIVER_CARDS.length) % RIVER_CARDS.length); setRevealed(false); }
-  return <div className="labs-tool-panel labs-recall-panel"><div className="labs-tool-head"><div><span className="labs-kicker">Active recall · Rivers of India</span><h2>Name the river from the clues</h2></div><span className="labs-year-badge">{index + 1} / {RIVER_CARDS.length}</span></div><div className="labs-recall-card"><span className="labs-recall-label">Clue</span><p>{card.prompt}</p>{revealed ? <div className="labs-answer"><span>Answer</span><strong>{card.answer}</strong><small>{card.hook}</small></div> : <button className="btn btn-saffron" onClick={() => setRevealed(true)}>Reveal answer</button>}</div><div className="labs-tool-actions"><button className="btn ghost sm" onClick={() => move(-1)}><Icon name="arrowL" size={14} /> Previous</button><LabSources labId="rivers-recall" go={go} /><button className="btn ghost sm" onClick={() => move(1)}>Next <Icon name="arrowR" size={14} /></button></div></div>;
+  const card = cards[index];
+  function move(delta) { setIndex((index + delta + cards.length) % cards.length); setRevealed(false); }
+  return <div className="labs-tool-panel labs-recall-panel"><div className="labs-tool-head"><div><span className="labs-kicker">Active recall · Rivers of India</span><h2>Name the river from the clues</h2></div><span className="labs-year-badge">{index + 1} / {cards.length}</span></div><div className="labs-recall-card"><span className="labs-recall-label">Clue</span><p>{card.prompt}</p>{revealed ? <div className="labs-answer"><span>Answer</span><strong>{card.answer}</strong><small>{card.hook}</small><AtlasVerification feature={card.feature} /></div> : <button className="btn btn-saffron" onClick={() => setRevealed(true)}>Reveal answer</button>}</div><div className="labs-tool-actions"><button className="btn ghost sm" onClick={() => move(-1)}><Icon name="arrowL" size={14} /> Previous</button><LabSources labId="rivers-recall" go={go} /><button className="btn ghost sm" onClick={() => move(1)}>Next <Icon name="arrowR" size={14} /></button></div></div>;
 }
 
 function WorldGeographyLab({ go }) {
@@ -550,21 +638,28 @@ function LabsTool({ lab, go, progress, onLabProgress }) {
   return <><div>{tool}</div><LabSyllabusMap labId={lab.id} go={go} /><LabProgressPanel labId={lab.id} progress={progress} onLabProgress={onLabProgress} /></>;
 }
 
-function StudyLabs({ go, progress, review, focusSubject, onLabProgress }) {
+function StudyLabs({ go, progress, review, focusSubject, labId, fromNoteId, onLabProgress }) {
   const ds = window.UPSC;
   const dueLab = Object.keys(LABS_BY_PAPER).flatMap((paperId) => LABS_BY_PAPER[paperId].map((lab) => ({ ...lab, paperId }))).find((lab) => progress?.labStats?.[lab.id]?.due && progress.labStats[lab.id].due <= ds.todayIso);
-  // A due review comes first; otherwise honour the Focus subject the learner
-  // arrived with, then fall back to the default opening lab.
-  const focusMatch = !dueLab && focusSubject ? findLabForSubject(focusSubject) : null;
-  const [paper, setPaper] = useStateLabs(dueLab?.paperId || focusMatch?.paperId || "gs1");
-  const [selectedId, setSelectedId] = useStateLabs(dueLab?.id || focusMatch?.labId || "ancient-timeline");
+  const exactMatch = findLabById(labId);
+  const focusMatch = focusSubject ? findLabForSubject(focusSubject) : null;
+  const entry = exactMatch || focusMatch || (dueLab ? { paperId: dueLab.paperId, labId: dueLab.id } : null);
+  const [paper, setPaper] = useStateLabs(entry?.paperId || "gs1");
+  const [selectedId, setSelectedId] = useStateLabs(entry?.labId || "ancient-timeline");
+  useEffectLabs(() => {
+    const match = findLabById(labId) || findLabForSubject(focusSubject);
+    if (match) { setPaper(match.paperId); setSelectedId(match.labId); }
+  }, [labId, focusSubject]);
+  useEffectLabs(() => {
+    if (exactMatch && selectedId === exactMatch.labId) document.getElementById("lab-workbench")?.scrollIntoView({ block: "start" });
+  }, [labId, selectedId]);
   const activePaper = LAB_PAPERS.find((item) => item.id === paper);
   const labs = LABS_BY_PAPER[paper];
   const selectedLab = labs.find((item) => item.id === selectedId) || labs[0];
   const questionCount = ds.questionSets.reduce((sum, item) => sum + (Number(item.questionCount) || 0), 0);
   function selectPaper(nextPaper) { setPaper(nextPaper); setSelectedId(LABS_BY_PAPER[nextPaper][0].id); }
-  const showFocus = Boolean(focusMatch && focusSubject);
-  return <main className="labs-page"><section className="labs-hero"><div><span className="labs-kicker">Pariksha · Study Labs</span><h1>Make the syllabus interactive.</h1><p>A separate home for visual revision tools — timelines, maps, mechanism chains and active recall decks built from your own study library.</p></div><div className="labs-hero-note"><span className="labs-hero-mark">✦</span><strong>Recall over re-reading</strong><small>{ds.noteDocuments.length} notes · {questionCount.toLocaleString()} questions · local map layers</small></div></section>{showFocus && <div className="labs-focus-banner"><span className="labs-hero-mark">◎</span><div><strong>Focus: {focusSubject}</strong><small>This is your weakest area right now, so we've opened <em>{selectedLab.title}</em> below. Do a learn pass, then switch to Recall and mark how it felt.</small></div></div>}{review?.labDue > 0 && <div className="labs-due-banner"><span className="labs-hero-mark">↻</span><div><strong>{review.labDue} lab review{review.labDue === 1 ? "" : "s"} due</strong><small>Start with the highlighted lab and mark your confidence after the pass.</small></div></div>}<div className="labs-paper-tabs" role="tablist" aria-label="General Studies paper">{LAB_PAPERS.map((item) => <button key={item.id} role="tab" aria-selected={paper === item.id} className={paper === item.id ? "active" : ""} onClick={() => selectPaper(item.id)}><span>{item.label}</span><small>{item.title}</small></button>)}</div><section className="labs-section-head"><div><span className="labs-kicker">{activePaper.label}</span><h2>{activePaper.title}</h2><p>{activePaper.blurb}</p></div><span className="labs-count">{labs.filter((item) => item.status === "Live").length} live · {labs.length} tools</span></section><section className="labs-grid" aria-label={`${activePaper.label} tools`}>{labs.map((lab) => <button key={lab.id} className={`labs-card tone-${lab.tone}${selectedLab.id === lab.id ? " selected" : ""}`} onClick={() => setSelectedId(lab.id)}><div className="labs-card-art"><LabIcon name={lab.icon} /><span className={`tag ${lab.status === "Live" ? "tag-green" : "tag-soft"}`}>{lab.status}</span></div><div className="labs-card-body"><span className="labs-card-category">{activePaper.label} · {lab.category}</span><h3>{lab.title}</h3><p>{lab.description}</p><span className="labs-open-link">{lab.status === "Live" ? "Open lab" : "Preview tool"} <Icon name="arrowR" size={14} /></span></div></button>)}</section><section className="labs-workbench"><div className="labs-workbench-head"><span className="labs-kicker">Selected lab</span><span className="labs-workbench-label">{selectedLab.category}</span></div><LabHowTo /><LabsTool lab={selectedLab} go={go} progress={progress} onLabProgress={onLabProgress} /></section></main>;
+  const showFocus = Boolean(!exactMatch && focusMatch && focusSubject);
+  return <main className="labs-page"><section className="labs-hero"><div><span className="labs-kicker">Pariksha · Study Labs</span><h1>Make the syllabus interactive.</h1><p>A separate home for visual revision tools — timelines, maps, mechanism chains and active recall decks built from your own study library.</p></div><div className="labs-hero-note"><span className="labs-hero-mark">✦</span><strong>Recall over re-reading</strong><small>{ds.noteDocuments.length} notes · {questionCount.toLocaleString()} questions · local map layers</small></div></section><LibraryFlashcards go={go} compact={Boolean(exactMatch)} />{showFocus && <div className="labs-focus-banner"><span className="labs-hero-mark">◎</span><div><strong>Focus: {focusSubject}</strong><small>We've opened <em>{selectedLab.title}</em> below. Do a learn pass, then switch to Recall and mark how it felt.</small></div></div>}{review?.labDue > 0 && <div className="labs-due-banner"><span className="labs-hero-mark">↻</span><div><strong>{review.labDue} lab review{review.labDue === 1 ? "" : "s"} due</strong><small>Start with the highlighted lab and mark your confidence after the pass.</small></div></div>}<div className="labs-paper-tabs" role="tablist" aria-label="General Studies paper">{LAB_PAPERS.map((item) => <button key={item.id} role="tab" aria-selected={paper === item.id} className={paper === item.id ? "active" : ""} onClick={() => selectPaper(item.id)}><span>{item.label}</span><small>{item.title}</small></button>)}</div><section className="labs-section-head"><div><span className="labs-kicker">{activePaper.label}</span><h2>{activePaper.title}</h2><p>{activePaper.blurb}</p></div><span className="labs-count">{labs.filter((item) => item.status === "Live").length} live · {labs.length} tools</span></section><section className="labs-grid" aria-label={`${activePaper.label} tools`}>{labs.map((lab) => <button key={lab.id} className={`labs-card tone-${lab.tone}${selectedLab.id === lab.id ? " selected" : ""}`} onClick={() => go("labs", { labId: lab.id, fromNoteId })}><div className="labs-card-art"><LabIcon name={lab.icon} /><span className={`tag ${lab.status === "Live" ? "tag-green" : "tag-soft"}`}>{lab.status}</span></div><div className="labs-card-body"><span className="labs-card-category">{activePaper.label} · {lab.category}</span><h3>{lab.title}</h3><p>{lab.description}</p><span className="labs-open-link">{lab.status === "Live" ? "Open lab" : "Preview tool"} <Icon name="arrowR" size={14} /></span></div></button>)}</section><section className="labs-workbench" id="lab-workbench"><div className="labs-workbench-head"><span className="labs-kicker">Selected lab</span><span className="labs-workbench-label">{selectedLab.category}</span></div><LabHowTo /><LabsTool key={`tool-${selectedLab.id}`} lab={selectedLab} go={go} progress={progress} onLabProgress={onLabProgress} /><LabBriefings key={`reading-${selectedLab.id}`} labId={selectedLab.id} fromNoteId={fromNoteId} go={go} /></section></main>;
 }
 
 Object.assign(window, { StudyLabs });

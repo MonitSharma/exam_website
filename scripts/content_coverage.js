@@ -42,6 +42,13 @@ function validateCoverage(root, manifest) {
       if (ids.has(feature.id)) errors.push(`Duplicate Atlas feature: ${feature.id}`);
       ids.add(feature.id);
       if (!weeks.has(feature.weekId)) errors.push(`Orphan Atlas feature: ${feature.id}`);
+      if (feature.libraryDerived) {
+        if (!feature.references?.length) errors.push(`Missing Atlas references: ${feature.id}`);
+        for (const ref of feature.references || []) {
+          if (![...notes.values()].some((note) => note.path === ref.source) || !ref.excerpt) errors.push(`Invalid Atlas reference: ${feature.id}`);
+        }
+        if (!feature.coordinateSource || !fs.existsSync(path.join(root, feature.coordinateSource))) errors.push(`Missing Atlas coordinate source: ${feature.id}`);
+      }
       if (!Number.isFinite(feature.lat) || !Number.isFinite(feature.lon) || Math.abs(feature.lat) > 90 || Math.abs(feature.lon) > 180) errors.push(`Invalid coordinates: ${feature.id}`);
     }
     for (const week of weeks.values()) if (![...notes.values()].some((n) => n.path === week.source)) errors.push(`Orphan Atlas source: ${week.source}`);

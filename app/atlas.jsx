@@ -1,6 +1,12 @@
 // News Atlas — accurate local boundary maps plus UPSC study layers.
 const { useState: useStateAtlas, useMemo: useMemoAtlas, useEffect: useEffectAtlas, useRef: useRefAtlas } = React;
 
+function AtlasVerification({ feature }) {
+  if (!feature.sources?.length) return null;
+  return <div className="atlas-verification"><small>Verified {feature.verifiedOn}{feature.designationDate ? ` · Designated ${feature.designationDate}` : ""}</small>{feature.coordinateNote && <small>{feature.coordinateNote}</small>}{feature.sources.map(source => <a key={source.url} href={source.url} target="_blank" rel="noopener noreferrer">{source.label} ↗</a>)}</div>;
+}
+window.AtlasVerification = AtlasVerification;
+
 const ATLAS_CURRENT = [
   { id:"dhemaji", layer:"current", name:"Dhemaji & Lakhimpur", country:"India", region:"Assam", lat:27.48, lon:94.58, scope:"india", topic:"Environment", week:"04 Jul 2026", fresh:true, hook:"Brahmaputra floodplain", fact:"The first major flood wave of the 2026 monsoon affected villages, farmland and a railway bridge over the Simen river.", locate:"Upper Assam, on the north bank of the Brahmaputra near Arunachal Pradesh." },
   { id:"dzongu", layer:"current", name:"Dzongu", country:"India", region:"Sikkim", lat:27.53, lon:88.55, scope:"india", topic:"Environment", week:"04 Jul 2026", fresh:true, hook:"Teesta–Kanchenjunga corridor", fact:"A Bailey bridge over the Phee Khola washed away, cutting the road link to Lachen and Lachung.", locate:"North Sikkim, between the Teesta valley and the Kanchenjunga massif." },
@@ -821,7 +827,7 @@ function CurrentAtlas({ onModeChange, initialWeekId, go }) {
     return scopeFeatures.filter((feature) => {
       if (!activeLayers.includes(feature.layer)) return false;
       if (feature.layer === "rivers" && riverSystem !== "all" && atlasRiverMetaForName(feature.name)?.system !== riverSystem) return false;
-      return !needle || `${feature.name} ${atlasFeatureSub(feature)} ${feature.fact || ""}`.toLowerCase().includes(needle);
+      return !needle || `${feature.name} ${(feature.aliases || []).join(" ")} ${feature.hook || ""} ${atlasFeatureSub(feature)} ${feature.fact || ""}`.toLowerCase().includes(needle);
     });
   }, [scopeFeatures, activeLayers, query, riverSystem]);
   const listFeatures = mapFeatures;
@@ -904,7 +910,7 @@ function CurrentAtlas({ onModeChange, initialWeekId, go }) {
           <h1>News Atlas</h1>
           <p>Current affairs on a proper political map—plus the static geography that turns a location into an exam-ready mental model.</p>
         </div>
-        <div className="atlas-hero-actions"><AtlasModeSwitch mode="news" onChange={onModeChange} /><div className="atlas-freshness"><span className="atlas-live-dot" /><span><small>Selected news set</small><strong>{activeWeek ? activeWeek.label.replace("Week of ", "") : "Loading…"}</strong><em>Local Places in News notes</em></span></div></div>
+        <div className="atlas-hero-actions"><AtlasModeSwitch mode="news" onChange={onModeChange} /><div className="atlas-freshness"><span className="atlas-live-dot" /><span><small>Selected news set</small><strong>{activeWeek ? activeWeek.label.replace("Week of ", "") : "Loading…"}</strong><em>Local weekly, CA &amp; PIB notes</em></span></div></div>
       </header>
 
       {!news && !newsError && <div className="atlas-history-loading"><span className="atlas-loading-ring" /><strong>Loading this week's places in news…</strong><small>Fetched only when you open the Atlas.</small></div>}
@@ -917,7 +923,7 @@ function CurrentAtlas({ onModeChange, initialWeekId, go }) {
             <button className={scope === "india" ? "on" : ""} onClick={() => changeScope("india")}><Icon name="target" size={15} /> India</button>
           </div>
           <label className="atlas-search"><Icon name="search" size={16} /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search this atlas…" /></label>
-          <label className="atlas-week-select"><span>Places in News week</span><select value={weekId} onChange={(event) => changeWeek(event.target.value)} aria-label="Places in News week">{newsWeeks.map((week) => <option key={week.id} value={week.id}>{week.label}</option>)}</select><small>{activeWeek ? "Approximate locations for study" : ""}</small>{activeWeek && <button className="link-btn" onClick={() => go("library", { noteId: window.UPSC.noteDocuments.find((note) => note.path === activeWeek.source)?.id })}>Read this week’s briefing</button>}</label>
+          <label className="atlas-week-select"><span>News collection</span><select value={weekId} onChange={(event) => changeWeek(event.target.value)} aria-label="Places in News week">{newsWeeks.map((week) => <option key={week.id} value={week.id}>{week.label}</option>)}</select><small>{activeWeek ? "Approximate locations for study" : ""}</small>{activeWeek && <button className="link-btn" onClick={() => go("library", { noteId: window.UPSC.noteDocuments.find((note) => note.path === activeWeek.source)?.id })}>{activeWeek.libraryDerived ? "Read a source briefing" : "Read this week’s briefing"}</button>}</label>
           <div className="atlas-atlas-mode" role="tablist" aria-label="News Atlas activity">
             <button className={atlasMode === "explore" ? "on" : ""} onClick={() => setAtlasMode("explore")}><Icon name="layers" size={13} /> Explore</button>
             <button className={atlasMode === "drill" ? "on" : ""} onClick={startDrill}><Icon name="target" size={13} /> Map drill</button>
@@ -963,7 +969,7 @@ function CurrentAtlas({ onModeChange, initialWeekId, go }) {
 
         <aside className="atlas-detail" aria-live="polite">
           {atlasMode === "drill" && drillTarget ? <>
-            <div className="atlas-detail-kicker"><span style={{ background:"var(--saffron)" }} /> Weekly map drill</div>
+            <div className="atlas-detail-kicker"><span style={{ background:"var(--saffron)" }} /> Map recall drill</div>
             <h2>{drillRevealed ? drillTarget.name : `Place ${drillIndex + 1} of ${weekFeatures.length}`}</h2>
             {!drillRevealed ? <>
               <div className="atlas-drill-prompt"><small>LOCATE FROM THE CLUE</small><strong>{drillTarget.hook || "Use the regional clue in the note."}</strong><p>{drillTarget.locate || drillTarget.fact}</p></div>
@@ -971,7 +977,7 @@ function CurrentAtlas({ onModeChange, initialWeekId, go }) {
             </> : <>
               <p className="atlas-detail-loc"><Icon name="map" size={14} /> {atlasFeatureSub(drillTarget)}{drillTarget.country ? ` · ${drillTarget.country}` : ""}</p>
               <div className="atlas-drill-success">{drillMessage || "Place revealed — connect it to the surrounding physical and political geography."}</div>
-              <div className="atlas-detail-section"><h3>Why in news</h3><p>{drillTarget.fact}</p></div>
+              <div className="atlas-detail-section"><h3>{drillTarget.libraryDerived ? "Mentioned in the briefing" : "Why in news"}</h3><p>{drillTarget.fact.length > 700 ? drillTarget.fact.slice(0, 700) + "…" : drillTarget.fact}</p></div>
               {drillTarget.locate && <div className="atlas-detail-section"><h3>Locate it</h3><p>{drillTarget.locate}</p></div>}
               <button className="btn btn-primary atlas-drill-action" onClick={nextDrill}>{drillIndex + 1 < weekFeatures.length ? "Next place" : "Review the week"}</button>
             </>}
@@ -982,9 +988,11 @@ function CurrentAtlas({ onModeChange, initialWeekId, go }) {
             <p className="atlas-detail-loc"><Icon name="map" size={14} /> {atlasFeatureSub(selected)}{selected.country ? ` · ${selected.country}` : ""}</p>
             {selected.lat != null && <div className="atlas-coordinate"><span>{Math.abs(selected.lat).toFixed(2)}°{selected.lat >= 0 ? "N" : "S"}</span><span>{Math.abs(selected.lon).toFixed(2)}°{selected.lon >= 0 ? "E" : "W"}</span></div>}
             {selected.hook && <div className="atlas-hook"><small>{selected.layer === "current" ? "Map hook" : "Remember"}</small><strong>{selected.hook}</strong></div>}
-            <div className="atlas-detail-section"><h3>{selected.layer === "current" ? "Why in news" : "Why it matters"}</h3><p>{selected.fact}</p></div>
+            <div className="atlas-detail-section"><h3>{selected.libraryDerived ? "Mentioned in the briefing" : selected.layer === "current" ? "Why in news" : "Why it matters"}</h3><p>{selected.fact?.length > 700 ? selected.fact.slice(0, 700) + "…" : selected.fact}</p></div>
             {selected.locate && <div className="atlas-detail-section"><h3>Locate it</h3><p>{selected.locate}</p></div>}
-            <div className="atlas-source-note"><Icon name={selected.layer === "current" ? "clock" : "book"} size={14} /><span>{selected.layer === "current" ? "Places in News" : "UPSC map layer"}<br /><strong>{selectedWeek?.label || selectedDef?.short}</strong>{selectedWeek && <small>{selectedWeek.source}</small>}</span></div>
+            <AtlasVerification feature={selected} />
+            {selected.libraryDerived && <div className="atlas-detail-section"><h3>Source briefings</h3><p>Extracted from project notes; a mention may provide background context. Locations are approximate.</p>{selected.references.map((ref) => <button className="btn ghost sm atlas-source-link" key={ref.source} onClick={() => { const note = window.UPSC.noteDocuments.find((item) => item.path === ref.source); if (note) go("library", { noteId: note.id }); }}>{ref.cadence === "pib" ? "PIB" : "Daily CA"} · {ref.date} <Icon name="arrowR" size={12} /></button>)}</div>}
+            <div className="atlas-source-note"><Icon name={selected.layer === "current" ? "clock" : "book"} size={14} /><span>{selected.libraryDerived ? "CA & PIB project notes" : selected.layer === "current" ? "Places in News" : "UPSC map layer"}<br /><strong>{selectedWeek?.label || selectedDef?.short}</strong>{selectedWeek && <small>{selected.libraryDerived ? selected.source : selectedWeek.source}</small>}</span></div>
           </> : <div className="atlas-empty-detail"><Icon name="map" size={30} /><strong>Select a feature</strong><p>Choose any marker, river or boundary.</p></div>}
         </aside>
       </div>}
