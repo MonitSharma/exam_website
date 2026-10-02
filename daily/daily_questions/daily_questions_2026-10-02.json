@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to the tiger reintroduction at Buxa Tiger Reserve, consider the following statements:\n1. Buxa Tiger Reserve is located in the Alipurduar district of West Bengal.\n2. Sundarbans is the other tiger reserve in West Bengal.\n3. The tigress being released was translocated from the Valmiki Tiger Reserve in Uttar Pradesh.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Buxa is in Alipurduar and Sundarbans is WB's other tiger reserve; the tigress came from Valmiki in Bihar, not Uttar Pradesh.",
+    "subject": "Environment",
+    "theme": "Species & Conservation",
+    "micro_topic": "Tiger reintroduction / Buxa",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the HSBC India Manufacturing PMI for September 2026, consider the following statements:\n1. A reading above 50 indicates expansion in manufacturing activity.\n2. The final reading was a seven-month high, up from 52.8 in August.\n3. It is compiled and released by the Reserve Bank of India.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 3 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 2 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "PMI above 50 means expansion; the final reading was 55.1 vs 52.8 in August. It is compiled by S&P Global for HSBC, not the RBI.",
+    "subject": "Economy",
+    "theme": "Economic Indicators",
+    "micro_topic": "Manufacturing PMI",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Walled City of Jaipur and the World Heritage framework, consider the following statements:\n1. The Walled City was inscribed as a UNESCO World Heritage Site in 2019.\n2. The World Heritage Committee decides whether a site is placed on the List of World Heritage in Danger.\n3. The Archaeological Survey of India has the authority to delete a site from the World Heritage List.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Jaipur Walled City was inscribed in 2019 and the World Heritage Committee decides on the Danger List and deletion; the ASI has no power to delist a site.",
+    "subject": "Art & Culture",
+    "theme": "UNESCO & Heritage",
+    "micro_topic": "Jaipur Walled City World Heritage",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "'MOI-1A', recently in the news, is best described as:",
+    "options": [
+      "(a) an ISRO weather satellite to be launched on a PSLV",
+      "(b) a startup-built satellite designed for AI computing in orbit",
+      "(c) a navigation satellite for the NavIC constellation",
+      "(d) a lunar lander for Chandrayaan-5"
+    ],
+    "answer": "(b)",
+    "explanation": "MOI-1A, by startup TakeMe2Space, is an orbital edge-computing satellite planned on a SpaceX Falcon 9 rideshare (Transporter-18).",
+    "subject": "Science & Technology",
+    "theme": "Space Technology",
+    "micro_topic": "Orbital edge computing / private space",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the India–US trade negotiations in the news, consider the following statements:\n1. Section 301 of the US Trade Act of 1974 empowers the US Trade Representative to act against unfair foreign trade practices.\n2. Section 301 is a provision of the WTO Agreement on Safeguards.\n3. According to reports, the first-phase framework of the India–US trade agreement was announced in February 2026 but remains unsigned.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Section 301 is US domestic law (not WTO); per reports the first-phase framework (Feb 2026) remains unsigned.",
+    "subject": "International Relations",
+    "theme": "Trade Diplomacy",
+    "micro_topic": "India-US BTA / Section 301",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "With reference to the National Tiger Conservation Authority (NTCA), consider the following statements:\n1. It is a statutory body under the Wild Life (Protection) Act, 1972.\n2. Core areas of tiger reserves are notified by the Central Government without consulting the State Government.\n3. Tiger reserves are notified by the State Government on the recommendation of the NTCA.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 3 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 3 only"
+    ],
+    "answer": "(a)",
+    "explanation": "NTCA is statutory (2006 amendment); tiger reserves and core areas are notified by the State Government (core in consultation with an expert committee), not the Centre unilaterally.",
+    "subject": "Environment",
+    "theme": "Protected Areas & Wildlife Law",
+    "micro_topic": "NTCA and tiger reserve notification",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Index of Industrial Production (IIP) in India is compiled and released by:",
+    "options": [
+      "(a) National Statistics Office (MoSPI)",
+      "(b) Reserve Bank of India",
+      "(c) NITI Aayog",
+      "(d) S&P Global"
+    ],
+    "answer": "(a)",
+    "explanation": "IIP is compiled and released by the National Statistics Office under MoSPI; the PMI is from S&P Global/HSBC.",
+    "subject": "Economy",
+    "theme": "Economic Indicators",
+    "micro_topic": "IIP vs PMI",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  }
+]

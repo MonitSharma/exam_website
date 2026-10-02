@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the GOBARdhan Scheme launched in October 2026, consider the following statements: 1. It has an outlay of ₹23,731 crore spread over ten years from FY 2026-27. 2. It envisages CBG blending obligations of 3% in FY 2026-27 rising to 5% from FY 2028-29. 3. It is implemented by the Ministry of Jal Shakti through the Swachh Bharat Mission (Grameen). Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 2 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "Outlay ₹23,731 crore over FY27–FY36 and the 3%→4%→5% blending obligation are correct; the scheme is led by the Ministry of Petroleum & Natural Gas, not Jal Shakti.",
+    "subject": "Economy",
+    "theme": "Energy & Biofuels",
+    "micro_topic": "GOBARdhan Scheme (CBG)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The 'People's Plan Campaign 2026-27 — Sabki Yojana, Sabka Vikas' was launched through special Gram Sabhas on 2 October 2026. Consider the following statements: 1. It is led by the Ministry of Panchayati Raj. 2. Gram Panchayats prepare their development plans and upload them on the e-GramSwaraj portal. 3. The plans are uploaded on the PM Gati Shakti National Master Plan portal. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "The campaign is run by the Ministry of Panchayati Raj and plans are uploaded on e-GramSwaraj; the PM Gati Shakti portal is not part of it.",
+    "subject": "Polity & Governance",
+    "theme": "Local Government",
+    "micro_topic": "People's Plan Campaign / GPDP",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The ICAR–FCI MoU of October 2026 on foodgrain storage aims to trial alternatives to chemical fumigation. Consider the following statements: 1. Phase I includes nitrogen fumigation of wheat stored in metal silos. 2. The trials seek to reduce reliance on aluminium phosphide and malathion, to which storage pests have developed resistance. 3. A combination of carbon dioxide and phosphine is among the methods to be trialled for bagged grain. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are part of the ICAR–FCI Phase I trial design and objective (two-year pilot, then a one-year multi-location phase).",
+    "subject": "Agriculture",
+    "theme": "Storage & Food Security",
+    "micro_topic": "ICAR-FCI storage pest management",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]
