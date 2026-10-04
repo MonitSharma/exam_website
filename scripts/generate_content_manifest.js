@@ -210,24 +210,31 @@ function parseMdQuestions(questionText) {
         tailLines.push(cleanMarkdownInline(trimmed));
       }
     }
-    const options = [...optionBlock.matchAll(/^\s*[-*]?\s*(?:\(([a-dA-D])\)|([a-dA-D])[).])\s+(.+)$/gm)]
+    const rawOptionsBlock = optionStart >= 0 ? optionBlock.slice(optionStart) : optionBlock;
+    let options = [...rawOptionsBlock.matchAll(/^\s*[-*]?\s*(?:\(([a-dA-D])\)|([a-dA-D])[).])\s+(.+)$/gm)]
       .map((item) => ({
         key: String(item[1] || item[2]).toLowerCase(),
         text: cleanMarkdownInline(item[3]),
       }));
+    if (options.length < 4) {
+      const inline = parseInlineOptions(rawOptionsBlock);
+      if (inline.length > options.length) {
+        options = inline;
+      }
+    }
     return { number, stem, statements, tail: tailLines.join(" "), options };
   }).filter((item) => item.number && item.stem && item.options.length);
 }
 
 function parseInlineOptions(line) {
   const text = String(line || "").trim();
-  const matches = [...text.matchAll(/(?:^|\s)([a-dA-D])\)\s*/g)];
+  const matches = [...text.matchAll(/(?:^|\s+)(?:\(([a-dA-D])\)|([a-dA-D])\))\s*/g)];
   if (matches.length < 2) return [];
   return matches.map((match, index) => {
     const start = match.index + match[0].length;
     const end = index + 1 < matches.length ? matches[index + 1].index : text.length;
     return {
-      key: match[1].toLowerCase(),
+      key: String(match[1] || match[2]).toLowerCase(),
       text: cleanMarkdownInline(text.slice(start, end)),
     };
   }).filter((option) => option.key && option.text);
@@ -1015,4 +1022,6 @@ if (require.main === module) {
 module.exports = {
   buildContentManifest,
   writeManifestFile,
+  parseMdQuestions,
+  parseInlineOptions,
 };

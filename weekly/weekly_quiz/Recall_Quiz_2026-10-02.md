@@ -14,7 +14,10 @@
 3. In *Abhiram Singh* (2017), the 7-judge Bench held that "his religion" in Section 123(3) covers only the candidate's religion and not the voter's.
 
 Which of the statements given above is/are correct?
-(a) 1 only  (b) 1 and 2 only  (c) 2 and 3 only  (d) 1, 2 and 3
+(a) 1 only
+(b) 1 and 2 only
+(c) 2 and 3 only
+(d) 1, 2 and 3
 
 **Q2.** India defended keeping the Indus Waters Treaty in abeyance at UNGA-81. With reference to the Treaty, consider:
 1. It was signed in 1960 at Karachi, with the World Bank as a signatory.
@@ -22,7 +25,10 @@ Which of the statements given above is/are correct?
 3. Disputes move from the Permanent Indus Commission to a Neutral Expert and then to a Court of Arbitration.
 
 Which of the statements given above is/are correct?
-(a) 1 only  (b) 2 and 3 only  (c) 1 and 3 only  (d) 1, 2 and 3
+(a) 1 only
+(b) 2 and 3 only
+(c) 1 and 3 only
+(d) 1, 2 and 3
 
 **Q3.** The India–New Zealand FTA, whose start date was announced this week, is correctly described by which one of the following?
 (a) It enters into force on 20 October 2026, and India has excluded dairy from its tariff liberalisation.
@@ -36,7 +42,10 @@ Which of the statements given above is/are correct?
 3. It is the exercise through which tiger numbers are estimated every four years.
 
 Which of the statements given above is/are correct?
-(a) 1 only  (b) 2 only  (c) 1 and 2 only  (d) 1, 2 and 3
+(a) 1 only
+(b) 2 only
+(c) 1 and 2 only
+(d) 1, 2 and 3
 
 **Q5.** The Technology Development Board committed ₹200 crore to Agnikul Cosmos's reusable launcher *Agnibaan*. Consider:
 1. The Technology Development Board is a statutory body under the Department of Science and Technology.
@@ -44,7 +53,10 @@ Which of the statements given above is/are correct?
 3. The funding was reported as being structured through optionally convertible debentures.
 
 Which of the statements given above is/are correct?
-(a) 1 only  (b) 1 and 3 only  (c) 2 and 3 only  (d) 1, 2 and 3
+(a) 1 only
+(b) 1 and 3 only
+(c) 2 and 3 only
+(d) 1, 2 and 3
 
 **Q6.** The Centre cut its FY27 gross market borrowing by about ₹1.2 lakh crore against the Budget Estimate. This reduction was mainly due to:
 (a) a lower fiscal deficit target announced in a revised Budget
@@ -64,7 +76,10 @@ Which of the statements given above is/are correct?
 3. The recommendations are of three sitting High Court Chief Justices.
 
 Which of the statements given above is/are correct?
-(a) 1 only  (b) 1 and 2 only  (c) 2 and 3 only  (d) 1, 2 and 3
+(a) 1 only
+(b) 1 and 2 only
+(c) 2 and 3 only
+(d) 1, 2 and 3
 
 **Q9.** In the Sambhal case (*Mulla Afroz v. Union of India*, 29 September 2026), the Supreme Court quashed an NSA detention order. Which of the following best captures its holding?
 (a) A confession made in police custody can be the sole basis of a detaining authority's satisfaction if it is detailed.
@@ -78,7 +93,10 @@ Which of the statements given above is/are correct?
 3. Its transmission component is for inter-state (ISTS) lines.
 
 Which of the statements given above is/are correct?
-(a) 1 only  (b) 2 and 3 only  (c) 1 and 2 only  (d) 1, 2 and 3
+(a) 1 only
+(b) 2 and 3 only
+(c) 1 and 2 only
+(d) 1, 2 and 3
 
 **Q11.** With reference to the SCO meeting in Islamabad (28–30 September 2026), consider:
 1. Pakistan took over the 2026–27 SCO chair from Kyrgyzstan on 1 September 2026.
@@ -86,7 +104,10 @@ Which of the statements given above is/are correct?
 3. India's delegation was led by an MEA Additional Secretary.
 
 Which of the statements given above is/are correct?
-(a) 1 and 3 only  (b) 1 and 2 only  (c) 2 and 3 only  (d) 1, 2 and 3
+(a) 1 and 3 only
+(b) 1 and 2 only
+(c) 2 and 3 only
+(d) 1, 2 and 3
 
 **Q12.** In the firecracker case (*Arjun Gopal v. Union of India*) heard this week, the Supreme Court:
 (a) imposed a total nationwide ban on firecrackers
@@ -104,7 +125,10 @@ Which of the statements given above is/are correct?
 3. A Governor may return a Money Bill to the Legislature for reconsideration.
 
 Which of the statements given above is/are correct?
-(a) 1 only  (b) 2 and 3 only  (c) 1 and 2 only  (d) 1, 2 and 3
+(a) 1 only
+(b) 2 and 3 only
+(c) 1 and 2 only
+(d) 1, 2 and 3
 
 **Q14.** Under Article 201, a non-Money Bill reserved by the Governor is returned at the President's direction, and the State Legislature re-passes it within six months. In that case:
 (a) the President is not bound to give assent to it
@@ -118,7 +142,10 @@ Which of the statements given above is/are correct?
 3. The right to consult a lawyer and to be produced before a magistrate within 24 hours under Article 22(1)–(2) is available to preventive detainees.
 
 Which of the statements given above is/are correct?
-(a) 2 only  (b) 1 and 2 only  (c) 2 and 3 only  (d) 1 only
+(a) 2 only
+(b) 1 and 2 only
+(c) 2 and 3 only
+(d) 1 only
 
 **Q16.** With reference to the Election Commission of India, consider:
 1. Article 324 vests superintendence, direction and control of elections in the Election Commission.
@@ -126,7 +153,10 @@ Which of the statements given above is/are correct?
 3. Other Election Commissioners can be removed by the President without any recommendation.
 
 Which of the statements given above is/are correct?
-(a) 1 and 3 only  (b) 2 and 3 only  (c) 1, 2 and 3  (d) 1 and 2 only
+(a) 1 and 3 only
+(b) 2 and 3 only
+(c) 1, 2 and 3
+(d) 1 and 2 only
 
 **Q17.** Under Article 249, Parliament can legislate on a State List subject in the national interest if the Rajya Sabha passes a resolution supported by:
 (a) a simple majority of the House
@@ -140,7 +170,10 @@ Which of the statements given above is/are correct?
 3. An independently elected member may freely join a political party after the election without penalty.
 
 Which of the statements given above is/are correct?
-(a) 1 only  (b) 2 only  (c) 1 and 2 only  (d) 1, 2 and 3
+(a) 1 only
+(b) 2 only
+(c) 1 and 2 only
+(d) 1, 2 and 3
 
 **Q19.** In *Kesavananda Bharati* (1973), a 13-judge Bench held by a 7:6 majority that:
 (a) Parliament has unlimited power to amend the Constitution

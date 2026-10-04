@@ -12,7 +12,19 @@
     "options": [
       {
         "key": "a",
-        "text": "1 only  (b) 1 and 2 only  (c) 2 and 3 only  (d) 1, 2 and 3"
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
       }
     ],
     "answer": "b",
@@ -37,7 +49,19 @@
     "options": [
       {
         "key": "a",
-        "text": "1 only  (b) 2 and 3 only  (c) 1 and 3 only  (d) 1, 2 and 3"
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
       }
     ],
     "answer": "c",
@@ -95,7 +119,19 @@
     "options": [
       {
         "key": "a",
-        "text": "1 only  (b) 2 only  (c) 1 and 2 only  (d) 1, 2 and 3"
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
       }
     ],
     "answer": "c",
@@ -120,7 +156,19 @@
     "options": [
       {
         "key": "a",
-        "text": "1 only  (b) 1 and 3 only  (c) 2 and 3 only  (d) 1, 2 and 3"
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
       }
     ],
     "answer": "b",
@@ -211,7 +259,19 @@
     "options": [
       {
         "key": "a",
-        "text": "1 only  (b) 1 and 2 only  (c) 2 and 3 only  (d) 1, 2 and 3"
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
       }
     ],
     "answer": "d",
@@ -269,7 +329,19 @@
     "options": [
       {
         "key": "a",
-        "text": "1 only  (b) 2 and 3 only  (c) 1 and 2 only  (d) 1, 2 and 3"
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
       }
     ],
     "answer": "c",
@@ -294,7 +366,19 @@
     "options": [
       {
         "key": "a",
-        "text": "1 and 3 only  (b) 1 and 2 only  (c) 2 and 3 only  (d) 1, 2 and 3"
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
       }
     ],
     "answer": "a",
@@ -352,7 +436,19 @@
     "options": [
       {
         "key": "a",
-        "text": "1 only  (b) 2 and 3 only  (c) 1 and 2 only  (d) 1, 2 and 3"
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
       }
     ],
     "answer": "c",
@@ -410,7 +506,19 @@
     "options": [
       {
         "key": "a",
-        "text": "2 only  (b) 1 and 2 only  (c) 2 and 3 only  (d) 1 only"
+        "text": "2 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1 only"
       }
     ],
     "answer": "d",
@@ -435,7 +543,19 @@
     "options": [
       {
         "key": "a",
-        "text": "1 and 3 only  (b) 2 and 3 only  (c) 1, 2 and 3  (d) 1 and 2 only"
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1, 2 and 3"
+      },
+      {
+        "key": "d",
+        "text": "1 and 2 only"
       }
     ],
     "answer": "d",
@@ -493,7 +613,19 @@
     "options": [
       {
         "key": "a",
-        "text": "1 only  (b) 2 only  (c) 1 and 2 only  (d) 1, 2 and 3"
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
       }
     ],
     "answer": "c",

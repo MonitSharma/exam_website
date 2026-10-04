@@ -12905,6 +12905,58 @@
       "provenance": "generated"
     },
     {
+      "id": "csat_practice_2026_10_04",
+      "label": "CSAT Practice - 04 Oct 2026",
+      "shortLabel": "CSAT Practice 04 Oct",
+      "category": "CSAT Practice",
+      "sourceType": "csat",
+      "questionCount": 22,
+      "durationMinutes": 35,
+      "path": "generated_data/csat_questions/2026-10-04.json",
+      "sourcePath": "generated_data/csat_questions/2026-10-04.json",
+      "isoDate": "2026-10-04",
+      "paper": "GS Paper II (CSAT)",
+      "marksPerCorrect": 2,
+      "negativeMark": -0.66,
+      "subjects": [
+        "CSAT"
+      ],
+      "bundleId": "csat_practice_2026_10_04",
+      "relatedNoteIds": [
+        "weekly-csat-csat-practice-2026-10-04"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "csat"
+      ],
+      "topicIds": [
+        "csat/main-idea-analytical-causal-inference-and-natural-experiments-in-policy-evaluation",
+        "csat/inference-applying-the-argument-to-a-new-case-scholarship-lottery",
+        "csat/assumption-identification-credibility-of-cut-off-designs-negation-test",
+        "csat/main-idea-philosophical-selective-memory-and-amnesty",
+        "csat/inference-author-s-likely-judgement-on-cases-illegitimate-amnesty",
+        "csat/tone-and-attitude-towards-the-never-forget-slogan",
+        "csat/blood-relations-relationship-chain-with-undetermined-gender",
+        "csat/direction-sense-shadows-and-successive-turns",
+        "csat/syllogism-with-complementary-either-or-pair",
+        "csat/clocks-angle-between-hands",
+        "csat/puzzle-matching-two-attributes-to-four-persons",
+        "csat/critical-reasoning-strengthening-a-causal-claim",
+        "csat/table-absolute-increase-in-a-sub-group-vs-share-and-growth-traps",
+        "csat/table-weighted-vs-simple-average-of-percentages-trap",
+        "csat/caselet-overlapping-sets-exactly-two-items",
+        "csat/caselet-overlapping-sets-only-one-item",
+        "csat/gifts-and-hospitality-integrity-and-conflict-of-interest",
+        "csat/empathy-with-rules-subordinate-in-personal-crisis",
+        "csat/environment-versus-livelihood-proportionate-enforcement",
+        "csat/compound-vs-simple-interest-3-year-difference",
+        "csat/relative-speed-trains-crossing-in-opposite-and-same-directions",
+        "csat/permutations-arrangements-with-no-two-identical-letters-adjacent"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
       "id": "csat_practice_2026_09_27",
       "label": "CSAT Practice - 27 Sept 2026",
       "shortLabel": "CSAT Practice 27 Sept",
@@ -16436,6 +16488,21 @@
   ],
   "noteDocuments": [
     {
+      "id": "anki-prelims-flashcards-2026-10-04",
+      "cadence": "anki",
+      "title": "Prelims Flashcards",
+      "shortTitle": "Anki - 04 Oct",
+      "date": "2026-10-04",
+      "path": "anki/Prelims_Flashcards_2026-10-04.txt",
+      "bundleId": "anki-prelims-flashcards-2026-10-04",
+      "relatedNoteIds": [
+        "daily-daily-current-affairs-upsc-ca-2026-10-03"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [],
+      "topicIds": []
+    },
+    {
       "id": "anki-prelims-flashcards-2026-09-27",
       "cadence": "anki",
       "title": "Prelims Flashcards",
@@ -16655,7 +16722,9 @@
       "date": "2026-10-03",
       "path": "daily/daily_current_affairs/UPSC_CA_2026-10-03.md",
       "bundleId": "daily-daily-current-affairs-upsc-ca-2026-10-03",
-      "relatedNoteIds": [],
+      "relatedNoteIds": [
+        "anki-prelims-flashcards-2026-10-04"
+      ],
       "relatedSetIds": [
         "daily_questions_2026_10_03"
       ],
@@ -25236,7 +25305,9 @@
       "variantLabel": "Companion",
       "isSupplementary": true,
       "bundleId": "weekly-sectional-sectional-book-topics-2026-10-04-chatgpt",
-      "relatedNoteIds": [],
+      "relatedNoteIds": [
+        "weekly-sunday-sunday-sweep-2026-10-04"
+      ],
       "relatedSetIds": [
         "sectional_book-topics_2026_10_04_extra"
       ],
@@ -26434,7 +26505,9 @@
       "date": "2026-10-04",
       "path": "weekly/Sunday/Sunday_Sweep_2026-10-04.md",
       "bundleId": "weekly-sunday-sunday-sweep-2026-10-04",
-      "relatedNoteIds": [],
+      "relatedNoteIds": [
+        "weekly-sectional-sectional-book-topics-2026-10-04-chatgpt"
+      ],
       "relatedSetIds": [],
       "subjectIds": [],
       "topicIds": []
@@ -26667,6 +26740,46 @@
       "relatedSetIds": [],
       "subjectIds": [],
       "topicIds": []
+    },
+    {
+      "id": "weekly-csat-csat-practice-2026-10-04",
+      "cadence": "weekly-csat",
+      "title": "CSAT Practice",
+      "shortTitle": "Practice - 04 Oct",
+      "date": "2026-10-04",
+      "path": "weekly/CSAT/CSAT_Practice_2026-10-04.md",
+      "bundleId": "weekly-csat-csat-practice-2026-10-04",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "csat_practice_2026_10_04"
+      ],
+      "subjectIds": [
+        "csat"
+      ],
+      "topicIds": [
+        "csat/main-idea-analytical-causal-inference-and-natural-experiments-in-policy-evaluation",
+        "csat/inference-applying-the-argument-to-a-new-case-scholarship-lottery",
+        "csat/assumption-identification-credibility-of-cut-off-designs-negation-test",
+        "csat/main-idea-philosophical-selective-memory-and-amnesty",
+        "csat/inference-author-s-likely-judgement-on-cases-illegitimate-amnesty",
+        "csat/tone-and-attitude-towards-the-never-forget-slogan",
+        "csat/blood-relations-relationship-chain-with-undetermined-gender",
+        "csat/direction-sense-shadows-and-successive-turns",
+        "csat/syllogism-with-complementary-either-or-pair",
+        "csat/clocks-angle-between-hands",
+        "csat/puzzle-matching-two-attributes-to-four-persons",
+        "csat/critical-reasoning-strengthening-a-causal-claim",
+        "csat/table-absolute-increase-in-a-sub-group-vs-share-and-growth-traps",
+        "csat/table-weighted-vs-simple-average-of-percentages-trap",
+        "csat/caselet-overlapping-sets-exactly-two-items",
+        "csat/caselet-overlapping-sets-only-one-item",
+        "csat/gifts-and-hospitality-integrity-and-conflict-of-interest",
+        "csat/empathy-with-rules-subordinate-in-personal-crisis",
+        "csat/environment-versus-livelihood-proportionate-enforcement",
+        "csat/compound-vs-simple-interest-3-year-difference",
+        "csat/relative-speed-trains-crossing-in-opposite-and-same-directions",
+        "csat/permutations-arrangements-with-no-two-identical-letters-adjacent"
+      ]
     },
     {
       "id": "weekly-csat-csat-practice-2026-09-27",

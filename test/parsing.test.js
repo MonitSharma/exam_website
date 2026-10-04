@@ -8,6 +8,7 @@
 const test = require("node:test");
 const assert = require("node:assert/strict");
 const { loadAppData } = require("../scripts/load_app_data");
+const { parseMdQuestions, parseInlineOptions } = require("../scripts/generate_content_manifest");
 
 const api = loadAppData();
 const { normalizeAnswerKey, normalizeOptions, splitQuestionParts, normalizeQuestion, inferSourceType } = api.parsing;
@@ -292,5 +293,23 @@ test("statements ending without punctuation followed by a period-terminated Sele
   assert.equal(parts.statements.length, 3);
   assert.equal(parts.statements[2], "Trichinopoly");
   assert.equal(parts.tail, "Select the correct answer using the code given below.");
+});
+
+test("parseMdQuestions handles inline options format", () => {
+  const md = `**Q1.** Consider the following:
+1. Statement one.
+2. Statement two.
+
+Which of the statements given above is/are correct?
+(a) 1 only  (b) 2 only  (c) Both 1 and 2  (d) Neither 1 nor 2
+`;
+  const questions = parseMdQuestions(md);
+  assert.equal(questions.length, 1);
+  assert.equal(questions[0].options.length, 4);
+  assert.deepEqual(questions[0].options.map((o) => o.key), ["a", "b", "c", "d"]);
+  assert.equal(questions[0].options[0].text, "1 only");
+  assert.equal(questions[0].options[1].text, "2 only");
+  assert.equal(questions[0].options[2].text, "Both 1 and 2");
+  assert.equal(questions[0].options[3].text, "Neither 1 nor 2");
 });
 
