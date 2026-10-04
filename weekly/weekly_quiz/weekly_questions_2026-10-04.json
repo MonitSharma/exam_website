@@ -1,0 +1,242 @@
+[
+ {
+  "question": "With reference to the Tenth Schedule of the Constitution of India, consider the following statements:\n1. It was added by the Constitution (Fifty-second Amendment) Act, 1985.\n2. The Constitution (Ninety-first Amendment) Act, 2003 deleted the exception for a \"split\" involving one-third of a legislature party.\n3. The decision of the Presiding Officer on a question of disqualification is final and is not subject to judicial review.\nWhich of the statements given above is/are correct?",
+  "options": [
+   "(a) 1 only",
+   "(b) 1 and 2 only",
+   "(c) 2 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(b)",
+  "explanation": "52nd Amdt 1985 inserted the Tenth Schedule. The 91st Amdt 2003 removed the one-third \"split\" exception and kept only merger (two-thirds). Kihoto Hollohan (1992) held that the Speaker acts as a tribunal and that the decision is subject to judicial review, so statement 3 is wrong.",
+  "subject": "Polity & Governance",
+  "theme": "Political Dynamics",
+  "micro_topic": "Tenth Schedule: 52nd and 91st Amendments, Kihoto Hollohan",
+  "nature": "Factual",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "With reference to the Election Commission of India, consider the following statements:\n1. Article 324 fixes the strength of the Election Commission at three members.\n2. Under the Chief Election Commissioner and Other Election Commissioners Act, 2023, the selection committee includes the Chief Justice of India.\n3. An Election Commissioner other than the Chief Election Commissioner cannot be removed from office except on the recommendation of the Chief Election Commissioner.\nWhich of the statements given above is/are correct?",
+  "options": [
+   "(a) 1 only",
+   "(b) 2 and 3 only",
+   "(c) 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(c)",
+  "explanation": "Article 324 lets the President fix the number of ECs, so there is no constitutional \"three\". The 2023 Act's committee is the PM, a Union Cabinet Minister and the LoP (or leader of the largest opposition party) in the Lok Sabha, with no CJI. The CJI was on the interim committee set by Anoop Baranwal (2023). The Art 324(5) proviso protects other ECs: they can be removed only on the CEC's recommendation.",
+  "subject": "Polity & Governance",
+  "theme": "Election Commission",
+  "micro_topic": "Article 324 strength, CEC Act 2023 selection committee, removal of ECs",
+  "nature": "Current Affairs",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "In the context of preventive detention in India, consider the following statements:\n1. A person detained under a preventive detention law must be produced before the nearest magistrate within 24 hours of arrest.\n2. The maximum period of detention under the National Security Act, 1980 is twelve months.\n3. Both Parliament and State Legislatures can make laws on preventive detention for reasons connected with the maintenance of public order.\nWhich of the statements given above are correct?",
+  "options": [
+   "(a) 1 and 2 only",
+   "(b) 2 and 3 only",
+   "(c) 1 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(b)",
+  "explanation": "Article 22(3)(b) takes preventive detainees out of the 24-hour production rule in 22(1)–(2). NSA s.13: maximum 12 months. Preventive detention for public order is List III Entry 3 (concurrent); for defence, foreign affairs or the security of India it is List I Entry 9. CA link: Mulla Afroz (29 Sep).",
+  "subject": "Polity & Governance",
+  "theme": "Fundamental Rights",
+  "micro_topic": "Article 22 preventive detention, NSA maximum period, concurrent list entry",
+  "nature": "Current Affairs",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "With reference to government borrowing in India, consider the following statements:\n1. Treasury Bills are issued only by the Central Government.\n2. Ways and Means Advances from the RBI are available to both the Central Government and State Governments.\n3. A switch operation increases the total stock of outstanding government debt.\nWhich of the statements given above is/are correct?",
+  "options": [
+   "(a) 1 and 2 only",
+   "(b) 2 only",
+   "(c) 1 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(a)",
+  "explanation": "T-bills (91/182/364-day) and CMBs are Central instruments; States borrow through SDLs. WMA is available to both. A switch exchanges near-maturity paper for longer-dated paper, so redemptions move but the debt stock is broadly unchanged. CA link: ₹1.14 lakh cr switched, FY27 borrowing cut (25 Sep).",
+  "subject": "Economy",
+  "theme": "Public Debt Management",
+  "micro_topic": "T-bills, Ways and Means Advances and switch operations",
+  "nature": "Conceptual",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "With reference to the Goods and Services Tax (GST), consider the following statements:\n1. Integrated GST is levied on goods imported into India, in addition to basic customs duty.\n2. The Constitution permanently excludes petroleum crude, high-speed diesel, petrol, natural gas and aviation turbine fuel from GST.\n3. Alcoholic liquor for human consumption falls outside the constitutional definition of GST.\nWhich of the statements given above are correct?",
+  "options": [
+   "(a) 1 only",
+   "(b) 2 and 3 only",
+   "(c) 1 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(c)",
+  "explanation": "IGST on imports is collected with BCD. Article 279A(5) keeps the five petroleum items within GST's constitutional scope, but they are taxed only from a date the Council recommends. They are deferred, not excluded. Article 366(12A) excludes alcoholic liquor for human consumption. CA link: import-GST +25.9% in Sept.",
+  "subject": "Economy",
+  "theme": "Taxation",
+  "micro_topic": "IGST on imports, petroleum under Article 279A(5), alcohol outside GST",
+  "nature": "Current Affairs",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "Consider the following statements in the context of a recent funding agreement for a reusable Indian launch vehicle:\n1. On the Technology Readiness Level (TRL) scale, a higher level indicates greater maturity, and TRL 9 denotes a system proven in actual operation.\n2. The Technology Development Board is a statutory body under the Department of Science and Technology.\n3. Agnikul's Agnibaan is designed around a solid-propellant first stage.\nWhich of the statements given above are correct?",
+  "options": [
+   "(a) 1 and 2 only",
+   "(b) 2 and 3 only",
+   "(c) 1 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(a)",
+  "explanation": "TRL runs 1–9, and TRL 9 means proven in operation. TDB's funding is meant to take Agnibaan from TRL-4 to TRL-8. TDB is statutory (TDB Act 1995) under DST. Agnibaan uses semi-cryogenic liquid engines (the 3D-printed Agnilet), not solid propellant.",
+  "subject": "Science & Technology",
+  "theme": "Space Technology",
+  "micro_topic": "Technology Readiness Levels, TDB status, Agnibaan propulsion",
+  "nature": "Current Affairs",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "With reference to Minimum Support Prices (MSP), consider the following statements:\n1. Since 2018-19, MSPs are fixed at a minimum of 1.5 times the all-India weighted average cost of production (A2+FL).\n2. The Commission for Agricultural Costs and Prices is a statutory body.\n3. For the 2027-28 rabi marketing season, safflower received the largest absolute increase in MSP among rabi crops.\nWhich of the statements given above are correct?",
+  "options": [
+   "(a) 1 and 3 only",
+   "(b) 1 and 2 only",
+   "(c) 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(a)",
+  "explanation": "The 1.5× (A2+FL) rule dates from the 2018-19 Budget. CACP (1965, as the Agricultural Prices Commission) is an attached office of MoA&FW and non-statutory. Safflower got +₹675, the largest absolute rise.",
+  "subject": "Agriculture",
+  "theme": "Agricultural Pricing",
+  "micro_topic": "MSP 1.5x A2+FL rule, CACP status, Rabi MSP 2027-28",
+  "nature": "Current Affairs",
+  "difficulty": "Easy"
+ },
+ {
+  "question": "Consider the following pairs (foreign visitor — ruler during whose reign the visit took place):\n1. Nicolo de Conti — Devaraya I\n2. Abdur Razzaq — Devaraya II\n3. Afanasy Nikitin — Krishnadevaraya\n4. Domingo Paes — Krishnadevaraya\nHow many of the pairs given above are correctly matched?",
+  "options": [
+   "(a) Only one",
+   "(b) Only two",
+   "(c) Only three",
+   "(d) All four"
+  ],
+  "answer": "(c)",
+  "explanation": "de Conti (c. 1420) came under Devaraya I. Abdur Razzaq, envoy of Shah Rukh (1443), came under Devaraya II. Paes came under Krishnadevaraya. Nikitin (1469–72) visited the Bahmani kingdom under Muhammad Shah III, not Vijayanagara.",
+  "subject": "Ancient & Medieval History",
+  "theme": "Vijayanagara and Bahmani",
+  "micro_topic": "Foreign travellers to Vijayanagara and the Bahmani kingdom",
+  "nature": "Factual",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "With reference to the Bahmani kingdom, consider the following statements:\n1. It was founded in 1347 by Alauddin Hasan Bahman Shah, with Gulbarga as its first capital.\n2. Mahmud Gawan built a madrasa at Bidar.\n3. The Raichur doab, contested between the Bahmanis and Vijayanagara, lies between the Krishna and the Tungabhadra rivers.\nWhich of the statements given above are correct?",
+  "options": [
+   "(a) 1 only",
+   "(b) 2 and 3 only",
+   "(c) 1 and 2 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(d)",
+  "explanation": "All three are standard facts: Hasan Gangu founded the kingdom at Gulbarga in 1347; Gawan's madrasa at Bidar dates from 1472; the Raichur doab lies between the Krishna and the Tungabhadra.",
+  "subject": "Ancient & Medieval History",
+  "theme": "Vijayanagara and Bahmani",
+  "micro_topic": "Bahmani foundation, Mahmud Gawan, Raichur doab",
+  "nature": "Factual",
+  "difficulty": "Easy"
+ },
+ {
+  "question": "Consider the following pairs (monument — place):\n1. Atala Masjid — Jaunpur\n2. Jahaz Mahal — Mandu\n3. Gol Gumbaz — Golconda\n4. Char Minar — Bidar\nHow many of the pairs given above are correctly matched?",
+  "options": [
+   "(a) Only one",
+   "(b) Only two",
+   "(c) Only three",
+   "(d) All four"
+  ],
+  "answer": "(b)",
+  "explanation": "Atala Masjid is at Jaunpur (Sharqi) and Jahaz Mahal is at Mandu (Malwa), both correct. Gol Gumbaz is at Bijapur (Adil Shahi). Char Minar is at Hyderabad (Qutb Shahi, 1591).",
+  "subject": "Art & Culture",
+  "theme": "Indo-Islamic Architecture",
+  "micro_topic": "Provincial Indo-Islamic monuments and their locations",
+  "nature": "Factual",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "Consider the following statements:\n1. Mandar, which recently received a Geographical Indication tag, is a double-headed drum with a terracotta barrel, played during the Sarhul and Karma festivals in Jharkhand.\n2. Geographical Indications in India are registered under the Trade Marks Act, 1999.\n3. The registration of a Geographical Indication is valid for ten years and can be renewed.\nWhich of the statements given above are correct?",
+  "options": [
+   "(a) 1 only",
+   "(b) 1 and 3 only",
+   "(c) 2 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(b)",
+  "explanation": "The Mandar GI (Gumla, Jharkhand) was reported on 28–29 Sep. GIs are registered under the Geographical Indications of Goods (Registration and Protection) Act, 1999, not the Trade Marks Act. Registration lasts 10 years and is renewable.",
+  "subject": "Art & Culture",
+  "theme": "Geographical Indications",
+  "micro_topic": "Mandar drum GI and the GI Act 1999",
+  "nature": "Current Affairs",
+  "difficulty": "Easy"
+ },
+ {
+  "question": "In the context of West Bengal's first tiger reintroduction, consider the following statements:\n1. The National Tiger Conservation Authority is a statutory body constituted under the Environment (Protection) Act, 1986.\n2. Buxa Tiger Reserve lies in the Alipurduar district and adjoins Bhutan.\n3. Valmiki Tiger Reserve is in Bihar and adjoins Nepal's Chitwan National Park.\nWhich of the statements given above are correct?",
+  "options": [
+   "(a) 2 and 3 only",
+   "(b) 1 and 2 only",
+   "(c) 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(a)",
+  "explanation": "NTCA is constituted under the Wild Life (Protection) Act, 1972, through its 2006 amendment, not the EPA. Buxa is in Alipurduar and borders Bhutan. Valmiki is in West Champaran, Bihar, and is contiguous with Chitwan.",
+  "subject": "Environment",
+  "theme": "Wildlife Conservation",
+  "micro_topic": "NTCA legal basis, Buxa and Valmiki tiger reserves",
+  "nature": "Current Affairs",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "With reference to the Graded Response Action Plan (GRAP) for the Delhi-NCR, consider the following statements:\n1. It is implemented by the Commission for Air Quality Management, a statutory body constituted under a 2021 Act.\n2. Stage IV of GRAP applies when the AQI exceeds 450.\n3. Under the September 2026 revision, restrictions on diesel generator sets were moved to Stage I.\nWhich of the statements given above are correct?",
+  "options": [
+   "(a) 1 and 2 only",
+   "(b) 2 only",
+   "(c) 1 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(d)",
+  "explanation": "CAQM is constituted under the CAQM in NCR and Adjoining Areas Act, 2021. Stage IV (\"Severe+\") applies above AQI 450. The 28 Sep revision moved DG-set and inter-city bus curbs from Stage II to Stage I.",
+  "subject": "Environment",
+  "theme": "Air Pollution",
+  "micro_topic": "CAQM, GRAP stages and the 2026 revision",
+  "nature": "Current Affairs",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "With reference to India's Act East policy, consider the following statements:\n1. The Look East policy of the early 1990s was upgraded to the Act East policy in 2014.\n2. India–ASEAN relations were elevated to a Comprehensive Strategic Partnership in 2022.\n3. India announced the Indo-Pacific Oceans Initiative at the East Asia Summit in Bangkok in 2019.\nWhich of the statements given above are correct?",
+  "options": [
+   "(a) 1 only",
+   "(b) 1 and 2 only",
+   "(c) 2 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(d)",
+  "explanation": "Act East was announced in Nov 2014 (Nay Pyi Taw). The CSP came at the 2022 ASEAN–India Commemorative Summit. IPOI was announced at the EAS in Bangkok in Nov 2019 and has seven pillars.",
+  "subject": "International Relations",
+  "theme": "Act East and Indo-Pacific",
+  "micro_topic": "Look East to Act East, ASEAN CSP, IPOI",
+  "nature": "Factual",
+  "difficulty": "Easy"
+ },
+ {
+  "question": "Kaliningrad, a Russian exclave recently in the news, shares a land border with which of the following countries?\n1. Poland\n2. Lithuania\n3. Belarus\n4. Latvia\nSelect the correct answer using the code given below:",
+  "options": [
+   "(a) 2 and 3 only",
+   "(b) 1, 2 and 3 only",
+   "(c) 1 and 2 only",
+   "(d) 1, 2, 3 and 4"
+  ],
+  "answer": "(c)",
+  "explanation": "Kaliningrad borders only Poland and Lithuania. Belarus lies across the Suwałki Gap, and Latvia lies north of Lithuania.",
+  "subject": "Geography",
+  "theme": "Places in News",
+  "micro_topic": "Kaliningrad exclave borders",
+  "nature": "Current Affairs",
+  "difficulty": "Easy"
+ }
+]

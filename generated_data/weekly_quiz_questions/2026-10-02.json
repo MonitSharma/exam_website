@@ -1,0 +1,574 @@
+[
+  {
+    "id": "weekly_quiz_2026_10_02_1",
+    "question_number": 1,
+    "question": "In the Malegaon Central election case decided by the Supreme Court on 25 September 2026, consider the following:",
+    "statements": [
+      "Section 123(3) of the Representation of the People Act, 1951 treats an appeal to vote on grounds of religion as a corrupt practice.",
+      "An election petition is tried by the High Court, and an appeal lies directly to the Supreme Court under Section 116A.",
+      "In *Abhiram Singh* (2017), the 7-judge Bench held that \"his religion\" in Section 123(3) covers only the candidate's religion and not the voter's."
+    ],
+    "tail": "Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only  (b) 1 and 2 only  (c) 2 and 3 only  (d) 1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Statements 1 and 2 are correct (s.123(3); trial in the High Court, appeal under s.116A). Statement 3 is wrong: *Abhiram Singh* read \"his religion\" to cover the candidate, the agent and the voter.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_02_2",
+    "question_number": 2,
+    "question": "India defended keeping the Indus Waters Treaty in abeyance at UNGA-81. With reference to the Treaty, consider:",
+    "statements": [
+      "It was signed in 1960 at Karachi, with the World Bank as a signatory.",
+      "The Western rivers (Indus, Jhelum, Chenab) are allotted to India for unrestricted use.",
+      "Disputes move from the Permanent Indus Commission to a Neutral Expert and then to a Court of Arbitration."
+    ],
+    "tail": "Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only  (b) 2 and 3 only  (c) 1 and 3 only  (d) 1, 2 and 3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Signed 1960 at Karachi with the World Bank as signatory, and the dispute ladder is as stated. The Western rivers go to Pakistan, with India limited to non-consumptive uses such as run-of-river hydro.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_02_3",
+    "question_number": 3,
+    "question": "The India–New Zealand FTA, whose start date was announced this week, is correctly described by which one of the following?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "It enters into force on 20 October 2026, and India has excluded dairy from its tariff liberalisation."
+      },
+      {
+        "key": "b",
+        "text": "It gives New Zealand zero-duty access on all Indian tariff lines, including dairy."
+      },
+      {
+        "key": "c",
+        "text": "It carries a US$100 billion investment pledge over 15 years from New Zealand."
+      },
+      {
+        "key": "d",
+        "text": "It was signed in December 2025 and has already been in force since January 2026."
+      }
+    ],
+    "answer": "a",
+    "explanation": "Enters into force 20 October 2026, and India excluded dairy. The US$20 bn/15-year pledge is New Zealand's; the US$100 bn/15-year pledge belongs to the EFTA TEPA. It was signed on 27 April 2026.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_02_4",
+    "question_number": 4,
+    "question": "The 6th cycle of the Management Effectiveness Evaluation of Tiger Reserves (MEE-TR 2026) was launched this week. Consider:",
+    "statements": [
+      "It is conducted by the NTCA with the Wildlife Institute of India.",
+      "It uses the IUCN World Commission on Protected Areas framework.",
+      "It is the exercise through which tiger numbers are estimated every four years."
+    ],
+    "tail": "Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only  (b) 2 only  (c) 1 and 2 only  (d) 1, 2 and 3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "MEE is run by NTCA with WII on the IUCN-WCPA framework. Tiger numbers come from the All-India Tiger Estimation (every four years), which is a different exercise.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_02_5",
+    "question_number": 5,
+    "question": "The Technology Development Board committed Rs 200 crore to Agnikul Cosmos's reusable launcher *Agnibaan*. Consider:",
+    "statements": [
+      "The Technology Development Board is a statutory body under the Department of Science and Technology.",
+      "Semi-cryogenic engines burn liquid hydrogen with liquid oxygen.",
+      "The funding was reported as being structured through optionally convertible debentures."
+    ],
+    "tail": "Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only  (b) 1 and 3 only  (c) 2 and 3 only  (d) 1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "TDB is a statutory body under DST, and the funding was structured via optionally convertible debentures. Semi-cryogenic engines burn refined kerosene with liquid oxygen, not liquid hydrogen.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_02_6",
+    "question_number": 6,
+    "question": "The Centre cut its FY27 gross market borrowing by about Rs 1.2 lakh crore against the Budget Estimate. This reduction was mainly due to:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "a lower fiscal deficit target announced in a revised Budget"
+      },
+      {
+        "key": "b",
+        "text": "a shift of financing towards Treasury Bills"
+      },
+      {
+        "key": "c",
+        "text": "an extra surplus transfer from the RBI"
+      },
+      {
+        "key": "d",
+        "text": "a switch of about Rs 1.14 lakh crore of G-secs maturing in FY27 into longer-dated securities, lowering this year's redemptions"
+      }
+    ],
+    "answer": "d",
+    "explanation": "The cut came mainly from the Rs 1,14,286 crore switch of maturing G-secs into longer-dated papers. It is a debt-management move; the debt stock does not fall.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_02_7",
+    "question_number": 7,
+    "question": "\"PRAMAAN\", whose first certificates were handed over this week, is best described as:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "India's own voluntary forest and wood certification label for plantations, agroforestry and bamboo, run by IIFM Bhopal under the Indian Forest & Wood Certification Scheme"
+      },
+      {
+        "key": "b",
+        "text": "a carbon-credit trading platform under the Carbon Credit Trading Scheme"
+      },
+      {
+        "key": "c",
+        "text": "a mandatory due-diligence regime for timber exporters modelled on the EU Deforestation Regulation"
+      },
+      {
+        "key": "d",
+        "text": "a satellite-based forest-fire alert system run by the Forest Survey of India"
+      }
+    ],
+    "answer": "a",
+    "explanation": "PRAMAAN is the Programme for Recognition and Accreditation of sustainable Management practices for Agroforestry And Natural forestry resources, under the voluntary IFWCS (launched December 2023), operated by IIFM Bhopal.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_02_8",
+    "question_number": 8,
+    "question": "The Collegium's recommendation of three High Court Chief Justices to the Supreme Court this week was in the news. Consider:",
+    "statements": [
+      "The Supreme Court's sanctioned strength (including the CJI) was raised to 38 by the Supreme Court (Number of Judges) Amendment Act, 2026.",
+      "The Collegium for Supreme Court appointments consists of the CJI and the four senior-most Supreme Court judges.",
+      "The recommendations are of three sitting High Court Chief Justices."
+    ],
+    "tail": "Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only  (b) 1 and 2 only  (c) 2 and 3 only  (d) 1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All three are correct: strength raised to 38 by the 2026 Amendment Act, the Collegium is the CJI plus four senior-most judges, and the three names are sitting High Court Chief Justices.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_02_9",
+    "question_number": 9,
+    "question": "In the Sambhal case (*Mulla Afroz v. Union of India*, 29 September 2026), the Supreme Court quashed an NSA detention order. Which of the following best captures its holding?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "A confession made in police custody can be the sole basis of a detaining authority's satisfaction if it is detailed."
+      },
+      {
+        "key": "b",
+        "text": "A confession made in police custody cannot by itself form the basis of the detaining authority's satisfaction; cogent material showing a real apprehension of future prejudicial activity is needed."
+      },
+      {
+        "key": "c",
+        "text": "The NSA order was upheld, but costs were imposed on the detenu."
+      },
+      {
+        "key": "d",
+        "text": "Preventive detention under the NSA requires no judicial scrutiny once an Advisory Board has met."
+      }
+    ],
+    "answer": "b",
+    "explanation": "Custodial confession alone cannot ground the subjective satisfaction for preventive detention; cogent material on a real apprehension is needed. The Court quashed the order and imposed Rs 10 lakh costs.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_02_10",
+    "question_number": 10,
+    "question": "The Union Cabinet approved Green Energy Corridor-III on 30 September 2026. Consider:",
+    "statements": [
+      "The outlay is about Rs 1.86 lakh crore and includes Rs 50,000 crore for 50 GWh of battery energy storage.",
+      "It is the first Green Energy Corridor phase to include battery storage within the scheme.",
+      "Its transmission component is for inter-state (ISTS) lines."
+    ],
+    "tail": "Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only  (b) 2 and 3 only  (c) 1 and 2 only  (d) 1, 2 and 3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Statements 1 and 2 are correct. GEC-III funds intra-state transmission (InSTS), not inter-state lines.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_02_11",
+    "question_number": 11,
+    "question": "With reference to the SCO meeting in Islamabad (28–30 September 2026), consider:",
+    "statements": [
+      "Pakistan took over the 2026–27 SCO chair from Kyrgyzstan on 1 September 2026.",
+      "The Council of National Coordinators is a ministerial-level body.",
+      "India's delegation was led by an MEA Additional Secretary."
+    ],
+    "tail": "Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 3 only  (b) 1 and 2 only  (c) 2 and 3 only  (d) 1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Pakistan took the chair on 1 September 2026, and India's delegation was led by MEA Additional Secretary Alok Dimri. The Council of National Coordinators is not a ministerial body.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_02_12",
+    "question_number": 12,
+    "question": "In the firecracker case (*Arjun Gopal v. Union of India*) heard this week, the Supreme Court:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "imposed a total nationwide ban on firecrackers"
+      },
+      {
+        "key": "b",
+        "text": "allowed unrestricted use because Article 25 protects festival practice absolutely"
+      },
+      {
+        "key": "c",
+        "text": "held that a clean environment under Article 21 cannot be balanced against any other right"
+      },
+      {
+        "key": "d",
+        "text": "signalled a middle path of time-limited bursting and approved new-generation joint crackers on CSIR-NEERI specifications, with the barium issue deferred to 15 October 2026"
+      }
+    ],
+    "answer": "d",
+    "explanation": "The Court refused both a total ban and unrestricted use. It balanced Article 25 against Article 21 and deferred the barium decision to 15 October 2026.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_02_13",
+    "question_number": 13,
+    "question": "With reference to Article 200 of the Constitution, consider:",
+    "statements": [
+      "A Governor may reserve a Bill for the consideration of the President.",
+      "Reservation is mandatory for a Bill that would derogate from the powers of the High Court.",
+      "A Governor may return a Money Bill to the Legislature for reconsideration."
+    ],
+    "tail": "Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only  (b) 2 and 3 only  (c) 1 and 2 only  (d) 1, 2 and 3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "A Governor can reserve a Bill, and must do so if it derogates from the High Court's powers. The Governor can return only a non-Money Bill.",
+    "subject": "Polity & Governance",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_02_14",
+    "question_number": 14,
+    "question": "Under Article 201, a non-Money Bill reserved by the Governor is returned at the President's direction, and the State Legislature re-passes it within six months. In that case:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "the President is not bound to give assent to it"
+      },
+      {
+        "key": "b",
+        "text": "the President must give assent, as under Article 111"
+      },
+      {
+        "key": "c",
+        "text": "the Bill becomes law automatically after three months"
+      },
+      {
+        "key": "d",
+        "text": "the Governor alone may then decide whether it becomes law"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Under Article 201 the President is not bound to assent even if the Bill is re-passed. This differs from Article 111, where assent to a re-passed Bill is compulsory.",
+    "subject": "Polity & Governance",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_02_15",
+    "question_number": 15,
+    "question": "With reference to preventive detention under Article 22, consider:",
+    "statements": [
+      "Detention beyond three months requires the opinion of an Advisory Board, unless Parliament prescribes otherwise.",
+      "The 44th Amendment's reduction of this period to two months is already in force.",
+      "The right to consult a lawyer and to be produced before a magistrate within 24 hours under Article 22(1)–(2) is available to preventive detainees."
+    ],
+    "tail": "Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "2 only  (b) 1 and 2 only  (c) 2 and 3 only  (d) 1 only"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Only statement 1 is correct (Article 22(4)). The 44th Amendment change has never been brought into force. Article 22(1)–(2) does not apply to preventive detention.",
+    "subject": "Polity & Governance",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_02_16",
+    "question_number": 16,
+    "question": "With reference to the Election Commission of India, consider:",
+    "statements": [
+      "Article 324 vests superintendence, direction and control of elections in the Election Commission.",
+      "The Chief Election Commissioner can be removed only in the manner and on the grounds applicable to a Supreme Court judge.",
+      "Other Election Commissioners can be removed by the President without any recommendation."
+    ],
+    "tail": "Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 3 only  (b) 2 and 3 only  (c) 1, 2 and 3  (d) 1 and 2 only"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Statements 1 and 2 are correct. Other Election Commissioners can be removed only on the CEC's recommendation (Article 324(5) proviso).",
+    "subject": "Polity & Governance",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_02_17",
+    "question_number": 17,
+    "question": "Under Article 249, Parliament can legislate on a State List subject in the national interest if the Rajya Sabha passes a resolution supported by:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "a simple majority of the House"
+      },
+      {
+        "key": "b",
+        "text": "two-thirds of the members present and voting"
+      },
+      {
+        "key": "c",
+        "text": "two-thirds of the total membership of the House"
+      },
+      {
+        "key": "d",
+        "text": "a majority of State Legislatures"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Article 249 needs a Rajya Sabha resolution backed by two-thirds of members present and voting. It is valid for one year, renewable.",
+    "subject": "Polity & Governance",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_02_18",
+    "question_number": 18,
+    "question": "With reference to the Tenth Schedule (anti-defection law), consider:",
+    "statements": [
+      "The Speaker's or Chairman's decision on disqualification is subject to judicial review (*Kihoto Hollohan*, 1992).",
+      "A nominated member may join a political party within six months of taking his seat without being disqualified.",
+      "An independently elected member may freely join a political party after the election without penalty."
+    ],
+    "tail": "Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only  (b) 2 only  (c) 1 and 2 only  (d) 1, 2 and 3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Statements 1 and 2 are correct. An independent member who joins a party after election is disqualified.",
+    "subject": "Polity & Governance",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_02_19",
+    "question_number": 19,
+    "question": "In *Kesavananda Bharati* (1973), a 13-judge Bench held by a 7:6 majority that:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Parliament has unlimited power to amend the Constitution"
+      },
+      {
+        "key": "b",
+        "text": "Parliament cannot amend Fundamental Rights at all"
+      },
+      {
+        "key": "c",
+        "text": "the Constitution cannot be amended by Parliament"
+      },
+      {
+        "key": "d",
+        "text": "Parliament may amend any provision of the Constitution but cannot alter its basic structure"
+      }
+    ],
+    "answer": "d",
+    "explanation": "*Kesavananda Bharati* (1973), by 7:6, laid down the basic-structure doctrine. Parliament can amend any provision but cannot alter the basic structure.",
+    "subject": "Polity & Governance",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_02_20",
+    "question_number": 20,
+    "question": "With reference to the Supreme Court's advisory jurisdiction under Article 143:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "its opinion is binding on the President"
+      },
+      {
+        "key": "b",
+        "text": "its opinion is advisory and not binding, and the Court may decline to answer a reference (as in the 1993 Ayodhya reference)"
+      },
+      {
+        "key": "c",
+        "text": "the President can refer only questions of law, never of fact"
+      },
+      {
+        "key": "d",
+        "text": "it is available only in disputes between the Centre and a State"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Article 143 opinions are advisory, not binding. The Court may decline to answer, as it did in the 1993 Ayodhya reference. Questions of both law and fact can be referred.",
+    "subject": "Polity & Governance",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  }
+]

@@ -12,6 +12,88 @@
   ],
   "questionSets": [
     {
+      "id": "daily_questions_2026_10_03",
+      "label": "Daily Questions - 03 Oct 2026",
+      "shortLabel": "Daily 03 Oct",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-10-03.json",
+      "sourcePath": "daily/daily_questions/daily_questions_2026-10-03.json",
+      "isoDate": "2026-10-03",
+      "subjects": [
+        "Agriculture",
+        "International Relations",
+        "Environment",
+        "Polity & Governance"
+      ],
+      "bundleId": "daily_questions_2026_10_03",
+      "relatedNoteIds": [
+        "daily-daily-current-affairs-upsc-ca-2026-10-03"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "agriculture",
+        "international-relations",
+        "environment",
+        "polity"
+      ],
+      "topicIds": [
+        "agriculture/rabi-msp-2027-28",
+        "international-relations/asean-india-maritime-exercise",
+        "environment/national-coastal-mission-2-0",
+        "polity/cag-and-bhashini",
+        "international-relations/kaliningrad-baltic",
+        "agriculture/msp-mechanism-and-cacp",
+        "international-relations/asean-basics"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
+      "id": "daily_questions_2026_10_02",
+      "label": "Daily Questions - 02 Oct 2026",
+      "shortLabel": "Daily 02 Oct",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-10-02.json",
+      "sourcePath": "daily/daily_questions/daily_questions_2026-10-02.json",
+      "isoDate": "2026-10-02",
+      "subjects": [
+        "Environment",
+        "Economy",
+        "Art & Culture",
+        "Science & Technology",
+        "International Relations"
+      ],
+      "bundleId": "daily_questions_2026_10_02",
+      "relatedNoteIds": [
+        "daily-daily-current-affairs-upsc-ca-2026-10-02"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "environment",
+        "economy",
+        "culture",
+        "science-technology",
+        "international-relations"
+      ],
+      "topicIds": [
+        "environment/tiger-reintroduction-buxa",
+        "economy/manufacturing-pmi",
+        "culture/jaipur-walled-city-world-heritage",
+        "science-technology/orbital-edge-computing-private-space",
+        "international-relations/india-us-bta-section-301",
+        "environment/ntca-and-tiger-reserve-notification",
+        "economy/iip-vs-pmi"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
       "id": "daily_questions_2026_10_01",
       "label": "Daily Questions - 01 Oct 2026",
       "shortLabel": "Daily 01 Oct",
@@ -5600,6 +5682,72 @@
       "provenance": "generated"
     },
     {
+      "id": "pib_questions_2026_10_03",
+      "label": "PIB Questions - 03 Oct 2026",
+      "shortLabel": "PIB 03 Oct",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-10-03.json",
+      "sourcePath": "generated_data/pib_questions/2026-10-03.json",
+      "isoDate": "2026-10-03",
+      "subjects": [
+        "Environment",
+        "Economy"
+      ],
+      "bundleId": "pib_questions_2026_10_03",
+      "relatedNoteIds": [
+        "daily-daily-pib-pib-2026-10-03"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "environment",
+        "economy"
+      ],
+      "topicIds": [
+        "environment/great-indian-bustard-captive-breeding-and-rewilding",
+        "economy/nabkisan-wash-social-bond",
+        "environment/gib-jump-start-egg-exchange-technique"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
+      "id": "pib_questions_2026_10_02",
+      "label": "PIB Questions - 02 Oct 2026",
+      "shortLabel": "PIB 02 Oct",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-10-02.json",
+      "sourcePath": "generated_data/pib_questions/2026-10-02.json",
+      "isoDate": "2026-10-02",
+      "subjects": [
+        "Economy",
+        "Polity & Governance",
+        "Agriculture"
+      ],
+      "bundleId": "pib_questions_2026_10_02",
+      "relatedNoteIds": [
+        "daily-daily-pib-pib-2026-10-02"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "economy",
+        "polity",
+        "agriculture"
+      ],
+      "topicIds": [
+        "economy/gobardhan-scheme-cbg",
+        "polity/people-s-plan-campaign-gpdp",
+        "agriculture/icar-fci-storage-pest-management"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
       "id": "pib_questions_2026_10_01",
       "label": "PIB Questions - 01 Oct 2026",
       "shortLabel": "PIB 01 Oct",
@@ -9685,6 +9833,93 @@
       "provenance": "generated"
     },
     {
+      "id": "weekly_quiz_2026_10_04",
+      "label": "Weekly Recall Quiz - 04 Oct 2026",
+      "shortLabel": "Weekly Quiz 04 Oct",
+      "category": "Weekly Quiz",
+      "sourceType": "weekly-quiz",
+      "questionCount": 15,
+      "durationMinutes": 25,
+      "path": "weekly/weekly_quiz/weekly_questions_2026-10-04.json",
+      "sourcePath": "weekly/weekly_quiz/weekly_questions_2026-10-04.json",
+      "isoDate": "2026-10-04",
+      "subjects": [
+        "Polity & Governance",
+        "Economy",
+        "Science & Technology",
+        "Agriculture",
+        "Ancient & Medieval History",
+        "Art & Culture",
+        "Environment",
+        "International Relations",
+        "Geography"
+      ],
+      "bundleId": "weekly_quiz_2026_10_04",
+      "relatedNoteIds": [],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "polity",
+        "economy",
+        "science-technology",
+        "agriculture",
+        "ancient-and-medieval-history",
+        "culture",
+        "environment",
+        "international-relations",
+        "geography"
+      ],
+      "topicIds": [
+        "polity/tenth-schedule-52nd-and-91st-amendments-kihoto-hollohan",
+        "polity/article-324-strength-cec-act-2023-selection-committee-removal-of-ecs",
+        "polity/article-22-preventive-detention-nsa-maximum-period-concurrent-list-entry",
+        "economy/t-bills-ways-and-means-advances-and-switch-operations",
+        "economy/igst-on-imports-petroleum-under-article-279a-5-alcohol-outside-gst",
+        "science-technology/technology-readiness-levels-tdb-status-agnibaan-propulsion",
+        "agriculture/msp-1-5x-a2-fl-rule-cacp-status-rabi-msp-2027-28",
+        "ancient-and-medieval-history/foreign-travellers-to-vijayanagara-and-the-bahmani-kingdom",
+        "ancient-and-medieval-history/bahmani-foundation-mahmud-gawan-raichur-doab",
+        "culture/provincial-indo-islamic-monuments-and-their-locations",
+        "culture/mandar-drum-gi-and-the-gi-act-1999",
+        "environment/ntca-legal-basis-buxa-and-valmiki-tiger-reserves",
+        "environment/caqm-grap-stages-and-the-2026-revision",
+        "international-relations/look-east-to-act-east-asean-csp-ipoi",
+        "geography/kaliningrad-exclave-borders"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
+      "id": "weekly_quiz_2026_10_02",
+      "label": "Weekly Recall Quiz - 02 Oct 2026",
+      "shortLabel": "Weekly Quiz 02 Oct",
+      "category": "Weekly Quiz",
+      "sourceType": "weekly-quiz",
+      "questionCount": 20,
+      "durationMinutes": 30,
+      "path": "generated_data/weekly_quiz_questions/2026-10-02.json",
+      "sourcePath": "weekly/weekly_quiz/Recall_Quiz_2026-10-02.md",
+      "isoDate": "2026-10-02",
+      "subjects": [
+        "Current Affairs",
+        "Polity & Governance"
+      ],
+      "bundleId": "weekly_quiz_2026_10_02",
+      "relatedNoteIds": [
+        "weekly-weekly-quiz-recall-quiz-2026-10-02"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "current-affairs",
+        "polity"
+      ],
+      "topicIds": [
+        "current-affairs/weekly-recall-quiz",
+        "polity/weekly-recall-quiz"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
       "id": "weekly_quiz_2026_09_27",
       "label": "Weekly Recall Quiz - 27 Sept 2026",
       "shortLabel": "Weekly Quiz 27 Sept",
@@ -10997,6 +11232,96 @@
         "polity/weekly-recall-quiz"
       ],
       "format": "drill",
+      "provenance": "generated"
+    },
+    {
+      "id": "sectional_book-topics_2026_10_04_extra",
+      "label": "Book Topics · Add-on · 2026-10-04",
+      "shortLabel": "Book Topics · 2026-10-04",
+      "category": "Extra Practice",
+      "sourceType": "sectional",
+      "questionCount": 50,
+      "durationMinutes": 80,
+      "path": "generated_data/sectional_questions/book-topics_2026-10-04_chatgpt.json",
+      "sourcePath": "generated_data/sectional_questions/book-topics_2026-10-04_chatgpt.json",
+      "isoDate": "2026-10-04",
+      "variant": "extra-practice",
+      "variantLabel": "Add-on",
+      "isSupplementary": true,
+      "subjects": [
+        "Polity",
+        "Economy",
+        "Medieval History",
+        "Environment",
+        "International Relations",
+        "Art & Culture"
+      ],
+      "bundleId": "sectional_book-topics_2026_10_04_extra",
+      "relatedNoteIds": [
+        "weekly-sectional-sectional-book-topics-2026-10-04-chatgpt"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "polity",
+        "economy",
+        "medieval-history",
+        "environment",
+        "international-relations",
+        "culture"
+      ],
+      "topicIds": [
+        "polity/article-324-silences-of-the-constitution-on-the-election-commission",
+        "polity/article-324-2-and-324-5-strength-and-removal-of-election-commissioners",
+        "polity/article-329-bar-to-interference-by-courts-election-petitions",
+        "polity/rpa-1950-vs-rpa-1951-and-the-rules-framed-under-them",
+        "polity/delimitation-commissions-house-scrutiny-of-orders-and-the-seat-freeze",
+        "polity/tenth-schedule-amendment-that-added-it",
+        "polity/tenth-schedule-independent-and-nominated-members-the-91st-amendment",
+        "polity/kihoto-hollohan-deciding-authority-and-art-361b",
+        "polity/election-symbols-order-1968-national-party-criteria",
+        "polity/registration-of-political-parties-section-29a-rpa-1951",
+        "polity/electoral-reforms-voting-age-nota-evms",
+        "polity/model-code-of-conduct-legal-status-and-timing",
+        "polity/section-8-rpa-1951-conviction-lily-thomas-section-11",
+        "economy/national-income-aggregates-gnp-ndp-market-vs-factor-cost",
+        "economy/gdp-deflator-vs-cpi",
+        "economy/monetary-aggregates-m1-m4",
+        "economy/crr-vs-slr-legal-basis-and-form",
+        "economy/laf-corridor-sdf-floor-msf-ceiling",
+        "economy/differentiated-banks-payments-banks",
+        "economy/direct-vs-indirect-taxes",
+        "medieval-history/four-dynasties-of-vijayanagara",
+        "medieval-history/krishnadevaraya-literature-and-foreign-visitors",
+        "medieval-history/krishnadevaraya-raichur-gajapati-campaign-nagalapuram",
+        "medieval-history/foreign-travellers-to-vijayanagara-and-the-bahmani-kingdom",
+        "medieval-history/amara-nayaka-system",
+        "medieval-history/battle-of-talikota-rakshasi-tangadi",
+        "medieval-history/foundation-of-the-bahmani-kingdom",
+        "medieval-history/mahmud-gawan",
+        "medieval-history/successor-states-of-the-bahmani-kingdom",
+        "environment/project-tiger-and-ntca",
+        "environment/project-elephant",
+        "environment/crocodile-conservation-and-the-chambal-sanctuary",
+        "environment/cheetah-reintroduction-kuno",
+        "environment/cms-bonn-convention",
+        "environment/chemicals-and-waste-conventions",
+        "environment/unccd",
+        "environment/traffic-wildlife-trade-monitoring",
+        "international-relations/look-east-to-act-east",
+        "international-relations/india-asean-partnership-ladder",
+        "international-relations/kaladan-multi-modal-transit-transport-project",
+        "international-relations/mekong-ganga-cooperation",
+        "international-relations/aitiga-and-rcep",
+        "international-relations/india-myanmar-thailand-trilateral-highway",
+        "culture/features-introduced-by-indo-islamic-architecture",
+        "culture/early-sultanate-monuments-qutb-minar-balban-alai-darwaza",
+        "culture/tughlaq-architecture",
+        "culture/provincial-styles-jaunpur-bengal-malwa-bijapur",
+        "culture/vijayanagara-temple-features-raya-gopuram-kalyana-mandapa",
+        "culture/hampi-river-lotus-mahal-vitthala-chariot",
+        "culture/hampi-hazara-rama-mahanavami-dibba-unesco"
+      ],
+      "format": "sectional",
       "provenance": "generated"
     },
     {
@@ -16323,6 +16648,82 @@
       "topicIds": []
     },
     {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-10-03",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "03 Oct 2026",
+      "date": "2026-10-03",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-10-03.md",
+      "bundleId": "daily-daily-current-affairs-upsc-ca-2026-10-03",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "daily_questions_2026_10_03"
+      ],
+      "subjectIds": [
+        "agriculture",
+        "international-relations",
+        "environment",
+        "polity"
+      ],
+      "topicIds": [
+        "agriculture/rabi-msp-2027-28",
+        "international-relations/asean-india-maritime-exercise",
+        "environment/national-coastal-mission-2-0",
+        "polity/cag-and-bhashini",
+        "international-relations/kaliningrad-baltic",
+        "agriculture/msp-mechanism-and-cacp",
+        "international-relations/asean-basics"
+      ],
+      "atlasWeekId": "2026-09-27-library",
+      "atlasFeatureIds": [
+        "2026-09-27-library-russia-russia",
+        "2026-09-27-library-belarus-belarus",
+        "2026-09-27-library-lithuania-lithuania",
+        "2026-09-27-library-poland-poland",
+        "2026-09-27-library-philippines-philippines",
+        "2026-09-27-library-singapore-singapore"
+      ],
+      "mapStatus": "ready"
+    },
+    {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-10-02",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "02 Oct 2026",
+      "date": "2026-10-02",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-10-02.md",
+      "bundleId": "daily-daily-current-affairs-upsc-ca-2026-10-02",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "daily_questions_2026_10_02"
+      ],
+      "subjectIds": [
+        "environment",
+        "economy",
+        "culture",
+        "science-technology",
+        "international-relations"
+      ],
+      "topicIds": [
+        "environment/tiger-reintroduction-buxa",
+        "economy/manufacturing-pmi",
+        "culture/jaipur-walled-city-world-heritage",
+        "science-technology/orbital-edge-computing-private-space",
+        "international-relations/india-us-bta-section-301",
+        "environment/ntca-and-tiger-reserve-notification",
+        "economy/iip-vs-pmi"
+      ],
+      "atlasWeekId": "2026-09-27-library",
+      "atlasFeatureIds": [
+        "2026-09-27-library-united-states-of-america-united-states-of-america",
+        "2026-09-27-library-brazil-brazil",
+        "2026-09-27-library-united-arab-emirates-united-arab-emirates",
+        "2026-09-27-library-bulgaria-bulgaria",
+        "2026-09-27-library-india-jaipur"
+      ],
+      "mapStatus": "ready"
+    },
+    {
       "id": "daily-daily-current-affairs-upsc-ca-2026-10-01",
       "cadence": "daily",
       "title": "UPSC Daily CA Briefing",
@@ -20316,6 +20717,19 @@
       "topicIds": []
     },
     {
+      "id": "weekly-essays-essay-2026-10-03",
+      "cadence": "essay",
+      "title": "Model Essay",
+      "shortTitle": "Essay - 03 Oct",
+      "date": "2026-10-03",
+      "path": "weekly/Essays/Essay_2026-10-03.md",
+      "bundleId": "weekly-essays-essay-2026-10-03",
+      "relatedNoteIds": [],
+      "relatedSetIds": [],
+      "subjectIds": [],
+      "topicIds": []
+    },
+    {
       "id": "weekly-essays-essay-2026-09-26",
       "cadence": "essay",
       "title": "Model Essay",
@@ -20557,6 +20971,45 @@
       "date": "",
       "path": "reference/Fodder_Bank.md",
       "bundleId": "reference-fodder-bank",
+      "relatedNoteIds": [],
+      "relatedSetIds": [],
+      "subjectIds": [],
+      "topicIds": []
+    },
+    {
+      "id": "daily-daily-mains-gs-mains-2026-10-03",
+      "cadence": "mains",
+      "title": "GS Mains Answer Practice",
+      "shortTitle": "Mains - 03 Oct",
+      "date": "2026-10-03",
+      "path": "daily/daily_mains/GS_Mains_2026-10-03.md",
+      "bundleId": "daily-daily-mains-gs-mains-2026-10-03",
+      "relatedNoteIds": [],
+      "relatedSetIds": [],
+      "subjectIds": [],
+      "topicIds": []
+    },
+    {
+      "id": "daily-daily-mains-gs-mains-2026-10-02",
+      "cadence": "mains",
+      "title": "GS Mains Answer Practice",
+      "shortTitle": "Mains - 02 Oct",
+      "date": "2026-10-02",
+      "path": "daily/daily_mains/GS_Mains_2026-10-02.md",
+      "bundleId": "daily-daily-mains-gs-mains-2026-10-02",
+      "relatedNoteIds": [],
+      "relatedSetIds": [],
+      "subjectIds": [],
+      "topicIds": []
+    },
+    {
+      "id": "daily-daily-mains-gs-mains-2026-10-01",
+      "cadence": "mains",
+      "title": "GS Mains Answer Practice",
+      "shortTitle": "Mains - 01 Oct",
+      "date": "2026-10-01",
+      "path": "daily/daily_mains/GS_Mains_2026-10-01.md",
+      "bundleId": "daily-daily-mains-gs-mains-2026-10-01",
       "relatedNoteIds": [],
       "relatedSetIds": [],
       "subjectIds": [],
@@ -21317,6 +21770,57 @@
       "topicIds": []
     },
     {
+      "id": "daily-daily-pib-pib-2026-10-03",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 03 Oct",
+      "date": "2026-10-03",
+      "path": "daily/daily_pib/PIB_2026-10-03.md",
+      "bundleId": "daily-daily-pib-pib-2026-10-03",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "pib_questions_2026_10_03"
+      ],
+      "subjectIds": [
+        "environment",
+        "economy"
+      ],
+      "topicIds": [
+        "environment/great-indian-bustard-captive-breeding-and-rewilding",
+        "economy/nabkisan-wash-social-bond",
+        "environment/gib-jump-start-egg-exchange-technique"
+      ],
+      "atlasWeekId": "2026-09-27-library",
+      "atlasFeatureIds": [
+        "2026-09-27-library-united-republic-of-tanzania-united-republic-of-tanzania",
+        "2026-09-27-library-india-jaisalmer"
+      ],
+      "mapStatus": "ready"
+    },
+    {
+      "id": "daily-daily-pib-pib-2026-10-02",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 02 Oct",
+      "date": "2026-10-02",
+      "path": "daily/daily_pib/PIB_2026-10-02.md",
+      "bundleId": "daily-daily-pib-pib-2026-10-02",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "pib_questions_2026_10_02"
+      ],
+      "subjectIds": [
+        "economy",
+        "polity",
+        "agriculture"
+      ],
+      "topicIds": [
+        "economy/gobardhan-scheme-cbg",
+        "polity/people-s-plan-campaign-gpdp",
+        "agriculture/icar-fci-storage-pest-management"
+      ]
+    },
+    {
       "id": "daily-daily-pib-pib-2026-10-01",
       "cadence": "pib",
       "title": "Daily PIB Briefing",
@@ -21399,8 +21903,8 @@
         "2026-09-27-library-france-france",
         "2026-09-27-library-united-states-of-america-united-states-of-america",
         "2026-09-27-library-australia-australia",
-        "2026-09-27-library-germany-germany",
         "2026-09-27-library-united-arab-emirates-united-arab-emirates",
+        "2026-09-27-library-germany-germany",
         "2026-09-27-library-bangladesh-bangladesh",
         "2026-09-27-library-sri-lanka-sri-lanka",
         "2026-09-27-library-india-jodhpur"
@@ -24722,6 +25226,82 @@
       "topicIds": []
     },
     {
+      "id": "weekly-sectional-sectional-book-topics-2026-10-04-chatgpt",
+      "cadence": "sectional",
+      "title": "Weekly Book Topics 50Q Companion",
+      "shortTitle": "Book Topics - 04 Oct",
+      "date": "2026-10-04",
+      "path": "weekly/Sectional/Sectional_book-topics_2026-10-04_chatgpt.md",
+      "variant": "supplementary",
+      "variantLabel": "Companion",
+      "isSupplementary": true,
+      "bundleId": "weekly-sectional-sectional-book-topics-2026-10-04-chatgpt",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "sectional_book-topics_2026_10_04_extra"
+      ],
+      "subjectIds": [
+        "polity",
+        "economy",
+        "medieval-history",
+        "environment",
+        "international-relations",
+        "culture"
+      ],
+      "topicIds": [
+        "polity/article-324-silences-of-the-constitution-on-the-election-commission",
+        "polity/article-324-2-and-324-5-strength-and-removal-of-election-commissioners",
+        "polity/article-329-bar-to-interference-by-courts-election-petitions",
+        "polity/rpa-1950-vs-rpa-1951-and-the-rules-framed-under-them",
+        "polity/delimitation-commissions-house-scrutiny-of-orders-and-the-seat-freeze",
+        "polity/tenth-schedule-amendment-that-added-it",
+        "polity/tenth-schedule-independent-and-nominated-members-the-91st-amendment",
+        "polity/kihoto-hollohan-deciding-authority-and-art-361b",
+        "polity/election-symbols-order-1968-national-party-criteria",
+        "polity/registration-of-political-parties-section-29a-rpa-1951",
+        "polity/electoral-reforms-voting-age-nota-evms",
+        "polity/model-code-of-conduct-legal-status-and-timing",
+        "polity/section-8-rpa-1951-conviction-lily-thomas-section-11",
+        "economy/national-income-aggregates-gnp-ndp-market-vs-factor-cost",
+        "economy/gdp-deflator-vs-cpi",
+        "economy/monetary-aggregates-m1-m4",
+        "economy/crr-vs-slr-legal-basis-and-form",
+        "economy/laf-corridor-sdf-floor-msf-ceiling",
+        "economy/differentiated-banks-payments-banks",
+        "economy/direct-vs-indirect-taxes",
+        "medieval-history/four-dynasties-of-vijayanagara",
+        "medieval-history/krishnadevaraya-literature-and-foreign-visitors",
+        "medieval-history/krishnadevaraya-raichur-gajapati-campaign-nagalapuram",
+        "medieval-history/foreign-travellers-to-vijayanagara-and-the-bahmani-kingdom",
+        "medieval-history/amara-nayaka-system",
+        "medieval-history/battle-of-talikota-rakshasi-tangadi",
+        "medieval-history/foundation-of-the-bahmani-kingdom",
+        "medieval-history/mahmud-gawan",
+        "medieval-history/successor-states-of-the-bahmani-kingdom",
+        "environment/project-tiger-and-ntca",
+        "environment/project-elephant",
+        "environment/crocodile-conservation-and-the-chambal-sanctuary",
+        "environment/cheetah-reintroduction-kuno",
+        "environment/cms-bonn-convention",
+        "environment/chemicals-and-waste-conventions",
+        "environment/unccd",
+        "environment/traffic-wildlife-trade-monitoring",
+        "international-relations/look-east-to-act-east",
+        "international-relations/india-asean-partnership-ladder",
+        "international-relations/kaladan-multi-modal-transit-transport-project",
+        "international-relations/mekong-ganga-cooperation",
+        "international-relations/aitiga-and-rcep",
+        "international-relations/india-myanmar-thailand-trilateral-highway",
+        "culture/features-introduced-by-indo-islamic-architecture",
+        "culture/early-sultanate-monuments-qutb-minar-balban-alai-darwaza",
+        "culture/tughlaq-architecture",
+        "culture/provincial-styles-jaunpur-bengal-malwa-bijapur",
+        "culture/vijayanagara-temple-features-raya-gopuram-kalyana-mandapa",
+        "culture/hampi-river-lotus-mahal-vitthala-chariot",
+        "culture/hampi-hazara-rama-mahanavami-dibba-unesco"
+      ]
+    },
+    {
       "id": "weekly-sectional-sectional-book-topics-2026-09-27-chatgpt",
       "cadence": "sectional",
       "title": "Weekly Book Topics 50Q Companion",
@@ -25841,6 +26421,19 @@
       "date": "",
       "path": "CSAT_Strategy_Guide.md",
       "bundleId": "csat-strategy-guide",
+      "relatedNoteIds": [],
+      "relatedSetIds": [],
+      "subjectIds": [],
+      "topicIds": []
+    },
+    {
+      "id": "weekly-sunday-sunday-sweep-2026-10-04",
+      "cadence": "sunday",
+      "title": "Sunday Sweep",
+      "shortTitle": "Week of 04 Oct",
+      "date": "2026-10-04",
+      "path": "weekly/Sunday/Sunday_Sweep_2026-10-04.md",
+      "bundleId": "weekly-sunday-sunday-sweep-2026-10-04",
       "relatedNoteIds": [],
       "relatedSetIds": [],
       "subjectIds": [],
@@ -27133,6 +27726,27 @@
         "0613-kanlaon"
       ],
       "mapStatus": "ready"
+    },
+    {
+      "id": "weekly-weekly-quiz-recall-quiz-2026-10-02",
+      "cadence": "weekly-quiz",
+      "title": "Weekly Recall Quiz",
+      "shortTitle": "02 Oct 2026",
+      "date": "2026-10-02",
+      "path": "weekly/weekly_quiz/Recall_Quiz_2026-10-02.md",
+      "bundleId": "weekly-weekly-quiz-recall-quiz-2026-10-02",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "weekly_quiz_2026_10_02"
+      ],
+      "subjectIds": [
+        "current-affairs",
+        "polity"
+      ],
+      "topicIds": [
+        "current-affairs/weekly-recall-quiz",
+        "polity/weekly-recall-quiz"
+      ]
     },
     {
       "id": "weekly-weekly-quiz-recall-quiz-2026-09-25",

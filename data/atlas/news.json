@@ -5,7 +5,7 @@
       "label": "CA & PIB · week of 2026-09-27",
       "source": "daily/daily_current_affairs/UPSC_CA_2026-09-27.md",
       "libraryDerived": true,
-      "sourceCount": 10
+      "sourceCount": 13
     },
     {
       "id": "2026-09-20-library",
@@ -9144,13 +9144,19 @@
       "lat": 58.2494,
       "lon": 44.6865,
       "topic": "Briefing geography",
-      "hook": "Country study anchor · mentioned 2026-09-28",
-      "fact": "1. Japan asks the UN to delete \"enemy state\" clauses from the Charter — and China and Russia say no — International Relations Exam angle: In her UNGA-81 address, Japan's PM Sanae Takaichi called the Charter's wartime \"enemy state\" language obsolete. It links three UPSC staples: UN Charter architecture, P5 veto over amendments, and UNSC reform (India and Japan are G4 partners). Fresh hook: Japan–China friction over Taiwan; both Beijing and Moscow object. Memorise: Articles 53, 77, 107 = \"enemy state\" clauses (Axis states of WWII; allowed action against them without Security Council authorisation). UNGA declared them obsolete in 1995 (Res 50/52",
+      "hook": "Country study anchor · mentioned 2026-10-03",
+      "fact": "News — Kaliningrad: Putin's \"all weapons\" warning — Geography Exam angle. On 1 Oct 2026 at the Valdai Forum Putin said Russia would use \"all the weapons at our country's disposal\" if Kaliningrad were attacked. Reports say NATO also received a Russian diplomatic note on a possible nuclear response if the exclave is cut off. Kaliningrad's location, as a non-contiguous Russian territory on the Baltic between Poland and Lithuania, is what makes it a standing flashpoint. Map-based questions are likely. Memorise. - Kaliningrad Oblast: Russian exclave on the Baltic coast between Poland and Lithuania, with no land link to mainland Russia. - Baltic F",
       "locate": "Approximate study anchor for Russia, Russia. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
       "coordinatePrecision": "regional-study-anchor",
       "coordinateSource": "data/maps/world_countries_india_pov.geojson",
-      "source": "daily/daily_current_affairs/UPSC_CA_2026-09-28.md",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-03.md",
       "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-03.md",
+          "date": "2026-10-03",
+          "cadence": "daily",
+          "excerpt": "News — Kaliningrad: Putin's \"all weapons\" warning — Geography Exam angle. On 1 Oct 2026 at the Valdai Forum Putin said Russia would use \"all the weapons at our country's disposal\" if Kaliningrad were attacked. Reports say NATO also received a Russian diplomatic note on a possible nuclear response if the exclave is cut off. Kaliningrad's location, as a non-contiguous Russian territory on the Baltic between Poland and Lithuania, is what makes it a standing flashpoint. Map-based questions are likely. Memorise. - Kaliningrad Oblast: Russian exclave on the Baltic coast between Poland and Lithuania, with no land link to mainland Russia. - Baltic F"
+        },
         {
           "source": "daily/daily_current_affairs/UPSC_CA_2026-09-28.md",
           "date": "2026-09-28",
@@ -9291,13 +9297,19 @@
       "lat": 39.5385,
       "lon": -97.4826,
       "topic": "Briefing geography",
-      "hook": "Country study anchor · mentioned 2026-10-01",
-      "fact": "2. Goyal at the US-hosted G20 Trade Ministers' Meeting in Milwaukee — India pushes for an interim trade deal alongside — International Relations Exam angle: The US holds the 2026 G20 presidency, so India's trade diplomacy and the G20 track meet in one visit. For Prelims, the testable layer is how the G20 works (troika, no secretariat, membership). For Mains, it illustrates India's \"bilateral plus multilateral\" trade strategy while talks with Washington continue. Memorise: Commerce Minister Piyush Goyal is in the US from 29 Sept to 5 Oct 2026 (Milwaukee, with Chicago and New York legs) for the G20 Trade Ministers' Meeting. The US holds the 202",
+      "hook": "Country study anchor · mentioned 2026-10-02",
+      "fact": "revised down. Drivers: new orders, output, fastest hiring since May, and export orders from Brazil, Europe, UAE and the US. Input costs rose (electronic components, pharma, steel), but inflation stayed below its long-run average. This is a high-frequency indicator; do not confuse it with IIP. Memorize: PMI > 50 = expansion, < 50 = contraction. Compiled by S&P Global for HSBC (survey-based, diffusion index). The same survey cycle put the flash composite at 56.5 and flash services at 55.8 (23 Sep). Notebook: GS3 Economy (Growth/Industry indicators). Static anchor: Ramesh Singh Indian Economy — Industry & Indicators; Mrunal Economy — National in",
       "locate": "Approximate study anchor for United States of America, United States of America. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
       "coordinatePrecision": "regional-study-anchor",
       "coordinateSource": "data/maps/world_countries_india_pov.geojson",
-      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-01.md",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-02.md",
       "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-02.md",
+          "date": "2026-10-02",
+          "cadence": "daily",
+          "excerpt": "revised down. Drivers: new orders, output, fastest hiring since May, and export orders from Brazil, Europe, UAE and the US. Input costs rose (electronic components, pharma, steel), but inflation stayed below its long-run average. This is a high-frequency indicator; do not confuse it with IIP. Memorize: PMI > 50 = expansion, < 50 = contraction. Compiled by S&P Global for HSBC (survey-based, diffusion index). The same survey cycle put the flash composite at 56.5 and flash services at 55.8 (23 Sep). Notebook: GS3 Economy (Growth/Industry indicators). Static anchor: Ramesh Singh Indian Economy — Industry & Indicators; Mrunal Economy — National in"
+        },
         {
           "source": "daily/daily_current_affairs/UPSC_CA_2026-10-01.md",
           "date": "2026-10-01",
@@ -9417,13 +9429,19 @@
       "lat": 53.8219,
       "lon": 28.4177,
       "topic": "Briefing geography",
-      "hook": "Country study anchor · mentioned 2026-09-30",
-      "fact": "Heads of Government), the first by an Indian foreign minister since 2015. The SCO now has 10 members, the latest being Belarus. Mains line: \"India uses the SCO to stay in the room without taking part in the bilateral.\" Notebook: GS2 – IR (Regional groupings; India–Pakistan). Static anchor: IR notes → Regional & global groupings: SCO (structure: Heads of State Council, Heads of Government Council, CFM, Council of National Coordinators; Secretariat in Beijing, RATS in Tashkent). Nudge: add a \"Chair 2026–27: Pakistan (from Kyrgyzstan) → summit Islamabad, Aug 2027\" row to your SCO chair timeline, and cross-link to your India–Central Asia note.",
+      "hook": "Country study anchor · mentioned 2026-10-03",
+      "fact": "nland Russia. - Baltic Fleet HQ at Baltiysk. - The Suwałki Gap (the Poland–Lithuania land strip between Kaliningrad and Belarus) is the NATO-side pressure point. - NATO chief Rutte responded that the alliance is defensive.",
       "locate": "Approximate study anchor for Belarus, Belarus. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
       "coordinatePrecision": "regional-study-anchor",
       "coordinateSource": "data/maps/world_countries_india_pov.geojson",
-      "source": "daily/daily_current_affairs/UPSC_CA_2026-09-30.md",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-03.md",
       "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-03.md",
+          "date": "2026-10-03",
+          "cadence": "daily",
+          "excerpt": "nland Russia. - Baltic Fleet HQ at Baltiysk. - The Suwałki Gap (the Poland–Lithuania land strip between Kaliningrad and Belarus) is the NATO-side pressure point. - NATO chief Rutte responded that the alliance is defensive."
+        },
         {
           "source": "daily/daily_current_affairs/UPSC_CA_2026-09-30.md",
           "date": "2026-09-30",
@@ -9596,6 +9614,228 @@
       "libraryDerived": true
     },
     {
+      "id": "2026-09-27-library-brazil-brazil",
+      "weekId": "2026-09-27-library",
+      "layer": "current",
+      "name": "Brazil",
+      "country": "Brazil",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": -12.0987,
+      "lon": -49.5594,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-02",
+      "fact": "was 55.7, so the final was revised down. Drivers: new orders, output, fastest hiring since May, and export orders from Brazil, Europe, UAE and the US. Input costs rose (electronic components, pharma, steel), but inflation stayed below its long-run average. This is a high-frequency indicator; do not confuse it with IIP. Memorize: PMI > 50 = expansion, < 50 = contraction. Compiled by S&P Global for HSBC (survey-based, diffusion index). The same survey cycle put the flash composite at 56.5 and flash services at 55.8 (23 Sep). Notebook: GS3 Economy (Growth/Industry indicators). Static anchor: Ramesh Singh Indian Economy — Industry & Indicators;",
+      "locate": "Approximate study anchor for Brazil, Brazil. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-02.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-02.md",
+          "date": "2026-10-02",
+          "cadence": "daily",
+          "excerpt": "was 55.7, so the final was revised down. Drivers: new orders, output, fastest hiring since May, and export orders from Brazil, Europe, UAE and the US. Input costs rose (electronic components, pharma, steel), but inflation stayed below its long-run average. This is a high-frequency indicator; do not confuse it with IIP. Memorize: PMI > 50 = expansion, < 50 = contraction. Compiled by S&P Global for HSBC (survey-based, diffusion index). The same survey cycle put the flash composite at 56.5 and flash services at 55.8 (23 Sep). Notebook: GS3 Economy (Growth/Industry indicators). Static anchor: Ramesh Singh Indian Economy — Industry & Indicators;"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-09-27-library-united-arab-emirates-united-arab-emirates",
+      "weekId": "2026-09-27-library",
+      "layer": "current",
+      "name": "United Arab Emirates",
+      "country": "United Arab Emirates",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 23.4663,
+      "lon": 54.5473,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-02",
+      "fact": "e final was revised down. Drivers: new orders, output, fastest hiring since May, and export orders from Brazil, Europe, UAE and the US. Input costs rose (electronic components, pharma, steel), but inflation stayed below its long-run average. This is a high-frequency indicator; do not confuse it with IIP. Memorize: PMI > 50 = expansion, < 50 = contraction. Compiled by S&P Global for HSBC (survey-based, diffusion index). The same survey cycle put the flash composite at 56.5 and flash services at 55.8 (23 Sep). Notebook: GS3 Economy (Growth/Industry indicators). Static anchor: Ramesh Singh Indian Economy — Industry & Indicators; Mrunal Economy —",
+      "locate": "Approximate study anchor for United Arab Emirates, United Arab Emirates. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-02.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-02.md",
+          "date": "2026-10-02",
+          "cadence": "daily",
+          "excerpt": "e final was revised down. Drivers: new orders, output, fastest hiring since May, and export orders from Brazil, Europe, UAE and the US. Input costs rose (electronic components, pharma, steel), but inflation stayed below its long-run average. This is a high-frequency indicator; do not confuse it with IIP. Memorize: PMI > 50 = expansion, < 50 = contraction. Compiled by S&P Global for HSBC (survey-based, diffusion index). The same survey cycle put the flash composite at 56.5 and flash services at 55.8 (23 Sep). Notebook: GS3 Economy (Growth/Industry indicators). Static anchor: Ramesh Singh Indian Economy — Industry & Indicators; Mrunal Economy —"
+        },
+        {
+          "source": "daily/daily_pib/PIB_2026-09-29.md",
+          "date": "2026-09-29",
+          "cadence": "pib",
+          "excerpt": "Key facts: - Participating air forces (as reported by ANI/DD): Australia, USA, UAE, France, Germany, Sri Lanka, Bangladesh. Several other countries are attending as observers. (One summary site reports 8 participants and 32 observers; confirm on PIB before memorising.) - Aircraft include F-35, Rafale, F-16, A400M, MRTT, C-130/C-130J and KC-30A tankers. - Alongside the flying: seminars, industry tours, and cultural and yoga events."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-09-27-library-bulgaria-bulgaria",
+      "weekId": "2026-09-27-library",
+      "layer": "current",
+      "name": "Bulgaria",
+      "country": "Bulgaria",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 42.5088,
+      "lon": 25.1571,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-02",
+      "fact": "July 2026 under Section 301 (forced-labour grounds); that process is \"still unfolding.\" Separately, on 2 Oct India and Bulgaria held Foreign Office Consultations in Delhi and urged early implementation of the India–EU FTA. Memorize: Section 301, Trade Act 1974 = USTR investigation of unfair trade practices (a US domestic law, not WTO). BTA = Bilateral Trade Agreement. India–Bulgaria: ties since 1954; Strategic and Defence Partnership. Notebook: GS2 International Relations (India–US; trade diplomacy). Static anchor: Mrunal IR — India–US; Pavneet Singh/Shankar IR — Trade agreements. Nudge: add a timeline (Feb 2026 framework → Jul 2026 Sec 301",
+      "locate": "Approximate study anchor for Bulgaria, Bulgaria. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-02.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-02.md",
+          "date": "2026-10-02",
+          "cadence": "daily",
+          "excerpt": "July 2026 under Section 301 (forced-labour grounds); that process is \"still unfolding.\" Separately, on 2 Oct India and Bulgaria held Foreign Office Consultations in Delhi and urged early implementation of the India–EU FTA. Memorize: Section 301, Trade Act 1974 = USTR investigation of unfair trade practices (a US domestic law, not WTO). BTA = Bilateral Trade Agreement. India–Bulgaria: ties since 1954; Strategic and Defence Partnership. Notebook: GS2 International Relations (India–US; trade diplomacy). Static anchor: Mrunal IR — India–US; Pavneet Singh/Shankar IR — Trade agreements. Nudge: add a timeline (Feb 2026 framework → Jul 2026 Sec 301"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-09-27-library-india-jaipur",
+      "weekId": "2026-09-27-library",
+      "layer": "current",
+      "name": "Jaipur",
+      "country": "India",
+      "region": "Rājasthān",
+      "scope": "india",
+      "lat": 27.1464,
+      "lon": 75.6051,
+      "topic": "Briefing geography",
+      "hook": "Rājasthān · mentioned 2026-10-02",
+      "fact": "3. Rajasthan High Court warns Jaipur's Walled City could lose World Heritage status — Art & Culture Exam angle: In a suo motu case, the Rajasthan HC (order of 26 Sep 2026) said the Walled City faces a \"serious risk\" if remedial action is not taken by December 2026. It ordered a survey of unauthorised construction (two weeks), an affidavit on safeguards (four weeks), and a phase-wise action plan, and asked why officials should not face action. UNESCO has flagged redevelopment in the core and buffer zones; the conservation report is due in December 2026 and review is expected at the 2027 World Heritage Committee session (per Outlook Traveller,",
+      "locate": "Approximate study anchor for Jaipur, India. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/bharatrajya-india-districts.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-02.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-02.md",
+          "date": "2026-10-02",
+          "cadence": "daily",
+          "excerpt": "3. Rajasthan High Court warns Jaipur's Walled City could lose World Heritage status — Art & Culture Exam angle: In a suo motu case, the Rajasthan HC (order of 26 Sep 2026) said the Walled City faces a \"serious risk\" if remedial action is not taken by December 2026. It ordered a survey of unauthorised construction (two weeks), an affidavit on safeguards (four weeks), and a phase-wise action plan, and asked why officials should not face action. UNESCO has flagged redevelopment in the core and buffer zones; the conservation report is due in December 2026 and review is expected at the 2027 World Heritage Committee session (per Outlook Traveller,"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-09-27-library-lithuania-lithuania",
+      "weekId": "2026-09-27-library",
+      "layer": "current",
+      "name": "Lithuania",
+      "country": "Lithuania",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 55.1037,
+      "lon": 24.0899,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-03",
+      "fact": "the exclave is cut off. Kaliningrad's location, as a non-contiguous Russian territory on the Baltic between Poland and Lithuania, is what makes it a standing flashpoint. Map-based questions are likely. Memorise. - Kaliningrad Oblast: Russian exclave on the Baltic coast between Poland and Lithuania, with no land link to mainland Russia. - Baltic Fleet HQ at Baltiysk. - The Suwałki Gap (the Poland–Lithuania land strip between Kaliningrad and Belarus) is the NATO-side pressure point. - NATO chief Rutte responded that the alliance is defensive.",
+      "locate": "Approximate study anchor for Lithuania, Lithuania. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-03.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-03.md",
+          "date": "2026-10-03",
+          "cadence": "daily",
+          "excerpt": "the exclave is cut off. Kaliningrad's location, as a non-contiguous Russian territory on the Baltic between Poland and Lithuania, is what makes it a standing flashpoint. Map-based questions are likely. Memorise. - Kaliningrad Oblast: Russian exclave on the Baltic coast between Poland and Lithuania, with no land link to mainland Russia. - Baltic Fleet HQ at Baltiysk. - The Suwałki Gap (the Poland–Lithuania land strip between Kaliningrad and Belarus) is the NATO-side pressure point. - NATO chief Rutte responded that the alliance is defensive."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-09-27-library-poland-poland",
+      "weekId": "2026-09-27-library",
+      "layer": "current",
+      "name": "Poland",
+      "country": "Poland",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 51.9903,
+      "lon": 19.4905,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-03",
+      "fact": "response if the exclave is cut off. Kaliningrad's location, as a non-contiguous Russian territory on the Baltic between Poland and Lithuania, is what makes it a standing flashpoint. Map-based questions are likely. Memorise. - Kaliningrad Oblast: Russian exclave on the Baltic coast between Poland and Lithuania, with no land link to mainland Russia. - Baltic Fleet HQ at Baltiysk. - The Suwałki Gap (the Poland–Lithuania land strip between Kaliningrad and Belarus) is the NATO-side pressure point. - NATO chief Rutte responded that the alliance is defensive.",
+      "locate": "Approximate study anchor for Poland, Poland. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-03.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-03.md",
+          "date": "2026-10-03",
+          "cadence": "daily",
+          "excerpt": "response if the exclave is cut off. Kaliningrad's location, as a non-contiguous Russian territory on the Baltic between Poland and Lithuania, is what makes it a standing flashpoint. Map-based questions are likely. Memorise. - Kaliningrad Oblast: Russian exclave on the Baltic coast between Poland and Lithuania, with no land link to mainland Russia. - Baltic Fleet HQ at Baltiysk. - The Suwałki Gap (the Poland–Lithuania land strip between Kaliningrad and Belarus) is the NATO-side pressure point. - NATO chief Rutte responded that the alliance is defensive."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-09-27-library-philippines-philippines",
+      "weekId": "2026-09-27-library",
+      "layer": "current",
+      "name": "Philippines",
+      "country": "Philippines",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 11.198,
+      "lon": 122.465,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-03",
+      "fact": "2. Second ASEAN-India Maritime Exercise (AIME) off the Philippines — International Relations Exam angle. INS Sahyadri and INS Kulish joined ASEAN navies (the Philippine Navy co-hosting, with Singapore's RSS Justice among the participants) for sea drills and expert exchanges on HADR, maritime domain awareness and logistics. It is a concrete instance of Act East and the Indo-Pacific/SAGAR-MAHASAGAR approach: India builds interoperability with ASEAN states without needing a treaty. Memorise. - Second edition of AIME (the first was in 2023, in Singapore – flag: check the exact month). - Co-hosts: the Indian and Philippine Navies. - Drills: boardi",
+      "locate": "Approximate study anchor for Philippines, Philippines. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-03.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-03.md",
+          "date": "2026-10-03",
+          "cadence": "daily",
+          "excerpt": "2. Second ASEAN-India Maritime Exercise (AIME) off the Philippines — International Relations Exam angle. INS Sahyadri and INS Kulish joined ASEAN navies (the Philippine Navy co-hosting, with Singapore's RSS Justice among the participants) for sea drills and expert exchanges on HADR, maritime domain awareness and logistics. It is a concrete instance of Act East and the Indo-Pacific/SAGAR-MAHASAGAR approach: India builds interoperability with ASEAN states without needing a treaty. Memorise. - Second edition of AIME (the first was in 2023, in Singapore – flag: check the exact month). - Co-hosts: the Indian and Philippine Navies. - Drills: boardi"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-09-27-library-singapore-singapore",
+      "weekId": "2026-09-27-library",
+      "layer": "current",
+      "name": "Singapore",
+      "country": "Singapore",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 1.3666,
+      "lon": 103.8169,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-03",
+      "fact": "ternational Relations Exam angle. INS Sahyadri and INS Kulish joined ASEAN navies (the Philippine Navy co-hosting, with Singapore's RSS Justice among the participants) for sea drills and expert exchanges on HADR, maritime domain awareness and logistics. It is a concrete instance of Act East and the Indo-Pacific/SAGAR-MAHASAGAR approach: India builds interoperability with ASEAN states without needing a treaty. Memorise. - Second edition of AIME (the first was in 2023, in Singapore – flag: check the exact month). - Co-hosts: the Indian and Philippine Navies. - Drills: boarding, helicopter cross-deck landings, medical evacuation. - The exercise",
+      "locate": "Approximate study anchor for Singapore, Singapore. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-03.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-03.md",
+          "date": "2026-10-03",
+          "cadence": "daily",
+          "excerpt": "ternational Relations Exam angle. INS Sahyadri and INS Kulish joined ASEAN navies (the Philippine Navy co-hosting, with Singapore's RSS Justice among the participants) for sea drills and expert exchanges on HADR, maritime domain awareness and logistics. It is a concrete instance of Act East and the Indo-Pacific/SAGAR-MAHASAGAR approach: India builds interoperability with ASEAN states without needing a treaty. Memorise. - Second edition of AIME (the first was in 2023, in Singapore – flag: check the exact month). - Co-hosts: the Indian and Philippine Navies. - Drills: boarding, helicopter cross-deck landings, medical evacuation. - The exercise"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
       "id": "2026-09-27-library-india-new-delhi",
       "weekId": "2026-09-27-library",
       "layer": "current",
@@ -9669,33 +9909,6 @@
       "hook": "Country study anchor · mentioned 2026-09-29",
       "fact": "Key facts: - Participating air forces (as reported by ANI/DD): Australia, USA, UAE, France, Germany, Sri Lanka, Bangladesh. Several other countries are attending as observers. (One summary site reports 8 participants and 32 observers; confirm on PIB before memorising.) - Aircraft include F-35, Rafale, F-16, A400M, MRTT, C-130/C-130J and KC-30A tankers. - Alongside the flying: seminars, industry tours, and cultural and yoga events.",
       "locate": "Approximate study anchor for Germany, Germany. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
-      "coordinatePrecision": "regional-study-anchor",
-      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
-      "source": "daily/daily_pib/PIB_2026-09-29.md",
-      "references": [
-        {
-          "source": "daily/daily_pib/PIB_2026-09-29.md",
-          "date": "2026-09-29",
-          "cadence": "pib",
-          "excerpt": "Key facts: - Participating air forces (as reported by ANI/DD): Australia, USA, UAE, France, Germany, Sri Lanka, Bangladesh. Several other countries are attending as observers. (One summary site reports 8 participants and 32 observers; confirm on PIB before memorising.) - Aircraft include F-35, Rafale, F-16, A400M, MRTT, C-130/C-130J and KC-30A tankers. - Alongside the flying: seminars, industry tours, and cultural and yoga events."
-        }
-      ],
-      "libraryDerived": true
-    },
-    {
-      "id": "2026-09-27-library-united-arab-emirates-united-arab-emirates",
-      "weekId": "2026-09-27-library",
-      "layer": "current",
-      "name": "United Arab Emirates",
-      "country": "United Arab Emirates",
-      "region": "Country study anchor",
-      "scope": "world",
-      "lat": 23.4663,
-      "lon": 54.5473,
-      "topic": "Briefing geography",
-      "hook": "Country study anchor · mentioned 2026-09-29",
-      "fact": "Key facts: - Participating air forces (as reported by ANI/DD): Australia, USA, UAE, France, Germany, Sri Lanka, Bangladesh. Several other countries are attending as observers. (One summary site reports 8 participants and 32 observers; confirm on PIB before memorising.) - Aircraft include F-35, Rafale, F-16, A400M, MRTT, C-130/C-130J and KC-30A tankers. - Alongside the flying: seminars, industry tours, and cultural and yoga events.",
-      "locate": "Approximate study anchor for United Arab Emirates, United Arab Emirates. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
       "coordinatePrecision": "regional-study-anchor",
       "coordinateSource": "data/maps/world_countries_india_pov.geojson",
       "source": "daily/daily_pib/PIB_2026-09-29.md",
@@ -9813,6 +10026,60 @@
           "date": "2026-10-01",
           "cadence": "pib",
           "excerpt": "4. UIDAI (MeitY): Five new initiatives unveiled at 'Aadhaar Samvaad', Kolkata (30 Sep)"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-09-27-library-united-republic-of-tanzania-united-republic-of-tanzania",
+      "weekId": "2026-09-27-library",
+      "layer": "current",
+      "name": "United Republic of Tanzania",
+      "country": "United Republic of Tanzania",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": -6.0519,
+      "lon": 34.9592,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-03",
+      "fact": ". - Rajya Sabha Secretariat: Deputy Chairman Harivansh leads Indian Parliamentary delegation to the 153rd IPU Assembly, Tanzania.",
+      "locate": "Approximate study anchor for United Republic of Tanzania, United Republic of Tanzania. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_pib/PIB_2026-10-03.md",
+      "references": [
+        {
+          "source": "daily/daily_pib/PIB_2026-10-03.md",
+          "date": "2026-10-03",
+          "cadence": "pib",
+          "excerpt": ". - Rajya Sabha Secretariat: Deputy Chairman Harivansh leads Indian Parliamentary delegation to the 153rd IPU Assembly, Tanzania."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-09-27-library-india-jaisalmer",
+      "weekId": "2026-09-27-library",
+      "layer": "current",
+      "name": "Jaisalmer",
+      "country": "India",
+      "region": "Rājasthān",
+      "scope": "india",
+      "lat": 27.0598,
+      "lon": 70.9146,
+      "topic": "Briefing geography",
+      "hook": "Rājasthān · mentioned 2026-10-03",
+      "fact": "Climate Change: Process begins for release of captive-bred Great Indian Bustards into the wild at Desert National Park, Jaisalmer (3 Oct) - What: PIB reports that, \"in culmination of 10 years of dedicated efforts\", Union Environment Minister Bhupender Yadav and the Rajasthan Chief Minister initiated the process for release of captive-bred Great Indian Bustards (GIBs) into the wild at Desert National Park, Jaisalmer. Press reports put the release schedule at 3 Oct (Ramdevra) and 4 Oct (Sudasari area), with ten birds having completed \"rewilding\" training in a specially designed tunnel; the exact number for the first release is to be fixed after",
+      "locate": "Approximate study anchor for Jaisalmer, India. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/bharatrajya-india-districts.geojson",
+      "source": "daily/daily_pib/PIB_2026-10-03.md",
+      "references": [
+        {
+          "source": "daily/daily_pib/PIB_2026-10-03.md",
+          "date": "2026-10-03",
+          "cadence": "pib",
+          "excerpt": "Climate Change: Process begins for release of captive-bred Great Indian Bustards into the wild at Desert National Park, Jaisalmer (3 Oct) - What: PIB reports that, \"in culmination of 10 years of dedicated efforts\", Union Environment Minister Bhupender Yadav and the Rajasthan Chief Minister initiated the process for release of captive-bred Great Indian Bustards (GIBs) into the wild at Desert National Park, Jaisalmer. Press reports put the release schedule at 3 Oct (Ramdevra) and 4 Oct (Sudasari area), with ten birds having completed \"rewilding\" training in a specially designed tunnel; the exact number for the first release is to be fixed after"
         }
       ],
       "libraryDerived": true

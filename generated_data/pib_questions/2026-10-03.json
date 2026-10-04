@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the captive-bred Great Indian Bustard release initiated in October 2026, consider the following statements: 1. The release is being carried out at Desert National Park, Jaisalmer, rather than the originally planned Kachchh site. 2. The captive-breeding programme began in 2019 and the first captive-bred chick was born in March 2023. 3. The Great Indian Bustard is classified as 'Endangered' on the IUCN Red List. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statements 1 and 2 are correct; the GIB is Critically Endangered, not Endangered, on the IUCN Red List.",
+    "subject": "Environment",
+    "theme": "Species Conservation",
+    "micro_topic": "Great Indian Bustard captive breeding and rewilding",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following about the social bond listed by NABKISAN Finance Limited in October 2026: 1. It is India's first social bond dedicated exclusively to the WASH sector. 2. NABKISAN is a subsidiary of NABARD. 3. The bond has a tenor of 10 years. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statements 1 and 2 are correct; the bond is a 5-year instrument maturing September 2031, not 10-year.",
+    "subject": "Economy",
+    "theme": "Sustainable Finance",
+    "micro_topic": "NABKISAN WASH social bond",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The 'jump-start' technique used in India's Great Indian Bustard conservation breeding programme involves:",
+    "options": [
+      "(a) Artificial insemination of wild females with captive-bred semen",
+      "(b) Exchanging fertile captive eggs with infertile eggs of wild females so wild birds incubate and rear the chicks",
+      "(c) Releasing adult birds fitted with satellite collars directly into protected areas",
+      "(d) Translocating wild chicks from Rajasthan to Gujarat"
+    ],
+    "answer": "(b)",
+    "explanation": "Fertile eggs from captive breeding are swapped with infertile eggs of wild females, which then incubate and rear the chicks.",
+    "subject": "Environment",
+    "theme": "Species Conservation",
+    "micro_topic": "GIB jump-start egg-exchange technique",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]
