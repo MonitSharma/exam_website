@@ -1,0 +1,50 @@
+[
+  {
+    "question": "Consider the following pairs of Classical language and the host of its newly approved Centre of Excellence (October 2026): 1. Pali — Central University of Odisha 2. Prakrit — Central University of Gujarat 3. Assamese — Visva-Bharati University. Which of the pairs given above are correctly matched?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Pali (Central University of Odisha) and Prakrit (Central University of Gujarat) are correct; the Assamese CoE is at Tezpur University, while Visva-Bharati hosts Bengali.",
+    "subject": "Art & Culture",
+    "theme": "Classical Languages",
+    "micro_topic": "Centres of Excellence for Classical Languages",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to Quantum Key Distribution (QKD), consider the following statements: 1. Free-space QKD transmits quantum-secured keys without requiring optical fibre. 2. Any eavesdropping attempt on a QKD channel disturbs the quantum state and can be detected. 3. QKD security depends on the computational difficulty of factoring large numbers. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Statements 1 and 2 are correct; QKD security rests on quantum physics, not on factoring difficulty (which underpins RSA).",
+    "subject": "Science & Technology",
+    "theme": "Quantum Technologies",
+    "micro_topic": "Free-space Quantum Key Distribution",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Under PM-SETU (Pradhan Mantri Skilling and Employability Transformation through Upgraded ITIs), which of the following is NOT a feature?",
+    "options": [
+      "(a) Hub-and-spoke model with 200 hub and 800 spoke ITIs",
+      "(b) Government-owned, industry-managed clusters led by Anchor Industry Partners",
+      "(c) Co-financing by the World Bank and Asian Development Bank",
+      "(d) Establishment of 1,000 new private ITIs by industry"
+    ],
+    "answer": "(d)",
+    "explanation": "PM-SETU upgrades 1,000 existing government ITIs; it does not create new private ITIs.",
+    "subject": "Polity & Governance",
+    "theme": "Skilling Schemes",
+    "micro_topic": "PM-SETU ITI upgradation",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]

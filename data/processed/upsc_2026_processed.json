@@ -3259,9 +3259,9 @@
         "text": "1, 2 and 3"
       }
     ],
-    "answer_option": "a",
+    "answer_option": "c",
     "accepted_answer_options": [
-      "a"
+      "c"
     ],
     "explanation": "",
     "subject": "Science & Technology",
@@ -3270,8 +3270,8 @@
     "nature": "Current Affairs",
     "difficulty": "Moderate",
     "source": "User-provided UPSC PYQ JSON",
-    "answer_source": "Extracted from generated_data/answer_keys/2026_answer_key_setA.png",
-    "verification_status": "verified_image"
+    "answer_source": "Official UPSC 2026 Prelims Answer Key",
+    "verification_status": "verified_manual"
   },
   {
     "id": "upsc_2026_q085",
