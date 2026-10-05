@@ -1,0 +1,114 @@
+[
+ {
+  "question": "With reference to the India–Switzerland engagement in October 2026 and the India–EFTA Trade and Economic Partnership Agreement (TEPA), consider the following statements:\n1. TEPA was signed in March 2024 and entered into force on 1 October 2025.\n2. Switzerland is a member of both the European Free Trade Association (EFTA) and the European Union.\n3. TEPA is India's first free trade agreement with a European economic bloc.\nWhich of the statements given above is/are correct?",
+  "options": [
+   "(a) 1 only",
+   "(b) 2 and 3 only",
+   "(c) 1 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(c)",
+  "explanation": "TEPA was signed on 10 March 2024 and has been in force since 1 October 2025; it is India's first FTA with a European bloc (Iceland, Liechtenstein, Norway, Switzerland). Switzerland is in EFTA but not in the EU, so statement 2 is wrong. Note: one report wrongly says TEPA came into force in October 2026.",
+  "subject": "International Relations",
+  "theme": "India–Switzerland / EFTA",
+  "micro_topic": "India-EFTA TEPA and EFTA membership",
+  "nature": "Current Affairs",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "With reference to the Corporate Average Fuel Economy (CAFE-III) norms notified in September 2026, consider the following statements:\n1. They were notified by the Ministry of Power and apply from 1 April 2027 to 31 March 2032.\n2. Surplus credits earned by a manufacturer can be carried forward indefinitely across compliance blocks.\n3. Battery electric vehicles receive a higher super-credit multiplier (3x) than strong hybrids (1.6x).\nWhich of the statements given above is/are correct?",
+  "options": [
+   "(a) 1 only",
+   "(b) 1 and 3 only",
+   "(c) 2 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(b)",
+  "explanation": "CAFE-III runs FY2027-28 to FY2031-32 in two blocks (3 years + 2 years); credits carry forward only within a block and lapse at its end, so statement 2 is wrong. Super-credits: BEV/range-extended EV 3x, plug-in and strong-hybrid flex-fuel 2.5x, strong hybrid 1.6x, flex-fuel 1.1x.",
+  "subject": "Economy",
+  "theme": "CAFE-III fuel economy norms",
+  "micro_topic": "CAFE norms, credit trading, super-credits",
+  "nature": "Current Affairs",
+  "difficulty": "Hard"
+ },
+ {
+  "question": "With reference to the 70th meeting of the International Whaling Commission (IWC-70) held in Hobart, Australia, consider the following statements:\n1. The IWC was established under the International Convention for the Regulation of Whaling, 1946, and a moratorium on commercial whaling has been in effect since 1986.\n2. The IWC is a specialised agency of the United Nations.\n3. India is a member of the IWC.\nWhich of the statements given above is/are correct?",
+  "options": [
+   "(a) 1 and 3 only",
+   "(b) 2 only",
+   "(c) 1 and 2 only",
+   "(d) 2 and 3 only"
+  ],
+  "answer": "(a)",
+  "explanation": "The IWC is an independent intergovernmental body set up under the 1946 ICRW (Washington); commercial whaling has been under moratorium since 1986. It is not a UN specialised agency. India joined in 1981 and used IWC-70 (28 Sept–2 Oct 2026) to stress science-based cetacean conservation.",
+  "subject": "Environment",
+  "theme": "IWC-70 / cetacean conservation",
+  "micro_topic": "International Whaling Commission, moratorium",
+  "nature": "Current Affairs",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "With reference to the Promotion of Research and Innovation in Pharma and MedTech (PRIP) scheme and its 'New Discovery Track', consider the following statements:\n1. The scheme is implemented by the Department of Pharmaceuticals.\n2. The New Discovery Track offers up to ₹50 crore per project to startups and MSMEs working on new medicines, with institutional-investor co-funding.\n3. It is meant only for late-stage clinical trials of already approved drugs.\nWhich of the statements given above is/are correct?",
+  "options": [
+   "(a) 1 only",
+   "(b) 2 and 3 only",
+   "(c) 3 only",
+   "(d) 1 and 2 only"
+  ],
+  "answer": "(d)",
+  "explanation": "PRIP (₹5,000 crore outlay) is run by the Department of Pharmaceuticals (Ministry of Chemicals and Fertilizers). The discovery track targets early research (TRL 1-3) on new chemical or biological medicines, so statement 3 is wrong. The first round approved 41 projects worth about ₹1,600 crore.",
+  "subject": "Science & Technology",
+  "theme": "PRIP pharma R&D scheme",
+  "micro_topic": "PRIP, New Discovery Track",
+  "nature": "Current Affairs",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "In October 2026 the Delhi High Court held that a valid visa does not give a foreign national an absolute right to enter India. In this context, consider the following statements:\n1. Entry of a visa-holder remains subject to the discretion of immigration authorities on grounds such as national security and documentary inconsistencies.\n2. Foreign nationals within India can invoke Article 21 of the Constitution.\n3. The right to reside and settle in any part of India under Article 19(1)(e) is available to foreign nationals lawfully present in India.\nWhich of the statements given above is/are correct?",
+  "options": [
+   "(a) 3 only",
+   "(b) 2 and 3 only",
+   "(c) 1 and 2 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(c)",
+  "explanation": "Justice Amit Mahajan (1 Oct 2026) treated visa issue and entry as distinct; officers may refuse entry. Article 21 covers all 'persons', but Article 19 freedoms (including 19(1)(e)) are for citizens only, so statement 3 is wrong.",
+  "subject": "Polity & Governance",
+  "theme": "Visa and entry rights of foreigners",
+  "micro_topic": "Article 21 vs Article 19 for non-citizens",
+  "nature": "Current Affairs",
+  "difficulty": "Hard"
+ },
+ {
+  "question": "Which of the following fundamental rights are available to non-citizens (aliens) in India?\n1. Equality before law (Article 14)\n2. Freedom of speech and expression (Article 19)\n3. Protection of life and personal liberty (Article 21)\n4. Freedom of conscience and free profession of religion (Article 25)\nSelect the correct answer using the code given below.",
+  "options": [
+   "(a) 1 and 2 only",
+   "(b) 2, 3 and 4 only",
+   "(c) 1, 3 and 4 only",
+   "(d) 1, 2, 3 and 4"
+  ],
+  "answer": "(c)",
+  "explanation": "Articles 14, 20, 21, 21A, 22, 23, 24, 25-28 are available to 'persons'. Articles 15, 16, 19, 29 and 30 are reserved for citizens, so statement 2 is wrong.",
+  "subject": "Polity & Governance",
+  "theme": "Fundamental rights of non-citizens",
+  "micro_topic": "Rights available to persons vs citizens",
+  "nature": "Factual",
+  "difficulty": "Easy"
+ },
+ {
+  "question": "Consider the following statements about the Ganges river dolphin:\n1. It was declared the National Aquatic Animal of India in 2009.\n2. It is listed in Schedule I of the Wildlife (Protection) Act, 1972.\n3. It is categorised as 'Critically Endangered' by the IUCN.\nWhich of the statements given above is/are correct?",
+  "options": [
+   "(a) 1 only",
+   "(b) 1 and 2 only",
+   "(c) 2 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(b)",
+  "explanation": "The Ganges river dolphin became the National Aquatic Animal in 2009 and has Schedule I protection. The IUCN lists it as 'Endangered', not 'Critically Endangered'. Project Dolphin protects river and marine cetaceans.",
+  "subject": "Environment",
+  "theme": "Cetacean conservation in India",
+  "micro_topic": "Ganges river dolphin, Project Dolphin",
+  "nature": "Factual",
+  "difficulty": "Moderate"
+ }
+]
