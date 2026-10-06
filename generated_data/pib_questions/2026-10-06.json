@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the Integrated Transport and Logistics Authority (ITLA) approved by the Union Cabinet, consider the statements: 1. It is a Special Purpose Vehicle meant to integrate planning across modes of transport. 2. It will technically appraise and monitor infrastructure projects costing ₹500 crore or above. 3. It will build a National Transport Data Repository using datasets such as FASTag and Vahan. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct: ITLA is an SPV, appraises/monitors projects of ₹500 crore and above, and builds a National Transport Data Repository integrating GSTN, FASTag, Vahan and GPS data.",
+    "subject": "Economy",
+    "theme": "Infrastructure & Logistics",
+    "micro_topic": "Integrated Transport and Logistics Authority",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements about the SME Growth Fund (SGF) cleared by the Cabinet in October 2026: 1. It is structured as an Alternative Investment Fund with a ₹10,000 crore government commitment. 2. It provides subsidised bank loans rather than equity. 3. A majority of its allocation is meant for small and medium manufacturing enterprises. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "SGF is an AIF with a ₹10,000 crore commitment and a manufacturing-heavy allocation; statement 2 is wrong because it makes direct equity investments, not loans.",
+    "subject": "Economy",
+    "theme": "MSME Finance",
+    "micro_topic": "SME Growth Fund",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The India–Japan Joint Crediting Mechanism (JCM) is operated under which provision of the Paris Agreement?",
+    "options": [
+      "(a) Article 2.1",
+      "(b) Article 4.2",
+      "(c) Article 6.2",
+      "(d) Article 9.1"
+    ],
+    "answer": "(c)",
+    "explanation": "Article 6.2 allows bilateral cooperative approaches and transfer of mitigation outcomes; the JCM is such an arrangement.",
+    "subject": "Environment",
+    "theme": "Climate Finance & Carbon Markets",
+    "micro_topic": "Article 6.2 / India-Japan JCM",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]

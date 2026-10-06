@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to the Supreme Court's hearing of 5 October 2026 on the Great Nicobar Island project, consider the following statements:\n1. The Court declined to stay proceedings before the Calcutta High Court, which had upheld the maintainability of a PIL alleging violation of the Forest Rights Act in the project.\n2. Justice Joymalya Bagchi observed that preservation of culture is a constitutionally protected fundamental right in the context of the Shompen.\n3. The Shompen are classified as a Scheduled Caste.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statements 1 and 2 match the reported hearing (bench of CJI Surya Kant, Justices Bagchi and Mohana; next High Court hearing 25-26 Nov). The Shompen are a Particularly Vulnerable Tribal Group (PVTG) among Scheduled Tribes, not a Scheduled Caste, so 3 is wrong.",
+    "subject": "Polity & Governance",
+    "theme": "Judiciary & Tribal Rights",
+    "micro_topic": "Great Nicobar project, Forest Rights Act and Shompen",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the first international cargo shipped from Bogibeel (Assam) to Bangladesh in October 2026, consider the following statements:\n1. The cargo moved along National Waterway-2 (Brahmaputra) and then through the Indo-Bangladesh Protocol Route.\n2. The cargo consisted of about 540 tonnes of methanol from Assam Petro-Chemicals Ltd.\n3. The cargo moved along National Waterway-1 (Ganga).\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 only",
+      "(c) 1 and 2 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "The barge DLB Patkai carried ~540 MT methanol from APCL (Namrup) down ~768 km of NW-2 and on via the Indo-Bangladesh Protocol Route to the Dhaka region (~1,300 km in all). NW-1 is the Ganga (Prayagraj-Haldia), so 3 is wrong.",
+    "subject": "Economy",
+    "theme": "Infrastructure & Logistics",
+    "micro_topic": "Inland waterways, NW-2 and Indo-Bangladesh Protocol Route",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the India-Japan Joint Crediting Mechanism (JCM), consider the following statements:\n1. It operates as a bilateral cooperative approach under Article 6.2 of the Paris Agreement.\n2. An Operational Manual launched on 30 September 2026 sets out the project cycle from the Project Idea Note to the issuance of credits.\n3. It builds on a Memorandum of Cooperation of August 2025 and Rules of Implementation adopted in June 2026.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct: MoC 7 Aug 2025, Rules of Implementation 8 Jun 2026, Operational Manual launched 30 Sep 2026 in New Delhi under Article 6.2 (bilateral ITMO-type cooperation).",
+    "subject": "Environment",
+    "theme": "Climate Finance & Carbon Markets",
+    "micro_topic": "India-Japan JCM and Article 6.2",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the National Supercomputing Mission (NSM), consider the following statements:\n1. It is steered jointly by ISRO and DRDO.\n2. It is implemented by C-DAC and the Indian Institute of Science, Bengaluru.\n3. Dependence on imported CPUs and GPUs remains a key challenge despite indigenous server and interconnect development.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 2 and 3 only",
+      "(b) 1 and 2 only",
+      "(c) 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "NSM (2015, about Rs 4,500 crore) is steered by DST and MeitY, not ISRO/DRDO, so 1 is wrong. C-DAC and IISc implement it, and processors/accelerators are still imported, though indigenous Rudra servers and Trinetra interconnects exist (40 systems, ~68 PF reported).",
+    "subject": "Science & Technology",
+    "theme": "Computing & Self-reliance",
+    "micro_topic": "National Supercomputing Mission, PARAM Rudra",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "India's first National Household Travel Survey (NHTS), whose findings were released in October 2026, was conducted by:",
+    "options": [
+      "(a) NITI Aayog with the Ministry of Road Transport and Highways",
+      "(b) The Registrar General and Census Commissioner",
+      "(c) The National Statistics Office under the Ministry of Statistics and Programme Implementation",
+      "(d) The Ministry of Housing and Urban Affairs through Smart Cities Mission"
+    ],
+    "answer": "(c)",
+    "explanation": "NSO (MoSPI) ran the survey July 2025-June 2026 over about 4.92 lakh households. Walking is the leading student mode (~37%), and two-wheelers lead worker commutes (~42.6%).",
+    "subject": "Reports & Indices",
+    "theme": "Official Statistics",
+    "micro_topic": "NSO household surveys, NHTS",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Article 29(1) of the Constitution of India provides that:",
+    "options": [
+      "(a) Only religious minorities may establish and administer educational institutions",
+      "(b) Any section of citizens having a distinct language, script or culture has the right to conserve the same",
+      "(c) No citizen shall be denied admission to State-aided institutions on grounds of religion, race, caste or language, and this applies to non-citizens as well",
+      "(d) The State shall promote educational interests of Scheduled Tribes only"
+    ],
+    "answer": "(b)",
+    "explanation": "Art 29(1) protects a distinct language, script or culture of any section of citizens (not limited to minorities). Art 29(2) bars denial of admission on grounds of religion, race, caste or language but applies to citizens; Art 30 covers minorities' institutions.",
+    "subject": "Polity & Governance",
+    "theme": "Fundamental Rights",
+    "micro_topic": "Cultural and educational rights (Arts 29-30)",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to Article 6 of the Paris Agreement, consider the following statements:\n1. Article 6.2 allows countries to cooperate bilaterally and transfer internationally transferred mitigation outcomes.\n2. Article 6.4 creates a centrally supervised mechanism under the authority of the CMA.\n3. Article 6 applies only to developed countries.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Art 6.2 = decentralised bilateral/plurilateral cooperation (ITMOs); Art 6.4 = Paris Agreement Crediting Mechanism supervised by a body under the CMA. Article 6 is open to all Parties, so 3 is wrong.",
+    "subject": "Environment",
+    "theme": "Climate Finance & Carbon Markets",
+    "micro_topic": "Paris Agreement Article 6 markets",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  }
+]

@@ -1,6 +1,13 @@
 {
   "weeks": [
     {
+      "id": "2026-10-04-library",
+      "label": "CA & PIB · week of 2026-10-04",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-04.md",
+      "libraryDerived": true,
+      "sourceCount": 4
+    },
+    {
       "id": "2026-09-27-library",
       "label": "CA & PIB · week of 2026-09-27",
       "source": "daily/daily_current_affairs/UPSC_CA_2026-09-27.md",
@@ -10080,6 +10087,450 @@
           "date": "2026-10-03",
           "cadence": "pib",
           "excerpt": "Climate Change: Process begins for release of captive-bred Great Indian Bustards into the wild at Desert National Park, Jaisalmer (3 Oct) - What: PIB reports that, \"in culmination of 10 years of dedicated efforts\", Union Environment Minister Bhupender Yadav and the Rajasthan Chief Minister initiated the process for release of captive-bred Great Indian Bustards (GIBs) into the wild at Desert National Park, Jaisalmer. Press reports put the release schedule at 3 Oct (Ramdevra) and 4 Oct (Sudasari area), with ten birds having completed \"rewilding\" training in a specially designed tunnel; the exact number for the first release is to be fixed after"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-04-library-kyrgyzstan-bishkek",
+      "weekId": "2026-10-04-library",
+      "layer": "current",
+      "name": "Bishkek",
+      "country": "Kyrgyzstan",
+      "region": "Chuy valley",
+      "scope": "world",
+      "lat": 42.87,
+      "lon": 74.6,
+      "topic": "Briefing geography",
+      "hook": "Chuy valley · mentioned 2026-10-04",
+      "fact": "6. India repeated that it will help \"bring the war to an end\", building on PM Modi's line to Putin at the SCO summit in Bishkek (31 Aug): \"endless war must now give way to an end of war\". The static-rich part is connectivity: the Chennai–Vladivostok corridor, the INSTC and the Northern Sea Route. New sub-development only; the BRICS and SCO coverage from earlier this month is not repeated. Memorise. - Corridors: Chennai–Vladivostok (maritime), INSTC (multi-modal via Iran and the Caspian, avoids Suez), Northern Sea Route (Russian Arctic coast). - Trade push in seven sectors: auto, pharma, food, marine products, engineering goods, chemicals, tex",
+      "locate": "Approximate study anchor for Bishkek, Kyrgyzstan. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/atlas/news.json",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-04.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-04.md",
+          "date": "2026-10-04",
+          "cadence": "daily",
+          "excerpt": "6. India repeated that it will help \"bring the war to an end\", building on PM Modi's line to Putin at the SCO summit in Bishkek (31 Aug): \"endless war must now give way to an end of war\". The static-rich part is connectivity: the Chennai–Vladivostok corridor, the INSTC and the Northern Sea Route. New sub-development only; the BRICS and SCO coverage from earlier this month is not repeated. Memorise. - Corridors: Chennai–Vladivostok (maritime), INSTC (multi-modal via Iran and the Caspian, avoids Suez), Northern Sea Route (Russian Arctic coast). - Trade push in seven sectors: auto, pharma, food, marine products, engineering goods, chemicals, tex"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-04-library-bhutan-bhutan",
+      "weekId": "2026-10-04-library",
+      "layer": "current",
+      "name": "Bhutan",
+      "country": "Bhutan",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 27.5367,
+      "lon": 90.0403,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-04",
+      "fact": "\". Nudge: add a \"connectivity corridors\" box (INSTC, Chennai–Vladivostok, NSR, IMEC, Chabahar) and cross-link it to the Bhutan LoC and Kaliningrad entries.",
+      "locate": "Approximate study anchor for Bhutan, Bhutan. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-04.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-04.md",
+          "date": "2026-10-04",
+          "cadence": "daily",
+          "excerpt": "\". Nudge: add a \"connectivity corridors\" box (INSTC, Chennai–Vladivostok, NSR, IMEC, Chabahar) and cross-link it to the Bhutan LoC and Kaliningrad entries."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-04-library-ukraine-ukraine",
+      "weekId": "2026-10-04-library",
+      "layer": "current",
+      "name": "Ukraine",
+      "country": "Ukraine",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 49.7247,
+      "lon": 32.1409,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-04",
+      "fact": "ne products, engineering goods, chemicals, textiles. - Progress reported toward an India–Eurasian Economic Union FTA. - Ukraine's FM Sybiha called India's proposal \"the most comprehensive\" of four peace proposals (reported by ANI).",
+      "locate": "Approximate study anchor for Ukraine, Ukraine. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-04.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-04.md",
+          "date": "2026-10-04",
+          "cadence": "daily",
+          "excerpt": "ne products, engineering goods, chemicals, textiles. - Progress reported toward an India–Eurasian Economic Union FTA. - Ukraine's FM Sybiha called India's proposal \"the most comprehensive\" of four peace proposals (reported by ANI)."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-04-library-russia-russia",
+      "weekId": "2026-10-04-library",
+      "layer": "current",
+      "name": "Russia",
+      "country": "Russia",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 58.2494,
+      "lon": 44.6865,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-04",
+      "fact": "1. India–Russia: the MEA Consultative Committee lays out connectivity, energy and trade — International Relations Exam angle. The Parliamentary Consultative Committee on External Affairs reviewed ties with Russia on 3 Oct 2026. India repeated that it will help \"bring the war to an end\", building on PM Modi's line to Putin at the SCO summit in Bishkek (31 Aug): \"endless war must now give way to an end of war\". The static-rich part is connectivity: the Chennai–Vladivostok corridor, the INSTC and the Northern Sea Route. New sub-development only; the BRICS and SCO coverage from earlier this month is not repeated. Memorise. - Corridors: Chennai–Vl",
+      "locate": "Approximate study anchor for Russia, Russia. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-04.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-04.md",
+          "date": "2026-10-04",
+          "cadence": "daily",
+          "excerpt": "1. India–Russia: the MEA Consultative Committee lays out connectivity, energy and trade — International Relations Exam angle. The Parliamentary Consultative Committee on External Affairs reviewed ties with Russia on 3 Oct 2026. India repeated that it will help \"bring the war to an end\", building on PM Modi's line to Putin at the SCO summit in Bishkek (31 Aug): \"endless war must now give way to an end of war\". The static-rich part is connectivity: the Chennai–Vladivostok corridor, the INSTC and the Northern Sea Route. New sub-development only; the BRICS and SCO coverage from earlier this month is not repeated. Memorise. - Corridors: Chennai–Vl"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-04-library-iran-iran",
+      "weekId": "2026-10-04-library",
+      "layer": "current",
+      "name": "Iran",
+      "country": "Iran",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 32.1662,
+      "lon": 54.9315,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-04",
+      "fact": "from earlier this month is not repeated. Memorise. - Corridors: Chennai–Vladivostok (maritime), INSTC (multi-modal via Iran and the Caspian, avoids Suez), Northern Sea Route (Russian Arctic coast). - Trade push in seven sectors: auto, pharma, food, marine products, engineering goods, chemicals, textiles. - Progress reported toward an India–Eurasian Economic Union FTA. - Ukraine's FM Sybiha called India's proposal \"the most comprehensive\" of four peace proposals (reported by ANI).",
+      "locate": "Approximate study anchor for Iran, Iran. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-04.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-04.md",
+          "date": "2026-10-04",
+          "cadence": "daily",
+          "excerpt": "from earlier this month is not repeated. Memorise. - Corridors: Chennai–Vladivostok (maritime), INSTC (multi-modal via Iran and the Caspian, avoids Suez), Northern Sea Route (Russian Arctic coast). - Trade push in seven sectors: auto, pharma, food, marine products, engineering goods, chemicals, textiles. - Progress reported toward an India–Eurasian Economic Union FTA. - Ukraine's FM Sybiha called India's proposal \"the most comprehensive\" of four peace proposals (reported by ANI)."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-04-library-india-jaisalmer",
+      "weekId": "2026-10-04-library",
+      "layer": "current",
+      "name": "Jaisalmer",
+      "country": "India",
+      "region": "Rājasthān",
+      "scope": "india",
+      "lat": 27.0598,
+      "lon": 70.9146,
+      "topic": "Briefing geography",
+      "hook": "Rājasthān · mentioned 2026-10-04",
+      "fact": "2. First release of captive-bred Great Indian Bustards: two males enter the wild in Jaisalmer — Environment Exam angle. Union Environment Minister Bhupender Yadav and the Wildlife Institute of India released two captive-bred male GIBs near Jaisalmer on 4 Oct 2026, after rewilding training. It is the first test of whether ex situ breeding can feed in situ recovery of a Critically Endangered, power-line-vulnerable species. Mains hook: limits of captive breeding, habitat and infrastructure conflict (overhead lines). Memorise. - Two males, tagged for monitoring, released into a restricted-to-humans enclosure. - Run by WII with the Rajasthan Fores",
+      "locate": "Approximate study anchor for Jaisalmer, India. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/bharatrajya-india-districts.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-04.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-04.md",
+          "date": "2026-10-04",
+          "cadence": "daily",
+          "excerpt": "2. First release of captive-bred Great Indian Bustards: two males enter the wild in Jaisalmer — Environment Exam angle. Union Environment Minister Bhupender Yadav and the Wildlife Institute of India released two captive-bred male GIBs near Jaisalmer on 4 Oct 2026, after rewilding training. It is the first test of whether ex situ breeding can feed in situ recovery of a Critically Endangered, power-line-vulnerable species. Mains hook: limits of captive breeding, habitat and infrastructure conflict (overhead lines). Memorise. - Two males, tagged for monitoring, released into a restricted-to-humans enclosure. - Run by WII with the Rajasthan Fores"
+        },
+        {
+          "source": "daily/daily_pib/PIB_2026-10-04.md",
+          "date": "2026-10-04",
+          "cadence": "pib",
+          "excerpt": "of Environment, Forest & Climate Change: Two male Great Indian Bustards released into the wild at Desert National Park, Jaisalmer (4 Oct) (UPDATE — the 3 Oct briefing covered the process being initiated; what is new is the actual first release of two captive-bred males.) - What: PIB: the Union Environment Minister released two male Great Indian Bustards (GIBs) into the wild at Desert National Park — the first actual release in the recovery programme, culminating about ten years of effort (Project GIB, 2016). - Why it matters: Moves from ex-situ breeding to in-situ rewilding; post-release survival (power lines, predators, habitat loss) will de"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-04-library-india-hyderabad",
+      "weekId": "2026-10-04-library",
+      "layer": "current",
+      "name": "Hyderabad",
+      "country": "India",
+      "region": "Telangana",
+      "scope": "india",
+      "lat": 17.39,
+      "lon": 78.49,
+      "topic": "Briefing geography",
+      "hook": "Telangana · mentioned 2026-10-05",
+      "fact": "International Relations Exam angle. Swiss President Guy Parmelin began a three-day state visit on 5 Oct 2026 (talks at Hyderabad House, Rajghat tribute). The summit is the first big political push on the India–EFTA TEPA after it came into force, with MoUs including migration and mobility, plus talk of cooperation in S&T, nuclear energy, transport and defence. Prelims angle: what EFTA is and who is in it. Mains angle: FTAs with non-EU European blocs, investment-linked trade deals, mobility provisions. Memorise. - TEPA signed 10 Mar 2024; in force 1 Oct 2025; India's first FTA with a European economic bloc (Iceland, Liechtenstein, Norway, Swit",
+      "locate": "Approximate study anchor for Hyderabad, India. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/atlas/news.json",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-05.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-05.md",
+          "date": "2026-10-05",
+          "cadence": "daily",
+          "excerpt": "International Relations Exam angle. Swiss President Guy Parmelin began a three-day state visit on 5 Oct 2026 (talks at Hyderabad House, Rajghat tribute). The summit is the first big political push on the India–EFTA TEPA after it came into force, with MoUs including migration and mobility, plus talk of cooperation in S&T, nuclear energy, transport and defence. Prelims angle: what EFTA is and who is in it. Mains angle: FTAs with non-EU European blocs, investment-linked trade deals, mobility provisions. Memorise. - TEPA signed 10 Mar 2024; in force 1 Oct 2025; India's first FTA with a European economic bloc (Iceland, Liechtenstein, Norway, Swit"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-04-library-norway-norway",
+      "weekId": "2026-10-04-library",
+      "layer": "current",
+      "name": "Norway",
+      "country": "Norway",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 61.3571,
+      "lon": 9.68,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-05",
+      "fact": "TEPA signed 10 Mar 2024; in force 1 Oct 2025; India's first FTA with a European economic bloc (Iceland, Liechtenstein, Norway, Switzerland). - Target: $100 billion investment and 10 lakh (1 million) direct jobs in India over 15 years. - Switzerland is the biggest EFTA trade and investment partner of India; Swiss focus sectors: biotech, life sciences, banking, insurance, food processing, sustainability. - Second India–EFTA Prosperity Summit follows; reports give 7 Oct and 8 Oct (sources differ). - Flag: one report says TEPA came into force in \"October 2026\"; this is wrong, it was 1 Oct 2025.",
+      "locate": "Approximate study anchor for Norway, Norway. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-05.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-05.md",
+          "date": "2026-10-05",
+          "cadence": "daily",
+          "excerpt": "TEPA signed 10 Mar 2024; in force 1 Oct 2025; India's first FTA with a European economic bloc (Iceland, Liechtenstein, Norway, Switzerland). - Target: $100 billion investment and 10 lakh (1 million) direct jobs in India over 15 years. - Switzerland is the biggest EFTA trade and investment partner of India; Swiss focus sectors: biotech, life sciences, banking, insurance, food processing, sustainability. - Second India–EFTA Prosperity Summit follows; reports give 7 Oct and 8 Oct (sources differ). - Flag: one report says TEPA came into force in \"October 2026\"; this is wrong, it was 1 Oct 2025."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-04-library-switzerland-switzerland",
+      "weekId": "2026-10-04-library",
+      "layer": "current",
+      "name": "Switzerland",
+      "country": "Switzerland",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 46.7191,
+      "lon": 7.464,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-05",
+      "fact": "gned 10 Mar 2024; in force 1 Oct 2025; India's first FTA with a European economic bloc (Iceland, Liechtenstein, Norway, Switzerland). - Target: $100 billion investment and 10 lakh (1 million) direct jobs in India over 15 years. - Switzerland is the biggest EFTA trade and investment partner of India; Swiss focus sectors: biotech, life sciences, banking, insurance, food processing, sustainability. - Second India–EFTA Prosperity Summit follows; reports give 7 Oct and 8 Oct (sources differ). - Flag: one report says TEPA came into force in \"October 2026\"; this is wrong, it was 1 Oct 2025.",
+      "locate": "Approximate study anchor for Switzerland, Switzerland. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-05.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-05.md",
+          "date": "2026-10-05",
+          "cadence": "daily",
+          "excerpt": "gned 10 Mar 2024; in force 1 Oct 2025; India's first FTA with a European economic bloc (Iceland, Liechtenstein, Norway, Switzerland). - Target: $100 billion investment and 10 lakh (1 million) direct jobs in India over 15 years. - Switzerland is the biggest EFTA trade and investment partner of India; Swiss focus sectors: biotech, life sciences, banking, insurance, food processing, sustainability. - Second India–EFTA Prosperity Summit follows; reports give 7 Oct and 8 Oct (sources differ). - Flag: one report says TEPA came into force in \"October 2026\"; this is wrong, it was 1 Oct 2025."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-04-library-liechtenstein-liechtenstein",
+      "weekId": "2026-10-04-library",
+      "layer": "current",
+      "name": "Liechtenstein",
+      "country": "Liechtenstein",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 47.1114,
+      "lon": 9.5594,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-05",
+      "fact": "ns. Memorise. - TEPA signed 10 Mar 2024; in force 1 Oct 2025; India's first FTA with a European economic bloc (Iceland, Liechtenstein, Norway, Switzerland). - Target: $100 billion investment and 10 lakh (1 million) direct jobs in India over 15 years. - Switzerland is the biggest EFTA trade and investment partner of India; Swiss focus sectors: biotech, life sciences, banking, insurance, food processing, sustainability. - Second India–EFTA Prosperity Summit follows; reports give 7 Oct and 8 Oct (sources differ). - Flag: one report says TEPA came into force in \"October 2026\"; this is wrong, it was 1 Oct 2025.",
+      "locate": "Approximate study anchor for Liechtenstein, Liechtenstein. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-05.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-05.md",
+          "date": "2026-10-05",
+          "cadence": "daily",
+          "excerpt": "ns. Memorise. - TEPA signed 10 Mar 2024; in force 1 Oct 2025; India's first FTA with a European economic bloc (Iceland, Liechtenstein, Norway, Switzerland). - Target: $100 billion investment and 10 lakh (1 million) direct jobs in India over 15 years. - Switzerland is the biggest EFTA trade and investment partner of India; Swiss focus sectors: biotech, life sciences, banking, insurance, food processing, sustainability. - Second India–EFTA Prosperity Summit follows; reports give 7 Oct and 8 Oct (sources differ). - Flag: one report says TEPA came into force in \"October 2026\"; this is wrong, it was 1 Oct 2025."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-04-library-turkmenistan-turkmenistan",
+      "weekId": "2026-10-04-library",
+      "layer": "current",
+      "name": "Turkmenistan",
+      "country": "Turkmenistan",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 39.8552,
+      "lon": 58.6766,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-05",
+      "fact": ": a valid visa is not a right of entry — Polity & Governance Exam angle. On 1 Oct 2026 Justice Amit Mahajan dismissed a Turkmenistan national's plea after she was denied entry, holding that visa issue and permission to enter are separate and officers keep discretion on grounds like national security, foreign policy and document mismatches. A neat peg for the citizen–alien distinction in fundamental rights and the executive's sovereign power over entry. Memorise. - Visa gives permission to apply for entry; the final decision rests with the immigration officer. - Petition failed due to mismatched personal details and no business documents for t",
+      "locate": "Approximate study anchor for Turkmenistan, Turkmenistan. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-05.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-05.md",
+          "date": "2026-10-05",
+          "cadence": "daily",
+          "excerpt": ": a valid visa is not a right of entry — Polity & Governance Exam angle. On 1 Oct 2026 Justice Amit Mahajan dismissed a Turkmenistan national's plea after she was denied entry, holding that visa issue and permission to enter are separate and officers keep discretion on grounds like national security, foreign policy and document mismatches. A neat peg for the citizen–alien distinction in fundamental rights and the executive's sovereign power over entry. Memorise. - Visa gives permission to apply for entry; the final decision rests with the immigration officer. - Petition failed due to mismatched personal details and no business documents for t"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-04-library-australia-australia",
+      "weekId": "2026-10-04-library",
+      "layer": "current",
+      "name": "Australia",
+      "country": "Australia",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": -24.1295,
+      "lon": 134.0497,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-05",
+      "fact": "urns 80 — Environment Exam angle. The International Whaling Commission's 70th meeting ran 28 Sept–2 Oct 2026 in Hobart, Australia, marking 80 years of the International Convention for the Regulation of Whaling. India stressed science-based conservation and better data on cetacean status, distribution and breeding, and pointed to the Wildlife (Protection) Act, marine protected areas and Project Dolphin. Typical Prelims \"statement\" fodder on international bodies. Memorise. - IWC: set up under the ICRW, 1946 (Washington); commercial-whaling moratorium in effect since 1986; not a UN agency. - India joined in 1981 and supports conservation, not wh",
+      "locate": "Approximate study anchor for Australia, Australia. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-05.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-05.md",
+          "date": "2026-10-05",
+          "cadence": "daily",
+          "excerpt": "urns 80 — Environment Exam angle. The International Whaling Commission's 70th meeting ran 28 Sept–2 Oct 2026 in Hobart, Australia, marking 80 years of the International Convention for the Regulation of Whaling. India stressed science-based conservation and better data on cetacean status, distribution and breeding, and pointed to the Wildlife (Protection) Act, marine protected areas and Project Dolphin. Typical Prelims \"statement\" fodder on international bodies. Memorise. - IWC: set up under the ICRW, 1946 (Washington); commercial-whaling moratorium in effect since 1986; not a UN agency. - India joined in 1981 and supports conservation, not wh"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-04-library-iceland-iceland",
+      "weekId": "2026-10-04-library",
+      "layer": "current",
+      "name": "Iceland",
+      "country": "Iceland",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 64.7793,
+      "lon": -18.6737,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-05",
+      "fact": "provisions. Memorise. - TEPA signed 10 Mar 2024; in force 1 Oct 2025; India's first FTA with a European economic bloc (Iceland, Liechtenstein, Norway, Switzerland). - Target: $100 billion investment and 10 lakh (1 million) direct jobs in India over 15 years. - Switzerland is the biggest EFTA trade and investment partner of India; Swiss focus sectors: biotech, life sciences, banking, insurance, food processing, sustainability. - Second India–EFTA Prosperity Summit follows; reports give 7 Oct and 8 Oct (sources differ). - Flag: one report says TEPA came into force in \"October 2026\"; this is wrong, it was 1 Oct 2025.",
+      "locate": "Approximate study anchor for Iceland, Iceland. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-05.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-05.md",
+          "date": "2026-10-05",
+          "cadence": "daily",
+          "excerpt": "provisions. Memorise. - TEPA signed 10 Mar 2024; in force 1 Oct 2025; India's first FTA with a European economic bloc (Iceland, Liechtenstein, Norway, Switzerland). - Target: $100 billion investment and 10 lakh (1 million) direct jobs in India over 15 years. - Switzerland is the biggest EFTA trade and investment partner of India; Swiss focus sectors: biotech, life sciences, banking, insurance, food processing, sustainability. - Second India–EFTA Prosperity Summit follows; reports give 7 Oct and 8 Oct (sources differ). - Flag: one report says TEPA came into force in \"October 2026\"; this is wrong, it was 1 Oct 2025."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-04-library-india-new-delhi",
+      "weekId": "2026-10-04-library",
+      "layer": "current",
+      "name": "New Delhi",
+      "country": "India",
+      "region": "Delhi",
+      "scope": "india",
+      "lat": 28.5647,
+      "lon": 77.151,
+      "topic": "Briefing geography",
+      "hook": "Delhi · mentioned 2026-10-05",
+      "fact": "5. Delhi High Court: a valid visa is not a right of entry — Polity & Governance Exam angle. On 1 Oct 2026 Justice Amit Mahajan dismissed a Turkmenistan national's plea after she was denied entry, holding that visa issue and permission to enter are separate and officers keep discretion on grounds like national security, foreign policy and document mismatches. A neat peg for the citizen–alien distinction in fundamental rights and the executive's sovereign power over entry. Memorise. - Visa gives permission to apply for entry; the final decision rests with the immigration officer. - Petition failed due to mismatched personal details and no busin",
+      "locate": "Approximate study anchor for New Delhi, India. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/bharatrajya-india-districts.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-05.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-05.md",
+          "date": "2026-10-05",
+          "cadence": "daily",
+          "excerpt": "5. Delhi High Court: a valid visa is not a right of entry — Polity & Governance Exam angle. On 1 Oct 2026 Justice Amit Mahajan dismissed a Turkmenistan national's plea after she was denied entry, holding that visa issue and permission to enter are separate and officers keep discretion on grounds like national security, foreign policy and document mismatches. A neat peg for the citizen–alien distinction in fundamental rights and the executive's sovereign power over entry. Memorise. - Visa gives permission to apply for entry; the final decision rests with the immigration officer. - Petition failed due to mismatched personal details and no busin"
+        },
+        {
+          "source": "daily/daily_pib/PIB_2026-10-05.md",
+          "date": "2026-10-05",
+          "cadence": "pib",
+          "excerpt": "nce Accounts Department): Three digital finance initiatives launched on the DAD's 279th Annual Day (1 Oct, DRDO Bhawan, New Delhi)"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-04-library-bangladesh-bangladesh",
+      "weekId": "2026-10-04-library",
+      "layer": "current",
+      "name": "Bangladesh",
+      "country": "Bangladesh",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 24.215,
+      "lon": 89.685,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-05",
+      "fact": "mrup) are moving from the new Bogibeel inland water terminal at Dibrugarh down the Brahmaputra (National Waterway-2) to Bangladesh. It revives the Brahmaputra as an international trade route and is the first commercial run of the Bogibeel terminal. This ties into the Indo-Bangladesh Protocol on Inland Water Transit and Trade, North-East connectivity and the \"Act East\" push.",
+      "locate": "Approximate study anchor for Bangladesh, Bangladesh. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_pib/PIB_2026-10-05.md",
+      "references": [
+        {
+          "source": "daily/daily_pib/PIB_2026-10-05.md",
+          "date": "2026-10-05",
+          "cadence": "pib",
+          "excerpt": "mrup) are moving from the new Bogibeel inland water terminal at Dibrugarh down the Brahmaputra (National Waterway-2) to Bangladesh. It revives the Brahmaputra as an international trade route and is the first commercial run of the Bogibeel terminal. This ties into the Indo-Bangladesh Protocol on Inland Water Transit and Trade, North-East connectivity and the \"Act East\" push."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-04-library-india-dibrugarh",
+      "weekId": "2026-10-04-library",
+      "layer": "current",
+      "name": "Dibrugarh",
+      "country": "India",
+      "region": "Assam",
+      "scope": "india",
+      "lat": 27.3777,
+      "lon": 95.0315,
+      "topic": "Briefing geography",
+      "hook": "Assam · mentioned 2026-10-05",
+      "fact": "of Ports, Shipping & Waterways (IWAI / NW-2): Bogibeel–Dhaka methanol cargo — first commercial international cargo from Dibrugarh since Independence (late Sep–early Oct)",
+      "locate": "Approximate study anchor for Dibrugarh, India. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/bharatrajya-india-districts.geojson",
+      "source": "daily/daily_pib/PIB_2026-10-05.md",
+      "references": [
+        {
+          "source": "daily/daily_pib/PIB_2026-10-05.md",
+          "date": "2026-10-05",
+          "cadence": "pib",
+          "excerpt": "of Ports, Shipping & Waterways (IWAI / NW-2): Bogibeel–Dhaka methanol cargo — first commercial international cargo from Dibrugarh since Independence (late Sep–early Oct)"
         }
       ],
       "libraryDerived": true
