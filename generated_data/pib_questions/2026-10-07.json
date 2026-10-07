@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to India's performance at the 20th Asian Games (2026), consider the statements: 1. The Games were hosted by Aichi Prefecture and Nagoya in Japan. 2. India finished 4th in the medal tally with 85 medals, including 21 golds. 3. India improved on its Hangzhou 2023 medal total. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Statements 1 and 2 are correct; Hangzhou 2023 gave India 106 medals (28 gold), so 85 is a decline.",
+    "subject": "Reports & Indices",
+    "theme": "Sports",
+    "micro_topic": "Asian Games 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Consider the following statements about the Press Council of India: 1. It is a statutory quasi-judicial authority established under the Press Council Act, 1978. 2. Its Chairman is traditionally a retired judge of the Supreme Court. 3. It is a constitutional body under Article 19 of the Constitution. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "PCI is statutory (Press Council Act, 1978), not constitutional; its chairman is a retired Supreme Court judge.",
+    "subject": "Polity & Governance",
+    "theme": "Statutory Bodies",
+    "micro_topic": "Press Council of India",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Military Combat Parachute System (MCPS), recently in the news, was developed by:",
+    "options": [
+      "(a) Gas Turbine Research Establishment, Bengaluru",
+      "(b) Aerial Delivery Research and Development Establishment, Agra",
+      "(c) Defence Research and Development Laboratory, Hyderabad",
+      "(d) Combat Vehicles Research and Development Establishment, Chennai"
+    ],
+    "answer": "(b)",
+    "explanation": "ADRDE, Agra (DRDO) developed MCPS, with DEBEL Bengaluru contributing physiological components.",
+    "subject": "Science & Technology",
+    "theme": "Defence Technology",
+    "micro_topic": "DRDO MCPS",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]

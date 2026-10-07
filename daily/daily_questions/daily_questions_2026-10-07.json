@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to the Monetary Policy Committee's decision of 7 October 2026, consider the following statements:\n1. The repo rate was raised by 25 basis points to 5.50%, the first increase since February 2023.\n2. The Standing Deposit Facility (SDF) rate now stands at 5.50%.\n3. The RBI projected real GDP growth for FY27 at 7.1%.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "Repo went to 5.50% (first hike since Feb 2023) and FY27 GDP growth is projected at 7.1%. The SDF rate is repo minus 25 bps = 5.25% (MSF and Bank Rate 5.75%), so statement 2 is wrong. Stance changed to 'calibrated tightening'.",
+    "subject": "Economy",
+    "theme": "Monetary Policy",
+    "micro_topic": "RBI MPC October 2026 repo hike",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The 2026 Nobel Prize in Physics, announced on 6 October 2026, was awarded to Francis Halzen for his central role in building the IceCube Neutrino Observatory. Consider the following statements about IceCube:\n1. It is located in the Antarctic ice at the South Pole.\n2. It detects neutrinos indirectly through light emitted by charged particles produced when neutrinos interact in the ice.\n3. It was built to detect neutrinos that carry a strong electric charge.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "IceCube sits in Antarctic ice at the South Pole and senses Cherenkov light from secondary charged particles. Neutrinos are electrically neutral and interact only weakly, so statement 3 is wrong.",
+    "subject": "Science & Technology",
+    "theme": "Physics & Space",
+    "micro_topic": "Nobel Physics 2026: IceCube and neutrino astronomy",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the External Affairs Minister's Africa tour in October 2026, consider the following statements:\n1. The tour covers Ghana, Côte d'Ivoire and Ethiopia.\n2. During the Ghana leg, India signed MoUs involving the Zoological Survey of India and ICAR.\n3. The MoUs were signed with Ghana's Ministry of Defence.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "The tour covers Ghana, Côte d'Ivoire and Ethiopia; the Ghana MoUs were ZSI with the University of Ghana and ICAR with CSIR-Crops Research Institute. They were science/agriculture MoUs, not defence.",
+    "subject": "International Relations",
+    "theme": "India-Africa",
+    "micro_topic": "Jaishankar Ghana visit and India-Ghana MoUs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The Union Cabinet on 6 October 2026 approved the Integrated Transport and Logistics Authority (ITLA). Which of the following is correct about it?",
+    "options": [
+      "(a) It is a constitutional body that regulates freight tariffs across all modes of transport.",
+      "(b) It will technically appraise and monitor transport and infrastructure projects costing ₹500 crore or more and prepare a long-term transport plan.",
+      "(c) It replaces the Railway Board and the National Highways Authority of India.",
+      "(d) It is restricted to roads and railways."
+    ],
+    "answer": "(b)",
+    "explanation": "ITLA is an apex planning/appraisal body covering roads, railways, ports and shipping, aviation, inland waterways, coastal shipping, urban mobility and logistics; it appraises projects of ₹500 crore and above and monitors them. It does not replace existing agencies and is not constitutional.",
+    "subject": "Economy",
+    "theme": "Infrastructure & Logistics",
+    "micro_topic": "Integrated Transport and Logistics Authority",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Uniform Civil Code laws of Gujarat and Assam that have received Presidential assent, consider the following statements:\n1. Article 44 of the Constitution, which calls for a uniform civil code, is a Directive Principle of State Policy.\n2. The Gujarat law does not apply to Scheduled Tribes.\n3. Uttarakhand was the first of these states to implement a state UCC.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "Art 44 is in Part IV (DPSP). Reports say the Gujarat law excludes Scheduled Tribes and customary rights protected under the Constitution, and Uttarakhand had already implemented its UCC before Gujarat and Assam.",
+    "subject": "Polity & Governance",
+    "theme": "Federalism & Legislation",
+    "micro_topic": "State UCC laws and Article 44",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Monetary Policy Committee (MPC) of India:",
+    "options": [
+      "(a) Has 6 members, of whom 3 are from the RBI and 3 are appointed by the Central Government, and the Governor has a casting vote in case of a tie.",
+      "(b) Has 7 members, all drawn from the RBI.",
+      "(c) Is constituted under the Banking Regulation Act, 1949.",
+      "(d) Sets the inflation target of 4% (±2%) unilaterally, without Central Government involvement."
+    ],
+    "answer": "(a)",
+    "explanation": "The MPC was statutorily created by the 2016 amendment to the RBI Act, 1934 (Section 45ZB): six members, three from the RBI and three Central Government nominees, with the Governor as ex-officio chairperson holding a casting vote. The inflation target (4% ±2%) is notified by the Centre in consultation with the RBI.",
+    "subject": "Economy",
+    "theme": "Monetary Policy",
+    "micro_topic": "MPC composition and inflation targeting",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The proposed India-based Neutrino Observatory (INO) is planned to be located at:",
+    "options": [
+      "(a) Kolar Gold Fields, Karnataka",
+      "(b) Bodi West Hills, Theni district, Tamil Nadu",
+      "(c) Sandakphu, West Bengal",
+      "(d) Gulmarg, Jammu & Kashmir"
+    ],
+    "answer": "(b)",
+    "explanation": "INO is proposed in the Bodi West Hills of Theni district, Tamil Nadu, under a mountain with about 1 km of rock cover to shield from cosmic-ray background. The old Kolar neutrino experiments are historic but not the INO site.",
+    "subject": "Science & Technology",
+    "theme": "Physics & Space",
+    "micro_topic": "India-based Neutrino Observatory",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  }
+]
