@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to the WHO Pandemic Agreement, which was discussed at the UN High-Level Meeting on pandemic prevention, preparedness and response in September 2026, consider the following statements:\n1. It was adopted by the World Health Assembly in May 2025.\n2. It cannot open for signature until the Pathogen Access and Benefit-Sharing (PABS) annex is adopted.\n3. It has already entered into force after India's ratification.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 2 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "Statements 1 and 2 are correct: the WHA adopted the Agreement on 20 May 2025, and under Article 12 it opens for signature only after the PABS annex is adopted (still being negotiated). Statement 3 is wrong; it is not yet open for signature, so it cannot be in force.",
+    "subject": "International Relations",
+    "theme": "Global health governance",
+    "micro_topic": "WHO Pandemic Agreement & PABS annex",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The 2026 Nobel Prize in Chemistry, awarded to Henri B. Kagan and Kenso Soai, recognises their work on:",
+    "options": [
+      "(a) Asymmetric synthesis and the amplification of molecular chirality (mirror-image molecules)",
+      "(b) Click chemistry and bio-orthogonal reactions",
+      "(c) Metal-organic frameworks for gas capture",
+      "(d) Cryo-electron microscopy of biomolecules"
+    ],
+    "answer": "(a)",
+    "explanation": "Kagan (non-linear effects) and Soai (asymmetric autocatalysis, the Soai reaction) showed how a tiny imbalance between left- and right-handed molecules can be amplified, relevant to single-enantiomer drugs and the origin of biological homochirality.",
+    "subject": "Science & Technology",
+    "theme": "Nobel Prizes 2026",
+    "micro_topic": "Chemistry Nobel 2026 - chirality",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the dugong, consider the following statements:\n1. It is protected under Schedule I of the Wild Life (Protection) Act, 1972.\n2. It is a herbivorous marine mammal that feeds almost exclusively on seagrass.\n3. India's first Dugong Conservation Reserve is located in the Gulf of Mannar off Kerala.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Statements 1 and 2 are correct. Statement 3 is wrong: the Dugong Conservation Reserve (about 448 sq km) is in Palk Bay, Tamil Nadu, not off Kerala. A 2026 WII assessment counted about 270 dugongs (158 Palk Bay, 112 Gulf of Mannar).",
+    "subject": "Environment",
+    "theme": "Wildlife conservation",
+    "micro_topic": "Dugong Conservation Reserve, Palk Bay",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to leprosy in India, consider the following statements:\n1. India was declared to have eliminated leprosy as a public health problem in 2005.\n2. Leprosy is caused by a virus and is spread through contaminated water.\n3. Single-dose rifampicin is used as post-exposure prophylaxis for contacts of patients.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Leprosy is caused by the bacterium Mycobacterium leprae, not a virus, so statement 2 is wrong. Elimination as a public health problem (prevalence below 1 per 10,000) was declared in 2005, and single-dose rifampicin PEP (SDR-PEP) is used for contacts. In 2025-26 India reported 91,783 new cases and prevalence of 0.56 per 10,000.",
+    "subject": "Society",
+    "theme": "Health and disease burden",
+    "micro_topic": "Leprosy elimination and SDR-PEP",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Supreme Court recently issued notice on a petition seeking accessibility for passengers with disabilities in air travel. With reference to the Rights of Persons with Disabilities Act, 2016, consider the following statements:\n1. It recognises 21 categories of disabilities.\n2. 'Person with benchmark disability' means a person with at least 40 per cent of a specified disability.\n3. It provides 5 per cent reservation in government posts for persons with benchmark disabilities.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "The Act (which replaced the 1995 Act) recognises 21 disabilities and defines benchmark disability as at least 40 per cent. Government-post reservation is 4 per cent, not 5 per cent, so statement 3 is wrong.",
+    "subject": "Polity & Governance",
+    "theme": "Rights of persons with disabilities",
+    "micro_topic": "RPwD Act 2016 provisions",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Nagoya Protocol, which supplies the model for the benefit-sharing logic debated in the WHO PABS annex, is a supplementary agreement to which of the following?",
+    "options": [
+      "(a) Convention on Biological Diversity",
+      "(b) Convention on International Trade in Endangered Species",
+      "(c) Ramsar Convention",
+      "(d) UN Convention to Combat Desertification"
+    ],
+    "answer": "(a)",
+    "explanation": "The Nagoya Protocol on Access and Benefit-Sharing (adopted 2010, in force 12 October 2014; India ratified in 2012) supplements the CBD. India's Biological Diversity Act, 2002 and the National Biodiversity Authority implement ABS domestically.",
+    "subject": "Environment",
+    "theme": "Biodiversity governance",
+    "micro_topic": "Nagoya Protocol (ABS)",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Article 41 of the Directive Principles of State Policy directs the State, within the limits of its economic capacity, to make effective provision for securing:",
+    "options": [
+      "(a) Right to work, education and public assistance in cases of unemployment, old age, sickness and disablement",
+      "(b) Equal pay for equal work for both men and women",
+      "(c) Free legal aid to ensure equal justice",
+      "(d) Protection of monuments and places of national importance"
+    ],
+    "answer": "(a)",
+    "explanation": "Article 41 covers the right to work, to education and to public assistance in cases of unemployment, old age, sickness and disablement. Equal pay is Article 39(d), free legal aid is Article 39A and monuments is Article 49.",
+    "subject": "Polity & Governance",
+    "theme": "Directive Principles of State Policy",
+    "micro_topic": "Article 41 DPSP",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  }
+]

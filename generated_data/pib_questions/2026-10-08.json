@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the schedule of permissible works notified under the VB-G RAM G Act, 2025, consider the statements: 1. It lists 375 works, a 41% increase over the earlier 266. 2. Water security is the largest category. 3. Disaster-preparedness works are included as a category for the first time. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three match the ministry's notification: 375 works, water security 128 (largest), and a new disaster-preparedness category of 38 works.",
+    "subject": "Polity & Governance",
+    "theme": "Rural Development",
+    "micro_topic": "VB-G RAM G permissible works",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "In the recent DRDO flight trial of the High-Altitude Platform (HAPS), which of the following is correct?",
+    "options": [
+      "(a) A heavier-than-air UAV from ADE Bengaluru reached 12 km",
+      "(b) A lighter-than-air platform developed by ADRDE, Agra reached 21 km AMSL",
+      "(c) An ISRO satellite was launched for stratospheric imaging",
+      "(d) A HAL-built balloon was tested at Nyoma, Ladakh"
+    ],
+    "answer": "(b)",
+    "explanation": "HAPS is a lighter-than-air long-endurance platform by ADRDE, Agra; it reached 21 km AMSL and held 20 km for over 30 minutes.",
+    "subject": "Science & Technology",
+    "theme": "Defence Technology",
+    "micro_topic": "DRDO HAPS",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Which of the following is correct about the recently announced Chief of the Air Staff?",
+    "options": [
+      "(a) Air Marshal Ashutosh Dixit is the 29th Chief and takes charge on 31 October 2026",
+      "(b) He is currently the Chief of Integrated Defence Staff",
+      "(c) He succeeds ACM Amar Preet Singh, who moves to become CDS",
+      "(d) He will hold the rank of Air Marshal"
+    ],
+    "answer": "(a)",
+    "explanation": "He is currently Vice Chief of the Air Staff, succeeds the retiring ACM Amar Preet Singh on 31 Oct 2026 and holds the rank of Air Chief Marshal.",
+    "subject": "Internal Security",
+    "theme": "Defence Appointments",
+    "micro_topic": "Chief of the Air Staff 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]

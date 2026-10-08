@@ -821,13 +821,13 @@
   },
   {
     "question_number": 83,
-    "answer_option": "b",
+    "answer_option": "c",
     "accepted_answer_options": [
-      "b"
+      "c"
     ],
     "explanation": "",
-    "verification_status": "verified_image",
-    "answer_source": "Extracted from generated_data/answer_keys/2025_answer_key_setA.png"
+    "verification_status": "verified_manual",
+    "answer_source": "Official UPSC 2025 Prelims Answer Key"
   },
   {
     "question_number": 84,
