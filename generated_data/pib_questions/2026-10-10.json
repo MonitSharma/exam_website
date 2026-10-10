@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the recent GST Council recommendations, consider: 1. Arrest powers of GST officers are to be removed. 2. The prosecution threshold is raised from ₹1 crore to ₹5 crore. 3. GST rates on all goods were reduced. Which are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Arrest powers are to be omitted and the prosecution threshold raised to ₹5 crore; no rate changes were made.",
+    "subject": "Economy",
+    "theme": "Taxation",
+    "micro_topic": "GST Council reforms",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The National SC-ST Hub is implemented by which body under the Ministry of MSME?",
+    "options": [
+      "(a) SIDBI",
+      "(b) NSIC",
+      "(c) KVIC",
+      "(d) Mudra Ltd"
+    ],
+    "answer": "(b)",
+    "explanation": "Launched 18 Oct 2016 and run by NSIC; the Public Procurement Policy for MSEs 2012 has a 4% SC/ST sub-target.",
+    "subject": "Polity & Governance",
+    "theme": "Welfare of SC/ST",
+    "micro_topic": "National SC-ST Hub",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Sagarmanthan: The Great Oceans Dialogue is organised by the Ministry of Ports, Shipping and Waterways with which partner?",
+    "options": [
+      "(a) Observer Research Foundation",
+      "(b) NITI Aayog",
+      "(c) IMO",
+      "(d) Indian Navy"
+    ],
+    "answer": "(a)",
+    "explanation": "Organised by MoPSW with ORF; the 3rd edition was held in New Delhi in Oct 2026.",
+    "subject": "International Relations",
+    "theme": "Maritime affairs",
+    "micro_topic": "Sagarmanthan 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]

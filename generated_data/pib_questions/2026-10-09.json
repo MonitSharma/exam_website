@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the JOSH Teams launched in October 2026, consider:\n1. They operate under the TB Mukt Bharat Abhiyaan.\n2. Volunteers are drawn from MY Bharat and the NCC.\n3. In phase 1 they cover all 804 districts.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "JOSH teams work under TB Mukt Bharat Abhiyaan with MY Bharat volunteers and NCC cadets; phase 1 covers only 55 districts in 11 States/UTs.",
+    "subject": "Polity & Governance",
+    "theme": "Health Governance",
+    "micro_topic": "JOSH Teams - TB Mukt Bharat Abhiyaan",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The 'Strategy for Environmental-Economic Accounts 2026-2030' released in October 2026 has been issued by which of the following?",
+    "options": [
+      "(a) NITI Aayog",
+      "(b) Ministry of Environment, Forest and Climate Change",
+      "(c) National Statistics Office, Ministry of Statistics and Programme Implementation",
+      "(d) Reserve Bank of India"
+    ],
+    "answer": "(c)",
+    "explanation": "It is a non-statutory five-year roadmap issued by the NSO under MoSPI, based on the UN SEEA Central Framework.",
+    "subject": "Economy",
+    "theme": "Natural Capital Accounting",
+    "micro_topic": "Environmental-Economic Accounts Strategy",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The 'World Development Report 2026: The Promise of Artificial Intelligence', launched in New Delhi in October 2026, is published by which of the following?",
+    "options": [
+      "(a) International Monetary Fund",
+      "(b) World Bank Group",
+      "(c) OECD",
+      "(d) World Economic Forum"
+    ],
+    "answer": "(b)",
+    "explanation": "The World Development Report is the World Bank Group's flagship annual report; the 2026 edition focuses on AI.",
+    "subject": "Reports & Indices",
+    "theme": "International Reports",
+    "micro_topic": "World Development Report 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]

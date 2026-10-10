@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to the WWF Living Planet Report 2026, consider the following statements:\n1. The Living Planet Index it uses is compiled with the Zoological Society of London.\n2. A 73% decline means that 73% of all wild animals on Earth have disappeared since 1970.\n3. It tracks 35,803 populations of 5,790 species of mammals, birds, fish, reptiles and amphibians for the period 1970–2022.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 2 only",
+      "(d) 1 and 3 only"
+    ],
+    "answer": "(d)",
+    "explanation": "The 73% figure is the average fall in the size of monitored populations (about 2.5% a year), not a count of animals lost, so statement 2 is wrong. The LPI is compiled with ZSL and the 2026 edition covers 35,803 populations of 5,790 species for 1970–2022.",
+    "subject": "Environment",
+    "theme": "Biodiversity reports and indices",
+    "micro_topic": "Living Planet Report 2026 / Living Planet Index",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Strategy for Environmental Economic Accounts in India 2026–2030, recently released, is in the news. Consider the following statements:\n1. It has been released by the Ministry of Statistics and Programme Implementation (MoSPI).\n2. It is aligned with the UN System of Environmental-Economic Accounting – Central Framework (SEEA-CF).\n3. It replaces GDP with 'Green GDP' as India's official headline measure of national income.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 2 and 3 only",
+      "(b) 1 only",
+      "(c) 1 and 2 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "MoSPI issued the 2026–30 strategy, building on the 2022–26 one, and it follows SEEA-CF, a UN Statistical Commission standard. It supplements the national accounts with natural-capital accounts. It does not replace GDP with Green GDP.",
+    "subject": "Economy",
+    "theme": "National income and environmental accounting",
+    "micro_topic": "Environmental-Economic Accounts Strategy 2026–2030",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "With reference to the 'JOSH' teams launched on 8 October 2026 for tuberculosis elimination, which one of the following is correct?",
+    "options": [
+      "(a) They are mobile laboratories that provide free molecular TB testing in urban slums.",
+      "(b) They are 'Joint Squad for Health' teams that combine Class-I officers, MY Bharat volunteers and NCC cadets for community-level TB outreach, starting in 55 districts of 11 States.",
+      "(c) They are a WHO-led global network of private hospitals offering free TB treatment.",
+      "(d) They are teams of ASHA workers that replace the DOTS strategy under the National TB Elimination Programme."
+    ],
+    "answer": "(b)",
+    "explanation": "JOSH stands for Joint Squad for Health. It is launched by the Health Ministry with the Youth Affairs and Defence ministries under TB Mukt Bharat. Its first phase covers 55 districts in 11 States, and teams include Class-I officers, MY Bharat volunteers and NCC cadets. It supports, rather than replaces, existing TB programme strategies.",
+    "subject": "Society",
+    "theme": "Health schemes and programmes",
+    "micro_topic": "JOSH teams / TB Mukt Bharat Abhiyaan",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "INS Surya, launched at Hindustan Shipyard Limited, Visakhapatnam in October 2026, was in the news. Consider the following statements:\n1. It is the first indigenously designed and built Fleet Support Ship (FSS) for the Indian Navy.\n2. Fleet support ships provide at-sea replenishment of fuel, stores and ammunition to warships.\n3. Hindustan Shipyard Limited functions under the Ministry of Ports, Shipping and Waterways.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "FSS-1 INS Surya was launched by the Defence Minister and was designed and built by HSL. Fleet support ships replenish warships at sea and extend their reach and endurance. HSL is a Ministry of Defence PSU, so statement 3 is wrong.",
+    "subject": "Internal Security",
+    "theme": "Defence indigenisation and naval capability",
+    "micro_topic": "Fleet Support Ship INS Surya",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The 2026 Nobel Prize in Physiology or Medicine was awarded to Karl Deisseroth, Peter Hegemann and Georg Nagel for optogenetics. Consider the following statements about optogenetics:\n1. It uses light-sensitive ion channels, such as channelrhodopsin first found in algae, to switch neurons on or off.\n2. It allows specific genetically targeted cells to be controlled with light.\n3. It works by activating neurons with ultrasound waves rather than light.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 3 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 2 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "Optogenetics inserts genes for light-gated channels such as channelrhodopsin, found in green algae, into chosen cells, so that light can control their activity. Activation by ultrasound describes a different technique (sonogenetics), so statement 3 is wrong.",
+    "subject": "Science & Technology",
+    "theme": "Biotechnology and neuroscience",
+    "micro_topic": "Optogenetics / Nobel Medicine 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "In the IUCN Red List, which one of the following sequences correctly orders the threat categories from the lowest to the highest risk of extinction?",
+    "options": [
+      "(a) Least Concern – Near Threatened – Vulnerable – Endangered – Critically Endangered",
+      "(b) Least Concern – Vulnerable – Near Threatened – Endangered – Critically Endangered",
+      "(c) Near Threatened – Least Concern – Vulnerable – Critically Endangered – Endangered",
+      "(d) Least Concern – Near Threatened – Endangered – Vulnerable – Critically Endangered"
+    ],
+    "answer": "(a)",
+    "explanation": "The Red List runs Least Concern, Near Threatened, then the threatened categories Vulnerable, Endangered and Critically Endangered, before Extinct in the Wild and Extinct. Only the first sequence keeps this order.",
+    "subject": "Environment",
+    "theme": "Conservation status and species classification",
+    "micro_topic": "IUCN Red List categories",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "'Green GDP' is best described as:",
+    "options": [
+      "(a) GDP calculated only from renewable energy sectors",
+      "(b) GDP adjusted for inflation using a green price index",
+      "(c) GDP calculated only from the agriculture and forestry sectors",
+      "(d) Conventional GDP adjusted for the costs of environmental degradation and natural resource depletion"
+    ],
+    "answer": "(d)",
+    "explanation": "Green GDP deducts the estimated costs of environmental damage and depletion of natural capital from conventional GDP. Environmental-economic accounts such as SEEA provide the data needed to compute it.",
+    "subject": "Economy",
+    "theme": "National income concepts",
+    "micro_topic": "Green GDP / natural capital accounting",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  }
+]
