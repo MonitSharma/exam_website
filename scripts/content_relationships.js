@@ -27,6 +27,30 @@ function enrichManifest(root, manifest) {
     if (!note.relatedSetIds.includes(set.id)) note.relatedSetIds.push(set.id);
     if (!set.relatedNoteIds.includes(note.id)) set.relatedNoteIds.push(note.id);
   };
+  const linkNotes = (note, target) => {
+    if (!note || !target) return;
+    if (!note.relatedNoteIds.includes(target.id)) note.relatedNoteIds.push(target.id);
+    if (!target.relatedNoteIds.includes(note.id)) target.relatedNoteIds.push(note.id);
+  };
+  // Weekly drops must not require another dated entry in content_links.json.
+  // Explicit choices take precedence; inferred flashcard links are related
+  // reading, not a claim that every card was extracted from that briefing.
+  for (const note of notes) {
+    if (Object.prototype.hasOwnProperty.call(overrides[note.path] || {}, 'notes')) continue;
+    if (note.cadence === 'anki' && /^Prelims_Flashcards_\d{4}-\d{2}-\d{2}(?:_chatgpt)?\.txt$/.test(path.basename(note.path))) {
+      const end = Date.parse(`${note.date}T00:00:00Z`);
+      const start = end - 7 * 24 * 60 * 60 * 1000;
+      const briefings = notes.filter((other) => {
+        const date = Date.parse(`${other.date}T00:00:00Z`);
+        return other.cadence === 'daily' && !other.isSupplementary && date >= start && date <= end;
+      }).sort((a, b) => b.date.localeCompare(a.date) || a.path.localeCompare(b.path));
+      const sweep = notes.find((other) => other.path === `weekly/Sunday/Sunday_Sweep_${note.date}.md`);
+      linkNotes(note, briefings[0] || sweep);
+    }
+    if (note.cadence === 'sectional' && /^Sectional_book-topics_\d{4}-\d{2}-\d{2}(?:-\d+)?_chatgpt\.md$/.test(path.basename(note.path))) {
+      linkNotes(note, notes.find((other) => other.path === `weekly/Sunday/Sunday_Sweep_${note.date}.md`));
+    }
+  }
   for (const set of sets) {
     const rows = JSON.parse(fs.readFileSync(path.join(root, set.path), 'utf8'));
     set.subjects = [...new Set(rows.map((q) => q.subject).filter(Boolean))];
@@ -65,8 +89,7 @@ function enrichManifest(root, manifest) {
     for (const relatedPath of related.notes || []) {
       const target = notes.find((n) => n.path === relatedPath);
       if (!target) throw new Error(`Unknown related note: ${relatedPath}`);
-      note.relatedNoteIds.push(target.id);
-      target.relatedNoteIds.push(note.id);
+      linkNotes(note, target);
     }
   }
   for (const note of notes) {

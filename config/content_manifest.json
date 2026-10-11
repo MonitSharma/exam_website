@@ -12,6 +12,48 @@
   ],
   "questionSets": [
     {
+      "id": "daily_questions_2026_10_11",
+      "label": "Daily Questions - 11 Oct 2026",
+      "shortLabel": "Daily 11 Oct",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-10-11.json",
+      "sourcePath": "daily/daily_questions/daily_questions_2026-10-11.json",
+      "isoDate": "2026-10-11",
+      "subjects": [
+        "Polity & Governance",
+        "International Relations",
+        "Internal Security",
+        "Art & Culture",
+        "Economy"
+      ],
+      "bundleId": "daily_questions_2026_10_11",
+      "relatedNoteIds": [
+        "daily-daily-current-affairs-upsc-ca-2026-10-11"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "polity",
+        "international-relations",
+        "internal-security",
+        "culture",
+        "economy"
+      ],
+      "topicIds": [
+        "polity/tenth-schedule-condonation-and-speaker-s-role",
+        "international-relations/cbam-and-the-us-india-response",
+        "internal-security/asw-shallow-water-craft",
+        "culture/amasr-act-1958-and-asi",
+        "economy/expenditure-method-of-gdp-gsdp",
+        "polity/tenth-schedule-amendments-and-merger",
+        "culture/article-49-and-article-51a-f"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
       "id": "daily_questions_2026_10_10",
       "label": "Daily Questions - 10 Oct 2026",
       "shortLabel": "Daily 10 Oct",
@@ -5969,6 +6011,40 @@
       ],
       "topicIds": [
         "reading-comprehension/reading-comprehension"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
+      "id": "pib_questions_2026_10_11",
+      "label": "PIB Questions - 11 Oct 2026",
+      "shortLabel": "PIB 11 Oct",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-10-11.json",
+      "sourcePath": "generated_data/pib_questions/2026-10-11.json",
+      "isoDate": "2026-10-11",
+      "subjects": [
+        "Polity & Governance",
+        "Science & Technology",
+        "Internal Security"
+      ],
+      "bundleId": "pib_questions_2026_10_11",
+      "relatedNoteIds": [
+        "daily-daily-pib-pib-2026-10-11"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "polity",
+        "science-technology",
+        "internal-security"
+      ],
+      "topicIds": [
+        "polity/nta-reforms-parliamentary-standing-committee",
+        "science-technology/bharat-6g-imc-2026",
+        "internal-security/ins-mangrol-asw-swc"
       ],
       "format": "drill",
       "provenance": "generated"
@@ -13610,6 +13686,58 @@
       "provenance": "generated"
     },
     {
+      "id": "csat_practice_2026_10_11",
+      "label": "CSAT Practice - 11 Oct 2026",
+      "shortLabel": "CSAT Practice 11 Oct",
+      "category": "CSAT Practice",
+      "sourceType": "csat",
+      "questionCount": 22,
+      "durationMinutes": 35,
+      "path": "generated_data/csat_questions/2026-10-11.json",
+      "sourcePath": "generated_data/csat_questions/2026-10-11.json",
+      "isoDate": "2026-10-11",
+      "paper": "GS Paper II (CSAT)",
+      "marksPerCorrect": 2,
+      "negativeMark": -0.66,
+      "subjects": [
+        "CSAT"
+      ],
+      "bundleId": "csat_practice_2026_10_11",
+      "relatedNoteIds": [
+        "weekly-csat-csat-practice-2026-10-11"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "csat"
+      ],
+      "topicIds": [
+        "csat/main-idea-publication-bias-and-incentive-design",
+        "csat/inference-applying-the-argument-to-a-new-case",
+        "csat/assumption-behaviour-follows-incentives",
+        "csat/main-idea-testimony-and-rational-trust",
+        "csat/inference-credulity-vs-rational-reliance",
+        "csat/tone-and-attitude",
+        "csat/scheduling-puzzle-with-case-elimination",
+        "csat/ranking-and-position-after-exchange",
+        "csat/interleaved-geometric-series",
+        "csat/constraint-based-digit-puzzle",
+        "csat/data-sufficiency-ordering",
+        "csat/critical-reasoning-resolving-a-paradox",
+        "csat/trade-table-absolute-vs-percentage-deficit-trap",
+        "csat/trade-table-evaluating-statements-on-growth",
+        "csat/grouped-data-weighted-mean-from-class-mid-points-trap",
+        "csat/grouped-data-percentile-cut-off-by-interpolation-trap",
+        "csat/political-pressure-in-beneficiary-selection-integrity",
+        "csat/subordinate-s-public-criticism-conduct-rules-and-fairness",
+        "csat/disaster-triage-urgency-vulnerability-and-communication",
+        "csat/successive-percentage-changes",
+        "csat/inclusion-exclusion-with-three-divisors",
+        "csat/races-chaining-distance-ratios"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
       "id": "csat_practice_2026_10_04",
       "label": "CSAT Practice - 04 Oct 2026",
       "shortLabel": "CSAT Practice 04 Oct",
@@ -17200,7 +17328,9 @@
       "date": "2026-10-11",
       "path": "anki/Prelims_Flashcards_2026-10-11.txt",
       "bundleId": "anki-prelims-flashcards-2026-10-11",
-      "relatedNoteIds": [],
+      "relatedNoteIds": [
+        "daily-daily-current-affairs-upsc-ca-2026-10-11"
+      ],
       "relatedSetIds": [],
       "subjectIds": [],
       "topicIds": []
@@ -17431,6 +17561,43 @@
       "relatedSetIds": [],
       "subjectIds": [],
       "topicIds": []
+    },
+    {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-10-11",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "11 Oct 2026",
+      "date": "2026-10-11",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-10-11.md",
+      "bundleId": "daily-daily-current-affairs-upsc-ca-2026-10-11",
+      "relatedNoteIds": [
+        "anki-prelims-flashcards-2026-10-11"
+      ],
+      "relatedSetIds": [
+        "daily_questions_2026_10_11"
+      ],
+      "subjectIds": [
+        "polity",
+        "international-relations",
+        "internal-security",
+        "culture",
+        "economy"
+      ],
+      "topicIds": [
+        "polity/tenth-schedule-condonation-and-speaker-s-role",
+        "international-relations/cbam-and-the-us-india-response",
+        "internal-security/asw-shallow-water-craft",
+        "culture/amasr-act-1958-and-asi",
+        "economy/expenditure-method-of-gdp-gsdp",
+        "polity/tenth-schedule-amendments-and-merger",
+        "culture/article-49-and-article-51a-f"
+      ],
+      "atlasWeekId": "2026-10-11-library",
+      "atlasFeatureIds": [
+        "2026-10-11-library-india-kochi",
+        "2026-10-11-library-united-states-of-america-united-states-of-america"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-current-affairs-upsc-ca-2026-10-10",
@@ -22958,6 +23125,36 @@
       "topicIds": []
     },
     {
+      "id": "daily-daily-pib-pib-2026-10-11",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 11 Oct",
+      "date": "2026-10-11",
+      "path": "daily/daily_pib/PIB_2026-10-11.md",
+      "bundleId": "daily-daily-pib-pib-2026-10-11",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "pib_questions_2026_10_11"
+      ],
+      "subjectIds": [
+        "polity",
+        "science-technology",
+        "internal-security"
+      ],
+      "topicIds": [
+        "polity/nta-reforms-parliamentary-standing-committee",
+        "science-technology/bharat-6g-imc-2026",
+        "internal-security/ins-mangrol-asw-swc"
+      ],
+      "atlasWeekId": "2026-10-11-library",
+      "atlasFeatureIds": [
+        "2026-10-11-library-india-kochi",
+        "2026-10-11-library-india-ranchi",
+        "2026-10-11-library-india-mumbai"
+      ],
+      "mapStatus": "ready"
+    },
+    {
       "id": "daily-daily-pib-pib-2026-10-10",
       "cadence": "pib",
       "title": "Daily PIB Briefing",
@@ -26634,7 +26831,9 @@
       "variantLabel": "Companion",
       "isSupplementary": true,
       "bundleId": "weekly-sectional-sectional-book-topics-2026-10-11-chatgpt",
-      "relatedNoteIds": [],
+      "relatedNoteIds": [
+        "weekly-sunday-sunday-sweep-2026-10-11"
+      ],
       "relatedSetIds": [
         "sectional_book-topics_2026_10_11_extra"
       ],
@@ -27102,7 +27301,9 @@
       "variantLabel": "Companion",
       "isSupplementary": true,
       "bundleId": "weekly-sectional-sectional-book-topics-2026-08-30-chatgpt",
-      "relatedNoteIds": [],
+      "relatedNoteIds": [
+        "weekly-sunday-sunday-sweep-2026-08-30"
+      ],
       "relatedSetIds": [
         "sectional_book-topics_2026_08_30_extra"
       ],
@@ -27178,7 +27379,9 @@
       "variantLabel": "Companion",
       "isSupplementary": true,
       "bundleId": "weekly-sectional-sectional-book-topics-2026-08-23-chatgpt",
-      "relatedNoteIds": [],
+      "relatedNoteIds": [
+        "weekly-sunday-sunday-sweep-2026-08-23"
+      ],
       "relatedSetIds": [
         "sectional_book-topics_2026_08_23_extra"
       ],
@@ -27254,7 +27457,9 @@
       "variantLabel": "Companion",
       "isSupplementary": true,
       "bundleId": "weekly-sectional-sectional-book-topics-2026-08-16-chatgpt",
-      "relatedNoteIds": [],
+      "relatedNoteIds": [
+        "weekly-sunday-sunday-sweep-2026-08-16"
+      ],
       "relatedSetIds": [
         "sectional_book-topics_2026_08_16_extra"
       ],
@@ -27492,7 +27697,9 @@
       "variantLabel": "Companion 2",
       "isSupplementary": true,
       "bundleId": "weekly-sectional-sectional-book-topics-2026-08-09-2-chatgpt",
-      "relatedNoteIds": [],
+      "relatedNoteIds": [
+        "weekly-sunday-sunday-sweep-2026-08-09"
+      ],
       "relatedSetIds": [],
       "subjectIds": [],
       "topicIds": []
@@ -27508,7 +27715,9 @@
       "variantLabel": "Companion",
       "isSupplementary": true,
       "bundleId": "weekly-sectional-sectional-book-topics-2026-08-09-chatgpt",
-      "relatedNoteIds": [],
+      "relatedNoteIds": [
+        "weekly-sunday-sunday-sweep-2026-08-09"
+      ],
       "relatedSetIds": [],
       "subjectIds": [],
       "topicIds": []
@@ -27524,7 +27733,9 @@
       "variantLabel": "Companion 2",
       "isSupplementary": true,
       "bundleId": "weekly-sectional-sectional-book-topics-2026-08-02-2-chatgpt",
-      "relatedNoteIds": [],
+      "relatedNoteIds": [
+        "weekly-sunday-sunday-sweep-2026-08-02"
+      ],
       "relatedSetIds": [],
       "subjectIds": [],
       "topicIds": []
@@ -27540,7 +27751,9 @@
       "variantLabel": "Companion",
       "isSupplementary": true,
       "bundleId": "weekly-sectional-sectional-book-topics-2026-08-02-chatgpt",
-      "relatedNoteIds": [],
+      "relatedNoteIds": [
+        "weekly-sunday-sunday-sweep-2026-08-02"
+      ],
       "relatedSetIds": [],
       "subjectIds": [],
       "topicIds": []
@@ -27556,7 +27769,9 @@
       "variantLabel": "Companion",
       "isSupplementary": true,
       "bundleId": "weekly-sectional-sectional-book-topics-2026-07-26-chatgpt",
-      "relatedNoteIds": [],
+      "relatedNoteIds": [
+        "weekly-sunday-sunday-sweep-2026-07-26"
+      ],
       "relatedSetIds": [
         "sectional_book-topics_2026_07_26_extra"
       ],
@@ -27911,7 +28126,9 @@
       "date": "2026-10-11",
       "path": "weekly/Sunday/Sunday_Sweep_2026-10-11.md",
       "bundleId": "weekly-sunday-sunday-sweep-2026-10-11",
-      "relatedNoteIds": [],
+      "relatedNoteIds": [
+        "weekly-sectional-sectional-book-topics-2026-10-11-chatgpt"
+      ],
       "relatedSetIds": [],
       "subjectIds": [],
       "topicIds": []
@@ -27999,7 +28216,9 @@
       "date": "2026-08-30",
       "path": "weekly/Sunday/Sunday_Sweep_2026-08-30.md",
       "bundleId": "weekly-sunday-sunday-sweep-2026-08-30",
-      "relatedNoteIds": [],
+      "relatedNoteIds": [
+        "weekly-sectional-sectional-book-topics-2026-08-30-chatgpt"
+      ],
       "relatedSetIds": [],
       "subjectIds": [],
       "topicIds": []
@@ -28012,7 +28231,9 @@
       "date": "2026-08-23",
       "path": "weekly/Sunday/Sunday_Sweep_2026-08-23.md",
       "bundleId": "weekly-sunday-sunday-sweep-2026-08-23",
-      "relatedNoteIds": [],
+      "relatedNoteIds": [
+        "weekly-sectional-sectional-book-topics-2026-08-23-chatgpt"
+      ],
       "relatedSetIds": [],
       "subjectIds": [],
       "topicIds": []
@@ -28025,7 +28246,9 @@
       "date": "2026-08-16",
       "path": "weekly/Sunday/Sunday_Sweep_2026-08-16.md",
       "bundleId": "weekly-sunday-sunday-sweep-2026-08-16",
-      "relatedNoteIds": [],
+      "relatedNoteIds": [
+        "weekly-sectional-sectional-book-topics-2026-08-16-chatgpt"
+      ],
       "relatedSetIds": [],
       "subjectIds": [],
       "topicIds": []
@@ -28038,7 +28261,10 @@
       "date": "2026-08-09",
       "path": "weekly/Sunday/Sunday_Sweep_2026-08-09.md",
       "bundleId": "weekly-sunday-sunday-sweep-2026-08-09",
-      "relatedNoteIds": [],
+      "relatedNoteIds": [
+        "weekly-sectional-sectional-book-topics-2026-08-09-2-chatgpt",
+        "weekly-sectional-sectional-book-topics-2026-08-09-chatgpt"
+      ],
       "relatedSetIds": [],
       "subjectIds": [],
       "topicIds": []
@@ -28051,7 +28277,10 @@
       "date": "2026-08-02",
       "path": "weekly/Sunday/Sunday_Sweep_2026-08-02.md",
       "bundleId": "weekly-sunday-sunday-sweep-2026-08-02",
-      "relatedNoteIds": [],
+      "relatedNoteIds": [
+        "weekly-sectional-sectional-book-topics-2026-08-02-2-chatgpt",
+        "weekly-sectional-sectional-book-topics-2026-08-02-chatgpt"
+      ],
       "relatedSetIds": [],
       "subjectIds": [],
       "topicIds": []
@@ -28064,7 +28293,9 @@
       "date": "2026-07-26",
       "path": "weekly/Sunday/Sunday_Sweep_2026-07-26.md",
       "bundleId": "weekly-sunday-sunday-sweep-2026-07-26",
-      "relatedNoteIds": [],
+      "relatedNoteIds": [
+        "weekly-sectional-sectional-book-topics-2026-07-26-chatgpt"
+      ],
       "relatedSetIds": [],
       "subjectIds": [],
       "topicIds": []
@@ -28159,6 +28390,46 @@
       "relatedSetIds": [],
       "subjectIds": [],
       "topicIds": []
+    },
+    {
+      "id": "weekly-csat-csat-practice-2026-10-11",
+      "cadence": "weekly-csat",
+      "title": "CSAT Practice",
+      "shortTitle": "Practice - 11 Oct",
+      "date": "2026-10-11",
+      "path": "weekly/CSAT/CSAT_Practice_2026-10-11.md",
+      "bundleId": "weekly-csat-csat-practice-2026-10-11",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "csat_practice_2026_10_11"
+      ],
+      "subjectIds": [
+        "csat"
+      ],
+      "topicIds": [
+        "csat/main-idea-publication-bias-and-incentive-design",
+        "csat/inference-applying-the-argument-to-a-new-case",
+        "csat/assumption-behaviour-follows-incentives",
+        "csat/main-idea-testimony-and-rational-trust",
+        "csat/inference-credulity-vs-rational-reliance",
+        "csat/tone-and-attitude",
+        "csat/scheduling-puzzle-with-case-elimination",
+        "csat/ranking-and-position-after-exchange",
+        "csat/interleaved-geometric-series",
+        "csat/constraint-based-digit-puzzle",
+        "csat/data-sufficiency-ordering",
+        "csat/critical-reasoning-resolving-a-paradox",
+        "csat/trade-table-absolute-vs-percentage-deficit-trap",
+        "csat/trade-table-evaluating-statements-on-growth",
+        "csat/grouped-data-weighted-mean-from-class-mid-points-trap",
+        "csat/grouped-data-percentile-cut-off-by-interpolation-trap",
+        "csat/political-pressure-in-beneficiary-selection-integrity",
+        "csat/subordinate-s-public-criticism-conduct-rules-and-fairness",
+        "csat/disaster-triage-urgency-vulnerability-and-communication",
+        "csat/successive-percentage-changes",
+        "csat/inclusion-exclusion-with-three-divisors",
+        "csat/races-chaining-distance-ratios"
+      ]
     },
     {
       "id": "weekly-csat-csat-practice-2026-10-04",

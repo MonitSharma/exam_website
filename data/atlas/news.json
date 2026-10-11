@@ -1,6 +1,13 @@
 {
   "weeks": [
     {
+      "id": "2026-10-11-library",
+      "label": "CA & PIB · week of 2026-10-11",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-11.md",
+      "libraryDerived": true,
+      "sourceCount": 2
+    },
+    {
       "id": "2026-10-04-library",
       "label": "CA & PIB · week of 2026-10-04",
       "source": "daily/daily_current_affairs/UPSC_CA_2026-10-04.md",
@@ -11059,6 +11066,120 @@
           "date": "2026-10-09",
           "cadence": "pib",
           "excerpt": "alisation; Maritime Amrit Kaal Vision 2047 (~₹80 lakh crore investment need). - Finance: FM Nirmala Sitharaman visiting Singapore (9 Oct)."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-11-library-india-kochi",
+      "weekId": "2026-10-11-library",
+      "layer": "current",
+      "name": "Kochi",
+      "country": "India",
+      "region": "Kerala",
+      "scope": "india",
+      "lat": 9.93,
+      "lon": 76.27,
+      "topic": "Briefing geography",
+      "hook": "Kerala · mentioned 2026-10-11",
+      "fact": "hankar IAS — Indian Navy: commands and platforms. Nudge: add the Western (Mumbai) / Eastern (Visakhapatnam) / Southern (Kochi) command table.",
+      "locate": "Approximate study anchor for Kochi, India. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/atlas/news.json",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-11.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-11.md",
+          "date": "2026-10-11",
+          "cadence": "daily",
+          "excerpt": "hankar IAS — Indian Navy: commands and platforms. Nudge: add the Western (Mumbai) / Eastern (Visakhapatnam) / Southern (Kochi) command table."
+        },
+        {
+          "source": "daily/daily_pib/PIB_2026-10-11.md",
+          "date": "2026-10-11",
+          "cadence": "pib",
+          "excerpt": "- What it is: Built by Cochin Shipyard Limited, Kochi. Over 80% indigenous content (press-reported). Sensors and weapons include the Abhay hull-mounted sonar, lightweight torpedoes, an indigenous anti-submarine rocket launcher and the Mareech torpedo decoy system. Commissioning to be presided over by VAdm Sanjay Vatsayan, FOC-in-C Western Naval Command. - Also on 9 Oct (Defence): Raksha Mantri presented the SIDM Champion Awards 2026; Project SEABIRD infrastructure inaugurated (Karwar). - Notebook: GS3 – Internal Security / Defence (Atmanirbharta in defence)."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-11-library-united-states-of-america-united-states-of-america",
+      "weekId": "2026-10-11-library",
+      "layer": "current",
+      "name": "United States of America",
+      "country": "United States of America",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 39.5385,
+      "lon": -97.4826,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-11",
+      "fact": "tional Relations / Economy - Exam angle: CBAM is the sharpest friction between climate policy and trade rules; even the US is now questioning it, which strengthens India's CBDR-RC and WTO-compatibility argument and its India–EU FTA talking points. Expect Mains on \"unilateral carbon border taxes\". - Key facts: Notice published 8 Oct 2026 (docket USTR-2026-0661); written comments due ~30 days after publication (≈ 7 Nov by the notice's own formula; press reports cite 9 Nov — verify). Seeks views on CBAM's effects on US producers/exports, on EU proposals to widen scope to downstream steel- and aluminium-intensive goods, and on whether enforcement",
+      "locate": "Approximate study anchor for United States of America, United States of America. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-11.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-11.md",
+          "date": "2026-10-11",
+          "cadence": "daily",
+          "excerpt": "tional Relations / Economy - Exam angle: CBAM is the sharpest friction between climate policy and trade rules; even the US is now questioning it, which strengthens India's CBDR-RC and WTO-compatibility argument and its India–EU FTA talking points. Expect Mains on \"unilateral carbon border taxes\". - Key facts: Notice published 8 Oct 2026 (docket USTR-2026-0661); written comments due ~30 days after publication (≈ 7 Nov by the notice's own formula; press reports cite 9 Nov — verify). Seeks views on CBAM's effects on US producers/exports, on EU proposals to widen scope to downstream steel- and aluminium-intensive goods, and on whether enforcement"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-11-library-india-ranchi",
+      "weekId": "2026-10-11-library",
+      "layer": "current",
+      "name": "Ranchi",
+      "country": "India",
+      "region": "Jhārkhand",
+      "scope": "india",
+      "lat": 23.3074,
+      "lon": 85.382,
+      "topic": "Briefing geography",
+      "hook": "Jhārkhand · mentioned 2026-10-11",
+      "fact": "re & Farmers' Welfare (ICAR): New facilities inaugurated at ICAR–Indian Institute of Agricultural Biotechnology (IIAB), Ranchi (8 Oct 2026)",
+      "locate": "Approximate study anchor for Ranchi, India. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/bharatrajya-india-districts.geojson",
+      "source": "daily/daily_pib/PIB_2026-10-11.md",
+      "references": [
+        {
+          "source": "daily/daily_pib/PIB_2026-10-11.md",
+          "date": "2026-10-11",
+          "cadence": "pib",
+          "excerpt": "re & Farmers' Welfare (ICAR): New facilities inaugurated at ICAR–Indian Institute of Agricultural Biotechnology (IIAB), Ranchi (8 Oct 2026)"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-11-library-india-mumbai",
+      "weekId": "2026-10-11-library",
+      "layer": "current",
+      "name": "Mumbai",
+      "country": "India",
+      "region": "Mahārāshtra",
+      "scope": "india",
+      "lat": 18.9711,
+      "lon": 72.838,
+      "topic": "Briefing geography",
+      "hook": "Mahārāshtra · mentioned 2026-10-11",
+      "fact": "Navy): INS Mangrol — third Anti-Submarine Warfare Shallow Water Craft (ASW-SWC) — to be commissioned at Naval Dockyard, Mumbai on 12 Oct 2026",
+      "locate": "Approximate study anchor for Mumbai, India. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/bharatrajya-india-districts.geojson",
+      "source": "daily/daily_pib/PIB_2026-10-11.md",
+      "references": [
+        {
+          "source": "daily/daily_pib/PIB_2026-10-11.md",
+          "date": "2026-10-11",
+          "cadence": "pib",
+          "excerpt": "Navy): INS Mangrol — third Anti-Submarine Warfare Shallow Water Craft (ASW-SWC) — to be commissioned at Naval Dockyard, Mumbai on 12 Oct 2026"
         }
       ],
       "libraryDerived": true

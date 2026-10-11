@@ -320,6 +320,11 @@ generator commands are only needed to refresh what local dev reads.
   has no matching Atlas week or features.
 - Run `npm run manifest && npm run search-index` after adding content so local
   dev picks it up; the Pages build regenerates both either way.
+- New `Prelims_Flashcards_YYYY-MM-DD.txt` decks automatically link to the latest
+  primary daily CA briefing on or before the deck date, up to seven days earlier.
+  If none exists, the same-date Sunday Sweep is used. Book-topics companions
+  also link to their same-date Sunday Sweep. No weekly config edit is needed;
+  explicit `notes` entries in `config/content_links.json` take precedence.
 - A question set that arrives with **no answer keys at all** fails the build.
   Regenerate the file before publishing.
 - The build fails if the hardcoded fallback list in `app/data.js` points at
@@ -363,9 +368,10 @@ Generation rules:
   and validates both note-to-map and map-to-note references. Regional anchors
   must be identified as approximate; do not present them as surveyed locations.
 - `scripts/content_relationships.js` records exact parser lineage and the known
-  filename contracts as explicit note/set IDs. For relationships across streams
-  or dates, add source paths to `config/content_links.json`; links are reciprocal
-  and validated. The current flashcard links identify shared topics, not a claim
+  filename contracts as explicit note/set IDs, including automatic weekly
+  flashcard and book-topics links described above. For other relationships across
+  streams or dates, add source paths to `config/content_links.json`; links are
+  reciprocal and validated. Flashcard links identify related reading, not a claim
   that a deck contains only that briefing's material.
 - Every generated document or question resource must be published, a declared
   source, or explicitly classified in `config/content_exclusions.json` with a
