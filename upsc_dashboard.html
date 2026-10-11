@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>UPSC CSE 2027 — Progress Dashboard</title>
+<script src="app/exam-calendar.js?v=1"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.0/dist/chart.umd.js" integrity="sha384-iU8HYtnGQ8Cy4zl7gbNMOhsDTTKX02BTXptVP/vqAWIaTfM7isw76iyZCsjL2eVi" crossorigin="anonymous"></script>
 <style>
 :root{ color-scheme: light; --bg:#f6f7f9; --card:#ffffff; --ink:#1c2330; --muted:#67707f; --line:#e6e9ef; --accent:#2f6f4f; --accent2:#1f5fa6; --warn:#b5452f; --chip:#eef2f7; }
@@ -65,7 +66,12 @@ details.subj>summary::-webkit-details-marker{display:none;}
 <body>
 <div class="wrap">
   <h1>UPSC CSE 2027 — Progress Dashboard</h1>
-  <div class="sub">Balanced working-professional plan · Physics optional · Prelims target 24 May 2027 · everything you enter is saved on this device</div>
+  <div class="sub">Balanced working-professional plan · Physics optional · <span id="prelimsTarget"></span> · everything you enter is saved on this device</div>
+
+  <div class="card">
+    <h2>UPSC CSE 2027 Key Dates · Tentative</h2>
+    <div id="examDates"></div>
+  </div>
 
   <div class="grid cols-3" style="margin-top:0;">
     <div class="card hero">
@@ -167,7 +173,8 @@ details.subj>summary::-webkit-details-marker{display:none;}
 </div>
 
 <script>
-const PRELIMS = new Date("2027-05-24T00:00:00");
+const EXAM_CALENDAR = window.UPSC_EXAM_CALENDAR;
+const PRELIMS = EXAM_CALENDAR.localDate(EXAM_CALENDAR.dates.prelims);
 const PLAN_START = new Date("2026-06-02T00:00:00");
 
 const FN = [
@@ -194,7 +201,7 @@ const FN = [
  ["F21","2027-03-09","2027-03-22","Revision Cycle 1","Prelims Mode"],
  ["F22","2027-03-23","2027-04-05","Revision Cycle 2 + PYQ marathon","Prelims Mode"],
  ["F23","2027-04-06","2027-04-19","Final consolidation","Prelims Mode"],
- ["F24","2027-04-20","2027-05-24","Prelims countdown","Prelims Mode"]
+ ["F24","2027-04-20",EXAM_CALENDAR.dates.prelims,"Prelims countdown","Prelims Mode"]
 ];
 
 const KPI = {
@@ -320,22 +327,29 @@ const SYLLABUS = {
 };
 const REV_SUBJECTS = ["Polity","Economy","Modern History","Ancient/Medieval","Art & Culture","Geography","Environment","Sci-Tech","IR","Internal Security","Society","Ethics","Physics Paper I","Physics Paper II"];
 
-const fmt = d => new Date(d).toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric"});
+const fmt = d => (/^\d{4}-\d{2}-\d{2}$/.test(d) ? EXAM_CALENDAR.localDate(d) : new Date(d)).toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric"});
 const todayDate = new Date(); todayDate.setHours(0,0,0,0);
 const isoToday = () => new Date().toISOString().slice(0,10);
 const dateKey = d => { const x=new Date(d); return x.getFullYear()+"-"+String(x.getMonth()+1).padStart(2,"0")+"-"+String(x.getDate()).padStart(2,"0"); };
 const inLightWeek = dateKey(todayDate)>=LIGHT_WEEK.start && dateKey(todayDate)<=LIGHT_WEEK.end;
 
 // ---- countdown / phase / fortnight ----
-const days = Math.round((PRELIMS - todayDate)/86400000);
-document.getElementById("countdown").innerHTML = (days>0?days:0) + " <small>days</small>";
-document.getElementById("prelimsDate").textContent = "Prelims ~ " + fmt(PRELIMS);
+function refreshCountdown() {
+  const days = Math.max(0, EXAM_CALENDAR.daysUntil(EXAM_CALENDAR.dates.prelims));
+  document.getElementById("countdown").innerHTML = days + " <small>days</small>";
+}
+refreshCountdown();
+setInterval(refreshCountdown, 60000);
+window.addEventListener("focus", refreshCountdown);
+document.getElementById("prelimsDate").textContent = "Prelims · " + fmt(PRELIMS) + " · tentative";
+document.getElementById("prelimsTarget").textContent = "Prelims target " + fmt(PRELIMS) + " (tentative)";
+document.getElementById("examDates").innerHTML = EXAM_CALENDAR.milestones.map(m => '<div class="row"><span>' + m.label + '</span><b>' + fmt(EXAM_CALENDAR.localDate(m.date)) + (m.label === 'Mains begins' ? ' · 5 days' : '') + '</b></div>').join('');
 
 let cur=null;
-for(const f of FN){ if(todayDate>=new Date(f[1]) && todayDate<=new Date(f[2]+"T23:59:59")){cur=f;break;} }
+for(const f of FN){ if(todayDate>=EXAM_CALENDAR.localDate(f[1]) && todayDate<=new Date(f[2]+"T23:59:59")){cur=f;break;} }
 let phase,fnLabel,fnDates,focus,nextLabel;
 if(todayDate<PLAN_START){phase="Foundation";fnLabel="Before F1";fnDates="Plan starts "+fmt(PLAN_START);focus="Setup phase ahead";nextLabel=FN[0][0]+" · "+FN[0][3];}
-else if(todayDate>PRELIMS){phase="Mains Factory";fnLabel="Post-Prelims";fnDates="Mains phase → 30 Sep 2027";focus="Optional + answer writing at full intensity";nextLabel="Mains 2027";}
+else if(todayDate>PRELIMS){phase="Mains Factory";fnLabel="Post-Prelims";fnDates="Mains begins "+fmt(EXAM_CALENDAR.localDate(EXAM_CALENDAR.dates.mains))+" · tentative · 5 days";focus="Optional + answer writing at full intensity";nextLabel="Mains 2027";}
 else if(cur){phase=cur[4];fnLabel=cur[0];fnDates=fmt(cur[1])+" – "+fmt(cur[2]);focus=cur[3];const i=FN.indexOf(cur);nextLabel=i<FN.length-1?(FN[i+1][0]+" · "+FN[i+1][3]):"Prelims day";}
 else {phase="Foundation";fnLabel="—";fnDates="";focus="";nextLabel=FN[0][0];}
 
@@ -349,7 +363,7 @@ if(inLightWeek){
 }
 
 document.getElementById("phaseName").textContent=phase;
-document.getElementById("phaseDates").textContent= inLightWeek?"24 Aug – 30 Aug 2026":phase==="Foundation"?"15 Jun – 31 Oct 2026":phase==="Integration"?"1 Nov 2026 – 31 Jan 2027":phase==="Prelims Mode"?"1 Feb – 24 May 2027":"post-Prelims → 30 Sep 2027";
+document.getElementById("phaseDates").textContent= inLightWeek?"24 Aug – 30 Aug 2026":phase==="Foundation"?"15 Jun – 31 Oct 2026":phase==="Integration"?"1 Nov 2026 – 31 Jan 2027":phase==="Prelims Mode"?"1 Feb – "+fmt(PRELIMS):fnDates;
 document.getElementById("fnNum").textContent=fnLabel;
 document.getElementById("fnDates").textContent=fnDates;
 document.getElementById("fnFocus").textContent=focus;

@@ -50,6 +50,7 @@ const STATIC_PATHS = [
   "icon-maskable.svg",
   "manifest.webmanifest",
   "upsc_dashboard.html",
+  "app/exam-calendar.js",
 ];
 
 // Nothing in the app fetches these; they are ~1 MB of source data kept in the

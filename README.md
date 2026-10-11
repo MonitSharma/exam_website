@@ -333,6 +333,10 @@ generator commands are only needed to refresh what local dev reads.
 
 ## Content and UI contract (September 2026)
 
+The Progress plan and standalone dashboard share tentative UPSC CSE 2027 dates
+from `app/exam-calendar.js`. Update that calendar when dates change; countdowns
+use local calendar days and refresh while the dashboard is open.
+
 Home now focuses on the next preparation session and the daily calendar. The
 **Library** navigation item opens the note reader; `#library?note=NOTE_ID` links
 to a specific note. Essays, recall-quiz source notes and study reviews are

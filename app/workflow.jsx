@@ -1,5 +1,6 @@
 // Study workflow dashboard - native version of the standalone UPSC tracker
-const WORKFLOW_PRELIMS = new Date("2027-05-24T00:00:00");
+const WORKFLOW_CALENDAR = window.UPSC_EXAM_CALENDAR;
+const WORKFLOW_PRELIMS = WORKFLOW_CALENDAR.localDate(WORKFLOW_CALENDAR.dates.prelims);
 const WORKFLOW_PLAN_START = new Date("2026-06-02T00:00:00");
 const WORKFLOW_FORTNIGHTS = [
   ["F1", "2026-06-02", "2026-06-15", "Setup & diagnostics", "Foundation"],
@@ -25,7 +26,7 @@ const WORKFLOW_FORTNIGHTS = [
   ["F21", "2027-03-09", "2027-03-22", "Revision Cycle 1", "Prelims Mode"],
   ["F22", "2027-03-23", "2027-04-05", "Revision Cycle 2 + PYQ marathon", "Prelims Mode"],
   ["F23", "2027-04-06", "2027-04-19", "Final consolidation", "Prelims Mode"],
-  ["F24", "2027-04-20", "2027-05-24", "Prelims countdown", "Prelims Mode"],
+  ["F24", "2027-04-20", WORKFLOW_CALENDAR.dates.prelims, "Prelims countdown", "Prelims Mode"],
 ];
 
 // Trackable weekly targets per phase. Only the metrics the app can actually
@@ -65,17 +66,16 @@ const WORKFLOW_DOW_SUBJECT = {
 const WORKFLOW_MILESTONES = [
   { label: "Integration phase", date: "2026-11-03", note: "Pass-2 depth + cross-linking" },
   { label: "Prelims Mode", date: "2027-01-26", note: "MCQ intensity + full mocks" },
-  { label: "Prelims exam", date: "2027-05-24", note: "UPSC CSE Prelims" },
-];
+  ...WORKFLOW_CALENDAR.milestones,
+].sort((a, b) => a.date.localeCompare(b.date));
 
 function workflowFmt(value) {
-  return new Date(value).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" });
+  const date = /^\d{4}-\d{2}-\d{2}$/.test(value) ? WORKFLOW_CALENDAR.localDate(value) : new Date(value);
+  return date.toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" });
 }
 
-function workflowDaysUntil(isoDate) {
-  const today = new Date();
-  today.setHours(0, 0, 0, 0);
-  return Math.round((new Date(`${isoDate}T00:00:00`) - today) / 86400000);
+function workflowDaysUntil(isoDate, today = new Date()) {
+  return WORKFLOW_CALENDAR.daysUntil(isoDate, today);
 }
 
 function workflowIsoToday() {
@@ -96,11 +96,11 @@ function workflowLatestByDate(items, dateKey, todayIso = workflowIsoToday()) {
     .sort((a, b) => String(b[dateKey]).localeCompare(String(a[dateKey])))[0] || null;
 }
 
-function getWorkflowContext() {
-  const today = new Date();
+function getWorkflowContext(now = new Date()) {
+  const today = new Date(now);
   today.setHours(0, 0, 0, 0);
-  const days = Math.max(0, Math.round((WORKFLOW_PRELIMS - today) / 86400000));
-  const current = WORKFLOW_FORTNIGHTS.find((item) => today >= new Date(item[1]) && today <= new Date(`${item[2]}T23:59:59`));
+  const days = Math.max(0, workflowDaysUntil(WORKFLOW_CALENDAR.dates.prelims, today));
+  const current = WORKFLOW_FORTNIGHTS.find((item) => today >= WORKFLOW_CALENDAR.localDate(item[1]) && today <= new Date(`${item[2]}T23:59:59`));
   let phase, fortnight, fnDates, focus, next;
   if (today < WORKFLOW_PLAN_START) {
     phase = "Foundation";
@@ -111,7 +111,7 @@ function getWorkflowContext() {
   } else if (today > WORKFLOW_PRELIMS) {
     phase = "Mains Factory";
     fortnight = "Post-Prelims";
-    fnDates = "Mains phase -> 30 Sep 2027";
+    fnDates = `Mains begins ${workflowFmt(WORKFLOW_CALENDAR.localDate(WORKFLOW_CALENDAR.dates.mains))} · tentative · 5 days`;
     focus = "Optional + answer writing at full intensity";
     next = "Mains 2027";
   } else if (current) {
@@ -160,7 +160,17 @@ function WorkflowMeter({ label, actual, target, hint }) {
 }
 
 function StudyWorkflowDashboard({ go, progress, review, onStartReview }) {
-  const context = getWorkflowContext();
+  const [now, setNow] = React.useState(() => new Date());
+  React.useEffect(() => {
+    const refresh = () => setNow((previous) => {
+      const current = new Date();
+      return workflowDateKey(previous) === workflowDateKey(current) ? previous : current;
+    });
+    const timer = window.setInterval(refresh, 60000);
+    window.addEventListener("focus", refresh);
+    return () => { window.clearInterval(timer); window.removeEventListener("focus", refresh); };
+  }, []);
+  const context = getWorkflowContext(now);
   const ds = window.UPSC;
   const todayIso = workflowIsoToday();
   const history = progress?.history || [];
@@ -201,7 +211,7 @@ function StudyWorkflowDashboard({ go, progress, review, onStartReview }) {
   const dailyDone = Boolean(progress?.dailyCompletions?.[latestDailySet?.isoDate]);
 
   // ---- Plan position + milestones ----
-  const nextMilestone = WORKFLOW_MILESTONES.map((m) => ({ ...m, days: workflowDaysUntil(m.date) })).filter((m) => m.days >= 0);
+  const nextMilestone = WORKFLOW_MILESTONES.map((m) => ({ ...m, days: workflowDaysUntil(m.date, context.today) })).filter((m) => m.days >= 0);
   const fnEndIso = context.fnEnd || "";
   const daysLeftInFn = fnEndIso ? Math.max(0, workflowDaysUntil(fnEndIso)) : null;
   const weeksToPrelims = Math.max(0, Math.round(context.days / 7));
@@ -280,7 +290,7 @@ function StudyWorkflowDashboard({ go, progress, review, onStartReview }) {
       <article className="workflow-hero-card workflow-hero-wide">
         <div className="workflow-hero-main">
           <span className="workflow-summary-label">{context.phase} · {context.fortnight}{daysLeftInFn != null ? ` · ${daysLeftInFn}d left in block` : ""}</span>
-          <h3>{new Date().toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long" })}</h3>
+          <h3>{context.today.toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long" })}</h3>
           <p>{context.focus ? `Roadmap this block: ${context.focus}` : `Next: ${context.next}`}</p>
           <div className="workflow-plan-bar" role="img" aria-label={`Plan ${context.planPercent}% complete`}>
             <div className="workflow-plan-bar-fill" style={{ width: `${context.planPercent}%` }} />
@@ -290,6 +300,7 @@ function StudyWorkflowDashboard({ go, progress, review, onStartReview }) {
         <div className="workflow-countdown">
           <strong>{context.days}</strong>
           <span>days to Prelims</span>
+          <small>{workflowFmt(WORKFLOW_PRELIMS)} · tentative</small>
         </div>
       </article>
 
