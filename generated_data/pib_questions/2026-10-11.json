@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the National Testing Agency (NTA), consider: 1. It is an autonomous body registered under the Societies Registration Act, 1860. 2. A Parliamentary Standing Committee report on its reforms was presented in Rajya Sabha in October 2026. 3. The report is binding on the Union government. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "NTA is an autonomous society; the 382nd Report was presented on 9 Oct 2026; committee recommendations are not binding.",
+    "subject": "Polity & Governance",
+    "theme": "Education governance",
+    "micro_topic": "NTA reforms - Parliamentary Standing Committee",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements about India's 6G efforts reported at India Mobile Congress 2026: 1. The Bharat 6G Alliance functions within the Department of Telecommunications ecosystem. 2. India targets at least 10% of global 6G patents and standards. 3. 6G standards are developed mainly by ITU and 3GPP. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three hold: Bharat 6G Alliance is under DoT, the 10% target was stated at IMC 2026, and ITU/3GPP lead standardisation.",
+    "subject": "Science & Technology",
+    "theme": "Telecom",
+    "micro_topic": "Bharat 6G / IMC 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "INS Mangrol, recently in the news, is:",
+    "options": [
+      "(a) a Scorpene-class submarine",
+      "(b) an Anti-Submarine Warfare Shallow Water Craft built by Cochin Shipyard Limited",
+      "(c) a fleet tanker built by Hindustan Shipyard",
+      "(d) a Next-Generation Corvette built by GRSE"
+    ],
+    "answer": "(b)",
+    "explanation": "INS Mangrol is the third ASW-SWC built by CSL, Kochi, with over 80% indigenous content; commissioning on 12 Oct 2026 at Mumbai.",
+    "subject": "Internal Security",
+    "theme": "Defence indigenisation",
+    "micro_topic": "INS Mangrol ASW-SWC",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]

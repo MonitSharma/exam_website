@@ -1,0 +1,711 @@
+[
+  {
+    "id": "weekly_quiz_2026_10_09_1",
+    "question_number": 1,
+    "question": "At its October 2026 meeting, the RBI's Monetary Policy Committee raised the policy rate. Consider the following:",
+    "statements": [
+      "The repo rate was raised by 25 bps to 5.50%, the first hike since February 2023.",
+      "The Standing Deposit Facility rate stands at 5.25% and the Marginal Standing Facility rate at 5.75% after the move.",
+      "The decision was taken by a 4–2 split vote."
+    ],
+    "tail": "Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Repo went up 25 bps to 5.50% (first hike since Feb 2023) with SDF 5.25% and MSF 5.75%. The vote was unanimous, not 4–2.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_09_2",
+    "question_number": 2,
+    "question": "The 2026 Nobel Prize in Physics recognised the building of the IceCube observatory. Consider the following:",
+    "statements": [
+      "IceCube is a cubic-kilometre detector buried in the Antarctic ice at the South Pole.",
+      "It records faint light from charged particles produced when neutrinos interact in the ice.",
+      "Neutrinos are electrically charged, so cosmic magnetic fields bend their paths and hide their sources."
+    ],
+    "tail": "Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "IceCube sits in the South Pole ice and detects light from charged secondary particles. Neutrinos are electrically neutral, which is why they point back to their sources.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_09_3",
+    "question_number": 3,
+    "question": "The 1995 \"Soai reaction\", for which Kenso Soai shared the 2026 Nobel Prize in Chemistry with Henri Kagan, is best described as:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "a catalytic reaction that links molecules quickly using \"click\" chemistry"
+      },
+      {
+        "key": "b",
+        "text": "a method of capturing carbon dioxide in porous metal-organic frameworks"
+      },
+      {
+        "key": "c",
+        "text": "a technique to image biomolecules using electron beams at cryogenic temperatures"
+      },
+      {
+        "key": "d",
+        "text": "an asymmetric autocatalytic reaction in which a tiny excess of one mirror-image molecule is amplified"
+      }
+    ],
+    "answer": "d",
+    "explanation": "The Soai reaction (1995) is an asymmetric autocatalytic reaction that amplifies a tiny imbalance between mirror-image molecules; Kagan's non-linear effects (1980s) were the related earlier work.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_09_4",
+    "question_number": 4,
+    "question": "With reference to the CAFE-III fuel-economy norms notified for passenger cars, consider the following:",
+    "statements": [
+      "The Bureau of Energy Efficiency is the implementing agency under the Energy Conservation Act, 2001.",
+      "The norms apply from 1 April 2027 to 31 March 2032.",
+      "Strong hybrids earn the highest super-credit multiplier (3x), above battery electric vehicles."
+    ],
+    "tail": "Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "BEE implements CAFE under the Energy Conservation Act, 2001, and the period is FY28–FY32. BEVs get 3x; strong hybrids get 1.6x.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_09_5",
+    "question_number": 5,
+    "question": "During the Swiss President's state visit in October 2026, the India–EFTA Trade and Economic Partnership Agreement (TEPA) was in focus. Consider the following:",
+    "statements": [
+      "TEPA entered into force on 1 October 2025.",
+      "Liechtenstein is a member of EFTA.",
+      "Austria is a member of EFTA."
+    ],
+    "tail": "Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "2 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "TEPA has been in force since 1 Oct 2025 and Liechtenstein is an EFTA member (with Iceland, Norway, Switzerland). Austria is in the EU, not EFTA.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_09_6",
+    "question_number": 6,
+    "question": "Which one of the following correctly describes the October 2026 release of captive-bred Great Indian Bustards?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Two captive-bred females were released in Kutch by the National Tiger Conservation Authority."
+      },
+      {
+        "key": "b",
+        "text": "Two captive-bred males were released near Jaisalmer after rewilding training, in a programme run by the Wildlife Institute of India with the Rajasthan Forest Department."
+      },
+      {
+        "key": "c",
+        "text": "Ten captive-bred birds were released simultaneously in Desert National Park under Project Elephant."
+      },
+      {
+        "key": "d",
+        "text": "Wild birds were translocated from Pakistan to the Thar desert."
+      }
+    ],
+    "answer": "b",
+    "explanation": "Two tagged captive-bred males were released near Jaisalmer on 4 Oct 2026 by the WII with the Rajasthan Forest Department. The NTCA deals with tigers.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_09_7",
+    "question_number": 7,
+    "question": "The IMD summarised the 2026 South-West Monsoon season at 87% of the Long Period Average. Which one of the following is NOT correct?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "The all-India figure falls in the IMD's \"deficient\" band (below 90%)."
+      },
+      {
+        "key": "b",
+        "text": "East and North-East India recorded its lowest seasonal rainfall since 1901."
+      },
+      {
+        "key": "c",
+        "text": "Central India recorded a deficient monsoon."
+      },
+      {
+        "key": "d",
+        "text": "17 of the 36 meteorological subdivisions were deficient."
+      }
+    ],
+    "answer": "c",
+    "explanation": "Central India was normal at about 97%; the deficits were in the East/North-East (74%) and the South Peninsula (76%).",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_09_8",
+    "question_number": 8,
+    "question": "Gujarat and Assam Uniform Civil Code laws have received Presidential assent. Consider the following:",
+    "statements": [
+      "Article 44 is a Directive Principle of State Policy and is not justiciable.",
+      "Personal law matters such as marriage and succession fall in the Concurrent List (Entry 5).",
+      "Gujarat's law excludes Scheduled Tribes."
+    ],
+    "tail": "Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Art 44 is a non-justiciable DPSP, personal law is Concurrent List Entry 5 (hence Art 254(2) assent), and Gujarat's law excludes Scheduled Tribes.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_09_9",
+    "question_number": 9,
+    "question": "Consider the following about the Cabinet decisions of 6 October 2026:",
+    "statements": [
+      "The Integrated Transport and Logistics Authority (ITLA) is to appraise and monitor projects of Rs 500 crore and above.",
+      "ITLA's remit spans eight transport and logistics domains, including railways, ports, civil aviation and inland waterways.",
+      "The Rs 10,000 crore SME Growth Fund is a credit-guarantee scheme and makes no equity investments."
+    ],
+    "tail": "Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "ITLA has an eight-domain remit and a Rs 500 crore appraisal threshold. The SME Growth Fund is a Rs 10,000 crore equity fund for growth-stage SMEs, not a guarantee scheme.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_09_10",
+    "question_number": 10,
+    "question": "With reference to the WHO Pandemic Agreement, consider the following:",
+    "statements": [
+      "It was adopted by the World Health Assembly on 20 May 2025.",
+      "It cannot open for signature until the Pathogen Access and Benefit-Sharing (PABS) annex is adopted.",
+      "It has already entered into force."
+    ],
+    "tail": "Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Adopted 20 May 2025; under Article 12 it opens for signature only after the PABS annex is adopted, so it is not in force.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_09_11",
+    "question_number": 11,
+    "question": "A barge carrying about 540 MT of methanol was flagged off on 5 October 2026 from Upper Assam towards Bangladesh. The waterway it used, National Waterway 2, is:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "the Ganga from Prayagraj to Haldia"
+      },
+      {
+        "key": "b",
+        "text": "the Godavari from Bhadrachalam to Rajahmundry"
+      },
+      {
+        "key": "c",
+        "text": "the Brahmaputra from Sadiya to Dhubri"
+      },
+      {
+        "key": "d",
+        "text": "the West Coast Canal from Kottapuram to Kollam"
+      }
+    ],
+    "answer": "c",
+    "explanation": "NW-2 is the Brahmaputra, Sadiya–Dhubri (NW-1 is the Ganga, Prayagraj–Haldia).",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_09_12",
+    "question_number": 12,
+    "question": "The Rural Development Ministry notified 375 permissible works under the VB-G RAM G Act, 2025 (which replaced MGNREGA). Which one of the following is NOT correct?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "The new schedule is about 41% longer than the earlier list of 266 works."
+      },
+      {
+        "key": "b",
+        "text": "Water security is the largest of the four work categories."
+      },
+      {
+        "key": "c",
+        "text": "Works originate in Viksit Gram Panchayat Plans approved by the Gram Sabha."
+      },
+      {
+        "key": "d",
+        "text": "Extreme-weather and disaster preparedness works were dropped from the schedule."
+      }
+    ],
+    "answer": "d",
+    "explanation": "Disaster preparedness (38 works) is a new category, not a dropped one.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_09_13",
+    "question_number": 13,
+    "question": "With reference to the Monetary Policy Committee (MPC) of India, consider the following:",
+    "statements": [
+      "It has six members, four of them from the RBI.",
+      "The Governor has a casting vote in case of a tie.",
+      "The inflation target is notified by the Central Government in consultation with the RBI, once every five years."
+    ],
+    "tail": "Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The MPC has six members: three from the RBI (Governor, a Deputy Governor, another officer) and three external members appointed by the Centre. The Governor has a casting vote, and the target (4% ±2%) is notified every five years.",
+    "subject": "Economy",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_09_14",
+    "question_number": 14,
+    "question": "If the repo rate is 5.50%, and the Standing Deposit Facility rate is repo minus 25 bps while the Marginal Standing Facility rate is repo plus 25 bps, the SDF and MSF rates are respectively:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "5.25% and 5.75%"
+      },
+      {
+        "key": "b",
+        "text": "5.25% and 5.50%"
+      },
+      {
+        "key": "c",
+        "text": "5.75% and 5.25%"
+      },
+      {
+        "key": "d",
+        "text": "5.00% and 6.00%"
+      }
+    ],
+    "answer": "a",
+    "explanation": "5.50 − 0.25 = 5.25% (SDF) and 5.50 + 0.25 = 5.75% (MSF), which is also the Bank Rate.",
+    "subject": "Economy",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_09_15",
+    "question_number": 15,
+    "question": "With reference to CRR and SLR, consider the following:",
+    "statements": [
+      "CRR must be maintained as cash balances with the RBI, on which no interest is paid.",
+      "SLR can be maintained in cash, gold or approved securities.",
+      "SLR balances are held with the RBI."
+    ],
+    "tail": "Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "3 only"
+      },
+      {
+        "key": "d",
+        "text": "1 and 2 only"
+      }
+    ],
+    "answer": "d",
+    "explanation": "CRR is held in cash with the RBI without interest; SLR is held by banks themselves in liquid assets (cash, gold, approved securities), not with the RBI.",
+    "subject": "Economy",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_09_16",
+    "question_number": 16,
+    "question": "With reference to public funds under the Constitution, consider the following:",
+    "statements": [
+      "All revenues received by the Union Government, loans raised by it and repayments of loans form the Consolidated Fund of India (Article 266).",
+      "The Contingency Fund of India is placed at the disposal of the President (Article 267).",
+      "Money can be withdrawn from the Contingency Fund only after prior approval of Parliament."
+    ],
+    "tail": "Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Contingency Fund advances are made by the executive and approved by Parliament afterwards, not before.",
+    "subject": "Economy",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_09_17",
+    "question_number": 17,
+    "question": "GDP at market prices is obtained as:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "GVA at basic prices minus taxes on products plus subsidies on products"
+      },
+      {
+        "key": "b",
+        "text": "GVA at basic prices plus taxes on products minus subsidies on products"
+      },
+      {
+        "key": "c",
+        "text": "Net National Product at factor cost plus depreciation"
+      },
+      {
+        "key": "d",
+        "text": "GNP at market prices minus net factor income from abroad plus subsidies"
+      }
+    ],
+    "answer": "b",
+    "explanation": "GDP at market prices = GVA at basic prices + taxes on products − subsidies on products.",
+    "subject": "Economy",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_09_18",
+    "question_number": 18,
+    "question": "With reference to price indices in India, consider the following:",
+    "statements": [
+      "The CPI for Industrial Workers is compiled by the Labour Bureau.",
+      "The Wholesale Price Index covers both goods and services.",
+      "The CPI (Combined) is compiled by the National Statistics Office, MoSPI."
+    ],
+    "tail": "Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "WPI covers goods only. CPI-IW comes from the Labour Bureau; CPI (Combined) from the NSO.",
+    "subject": "Economy",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_09_19",
+    "question_number": 19,
+    "question": "Which of the following are recorded in India's current account of the balance of payments?",
+    "statements": [
+      "Remittances received from Indians working abroad",
+      "Foreign direct investment inflows",
+      "Income earned on investments held abroad",
+      "External commercial borrowings"
+    ],
+    "tail": "Select the correct answer using the code below.",
+    "options": [
+      {
+        "key": "a",
+        "text": "2 and 4 only"
+      },
+      {
+        "key": "b",
+        "text": "1, 2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Remittances (secondary income) and investment income (primary income) are current account items. FDI and ECBs are financial account items.",
+    "subject": "Economy",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_09_20",
+    "question_number": 20,
+    "question": "With reference to the Goods and Services Tax (GST) Council, which one of the following is NOT correct?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "It is a constitutional body established under Article 279A."
+      },
+      {
+        "key": "b",
+        "text": "Its decisions require a majority of at least three-fourths of the weighted votes of members present and voting."
+      },
+      {
+        "key": "c",
+        "text": "The Union Government holds one-third of the weighted votes and the States together hold two-thirds."
+      },
+      {
+        "key": "d",
+        "text": "Alcohol for human consumption is included within the GST base."
+      }
+    ],
+    "answer": "d",
+    "explanation": "Alcohol for human consumption is outside GST (states tax it). The other three statements are correct.",
+    "subject": "Economy",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  }
+]

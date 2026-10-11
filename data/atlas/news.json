@@ -5,7 +5,7 @@
       "label": "CA & PIB · week of 2026-10-04",
       "source": "daily/daily_current_affairs/UPSC_CA_2026-10-04.md",
       "libraryDerived": true,
-      "sourceCount": 4
+      "sourceCount": 14
     },
     {
       "id": "2026-09-27-library",
@@ -10405,13 +10405,25 @@
       "lat": -24.1295,
       "lon": 134.0497,
       "topic": "Briefing geography",
-      "hook": "Country study anchor · mentioned 2026-10-05",
-      "fact": "urns 80 — Environment Exam angle. The International Whaling Commission's 70th meeting ran 28 Sept–2 Oct 2026 in Hobart, Australia, marking 80 years of the International Convention for the Regulation of Whaling. India stressed science-based conservation and better data on cetacean status, distribution and breeding, and pointed to the Wildlife (Protection) Act, marine protected areas and Project Dolphin. Typical Prelims \"statement\" fodder on international bodies. Memorise. - IWC: set up under the ICRW, 1946 (Washington); commercial-whaling moratorium in effect since 1986; not a UN agency. - India joined in 1981 and supports conservation, not wh",
+      "hook": "Country study anchor · mentioned 2026-10-10",
+      "fact": "ce of adaptation, mitigation and means of implementation — Environment Exam angle: Pre-COP31 (5–8 Oct) was co-hosted by Australia, Fiji and Tuvalu (leaders' event in Tuvalu) to centre Pacific priorities. COP31 will be at Antalya, Türkiye, 9–20 Nov 2026, with Australia presiding over negotiations — an unusual split-hosting arrangement. Environment Minister Bhupender Yadav called for equal attention to adaptation, mitigation and means of implementation, upheld CBDR-RC \"in letter and spirit\", and argued against one-size-fits-all action. Memorise: COP31 dates/venue/presidency above; India's three asks: adaptation parity, finance/tech/capacity-bui",
       "locate": "Approximate study anchor for Australia, Australia. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
       "coordinatePrecision": "regional-study-anchor",
       "coordinateSource": "data/maps/world_countries_india_pov.geojson",
-      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-05.md",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-10.md",
       "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-10.md",
+          "date": "2026-10-10",
+          "cadence": "daily",
+          "excerpt": "ce of adaptation, mitigation and means of implementation — Environment Exam angle: Pre-COP31 (5–8 Oct) was co-hosted by Australia, Fiji and Tuvalu (leaders' event in Tuvalu) to centre Pacific priorities. COP31 will be at Antalya, Türkiye, 9–20 Nov 2026, with Australia presiding over negotiations — an unusual split-hosting arrangement. Environment Minister Bhupender Yadav called for equal attention to adaptation, mitigation and means of implementation, upheld CBDR-RC \"in letter and spirit\", and argued against one-size-fits-all action. Memorise: COP31 dates/venue/presidency above; India's three asks: adaptation parity, finance/tech/capacity-bui"
+        },
+        {
+          "source": "daily/daily_pib/PIB_2026-10-09.md",
+          "date": "2026-10-09",
+          "cadence": "pib",
+          "excerpt": "st & Climate Change: India at the informal pre-COP31 ministerial in Fiji (7 Oct) (single secondary source) Co-hosted by Australia, Fiji and Tuvalu. India's line: judge COP31 (Antalya, Türkiye, November 2026) by implementation, not new targets; honour existing commitments \"in true letter and spirit\"; expand capacity-building and means of implementation. - NDC (2022 update): 45% emissions-intensity cut vs 2005 by 2030; ~50% non-fossil installed capacity; extra 2.5–3 Gt CO₂e sink; net zero 2070. - Under the COP30 arrangement Türkiye hosts and Australia leads negotiations; India has offered to host COP33 (2028). - Notebook: GS3 Environment / GS2"
+        },
         {
           "source": "daily/daily_current_affairs/UPSC_CA_2026-10-05.md",
           "date": "2026-10-05",
@@ -10459,13 +10471,31 @@
       "lat": 28.5647,
       "lon": 77.151,
       "topic": "Briefing geography",
-      "hook": "Delhi · mentioned 2026-10-05",
-      "fact": "5. Delhi High Court: a valid visa is not a right of entry — Polity & Governance Exam angle. On 1 Oct 2026 Justice Amit Mahajan dismissed a Turkmenistan national's plea after she was denied entry, holding that visa issue and permission to enter are separate and officers keep discretion on grounds like national security, foreign policy and document mismatches. A neat peg for the citizen–alien distinction in fundamental rights and the executive's sovereign power over entry. Memorise. - Visa gives permission to apply for entry; the final decision rests with the immigration officer. - Petition failed due to mismatched personal details and no busin",
+      "hook": "Delhi · mentioned 2026-10-10",
+      "fact": "3. Ministry of Ports, Shipping & Waterways: Sagarmanthan 2026 — 3rd edition of \"The Great Oceans Dialogue\" (New Delhi, 7–8 Oct) Notebook: GS2 International Relations / GS3 Economy (Infrastructure, Blue Economy)",
       "locate": "Approximate study anchor for New Delhi, India. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
       "coordinatePrecision": "regional-study-anchor",
       "coordinateSource": "data/maps/bharatrajya-india-districts.geojson",
-      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-05.md",
+      "source": "daily/daily_pib/PIB_2026-10-10.md",
       "references": [
+        {
+          "source": "daily/daily_pib/PIB_2026-10-10.md",
+          "date": "2026-10-10",
+          "cadence": "pib",
+          "excerpt": "3. Ministry of Ports, Shipping & Waterways: Sagarmanthan 2026 — 3rd edition of \"The Great Oceans Dialogue\" (New Delhi, 7–8 Oct) Notebook: GS2 International Relations / GS3 Economy (Infrastructure, Blue Economy)"
+        },
+        {
+          "source": "daily/daily_pib/PIB_2026-10-09.md",
+          "date": "2026-10-09",
+          "cadence": "pib",
+          "excerpt": "1. Ministry of Health & Family Welfare: JOSH Teams launched under TB Mukt Bharat Abhiyaan (8 Oct, Bharat Mandapam, New Delhi) Union Health Minister J.P. Nadda launched youth-led \"JOSH\" teams (reported as Joint Squad for Health) to push TB prevention, early diagnosis, treatment completion and stigma reduction. Volunteers identify vulnerable people, encourage testing and support patients through treatment. The initiative was built with the Ministries of Youth Affairs & Sports and Defence. - Phase 1: 55 districts in 11 States/UTs; remaining districts to follow (all 804 districts joined the launch virtually). - 6,347 JOSH squads of 31,429 MY Bhar"
+        },
+        {
+          "source": "daily/daily_pib/PIB_2026-10-08.md",
+          "date": "2026-10-08",
+          "cadence": "pib",
+          "excerpt": "3. Ministry of Textiles: Development Council for Textile Industry (DCTI) holds first meeting (6 Oct, New Delhi) (single secondary source citing PIB)"
+        },
         {
           "source": "daily/daily_current_affairs/UPSC_CA_2026-10-05.md",
           "date": "2026-10-05",
@@ -10482,6 +10512,33 @@
       "libraryDerived": true
     },
     {
+      "id": "2026-10-04-library-india-prayagraj-sangam",
+      "weekId": "2026-10-04-library",
+      "layer": "current",
+      "name": "Prayagraj / Sangam",
+      "country": "India",
+      "region": "Uttar Pradesh",
+      "scope": "india",
+      "lat": 25.43,
+      "lon": 81.88,
+      "topic": "Briefing geography",
+      "hook": "Uttar Pradesh · mentioned 2026-10-06",
+      "fact": "and Bangladesh relations. Memorize: ~768 km on NW-2, ~1,300 km total; NW-2 = Brahmaputra, Sadiya–Dhubri; NW-1 = Ganga, Prayagraj–Haldia. Notebook: GS3 Economy (Infrastructure/Logistics); GS2 IR (Bangladesh). Static anchor: Ramesh Singh/Shankar — Transport: Inland Waterways; Spectrum Geography — Brahmaputra; Update: add 2026 Bogibeel cross-link to the National Waterways list.",
+      "locate": "Approximate study anchor for Prayagraj / Sangam, India. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/atlas/news.json",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-06.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-06.md",
+          "date": "2026-10-06",
+          "cadence": "daily",
+          "excerpt": "and Bangladesh relations. Memorize: ~768 km on NW-2, ~1,300 km total; NW-2 = Brahmaputra, Sadiya–Dhubri; NW-1 = Ganga, Prayagraj–Haldia. Notebook: GS3 Economy (Infrastructure/Logistics); GS2 IR (Bangladesh). Static anchor: Ramesh Singh/Shankar — Transport: Inland Waterways; Spectrum Geography — Brahmaputra; Update: add 2026 Bogibeel cross-link to the National Waterways list."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
       "id": "2026-10-04-library-bangladesh-bangladesh",
       "weekId": "2026-10-04-library",
       "layer": "current",
@@ -10492,18 +10549,327 @@
       "lat": 24.215,
       "lon": 89.685,
       "topic": "Briefing geography",
-      "hook": "Country study anchor · mentioned 2026-10-05",
-      "fact": "mrup) are moving from the new Bogibeel inland water terminal at Dibrugarh down the Brahmaputra (National Waterway-2) to Bangladesh. It revives the Brahmaputra as an international trade route and is the first commercial run of the Bogibeel terminal. This ties into the Indo-Bangladesh Protocol on Inland Water Transit and Trade, North-East connectivity and the \"Act East\" push.",
+      "hook": "Country study anchor · mentioned 2026-10-06",
+      "fact": "f barge DLB Patkai (tug Kushal Konwar) carrying 540 MT methanol from APCL, Namrup to Dhaka region via NW-2 and the Indo-Bangladesh Protocol Route. Reported as the first cargo from Upper Assam to a foreign port since 1947; ties to Act East, NE connectivity and Bangladesh relations. Memorize: ~768 km on NW-2, ~1,300 km total; NW-2 = Brahmaputra, Sadiya–Dhubri; NW-1 = Ganga, Prayagraj–Haldia. Notebook: GS3 Economy (Infrastructure/Logistics); GS2 IR (Bangladesh). Static anchor: Ramesh Singh/Shankar — Transport: Inland Waterways; Spectrum Geography — Brahmaputra; Update: add 2026 Bogibeel cross-link to the National Waterways list.",
       "locate": "Approximate study anchor for Bangladesh, Bangladesh. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
       "coordinatePrecision": "regional-study-anchor",
       "coordinateSource": "data/maps/world_countries_india_pov.geojson",
-      "source": "daily/daily_pib/PIB_2026-10-05.md",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-06.md",
       "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-06.md",
+          "date": "2026-10-06",
+          "cadence": "daily",
+          "excerpt": "f barge DLB Patkai (tug Kushal Konwar) carrying 540 MT methanol from APCL, Namrup to Dhaka region via NW-2 and the Indo-Bangladesh Protocol Route. Reported as the first cargo from Upper Assam to a foreign port since 1947; ties to Act East, NE connectivity and Bangladesh relations. Memorize: ~768 km on NW-2, ~1,300 km total; NW-2 = Brahmaputra, Sadiya–Dhubri; NW-1 = Ganga, Prayagraj–Haldia. Notebook: GS3 Economy (Infrastructure/Logistics); GS2 IR (Bangladesh). Static anchor: Ramesh Singh/Shankar — Transport: Inland Waterways; Spectrum Geography — Brahmaputra; Update: add 2026 Bogibeel cross-link to the National Waterways list."
+        },
         {
           "source": "daily/daily_pib/PIB_2026-10-05.md",
           "date": "2026-10-05",
           "cadence": "pib",
           "excerpt": "mrup) are moving from the new Bogibeel inland water terminal at Dibrugarh down the Brahmaputra (National Waterway-2) to Bangladesh. It revives the Brahmaputra as an international trade route and is the first commercial run of the Bogibeel terminal. This ties into the Indo-Bangladesh Protocol on Inland Water Transit and Trade, North-East connectivity and the \"Act East\" push."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-04-library-japan-japan",
+      "weekId": "2026-10-04-library",
+      "layer": "current",
+      "name": "Japan",
+      "country": "Japan",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 36.1425,
+      "lon": 138.4422,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-08",
+      "fact": "very about\", not the laureates alone. Key facts: Henri B. Kagan (France; non-linear effects, mid-1980s) and Kenso Soai (Japan; Soai reaction, 1995, an asymmetric autocatalytic reaction). Prize money 12 million SEK, shared. Link to the Physics Nobel 2026 (Halzen, IceCube) covered on 7 Oct. Notebook: GS3 – Science & Technology (basic science, pharma). Static anchor: NCERT Class 11/12 Chemistry – Optical isomerism/stereochemistry. Nudge: add a \"Nobel 2026\" box listing Physics and Chemistry with one-line explainers.",
+      "locate": "Approximate study anchor for Japan, Japan. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-08.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-08.md",
+          "date": "2026-10-08",
+          "cadence": "daily",
+          "excerpt": "very about\", not the laureates alone. Key facts: Henri B. Kagan (France; non-linear effects, mid-1980s) and Kenso Soai (Japan; Soai reaction, 1995, an asymmetric autocatalytic reaction). Prize money 12 million SEK, shared. Link to the Physics Nobel 2026 (Halzen, IceCube) covered on 7 Oct. Notebook: GS3 – Science & Technology (basic science, pharma). Static anchor: NCERT Class 11/12 Chemistry – Optical isomerism/stereochemistry. Nudge: add a \"Nobel 2026\" box listing Physics and Chemistry with one-line explainers."
+        },
+        {
+          "source": "daily/daily_pib/PIB_2026-10-07.md",
+          "date": "2026-10-07",
+          "cadence": "pib",
+          "excerpt": "Key facts: - Host: Aichi Prefecture and Nagoya, Japan; dates 19 Sep – 4 Oct 2026. - India's rank: 4th, behind China, Japan and South Korea. - Gold sources included archery, shooting, boxing, cricket, hockey and kabaddi (women's cricket, women's hockey and both kabaddi events were among the golds). - Policy anchors cited in the PIB-based summary (single secondary source, figures not independently verified): Khelo Bharat Niti (July 2025), National Sports Governance Act 2025, revamped Khelo India outlay for 2026-31, Sports Ministry BE 2026-27 about ₹4,480 crore. - Next: 5th Asian Para Games, 18–24 October 2026."
+        },
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-06.md",
+          "date": "2026-10-06",
+          "cadence": "daily",
+          "excerpt": "3. India–Japan Joint Crediting Mechanism gets its Operational Manual — Environment Exam angle: Launched 30 Sep in New Delhi by Japan's Ambassador and the MoEFCC Secretary. Covers the cycle from Project Idea Note to issuance and authorisation of credits under Article 6.2 of the Paris Agreement. Eligible: green hydrogen, offshore wind, storage-backed renewables, CCUS. Relates to India's Carbon Credit Trading Scheme. Memorize: MoC 7 Aug 2025 → Rules 8 Jun 2026 → Manual 30 Sep 2026; India NDC: 45% intensity cut by 2030, net zero 2070. Notebook: GS3 Environment (also GS2 IR – Japan). Static anchor: Shankar IAS — Climate Change: Paris Agreement & c"
+        },
+        {
+          "source": "daily/daily_pib/PIB_2026-10-06.md",
+          "date": "2026-10-06",
+          "cadence": "pib",
+          "excerpt": "3. Ministry of Environment, Forest & Climate Change: India–Japan Joint Crediting Mechanism (JCM) — Operational Manual launched (30 Sep, reported 6 Oct)"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-04-library-ethiopia-ethiopia",
+      "weekId": "2026-10-04-library",
+      "layer": "current",
+      "name": "Ethiopia",
+      "country": "Ethiopia",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 8.0328,
+      "lon": 39.0886,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-10",
+      "fact": "ills and institutions — a \"full-stack\" approach. India's AI-driven monsoon forecasts to farmers were cited as a lesson (Ethiopia adopting it). Memorise: WDR = annual flagship of the World Bank; IndiaAI Mission – 7 pillars (compute, foundation-model innovation centre, AIKosh datasets platform, application development, FutureSkills, startup financing, safe & trusted AI). Minister's claims (sugarcane yield +40% in Baramati, TB detection +35%) are not report findings. Notebook: GS3 – Sci-Tech / GS2 Governance Static anchor: Mrunal \"Reports & Indices\" sheet (add WDR 2026); Spectrum/IT chapter on AI. Nudge: link with digital public infrastructure a",
+      "locate": "Approximate study anchor for Ethiopia, Ethiopia. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-10.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-10.md",
+          "date": "2026-10-10",
+          "cadence": "daily",
+          "excerpt": "ills and institutions — a \"full-stack\" approach. India's AI-driven monsoon forecasts to farmers were cited as a lesson (Ethiopia adopting it). Memorise: WDR = annual flagship of the World Bank; IndiaAI Mission – 7 pillars (compute, foundation-model innovation centre, AIKosh datasets platform, application development, FutureSkills, startup financing, safe & trusted AI). Minister's claims (sugarcane yield +40% in Baramati, TB detection +35%) are not report findings. Notebook: GS3 – Sci-Tech / GS2 Governance Static anchor: Mrunal \"Reports & Indices\" sheet (add WDR 2026); Spectrum/IT chapter on AI. Nudge: link with digital public infrastructure a"
+        },
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-07.md",
+          "date": "2026-10-07",
+          "cadence": "daily",
+          "excerpt": "3. Jaishankar's Africa tour: Ghana, Côte d'Ivoire, Ethiopia — science and agriculture MoUs in Accra — International Relations Exam angle: The Ghana leg (6 Oct) covered trade, defence, technology and multilateral engagement, and produced two MoUs: Zoological Survey of India with the University of Ghana, and ICAR with CSIR-Crops Research Institute. It follows PM Modi's July 2025 Ghana visit (first bilateral PM visit in about three decades) and positions India for the AU/ECOWAS outreach. Memorize: Tour = Ghana, Côte d'Ivoire, Ethiopia (Ethiopia hosts the African Union HQ); MoUs = ZSI–Univ. of Ghana, ICAR–CSIR-CRI. Ghana's President Mahama is sla"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-04-library-ghana-ghana",
+      "weekId": "2026-10-04-library",
+      "layer": "current",
+      "name": "Ghana",
+      "country": "Ghana",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 7.7176,
+      "lon": -1.0369,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-07",
+      "fact": "3. Jaishankar's Africa tour: Ghana, Côte d'Ivoire, Ethiopia — science and agriculture MoUs in Accra — International Relations Exam angle: The Ghana leg (6 Oct) covered trade, defence, technology and multilateral engagement, and produced two MoUs: Zoological Survey of India with the University of Ghana, and ICAR with CSIR-Crops Research Institute. It follows PM Modi's July 2025 Ghana visit (first bilateral PM visit in about three decades) and positions India for the AU/ECOWAS outreach. Memorize: Tour = Ghana, Côte d'Ivoire, Ethiopia (Ethiopia hosts the African Union HQ); MoUs = ZSI–Univ. of Ghana, ICAR–CSIR-CRI. Ghana's President Mahama is sla",
+      "locate": "Approximate study anchor for Ghana, Ghana. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-07.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-07.md",
+          "date": "2026-10-07",
+          "cadence": "daily",
+          "excerpt": "3. Jaishankar's Africa tour: Ghana, Côte d'Ivoire, Ethiopia — science and agriculture MoUs in Accra — International Relations Exam angle: The Ghana leg (6 Oct) covered trade, defence, technology and multilateral engagement, and produced two MoUs: Zoological Survey of India with the University of Ghana, and ICAR with CSIR-Crops Research Institute. It follows PM Modi's July 2025 Ghana visit (first bilateral PM visit in about three decades) and positions India for the AU/ECOWAS outreach. Memorize: Tour = Ghana, Côte d'Ivoire, Ethiopia (Ethiopia hosts the African Union HQ); MoUs = ZSI–Univ. of Ghana, ICAR–CSIR-CRI. Ghana's President Mahama is sla"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-04-library-united-states-of-america-united-states-of-america",
+      "weekId": "2026-10-04-library",
+      "layer": "current",
+      "name": "United States of America",
+      "country": "United States of America",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 39.5385,
+      "lon": -97.4826,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-09",
+      "fact": "RIS) released around Ayurveda Day (reported 8 Oct) First sector-level economic mapping of Ayush services. - Sector size US$36.92 billion in FY2024-25; 16.91% CAGR since FY2022-23; projected US$216–318 billion by 2047. - About 1.76 million livelihoods, over a million in local and standalone clinics. - Women are 43% of the workforce; above 50% in several organised segments (spas/wellness resorts over 60%, educational institutes 58%, day-care centres 57%, hospitals 53%). - Why it matters: Evidence base for Ayush as an employment and services-export driver and for women's labour participation. - Notebook: GS3 Economy / GS1 Society (women's workfo",
+      "locate": "Approximate study anchor for United States of America, United States of America. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_pib/PIB_2026-10-09.md",
+      "references": [
+        {
+          "source": "daily/daily_pib/PIB_2026-10-09.md",
+          "date": "2026-10-09",
+          "cadence": "pib",
+          "excerpt": "RIS) released around Ayurveda Day (reported 8 Oct) First sector-level economic mapping of Ayush services. - Sector size US$36.92 billion in FY2024-25; 16.91% CAGR since FY2022-23; projected US$216–318 billion by 2047. - About 1.76 million livelihoods, over a million in local and standalone clinics. - Women are 43% of the workforce; above 50% in several organised segments (spas/wellness resorts over 60%, educational institutes 58%, day-care centres 57%, hospitals 53%). - Why it matters: Evidence base for Ayush as an employment and services-export driver and for women's labour participation. - Notebook: GS3 Economy / GS1 Society (women's workfo"
+        },
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-07.md",
+          "date": "2026-10-07",
+          "cadence": "daily",
+          "excerpt": "ers cited: food and fuel inflation with second-round risks, a deficient monsoon (2026 closed at 87% of LPA), crude near US$100/bbl and elevated global yields. A classic supply-shock vs. demand-management debate for Mains. Memorize: Repo 5.50%; SDF 5.25%; MSF and Bank Rate 5.75%; CPI FY27 5.2% (Q2 4.9, Q3 6.0, Q4 5.7); real GDP FY27 7.1%; inflation target 4% ±2%. Notebook: GS3 Economy (Monetary Policy, Inflation). Static anchor: Mrunal Economy pillar \"Monetary policy and inflation targeting\" / Ramesh Singh, Money & Banking chapter. Update: add the 2026 hike cycle to the policy-rate timeline and cross-link to the 87% LPA monsoon note (Geography"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-04-library-france-france",
+      "weekId": "2026-10-04-library",
+      "layer": "current",
+      "name": "France",
+      "country": "France",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 46.6961,
+      "lon": 2.5523,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-08",
+      "fact": "Prelims-style questions usually ask \"what is the discovery about\", not the laureates alone. Key facts: Henri B. Kagan (France; non-linear effects, mid-1980s) and Kenso Soai (Japan; Soai reaction, 1995, an asymmetric autocatalytic reaction). Prize money 12 million SEK, shared. Link to the Physics Nobel 2026 (Halzen, IceCube) covered on 7 Oct. Notebook: GS3 – Science & Technology (basic science, pharma). Static anchor: NCERT Class 11/12 Chemistry – Optical isomerism/stereochemistry. Nudge: add a \"Nobel 2026\" box listing Physics and Chemistry with one-line explainers.",
+      "locate": "Approximate study anchor for France, France. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-08.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-08.md",
+          "date": "2026-10-08",
+          "cadence": "daily",
+          "excerpt": "Prelims-style questions usually ask \"what is the discovery about\", not the laureates alone. Key facts: Henri B. Kagan (France; non-linear effects, mid-1980s) and Kenso Soai (Japan; Soai reaction, 1995, an asymmetric autocatalytic reaction). Prize money 12 million SEK, shared. Link to the Physics Nobel 2026 (Halzen, IceCube) covered on 7 Oct. Notebook: GS3 – Science & Technology (basic science, pharma). Static anchor: NCERT Class 11/12 Chemistry – Optical isomerism/stereochemistry. Nudge: add a \"Nobel 2026\" box listing Physics and Chemistry with one-line explainers."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-04-library-india-bharat-mandapam-delhi",
+      "weekId": "2026-10-04-library",
+      "layer": "current",
+      "name": "Bharat Mandapam / Delhi",
+      "country": "India",
+      "region": "Delhi",
+      "scope": "india",
+      "lat": 28.61,
+      "lon": 77.24,
+      "topic": "Briefing geography",
+      "hook": "Delhi · mentioned 2026-10-10",
+      "fact": "1. Ministry of Finance: 57th GST Council meeting (8 Oct, Bharat Mandapam) — arrest powers scrapped, prosecution threshold raised to ₹5 crore, faster refunds Notebook: GS3 Economy (Taxation, Federal Finance) / GS2 Governance",
+      "locate": "Approximate study anchor for Bharat Mandapam / Delhi, India. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/atlas/news.json",
+      "source": "daily/daily_pib/PIB_2026-10-10.md",
+      "references": [
+        {
+          "source": "daily/daily_pib/PIB_2026-10-10.md",
+          "date": "2026-10-10",
+          "cadence": "pib",
+          "excerpt": "1. Ministry of Finance: 57th GST Council meeting (8 Oct, Bharat Mandapam) — arrest powers scrapped, prosecution threshold raised to ₹5 crore, faster refunds Notebook: GS3 Economy (Taxation, Federal Finance) / GS2 Governance"
+        },
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-09.md",
+          "date": "2026-10-09",
+          "cadence": "daily",
+          "excerpt": "Ministry, with the Youth Affairs and Defence ministries, launched Joint Squad for Health (JOSH) teams on 8 Oct 2026 at Bharat Mandapam. The model mixes Class-I officers with MY Bharat volunteers and NCC cadets for community mobilisation. It is a Jan Bhagidari tool under TB Mukt Bharat, and an AI chatbot \"Khushi Avatar\" was also launched. Memorize: Joint Squad for Health | 55 districts in 11 States in phase 1 | Class-I officers + MY Bharat volunteers + NCC cadets | in 2025, 67,933 Panchayats in 697 districts were recognised TB Mukt. Notebook: GS2 Governance (Health) / GS1 Society. Static anchor: Laxmikanth Health policy material and the NTEP"
+        },
+        {
+          "source": "daily/daily_pib/PIB_2026-10-09.md",
+          "date": "2026-10-09",
+          "cadence": "pib",
+          "excerpt": "1. Ministry of Health & Family Welfare: JOSH Teams launched under TB Mukt Bharat Abhiyaan (8 Oct, Bharat Mandapam, New Delhi) Union Health Minister J.P. Nadda launched youth-led \"JOSH\" teams (reported as Joint Squad for Health) to push TB prevention, early diagnosis, treatment completion and stigma reduction. Volunteers identify vulnerable people, encourage testing and support patients through treatment. The initiative was built with the Ministries of Youth Affairs & Sports and Defence. - Phase 1: 55 districts in 11 States/UTs; remaining districts to follow (all 804 districts joined the launch virtually). - 6,347 JOSH squads of 31,429 MY Bhar"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-04-library-india-visakhapatnam",
+      "weekId": "2026-10-04-library",
+      "layer": "current",
+      "name": "Visakhapatnam",
+      "country": "India",
+      "region": "Andhra Pradesh",
+      "scope": "india",
+      "lat": 17.888,
+      "lon": 82.6855,
+      "topic": "Briefing geography",
+      "hook": "Andhra Pradesh · mentioned 2026-10-09",
+      "fact": "4. INS Surya: India's first indigenous Fleet Support Ship launched at HSL, Visakhapatnam — Internal Security Exam angle: The Defence Minister launched FSS-1 INS Surya, designed and built by Hindustan Shipyard Limited (a Defence Ministry PSU). Fleet support ships carry out at-sea replenishment, extending naval endurance and reach in the Indian Ocean Region. It is an Atmanirbhar Bharat in defence example. Reports mention helicopter-deck and self-defence features. Tonnage and order size are inconsistent across sources, so do not memorize them. Memorize: FSS = underway replenishment ship | HSL, Visakhapatnam | first indigenously designed and buil",
+      "locate": "Approximate study anchor for Visakhapatnam, India. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/bharatrajya-india-districts.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-09.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-09.md",
+          "date": "2026-10-09",
+          "cadence": "daily",
+          "excerpt": "4. INS Surya: India's first indigenous Fleet Support Ship launched at HSL, Visakhapatnam — Internal Security Exam angle: The Defence Minister launched FSS-1 INS Surya, designed and built by Hindustan Shipyard Limited (a Defence Ministry PSU). Fleet support ships carry out at-sea replenishment, extending naval endurance and reach in the Indian Ocean Region. It is an Atmanirbhar Bharat in defence example. Reports mention helicopter-deck and self-defence features. Tonnage and order size are inconsistent across sources, so do not memorize them. Memorize: FSS = underway replenishment ship | HSL, Visakhapatnam | first indigenously designed and buil"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-04-library-fiji-fiji",
+      "weekId": "2026-10-04-library",
+      "layer": "current",
+      "name": "Fiji",
+      "country": "Fiji",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": -17.8261,
+      "lon": 177.9754,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-10",
+      "fact": "4. Pre-COP31 in Nadi, Fiji: India presses balance of adaptation, mitigation and means of implementation — Environment Exam angle: Pre-COP31 (5–8 Oct) was co-hosted by Australia, Fiji and Tuvalu (leaders' event in Tuvalu) to centre Pacific priorities. COP31 will be at Antalya, Türkiye, 9–20 Nov 2026, with Australia presiding over negotiations — an unusual split-hosting arrangement. Environment Minister Bhupender Yadav called for equal attention to adaptation, mitigation and means of implementation, upheld CBDR-RC \"in letter and spirit\", and argued against one-size-fits-all action. Memorise: COP31 dates/venue/presidency above; India's three ask",
+      "locate": "Approximate study anchor for Fiji, Fiji. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-10.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-10.md",
+          "date": "2026-10-10",
+          "cadence": "daily",
+          "excerpt": "4. Pre-COP31 in Nadi, Fiji: India presses balance of adaptation, mitigation and means of implementation — Environment Exam angle: Pre-COP31 (5–8 Oct) was co-hosted by Australia, Fiji and Tuvalu (leaders' event in Tuvalu) to centre Pacific priorities. COP31 will be at Antalya, Türkiye, 9–20 Nov 2026, with Australia presiding over negotiations — an unusual split-hosting arrangement. Environment Minister Bhupender Yadav called for equal attention to adaptation, mitigation and means of implementation, upheld CBDR-RC \"in letter and spirit\", and argued against one-size-fits-all action. Memorise: COP31 dates/venue/presidency above; India's three ask"
+        },
+        {
+          "source": "daily/daily_pib/PIB_2026-10-10.md",
+          "date": "2026-10-10",
+          "cadence": "pib",
+          "excerpt": "ated away from Health, Ayush, MoSPI, MeitY and MoEFCC (covered 9 Oct) and Defence/Rural Development (8 Oct). Pre-COP31 (Fiji) and MoSPI's Environmental-Economic Accounts Strategy were already covered earlier, so they are skipped. Light day: four verified items."
+        },
+        {
+          "source": "daily/daily_pib/PIB_2026-10-09.md",
+          "date": "2026-10-09",
+          "cadence": "pib",
+          "excerpt": "5. Ministry of Environment, Forest & Climate Change: India at the informal pre-COP31 ministerial in Fiji (7 Oct) (single secondary source) Co-hosted by Australia, Fiji and Tuvalu. India's line: judge COP31 (Antalya, Türkiye, November 2026) by implementation, not new targets; honour existing commitments \"in true letter and spirit\"; expand capacity-building and means of implementation. - NDC (2022 update): 45% emissions-intensity cut vs 2005 by 2030; ~50% non-fossil installed capacity; extra 2.5–3 Gt CO₂e sink; net zero 2070. - Under the COP30 arrangement Türkiye hosts and Australia leads negotiations; India has offered to host COP33 (2028). -"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-04-library-tuvalu-tuvalu",
+      "weekId": "2026-10-04-library",
+      "layer": "current",
+      "name": "Tuvalu",
+      "country": "Tuvalu",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": -8.5137,
+      "lon": 179.2096,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-10",
+      "fact": "tigation and means of implementation — Environment Exam angle: Pre-COP31 (5–8 Oct) was co-hosted by Australia, Fiji and Tuvalu (leaders' event in Tuvalu) to centre Pacific priorities. COP31 will be at Antalya, Türkiye, 9–20 Nov 2026, with Australia presiding over negotiations — an unusual split-hosting arrangement. Environment Minister Bhupender Yadav called for equal attention to adaptation, mitigation and means of implementation, upheld CBDR-RC \"in letter and spirit\", and argued against one-size-fits-all action. Memorise: COP31 dates/venue/presidency above; India's three asks: adaptation parity, finance/tech/capacity-building, CBDR-RC. Note",
+      "locate": "Approximate study anchor for Tuvalu, Tuvalu. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-10.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-10.md",
+          "date": "2026-10-10",
+          "cadence": "daily",
+          "excerpt": "tigation and means of implementation — Environment Exam angle: Pre-COP31 (5–8 Oct) was co-hosted by Australia, Fiji and Tuvalu (leaders' event in Tuvalu) to centre Pacific priorities. COP31 will be at Antalya, Türkiye, 9–20 Nov 2026, with Australia presiding over negotiations — an unusual split-hosting arrangement. Environment Minister Bhupender Yadav called for equal attention to adaptation, mitigation and means of implementation, upheld CBDR-RC \"in letter and spirit\", and argued against one-size-fits-all action. Memorise: COP31 dates/venue/presidency above; India's three asks: adaptation parity, finance/tech/capacity-building, CBDR-RC. Note"
+        },
+        {
+          "source": "daily/daily_pib/PIB_2026-10-09.md",
+          "date": "2026-10-09",
+          "cadence": "pib",
+          "excerpt": "India at the informal pre-COP31 ministerial in Fiji (7 Oct) (single secondary source) Co-hosted by Australia, Fiji and Tuvalu. India's line: judge COP31 (Antalya, Türkiye, November 2026) by implementation, not new targets; honour existing commitments \"in true letter and spirit\"; expand capacity-building and means of implementation. - NDC (2022 update): 45% emissions-intensity cut vs 2005 by 2030; ~50% non-fossil installed capacity; extra 2.5–3 Gt CO₂e sink; net zero 2070. - Under the COP30 arrangement Türkiye hosts and Australia leads negotiations; India has offered to host COP33 (2028). - Notebook: GS3 Environment / GS2 IR."
         }
       ],
       "libraryDerived": true
@@ -10531,6 +10897,168 @@
           "date": "2026-10-05",
           "cadence": "pib",
           "excerpt": "of Ports, Shipping & Waterways (IWAI / NW-2): Bogibeel–Dhaka methanol cargo — first commercial international cargo from Dibrugarh since Independence (late Sep–early Oct)"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-04-library-india-mumbai",
+      "weekId": "2026-10-04-library",
+      "layer": "current",
+      "name": "Mumbai",
+      "country": "India",
+      "region": "Mahārāshtra",
+      "scope": "india",
+      "lat": 18.9711,
+      "lon": 72.838,
+      "topic": "Briefing geography",
+      "hook": "Mahārāshtra · mentioned 2026-10-06",
+      "fact": "4. Chemicals sector: India Chem 2026 curtain-raiser; BHAVYA Rasayan chemical parks (event 22–24 Oct, Mumbai)",
+      "locate": "Approximate study anchor for Mumbai, India. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/bharatrajya-india-districts.geojson",
+      "source": "daily/daily_pib/PIB_2026-10-06.md",
+      "references": [
+        {
+          "source": "daily/daily_pib/PIB_2026-10-06.md",
+          "date": "2026-10-06",
+          "cadence": "pib",
+          "excerpt": "4. Chemicals sector: India Chem 2026 curtain-raiser; BHAVYA Rasayan chemical parks (event 22–24 Oct, Mumbai)"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-04-library-china-china",
+      "weekId": "2026-10-04-library",
+      "layer": "current",
+      "name": "China",
+      "country": "China",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 32.4982,
+      "lon": 106.3373,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-07",
+      "fact": "Key facts: - Host: Aichi Prefecture and Nagoya, Japan; dates 19 Sep – 4 Oct 2026. - India's rank: 4th, behind China, Japan and South Korea. - Gold sources included archery, shooting, boxing, cricket, hockey and kabaddi (women's cricket, women's hockey and both kabaddi events were among the golds). - Policy anchors cited in the PIB-based summary (single secondary source, figures not independently verified): Khelo Bharat Niti (July 2025), National Sports Governance Act 2025, revamped Khelo India outlay for 2026-31, Sports Ministry BE 2026-27 about ₹4,480 crore. - Next: 5th Asian Para Games, 18–24 October 2026.",
+      "locate": "Approximate study anchor for China, China. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_pib/PIB_2026-10-07.md",
+      "references": [
+        {
+          "source": "daily/daily_pib/PIB_2026-10-07.md",
+          "date": "2026-10-07",
+          "cadence": "pib",
+          "excerpt": "Key facts: - Host: Aichi Prefecture and Nagoya, Japan; dates 19 Sep – 4 Oct 2026. - India's rank: 4th, behind China, Japan and South Korea. - Gold sources included archery, shooting, boxing, cricket, hockey and kabaddi (women's cricket, women's hockey and both kabaddi events were among the golds). - Policy anchors cited in the PIB-based summary (single secondary source, figures not independently verified): Khelo Bharat Niti (July 2025), National Sports Governance Act 2025, revamped Khelo India outlay for 2026-31, Sports Ministry BE 2026-27 about ₹4,480 crore. - Next: 5th Asian Para Games, 18–24 October 2026."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-04-library-south-korea-south-korea",
+      "weekId": "2026-10-04-library",
+      "layer": "current",
+      "name": "South Korea",
+      "country": "South Korea",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 36.3849,
+      "lon": 128.1295,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-07",
+      "fact": "ts: - Host: Aichi Prefecture and Nagoya, Japan; dates 19 Sep – 4 Oct 2026. - India's rank: 4th, behind China, Japan and South Korea. - Gold sources included archery, shooting, boxing, cricket, hockey and kabaddi (women's cricket, women's hockey and both kabaddi events were among the golds). - Policy anchors cited in the PIB-based summary (single secondary source, figures not independently verified): Khelo Bharat Niti (July 2025), National Sports Governance Act 2025, revamped Khelo India outlay for 2026-31, Sports Ministry BE 2026-27 about ₹4,480 crore. - Next: 5th Asian Para Games, 18–24 October 2026.",
+      "locate": "Approximate study anchor for South Korea, South Korea. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_pib/PIB_2026-10-07.md",
+      "references": [
+        {
+          "source": "daily/daily_pib/PIB_2026-10-07.md",
+          "date": "2026-10-07",
+          "cadence": "pib",
+          "excerpt": "ts: - Host: Aichi Prefecture and Nagoya, Japan; dates 19 Sep – 4 Oct 2026. - India's rank: 4th, behind China, Japan and South Korea. - Gold sources included archery, shooting, boxing, cricket, hockey and kabaddi (women's cricket, women's hockey and both kabaddi events were among the golds). - Policy anchors cited in the PIB-based summary (single secondary source, figures not independently verified): Khelo Bharat Niti (July 2025), National Sports Governance Act 2025, revamped Khelo India outlay for 2026-31, Sports Ministry BE 2026-27 about ₹4,480 crore. - Next: 5th Asian Para Games, 18–24 October 2026."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-04-library-united-arab-emirates-united-arab-emirates",
+      "weekId": "2026-10-04-library",
+      "layer": "current",
+      "name": "United Arab Emirates",
+      "country": "United Arab Emirates",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 23.4663,
+      "lon": 54.5473,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-08",
+      "fact": "launchers for Navy ships, Buy (Indian-IDDM) category, ≥68% indigenous content. - Exercise Mountain Guardian 2026 (India–UAE), 5–18 Oct, Chaubatia, Uttarakhand — mountain warfare, drones, surveillance. - PIB Backgrounder \"Additive Manufacturing in India\" (7 Oct) — title confirmed; contents not read. - 57th GST Council meeting in New Delhi (8 Oct) — outcomes not yet confirmed; check tomorrow.",
+      "locate": "Approximate study anchor for United Arab Emirates, United Arab Emirates. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_pib/PIB_2026-10-08.md",
+      "references": [
+        {
+          "source": "daily/daily_pib/PIB_2026-10-08.md",
+          "date": "2026-10-08",
+          "cadence": "pib",
+          "excerpt": "launchers for Navy ships, Buy (Indian-IDDM) category, ≥68% indigenous content. - Exercise Mountain Guardian 2026 (India–UAE), 5–18 Oct, Chaubatia, Uttarakhand — mountain warfare, drones, surveillance. - PIB Backgrounder \"Additive Manufacturing in India\" (7 Oct) — title confirmed; contents not read. - 57th GST Council meeting in New Delhi (8 Oct) — outcomes not yet confirmed; check tomorrow."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-04-library-india-chandigarh",
+      "weekId": "2026-10-04-library",
+      "layer": "current",
+      "name": "Chandigarh",
+      "country": "India",
+      "region": "Chandīgarh",
+      "scope": "india",
+      "lat": 30.7187,
+      "lon": 76.7775,
+      "topic": "Briefing geography",
+      "hook": "Chandīgarh · mentioned 2026-10-08",
+      "fact": "h Se Investing Simple' launched under Project Jagrook; SEBI starts official WhatsApp Channel (5 Oct, Panjab University, Chandigarh) (single source, flagged)",
+      "locate": "Approximate study anchor for Chandigarh, India. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/bharatrajya-india-districts.geojson",
+      "source": "daily/daily_pib/PIB_2026-10-08.md",
+      "references": [
+        {
+          "source": "daily/daily_pib/PIB_2026-10-08.md",
+          "date": "2026-10-08",
+          "cadence": "pib",
+          "excerpt": "h Se Investing Simple' launched under Project Jagrook; SEBI starts official WhatsApp Channel (5 Oct, Panjab University, Chandigarh) (single source, flagged)"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-04-library-singapore-singapore",
+      "weekId": "2026-10-04-library",
+      "layer": "current",
+      "name": "Singapore",
+      "country": "Singapore",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 1.3666,
+      "lon": 103.8169,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-09",
+      "fact": "alisation; Maritime Amrit Kaal Vision 2047 (~₹80 lakh crore investment need). - Finance: FM Nirmala Sitharaman visiting Singapore (9 Oct).",
+      "locate": "Approximate study anchor for Singapore, Singapore. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_pib/PIB_2026-10-09.md",
+      "references": [
+        {
+          "source": "daily/daily_pib/PIB_2026-10-09.md",
+          "date": "2026-10-09",
+          "cadence": "pib",
+          "excerpt": "alisation; Maritime Amrit Kaal Vision 2047 (~₹80 lakh crore investment need). - Finance: FM Nirmala Sitharaman visiting Singapore (9 Oct)."
         }
       ],
       "libraryDerived": true

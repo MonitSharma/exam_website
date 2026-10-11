@@ -12,6 +12,214 @@
   ],
   "questionSets": [
     {
+      "id": "daily_questions_2026_10_10",
+      "label": "Daily Questions - 10 Oct 2026",
+      "shortLabel": "Daily 10 Oct",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-10-10.json",
+      "sourcePath": "daily/daily_questions/daily_questions_2026-10-10.json",
+      "isoDate": "2026-10-10",
+      "subjects": [
+        "International Relations",
+        "Economy",
+        "Reports & Indices",
+        "Environment",
+        "Society"
+      ],
+      "bundleId": "daily_questions_2026_10_10",
+      "relatedNoteIds": [
+        "daily-daily-current-affairs-upsc-ca-2026-10-10"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "international-relations",
+        "economy",
+        "reports-and-indices",
+        "environment",
+        "society"
+      ],
+      "topicIds": [
+        "international-relations/navi-pillay-norwegian-nobel-committee",
+        "economy/57th-gst-council-decriminalisation-prosecution-threshold",
+        "reports-and-indices/world-bank-flagship-reports-ai-for-development",
+        "environment/cop31-pre-cop-pacific-priorities",
+        "society/trade-margin-rationalisation-nppa-drug-pricing",
+        "environment/cbdr-rc-unfccc-kyoto-vs-paris",
+        "international-relations/icj-vs-icc"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
+      "id": "daily_questions_2026_10_09",
+      "label": "Daily Questions - 09 Oct 2026",
+      "shortLabel": "Daily 09 Oct",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-10-09.json",
+      "sourcePath": "daily/daily_questions/daily_questions_2026-10-09.json",
+      "isoDate": "2026-10-09",
+      "subjects": [
+        "Environment",
+        "Economy",
+        "Society",
+        "Internal Security",
+        "Science & Technology"
+      ],
+      "bundleId": "daily_questions_2026_10_09",
+      "relatedNoteIds": [
+        "daily-daily-current-affairs-upsc-ca-2026-10-09"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "environment",
+        "economy",
+        "society",
+        "internal-security",
+        "science-technology"
+      ],
+      "topicIds": [
+        "environment/living-planet-report-2026-living-planet-index",
+        "economy/environmental-economic-accounts-strategy-2026-2030",
+        "society/josh-teams-tb-mukt-bharat-abhiyaan",
+        "internal-security/fleet-support-ship-ins-surya",
+        "science-technology/optogenetics-nobel-medicine-2026",
+        "environment/iucn-red-list-categories",
+        "economy/green-gdp-natural-capital-accounting"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
+      "id": "daily_questions_2026_10_08",
+      "label": "Daily Questions - 08 Oct 2026",
+      "shortLabel": "Daily 08 Oct",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-10-08.json",
+      "sourcePath": "daily/daily_questions/daily_questions_2026-10-08.json",
+      "isoDate": "2026-10-08",
+      "subjects": [
+        "International Relations",
+        "Science & Technology",
+        "Environment",
+        "Society",
+        "Polity & Governance"
+      ],
+      "bundleId": "daily_questions_2026_10_08",
+      "relatedNoteIds": [
+        "daily-daily-current-affairs-upsc-ca-2026-10-08"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "international-relations",
+        "science-technology",
+        "environment",
+        "society",
+        "polity"
+      ],
+      "topicIds": [
+        "international-relations/who-pandemic-agreement-and-pabs-annex",
+        "science-technology/chemistry-nobel-2026-chirality",
+        "environment/dugong-conservation-reserve-palk-bay",
+        "society/leprosy-elimination-and-sdr-pep",
+        "polity/rpwd-act-2016-provisions",
+        "environment/nagoya-protocol-abs",
+        "polity/article-41-dpsp"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
+      "id": "daily_questions_2026_10_07",
+      "label": "Daily Questions - 07 Oct 2026",
+      "shortLabel": "Daily 07 Oct",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-10-07.json",
+      "sourcePath": "daily/daily_questions/daily_questions_2026-10-07.json",
+      "isoDate": "2026-10-07",
+      "subjects": [
+        "Economy",
+        "Science & Technology",
+        "International Relations",
+        "Polity & Governance"
+      ],
+      "bundleId": "daily_questions_2026_10_07",
+      "relatedNoteIds": [
+        "daily-daily-current-affairs-upsc-ca-2026-10-07"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "economy",
+        "science-technology",
+        "international-relations",
+        "polity"
+      ],
+      "topicIds": [
+        "economy/rbi-mpc-october-2026-repo-hike",
+        "science-technology/nobel-physics-2026-icecube-and-neutrino-astronomy",
+        "international-relations/jaishankar-ghana-visit-and-india-ghana-mous",
+        "economy/integrated-transport-and-logistics-authority",
+        "polity/state-ucc-laws-and-article-44",
+        "economy/mpc-composition-and-inflation-targeting",
+        "science-technology/india-based-neutrino-observatory"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
+      "id": "daily_questions_2026_10_06",
+      "label": "Daily Questions - 06 Oct 2026",
+      "shortLabel": "Daily 06 Oct",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-10-06.json",
+      "sourcePath": "daily/daily_questions/daily_questions_2026-10-06.json",
+      "isoDate": "2026-10-06",
+      "subjects": [
+        "Polity & Governance",
+        "Economy",
+        "Environment",
+        "Science & Technology",
+        "Reports & Indices"
+      ],
+      "bundleId": "daily_questions_2026_10_06",
+      "relatedNoteIds": [
+        "daily-daily-current-affairs-upsc-ca-2026-10-06"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "polity",
+        "economy",
+        "environment",
+        "science-technology",
+        "reports-and-indices"
+      ],
+      "topicIds": [
+        "polity/great-nicobar-project-forest-rights-act-and-shompen",
+        "economy/inland-waterways-nw-2-and-indo-bangladesh-protocol-route",
+        "environment/india-japan-jcm-and-article-6-2",
+        "science-technology/national-supercomputing-mission-param-rudra",
+        "reports-and-indices/nso-household-surveys-nhts",
+        "polity/cultural-and-educational-rights-arts-29-30",
+        "environment/paris-agreement-article-6-markets"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
       "id": "daily_questions_2026_10_05",
       "label": "Daily Questions - 05 Oct 2026",
       "shortLabel": "Daily 05 Oct",
@@ -5766,6 +5974,174 @@
       "provenance": "generated"
     },
     {
+      "id": "pib_questions_2026_10_10",
+      "label": "PIB Questions - 10 Oct 2026",
+      "shortLabel": "PIB 10 Oct",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-10-10.json",
+      "sourcePath": "generated_data/pib_questions/2026-10-10.json",
+      "isoDate": "2026-10-10",
+      "subjects": [
+        "Economy",
+        "Polity & Governance",
+        "International Relations"
+      ],
+      "bundleId": "pib_questions_2026_10_10",
+      "relatedNoteIds": [
+        "daily-daily-pib-pib-2026-10-10"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "economy",
+        "polity",
+        "international-relations"
+      ],
+      "topicIds": [
+        "economy/gst-council-reforms",
+        "polity/national-sc-st-hub",
+        "international-relations/sagarmanthan-2026"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
+      "id": "pib_questions_2026_10_09",
+      "label": "PIB Questions - 09 Oct 2026",
+      "shortLabel": "PIB 09 Oct",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-10-09.json",
+      "sourcePath": "generated_data/pib_questions/2026-10-09.json",
+      "isoDate": "2026-10-09",
+      "subjects": [
+        "Polity & Governance",
+        "Economy",
+        "Reports & Indices"
+      ],
+      "bundleId": "pib_questions_2026_10_09",
+      "relatedNoteIds": [
+        "daily-daily-pib-pib-2026-10-09"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "polity",
+        "economy",
+        "reports-and-indices"
+      ],
+      "topicIds": [
+        "polity/josh-teams-tb-mukt-bharat-abhiyaan",
+        "economy/environmental-economic-accounts-strategy",
+        "reports-and-indices/world-development-report-2026"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
+      "id": "pib_questions_2026_10_08",
+      "label": "PIB Questions - 08 Oct 2026",
+      "shortLabel": "PIB 08 Oct",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-10-08.json",
+      "sourcePath": "generated_data/pib_questions/2026-10-08.json",
+      "isoDate": "2026-10-08",
+      "subjects": [
+        "Polity & Governance",
+        "Science & Technology",
+        "Internal Security"
+      ],
+      "bundleId": "pib_questions_2026_10_08",
+      "relatedNoteIds": [
+        "daily-daily-pib-pib-2026-10-08"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "polity",
+        "science-technology",
+        "internal-security"
+      ],
+      "topicIds": [
+        "polity/vb-g-ram-g-permissible-works",
+        "science-technology/drdo-haps",
+        "internal-security/chief-of-the-air-staff-2026"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
+      "id": "pib_questions_2026_10_07",
+      "label": "PIB Questions - 07 Oct 2026",
+      "shortLabel": "PIB 07 Oct",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-10-07.json",
+      "sourcePath": "generated_data/pib_questions/2026-10-07.json",
+      "isoDate": "2026-10-07",
+      "subjects": [
+        "Reports & Indices",
+        "Polity & Governance",
+        "Science & Technology"
+      ],
+      "bundleId": "pib_questions_2026_10_07",
+      "relatedNoteIds": [
+        "daily-daily-pib-pib-2026-10-07"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "reports-and-indices",
+        "polity",
+        "science-technology"
+      ],
+      "topicIds": [
+        "reports-and-indices/asian-games-2026",
+        "polity/press-council-of-india",
+        "science-technology/drdo-mcps"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
+      "id": "pib_questions_2026_10_06",
+      "label": "PIB Questions - 06 Oct 2026",
+      "shortLabel": "PIB 06 Oct",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-10-06.json",
+      "sourcePath": "generated_data/pib_questions/2026-10-06.json",
+      "isoDate": "2026-10-06",
+      "subjects": [
+        "Economy",
+        "Environment"
+      ],
+      "bundleId": "pib_questions_2026_10_06",
+      "relatedNoteIds": [
+        "daily-daily-pib-pib-2026-10-06"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "economy",
+        "environment"
+      ],
+      "topicIds": [
+        "economy/integrated-transport-and-logistics-authority",
+        "economy/sme-growth-fund",
+        "environment/article-6-2-india-japan-jcm"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
       "id": "pib_questions_2026_10_05",
       "label": "PIB Questions - 05 Oct 2026",
       "shortLabel": "PIB 05 Oct",
@@ -9985,6 +10361,91 @@
       "provenance": "generated"
     },
     {
+      "id": "weekly_quiz_2026_10_11",
+      "label": "Weekly Recall Quiz - 11 Oct 2026",
+      "shortLabel": "Weekly Quiz 11 Oct",
+      "category": "Weekly Quiz",
+      "sourceType": "weekly-quiz",
+      "questionCount": 15,
+      "durationMinutes": 25,
+      "path": "weekly/weekly_quiz/weekly_questions_2026-10-11.json",
+      "sourcePath": "weekly/weekly_quiz/weekly_questions_2026-10-11.json",
+      "isoDate": "2026-10-11",
+      "subjects": [
+        "Economy",
+        "Environment",
+        "International Relations",
+        "Polity & Governance",
+        "Science & Technology",
+        "Agriculture",
+        "Ancient & Medieval History",
+        "Art & Culture"
+      ],
+      "bundleId": "weekly_quiz_2026_10_11",
+      "relatedNoteIds": [],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "economy",
+        "environment",
+        "international-relations",
+        "polity",
+        "science-technology",
+        "agriculture",
+        "ancient-and-medieval-history",
+        "culture"
+      ],
+      "topicIds": [
+        "economy/laf-corridor-after-oct-2026-hike-sdf-floor-and-collateral-free-absorption-msf-bank-rate",
+        "environment/living-planet-report-2026-wwf-zsl-lpi-average-decline-caveat-biennial",
+        "international-relations/india-efta-tepa-first-european-bloc-fta-members-100-bn-target-efta-outside-eu-customs-union",
+        "polity/state-ucc-laws-art-44-non-justiciable-concurrent-list-entry-5-art-254-2-assent",
+        "environment/iwc-under-icrw-1946-not-a-un-agency-1986-commercial-whaling-moratorium",
+        "science-technology/optogenetics-and-channelrhodopsin-nobel-medicine-2026",
+        "science-technology/neutrino-observatories-icecube-ino-theni-km3net-vs-baikal-gvd",
+        "economy/gst-council-art-279a-fm-as-chair-mohit-minerals-persuasive-not-binding-57th-meeting",
+        "environment/cop31-antalya-with-australian-presidency-of-negotiations-paris-art-6-2-vs-6-4-india-japan-jcm",
+        "polity/pressure-groups-definition-aituc-1920-almond-powell-anomic-groups",
+        "economy/intermediary-abolition-bhoodan-at-pochampalli-1951-operation-barga-west-bengal",
+        "agriculture/wto-aoa-green-amber-10-de-minimis-and-blue-boxes",
+        "ancient-and-medieval-history/mansabdari-zat-sawar-du-aspa-sih-aspa-under-jahangir-non-hereditary-jagirs",
+        "ancient-and-medieval-history/chronology-khanwa-1527-chausa-1539-panipat-ii-1556-haldighati-1576",
+        "culture/humayun-s-tomb-buland-darwaza-itmad-ud-daulah-pietra-dura-moti-masjid-agra-vs-delhi"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
+      "id": "weekly_quiz_2026_10_09",
+      "label": "Weekly Recall Quiz - 09 Oct 2026",
+      "shortLabel": "Weekly Quiz 09 Oct",
+      "category": "Weekly Quiz",
+      "sourceType": "weekly-quiz",
+      "questionCount": 20,
+      "durationMinutes": 30,
+      "path": "generated_data/weekly_quiz_questions/2026-10-09.json",
+      "sourcePath": "weekly/weekly_quiz/Recall_Quiz_2026-10-09.md",
+      "isoDate": "2026-10-09",
+      "subjects": [
+        "Current Affairs",
+        "Economy"
+      ],
+      "bundleId": "weekly_quiz_2026_10_09",
+      "relatedNoteIds": [
+        "weekly-weekly-quiz-recall-quiz-2026-10-09"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "current-affairs",
+        "economy"
+      ],
+      "topicIds": [
+        "current-affairs/weekly-recall-quiz",
+        "economy/weekly-recall-quiz"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
       "id": "weekly_quiz_2026_10_04",
       "label": "Weekly Recall Quiz - 04 Oct 2026",
       "shortLabel": "Weekly Quiz 04 Oct",
@@ -11384,6 +11845,98 @@
         "polity/weekly-recall-quiz"
       ],
       "format": "drill",
+      "provenance": "generated"
+    },
+    {
+      "id": "sectional_book-topics_2026_10_11_extra",
+      "label": "Book Topics · Add-on · 2026-10-11",
+      "shortLabel": "Book Topics · 2026-10-11",
+      "category": "Extra Practice",
+      "sourceType": "sectional",
+      "questionCount": 50,
+      "durationMinutes": 80,
+      "path": "generated_data/sectional_questions/book-topics_2026-10-11_chatgpt.json",
+      "sourcePath": "generated_data/sectional_questions/book-topics_2026-10-11_chatgpt.json",
+      "isoDate": "2026-10-11",
+      "variant": "extra-practice",
+      "variantLabel": "Add-on",
+      "isSupplementary": true,
+      "subjects": [
+        "Polity",
+        "Economy",
+        "Medieval History",
+        "Science & Technology",
+        "International Relations",
+        "Geography",
+        "Art & Culture"
+      ],
+      "bundleId": "sectional_book-topics_2026_10_11_extra",
+      "relatedNoteIds": [
+        "weekly-sectional-sectional-book-topics-2026-10-11-chatgpt"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "polity",
+        "economy",
+        "medieval-history",
+        "science-technology",
+        "international-relations",
+        "geography",
+        "culture"
+      ],
+      "topicIds": [
+        "polity/pressure-groups-vs-political-parties",
+        "polity/almond-powell-classification-of-interest-groups",
+        "polity/trade-unions-and-their-party-links",
+        "polity/symbols-order-1968-state-party-vs-national-party-conditions",
+        "polity/national-party-recognition-and-the-2016-review-change",
+        "polity/coalition-era-prime-ministers-in-sequence",
+        "polity/features-of-coalition-government",
+        "polity/national-integration-council",
+        "polity/gujral-doctrine",
+        "polity/non-aligned-movement-origins",
+        "economy/land-reforms-most-successful-component",
+        "economy/operation-barga",
+        "economy/bhoodan-movement",
+        "economy/model-agricultural-land-leasing-act-2016",
+        "economy/wto-agreement-on-agriculture-subsidy-boxes",
+        "economy/poverty-estimation-committees",
+        "economy/ppp-models-ham-and-tot",
+        "economy/new-industrial-policy-1991-what-it-changed",
+        "medieval-history/battles-chronology",
+        "medieval-history/sher-shah-s-reforms",
+        "medieval-history/jagirdar-vs-zamindar",
+        "medieval-history/mansabdari-zat-sawar-du-aspa-sih-aspa",
+        "medieval-history/akbar-s-religious-policy-chronology",
+        "medieval-history/mughal-land-revenue-methods",
+        "medieval-history/central-officials",
+        "medieval-history/europeans-at-the-mughal-court",
+        "medieval-history/mughal-painting",
+        "medieval-history/persian-translations-and-chronicles",
+        "science-technology/restriction-endonucleases",
+        "science-technology/cloning-vector-pbr322-and-insertional-inactivation",
+        "science-technology/pcr-and-taq-polymerase",
+        "science-technology/bt-toxin-mechanism",
+        "science-technology/rna-interference-against-nematodes",
+        "science-technology/recombinant-human-insulin",
+        "science-technology/gene-therapy-ada-deficiency",
+        "international-relations/efta-membership",
+        "international-relations/india-efta-tepa",
+        "international-relations/india-africa-forum-summits",
+        "international-relations/african-union-and-the-g20",
+        "international-relations/kampala-principles-aagc-and-tele-education",
+        "international-relations/india-eu-ttc-imec-cbam",
+        "geography/major-ports-and-their-locations",
+        "geography/riverine-port",
+        "geography/jhabua-watershed-case-study",
+        "geography/wastelands-natural-vs-human-induced",
+        "culture/buland-darwaza",
+        "culture/later-mughal-monuments-patrons",
+        "culture/humayun-s-tomb",
+        "culture/mughal-gardens",
+        "culture/fatehpur-sikri"
+      ],
+      "format": "sectional",
       "provenance": "generated"
     },
     {
@@ -16640,6 +17193,19 @@
   ],
   "noteDocuments": [
     {
+      "id": "anki-prelims-flashcards-2026-10-11",
+      "cadence": "anki",
+      "title": "Prelims Flashcards",
+      "shortTitle": "Anki - 11 Oct",
+      "date": "2026-10-11",
+      "path": "anki/Prelims_Flashcards_2026-10-11.txt",
+      "bundleId": "anki-prelims-flashcards-2026-10-11",
+      "relatedNoteIds": [],
+      "relatedSetIds": [],
+      "subjectIds": [],
+      "topicIds": []
+    },
+    {
       "id": "anki-prelims-flashcards-2026-10-04",
       "cadence": "anki",
       "title": "Prelims Flashcards",
@@ -16865,6 +17431,184 @@
       "relatedSetIds": [],
       "subjectIds": [],
       "topicIds": []
+    },
+    {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-10-10",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "10 Oct 2026",
+      "date": "2026-10-10",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-10-10.md",
+      "bundleId": "daily-daily-current-affairs-upsc-ca-2026-10-10",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "daily_questions_2026_10_10"
+      ],
+      "subjectIds": [
+        "international-relations",
+        "economy",
+        "reports-and-indices",
+        "environment",
+        "society"
+      ],
+      "topicIds": [
+        "international-relations/navi-pillay-norwegian-nobel-committee",
+        "economy/57th-gst-council-decriminalisation-prosecution-threshold",
+        "reports-and-indices/world-bank-flagship-reports-ai-for-development",
+        "environment/cop31-pre-cop-pacific-priorities",
+        "society/trade-margin-rationalisation-nppa-drug-pricing",
+        "environment/cbdr-rc-unfccc-kyoto-vs-paris",
+        "international-relations/icj-vs-icc"
+      ],
+      "atlasWeekId": "2026-10-04-library",
+      "atlasFeatureIds": [
+        "2026-10-04-library-australia-australia",
+        "2026-10-04-library-ethiopia-ethiopia",
+        "2026-10-04-library-fiji-fiji",
+        "2026-10-04-library-tuvalu-tuvalu"
+      ],
+      "mapStatus": "ready"
+    },
+    {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-10-09",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "09 Oct 2026",
+      "date": "2026-10-09",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-10-09.md",
+      "bundleId": "daily-daily-current-affairs-upsc-ca-2026-10-09",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "daily_questions_2026_10_09"
+      ],
+      "subjectIds": [
+        "environment",
+        "economy",
+        "society",
+        "internal-security",
+        "science-technology"
+      ],
+      "topicIds": [
+        "environment/living-planet-report-2026-living-planet-index",
+        "economy/environmental-economic-accounts-strategy-2026-2030",
+        "society/josh-teams-tb-mukt-bharat-abhiyaan",
+        "internal-security/fleet-support-ship-ins-surya",
+        "science-technology/optogenetics-nobel-medicine-2026",
+        "environment/iucn-red-list-categories",
+        "economy/green-gdp-natural-capital-accounting"
+      ],
+      "atlasWeekId": "2026-10-04-library",
+      "atlasFeatureIds": [
+        "2026-10-04-library-india-bharat-mandapam-delhi",
+        "2026-10-04-library-india-visakhapatnam"
+      ],
+      "mapStatus": "ready"
+    },
+    {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-10-08",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "08 Oct 2026",
+      "date": "2026-10-08",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-10-08.md",
+      "bundleId": "daily-daily-current-affairs-upsc-ca-2026-10-08",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "daily_questions_2026_10_08"
+      ],
+      "subjectIds": [
+        "international-relations",
+        "science-technology",
+        "environment",
+        "society",
+        "polity"
+      ],
+      "topicIds": [
+        "international-relations/who-pandemic-agreement-and-pabs-annex",
+        "science-technology/chemistry-nobel-2026-chirality",
+        "environment/dugong-conservation-reserve-palk-bay",
+        "society/leprosy-elimination-and-sdr-pep",
+        "polity/rpwd-act-2016-provisions",
+        "environment/nagoya-protocol-abs",
+        "polity/article-41-dpsp"
+      ],
+      "atlasWeekId": "2026-10-04-library",
+      "atlasFeatureIds": [
+        "2026-10-04-library-japan-japan",
+        "2026-10-04-library-france-france"
+      ],
+      "mapStatus": "ready"
+    },
+    {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-10-07",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "07 Oct 2026",
+      "date": "2026-10-07",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-10-07.md",
+      "bundleId": "daily-daily-current-affairs-upsc-ca-2026-10-07",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "daily_questions_2026_10_07"
+      ],
+      "subjectIds": [
+        "economy",
+        "science-technology",
+        "international-relations",
+        "polity"
+      ],
+      "topicIds": [
+        "economy/rbi-mpc-october-2026-repo-hike",
+        "science-technology/nobel-physics-2026-icecube-and-neutrino-astronomy",
+        "international-relations/jaishankar-ghana-visit-and-india-ghana-mous",
+        "economy/integrated-transport-and-logistics-authority",
+        "polity/state-ucc-laws-and-article-44",
+        "economy/mpc-composition-and-inflation-targeting",
+        "science-technology/india-based-neutrino-observatory"
+      ],
+      "atlasWeekId": "2026-10-04-library",
+      "atlasFeatureIds": [
+        "2026-10-04-library-ethiopia-ethiopia",
+        "2026-10-04-library-ghana-ghana",
+        "2026-10-04-library-united-states-of-america-united-states-of-america"
+      ],
+      "mapStatus": "ready"
+    },
+    {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-10-06",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "06 Oct 2026",
+      "date": "2026-10-06",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-10-06.md",
+      "bundleId": "daily-daily-current-affairs-upsc-ca-2026-10-06",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "daily_questions_2026_10_06"
+      ],
+      "subjectIds": [
+        "polity",
+        "economy",
+        "environment",
+        "science-technology",
+        "reports-and-indices"
+      ],
+      "topicIds": [
+        "polity/great-nicobar-project-forest-rights-act-and-shompen",
+        "economy/inland-waterways-nw-2-and-indo-bangladesh-protocol-route",
+        "environment/india-japan-jcm-and-article-6-2",
+        "science-technology/national-supercomputing-mission-param-rudra",
+        "reports-and-indices/nso-household-surveys-nhts",
+        "polity/cultural-and-educational-rights-arts-29-30",
+        "environment/paris-agreement-article-6-markets"
+      ],
+      "atlasWeekId": "2026-10-04-library",
+      "atlasFeatureIds": [
+        "2026-10-04-library-india-prayagraj-sangam",
+        "2026-10-04-library-bangladesh-bangladesh",
+        "2026-10-04-library-japan-japan"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-current-affairs-upsc-ca-2026-10-05",
@@ -21031,6 +21775,19 @@
       "topicIds": []
     },
     {
+      "id": "weekly-essays-essay-2026-10-10",
+      "cadence": "essay",
+      "title": "Model Essay",
+      "shortTitle": "Essay - 10 Oct",
+      "date": "2026-10-10",
+      "path": "weekly/Essays/Essay_2026-10-10.md",
+      "bundleId": "weekly-essays-essay-2026-10-10",
+      "relatedNoteIds": [],
+      "relatedSetIds": [],
+      "subjectIds": [],
+      "topicIds": []
+    },
+    {
       "id": "weekly-essays-essay-2026-10-03",
       "cadence": "essay",
       "title": "Model Essay",
@@ -21142,6 +21899,19 @@
       "date": "2026-08-10",
       "path": "Essay_Topic_2026-08-10.md",
       "bundleId": "essay-topic-2026-08-10",
+      "relatedNoteIds": [],
+      "relatedSetIds": [],
+      "subjectIds": [],
+      "topicIds": []
+    },
+    {
+      "id": "ethics-case-2026-10-08",
+      "cadence": "ethics",
+      "title": "Weekly Ethics Case Study",
+      "shortTitle": "Case - 08 Oct",
+      "date": "2026-10-08",
+      "path": "Ethics_Case_2026-10-08.md",
+      "bundleId": "ethics-case-2026-10-08",
       "relatedNoteIds": [],
       "relatedSetIds": [],
       "subjectIds": [],
@@ -21285,6 +22055,84 @@
       "date": "",
       "path": "reference/Fodder_Bank.md",
       "bundleId": "reference-fodder-bank",
+      "relatedNoteIds": [],
+      "relatedSetIds": [],
+      "subjectIds": [],
+      "topicIds": []
+    },
+    {
+      "id": "daily-daily-mains-gs-mains-2026-10-10",
+      "cadence": "mains",
+      "title": "GS Mains Answer Practice",
+      "shortTitle": "Mains - 10 Oct",
+      "date": "2026-10-10",
+      "path": "daily/daily_mains/GS_Mains_2026-10-10.md",
+      "bundleId": "daily-daily-mains-gs-mains-2026-10-10",
+      "relatedNoteIds": [],
+      "relatedSetIds": [],
+      "subjectIds": [],
+      "topicIds": []
+    },
+    {
+      "id": "daily-daily-mains-gs-mains-2026-10-09",
+      "cadence": "mains",
+      "title": "GS Mains Answer Practice",
+      "shortTitle": "Mains - 09 Oct",
+      "date": "2026-10-09",
+      "path": "daily/daily_mains/GS_Mains_2026-10-09.md",
+      "bundleId": "daily-daily-mains-gs-mains-2026-10-09",
+      "relatedNoteIds": [],
+      "relatedSetIds": [],
+      "subjectIds": [],
+      "topicIds": []
+    },
+    {
+      "id": "daily-daily-mains-gs-mains-2026-10-08",
+      "cadence": "mains",
+      "title": "GS Mains Answer Practice",
+      "shortTitle": "Mains - 08 Oct",
+      "date": "2026-10-08",
+      "path": "daily/daily_mains/GS_Mains_2026-10-08.md",
+      "bundleId": "daily-daily-mains-gs-mains-2026-10-08",
+      "relatedNoteIds": [],
+      "relatedSetIds": [],
+      "subjectIds": [],
+      "topicIds": []
+    },
+    {
+      "id": "daily-daily-mains-gs-mains-2026-10-07",
+      "cadence": "mains",
+      "title": "GS Mains Answer Practice",
+      "shortTitle": "Mains - 07 Oct",
+      "date": "2026-10-07",
+      "path": "daily/daily_mains/GS_Mains_2026-10-07.md",
+      "bundleId": "daily-daily-mains-gs-mains-2026-10-07",
+      "relatedNoteIds": [],
+      "relatedSetIds": [],
+      "subjectIds": [],
+      "topicIds": []
+    },
+    {
+      "id": "daily-daily-mains-gs-mains-2026-10-06",
+      "cadence": "mains",
+      "title": "GS Mains Answer Practice",
+      "shortTitle": "Mains - 06 Oct",
+      "date": "2026-10-06",
+      "path": "daily/daily_mains/GS_Mains_2026-10-06.md",
+      "bundleId": "daily-daily-mains-gs-mains-2026-10-06",
+      "relatedNoteIds": [],
+      "relatedSetIds": [],
+      "subjectIds": [],
+      "topicIds": []
+    },
+    {
+      "id": "daily-daily-mains-gs-mains-2026-10-05",
+      "cadence": "mains",
+      "title": "GS Mains Answer Practice",
+      "shortTitle": "Mains - 05 Oct",
+      "date": "2026-10-05",
+      "path": "daily/daily_mains/GS_Mains_2026-10-05.md",
+      "bundleId": "daily-daily-mains-gs-mains-2026-10-05",
       "relatedNoteIds": [],
       "relatedSetIds": [],
       "subjectIds": [],
@@ -22108,6 +22956,158 @@
       "relatedSetIds": [],
       "subjectIds": [],
       "topicIds": []
+    },
+    {
+      "id": "daily-daily-pib-pib-2026-10-10",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 10 Oct",
+      "date": "2026-10-10",
+      "path": "daily/daily_pib/PIB_2026-10-10.md",
+      "bundleId": "daily-daily-pib-pib-2026-10-10",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "pib_questions_2026_10_10"
+      ],
+      "subjectIds": [
+        "economy",
+        "polity",
+        "international-relations"
+      ],
+      "topicIds": [
+        "economy/gst-council-reforms",
+        "polity/national-sc-st-hub",
+        "international-relations/sagarmanthan-2026"
+      ],
+      "atlasWeekId": "2026-10-04-library",
+      "atlasFeatureIds": [
+        "2026-10-04-library-india-new-delhi",
+        "2026-10-04-library-india-bharat-mandapam-delhi",
+        "2026-10-04-library-fiji-fiji"
+      ],
+      "mapStatus": "ready"
+    },
+    {
+      "id": "daily-daily-pib-pib-2026-10-09",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 09 Oct",
+      "date": "2026-10-09",
+      "path": "daily/daily_pib/PIB_2026-10-09.md",
+      "bundleId": "daily-daily-pib-pib-2026-10-09",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "pib_questions_2026_10_09"
+      ],
+      "subjectIds": [
+        "polity",
+        "economy",
+        "reports-and-indices"
+      ],
+      "topicIds": [
+        "polity/josh-teams-tb-mukt-bharat-abhiyaan",
+        "economy/environmental-economic-accounts-strategy",
+        "reports-and-indices/world-development-report-2026"
+      ],
+      "atlasWeekId": "2026-10-04-library",
+      "atlasFeatureIds": [
+        "2026-10-04-library-australia-australia",
+        "2026-10-04-library-india-new-delhi",
+        "2026-10-04-library-united-states-of-america-united-states-of-america",
+        "2026-10-04-library-india-bharat-mandapam-delhi",
+        "2026-10-04-library-fiji-fiji",
+        "2026-10-04-library-tuvalu-tuvalu",
+        "2026-10-04-library-singapore-singapore"
+      ],
+      "mapStatus": "ready"
+    },
+    {
+      "id": "daily-daily-pib-pib-2026-10-08",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 08 Oct",
+      "date": "2026-10-08",
+      "path": "daily/daily_pib/PIB_2026-10-08.md",
+      "bundleId": "daily-daily-pib-pib-2026-10-08",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "pib_questions_2026_10_08"
+      ],
+      "subjectIds": [
+        "polity",
+        "science-technology",
+        "internal-security"
+      ],
+      "topicIds": [
+        "polity/vb-g-ram-g-permissible-works",
+        "science-technology/drdo-haps",
+        "internal-security/chief-of-the-air-staff-2026"
+      ],
+      "atlasWeekId": "2026-10-04-library",
+      "atlasFeatureIds": [
+        "2026-10-04-library-india-new-delhi",
+        "2026-10-04-library-united-arab-emirates-united-arab-emirates",
+        "2026-10-04-library-india-chandigarh"
+      ],
+      "mapStatus": "ready"
+    },
+    {
+      "id": "daily-daily-pib-pib-2026-10-07",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 07 Oct",
+      "date": "2026-10-07",
+      "path": "daily/daily_pib/PIB_2026-10-07.md",
+      "bundleId": "daily-daily-pib-pib-2026-10-07",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "pib_questions_2026_10_07"
+      ],
+      "subjectIds": [
+        "reports-and-indices",
+        "polity",
+        "science-technology"
+      ],
+      "topicIds": [
+        "reports-and-indices/asian-games-2026",
+        "polity/press-council-of-india",
+        "science-technology/drdo-mcps"
+      ],
+      "atlasWeekId": "2026-10-04-library",
+      "atlasFeatureIds": [
+        "2026-10-04-library-japan-japan",
+        "2026-10-04-library-china-china",
+        "2026-10-04-library-south-korea-south-korea"
+      ],
+      "mapStatus": "ready"
+    },
+    {
+      "id": "daily-daily-pib-pib-2026-10-06",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 06 Oct",
+      "date": "2026-10-06",
+      "path": "daily/daily_pib/PIB_2026-10-06.md",
+      "bundleId": "daily-daily-pib-pib-2026-10-06",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "pib_questions_2026_10_06"
+      ],
+      "subjectIds": [
+        "economy",
+        "environment"
+      ],
+      "topicIds": [
+        "economy/integrated-transport-and-logistics-authority",
+        "economy/sme-growth-fund",
+        "environment/article-6-2-india-japan-jcm"
+      ],
+      "atlasWeekId": "2026-10-04-library",
+      "atlasFeatureIds": [
+        "2026-10-04-library-japan-japan",
+        "2026-10-04-library-india-mumbai"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-pib-pib-2026-10-05",
@@ -25624,6 +26624,83 @@
       "topicIds": []
     },
     {
+      "id": "weekly-sectional-sectional-book-topics-2026-10-11-chatgpt",
+      "cadence": "sectional",
+      "title": "Weekly Book Topics 50Q Companion",
+      "shortTitle": "Book Topics - 11 Oct",
+      "date": "2026-10-11",
+      "path": "weekly/Sectional/Sectional_book-topics_2026-10-11_chatgpt.md",
+      "variant": "supplementary",
+      "variantLabel": "Companion",
+      "isSupplementary": true,
+      "bundleId": "weekly-sectional-sectional-book-topics-2026-10-11-chatgpt",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "sectional_book-topics_2026_10_11_extra"
+      ],
+      "subjectIds": [
+        "polity",
+        "economy",
+        "medieval-history",
+        "science-technology",
+        "international-relations",
+        "geography",
+        "culture"
+      ],
+      "topicIds": [
+        "polity/pressure-groups-vs-political-parties",
+        "polity/almond-powell-classification-of-interest-groups",
+        "polity/trade-unions-and-their-party-links",
+        "polity/symbols-order-1968-state-party-vs-national-party-conditions",
+        "polity/national-party-recognition-and-the-2016-review-change",
+        "polity/coalition-era-prime-ministers-in-sequence",
+        "polity/features-of-coalition-government",
+        "polity/national-integration-council",
+        "polity/gujral-doctrine",
+        "polity/non-aligned-movement-origins",
+        "economy/land-reforms-most-successful-component",
+        "economy/operation-barga",
+        "economy/bhoodan-movement",
+        "economy/model-agricultural-land-leasing-act-2016",
+        "economy/wto-agreement-on-agriculture-subsidy-boxes",
+        "economy/poverty-estimation-committees",
+        "economy/ppp-models-ham-and-tot",
+        "economy/new-industrial-policy-1991-what-it-changed",
+        "medieval-history/battles-chronology",
+        "medieval-history/sher-shah-s-reforms",
+        "medieval-history/jagirdar-vs-zamindar",
+        "medieval-history/mansabdari-zat-sawar-du-aspa-sih-aspa",
+        "medieval-history/akbar-s-religious-policy-chronology",
+        "medieval-history/mughal-land-revenue-methods",
+        "medieval-history/central-officials",
+        "medieval-history/europeans-at-the-mughal-court",
+        "medieval-history/mughal-painting",
+        "medieval-history/persian-translations-and-chronicles",
+        "science-technology/restriction-endonucleases",
+        "science-technology/cloning-vector-pbr322-and-insertional-inactivation",
+        "science-technology/pcr-and-taq-polymerase",
+        "science-technology/bt-toxin-mechanism",
+        "science-technology/rna-interference-against-nematodes",
+        "science-technology/recombinant-human-insulin",
+        "science-technology/gene-therapy-ada-deficiency",
+        "international-relations/efta-membership",
+        "international-relations/india-efta-tepa",
+        "international-relations/india-africa-forum-summits",
+        "international-relations/african-union-and-the-g20",
+        "international-relations/kampala-principles-aagc-and-tele-education",
+        "international-relations/india-eu-ttc-imec-cbam",
+        "geography/major-ports-and-their-locations",
+        "geography/riverine-port",
+        "geography/jhabua-watershed-case-study",
+        "geography/wastelands-natural-vs-human-induced",
+        "culture/buland-darwaza",
+        "culture/later-mughal-monuments-patrons",
+        "culture/humayun-s-tomb",
+        "culture/mughal-gardens",
+        "culture/fatehpur-sikri"
+      ]
+    },
+    {
       "id": "weekly-sectional-sectional-book-topics-2026-10-04-chatgpt",
       "cadence": "sectional",
       "title": "Weekly Book Topics 50Q Companion",
@@ -26821,6 +27898,19 @@
       "date": "",
       "path": "CSAT_Strategy_Guide.md",
       "bundleId": "csat-strategy-guide",
+      "relatedNoteIds": [],
+      "relatedSetIds": [],
+      "subjectIds": [],
+      "topicIds": []
+    },
+    {
+      "id": "weekly-sunday-sunday-sweep-2026-10-11",
+      "cadence": "sunday",
+      "title": "Sunday Sweep",
+      "shortTitle": "Week of 11 Oct",
+      "date": "2026-10-11",
+      "path": "weekly/Sunday/Sunday_Sweep_2026-10-11.md",
+      "bundleId": "weekly-sunday-sunday-sweep-2026-10-11",
       "relatedNoteIds": [],
       "relatedSetIds": [],
       "subjectIds": [],
@@ -28168,6 +29258,27 @@
         "0613-kanlaon"
       ],
       "mapStatus": "ready"
+    },
+    {
+      "id": "weekly-weekly-quiz-recall-quiz-2026-10-09",
+      "cadence": "weekly-quiz",
+      "title": "Weekly Recall Quiz",
+      "shortTitle": "09 Oct 2026",
+      "date": "2026-10-09",
+      "path": "weekly/weekly_quiz/Recall_Quiz_2026-10-09.md",
+      "bundleId": "weekly-weekly-quiz-recall-quiz-2026-10-09",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "weekly_quiz_2026_10_09"
+      ],
+      "subjectIds": [
+        "current-affairs",
+        "economy"
+      ],
+      "topicIds": [
+        "current-affairs/weekly-recall-quiz",
+        "economy/weekly-recall-quiz"
+      ]
     },
     {
       "id": "weekly-weekly-quiz-recall-quiz-2026-10-02",

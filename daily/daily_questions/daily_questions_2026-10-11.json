@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to the anti-defection proceedings against AIADMK legislators in the Tamil Nadu Assembly (2026), consider the following statements:\n1. Under Paragraph 2(1)(b) of the Tenth Schedule, voting against the party whip does not entail disqualification if the party condones the act within fifteen days.\n2. Decisions of the Speaker under the Tenth Schedule are immune from judicial review.\n3. In Shrimanth Balasaheb Patil (2019), the Supreme Court held that a member's resignation does not render pending disqualification proceedings infructuous.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statement 1 is correct: the 15-day condonation proviso applies to contrary voting under para 2(1)(b), not to voluntarily giving up membership under 2(1)(a). Statement 2 is wrong: Kihoto Hollohan (1992) struck down Para 7 (the bar on courts); judicial review survives on limited grounds (mala fides, perversity, natural justice). Statement 3 is correct per the case law cited in commentary on the matter. The Supreme Court on 9 Oct 2026 declined to interfere with the Speaker closing proceedings after the party withdrew its petitions (as reported).",
+    "subject": "Polity & Governance",
+    "theme": "Anti-defection law",
+    "micro_topic": "Tenth Schedule - condonation and Speaker's role",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the European Union's Carbon Border Adjustment Mechanism (CBAM), consider the following statements:\n1. It places a carbon-related charge on imports of certain carbon-intensive goods into the EU.\n2. Its covered sectors include cement, iron and steel, aluminium, fertilisers, electricity and hydrogen.\n3. It was adopted as a binding decision of the UNFCCC Conference of the Parties.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "CBAM is a unilateral EU regulation (Regulation (EU) 2023/956), not a UNFCCC COP decision - which is exactly why India and other developing countries object to it on CBDR-RC and WTO grounds. Its definitive period began on 1 Jan 2026. On 8 Oct 2026 the US Trade Representative opened a docket seeking public comments (30 days) on CBAM's effects on US producers and on EU proposals to widen its scope, including whether enforcement action is appropriate.",
+    "subject": "International Relations",
+    "theme": "Climate trade measures",
+    "micro_topic": "CBAM and the US/India response",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "'Mangrol', which is scheduled to be commissioned into the Indian Navy at Mumbai on 12 October 2026, is best described as:",
+    "options": [
+      "(a) An anti-submarine warfare shallow-water craft built by Cochin Shipyard Limited",
+      "(b) A fleet support ship built by Hindustan Shipyard Limited",
+      "(c) A stealth frigate of Project 17A",
+      "(d) A nuclear-powered attack submarine"
+    ],
+    "answer": "(a)",
+    "explanation": "Mangrol is the third ASW Shallow Water Craft (ASW-SWC) built by Cochin Shipyard Ltd, with Abhay hull-mounted sonar, lightweight torpedoes, an indigenous anti-submarine rocket launcher and Maareech torpedo decoys; reported indigenous content is over 80%. (INS Surya, launched on 9 Oct, is a different vessel - a fleet support ship from HSL.)",
+    "subject": "Internal Security",
+    "theme": "Naval indigenisation",
+    "micro_topic": "ASW shallow water craft",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the Supreme Court's hearing in Rajeev Suri v. Archaeological Survey of India (October 2026) on neglected heritage monuments in Delhi, consider the following statements:\n1. Monuments declared of national importance are protected under the Ancient Monuments and Archaeological Sites and Remains Act, 1958, administered by the ASI under the Ministry of Culture.\n2. As amended in 2010, the Act creates a 100-metre prohibited area around a centrally protected monument.\n3. A historic structure not notified as protected by the ASI enjoys the same statutory protection under the Act as a notified monument.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statements 1 and 2 are correct (AMASR Act 1958; 2010 amendment: 100 m prohibited area plus a further 200 m regulated area). Statement 3 is wrong: statutory protection under the Act flows from notification - the lack of notification of sites such as Lal Mahal is precisely the gap in the case. On 7 Oct 2026 the bench of Justices Amanullah and N.K. Singh warned of drastic action, impleaded the Culture ministry's department and summoned senior officials for 16 Oct; the Zamroodpur tombs (Lodhi era) were found used as a cow shed and dumping ground.",
+    "subject": "Art & Culture",
+    "theme": "Heritage protection",
+    "micro_topic": "AMASR Act 1958 and ASI",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the draft guidelines released by the National Statistics Office in October 2026 for compiling Gross State Domestic Product (GSDP) from the expenditure side, consider the following statements:\n1. The draft uses 2022-23 as the base year.\n2. The framework covers consumption, capital formation and net exports, and notes that no State currently compiles Private Final Consumption Expenditure.\n3. Expenditure-side estimates are intended to replace production-side estimates of GSDP.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Per the draft released on 9 Oct 2026 (comments till 28 Oct), the framework uses base year 2022-23 and covers PFCE, GFCE, GFCF, changes in inventories, valuables and net exports; some States compile GFCE/GFCF but none compile PFCE. Statement 3 is wrong - expenditure-side estimates complement, not replace, production and income-side measures.",
+    "subject": "Economy",
+    "theme": "National income accounting",
+    "micro_topic": "Expenditure method of GDP/GSDP",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "With reference to the Tenth Schedule of the Constitution, consider the following statements:\n1. It was added by the 52nd Constitutional Amendment Act, 1985.\n2. The 91st Amendment, 2003 omitted the provision that protected a split in a legislature party involving one-third of its members.\n3. The merger of a political party is recognised if at least two-thirds of the members of the legislature party agree to it.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. Para 3 (one-third split protection) was deleted by the 91st Amendment (2003), which also capped Council of Ministers size at 15% of the House; Para 4 (merger with two-thirds of the legislature party) remains.",
+    "subject": "Polity & Governance",
+    "theme": "Anti-defection law",
+    "micro_topic": "Tenth Schedule - amendments and merger",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the protection of cultural heritage under the Constitution of India, consider the following statements:\n1. Article 49, a Directive Principle, obliges the State to protect monuments and places of national importance declared by or under law made by Parliament.\n2. Article 51A(f) makes it a Fundamental Duty of every citizen to value and preserve the rich heritage of the country's composite culture.\n3. Article 49 is a justiciable Fundamental Right enforceable through Article 32.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Article 49 is a DPSP (non-justiciable, Article 37) and Article 51A(f) is a Fundamental Duty. Courts nonetheless read them with Article 21 and the AMASR Act 1958 to direct protection of monuments, as in the Delhi heritage matter.",
+    "subject": "Art & Culture",
+    "theme": "Heritage and the Constitution",
+    "micro_topic": "Article 49 and Article 51A(f)",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  }
+]

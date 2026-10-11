@@ -1,0 +1,242 @@
+[
+ {
+  "question": "With reference to the Liquidity Adjustment Facility (LAF) after the RBI's October 2026 policy, consider the following statements:\n1. The Standing Deposit Facility (SDF) rate forms the floor and the Marginal Standing Facility (MSF) rate the ceiling of the LAF corridor.\n2. Following the October 2026 hike, the MSF rate and the Bank Rate stand at the same level.\n3. Under the SDF, the RBI must provide government securities as collateral to the banks that park funds with it.\n\nWhich of the statements given above is/are correct?",
+  "options": [
+   "(a) 1 only",
+   "(b) 1 and 2 only",
+   "(c) 2 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(b)",
+  "explanation": "The SDF (introduced April 2022) is the corridor floor and the MSF the ceiling. After the 7 Oct 2026 hike: repo 5.50%, SDF 5.25%, MSF = Bank Rate = 5.75%. The SDF absorbs liquidity without collateral; that is its whole point compared with reverse repo, so statement 3 is wrong.",
+  "subject": "Economy",
+  "theme": "Monetary Policy",
+  "micro_topic": "LAF corridor after Oct 2026 hike, SDF floor and collateral-free absorption, MSF = Bank Rate",
+  "nature": "Current Affairs",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "With reference to the Living Planet Report 2026, consider the following statements:\n1. It is published by WWF, and its Living Planet Index is compiled with the Zoological Society of London.\n2. Its headline figure of a 73% decline means that 73% of all individual wild vertebrates alive in 1970 have been lost.\n3. It is published every year.\n\nWhich of the statements given above is/are correct?",
+  "options": [
+   "(a) 1 only",
+   "(b) 1 and 2 only",
+   "(c) 2 and 3 only",
+   "(d) 1 and 3 only"
+  ],
+  "answer": "(a)",
+  "explanation": "WWF publishes the LPR, and the LPI is compiled with ZSL. The 73% is an average change in monitored population size (35,803 populations of 5,790 species), not 73% of animals lost. The report is biennial.",
+  "subject": "Environment",
+  "theme": "Biodiversity Reports",
+  "micro_topic": "Living Planet Report 2026, WWF-ZSL LPI, average-decline caveat, biennial",
+  "nature": "Current Affairs",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "With reference to the India–EFTA Trade and Economic Partnership Agreement (TEPA), consider the following statements:\n1. It is India's first free trade agreement with a European economic bloc.\n2. EFTA's members are Iceland, Liechtenstein, Norway and Switzerland.\n3. It includes a target of US$100 billion in investment in India over 15 years.\n4. All EFTA members are part of the European Union's customs union.\n\nWhich of the statements given above are correct?",
+  "options": [
+   "(a) 1 and 2 only",
+   "(b) 1, 2 and 3 only",
+   "(c) 2, 3 and 4 only",
+   "(d) 1, 2, 3 and 4"
+  ],
+  "answer": "(b)",
+  "explanation": "TEPA (signed 10 Mar 2024, in force 1 Oct 2025) is India's first FTA with a European bloc. EFTA = Iceland, Liechtenstein, Norway, Switzerland. It includes the $100 bn / 15-year investment target. EFTA states are outside the EU customs union (Switzerland has bilateral deals; the other three are in the EEA, not the customs union).",
+  "subject": "International Relations",
+  "theme": "India-Europe",
+  "micro_topic": "India-EFTA TEPA: first European-bloc FTA, members, $100 bn target, EFTA outside EU customs union",
+  "nature": "Current Affairs",
+  "difficulty": "Easy"
+ },
+ {
+  "question": "Consider the following statements regarding a State law on a Uniform Civil Code:\n1. Article 44 of the Constitution, which directs the State to secure a Uniform Civil Code, is enforceable by courts.\n2. Marriage, divorce and succession fall under the Concurrent List.\n3. A State law on a Concurrent List subject that is repugnant to an earlier central law can prevail in that State if it has been reserved for and received the President's assent.\n\nWhich of the statements given above are correct?",
+  "options": [
+   "(a) 1 and 2 only",
+   "(b) 2 and 3 only",
+   "(c) 1 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(b)",
+  "explanation": "Art 44 is a DPSP and so is non-justiciable (Art 37). Personal law matters such as marriage, divorce and succession are in Concurrent List Entry 5. Art 254(2) lets a State law prevail in that State if reserved for and assented to by the President, which is why the Gujarat and Assam UCC laws needed Presidential assent.",
+  "subject": "Polity & Governance",
+  "theme": "Centre-State Relations",
+  "micro_topic": "State UCC laws: Art 44 non-justiciable, Concurrent List Entry 5, Art 254(2) assent",
+  "nature": "Conceptual",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "With reference to the International Whaling Commission (IWC), consider the following statements:\n1. It was set up under the International Convention for the Regulation of Whaling, 1946.\n2. It is a specialised agency of the United Nations.\n3. A moratorium on commercial whaling has been in effect since 1986.\n\nWhich of the statements given above are correct?",
+  "options": [
+   "(a) 1 and 2 only",
+   "(b) 2 and 3 only",
+   "(c) 1 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(c)",
+  "explanation": "The IWC was created under the 1946 ICRW (Washington). It is not a UN agency. The commercial-whaling moratorium took effect in 1986. India joined in 1981.",
+  "subject": "Environment",
+  "theme": "International Conventions",
+  "micro_topic": "IWC under ICRW 1946, not a UN agency, 1986 commercial-whaling moratorium",
+  "nature": "Current Affairs",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "Optogenetics, recognised by the 2026 Nobel Prize in Physiology or Medicine, mainly involves:",
+  "options": [
+   "(a) editing genes using a light-activated version of Cas9 to cure inherited blindness",
+   "(b) controlling genetically targeted cells with light, using light-sensitive ion channels such as channelrhodopsin",
+   "(c) imaging individual neurons using high-energy X-ray crystallography",
+   "(d) destroying tumour cells with focused laser beams after injecting photosensitive dyes"
+  ],
+  "answer": "(b)",
+  "explanation": "Optogenetics (Deisseroth, Hegemann, Nagel) inserts light-gated channels such as channelrhodopsin, first found in algae, into chosen cells, which can then be switched on or off with light. It is mainly a research tool for mapping neural circuits.",
+  "subject": "Science & Technology",
+  "theme": "Biotechnology",
+  "micro_topic": "Optogenetics and channelrhodopsin (Nobel Medicine 2026)",
+  "nature": "Current Affairs",
+  "difficulty": "Easy"
+ },
+ {
+  "question": "Consider the following pairs (neutrino observatory — location):\n1. IceCube — ice at the South Pole, Antarctica\n2. India-based Neutrino Observatory (proposed) — Bodi West Hills, Theni, Tamil Nadu\n3. KM3NeT — Lake Baikal, Russia\n\nHow many of the pairs given above are correctly matched?",
+  "options": [
+   "(a) Only one",
+   "(b) Only two",
+   "(c) All three",
+   "(d) None"
+  ],
+  "answer": "(b)",
+  "explanation": "IceCube sits in Antarctic ice at the South Pole, and INO is proposed at Bodi West Hills, Theni. KM3NeT is in the Mediterranean Sea. The Lake Baikal detector is Baikal-GVD.",
+  "subject": "Science & Technology",
+  "theme": "Physics and Space",
+  "micro_topic": "Neutrino observatories: IceCube, INO Theni, KM3NeT vs Baikal-GVD",
+  "nature": "Factual",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "With reference to the GST Council, consider the following statements:\n1. Following the Mohit Minerals judgment (2022), the Council's recommendations are binding on Parliament and State legislatures.\n2. The Council is a constitutional body under Article 279A.\n3. The Union Finance Minister chairs the Council.\n\nWhich of the statements given above are correct?",
+  "options": [
+   "(a) 1 and 2 only",
+   "(b) 2 and 3 only",
+   "(c) 1 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(b)",
+  "explanation": "*Union of India v Mohit Minerals* (2022) held that GST Council recommendations are persuasive, not binding. The Council is constitutional (Art 279A, 101st Amdt 2016) and chaired by the Union Finance Minister. The 57th meeting (8 Oct 2026) recommended dropping arrest powers and raising the prosecution threshold to ₹5 cr.",
+  "subject": "Economy",
+  "theme": "Taxation",
+  "micro_topic": "GST Council: Art 279A, FM as chair, Mohit Minerals persuasive-not-binding, 57th meeting",
+  "nature": "Current Affairs",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "Consider the following statements:\n1. COP31 to the UNFCCC (November 2026) is to be held in Türkiye, with Australia presiding over the negotiations.\n2. Article 6.2 of the Paris Agreement provides for cooperative approaches involving internationally transferred mitigation outcomes (ITMOs).\n3. The India–Japan Joint Crediting Mechanism operates under the centralised mechanism of Article 6.4 of the Paris Agreement.\n\nWhich of the statements given above are correct?",
+  "options": [
+   "(a) 1 and 2 only",
+   "(b) 2 and 3 only",
+   "(c) 1 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(a)",
+  "explanation": "COP31 is in Antalya, Türkiye (9–20 Nov 2026), with Australia presiding over negotiations and Pre-COP in Fiji. Article 6.2 covers bilateral/cooperative approaches with ITMOs. The JCM operates under Art 6.2 (bilateral), not the Art 6.4 centralised mechanism.",
+  "subject": "Environment",
+  "theme": "Climate Change",
+  "micro_topic": "COP31 Antalya with Australian presidency of negotiations; Paris Art 6.2 vs 6.4; India-Japan JCM",
+  "nature": "Current Affairs",
+  "difficulty": "Hard"
+ },
+ {
+  "question": "With reference to pressure groups in India, consider the following statements:\n1. Pressure groups try to influence public policy without contesting elections to capture political power.\n2. The All India Trade Union Congress (AITUC), founded in 1920, is India's oldest trade-union federation.\n3. In the Almond–Powell classification, \"anomic\" pressure groups are formally organised professional bodies such as Bar Councils.\n\nWhich of the statements given above are correct?",
+  "options": [
+   "(a) 1 and 2 only",
+   "(b) 2 and 3 only",
+   "(c) 1 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(a)",
+  "explanation": "Pressure groups seek influence, not office. AITUC (1920, Bombay; first president Lala Lajpat Rai) is the oldest federation. Anomic groups are spontaneous and unorganised (riots, demonstrations). Bodies like Bar Councils are associational/institutional.",
+  "subject": "Polity & Governance",
+  "theme": "Political Dynamics",
+  "micro_topic": "Pressure groups: definition, AITUC 1920, Almond-Powell anomic groups",
+  "nature": "Conceptual",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "Consider the following statements regarding land reforms in India:\n1. The abolition of intermediaries is generally regarded as the most successful component of land reforms.\n2. The Bhoodan movement was started by Vinoba Bhave at Pochampalli in 1951.\n3. \"Operation Barga\", for recording sharecroppers, was carried out in Kerala.\n\nWhich of the statements given above are correct?",
+  "options": [
+   "(a) 1 and 2 only",
+   "(b) 2 and 3 only",
+   "(c) 1 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(a)",
+  "explanation": "Intermediary (zamindari) abolition was the most complete part of land reforms. Bhoodan began at Pochampalli (then Hyderabad State, now Telangana) on 18 April 1951. Operation Barga was West Bengal (1978), under the Left Front government.",
+  "subject": "Economy",
+  "theme": "Land Reforms",
+  "micro_topic": "Intermediary abolition, Bhoodan at Pochampalli 1951, Operation Barga West Bengal",
+  "nature": "Factual",
+  "difficulty": "Easy"
+ },
+ {
+  "question": "Under the WTO Agreement on Agriculture, consider the following statements:\n1. Green Box subsidies are not subject to reduction commitments.\n2. For developing countries, the de minimis limit for Amber Box support is 5% of the value of production.\n3. The Blue Box covers direct payments made under production-limiting programmes.\n\nWhich of the statements given above are correct?",
+  "options": [
+   "(a) 1 and 2 only",
+   "(b) 2 and 3 only",
+   "(c) 1 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(c)",
+  "explanation": "Green Box support is exempt from reduction. The Amber Box de minimis is 10% for developing countries (5% for developed). The Blue Box covers payments under production-limiting programmes.",
+  "subject": "Agriculture",
+  "theme": "WTO and Farm Subsidies",
+  "micro_topic": "WTO AoA Green, Amber (10% de minimis) and Blue boxes",
+  "nature": "Conceptual",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "With reference to the Mughal mansabdari system, consider the following statements:\n1. The zat rank fixed a mansabdar's personal status and salary, while the sawar rank showed the number of horsemen he had to maintain.\n2. The du-aspa sih-aspa rank was introduced under Jahangir.\n3. Mansabdars were usually paid through jagirs, which were hereditary.\n\nWhich of the statements given above are correct?",
+  "options": [
+   "(a) 1 and 2 only",
+   "(b) 2 and 3 only",
+   "(c) 1 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(a)",
+  "explanation": "Zat = personal rank and pay; sawar = cavalry obligation. Du-aspa sih-aspa (troopers with two or three horses) dates from Jahangir. Jagirs were transferable and non-hereditary, unlike zamindari rights. This is the 2019 PYQ's core.",
+  "subject": "Ancient & Medieval History",
+  "theme": "Mughal Empire",
+  "micro_topic": "Mansabdari: zat/sawar, du-aspa sih-aspa under Jahangir, non-hereditary jagirs",
+  "nature": "Conceptual",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "Arrange the following battles in chronological order:\n1. Battle of Haldighati\n2. Battle of Khanwa\n3. Second Battle of Panipat\n4. Battle of Chausa\n\nSelect the correct answer using the code below:",
+  "options": [
+   "(a) 2-4-3-1",
+   "(b) 4-2-3-1",
+   "(c) 2-3-4-1",
+   "(d) 2-4-1-3"
+  ],
+  "answer": "(a)",
+  "explanation": "Khanwa 1527 → Chausa 1539 → Panipat II 1556 → Haldighati 1576.",
+  "subject": "Ancient & Medieval History",
+  "theme": "Mughal Empire",
+  "micro_topic": "Chronology: Khanwa 1527, Chausa 1539, Panipat II 1556, Haldighati 1576",
+  "nature": "Factual",
+  "difficulty": "Easy"
+ },
+ {
+  "question": "Consider the following pairs (Mughal monument — associated fact):\n1. Humayun's Tomb — commissioned by Humayun's widow, with a char-bagh garden plan\n2. Buland Darwaza — commemorates Akbar's conquest of Gujarat\n3. Itmad-ud-Daulah's tomb — built by Nur Jahan, with early large-scale use of pietra dura\n4. Moti Masjid inside Agra Fort — built by Aurangzeb\n\nHow many of the pairs given above are correctly matched?",
+  "options": [
+   "(a) Only one",
+   "(b) Only two",
+   "(c) Only three",
+   "(d) All four"
+  ],
+  "answer": "(c)",
+  "explanation": "Pairs 1–3 are correct. Humayun's Tomb was commissioned by Haji (Bega) Begum, with a char-bagh plan. Buland Darwaza marks the Gujarat campaign. Itmad-ud-Daulah's tomb was built by Nur Jahan, with early large-scale pietra dura. The Moti Masjid in Agra Fort was built by Shah Jahan. Aurangzeb built the Moti Masjid in the Delhi Red Fort.",
+  "subject": "Art & Culture",
+  "theme": "Mughal Architecture",
+  "micro_topic": "Humayun's Tomb, Buland Darwaza, Itmad-ud-Daulah pietra dura, Moti Masjid Agra vs Delhi",
+  "nature": "Factual",
+  "difficulty": "Moderate"
+ }
+]
