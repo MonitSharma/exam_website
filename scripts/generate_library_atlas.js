@@ -48,7 +48,7 @@ function sunday(date) {
 }
 function syncLibraryAtlas(root, news) {
   const gazetteer = buildGazetteer(root, news);
-  const cutoff = news.weeks.filter((w) => !w.libraryDerived).map((w) => w.id).sort().at(-1) || '';
+  const cutoff = '2026-09-05';
   news.weeks = news.weeks.filter((w) => !w.libraryDerived);
   news.features = news.features.filter((f) => !f.libraryDerived);
   const groups = new Map();

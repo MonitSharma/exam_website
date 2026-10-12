@@ -18442,6 +18442,7 @@
       "atlasFeatureIds": [
         "2026-09-27-library-india-western-ghats-kerala",
         "2026-09-27-library-india-mundra-nhava-sheva",
+        "2026-09-27-library-india-western-ghats-esa-",
         "2026-09-27-library-china-china",
         "2026-09-27-library-russia-russia",
         "2026-09-27-library-taiwan-taiwan",
@@ -19011,6 +19012,7 @@
         "2026-09-13-library-kyrgyzstan-bishkek",
         "2026-09-13-library-india-vizhinjam",
         "2026-09-13-library-indonesia-anak-krakatau",
+        "2026-09-13-library-south-sudan-boma-badingilo",
         "2026-09-13-library-lebanon-lebanon",
         "2026-09-13-library-france-france",
         "2026-09-13-library-costa-rica-costa-rica",
@@ -19227,6 +19229,7 @@
         "2026-09-06-library-philippines-philippines",
         "2026-09-06-library-india-hyderabad",
         "2026-09-06-library-india-western-ghats-kerala",
+        "2026-09-06-library-india-western-ghats-esa-",
         "2026-09-06-library-india-new-delhi"
       ],
       "mapStatus": "ready"
@@ -19264,6 +19267,7 @@
         "2026-09-06-library-china-china",
         "2026-09-06-library-iran-iran",
         "2026-09-06-library-pakistan-pakistan",
+        "2026-09-06-library-south-sudan-boma-badingilo",
         "2026-09-06-library-ethiopia-ethiopia",
         "2026-09-06-library-south-sudan-south-sudan",
         "2026-09-06-library-bhutan-bhutan",
@@ -29782,8 +29786,20 @@
         "geography/map-based-current-affairs"
       ],
       "atlasWeekId": "2026-10-12",
-      "atlasFeatureIds": [],
-      "mapStatus": "pending"
+      "atlasFeatureIds": [
+        "2026-10-12-1",
+        "2026-10-12-2",
+        "2026-10-12-3",
+        "2026-10-12-4",
+        "2026-10-12-5",
+        "2026-10-12-6",
+        "2026-10-12-7",
+        "2026-10-12-8",
+        "2026-10-12-9",
+        "2026-10-12-10",
+        "2026-10-12-11"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "weekly-weekly-news-places-in-news-2026-09-05",
