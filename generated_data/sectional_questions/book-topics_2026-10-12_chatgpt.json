@@ -1,0 +1,1552 @@
+[
+  {
+    "id": "book_topics_2026_10_12_01",
+    "question_number": 1,
+    "question": "With reference to Article 12 of the Constitution of India, consider the following statements:\n1. The 'State' includes the Government and Parliament of India and the Government and Legislature of each State.\n2. The 'State' includes all local or other authorities within the territory of India or under the control of the Government of India.\n3. Every private company, merely by being incorporated under the Companies Act, is a 'State' for the purposes of Part III.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Article 12 covers the Union and State governments and legislatures and 'all local or other authorities'. A private company is not a 'State' merely by incorporation; the courts look at whether it is an instrumentality or agency of the State.",
+    "subject": "Polity",
+    "theme": "Polity - Fundamental Rights, Part III (Laxmikanth) - F11 Polity PYQ consolidation",
+    "micro_topic": "Article 12 - definition of 'State'",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_12_02",
+    "question_number": 2,
+    "question": "Which of the following Fundamental Rights are available ONLY to citizens of India and not to foreigners?\n1. Equality before law (Article 14)\n2. Prohibition of discrimination on grounds of religion, race, caste, sex or place of birth (Article 15)\n3. The six freedoms of Article 19\n4. Protection of life and personal liberty (Article 21)\n5. Protection of interests of minorities (Article 29)\nSelect the correct answer using the code given below:",
+    "options": [
+      {
+        "key": "a",
+        "text": "2, 3 and 5 only"
+      },
+      {
+        "key": "b",
+        "text": "1, 2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "3 and 5 only"
+      },
+      {
+        "key": "d",
+        "text": "2, 3, 4 and 5"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Articles 15, 16, 19, 29 and 30 are for citizens only. Articles 14 and 21 use the word 'person' and so cover foreigners too (the citizen-vs-person table from this week's SR list).",
+    "subject": "Polity",
+    "theme": "Polity - Fundamental Rights, Part III (Laxmikanth) - F11 Polity PYQ consolidation",
+    "micro_topic": "Rights available only to citizens",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_12_03",
+    "question_number": 3,
+    "question": "With reference to Article 13 of the Constitution, consider the following statements:\n1. Laws inconsistent with or in derogation of the Fundamental Rights are void to the extent of the inconsistency.\n2. Under Article 13(3), 'law' includes ordinances and customs or usages having the force of law.\n3. Article 13(4), inserted by the 24th Amendment, says that nothing in Article 13 applies to an amendment of the Constitution made under Article 368.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All three are correct. Article 13(4) came with the 24th Amendment (1971), after Golak Nath. Constitutional amendments can still be struck down, but on the basic-structure test (Kesavananda Bharati, 1973), not under Article 13.",
+    "subject": "Polity",
+    "theme": "Polity - Fundamental Rights, Part III (Laxmikanth) - F11 Polity PYQ consolidation",
+    "micro_topic": "Article 13 - meaning of 'law' and Article 13(4)",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_12_04",
+    "question_number": 4,
+    "question": "Consider the following statements:\n1. Article 15(4), enabling special provisions for socially and educationally backward classes and SCs/STs, was inserted by the First Amendment after the Champakam Dorairajan case.\n2. Article 16(4A), enabling reservation in promotion, applies to Other Backward Classes.\n3. Article 15(5), enabling reservation in admission to private unaided educational institutions other than minority institutions, was inserted by the 93rd Amendment.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Article 16(4A) (77th Amendment, 1995) covers reservation in promotion for SCs and STs only, not OBCs. Statements 1 (First Amendment, 1951) and 3 (93rd Amendment, 2005) are correct.",
+    "subject": "Polity",
+    "theme": "Polity - Fundamental Rights, Part III (Laxmikanth) - F11 Polity PYQ consolidation",
+    "micro_topic": "Articles 15 and 16 - enabling clauses and the amendments behind them",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_12_05",
+    "question_number": 5,
+    "question": "Under which category of Fundamental Rights does the abolition of untouchability (Article 17) fall?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Right against Exploitation"
+      },
+      {
+        "key": "b",
+        "text": "Right to Equality"
+      },
+      {
+        "key": "c",
+        "text": "Right to Freedom of Religion"
+      },
+      {
+        "key": "d",
+        "text": "Cultural and Educational Rights"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Articles 14-18 form the Right to Equality, and Article 17 sits within it. The Untouchability (Offences) Act, 1955 was renamed the Protection of Civil Rights Act in 1976. This follows the pattern of a 2020 Prelims question in the local PYQ data.",
+    "subject": "Polity",
+    "theme": "Polity - Fundamental Rights, Part III (Laxmikanth) - F11 Polity PYQ consolidation",
+    "micro_topic": "Article 17 - category of the right (PYQ-pattern)",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_12_06",
+    "question_number": 6,
+    "question": "Consider the following statements about Article 19:\n1. The right to acquire, hold and dispose of property under Article 19(1)(f) was deleted by the 44th Amendment.\n2. Freedom of the press is expressly mentioned in Article 19(1)(a).\n3. 'Sovereignty and integrity of India' was added as a ground of reasonable restriction by the 16th Amendment.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The 44th Amendment (1978) deleted Article 19(1)(f), leaving six freedoms. Press freedom is not named in the text; the Supreme Court reads it into freedom of speech and expression. The 16th Amendment (1963) added the sovereignty-and-integrity ground.",
+    "subject": "Polity",
+    "theme": "Polity - Fundamental Rights, Part III (Laxmikanth) - F11 Polity PYQ consolidation",
+    "micro_topic": "Article 19 - scope and amendments",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_12_07",
+    "question_number": 7,
+    "question": "With reference to Article 20 of the Constitution, consider the following statements:\n1. The protection against ex post facto laws applies only to criminal laws, not to civil or tax laws.\n2. The protection against double jeopardy extends to proceedings before departmental or administrative authorities.\n3. The protection against self-incrimination extends to the compulsory taking of thumb impressions or blood samples.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "2 and 3 only"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Only statement 1 is correct. Double jeopardy applies only to proceedings before a court or judicial tribunal, not departmental ones. Self-incrimination covers testimonial compulsion, not compulsory production of material evidence such as thumb impressions or blood samples.",
+    "subject": "Polity",
+    "theme": "Polity - Fundamental Rights, Part III (Laxmikanth) - F11 Polity PYQ consolidation",
+    "micro_topic": "Article 20 - three protections and their limits",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_12_08",
+    "question_number": 8,
+    "question": "Consider the following pairs:\nCase : Principle\n1. Maneka Gandhi (1978) : 'Procedure established by law' must be just, fair and reasonable\n2. K.S. Puttaswamy (2017) : Privacy is a fundamental right\n3. A.K. Gopalan (1950) : Article 21 was read broadly to include American-style due process\n4. Unni Krishnan (1993) : Right to education up to the age of 14 flows from Article 21\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "Only three"
+      },
+      {
+        "key": "d",
+        "text": "All four"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Pair 3 is wrong. Gopalan read Article 21 narrowly, as protection only against arbitrary executive action. Maneka Gandhi overruled that reading. The other three pairs are correct. Unni Krishnan's reasoning later led to Article 21A.",
+    "subject": "Polity",
+    "theme": "Polity - Fundamental Rights, Part III (Laxmikanth) - F11 Polity PYQ consolidation",
+    "micro_topic": "Article 21 - landmark cases",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_12_09",
+    "question_number": 9,
+    "question": "The right to free and compulsory education for children of six to fourteen years was made a Fundamental Right (Article 21A) by which Constitutional Amendment?",
+    "options": [
+      {
+        "key": "a",
+        "text": "42nd Amendment"
+      },
+      {
+        "key": "b",
+        "text": "44th Amendment"
+      },
+      {
+        "key": "c",
+        "text": "86th Amendment"
+      },
+      {
+        "key": "d",
+        "text": "93rd Amendment"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The 86th Amendment (2002) inserted Article 21A, changed Article 45 (early childhood care below six) and added Fundamental Duty 51A(k). The RTE Act, 2009 gives it effect.",
+    "subject": "Polity",
+    "theme": "Polity - Fundamental Rights, Part III (Laxmikanth) - F11 Polity PYQ consolidation",
+    "micro_topic": "Article 21A - Right to Education",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_12_10",
+    "question_number": 10,
+    "question": "Consider the following statements regarding Article 22:\n1. The rights to be told the grounds of arrest and to be produced before a magistrate within 24 hours do not apply to a person arrested under a preventive detention law.\n2. A preventive detention law cannot authorise detention beyond three months unless an Advisory Board reports sufficient cause.\n3. Only Parliament can make laws on preventive detention.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Article 22(3) excludes enemy aliens and preventive detainees from clauses (1)-(2), and Article 22(4) sets the three-month Advisory Board rule. Statement 3 is wrong. Parliament has exclusive power for defence, foreign affairs and the security of India, but both Parliament and the States can legislate on detention for State security, public order and essential supplies (Concurrent List).",
+    "subject": "Polity",
+    "theme": "Polity - Fundamental Rights, Part III (Laxmikanth) - F11 Polity PYQ consolidation",
+    "micro_topic": "Article 22 - arrest vs preventive detention",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_12_11",
+    "question_number": 11,
+    "question": "With reference to writs issued by the Supreme Court and High Courts, consider the following statements:\n1. Mandamus cannot be issued against the President or the Governor of a State.\n2. The writ of prohibition can be issued against a legislative body to stop it from enacting an unconstitutional law.\n3. Quo warranto can be sought by any interested person and not necessarily by the aggrieved person.\n4. Habeas corpus does not lie where the detention is by a competent court.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "1, 3 and 4 only"
+      },
+      {
+        "key": "c",
+        "text": "2, 3 and 4 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Prohibition (like certiorari) is not available against legislative bodies or private individuals, so statement 2 is wrong. The others reflect the standard limits on each writ. This follows the structure of 2022 and 2024 Prelims writ questions in the local PYQ data.",
+    "subject": "Polity",
+    "theme": "Polity - Fundamental Rights, Part III (Laxmikanth) - F11 Polity PYQ consolidation",
+    "micro_topic": "Writs - limits of each writ (PYQ-pattern)",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_12_12",
+    "question_number": 12,
+    "question": "Consider the following statements:\n1. Article 33 empowers Parliament to restrict or abrogate the Fundamental Rights of members of the armed forces, police forces and intelligence organisations.\n2. Article 34 permits restrictions on Fundamental Rights while martial law is in force, though the Constitution does not define 'martial law'.\n3. Under Article 35, both Parliament and the State Legislatures may make laws on the matters it specifies, such as prescribing residence as a condition for certain employment (Article 16(3)).\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Article 35 gives the power only to Parliament, not the State Legislatures, so that these matters are uniform across India. Statements 1 and 2 are correct. Article 33's power belongs to Parliament alone too.",
+    "subject": "Polity",
+    "theme": "Polity - Fundamental Rights, Part III (Laxmikanth) - F11 Polity PYQ consolidation",
+    "micro_topic": "Articles 33-35 - modification and enforcement",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_12_13",
+    "question_number": 13,
+    "question": "Consider the following statements:\n1. The wearing and carrying of kirpans is deemed to be included in the profession of the Sikh religion.\n2. The bar on religious instruction does not apply to an institution administered by the State but established under a trust that requires such instruction.\n3. The right to establish and administer educational institutions under Article 30 is available to linguistic as well as religious minorities.\n4. The protection of a distinct language, script or culture under Article 29(1) is available only to minorities.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 4 only"
+      },
+      {
+        "key": "c",
+        "text": "1, 2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Statement 4 is wrong. Article 29(1) protects 'any section of the citizens' with a distinct language, script or culture, and the Supreme Court has held that it is not limited to minorities. Statements 1 (Explanation I to Article 25), 2 (Article 28(2)) and 3 are correct.",
+    "subject": "Polity",
+    "theme": "Polity - Fundamental Rights, Part III (Laxmikanth) - F11 Polity PYQ consolidation",
+    "micro_topic": "Articles 25-30 - religion, culture and minorities",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_12_14",
+    "question_number": 14,
+    "question": "Consider the following statements:\n1. Article 23 prohibits traffic in human beings and forced labour, and protects against both the State and private persons.\n2. While imposing compulsory service for public purposes, the State may discriminate on grounds of religion or caste.\n3. Article 24 prohibits the employment of children below 14 in factories, mines and other hazardous employment.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Article 23(2) allows compulsory service for public purposes (military service, social service) but bars discrimination on grounds of religion, race, caste or class, so statement 2 is wrong. Article 24 targets hazardous employment, not all work.",
+    "subject": "Polity",
+    "theme": "Polity - Fundamental Rights, Part III (Laxmikanth) - F11 Polity PYQ consolidation",
+    "micro_topic": "Articles 23-24 - right against exploitation",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_12_15",
+    "question_number": 15,
+    "question": "The play 'Nil Darpan' by Dinabandhu Mitra is associated with which of the following?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Pabna agrarian leagues"
+      },
+      {
+        "key": "b",
+        "text": "Tebhaga movement"
+      },
+      {
+        "key": "c",
+        "text": "Deccan Riots"
+      },
+      {
+        "key": "d",
+        "text": "Indigo Revolt"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Nil Darpan (1860) portrayed the oppression of indigo cultivators by European planters in Bengal and helped rally educated opinion behind the Indigo Revolt of 1859-60.",
+    "subject": "Modern History",
+    "theme": "Modern History - Peasant Movements 1857-1947 (Spectrum thematic)",
+    "micro_topic": "Indigo Revolt - Nil Darpan",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_12_16",
+    "question_number": 16,
+    "question": "Consider the following statements about the Indigo Revolt:\n1. It began in the Nadia district of Bengal in 1859.\n2. Planters made ryots grow indigo by forcing advances and fraudulent contracts on them.\n3. The Indigo Commission (1860) held that ryots could be compelled to grow indigo under their contracts.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1 and 2 only"
+      }
+    ],
+    "answer": "d",
+    "explanation": "After the Indigo Commission (1860), the government notified that ryots could not be compelled to grow indigo, and cultivation in Bengal largely ended by 1860. Indigo later declined across India once synthetic dye arrived; that was the 2020 Prelims question.",
+    "subject": "Modern History",
+    "theme": "Modern History - Peasant Movements 1857-1947 (Spectrum thematic)",
+    "micro_topic": "Indigo Revolt 1859-60 (PYQ-theme)",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_12_17",
+    "question_number": 17,
+    "question": "With reference to the Pabna agrarian unrest (1870s), consider the following statements:\n1. The agrarian leagues mainly used legal resistance: refusing enhanced rents and fighting cases in court.\n2. The movement was directed mainly against British officials rather than zamindars.\n3. It contributed to the enactment of the Bengal Tenancy Act, 1885.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The Pabna leagues (Yusufshahi pargana) resisted zamindars' illegal rent increases and eviction attempts, mostly by legal means. They were not anti-British; their stated aim was to be ryots of the Queen. The Bengal Tenancy Act, 1885 followed.",
+    "subject": "Modern History",
+    "theme": "Modern History - Peasant Movements 1857-1947 (Spectrum thematic)",
+    "micro_topic": "Pabna agrarian leagues 1873-76",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_12_18",
+    "question_number": 18,
+    "question": "The Deccan Riots of 1875, in the Poona and Ahmednagar districts, were mainly directed against:",
+    "options": [
+      {
+        "key": "a",
+        "text": "European indigo planters"
+      },
+      {
+        "key": "b",
+        "text": "The jagirdars of the Nizam"
+      },
+      {
+        "key": "c",
+        "text": "The taluqdars of Awadh"
+      },
+      {
+        "key": "d",
+        "text": "Marwari and Gujarati moneylenders"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Ryotwari peasants burdened by debt and high revenue attacked moneylenders and seized their debt bonds. The Deccan Agriculturists' Relief Act, 1879 followed.",
+    "subject": "Modern History",
+    "theme": "Modern History - Peasant Movements 1857-1947 (Spectrum thematic)",
+    "micro_topic": "Deccan Riots 1875",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_12_19",
+    "question_number": 19,
+    "question": "Consider the following pairs:\nMovement : Region\n1. Eka movement : Hardoi, Bahraich and Sitapur (Awadh)\n2. Mappila uprising (1921) : Malabar\n3. Tebhaga movement : Bengal\n4. Punnapra-Vayalar : Hyderabad State\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "Only three"
+      },
+      {
+        "key": "d",
+        "text": "All four"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Punnapra-Vayalar (1946) took place in Travancore (present Kerala), not Hyderabad. The Hyderabad struggle was Telangana. The other three pairs are correct.",
+    "subject": "Modern History",
+    "theme": "Modern History - Peasant Movements 1857-1947 (Spectrum thematic)",
+    "micro_topic": "Peasant movements - regions",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_12_20",
+    "question_number": 20,
+    "question": "Consider the following statements:\n1. The Eka movement's grievances included rents well above the recorded rent, oppressive thekedars and the practice of share-rents.\n2. Madari Pasi was a prominent leader of the Eka movement.\n3. The Bardoli Satyagraha against enhanced land revenue took place in Saurashtra.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Bardoli is in Surat district, Gujarat (not Saurashtra). The 1928 satyagraha against a land-revenue increase was led by Vallabhbhai Patel, who was given the title 'Sardar' there. This follows the theme of a 2026 Prelims question in the local PYQ data, but it is not that question.",
+    "subject": "Modern History",
+    "theme": "Modern History - Peasant Movements 1857-1947 (Spectrum thematic)",
+    "micro_topic": "Eka movement and Bardoli Satyagraha (PYQ-theme)",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_12_21",
+    "question_number": 21,
+    "question": "Who was the president of the All India Kisan Sabha when it was founded at Lucknow in April 1936?",
+    "options": [
+      {
+        "key": "a",
+        "text": "N.G. Ranga"
+      },
+      {
+        "key": "b",
+        "text": "Baba Ramchandra"
+      },
+      {
+        "key": "c",
+        "text": "Indulal Yagnik"
+      },
+      {
+        "key": "d",
+        "text": "Swami Sahajanand Saraswati"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Swami Sahajanand Saraswati was president and N.G. Ranga general secretary. A 2019 Prelims pairs question (in the local PYQ data) matched the Kisan Sabha to Sahajanand.",
+    "subject": "Modern History",
+    "theme": "Modern History - Peasant Movements 1857-1947 (Spectrum thematic)",
+    "micro_topic": "All India Kisan Sabha 1936 (PYQ-pattern)",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_12_22",
+    "question_number": 22,
+    "question": "Consider the following statements about the Tebhaga movement:\n1. Its central demand was that sharecroppers (bargadars) keep two-thirds of the crop instead of one-half.\n2. It was launched in 1946 by the Bengal Provincial Kisan Sabha.\n3. The demand drew on a recommendation of the Floud Commission.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All three are correct. 'Tebhaga' means three shares. The Floud (Land Revenue) Commission had recommended the two-thirds share for bargadars.",
+    "subject": "Modern History",
+    "theme": "Modern History - Peasant Movements 1857-1947 (Spectrum thematic)",
+    "micro_topic": "Tebhaga movement 1946",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_12_23",
+    "question_number": 23,
+    "question": "Consider the following statements about the Telangana peasant movement:\n1. It was directed against the jagirdars and deshmukhs of the Nizam's Hyderabad, including the practice of vetti (forced labour).\n2. It was led by the Communists.\n3. It was called off in August 1947, before Hyderabad joined the Indian Union.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The armed struggle went on after 1947, through the 1948 police action, and was withdrawn only in 1951. Statements 1 and 2 are correct.",
+    "subject": "Modern History",
+    "theme": "Modern History - Peasant Movements 1857-1947 (Spectrum thematic)",
+    "micro_topic": "Telangana movement 1946-51",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_12_24",
+    "question_number": 24,
+    "question": "Arrange the following in chronological order:\n1. Deccan Riots\n2. Indigo Revolt\n3. Bardoli Satyagraha\n4. Eka movement\nSelect the correct answer using the code given below:",
+    "options": [
+      {
+        "key": "a",
+        "text": "2-1-4-3"
+      },
+      {
+        "key": "b",
+        "text": "1-2-3-4"
+      },
+      {
+        "key": "c",
+        "text": "2-1-3-4"
+      },
+      {
+        "key": "d",
+        "text": "1-2-4-3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Indigo Revolt 1859-60, then Deccan Riots 1875, then Eka 1921-22, then Bardoli 1928.",
+    "subject": "Modern History",
+    "theme": "Modern History - Peasant Movements 1857-1947 (Spectrum thematic)",
+    "micro_topic": "Peasant movements - chronology",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_12_25",
+    "question_number": 25,
+    "question": "Consider the following statements:\n1. The UP Kisan Sabha was set up in February 1918 by Gauri Shankar Mishra and Indra Narayan Dwivedi, with Madan Mohan Malaviya's support.\n2. The Awadh Kisan Sabha (1920) was formed by leaders who opposed linking the peasant struggle with the Non-Cooperation Movement.\n3. The Kisan Manifesto of the All India Kisan Sabha (1936) demanded the abolition of zamindari.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The split ran the other way. The Awadh Kisan Sabha (October 1920, Baba Ramchandra and Jawaharlal Nehru among its leaders) was formed by nationalists who wanted the kisan movement to join non-cooperation. Statements 1 and 3 are correct.",
+    "subject": "Modern History",
+    "theme": "Modern History - Peasant Movements 1857-1947 (Spectrum thematic)",
+    "micro_topic": "Kisan Sabhas in UP; the 1936 Kisan Manifesto",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_12_26",
+    "question_number": 26,
+    "question": "Consider the following statements:\n1. The Alvars were devotees of Vishnu, while the Nayanars were devotees of Shiva.\n2. The Nalayira Divya Prabandham is a compilation of the hymns of the Nayanars.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The Nalayira Divya Prabandham (compiled by Nathamuni) collects the Alvars' hymns. The Nayanars' hymns are in the Tevaram/Tirumurai.",
+    "subject": "Medieval History",
+    "theme": "Medieval History - Cultural Syncretism: Bhakti and Sufi movements (TN State Board Class 11)",
+    "micro_topic": "Alvars and Nayanars",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_12_27",
+    "question_number": 27,
+    "question": "Consider the following pairs:\nAcharya : Philosophy\n1. Shankaracharya : Advaita\n2. Ramanuja : Vishishtadvaita\n3. Madhvacharya : Dvaita\n4. Nimbarka : Shuddhadvaita\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "Only three"
+      },
+      {
+        "key": "d",
+        "text": "All four"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Nimbarka taught Dvaitadvaita (dualistic non-dualism). Shuddhadvaita is Vallabhacharya's school. The other three pairs are correct.",
+    "subject": "Medieval History",
+    "theme": "Medieval History - Cultural Syncretism: Bhakti and Sufi movements (TN State Board Class 11)",
+    "micro_topic": "Vedanta schools of the acharyas",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_12_28",
+    "question_number": 28,
+    "question": "Consider the following statements:\n1. According to tradition, Kabir was a disciple of Ramananda.\n2. Verses attributed to Kabir are included in the Guru Granth Sahib.\n3. Kabir was greatly influenced by Shaikh Ahmad Sirhindi.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Shaikh Ahmad Sirhindi (1564-1624), the Naqshbandi critic of Akbar's policies, lived after Kabir (15th century), so he could not have influenced him. This follows the structure of a 2019 Prelims question in the local PYQ data.",
+    "subject": "Medieval History",
+    "theme": "Medieval History - Cultural Syncretism: Bhakti and Sufi movements (TN State Board Class 11)",
+    "micro_topic": "Kabir - tradition and influences (PYQ-pattern)",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_12_29",
+    "question_number": 29,
+    "question": "Consider the following statements about the Virashaiva (Lingayat) movement:\n1. Basavanna, its leading figure, was a minister at the court of the Kalachuri king Bijjala.\n2. The Virashaivas challenged the idea of caste and questioned the theory of rebirth.\n3. Their compositions in Kannada are known as abhangs.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Lingayat compositions are vachanas. Abhangs are the Marathi devotional songs of the Varkari saints such as Tukaram. Statements 1 and 2 are correct.",
+    "subject": "Medieval History",
+    "theme": "Medieval History - Cultural Syncretism: Bhakti and Sufi movements (TN State Board Class 11)",
+    "micro_topic": "Virashaivas / Lingayats",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_12_30",
+    "question_number": 30,
+    "question": "The worship of Vithoba at Pandharpur is central to which devotional tradition?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Virashaiva"
+      },
+      {
+        "key": "b",
+        "text": "Pushtimarga"
+      },
+      {
+        "key": "c",
+        "text": "Varkari"
+      },
+      {
+        "key": "d",
+        "text": "Gaudiya Vaishnava"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The Varkari sampradaya of Maharashtra (Jnaneshwar, Namdev, Eknath, Tukaram) centres on Vithoba (Vitthal) of Pandharpur and the annual wari pilgrimage.",
+    "subject": "Medieval History",
+    "theme": "Medieval History - Cultural Syncretism: Bhakti and Sufi movements (TN State Board Class 11)",
+    "micro_topic": "Varkari tradition",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_12_31",
+    "question_number": 31,
+    "question": "Consider the following pairs:\nSaint : Tradition\n1. Chaitanya Mahaprabhu : Gaudiya Vaishnavism\n2. Vallabhacharya : Pushtimarga\n3. Shankardeva : Ekasarana Dharma\n4. Ramananda : Virashaivism\nWhich of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "1, 2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "3 and 4 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Ramananda was a Rama bhakti teacher in north India, and Virashaivism belongs to Basavanna in Karnataka. Shankardeva's Ekasarana Dharma in Assam built the sattras and namghars.",
+    "subject": "Medieval History",
+    "theme": "Medieval History - Cultural Syncretism: Bhakti and Sufi movements (TN State Board Class 11)",
+    "micro_topic": "Saints and their sects",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_12_32",
+    "question_number": 32,
+    "question": "Consider the following pairs:\nTerm : Meaning\n1. Khanqah : Sufi hospice\n2. Sama : Audition of mystical music\n3. Pir : Disciple\n4. Silsila : Chain of master-disciple succession\nWhich of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1, 2 and 4 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2, 3 and 4 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer": "a",
+    "explanation": "A pir (shaikh) is the master, and the disciple is the murid. The other pairs are correct.",
+    "subject": "Medieval History",
+    "theme": "Medieval History - Cultural Syncretism: Bhakti and Sufi movements (TN State Board Class 11)",
+    "micro_topic": "Sufi vocabulary",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_12_33",
+    "question_number": 33,
+    "question": "Consider the following statements:\n1. The Chishtis in India generally kept away from the court and state patronage.\n2. The Suhrawardis accepted state service and royal grants.\n3. The Naqshbandi order was brought to India by Shaikh Nizamuddin Auliya.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Nizamuddin Auliya was a Chishti. The Naqshbandi order came with Khwaja Baqi Billah in Akbar's time, and his disciple Shaikh Ahmad Sirhindi led its orthodox wing.",
+    "subject": "Medieval History",
+    "theme": "Medieval History - Cultural Syncretism: Bhakti and Sufi movements (TN State Board Class 11)",
+    "micro_topic": "Sufi orders and the state",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_12_34",
+    "question_number": 34,
+    "question": "Consider the following statements:\n1. Guru Nanak set up a centre at Kartarpur on the river Ravi.\n2. The Adi Granth, compiled by Guru Arjan, includes the compositions of Baba Farid, Ravidas and Kabir.\n3. The Khalsa Panth was instituted by Guru Tegh Bahadur.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Guru Gobind Singh instituted the Khalsa in 1699. Guru Arjan compiled the Adi Granth in 1604 with hymns of non-Sikh saints. Kartarpur was Guru Nanak's settlement.",
+    "subject": "Medieval History",
+    "theme": "Medieval History - Cultural Syncretism: Bhakti and Sufi movements (TN State Board Class 11)",
+    "micro_topic": "Guru Nanak and the Sikh tradition",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_12_35",
+    "question_number": 35,
+    "question": "Mirabai, whose guru is traditionally believed to be Ravidas, was a devotee of:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Shiva"
+      },
+      {
+        "key": "b",
+        "text": "Rama"
+      },
+      {
+        "key": "c",
+        "text": "Ranganatha"
+      },
+      {
+        "key": "d",
+        "text": "Krishna (Giridhar Gopal)"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Mirabai, a Rajput princess from Merta, worshipped Krishna as Giridhar Gopal and rejected the constraints of royal and caste convention.",
+    "subject": "Medieval History",
+    "theme": "Medieval History - Cultural Syncretism: Bhakti and Sufi movements (TN State Board Class 11)",
+    "micro_topic": "Mirabai",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_12_36",
+    "question_number": 36,
+    "question": "Consider the following statements:\n1. Dara Shikoh's Majma-ul-Bahrain compares concepts of Sufism and Vedanta.\n2. Dara Shikoh had the Upanishads translated into Persian under the title Sirr-i-Akbar.\n3. Amir Khusrau produced the Persian translation of the Mahabharata titled Razmnama.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The Razmnama was made at Akbar's translation bureau in the 1580s, long after Amir Khusrau (died 1325). Majma-ul-Bahrain ('mingling of the two oceans') and Sirr-i-Akbar (about 50 Upanishads) are both Dara Shikoh's.",
+    "subject": "Medieval History",
+    "theme": "Medieval History - Cultural Syncretism: Bhakti and Sufi movements (TN State Board Class 11)",
+    "micro_topic": "Dara Shikoh and syncretic texts",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_12_37",
+    "question_number": 37,
+    "question": "With reference to reforms in the Union Budget process, consider the following statements:\n1. The Railway Budget was merged with the Union Budget from 2017-18.\n2. From 2017, the Union Budget has been presented on 1 February instead of the last working day of February.\n3. The Plan and Non-Plan classification of expenditure was discontinued from 2017-18.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All three reforms took effect with Budget 2017-18. The earlier date lets Parliament pass the Budget before 1 April, so ministries need not depend on a vote on account, and the Plan/Non-Plan split was replaced by revenue/capital as the main classification.",
+    "subject": "Economy",
+    "theme": "Economy - Budget anticipation: budget reforms, documents and procedure (NCERT + Vivek Singh 7th ed.)",
+    "micro_topic": "2017 budget reforms",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_12_38",
+    "question_number": 38,
+    "question": "Consider the following statements:\n1. The Gender Budget Statement was first presented with the Union Budget 2005-06.\n2. The Gender Budget Statement is required by Article 112 of the Constitution.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "Both 1 and 2"
+      },
+      {
+        "key": "d",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The Gender Budget Statement is an administrative practice that began in 2005-06. Article 112 requires only the Annual Financial Statement.",
+    "subject": "Economy",
+    "theme": "Economy - Budget anticipation: budget reforms, documents and procedure (NCERT + Vivek Singh 7th ed.)",
+    "micro_topic": "Gender budgeting",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_12_39",
+    "question_number": 39,
+    "question": "'Zero-based budgeting' means:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Each year's allocation is the previous year's figure adjusted for inflation"
+      },
+      {
+        "key": "b",
+        "text": "Every item of expenditure must be justified afresh, as if starting from zero, rather than added to past outlays"
+      },
+      {
+        "key": "c",
+        "text": "A budget in which revenue receipts and revenue expenditure are exactly balanced"
+      },
+      {
+        "key": "d",
+        "text": "A budget with a fiscal deficit of zero"
+      }
+    ],
+    "answer": "b",
+    "explanation": "ZBB rejects incremental budgeting. Each programme must justify its whole outlay every cycle. Option (c) describes a balanced revenue account and (d) a zero fiscal deficit, which are different ideas.",
+    "subject": "Economy",
+    "theme": "Economy - Budget anticipation: budget reforms, documents and procedure (NCERT + Vivek Singh 7th ed.)",
+    "micro_topic": "Zero-based budgeting",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_12_40",
+    "question_number": 40,
+    "question": "Consider the following budget documents and their basis:\n1. Annual Financial Statement : Article 112\n2. Demands for Grants : Article 113\n3. Macro-Economic Framework Statement : Fiscal Responsibility and Budget Management Act, 2003\n4. Outcome Budget : Article 112\nWhich of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "1, 2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "3 and 4 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The FRBM Act requires the fiscal policy statements, including the Macro-Economic Framework Statement. The Outcome Budget, which links outlays to measurable outputs and outcomes, is an executive practice and not a constitutional requirement.",
+    "subject": "Economy",
+    "theme": "Economy - Budget anticipation: budget reforms, documents and procedure (NCERT + Vivek Singh 7th ed.)",
+    "micro_topic": "Budget documents and their legal basis",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_12_41",
+    "question_number": 41,
+    "question": "Consider the following statements:\n1. A vote on account deals only with the expenditure side of the government's budget.\n2. An interim budget presented by an outgoing government contains estimates of both receipts and expenditure.\n3. A vote on account under Article 116 can be passed only after the Lok Sabha has completed the voting on all demands for grants.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The point of a vote on account is that it is granted before the Article 113 voting and the Appropriation Act are completed, so statement 3 reverses it. An interim budget is a full statement of accounts for the period, while a vote on account authorises spending only.",
+    "subject": "Economy",
+    "theme": "Economy - Budget anticipation: budget reforms, documents and procedure (NCERT + Vivek Singh 7th ed.)",
+    "micro_topic": "Vote on account vs interim budget",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_12_42",
+    "question_number": 42,
+    "question": "Consider the following statements about the passage of the Union Budget:\n1. Under the 'guillotine', all outstanding demands for grants are put to vote on the last allotted day, whether or not they have been discussed.\n2. Departmentally Related Standing Committees examine the demands for grants between the general discussion and the voting on demands.\n3. The Rajya Sabha votes on the demands for grants but cannot reduce them.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Only the Lok Sabha votes on demands for grants (Article 113(2)). The Rajya Sabha may discuss the Budget but does not vote on demands. DRSC scrutiny between the two stages has been in place since 1993.",
+    "subject": "Economy",
+    "theme": "Economy - Budget anticipation: budget reforms, documents and procedure (NCERT + Vivek Singh 7th ed.)",
+    "micro_topic": "Guillotine and DRSC scrutiny of demands",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_12_43",
+    "question_number": 43,
+    "question": "Consider the following pairs:\nPhenomenon : Description\n1. Mango showers : Pre-monsoon showers in Kerala and coastal Karnataka that help mangoes ripen\n2. Kalbaisakhi : Evening thunderstorms in Bengal and Assam\n3. Loo : Cold, dry winter winds of Kashmir\n4. Blossom showers : Showers that help coffee flowers bloom in Kerala and nearby areas\nWhich of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1, 2 and 4 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2, 3 and 4 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The loo is a hot, dry, gusty summer wind over the northern plains from Punjab to Bihar. The other pairs are correct.",
+    "subject": "Geography",
+    "theme": "Geography - Indian Climate and the Monsoon (Khullar, with NCERT-11)",
+    "micro_topic": "Pre-monsoon local storms and winds",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_12_44",
+    "question_number": 44,
+    "question": "Consider the following statements about western disturbances:\n1. They originate over the Mediterranean region.\n2. They are carried into India by the westerly jet stream.\n3. The winter rain they bring to north-west India is generally harmful to rabi crops.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The small amount of winter rain from western disturbances is generally beneficial to rabi crops, especially wheat, in Punjab, Haryana and western UP. It is also known as mahawat.",
+    "subject": "Geography",
+    "theme": "Geography - Indian Climate and the Monsoon (Khullar, with NCERT-11)",
+    "micro_topic": "Western disturbances",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_12_45",
+    "question_number": 45,
+    "question": "The Tamil Nadu coast receives most of its rainfall in October-December mainly because:",
+    "options": [
+      {
+        "key": "a",
+        "text": "It lies directly in the path of the south-west monsoon's Bay of Bengal branch in July-August"
+      },
+      {
+        "key": "b",
+        "text": "During the south-west monsoon it lies in a rain-shadow area and the coast runs parallel to the Bay of Bengal branch, while the retreating monsoon and north-east winds pick up moisture over the Bay"
+      },
+      {
+        "key": "c",
+        "text": "Western disturbances reach their peak strength over the peninsula in that season"
+      },
+      {
+        "key": "d",
+        "text": "The Western Ghats block the north-east monsoon from the Arabian Sea"
+      }
+    ],
+    "answer": "b",
+    "explanation": "In summer the Arabian Sea branch is blocked by the Western Ghats and the Bay branch runs parallel to the coast. In October-December, winds crossing the Bay, along with cyclonic depressions, bring the coast its main rains. This explains why the Coromandel coast falls in Koeppen's 'As' type.",
+    "subject": "Geography",
+    "theme": "Geography - Indian Climate and the Monsoon (Khullar, with NCERT-11)",
+    "micro_topic": "Coromandel rainfall regime",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_12_46",
+    "question_number": 46,
+    "question": "Consider the following statements:\n1. Jet streams occur in the Northern Hemisphere only.\n2. The tropical easterly jet stream over peninsular India in summer is linked to the burst of the south-west monsoon.\n3. The subtropical westerly jet lies south of the Himalayas in winter and shifts north of the Tibetan Plateau in summer.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Jet streams occur in both hemispheres. The westerly jet's move north in early summer allows the easterly jet to form over the peninsula, and this is tied to the monsoon's sudden onset. Statement 1 follows the pattern of a 2020 Prelims item in the local PYQ data.",
+    "subject": "Geography",
+    "theme": "Geography - Indian Climate and the Monsoon (Khullar, with NCERT-11)",
+    "micro_topic": "Jet streams (PYQ-pattern)",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_12_47",
+    "question_number": 47,
+    "question": "Consider the following pairs:\nKoeppen type : Region\n1. Amw : West coast of India south of Goa\n2. As : Coromandel coast of Tamil Nadu\n3. BWhw : Extreme western Rajasthan\n4. Cwg : Arunachal Pradesh\nWhich of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "3 and 4 only"
+      },
+      {
+        "key": "c",
+        "text": "1, 2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Arunachal Pradesh is Dfc (cold, humid winter, short summer). Cwg (dry winter) covers the Ganga plain, eastern Rajasthan, northern MP and most of the North-East. The other three pairs follow NCERT-11's Koeppen table.",
+    "subject": "Geography",
+    "theme": "Geography - Indian Climate and the Monsoon (Khullar, with NCERT-11)",
+    "micro_topic": "Koeppen climate types in India",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_12_48",
+    "question_number": 48,
+    "question": "The 'monsoon trough' over northern India in July refers to:",
+    "options": [
+      {
+        "key": "a",
+        "text": "A high-pressure belt over the Tibetan Plateau"
+      },
+      {
+        "key": "b",
+        "text": "The rain-shadow zone on the leeward side of the Western Ghats"
+      },
+      {
+        "key": "c",
+        "text": "A band of upper-air westerlies over Afghanistan and Pakistan"
+      },
+      {
+        "key": "d",
+        "text": "The Inter-Tropical Convergence Zone (ITCZ) shifted to about 20-25 degrees N over the Gangetic plain"
+      }
+    ],
+    "answer": "d",
+    "explanation": "In summer the ITCZ moves north to about 20-25 degrees N. That low-pressure axis over the plains is the monsoon trough, and its movements govern active and break spells.",
+    "subject": "Geography",
+    "theme": "Geography - Indian Climate and the Monsoon (Khullar, with NCERT-11)",
+    "micro_topic": "Monsoon trough / ITCZ",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_12_49",
+    "question_number": 49,
+    "question": "Consider the following statements about 'breaks' in the south-west monsoon:\n1. In north India, breaks are linked to the monsoon trough moving towards the Himalayan foothills, which brings heavy rain there while the plains stay dry.\n2. On the west coast, dry spells are linked to days when the winds blow parallel to the coast.\n3. Breaks occur only in El Nino years.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Breaks are a normal part of every monsoon. They come from shifts in the trough and from wind direction, not only from El Nino, although El Nino years tend to have longer or more frequent breaks.",
+    "subject": "Geography",
+    "theme": "Geography - Indian Climate and the Monsoon (Khullar, with NCERT-11)",
+    "micro_topic": "Breaks in the monsoon",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_12_50",
+    "question_number": 50,
+    "question": "With reference to the India Meteorological Department's (IMD) classification of all-India south-west monsoon rainfall, consider the following statements:\n1. The Long Period Average (LPA), based on 1971-2020, is about 87 cm.\n2. A season with rainfall below 90% of the LPA is classed as 'deficient'.\n3. The 'normal' band is 96-104% of the LPA.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All three are correct. IMD's bands are deficient (<90%), below normal (90-95%), normal (96-104%), above normal (105-110%) and excess (>110%). The 2026 season at about 87% of the LPA (per the Sunday Sweep) is therefore 'deficient'. These are stable IMD definitions, not a figure tied to one year.",
+    "subject": "Geography",
+    "theme": "Geography - Indian Climate and the Monsoon (Khullar, with NCERT-11)",
+    "micro_topic": "IMD rainfall categories and the LPA",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  }
+]

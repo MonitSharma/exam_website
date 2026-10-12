@@ -5,7 +5,7 @@
       "label": "CA & PIB · week of 2026-10-11",
       "source": "daily/daily_current_affairs/UPSC_CA_2026-10-11.md",
       "libraryDerived": true,
-      "sourceCount": 2
+      "sourceCount": 4
     },
     {
       "id": "2026-10-04-library",
@@ -11114,13 +11114,19 @@
       "lat": 39.5385,
       "lon": -97.4826,
       "topic": "Briefing geography",
-      "hook": "Country study anchor · mentioned 2026-10-11",
-      "fact": "tional Relations / Economy - Exam angle: CBAM is the sharpest friction between climate policy and trade rules; even the US is now questioning it, which strengthens India's CBDR-RC and WTO-compatibility argument and its India–EU FTA talking points. Expect Mains on \"unilateral carbon border taxes\". - Key facts: Notice published 8 Oct 2026 (docket USTR-2026-0661); written comments due ~30 days after publication (≈ 7 Nov by the notice's own formula; press reports cite 9 Nov — verify). Seeks views on CBAM's effects on US producers/exports, on EU proposals to widen scope to downstream steel- and aluminium-intensive goods, and on whether enforcement",
+      "hook": "Country study anchor · mentioned 2026-10-12",
+      "fact": "rs must now hold cash with the RBI equal to 20% of the rupee notional on qualifying rupee FX derivative contracts above US$2 million that hedge current-account exposures where users buy foreign currency against the rupee. Daily reporting via CIMS; splitting trades to dodge it is a violation. Separate circular cuts the limit on FX derivative positions with no underlying exposure from US$100 million to US$5 million, including on exchanges. Memorize: 20% | >$2 mn | $100 mn → $5 mn | held daily till contract ends | an administrative (not rate) tool — contrast with the 7 Oct repo hike to 5.50%. Outcome sources agree on figures; fuller effective-da",
       "locate": "Approximate study anchor for United States of America, United States of America. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
       "coordinatePrecision": "regional-study-anchor",
       "coordinateSource": "data/maps/world_countries_india_pov.geojson",
-      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-11.md",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-12.md",
       "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-12.md",
+          "date": "2026-10-12",
+          "cadence": "daily",
+          "excerpt": "rs must now hold cash with the RBI equal to 20% of the rupee notional on qualifying rupee FX derivative contracts above US$2 million that hedge current-account exposures where users buy foreign currency against the rupee. Daily reporting via CIMS; splitting trades to dodge it is a violation. Separate circular cuts the limit on FX derivative positions with no underlying exposure from US$100 million to US$5 million, including on exchanges. Memorize: 20% | >$2 mn | $100 mn → $5 mn | held daily till contract ends | an administrative (not rate) tool — contrast with the 7 Oct repo hike to 5.50%. Outcome sources agree on figures; fuller effective-da"
+        },
         {
           "source": "daily/daily_current_affairs/UPSC_CA_2026-10-11.md",
           "date": "2026-10-11",
@@ -11180,6 +11186,33 @@
           "date": "2026-10-11",
           "cadence": "pib",
           "excerpt": "Navy): INS Mangrol — third Anti-Submarine Warfare Shallow Water Craft (ASW-SWC) — to be commissioned at Naval Dockyard, Mumbai on 12 Oct 2026"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-11-library-india-new-delhi",
+      "weekId": "2026-10-11-library",
+      "layer": "current",
+      "name": "New Delhi",
+      "country": "India",
+      "region": "Delhi",
+      "scope": "india",
+      "lat": 28.5647,
+      "lon": 77.151,
+      "topic": "Briefing geography",
+      "hook": "Delhi · mentioned 2026-10-12",
+      "fact": "efence (Indian Army) with Dept. of Food & Public Distribution: \"Bharat Rice\" launched for troops; Army–FCI MoU (12 Oct, New Delhi)",
+      "locate": "Approximate study anchor for New Delhi, India. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/bharatrajya-india-districts.geojson",
+      "source": "daily/daily_pib/PIB_2026-10-12.md",
+      "references": [
+        {
+          "source": "daily/daily_pib/PIB_2026-10-12.md",
+          "date": "2026-10-12",
+          "cadence": "pib",
+          "excerpt": "efence (Indian Army) with Dept. of Food & Public Distribution: \"Bharat Rice\" launched for troops; Army–FCI MoU (12 Oct, New Delhi)"
         }
       ],
       "libraryDerived": true

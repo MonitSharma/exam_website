@@ -12,6 +12,46 @@
   ],
   "questionSets": [
     {
+      "id": "daily_questions_2026_10_12",
+      "label": "Daily Questions - 12 Oct 2026",
+      "shortLabel": "Daily 12 Oct",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-10-12.json",
+      "sourcePath": "daily/daily_questions/daily_questions_2026-10-12.json",
+      "isoDate": "2026-10-12",
+      "subjects": [
+        "Polity & Governance",
+        "Economy",
+        "International Relations",
+        "Society"
+      ],
+      "bundleId": "daily_questions_2026_10_12",
+      "relatedNoteIds": [
+        "daily-daily-current-affairs-upsc-ca-2026-10-12"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "polity",
+        "economy",
+        "international-relations",
+        "society"
+      ],
+      "topicIds": [
+        "polity/triple-test-and-50-ceiling-in-local-bodies",
+        "economy/foreign-exchange-risk-reserve-ferr",
+        "international-relations/parliamentary-standing-committee-on-external-affairs",
+        "society/fra-2006-habitat-and-cfr-rights",
+        "economy/economic-sciences-nobel",
+        "polity/indra-sawhney-1992",
+        "economy/components-of-forex-reserves"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
       "id": "daily_questions_2026_10_11",
       "label": "Daily Questions - 11 Oct 2026",
       "shortLabel": "Daily 11 Oct",
@@ -5447,6 +5487,38 @@
       "provenance": "generated"
     },
     {
+      "id": "daily_rc_2026_10_12",
+      "label": "Daily RC Drill - 12 Oct 2026",
+      "shortLabel": "RC 12 Oct",
+      "category": "Daily Reading Comprehension",
+      "sourceType": "rc",
+      "questionCount": 8,
+      "durationMinutes": 16,
+      "path": "generated_data/rc_questions/2026-10-12.json",
+      "sourcePath": "generated_data/rc_questions/2026-10-12.json",
+      "isoDate": "2026-10-12",
+      "paper": "GS Paper II (CSAT)",
+      "marksPerCorrect": 2,
+      "negativeMark": -0.66,
+      "subjects": [
+        "Reading Comprehension"
+      ],
+      "bundleId": "daily_rc_2026_10_12",
+      "relatedNoteIds": [
+        "daily-daily-reading-comprehension-rc-drill-2026-10-12"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "reading-comprehension"
+      ],
+      "topicIds": [
+        "reading-comprehension/science-theory-ladenness-of-observation-and-the-location-of-objectivity",
+        "reading-comprehension/society-urban-anonymity-loss-of-community-or-exit-from-hierarchy"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
       "id": "daily_rc_2026_09_21",
       "label": "Daily RC Drill - 21 Sept 2026",
       "shortLabel": "RC 21 Sept",
@@ -6011,6 +6083,40 @@
       ],
       "topicIds": [
         "reading-comprehension/reading-comprehension"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
+      "id": "pib_questions_2026_10_12",
+      "label": "PIB Questions - 12 Oct 2026",
+      "shortLabel": "PIB 12 Oct",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-10-12.json",
+      "sourcePath": "generated_data/pib_questions/2026-10-12.json",
+      "isoDate": "2026-10-12",
+      "subjects": [
+        "Polity & Governance",
+        "Economy",
+        "Internal Security"
+      ],
+      "bundleId": "pib_questions_2026_10_12",
+      "relatedNoteIds": [
+        "daily-daily-pib-pib-2026-10-12"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "polity",
+        "economy",
+        "internal-security"
+      ],
+      "topicIds": [
+        "polity/clinical-establishments-act-2010-rate-display",
+        "economy/pm-gatishakti-national-master-plan",
+        "internal-security/army-fci-mou-and-bharat-rice"
       ],
       "format": "drill",
       "provenance": "generated"
@@ -10129,6 +10235,34 @@
       "provenance": "generated"
     },
     {
+      "id": "weekly_news_2026_10_12",
+      "label": "Weekly Places in News - 12 Oct 2026",
+      "shortLabel": "News 12 Oct",
+      "category": "Weekly News",
+      "sourceType": "weekly-news",
+      "questionCount": 4,
+      "durationMinutes": 8,
+      "path": "generated_data/weekly_news_questions/2026-10-12.json",
+      "sourcePath": "weekly/weekly_news/Places_in_News_2026-10-12.md",
+      "isoDate": "2026-10-12",
+      "subjects": [
+        "Geography"
+      ],
+      "bundleId": "weekly_news_2026_10_12",
+      "relatedNoteIds": [
+        "weekly-weekly-news-places-in-news-2026-10-12"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "geography"
+      ],
+      "topicIds": [
+        "geography/map-based-current-affairs"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
       "id": "weekly_news_2026_09_05",
       "label": "Weekly Places in News - 05 Sept 2026",
       "shortLabel": "News 05 Sept",
@@ -11924,6 +12058,146 @@
       "provenance": "generated"
     },
     {
+      "id": "sectional_economy_2026_10_12",
+      "label": "Economy Sectional Test - 12 Oct 2026",
+      "shortLabel": "Economy 12 Oct",
+      "category": "Sectional Tests",
+      "sourceType": "sectional",
+      "questionCount": 25,
+      "durationMinutes": 40,
+      "path": "generated_data/sectional_questions/economy_2026-10-12.json",
+      "sourcePath": "generated_data/sectional_questions/economy_2026-10-12.json",
+      "isoDate": "2026-10-12",
+      "subjects": [
+        "Economy"
+      ],
+      "bundleId": "sectional_economy_2026_10_12",
+      "relatedNoteIds": [
+        "weekly-sectional-sectional-economy-2026-10-12"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "economy"
+      ],
+      "topicIds": [
+        "economy/policy-rates-and-laf-corridor",
+        "economy/mpc-and-inflation-targeting",
+        "economy/frbm",
+        "economy/funds-of-the-union",
+        "economy/price-indices",
+        "economy/crr-and-slr",
+        "economy/gst-council",
+        "economy/gst-reforms",
+        "economy/mpi",
+        "economy/msp",
+        "economy/bop",
+        "economy/imf-sdr",
+        "economy/differentiated-banks",
+        "economy/direct-vs-indirect",
+        "economy/deficit-measures",
+        "economy/core-inflation",
+        "economy/regulators",
+        "economy/wto-aoa",
+        "economy/finance-commission",
+        "economy/ibc",
+        "economy/monetary-aggregates",
+        "economy/committees",
+        "economy/labour-codes",
+        "economy/payment-systems",
+        "economy/gdp-and-gva"
+      ],
+      "format": "sectional",
+      "provenance": "generated"
+    },
+    {
+      "id": "sectional_book-topics_2026_10_12_extra",
+      "label": "Book Topics · Add-on · 2026-10-12",
+      "shortLabel": "Book Topics · 2026-10-12",
+      "category": "Extra Practice",
+      "sourceType": "sectional",
+      "questionCount": 50,
+      "durationMinutes": 80,
+      "path": "generated_data/sectional_questions/book-topics_2026-10-12_chatgpt.json",
+      "sourcePath": "generated_data/sectional_questions/book-topics_2026-10-12_chatgpt.json",
+      "isoDate": "2026-10-12",
+      "variant": "extra-practice",
+      "variantLabel": "Add-on",
+      "isSupplementary": true,
+      "subjects": [
+        "Polity",
+        "Modern History",
+        "Medieval History",
+        "Economy",
+        "Geography"
+      ],
+      "bundleId": "sectional_book-topics_2026_10_12_extra",
+      "relatedNoteIds": [
+        "weekly-sectional-sectional-book-topics-2026-10-12-chatgpt"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "polity",
+        "history",
+        "medieval-history",
+        "economy",
+        "geography"
+      ],
+      "topicIds": [
+        "polity/article-12-definition-of-state",
+        "polity/rights-available-only-to-citizens",
+        "polity/article-13-meaning-of-law-and-article-13-4",
+        "polity/articles-15-and-16-enabling-clauses-and-the-amendments-behind-them",
+        "polity/article-17-category-of-the-right-pyq-pattern",
+        "polity/article-19-scope-and-amendments",
+        "polity/article-20-three-protections-and-their-limits",
+        "polity/article-21-landmark-cases",
+        "polity/article-21a-right-to-education",
+        "polity/article-22-arrest-vs-preventive-detention",
+        "polity/writs-limits-of-each-writ-pyq-pattern",
+        "polity/articles-33-35-modification-and-enforcement",
+        "polity/articles-25-30-religion-culture-and-minorities",
+        "polity/articles-23-24-right-against-exploitation",
+        "history/indigo-revolt-nil-darpan",
+        "history/indigo-revolt-1859-60-pyq-theme",
+        "history/pabna-agrarian-leagues-1873-76",
+        "history/deccan-riots-1875",
+        "history/peasant-movements-regions",
+        "history/eka-movement-and-bardoli-satyagraha-pyq-theme",
+        "history/all-india-kisan-sabha-1936-pyq-pattern",
+        "history/tebhaga-movement-1946",
+        "history/telangana-movement-1946-51",
+        "history/peasant-movements-chronology",
+        "history/kisan-sabhas-in-up-the-1936-kisan-manifesto",
+        "medieval-history/alvars-and-nayanars",
+        "medieval-history/vedanta-schools-of-the-acharyas",
+        "medieval-history/kabir-tradition-and-influences-pyq-pattern",
+        "medieval-history/virashaivas-lingayats",
+        "medieval-history/varkari-tradition",
+        "medieval-history/saints-and-their-sects",
+        "medieval-history/sufi-vocabulary",
+        "medieval-history/sufi-orders-and-the-state",
+        "medieval-history/guru-nanak-and-the-sikh-tradition",
+        "medieval-history/mirabai",
+        "medieval-history/dara-shikoh-and-syncretic-texts",
+        "economy/2017-budget-reforms",
+        "economy/gender-budgeting",
+        "economy/zero-based-budgeting",
+        "economy/budget-documents-and-their-legal-basis",
+        "economy/vote-on-account-vs-interim-budget",
+        "economy/guillotine-and-drsc-scrutiny-of-demands",
+        "geography/pre-monsoon-local-storms-and-winds",
+        "geography/western-disturbances",
+        "geography/coromandel-rainfall-regime",
+        "geography/jet-streams-pyq-pattern",
+        "geography/koeppen-climate-types-in-india",
+        "geography/monsoon-trough-itcz",
+        "geography/breaks-in-the-monsoon",
+        "geography/imd-rainfall-categories-and-the-lpa"
+      ],
+      "format": "sectional",
+      "provenance": "generated"
+    },
+    {
       "id": "sectional_book-topics_2026_10_11_extra",
       "label": "Book Topics · Add-on · 2026-10-11",
       "shortLabel": "Book Topics · 2026-10-11",
@@ -13683,6 +13957,58 @@
         "polity/composition-of-the-rajya-sabha"
       ],
       "format": "sectional",
+      "provenance": "generated"
+    },
+    {
+      "id": "csat_practice_2026_10_12",
+      "label": "CSAT Practice - 12 Oct 2026",
+      "shortLabel": "CSAT Practice 12 Oct",
+      "category": "CSAT Practice",
+      "sourceType": "csat",
+      "questionCount": 22,
+      "durationMinutes": 35,
+      "path": "generated_data/csat_questions/2026-10-12.json",
+      "sourcePath": "generated_data/csat_questions/2026-10-12.json",
+      "isoDate": "2026-10-12",
+      "paper": "GS Paper II (CSAT)",
+      "marksPerCorrect": 2,
+      "negativeMark": -0.66,
+      "subjects": [
+        "CSAT"
+      ],
+      "bundleId": "csat_practice_2026_10_12",
+      "relatedNoteIds": [
+        "weekly-csat-csat-practice-2026-10-12"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "csat"
+      ],
+      "topicIds": [
+        "csat/main-idea-increasing-returns-and-technological-lock-in",
+        "csat/inference-applying-the-argument-to-a-new-case",
+        "csat/assumption-chicken-and-egg-adoption",
+        "csat/main-idea-translation-as-interpretation",
+        "csat/inference-author-s-likely-judgement-on-cases",
+        "csat/assumption-argument-from-the-performance-analogy",
+        "csat/circular-seating-arrangement-8-persons-facing-centre",
+        "csat/syllogism-chain-with-particular-premise",
+        "csat/blood-relations-only-daughter-trap",
+        "csat/truth-teller-liar-puzzle",
+        "csat/coding-decoding-alternating-shifts-with-wrap-around",
+        "csat/direction-sense-successive-turns",
+        "csat/table-with-percentage-shares-growth-vs-share-trap",
+        "csat/table-with-percentage-shares-share-point-vs-percentage-change-trap",
+        "csat/weighted-pass-percentages-simple-average-trap",
+        "csat/conditional-share-boys-among-those-who-failed",
+        "csat/integrity-reporting-safety-violation",
+        "csat/law-and-order-rumour-management",
+        "csat/child-labour-at-a-government-worksite-proportionality",
+        "csat/number-theory-remainder-using-euler-s-theorem",
+        "csat/boats-and-streams-simultaneous-equations",
+        "csat/probability-bayes-theorem-light"
+      ],
+      "format": "drill",
       "provenance": "generated"
     },
     {
@@ -17561,6 +17887,39 @@
       "relatedSetIds": [],
       "subjectIds": [],
       "topicIds": []
+    },
+    {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-10-12",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "12 Oct 2026",
+      "date": "2026-10-12",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-10-12.md",
+      "bundleId": "daily-daily-current-affairs-upsc-ca-2026-10-12",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "daily_questions_2026_10_12"
+      ],
+      "subjectIds": [
+        "polity",
+        "economy",
+        "international-relations",
+        "society"
+      ],
+      "topicIds": [
+        "polity/triple-test-and-50-ceiling-in-local-bodies",
+        "economy/foreign-exchange-risk-reserve-ferr",
+        "international-relations/parliamentary-standing-committee-on-external-affairs",
+        "society/fra-2006-habitat-and-cfr-rights",
+        "economy/economic-sciences-nobel",
+        "polity/indra-sawhney-1992",
+        "economy/components-of-forex-reserves"
+      ],
+      "atlasWeekId": "2026-10-11-library",
+      "atlasFeatureIds": [
+        "2026-10-11-library-united-states-of-america-united-states-of-america"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-current-affairs-upsc-ca-2026-10-11",
@@ -21942,6 +22301,19 @@
       "topicIds": []
     },
     {
+      "id": "weekly-essays-essay-2026-10-12",
+      "cadence": "essay",
+      "title": "Model Essay",
+      "shortTitle": "Essay - 12 Oct",
+      "date": "2026-10-12",
+      "path": "weekly/Essays/Essay_2026-10-12.md",
+      "bundleId": "weekly-essays-essay-2026-10-12",
+      "relatedNoteIds": [],
+      "relatedSetIds": [],
+      "subjectIds": [],
+      "topicIds": []
+    },
+    {
       "id": "weekly-essays-essay-2026-10-10",
       "cadence": "essay",
       "title": "Model Essay",
@@ -22222,6 +22594,19 @@
       "date": "",
       "path": "reference/Fodder_Bank.md",
       "bundleId": "reference-fodder-bank",
+      "relatedNoteIds": [],
+      "relatedSetIds": [],
+      "subjectIds": [],
+      "topicIds": []
+    },
+    {
+      "id": "daily-daily-mains-gs-mains-2026-10-11",
+      "cadence": "mains",
+      "title": "GS Mains Answer Practice",
+      "shortTitle": "Mains - 11 Oct",
+      "date": "2026-10-11",
+      "path": "daily/daily_mains/GS_Mains_2026-10-11.md",
+      "bundleId": "daily-daily-mains-gs-mains-2026-10-11",
       "relatedNoteIds": [],
       "relatedSetIds": [],
       "subjectIds": [],
@@ -22956,6 +23341,19 @@
       "topicIds": []
     },
     {
+      "id": "weekly-physics-physics-drill-2026-10-12",
+      "cadence": "physics",
+      "title": "Physics Optional Drill",
+      "shortTitle": "12 Oct",
+      "date": "2026-10-12",
+      "path": "weekly/Physics/Physics_Drill_2026-10-12.md",
+      "bundleId": "weekly-physics-physics-drill-2026-10-12",
+      "relatedNoteIds": [],
+      "relatedSetIds": [],
+      "subjectIds": [],
+      "topicIds": []
+    },
+    {
       "id": "weekly-physics-physics-pyq-2026-08-18",
       "cadence": "physics",
       "title": "Physics Optional PYQ Plan",
@@ -23123,6 +23521,34 @@
       "relatedSetIds": [],
       "subjectIds": [],
       "topicIds": []
+    },
+    {
+      "id": "daily-daily-pib-pib-2026-10-12",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 12 Oct",
+      "date": "2026-10-12",
+      "path": "daily/daily_pib/PIB_2026-10-12.md",
+      "bundleId": "daily-daily-pib-pib-2026-10-12",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "pib_questions_2026_10_12"
+      ],
+      "subjectIds": [
+        "polity",
+        "economy",
+        "internal-security"
+      ],
+      "topicIds": [
+        "polity/clinical-establishments-act-2010-rate-display",
+        "economy/pm-gatishakti-national-master-plan",
+        "internal-security/army-fci-mou-and-bharat-rice"
+      ],
+      "atlasWeekId": "2026-10-11-library",
+      "atlasFeatureIds": [
+        "2026-10-11-library-india-new-delhi"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-pib-pib-2026-10-11",
@@ -26247,6 +26673,26 @@
       ]
     },
     {
+      "id": "daily-daily-reading-comprehension-rc-drill-2026-10-12",
+      "cadence": "rc",
+      "title": "CSAT Daily RC Drill",
+      "shortTitle": "RC - 12 Oct",
+      "date": "2026-10-12",
+      "path": "daily/daily_reading_comprehension/RC_Drill_2026-10-12.md",
+      "bundleId": "daily-daily-reading-comprehension-rc-drill-2026-10-12",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "daily_rc_2026_10_12"
+      ],
+      "subjectIds": [
+        "reading-comprehension"
+      ],
+      "topicIds": [
+        "reading-comprehension/science-theory-ladenness-of-observation-and-the-location-of-objectivity",
+        "reading-comprehension/society-urban-anonymity-loss-of-community-or-exit-from-hierarchy"
+      ]
+    },
+    {
       "id": "daily-daily-reading-comprehension-rc-drill-2026-09-21",
       "cadence": "rc",
       "title": "CSAT Daily RC Drill",
@@ -26613,6 +27059,19 @@
       "topicIds": []
     },
     {
+      "id": "weekly-schemes-schemes-reports-2026-10-12",
+      "cadence": "schemes",
+      "title": "Schemes & Reports",
+      "shortTitle": "Reports - 12 Oct",
+      "date": "2026-10-12",
+      "path": "weekly/Schemes/Schemes_Reports_2026-10-12.md",
+      "bundleId": "weekly-schemes-schemes-reports-2026-10-12",
+      "relatedNoteIds": [],
+      "relatedSetIds": [],
+      "subjectIds": [],
+      "topicIds": []
+    },
+    {
       "id": "weekly-schemes-schemes-reports-2026-09-20",
       "cadence": "schemes",
       "title": "Schemes & Reports",
@@ -26819,6 +27278,124 @@
       "relatedSetIds": [],
       "subjectIds": [],
       "topicIds": []
+    },
+    {
+      "id": "weekly-sectional-sectional-economy-2026-10-12",
+      "cadence": "sectional",
+      "title": "Sectional Test",
+      "shortTitle": "Economy - 12 Oct",
+      "date": "2026-10-12",
+      "path": "weekly/Sectional/Sectional_economy_2026-10-12.md",
+      "bundleId": "weekly-sectional-sectional-economy-2026-10-12",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "sectional_economy_2026_10_12"
+      ],
+      "subjectIds": [
+        "economy"
+      ],
+      "topicIds": [
+        "economy/policy-rates-and-laf-corridor",
+        "economy/mpc-and-inflation-targeting",
+        "economy/frbm",
+        "economy/funds-of-the-union",
+        "economy/price-indices",
+        "economy/crr-and-slr",
+        "economy/gst-council",
+        "economy/gst-reforms",
+        "economy/mpi",
+        "economy/msp",
+        "economy/bop",
+        "economy/imf-sdr",
+        "economy/differentiated-banks",
+        "economy/direct-vs-indirect",
+        "economy/deficit-measures",
+        "economy/core-inflation",
+        "economy/regulators",
+        "economy/wto-aoa",
+        "economy/finance-commission",
+        "economy/ibc",
+        "economy/monetary-aggregates",
+        "economy/committees",
+        "economy/labour-codes",
+        "economy/payment-systems",
+        "economy/gdp-and-gva"
+      ]
+    },
+    {
+      "id": "weekly-sectional-sectional-book-topics-2026-10-12-chatgpt",
+      "cadence": "sectional",
+      "title": "Weekly Book Topics 50Q Companion",
+      "shortTitle": "Book Topics - 12 Oct",
+      "date": "2026-10-12",
+      "path": "weekly/Sectional/Sectional_book-topics_2026-10-12_chatgpt.md",
+      "variant": "supplementary",
+      "variantLabel": "Companion",
+      "isSupplementary": true,
+      "bundleId": "weekly-sectional-sectional-book-topics-2026-10-12-chatgpt",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "sectional_book-topics_2026_10_12_extra"
+      ],
+      "subjectIds": [
+        "polity",
+        "history",
+        "medieval-history",
+        "economy",
+        "geography"
+      ],
+      "topicIds": [
+        "polity/article-12-definition-of-state",
+        "polity/rights-available-only-to-citizens",
+        "polity/article-13-meaning-of-law-and-article-13-4",
+        "polity/articles-15-and-16-enabling-clauses-and-the-amendments-behind-them",
+        "polity/article-17-category-of-the-right-pyq-pattern",
+        "polity/article-19-scope-and-amendments",
+        "polity/article-20-three-protections-and-their-limits",
+        "polity/article-21-landmark-cases",
+        "polity/article-21a-right-to-education",
+        "polity/article-22-arrest-vs-preventive-detention",
+        "polity/writs-limits-of-each-writ-pyq-pattern",
+        "polity/articles-33-35-modification-and-enforcement",
+        "polity/articles-25-30-religion-culture-and-minorities",
+        "polity/articles-23-24-right-against-exploitation",
+        "history/indigo-revolt-nil-darpan",
+        "history/indigo-revolt-1859-60-pyq-theme",
+        "history/pabna-agrarian-leagues-1873-76",
+        "history/deccan-riots-1875",
+        "history/peasant-movements-regions",
+        "history/eka-movement-and-bardoli-satyagraha-pyq-theme",
+        "history/all-india-kisan-sabha-1936-pyq-pattern",
+        "history/tebhaga-movement-1946",
+        "history/telangana-movement-1946-51",
+        "history/peasant-movements-chronology",
+        "history/kisan-sabhas-in-up-the-1936-kisan-manifesto",
+        "medieval-history/alvars-and-nayanars",
+        "medieval-history/vedanta-schools-of-the-acharyas",
+        "medieval-history/kabir-tradition-and-influences-pyq-pattern",
+        "medieval-history/virashaivas-lingayats",
+        "medieval-history/varkari-tradition",
+        "medieval-history/saints-and-their-sects",
+        "medieval-history/sufi-vocabulary",
+        "medieval-history/sufi-orders-and-the-state",
+        "medieval-history/guru-nanak-and-the-sikh-tradition",
+        "medieval-history/mirabai",
+        "medieval-history/dara-shikoh-and-syncretic-texts",
+        "economy/2017-budget-reforms",
+        "economy/gender-budgeting",
+        "economy/zero-based-budgeting",
+        "economy/budget-documents-and-their-legal-basis",
+        "economy/vote-on-account-vs-interim-budget",
+        "economy/guillotine-and-drsc-scrutiny-of-demands",
+        "geography/pre-monsoon-local-storms-and-winds",
+        "geography/western-disturbances",
+        "geography/coromandel-rainfall-regime",
+        "geography/jet-streams-pyq-pattern",
+        "geography/koeppen-climate-types-in-india",
+        "geography/monsoon-trough-itcz",
+        "geography/breaks-in-the-monsoon",
+        "geography/imd-rainfall-categories-and-the-lpa"
+      ]
     },
     {
       "id": "weekly-sectional-sectional-book-topics-2026-10-11-chatgpt",
@@ -28392,6 +28969,46 @@
       "topicIds": []
     },
     {
+      "id": "weekly-csat-csat-practice-2026-10-12",
+      "cadence": "weekly-csat",
+      "title": "CSAT Practice",
+      "shortTitle": "Practice - 12 Oct",
+      "date": "2026-10-12",
+      "path": "weekly/CSAT/CSAT_Practice_2026-10-12.md",
+      "bundleId": "weekly-csat-csat-practice-2026-10-12",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "csat_practice_2026_10_12"
+      ],
+      "subjectIds": [
+        "csat"
+      ],
+      "topicIds": [
+        "csat/main-idea-increasing-returns-and-technological-lock-in",
+        "csat/inference-applying-the-argument-to-a-new-case",
+        "csat/assumption-chicken-and-egg-adoption",
+        "csat/main-idea-translation-as-interpretation",
+        "csat/inference-author-s-likely-judgement-on-cases",
+        "csat/assumption-argument-from-the-performance-analogy",
+        "csat/circular-seating-arrangement-8-persons-facing-centre",
+        "csat/syllogism-chain-with-particular-premise",
+        "csat/blood-relations-only-daughter-trap",
+        "csat/truth-teller-liar-puzzle",
+        "csat/coding-decoding-alternating-shifts-with-wrap-around",
+        "csat/direction-sense-successive-turns",
+        "csat/table-with-percentage-shares-growth-vs-share-trap",
+        "csat/table-with-percentage-shares-share-point-vs-percentage-change-trap",
+        "csat/weighted-pass-percentages-simple-average-trap",
+        "csat/conditional-share-boys-among-those-who-failed",
+        "csat/integrity-reporting-safety-violation",
+        "csat/law-and-order-rumour-management",
+        "csat/child-labour-at-a-government-worksite-proportionality",
+        "csat/number-theory-remainder-using-euler-s-theorem",
+        "csat/boats-and-streams-simultaneous-equations",
+        "csat/probability-bayes-theorem-light"
+      ]
+    },
+    {
       "id": "weekly-csat-csat-practice-2026-10-11",
       "cadence": "weekly-csat",
       "title": "CSAT Practice",
@@ -29145,6 +29762,28 @@
       "relatedSetIds": [],
       "subjectIds": [],
       "topicIds": []
+    },
+    {
+      "id": "weekly-weekly-news-places-in-news-2026-10-12",
+      "cadence": "weekly-news",
+      "title": "Places in News",
+      "shortTitle": "Map - 12 Oct",
+      "date": "2026-10-12",
+      "path": "weekly/weekly_news/Places_in_News_2026-10-12.md",
+      "bundleId": "weekly-weekly-news-places-in-news-2026-10-12",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "weekly_news_2026_10_12"
+      ],
+      "subjectIds": [
+        "geography"
+      ],
+      "topicIds": [
+        "geography/map-based-current-affairs"
+      ],
+      "atlasWeekId": "2026-10-12",
+      "atlasFeatureIds": [],
+      "mapStatus": "pending"
     },
     {
       "id": "weekly-weekly-news-places-in-news-2026-09-05",

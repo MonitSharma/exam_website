@@ -1,0 +1,130 @@
+[
+  {
+    "question": "It is tempting to picture science as a two-storey building: on the ground floor, observations, plain and theory-free; upstairs, the theories erected to explain them. On this picture disputes are settled by descending the stairs — whoever's theory squares with the facts wins. The picture is not so much false as incomplete in a way that matters. What counts as an observation is itself shaped by what the observer already takes to be true. A trained radiologist and a layperson look at the same X-ray; only one sees a fracture. The difference is not that the radiologist receives more light, but that she sees the shadow as something.\n\nCritics have drawn from this a disquieting conclusion: if observation is soaked in theory, then evidence can never be a neutral judge between rival theories, and the choice between them reduces to persuasion, fashion or power. This inference, however, moves too quickly. That observations are interpreted does not mean they are interpreted by the very theory under test. The astronomer who uses a telescope relies on the theory of optics, not on the cosmology she is trying to establish; a result can therefore embarrass a theory precisely because the instruments that produced it owe that theory nothing. Theory-ladenness becomes vicious only when it is circular.\n\nWhat follows is less a defence of naive empiricism than a relocation of objectivity. Objectivity is not a property of the individual observation, which is always someone's; it is a property of a practice that lets observations, interpreted under independent background theories, cross-check one another. Science is reliable not because its observers have escaped their assumptions but because it has learned to set those assumptions against each other.\n\nWhich one of the following best expresses the central idea of the passage?",
+    "options": [
+      "(a) Because observation is shaped by theory, scientific evidence cannot neutrally adjudicate between competing theories.",
+      "(b) Scientific objectivity derives not from theory-free observation but from cross-checking observations interpreted through independent theories.",
+      "(c) Trained observers perceive more accurately than untrained ones, so expert observation should be preferred in science.",
+      "(d) Naive empiricism, properly understood, survives the challenge posed by the theory-ladenness of observation."
+    ],
+    "answer": "(b)",
+    "explanation": "The final paragraph 'relocates' objectivity from the individual observation to a practice of cross-checking under independent background theories. Why not the closest trap: (a) is the critics' conclusion, which the author says 'moves too quickly'; (d) fails because the author explicitly says this is 'less a defence of naive empiricism'.",
+    "subject": "Reading Comprehension",
+    "theme": "RC",
+    "micro_topic": "Science — theory-ladenness of observation and the location of objectivity",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "It is tempting to picture science as a two-storey building: on the ground floor, observations, plain and theory-free; upstairs, the theories erected to explain them. On this picture disputes are settled by descending the stairs — whoever's theory squares with the facts wins. The picture is not so much false as incomplete in a way that matters. What counts as an observation is itself shaped by what the observer already takes to be true. A trained radiologist and a layperson look at the same X-ray; only one sees a fracture. The difference is not that the radiologist receives more light, but that she sees the shadow as something.\n\nCritics have drawn from this a disquieting conclusion: if observation is soaked in theory, then evidence can never be a neutral judge between rival theories, and the choice between them reduces to persuasion, fashion or power. This inference, however, moves too quickly. That observations are interpreted does not mean they are interpreted by the very theory under test. The astronomer who uses a telescope relies on the theory of optics, not on the cosmology she is trying to establish; a result can therefore embarrass a theory precisely because the instruments that produced it owe that theory nothing. Theory-ladenness becomes vicious only when it is circular.\n\nWhat follows is less a defence of naive empiricism than a relocation of objectivity. Objectivity is not a property of the individual observation, which is always someone's; it is a property of a practice that lets observations, interpreted under independent background theories, cross-check one another. Science is reliable not because its observers have escaped their assumptions but because it has learned to set those assumptions against each other.\n\nThe author's rebuttal of the critics rests on which one of the following assumptions?",
+    "options": [
+      "(a) The background theories used to interpret observations are themselves free from error.",
+      "(b) Scientists are generally unaware of the assumptions they bring to their observations.",
+      "(c) At least some of the theories relied upon in producing an observation can be independent of the theory being tested.",
+      "(d) Persuasion and power have played no role in the history of scientific change."
+    ],
+    "answer": "(c)",
+    "explanation": "The telescope example works only if optics is independent of the cosmology under test — independence is the load-bearing premise. Why not the closest trap: (a) is tempting but the argument needs independence, not infallibility; a fallible but independent theory still lets a result 'embarrass' the theory under test.",
+    "subject": "Reading Comprehension",
+    "theme": "RC",
+    "micro_topic": "Science — theory-ladenness of observation and the location of objectivity",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "It is tempting to picture science as a two-storey building: on the ground floor, observations, plain and theory-free; upstairs, the theories erected to explain them. On this picture disputes are settled by descending the stairs — whoever's theory squares with the facts wins. The picture is not so much false as incomplete in a way that matters. What counts as an observation is itself shaped by what the observer already takes to be true. A trained radiologist and a layperson look at the same X-ray; only one sees a fracture. The difference is not that the radiologist receives more light, but that she sees the shadow as something.\n\nCritics have drawn from this a disquieting conclusion: if observation is soaked in theory, then evidence can never be a neutral judge between rival theories, and the choice between them reduces to persuasion, fashion or power. This inference, however, moves too quickly. That observations are interpreted does not mean they are interpreted by the very theory under test. The astronomer who uses a telescope relies on the theory of optics, not on the cosmology she is trying to establish; a result can therefore embarrass a theory precisely because the instruments that produced it owe that theory nothing. Theory-ladenness becomes vicious only when it is circular.\n\nWhat follows is less a defence of naive empiricism than a relocation of objectivity. Objectivity is not a property of the individual observation, which is always someone's; it is a property of a practice that lets observations, interpreted under independent background theories, cross-check one another. Science is reliable not because its observers have escaped their assumptions but because it has learned to set those assumptions against each other.\n\nWhich one of the following can be validly inferred from the passage?",
+    "options": [
+      "(a) An experiment whose readings are interpreted using the very theory it is meant to test provides weak grounds for confirming that theory.",
+      "(b) The layperson who sees no fracture in the X-ray observes more objectively, since her perception is less theory-laden.",
+      "(c) Any observation that is interpreted through a theory is, for that reason, unreliable.",
+      "(d) A single well-designed observation can always settle a dispute between rival theories decisively."
+    ],
+    "answer": "(a)",
+    "explanation": "'Theory-ladenness becomes vicious only when it is circular' — interpreting data by the theory under test is exactly that circularity. Why not the closest trap: (c) over-generalises: the author says interpretation is harmless unless circular; only circular interpretation is a problem.",
+    "subject": "Reading Comprehension",
+    "theme": "RC",
+    "micro_topic": "Science — theory-ladenness of observation and the location of objectivity",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "It is tempting to picture science as a two-storey building: on the ground floor, observations, plain and theory-free; upstairs, the theories erected to explain them. On this picture disputes are settled by descending the stairs — whoever's theory squares with the facts wins. The picture is not so much false as incomplete in a way that matters. What counts as an observation is itself shaped by what the observer already takes to be true. A trained radiologist and a layperson look at the same X-ray; only one sees a fracture. The difference is not that the radiologist receives more light, but that she sees the shadow as something.\n\nCritics have drawn from this a disquieting conclusion: if observation is soaked in theory, then evidence can never be a neutral judge between rival theories, and the choice between them reduces to persuasion, fashion or power. This inference, however, moves too quickly. That observations are interpreted does not mean they are interpreted by the very theory under test. The astronomer who uses a telescope relies on the theory of optics, not on the cosmology she is trying to establish; a result can therefore embarrass a theory precisely because the instruments that produced it owe that theory nothing. Theory-ladenness becomes vicious only when it is circular.\n\nWhat follows is less a defence of naive empiricism than a relocation of objectivity. Objectivity is not a property of the individual observation, which is always someone's; it is a property of a practice that lets observations, interpreted under independent background theories, cross-check one another. Science is reliable not because its observers have escaped their assumptions but because it has learned to set those assumptions against each other.\n\nWith which one of the following statements would the author most likely agree?",
+    "options": [
+      "(a) The 'two-storey' picture of science should be discarded as entirely false.",
+      "(b) An individual scientist's observation, taken by itself, cannot be called objective in the sense the author defends.",
+      "(c) Since objectivity belongs to practices, the judgements of individual experts deserve no special weight.",
+      "(d) The radiologist sees the fracture because her eyes take in more information than the layperson's."
+    ],
+    "answer": "(b)",
+    "explanation": "Objectivity 'is not a property of the individual observation, which is always someone's; it is a property of a practice'. Why not the closest trap: (c) stretches the point to an extreme — the radiologist example shows expertise matters; the author denies only that a lone observation is objective.",
+    "subject": "Reading Comprehension",
+    "theme": "RC",
+    "micro_topic": "Science — theory-ladenness of observation and the location of objectivity",
+    "nature": "Aptitude",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Sociologists of an earlier generation wrote of the great city as a place of loss. In the village, they argued, a person was known whole: as someone's son, a reliable debtor, a poor singer at weddings. In the city he is known only in fragments — as a passenger, a customer, an employee — and the fragments never add up to a person. The result, they warned, was a population of strangers, cordial and calculating, lonely amid crowds.\n\nThe diagnosis was accurate; the verdict may not have been. To be known whole is also to be held whole — to have one's caste, one's family's debts and one's youthful indiscretions follow one into every transaction. The village's intimacy and its surveillance were the same fact viewed from two sides. For those whom the community had assigned a low or suspect place, the city's indifference was not a wound but an exit. The anonymous clerk who does not ask your surname is, by that very failure of curiosity, extending you a freedom the attentive neighbour never could.\n\nNone of this makes the city a simple emancipation. Indifference shelters the dissenter and the abandoned alike; the same anonymity that lets a person remake herself lets her fall without anyone noticing. Nor do old hierarchies vanish merely because they go unspoken; they reassemble themselves in neighbourhoods, marriage markets and hiring networks. The honest conclusion is that modern urban life did not trade community for isolation, as the elegists claimed, but exchanged one set of risks for another — and which set seems the heavier depends a great deal on where one stood in the order that was left behind.\n\nWhich one of the following best captures the central theme of the passage?",
+    "options": [
+      "(a) Urbanisation destroyed community and produced widespread isolation.",
+      "(b) Urban anonymity, though costly, is essentially a liberation that has erased traditional hierarchies.",
+      "(c) The move from village to city exchanged one set of risks for another, and how it is judged depends on one's place in the older social order.",
+      "(d) Earlier sociologists misdescribed urban life as fragmented and impersonal."
+    ],
+    "answer": "(c)",
+    "explanation": "Stated almost verbatim in the 'honest conclusion' of the last paragraph. Why not the closest trap: (b) captures the middle paragraph but the author denies the city is 'a simple emancipation' and says hierarchies 'reassemble themselves'.",
+    "subject": "Reading Comprehension",
+    "theme": "RC",
+    "micro_topic": "Society — urban anonymity: loss of community or exit from hierarchy",
+    "nature": "Aptitude",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Sociologists of an earlier generation wrote of the great city as a place of loss. In the village, they argued, a person was known whole: as someone's son, a reliable debtor, a poor singer at weddings. In the city he is known only in fragments — as a passenger, a customer, an employee — and the fragments never add up to a person. The result, they warned, was a population of strangers, cordial and calculating, lonely amid crowds.\n\nThe diagnosis was accurate; the verdict may not have been. To be known whole is also to be held whole — to have one's caste, one's family's debts and one's youthful indiscretions follow one into every transaction. The village's intimacy and its surveillance were the same fact viewed from two sides. For those whom the community had assigned a low or suspect place, the city's indifference was not a wound but an exit. The anonymous clerk who does not ask your surname is, by that very failure of curiosity, extending you a freedom the attentive neighbour never could.\n\nNone of this makes the city a simple emancipation. Indifference shelters the dissenter and the abandoned alike; the same anonymity that lets a person remake herself lets her fall without anyone noticing. Nor do old hierarchies vanish merely because they go unspoken; they reassemble themselves in neighbourhoods, marriage markets and hiring networks. The honest conclusion is that modern urban life did not trade community for isolation, as the elegists claimed, but exchanged one set of risks for another — and which set seems the heavier depends a great deal on where one stood in the order that was left behind.\n\nThe author's attitude towards the 'sociologists of an earlier generation' can best be described as",
+    "options": [
+      "(a) dismissive contempt for a mistaken school.",
+      "(b) nostalgic sympathy for the world they described.",
+      "(c) uncritical endorsement of their warnings.",
+      "(d) qualified respect — accepting their description while disputing their evaluation."
+    ],
+    "answer": "(d)",
+    "explanation": "'The diagnosis was accurate; the verdict may not have been.' Why not the closest trap: (b) is tempting because the passage evokes village life warmly, but the author treats that intimacy as also surveillance — no nostalgia.",
+    "subject": "Reading Comprehension",
+    "theme": "RC",
+    "micro_topic": "Society — urban anonymity: loss of community or exit from hierarchy",
+    "nature": "Aptitude",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Sociologists of an earlier generation wrote of the great city as a place of loss. In the village, they argued, a person was known whole: as someone's son, a reliable debtor, a poor singer at weddings. In the city he is known only in fragments — as a passenger, a customer, an employee — and the fragments never add up to a person. The result, they warned, was a population of strangers, cordial and calculating, lonely amid crowds.\n\nThe diagnosis was accurate; the verdict may not have been. To be known whole is also to be held whole — to have one's caste, one's family's debts and one's youthful indiscretions follow one into every transaction. The village's intimacy and its surveillance were the same fact viewed from two sides. For those whom the community had assigned a low or suspect place, the city's indifference was not a wound but an exit. The anonymous clerk who does not ask your surname is, by that very failure of curiosity, extending you a freedom the attentive neighbour never could.\n\nNone of this makes the city a simple emancipation. Indifference shelters the dissenter and the abandoned alike; the same anonymity that lets a person remake herself lets her fall without anyone noticing. Nor do old hierarchies vanish merely because they go unspoken; they reassemble themselves in neighbourhoods, marriage markets and hiring networks. The honest conclusion is that modern urban life did not trade community for isolation, as the elegists claimed, but exchanged one set of risks for another — and which set seems the heavier depends a great deal on where one stood in the order that was left behind.\n\nThe statement that 'the village's intimacy and its surveillance were the same fact viewed from two sides' most nearly implies that",
+    "options": [
+      "(a) the knowledge that allowed a community to support a person was the same knowledge that allowed it to constrain him.",
+      "(b) village communities deliberately spied on their members to enforce hierarchy.",
+      "(c) village intimacy was an illusion and surveillance was its underlying reality.",
+      "(d) surveillance in villages did more harm than the loneliness of cities."
+    ],
+    "answer": "(a)",
+    "explanation": "'To be known whole is also to be held whole' — one body of knowledge, two effects. Why not the closest trap: (c) collapses the two sides into one; the author treats intimacy and surveillance as equally real aspects of the same fact.",
+    "subject": "Reading Comprehension",
+    "theme": "RC",
+    "micro_topic": "Society — urban anonymity: loss of community or exit from hierarchy",
+    "nature": "Aptitude",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Sociologists of an earlier generation wrote of the great city as a place of loss. In the village, they argued, a person was known whole: as someone's son, a reliable debtor, a poor singer at weddings. In the city he is known only in fragments — as a passenger, a customer, an employee — and the fragments never add up to a person. The result, they warned, was a population of strangers, cordial and calculating, lonely amid crowds.\n\nThe diagnosis was accurate; the verdict may not have been. To be known whole is also to be held whole — to have one's caste, one's family's debts and one's youthful indiscretions follow one into every transaction. The village's intimacy and its surveillance were the same fact viewed from two sides. For those whom the community had assigned a low or suspect place, the city's indifference was not a wound but an exit. The anonymous clerk who does not ask your surname is, by that very failure of curiosity, extending you a freedom the attentive neighbour never could.\n\nNone of this makes the city a simple emancipation. Indifference shelters the dissenter and the abandoned alike; the same anonymity that lets a person remake herself lets her fall without anyone noticing. Nor do old hierarchies vanish merely because they go unspoken; they reassemble themselves in neighbourhoods, marriage markets and hiring networks. The honest conclusion is that modern urban life did not trade community for isolation, as the elegists claimed, but exchanged one set of risks for another — and which set seems the heavier depends a great deal on where one stood in the order that was left behind.\n\nWith which one of the following statements would the author most likely DISAGREE?",
+    "options": [
+      "(a) Anonymity can conceal neglect as easily as it protects nonconformity.",
+      "(b) Social hierarchy can persist in cities even where it is not openly acknowledged.",
+      "(c) Those whom the village ranked low have less reason than others to mourn its passing.",
+      "(d) Once hierarchies stop being openly invoked in daily transactions, they lose most of their power to shape life chances."
+    ],
+    "answer": "(d)",
+    "explanation": "The author says hierarchies do not vanish 'merely because they go unspoken' but reassemble in neighbourhoods, marriage markets and hiring. Why not the closest trap: (c) sounds contestable but the author agrees: for the low-ranked, the city's indifference was 'not a wound but an exit'.",
+    "subject": "Reading Comprehension",
+    "theme": "RC",
+    "micro_topic": "Society — urban anonymity: loss of community or exit from hierarchy",
+    "nature": "Aptitude",
+    "difficulty": "Hard"
+  }
+]

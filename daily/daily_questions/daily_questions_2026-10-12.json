@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to the Supreme Court's October 2026 order on Andhra Pradesh's Backward Class reservation in local bodies, consider the following statements:\n1. The Court dismissed the State's appeal against the High Court order quashing the 34% reservation.\n2. The \"triple test\" for OBC reservation in local bodies was first laid down in K. Krishna Murthy v. Union of India (2010).\n3. Article 243D(6) empowers a State legislature to provide reservation of seats in Panchayats for backward classes of citizens.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All correct: SC dismissed the appeal on 9 Oct 2026; triple test from K. Krishna Murthy (2010), reaffirmed in Gawali (2021); Art 243D(6) covers backward-class seats in Panchayats.",
+    "subject": "Polity & Governance",
+    "theme": "Reservation",
+    "micro_topic": "Triple test and 50% ceiling in local bodies",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the RBI's measures on rupee foreign-exchange derivatives announced in October 2026, consider the following statements:\n1. Authorised Dealers must hold cash with the RBI equal to 20% of the rupee notional value for specified contracts above US$2 million.\n2. The reserve applies to contracts hedging current-account exposures where users buy foreign currency against the rupee.\n3. The limit on FX derivative positions without an underlying exposure was cut from US$50 million to US$5 million.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "1 and 2 are correct; the limit was cut from US$100 million (not 50) to US$5 million.",
+    "subject": "Economy",
+    "theme": "Monetary & External Sector",
+    "micro_topic": "Foreign Exchange Risk Reserve (FERR)",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "With reference to the October 2026 report of the parliamentary committee headed by Shashi Tharoor on technology and foreign policy, consider the following statements:\n1. It recommended that the MEA publish a technology vision document.\n2. It recommended an inter-ministerial body for technology diplomacy.\n3. Its recommendations are binding on the Ministry of External Affairs.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Committee recommendations are advisory, not binding; the government responds through an Action Taken Report.",
+    "subject": "International Relations",
+    "theme": "Technology Diplomacy",
+    "micro_topic": "Parliamentary Standing Committee on External Affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the Forest Rights Act, 2006, consider the following statements:\n1. Habitat rights are recognised for Particularly Vulnerable Tribal Groups and pre-agricultural communities.\n2. Claims are verified by the Gram Sabha and examined by the Sub-Divisional Level Committee before the District Level Committee takes the final decision.\n3. The State Level Monitoring Committee grants final approval to every individual claim.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 2 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "Final decision rests with the District Level Committee; the State Level Monitoring Committee only monitors.",
+    "subject": "Society",
+    "theme": "Tribal Welfare",
+    "micro_topic": "FRA 2006 - habitat and CFR rights",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The 2026 Nobel Memorial Prize in Economic Sciences was awarded to:",
+    "options": [
+      "(a) Daron Acemoglu and Simon Johnson",
+      "(b) Ben Bernanke and Douglas Diamond",
+      "(c) Robert Hall and Michael Woodford",
+      "(d) Claudia Goldin and Esther Duflo"
+    ],
+    "answer": "(c)",
+    "explanation": "Robert E. Hall and Michael Woodford, 'for microeconomic foundations of macroeconomic stabilisation'.",
+    "subject": "Economy",
+    "theme": "Nobel Prize 2026",
+    "micro_topic": "Economic Sciences Nobel",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the judgment in Indra Sawhney v. Union of India (1992), consider the following statements:\n1. The Court held that reservation under Article 16(4) should ordinarily not exceed 50%.\n2. The Court upheld exclusion of the creamy layer among Other Backward Classes.\n3. The Court held that reservation in promotions can continue indefinitely.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Ceiling as a rule and creamy-layer exclusion were upheld; reservation in promotions was held impermissible for the future (later altered by the 77th Amendment), so 3 is wrong.",
+    "subject": "Polity & Governance",
+    "theme": "Reservation",
+    "micro_topic": "Indra Sawhney (1992)",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Which of the following are included in India's foreign exchange reserves as reported by the RBI?\n1. Foreign currency assets\n2. Gold\n3. Special Drawing Rights (SDRs)\n4. Reserve tranche position in the IMF\nSelect the correct answer using the code below:",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1, 2 and 3 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "answer": "(d)",
+    "explanation": "RBI reports FCA, gold, SDRs and the reserve tranche position as components of forex reserves.",
+    "subject": "Economy",
+    "theme": "External Sector",
+    "micro_topic": "Components of forex reserves",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  }
+]

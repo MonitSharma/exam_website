@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the display of rates by clinical establishments in India, consider the statements:\n1. The Clinical Establishments (Registration and Regulation) Act, 2010 requires covered establishments to display rates for each service and facility.\n2. Health is a subject in the Union List, so States have no role in enforcement.\n3. Under the Central Government Rules, 2012, rates must be displayed in the local language and English.\nWhich of the above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statements 1 and 3 are correct (Act 2010; Rules 2012 require display in local language and English). Health is a State subject, so enforcement rests with States/UTs; statement 2 is wrong.",
+    "subject": "Polity & Governance",
+    "theme": "Health governance",
+    "micro_topic": "Clinical Establishments Act 2010 - rate display",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following about the PM GatiShakti National Master Plan:\n1. It was launched in October 2021 as a GIS-based platform for integrated infrastructure planning.\n2. The Network Planning Group appraises projects, while the Empowered Group of Secretaries is chaired by the Cabinet Secretary.\n3. Its seven engines include roads, railways, ports, waterways, airports, mass transport and logistics.\nWhich of the above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three match the PIB backgrounder: launched 13 Oct 2021; NPG appraises, EGoS chaired by Cabinet Secretary; seven engines as listed.",
+    "subject": "Economy",
+    "theme": "Infrastructure",
+    "micro_topic": "PM GatiShakti National Master Plan",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The 'Bharat Rice' launch for troops on 12 October 2026 was accompanied by an MoU between the Indian Army and which organisation, enabling use of its warehouses and labour during operational contingencies?",
+    "options": [
+      "(a) NAFED",
+      "(b) Food Corporation of India",
+      "(c) Central Warehousing Corporation",
+      "(d) NCCF"
+    ],
+    "answer": "(b)",
+    "explanation": "The Army signed a five-year MoU with FCI; NAFED is the supplier of the rice in FY 2026-27, not the MoU partner.",
+    "subject": "Internal Security",
+    "theme": "Defence logistics",
+    "micro_topic": "Army-FCI MoU and Bharat Rice",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]

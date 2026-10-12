@@ -1,0 +1,126 @@
+[
+  {
+    "id": "weekly_news_2026_10_12_1",
+    "question_number": 1,
+    "question": "The Gulf Coast landfall forecast for Hurricane Isaias centred on Mobile Bay, which lies on the coast of which US state?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Texas"
+      },
+      {
+        "key": "b",
+        "text": "Alabama"
+      },
+      {
+        "key": "c",
+        "text": "Louisiana"
+      },
+      {
+        "key": "d",
+        "text": "Mississippi"
+      }
+    ],
+    "answer": "b",
+    "explanation": "(Alabama; Mobile Bay lies on its Gulf coast, with Choctawhatchee Bay in Florida to the east)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_10_12_2",
+    "question_number": 2,
+    "question": "Mount Semeru, at Level III in early October, lies immediately south of which caldera complex?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Toba"
+      },
+      {
+        "key": "b",
+        "text": "Tengger (Bromo)"
+      },
+      {
+        "key": "c",
+        "text": "Batur"
+      },
+      {
+        "key": "d",
+        "text": "Krakatau"
+      }
+    ],
+    "answer": "b",
+    "explanation": "(Tengger caldera, which contains Bromo; Semeru lies to its south)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_10_12_3",
+    "question_number": 3,
+    "question": "Mount Ibu, erupting repeatedly on Oct 8, lies on which island of North Maluku?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Sulawesi"
+      },
+      {
+        "key": "b",
+        "text": "Halmahera"
+      },
+      {
+        "key": "c",
+        "text": "Seram"
+      },
+      {
+        "key": "d",
+        "text": "Flores"
+      }
+    ],
+    "answer": "b",
+    "explanation": "(Halmahera, the largest island of North Maluku)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  },
+  {
+    "id": "weekly_news_2026_10_12_4",
+    "question_number": 4,
+    "question": "Boma–Badingilo, South Sudan's first World Heritage Site, lies close to the border of which country?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Uganda"
+      },
+      {
+        "key": "b",
+        "text": "Kenya"
+      },
+      {
+        "key": "c",
+        "text": "Ethiopia"
+      },
+      {
+        "key": "d",
+        "text": "Central African Republic"
+      }
+    ],
+    "answer": "c",
+    "explanation": "(Ethiopia; Boma sits between the White Nile and the Ethiopian highlands)",
+    "subject": "Geography",
+    "theme": "Places in News",
+    "micro_topic": "Map-based current affairs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy",
+    "source_type": "weekly-news"
+  }
+]
