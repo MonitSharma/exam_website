@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the Mission for Aatmanirbharta in Pulses, consider:\n1. It has an outlay of ₹11,440 crore for 2025-26 to 2030-31.\n2. NAFED and NCCF are to procure tur, urad and masoor at MSP without a quantity cap for four years.\n3. Its focus crops include chana and moong.\nWhich are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Statements 1 and 2 are correct (100% procurement of tur, urad, masoor via NAFED/NCCF, 2025-26 to 2028-29). Focus crops are tur, urad and masoor, not chana/moong.",
+    "subject": "Agriculture",
+    "theme": "Pulses self-sufficiency",
+    "micro_topic": "Mission for Aatmanirbharta in Pulses",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Regarding the PM Dhan-Dhaanya Krishi Yojana, consider:\n1. It covers 100 districts and converges 36 Central schemes of 11 Ministries/Departments.\n2. The District Action Plan is prepared by a District Samiti chaired by the District Collector.\n3. The National Executive Committee is chaired by the Chief Secretary of a State.\nWhich are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statements 1 and 2 are correct. The National Executive Committee is chaired by the Union Agriculture Minister; the State Samiti is chaired by the Chief Secretary.",
+    "subject": "Agriculture",
+    "theme": "Agricultural district convergence",
+    "micro_topic": "PM Dhan-Dhaanya Krishi Yojana governance",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the Central Armed Police Forces (General Administration) Act, 2026:\n1. It came into force on 8 October 2026 through an MHA notification.\n2. It provides at least 67% of ADG posts to IPS officers on deputation.\n3. It applies to Assam Rifles and the Special Protection Group.\nWhich are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 2 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "The Act took effect on 8 Oct 2026 and reserves at least 67% of ADG posts for IPS deputation. It covers CRPF, BSF, CISF, ITBP and SSB, not Assam Rifles or SPG.",
+    "subject": "Internal Security",
+    "theme": "CAPF administration",
+    "micro_topic": "CAPF (General Administration) Act 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to India's retail inflation for September 2026, consider the following statements:\n1. Food inflation (CFPI) rose to about 7.7 per cent from about 6.0 per cent in August.\n2. Headline CPI inflation breached the RBI's upper tolerance limit of 6 per cent.\n3. Rural inflation was higher than urban inflation.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Headline CPI was 5.54% (23-month high), below the 6% upper band, so 2 is wrong. CFPI rose to 7.74% from 5.97% and rural (6.08%) exceeded urban (4.88%).",
+    "subject": "Economy",
+    "theme": "Inflation & Monetary Policy",
+    "micro_topic": "CPI inflation September 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Intergovernmental Panel on Climate Change (IPCC), consider the following statements:\n1. It was set up in 1988 by the WMO and UNEP.\n2. A current dispute concerns whether the Seventh Assessment Report should be completed before the 2028 global stocktake or delayed to 2029, with India among countries seeking more time.\n3. It is a principal organ of the UNFCCC.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 2 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "IPCC (1988, WMO+UNEP) is an independent scientific body that informs, but is not an organ of, the UNFCCC. At its Addis Ababa session, Europe favoured pre-2028 delivery while India, China and Saudi Arabia pressed for 2029.",
+    "subject": "Environment",
+    "theme": "Climate Governance",
+    "micro_topic": "IPCC AR7 timeline",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the emergency declared in Khyber Pakhtunkhwa (Pakistan) in October 2026, consider the following statements:\n1. It was approved by the President on the federal cabinet's recommendation, effectively suspending the PTI-led provincial government.\n2. It was declared initially for six months.\n3. Khyber Pakhtunkhwa shares a land border with India.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Reports say the cabinet recommended and President Zardari approved a six-month emergency, with the Governor taking charge. KP borders Afghanistan, not India.",
+    "subject": "International Relations",
+    "theme": "India's Neighbourhood",
+    "micro_topic": "Pakistan Khyber Pakhtunkhwa emergency",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to TRISHNA, an Earth-observation mission in the news, consider the following statements:\n1. It is a joint mission of ISRO and CNES (France).\n2. Its thermal-infrared payload is developed by CNES and its VNIR-SWIR payload by ISRO.\n3. It is planned to be launched on ISRO's PSLV.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct: joint ISRO-CNES mission, CNES supplies the TIR payload and ISRO the VNIR-SWIR payload, and launch is planned on PSLV (ISRO says 12-16 months away).",
+    "subject": "Science & Technology",
+    "theme": "Space Technology",
+    "micro_topic": "TRISHNA satellite",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Lakshadweep was recently declared a fully literate Union Territory. Which centrally sponsored scheme for adult learners aged 15 and above was used to achieve this?",
+    "options": [
+      "(a) Samagra Shiksha",
+      "(b) PM POSHAN",
+      "(c) ULLAS - Nav Bharat Saaksharta Karyakram",
+      "(d) PM SHRI"
+    ],
+    "answer": "(c)",
+    "explanation": "ULLAS (Nav Bharat Saaksharta Karyakram) targets non-literate adults aged 15+; Lakshadweep's identified learners cleared the FLNAT, and the UT was declared fully literate on 11 October 2026.",
+    "subject": "Society",
+    "theme": "Education & Literacy",
+    "micro_topic": "ULLAS and fully literate UTs",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the Governor of a State in India, consider the following statements:\n1. The Governor is appointed by the President by warrant under hand and seal (Article 155).\n2. A person must have completed 35 years of age to be eligible for appointment.\n3. The five-year term of a Governor is fixed and cannot be cut short by the President.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Art. 155 (appointment) and Art. 157 (35 years) are correct; under Art. 156 the Governor holds office during the pleasure of the President, so the five-year term is not secure.",
+    "subject": "Polity & Governance",
+    "theme": "State Executive",
+    "micro_topic": "Governor: appointment, eligibility, tenure",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "As per the Census of India, a person is treated as literate if he or she is:",
+    "options": [
+      "(a) aged 7 years or above and can read and write with understanding in any language",
+      "(b) aged 5 years or above and can sign their name",
+      "(c) aged 15 years or above and has completed primary schooling",
+      "(d) aged 7 years or above and has passed Class V"
+    ],
+    "answer": "(a)",
+    "explanation": "The Census definition: age 7+ who can both read and write with understanding in any language; formal schooling is not required. ULLAS uses 15+ as its target group, which is different.",
+    "subject": "Society",
+    "theme": "Demography & Literacy",
+    "micro_topic": "Census definition of literacy",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  }
+]
