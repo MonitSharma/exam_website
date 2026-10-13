@@ -891,13 +891,13 @@
   },
   {
     "question_number": 90,
-    "answer_option": "d",
+    "answer_option": "a",
     "accepted_answer_options": [
-      "d"
+      "a"
     ],
     "explanation": "",
-    "verification_status": "verified_image",
-    "answer_source": "Extracted from generated_data/answer_keys/2020_answer_key_setA.png"
+    "verification_status": "verified_manual",
+    "answer_source": "Official UPSC 2020 Prelims Answer Key"
   },
   {
     "question_number": 91,
