@@ -347,6 +347,17 @@ attempt history. Book-topic add-on quizzes and Sunday Sweep notes count toward
 the pending backlog in that window. Catch-up also has a **Sunday Sweeps** section
 with every published sweep, including earlier weeks and completed or dismissed
 ones; opening a sweep does not complete it. Use **Mark done** after reviewing it.
+**Places in News** has its own complete archive with notes, maps and linked
+quizzes; reading notes and quiz attempts track completion independently.
+Schemes and reports, flashcards, Physics Optional practice and dated monthly
+mocks also enter the catch-up window as self-marked revision tasks. Daily CA
+and daily PIB notes and quizzes remain excluded.
+
+Daily CA briefings use plain bullets with bold inline labels in the Library
+reader, including when the source uses consecutive lines or inline labels.
+Daily PIB uses separate labelled paragraphs and fact lists. Nudges stay with
+their static anchors. Original fact lists, links and heading anchors are
+retained; practice sections keep their normal Markdown layout.
 
 Run **`npm run check`** before publishing. It builds, validates content and
 relationships, then tests the exact production output. CI uploads that checked

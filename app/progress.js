@@ -219,9 +219,10 @@
   // Catch-up backlog scope. The daily current-affairs quiz and PIB briefs are
   // deliberately excluded (they refresh every day and live in the home loop);
   // book-topic add-ons are included alongside primary question sets. Question
-  // sets are attempted in-app; writing tasks and Sunday Sweeps are self-marked.
+  // sets are attempted in-app; writing and revision notes are self-marked.
   const MISSED_SOURCE_TYPES = ["rc", "weekly-news", "weekly-quiz", "sectional", "csat", "ai"];
   const MISSED_WRITING_CADENCES = window.UPSC_CONTENT.writingCadences;
+  const MISSED_REVISION_MINUTES = { sunday: 30, "weekly-news": 20, schemes: 25, anki: 15, physics: 60, monthly: 120 };
 
   // The set ids the learner has already completed. Reads the attempt history,
   // the daily-completion map, and any manual "done" marks so a set counts as
@@ -240,7 +241,7 @@
 
   // Dated content whose day has passed, still not done and not dismissed — the
   // catch-up backlog, newest first. Merges attemptable question sets with
-  // offline writing tasks and Sunday Sweep notes. `questionSets` and
+  // offline writing and revision tasks. `questionSets` and
   // `noteDocuments` are injected so the same logic runs under node:test; the
   // browser passes them from window.UPSC.
   function getMissedSessions(progress, todayIso, questionSets, noteDocuments) {
@@ -270,18 +271,18 @@
 
     const noteTasks = notes
       .filter((note) => note && note.date && !note.isSupplementary)
-      .filter((note) => MISSED_WRITING_CADENCES.includes(note.cadence) || note.cadence === "sunday")
+      .filter((note) => MISSED_WRITING_CADENCES.includes(note.cadence) || Object.prototype.hasOwnProperty.call(MISSED_REVISION_MINUTES, note.cadence))
       .filter((note) => note.date < todayIso && note.date >= startDate)
       .filter((note) => !manual[note.id] && !dismissed[note.id])
       .map((note) => ({
         id: note.id,
-        kind: note.cadence === "sunday" ? "reading" : "writing",
+        kind: MISSED_WRITING_CADENCES.includes(note.cadence) ? "writing" : "reading",
         label: note.title || "Answer practice",
         shortLabel: note.shortTitle || "",
         category: note.cadence,
         isoDate: note.date,
         questionCount: 0,
-        durationMinutes: note.cadence === "editorials" ? 20 : 30,
+        durationMinutes: MISSED_REVISION_MINUTES[note.cadence] || (note.cadence === "editorials" ? 20 : 30),
       }));
 
     return [...quizzes, ...noteTasks].sort(

@@ -150,7 +150,7 @@ $$\boxed{\frac{n_1}{s}+\frac{n_2}{s'}=\frac{n_2-n_1}{R}}$$
 
 $$\frac1F=\frac1{f_1}+\frac1{f_2}-\frac d{f_1f_2}\qquad(\ast)$$
 
-For a thin lens of one material, $\dfrac1{f_i}=(n-1)K_i\ (K_i$ geometry$)$, so $\delta\!\left(\dfrac1{f_i}\right)=\dfrac1{f_i}\,\delta$ with $\delta=\dfrac{dn}{n-1}$. Hence $\delta\!\left(\dfrac1{f_1f_2}\right)=\dfrac{2\delta}{f_1f_2}$. Varying $(\ast)$ with $\lambda$:
+For a thin lens of one material, $\dfrac1{f_i}=(n-1)K_i$ ($K_i$ geometry), so $\delta\!\left(\dfrac1{f_i}\right)=\dfrac1{f_i}\,\delta$ with $\delta=\dfrac{dn}{n-1}$. Hence $\delta\!\left(\dfrac1{f_1f_2}\right)=\dfrac{2\delta}{f_1f_2}$. Varying $(\ast)$ with $\lambda$:
 
 $$\delta\!\left(\frac1F\right)=\delta\left[\frac1{f_1}+\frac1{f_2}-\frac{2d}{f_1f_2}\right]=0\ \Rightarrow\ \boxed{d=\frac{f_1+f_2}2}$$
 

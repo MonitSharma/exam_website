@@ -227,7 +227,7 @@ ol, ul { margin: 0; }
 
 /* ===================== NEWS ATLAS ===================== */
 .atlas-page { max-width: 1440px; margin: 0 auto; padding: 34px var(--pad) 10px; }
-.atlas-hero { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; margin-bottom: 22px; }
+.atlas-hero { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 24px; margin-bottom: 22px; }
 .atlas-hero h1 { font-family: var(--serif); font-size: clamp(36px, 4vw, 54px); font-weight: 500; line-height: 1; }
 .atlas-hero p { max-width: 700px; margin-top: 12px; color: var(--muted); font-size: 16px; line-height: 1.55; }
 .atlas-freshness { flex: none; display: grid; grid-template-columns: 8px auto; column-gap: 9px; align-items: center; padding: 12px 15px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); box-shadow: var(--shadow-sm); color: var(--muted); font-family: var(--mono); font-size: 11px; }
@@ -374,7 +374,7 @@ ol, ul { margin: 0; }
 .atlas-lakshadweep-inset text { fill: var(--ink-soft); font: 7px var(--sans); }
 .atlas-lakshadweep-inset line { stroke: var(--muted); stroke-width: .6; }
 .atlas-page-v2 .atlas-stage { background: #dfece8; }
-.atlas-hero-actions { display: flex; align-items: flex-end; gap: 10px; }
+.atlas-hero-actions { display: flex; flex-wrap: wrap; max-width: 100%; align-items: flex-end; gap: 10px; }
 .atlas-mode-switch { display: flex; gap: 4px; padding: 4px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); box-shadow: var(--shadow-sm); }
 .atlas-mode-switch button { display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-height: 34px; padding: 7px 11px; border-radius: 999px; color: var(--muted); font-size: 11.5px; font-weight: 700; white-space: nowrap; }
 .atlas-mode-switch button:hover { color: var(--ink); background: var(--surface-2); }
@@ -988,6 +988,8 @@ body[data-qfont="serif"] .markdown-view p, body[data-qfont="serif"] .markdown-vi
 .markdown-view ul, .markdown-view ol { display: grid; gap: 7px; padding-left: 22px; }
 .markdown-view blockquote { width: 100%; margin: 0; border-left: 3px solid var(--saffron); padding: 10px 14px; background: var(--saffron-tint); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; }
 .markdown-view em { color: var(--ink-soft); }
+.markdown-view .briefing-points { gap: 16px; padding-left: 22px; }
+.briefing-points > li > p, .briefing-points > li > ul, .briefing-points > li > ol { margin-top: 8px; }
 .markdown-view hr { width: 100%; border: 0; border-top: 1px solid var(--line-2); margin: 4px 0; }
 .markdown-view code { font-family: var(--mono); font-size: .9em; background: var(--paper-2); padding: 1px 5px; border-radius: 5px; }
 .math-inline { display: inline-block; vertical-align: -0.08em; max-width: 100%; }
@@ -2109,6 +2111,8 @@ body[data-qfont="serif"] .rev-explain p { font-family: var(--serif); font-size: 
 .catchup-card-meta { color: var(--muted); font-size: 12px; }
 .catchup-card-actions { display: grid; gap: 7px; justify-items: end; flex: none; }
 .catchup-card-secondary { display: inline-flex; align-items: center; gap: 12px; }
+.catchup-archive-actions { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 6px; }
+@media (max-width: 680px) { .catchup-archive-actions { justify-content: flex-start; } }
 .catchup-dismiss, .catchup-done { display: inline-flex; align-items: center; gap: 4px; color: var(--muted); font-size: 11px; }
 .catchup-dismiss:hover { color: var(--ink); }
 .catchup-done:hover { color: var(--green); }

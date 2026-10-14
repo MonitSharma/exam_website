@@ -971,17 +971,19 @@ function CatchUpTeaser({ go, progress }) {
   const missed = window.UPSC_PROGRESS.getMissedSessions(progress, ds.todayIso, ds.questionSets, ds.noteDocuments);
   if (!missed.length) return null;
   const quizCount = missed.filter((item) => item.kind === "quiz").length;
-  const writingCount = missed.length - quizCount;
+  const writingCount = missed.filter((item) => item.kind === "writing").length;
+  const revisionCount = missed.filter((item) => item.kind === "reading").length;
   const parts = [];
   if (quizCount) parts.push(`${quizCount} ${quizCount === 1 ? "quiz" : "quizzes"}`);
   if (writingCount) parts.push(`${writingCount} answer-writing`);
+  if (revisionCount) parts.push(`${revisionCount} revision`);
   return (
     <button className="catchup-teaser" onClick={() => go("catchup")} aria-label={`Catch up: ${missed.length} pending`}>
       <span className="catchup-teaser-mark"><Icon name="clock" size={17} /></span>
       <span className="catchup-teaser-copy">
         <em>Catch-up backlog</em>
         <strong>{missed.length} {missed.length === 1 ? "item" : "items"} to catch up</strong>
-        <small>{parts.length ? `${parts.join(" · ")} — quizzes, mocks & answer-writing you skipped` : "Quizzes, mocks & answer-writing you skipped"}</small>
+        <small>{parts.length ? `${parts.join(" · ")} — study tasks awaiting a first pass` : "Study tasks awaiting a first pass"}</small>
       </span>
       <span className="catchup-teaser-go">Review <Icon name="arrowR" size={15} /></span>
     </button>
@@ -1191,7 +1193,7 @@ function NotesLibrary({ go, noteId, progress, onMarkDone, onSelectNote }) {
           <div className="note-reader-body">
             {noteState.loading && <p className="muted">Loading note...</p>}
             {noteState.error && <p className="muted">{noteState.error}</p>}
-            {!noteState.loading && !noteState.error && noteState.content && <MarkdownView text={noteState.content} />}
+            {!noteState.loading && !noteState.error && noteState.content && <MarkdownView text={noteState.content} cadence={selectedDoc?.cadence} />}
             {!noteState.loading && !noteState.error && !noteState.content && <p className="muted">Select a note.</p>}
           </div>
         </article>
@@ -1294,11 +1296,89 @@ function NoteOutline({ content }) {
   );
 }
 
-function MarkdownView({ text }) {
+// Daily briefings have used both labelled bullets and consecutive labelled
+// lines. Give those fields the same structure without rewriting the source or
+// splitting ordinary sentences, figures, citations or practice questions.
+function splitDailyCaFields(text, cadence = 'daily') {
+  const labels = cadence === 'pib'
+    ? 'what(?:\\s+it\\s+is)?(?:\\s*(?:&|/|and)\\s*why\\s+it\\s+matters)?|why\\s+it\\s+matters|key\\s+(?:facts|features)(?:\\s*(?:/|&|and)\\s*figures)?(?:\\s+to\\s+remember)?(?:\\s*\\([^)]*\\))?|(?:destination\\s+)?notebook|(?:issuing\\s+)?(?:ministry(?:\\s*/\\s*body)?|body)|issued\\s+by|objective|significance|beneficiaries(?:\\s*/\\s*coverage)?|coverage|date|launched|prelims\\s+hooks'
+    : '(?:the\\s+)?headline(?:\\s*\\([^)]*\\))?|(?:the\\s+)?exam\\s+angle|(?:key\\s+)?facts(?:\\s*\\/\\s*figures)?(?:\\s+to\\s+memori[sz]e)?|memori[sz]e|(?:destination\\s+)?notebook|subject(?:\\s*\\/\\s*notebook)?|static\\s+anchor';
+  const pattern = new RegExp(`(^|\\s)(?:\\*\\*(${labels})(?:[:.]\\*\\*|\\*\\*[:.])|\\*(${labels})(?:[:.]\\*|\\*[:.]))\\s*`, 'gi');
+  // Labels inside code or link text are content, not section boundaries.
+  const searchable = text.replace(/`[^`]*`|\[[^\]]*\]\([^\n]*?\)/g, (match) => ' '.repeat(match.length));
+  const matches = [...searchable.matchAll(pattern)];
+  if (!matches.length) return [{ text }];
+  const parts = [];
+  const prefix = text.slice(0, matches[0].index).trim();
+  if (prefix) parts.push({ text: prefix });
+  matches.forEach((match, index) => {
+    const original = match[2] || match[3];
+    const key = original.toLowerCase();
+    const label = cadence === 'pib' ? original : /exam/.test(key) ? 'Exam angle'
+      : /facts|memori[sz]e/.test(key) ? 'Key facts'
+      : /notebook/.test(key) ? 'Notebook'
+      : /static/.test(key) ? 'Static anchor'
+      : /headline/.test(key) ? `Headline${original.match(/\s*\([^)]*\)$/)?.[0] || ''}` : 'Subject';
+    parts.push({ label, text: text.slice(match.index + match[0].length, matches[index + 1]?.index ?? text.length).trim() });
+  });
+  return parts;
+}
+
+function organizeDailyCaBlocks(blocks, cadence = 'daily') {
+  const out = [];
+  let inBriefing = true;
+  let group = null;
+  let field = null;
+  function append(block) {
+    if (field) field.blocks.push(block);
+    else out.push(block);
+  }
+  for (const block of blocks) {
+    if (block.type === 'heading' || block.type === 'rule') {
+      group = null;
+      field = null;
+      // Section titles delimit the briefing; story titles can themselves
+      // mention practice requirements, sources or Mains without ending it.
+      if (block.type === 'heading' && block.level <= 2 && !/^\d+[.)]\s/.test(block.text)) {
+        if (/briefing/i.test(block.text)) inBriefing = true;
+        else if (/\b(?:part\s*[B-Z]|practice|MCQs?|answer\s*key|mains|recall|sources?|references?)\b/i.test(block.text)) inBriefing = false;
+      }
+      out.push(block);
+      continue;
+    }
+    if (!inBriefing) { out.push(block); continue; }
+    if (!['paragraph', 'list', 'quote'].includes(block.type)) { append(block); continue; }
+    const texts = block.type === 'list' ? block.items : [block.text];
+    for (const text of texts) {
+      const parts = splitDailyCaFields(text, cadence);
+      if (!parts.some((part) => part.label)) {
+        // Keep existing fact bullets as bullets inside the current field.
+        if (block.type === 'list') {
+          const target = field ? field.blocks : out;
+          const last = target[target.length - 1];
+          if (last?.type === 'list') last.items.push(text);
+          else target.push({ type: 'list', items: [text] });
+        } else append({ ...block, text });
+        continue;
+      }
+      for (const part of parts) {
+        if (part.label) {
+          if (!group) { group = { type: 'study-fields', fields: [] }; out.push(group); }
+          field = { label: part.label, blocks: [] };
+          group.fields.push(field);
+        }
+        if (part.text) append({ type: 'paragraph', text: part.text });
+      }
+    }
+  }
+  return out;
+}
+
+function MarkdownView({ text, cadence }) {
   if (isAnkiDeck(text)) return <AnkiDeckView text={text} />;
 
   const lines = String(text || "").split(/\r?\n/);
-  const blocks = [];
+  let blocks = [];
   for (let i = 0; i < lines.length;) {
     const line = lines[i];
     if (!line.trim()) {
@@ -1387,39 +1467,49 @@ function MarkdownView({ text }) {
     blocks.push({ type: "paragraph", text: paragraph.join(" ") });
   }
 
+  if (cadence === 'daily' || cadence === 'pib') blocks = organizeDailyCaBlocks(blocks, cadence);
   const headingIds = {};
   let headingOrdinal = 0;
   blocks.forEach((block, index) => {
     if (block.type === "heading") headingIds[index] = `note-h-${headingOrdinal++}`;
   });
 
-  return (
-    <div className="markdown-view">
-      {blocks.map((block, index) => {
-        if (block.type === "heading") {
-          const TagName = block.level <= 1 ? "h2" : block.level === 2 ? "h3" : "h4";
-          return <TagName key={index} id={headingIds[index]}>{renderInline(block.text)}</TagName>;
-        }
-        if (block.type === "quote") return <blockquote key={index}>{renderInline(block.text)}</blockquote>;
-        if (block.type === "list") return <ul key={index}>{block.items.map((item, itemIndex) => <li key={itemIndex}>{renderInline(item)}</li>)}</ul>;
-        if (block.type === "ordered-list") return <ol key={index} start={block.start}>{block.items.map((item, itemIndex) => <li key={itemIndex}>{renderInline(item)}</li>)}</ol>;
-        if (block.type === "math") return <MathText key={index} value={block.text} display />;
-        if (block.type === "rule") return <hr key={index} />;
-        if (block.type === "table") {
-          const [head, ...body] = block.rows;
-          return (
-            <div className="md-table-wrap" key={index}>
-              <table>
-                {head && <thead><tr>{head.map((cell, cellIndex) => <th key={cellIndex}>{renderInline(cell)}</th>)}</tr></thead>}
-                <tbody>{body.map((row, rowIndex) => <tr key={rowIndex}>{row.map((cell, cellIndex) => <td key={cellIndex}>{renderInline(cell)}</td>)}</tr>)}</tbody>
-              </table>
-            </div>
-          );
-        }
-        return <p key={index}>{renderInline(block.text)}</p>;
-      })}
-    </div>
-  );
+  const renderBlock = (block, index) => {
+    if (block.type === 'study-fields') {
+      const fieldContent = (field) => <><strong>{field.label}: </strong>{field.blocks.map((child, childIndex) => childIndex === 0 && child.type === 'paragraph'
+        ? <React.Fragment key={childIndex}>{renderInline(child.text)}</React.Fragment>
+        : renderBlock(child, childIndex))}</>;
+      if (cadence === 'daily') return <ul key={index} className="briefing-points">{block.fields.map((field, fieldIndex) => <li key={fieldIndex}>{fieldContent(field)}</li>)}</ul>;
+      return <React.Fragment key={index}>{block.fields.map((field, fieldIndex) => (
+        <React.Fragment key={fieldIndex}>
+          <p><strong>{field.label}: </strong>{field.blocks[0]?.type === 'paragraph' && renderInline(field.blocks[0].text)}</p>
+          {field.blocks.slice(field.blocks[0]?.type === 'paragraph' ? 1 : 0).map(renderBlock)}
+        </React.Fragment>
+      ))}</React.Fragment>;
+    }
+    if (block.type === "heading") {
+      const TagName = block.level <= 1 ? "h2" : block.level === 2 ? "h3" : "h4";
+      return <TagName key={index} id={headingIds[index]}>{renderInline(block.text)}</TagName>;
+    }
+    if (block.type === "quote") return <blockquote key={index}>{renderInline(block.text)}</blockquote>;
+    if (block.type === "list") return <ul key={index}>{block.items.map((item, itemIndex) => <li key={itemIndex}>{renderInline(item)}</li>)}</ul>;
+    if (block.type === "ordered-list") return <ol key={index} start={block.start}>{block.items.map((item, itemIndex) => <li key={itemIndex}>{renderInline(item)}</li>)}</ol>;
+    if (block.type === "math") return <MathText key={index} value={block.text} display />;
+    if (block.type === "rule") return <hr key={index} />;
+    if (block.type === "table") {
+      const [head, ...body] = block.rows;
+      return (
+        <div className="md-table-wrap" key={index}>
+          <table>
+            {head && <thead><tr>{head.map((cell, cellIndex) => <th key={cellIndex}>{renderInline(cell)}</th>)}</tr></thead>}
+            <tbody>{body.map((row, rowIndex) => <tr key={rowIndex}>{row.map((cell, cellIndex) => <td key={cellIndex}>{renderInline(cell)}</td>)}</tr>)}</tbody>
+          </table>
+        </div>
+      );
+    }
+    return <p key={index}>{renderInline(block.text)}</p>;
+  };
+  return <div className="markdown-view">{blocks.map(renderBlock)}</div>;
 }
 
 function isAnkiDeck(text) {
@@ -1640,8 +1730,13 @@ function shouldRenderDollarMath(source, start, end, formula) {
   const next = source[start + 1] || "";
   const before = source[start - 1] || "";
   const after = source[end + 1] || "";
-  if (/\s|\d/.test(next)) return false;
+  if (/\s/.test(next)) return false;
   if (/[A-Za-z0-9]/.test(before) || /[A-Za-z0-9]/.test(after)) return false;
+  // Numeric formulas such as $30^\circ$ and $1/e$ need typesetting too.
+  // Require mathematical syntax so ordinary dollar amounts remain text.
+  if (/\d/.test(next)) return /\\[A-Za-z]+|[_^=<>]/.test(value)
+    || /^\d+(?:\.\d+)?\s*\/\s*(?:\d+(?:\.\d+)?|[A-Za-z])$/.test(value)
+    || /^\d[\d\s.()+*/-]*[+*/][\d\s.()+*/-]*$/.test(value);
   if (/^[A-Z]{2,}\b/.test(value)) return false;
   if (/\\|[_^=<>+\-*/()[\]{}]/.test(value)) return true;
   return /^[A-Za-z][A-Za-z0-9]{0,2}$/.test(value);

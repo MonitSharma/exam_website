@@ -1,7 +1,7 @@
 // Catch-up — the backlog of dated study work the learner hasn't done yet.
 // "Missed" is computed in app/progress.js (getMissedSessions): every dated quiz
 // (except the daily CA quiz and PIB, which live in the home loop) plus offline
-// answer-writing tasks and Sunday Sweeps, minus anything completed, marked
+// answer-writing and revision tasks, minus anything completed, marked
 // done or dismissed. The Sunday Sweeps archive also retains cleared weeks.
 const { useState: useCatchUpState, useEffect: useCatchUpEffect } = React;
 
@@ -103,11 +103,15 @@ function physicsTopicForNote(note, content) {
 // "quiz" sets are attempted in-app; writing and reading tasks are self-marked.
 const CATCHUP_META = {
   rc: { label: "Daily RC", tone: "blue", icon: "book", kind: "quiz", unit: "questions" },
-  "weekly-news": { label: "Weekly news", tone: "teal", icon: "map", kind: "quiz", unit: "questions" },
+  "weekly-news": { label: "Places in News", tone: "teal", icon: "map", kind: "quiz", unit: "questions", activity: "Map & location revision" },
   "weekly-quiz": { label: "Weekly quiz", tone: "indigo", icon: "layers", kind: "quiz", unit: "questions" },
   sectional: { label: "Sectional test", tone: "saffron", icon: "target", kind: "quiz", unit: "questions" },
   "book-topics": { label: "Book topics · Add-on", tone: "saffron", icon: "book", kind: "quiz", unit: "questions" },
-  sunday: { label: "Sunday Sweep", tone: "teal", icon: "calendar", kind: "reading", unit: "min" },
+  sunday: { label: "Sunday Sweep", tone: "teal", icon: "calendar", kind: "reading", unit: "min", activity: "Weekly study plan" },
+  schemes: { label: "Schemes & reports", tone: "green", icon: "fileText", kind: "reading", unit: "min", activity: "Schemes & reports revision" },
+  anki: { label: "Flashcards", tone: "indigo", icon: "layers", kind: "reading", unit: "min", activity: "Flashcard revision" },
+  physics: { label: "Physics Optional", tone: "blue", icon: "target", kind: "reading", unit: "min", activity: "Optional practice" },
+  monthly: { label: "Monthly mocks", tone: "saffron", icon: "target", kind: "reading", unit: "min", activity: "Full mock practice" },
   csat: { label: "CSAT practice", tone: "blue", icon: "target", kind: "quiz", unit: "questions" },
   ai: { label: "Mock test", tone: "saffron", icon: "spark", kind: "quiz", unit: "questions" },
   essay: { label: "Essay writing", tone: "indigo", icon: "fileText", kind: "writing", unit: "min" },
@@ -249,6 +253,10 @@ function CatchUpScreen({ go, progress, onStartDate, onDismiss, onRestore, onMark
     .filter((note) => note.cadence === "sunday" && note.date && note.date <= ds.todayIso)
     .sort((a, b) => String(b.date).localeCompare(String(a.date)) || a.id.localeCompare(b.id));
   const sweepsDoneCount = sundaySweeps.filter((note) => manualCompletions[note.id]).length;
+  const placesNotes = ds.noteDocuments
+    .filter((note) => note.cadence === "weekly-news" && note.date && note.date <= ds.todayIso)
+    .sort((a, b) => String(b.date).localeCompare(String(a.date)) || a.id.localeCompare(b.id));
+  const placesDoneCount = placesNotes.filter((note) => manualCompletions[note.id]).length;
 
   const missed = window.UPSC_PROGRESS.getMissedSessions(progress, ds.todayIso, ds.questionSets, ds.noteDocuments);
   const typeCounts = missed.reduce((acc, item) => { acc[item.category] = (acc[item.category] || 0) + 1; return acc; }, {});
@@ -289,7 +297,7 @@ function CatchUpScreen({ go, progress, onStartDate, onDismiss, onRestore, onMark
         <div>
           <span className="eyebrow small"><span className="eyebrow-line" /> Catch-up</span>
           <h1 className="catchup-h1">Work you haven't done yet.</h1>
-          <p className="catchup-sub">Dated quizzes, book-topic add-ons, Sunday Sweeps and answer-writing whose day has passed and still need a first pass. The daily current-affairs quiz and PIB briefs live on your home loop. Do one, mark it done, or dismiss it to clear the backlog.</p>
+          <p className="catchup-sub">Catch up on quizzes, book-topic add-ons, Places in News, Sunday Sweeps, schemes and reports, flashcards, Physics Optional, monthly mocks and answer-writing. Daily CA and daily PIB are excluded. Complete an item, mark it done, or dismiss it to clear your backlog.</p>
         </div>
         <div className="catchup-summary">
           <strong>{missed.length}</strong>
@@ -304,9 +312,8 @@ function CatchUpScreen({ go, progress, onStartDate, onDismiss, onRestore, onMark
         <section className="panel catchup-empty">
           <div className="catchup-empty-mark"><Icon name="check" size={26} /></div>
           <strong>You're all caught up.</strong>
-          <span>Nothing pending in your catch-up window. Quizzes, book-topic add-ons, Sunday Sweeps and writing tasks appear here the day after they go live.</span>
+          <span>Nothing pending in your catch-up window. Study tasks appear here the day after they go live. Your Places in News and Sunday Sweep archives remain below.</span>
           <div className="catchup-empty-actions">
-            <button className="btn btn-green" onClick={() => go("test", { setId: ds.defaultQuestionSetId })}><Icon name="bolt" size={16} /> Today's daily quiz</button>
             <button className="btn ghost" onClick={() => go("practice")}>Browse practice</button>
           </div>
         </section>
@@ -329,7 +336,7 @@ function CatchUpScreen({ go, progress, onStartDate, onDismiss, onRestore, onMark
                     const meta = catchUpMeta(item.category);
                     const metaLine = item.kind === "writing"
                       ? `Answer writing · ~${item.durationMinutes} min`
-                      : item.kind === "reading" ? `Weekly study plan · ~${item.durationMinutes} min`
+                      : item.kind === "reading" ? `${meta.activity || "Reading & revision"} · ~${item.durationMinutes} min`
                       : `${item.questionCount} questions · ${item.durationMinutes} min`;
                     return (
                       <div key={item.id} className={`catchup-card tone-${meta.tone}`}>
@@ -358,6 +365,48 @@ function CatchUpScreen({ go, progress, onStartDate, onDismiss, onRestore, onMark
             ))}
           </div>
         </>
+      )}
+
+      {placesNotes.length > 0 && (
+        <section className="catchup-mains catchup-places" aria-labelledby="catchup-places-heading">
+          <div className="catchup-mains-head">
+            <div>
+              <h2 id="catchup-places-heading">Places in News</h2>
+              <p>All published Places in News notes, including weeks before your catch-up start date. Review the locations, explore the map and practise the linked quiz. Notes and quizzes track completion separately.</p>
+            </div>
+            <div className="catchup-mains-summary">
+              <strong>{placesDoneCount}<span> / {placesNotes.length}</span></strong>
+              <em>reviewed</em>
+            </div>
+          </div>
+          <div className="catchup-list">
+            {placesNotes.map((note) => {
+              const isDone = Boolean(manualCompletions[note.id]);
+              const isDismissed = Boolean(progress?.dismissedSessions?.[note.id]);
+              const quizzes = (note.relatedSetIds || []).map((id) => ds.questionSets.find((set) => set.id === id)).filter((set) => set && set.sourceType === "weekly-news" && set.isoDate && set.isoDate <= ds.todayIso);
+              return (
+                <div key={note.id} className="catchup-card tone-teal">
+                  <span className="catchup-card-icon"><Icon name="map" size={18} /></span>
+                  <div className="catchup-card-body">
+                    <strong>{note.title} · {note.shortTitle || catchUpDateLabel(note.date)}</strong>
+                    <span className="catchup-card-date">{catchUpDateLabel(note.date)}{isDone ? " · Done" : isDismissed ? " · Dismissed" : ""}</span>
+                  </div>
+                  <div className="catchup-card-actions">
+                    <div className="catchup-archive-actions">
+                      <button className="btn ghost sm" onClick={() => openCatchUpNote(go, note.id)} aria-label={`Open Places in News ${note.date}`}><Icon name="book" size={15} /> Open notes</button>
+                      {note.atlasWeekId && note.mapStatus === "ready" && <button className="btn ghost sm" onClick={() => go("atlas", { weekId: note.atlasWeekId })} aria-label={`Open map for Places in News ${note.date}`}><Icon name="map" size={15} /> Map</button>}
+                      {quizzes.map((set) => <button key={set.id} className="btn btn-green sm" onClick={() => go("test", { setId: set.id, returnTo: "catchup" })} aria-label={`Start ${set.label}`}><Icon name="play" size={15} /> Quiz{quizzes.length > 1 ? ` · ${set.variantLabel || set.shortLabel || set.id}` : ""}</button>)}
+                    </div>
+                    <div className="catchup-card-secondary">
+                      <button className="link-btn catchup-done" onClick={() => (isDone ? onUndoDone(note.id) : onMarkDone(note.id))} aria-label={`${isDone ? "Undo completion for" : "Mark done"} Places in News ${note.date}`}><Icon name="check" size={13} /> {isDone ? "Undo done" : "Mark done"}</button>
+                      {isDismissed && <button className="link-btn" onClick={() => onRestore(note.id)}>Restore</button>}
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </section>
       )}
 
       {sundaySweeps.length > 0 && (
