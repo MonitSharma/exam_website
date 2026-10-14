@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to the first BIMSTEC Home Ministers' Meeting held in New Delhi in October 2026, consider the following statements:\n1. All seven BIMSTEC member states participated, with Bangladesh represented at the level of a senior secretary.\n2. The Secretariat of BIMSTEC is located in Dhaka.\n3. BIMSTEC was formed through the Delhi Declaration of 1997.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 2 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "All seven members attended (Bangladesh at senior-secretary level) and the Secretariat is in Dhaka. BIMSTEC was formed by the 1997 Bangkok Declaration, so 3 is wrong.",
+    "subject": "International Relations",
+    "theme": "Regional Groupings",
+    "micro_topic": "BIMSTEC Home Ministers' Meeting",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the PM Dhan-Dhaanya Krishi Yojana, consider the following statements:\n1. The 100 districts are chosen on the basis of low productivity, low cropping intensity and low credit.\n2. It has a one-time total outlay of ₹24,000 crore.\n3. District plans are prepared by a District Dhan-Dhaanya Samiti chaired by the District Collector.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Selection criteria and the Collector-led Samiti are correct. The outlay is ₹24,000 crore per year over six years, not one-time.",
+    "subject": "Agriculture",
+    "theme": "Agricultural Schemes",
+    "micro_topic": "PM Dhan-Dhaanya Krishi Yojana",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Delhi Police Standing Order of 11 October 2026 on protest venues, consider the following statements:\n1. It de-notifies Jantar Mantar as a designated protest venue.\n2. It names Ramlila Ground, Burari Ground and CBD Ground as alternative venues.\n3. It cites the recommendations of a committee constituted by the Union Home Ministry.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "The order de-notifies Jantar Mantar, names the three alternative grounds and cites an MHA-constituted committee's recommendations; a detailed SOP is to follow separately.",
+    "subject": "Polity & Governance",
+    "theme": "Fundamental Rights",
+    "micro_topic": "Right to protest: Jantar Mantar de-notification",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to PFAS ('forever chemicals'), consider the following statements:\n1. The International Agency for Research on Cancer classifies PFOA as Group 1 (carcinogenic to humans).\n2. PFOS, PFOA and PFHxS have been listed under the Stockholm Convention.\n3. The Indian drinking-water standard IS 10500:2012 prescribes a limit for PFOA.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "IARC: PFOA Group 1, PFOS Group 2B. Stockholm listings: PFOS (2009), PFOA (2019), PFHxS (2022). IS 10500:2012 has no PFAS limit, so 3 is wrong.",
+    "subject": "Environment",
+    "theme": "Pollution & Conventions",
+    "micro_topic": "PFAS contamination in India",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "The ICMR centre for high-altitude medicine and public health research is being set up at Keylong, which is the headquarters of which district?",
+    "options": [
+      "(a) Kinnaur",
+      "(b) Lahaul and Spiti",
+      "(c) Kullu",
+      "(d) Chamba"
+    ],
+    "answer": "(b)",
+    "explanation": "Keylong is the district headquarters of Lahaul and Spiti, Himachal Pradesh.",
+    "subject": "Science & Technology",
+    "theme": "Health Research",
+    "micro_topic": "ICMR high-altitude medicine centre, Keylong",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which one of the following is correct about the right to assemble under Article 19(1)(b) of the Constitution of India?",
+    "options": [
+      "(a) It is available to all persons, including foreigners.",
+      "(b) It includes the right to assemble with arms if the assembly is peaceful.",
+      "(c) It can be restricted by law in the interests of the sovereignty and integrity of India or public order.",
+      "(d) It includes the right to strike."
+    ],
+    "answer": "(c)",
+    "explanation": "Art. 19(1)(b) is for citizens and covers peaceful, unarmed assembly; Art. 19(3) allows reasonable restrictions on sovereignty and integrity or public order grounds. Strike is not a fundamental right.",
+    "subject": "Polity & Governance",
+    "theme": "Fundamental Rights",
+    "micro_topic": "Article 19(1)(b) right to assemble",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Aspirational Districts Programme, consider the following statements:\n1. It was launched in 2018 and covers 112 districts.\n2. The districts are ranked on the basis of indicators across themes such as health and nutrition, education and agriculture.\n3. Its implementation is anchored by the Ministry of Rural Development.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "The programme (2018, 112 districts) is anchored by NITI Aayog, not the Ministry of Rural Development, so 3 is wrong.",
+    "subject": "Polity & Governance",
+    "theme": "Governance Schemes",
+    "micro_topic": "Aspirational Districts Programme",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  }
+]

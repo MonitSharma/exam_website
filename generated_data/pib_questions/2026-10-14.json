@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the first BIMSTEC Home Ministers' Meeting held in New Delhi in October 2026, consider the statements:\n1. It adopted the Delhi Declaration, calling for regular future meetings.\n2. Follow-up on counter-terrorism and transnational crime is routed through a Joint Working Group.\n3. Pakistan and Afghanistan participated as dialogue partners.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statements 1 and 2 are correct; Pakistan and Afghanistan are not part of BIMSTEC.",
+    "subject": "International Relations",
+    "theme": "Regional Groupings",
+    "micro_topic": "BIMSTEC Home Ministers' Meeting",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The National Culture Fund, recently in news for an agreement with HAL and ASI for conserving Hampi, Taj Mahal and Bekal Fort, was set up in:",
+    "options": [
+      "(a) 1972 under the AMASR Act",
+      "(b) 1996 under the Ministry of Culture",
+      "(c) 2005 under the Companies Act",
+      "(d) 2014 under NITI Aayog"
+    ],
+    "answer": "(b)",
+    "explanation": "NCF was set up in 1996 under the Ministry of Culture to channel public and private contributions to heritage conservation.",
+    "subject": "Art & Culture",
+    "theme": "Heritage Conservation",
+    "micro_topic": "National Culture Fund",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Consider the following about fertiliser policy in India:\n1. Urea's farm-gate price is statutorily fixed by the Government.\n2. Phosphatic and potassic fertilisers are covered under the Nutrient Based Subsidy scheme.\n3. PM-PRANAM gives States a share of the fertiliser subsidy they save as a grant.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All correct: urea price is fixed; P&K fall under NBS (since April 2010); PM-PRANAM (2023) passes 50% of savings to States as a grant.",
+    "subject": "Agriculture",
+    "theme": "Fertiliser Subsidy",
+    "micro_topic": "Khet Bachao Abhiyan / NBS / PM-PRANAM",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]
