@@ -343,7 +343,10 @@ to a specific note. Essays, recall-quiz source notes and study reviews are
 available there. Reading a writing prompt does not complete it: use **Mark
 answer written** after writing your answer. Catch-up starts on the learner's
 first visit; its start-date control can include earlier work without resetting
-attempt history.
+attempt history. Book-topic add-on quizzes and Sunday Sweep notes count toward
+the pending backlog in that window. Catch-up also has a **Sunday Sweeps** section
+with every published sweep, including earlier weeks and completed or dismissed
+ones; opening a sweep does not complete it. Use **Mark done** after reviewing it.
 
 Run **`npm run check`** before publishing. It builds, validates content and
 relationships, then tests the exact production output. CI uploads that checked

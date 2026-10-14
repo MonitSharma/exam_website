@@ -30,7 +30,10 @@
   }
   function topicId(subject, topic) { return [subjectId(subject), subjectId(topic)].filter(Boolean).join('/'); }
   function matchesSubjects(question, subjects) { return subjects.some((s) => subjectId(s) === subjectId(question.subject)); }
-  const api = { notes, bundleKey, variantLabel, subjectId, topicId, matchesSubjects, writingCadences: Object.keys(notes).filter((key) => notes[key].writing) };
+  function isBookTopicsSet(set) {
+    return set?.sourceType === 'sectional' && /^sectional_book-topics_/.test(set.id || '');
+  }
+  const api = { notes, bundleKey, variantLabel, subjectId, topicId, matchesSubjects, isBookTopicsSet, writingCadences: Object.keys(notes).filter((key) => notes[key].writing) };
   root.UPSC_CONTENT = api;
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
 })(typeof window !== 'undefined' ? window : globalThis);

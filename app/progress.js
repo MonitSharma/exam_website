@@ -218,9 +218,8 @@
 
   // Catch-up backlog scope. The daily current-affairs quiz and PIB briefs are
   // deliberately excluded (they refresh every day and live in the home loop);
-  // everything else dated is worth catching up on. Question sets are attempted
-  // in-app; writing cadences (mains/ethics/editorials) are done offline and can
-  // only be cleared by a manual "I've done it".
+  // book-topic add-ons are included alongside primary question sets. Question
+  // sets are attempted in-app; writing tasks and Sunday Sweeps are self-marked.
   const MISSED_SOURCE_TYPES = ["rc", "weekly-news", "weekly-quiz", "sectional", "csat", "ai"];
   const MISSED_WRITING_CADENCES = window.UPSC_CONTENT.writingCadences;
 
@@ -241,7 +240,7 @@
 
   // Dated content whose day has passed, still not done and not dismissed — the
   // catch-up backlog, newest first. Merges attemptable question sets with
-  // offline writing tasks (mains/ethics/editorials notes). `questionSets` and
+  // offline writing tasks and Sunday Sweep notes. `questionSets` and
   // `noteDocuments` are injected so the same logic runs under node:test; the
   // browser passes them from window.UPSC.
   function getMissedSessions(progress, todayIso, questionSets, noteDocuments) {
@@ -254,7 +253,7 @@
     const manual = progress?.manualCompletions || {};
 
     const quizzes = sets
-      .filter((set) => set && set.isoDate && !set.isSupplementary)
+      .filter((set) => set && set.isoDate && (!set.isSupplementary || window.UPSC_CONTENT.isBookTopicsSet(set)))
       .filter((set) => MISSED_SOURCE_TYPES.includes(set.sourceType))
       .filter((set) => set.isoDate < todayIso && set.isoDate >= startDate)
       .filter((set) => !done.has(set.id) && !dismissed[set.id])
@@ -263,20 +262,20 @@
         kind: "quiz",
         label: set.label,
         shortLabel: set.shortLabel,
-        category: set.sourceType,
+        category: window.UPSC_CONTENT.isBookTopicsSet(set) ? "book-topics" : set.sourceType,
         isoDate: set.isoDate,
         questionCount: set.questionCount || 0,
         durationMinutes: set.durationMinutes || 10,
       }));
 
-    const writing = notes
+    const noteTasks = notes
       .filter((note) => note && note.date && !note.isSupplementary)
-      .filter((note) => MISSED_WRITING_CADENCES.includes(note.cadence))
+      .filter((note) => MISSED_WRITING_CADENCES.includes(note.cadence) || note.cadence === "sunday")
       .filter((note) => note.date < todayIso && note.date >= startDate)
       .filter((note) => !manual[note.id] && !dismissed[note.id])
       .map((note) => ({
         id: note.id,
-        kind: "writing",
+        kind: note.cadence === "sunday" ? "reading" : "writing",
         label: note.title || "Answer practice",
         shortLabel: note.shortTitle || "",
         category: note.cadence,
@@ -285,7 +284,7 @@
         durationMinutes: note.cadence === "editorials" ? 20 : 30,
       }));
 
-    return [...quizzes, ...writing].sort(
+    return [...quizzes, ...noteTasks].sort(
       (a, b) => String(b.isoDate).localeCompare(String(a.isoDate)) || String(a.category).localeCompare(String(b.category)),
     );
   }
