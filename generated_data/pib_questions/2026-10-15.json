@@ -1,0 +1,14 @@
+[
+ {"question":"With reference to the National Social Assistance Programme (NSAP) as continued by the Cabinet in October 2026, consider the statements:\n1. It is rooted in Article 41 of the Constitution.\n2. The disability pension eligibility threshold has been lowered from 80% to 40%.\n3. It is a State-funded scheme with no Central assistance.\nWhich of the statements given above is/are correct?",
+  "options":["(a) 1 only","(b) 1 and 2 only","(c) 2 and 3 only","(d) 1, 2 and 3"],
+  "answer":"(b)","explanation":"NSAP flows from Article 41 (DPSP) and the disability threshold is cut to 40%; funding is 100% Central, so statement 3 is wrong.",
+  "subject":"Polity & Governance","theme":"Social Welfare Schemes","micro_topic":"NSAP / Pradhan Mantri Samajik Sahayata Yojana","nature":"Current Affairs","difficulty":"Moderate"},
+ {"question":"India's accession to the Southern Indian Ocean Fisheries Agreement (SIOFA) is significant because:",
+  "options":["(a) It regulates fishing in India's territorial waters","(b) It upgrades India from Cooperating Non-Contracting Party status and enables fishing in high-seas SIOFA areas","(c) It governs tuna and other highly migratory species","(d) It was concluded under the Convention on Biological Diversity"],
+  "answer":"(b)","explanation":"India held CNCP status since 2022; SIOFA covers non-highly-migratory high-seas stocks (tuna is under IOTC), not territorial waters.",
+  "subject":"Economy","theme":"Blue Economy","micro_topic":"SIOFA / high-seas fisheries","nature":"Current Affairs","difficulty":"Moderate"},
+ {"question":"BHARAT TULIP, recently in the news, is an initiative of which Ministry and implemented through which agency?",
+  "options":["(a) Ministry of Textiles – Handicrafts Development Commissioner","(b) Ministry of MSME – NSIC","(c) Ministry of Social Justice & Empowerment – NBCFDC","(d) Ministry of Tribal Affairs – TRIFED"],
+  "answer":"(c)","explanation":"Launched Nov 2024 under the Ministry of Social Justice & Empowerment and implemented by NBCFDC to give traditional artisans market access.",
+  "subject":"Society","theme":"Artisans & Livelihoods","micro_topic":"BHARAT TULIP","nature":"Current Affairs","difficulty":"Easy"}
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to India–Canada engagement in October 2026, consider the following statements:\n1. Both sides have set a target of concluding a Comprehensive Economic Partnership Agreement (CEPA) by the end of 2026.\n2. Canada's International Trade Minister is leading a business delegation of nearly 300 members to India.\n3. Two-way trade between the two countries exceeded USD 100 billion in 2025.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 2 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "CEPA conclusion is targeted by end-2026 and Maninder Sidhu leads a ~300-delegate mission. Two-way trade was about USD 30.4 billion in 2025 (target USD 70 billion by 2030), so 3 is wrong.",
+    "subject": "International Relations",
+    "theme": "Bilateral Relations",
+    "micro_topic": "India–Canada CEPA and Anita Anand visit",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the 2026–27 El Niño and the Indian monsoon, consider the following statements:\n1. El Niño is characterised by anomalously warm sea-surface temperatures in the central and eastern equatorial Pacific.\n2. A positive Indian Ocean Dipole can partly offset El Niño's adverse impact on the Indian monsoon.\n3. El Niño strengthens the Walker circulation and the Pacific trade winds.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "El Niño = warm central/eastern Pacific; a positive IOD (as in 1997–98) can offset its drying effect. El Niño weakens, not strengthens, the Walker circulation and trade winds, so 3 is wrong. WMO (8 Oct 2026) forecasts the Oct–Dec Niño 3.4 anomaly near +3.7°C versus the previous record of +2.6°C.",
+    "subject": "Geography",
+    "theme": "Climatology",
+    "micro_topic": "El Niño, IOD and monsoon",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the 17th Conference of the Parties (COP17) to the Convention on Biological Diversity, scheduled for October 2026, consider the following statements:\n1. It is being held in Yerevan, Armenia.\n2. It will undertake the first global review of collective progress on the Kunming-Montreal Global Biodiversity Framework.\n3. The Cartagena Protocol, whose meeting runs alongside, deals with access and benefit-sharing of genetic resources.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "COP17 is on 19–30 Oct 2026 in Yerevan with the first global review of the KMGBF. The Cartagena Protocol concerns biosafety (living modified organisms); access and benefit-sharing is the Nagoya Protocol (NP-MOP 6 also meets alongside).",
+    "subject": "Environment",
+    "theme": "International Conventions",
+    "micro_topic": "CBD COP17 Yerevan",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to PM GatiShakti, which completed five years in October 2026, consider the following statements:\n1. It was launched on 13 October 2021 as a GIS-based platform for integrated infrastructure planning.\n2. Logistics and connectivity projects above ₹500 crore are appraised by its Network Planning Group.\n3. The platform integrates data layers of Central ministries only, excluding States and Union Territories.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Launched 13 Oct 2021; the NPG appraises projects above ₹500 crore (396 projects worth ₹18.66 lakh crore evaluated by Aug 2026). The National Master Plan links 58 central ministries/departments and all 36 States/UTs, so 3 is wrong.",
+    "subject": "Economy",
+    "theme": "Infrastructure",
+    "micro_topic": "PM GatiShakti National Master Plan",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to bail under the Unlawful Activities (Prevention) Act, 1967, consider the following statements:\n1. Section 43D(5) restricts the grant of bail where the court, on the case diary, finds the accusation prima facie true.\n2. In Union of India v. K.A. Najeeb (2021), the Supreme Court held that Section 43D(5) does not bar constitutional courts from granting bail on grounds of Article 21 where trial is unduly delayed.\n3. The UAPA is a preventive detention law enacted under Article 22(3)(b).\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 3 only",
+      "(b) 1 and 2 only",
+      "(c) 1 and 3 only",
+      "(d) 2 and 3 only"
+    ],
+    "answer": "(b)",
+    "explanation": "Statements 1 and 2 reflect s.43D(5) and Najeeb (2021). The UAPA is a punitive, not preventive-detention, statute — preventive detention laws are those under Article 22(3)(b) such as NSA — so 3 is wrong.",
+    "subject": "Internal Security",
+    "theme": "Anti-terror Laws",
+    "micro_topic": "UAPA bail regime Section 43D(5)",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Under the Biological Diversity Act, 2002, consider the following statements:\n1. The National Biodiversity Authority is a statutory body headquartered at Chennai.\n2. State Biodiversity Boards are constituted by the respective State Governments.\n3. Biodiversity Management Committees are constituted by the State Biodiversity Boards.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 2 only",
+      "(b) 3 only",
+      "(c) 1 and 2 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "The NBA (Chennai) is statutory and SBBs are set up by State Governments. BMCs are constituted by local bodies at the local level (to prepare People's Biodiversity Registers), not by SBBs.",
+    "subject": "Environment",
+    "theme": "Biodiversity Governance",
+    "micro_topic": "Biological Diversity Act three-tier structure",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Which one of the following is correct about preventive detention under Article 22 of the Constitution of India?",
+    "options": [
+      "(a) The detained person has the right to consult and be defended by a legal practitioner of his choice.",
+      "(b) The detained person must be produced before the nearest magistrate within 24 hours.",
+      "(c) Only Parliament can make laws on preventive detention.",
+      "(d) Detention beyond three months requires the report of an Advisory Board that there is sufficient cause."
+    ],
+    "answer": "(d)",
+    "explanation": "Art. 22(4): no detention beyond three months without an Advisory Board's report (unless Parliament provides otherwise under 22(7)). Rights in 22(1)–(2) (lawyer, 24-hour production) do not apply to preventive detention, and both Parliament and States legislate on it (Entry 9 List I, Entry 3 List III).",
+    "subject": "Polity & Governance",
+    "theme": "Fundamental Rights",
+    "micro_topic": "Article 22 preventive detention",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  }
+]
