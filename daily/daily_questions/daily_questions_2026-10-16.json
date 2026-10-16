@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to the Global Hunger Index (GHI) 2026, consider the following statements:\n1. India ranks 100th among 122 ranked countries with a score of 24.1, placing it in the 'serious' category.\n2. The GHI score is computed from four indicators: undernourishment, child stunting, child wasting and child mortality.\n3. India's child stunting rate has fallen from 50% in 2000 to 29.3% in 2026.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. India scores 24.1 (100th of 122; 'serious' = 20.0-34.9). The GHI uses four indicators (undernourishment, stunting, wasting, under-five mortality). Stunting fell from 50% (2000) to 29.3%, though child wasting (19%) remains the weak spot.",
+    "subject": "Reports & Indices",
+    "theme": "Global Hunger Index 2026",
+    "micro_topic": "GHI score, rank and components",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The National Social Assistance Programme (NSAP) was recently approved for continuation for 2026-27 to 2030-31 with an outlay of Rs 53,428 crore. Which of the following changes was announced for the disability pension component?",
+    "options": [
+      "(a) The disability benchmark was raised from 40% to 80%",
+      "(b) The benchmark was lowered from 80% to 40% and the minimum age condition removed",
+      "(c) Pension was made payable only to persons above 18 years with 100% disability",
+      "(d) The disability pension was merged with the old-age pension"
+    ],
+    "answer": "(b)",
+    "explanation": "The Cabinet (14 Oct 2026) lowered the disability threshold from 80% to 40% and removed the minimum age condition, aligning with the benchmark disability definition in the RPwD Act, 2016. NSAP is renamed Pradhan Mantri Samajik Sahayata Yojana.",
+    "subject": "Society",
+    "theme": "Social security schemes",
+    "micro_topic": "NSAP / PMSSY disability pension eligibility",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Cabinet (CCEA) approval of the sale of a 60.72% stake in IDBI Bank in October 2026, consider the following statements:\n1. The stake is being sold jointly by the Government of India and LIC.\n2. The winning bidder is a subsidiary of Canada-based Fairfax Financial Holdings.\n3. The buyer is exempt from the RBI's 'fit and proper' assessment as the sale is a strategic disinvestment.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Government (30.48%) and LIC (30.24%) are sellers; the buyer is a Fairfax subsidiary at Rs 81 per share (Rs 52,878 crore). Statement 3 is wrong: the buyer must still pass the RBI's fit-and-proper assessment.",
+    "subject": "Economy",
+    "theme": "Disinvestment and banking",
+    "micro_topic": "IDBI Bank strategic disinvestment",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "DRDO recently tested a Quantum Key Distribution (QKD) platform on a live network at the Proof and Experimental Establishment, Chandipur. Consider the following statements:\n1. QKD uses quantum states to generate and share cryptographic keys.\n2. An attempt to intercept the quantum signal disturbs its state, allowing the eavesdropping to be detected.\n3. QKD directly encrypts the message by itself, so no classical encryption method is required.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "QKD distributes keys using quantum states, and measurement disturbs them, revealing eavesdropping. Statement 3 is wrong: the keys are then used with conventional encryption to protect the data.",
+    "subject": "Science & Technology",
+    "theme": "Quantum technologies",
+    "micro_topic": "Quantum Key Distribution (DRDO)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "India's Ramsar network recently rose to 103 sites with the addition of Sukhna Wetland and Sauj Jheel. Consider the following statements:\n1. Sukhna Wetland in Chandigarh is a man-made reservoir created by damming a seasonal stream, the Sukhna Choe.\n2. Sauj Jheel is a floodplain lake located in Uttar Pradesh.\n3. With Sauj Jheel's designation, Uttar Pradesh now has 14 Ramsar sites.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct. Sukhna (1958, Chandigarh; Ramsar site no. 2602) is a man-made reservoir on the Sukhna Choe; Sauj Jheel (no. 2603) is a floodplain lake in Mainpuri, UP, which takes UP's tally to 14. India's total is now 103.",
+    "subject": "Environment",
+    "theme": "Wetlands and Ramsar",
+    "micro_topic": "Ramsar sites added October 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Under the Rights of Persons with Disabilities Act, 2016, a 'person with benchmark disability' means a person with:",
+    "options": [
+      "(a) not less than 40% of a specified disability",
+      "(b) not less than 60% of a specified disability",
+      "(c) not less than 80% of a specified disability",
+      "(d) any disability certified by a medical authority"
+    ],
+    "answer": "(a)",
+    "explanation": "Section 2(r) of the RPwD Act, 2016 defines benchmark disability as not less than 40% of a specified disability. The Act recognises 21 disabilities and provides 4% reservation in government posts for benchmark disabilities.",
+    "subject": "Polity & Governance",
+    "theme": "Rights of persons with disabilities",
+    "micro_topic": "RPwD Act 2016 benchmark disability",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the Ramsar Convention and the Montreux Record, consider the following statements:\n1. The Ramsar Convention was adopted in 1971 at Ramsar, Iran.\n2. The Montreux Record lists Ramsar sites where ecological character has changed, is changing or is likely to change as a result of human interference.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 only",
+      "(c) Both 1 and 2",
+      "(d) Neither 1 nor 2"
+    ],
+    "answer": "(c)",
+    "explanation": "Both are correct. The Convention on Wetlands was adopted in 1971 at Ramsar; the Montreux Record is the register of sites needing priority conservation attention.",
+    "subject": "Environment",
+    "theme": "Wetlands and Ramsar",
+    "micro_topic": "Ramsar Convention and Montreux Record",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  }
+]

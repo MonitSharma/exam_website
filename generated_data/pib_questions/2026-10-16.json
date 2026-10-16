@@ -1,0 +1,50 @@
+[
+  {
+    "question": "Consider the following statements about the two wetlands recently added to India's Ramsar list:\n1. Sukhna Wetland in Chandigarh is a man-made reservoir created by damming a seasonal stream.\n2. Sauj Jheel is located in Mainpuri district of Uttar Pradesh.\n3. With these additions, India has 103 Ramsar sites.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "Sukhna (Site 2602) was created in 1958 by damming the Sukhna Choe; Sauj Jheel (Site 2603) is in Mainpuri, UP; India's tally is now 103.",
+    "subject": "Environment",
+    "theme": "Wetlands & International Conventions",
+    "micro_topic": "Ramsar Sites",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the recently approved strategic disinvestment of IDBI Bank, consider the following statements:\n1. The approval was given by the Cabinet Committee on Economic Affairs.\n2. Both the Government of India and LIC are selling part of their shareholding.\n3. The transaction is described by the government as the largest FDI in India's financial sector.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "CCEA approved the sale of a 60.72% stake (30.48% GoI + 30.24% LIC) to a Fairfax Financial Holdings entity; the government called it the largest FDI in the financial sector.",
+    "subject": "Economy",
+    "theme": "Banking & Disinvestment",
+    "micro_topic": "Strategic Disinvestment of IDBI Bank",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The 'National Strategic Trade Command Centre' recently launched by the Ministry of Commerce and Industry includes a dashboard on which of the following?",
+    "options": [
+      "(a) GI Tag registrations",
+      "(b) SCOMET items",
+      "(c) Special Economic Zones' land allotment",
+      "(d) Anti-dumping duties"
+    ],
+    "answer": "(b)",
+    "explanation": "The NSTCC includes a SCOMET (Special Chemicals, Organisms, Materials, Equipment and Technologies) dashboard to track licence applications and pendency.",
+    "subject": "Economy",
+    "theme": "External Sector & Trade Facilitation",
+    "micro_topic": "National Strategic Trade Command Centre",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]
