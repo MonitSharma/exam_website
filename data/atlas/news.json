@@ -10,7 +10,7 @@
       "label": "CA & PIB · week of 2026-10-11",
       "source": "daily/daily_current_affairs/UPSC_CA_2026-10-11.md",
       "libraryDerived": true,
-      "sourceCount": 4
+      "sourceCount": 12
     },
     {
       "id": "2026-10-04-library",
@@ -11425,13 +11425,43 @@
       "lat": 39.5385,
       "lon": -97.4826,
       "topic": "Briefing geography",
-      "hook": "Country study anchor · mentioned 2026-10-12",
-      "fact": "rs must now hold cash with the RBI equal to 20% of the rupee notional on qualifying rupee FX derivative contracts above US$2 million that hedge current-account exposures where users buy foreign currency against the rupee. Daily reporting via CIMS; splitting trades to dodge it is a violation. Separate circular cuts the limit on FX derivative positions with no underlying exposure from US$100 million to US$5 million, including on exchanges. Memorize: 20% | >$2 mn | $100 mn → $5 mn | held daily till contract ends | an administrative (not rate) tool — contrast with the 7 Oct repo hike to 5.50%. Outcome sources agree on figures; fuller effective-da",
+      "hook": "Country study anchor · mentioned 2026-10-16",
+      "fact": "trends, application pendency, timely issue resolution. - Same day: Commerce data put April–September 2026-27 exports at US$476.20 billion; September merchandise exports up 23.04% y/y to US$44.40 bn (secondary source, verify).",
       "locate": "Approximate study anchor for United States of America, United States of America. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
       "coordinatePrecision": "regional-study-anchor",
       "coordinateSource": "data/maps/world_countries_india_pov.geojson",
-      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-12.md",
+      "source": "daily/daily_pib/PIB_2026-10-16.md",
       "references": [
+        {
+          "source": "daily/daily_pib/PIB_2026-10-16.md",
+          "date": "2026-10-16",
+          "cadence": "pib",
+          "excerpt": "trends, application pendency, timely issue resolution. - Same day: Commerce data put April–September 2026-27 exports at US$476.20 billion; September merchandise exports up 23.04% y/y to US$44.40 bn (secondary source, verify)."
+        },
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-15.md",
+          "date": "2026-10-15",
+          "cadence": "daily",
+          "excerpt": ".g. RBI FERR/repo, CPI, BIMSTEC Home Ministers, PMDDKY, Jantar Mantar, PFAS, ICMR Keylong, Nobel prizes, WWF LPR, India–US trade deal headline, monsoon-2026 wrap-up). Five items, five distinct subjects."
+        },
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-14.md",
+          "date": "2026-10-14",
+          "cadence": "daily",
+          "excerpt": "8 of 77 PFAS detected. IARC: PFOA Group 1, PFOS Group 2B. Stockholm Convention: PFOS (2009), PFOA (2019), PFHxS (2022). US EPA limit 4 ng/L for PFOA and PFOS (2024); the Indian standard IS 10500:2012 has no PFAS limit. (Figures from an aggregator summary of the studies; verify against the papers before citing.) Notebook: GS3 Environment (pollution). Static anchor: Shankar IAS, Environment — Pollution and International Conventions (Stockholm/POPs). Nudge: add PFAS to the POP list with listing years."
+        },
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-13.md",
+          "date": "2026-10-13",
+          "cadence": "daily",
+          "excerpt": "single-source report, treat with caution. Key facts: IPCC established 1988 (WMO + UNEP); HQ Geneva; chair Jim Skea; the US reportedly left the body earlier this year; the plenary was under way this week and the outcome was not yet reported at the time of writing. Notebook: GS3 Environment (climate governance) / GS2 IR. Static anchor: Shankar IAS, Environment — Climate Change chapter (IPCC, UNFCCC, Paris stocktake). Nudge: add an \"AR7 timeline dispute\" box and cross-link to India's CBDR-RC stand."
+        },
+        {
+          "source": "daily/daily_pib/PIB_2026-10-13.md",
+          "date": "2026-10-13",
+          "cadence": "pib",
+          "excerpt": ".7% to 31.41 lakh tonnes. - Trade: imports fell 31.52% in value (₹46,427.60 cr → ₹31,793.59 cr); exports rose 13.4% to ~US$969.5 million. - 2030-31 targets: ~350 lakh tonnes production, 1,130 kg/ha yield. MSP 2026-27: tur ₹8,450, urad ₹8,200, masoor ₹7,000. - Delivery gaps: 528 of 1,000 dal mills allocated so far; only 9.25 lakh seed kits distributed in Rabi 2025-26."
+        },
         {
           "source": "daily/daily_current_affairs/UPSC_CA_2026-10-12.md",
           "date": "2026-10-12",
@@ -11443,6 +11473,708 @@
           "date": "2026-10-11",
           "cadence": "daily",
           "excerpt": "tional Relations / Economy - Exam angle: CBAM is the sharpest friction between climate policy and trade rules; even the US is now questioning it, which strengthens India's CBDR-RC and WTO-compatibility argument and its India–EU FTA talking points. Expect Mains on \"unilateral carbon border taxes\". - Key facts: Notice published 8 Oct 2026 (docket USTR-2026-0661); written comments due ~30 days after publication (≈ 7 Nov by the notice's own formula; press reports cite 9 Nov — verify). Seeks views on CBAM's effects on US producers/exports, on EU proposals to widen scope to downstream steel- and aluminium-intensive goods, and on whether enforcement"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-11-library-china-china",
+      "weekId": "2026-10-11-library",
+      "layer": "current",
+      "name": "China",
+      "country": "China",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 32.4982,
+      "lon": 106.3373,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-16",
+      "fact": "Neighbours: Pakistan 106 (25.5), Bangladesh 84 (19.2), Nepal 72 (14.5), Sri Lanka 53 (10.2). Somalia ranks 122 (47.0); China is in the joint 1–24 group. Severity: serious = 20.0–34.9. - Notebook: GS1 Society / GS2 Governance (Hunger, Poverty, Reports). - Static anchor: Mrunal/Shankar \"Indices & Reports\" sheet; Laxmikanth DPSP Art. 47 (nutrition). Update: add 2026 rank row and the four-indicator formula; cross-link to POSHAN/PDS notes.",
+      "locate": "Approximate study anchor for China, China. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-16.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-16.md",
+          "date": "2026-10-16",
+          "cadence": "daily",
+          "excerpt": "Neighbours: Pakistan 106 (25.5), Bangladesh 84 (19.2), Nepal 72 (14.5), Sri Lanka 53 (10.2). Somalia ranks 122 (47.0); China is in the joint 1–24 group. Severity: serious = 20.0–34.9. - Notebook: GS1 Society / GS2 Governance (Hunger, Poverty, Reports). - Static anchor: Mrunal/Shankar \"Indices & Reports\" sheet; Laxmikanth DPSP Art. 47 (nutrition). Update: add 2026 rank row and the four-indicator formula; cross-link to POSHAN/PDS notes."
+        },
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-13.md",
+          "date": "2026-10-13",
+          "cadence": "daily",
+          "excerpt": "gle: Climate-science governance. Many European states want AR7 approved before the 2028 global stocktake; Saudi Arabia, China and India are among those seeking 2029 so developing countries get time to review. Deadlock was already visible at IPCC-64 (Bangkok, March 2026). Reports indicate India also withdrew its offer to host COP33 (2028) — single-source report, treat with caution. Key facts: IPCC established 1988 (WMO + UNEP); HQ Geneva; chair Jim Skea; the US reportedly left the body earlier this year; the plenary was under way this week and the outcome was not yet reported at the time of writing. Notebook: GS3 Environment (climate governanc"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-11-library-france-france",
+      "weekId": "2026-10-11-library",
+      "layer": "current",
+      "name": "France",
+      "country": "France",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 46.6961,
+      "lon": 2.5523,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-13",
+      "fact": "hnology Exam angle: A bilateral space mission for water stress, crop health and heat mapping, and the third joint India–France satellite after Megha-Tropiques and SARAL. Key facts: CNES supplies the thermal-infrared (TIR) payload; ISRO the VNIR-SWIR payload and bus; launch on PSLV expected in 12–16 months (Wikipedia lists a target of Oct 2027); orbit is sun-synchronous at ~761 km and land resolution ~57 m (secondary source; the revisit figure is inconsistent across sources). Notebook: GS3 Sci-Tech (Space). Static anchor: Spectrum / ISRO notes — Earth-observation missions. Nudge: add TRISHNA to the India–France cooperation table.",
+      "locate": "Approximate study anchor for France, France. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-13.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-13.md",
+          "date": "2026-10-13",
+          "cadence": "daily",
+          "excerpt": "hnology Exam angle: A bilateral space mission for water stress, crop health and heat mapping, and the third joint India–France satellite after Megha-Tropiques and SARAL. Key facts: CNES supplies the thermal-infrared (TIR) payload; ISRO the VNIR-SWIR payload and bus; launch on PSLV expected in 12–16 months (Wikipedia lists a target of Oct 2027); orbit is sun-synchronous at ~761 km and land resolution ~57 m (secondary source; the revisit figure is inconsistent across sources). Notebook: GS3 Sci-Tech (Space). Static anchor: Spectrum / ISRO notes — Earth-observation missions. Nudge: add TRISHNA to the India–France cooperation table."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-11-library-saudi-arabia-saudi-arabia",
+      "weekId": "2026-10-11-library",
+      "layer": "current",
+      "name": "Saudi Arabia",
+      "country": "Saudi Arabia",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 23.8069,
+      "lon": 44.6996,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-13",
+      "fact": "onment Exam angle: Climate-science governance. Many European states want AR7 approved before the 2028 global stocktake; Saudi Arabia, China and India are among those seeking 2029 so developing countries get time to review. Deadlock was already visible at IPCC-64 (Bangkok, March 2026). Reports indicate India also withdrew its offer to host COP33 (2028) — single-source report, treat with caution. Key facts: IPCC established 1988 (WMO + UNEP); HQ Geneva; chair Jim Skea; the US reportedly left the body earlier this year; the plenary was under way this week and the outcome was not yet reported at the time of writing. Notebook: GS3 Environment (cli",
+      "locate": "Approximate study anchor for Saudi Arabia, Saudi Arabia. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-13.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-13.md",
+          "date": "2026-10-13",
+          "cadence": "daily",
+          "excerpt": "onment Exam angle: Climate-science governance. Many European states want AR7 approved before the 2028 global stocktake; Saudi Arabia, China and India are among those seeking 2029 so developing countries get time to review. Deadlock was already visible at IPCC-64 (Bangkok, March 2026). Reports indicate India also withdrew its offer to host COP33 (2028) — single-source report, treat with caution. Key facts: IPCC established 1988 (WMO + UNEP); HQ Geneva; chair Jim Skea; the US reportedly left the body earlier this year; the plenary was under way this week and the outcome was not yet reported at the time of writing. Notebook: GS3 Environment (cli"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-11-library-afghanistan-afghanistan",
+      "weekId": "2026-10-11-library",
+      "layer": "current",
+      "name": "Afghanistan",
+      "country": "Afghanistan",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 34.1643,
+      "lon": 66.4966,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-13",
+      "fact": "eighbourhood) Exam angle: Civil–military and federal–provincial tensions next door, with spillover on terrorism and the Afghanistan frontier. India-relevant for border security and the Pakistan policy debate; it also compares neatly with Article 356 and state emergencies at home. Key facts: Announced 11 Oct 2026 on federal cabinet recommendation, approved by President Zardari; initial six months; Governor to run the province with an advisory council; CM Sohail Afridi reported arrested; PTI called it \"a coup disguised as emergency\". The trigger was PTI's planned Islamabad march demanding Imran Khan's release. Notebook: GS2 IR (India and neighb",
+      "locate": "Approximate study anchor for Afghanistan, Afghanistan. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-13.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-13.md",
+          "date": "2026-10-13",
+          "cadence": "daily",
+          "excerpt": "eighbourhood) Exam angle: Civil–military and federal–provincial tensions next door, with spillover on terrorism and the Afghanistan frontier. India-relevant for border security and the Pakistan policy debate; it also compares neatly with Article 356 and state emergencies at home. Key facts: Announced 11 Oct 2026 on federal cabinet recommendation, approved by President Zardari; initial six months; Governor to run the province with an advisory council; CM Sohail Afridi reported arrested; PTI called it \"a coup disguised as emergency\". The trigger was PTI's planned Islamabad march demanding Imran Khan's release. Notebook: GS2 IR (India and neighb"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-11-library-pakistan-pakistan",
+      "weekId": "2026-10-11-library",
+      "layer": "current",
+      "name": "Pakistan",
+      "country": "Pakistan",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 29.3284,
+      "lon": 68.5456,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-16",
+      "fact": ".1, South Asia 23.5. Undernourishment 9.8%; stunting 50% (2000) → 29.3%; wasting 19% (up from 15% in 2012). Neighbours: Pakistan 106 (25.5), Bangladesh 84 (19.2), Nepal 72 (14.5), Sri Lanka 53 (10.2). Somalia ranks 122 (47.0); China is in the joint 1–24 group. Severity: serious = 20.0–34.9. - Notebook: GS1 Society / GS2 Governance (Hunger, Poverty, Reports). - Static anchor: Mrunal/Shankar \"Indices & Reports\" sheet; Laxmikanth DPSP Art. 47 (nutrition). Update: add 2026 rank row and the four-indicator formula; cross-link to POSHAN/PDS notes.",
+      "locate": "Approximate study anchor for Pakistan, Pakistan. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-16.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-16.md",
+          "date": "2026-10-16",
+          "cadence": "daily",
+          "excerpt": ".1, South Asia 23.5. Undernourishment 9.8%; stunting 50% (2000) → 29.3%; wasting 19% (up from 15% in 2012). Neighbours: Pakistan 106 (25.5), Bangladesh 84 (19.2), Nepal 72 (14.5), Sri Lanka 53 (10.2). Somalia ranks 122 (47.0); China is in the joint 1–24 group. Severity: serious = 20.0–34.9. - Notebook: GS1 Society / GS2 Governance (Hunger, Poverty, Reports). - Static anchor: Mrunal/Shankar \"Indices & Reports\" sheet; Laxmikanth DPSP Art. 47 (nutrition). Update: add 2026 rank row and the four-indicator formula; cross-link to POSHAN/PDS notes."
+        },
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-13.md",
+          "date": "2026-10-13",
+          "cadence": "daily",
+          "excerpt": "3. Pakistan declares emergency in Khyber Pakhtunkhwa and suspends the PTI-led government — International Relations (Neighbourhood) Exam angle: Civil–military and federal–provincial tensions next door, with spillover on terrorism and the Afghanistan frontier. India-relevant for border security and the Pakistan policy debate; it also compares neatly with Article 356 and state emergencies at home. Key facts: Announced 11 Oct 2026 on federal cabinet recommendation, approved by President Zardari; initial six months; Governor to run the province with an advisory council; CM Sohail Afridi reported arrested; PTI called it \"a coup disguised as emergen"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-11-library-india-lakshadweep",
+      "weekId": "2026-10-11-library",
+      "layer": "current",
+      "name": "Lakshadweep",
+      "country": "India",
+      "region": "Lakshadweep",
+      "scope": "india",
+      "lat": 11.2215,
+      "lon": 72.7745,
+      "topic": "Briefing geography",
+      "hook": "Lakshadweep · mentioned 2026-10-13",
+      "fact": "5. Lakshadweep declared 100% literate under ULLAS — Society Exam angle: The ULLAS (Nav Bharat Saaksharta Karyakram) model: \"fully literate\" means identified adult non-literates passing the FLNAT, not Census literacy. Key facts: Declared 11 Oct 2026 at Kavaratti by Administrator Praful Patel; 1,113 adult non-literates identified in the initial survey; ULLAS targets those aged 15+, a centrally sponsored scheme. Census definition: age 7+, reads and writes with understanding. Notebook: GS1 Society / GS2 Education. Static anchor: Laxmikanth, Ch. 'Education' (Art. 21A, 45); NCERT Class 12 Geography on population and literacy. Nudge: add a ULLAS vs",
+      "locate": "Approximate study anchor for Lakshadweep, India. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/bharatrajya-india-districts.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-13.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-13.md",
+          "date": "2026-10-13",
+          "cadence": "daily",
+          "excerpt": "5. Lakshadweep declared 100% literate under ULLAS — Society Exam angle: The ULLAS (Nav Bharat Saaksharta Karyakram) model: \"fully literate\" means identified adult non-literates passing the FLNAT, not Census literacy. Key facts: Declared 11 Oct 2026 at Kavaratti by Administrator Praful Patel; 1,113 adult non-literates identified in the initial survey; ULLAS targets those aged 15+, a centrally sponsored scheme. Census definition: age 7+, reads and writes with understanding. Notebook: GS1 Society / GS2 Education. Static anchor: Laxmikanth, Ch. 'Education' (Art. 21A, 45); NCERT Class 12 Geography on population and literacy. Nudge: add a ULLAS vs"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-11-library-bhutan-bhutan",
+      "weekId": "2026-10-11-library",
+      "layer": "current",
+      "name": "Bhutan",
+      "country": "Bhutan",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 27.5367,
+      "lon": 90.0403,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-14",
+      "fact": "parison and Myanmar-conflict constraints. Key facts: Held 13 Oct 2026, chaired by Amit Shah; seven members (Bangladesh, Bhutan, India, Myanmar, Nepal, Sri Lanka, Thailand). Mechanism mandated at the 4th Summit (Kathmandu, 2018), welcomed at the 6th (Bangkok, Apr 2025). Declaration: condemns cross-border terrorism, backs UNSC 1267 sanctions, targets scam centres/\"cyber slavery\" and trafficking (victim-centred SOP), drug-offences monitoring desk, early finalisation of conventions on extradition and trafficking. Bangladesh sent a senior-secretary-led delegation, not its Home Minister. BIMSTEC: Bangkok Declaration 1997; Secretariat Dhaka; Charter",
+      "locate": "Approximate study anchor for Bhutan, Bhutan. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-14.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-14.md",
+          "date": "2026-10-14",
+          "cadence": "daily",
+          "excerpt": "parison and Myanmar-conflict constraints. Key facts: Held 13 Oct 2026, chaired by Amit Shah; seven members (Bangladesh, Bhutan, India, Myanmar, Nepal, Sri Lanka, Thailand). Mechanism mandated at the 4th Summit (Kathmandu, 2018), welcomed at the 6th (Bangkok, Apr 2025). Declaration: condemns cross-border terrorism, backs UNSC 1267 sanctions, targets scam centres/\"cyber slavery\" and trafficking (victim-centred SOP), drug-offences monitoring desk, early finalisation of conventions on extradition and trafficking. Bangladesh sent a senior-secretary-led delegation, not its Home Minister. BIMSTEC: Bangkok Declaration 1997; Secretariat Dhaka; Charter"
+        },
+        {
+          "source": "daily/daily_pib/PIB_2026-10-14.md",
+          "date": "2026-10-14",
+          "cadence": "pib",
+          "excerpt": "s: India hosted the first-ever Home Ministers' Meeting of BIMSTEC, with delegations from all seven members (Bangladesh, Bhutan, India, Myanmar, Nepal, Sri Lanka, Thailand). Home Minister Amit Shah announced it as a step towards a \"safer and more secure region\". Reports say Bangladesh's Home Minister skipped it and sent a bureaucrat-led delegation. Why it matters: SAARC has been dormant since 2016; BIMSTEC is becoming India's main sub-regional platform for security cooperation (terrorism, organised crime, drug and human trafficking, cyber threats, illicit financial flows). Key facts (single-source summary of the declaration): - Delhi Declarati"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-11-library-thailand-thailand",
+      "weekId": "2026-10-11-library",
+      "layer": "current",
+      "name": "Thailand",
+      "country": "Thailand",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 15.4597,
+      "lon": 101.0732,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-14",
+      "fact": "Key facts: Held 13 Oct 2026, chaired by Amit Shah; seven members (Bangladesh, Bhutan, India, Myanmar, Nepal, Sri Lanka, Thailand). Mechanism mandated at the 4th Summit (Kathmandu, 2018), welcomed at the 6th (Bangkok, Apr 2025). Declaration: condemns cross-border terrorism, backs UNSC 1267 sanctions, targets scam centres/\"cyber slavery\" and trafficking (victim-centred SOP), drug-offences monitoring desk, early finalisation of conventions on extradition and trafficking. Bangladesh sent a senior-secretary-led delegation, not its Home Minister. BIMSTEC: Bangkok Declaration 1997; Secretariat Dhaka; Charter in force 2024. Notebook: GS2 IR (regional",
+      "locate": "Approximate study anchor for Thailand, Thailand. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-14.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-14.md",
+          "date": "2026-10-14",
+          "cadence": "daily",
+          "excerpt": "Key facts: Held 13 Oct 2026, chaired by Amit Shah; seven members (Bangladesh, Bhutan, India, Myanmar, Nepal, Sri Lanka, Thailand). Mechanism mandated at the 4th Summit (Kathmandu, 2018), welcomed at the 6th (Bangkok, Apr 2025). Declaration: condemns cross-border terrorism, backs UNSC 1267 sanctions, targets scam centres/\"cyber slavery\" and trafficking (victim-centred SOP), drug-offences monitoring desk, early finalisation of conventions on extradition and trafficking. Bangladesh sent a senior-secretary-led delegation, not its Home Minister. BIMSTEC: Bangkok Declaration 1997; Secretariat Dhaka; Charter in force 2024. Notebook: GS2 IR (regional"
+        },
+        {
+          "source": "daily/daily_pib/PIB_2026-10-14.md",
+          "date": "2026-10-14",
+          "cadence": "pib",
+          "excerpt": "ers' Meeting of BIMSTEC, with delegations from all seven members (Bangladesh, Bhutan, India, Myanmar, Nepal, Sri Lanka, Thailand). Home Minister Amit Shah announced it as a step towards a \"safer and more secure region\". Reports say Bangladesh's Home Minister skipped it and sent a bureaucrat-led delegation. Why it matters: SAARC has been dormant since 2016; BIMSTEC is becoming India's main sub-regional platform for security cooperation (terrorism, organised crime, drug and human trafficking, cyber threats, illicit financial flows). Key facts (single-source summary of the declaration): - Delhi Declaration calls for regular future HMMs on a rota"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-11-library-myanmar-myanmar",
+      "weekId": "2026-10-11-library",
+      "layer": "current",
+      "name": "Myanmar",
+      "country": "Myanmar",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 21.5739,
+      "lon": 95.8045,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-14",
+      "fact": "ack gives the grouping a security pillar (India is lead on security). It also tests the SAARC-vs-BIMSTEC comparison and Myanmar-conflict constraints. Key facts: Held 13 Oct 2026, chaired by Amit Shah; seven members (Bangladesh, Bhutan, India, Myanmar, Nepal, Sri Lanka, Thailand). Mechanism mandated at the 4th Summit (Kathmandu, 2018), welcomed at the 6th (Bangkok, Apr 2025). Declaration: condemns cross-border terrorism, backs UNSC 1267 sanctions, targets scam centres/\"cyber slavery\" and trafficking (victim-centred SOP), drug-offences monitoring desk, early finalisation of conventions on extradition and trafficking. Bangladesh sent a senior-se",
+      "locate": "Approximate study anchor for Myanmar, Myanmar. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-14.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-14.md",
+          "date": "2026-10-14",
+          "cadence": "daily",
+          "excerpt": "ack gives the grouping a security pillar (India is lead on security). It also tests the SAARC-vs-BIMSTEC comparison and Myanmar-conflict constraints. Key facts: Held 13 Oct 2026, chaired by Amit Shah; seven members (Bangladesh, Bhutan, India, Myanmar, Nepal, Sri Lanka, Thailand). Mechanism mandated at the 4th Summit (Kathmandu, 2018), welcomed at the 6th (Bangkok, Apr 2025). Declaration: condemns cross-border terrorism, backs UNSC 1267 sanctions, targets scam centres/\"cyber slavery\" and trafficking (victim-centred SOP), drug-offences monitoring desk, early finalisation of conventions on extradition and trafficking. Bangladesh sent a senior-se"
+        },
+        {
+          "source": "daily/daily_pib/PIB_2026-10-14.md",
+          "date": "2026-10-14",
+          "cadence": "pib",
+          "excerpt": "the first-ever Home Ministers' Meeting of BIMSTEC, with delegations from all seven members (Bangladesh, Bhutan, India, Myanmar, Nepal, Sri Lanka, Thailand). Home Minister Amit Shah announced it as a step towards a \"safer and more secure region\". Reports say Bangladesh's Home Minister skipped it and sent a bureaucrat-led delegation. Why it matters: SAARC has been dormant since 2016; BIMSTEC is becoming India's main sub-regional platform for security cooperation (terrorism, organised crime, drug and human trafficking, cyber threats, illicit financial flows). Key facts (single-source summary of the declaration): - Delhi Declaration calls for re"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-11-library-bangladesh-bangladesh",
+      "weekId": "2026-10-11-library",
+      "layer": "current",
+      "name": "Bangladesh",
+      "country": "Bangladesh",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 24.215,
+      "lon": 89.685,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-16",
+      "fact": "Undernourishment 9.8%; stunting 50% (2000) → 29.3%; wasting 19% (up from 15% in 2012). Neighbours: Pakistan 106 (25.5), Bangladesh 84 (19.2), Nepal 72 (14.5), Sri Lanka 53 (10.2). Somalia ranks 122 (47.0); China is in the joint 1–24 group. Severity: serious = 20.0–34.9. - Notebook: GS1 Society / GS2 Governance (Hunger, Poverty, Reports). - Static anchor: Mrunal/Shankar \"Indices & Reports\" sheet; Laxmikanth DPSP Art. 47 (nutrition). Update: add 2026 rank row and the four-indicator formula; cross-link to POSHAN/PDS notes.",
+      "locate": "Approximate study anchor for Bangladesh, Bangladesh. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-16.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-16.md",
+          "date": "2026-10-16",
+          "cadence": "daily",
+          "excerpt": "Undernourishment 9.8%; stunting 50% (2000) → 29.3%; wasting 19% (up from 15% in 2012). Neighbours: Pakistan 106 (25.5), Bangladesh 84 (19.2), Nepal 72 (14.5), Sri Lanka 53 (10.2). Somalia ranks 122 (47.0); China is in the joint 1–24 group. Severity: serious = 20.0–34.9. - Notebook: GS1 Society / GS2 Governance (Hunger, Poverty, Reports). - Static anchor: Mrunal/Shankar \"Indices & Reports\" sheet; Laxmikanth DPSP Art. 47 (nutrition). Update: add 2026 rank row and the four-indicator formula; cross-link to POSHAN/PDS notes."
+        },
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-14.md",
+          "date": "2026-10-14",
+          "cadence": "daily",
+          "excerpt": "-BIMSTEC comparison and Myanmar-conflict constraints. Key facts: Held 13 Oct 2026, chaired by Amit Shah; seven members (Bangladesh, Bhutan, India, Myanmar, Nepal, Sri Lanka, Thailand). Mechanism mandated at the 4th Summit (Kathmandu, 2018), welcomed at the 6th (Bangkok, Apr 2025). Declaration: condemns cross-border terrorism, backs UNSC 1267 sanctions, targets scam centres/\"cyber slavery\" and trafficking (victim-centred SOP), drug-offences monitoring desk, early finalisation of conventions on extradition and trafficking. Bangladesh sent a senior-secretary-led delegation, not its Home Minister. BIMSTEC: Bangkok Declaration 1997; Secretariat Dh"
+        },
+        {
+          "source": "daily/daily_pib/PIB_2026-10-14.md",
+          "date": "2026-10-14",
+          "cadence": "pib",
+          "excerpt": "t) What it is: India hosted the first-ever Home Ministers' Meeting of BIMSTEC, with delegations from all seven members (Bangladesh, Bhutan, India, Myanmar, Nepal, Sri Lanka, Thailand). Home Minister Amit Shah announced it as a step towards a \"safer and more secure region\". Reports say Bangladesh's Home Minister skipped it and sent a bureaucrat-led delegation. Why it matters: SAARC has been dormant since 2016; BIMSTEC is becoming India's main sub-regional platform for security cooperation (terrorism, organised crime, drug and human trafficking, cyber threats, illicit financial flows). Key facts (single-source summary of the declaration): - Del"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-11-library-nepal-nepal",
+      "weekId": "2026-10-11-library",
+      "layer": "current",
+      "name": "Nepal",
+      "country": "Nepal",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 28.2979,
+      "lon": 83.6399,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-16",
+      "fact": "stunting 50% (2000) → 29.3%; wasting 19% (up from 15% in 2012). Neighbours: Pakistan 106 (25.5), Bangladesh 84 (19.2), Nepal 72 (14.5), Sri Lanka 53 (10.2). Somalia ranks 122 (47.0); China is in the joint 1–24 group. Severity: serious = 20.0–34.9. - Notebook: GS1 Society / GS2 Governance (Hunger, Poverty, Reports). - Static anchor: Mrunal/Shankar \"Indices & Reports\" sheet; Laxmikanth DPSP Art. 47 (nutrition). Update: add 2026 rank row and the four-indicator formula; cross-link to POSHAN/PDS notes.",
+      "locate": "Approximate study anchor for Nepal, Nepal. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-16.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-16.md",
+          "date": "2026-10-16",
+          "cadence": "daily",
+          "excerpt": "stunting 50% (2000) → 29.3%; wasting 19% (up from 15% in 2012). Neighbours: Pakistan 106 (25.5), Bangladesh 84 (19.2), Nepal 72 (14.5), Sri Lanka 53 (10.2). Somalia ranks 122 (47.0); China is in the joint 1–24 group. Severity: serious = 20.0–34.9. - Notebook: GS1 Society / GS2 Governance (Hunger, Poverty, Reports). - Static anchor: Mrunal/Shankar \"Indices & Reports\" sheet; Laxmikanth DPSP Art. 47 (nutrition). Update: add 2026 rank row and the four-indicator formula; cross-link to POSHAN/PDS notes."
+        },
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-14.md",
+          "date": "2026-10-14",
+          "cadence": "daily",
+          "excerpt": "lict constraints. Key facts: Held 13 Oct 2026, chaired by Amit Shah; seven members (Bangladesh, Bhutan, India, Myanmar, Nepal, Sri Lanka, Thailand). Mechanism mandated at the 4th Summit (Kathmandu, 2018), welcomed at the 6th (Bangkok, Apr 2025). Declaration: condemns cross-border terrorism, backs UNSC 1267 sanctions, targets scam centres/\"cyber slavery\" and trafficking (victim-centred SOP), drug-offences monitoring desk, early finalisation of conventions on extradition and trafficking. Bangladesh sent a senior-secretary-led delegation, not its Home Minister. BIMSTEC: Bangkok Declaration 1997; Secretariat Dhaka; Charter in force 2024. Notebook"
+        },
+        {
+          "source": "daily/daily_pib/PIB_2026-10-14.md",
+          "date": "2026-10-14",
+          "cadence": "pib",
+          "excerpt": "t-ever Home Ministers' Meeting of BIMSTEC, with delegations from all seven members (Bangladesh, Bhutan, India, Myanmar, Nepal, Sri Lanka, Thailand). Home Minister Amit Shah announced it as a step towards a \"safer and more secure region\". Reports say Bangladesh's Home Minister skipped it and sent a bureaucrat-led delegation. Why it matters: SAARC has been dormant since 2016; BIMSTEC is becoming India's main sub-regional platform for security cooperation (terrorism, organised crime, drug and human trafficking, cyber threats, illicit financial flows). Key facts (single-source summary of the declaration): - Delhi Declaration calls for regular fut"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-11-library-sri-lanka-sri-lanka",
+      "weekId": "2026-10-11-library",
+      "layer": "current",
+      "name": "Sri Lanka",
+      "country": "Sri Lanka",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 7.5811,
+      "lon": 80.7048,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-16",
+      "fact": "00) → 29.3%; wasting 19% (up from 15% in 2012). Neighbours: Pakistan 106 (25.5), Bangladesh 84 (19.2), Nepal 72 (14.5), Sri Lanka 53 (10.2). Somalia ranks 122 (47.0); China is in the joint 1–24 group. Severity: serious = 20.0–34.9. - Notebook: GS1 Society / GS2 Governance (Hunger, Poverty, Reports). - Static anchor: Mrunal/Shankar \"Indices & Reports\" sheet; Laxmikanth DPSP Art. 47 (nutrition). Update: add 2026 rank row and the four-indicator formula; cross-link to POSHAN/PDS notes.",
+      "locate": "Approximate study anchor for Sri Lanka, Sri Lanka. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-16.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-16.md",
+          "date": "2026-10-16",
+          "cadence": "daily",
+          "excerpt": "00) → 29.3%; wasting 19% (up from 15% in 2012). Neighbours: Pakistan 106 (25.5), Bangladesh 84 (19.2), Nepal 72 (14.5), Sri Lanka 53 (10.2). Somalia ranks 122 (47.0); China is in the joint 1–24 group. Severity: serious = 20.0–34.9. - Notebook: GS1 Society / GS2 Governance (Hunger, Poverty, Reports). - Static anchor: Mrunal/Shankar \"Indices & Reports\" sheet; Laxmikanth DPSP Art. 47 (nutrition). Update: add 2026 rank row and the four-indicator formula; cross-link to POSHAN/PDS notes."
+        },
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-14.md",
+          "date": "2026-10-14",
+          "cadence": "daily",
+          "excerpt": "nstraints. Key facts: Held 13 Oct 2026, chaired by Amit Shah; seven members (Bangladesh, Bhutan, India, Myanmar, Nepal, Sri Lanka, Thailand). Mechanism mandated at the 4th Summit (Kathmandu, 2018), welcomed at the 6th (Bangkok, Apr 2025). Declaration: condemns cross-border terrorism, backs UNSC 1267 sanctions, targets scam centres/\"cyber slavery\" and trafficking (victim-centred SOP), drug-offences monitoring desk, early finalisation of conventions on extradition and trafficking. Bangladesh sent a senior-secretary-led delegation, not its Home Minister. BIMSTEC: Bangkok Declaration 1997; Secretariat Dhaka; Charter in force 2024. Notebook: GS2 I"
+        },
+        {
+          "source": "daily/daily_pib/PIB_2026-10-14.md",
+          "date": "2026-10-14",
+          "cadence": "pib",
+          "excerpt": "Home Ministers' Meeting of BIMSTEC, with delegations from all seven members (Bangladesh, Bhutan, India, Myanmar, Nepal, Sri Lanka, Thailand). Home Minister Amit Shah announced it as a step towards a \"safer and more secure region\". Reports say Bangladesh's Home Minister skipped it and sent a bureaucrat-led delegation. Why it matters: SAARC has been dormant since 2016; BIMSTEC is becoming India's main sub-regional platform for security cooperation (terrorism, organised crime, drug and human trafficking, cyber threats, illicit financial flows). Key facts (single-source summary of the declaration): - Delhi Declaration calls for regular future HMM"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-11-library-india-umaria",
+      "weekId": "2026-10-11-library",
+      "layer": "current",
+      "name": "Umaria",
+      "country": "India",
+      "region": "Madhya Pradesh",
+      "scope": "india",
+      "lat": 23.6368,
+      "lon": 80.9459,
+      "topic": "Briefing geography",
+      "hook": "Madhya Pradesh · mentioned 2026-10-14",
+      "fact": "2. PM Dhan-Dhaanya Krishi Yojana completes one year: Gaya, Nagaur and Umaria top the district ranking — Agriculture Exam angle: Aspirational-district logic applied to agriculture; convergence-based governance monitored by a dashboard. Good for both Prelims facts and a Mains \"cooperative federalism / convergence\" argument. Key facts: Launched 11 Oct 2025 (Cabinet approval July 2025); 100 districts chosen on low productivity, low cropping intensity and low credit; outlay ₹24,000 crore per year for six years; converges 36 Central schemes of 11 ministries; District Dhan-Dhaanya Samiti under the Collector; 121 indicators tracked with monthly ranki",
+      "locate": "Approximate study anchor for Umaria, India. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/bharatrajya-india-districts.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-14.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-14.md",
+          "date": "2026-10-14",
+          "cadence": "daily",
+          "excerpt": "2. PM Dhan-Dhaanya Krishi Yojana completes one year: Gaya, Nagaur and Umaria top the district ranking — Agriculture Exam angle: Aspirational-district logic applied to agriculture; convergence-based governance monitored by a dashboard. Good for both Prelims facts and a Mains \"cooperative federalism / convergence\" argument. Key facts: Launched 11 Oct 2025 (Cabinet approval July 2025); 100 districts chosen on low productivity, low cropping intensity and low credit; outlay ₹24,000 crore per year for six years; converges 36 Central schemes of 11 ministries; District Dhan-Dhaanya Samiti under the Collector; 121 indicators tracked with monthly ranki"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-11-library-india-nagaur",
+      "weekId": "2026-10-11-library",
+      "layer": "current",
+      "name": "Nagaur",
+      "country": "India",
+      "region": "Rājasthān",
+      "scope": "india",
+      "lat": 27.0547,
+      "lon": 74.2323,
+      "topic": "Briefing geography",
+      "hook": "Rājasthān · mentioned 2026-10-14",
+      "fact": "2. PM Dhan-Dhaanya Krishi Yojana completes one year: Gaya, Nagaur and Umaria top the district ranking — Agriculture Exam angle: Aspirational-district logic applied to agriculture; convergence-based governance monitored by a dashboard. Good for both Prelims facts and a Mains \"cooperative federalism / convergence\" argument. Key facts: Launched 11 Oct 2025 (Cabinet approval July 2025); 100 districts chosen on low productivity, low cropping intensity and low credit; outlay ₹24,000 crore per year for six years; converges 36 Central schemes of 11 ministries; District Dhan-Dhaanya Samiti under the Collector; 121 indicators tracked with monthly ranki",
+      "locate": "Approximate study anchor for Nagaur, India. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/bharatrajya-india-districts.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-14.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-14.md",
+          "date": "2026-10-14",
+          "cadence": "daily",
+          "excerpt": "2. PM Dhan-Dhaanya Krishi Yojana completes one year: Gaya, Nagaur and Umaria top the district ranking — Agriculture Exam angle: Aspirational-district logic applied to agriculture; convergence-based governance monitored by a dashboard. Good for both Prelims facts and a Mains \"cooperative federalism / convergence\" argument. Key facts: Launched 11 Oct 2025 (Cabinet approval July 2025); 100 districts chosen on low productivity, low cropping intensity and low credit; outlay ₹24,000 crore per year for six years; converges 36 Central schemes of 11 ministries; District Dhan-Dhaanya Samiti under the Collector; 121 indicators tracked with monthly ranki"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-11-library-india-new-delhi",
+      "weekId": "2026-10-11-library",
+      "layer": "current",
+      "name": "New Delhi",
+      "country": "India",
+      "region": "Delhi",
+      "scope": "india",
+      "lat": 28.5647,
+      "lon": 77.151,
+      "topic": "Briefing geography",
+      "hook": "Delhi · mentioned 2026-10-15",
+      "fact": "1. Canada's Foreign Minister Anita Anand in New Delhi: CEPA targeted for end-2026 — International Relations Exam angle: The India–Canada reset after the 2023–24 diplomatic freeze is now being run through an economic track (CEPA) plus energy, security and people-to-people ties. Tests bilateral-trade facts and the \"middle powers\" framing in Mains. Key facts: Visit 13–16 Oct 2026 (India, then UAE); talks with EAM S. Jaishankar (reported as their 11th meeting since Sept 2025). CEPA: fifth negotiating round held in Ottawa earlier in October; both sides aim to conclude by end-2026. Trade Minister Maninder Sidhu leads ~300 business delegates (Canada",
+      "locate": "Approximate study anchor for New Delhi, India. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/bharatrajya-india-districts.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-15.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-15.md",
+          "date": "2026-10-15",
+          "cadence": "daily",
+          "excerpt": "1. Canada's Foreign Minister Anita Anand in New Delhi: CEPA targeted for end-2026 — International Relations Exam angle: The India–Canada reset after the 2023–24 diplomatic freeze is now being run through an economic track (CEPA) plus energy, security and people-to-people ties. Tests bilateral-trade facts and the \"middle powers\" framing in Mains. Key facts: Visit 13–16 Oct 2026 (India, then UAE); talks with EAM S. Jaishankar (reported as their 11th meeting since Sept 2025). CEPA: fifth negotiating round held in Ottawa earlier in October; both sides aim to conclude by end-2026. Trade Minister Maninder Sidhu leads ~300 business delegates (Canada"
+        },
+        {
+          "source": "daily/daily_pib/PIB_2026-10-15.md",
+          "date": "2026-10-15",
+          "cadence": "pib",
+          "excerpt": "4. Ministry of Defence / MP-IDSA: First ASEAN–India Defence Think Tank Forum, New Delhi (14–15 Oct) - What: Inaugural forum hosted by Manohar Parrikar Institute for Defence Studies and Analyses (MP-IDSA). - Themes (five sessions): strategic stability; maritime cooperation vs grey-zone coercion; maritime HADR and climate risks; defence tech (counter-drone, AI, start-ups); defence industry co-production and trade. Linked to Act East, SAGAR/MAHASAGAR. - Notebook: GS2 IR (ASEAN, Indo-Pacific); GS3 Internal/External Security."
+        },
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-14.md",
+          "date": "2026-10-14",
+          "cadence": "daily",
+          "excerpt": "1. First BIMSTEC Home Ministers' Meeting in New Delhi adopts the \"Delhi Declaration\" — International Relations Exam angle: India's \"Neighbourhood First\" and Act East converge in BIMSTEC, and the new Home Ministers' track gives the grouping a security pillar (India is lead on security). It also tests the SAARC-vs-BIMSTEC comparison and Myanmar-conflict constraints. Key facts: Held 13 Oct 2026, chaired by Amit Shah; seven members (Bangladesh, Bhutan, India, Myanmar, Nepal, Sri Lanka, Thailand). Mechanism mandated at the 4th Summit (Kathmandu, 2018), welcomed at the 6th (Bangkok, Apr 2025). Declaration: condemns cross-border terrorism, backs UNS"
+        },
+        {
+          "source": "daily/daily_pib/PIB_2026-10-14.md",
+          "date": "2026-10-14",
+          "cadence": "pib",
+          "excerpt": "1. Ministry of Home Affairs: First BIMSTEC Home Ministers' Meeting (HMM) held in New Delhi — \"Delhi Declaration\" adopted (13 Oct) What it is: India hosted the first-ever Home Ministers' Meeting of BIMSTEC, with delegations from all seven members (Bangladesh, Bhutan, India, Myanmar, Nepal, Sri Lanka, Thailand). Home Minister Amit Shah announced it as a step towards a \"safer and more secure region\". Reports say Bangladesh's Home Minister skipped it and sent a bureaucrat-led delegation. Why it matters: SAARC has been dormant since 2016; BIMSTEC is becoming India's main sub-regional platform for security cooperation (terrorism, organised crime, d"
+        },
+        {
+          "source": "daily/daily_pib/PIB_2026-10-12.md",
+          "date": "2026-10-12",
+          "cadence": "pib",
+          "excerpt": "efence (Indian Army) with Dept. of Food & Public Distribution: \"Bharat Rice\" launched for troops; Army–FCI MoU (12 Oct, New Delhi)"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-11-library-united-arab-emirates-united-arab-emirates",
+      "weekId": "2026-10-11-library",
+      "layer": "current",
+      "name": "United Arab Emirates",
+      "country": "United Arab Emirates",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 23.4663,
+      "lon": 54.5473,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-15",
+      "fact": "ies. Tests bilateral-trade facts and the \"middle powers\" framing in Mains. Key facts: Visit 13–16 Oct 2026 (India, then UAE); talks with EAM S. Jaishankar (reported as their 11th meeting since Sept 2025). CEPA: fifth negotiating round held in Ottawa earlier in October; both sides aim to conclude by end-2026. Trade Minister Maninder Sidhu leads ~300 business delegates (Canada's largest in 30+ years, per reports). Two-way trade ~USD 30.4 bn (2025); Canada's aim USD 70 bn by 2030. Reports say Modi may visit Canada in December. Notebook: GS2 IR (bilateral). Static anchor: Mrunal IR pillar — India and North America; Shankar/Laxmikanth not needed.",
+      "locate": "Approximate study anchor for United Arab Emirates, United Arab Emirates. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-15.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-15.md",
+          "date": "2026-10-15",
+          "cadence": "daily",
+          "excerpt": "ies. Tests bilateral-trade facts and the \"middle powers\" framing in Mains. Key facts: Visit 13–16 Oct 2026 (India, then UAE); talks with EAM S. Jaishankar (reported as their 11th meeting since Sept 2025). CEPA: fifth negotiating round held in Ottawa earlier in October; both sides aim to conclude by end-2026. Trade Minister Maninder Sidhu leads ~300 business delegates (Canada's largest in 30+ years, per reports). Two-way trade ~USD 30.4 bn (2025); Canada's aim USD 70 bn by 2030. Reports say Modi may visit Canada in December. Notebook: GS2 IR (bilateral). Static anchor: Mrunal IR pillar — India and North America; Shankar/Laxmikanth not needed."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-11-library-armenia-armenia",
+      "weekId": "2026-10-11-library",
+      "layer": "current",
+      "name": "Armenia",
+      "country": "Armenia",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 40.4591,
+      "lon": 44.8006,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-15",
+      "fact": "rted as ₹2.82 crore and ₹185 crore cumulative, so cite \"over ₹200 crore\" only loosely). COP17: 19–30 Oct 2026, Yerevan, Armenia, with CP-MOP 12 (Cartagena, biosafety) and NP-MOP 6 (Nagoya, ABS); agenda includes resource mobilisation, DSI/Cali Fund and the first global review of KMGBF. Funds must be used within a year with utilisation certificates. Notebook: GS3 Environment (biodiversity governance). Static anchor: Shankar IAS Environment — Biodiversity Act 2002, NBA/SBB/BMC, Nagoya Protocol. Nudge: add the NBA–SBB–BMC three-tier chart and a COP17 \"what to track\" note (30×30, resource mobilisation, DSI); cross-link to the 8 Oct Nagoya MCQ.",
+      "locate": "Approximate study anchor for Armenia, Armenia. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-15.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-15.md",
+          "date": "2026-10-15",
+          "cadence": "daily",
+          "excerpt": "rted as ₹2.82 crore and ₹185 crore cumulative, so cite \"over ₹200 crore\" only loosely). COP17: 19–30 Oct 2026, Yerevan, Armenia, with CP-MOP 12 (Cartagena, biosafety) and NP-MOP 6 (Nagoya, ABS); agenda includes resource mobilisation, DSI/Cali Fund and the first global review of KMGBF. Funds must be used within a year with utilisation certificates. Notebook: GS3 Environment (biodiversity governance). Static anchor: Shankar IAS Environment — Biodiversity Act 2002, NBA/SBB/BMC, Nagoya Protocol. Nudge: add the NBA–SBB–BMC three-tier chart and a COP17 \"what to track\" note (30×30, resource mobilisation, DSI); cross-link to the 8 Oct Nagoya MCQ."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-11-library-canada-canada",
+      "weekId": "2026-10-11-library",
+      "layer": "current",
+      "name": "Canada",
+      "country": "Canada",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 60.3243,
+      "lon": -101.9107,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-16",
+      "fact": "Govt sells 30.48%, LIC 30.24%; retains 15% and 19%. Price Rs 81/share vs Rs 75.99 benchmark. Buyer (Fairfax subsidiary, Canada) still needs RBI fit-and-proper clearance; govt's residual 15% to be sold via the Alternative Mechanism in the open market. Process began with the PIM on 7 Oct 2022. - Notebook: GS3 Economy (banking, disinvestment). - Static anchor: Ramesh Singh \"Banking\" and \"Disinvestment\" chapters. Update: add IDBI to the strategic disinvestment list (Air India, etc.).",
+      "locate": "Approximate study anchor for Canada, Canada. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-16.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-16.md",
+          "date": "2026-10-16",
+          "cadence": "daily",
+          "excerpt": "Govt sells 30.48%, LIC 30.24%; retains 15% and 19%. Price Rs 81/share vs Rs 75.99 benchmark. Buyer (Fairfax subsidiary, Canada) still needs RBI fit-and-proper clearance; govt's residual 15% to be sold via the Alternative Mechanism in the open market. Process began with the PIM on 7 Oct 2022. - Notebook: GS3 Economy (banking, disinvestment). - Static anchor: Ramesh Singh \"Banking\" and \"Disinvestment\" chapters. Update: add IDBI to the strategic disinvestment list (Air India, etc.)."
+        },
+        {
+          "source": "daily/daily_pib/PIB_2026-10-16.md",
+          "date": "2026-10-16",
+          "cadence": "pib",
+          "excerpt": "What / why it matters: The CCEA approved the sale of a 60.72% stake (30.48% GoI + 30.24% LIC) in IDBI Bank to 10955230 Canada Inc., a Fairfax Financial Holdings company, for about ₹52,878 crore. The government calls it the largest FDI in India's financial sector. It is the culmination of the long-running strategic sale (RBI categorised IDBI as a private-sector bank in 2019 after LIC took control in 2018; PCA restrictions applied May 2017–Mar 2021)."
+        },
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-15.md",
+          "date": "2026-10-15",
+          "cadence": "daily",
+          "excerpt": "1. Canada's Foreign Minister Anita Anand in New Delhi: CEPA targeted for end-2026 — International Relations Exam angle: The India–Canada reset after the 2023–24 diplomatic freeze is now being run through an economic track (CEPA) plus energy, security and people-to-people ties. Tests bilateral-trade facts and the \"middle powers\" framing in Mains. Key facts: Visit 13–16 Oct 2026 (India, then UAE); talks with EAM S. Jaishankar (reported as their 11th meeting since Sept 2025). CEPA: fifth negotiating round held in Ottawa earlier in October; both sides aim to conclude by end-2026. Trade Minister Maninder Sidhu leads ~300 business delegates (Canada"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-11-library-india-anand",
+      "weekId": "2026-10-11-library",
+      "layer": "current",
+      "name": "Anand",
+      "country": "India",
+      "region": "Gujarāt",
+      "scope": "india",
+      "lat": 22.4875,
+      "lon": 72.7999,
+      "topic": "Briefing geography",
+      "hook": "Gujarāt · mentioned 2026-10-15",
+      "fact": "1. Canada's Foreign Minister Anita Anand in New Delhi: CEPA targeted for end-2026 — International Relations Exam angle: The India–Canada reset after the 2023–24 diplomatic freeze is now being run through an economic track (CEPA) plus energy, security and people-to-people ties. Tests bilateral-trade facts and the \"middle powers\" framing in Mains. Key facts: Visit 13–16 Oct 2026 (India, then UAE); talks with EAM S. Jaishankar (reported as their 11th meeting since Sept 2025). CEPA: fifth negotiating round held in Ottawa earlier in October; both sides aim to conclude by end-2026. Trade Minister Maninder Sidhu leads ~300 business delegates (Canada",
+      "locate": "Approximate study anchor for Anand, India. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/bharatrajya-india-districts.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-15.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-15.md",
+          "date": "2026-10-15",
+          "cadence": "daily",
+          "excerpt": "1. Canada's Foreign Minister Anita Anand in New Delhi: CEPA targeted for end-2026 — International Relations Exam angle: The India–Canada reset after the 2023–24 diplomatic freeze is now being run through an economic track (CEPA) plus energy, security and people-to-people ties. Tests bilateral-trade facts and the \"middle powers\" framing in Mains. Key facts: Visit 13–16 Oct 2026 (India, then UAE); talks with EAM S. Jaishankar (reported as their 11th meeting since Sept 2025). CEPA: fifth negotiating round held in Ottawa earlier in October; both sides aim to conclude by end-2026. Trade Minister Maninder Sidhu leads ~300 business delegates (Canada"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-11-library-india-prayagraj-sangam",
+      "weekId": "2026-10-11-library",
+      "layer": "current",
+      "name": "Prayagraj / Sangam",
+      "country": "India",
+      "region": "Uttar Pradesh",
+      "scope": "india",
+      "lat": 25.43,
+      "lon": 81.88,
+      "topic": "Briefing geography",
+      "hook": "Uttar Pradesh · mentioned 2026-10-16",
+      "fact": "uction partner Bengaluru-based Taqbit Labs (spelled \"Tagbit\" in some reports). July 2026 field trial: 100-km fibre link Prayagraj–Vindhyachal, QBER 6%, ~5 kbps secure key rate. - Notebook: GS3 Sci-Tech / Internal Security. - Static anchor: Shankar IAS \"Science & Tech: Quantum\" and Physics-optional quantum mechanics (measurement/no-cloning). Update: add QKD vs Post-Quantum Cryptography comparison.",
+      "locate": "Approximate study anchor for Prayagraj / Sangam, India. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/atlas/news.json",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-16.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-16.md",
+          "date": "2026-10-16",
+          "cadence": "daily",
+          "excerpt": "uction partner Bengaluru-based Taqbit Labs (spelled \"Tagbit\" in some reports). July 2026 field trial: 100-km fibre link Prayagraj–Vindhyachal, QBER 6%, ~5 kbps secure key rate. - Notebook: GS3 Sci-Tech / Internal Security. - Static anchor: Shankar IAS \"Science & Tech: Quantum\" and Physics-optional quantum mechanics (measurement/no-cloning). Update: add QKD vs Post-Quantum Cryptography comparison."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-11-library-somalia-somalia",
+      "weekId": "2026-10-11-library",
+      "layer": "current",
+      "name": "Somalia",
+      "country": "Somalia",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 3.5689,
+      "lon": 45.1924,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-16",
+      "fact": "19% (up from 15% in 2012). Neighbours: Pakistan 106 (25.5), Bangladesh 84 (19.2), Nepal 72 (14.5), Sri Lanka 53 (10.2). Somalia ranks 122 (47.0); China is in the joint 1–24 group. Severity: serious = 20.0–34.9. - Notebook: GS1 Society / GS2 Governance (Hunger, Poverty, Reports). - Static anchor: Mrunal/Shankar \"Indices & Reports\" sheet; Laxmikanth DPSP Art. 47 (nutrition). Update: add 2026 rank row and the four-indicator formula; cross-link to POSHAN/PDS notes.",
+      "locate": "Approximate study anchor for Somalia, Somalia. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-16.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-16.md",
+          "date": "2026-10-16",
+          "cadence": "daily",
+          "excerpt": "19% (up from 15% in 2012). Neighbours: Pakistan 106 (25.5), Bangladesh 84 (19.2), Nepal 72 (14.5), Sri Lanka 53 (10.2). Somalia ranks 122 (47.0); China is in the joint 1–24 group. Severity: serious = 20.0–34.9. - Notebook: GS1 Society / GS2 Governance (Hunger, Poverty, Reports). - Static anchor: Mrunal/Shankar \"Indices & Reports\" sheet; Laxmikanth DPSP Art. 47 (nutrition). Update: add 2026 rank row and the four-indicator formula; cross-link to POSHAN/PDS notes."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-11-library-india-chandigarh",
+      "weekId": "2026-10-11-library",
+      "layer": "current",
+      "name": "Chandigarh",
+      "country": "India",
+      "region": "Chandīgarh",
+      "scope": "india",
+      "lat": 30.7187,
+      "lon": 76.7775,
+      "topic": "Briefing geography",
+      "hook": "Chandīgarh · mentioned 2026-10-16",
+      "fact": "5. India's Ramsar sites reach 103: Sukhna Wetland (Chandigarh) and Sauj Jheel (UP) — Environment - Exam angle: Announced 15 Oct by Environment Minister Bhupender Yadav. A \"Places in News\" and wetland-conservation item. - Memorise: Total 103. Sukhna = Ramsar site no. 2602, man-made reservoir (1958) on the Sukhna Choe, Shivalik foothills, Chandigarh's first Ramsar site. Sauj Jheel = no. 2603, perennial floodplain lake in Mainpuri, UP, an IBA hosting 30,000+ waterbirds; UP now has 14 sites. - Notebook: GS3 Environment / GS1 Geography. - Static anchor: Shankar IAS \"Wetlands\"; Majid Husain geography. Update: refresh Ramsar tally (103) and add the",
+      "locate": "Approximate study anchor for Chandigarh, India. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/bharatrajya-india-districts.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-16.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-16.md",
+          "date": "2026-10-16",
+          "cadence": "daily",
+          "excerpt": "5. India's Ramsar sites reach 103: Sukhna Wetland (Chandigarh) and Sauj Jheel (UP) — Environment - Exam angle: Announced 15 Oct by Environment Minister Bhupender Yadav. A \"Places in News\" and wetland-conservation item. - Memorise: Total 103. Sukhna = Ramsar site no. 2602, man-made reservoir (1958) on the Sukhna Choe, Shivalik foothills, Chandigarh's first Ramsar site. Sauj Jheel = no. 2603, perennial floodplain lake in Mainpuri, UP, an IBA hosting 30,000+ waterbirds; UP now has 14 sites. - Notebook: GS3 Environment / GS1 Geography. - Static anchor: Shankar IAS \"Wetlands\"; Majid Husain geography. Update: refresh Ramsar tally (103) and add the"
+        },
+        {
+          "source": "daily/daily_pib/PIB_2026-10-16.md",
+          "date": "2026-10-16",
+          "cadence": "pib",
+          "excerpt": "1. Ministry of Environment, Forest & Climate Change: India's Ramsar sites rise to 103 — Sukhna Wetland (Chandigarh) and Sauj Jheel (Mainpuri, UP) added (announced 15 Oct)"
         }
       ],
       "libraryDerived": true
@@ -11502,28 +12234,55 @@
       "libraryDerived": true
     },
     {
-      "id": "2026-10-11-library-india-new-delhi",
+      "id": "2026-10-11-library-uzbekistan-uzbekistan",
       "weekId": "2026-10-11-library",
       "layer": "current",
-      "name": "New Delhi",
-      "country": "India",
-      "region": "Delhi",
-      "scope": "india",
-      "lat": 28.5647,
-      "lon": 77.151,
+      "name": "Uzbekistan",
+      "country": "Uzbekistan",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 41.6936,
+      "lon": 64.0054,
       "topic": "Briefing geography",
-      "hook": "Delhi · mentioned 2026-10-12",
-      "fact": "efence (Indian Army) with Dept. of Food & Public Distribution: \"Bharat Rice\" launched for troops; Army–FCI MoU (12 Oct, New Delhi)",
-      "locate": "Approximate study anchor for New Delhi, India. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "hook": "Country study anchor · mentioned 2026-10-16",
+      "fact": "4 Oct). Mahila Kisan Diwas 2026 observed (15 Oct). - Marco Rubio (US Secretary of State) to visit India 17–22 Oct (with Uzbekistan).",
+      "locate": "Approximate study anchor for Uzbekistan, Uzbekistan. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
       "coordinatePrecision": "regional-study-anchor",
-      "coordinateSource": "data/maps/bharatrajya-india-districts.geojson",
-      "source": "daily/daily_pib/PIB_2026-10-12.md",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_pib/PIB_2026-10-16.md",
       "references": [
         {
-          "source": "daily/daily_pib/PIB_2026-10-12.md",
-          "date": "2026-10-12",
+          "source": "daily/daily_pib/PIB_2026-10-16.md",
+          "date": "2026-10-16",
           "cadence": "pib",
-          "excerpt": "efence (Indian Army) with Dept. of Food & Public Distribution: \"Bharat Rice\" launched for troops; Army–FCI MoU (12 Oct, New Delhi)"
+          "excerpt": "4 Oct). Mahila Kisan Diwas 2026 observed (15 Oct). - Marco Rubio (US Secretary of State) to visit India 17–22 Oct (with Uzbekistan)."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-11-library-india-mainpuri",
+      "weekId": "2026-10-11-library",
+      "layer": "current",
+      "name": "Mainpuri",
+      "country": "India",
+      "region": "Uttar Pradesh",
+      "scope": "india",
+      "lat": 27.215,
+      "lon": 79.0843,
+      "topic": "Briefing geography",
+      "hook": "Uttar Pradesh · mentioned 2026-10-16",
+      "fact": "of Environment, Forest & Climate Change: India's Ramsar sites rise to 103 — Sukhna Wetland (Chandigarh) and Sauj Jheel (Mainpuri, UP) added (announced 15 Oct)",
+      "locate": "Approximate study anchor for Mainpuri, India. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/bharatrajya-india-districts.geojson",
+      "source": "daily/daily_pib/PIB_2026-10-16.md",
+      "references": [
+        {
+          "source": "daily/daily_pib/PIB_2026-10-16.md",
+          "date": "2026-10-16",
+          "cadence": "pib",
+          "excerpt": "of Environment, Forest & Climate Change: India's Ramsar sites rise to 103 — Sukhna Wetland (Chandigarh) and Sauj Jheel (Mainpuri, UP) added (announced 15 Oct)"
         }
       ],
       "libraryDerived": true

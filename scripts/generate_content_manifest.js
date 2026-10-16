@@ -242,12 +242,13 @@ function parseInlineOptions(line) {
 
 function parseMdAnswerMap(answerText) {
   const answers = new Map();
-  const answerLead = String.raw`\s*(?:\*\*)?(?:Q)?(\d+)(?:\.|\s*[—\-→])\s*(?:\(([a-dA-D])\)|\*\*([A-Da-d])\*\*|([A-Da-d]))`;
+  const optionPattern = String.raw`(?:\*\*\s*)?\(?([a-dA-D])\)?(?:\s*\*\*)?`;
+  const answerLead = String.raw`\s*(?:\*\*)?(?:Q)?(\d+)(?:\.|\s*[—\-→])\s*` + optionPattern;
   const matches = [...String(answerText || "").matchAll(new RegExp(`^${answerLead}(?:\\.\\*\\*|\\.\\s*\\*\\*|\\*\\*)?[\\s.:—-]*([^\\n]+(?:\\n(?!${answerLead}).*)*)`, "gm"))];
   for (const match of matches) {
     answers.set(Number(match[1]), {
-      answer: optionKeyFromLabel(match[2] || match[3] || match[4]),
-      explanation: cleanMarkdownInline(match[5]).replace(/\s+/g, " "),
+      answer: optionKeyFromLabel(match[2]),
+      explanation: cleanMarkdownInline(match[3]).replace(/\s+/g, " "),
     });
   }
   // Some generated quizzes bold the answer and its explanation together:
@@ -1024,4 +1025,5 @@ module.exports = {
   writeManifestFile,
   parseMdQuestions,
   parseInlineOptions,
+  parseMdAnswerMap,
 };

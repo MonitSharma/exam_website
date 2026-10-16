@@ -8,7 +8,7 @@
 const test = require("node:test");
 const assert = require("node:assert/strict");
 const { loadAppData } = require("../scripts/load_app_data");
-const { parseMdQuestions, parseInlineOptions } = require("../scripts/generate_content_manifest");
+const { parseMdQuestions, parseInlineOptions, parseMdAnswerMap } = require("../scripts/generate_content_manifest");
 
 const api = loadAppData();
 const { normalizeAnswerKey, normalizeOptions, splitQuestionParts, normalizeQuestion, inferSourceType } = api.parsing;
@@ -311,5 +311,25 @@ Which of the statements given above is/are correct?
   assert.equal(questions[0].options[1].text, "2 only");
   assert.equal(questions[0].options[2].text, "Both 1 and 2");
   assert.equal(questions[0].options[3].text, "Neither 1 nor 2");
+});
+
+test("parseMdAnswerMap parses bold parenthesized keys, bold keys, and plain keys", () => {
+  const text = `
+1. **(b)** — Pillay was UN High Commissioner for Human Rights.
+2. **(c)** — Threshold Rs 1 crore to Rs 5 crore.
+**Q3 — (a).** The 50% ceiling is judge-made.
+4. **d** — FERR: 20% cash with the RBI.
+5. (b) — The Delhi Declaration and Dhaka Secretariat.
+6. **(B)** — Capitalised letter inside bold parens.
+`;
+  const answers = parseMdAnswerMap(text);
+  assert.equal(answers.size, 6);
+  assert.equal(answers.get(1).answer, "b");
+  assert.match(answers.get(1).explanation, /Pillay was UN High Commissioner/);
+  assert.equal(answers.get(2).answer, "c");
+  assert.equal(answers.get(3).answer, "a");
+  assert.equal(answers.get(4).answer, "d");
+  assert.equal(answers.get(5).answer, "b");
+  assert.equal(answers.get(6).answer, "b");
 });
 

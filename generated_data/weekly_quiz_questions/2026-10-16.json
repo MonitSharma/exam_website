@@ -1,0 +1,718 @@
+[
+  {
+    "id": "weekly_quiz_2026_10_16_1",
+    "question_number": 1,
+    "question": "The 2026 Nobel Peace Prize was awarded to Navanethem (Navi) Pillay for promoting peace and international law. Consider the following statements:",
+    "statements": [
+      "She has served as the UN High Commissioner for Human Rights.",
+      "She has served as a judge of the International Criminal Tribunal for Rwanda (ICTR) and of the International Criminal Court.",
+      "India is a State Party to the Rome Statute of the ICC."
+    ],
+    "tail": "Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Pillay was UN High Commissioner for Human Rights and a judge at the ICTR and the ICC; India is not a party to the Rome Statute, so 3 is wrong.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_16_2",
+    "question_number": 2,
+    "question": "The 57th GST Council meeting (8 October 2026) focused on decriminalisation and ease of compliance. Consider the following statements:",
+    "statements": [
+      "It recommended raising the prosecution threshold from Rs 1 crore to Rs 5 crore (for fraudulent input tax credit) and removing arrest powers of GST officers.",
+      "Its recommendations are legally binding on both the Union and the States.",
+      "The GST Council is a constitutional body under Article 279A."
+    ],
+    "tail": "Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Threshold Rs 1 crore → Rs 5 crore and arrest powers removed; Art. 279A body. GST Council recommendations are persuasive, not binding (*Mohit Minerals*, 2022), so 2 is wrong.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_16_3",
+    "question_number": 3,
+    "question": "The Supreme Court (9 October 2026) refused to revive Andhra Pradesh's 34% Backward Class quota in local bodies. Consider the following statements:",
+    "statements": [
+      "The 50% ceiling on total reservation traces to *Indra Sawhney* (1992), a judicial rule rather than an express constitutional limit.",
+      "The \"triple test\" for OBC reservation in local bodies requires a dedicated commission, local-body-wise quantification, and total reservation within 50%.",
+      "Articles 243D and 243T expressly fix a 50% constitutional ceiling on reservation for Backward Classes."
+    ],
+    "tail": "Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The 50% ceiling is judge-made (*Indra Sawhney*) and the triple test is correct; Arts. 243D/243T enable backward-class reservation but do not state the 50% limit, so 3 is wrong.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_16_4",
+    "question_number": 4,
+    "question": "In October 2026 the RBI created a Foreign Exchange Risk Reserve (FERR) and tightened rupee FX-derivative rules. Which one of the following correctly describes the measures?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "10% cash margin on contracts above US$5 million; limit on positions with no underlying cut to US$2 million"
+      },
+      {
+        "key": "b",
+        "text": "20% cash with the RBI on contracts above US$2 million; limit on positions with no underlying raised to US$100 million"
+      },
+      {
+        "key": "c",
+        "text": "20% cash with the RBI on contracts above US$100 million; limit on positions with no underlying cut to US$5 million"
+      },
+      {
+        "key": "d",
+        "text": "20% cash with the RBI of rupee notional on qualifying contracts above US$2 million; limit on positions with no underlying exposure cut from US$100 million to US$5 million"
+      }
+    ],
+    "answer": "d",
+    "explanation": "FERR: 20% cash with the RBI of rupee notional on qualifying contracts above US$2 million; the limit on positions without underlying exposure falls from US$100 million to US$5 million.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_16_5",
+    "question_number": 5,
+    "question": "The first BIMSTEC Home Ministers' Meeting was held in New Delhi on 13 October 2026. Consider the following statements:",
+    "statements": [
+      "It adopted the \"Delhi Declaration\", which condemns cross-border terrorism and targets scam centres and trafficking.",
+      "The Maldives and Pakistan are among the seven member states of BIMSTEC.",
+      "The BIMSTEC Secretariat is located in Dhaka."
+    ],
+    "tail": "Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The Delhi Declaration and the Dhaka Secretariat are correct; BIMSTEC's seven members are Bangladesh, Bhutan, India, Myanmar, Nepal, Sri Lanka and Thailand — not the Maldives or Pakistan.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_16_6",
+    "question_number": 6,
+    "question": "The Ministry of Tribal Affairs has been reviewing implementation of the Forest Rights Act, 2006. Consider the following statements:",
+    "statements": [
+      "The Act recognises individual forest rights as well as community rights, including Community Forest Resource (CFR) rights.",
+      "Habitat rights are recognised for Particularly Vulnerable Tribal Groups (PVTGs) and pre-agricultural communities.",
+      "Claims are finally decided by the Gram Sabha, whose decision cannot be reviewed by any higher committee."
+    ],
+    "tail": "Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "FRA recognises individual and community (CFR) rights and PVTG habitat rights; claims go Gram Sabha → Sub-Divisional Level Committee → District Level Committee (final), so 3 is wrong.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_16_7",
+    "question_number": 7,
+    "question": "The WMO (8 October 2026) said El Niño is firmly established and likely to peak around December. Consider the following statements:",
+    "statements": [
+      "El Niño involves anomalously warm sea-surface temperatures in the central and eastern equatorial Pacific.",
+      "El Niño strengthens the Walker circulation and the Pacific trade winds.",
+      "El Niño years are often associated with below-normal monsoon rainfall over India."
+    ],
+    "tail": "Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "d",
+        "text": "1 and 3 only"
+      }
+    ],
+    "answer": "d",
+    "explanation": "El Niño = warm central/eastern Pacific and often a weak monsoon; it weakens (not strengthens) the Walker circulation and trade winds.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_16_8",
+    "question_number": 8,
+    "question": "The 17th Conference of the Parties (COP17) to the Convention on Biological Diversity is due in October 2026. Consider the following statements:",
+    "statements": [
+      "It is scheduled for 19–30 October 2026 in Yerevan, Armenia.",
+      "The Nagoya Protocol operationalises the access-and-benefit-sharing (ABS) objective of the CBD.",
+      "The Biological Diversity Act, 2002 was enacted to give effect to the Nagoya Protocol."
+    ],
+    "tail": "Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "COP17 is in Yerevan (19–30 Oct) and Nagoya Protocol operationalises ABS; the 2002 Act pre-dates the 2010 Nagoya Protocol and implements the CBD (1992), so 3 is wrong.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_16_9",
+    "question_number": 9,
+    "question": "The Global Hunger Index (GHI) 2026 was released on 14 October. Consider the following statements:",
+    "statements": [
+      "India ranks 100th among 122 countries with a score of 24.1, in the \"serious\" category.",
+      "The GHI score is based on four indicators: undernourishment, child stunting, child wasting and child mortality.",
+      "Child wasting is a measure of low height for age."
+    ],
+    "tail": "Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "India is 100th of 122 with 24.1 (serious); the four indicators are right; wasting is low weight for height (stunting is low height for age), so 3 is wrong.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_16_10",
+    "question_number": 10,
+    "question": "The Cabinet Committee on Economic Affairs cleared the sale of a 60.72% stake in IDBI Bank to a Fairfax Financial Holdings entity for Rs 52,878 crore. Consider the following statements:",
+    "statements": [
+      "The Government of India alone is the seller of the entire 60.72% stake.",
+      "The buyer still requires the RBI's \"fit and proper\" clearance.",
+      "After the transaction, the Government is to retain about 15% and LIC about 19%."
+    ],
+    "tail": "Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The Government and LIC are both sellers (about 30.48% and 30.24%), so 1 is wrong; RBI fit-and-proper approval is pending; the Government retains about 15% and LIC about 19%.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_16_11",
+    "question_number": 11,
+    "question": "DRDO tested a Quantum Key Distribution (QKD) platform on a live network at PXE Chandipur (14 October 2026). Why can QKD reveal an eavesdropper?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Because quantum keys are much longer than classical keys"
+      },
+      {
+        "key": "b",
+        "text": "Because the key is stored on a satellite that cannot be hacked"
+      },
+      {
+        "key": "c",
+        "text": "Because the signal is encrypted with a post-quantum algorithm"
+      },
+      {
+        "key": "d",
+        "text": "Because measuring a quantum state disturbs it, so interception introduces detectable errors"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Measuring a quantum state disturbs it, so interception creates detectable errors; the resulting keys then feed classical encryption.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_16_12",
+    "question_number": 12,
+    "question": "The Cabinet (14 October 2026) extended the National Social Assistance Programme (NSAP) to 2030-31 and renamed it. Consider the following statements:",
+    "statements": [
+      "It is renamed the \"Pradhan Mantri Samajik Sahayata Yojana\".",
+      "The disability benchmark for the disability pension has been raised from 40% to 80%.",
+      "NSAP is administered by the Ministry of Rural Development."
+    ],
+    "tail": "Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "3 only"
+      },
+      {
+        "key": "d",
+        "text": "1 and 3 only"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Renamed PM Samajik Sahayata Yojana and run by the Ministry of Rural Development; the disability benchmark was lowered from 80% to 40% (not raised), so 2 is wrong. Part B — Society",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_16_13",
+    "question_number": 13,
+    "question": "With reference to literacy in the Census of India 2011, consider the following statements:",
+    "statements": [
+      "India's literacy rate was 74.04% (population aged 7 years and above).",
+      "Kerala had the highest and Bihar the lowest literacy rate among the States.",
+      "The effective literacy rate is calculated with the total population (all ages) as denominator."
+    ],
+    "tail": "Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "74.04% for population aged 7+; Kerala highest, Bihar lowest; the effective literacy rate uses the 7+ population as denominator (the crude rate uses total population).",
+    "subject": "Society",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_16_14",
+    "question_number": 14,
+    "question": "According to Census 2011, which one of the following sets is correct?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Sex ratio 943; child sex ratio (0–6) 919; Kerala highest; Punjab lowest among the States"
+      },
+      {
+        "key": "b",
+        "text": "Sex ratio 940; child sex ratio 914; Kerala highest; Haryana lowest"
+      },
+      {
+        "key": "c",
+        "text": "Sex ratio 943; child sex ratio 919; Kerala highest; Haryana lowest among the States"
+      },
+      {
+        "key": "d",
+        "text": "Sex ratio 927; child sex ratio 914; Tamil Nadu highest; Haryana lowest"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Census 2011: sex ratio 943, child sex ratio 919; Kerala highest (1084), Haryana lowest (879) among the States.",
+    "subject": "Society",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_16_15",
+    "question_number": 15,
+    "question": "With reference to Particularly Vulnerable Tribal Groups (PVTGs) in India, consider the following statements:",
+    "statements": [
+      "The PVTG category was created on the recommendation of the Mandal Commission.",
+      "They are identified on criteria such as pre-agricultural technology, declining or stagnant population, very low literacy and a subsistence economy.",
+      "Odisha has the largest number of PVTGs among the States."
+    ],
+    "tail": "Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The PVTG category arose from the Dhebar Commission's identification of less-developed tribal groups, not the Mandal Commission; Odisha has the most PVTGs (13 of 75).",
+    "subject": "Society",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_16_16",
+    "question_number": 16,
+    "question": "With reference to untouchability in India, consider the following statements:",
+    "statements": [
+      "Article 17 abolishes untouchability and forbids its practice in any form.",
+      "The Scheduled Castes and Scheduled Tribes (Prevention of Atrocities) Act, 1989 replaced the Protection of Civil Rights Act, 1955.",
+      "Article 17 can be enforced against private individuals as well as the State."
+    ],
+    "tail": "Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "d",
+        "text": "1 and 3 only"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Art. 17 abolishes untouchability and is enforceable against private individuals too; the 1989 Atrocities Act supplements, and did not replace, the Protection of Civil Rights Act, 1955.",
+    "subject": "Society",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_16_17",
+    "question_number": 17,
+    "question": "In the demographic transition model, the phase of fastest population growth occurs when:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "both birth rate and death rate are high"
+      },
+      {
+        "key": "b",
+        "text": "birth rate remains high while the death rate falls rapidly"
+      },
+      {
+        "key": "c",
+        "text": "birth rate falls below the death rate"
+      },
+      {
+        "key": "d",
+        "text": "both birth rate and death rate are low and stable"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Stage 2 (early expanding): the death rate falls rapidly from better health and food while the birth rate stays high, producing the population surge.",
+    "subject": "Society",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_16_18",
+    "question_number": 18,
+    "question": "With reference to the Constitution (106th Amendment) Act, 2023 (Women's Reservation), consider the following statements:",
+    "statements": [
+      "It reserves one-third of seats in the Lok Sabha and State Legislative Assemblies for women.",
+      "It is to be implemented immediately for the next general elections without delimitation.",
+      "It does not apply to the Rajya Sabha and State Legislative Councils."
+    ],
+    "tail": "Which of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "One-third of Lok Sabha and Assembly seats are reserved, and Rajya Sabha and Councils are excluded; implementation follows delimitation after the relevant census, not immediately.",
+    "subject": "Society",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_16_19",
+    "question_number": 19,
+    "question": "Which one of the following statements about secularism in India is correct?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "The word \"secular\" was inserted in the Preamble by the 42nd Amendment (1976), and *S.R. Bommai* (1994) treated secularism as part of the basic structure."
+      },
+      {
+        "key": "b",
+        "text": "The word \"secular\" formed part of the original Preamble adopted in 1950."
+      },
+      {
+        "key": "c",
+        "text": "*S.R. Bommai* (1994) held that secularism is not part of the basic structure."
+      },
+      {
+        "key": "d",
+        "text": "Articles 25–28 guarantee freedom of religion to citizens only and not to other persons."
+      }
+    ],
+    "answer": "a",
+    "explanation": "\"Secular\" and \"socialist\" were added by the 42nd Amendment (1976); *S.R. Bommai* (1994) held secularism part of the basic structure; Art. 25 covers all persons.",
+    "subject": "Society",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_10_16_20",
+    "question_number": 20,
+    "question": "\"Sanskritisation\", a concept in Indian sociology popularised by M.N. Srinivas, refers to:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "the spread of Sanskrit education among all castes after Independence"
+      },
+      {
+        "key": "b",
+        "text": "the replacement of village panchayats by modern legal institutions"
+      },
+      {
+        "key": "c",
+        "text": "the adoption of Western lifestyles and institutions by the Indian elite"
+      },
+      {
+        "key": "d",
+        "text": "the emulation of customs, rituals and way of life of upper castes by lower-caste groups seeking social mobility"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Sanskritisation (M.N. Srinivas) is the emulation of upper-caste customs, rituals and lifestyle by lower-caste groups seeking upward mobility.",
+    "subject": "Society",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  }
+]
