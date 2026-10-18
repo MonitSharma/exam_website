@@ -27,8 +27,8 @@ test('all published book-topic add-ons and missed sweeps enter catch-up independ
     assert.equal(item?.category, 'sunday', sweep.id);
     assert.equal(item.kind, 'reading');
   }
-  const [book, secondBook] = books;
-  const sweep = sweeps[0];
+  const [book, secondBook] = books.filter((b) => b.isoDate < today);
+  const sweep = sweeps.find((s) => s.date < today);
   const done = {
     ...progress,
     history: [{ questionSetId: book.id }],
@@ -91,8 +91,8 @@ test('Sunday archive includes old, completed, dismissed and current sweeps with 
 });
 
 test('book-topic filter starts the add-on quiz and Sunday backlog opens its note', () => {
-  const book = manifest.questionSets.find(model.isBookTopicsSet);
-  const sweep = manifest.noteDocuments.find((n) => n.cadence === 'sunday');
+  const book = manifest.questionSets.filter(model.isBookTopicsSet).find((b) => b.isoDate < '2026-10-15');
+  const sweep = manifest.noteDocuments.filter((n) => n.cadence === 'sunday').find((s) => s.date < '2026-10-15');
   const ds = { todayIso: '2026-10-15', questionSets: [book], noteDocuments: [sweep] };
   const progress = { catchUpStartDate: '2026-06-01' };
   const calls = [];
@@ -138,7 +138,7 @@ test('revision tasks respect dates and completion while daily CA and PIB always 
 });
 
 test('Places in News archive opens notes, maps and exact linked quizzes, with independent completion', () => {
-  const note = manifest.noteDocuments.find((n) => n.cadence === 'weekly-news');
+  const note = manifest.noteDocuments.filter((n) => n.cadence === 'weekly-news').find((n) => n.date < '2026-10-15');
   const quizzes = manifest.questionSets.filter((s) => note.relatedSetIds.includes(s.id));
   assert.ok(quizzes.length);
   const ds = {

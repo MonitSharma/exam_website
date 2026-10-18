@@ -1,6 +1,13 @@
 {
   "weeks": [
     {
+      "id": "2026-10-18-library",
+      "label": "CA & PIB · week of 2026-10-18",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-18.md",
+      "libraryDerived": true,
+      "sourceCount": 2
+    },
+    {
       "id": "2026-10-12",
       "label": "Week of 2026-10-12",
       "source": "weekly/weekly_news/Places_in_News_2026-10-12.md"
@@ -12376,6 +12383,195 @@
           "date": "2026-10-17",
           "cadence": "pib",
           "excerpt": "- Ministry of Commerce & Industry (APEDA, 16 Oct): export of 1.755 MT organic palmyra jaggery powder from Tamil Nadu to Bulgaria. - Ministry of Coal (16 Oct): India Mining Week rescheduled to 24–26 Feb 2027. - Vice-President's Secretariat (16 Oct): INS Samarthak commissioned at Karwar (covered 14 Oct as upcoming — commissioning now reported). - PIB backgrounder \"Women, Work and Enterprise\" (15 Oct; MoSPI/MSME/Labour): female LFPR reported rising from 23.3% (2017-18) to 40.0% (2025) — single secondary source, verify before use."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-18-library-australia-australia",
+      "weekId": "2026-10-18-library",
+      "layer": "current",
+      "name": "Australia",
+      "country": "Australia",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": -24.1295,
+      "lon": 134.0497,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-18",
+      "fact": "2. - Covers fish, molluscs, crustaceans and other sedentary species on the high seas between eastern Africa and Western Australia. - Excludes highly migratory species (these fall under the Indian Ocean Tuna Commission, where India has been a party since 1996) and sedentary species inside national EEZs. - Indian vessels mostly fish within 60-80 nautical miles of the EEZ, so capacity is the gap.",
+      "locate": "Approximate study anchor for Australia, Australia. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-18.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-18.md",
+          "date": "2026-10-18",
+          "cadence": "daily",
+          "excerpt": "2. - Covers fish, molluscs, crustaceans and other sedentary species on the high seas between eastern Africa and Western Australia. - Excludes highly migratory species (these fall under the Indian Ocean Tuna Commission, where India has been a party since 1996) and sedentary species inside national EEZs. - Indian vessels mostly fish within 60-80 nautical miles of the EEZ, so capacity is the gap."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-18-library-india-kolkata",
+      "weekId": "2026-10-18-library",
+      "layer": "current",
+      "name": "Kolkata",
+      "country": "India",
+      "region": "West Bengal",
+      "scope": "india",
+      "lat": 22.5663,
+      "lon": 88.3379,
+      "topic": "Briefing geography",
+      "hook": "West Bengal · mentioned 2026-10-18",
+      "fact": "5. Kolkata Durga Puja pandal stampede: 19 dead, 25 injured — Society (Disaster Management) Exam angle: Another crowd-crush at a religious gathering, which is the standard hook for questions on crowd management, accountability of organisers and the limits of the DM Act framework. Key facts: - Saturday (17 Oct), about 7:40 pm, exit gate of the Chorbagan (Sarada Park) pandal; heavy rain and a surge after a loudspeaker announcement. - Twelve people, including committee members, detained; a Calcutta High Court fact-finding committee proposed. - PMNRF ex gratia: Rs 2 lakh for the deceased's kin and Rs 50,000 for the injured; the state announced its",
+      "locate": "Approximate study anchor for Kolkata, India. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/bharatrajya-india-districts.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-18.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-18.md",
+          "date": "2026-10-18",
+          "cadence": "daily",
+          "excerpt": "5. Kolkata Durga Puja pandal stampede: 19 dead, 25 injured — Society (Disaster Management) Exam angle: Another crowd-crush at a religious gathering, which is the standard hook for questions on crowd management, accountability of organisers and the limits of the DM Act framework. Key facts: - Saturday (17 Oct), about 7:40 pm, exit gate of the Chorbagan (Sarada Park) pandal; heavy rain and a surge after a loudspeaker announcement. - Twelve people, including committee members, detained; a Calcutta High Court fact-finding committee proposed. - PMNRF ex gratia: Rs 2 lakh for the deceased's kin and Rs 50,000 for the injured; the state announced its"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-18-library-chile-chile",
+      "weekId": "2026-10-18-library",
+      "layer": "current",
+      "name": "Chile",
+      "country": "Chile",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": -38.1518,
+      "lon": -72.3189,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-18",
+      "fact": "ify hydrous sulphates — melanterite (FeSO₄·7H₂O) at Neyveli, Tamil Nadu, and gypsum at the Tiruchirappalli Badlands and Chile's Atacama Desert. Published in two papers in the Journal of Geophysical Research: Planets. Why it matters: Terrestrial analogues help interpret Mars data (rover/orbiter findings) and astrobiology; melanterite indicates short-lived acidic water, gypsum can preserve biosignatures. FIST = DST's Fund for Improvement of S&T Infrastructure in universities/institutions. - Destination: GS3 Science & Tech.",
+      "locate": "Approximate study anchor for Chile, Chile. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_pib/PIB_2026-10-18.md",
+      "references": [
+        {
+          "source": "daily/daily_pib/PIB_2026-10-18.md",
+          "date": "2026-10-18",
+          "cadence": "pib",
+          "excerpt": "ify hydrous sulphates — melanterite (FeSO₄·7H₂O) at Neyveli, Tamil Nadu, and gypsum at the Tiruchirappalli Badlands and Chile's Atacama Desert. Published in two papers in the Journal of Geophysical Research: Planets. Why it matters: Terrestrial analogues help interpret Mars data (rover/orbiter findings) and astrobiology; melanterite indicates short-lived acidic water, gypsum can preserve biosignatures. FIST = DST's Fund for Improvement of S&T Infrastructure in universities/institutions. - Destination: GS3 Science & Tech."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-18-library-united-states-of-america-united-states-of-america",
+      "weekId": "2026-10-18-library",
+      "layer": "current",
+      "name": "United States of America",
+      "country": "United States of America",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 39.5385,
+      "lon": -97.4826,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-18",
+      "fact": "Why it matters: The Maldives faces high debt-distress risk (IMF) and falling reserves (US$532.55 mn in Sept 2026, down 37.5% y/y). The swap is a key tool of India's \"Neighbourhood First\" economic diplomacy and of rupee internationalisation.",
+      "locate": "Approximate study anchor for United States of America, United States of America. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_pib/PIB_2026-10-18.md",
+      "references": [
+        {
+          "source": "daily/daily_pib/PIB_2026-10-18.md",
+          "date": "2026-10-18",
+          "cadence": "pib",
+          "excerpt": "Why it matters: The Maldives faces high debt-distress risk (IMF) and falling reserves (US$532.55 mn in Sept 2026, down 37.5% y/y). The swap is a key tool of India's \"Neighbourhood First\" economic diplomacy and of rupee internationalisation."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-18-library-maldives-maldives",
+      "weekId": "2026-10-18-library",
+      "layer": "current",
+      "name": "Maldives",
+      "country": "Maldives",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 4.1744,
+      "lon": 73.5076,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-18",
+      "fact": "2. Ministry of External Affairs: India rolls over ₹3,000 crore currency swap for the Maldives (MEA, 16 Oct; effective 23 Oct 2026)",
+      "locate": "Approximate study anchor for Maldives, Maldives. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_pib/PIB_2026-10-18.md",
+      "references": [
+        {
+          "source": "daily/daily_pib/PIB_2026-10-18.md",
+          "date": "2026-10-18",
+          "cadence": "pib",
+          "excerpt": "2. Ministry of External Affairs: India rolls over ₹3,000 crore currency swap for the Maldives (MEA, 16 Oct; effective 23 Oct 2026)"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-18-library-india-tiruchirappalli",
+      "weekId": "2026-10-18-library",
+      "layer": "current",
+      "name": "Tiruchirappalli",
+      "country": "India",
+      "region": "Tamil Nādu",
+      "scope": "india",
+      "lat": 10.8495,
+      "lon": 78.5919,
+      "topic": "Briefing geography",
+      "hook": "Tamil Nādu · mentioned 2026-10-18",
+      "fact": "5. Ministry of Science & Technology (DST): Neyveli, Tiruchirappalli Badlands and Atacama identified as Martian analogue sites (16 Oct)",
+      "locate": "Approximate study anchor for Tiruchirappalli, India. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/bharatrajya-india-districts.geojson",
+      "source": "daily/daily_pib/PIB_2026-10-18.md",
+      "references": [
+        {
+          "source": "daily/daily_pib/PIB_2026-10-18.md",
+          "date": "2026-10-18",
+          "cadence": "pib",
+          "excerpt": "5. Ministry of Science & Technology (DST): Neyveli, Tiruchirappalli Badlands and Atacama identified as Martian analogue sites (16 Oct)"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-18-library-india-new-delhi",
+      "weekId": "2026-10-18-library",
+      "layer": "current",
+      "name": "New Delhi",
+      "country": "India",
+      "region": "Delhi",
+      "scope": "india",
+      "lat": 28.5647,
+      "lon": 77.151,
+      "topic": "Briefing geography",
+      "hook": "Delhi · mentioned 2026-10-18",
+      "fact": "3. Ministry of Housing & Urban Affairs: PMAY-U 2.0 — 10th CSMC meeting sanctions 1.93 lakh more houses (16 Oct, New Delhi)",
+      "locate": "Approximate study anchor for New Delhi, India. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/bharatrajya-india-districts.geojson",
+      "source": "daily/daily_pib/PIB_2026-10-18.md",
+      "references": [
+        {
+          "source": "daily/daily_pib/PIB_2026-10-18.md",
+          "date": "2026-10-18",
+          "cadence": "pib",
+          "excerpt": "3. Ministry of Housing & Urban Affairs: PMAY-U 2.0 — 10th CSMC meeting sanctions 1.93 lakh more houses (16 Oct, New Delhi)"
         }
       ],
       "libraryDerived": true

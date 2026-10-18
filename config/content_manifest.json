@@ -12,6 +12,48 @@
   ],
   "questionSets": [
     {
+      "id": "daily_questions_2026_10_18",
+      "label": "Daily Questions - 18 Oct 2026",
+      "shortLabel": "Daily 18 Oct",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-10-18.json",
+      "sourcePath": "daily/daily_questions/daily_questions_2026-10-18.json",
+      "isoDate": "2026-10-18",
+      "subjects": [
+        "International Relations",
+        "Geography",
+        "Science & Technology",
+        "Polity & Governance",
+        "Society"
+      ],
+      "bundleId": "daily_questions_2026_10_18",
+      "relatedNoteIds": [
+        "daily-daily-current-affairs-upsc-ca-2026-10-18"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "international-relations",
+        "geography",
+        "science-technology",
+        "polity",
+        "society"
+      ],
+      "topicIds": [
+        "international-relations/siofa-accession",
+        "geography/glof-early-warning-system",
+        "science-technology/cert-in-ai-agents-advisory",
+        "polity/special-summary-revision-of-electoral-rolls",
+        "society/crowd-disasters-and-the-ndma-framework",
+        "international-relations/maritime-zones-under-unclos",
+        "polity/election-commission-and-electoral-rolls"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
       "id": "daily_questions_2026_10_17",
       "label": "Daily Questions - 17 Oct 2026",
       "shortLabel": "Daily 17 Oct",
@@ -6299,6 +6341,40 @@
       ],
       "topicIds": [
         "reading-comprehension/reading-comprehension"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
+      "id": "pib_questions_2026_10_18",
+      "label": "PIB Questions - 18 Oct 2026",
+      "shortLabel": "PIB 18 Oct",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-10-18.json",
+      "sourcePath": "generated_data/pib_questions/2026-10-18.json",
+      "isoDate": "2026-10-18",
+      "subjects": [
+        "Economy",
+        "International Relations",
+        "Polity & Governance"
+      ],
+      "bundleId": "pib_questions_2026_10_18",
+      "relatedNoteIds": [
+        "daily-daily-pib-pib-2026-10-18"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "economy",
+        "international-relations",
+        "polity"
+      ],
+      "topicIds": [
+        "economy/nppa-trade-margin-cap-on-anti-cancer-drugs",
+        "international-relations/india-maldives-currency-swap",
+        "polity/pmay-u-2-0"
       ],
       "format": "drill",
       "provenance": "generated"
@@ -14513,6 +14589,58 @@
       "provenance": "generated"
     },
     {
+      "id": "csat_practice_2026_10_18",
+      "label": "CSAT Practice - 18 Oct 2026",
+      "shortLabel": "CSAT Practice 18 Oct",
+      "category": "CSAT Practice",
+      "sourceType": "csat",
+      "questionCount": 22,
+      "durationMinutes": 35,
+      "path": "generated_data/csat_questions/2026-10-18.json",
+      "sourcePath": "generated_data/csat_questions/2026-10-18.json",
+      "isoDate": "2026-10-18",
+      "paper": "GS Paper II (CSAT)",
+      "marksPerCorrect": 2,
+      "negativeMark": -0.66,
+      "subjects": [
+        "CSAT"
+      ],
+      "bundleId": "csat_practice_2026_10_18",
+      "relatedNoteIds": [
+        "weekly-csat-csat-practice-2026-10-18"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "csat"
+      ],
+      "topicIds": [
+        "csat/main-idea-governance-of-shared-resources",
+        "csat/inference-applying-the-argument-to-a-new-case",
+        "csat/assumption-why-uniform-state-rules-fail",
+        "csat/main-idea-moral-luck-and-responsibility",
+        "csat/inference-author-s-likely-judgement-on-a-case",
+        "csat/tone-and-attitude-towards-the-control-principle",
+        "csat/puzzle-floors-of-a-building",
+        "csat/cubes-painted-faces-and-cutting",
+        "csat/blood-relations-coded-relation-chain",
+        "csat/series-alternating-number-and-letter-pattern",
+        "csat/direction-sense-successive-turns",
+        "csat/conditional-logic-valid-deduction",
+        "csat/table-percentage-departure-vs-absolute-difference-trap",
+        "csat/table-aggregate-vs-average-of-percentages-trap",
+        "csat/table-profit-margin-vs-total-profit-trap",
+        "csat/table-overall-profit-percentage-on-cost-weighted-trap",
+        "csat/integrity-improper-instruction-from-a-superior",
+        "csat/workplace-harassment-complaint",
+        "csat/competing-duties-deadline-versus-personal-emergency",
+        "csat/number-theory-sum-of-integers-coprime-to-n",
+        "csat/time-and-work-combined-rates",
+        "csat/probability-complementary-counting"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
       "id": "csat_practice_2026_10_12",
       "label": "CSAT Practice - 12 Oct 2026",
       "shortLabel": "CSAT Practice 12 Oct",
@@ -18200,6 +18328,21 @@
   ],
   "noteDocuments": [
     {
+      "id": "anki-prelims-flashcards-2026-10-18",
+      "cadence": "anki",
+      "title": "Prelims Flashcards",
+      "shortTitle": "Anki - 18 Oct",
+      "date": "2026-10-18",
+      "path": "anki/Prelims_Flashcards_2026-10-18.txt",
+      "bundleId": "anki-prelims-flashcards-2026-10-18",
+      "relatedNoteIds": [
+        "daily-daily-current-affairs-upsc-ca-2026-10-18"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [],
+      "topicIds": []
+    },
+    {
       "id": "anki-prelims-flashcards-2026-10-11",
       "cadence": "anki",
       "title": "Prelims Flashcards",
@@ -18440,6 +18583,43 @@
       "relatedSetIds": [],
       "subjectIds": [],
       "topicIds": []
+    },
+    {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-10-18",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "18 Oct 2026",
+      "date": "2026-10-18",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-10-18.md",
+      "bundleId": "daily-daily-current-affairs-upsc-ca-2026-10-18",
+      "relatedNoteIds": [
+        "anki-prelims-flashcards-2026-10-18"
+      ],
+      "relatedSetIds": [
+        "daily_questions_2026_10_18"
+      ],
+      "subjectIds": [
+        "international-relations",
+        "geography",
+        "science-technology",
+        "polity",
+        "society"
+      ],
+      "topicIds": [
+        "international-relations/siofa-accession",
+        "geography/glof-early-warning-system",
+        "science-technology/cert-in-ai-agents-advisory",
+        "polity/special-summary-revision-of-electoral-rolls",
+        "society/crowd-disasters-and-the-ndma-framework",
+        "international-relations/maritime-zones-under-unclos",
+        "polity/election-commission-and-electoral-rolls"
+      ],
+      "atlasWeekId": "2026-10-18-library",
+      "atlasFeatureIds": [
+        "2026-10-18-library-australia-australia",
+        "2026-10-18-library-india-kolkata"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-current-affairs-upsc-ca-2026-10-17",
@@ -24387,6 +24567,38 @@
       "topicIds": []
     },
     {
+      "id": "daily-daily-pib-pib-2026-10-18",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 18 Oct",
+      "date": "2026-10-18",
+      "path": "daily/daily_pib/PIB_2026-10-18.md",
+      "bundleId": "daily-daily-pib-pib-2026-10-18",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "pib_questions_2026_10_18"
+      ],
+      "subjectIds": [
+        "economy",
+        "international-relations",
+        "polity"
+      ],
+      "topicIds": [
+        "economy/nppa-trade-margin-cap-on-anti-cancer-drugs",
+        "international-relations/india-maldives-currency-swap",
+        "polity/pmay-u-2-0"
+      ],
+      "atlasWeekId": "2026-10-18-library",
+      "atlasFeatureIds": [
+        "2026-10-18-library-chile-chile",
+        "2026-10-18-library-united-states-of-america-united-states-of-america",
+        "2026-10-18-library-maldives-maldives",
+        "2026-10-18-library-india-tiruchirappalli",
+        "2026-10-18-library-india-new-delhi"
+      ],
+      "mapStatus": "ready"
+    },
+    {
       "id": "daily-daily-pib-pib-2026-10-17",
       "cadence": "pib",
       "title": "Daily PIB Briefing",
@@ -30070,6 +30282,46 @@
       "relatedSetIds": [],
       "subjectIds": [],
       "topicIds": []
+    },
+    {
+      "id": "weekly-csat-csat-practice-2026-10-18",
+      "cadence": "weekly-csat",
+      "title": "CSAT Practice",
+      "shortTitle": "Practice - 18 Oct",
+      "date": "2026-10-18",
+      "path": "weekly/CSAT/CSAT_Practice_2026-10-18.md",
+      "bundleId": "weekly-csat-csat-practice-2026-10-18",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "csat_practice_2026_10_18"
+      ],
+      "subjectIds": [
+        "csat"
+      ],
+      "topicIds": [
+        "csat/main-idea-governance-of-shared-resources",
+        "csat/inference-applying-the-argument-to-a-new-case",
+        "csat/assumption-why-uniform-state-rules-fail",
+        "csat/main-idea-moral-luck-and-responsibility",
+        "csat/inference-author-s-likely-judgement-on-a-case",
+        "csat/tone-and-attitude-towards-the-control-principle",
+        "csat/puzzle-floors-of-a-building",
+        "csat/cubes-painted-faces-and-cutting",
+        "csat/blood-relations-coded-relation-chain",
+        "csat/series-alternating-number-and-letter-pattern",
+        "csat/direction-sense-successive-turns",
+        "csat/conditional-logic-valid-deduction",
+        "csat/table-percentage-departure-vs-absolute-difference-trap",
+        "csat/table-aggregate-vs-average-of-percentages-trap",
+        "csat/table-profit-margin-vs-total-profit-trap",
+        "csat/table-overall-profit-percentage-on-cost-weighted-trap",
+        "csat/integrity-improper-instruction-from-a-superior",
+        "csat/workplace-harassment-complaint",
+        "csat/competing-duties-deadline-versus-personal-emergency",
+        "csat/number-theory-sum-of-integers-coprime-to-n",
+        "csat/time-and-work-combined-rates",
+        "csat/probability-complementary-counting"
+      ]
     },
     {
       "id": "weekly-csat-csat-practice-2026-10-12",
