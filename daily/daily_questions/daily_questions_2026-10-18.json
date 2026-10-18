@@ -1,0 +1,79 @@
+[
+  {
+    "question": "With reference to India's accession to the Southern Indian Ocean Fisheries Agreement (SIOFA), approved by the Union Cabinet in October 2026, consider the following statements:\n1. India's status changes from a Cooperating Non-Contracting Party to a full Contracting Party.\n2. SIOFA excludes highly migratory species such as tuna, which are covered by other regional bodies like the Indian Ocean Tuna Commission.\n3. SIOFA regulates fishing for sedentary species inside the Exclusive Economic Zones of coastal states.\nWhich of the statements given above is/are correct?",
+    "options": ["(a) 1 only", "(b) 2 and 3 only", "(c) 1 and 2 only", "(d) 1, 2 and 3"],
+    "answer": "(c)",
+    "explanation": "Statements 1 and 2 are correct: India has been a Cooperating Non-Contracting Party since 2022 and accession makes it a full Contracting Party; highly migratory species fall under bodies such as IOTC (India a party since 1996). Statement 3 is incorrect: SIOFA covers high-seas fishery resources beyond national jurisdiction and excludes sedentary species within coastal states' EEZs.",
+    "subject": "International Relations",
+    "theme": "Fisheries and Ocean Governance",
+    "micro_topic": "SIOFA accession",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "India's first Glacial Lake Outburst Flood (GLOF) early warning system was recently installed at Ghepan Ghat glacial lake. Consider the following statements:\n1. The pilot system was built by the Centre for Development of Advanced Computing (C-DAC).\n2. The project was funded by the National Disaster Management Authority (NDMA).\n3. The lake is located in Uttarakhand.\nWhich of the statements given above is/are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(a)",
+    "explanation": "The system (buoy-based lake monitoring station, automatic weather station and glacier vision unit, linked to C-DAC's supercomputing platform) was built by C-DAC and funded by NDMA. Ghepan Ghat lake lies in the Lahaul and Spiti district of Himachal Pradesh, at about 4,100 m, not Uttarakhand.",
+    "subject": "Geography",
+    "theme": "Glaciers and Disaster Management",
+    "micro_topic": "GLOF early warning system",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "CERT-In recently issued a critical advisory on autonomous AI agents accessing the live systems of Indian organisations without authorisation. With reference to CERT-In, consider the following statements:\n1. It is the national nodal agency for cyber-security incident response, designated under Section 70B of the Information Technology Act, 2000.\n2. Its advisory recommends that organisations retain logs for 180 days.\n3. It functions under the Ministry of Home Affairs.\nWhich of the statements given above is/are correct?",
+    "options": ["(a) 1 only", "(b) 1 and 2 only", "(c) 2 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(b)",
+    "explanation": "CERT-In is the Section 70B nodal agency, and the advisory (reported 15-16 October 2026) advises 180-day log retention, rotation of exposed credentials, least-privilege access and MFA on admin interfaces. CERT-In works under the Ministry of Electronics and Information Technology (MeitY), not the Ministry of Home Affairs, so statement 3 is wrong.",
+    "subject": "Science & Technology",
+    "theme": "Cyber Security",
+    "micro_topic": "CERT-In AI agents advisory",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The Election Commission recently ordered a Special Summary Revision (SSR) of electoral rolls in 17 States and Union Territories. Consider the following statements:\n1. As reported, the SSR does not involve house-to-house visits by Booth Level Officers, because electors were largely identified during the earlier Special Intensive Revision.\n2. The final rolls are to be published on 4 January 2027, with 1 January 2027 as the qualifying date.\n3. Political parties will be given the rolls only as image PDFs with photographs.\nWhich of the statements given above is/are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(a)",
+    "explanation": "Statements 1 and 2 match the reported schedule. Statement 3 is wrong: for the first time the EC will supply soft copies in a 'readable PDF' (machine-readable) format, without photographs, a shift from its earlier stand against machine-readable rolls.",
+    "subject": "Polity & Governance",
+    "theme": "Electoral Reforms",
+    "micro_topic": "Special Summary Revision of electoral rolls",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Following the stampede at a Durga Puja pandal in Kolkata on 17 October 2026, consider the following statements:\n1. The Prime Minister's National Relief Fund announced ex gratia of Rs 2 lakh for the next of kin of each deceased and Rs 50,000 for each injured person.\n2. 'Police' and 'public order' are subjects in the State List of the Seventh Schedule.\n3. The National Disaster Management Authority is a constitutional body.\nWhich of the statements given above is/are correct?",
+    "options": ["(a) 1 only", "(b) 2 only", "(c) 1 and 3 only", "(d) 1 and 2 only"],
+    "answer": "(d)",
+    "explanation": "The PMNRF ex gratia of Rs 2 lakh / Rs 50,000 was announced and police and public order are State List entries (1 and 2), which is why crowd management primarily rests with state governments. NDMA is a statutory body created under the Disaster Management Act, 2005, not a constitutional body.",
+    "subject": "Society",
+    "theme": "Disaster Management",
+    "micro_topic": "Crowd disasters and the NDMA framework",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the United Nations Convention on the Law of the Sea (UNCLOS), 1982, consider the following statements:\n1. A coastal state has sovereign rights over living and non-living resources in its Exclusive Economic Zone, which extends up to 200 nautical miles from the baseline.\n2. The high seas are open to all states, and freedom of fishing there is subject to treaty obligations and the duty to cooperate in conserving living resources.\n3. The territorial sea of a coastal state can extend up to 24 nautical miles from the baseline.\nWhich of the statements given above is/are correct?",
+    "options": ["(a) 1 only", "(b) 1 and 2 only", "(c) 2 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(b)",
+    "explanation": "Statements 1 and 2 reflect Articles 56/57 and 87/116-119 of UNCLOS. The territorial sea extends up to 12 nautical miles; the contiguous zone extends up to 24 nautical miles. Regional fisheries bodies like SIOFA operationalise the high-seas conservation duty.",
+    "subject": "International Relations",
+    "theme": "Law of the Sea",
+    "micro_topic": "Maritime zones under UNCLOS",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Election Commission of India, consider the following statements:\n1. Article 324 vests the superintendence, direction and control of the preparation of electoral rolls for Parliament and State Legislatures in the Election Commission.\n2. Electoral rolls for panchayat and municipal elections are prepared by the Election Commission of India.\n3. The Constitution guarantees adult suffrage for citizens aged 18 years and above for elections to the House of the People and State Legislative Assemblies.\nWhich of the statements given above is/are correct?",
+    "options": ["(a) 1 only", "(b) 2 only", "(c) 2 and 3 only", "(d) 1 and 3 only"],
+    "answer": "(d)",
+    "explanation": "Article 324 gives the ECI control over rolls for Parliament and State Legislatures, and Article 326 (as amended by the 61st Amendment, 1988) fixes the voting age at 18. Rolls for panchayats and municipalities are prepared by State Election Commissions under Articles 243K and 243ZA.",
+    "subject": "Polity & Governance",
+    "theme": "Constitutional Bodies",
+    "micro_topic": "Election Commission and electoral rolls",
+    "nature": "Conceptual",
+    "difficulty": "Hard"
+  }
+]

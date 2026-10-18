@@ -1,0 +1,1552 @@
+[
+  {
+    "id": "book_topics_2026_10_18_01",
+    "question_number": 1,
+    "question": "With reference to the veto power of the President of India, consider the following statements:\n1. The absolute veto is usually exercised on private members' bills, or on government bills when the cabinet resigns before assent is given.\n2. The President cannot withhold assent from a Constitution Amendment Bill passed under Article 368.\n3. The Constitution prescribes no time limit within which the President must decide on an ordinary bill, which makes a 'pocket veto' possible.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All three are correct. The 24th Amendment (1971) made assent to amendment bills obligatory. Article 111 sets no time limit for ordinary bills, which is what allows the pocket veto. The absolute veto is used for private members' bills and for bills of an outgoing cabinet.",
+    "subject": "Polity",
+    "theme": "Polity - Laxmikanth 10-year PYQ set part 2: Union & State executive, Judiciary, Centre-State, constitutional and statutory bodies (F11)",
+    "micro_topic": "President's veto - absolute veto, amendment bills, pocket veto",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_18_02",
+    "question_number": 2,
+    "question": "President Zail Singh's well-known use of the 'pocket veto' in 1986 concerned which one of the following?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The Dowry Prohibition Bill"
+      },
+      {
+        "key": "b",
+        "text": "The Banking Service Commission (Repeal) Bill"
+      },
+      {
+        "key": "c",
+        "text": "The Indian Post Office (Amendment) Bill"
+      },
+      {
+        "key": "d",
+        "text": "The Prevention of Terrorism Bill"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Zail Singh kept the Indian Post Office (Amendment) Bill, 1986 pending without a decision. The other three are the subjects of the three joint sittings (1961, 1978, 2002), a common distractor.",
+    "subject": "Polity",
+    "theme": "Polity - Laxmikanth 10-year PYQ set part 2: Union & State executive, Judiciary, Centre-State, constitutional and statutory bodies (F11)",
+    "micro_topic": "Pocket veto - the 1986 instance",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_18_03",
+    "question_number": 3,
+    "question": "With reference to the ordinance-making power of the President under Article 123, consider the following statements:\n1. An ordinance can be promulgated even when only one House of Parliament is in session.\n2. An ordinance remains in force for a maximum of six months from the date of its promulgation, irrespective of when Parliament reassembles.\n3. In Krishna Kumar Singh v. State of Bihar (2017), the Supreme Court held that re-promulgating ordinances without placing them before the legislature is a fraud on the Constitution.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Article 123 bars an ordinance only when both Houses are in session, so statement 1 is correct. An ordinance lapses six weeks after Parliament reassembles, so the maximum life is about six months and six weeks; it is not counted from promulgation. Statement 3 is the 7-judge ruling in Krishna Kumar Singh.",
+    "subject": "Polity",
+    "theme": "Polity - Laxmikanth 10-year PYQ set part 2: Union & State executive, Judiciary, Centre-State, constitutional and statutory bodies (F11)",
+    "micro_topic": "Ordinance - Article 123 and Krishna Kumar Singh (2017) (PYQ-pattern)",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_18_04",
+    "question_number": 4,
+    "question": "Consider the following bills pending when the Lok Sabha is dissolved:\n1. A bill passed by the Lok Sabha and pending in the Rajya Sabha\n2. A bill that originated in the Rajya Sabha and has not been passed by the Lok Sabha\n3. A bill passed by both Houses and pending the President's assent\n4. A bill for which the President had notified a joint sitting before the dissolution\nWhich of the above bills do NOT lapse?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2, 3 and 4 only"
+      },
+      {
+        "key": "c",
+        "text": "3 and 4 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer": "b",
+    "explanation": "A bill pending in the Lok Sabha, or passed by it and pending in the Rajya Sabha, lapses. A Rajya Sabha bill not passed by the Lok Sabha survives, as do bills awaiting assent, bills returned by the President for reconsideration, and bills for which a joint sitting was notified before dissolution.",
+    "subject": "Polity",
+    "theme": "Polity - Laxmikanth 10-year PYQ set part 2: Union & State executive, Judiciary, Centre-State, constitutional and statutory bodies (F11)",
+    "micro_topic": "Lapse of bills on dissolution of the Lok Sabha",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_18_05",
+    "question_number": 5,
+    "question": "With reference to the removal of the Vice-President of India, consider the following statements:\n1. He can be removed by a resolution of the Rajya Sabha passed by a majority of all its then members and agreed to by the Lok Sabha.\n2. At least 14 days' advance notice must be given before such a resolution is moved.\n3. The resolution for his removal may be introduced in either House of Parliament.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Article 67(b) needs no formal impeachment: an effective majority in the Rajya Sabha, then a simple majority in the Lok Sabha, after 14 days' notice. The resolution can be introduced only in the Rajya Sabha, so statement 3 is wrong. No grounds are given in the Constitution.",
+    "subject": "Polity",
+    "theme": "Polity - Laxmikanth 10-year PYQ set part 2: Union & State executive, Judiciary, Centre-State, constitutional and statutory bodies (F11)",
+    "micro_topic": "Removal of the Vice-President - Article 67(b)",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_18_06",
+    "question_number": 6,
+    "question": "Which Article of the Constitution makes it the duty of the Prime Minister to communicate to the President all decisions of the Council of Ministers relating to the administration of the Union and proposals for legislation?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Article 74"
+      },
+      {
+        "key": "b",
+        "text": "Article 75"
+      },
+      {
+        "key": "c",
+        "text": "Article 77"
+      },
+      {
+        "key": "d",
+        "text": "Article 78"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Article 78 lists the PM's duties to inform the President. Article 74 covers aid and advice, Article 75 the appointment and collective responsibility, and Article 77 the conduct of business of the Government of India.",
+    "subject": "Polity",
+    "theme": "Polity - Laxmikanth 10-year PYQ set part 2: Union & State executive, Judiciary, Centre-State, constitutional and statutory bodies (F11)",
+    "micro_topic": "Article 78 - duties of the Prime Minister",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_18_07",
+    "question_number": 7,
+    "question": "Consider the following pairs:\nCase : Outcome\n1. First Judges Case (1981) : 'Consultation' with the CJI does not mean 'concurrence'\n2. Second Judges Case (1993) : Collegium of the CJI and his two senior-most colleagues\n3. Third Judges Case (1998) : Collegium of the CJI and his four senior-most colleagues\n4. Fourth Judges Case (2015) : The National Judicial Appointments Commission was upheld\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "Only three"
+      },
+      {
+        "key": "d",
+        "text": "All four"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The first three are correct (S.P. Gupta 1981; SC Advocates-on-Record Assn 1993; the 1998 Presidential reference). In 2015 the Court struck down the 99th Amendment and the NJAC Act and restored the collegium, so pair 4 is wrong.",
+    "subject": "Polity",
+    "theme": "Polity - Laxmikanth 10-year PYQ set part 2: Union & State executive, Judiciary, Centre-State, constitutional and statutory bodies (F11)",
+    "micro_topic": "Judges cases and the collegium",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_18_08",
+    "question_number": 8,
+    "question": "With reference to the removal of a judge of the Supreme Court, consider the following statements:\n1. A removal motion must be signed by at least 100 members of the Lok Sabha or 50 members of the Rajya Sabha.\n2. The Speaker or the Chairman may admit the motion or refuse to admit it.\n3. The inquiry committee consists of the Chief Justice of India, the Attorney General and a distinguished jurist.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Under the 1968 Act, the motion needs 100 Lok Sabha or 50 Rajya Sabha signatures, and the presiding officer may admit or reject it. The committee is the CJI or a Supreme Court judge, a High Court Chief Justice and a distinguished jurist. The Attorney General has no role, so statement 3 is wrong.",
+    "subject": "Polity",
+    "theme": "Polity - Laxmikanth 10-year PYQ set part 2: Union & State executive, Judiciary, Centre-State, constitutional and statutory bodies (F11)",
+    "micro_topic": "Removal of judges - Judges (Inquiry) Act, 1968 (PYQ-pattern)",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_18_09",
+    "question_number": 9,
+    "question": "The 'curative petition', a remedy available after a review petition against a final judgment of the Supreme Court has been dismissed, was evolved in:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Kesavananda Bharati v. State of Kerala"
+      },
+      {
+        "key": "b",
+        "text": "Minerva Mills v. Union of India"
+      },
+      {
+        "key": "c",
+        "text": "Rupa Ashok Hurra v. Ashok Hurra"
+      },
+      {
+        "key": "d",
+        "text": "S.R. Bommai v. Union of India"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The Court created the curative petition in Rupa Ashok Hurra (2002) to prevent abuse of process or a gross miscarriage of justice. The other three cases deal with basic structure and Article 356.",
+    "subject": "Polity",
+    "theme": "Polity - Laxmikanth 10-year PYQ set part 2: Union & State executive, Judiciary, Centre-State, constitutional and statutory bodies (F11)",
+    "micro_topic": "Curative petition",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_18_10",
+    "question_number": 10,
+    "question": "Consider the following statements:\n1. Under Article 127, the Chief Justice of India may, with the previous consent of the President and after consulting the Chief Justice of the High Court concerned, appoint a High Court judge as an ad hoc judge of the Supreme Court.\n2. An ad hoc judge may be appointed when there is a lack of quorum of permanent judges to hold or continue a session of the Supreme Court.\n3. Under Article 128, a retired judge of the Supreme Court may be requested to sit as a judge, but cannot be required to do so without his consent.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All three are correct. Article 127 covers ad hoc judges, who must be qualified for appointment to the Supreme Court. Article 128 lets the CJI, with the President's previous consent, request a retired judge to sit; the proviso says no one is required to sit unless he consents.",
+    "subject": "Polity",
+    "theme": "Polity - Laxmikanth 10-year PYQ set part 2: Union & State executive, Judiciary, Centre-State, constitutional and statutory bodies (F11)",
+    "micro_topic": "Ad hoc and retired judges - Articles 127 and 128",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_18_11",
+    "question_number": 11,
+    "question": "Consider the following pairs:\nBody : Fact\n1. Rajamannar Committee : Appointed by the Tamil Nadu government in 1969\n2. Sarkaria Commission : Appointed by the Central government in 1983\n3. Punchhi Commission : Appointed by the Central government in 2007\n4. M.N. Venkatachaliah : Chaired the Second Administrative Reforms Commission\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "Only three"
+      },
+      {
+        "key": "d",
+        "text": "All four"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Pairs 1-3 are correct. Justice Venkatachaliah chaired the National Commission to Review the Working of the Constitution (2000). The Second ARC (2005) was chaired by Veerappa Moily.",
+    "subject": "Polity",
+    "theme": "Polity - Laxmikanth 10-year PYQ set part 2: Union & State executive, Judiciary, Centre-State, constitutional and statutory bodies (F11)",
+    "micro_topic": "Centre-State relations - commissions (PYQ-pattern)",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_18_12",
+    "question_number": 12,
+    "question": "Consider the following bodies:\n1. National Commission for Scheduled Tribes\n2. National Commission for Backward Classes\n3. National Commission for Women\n4. National Commission for Minorities\nHow many of the above are constitutional bodies?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "Only three"
+      },
+      {
+        "key": "d",
+        "text": "All four"
+      }
+    ],
+    "answer": "b",
+    "explanation": "NCST is under Article 338A (89th Amendment, 2003) and NCBC under Article 338B (102nd Amendment, 2018). NCW (1990 Act) and NCM (1992 Act) are statutory.",
+    "subject": "Polity",
+    "theme": "Polity - Laxmikanth 10-year PYQ set part 2: Union & State executive, Judiciary, Centre-State, constitutional and statutory bodies (F11)",
+    "micro_topic": "Constitutional vs statutory commissions",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_18_13",
+    "question_number": 13,
+    "question": "Consider the following statements:\n1. A person who is not a member of either House of Parliament can be appointed a Union minister, but must become a member within six consecutive months.\n2. A minister who is a member of one House has the right to speak in the proceedings of the other House.\n3. Such a minister can also vote in the House of which he is not a member.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Article 75(5) gives the six-month window. Article 88 lets every minister, and the Attorney General, speak and take part in either House, but not vote in a House where he is not a member.",
+    "subject": "Polity",
+    "theme": "Polity - Laxmikanth 10-year PYQ set part 2: Union & State executive, Judiciary, Centre-State, constitutional and statutory bodies (F11)",
+    "micro_topic": "Ministers - Articles 75(5) and 88",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_18_14",
+    "question_number": 14,
+    "question": "Arrange the following trading companies in the chronological order of their formation:\n1. French East India Company\n2. English East India Company\n3. Dutch East India Company (VOC)\n4. Danish East India Company\nSelect the correct answer using the code given below:",
+    "options": [
+      {
+        "key": "a",
+        "text": "3-2-1-4"
+      },
+      {
+        "key": "b",
+        "text": "2-3-1-4"
+      },
+      {
+        "key": "c",
+        "text": "3-2-4-1"
+      },
+      {
+        "key": "d",
+        "text": "2-3-4-1"
+      }
+    ],
+    "answer": "d",
+    "explanation": "English EIC 1600, Dutch VOC 1602, Danish company 1616, French company 1664 (under Colbert). The Portuguese came first to India (1498), but not as a chartered company.",
+    "subject": "Modern History",
+    "theme": "Modern History - Spectrum Ch 3-13 compression (Advent of Europeans to first-phase Revolutionary Activities), Modern India recap part 1",
+    "micro_topic": "European trading companies - order of formation",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_18_15",
+    "question_number": 15,
+    "question": "Consider the following pairs:\nBattle : Outcome\n1. Swally (1612) : The English defeated the Portuguese\n2. Colachel (1741) : Travancore defeated the Portuguese\n3. Bedara (1759) : The English defeated the Dutch\nWhich of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "At Swally, near Surat, the English beat the Portuguese. At Colachel, Marthanda Varma of Travancore defeated the Dutch, not the Portuguese. Bedara ended Dutch ambitions in Bengal.",
+    "subject": "Modern History",
+    "theme": "Modern History - Spectrum Ch 3-13 compression (Advent of Europeans to first-phase Revolutionary Activities), Modern India recap part 1",
+    "micro_topic": "European rivalries - Swally, Colachel, Bedara",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_18_16",
+    "question_number": 16,
+    "question": "Consider the following statements about the Anglo-French (Carnatic) Wars:\n1. The First Carnatic War ended with the Treaty of Aix-la-Chapelle.\n2. Dupleix commanded the French forces at the Battle of Wandiwash.\n3. At Wandiwash (1760), Eyre Coote defeated the French under Count de Lally.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The First War (1746-48) ended with Aix-la-Chapelle (1748). Dupleix had been recalled in 1754, so he was not at Wandiwash. Coote beat Lally there in 1760, and the Third War ended with the Treaty of Paris (1763).",
+    "subject": "Modern History",
+    "theme": "Modern History - Spectrum Ch 3-13 compression (Advent of Europeans to first-phase Revolutionary Activities), Modern India recap part 1",
+    "micro_topic": "Carnatic Wars",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_18_17",
+    "question_number": 17,
+    "question": "By the Treaty of Allahabad (1765), the Mughal emperor Shah Alam II granted the East India Company:",
+    "options": [
+      {
+        "key": "a",
+        "text": "The right to mint coins at Madras"
+      },
+      {
+        "key": "b",
+        "text": "The Diwani of Bengal, Bihar and Orissa"
+      },
+      {
+        "key": "c",
+        "text": "Duty-free trade in Bengal for the first time"
+      },
+      {
+        "key": "d",
+        "text": "The Nizamat of Bengal"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The Diwani (revenue rights) went to the Company; the Nizamat stayed nominally with the Nawab, creating Clive's 'dual government'. Duty-free trade dated back to Farrukhsiyar's farman of 1717.",
+    "subject": "Modern History",
+    "theme": "Modern History - Spectrum Ch 3-13 compression (Advent of Europeans to first-phase Revolutionary Activities), Modern India recap part 1",
+    "micro_topic": "Treaty of Allahabad, 1765",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_18_18",
+    "question_number": 18,
+    "question": "Consider the following pairs:\nWar : Treaty that ended it\n1. First Anglo-Mysore War : Treaty of Madras\n2. Second Anglo-Mysore War : Treaty of Seringapatam\n3. Third Anglo-Mysore War : Treaty of Mangalore\nWhich of the pairs given above is/are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "First War: Treaty of Madras (1769). Second War: Treaty of Mangalore (1784). Third War: Treaty of Seringapatam (1792), under which Tipu gave up about half his territory. Pairs 2 and 3 are swapped.",
+    "subject": "Modern History",
+    "theme": "Modern History - Spectrum Ch 3-13 compression (Advent of Europeans to first-phase Revolutionary Activities), Modern India recap part 1",
+    "micro_topic": "Anglo-Mysore Wars - treaties",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_18_19",
+    "question_number": 19,
+    "question": "Consider the following statements about the Subsidiary Alliance system:\n1. It was used on a large scale by Lord Wellesley, and Hyderabad was the first state to accept it in 1798.\n2. The Peshwa Baji Rao II accepted it through the Treaty of Bassein (1802).\n3. An allied state remained free to conduct its relations with other Indian rulers without British approval.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Hyderabad (1798) and the Peshwa at Bassein (1802) are the standard examples. The allied state had to keep British troops at its own cost, accept a Resident and give up independent foreign relations, so statement 3 is wrong.",
+    "subject": "Modern History",
+    "theme": "Modern History - Spectrum Ch 3-13 compression (Advent of Europeans to first-phase Revolutionary Activities), Modern India recap part 1",
+    "micro_topic": "Subsidiary Alliance",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_18_20",
+    "question_number": 20,
+    "question": "Which one of the following was NOT annexed by Lord Dalhousie under the Doctrine of Lapse?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Satara"
+      },
+      {
+        "key": "b",
+        "text": "Jhansi"
+      },
+      {
+        "key": "c",
+        "text": "Nagpur"
+      },
+      {
+        "key": "d",
+        "text": "Awadh"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Satara (1848), Jhansi and Nagpur (1853-54) were annexed for want of a natural heir. Awadh (1856) was annexed on the ground of misgovernment, not lapse.",
+    "subject": "Modern History",
+    "theme": "Modern History - Spectrum Ch 3-13 compression (Advent of Europeans to first-phase Revolutionary Activities), Modern India recap part 1",
+    "micro_topic": "Doctrine of Lapse - annexations",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_18_21",
+    "question_number": 21,
+    "question": "Consider the following pairs:\nOrganisation : Founder\n1. Atmiya Sabha : Raja Rammohan Roy\n2. Satyashodhak Samaj : Jyotiba Phule\n3. Prarthana Samaj : Swami Vivekananda\n4. Sree Narayana Dharma Paripalana Yogam : Sree Narayana Guru\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "Only three"
+      },
+      {
+        "key": "d",
+        "text": "All four"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Atmiya Sabha (1814), Satyashodhak Samaj (1873) and the SNDP Yogam (1903) are correctly matched. The Prarthana Samaj (Bombay, 1867) was founded by Atmaram Pandurang, with Keshab Chandra Sen's influence; Vivekananda founded the Ramakrishna Mission (1897).",
+    "subject": "Modern History",
+    "theme": "Modern History - Spectrum Ch 3-13 compression (Advent of Europeans to first-phase Revolutionary Activities), Modern India recap part 1",
+    "micro_topic": "Socio-religious reform bodies and founders",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_18_22",
+    "question_number": 22,
+    "question": "Arrange the following associations in the chronological order of their founding:\n1. Indian Association\n2. Landholders' Society\n3. East India Association\n4. British Indian Association\nSelect the correct answer using the code given below:",
+    "options": [
+      {
+        "key": "a",
+        "text": "4-2-1-3"
+      },
+      {
+        "key": "b",
+        "text": "2-4-3-1"
+      },
+      {
+        "key": "c",
+        "text": "2-3-4-1"
+      },
+      {
+        "key": "d",
+        "text": "4-2-3-1"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Landholders' Society (Calcutta, 1838), British Indian Association (1851), East India Association (London, 1866, Dadabhai Naoroji), Indian Association (Calcutta, 1876, Surendranath Banerjea and Ananda Mohan Bose).",
+    "subject": "Modern History",
+    "theme": "Modern History - Spectrum Ch 3-13 compression (Advent of Europeans to first-phase Revolutionary Activities), Modern India recap part 1",
+    "micro_topic": "Pre-Congress political associations - chronology",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_18_23",
+    "question_number": 23,
+    "question": "Consider the following statements about the first session of the Indian National Congress:\n1. It was held at Bombay in December 1885.\n2. It was presided over by W.C. Bonnerjee.\n3. It was presided over by Dadabhai Naoroji.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The first session met at Bombay (it was shifted from Poona because of a cholera outbreak), with 72 delegates under W.C. Bonnerjee. Dadabhai Naoroji presided over the second session (Calcutta, 1886).",
+    "subject": "Modern History",
+    "theme": "Modern History - Spectrum Ch 3-13 compression (Advent of Europeans to first-phase Revolutionary Activities), Modern India recap part 1",
+    "micro_topic": "First session of the INC, 1885",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_18_24",
+    "question_number": 24,
+    "question": "The Ilbert Bill controversy during Lord Ripon's viceroyalty arose because the Bill sought to:",
+    "options": [
+      {
+        "key": "a",
+        "text": "repeal the Vernacular Press Act"
+      },
+      {
+        "key": "b",
+        "text": "lower the maximum age for the ICS examination"
+      },
+      {
+        "key": "c",
+        "text": "introduce elected members into the provincial councils"
+      },
+      {
+        "key": "d",
+        "text": "allow Indian judges and magistrates to try European offenders in criminal cases"
+      }
+    ],
+    "answer": "d",
+    "explanation": "The Bill removed the bar on Indian judicial officers trying Europeans. The European backlash forced a compromise: a European accused could claim a jury of which at least half were Europeans. Ripon repealed the Vernacular Press Act separately, in 1882.",
+    "subject": "Modern History",
+    "theme": "Modern History - Spectrum Ch 3-13 compression (Advent of Europeans to first-phase Revolutionary Activities), Modern India recap part 1",
+    "micro_topic": "Ilbert Bill controversy, 1883",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_18_25",
+    "question_number": 25,
+    "question": "Consider the following pairs:\nRevolutionary(ies) : Action\n1. Chapekar brothers : Assassination of the plague commissioner Rand at Poona (1897)\n2. Khudiram Bose and Prafulla Chaki : Attack at Muzaffarpur aimed at Kingsford (1908)\n3. Madan Lal Dhingra : Assassination of Curzon Wyllie in London (1909)\n4. Rash Behari Bose : Bomb thrown at Viceroy Hardinge in Delhi (1912)\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "Only three"
+      },
+      {
+        "key": "d",
+        "text": "All four"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All four are correct. Rash Behari Bose and Sachin Sanyal organised the 1912 attack on Hardinge during the entry into the new capital, Delhi.",
+    "subject": "Modern History",
+    "theme": "Modern History - Spectrum Ch 3-13 compression (Advent of Europeans to first-phase Revolutionary Activities), Modern India recap part 1",
+    "micro_topic": "First-phase revolutionary actions",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_18_26",
+    "question_number": 26,
+    "question": "Consider the following statements:\n1. Abhinav Bharat was a secret society organised in 1904 by V.D. Savarkar and Ganesh Savarkar.\n2. India House in London was set up by Shyamji Krishna Varma.\n3. The journal 'The Indian Sociologist' was edited by Lala Har Dayal.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Abhinav Bharat grew out of the Mitra Mela. India House (1905) was Shyamji Krishna Varma's base, and he also edited The Indian Sociologist. Har Dayal is associated with the Ghadar Party, so statement 3 is wrong.",
+    "subject": "Modern History",
+    "theme": "Modern History - Spectrum Ch 3-13 compression (Advent of Europeans to first-phase Revolutionary Activities), Modern India recap part 1",
+    "micro_topic": "Abhinav Bharat and India House",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_18_27",
+    "question_number": 27,
+    "question": "Keibul Lamjao National Park, made up largely of floating mats of vegetation called 'phumdis', is located in which State, and which animal is it best known for?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Assam - Pygmy hog"
+      },
+      {
+        "key": "b",
+        "text": "Manipur - Sangai (brow-antlered deer)"
+      },
+      {
+        "key": "c",
+        "text": "Mizoram - Hoolock gibbon"
+      },
+      {
+        "key": "d",
+        "text": "Manipur - Hangul"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Keibul Lamjao lies on Loktak Lake in Manipur and is the main home of the sangai. The hangul is Kashmir's stag (Dachigam).",
+    "subject": "Environment",
+    "theme": "Environment - Shankar IAS: Protected Area Network + wetlands, mangroves and coral reefs",
+    "micro_topic": "Keibul Lamjao National Park",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_18_28",
+    "question_number": 28,
+    "question": "With reference to the Wetlands (Conservation and Management) Rules, 2017, consider the following statements:\n1. They have been notified under the Environment (Protection) Act, 1986.\n2. They provide for a State Wetlands Authority in each State and Union Territory.\n3. River channels and paddy fields are included in the definition of 'wetland' under these Rules.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The 2017 Rules, under the EP Act, replaced the 2010 Rules and set up State Wetlands Authorities and a National Wetlands Committee. Their definition expressly excludes river channels, paddy fields and human-made water bodies built for drinking water, aquaculture, salt production, recreation or irrigation.",
+    "subject": "Environment",
+    "theme": "Environment - Shankar IAS: Protected Area Network + wetlands, mangroves and coral reefs",
+    "micro_topic": "Wetlands (Conservation and Management) Rules, 2017 (PYQ-pattern)",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_18_29",
+    "question_number": 29,
+    "question": "Consider the following statements:\n1. India's first Ramsar sites, designated in 1981, were Chilika Lake and Keoladeo National Park.\n2. The Sundarban Wetland is the largest Ramsar site in India by area.\n3. Designation as a Ramsar site by itself makes a wetland a protected area under the Wild Life (Protection) Act, 1972.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Chilika and Keoladeo were designated in October 1981. The Sundarban Wetland (designated 2019, about 4,230 sq km) is the largest. Ramsar status is an international listing; protection in India comes from domestic laws such as the WPA or the Wetlands Rules, so statement 3 is wrong.",
+    "subject": "Environment",
+    "theme": "Environment - Shankar IAS: Protected Area Network + wetlands, mangroves and coral reefs",
+    "micro_topic": "Ramsar sites in India - firsts and status",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_18_30",
+    "question_number": 30,
+    "question": "Consider the following statements about mangroves in India:\n1. West Bengal has the largest mangrove cover among States and UTs, followed by Gujarat.\n2. Bhitarkanika's mangroves lie in the Brahmani-Baitarani delta of Odisha.\n3. The Coringa mangroves lie in the Godavari delta of Andhra Pradesh.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All three are correct. In the India State of Forest Reports, West Bengal (Sundarbans) leads and Gujarat comes second, ahead of the Andaman and Nicobar Islands. Pichavaram (Tamil Nadu) is another frequently tested site.",
+    "subject": "Environment",
+    "theme": "Environment - Shankar IAS: Protected Area Network + wetlands, mangroves and coral reefs",
+    "micro_topic": "Mangroves of India - distribution",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_18_31",
+    "question_number": 31,
+    "question": "Consider the following pairs:\nMarine protected area : State/UT\n1. Gulf of Mannar Marine National Park : Tamil Nadu\n2. Mahatma Gandhi Marine National Park : Andaman and Nicobar Islands\n3. Malvan Marine Sanctuary : Maharashtra\n4. Gahirmatha Marine Sanctuary : Andhra Pradesh\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "Only three"
+      },
+      {
+        "key": "d",
+        "text": "All four"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Gahirmatha, the mass-nesting beach of olive ridley turtles, is in Odisha. The other three pairs are correct. The Gulf of Kachchh Marine National Park (Gujarat) is usually cited as India's first marine national park.",
+    "subject": "Environment",
+    "theme": "Environment - Shankar IAS: Protected Area Network + wetlands, mangroves and coral reefs",
+    "micro_topic": "Marine protected areas and their States",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_18_32",
+    "question_number": 32,
+    "question": "Consider the following statements:\n1. India's first Dugong Conservation Reserve was notified by Tamil Nadu in the Palk Bay in 2022.\n2. Dugongs feed mainly on seagrasses.\n3. The dugong belongs to the order Cetacea, like dolphins and whales.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Tamil Nadu notified the reserve in September 2022 to protect dugongs and their seagrass beds. The dugong is a sirenian ('sea cow', order Sirenia), not a cetacean, so statement 3 is wrong.",
+    "subject": "Environment",
+    "theme": "Environment - Shankar IAS: Protected Area Network + wetlands, mangroves and coral reefs",
+    "micro_topic": "Dugong Conservation Reserve, Palk Bay",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_18_33",
+    "question_number": 33,
+    "question": "Consider the following statements:\n1. Eco-Sensitive Zones around protected areas are notified by the Ministry of Environment, Forest and Climate Change under the Environment (Protection) Act, 1986.\n2. The Wild Life (Protection) Act, 1972 expressly provides for the declaration of Eco-Sensitive Zones.\n3. The National Board for Wildlife is chaired by the Prime Minister.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "ESZs are created under Section 3 of the EP Act (the 2011 guidelines suggest up to 10 km), not under the WPA. The NBWL (Section 5A of the WPA, added in 2002) is chaired by the Prime Minister.",
+    "subject": "Environment",
+    "theme": "Environment - Shankar IAS: Protected Area Network + wetlands, mangroves and coral reefs",
+    "micro_topic": "Eco-Sensitive Zones and the NBWL",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_18_34",
+    "question_number": 34,
+    "question": "Consider the following statements:\n1. The term 'core or critical tiger habitat' is defined under the Wild Life (Protection) Act, 1972.\n2. The term 'critical wildlife habitat' is defined under the Forest Rights Act, 2006.\n3. The buffer zone of a tiger reserve is an area where no human activity is permitted.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Section 38V of the WPA (2006 amendment) defines the core/critical tiger habitat. Section 2(b) of the FRA defines critical wildlife habitat. The buffer is the peripheral area with a lower degree of protection, where people and wildlife coexist, so statement 3 is wrong.",
+    "subject": "Environment",
+    "theme": "Environment - Shankar IAS: Protected Area Network + wetlands, mangroves and coral reefs",
+    "micro_topic": "Critical tiger habitat vs critical wildlife habitat",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_18_35",
+    "question_number": 35,
+    "question": "Consider the following pairs:\nNational park : Flagship species\n1. Hemis : Snow leopard\n2. Dachigam : Hangul\n3. Desert National Park : Great Indian bustard\n4. Kaziranga : Great one-horned rhinoceros\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "Only three"
+      },
+      {
+        "key": "d",
+        "text": "All four"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All four are correct. Hemis (Ladakh) is India's largest national park. Dachigam is near Srinagar, the Desert NP near Jaisalmer, and Kaziranga is in Assam.",
+    "subject": "Environment",
+    "theme": "Environment - Shankar IAS: Protected Area Network + wetlands, mangroves and coral reefs",
+    "micro_topic": "National parks and flagship species",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_18_36",
+    "question_number": 36,
+    "question": "Which one of the following is NOT a member of the Gulf Cooperation Council (GCC)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Oman"
+      },
+      {
+        "key": "b",
+        "text": "Qatar"
+      },
+      {
+        "key": "c",
+        "text": "Jordan"
+      },
+      {
+        "key": "d",
+        "text": "Bahrain"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The GCC (1981, Riyadh) has six members: Saudi Arabia, the UAE, Qatar, Kuwait, Bahrain and Oman. Jordan is not a member.",
+    "subject": "International Relations",
+    "theme": "International Relations - West Asia & the Gulf + regional groupings (SAARC, BIMSTEC, IORA)",
+    "micro_topic": "Gulf Cooperation Council - members",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_18_37",
+    "question_number": 37,
+    "question": "With reference to India-UAE economic relations, consider the following statements:\n1. The India-UAE Comprehensive Economic Partnership Agreement (CEPA) was signed in February 2022 and came into force in May 2022.\n2. In July 2023, India and the UAE agreed on a framework to settle trade in their local currencies.\n3. The CEPA is an agreement between India and the Gulf Cooperation Council as a bloc.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The CEPA was signed on 18 Feb 2022 and took effect on 1 May 2022. The rupee-dirham local currency settlement MoU was signed in July 2023. The CEPA is bilateral; an India-GCC FTA is a separate negotiation.",
+    "subject": "International Relations",
+    "theme": "International Relations - West Asia & the Gulf + regional groupings (SAARC, BIMSTEC, IORA)",
+    "micro_topic": "India-UAE CEPA and local-currency settlement",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_18_38",
+    "question_number": 38,
+    "question": "Consider the following pairs:\nOperation : Country of evacuation\n1. Operation Rahat : Yemen\n2. Operation Kaveri : Sudan\n3. Operation Ajay : Israel\n4. Operation Devi Shakti : Ukraine\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "Only three"
+      },
+      {
+        "key": "d",
+        "text": "All four"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Rahat (Yemen, 2015), Kaveri (Sudan, 2023) and Ajay (Israel, 2023) are correct. Devi Shakti (2021) was the Afghanistan evacuation; Ukraine (2022) was Operation Ganga.",
+    "subject": "International Relations",
+    "theme": "International Relations - West Asia & the Gulf + regional groupings (SAARC, BIMSTEC, IORA)",
+    "micro_topic": "Evacuation operations in West Asia and beyond",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_18_39",
+    "question_number": 39,
+    "question": "Consider the following statements:\n1. India voted against the 1947 UN plan for the partition of Palestine.\n2. India recognised Israel in 1950.\n3. India and Israel established full diplomatic relations in 1992.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All three are correct. India opposed partition in 1947, recognised Israel in 1950 but held off full ties, and opened embassies in 1992, under the Narasimha Rao government.",
+    "subject": "International Relations",
+    "theme": "International Relations - West Asia & the Gulf + regional groupings (SAARC, BIMSTEC, IORA)",
+    "micro_topic": "India-Israel relations - milestones",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_18_40",
+    "question_number": 40,
+    "question": "Which of the following countries are members of BIMSTEC but NOT of SAARC?\n1. Myanmar\n2. Thailand\n3. Bhutan\n4. Maldives\nSelect the correct answer using the code given below:",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "1, 2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 4 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 3 and 4 only"
+      }
+    ],
+    "answer": "a",
+    "explanation": "BIMSTEC has seven members: Bangladesh, Bhutan, India, Myanmar, Nepal, Sri Lanka and Thailand. Myanmar and Thailand are not in SAARC. Bhutan is in both; the Maldives is in SAARC only.",
+    "subject": "International Relations",
+    "theme": "International Relations - West Asia & the Gulf + regional groupings (SAARC, BIMSTEC, IORA)",
+    "micro_topic": "BIMSTEC vs SAARC membership",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_18_41",
+    "question_number": 41,
+    "question": "Consider the following statements about SAARC:\n1. The South Asian University is located in New Delhi.\n2. The SAARC Development Fund has its secretariat in Thimphu.\n3. Afghanistan was one of the founding members of SAARC.\n4. The 18th Summit at Kathmandu (2014) is the last SAARC summit held so far.\nHow many of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "Only three"
+      },
+      {
+        "key": "d",
+        "text": "All four"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Statements 1, 2 and 4 are correct; the 2016 Islamabad summit never took place. SAARC was founded at Dhaka in 1985 by seven states, and Afghanistan joined in 2007.",
+    "subject": "International Relations",
+    "theme": "International Relations - West Asia & the Gulf + regional groupings (SAARC, BIMSTEC, IORA)",
+    "micro_topic": "SAARC institutions and history",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_18_42",
+    "question_number": 42,
+    "question": "With reference to India's Indian Ocean policy, consider the following statements:\n1. The vision of SAGAR (Security and Growth for All in the Region) was announced in 2015 during the Prime Minister's visit to Mauritius.\n2. MAHASAGAR, which extends SAGAR, was announced in 2025, also during a visit to Mauritius.\n3. MAHASAGAR is a treaty-based organisation with a permanent secretariat in New Delhi.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "SAGAR was announced in Mauritius in March 2015. MAHASAGAR (Mutual and Holistic Advancement for Security and Growth Across Regions) was announced in Mauritius in March 2025. Both are policy visions, not organisations.",
+    "subject": "International Relations",
+    "theme": "International Relations - West Asia & the Gulf + regional groupings (SAARC, BIMSTEC, IORA)",
+    "micro_topic": "SAGAR and MAHASAGAR",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_18_43",
+    "question_number": 43,
+    "question": "Consider the following pairs:\nConfluence : River that joins the Alaknanda\n1. Vishnuprayag : Dhauliganga\n2. Nandprayag : Nandakini\n3. Karnaprayag : Mandakini\n4. Rudraprayag : Mandakini\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "Only three"
+      },
+      {
+        "key": "d",
+        "text": "All four"
+      }
+    ],
+    "answer": "c",
+    "explanation": "At Karnaprayag the Pindar joins the Alaknanda. The Mandakini joins at Rudraprayag. At Devprayag the Bhagirathi joins and the river becomes the Ganga.",
+    "subject": "Geography",
+    "theme": "Geography - Khullar, Drainage System: the Himalayan rivers",
+    "micro_topic": "Panch Prayag confluences on the Alaknanda",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_18_44",
+    "question_number": 44,
+    "question": "The Chenab is formed by the confluence of which two streams at Tandi in the Lahaul region of Himachal Pradesh?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Spiti and Pin"
+      },
+      {
+        "key": "b",
+        "text": "Parbati and Beas"
+      },
+      {
+        "key": "c",
+        "text": "Baspa and Sutlej"
+      },
+      {
+        "key": "d",
+        "text": "Chandra and Bhaga"
+      }
+    ],
+    "answer": "d",
+    "explanation": "The Chandra and the Bhaga meet at Tandi, near Keylong, which is why the upper Chenab is called the Chandrabhaga. The Bara Shigri glacier (2019 PYQ) feeds the Chandra.",
+    "subject": "Geography",
+    "theme": "Geography - Khullar, Drainage System: the Himalayan rivers",
+    "micro_topic": "Origin of the Chenab (PYQ-theme)",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_18_45",
+    "question_number": 45,
+    "question": "Consider the following statements about the Jhelum:\n1. It rises from a spring at Verinag at the foot of the Pir Panjal.\n2. It flows through Srinagar and Wular Lake.\n3. It joins the Sutlej at Harike.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The Jhelum rises at Verinag, flows through Srinagar and Wular Lake, and joins the Chenab near Jhang in Pakistan. The Beas, not the Jhelum, joins the Sutlej at Harike.",
+    "subject": "Geography",
+    "theme": "Geography - Khullar, Drainage System: the Himalayan rivers",
+    "micro_topic": "Course of the Jhelum (PYQ-pattern)",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_18_46",
+    "question_number": 46,
+    "question": "Which of the following are right-bank tributaries of the Ganga?\n1. Son\n2. Gandak\n3. Yamuna\n4. Kosi\nSelect the correct answer using the code given below:",
+    "options": [
+      {
+        "key": "a",
+        "text": "2 and 4 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1, 2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "3 and 4 only"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The Yamuna and the Son join from the right (south-west). The Himalayan rivers from Nepal, including the Ghaghara, Gandak and Kosi, join from the left.",
+    "subject": "Geography",
+    "theme": "Geography - Khullar, Drainage System: the Himalayan rivers",
+    "micro_topic": "Right-bank vs left-bank tributaries of the Ganga",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_18_47",
+    "question_number": 47,
+    "question": "Consider the following statements about the Kosi:\n1. It is an antecedent river, and its main stream, the Arun, rises in Tibet north of Mount Everest.\n2. It is notorious for frequently shifting its course.\n3. It joins the Ganga as a right-bank tributary.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The Kosi (Sapta Kosi in Nepal) cuts across the Himalaya, with the Arun as its main stream, and is called the 'sorrow of Bihar' because of floods and course shifts. It joins the Ganga from the left (north).",
+    "subject": "Geography",
+    "theme": "Geography - Khullar, Drainage System: the Himalayan rivers",
+    "micro_topic": "Kosi - antecedent source and shifting course (PYQ-theme)",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_18_48",
+    "question_number": 48,
+    "question": "Which of the following are right-bank tributaries of the Brahmaputra in India?\n1. Subansiri\n2. Dhansiri\n3. Manas\n4. Burhi Dihing\n5. Kameng\nSelect the correct answer using the code given below:",
+    "options": [
+      {
+        "key": "a",
+        "text": "2 and 4 only"
+      },
+      {
+        "key": "b",
+        "text": "1, 2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "3, 4 and 5 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 3 and 5 only"
+      }
+    ],
+    "answer": "d",
+    "explanation": "In NCERT's list, the right-bank tributaries are the Subansiri (an antecedent river), Kameng, Manas and Sankosh; the Teesta joins in Bangladesh. The Burhi Dihing and Dhansiri are left-bank tributaries.",
+    "subject": "Geography",
+    "theme": "Geography - Khullar, Drainage System: the Himalayan rivers",
+    "micro_topic": "Brahmaputra - right-bank tributaries",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_18_49",
+    "question_number": 49,
+    "question": "Consider the following statements about the Yamuna:\n1. It rises from the Yamunotri glacier on the western slopes of the Banderpunch range.\n2. The Chambal, Betwa and Ken are its right-bank tributaries.\n3. The Hindan is its right-bank tributary.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The Chambal, Sind, Betwa and Ken come from the Peninsular plateau on the right. The Hindan, Rind, Sengar and Varuna join on the left. The Yamuna meets the Ganga at Prayagraj.",
+    "subject": "Geography",
+    "theme": "Geography - Khullar, Drainage System: the Himalayan rivers",
+    "micro_topic": "Yamuna system",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_10_18_50",
+    "question_number": 50,
+    "question": "Consider the following statements about the Indus:\n1. In Tibet it is known as 'Singi Khamban' (Lion's Mouth).\n2. The Kabul river joins it on the right bank near Attock.\n3. It rises in the Zaskar range within Indian territory.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The Indus rises near the Bokhar Chu glacier in the Kailash range in Tibet, not in Indian territory. It flows north-west between the Ladakh and Zaskar ranges and receives the Kabul river on its right bank near Attock.",
+    "subject": "Geography",
+    "theme": "Geography - Khullar, Drainage System: the Himalayan rivers",
+    "micro_topic": "Indus - source and course",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  }
+]

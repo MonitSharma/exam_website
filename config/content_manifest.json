@@ -12,6 +12,48 @@
   ],
   "questionSets": [
     {
+      "id": "daily_questions_2026_10_17",
+      "label": "Daily Questions - 17 Oct 2026",
+      "shortLabel": "Daily 17 Oct",
+      "category": "Daily Questions",
+      "sourceType": "daily",
+      "questionCount": 7,
+      "durationMinutes": 10,
+      "path": "daily/daily_questions/daily_questions_2026-10-17.json",
+      "sourcePath": "daily/daily_questions/daily_questions_2026-10-17.json",
+      "isoDate": "2026-10-17",
+      "subjects": [
+        "Polity & Governance",
+        "International Relations",
+        "Science & Technology",
+        "Economy",
+        "Environment"
+      ],
+      "bundleId": "daily_questions_2026_10_17",
+      "relatedNoteIds": [
+        "daily-daily-current-affairs-upsc-ca-2026-10-17"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "polity",
+        "international-relations",
+        "science-technology",
+        "economy",
+        "environment"
+      ],
+      "topicIds": [
+        "polity/sc-on-children-s-internet-access-and-cseam",
+        "international-relations/india-new-zealand-fta-entry-into-force",
+        "science-technology/gaganyaan-module-separation-test",
+        "economy/wpi-september-2026",
+        "environment/dal-lake-motorboat-ban",
+        "polity/anuradha-bhasin-and-internet-rights",
+        "economy/tariff-rate-quota"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
       "id": "daily_questions_2026_10_16",
       "label": "Daily Questions - 16 Oct 2026",
       "shortLabel": "Daily 16 Oct",
@@ -6262,6 +6304,36 @@
       "provenance": "generated"
     },
     {
+      "id": "pib_questions_2026_10_17",
+      "label": "PIB Questions - 17 Oct 2026",
+      "shortLabel": "PIB 17 Oct",
+      "category": "PIB Questions",
+      "sourceType": "pib",
+      "questionCount": 3,
+      "durationMinutes": 10,
+      "path": "generated_data/pib_questions/2026-10-17.json",
+      "sourcePath": "generated_data/pib_questions/2026-10-17.json",
+      "isoDate": "2026-10-17",
+      "subjects": [
+        "Science & Technology"
+      ],
+      "bundleId": "pib_questions_2026_10_17",
+      "relatedNoteIds": [
+        "daily-daily-pib-pib-2026-10-17"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "science-technology"
+      ],
+      "topicIds": [
+        "science-technology/ayush-patent-filings",
+        "science-technology/niti-aayog-data-centre-evaluation-framework",
+        "science-technology/tkdl-and-gratk"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
       "id": "pib_questions_2026_10_16",
       "label": "PIB Questions - 16 Oct 2026",
       "shortLabel": "PIB 16 Oct",
@@ -10877,6 +10949,62 @@
       "provenance": "generated"
     },
     {
+      "id": "weekly_quiz_2026_10_18",
+      "label": "Weekly Recall Quiz - 18 Oct 2026",
+      "shortLabel": "Weekly Quiz 18 Oct",
+      "category": "Weekly Quiz",
+      "sourceType": "weekly-quiz",
+      "questionCount": 15,
+      "durationMinutes": 25,
+      "path": "weekly/weekly_quiz/weekly_questions_2026-10-18.json",
+      "sourcePath": "weekly/weekly_quiz/weekly_questions_2026-10-18.json",
+      "isoDate": "2026-10-18",
+      "subjects": [
+        "Polity & Governance",
+        "Economy",
+        "Modern History",
+        "Ancient & Medieval History",
+        "Environment",
+        "Geography",
+        "Science & Technology",
+        "International Relations",
+        "Reports & Indices"
+      ],
+      "bundleId": "weekly_quiz_2026_10_18",
+      "relatedNoteIds": [],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "polity",
+        "economy",
+        "history",
+        "ancient-and-medieval-history",
+        "environment",
+        "geography",
+        "science-technology",
+        "international-relations",
+        "reports-and-indices"
+      ],
+      "topicIds": [
+        "polity/50-ceiling-indra-sawhney-art-243d-6-enabling-triple-test-for-local-body-obc-quota",
+        "polity/art-19-1-b-citizens-only-19-3-grounds-no-right-to-strike",
+        "economy/wpi-goods-only-cpi-c-inflation-target-under-s-45za-oea-dpiit-compiles-wpi",
+        "economy/art-112-annual-financial-statement-charged-expenditure-not-voted-appropriation-bill-as-money-bill",
+        "history/pabna-eka-bardoli-moplah-regions",
+        "history/aiks-lucknow-1936-tebhaga-one-third-demand-eka-in-awadh",
+        "ancient-and-medieval-history/shankaradeva-tukaram-lal-ded-basavanna-regions",
+        "environment/ramsar-1971-iran-montreux-record-sukhna-man-made-reservoir",
+        "environment/biosphere-reserves-not-under-wpa-community-reserves-2002-no-grazing-in-national-parks",
+        "environment/nagoya-protocol-abs-nba-under-bd-act-2002-cartagena-biosafety",
+        "geography/sutlej-from-rakas-tal-via-shipki-la-devprayag-confluence-siang-dihang",
+        "geography/positive-iod-iod-offsetting-el-ni-o-ni-o-3-4-location",
+        "science-technology/qkd-eavesdropping-detection-key-only-distribution-no-cloning",
+        "international-relations/bimstec-bangkok-declaration-1997-dhaka-secretariat-charter-in-force-2024",
+        "reports-and-indices/ghi-2026-publishers-four-indicators-india-serious-24-1"
+      ],
+      "format": "drill",
+      "provenance": "generated"
+    },
+    {
       "id": "weekly_quiz_2026_10_16",
       "label": "Weekly Recall Quiz - 16 Oct 2026",
       "shortLabel": "Weekly Quiz 16 Oct",
@@ -12392,6 +12520,94 @@
         "polity/weekly-recall-quiz"
       ],
       "format": "drill",
+      "provenance": "generated"
+    },
+    {
+      "id": "sectional_book-topics_2026_10_18_extra",
+      "label": "Book Topics · Add-on · 2026-10-18",
+      "shortLabel": "Book Topics · 2026-10-18",
+      "category": "Extra Practice",
+      "sourceType": "sectional",
+      "questionCount": 50,
+      "durationMinutes": 80,
+      "path": "generated_data/sectional_questions/book-topics_2026-10-18_chatgpt.json",
+      "sourcePath": "generated_data/sectional_questions/book-topics_2026-10-18_chatgpt.json",
+      "isoDate": "2026-10-18",
+      "variant": "extra-practice",
+      "variantLabel": "Add-on",
+      "isSupplementary": true,
+      "subjects": [
+        "Polity",
+        "Modern History",
+        "Environment",
+        "International Relations",
+        "Geography"
+      ],
+      "bundleId": "sectional_book-topics_2026_10_18_extra",
+      "relatedNoteIds": [
+        "weekly-sectional-sectional-book-topics-2026-10-18-chatgpt"
+      ],
+      "relatedSetIds": [],
+      "subjectIds": [
+        "polity",
+        "history",
+        "environment",
+        "international-relations",
+        "geography"
+      ],
+      "topicIds": [
+        "polity/president-s-veto-absolute-veto-amendment-bills-pocket-veto",
+        "polity/pocket-veto-the-1986-instance",
+        "polity/ordinance-article-123-and-krishna-kumar-singh-2017-pyq-pattern",
+        "polity/lapse-of-bills-on-dissolution-of-the-lok-sabha",
+        "polity/removal-of-the-vice-president-article-67-b",
+        "polity/article-78-duties-of-the-prime-minister",
+        "polity/judges-cases-and-the-collegium",
+        "polity/removal-of-judges-judges-inquiry-act-1968-pyq-pattern",
+        "polity/curative-petition",
+        "polity/ad-hoc-and-retired-judges-articles-127-and-128",
+        "polity/centre-state-relations-commissions-pyq-pattern",
+        "polity/constitutional-vs-statutory-commissions",
+        "polity/ministers-articles-75-5-and-88",
+        "history/european-trading-companies-order-of-formation",
+        "history/european-rivalries-swally-colachel-bedara",
+        "history/carnatic-wars",
+        "history/treaty-of-allahabad-1765",
+        "history/anglo-mysore-wars-treaties",
+        "history/subsidiary-alliance",
+        "history/doctrine-of-lapse-annexations",
+        "history/socio-religious-reform-bodies-and-founders",
+        "history/pre-congress-political-associations-chronology",
+        "history/first-session-of-the-inc-1885",
+        "history/ilbert-bill-controversy-1883",
+        "history/first-phase-revolutionary-actions",
+        "history/abhinav-bharat-and-india-house",
+        "environment/keibul-lamjao-national-park",
+        "environment/wetlands-conservation-and-management-rules-2017-pyq-pattern",
+        "environment/ramsar-sites-in-india-firsts-and-status",
+        "environment/mangroves-of-india-distribution",
+        "environment/marine-protected-areas-and-their-states",
+        "environment/dugong-conservation-reserve-palk-bay",
+        "environment/eco-sensitive-zones-and-the-nbwl",
+        "environment/critical-tiger-habitat-vs-critical-wildlife-habitat",
+        "environment/national-parks-and-flagship-species",
+        "international-relations/gulf-cooperation-council-members",
+        "international-relations/india-uae-cepa-and-local-currency-settlement",
+        "international-relations/evacuation-operations-in-west-asia-and-beyond",
+        "international-relations/india-israel-relations-milestones",
+        "international-relations/bimstec-vs-saarc-membership",
+        "international-relations/saarc-institutions-and-history",
+        "international-relations/sagar-and-mahasagar",
+        "geography/panch-prayag-confluences-on-the-alaknanda",
+        "geography/origin-of-the-chenab-pyq-theme",
+        "geography/course-of-the-jhelum-pyq-pattern",
+        "geography/right-bank-vs-left-bank-tributaries-of-the-ganga",
+        "geography/kosi-antecedent-source-and-shifting-course-pyq-theme",
+        "geography/brahmaputra-right-bank-tributaries",
+        "geography/yamuna-system",
+        "geography/indus-source-and-course"
+      ],
+      "format": "sectional",
       "provenance": "generated"
     },
     {
@@ -18226,6 +18442,42 @@
       "topicIds": []
     },
     {
+      "id": "daily-daily-current-affairs-upsc-ca-2026-10-17",
+      "cadence": "daily",
+      "title": "UPSC Daily CA Briefing",
+      "shortTitle": "17 Oct 2026",
+      "date": "2026-10-17",
+      "path": "daily/daily_current_affairs/UPSC_CA_2026-10-17.md",
+      "bundleId": "daily-daily-current-affairs-upsc-ca-2026-10-17",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "daily_questions_2026_10_17"
+      ],
+      "subjectIds": [
+        "polity",
+        "international-relations",
+        "science-technology",
+        "economy",
+        "environment"
+      ],
+      "topicIds": [
+        "polity/sc-on-children-s-internet-access-and-cseam",
+        "international-relations/india-new-zealand-fta-entry-into-force",
+        "science-technology/gaganyaan-module-separation-test",
+        "economy/wpi-september-2026",
+        "environment/dal-lake-motorboat-ban",
+        "polity/anuradha-bhasin-and-internet-rights",
+        "economy/tariff-rate-quota"
+      ],
+      "atlasWeekId": "2026-10-11-library",
+      "atlasFeatureIds": [
+        "2026-10-11-library-united-states-of-america-united-states-of-america",
+        "2026-10-11-library-united-kingdom-united-kingdom",
+        "2026-10-11-library-new-zealand-new-zealand"
+      ],
+      "mapStatus": "ready"
+    },
+    {
       "id": "daily-daily-current-affairs-upsc-ca-2026-10-16",
       "cadence": "daily",
       "title": "UPSC Daily CA Briefing",
@@ -22822,6 +23074,19 @@
       "topicIds": []
     },
     {
+      "id": "weekly-essays-essay-2026-10-17",
+      "cadence": "essay",
+      "title": "Model Essay",
+      "shortTitle": "Essay - 17 Oct",
+      "date": "2026-10-17",
+      "path": "weekly/Essays/Essay_2026-10-17.md",
+      "bundleId": "weekly-essays-essay-2026-10-17",
+      "relatedNoteIds": [],
+      "relatedSetIds": [],
+      "subjectIds": [],
+      "topicIds": []
+    },
+    {
       "id": "weekly-essays-essay-2026-10-12",
       "cadence": "essay",
       "title": "Model Essay",
@@ -23115,6 +23380,32 @@
       "date": "",
       "path": "reference/Fodder_Bank.md",
       "bundleId": "reference-fodder-bank",
+      "relatedNoteIds": [],
+      "relatedSetIds": [],
+      "subjectIds": [],
+      "topicIds": []
+    },
+    {
+      "id": "daily-daily-mains-gs-mains-2026-10-18",
+      "cadence": "mains",
+      "title": "GS Mains Answer Practice",
+      "shortTitle": "Mains - 18 Oct",
+      "date": "2026-10-18",
+      "path": "daily/daily_mains/GS_Mains_2026-10-18.md",
+      "bundleId": "daily-daily-mains-gs-mains-2026-10-18",
+      "relatedNoteIds": [],
+      "relatedSetIds": [],
+      "subjectIds": [],
+      "topicIds": []
+    },
+    {
+      "id": "daily-daily-mains-gs-mains-2026-10-16",
+      "cadence": "mains",
+      "title": "GS Mains Answer Practice",
+      "shortTitle": "Mains - 16 Oct",
+      "date": "2026-10-16",
+      "path": "daily/daily_mains/GS_Mains_2026-10-16.md",
+      "bundleId": "daily-daily-mains-gs-mains-2026-10-16",
       "relatedNoteIds": [],
       "relatedSetIds": [],
       "subjectIds": [],
@@ -24094,6 +24385,33 @@
       "relatedSetIds": [],
       "subjectIds": [],
       "topicIds": []
+    },
+    {
+      "id": "daily-daily-pib-pib-2026-10-17",
+      "cadence": "pib",
+      "title": "Daily PIB Briefing",
+      "shortTitle": "PIB - 17 Oct",
+      "date": "2026-10-17",
+      "path": "daily/daily_pib/PIB_2026-10-17.md",
+      "bundleId": "daily-daily-pib-pib-2026-10-17",
+      "relatedNoteIds": [],
+      "relatedSetIds": [
+        "pib_questions_2026_10_17"
+      ],
+      "subjectIds": [
+        "science-technology"
+      ],
+      "topicIds": [
+        "science-technology/ayush-patent-filings",
+        "science-technology/niti-aayog-data-centre-evaluation-framework",
+        "science-technology/tkdl-and-gratk"
+      ],
+      "atlasWeekId": "2026-10-11-library",
+      "atlasFeatureIds": [
+        "2026-10-11-library-india-new-delhi",
+        "2026-10-11-library-bulgaria-bulgaria"
+      ],
+      "mapStatus": "ready"
     },
     {
       "id": "daily-daily-pib-pib-2026-10-16",
@@ -27973,6 +28291,83 @@
       "topicIds": []
     },
     {
+      "id": "weekly-sectional-sectional-book-topics-2026-10-18-chatgpt",
+      "cadence": "sectional",
+      "title": "Weekly Book Topics 50Q Companion",
+      "shortTitle": "Book Topics - 18 Oct",
+      "date": "2026-10-18",
+      "path": "weekly/Sectional/Sectional_book-topics_2026-10-18_chatgpt.md",
+      "variant": "supplementary",
+      "variantLabel": "Companion",
+      "isSupplementary": true,
+      "bundleId": "weekly-sectional-sectional-book-topics-2026-10-18-chatgpt",
+      "relatedNoteIds": [
+        "weekly-sunday-sunday-sweep-2026-10-18"
+      ],
+      "relatedSetIds": [
+        "sectional_book-topics_2026_10_18_extra"
+      ],
+      "subjectIds": [
+        "polity",
+        "history",
+        "environment",
+        "international-relations",
+        "geography"
+      ],
+      "topicIds": [
+        "polity/president-s-veto-absolute-veto-amendment-bills-pocket-veto",
+        "polity/pocket-veto-the-1986-instance",
+        "polity/ordinance-article-123-and-krishna-kumar-singh-2017-pyq-pattern",
+        "polity/lapse-of-bills-on-dissolution-of-the-lok-sabha",
+        "polity/removal-of-the-vice-president-article-67-b",
+        "polity/article-78-duties-of-the-prime-minister",
+        "polity/judges-cases-and-the-collegium",
+        "polity/removal-of-judges-judges-inquiry-act-1968-pyq-pattern",
+        "polity/curative-petition",
+        "polity/ad-hoc-and-retired-judges-articles-127-and-128",
+        "polity/centre-state-relations-commissions-pyq-pattern",
+        "polity/constitutional-vs-statutory-commissions",
+        "polity/ministers-articles-75-5-and-88",
+        "history/european-trading-companies-order-of-formation",
+        "history/european-rivalries-swally-colachel-bedara",
+        "history/carnatic-wars",
+        "history/treaty-of-allahabad-1765",
+        "history/anglo-mysore-wars-treaties",
+        "history/subsidiary-alliance",
+        "history/doctrine-of-lapse-annexations",
+        "history/socio-religious-reform-bodies-and-founders",
+        "history/pre-congress-political-associations-chronology",
+        "history/first-session-of-the-inc-1885",
+        "history/ilbert-bill-controversy-1883",
+        "history/first-phase-revolutionary-actions",
+        "history/abhinav-bharat-and-india-house",
+        "environment/keibul-lamjao-national-park",
+        "environment/wetlands-conservation-and-management-rules-2017-pyq-pattern",
+        "environment/ramsar-sites-in-india-firsts-and-status",
+        "environment/mangroves-of-india-distribution",
+        "environment/marine-protected-areas-and-their-states",
+        "environment/dugong-conservation-reserve-palk-bay",
+        "environment/eco-sensitive-zones-and-the-nbwl",
+        "environment/critical-tiger-habitat-vs-critical-wildlife-habitat",
+        "environment/national-parks-and-flagship-species",
+        "international-relations/gulf-cooperation-council-members",
+        "international-relations/india-uae-cepa-and-local-currency-settlement",
+        "international-relations/evacuation-operations-in-west-asia-and-beyond",
+        "international-relations/india-israel-relations-milestones",
+        "international-relations/bimstec-vs-saarc-membership",
+        "international-relations/saarc-institutions-and-history",
+        "international-relations/sagar-and-mahasagar",
+        "geography/panch-prayag-confluences-on-the-alaknanda",
+        "geography/origin-of-the-chenab-pyq-theme",
+        "geography/course-of-the-jhelum-pyq-pattern",
+        "geography/right-bank-vs-left-bank-tributaries-of-the-ganga",
+        "geography/kosi-antecedent-source-and-shifting-course-pyq-theme",
+        "geography/brahmaputra-right-bank-tributaries",
+        "geography/yamuna-system",
+        "geography/indus-source-and-course"
+      ]
+    },
+    {
       "id": "weekly-sectional-sectional-economy-2026-10-12",
       "cadence": "sectional",
       "title": "Sectional Test",
@@ -29384,6 +29779,21 @@
       "path": "CSAT_Strategy_Guide.md",
       "bundleId": "csat-strategy-guide",
       "relatedNoteIds": [],
+      "relatedSetIds": [],
+      "subjectIds": [],
+      "topicIds": []
+    },
+    {
+      "id": "weekly-sunday-sunday-sweep-2026-10-18",
+      "cadence": "sunday",
+      "title": "Sunday Sweep",
+      "shortTitle": "Week of 18 Oct",
+      "date": "2026-10-18",
+      "path": "weekly/Sunday/Sunday_Sweep_2026-10-18.md",
+      "bundleId": "weekly-sunday-sunday-sweep-2026-10-18",
+      "relatedNoteIds": [
+        "weekly-sectional-sectional-book-topics-2026-10-18-chatgpt"
+      ],
       "relatedSetIds": [],
       "subjectIds": [],
       "topicIds": []

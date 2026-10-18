@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to the Supreme Court's order of 17 October 2026 (bench of Justices J.B. Pardiwala and K.V. Chandran) in the matter on child sexual abuse and exploitative material (CSEAM) online, consider the following statements:\n1. The Court said that children's safety and their freedom to access the internet are not at odds with each other.\n2. The Court directed the Centre to frame guidelines for national databases of perceptual hashes and URLs, with safeguards against wrongful deletion and a grievance redressal mechanism.\n3. The Court directed that the hash and URL databases may also be used to detect and remove other kinds of content.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statements 1 and 2 are correct as reported. Statement 3 is wrong: the Court asked for safeguards so the databases are NOT repurposed to detect or remove other kinds of material.",
+    "subject": "Polity & Governance",
+    "theme": "Judiciary and digital rights",
+    "micro_topic": "SC on children's internet access and CSEAM",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The India–New Zealand Free Trade Agreement, in the news recently, consider the following statements:\n1. It was signed on 27 April 2026 and enters into force on 20 October 2026.\n2. New Zealand will offer 5,000 Temporary Employment Entry visas and 1,000 Working Holiday visas a year to Indians.\n3. India has opened its dairy sector to New Zealand under the agreement.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Per reports, the FTA was signed on 27 April 2026 and enters into force on 20 October 2026, with annual visa quotas of 5,000 (TEE) and 1,000 (working holiday). India's dairy market stays closed, so statement 3 is wrong.",
+    "subject": "International Relations",
+    "theme": "India's FTAs",
+    "micro_topic": "India-New Zealand FTA entry into force",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to ISRO's Gaganyaan programme, consider the following statements:\n1. ISRO recently completed ground tests of Crew Module and Service Module separation at VSSC, Thiruvananthapuram.\n2. The Service Module is jettisoned before re-entry of the Crew Module.\n3. The first uncrewed mission, G1, will carry no payload other than sensors and will not carry the humanoid robot Vyommitra.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statements 1 and 2 are correct. G1, the uncrewed test flight, is to carry the humanoid robot Vyommitra, so statement 3 is wrong.",
+    "subject": "Science & Technology",
+    "theme": "Space technology",
+    "micro_topic": "Gaganyaan module separation test",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "India's Wholesale Price Index (WPI) inflation for September 2026 rose to 11.39%. With reference to the release, consider the following statements:\n1. Headline WPI inflation was higher than the 9.92% recorded in August 2026.\n2. Fuel and power was the fastest-rising major group, at 25.85%.\n3. WPI inflation is a measure of the change in retail prices paid by consumers, including services.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Headline WPI rose to 11.39% from 9.92%, and fuel and power rose to 25.85%. WPI tracks wholesale (first-transaction) prices of goods, not retail prices and not services, so statement 3 is wrong.",
+    "subject": "Economy",
+    "theme": "Inflation measurement",
+    "micro_topic": "WPI September 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The Jammu and Kashmir and Ladakh High Court recently restricted boating on Dal Lake. Consider the following statements:\n1. The Division Bench barred fuel-powered motorboats and jet skis from the lake until further orders.\n2. Administration boats used for emergency services, law and order and disaster management were exempted.\n3. The Court barred all boating, including solar-powered and electric boats.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statements 1 and 2 match the order. The Court asked the government to explore solar-powered or electric engines, so it did not bar all boating; statement 3 is wrong.",
+    "subject": "Environment",
+    "theme": "Wetland and lake conservation",
+    "micro_topic": "Dal Lake motorboat ban",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to internet access and fundamental rights in India, consider the following statements:\n1. In Anuradha Bhasin v. Union of India (2020), the Supreme Court held that freedom of speech and expression over the internet is protected under Article 19(1)(a).\n2. The Court held that the indefinite suspension of internet services is permissible under telecom suspension rules.\n3. The Court held that orders suspending internet services are subject to judicial review and the principle of proportionality.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Anuradha Bhasin (2020) protected speech and trade over the internet under Articles 19(1)(a) and 19(1)(g) and required proportionality and judicial review. It held indefinite suspension impermissible, so statement 2 is wrong.",
+    "subject": "Polity & Governance",
+    "theme": "Fundamental rights",
+    "micro_topic": "Anuradha Bhasin and internet rights",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "In the context of international trade agreements, a 'tariff rate quota' (TRQ) refers to:",
+    "options": [
+      "(a) A complete ban on imports of a commodity beyond a fixed quantity",
+      "(b) A lower or zero tariff for imports up to a specified quantity, and a higher tariff beyond it",
+      "(c) A tax levied on exports when world prices exceed a fixed ceiling",
+      "(d) A minimum price below which imports are not allowed to enter the market"
+    ],
+    "answer": "(b)",
+    "explanation": "A TRQ applies a lower in-quota tariff to a fixed volume of imports and a higher out-of-quota tariff beyond it. It is used in FTAs for sensitive products, such as limited access for New Zealand apples, kiwifruit and Manuka honey.",
+    "subject": "Economy",
+    "theme": "International trade",
+    "micro_topic": "Tariff rate quota",
+    "nature": "Conceptual",
+    "difficulty": "Easy"
+  }
+]

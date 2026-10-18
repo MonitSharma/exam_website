@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the recent trade-margin rationalisation for anti-cancer drugs, consider the following statements:\n1. It is based on Para 19 of the Drugs (Prices Control) Order, 2013.\n2. The trade margin is proposed to be capped at 30% of MRP for non-scheduled anti-cancer drugs.\n3. The National Pharmaceutical Pricing Authority functions under the Ministry of Health and Family Welfare.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Statements 1 and 2 are correct. NPPA functions under the Department of Pharmaceuticals, Ministry of Chemicals & Fertilizers, not the Health Ministry.",
+    "subject": "Economy",
+    "theme": "Price Regulation & Health Affordability",
+    "micro_topic": "NPPA trade margin cap on anti-cancer drugs",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "India's recent rollover of the ₹3,000 crore currency swap for the Maldives operates under which of the following?",
+    "options": [
+      "(a) BIMSTEC Currency Swap Arrangement",
+      "(b) SAARC Currency Swap Framework 2024–27",
+      "(c) IMF Flexible Credit Line",
+      "(d) Local Currency Settlement System of the RBI"
+    ],
+    "answer": "(b)",
+    "explanation": "The RBI–Maldives Monetary Authority swap is under the SAARC Currency Swap Framework 2024–27 (₹30 bn rupee window plus US$400 mn USD/euro window).",
+    "subject": "International Relations",
+    "theme": "India's Neighbourhood & Economic Diplomacy",
+    "micro_topic": "India–Maldives currency swap",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Consider the following statements about PMAY-Urban 2.0:\n1. It targets assistance for one crore additional urban families.\n2. Central assistance of up to ₹2.50 lakh per family is provided.\n3. Women ownership or co-ownership of houses is prioritised.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct; PMAY-U 2.0 (launched Sept 2024, MoHUA) targets 1 crore families, offers up to ₹2.50 lakh assistance and prioritises women's ownership (about 97% of sanctioned houses).",
+    "subject": "Polity & Governance",
+    "theme": "Welfare Schemes & Urban Housing",
+    "micro_topic": "PMAY-U 2.0",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]

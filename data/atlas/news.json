@@ -10,7 +10,7 @@
       "label": "CA & PIB · week of 2026-10-11",
       "source": "daily/daily_current_affairs/UPSC_CA_2026-10-11.md",
       "libraryDerived": true,
-      "sourceCount": 12
+      "sourceCount": 14
     },
     {
       "id": "2026-10-04-library",
@@ -11425,13 +11425,19 @@
       "lat": 39.5385,
       "lon": -97.4826,
       "topic": "Briefing geography",
-      "hook": "Country study anchor · mentioned 2026-10-16",
-      "fact": "trends, application pendency, timely issue resolution. - Same day: Commerce data put April–September 2026-27 exports at US$476.20 billion; September merchandise exports up 23.04% y/y to US$44.40 bn (secondary source, verify).",
+      "hook": "Country study anchor · mentioned 2026-10-17",
+      "fact": "with post-study work rights. - Commitments cover about 118 services sectors. - New Zealand has committed to facilitate US$20 billion of investment in India. - Dairy, sugar, edible oils and most meat are excluded. - Apples, kiwifruit and Manuka honey get limited access under tariff rate quotas. - Bilateral trade is about US$1.1 billion; the aim is to double trade by 2030 (the target figure is quoted differently across sources, so verify it before memorising).",
       "locate": "Approximate study anchor for United States of America, United States of America. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
       "coordinatePrecision": "regional-study-anchor",
       "coordinateSource": "data/maps/world_countries_india_pov.geojson",
-      "source": "daily/daily_pib/PIB_2026-10-16.md",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-17.md",
       "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-17.md",
+          "date": "2026-10-17",
+          "cadence": "daily",
+          "excerpt": "with post-study work rights. - Commitments cover about 118 services sectors. - New Zealand has committed to facilitate US$20 billion of investment in India. - Dairy, sugar, edible oils and most meat are excluded. - Apples, kiwifruit and Manuka honey get limited access under tariff rate quotas. - Bilateral trade is about US$1.1 billion; the aim is to double trade by 2030 (the target figure is quoted differently across sources, so verify it before memorising)."
+        },
         {
           "source": "daily/daily_pib/PIB_2026-10-16.md",
           "date": "2026-10-16",
@@ -11932,13 +11938,19 @@
       "lat": 28.5647,
       "lon": 77.151,
       "topic": "Briefing geography",
-      "hook": "Delhi · mentioned 2026-10-15",
-      "fact": "1. Canada's Foreign Minister Anita Anand in New Delhi: CEPA targeted for end-2026 — International Relations Exam angle: The India–Canada reset after the 2023–24 diplomatic freeze is now being run through an economic track (CEPA) plus energy, security and people-to-people ties. Tests bilateral-trade facts and the \"middle powers\" framing in Mains. Key facts: Visit 13–16 Oct 2026 (India, then UAE); talks with EAM S. Jaishankar (reported as their 11th meeting since Sept 2025). CEPA: fifth negotiating round held in Ottawa earlier in October; both sides aim to conclude by end-2026. Trade Minister Maninder Sidhu leads ~300 business delegates (Canada",
+      "hook": "Delhi · mentioned 2026-10-17",
+      "fact": "2. NITI Aayog (Frontier Tech Hub): Data Centre Evaluation Framework for States (released 14 Oct 2026, New Delhi)",
       "locate": "Approximate study anchor for New Delhi, India. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
       "coordinatePrecision": "regional-study-anchor",
       "coordinateSource": "data/maps/bharatrajya-india-districts.geojson",
-      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-15.md",
+      "source": "daily/daily_pib/PIB_2026-10-17.md",
       "references": [
+        {
+          "source": "daily/daily_pib/PIB_2026-10-17.md",
+          "date": "2026-10-17",
+          "cadence": "pib",
+          "excerpt": "2. NITI Aayog (Frontier Tech Hub): Data Centre Evaluation Framework for States (released 14 Oct 2026, New Delhi)"
+        },
         {
           "source": "daily/daily_current_affairs/UPSC_CA_2026-10-15.md",
           "date": "2026-10-15",
@@ -12180,6 +12192,60 @@
       "libraryDerived": true
     },
     {
+      "id": "2026-10-11-library-united-kingdom-united-kingdom",
+      "weekId": "2026-10-11-library",
+      "layer": "current",
+      "name": "United Kingdom",
+      "country": "United Kingdom",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 54.4027,
+      "lon": -2.1163,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-17",
+      "fact": "or: Mrunal, India's Trade Agreements and Shankar IAS, International Economic Organisations. Update the FTA table (India–UK, EFTA TEPA, NZ) and add a cross-link to the \"TRQ\" concept in the Economy notes.",
+      "locate": "Approximate study anchor for United Kingdom, United Kingdom. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-17.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-17.md",
+          "date": "2026-10-17",
+          "cadence": "daily",
+          "excerpt": "or: Mrunal, India's Trade Agreements and Shankar IAS, International Economic Organisations. Update the FTA table (India–UK, EFTA TEPA, NZ) and add a cross-link to the \"TRQ\" concept in the Economy notes."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-11-library-new-zealand-new-zealand",
+      "weekId": "2026-10-11-library",
+      "layer": "current",
+      "name": "New Zealand",
+      "country": "New Zealand",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": -39.759,
+      "lon": 172.787,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-17",
+      "fact": "2. India–New Zealand FTA enters into force on 20 October — International Relations Exam angle: India's latest FTA, signed on 27 April 2026, is a mobility and market-access deal with a developed economy. India kept its sensitive dairy sector out. Key facts: - Zero duty on Indian exports to New Zealand. - New Zealand will give 5,000 Temporary Employment Entry visas and 1,000 Working Holiday visas a year, with post-study work rights. - Commitments cover about 118 services sectors. - New Zealand has committed to facilitate US$20 billion of investment in India. - Dairy, sugar, edible oils and most meat are excluded. - Apples, kiwifruit and Manuka",
+      "locate": "Approximate study anchor for New Zealand, New Zealand. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-17.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-17.md",
+          "date": "2026-10-17",
+          "cadence": "daily",
+          "excerpt": "2. India–New Zealand FTA enters into force on 20 October — International Relations Exam angle: India's latest FTA, signed on 27 April 2026, is a mobility and market-access deal with a developed economy. India kept its sensitive dairy sector out. Key facts: - Zero duty on Indian exports to New Zealand. - New Zealand will give 5,000 Temporary Employment Entry visas and 1,000 Working Holiday visas a year, with post-study work rights. - Commitments cover about 118 services sectors. - New Zealand has committed to facilitate US$20 billion of investment in India. - Dairy, sugar, edible oils and most meat are excluded. - Apples, kiwifruit and Manuka"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
       "id": "2026-10-11-library-india-ranchi",
       "weekId": "2026-10-11-library",
       "layer": "current",
@@ -12283,6 +12349,33 @@
           "date": "2026-10-16",
           "cadence": "pib",
           "excerpt": "of Environment, Forest & Climate Change: India's Ramsar sites rise to 103 — Sukhna Wetland (Chandigarh) and Sauj Jheel (Mainpuri, UP) added (announced 15 Oct)"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-11-library-bulgaria-bulgaria",
+      "weekId": "2026-10-11-library",
+      "layer": "current",
+      "name": "Bulgaria",
+      "country": "Bulgaria",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 42.5088,
+      "lon": 25.1571,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-17",
+      "fact": "- Ministry of Commerce & Industry (APEDA, 16 Oct): export of 1.755 MT organic palmyra jaggery powder from Tamil Nadu to Bulgaria. - Ministry of Coal (16 Oct): India Mining Week rescheduled to 24–26 Feb 2027. - Vice-President's Secretariat (16 Oct): INS Samarthak commissioned at Karwar (covered 14 Oct as upcoming — commissioning now reported). - PIB backgrounder \"Women, Work and Enterprise\" (15 Oct; MoSPI/MSME/Labour): female LFPR reported rising from 23.3% (2017-18) to 40.0% (2025) — single secondary source, verify before use.",
+      "locate": "Approximate study anchor for Bulgaria, Bulgaria. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_pib/PIB_2026-10-17.md",
+      "references": [
+        {
+          "source": "daily/daily_pib/PIB_2026-10-17.md",
+          "date": "2026-10-17",
+          "cadence": "pib",
+          "excerpt": "- Ministry of Commerce & Industry (APEDA, 16 Oct): export of 1.755 MT organic palmyra jaggery powder from Tamil Nadu to Bulgaria. - Ministry of Coal (16 Oct): India Mining Week rescheduled to 24–26 Feb 2027. - Vice-President's Secretariat (16 Oct): INS Samarthak commissioned at Karwar (covered 14 Oct as upcoming — commissioning now reported). - PIB backgrounder \"Women, Work and Enterprise\" (15 Oct; MoSPI/MSME/Labour): female LFPR reported rising from 23.3% (2017-18) to 40.0% (2025) — single secondary source, verify before use."
         }
       ],
       "libraryDerived": true

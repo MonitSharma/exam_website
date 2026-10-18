@@ -1,0 +1,242 @@
+[
+ {
+  "question": "With reference to reservation in India, consider the following statements:\n1. In *Indra Sawhney* (1992) the Supreme Court held that reservation should not ordinarily exceed 50%, though extraordinary situations may justify crossing it.\n2. Article 243D(6) of the Constitution makes it mandatory for States to reserve seats for Backward Classes in panchayats.\n3. Reservation for OBCs in local bodies must satisfy a \"triple test\", one condition of which is a dedicated commission to study backwardness.\n\nWhich of the statements given above are correct?",
+  "options": [
+   "(a) 1 and 2 only",
+   "(b) 1 and 3 only",
+   "(c) 2 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(b)",
+  "explanation": "*Indra Sawhney* (1992) set 50% as the normal ceiling, with exceptions only in extraordinary situations. Art 243D(6) is enabling (\"nothing … shall prevent\"), not mandatory. The triple test (*K. Krishna Murthy* 2010, *Vikas Kishanrao Gawali* 2021): a dedicated commission, local-body-wise proportion, and a 50% total cap. The SC applied this on 9 Oct 2026 when it refused to revive AP's 34% BC local-body quota.",
+  "subject": "Polity & Governance",
+  "theme": "Reservation",
+  "micro_topic": "50% ceiling (Indra Sawhney), Art 243D(6) enabling, triple test for local-body OBC quota",
+  "nature": "Current Affairs",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "With reference to the right to assemble under Article 19(1)(b), consider the following statements:\n1. It is available only to citizens.\n2. Reasonable restrictions on it may be imposed in the interests of the sovereignty and integrity of India and public order.\n3. The Supreme Court has held that it includes a fundamental right to go on strike.\n\nWhich of the statements given above is/are correct?",
+  "options": [
+   "(a) 1 only",
+   "(b) 2 and 3 only",
+   "(c) 1 and 2 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(c)",
+  "explanation": "Art 19 rights belong to citizens only. Art 19(3) allows restrictions for sovereignty and integrity of India and public order. There is no fundamental right to strike (*T.K. Rangarajan* 2003; *All India Bank Employees' Assn.* 1961). The Jantar Mantar de-notification is a \"public order\" regulation of place.",
+  "subject": "Polity & Governance",
+  "theme": "Fundamental Rights",
+  "micro_topic": "Art 19(1)(b) citizens only, 19(3) grounds, no right to strike",
+  "nature": "Conceptual",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "Consider the following statements about price indices in India:\n1. The Wholesale Price Index (WPI) covers goods as well as services.\n2. The inflation target under the RBI Act is defined in terms of the Consumer Price Index (Combined).\n3. The WPI is compiled by the Office of the Economic Adviser in the Department for Promotion of Industry and Internal Trade.\n\nWhich of the statements given above are correct?",
+  "options": [
+   "(a) 1 and 2 only",
+   "(b) 2 and 3 only",
+   "(c) 1 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(b)",
+  "explanation": "WPI covers goods only, no services. The flexible inflation target (4% ± 2) under s.45ZA uses CPI (Combined). WPI is compiled by the Office of the Economic Adviser, DPIIT; CPI by the NSO (MoSPI). Sept 2026: WPI 11.39% vs CPI 5.54%.",
+  "subject": "Economy",
+  "theme": "Inflation",
+  "micro_topic": "WPI goods-only, CPI(C) inflation target under s.45ZA, OEA-DPIIT compiles WPI",
+  "nature": "Conceptual",
+  "difficulty": "Easy"
+ },
+ {
+  "question": "With reference to the Union Budget, consider the following statements:\n1. The Constitution does not use the word \"Budget\"; Article 112 refers to the \"Annual Financial Statement\".\n2. Expenditure charged on the Consolidated Fund of India is not submitted to the vote of the Lok Sabha, though it may be discussed.\n3. The Rajya Sabha can reject the Appropriation Bill.\n\nWhich of the statements given above are correct?",
+  "options": [
+   "(a) 1 and 2 only",
+   "(b) 2 and 3 only",
+   "(c) 1 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(a)",
+  "explanation": "\"Budget\" is not a constitutional term; Art 112 says Annual Financial Statement. Charged expenditure (Art 112(3)) is not voted but may be discussed (Art 113(1)). The Appropriation Bill is a money bill, so the Rajya Sabha can only recommend within 14 days; it cannot reject it.",
+  "subject": "Economy",
+  "theme": "Budget",
+  "micro_topic": "Art 112 Annual Financial Statement, charged expenditure not voted, Appropriation Bill as money bill",
+  "nature": "Factual",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "Consider the following pairs (peasant movement — region):\n1. Pabna agrarian leagues — East Bengal\n2. Eka movement — Awadh\n3. Bardoli satyagraha — Gujarat\n4. Moplah rebellion — Travancore\n\nHow many of the pairs given above are correctly matched?",
+  "options": [
+   "(a) Only one",
+   "(b) Only two",
+   "(c) Only three",
+   "(d) All four"
+  ],
+  "answer": "(c)",
+  "explanation": "Pabna (1873–76) — East Bengal ✓; Eka (1921–22) — Awadh (Hardoi, Bahraich, Sitapur) ✓; Bardoli (1928) — Gujarat ✓. The Moplah rebellion (1921) was in Malabar, then part of Madras Presidency, not Travancore.",
+  "subject": "Modern History",
+  "theme": "Peasant Movements",
+  "micro_topic": "Pabna, Eka, Bardoli, Moplah — regions",
+  "nature": "Factual",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "Consider the following statements:\n1. The All India Kisan Sabha was founded at Lucknow in 1936 with Swami Sahajanand Saraswati as its president.\n2. The Tebhaga movement demanded that the landlord's share of the crop be reduced to one-third.\n3. The Eka movement was led by Madari Pasi in the Malabar region.\n\nWhich of the statements given above are correct?",
+  "options": [
+   "(a) 1 and 2 only",
+   "(b) 2 and 3 only",
+   "(c) 1 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(a)",
+  "explanation": "AIKS: Lucknow, April 1936, Swami Sahajanand Saraswati president, N.G. Ranga general secretary. Tebhaga (1946, Bengal) demanded two-thirds for the sharecropper, i.e. the landlord's share cut from half to one-third. The Eka movement (Madari Pasi) was in Awadh, not Malabar.",
+  "subject": "Modern History",
+  "theme": "Peasant Movements",
+  "micro_topic": "AIKS Lucknow 1936, Tebhaga one-third demand, Eka in Awadh",
+  "nature": "Factual",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "Consider the following pairs (saint — region of activity):\n1. Shankaradeva — Assam\n2. Tukaram — Maharashtra\n3. Lal Ded — Karnataka\n4. Basavanna — Karnataka\n\nHow many of the pairs given above are correctly matched?",
+  "options": [
+   "(a) Only one",
+   "(b) Only two",
+   "(c) Only three",
+   "(d) All four"
+  ],
+  "answer": "(c)",
+  "explanation": "Shankaradeva — Assam (ekasarana, sattras) ✓; Tukaram — Maharashtra (Vithoba, abhangas) ✓; Basavanna — Karnataka (Virashaiva) ✓. Lal Ded (Lalleshwari) was a Kashmiri Shaiva mystic, not from Karnataka.",
+  "subject": "Ancient & Medieval History",
+  "theme": "Bhakti Movement",
+  "micro_topic": "Shankaradeva, Tukaram, Lal Ded, Basavanna — regions",
+  "nature": "Factual",
+  "difficulty": "Easy"
+ },
+ {
+  "question": "With reference to wetlands, consider the following statements:\n1. The Ramsar Convention was signed in 1971 in Iran.\n2. The Montreux Record lists Ramsar sites where changes in ecological character have occurred, are occurring or are likely to occur.\n3. Sukhna Lake, recently designated a Ramsar site, is a natural oxbow lake.\n\nWhich of the statements given above are correct?",
+  "options": [
+   "(a) 1 and 2 only",
+   "(b) 2 and 3 only",
+   "(c) 1 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(a)",
+  "explanation": "Ramsar: signed 2 Feb 1971 at Ramsar, Iran, in force 1975. The Montreux Record lists sites with adverse ecological change (India: Keoladeo, Loktak). Sukhna is a man-made reservoir (1958) on the Sukhna Choe in the Shivalik foothills. India now has 103 Ramsar sites.",
+  "subject": "Environment",
+  "theme": "Wetlands",
+  "micro_topic": "Ramsar 1971 Iran, Montreux Record, Sukhna man-made reservoir",
+  "nature": "Current Affairs",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "Consider the following statements:\n1. Biosphere Reserves in India are notified under the Wild Life (Protection) Act, 1972.\n2. Community Reserves were introduced by an amendment to the Wild Life (Protection) Act in 2002.\n3. Grazing of livestock is not permitted inside a National Park.\n\nWhich of the statements given above are correct?",
+  "options": [
+   "(a) 1 and 2 only",
+   "(b) 2 and 3 only",
+   "(c) 1 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(b)",
+  "explanation": "Biosphere Reserves are not notified under WPA. They are a Central scheme under the UNESCO MAB framework. Conservation and Community Reserves came with the WPA Amendment 2002. National Parks do not allow grazing; Sanctuaries may regulate it.",
+  "subject": "Environment",
+  "theme": "Protected Areas",
+  "micro_topic": "Biosphere reserves not under WPA, community reserves 2002, no grazing in national parks",
+  "nature": "Conceptual",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "With reference to access and benefit-sharing (ABS) of biological resources, consider the following statements:\n1. The Nagoya Protocol is a supplementary agreement to the Convention on Biological Diversity dealing with ABS.\n2. In India, ABS is administered by the National Biodiversity Authority under the Biological Diversity Act, 2002.\n3. The Cartagena Protocol also deals mainly with access and benefit-sharing.\n\nWhich of the statements given above are correct?",
+  "options": [
+   "(a) 1 only",
+   "(b) 1 and 2 only",
+   "(c) 2 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(b)",
+  "explanation": "The Nagoya Protocol (adopted 2010, in force 2014) covers ABS under the CBD. India implements ABS through the NBA (Chennai), SBBs and BMCs under the BD Act 2002. The Cartagena Protocol deals with biosafety (living modified organisms). CBD COP17 is in Yerevan, 19–30 Oct 2026.",
+  "subject": "Environment",
+  "theme": "Biodiversity Conventions",
+  "micro_topic": "Nagoya Protocol ABS, NBA under BD Act 2002, Cartagena = biosafety",
+  "nature": "Current Affairs",
+  "difficulty": "Easy"
+ },
+ {
+  "question": "Consider the following statements about the Himalayan rivers:\n1. The Sutlej rises from Rakas Tal and enters India near Shipki La.\n2. The Alaknanda and the Bhagirathi meet at Rudraprayag to form the Ganga.\n3. The Brahmaputra enters India in Arunachal Pradesh, where it is known as the Siang or Dihang.\n\nWhich of the statements given above are correct?",
+  "options": [
+   "(a) 1 and 2 only",
+   "(b) 2 and 3 only",
+   "(c) 1 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(c)",
+  "explanation": "The Sutlej rises from Rakas Tal and enters India at Shipki La (an antecedent river). The Alaknanda and Bhagirathi meet at Devprayag; Rudraprayag is the Alaknanda–Mandakini confluence. The Brahmaputra enters India as the Siang/Dihang in Arunachal Pradesh.",
+  "subject": "Geography",
+  "theme": "Indian Drainage",
+  "micro_topic": "Sutlej from Rakas Tal via Shipki La, Devprayag confluence, Siang/Dihang",
+  "nature": "Factual",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "Consider the following statements:\n1. In a positive Indian Ocean Dipole, sea-surface temperatures in the western Indian Ocean are warmer than in the eastern Indian Ocean.\n2. A positive IOD can partly offset the monsoon-suppressing effect of an El Niño over India.\n3. The Niño 3.4 region, used to track El Niño, lies in the western Pacific near Indonesia.\n\nWhich of the statements given above are correct?",
+  "options": [
+   "(a) 1 and 2 only",
+   "(b) 2 and 3 only",
+   "(c) 1 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(a)",
+  "explanation": "Positive IOD = warmer western Indian Ocean. It tends to aid the Indian monsoon and can partly offset El Niño. The Niño 3.4 region is in the central-east equatorial Pacific (5°N–5°S, 170°W–120°W), not near Indonesia.",
+  "subject": "Geography",
+  "theme": "Climatology",
+  "micro_topic": "Positive IOD, IOD offsetting El Niño, Niño 3.4 location",
+  "nature": "Conceptual",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "With reference to Quantum Key Distribution (QKD), recently tested by DRDO on a live network, consider the following statements:\n1. An eavesdropping attempt disturbs the quantum states and raises the error rate, so it can be detected.\n2. QKD transmits the entire message itself in quantum form, so no classical encryption is needed.\n3. Its security rests on principles such as the no-cloning theorem.\n\nWhich of the statements given above are correct?",
+  "options": [
+   "(a) 1 and 2 only",
+   "(b) 2 and 3 only",
+   "(c) 1 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(c)",
+  "explanation": "QKD distributes only the key; the message is then encrypted classically with it. Measuring a quantum state disturbs it, and the no-cloning theorem prevents perfect copies, so eavesdropping raises the error rate (QBER) and is detected. DRDO tested it at PXE Chandipur on 14 Oct 2026.",
+  "subject": "Science & Technology",
+  "theme": "Quantum Technology",
+  "micro_topic": "QKD: eavesdropping detection, key-only distribution, no-cloning",
+  "nature": "Current Affairs",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "With reference to BIMSTEC, consider the following statements:\n1. It was established by the Bangkok Declaration of 1997.\n2. Its permanent secretariat is in Kathmandu.\n3. The BIMSTEC Charter, which gives the grouping legal personality, has entered into force.\n\nWhich of the statements given above are correct?",
+  "options": [
+   "(a) 1 and 2 only",
+   "(b) 2 and 3 only",
+   "(c) 1 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(c)",
+  "explanation": "BIMSTEC began with the Bangkok Declaration, 6 June 1997. Its secretariat is in Dhaka; Kathmandu hosts SAARC's. The Charter (signed Colombo, 2022) entered into force in 2024. The first BIMSTEC Home Ministers' Meeting was held in New Delhi on 13 Oct 2026.",
+  "subject": "International Relations",
+  "theme": "Regional Groupings",
+  "micro_topic": "BIMSTEC Bangkok Declaration 1997, Dhaka secretariat, Charter in force 2024",
+  "nature": "Current Affairs",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "With reference to the Global Hunger Index (GHI) 2026, consider the following statements:\n1. It is published by Concern Worldwide and Welthungerhilfe.\n2. Its indicators are undernourishment, child stunting, child wasting and child mortality.\n3. India's score places it in the \"alarming\" category.\n\nWhich of the statements given above are correct?",
+  "options": [
+   "(a) 1 and 2 only",
+   "(b) 2 and 3 only",
+   "(c) 1 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(a)",
+  "explanation": "GHI is published by Concern Worldwide and Welthungerhilfe (with IFHV). Its four indicators are undernourishment, child stunting, child wasting and under-five mortality. India: 100th of 122, score 24.1 = \"serious\" (20.0–34.9). \"Alarming\" starts at 35.0.",
+  "subject": "Reports & Indices",
+  "theme": "Hunger & Nutrition",
+  "micro_topic": "GHI 2026 publishers, four indicators, India 'serious' 24.1",
+  "nature": "Current Affairs",
+  "difficulty": "Easy"
+ }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the recent Status Report on Ayush-related inventions, consider the following statements:\n1. The data were compiled by the Office of the Controller General of Patents, Designs & Trademarks, which functions under DPIIT.\n2. Annual patent filings in Ayush systems rose from 63 in FY2014-15 to 590 in FY2025-26.\n3. Corporates account for the largest share of total filings among all applicant types.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Statements 1 and 2 are correct. Natural persons (2,113 filings, 51.9%), not corporates (700), are the largest applicant category.",
+    "subject": "Science & Technology",
+    "theme": "Intellectual Property & Traditional Knowledge",
+    "micro_topic": "Ayush patent filings",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements regarding the Data Centre Evaluation Framework recently released in India:\n1. It was released by the NITI Aayog's Frontier Tech Hub.\n2. It is a binding statutory regulation that States must enforce on all data-centre projects.\n3. It is structured around five pillars including Power & Energy and Water & Cooling.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 1 and 3 only",
+      "(d) 2 and 3 only"
+    ],
+    "answer": "(c)",
+    "explanation": "Statements 1 and 3 are correct. It is a decision-support tool for States, explicitly not an additional regulatory layer.",
+    "subject": "Science & Technology",
+    "theme": "Digital Infrastructure",
+    "micro_topic": "NITI Aayog Data Centre Evaluation Framework",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to protection of traditional knowledge in India, consider the following statements:\n1. The Traditional Knowledge Digital Library (TKDL) is maintained by CSIR and is used by patent offices as prior-art evidence.\n2. Section 3(p) of the Patents Act, 1970 bars patents on traditional knowledge or mere aggregation of known properties.\n3. The WIPO treaty on Intellectual Property, Genetic Resources and Associated Traditional Knowledge (2024) requires disclosure of origin of genetic resources in patent applications.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct: TKDL (CSIR), Section 3(p) of the Patents Act, and the WIPO GRATK Treaty adopted 24 May 2024.",
+    "subject": "Science & Technology",
+    "theme": "Intellectual Property & Traditional Knowledge",
+    "micro_topic": "TKDL and GRATK",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]

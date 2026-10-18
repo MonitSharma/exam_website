@@ -1,0 +1,42 @@
+#separator:tab
+#html:false
+Global Hunger Index 2026: India's rank and score, and which category?	100th of 122 countries, score 24.1 = 'serious' (serious = 20.0-34.9). Released 14 Oct 2026.
+Who publishes the Global Hunger Index?	Concern Worldwide and Welthungerhilfe (with IFHV). Indicators: undernourishment, child stunting, child wasting, child mortality.
+GHI 2026: India vs neighbours' ranks?	Pakistan 106, Bangladesh 84, Nepal 72, Sri Lanka 53. India child wasting 19% (stuck high); stunting down from 50% (2000) to 29.3%.
+India's Ramsar sites after Oct 2026 additions: total and the two new sites?	103 sites. New: Sukhna Wetland (Chandigarh, Site No. 2602) and Sauj Jheel (Mainpuri, UP, No. 2603). Announced 15 Oct 2026.
+Sukhna Wetland: nature, origin and significance?	Man-made reservoir created 1958 by damming the seasonal Sukhna Choe at Shivalik foothills; Chandigarh's first Ramsar site; Central Asian Flyway stopover.
+Sauj Jheel (Mainpuri): type and what is notable?	Perennial shallow floodplain lake in Ganga basin, an IBA hosting 30,000+ waterbirds. Mainpuri is the only district with two Ramsar sites (other: Saman Bird Sanctuary, 2019). UP has 14 sites.
+IDBI Bank strategic sale (CCEA, 14 Oct 2026): stake, buyer and price?	60.72% stake (GoI 30.48% + LIC 30.24%) to a Fairfax Financial Holdings (Canada) entity for about Rs 52,878 crore. Needs regulatory approvals and an open offer to minority shareholders.
+2026 Nobel Prize in Economic Sciences: winners and citation?	Robert E. Hall (Stanford) and Michael Woodford (Columbia), 'for microeconomic foundations of macroeconomic stabilisation'. Announced 12 Oct 2026.
+Is the Economics prize an original Nobel Prize?	No. It is the Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel, established 1968.
+RBI's new FX measure of 10 Oct 2026: what must Authorised Dealers hold?	Cash with the RBI equal to 20% of rupee notional on specified rupee FX derivative contracts above US$2 million (Foreign Exchange Risk Reserve).
+RBI Oct 2026: limit on FX derivative positions without underlying exposure?	Cut from US$100 million to US$5 million, including on exchanges.
+CPI inflation, September 2026: headline and food (CFPI) figures?	Headline 5.54% (23-month high); food (CFPI) 7.74% vs 5.97% in August. Rural 6.08%, urban 4.88%; highest state Tamil Nadu 6.81%.
+WPI inflation, September 2026?	11.39% (49-month high) vs 9.92% in August. Fuel and power 25.85%; manufactured products 9.76%; primary articles 8.67%. New 2022-23 base.
+PM GatiShakti: launch date, three-tier governance and the seven engines?	Launched 13 Oct 2021. EGoS (chaired by Cabinet Secretary) > NPG (projects above Rs 500 crore) > TSU. Engines: roads, railways, ports, waterways, airports, mass transport, logistics infrastructure.
+PM GatiShakti after five years: projects evaluated by the Network Planning Group?	396 projects worth about Rs 18.66 lakh crore (as of Aug 2026); 256 sanctioned, 198 under implementation. Covers 58 Central Ministries/Departments and 36 States/UTs.
+PM Dhan-Dhaanya Krishi Yojana: launch, districts, outlay and convergence?	Launched 11 Oct 2025; 100 low-performing agricultural districts; Rs 24,000 crore a year for six years; converges 36 Central schemes of 11 ministries.
+PMDDKY year-one district ranking: top three?	Gaya (Bihar) 1st, Nagaur (Rajasthan) 2nd, Umaria (Madhya Pradesh) 3rd. Tracked on 121 indicators with monthly rankings.
+Mission for Aatmanirbharta in Pulses: outlay, period, focus crops and procurement?	Rs 11,440 crore, 2025-26 to 2030-31; focus on tur, urad, masoor; 100% MSP procurement by NAFED and NCCF; launched 11 Oct 2025.
+First BIMSTEC Home Ministers' Meeting (13 Oct 2026): where, outcome and chair?	New Delhi; 'Delhi Declaration'; chaired by Amit Shah. Seven members: Bangladesh, Bhutan, India, Myanmar, Nepal, Sri Lanka, Thailand.
+BIMSTEC basics: founding declaration and Secretariat location?	Bangkok Declaration, 1997; Secretariat in Dhaka; Charter in force 2024.
+NSAP extension (Cabinet, 14 Oct 2026): period, outlay and new name?	2026-27 to 2030-31, Rs 53,428 crore; renamed Pradhan Mantri Samajik Sahayata Yojana; about 3.20 crore beneficiaries. Linked to Article 41 (DPSP).
+NSAP revision: change to disability pension eligibility?	Disability threshold cut from 80% to 40% (aligned with RPwD Act 2016); minimum age condition removed.
+NSAP components' new names: IGNOAPS and IGNDPS?	IGNOAPS > PM Vridhavastha Pension Yojana; IGNDPS > PM Divyangjan Pension Yojana (IGNWPS > PM Vidhawa Pension Yojana; NFBS > PM Parivar Labh Yojana).
+India-New Zealand FTA: signing date and entry into force?	Signed 27 April 2026; enters into force 20 October 2026. Zero duty on Indian exports to NZ; dairy, sugar, edible oils and most meat excluded.
+India-NZ FTA mobility provisions per year?	5,000 Temporary Employment Entry visas and 1,000 Working Holiday visas a year, with post-study work rights.
+Gaganyaan: what was validated in Oct 2026 and where?	Crew Module-Service Module separation system, ground-tested at VSSC, Thiruvananthapuram. Uncrewed G1 flight with humanoid Vyommitra: ISRO has said Q4 2026.
+DRDO Quantum Key Distribution test (14 Oct 2026): where and why?	At Proof & Experimental Establishment (PXE), Chandipur, Odisha, to secure telemetry from weapon tests. Eavesdropping disturbs quantum states, so it is detectable.
+Supreme Court, Oct 2026: key holding on children and the internet?	Bench of Justices J.B. Pardiwala and K.V. Chandran: children have a fundamental right to internet access (Articles 21 and 19(1)(a)); rejected blanket age-based restrictions.
+Supreme Court (9 Oct 2026) on Andhra Pradesh's BC quota in local bodies?	Dismissed the State's appeal; HC had quashed 34% reservation as it breached the 50% ceiling without empirical data.
+'Triple test' for OBC reservation in local bodies: origin and steps?	K. Krishna Murthy (2010), applied in Vikas Kishanrao Gawali (2021): dedicated commission > local-body-wise proportion > total SC+ST+OBC within 50%.
+Indra Sawhney (1992): the 50% reservation ceiling and creamy layer?	50% is a 'rule' with exceptions only in extraordinary situations backed by data; creamy-layer exclusion for OBCs upheld.
+Article 243D(6) and 243T(6): what do they enable?	State legislatures may provide reservation of seats for backward classes in Panchayats (243D) and Municipalities (243T).
+Jantar Mantar protest site (Oct 2026): what changed and which new venues?	Delhi Police order of 11 Oct 2026 de-notified Jantar Mantar; Ramlila Ground, Burari Ground and CBD Ground (East Delhi) named. Relates to Article 19(1)(b).
+J&K and Ladakh HC (Oct 2026): order on Dal Lake?	Banned fuel-powered motorboats and jet skis (incl. motorised shikaras) until further orders; enforcement by LCMA, Tourism Department and Police; next hearing 30 Oct.
+WMO El Nino update (8 Oct 2026): forecast Nino 3.4 anomaly and previous record?	Oct-Dec anomaly forecast about +3.7 degC vs previous record +2.6 degC (Nov 2015-Jan 2016). Peak around December; persists through Feb 2027.
+CBD COP17: dates and venue?	19-30 October 2026, Yerevan, Armenia (with CP-MOP 12 on biosafety and NP-MOP 6 on ABS); first global review of the Kunming-Montreal Framework.
+TRISHNA satellite: partners and payload split?	Indo-French mission: CNES supplies the thermal-infrared (TIR) payload; ISRO the VNIR-SWIR payload and bus; launch on PSLV.
+Lakshadweep declared fully literate (11 Oct 2026): under which scheme?	ULLAS - Nav Bharat Saaksharta Karyakram (adult learners aged 15+). Census definition of literacy: age 7+, reads and writes with understanding.
+India approves accession to SIOFA (14 Oct 2026): what is it?	Southern Indian Ocean Fisheries Agreement (signed Rome 2006, in force 2012) for non-highly-migratory high-seas stocks; India moves from Cooperating Non-Contracting Party (since 2022) to full participant.
+NITI Aayog Data Centre Evaluation Framework (14 Oct 2026): pillars and reporting metrics?	Five pillars: Power & Energy; Water & Cooling; Siting & Environmental Sustainability; Economic & Strategic Value; Policy, Governance & Implementation. Standardised PUE, WUE and CUE reporting.
