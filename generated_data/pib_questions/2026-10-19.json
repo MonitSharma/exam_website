@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the recent defence contracts signed by the Ministry of Defence, consider the following statements:\n1. The GSAT-7C communication satellite is being procured from NewSpace India Limited for the Indian Air Force.\n2. The Varunastra torpedo was developed by the Naval Science and Technological Laboratory, a DRDO laboratory.\n3. Varunastra is an air-launched anti-ship missile.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Statements 1 and 2 are correct. Varunastra is a ship-launched anti-submarine torpedo, not an air-launched anti-ship missile.",
+    "subject": "Internal Security",
+    "theme": "Defence Indigenisation",
+    "micro_topic": "GSAT-7C and Varunastra contracts (₹4,106 crore)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Recently, a Union Minister said India's space economy could grow from about USD 9 billion to USD 40–45 billion in 7–8 years. Which of the following was highlighted as a growth enabler?\n1. Government institutions acting as anchor customers\n2. Faster installation and export licence approvals\n3. Prohibiting private participation in launch services\nSelect the correct answer using the code given below:",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Anchor government customers and faster approvals were named. Private participation was welcomed, so 3 is wrong.",
+    "subject": "Science & Technology",
+    "theme": "Space Economy",
+    "micro_topic": "India's space economy projection",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The Ustad Bismillah Khan Yuva Puraskar, in the news recently, is administered by which of the following?",
+    "options": [
+      "(a) Lalit Kala Akademi",
+      "(b) Sahitya Akademi",
+      "(c) Sangeet Natak Akademi",
+      "(d) National School of Drama"
+    ],
+    "answer": "(c)",
+    "explanation": "It is a Sangeet Natak Akademi honour for young performing artists, under the Ministry of Culture. Based on general knowledge; the PIB text did not state the administering body.",
+    "subject": "Art & Culture",
+    "theme": "Awards & Institutions",
+    "micro_topic": "Ustad Bismillah Khan Yuva Puraskar",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]

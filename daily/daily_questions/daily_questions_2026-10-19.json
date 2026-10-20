@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to the Organisation of Islamic Cooperation (OIC), consider the following statements:\n1. Its headquarters is in Jeddah.\n2. India is an observer state in the OIC.\n3. It was founded in 1969 following a summit in Rabat.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "HQ is Jeddah and it was founded in 1969 (Rabat summit). India is neither a member nor an observer (invited only as guest of honour in 2019), so statement 2 is wrong.",
+    "subject": "International Relations",
+    "theme": "India and West Asia / multilateral groupings",
+    "micro_topic": "OIC and J&K references",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the ethanol procurement tender of the oil marketing companies for the 2026-27 supply year, consider the following statements:\n1. Ethanol from sugarcane juice, sugar syrup and B-heavy molasses is excluded.\n2. The government has set sugar diversion for ethanol at zero for 2026-27.\n3. The procurement price of maize-based ethanol has been raised to ₹71.86 per litre.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Statements 1 and 2 are correct. Statement 3 is wrong: the maize ethanol price was cut to ₹68.86/litre from ₹71.86.",
+    "subject": "Economy",
+    "theme": "Energy security and biofuels",
+    "micro_topic": "Ethanol blending and food vs fuel",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to carbon markets, consider the following statements:\n1. The Open Coalition on Compliance Carbon Markets was constituted in 2026 by the EU, Brazil and China.\n2. India is a founding member of the Coalition.\n3. India's Carbon Credit Trading Scheme draws its legal basis from the Energy Conservation Act, 2001, as amended in 2022.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "The OCCCM was constituted on 7 May 2026 in Florence by the EU, Brazil and China; India is not a member; the CCTS rests on the Energy Conservation Act 2001 as amended in 2022.",
+    "subject": "Environment",
+    "theme": "Climate change and carbon markets",
+    "micro_topic": "OCCCM and CCTS",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In a recent judgment on fees in professional courses, the Supreme Court held that:",
+    "options": [
+      "(a) a college may revise fees mid-course whenever its admission brochure reserves such a right",
+      "(b) fees for the entire course must be notified before admission, and mid-course hikes are permissible only in exceptional, unforeseeable circumstances",
+      "(c) fee fixation is solely a matter for private institutions and is beyond judicial review",
+      "(d) fee revisions notified by the State apply automatically to students already admitted"
+    ],
+    "answer": "(b)",
+    "explanation": "In Dr. B.C. Roy Engineering College v. State of West Bengal (2026), the Court required full-course fee notification before admission and allowed mid-course hikes only in exceptional cases; it rejected the brochure-clause and retrospective application arguments.",
+    "subject": "Polity & Governance",
+    "theme": "Education and fundamental rights",
+    "micro_topic": "Fee regulation in professional courses",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to satellite constellations and astronomy, consider the following statements:\n1. Low Earth Orbit satellites operate at altitudes of up to about 2,000 km.\n2. Unintended radio emissions from satellite electronics can interfere with radio astronomy observations.\n3. Starlink satellites operate in geostationary orbit.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "LEO extends up to about 2,000 km and stray emissions can affect radio astronomy. Starlink is a LEO constellation; geostationary orbit is about 35,786 km.",
+    "subject": "Science & Technology",
+    "theme": "Space technology",
+    "micro_topic": "LEO mega-constellations and radio interference",
+    "nature": "Conceptual",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the National Policy on Biofuels, 2018, consider the following statements:\n1. It categorises biofuels into 'Basic Biofuels' and 'Advanced Biofuels'.\n2. It permits the use of surplus foodgrains for ethanol production with the approval of the National Biofuel Coordination Committee.\n3. It set an indicative target of 20% ethanol blending in petrol by 2030.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are features of the 2018 policy (the 20% target was later advanced to 2025-26).",
+    "subject": "Environment",
+    "theme": "Energy security and biofuels",
+    "micro_topic": "National Policy on Biofuels 2018",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "In T.M.A. Pai Foundation v. State of Karnataka (2002), the Supreme Court:\n1. was constituted as an 11-judge Bench.\n2. recognised the right to establish and administer educational institutions under Article 19(1)(g) and Article 26.\n3. held that charging a capitation fee is permissible for private unaided institutions.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "TMA Pai was an 11-judge Bench and recognised the right under Art. 19(1)(g)/26, but held that capitation fee and profiteering are impermissible.",
+    "subject": "Polity & Governance",
+    "theme": "Education and fundamental rights",
+    "micro_topic": "TMA Pai and private education",
+    "nature": "Factual",
+    "difficulty": "Hard"
+  }
+]

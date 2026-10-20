@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to the visit of the US Secretary of State to India in October 2026, consider the following statements:\n1. His talks with India's External Affairs Minister were scheduled in Mumbai on 20 October.\n2. India's Commerce Minister has said the first phase of the India–US trade deal is finalised and in legal drafting.\n3. India and the US have signed the final Bilateral Trade Agreement.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 only",
+      "(c) 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "The Mumbai talks on 20 Oct and the phase-1 'legal drafting' statement are reported; no final BTA has been signed.",
+    "subject": "International Relations",
+    "theme": "India–USA relations",
+    "micro_topic": "Rubio visit and trade deal",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to reservoir storage monitoring in India, consider the following statements:\n1. The Central Water Commission functions under the Ministry of Jal Shakti.\n2. Its recent bulletin reported storage of about two-thirds to 70% of live capacity across 178 major reservoirs.\n3. Reservoirs in North India were reported as the worst-affected region.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "CWC is under Jal Shakti and reports ~68.6–70% of live capacity across 178 reservoirs; the South (about 50% in Sept), not the North, was the worst region.",
+    "subject": "Geography",
+    "theme": "Water resources and monsoon",
+    "micro_topic": "CWC reservoir storage 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the draft rules on the use of animals in experiments, notified in October 2026, consider the following statements:\n1. They are based on the principles of Replacement, Reduction and Refinement.\n2. Each establishment is required to constitute an Institutional Animal Ethics Committee.\n3. They permit unrestricted use of non-human primates in experiments.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 2 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "The draft rests on the 3Rs and requires an IAEC; use of non-human primates is restricted, subject to justification and permission.",
+    "subject": "Environment",
+    "theme": "Animal welfare",
+    "micro_topic": "Draft lab-animal rules 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The National Strategic Trade Command Centre, recently launched, is best described as:",
+    "options": [
+      "(a) a regulator for stock exchanges under the Ministry of Finance",
+      "(b) a consolidated dashboard giving policymakers a view of trade performance and DGFT functions such as IEC, Advance Authorisation and SCOMET",
+      "(c) a body replacing the Directorate General of Foreign Trade",
+      "(d) a naval command for protecting India's merchant shipping"
+    ],
+    "answer": "(b)",
+    "explanation": "NSTCC consolidates trade and DGFT data for policymakers; it neither replaces DGFT nor regulates markets.",
+    "subject": "Economy",
+    "theme": "External sector and trade facilitation",
+    "micro_topic": "NSTCC",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the ₹150 crore support announced by the Technology Development Board for QNu Labs, consider the following statements:\n1. The Technology Development Board functions under the Department of Science & Technology.\n2. The funding comes through the Research, Development and Innovation (RDI) Fund.\n3. The project includes quantum magnetometers aimed at navigation without GPS.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "TDB is under DST; funding is via the RDI Fund as optionally convertible debt; the project includes quantum magnetometers for GPS-free navigation.",
+    "subject": "Science & Technology",
+    "theme": "Quantum technologies",
+    "micro_topic": "TDB–QNu Labs funding",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Animal Welfare Board of India is:",
+    "options": [
+      "(a) a constitutional body under Article 48A",
+      "(b) a statutory advisory body established under Section 4 of the Prevention of Cruelty to Animals Act, 1960",
+      "(c) a body created under the Wildlife (Protection) Act, 1972",
+      "(d) a body set up by a Supreme Court order"
+    ],
+    "answer": "(b)",
+    "explanation": "AWBI is a statutory advisory body under Section 4 of the PCA Act, 1960 (founded 1962).",
+    "subject": "Environment",
+    "theme": "Animal welfare laws",
+    "micro_topic": "Animal Welfare Board of India",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following reservoir–river pairs:\n1. Mettur – Cauvery\n2. Somasila – Pennar\n3. Idukki – Pamba\nWhich of the pairs given above is/are correctly matched?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Mettur is on the Cauvery and Somasila on the Pennar; Idukki arch dam is on the Periyar, not the Pamba.",
+    "subject": "Geography",
+    "theme": "Indian rivers and dams",
+    "micro_topic": "Reservoir–river pairs of South India",
+    "nature": "Factual",
+    "difficulty": "Hard"
+  }
+]

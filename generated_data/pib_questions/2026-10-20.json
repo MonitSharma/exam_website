@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the Union Public Service Commission (UPSC), consider the following statements:\n1. It is an independent constitutional body provided for under Part XIV of the Constitution.\n2. The Federal Public Service Commission was renamed UPSC on 26 January 1950.\n3. The Public Service Commission was first set up in 1926 after the Lee Commission recommended a statutory PSC.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "UPSC falls under Part XIV (Arts. 315-323); the Federal PSC became UPSC on 26 Jan 1950; the Commission began in 1926 following the Lee Commission (1924) recommendation. UPSC completed 100 years on 1 Oct 2026.",
+    "subject": "Polity & Governance",
+    "theme": "Constitutional Bodies",
+    "micro_topic": "UPSC at 100 years",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Green Highways (Plantation, Transplantation, Beautification and Maintenance) Policy, 2015, consider the following statements:\n1. It is administered by the Ministry of Environment, Forest and Climate Change.\n2. It envisages involvement of Self Help Groups and State Forest Departments in plantation along National Highways.\n3. The National Highways Green Cover Index was prepared with ISRO's National Remote Sensing Centre.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "The policy is implemented by MoRTH/NHAI, not MoEFCC. Plantation is done via SHGs, State Forest Departments, private agencies and contractors; the NH-GCI 2025-26 report was prepared with ISRO-NRSC.",
+    "subject": "Environment",
+    "theme": "Green Infrastructure",
+    "micro_topic": "Green Highways Policy 2015",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements regarding the Inter-Parliamentary Union (IPU):\n1. It is the global organisation of national parliaments.\n2. The 153rd Assembly was held in Arusha, Tanzania.\n3. The Indian delegation to the 153rd Assembly was led by the Lok Sabha Speaker.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "The IPU is the global organisation of national parliaments and its 153rd Assembly was in Arusha (Oct 2026). India's delegation was led by Rajya Sabha Deputy Chairman Harivansh, not the Lok Sabha Speaker. Milton Dick was elected 32nd IPU President.",
+    "subject": "International Relations",
+    "theme": "Parliamentary Diplomacy",
+    "micro_topic": "153rd IPU Assembly",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]
