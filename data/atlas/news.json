@@ -3,9 +3,9 @@
     {
       "id": "2026-10-18-library",
       "label": "CA & PIB · week of 2026-10-18",
-      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-18.md",
+      "source": "daily/daily_pib/PIB_2026-10-21.md",
       "libraryDerived": true,
-      "sourceCount": 2
+      "sourceCount": 8
     },
     {
       "id": "2026-10-12",
@@ -12398,13 +12398,25 @@
       "lat": -24.1295,
       "lon": 134.0497,
       "topic": "Briefing geography",
-      "hook": "Country study anchor · mentioned 2026-10-18",
-      "fact": "2. - Covers fish, molluscs, crustaceans and other sedentary species on the high seas between eastern Africa and Western Australia. - Excludes highly migratory species (these fall under the Indian Ocean Tuna Commission, where India has been a party since 1996) and sedentary species inside national EEZs. - Indian vessels mostly fish within 60-80 nautical miles of the EEZ, so capacity is the gap.",
+      "hook": "Country study anchor · mentioned 2026-10-21",
+      "fact": "xercise AUSTRAHIND 2026 (5th edition), Thiruvananthapuram, 19 Oct – 1 Nov - ~120 personnel each (India: Garhwal Rifles; Australia: 13 Brigade). Theme: joint sub-conventional operations in island and coastal environments under Chapter VII of the UN Mandate; includes HADR; New Zealand observers attend for the first time. Notebook: GS3 Internal Security / GS2 IR.",
       "locate": "Approximate study anchor for Australia, Australia. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
       "coordinatePrecision": "regional-study-anchor",
       "coordinateSource": "data/maps/world_countries_india_pov.geojson",
-      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-18.md",
+      "source": "daily/daily_pib/PIB_2026-10-21.md",
       "references": [
+        {
+          "source": "daily/daily_pib/PIB_2026-10-21.md",
+          "date": "2026-10-21",
+          "cadence": "pib",
+          "excerpt": "xercise AUSTRAHIND 2026 (5th edition), Thiruvananthapuram, 19 Oct – 1 Nov - ~120 personnel each (India: Garhwal Rifles; Australia: 13 Brigade). Theme: joint sub-conventional operations in island and coastal environments under Chapter VII of the UN Mandate; includes HADR; New Zealand observers attend for the first time. Notebook: GS3 Internal Security / GS2 IR."
+        },
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-19.md",
+          "date": "2026-10-19",
+          "cadence": "daily",
+          "excerpt": "tracked Starlink, OneWeb and Guowang satellites for about 376 hours (from April 2024) using the Mopra telescope and the Australia Telescope Compact Array. Emissions were classed as intended, unwanted (e.g., harmonics) or unintended (stray electronics). Some signals were up to 100 billion times brighter than typical astronomical sources; a OneWeb signal at 1,613.19 MHz can interfere with hydroxyl (-OH) studies. Useful for the space-governance/ITU spectrum debate and India's own constellation plans (IN-SPACe, SATCOM spectrum policy). - Memorize: LEO ≈ up to 2,000 km; GEO ≈ 35,786 km. Three emission classes: intended, unwanted, unintended. (Sour"
+        },
         {
           "source": "daily/daily_current_affairs/UPSC_CA_2026-10-18.md",
           "date": "2026-10-18",
@@ -12442,6 +12454,360 @@
       "libraryDerived": true
     },
     {
+      "id": "2026-10-18-library-china-china",
+      "weekId": "2026-10-18-library",
+      "layer": "current",
+      "name": "China",
+      "country": "China",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 32.4982,
+      "lon": 106.3373,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-21",
+      "fact": "1. China tightens export controls on tunnel-boring machines from 18 November — International Relations / Economy Exam angle: A clean case of \"weaponised interdependence\": India's metro, rail and highway tunnelling depends on imported TBMs, and China is adding them to its dual-use export-licence regime just as India–China ties are being normalised post-Galwan. Good for Mains answers on supply-chain resilience, Atmanirbhar manufacturing and India–China relations. Key facts: - China's Commerce Ministry (MOFCOM) announced the change, reported by Reuters; it takes effect 18 November 2026. Exporters will need a licence under China's export-control",
+      "locate": "Approximate study anchor for China, China. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-21.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-21.md",
+          "date": "2026-10-21",
+          "cadence": "daily",
+          "excerpt": "1. China tightens export controls on tunnel-boring machines from 18 November — International Relations / Economy Exam angle: A clean case of \"weaponised interdependence\": India's metro, rail and highway tunnelling depends on imported TBMs, and China is adding them to its dual-use export-licence regime just as India–China ties are being normalised post-Galwan. Good for Mains answers on supply-chain resilience, Atmanirbhar manufacturing and India–China relations. Key facts: - China's Commerce Ministry (MOFCOM) announced the change, reported by Reuters; it takes effect 18 November 2026. Exporters will need a licence under China's export-control"
+        },
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-19.md",
+          "date": "2026-10-19",
+          "cadence": "daily",
+          "excerpt": "and India's CCTS — Environment - Exam angle: The OCCCM was constituted on 7 May 2026 in Florence by the EU, Brazil and China (Brazil first proposed it at COP30; Brazil is president, China and the EU co-chairs). Members include Germany, France, Canada, UK, Norway, New Zealand and Türkiye. It targets interoperable compliance markets and aims to avoid carbon protectionism. A work plan was due at Wuhan (Sept). India is not a member, though its Carbon Credit Trading Scheme (CCTS) is now operational (about 500 entities in seven sectors filed compliance reports; first credits expected in October; exchange trading expected Nov–Jan, per The Hindu). -"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-18-library-france-france",
+      "weekId": "2026-10-18-library",
+      "layer": "current",
+      "name": "France",
+      "country": "France",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 46.6961,
+      "lon": 2.5523,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-19",
+      "fact": "nd China (Brazil first proposed it at COP30; Brazil is president, China and the EU co-chairs). Members include Germany, France, Canada, UK, Norway, New Zealand and Türkiye. It targets interoperable compliance markets and aims to avoid carbon protectionism. A work plan was due at Wuhan (Sept). India is not a member, though its Carbon Credit Trading Scheme (CCTS) is now operational (about 500 entities in seven sectors filed compliance reports; first credits expected in October; exchange trading expected Nov–Jan, per The Hindu). - Memorize: OCCCM: 7 May 2026, Florence; EU–Brazil–China. CCTS: Energy Conservation (Amendment) Act 2022; administered",
+      "locate": "Approximate study anchor for France, France. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-19.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-19.md",
+          "date": "2026-10-19",
+          "cadence": "daily",
+          "excerpt": "nd China (Brazil first proposed it at COP30; Brazil is president, China and the EU co-chairs). Members include Germany, France, Canada, UK, Norway, New Zealand and Türkiye. It targets interoperable compliance markets and aims to avoid carbon protectionism. A work plan was due at Wuhan (Sept). India is not a member, though its Carbon Credit Trading Scheme (CCTS) is now operational (about 500 entities in seven sectors filed compliance reports; first credits expected in October; exchange trading expected Nov–Jan, per The Hindu). - Memorize: OCCCM: 7 May 2026, Florence; EU–Brazil–China. CCTS: Energy Conservation (Amendment) Act 2022; administered"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-18-library-brazil-brazil",
+      "weekId": "2026-10-18-library",
+      "layer": "current",
+      "name": "Brazil",
+      "country": "Brazil",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": -12.0987,
+      "lon": -49.5594,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-19",
+      "fact": "ets (OCCCM) and India's CCTS — Environment - Exam angle: The OCCCM was constituted on 7 May 2026 in Florence by the EU, Brazil and China (Brazil first proposed it at COP30; Brazil is president, China and the EU co-chairs). Members include Germany, France, Canada, UK, Norway, New Zealand and Türkiye. It targets interoperable compliance markets and aims to avoid carbon protectionism. A work plan was due at Wuhan (Sept). India is not a member, though its Carbon Credit Trading Scheme (CCTS) is now operational (about 500 entities in seven sectors filed compliance reports; first credits expected in October; exchange trading expected Nov–Jan, per Th",
+      "locate": "Approximate study anchor for Brazil, Brazil. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-19.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-19.md",
+          "date": "2026-10-19",
+          "cadence": "daily",
+          "excerpt": "ets (OCCCM) and India's CCTS — Environment - Exam angle: The OCCCM was constituted on 7 May 2026 in Florence by the EU, Brazil and China (Brazil first proposed it at COP30; Brazil is president, China and the EU co-chairs). Members include Germany, France, Canada, UK, Norway, New Zealand and Türkiye. It targets interoperable compliance markets and aims to avoid carbon protectionism. A work plan was due at Wuhan (Sept). India is not a member, though its Carbon Credit Trading Scheme (CCTS) is now operational (about 500 entities in seven sectors filed compliance reports; first credits expected in October; exchange trading expected Nov–Jan, per Th"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-18-library-germany-germany",
+      "weekId": "2026-10-18-library",
+      "layer": "current",
+      "name": "Germany",
+      "country": "Germany",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 50.9617,
+      "lon": 9.6783,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-21",
+      "fact": "or disputed destinations and prior registration for others; this detail rests on one source. - Precedent: in Sept 2025 Germany's ambassador said Chinese customs had held at least three Herrenknecht TBMs bound for Indian projects; they were later released, and Herrenknecht decided to produce in India.",
+      "locate": "Approximate study anchor for Germany, Germany. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-21.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-21.md",
+          "date": "2026-10-21",
+          "cadence": "daily",
+          "excerpt": "or disputed destinations and prior registration for others; this detail rests on one source. - Precedent: in Sept 2025 Germany's ambassador said Chinese customs had held at least three Herrenknecht TBMs bound for Indian projects; they were later released, and Herrenknecht decided to produce in India."
+        },
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-19.md",
+          "date": "2026-10-19",
+          "cadence": "daily",
+          "excerpt": "Brazil and China (Brazil first proposed it at COP30; Brazil is president, China and the EU co-chairs). Members include Germany, France, Canada, UK, Norway, New Zealand and Türkiye. It targets interoperable compliance markets and aims to avoid carbon protectionism. A work plan was due at Wuhan (Sept). India is not a member, though its Carbon Credit Trading Scheme (CCTS) is now operational (about 500 entities in seven sectors filed compliance reports; first credits expected in October; exchange trading expected Nov–Jan, per The Hindu). - Memorize: OCCCM: 7 May 2026, Florence; EU–Brazil–China. CCTS: Energy Conservation (Amendment) Act 2022; adm"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-18-library-norway-norway",
+      "weekId": "2026-10-18-library",
+      "layer": "current",
+      "name": "Norway",
+      "country": "Norway",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 61.3571,
+      "lon": 9.68,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-19",
+      "fact": "st proposed it at COP30; Brazil is president, China and the EU co-chairs). Members include Germany, France, Canada, UK, Norway, New Zealand and Türkiye. It targets interoperable compliance markets and aims to avoid carbon protectionism. A work plan was due at Wuhan (Sept). India is not a member, though its Carbon Credit Trading Scheme (CCTS) is now operational (about 500 entities in seven sectors filed compliance reports; first credits expected in October; exchange trading expected Nov–Jan, per The Hindu). - Memorize: OCCCM: 7 May 2026, Florence; EU–Brazil–China. CCTS: Energy Conservation (Amendment) Act 2022; administered by the Bureau of En",
+      "locate": "Approximate study anchor for Norway, Norway. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-19.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-19.md",
+          "date": "2026-10-19",
+          "cadence": "daily",
+          "excerpt": "st proposed it at COP30; Brazil is president, China and the EU co-chairs). Members include Germany, France, Canada, UK, Norway, New Zealand and Türkiye. It targets interoperable compliance markets and aims to avoid carbon protectionism. A work plan was due at Wuhan (Sept). India is not a member, though its Carbon Credit Trading Scheme (CCTS) is now operational (about 500 entities in seven sectors filed compliance reports; first credits expected in October; exchange trading expected Nov–Jan, per The Hindu). - Memorize: OCCCM: 7 May 2026, Florence; EU–Brazil–China. CCTS: Energy Conservation (Amendment) Act 2022; administered by the Bureau of En"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-18-library-united-kingdom-united-kingdom",
+      "weekId": "2026-10-18-library",
+      "layer": "current",
+      "name": "United Kingdom",
+      "country": "United Kingdom",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 54.4027,
+      "lon": -2.1163,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-19",
+      "fact": "first proposed it at COP30; Brazil is president, China and the EU co-chairs). Members include Germany, France, Canada, UK, Norway, New Zealand and Türkiye. It targets interoperable compliance markets and aims to avoid carbon protectionism. A work plan was due at Wuhan (Sept). India is not a member, though its Carbon Credit Trading Scheme (CCTS) is now operational (about 500 entities in seven sectors filed compliance reports; first credits expected in October; exchange trading expected Nov–Jan, per The Hindu). - Memorize: OCCCM: 7 May 2026, Florence; EU–Brazil–China. CCTS: Energy Conservation (Amendment) Act 2022; administered by the Bureau o",
+      "locate": "Approximate study anchor for United Kingdom, United Kingdom. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-19.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-19.md",
+          "date": "2026-10-19",
+          "cadence": "daily",
+          "excerpt": "first proposed it at COP30; Brazil is president, China and the EU co-chairs). Members include Germany, France, Canada, UK, Norway, New Zealand and Türkiye. It targets interoperable compliance markets and aims to avoid carbon protectionism. A work plan was due at Wuhan (Sept). India is not a member, though its Carbon Credit Trading Scheme (CCTS) is now operational (about 500 entities in seven sectors filed compliance reports; first credits expected in October; exchange trading expected Nov–Jan, per The Hindu). - Memorize: OCCCM: 7 May 2026, Florence; EU–Brazil–China. CCTS: Energy Conservation (Amendment) Act 2022; administered by the Bureau o"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-18-library-canada-canada",
+      "weekId": "2026-10-18-library",
+      "layer": "current",
+      "name": "Canada",
+      "country": "Canada",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 60.3243,
+      "lon": -101.9107,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-21",
+      "fact": "e days of abnormally high temperature; a heat storm covers at least 1% of the globe at its peak (about half the size of Canada). - \"Vera\": largest on record, 367 days (2023–24), nearly 85% of the globe. \"Raimundo\": current event since 28 Feb 2026, touching almost three-quarters of the planet. - Heat storms averaged about 5 a year in the 1960s and about 102 a year this decade; a cascade begun on 6 July 2008 has not stopped. - IMD criteria (static): heat wave in plains when max temp ≥ 40°C (37°C coastal, 30°C hills) with departure ≥ 4.5°C, or an absolute ≥ 45°C.",
+      "locate": "Approximate study anchor for Canada, Canada. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-21.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-21.md",
+          "date": "2026-10-21",
+          "cadence": "daily",
+          "excerpt": "e days of abnormally high temperature; a heat storm covers at least 1% of the globe at its peak (about half the size of Canada). - \"Vera\": largest on record, 367 days (2023–24), nearly 85% of the globe. \"Raimundo\": current event since 28 Feb 2026, touching almost three-quarters of the planet. - Heat storms averaged about 5 a year in the 1960s and about 102 a year this decade; a cascade begun on 6 July 2008 has not stopped. - IMD criteria (static): heat wave in plains when max temp ≥ 40°C (37°C coastal, 30°C hills) with departure ≥ 4.5°C, or an absolute ≥ 45°C."
+        },
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-19.md",
+          "date": "2026-10-19",
+          "cadence": "daily",
+          "excerpt": "(Brazil first proposed it at COP30; Brazil is president, China and the EU co-chairs). Members include Germany, France, Canada, UK, Norway, New Zealand and Türkiye. It targets interoperable compliance markets and aims to avoid carbon protectionism. A work plan was due at Wuhan (Sept). India is not a member, though its Carbon Credit Trading Scheme (CCTS) is now operational (about 500 entities in seven sectors filed compliance reports; first credits expected in October; exchange trading expected Nov–Jan, per The Hindu). - Memorize: OCCCM: 7 May 2026, Florence; EU–Brazil–China. CCTS: Energy Conservation (Amendment) Act 2022; administered by the"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-18-library-pakistan-pakistan",
+      "weekId": "2026-10-18-library",
+      "layer": "current",
+      "name": "Pakistan",
+      "country": "Pakistan",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 29.3284,
+      "lon": 68.5456,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-19",
+      "fact": "1. India rejects OIC resolutions on J&K; says Pakistan \"misused\" the grouping — International Relations - Exam angle: The OIC Council of Foreign Ministers (Baghdad, 17–18 Oct) adopted resolutions with anti-India references. MEA (19 Oct) rejected them as \"malicious, biased and false\" and said the OIC has \"no locus standi whatsoever\" on India's internal matters. It urged members to \"reform this organisation\". A good case study of India's Gulf/West Asia outreach versus the Pakistan-led OIC agenda, and of India's stand on sovereignty. - Memorize: OIC founded 1969 (Rabat), HQ Jeddah, 57 members; India is neither member nor observer. MEA line: J&K",
+      "locate": "Approximate study anchor for Pakistan, Pakistan. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-19.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-19.md",
+          "date": "2026-10-19",
+          "cadence": "daily",
+          "excerpt": "1. India rejects OIC resolutions on J&K; says Pakistan \"misused\" the grouping — International Relations - Exam angle: The OIC Council of Foreign Ministers (Baghdad, 17–18 Oct) adopted resolutions with anti-India references. MEA (19 Oct) rejected them as \"malicious, biased and false\" and said the OIC has \"no locus standi whatsoever\" on India's internal matters. It urged members to \"reform this organisation\". A good case study of India's Gulf/West Asia outreach versus the Pakistan-led OIC agenda, and of India's stand on sovereignty. - Memorize: OIC founded 1969 (Rabat), HQ Jeddah, 57 members; India is neither member nor observer. MEA line: J&K"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-18-library-new-zealand-new-zealand",
+      "weekId": "2026-10-18-library",
+      "layer": "current",
+      "name": "New Zealand",
+      "country": "New Zealand",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": -39.759,
+      "lon": 172.787,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-21",
+      "fact": "4. Ministry of Commerce & Industry: India–New Zealand Free Trade Agreement enters into force, 20 Oct 2026 (UPDATE — negotiations/signing covered earlier; new is entry into force) - Signed 27 April 2026. Indian exports get duty-free access to New Zealand from day one; sensitive Indian items (dairy, sugar, edible oils, certain meat/agri goods) are excluded from India's concessions; apples, kiwifruit and Manuka honey get limited access via tariff-rate quotas/seasonal windows. - NZ commits to facilitate USD 20 billion investment into India; mobility: 5,000 temporary employment entry visas, 1,000 working-holiday visas a year, and post-study work r",
+      "locate": "Approximate study anchor for New Zealand, New Zealand. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_pib/PIB_2026-10-21.md",
+      "references": [
+        {
+          "source": "daily/daily_pib/PIB_2026-10-21.md",
+          "date": "2026-10-21",
+          "cadence": "pib",
+          "excerpt": "4. Ministry of Commerce & Industry: India–New Zealand Free Trade Agreement enters into force, 20 Oct 2026 (UPDATE — negotiations/signing covered earlier; new is entry into force) - Signed 27 April 2026. Indian exports get duty-free access to New Zealand from day one; sensitive Indian items (dairy, sugar, edible oils, certain meat/agri goods) are excluded from India's concessions; apples, kiwifruit and Manuka honey get limited access via tariff-rate quotas/seasonal windows. - NZ commits to facilitate USD 20 billion investment into India; mobility: 5,000 temporary employment entry visas, 1,000 working-holiday visas a year, and post-study work r"
+        },
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-19.md",
+          "date": "2026-10-19",
+          "cadence": "daily",
+          "excerpt": "sed it at COP30; Brazil is president, China and the EU co-chairs). Members include Germany, France, Canada, UK, Norway, New Zealand and Türkiye. It targets interoperable compliance markets and aims to avoid carbon protectionism. A work plan was due at Wuhan (Sept). India is not a member, though its Carbon Credit Trading Scheme (CCTS) is now operational (about 500 entities in seven sectors filed compliance reports; first credits expected in October; exchange trading expected Nov–Jan, per The Hindu). - Memorize: OCCCM: 7 May 2026, Florence; EU–Brazil–China. CCTS: Energy Conservation (Amendment) Act 2022; administered by the Bureau of Energy Eff"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-18-library-japan-japan",
+      "weekId": "2026-10-18-library",
+      "layer": "current",
+      "name": "Japan",
+      "country": "Japan",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 36.1425,
+      "lon": 138.4422,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-19",
+      "fact": "or: Shankar IAS \"Climate change – Carbon markets, Article 6 Paris Agreement\". Nudge: link to the earlier CBAM and India–Japan JCM notes in this series.",
+      "locate": "Approximate study anchor for Japan, Japan. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-19.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-19.md",
+          "date": "2026-10-19",
+          "cadence": "daily",
+          "excerpt": "or: Shankar IAS \"Climate change – Carbon markets, Article 6 Paris Agreement\". Nudge: link to the earlier CBAM and India–Japan JCM notes in this series."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-18-library-united-states-of-america-united-states-of-america",
+      "weekId": "2026-10-18-library",
+      "layer": "current",
+      "name": "United States of America",
+      "country": "United States of America",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 39.5385,
+      "lon": -97.4826,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-20",
+      "fact": "1. US Secretary of State Marco Rubio in India (17–22 Oct); talks with EAM Jaishankar in Mumbai today — International Relations Exam angle: The visit is the first high-level US engagement while the India–US trade deal is unfinished and the Russian-oil question is open. It is a good case for Mains questions on \"strategic autonomy vs. economic pressure\" and on how India handles tariff and sanctions leverage. The MEA calls the visit a chance to advance cooperation across the pillars of the \"Comprehensive Global Strategic Partnership\". Key facts: - Rubio is in India 17–22 Oct. He holds talks with EAM S. Jaishankar in Mumbai on 20 Oct, then goes to",
+      "locate": "Approximate study anchor for United States of America, United States of America. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-20.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-20.md",
+          "date": "2026-10-20",
+          "cadence": "daily",
+          "excerpt": "1. US Secretary of State Marco Rubio in India (17–22 Oct); talks with EAM Jaishankar in Mumbai today — International Relations Exam angle: The visit is the first high-level US engagement while the India–US trade deal is unfinished and the Russian-oil question is open. It is a good case for Mains questions on \"strategic autonomy vs. economic pressure\" and on how India handles tariff and sanctions leverage. The MEA calls the visit a chance to advance cooperation across the pillars of the \"Comprehensive Global Strategic Partnership\". Key facts: - Rubio is in India 17–22 Oct. He holds talks with EAM S. Jaishankar in Mumbai on 20 Oct, then goes to"
+        },
+        {
+          "source": "daily/daily_pib/PIB_2026-10-18.md",
+          "date": "2026-10-18",
+          "cadence": "pib",
+          "excerpt": "Why it matters: The Maldives faces high debt-distress risk (IMF) and falling reserves (US$532.55 mn in Sept 2026, down 37.5% y/y). The swap is a key tool of India's \"Neighbourhood First\" economic diplomacy and of rupee internationalisation."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-18-library-india-mumbai",
+      "weekId": "2026-10-18-library",
+      "layer": "current",
+      "name": "Mumbai",
+      "country": "India",
+      "region": "Mahārāshtra",
+      "scope": "india",
+      "lat": 18.9711,
+      "lon": 72.838,
+      "topic": "Briefing geography",
+      "hook": "Mahārāshtra · mentioned 2026-10-20",
+      "fact": "1. US Secretary of State Marco Rubio in India (17–22 Oct); talks with EAM Jaishankar in Mumbai today — International Relations Exam angle: The visit is the first high-level US engagement while the India–US trade deal is unfinished and the Russian-oil question is open. It is a good case for Mains questions on \"strategic autonomy vs. economic pressure\" and on how India handles tariff and sanctions leverage. The MEA calls the visit a chance to advance cooperation across the pillars of the \"Comprehensive Global Strategic Partnership\". Key facts: - Rubio is in India 17–22 Oct. He holds talks with EAM S. Jaishankar in Mumbai on 20 Oct, then goes to",
+      "locate": "Approximate study anchor for Mumbai, India. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/bharatrajya-india-districts.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-20.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-20.md",
+          "date": "2026-10-20",
+          "cadence": "daily",
+          "excerpt": "1. US Secretary of State Marco Rubio in India (17–22 Oct); talks with EAM Jaishankar in Mumbai today — International Relations Exam angle: The visit is the first high-level US engagement while the India–US trade deal is unfinished and the Russian-oil question is open. It is a good case for Mains questions on \"strategic autonomy vs. economic pressure\" and on how India handles tariff and sanctions leverage. The MEA calls the visit a chance to advance cooperation across the pillars of the \"Comprehensive Global Strategic Partnership\". Key facts: - Rubio is in India 17–22 Oct. He holds talks with EAM S. Jaishankar in Mumbai on 20 Oct, then goes to"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
       "id": "2026-10-18-library-chile-chile",
       "weekId": "2026-10-18-library",
       "layer": "current",
@@ -12464,33 +12830,6 @@
           "date": "2026-10-18",
           "cadence": "pib",
           "excerpt": "ify hydrous sulphates — melanterite (FeSO₄·7H₂O) at Neyveli, Tamil Nadu, and gypsum at the Tiruchirappalli Badlands and Chile's Atacama Desert. Published in two papers in the Journal of Geophysical Research: Planets. Why it matters: Terrestrial analogues help interpret Mars data (rover/orbiter findings) and astrobiology; melanterite indicates short-lived acidic water, gypsum can preserve biosignatures. FIST = DST's Fund for Improvement of S&T Infrastructure in universities/institutions. - Destination: GS3 Science & Tech."
-        }
-      ],
-      "libraryDerived": true
-    },
-    {
-      "id": "2026-10-18-library-united-states-of-america-united-states-of-america",
-      "weekId": "2026-10-18-library",
-      "layer": "current",
-      "name": "United States of America",
-      "country": "United States of America",
-      "region": "Country study anchor",
-      "scope": "world",
-      "lat": 39.5385,
-      "lon": -97.4826,
-      "topic": "Briefing geography",
-      "hook": "Country study anchor · mentioned 2026-10-18",
-      "fact": "Why it matters: The Maldives faces high debt-distress risk (IMF) and falling reserves (US$532.55 mn in Sept 2026, down 37.5% y/y). The swap is a key tool of India's \"Neighbourhood First\" economic diplomacy and of rupee internationalisation.",
-      "locate": "Approximate study anchor for United States of America, United States of America. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
-      "coordinatePrecision": "regional-study-anchor",
-      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
-      "source": "daily/daily_pib/PIB_2026-10-18.md",
-      "references": [
-        {
-          "source": "daily/daily_pib/PIB_2026-10-18.md",
-          "date": "2026-10-18",
-          "cadence": "pib",
-          "excerpt": "Why it matters: The Maldives faces high debt-distress risk (IMF) and falling reserves (US$532.55 mn in Sept 2026, down 37.5% y/y). The swap is a key tool of India's \"Neighbourhood First\" economic diplomacy and of rupee internationalisation."
         }
       ],
       "libraryDerived": true
@@ -12560,18 +12899,159 @@
       "lat": 28.5647,
       "lon": 77.151,
       "topic": "Briefing geography",
-      "hook": "Delhi · mentioned 2026-10-18",
-      "fact": "3. Ministry of Housing & Urban Affairs: PMAY-U 2.0 — 10th CSMC meeting sanctions 1.93 lakh more houses (16 Oct, New Delhi)",
+      "hook": "Delhi · mentioned 2026-10-19",
+      "fact": "nce: ₹4,106 crore contracts for the GSAT-7C satellite (IAF) and Varunastra heavyweight torpedoes (Navy) (signed 15 Oct, New Delhi) - What: The Ministry of Defence signed two indigenous-procurement contracts worth about ₹4,106 crore. Both were signed in the presence of the DG (Acquisition), Department of Defence. - GSAT-7C (₹2,563 crore): A communication satellite for the Indian Air Force, supplied by NewSpace India Limited (NSIL), Bengaluru, a Government of India company under the Department of Space. It is described as indigenously designed, developed and manufactured. It gives the IAF a dedicated communication capability and complements the",
       "locate": "Approximate study anchor for New Delhi, India. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
       "coordinatePrecision": "regional-study-anchor",
       "coordinateSource": "data/maps/bharatrajya-india-districts.geojson",
-      "source": "daily/daily_pib/PIB_2026-10-18.md",
+      "source": "daily/daily_pib/PIB_2026-10-19.md",
       "references": [
+        {
+          "source": "daily/daily_pib/PIB_2026-10-19.md",
+          "date": "2026-10-19",
+          "cadence": "pib",
+          "excerpt": "nce: ₹4,106 crore contracts for the GSAT-7C satellite (IAF) and Varunastra heavyweight torpedoes (Navy) (signed 15 Oct, New Delhi) - What: The Ministry of Defence signed two indigenous-procurement contracts worth about ₹4,106 crore. Both were signed in the presence of the DG (Acquisition), Department of Defence. - GSAT-7C (₹2,563 crore): A communication satellite for the Indian Air Force, supplied by NewSpace India Limited (NSIL), Bengaluru, a Government of India company under the Department of Space. It is described as indigenously designed, developed and manufactured. It gives the IAF a dedicated communication capability and complements the"
+        },
         {
           "source": "daily/daily_pib/PIB_2026-10-18.md",
           "date": "2026-10-18",
           "cadence": "pib",
           "excerpt": "3. Ministry of Housing & Urban Affairs: PMAY-U 2.0 — 10th CSMC meeting sanctions 1.93 lakh more houses (16 Oct, New Delhi)"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-18-library-india-hyderabad",
+      "weekId": "2026-10-18-library",
+      "layer": "current",
+      "name": "Hyderabad",
+      "country": "India",
+      "region": "Telangana",
+      "scope": "india",
+      "lat": 17.39,
+      "lon": 78.49,
+      "topic": "Briefing geography",
+      "hook": "Telangana · mentioned 2026-10-19",
+      "fact": "re): A ship-launched heavyweight anti-submarine torpedo for the Indian Navy, supplied by Bharat Dynamics Limited (BDL), Hyderabad. It was developed by the Naval Science and Technological Laboratory (NSTL), a DRDO lab. - Key facts: Varunastra is 533.4 mm in diameter and 7.78 m long. It runs at 27–40 knots and operates at depths of 8–600 m. It uses acoustic homing with counter-countermeasure features. Both deals are tied to Aatmanirbhar Bharat and Make in India. - Why it matters: The deals show defence demand being routed through the Space PSU (NSIL) and the Defence PSU (BDL), using DRDO designs. This is the demand-led indigenisation model. - N",
+      "locate": "Approximate study anchor for Hyderabad, India. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/atlas/news.json",
+      "source": "daily/daily_pib/PIB_2026-10-19.md",
+      "references": [
+        {
+          "source": "daily/daily_pib/PIB_2026-10-19.md",
+          "date": "2026-10-19",
+          "cadence": "pib",
+          "excerpt": "re): A ship-launched heavyweight anti-submarine torpedo for the Indian Navy, supplied by Bharat Dynamics Limited (BDL), Hyderabad. It was developed by the Naval Science and Technological Laboratory (NSTL), a DRDO lab. - Key facts: Varunastra is 533.4 mm in diameter and 7.78 m long. It runs at 27–40 knots and operates at depths of 8–600 m. It uses acoustic homing with counter-countermeasure features. Both deals are tied to Aatmanirbhar Bharat and Make in India. - Why it matters: The deals show defence demand being routed through the Space PSU (NSIL) and the Defence PSU (BDL), using DRDO designs. This is the demand-led indigenisation model. - N"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-18-library-united-republic-of-tanzania-united-republic-of-tanzania",
+      "weekId": "2026-10-18-library",
+      "layer": "current",
+      "name": "United Republic of Tanzania",
+      "country": "United Republic of Tanzania",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": -6.0519,
+      "lon": 34.9592,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-20",
+      "fact": "Parliament (Rajya Sabha Secretariat / Lok Sabha): India at the 153rd Inter-Parliamentary Union (IPU) Assembly, Arusha, Tanzania (early–mid Oct 2026; PIB release 19 Oct) - What / why it matters: India's delegation was led by Harivansh, Deputy Chairman of Rajya Sabha (members incl. Anurag Singh Thakur, Sasmit Patra, Lata Wankhede). Assembly agenda: an emergency item on climate-related disasters (proposed by Nepal; covers the Himalayan region), a general debate on good governance and inclusivity, and panels on UN conflict-prevention machinery and AI and the future of work. Outcomes reported: Arusha Communiqué and resolutions on persons with dis",
+      "locate": "Approximate study anchor for United Republic of Tanzania, United Republic of Tanzania. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_pib/PIB_2026-10-20.md",
+      "references": [
+        {
+          "source": "daily/daily_pib/PIB_2026-10-20.md",
+          "date": "2026-10-20",
+          "cadence": "pib",
+          "excerpt": "Parliament (Rajya Sabha Secretariat / Lok Sabha): India at the 153rd Inter-Parliamentary Union (IPU) Assembly, Arusha, Tanzania (early–mid Oct 2026; PIB release 19 Oct) - What / why it matters: India's delegation was led by Harivansh, Deputy Chairman of Rajya Sabha (members incl. Anurag Singh Thakur, Sasmit Patra, Lata Wankhede). Assembly agenda: an emergency item on climate-related disasters (proposed by Nepal; covers the Himalayan region), a general debate on good governance and inclusivity, and panels on UN conflict-prevention machinery and AI and the future of work. Outcomes reported: Arusha Communiqué and resolutions on persons with dis"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-18-library-mali-mali",
+      "weekId": "2026-10-18-library",
+      "layer": "current",
+      "name": "Mali",
+      "country": "Mali",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 18.6927,
+      "lon": -2.0385,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-20",
+      "fact": "4. Ministry of Textiles: India and Mali mark World Cotton Day 2026 at UN Headquarters, New York (7 Oct 2026; reported 9 Oct) - What / why it matters: Joint event by the Permanent Missions of India and Mali; theme \"Cotton for Sustainability: Livelihoods, Value Addition and Partnership.\" India's Permanent Representative Harish Parvathaneni outlined four priorities: producer livelihoods, value addition, sustainability, and technology/partnerships incl. South-South and triangular cooperation. The UNGA proclaimed 7 October as World Cotton Day (resolution 75/318). - Initiatives cited: Mission for Cotton Productivity, Kasturi Cotton Bharat (quality,",
+      "locate": "Approximate study anchor for Mali, Mali. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_pib/PIB_2026-10-20.md",
+      "references": [
+        {
+          "source": "daily/daily_pib/PIB_2026-10-20.md",
+          "date": "2026-10-20",
+          "cadence": "pib",
+          "excerpt": "4. Ministry of Textiles: India and Mali mark World Cotton Day 2026 at UN Headquarters, New York (7 Oct 2026; reported 9 Oct) - What / why it matters: Joint event by the Permanent Missions of India and Mali; theme \"Cotton for Sustainability: Livelihoods, Value Addition and Partnership.\" India's Permanent Representative Harish Parvathaneni outlined four priorities: producer livelihoods, value addition, sustainability, and technology/partnerships incl. South-South and triangular cooperation. The UNGA proclaimed 7 October as World Cotton Day (resolution 75/318). - Initiatives cited: Mission for Cotton Productivity, Kasturi Cotton Bharat (quality,"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-18-library-nepal-nepal",
+      "weekId": "2026-10-18-library",
+      "layer": "current",
+      "name": "Nepal",
+      "country": "Nepal",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 28.2979,
+      "lon": 83.6399,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-20",
+      "fact": "ingh Thakur, Sasmit Patra, Lata Wankhede). Assembly agenda: an emergency item on climate-related disasters (proposed by Nepal; covers the Himalayan region), a general debate on good governance and inclusivity, and panels on UN conflict-prevention machinery and AI and the future of work. Outcomes reported: Arusha Communiqué and resolutions on persons with disabilities and climate resilience in the Himalayas. Milton Dick (Speaker, Australian House of Representatives) elected the 32nd IPU President (9 Oct). - Notebook: GS2 Polity / International Relations (parliamentary diplomacy; IPU is the global organisation of national parliaments, HQ Geneva",
+      "locate": "Approximate study anchor for Nepal, Nepal. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_pib/PIB_2026-10-20.md",
+      "references": [
+        {
+          "source": "daily/daily_pib/PIB_2026-10-20.md",
+          "date": "2026-10-20",
+          "cadence": "pib",
+          "excerpt": "ingh Thakur, Sasmit Patra, Lata Wankhede). Assembly agenda: an emergency item on climate-related disasters (proposed by Nepal; covers the Himalayan region), a general debate on good governance and inclusivity, and panels on UN conflict-prevention machinery and AI and the future of work. Outcomes reported: Arusha Communiqué and resolutions on persons with disabilities and climate resilience in the Himalayas. Milton Dick (Speaker, Australian House of Representatives) elected the 32nd IPU President (9 Oct). - Notebook: GS2 Polity / International Relations (parliamentary diplomacy; IPU is the global organisation of national parliaments, HQ Geneva"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-18-library-india-thiruvananthapuram",
+      "weekId": "2026-10-18-library",
+      "layer": "current",
+      "name": "Thiruvananthapuram",
+      "country": "India",
+      "region": "Kerala",
+      "scope": "india",
+      "lat": 8.5695,
+      "lon": 76.9762,
+      "topic": "Briefing geography",
+      "hook": "Kerala · mentioned 2026-10-21",
+      "fact": "5. Ministry of Defence: Exercise AUSTRAHIND 2026 (5th edition), Thiruvananthapuram, 19 Oct – 1 Nov - ~120 personnel each (India: Garhwal Rifles; Australia: 13 Brigade). Theme: joint sub-conventional operations in island and coastal environments under Chapter VII of the UN Mandate; includes HADR; New Zealand observers attend for the first time. Notebook: GS3 Internal Security / GS2 IR.",
+      "locate": "Approximate study anchor for Thiruvananthapuram, India. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/bharatrajya-india-districts.geojson",
+      "source": "daily/daily_pib/PIB_2026-10-21.md",
+      "references": [
+        {
+          "source": "daily/daily_pib/PIB_2026-10-21.md",
+          "date": "2026-10-21",
+          "cadence": "pib",
+          "excerpt": "5. Ministry of Defence: Exercise AUSTRAHIND 2026 (5th edition), Thiruvananthapuram, 19 Oct – 1 Nov - ~120 personnel each (India: Garhwal Rifles; Australia: 13 Brigade). Theme: joint sub-conventional operations in island and coastal environments under Chapter VII of the UN Mandate; includes HADR; New Zealand observers attend for the first time. Notebook: GS3 Internal Security / GS2 IR."
         }
       ],
       "libraryDerived": true

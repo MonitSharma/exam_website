@@ -247,6 +247,71 @@ test("a question with no statement list is left alone", () => {
   assert.equal(parts.stem, "Which body publishes the Sustainable Development Report?");
 });
 
+test("two-tier compound question splits Roman premises, connecting question, and Arabic statements", () => {
+  const text = "Consider the following statements about the archaeological findings in Harappan towns: "
+    + "I. There is wide occurrence of spindle-whorls in the houses but absence of spinning wheels. "
+    + "II. Weights and measurement scales, complete with graduations have been discovered. "
+    + "III. There are houses built in large part with baked bricks, around relatively spacious courtyards, with their own wells, bathing platforms, and large rooms. "
+    + "Which of the following inferences can be drawn from the above statements? "
+    + "1. Statement I suggests that spinning was a laborious activity done at home. "
+    + "2. Statement II suggests the extent of the scientific knowledge that the Harappans possessed. "
+    + "3. Statement III suggests the emergence of a common property system. "
+    + "Select the answer using the code given below:";
+
+  const parts = splitQuestionParts(text);
+  assert.equal(parts.stem, "Consider the following statements about the archaeological findings in Harappan towns:");
+  assert.equal(parts.primaryStatements.length, 3);
+  assert.equal(parts.primaryStatements[0].label, "I");
+  assert.match(parts.primaryStatements[0].text, /^There is wide occurrence of spindle-whorls/);
+  assert.equal(parts.primaryStatements[1].label, "II");
+  assert.match(parts.primaryStatements[1].text, /^Weights and measurement scales/);
+  assert.equal(parts.primaryStatements[2].label, "III");
+  assert.match(parts.primaryStatements[2].text, /^There are houses built in large part/);
+  assert.equal(parts.subStem, "Which of the following inferences can be drawn from the above statements?");
+  assert.equal(parts.statements.length, 3);
+  assert.match(parts.statements[0], /^Statement I suggests/);
+  assert.match(parts.statements[1], /^Statement II suggests/);
+  assert.match(parts.statements[2], /^Statement III suggests/);
+  assert.equal(parts.tail, "Select the answer using the code given below:");
+
+  const normalized = normalizeQuestion({ question: text, options: ["(a) 1 and 2 only"], answer: "a" }, 0, SET);
+  assert.equal(normalized.primaryStatements.length, 3);
+  assert.equal(normalized.subStem, "Which of the following inferences can be drawn from the above statements?");
+  assert.equal(normalized.statements.length, 3);
+});
+
+test("compound question with 'The above statements' connector separates cleanly", () => {
+  const text = "Consider the following statements: "
+    + "I. Pali texts contain the first definite references to coins, e.g., kahapana, nikkha, kamsa, and kakanika. "
+    + "II. The literary evidence from Pali texts is corroborated by archaeological evidence of punch-marked coins from many sites, most of them made of silver. "
+    + "The above statements have been associated with which of the following? "
+    + "1. Emergence of urban life "
+    + "2. Transition to money economy "
+    + "Select the answer using the code given below:";
+
+  const parts = splitQuestionParts(text);
+  assert.equal(parts.stem, "Consider the following statements:");
+  assert.equal(parts.primaryStatements.length, 2);
+  assert.equal(parts.primaryStatements[0].label, "I");
+  assert.match(parts.primaryStatements[0].text, /Pali texts contain/);
+  assert.equal(parts.subStem, "The above statements have been associated with which of the following?");
+  assert.deepEqual(parts.statements, ["Emergence of urban life", "Transition to money economy"]);
+  assert.equal(parts.tail, "Select the answer using the code given below:");
+});
+
+test("single-tier Roman numeral question preserves Roman statementLabels", () => {
+  const text = "With reference to measures of population and development, consider the following statements: "
+    + "I. The Total Fertility Rate considered as 'replacement level' for India is generally taken as about 2.1. "
+    + "II. A Multidimensional Poverty Index captures deprivations in health, education and standard of living rather than income alone. "
+    + "Which of the statements given above is/are correct?";
+
+  const parts = splitQuestionParts(text);
+  assert.equal(parts.stem, "With reference to measures of population and development, consider the following statements:");
+  assert.equal(parts.statements.length, 2);
+  assert.deepEqual(parts.statementLabels, ["I", "II"]);
+  assert.equal(parts.tail, "Which of the statements given above is/are correct?");
+});
+
 test("explanations are trimmed of the note's recap and scoring footer", () => {
   const question = normalizeQuestion({
     question: "Q?", options: ["(a) x", "(b) y"], answer: "a",

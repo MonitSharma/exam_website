@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to China's export controls on tunnel-boring machines (TBMs) announced in October 2026, consider the following statements:\n1. The controls are announced by China's Commerce Ministry and take effect on 18 November 2026.\n2. They apply exclusively to exports destined for India.\n3. In 2025, TBMs made by a German firm in China and bound for Indian projects were reported to have been held by Chinese customs.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "MOFCOM controls start 18 Nov 2026 and are general export-licensing rules, not India-specific; the 2025 Herrenknecht TBM hold-up is documented.",
+    "subject": "International Relations",
+    "theme": "India-China relations",
+    "micro_topic": "China export controls on TBMs",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to ISRO's Aditya-L1 mission and the recent Doppler images of the solar corona, consider the following statements:\n1. The images were produced from data of the Visible Emission Line Coronagraph (VELC), a remote-sensing payload.\n2. The spacecraft is placed in a halo orbit around the Sun-Earth L1 point.\n3. VELC is one of the three in-situ payloads of the mission.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "VELC is a remote-sensing payload; Aditya-L1 sits in a halo orbit at L1; the in-situ payloads are ASPEX, PAPA and magnetometers.",
+    "subject": "Science & Technology",
+    "theme": "Space technology",
+    "micro_topic": "Aditya-L1 VELC Doppler images",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to \"heat storms\", recently in the news, consider the following statements:\n1. The term was proposed in a news-organisation investigation for very large heat events covering at least 1% of the globe.\n2. It is a formal hazard category defined by the IPCC and adopted by the IMD.\n3. The IMD declares a heat wave in the plains when the maximum temperature is at least 40 degrees C with a departure of at least 4.5 degrees C from normal, or an absolute 45 degrees C.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "'Heat storm' is a Reuters-coined term (at least 1% of the globe), not an IPCC/IMD category; the IMD criteria in statement 3 are correct.",
+    "subject": "Environment",
+    "theme": "Climate change impacts",
+    "micro_topic": "Heat storms and IMD heat-wave criteria",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which one of the following is correct regarding the recent talks on the governance of Ladakh?",
+    "options": [
+      "(a) Ladakh has an elected Legislative Assembly under the Jammu and Kashmir Reorganisation Act, 2019.",
+      "(b) Leh and Kargil are already included in the Sixth Schedule of the Constitution.",
+      "(c) The Sixth Schedule is contained in Article 244(1) of the Constitution.",
+      "(d) The Leh Apex Body and Kargil Democratic Alliance rejected the MHA's draft in principle, saying it departs from earlier assurances on a legislature and safeguards."
+    ],
+    "answer": "(d)",
+    "explanation": "Ladakh has had no legislature since 2019 and is not under the Sixth Schedule (which sits in Art. 244(2)); LAB and KDA rejected the draft on 15 Oct 2026.",
+    "subject": "Polity & Governance",
+    "theme": "Union Territories and special provisions",
+    "micro_topic": "Ladakh draft governance model",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the PM Internship Scheme, consider the following statements:\n1. It was launched as a pilot in 2024 with a goal of one crore internship opportunities over five years.\n2. The March 2026 revamp raised the monthly stipend from Rs 5,000 to Rs 9,000 and shortened the internship to 6-9 months.\n3. The nodal ministry is the Ministry of Labour and Employment.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Pilot launched Oct 2024 with a 1-crore goal; stipend and tenure changed in March 2026; the nodal ministry is Corporate Affairs, not Labour.",
+    "subject": "Economy",
+    "theme": "Employment and skilling schemes",
+    "micro_topic": "PM Internship Scheme revamp",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the Sixth Schedule of the Constitution of India, consider the following statements:\n1. It is provided for under Article 244(2).\n2. It applies to tribal areas in Assam, Meghalaya, Tripura and Mizoram.\n3. It applies to the hill areas of Manipur.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 2 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "Art. 244(2); Assam, Meghalaya, Tripura, Mizoram; Manipur's hill areas fall under Art. 371C, not the Sixth Schedule.",
+    "subject": "Polity & Governance",
+    "theme": "Scheduled and tribal areas",
+    "micro_topic": "Sixth Schedule coverage",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "In the Sun-Earth system, the Lagrange point L1 is:",
+    "options": [
+      "(a) located on the far side of Earth, away from the Sun, about 1.5 million km from Earth",
+      "(b) a point where only the Sun's gravity acts on a spacecraft",
+      "(c) located in Earth's orbit, 60 degrees ahead of Earth",
+      "(d) located on the Sun-Earth line between the two bodies, about 1.5 million km from Earth, giving an uninterrupted view of the Sun"
+    ],
+    "answer": "(d)",
+    "explanation": "L1 lies on the Sun-Earth line, about 1.5 million km sunward of Earth; the point behind Earth is L2, and L4/L5 are 60 degrees ahead/behind in Earth's orbit.",
+    "subject": "Science & Technology",
+    "theme": "Space science",
+    "micro_topic": "Lagrange points",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  }
+]

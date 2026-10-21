@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the Financial Inclusion Saturation Campaign (21 October – 31 December 2026) run by the Department of Financial Services, consider the following statements:\n1. It covers about 2.70 lakh Gram Panchayats and Urban Local Bodies.\n2. Bank camps enrol people in PMJJBY, PMSBY and Atal Pension Yojana, and also handle re-KYC and nomination updates.\n3. Its awareness component includes the 'Aapki Poonji, Aapka Adhikar' initiative on unclaimed financial assets.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct: ~2.70 lakh GPs/ULBs; bank camps for PMJJBY/PMSBY/APY, re-KYC and nominations; awareness under 'Aapki Poonji, Aapka Adhikar'.",
+    "subject": "Economy",
+    "theme": "Financial Inclusion",
+    "micro_topic": "DFS saturation campaign; PMJDY, PMJJBY, PMSBY, APY",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Which one of the following statements about pumped storage projects (PSPs) in India is NOT correct?",
+    "options": [
+      "(a) PSPs pump water to an upper reservoir during low demand and release it to generate power during peak demand.",
+      "(b) A closed-loop PSP uses isolated reservoirs without continuous natural inflow.",
+      "(c) Eligible PSPs get a 100% ISTS charge waiver for 25 years if construction contracts are awarded by 30 June 2028.",
+      "(d) Inter-state clearance from the CEA is mandatory for every PSP, irrespective of its type or cost."
+    ],
+    "answer": "(d)",
+    "explanation": "Inter-state clearance is no longer required for PSPs, and off-stream closed-loop PSPs are exempt from mandatory CEA concurrence; (a)-(c) are correct.",
+    "subject": "Economy",
+    "theme": "Energy Storage",
+    "micro_topic": "Pumped storage projects; CEA, ISTS waiver",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "PM-SETU, in the news, is a scheme of which Ministry, and what is its approach for upgrading Industrial Training Institutes (ITIs)?",
+    "options": [
+      "(a) Ministry of Education; stand-alone upgrade of engineering colleges",
+      "(b) Ministry of Skill Development and Entrepreneurship; hub-and-spoke ITI clusters with industry partners",
+      "(c) Ministry of Labour and Employment; closure of low-performing ITIs",
+      "(d) Ministry of MSME; new industrial parks around ITIs"
+    ],
+    "answer": "(b)",
+    "explanation": "MSDE's PM-SETU approved Rs 1,194.92 crore for five ITI clusters (25 ITIs: 1 hub + 4 spokes each) led by industry partners; cumulative sanction Rs 3,687 crore.",
+    "subject": "Society",
+    "theme": "Skill Development",
+    "micro_topic": "PM-SETU ITI hub-and-spoke clusters",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]

@@ -138,6 +138,17 @@ function QuestionStem({ q, big }) {
     <div className={`stem${big ? " stem-big" : ""}`}>
       {q.passage && <div className="stem-passage">{q.passage}</div>}
       <p className="stem-lead">{q.stem}</p>
+      {q.primaryStatements && q.primaryStatements.length > 0 && (
+        <ol className="stmt-list stmt-list-primary">
+          {q.primaryStatements.map((s, i) => (
+            <li key={i}>
+              <span className="stmt-num">{s.label ? `${s.label}.` : `${i + 1}.`}</span>
+              <span>{s.text || s}</span>
+            </li>
+          ))}
+        </ol>
+      )}
+      {q.subStem && <p className="stem-lead stem-sub">{q.subStem}</p>}
       {q.matchLeft && q.matchRight && q.matchLeft.length > 0 && (
         <div className="match-cols">
           <ol className="match-col match-col-left">
@@ -167,7 +178,11 @@ function QuestionStem({ q, big }) {
           <ol className={`stmt-list${selfLabelled ? " stmt-list-labelled" : ""}`}>
             {q.statements.map((s, i) => (
               <li key={i}>
-                {!selfLabelled && <span className="stmt-num">{i + 1}.</span>}
+                {!selfLabelled && (
+                  <span className="stmt-num">
+                    {q.statementLabels ? `${q.statementLabels[i]}.` : `${i + 1}.`}
+                  </span>
+                )}
                 <span>{s}</span>
               </li>
             ))}

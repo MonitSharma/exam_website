@@ -559,6 +559,9 @@
       source: inferSource(row, questionSet),
       stem: questionParts.stem,
       passage: row.passage || "",
+      primaryStatements: questionParts.primaryStatements || null,
+      subStem: questionParts.subStem || "",
+      statementLabels: questionParts.statementLabels || null,
       statements: questionParts.statements,
       matchLeft: questionParts.matchLeft || null,
       matchRight: questionParts.matchRight || null,
@@ -746,6 +749,91 @@
     return null;
   }
 
+  // Two-tier compound questions present an initial Roman numeral list
+  // (I. ... II. ...) followed by an intermediate connecting question
+  // ("Which of the following inferences can be drawn from the above statements?")
+  // and an Arabic numeral evaluation list (1. ... 2. ...).
+  const COMPOUND_ROMAN_LABELS = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"];
+  const CONNECTOR_OPENERS = "Which|How many|How much|The above|In which|In how many|With reference|What|Consider";
+  const CONNECTOR_START = new RegExp(`(?:^|[.?!\\n])\\s*(?:${CONNECTOR_OPENERS})\\b`, "g");
+
+  function parseCompoundStatements(rawText, providedTail) {
+    const romanMatch = rawText.match(/(?:^|\n|\s)\s*I\.\s+/);
+    const arabicMatch = rawText.match(/(?:^|\n|\s)\s*1\.\s+/);
+    if (!romanMatch || !arabicMatch || romanMatch.index >= arabicMatch.index) return null;
+
+    const middle = rawText.slice(romanMatch.index, arabicMatch.index).trim();
+    const secondRoman = middle.match(/(?:^|\s)II\.\s+/);
+    const afterArabic = rawText.slice(arabicMatch.index).trim();
+    const secondArabic = afterArabic.match(/(?:^|\s)2\.\s+/);
+    if (!secondRoman || !secondArabic) return null;
+
+    const stem = rawText.slice(0, romanMatch.index).trim();
+
+    const romanMarker = STATEMENT_MARKERS.find((m) => m.name === "roman-upper");
+    const arabicMarker = STATEMENT_MARKERS.find((m) => m.name === "arabic-dot");
+    if (!romanMarker || !arabicMarker) return null;
+
+    let lastRomanPos = -1;
+    let lastRomanLen = -1;
+    for (let i = 0; i < COMPOUND_ROMAN_LABELS.length; i++) {
+      const label = COMPOUND_ROMAN_LABELS[i];
+      const re = i === 0 ? /^I\.\s+/ : new RegExp(`(?:^|\\s)${label}\\.\\s+`);
+      const m = middle.match(re);
+      if (m) {
+        lastRomanPos = m.index;
+        lastRomanLen = m[0].length;
+      }
+    }
+    if (lastRomanPos < 0) return null;
+
+    const afterLastRoman = middle.slice(lastRomanPos + lastRomanLen);
+
+    let connStart = -1;
+    let m;
+    CONNECTOR_START.lastIndex = 0;
+    while ((m = CONNECTOR_START.exec(afterLastRoman)) !== null) {
+      const offset = m.index + m[0].length;
+      const openerStart = afterLastRoman.slice(m.index, offset).search(/[A-Z]/) + m.index;
+      connStart = openerStart;
+      CONNECTOR_START.lastIndex = m.index + 1;
+    }
+
+    let romanBody = middle;
+    let subStem = "";
+    if (connStart > 0) {
+      const actualCut = lastRomanPos + lastRomanLen + connStart;
+      romanBody = middle.slice(0, actualCut).trim();
+      subStem = middle.slice(actualCut).trim();
+    } else {
+      const connMatch = afterLastRoman.match(/([.?!])\s+([^.?!]+[?:]\s*)$/);
+      if (connMatch) {
+        const cut = middle.length - connMatch[2].length;
+        romanBody = middle.slice(0, cut).trim();
+        subStem = connMatch[2].trim();
+      }
+    }
+
+    const rawPrimary = extractStatements(romanBody, romanMarker);
+    if (rawPrimary.length < 2) return null;
+    const primaryStatements = rawPrimary.map((text, idx) => ({
+      label: COMPOUND_ROMAN_LABELS[idx] || String(idx + 1),
+      text,
+    }));
+
+    const splitArabic = splitTrailingQuestion(afterArabic);
+    const statements = extractStatements(splitArabic.body, arabicMarker);
+    if (statements.length < 2) return null;
+
+    return {
+      stem,
+      primaryStatements,
+      subStem,
+      statements,
+      tail: splitArabic.tail || providedTail || "",
+    };
+  }
+
   function splitQuestionParts(rawStem, rawStatements, rawTail) {
     const providedStatements = Array.isArray(rawStatements)
       ? rawStatements.map((item) => String(item || "").trim()).filter(Boolean)
@@ -770,6 +858,11 @@
       return { stem: match.stem, statements: [], matchLeft: match.left, matchRight: match.right, tail: providedTail };
     }
 
+    const compound = parseCompoundStatements(rawText, providedTail);
+    if (compound) {
+      return compound;
+    }
+
     for (const marker of STATEMENT_MARKERS) {
       const first = rawText.match(marker.first);
       if (!first) continue;
@@ -778,7 +871,11 @@
       const split = splitTrailingQuestion(rawText.slice(first.index).trim());
       const statements = extractStatements(split.body, marker);
       if (statements.length >= 2) {
-        return { stem, statements, tail: split.tail || providedTail };
+        const result = { stem, statements, tail: split.tail || providedTail };
+        if (marker.name === "roman-upper" || marker.name === "roman-lower") {
+          result.statementLabels = marker.labels.slice(0, statements.length);
+        }
+        return result;
       }
     }
 
