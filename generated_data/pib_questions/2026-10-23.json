@@ -1,0 +1,50 @@
+[
+  {
+    "question": "Consider the following regarding the MoES–AcSIR partnership announced in October 2026:\n1. All ten research institutes of the Ministry of Earth Sciences are recognised as AcSIR Associated Research Institutes.\n2. Scholars research at the host MoES institute, but the PhD degree is awarded by AcSIR.\n3. The MoU is limited to atmospheric sciences and excludes ocean and polar research.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statements 1 and 2 are as reported; statement 3 is wrong since areas include weather, climate, oceans, polar regions, earthquakes and coastal processes.",
+    "subject": "Science & Technology",
+    "theme": "Research & Higher Education",
+    "micro_topic": "MoES–AcSIR PhD partnership",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "\"SUVIKALP\", which won the SKOCH Gold Award 2026, is",
+    "options": [
+      "(a) a Ministry of Power tool for pumped storage planning",
+      "(b) a Coal Controller Organisation tool that ranks post-mining reuse options for closed or abandoned mines",
+      "(c) a Ministry of Mines portal for auctioning critical minerals blocks",
+      "(d) a Ministry of Environment framework for compensatory afforestation"
+    ],
+    "answer": "(b)",
+    "explanation": "SUVIKALP is the Coal Controller Organisation's (Ministry of Coal) mine-repurposing tool; PRISM is its implementation model.",
+    "subject": "Environment",
+    "theme": "Mining & Just Transition",
+    "micro_topic": "Mine closure and repurposing",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The iGOT Karmayogi platform, in the news for an MoU with OpenAI, is associated with",
+    "options": [
+      "(a) Mission Karmayogi for civil-service capacity building, facilitated by Karmayogi Bharat",
+      "(b) the PM Vishwakarma scheme for artisan skilling",
+      "(c) the Skill India Digital Hub for school students",
+      "(d) the National Apprenticeship Training Scheme"
+    ],
+    "answer": "(a)",
+    "explanation": "iGOT Karmayogi is the online learning platform of Mission Karmayogi; Karmayogi Bharat facilitates it. Over 1.7 crore employees are registered.",
+    "subject": "Polity & Governance",
+    "theme": "Civil Service Reforms",
+    "micro_topic": "Mission Karmayogi / iGOT",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]

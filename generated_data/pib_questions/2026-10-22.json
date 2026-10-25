@@ -1,0 +1,17 @@
+[
+ {"question":"Consider the following statements about the Pradhan Mantri Anusuchit Jaati Abhyuday Yojana (PM-AJAY):\n1. It is implemented by the Ministry of Social Justice and Empowerment.\n2. It combines the earlier Pradhan Mantri Adarsh Gram Yojana, Special Central Assistance to Scheduled Castes Sub-Plan and Babu Jagjivan Ram Chhatrawas Yojana.\n3. It is a Centrally Sponsored Scheme with a 60:40 Centre–State funding pattern for all States.\nWhich of the statements given above are correct?",
+  "options":["(a) 1 only","(b) 1 and 2 only","(c) 2 and 3 only","(d) 1, 2 and 3"],
+  "answer":"(b)",
+  "explanation":"PM-AJAY (MoSJE) merged PMAGY, SCA to SCSP and BJRCY and has Adarsh Gram, grants-in-aid and hostel components; as reported on 17 Oct 2026 it is 100% centrally funded, so statement 3 is wrong.",
+  "subject":"Society","theme":"Schemes for Scheduled Castes","micro_topic":"PM-AJAY components and funding","nature":"Current Affairs","difficulty":"Moderate"},
+ {"question":"With reference to the MoU between the Ministry of Tribal Affairs and Karmayogi Bharat to launch an 'Adi Karmayogi' microsite on the iGOT platform, consider the following statements:\n1. The microsite offers mobile-friendly training modules on schemes such as PM-JANMAN and the Forest Rights Act to Adi Karmayogi Volunteers.\n2. Karmayogi Bharat is the special purpose vehicle that operates the iGOT Karmayogi platform under Mission Karmayogi.\nWhich of the statements given above is/are correct?",
+  "options":["(a) 1 only","(b) 2 only","(c) Both 1 and 2","(d) Neither 1 nor 2"],
+  "answer":"(c)",
+  "explanation":"The 13 Oct 2026 MoU adds Adi Karmayogi content (PM-JANMAN, DAJGUA, EMRS, FRA modules) to iGOT; Karmayogi Bharat is the non-profit SPV running iGOT under Mission Karmayogi.",
+  "subject":"Polity & Governance","theme":"Capacity building and tribal governance","micro_topic":"Adi Karmayogi and iGOT Karmayogi","nature":"Current Affairs","difficulty":"Moderate"},
+ {"question":"The 7th AgriVoltaics World Conference, hosted at Bharat Mandapam, New Delhi (21–23 October 2026), is hosted by India's Ministry of New and Renewable Energy together with the International Climate Initiative. 'Agrivoltaics' refers to:",
+  "options":["(a) Floating solar panels installed over reservoirs and canals","(b) Co-location of solar PV generation and crop cultivation on the same piece of land","(c) Use of biogas digesters to power agricultural pumps","(d) Conversion of crop residue into electricity in thermal plants"],
+  "answer":"(b)",
+  "explanation":"Agrivoltaics (agri-PV) combines solar power generation with agriculture on the same land, letting farmers earn from both crops and electricity.",
+  "subject":"Environment","theme":"Renewable energy","micro_topic":"Agrivoltaics","nature":"Current Affairs","difficulty":"Easy"}
+]

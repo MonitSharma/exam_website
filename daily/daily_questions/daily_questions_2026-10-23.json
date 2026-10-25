@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to the three Indian sites recently added to UNESCO's Tentative List, consider the following statements:\n1. Inclusion on the Tentative List is a prerequisite for a formal World Heritage nomination.\n2. Narcondam and Barren Island form part of the Andaman Subduction Volcanoes entry.\n3. The Sirpur landscape is located in Madhya Pradesh.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Tentative List entry is the first step before nomination; Narcondam and Barren Island are part of the Andaman Subduction Volcanoes entry. Sirpur is in Chhattisgarh, so statement 3 is wrong.",
+    "subject": "Art & Culture",
+    "theme": "UNESCO World Heritage",
+    "micro_topic": "Tentative List additions: Baratang, Andaman volcanoes, Sirpur",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to UNEP's Emissions Gap Report 2026, consider the following statements:\n1. It states that limiting warming to 1.5°C with limited overshoot is no longer possible.\n2. It says emissions must fall 18% by 2030 and 45% by 2035 compared with 2025 levels.\n3. It finds that full delivery of current NDCs would keep warming below 2°C.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Statements 1 and 2 match the report. Full NDC delivery projects about 2.6°C (2.1°C only with net-zero targets as well), so statement 3 is wrong.",
+    "subject": "Environment",
+    "theme": "Climate Change Reports",
+    "micro_topic": "UNEP Emissions Gap Report 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the revised Index of Core Industries (base year 2022-23), consider the following statements:\n1. It is compiled by the National Statistics Office, MoSPI.\n2. Iron Ore has been added as a ninth core industry.\n3. Electricity carries the highest weight in the index.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "The ICI is compiled by the Office of the Economic Adviser, DPIIT, not NSO. Iron Ore is the ninth industry and Electricity has the highest weight (30.93%).",
+    "subject": "Economy",
+    "theme": "Industry and Indices",
+    "micro_topic": "Index of Core Industries revision",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The 'Badr MoU', recently in the news, is best described as:",
+    "options": [
+      "(a) A defence-industrial cooperation memorandum among Pakistan, Türkiye, Qatar and Indonesia, without a collective-defence clause",
+      "(b) A mutual-defence treaty among Pakistan, Saudi Arabia and Türkiye",
+      "(c) An India–Indonesia agreement for the supply of BrahMos missiles",
+      "(d) A NATO-style alliance of Gulf Cooperation Council states"
+    ],
+    "answer": "(a)",
+    "explanation": "Signed in Doha, Badr focuses on joint manufacturing, technology sharing, training and R&D. The mutual-defence clause belongs to the separate Makkah pact (Saudi Arabia, Türkiye, Pakistan).",
+    "subject": "International Relations",
+    "theme": "India's Neighbourhood and West Asia",
+    "micro_topic": "Badr MoU",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the 7th Agrivoltaics World Conference, consider the following statements:\n1. Agrivoltaics combines crop production and solar power generation on the same land.\n2. The conference was held at Bharat Mandapam, New Delhi, with the theme 'Powering the Global South'.\n3. It was organised by the Ministry of Agriculture and Farmers Welfare as the sole host.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 2 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "Statements 1 and 2 are correct. The event was led by the Ministry of New and Renewable Energy (with the Agriculture Minister co-inaugurating), so statement 3 is wrong.",
+    "subject": "Agriculture",
+    "theme": "Agriculture and Renewable Energy",
+    "micro_topic": "Agrivoltaics dual land use",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which is the only site in India inscribed on the UNESCO World Heritage List under both cultural and natural criteria (mixed)?",
+    "options": [
+      "(a) Kaziranga National Park",
+      "(b) Nanda Devi and Valley of Flowers",
+      "(c) Sundarbans National Park",
+      "(d) Khangchendzonga National Park"
+    ],
+    "answer": "(d)",
+    "explanation": "Khangchendzonga National Park (inscribed 2016) is India's only mixed World Heritage Site.",
+    "subject": "Art & Culture",
+    "theme": "UNESCO World Heritage",
+    "micro_topic": "Mixed World Heritage sites in India",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Index of Industrial Production (IIP) in India is compiled and released monthly by:",
+    "options": [
+      "(a) Office of the Economic Adviser, DPIIT",
+      "(b) National Statistics Office, MoSPI",
+      "(c) Reserve Bank of India",
+      "(d) NITI Aayog"
+    ],
+    "answer": "(b)",
+    "explanation": "The IIP is compiled by the NSO under MoSPI; the Index of Core Industries is compiled by the Office of the Economic Adviser, DPIIT.",
+    "subject": "Economy",
+    "theme": "Industry and Indices",
+    "micro_topic": "IIP compiling agency",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  }
+]

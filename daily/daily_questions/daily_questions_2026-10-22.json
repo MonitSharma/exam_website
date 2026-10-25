@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to the India–Poland talks held in New Delhi on 22 October 2026, consider the following statements:\n1. India and Poland elevated their ties to a Strategic Partnership during the Prime Minister's August 2024 visit to Warsaw.\n2. The visit is the first-ever India visit by Donald Tusk as Poland's Prime Minister.\n3. Defence, space and nuclear energy were among the sectors in which the leaders agreed to strengthen cooperation.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Ties were elevated to a Strategic Partnership in Aug 2024 (Statement 1 correct). Reports describe this as Tusk's second India visit as PM, so Statement 2 is wrong. Modi cited defence, space and nuclear energy cooperation (Statement 3 correct).",
+    "subject": "International Relations",
+    "theme": "India-Europe relations",
+    "micro_topic": "India–Poland Strategic Partnership",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "India is reported to be planning a Sustainable Aviation Fuel (SAF) blending mandate for international flights from 2027. In this context, consider the following statements:\n1. The proposed targets are linked to CORSIA, the carbon offsetting scheme for international aviation adopted by ICAO.\n2. Used cooking oil and agricultural residues are among the feedstocks for SAF.\n3. SAF is generally cheaper than conventional jet fuel, which is the main reason for the mandate.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 3 only",
+      "(c) 1 and 2 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "CORSIA (ICAO, 2016) has a mandatory phase from 2027 to 2035, and the mandate is tied to it. SAF can be made from used cooking oil, residues, etc. SAF costs roughly 2-5 times conventional jet fuel, so Statement 3 is wrong; the mandate is needed precisely because of the cost gap. Note: the 1%/2%/5% (2027/2028/2030) path was reported by industry sources and was not yet officially notified.",
+    "subject": "Environment",
+    "theme": "Aviation and climate",
+    "micro_topic": "Sustainable Aviation Fuel and CORSIA",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the UDAN (Ude Desh ka Aam Nagrik) scheme, which completed ten years in October 2026, consider the following statements:\n1. It was launched in 2016 under the National Civil Aviation Policy, 2016.\n2. The next phase, Viksit UDAN, covers FY 2026-27 to FY 2035-36 with an outlay of about ₹28,840 crore.\n3. Under Viksit UDAN, Viability Gap Funding to airlines is provided for up to ten years on each route.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "UDAN (Regional Connectivity Scheme) began on 21 Oct 2016 under NCAP 2016. Viksit UDAN runs FY2026-27 to FY2035-36 with about ₹28,840 crore. The VGF of about ₹10,043 crore is spread over ten years, but support per route lasts up to five years (tapering from year three), so Statement 3 is wrong.",
+    "subject": "Economy",
+    "theme": "Infrastructure and schemes",
+    "micro_topic": "UDAN regional connectivity",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "In its judgment of 15 October 2026 in the Tamil Nadu case on converts to Islam (Secretary to Government v. Sameer Ahamed), the Supreme Court held that:",
+    "options": [
+      "(a) Conversion to a non-Hindu religion automatically carries over a person's pre-conversion backwardness for claiming reservation under Article 16(4)",
+      "(b) Pre-conversion caste status cannot be transferred to the notified Muslim backward classes merely because of conversion, so the Government Order was invalid",
+      "(c) Scheduled Caste status is retained by converts to any religion",
+      "(d) The 50 per cent ceiling on reservation was struck down"
+    ],
+    "answer": "(b)",
+    "explanation": "The bench of Justices Prashant Kumar Mishra and Shree Chandrashekhar upheld the Madras High Court and held that conversion alone does not let a person claim affirmative action based on pre-conversion backwardness; historical disadvantage in one religion is not proof of membership of a backward class in another. Converts to religions not listed in the Constitution (Scheduled Castes) Order lose SC status.",
+    "subject": "Polity & Governance",
+    "theme": "Reservation jurisprudence",
+    "micro_topic": "Conversion and backward class status",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Eight intermediate certificate keys of Indian certificate authority eMudhra were found to be recoverable in October 2026. With reference to certificate authorities (CAs), consider the following statements:\n1. A root CA authorises intermediate CAs to issue certificates within their assigned scope.\n2. If an intermediate CA's private key is compromised, an attacker can issue fraudulent certificates that browsers may trust unless they are revoked or blocked.\n3. Browsers such as Chrome, Mozilla and Safari block affected certificates by revoking them on the CA's physical premises.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Root CAs delegate to intermediates (Statement 1) and a compromised intermediate key permits forged certificates (Statement 2). Browsers block affected certificates through software updates and distrust lists, not at the CA's premises, so Statement 3 is wrong. eMudhra revoked the affected certificates.",
+    "subject": "Science & Technology",
+    "theme": "Cybersecurity",
+    "micro_topic": "Public key infrastructure and certificate authorities",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "In India, Certifying Authorities that issue Digital Signature Certificates are licensed under the Information Technology Act, 2000 by the:",
+    "options": [
+      "(a) CERT-In",
+      "(b) Controller of Certifying Authorities",
+      "(c) National Informatics Centre",
+      "(d) Telecom Regulatory Authority of India"
+    ],
+    "answer": "(b)",
+    "explanation": "The IT Act, 2000 provides for a Controller of Certifying Authorities (CCA), under MeitY, who licenses and supervises Certifying Authorities. CERT-In handles incident response, not licensing.",
+    "subject": "Science & Technology",
+    "theme": "Cyber law",
+    "micro_topic": "Controller of Certifying Authorities",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Under the Constitution (Scheduled Castes) Order, 1950, as amended, Scheduled Caste status is available to persons who profess:",
+    "options": [
+      "(a) Hinduism only",
+      "(b) Hinduism, Sikhism or Buddhism",
+      "(c) Hinduism, Islam or Christianity",
+      "(d) Any religion"
+    ],
+    "answer": "(b)",
+    "explanation": "The 1950 Order originally covered only Hindus; Sikhs were added in 1956 and Buddhists in 1990. Muslims and Christians are not included, which is why converts to those religions lose SC status.",
+    "subject": "Polity & Governance",
+    "theme": "Scheduled Castes",
+    "micro_topic": "Constitution (Scheduled Castes) Order, 1950",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  }
+]

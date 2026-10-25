@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to External Affairs Minister S. Jaishankar's visit to Azerbaijan in October 2026, consider the following statements: 1. India welcomed the peace agreement between Azerbaijan and Armenia. 2. Azerbaijan is a member of NATO. 3. Azerbaijan hosted COP29 in Baku in 2024. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "India welcomed the Armenia–Azerbaijan peace agreement during the visit; Azerbaijan is not a NATO member; Baku hosted COP29 in 2024.",
+    "subject": "International Relations",
+    "theme": "India–Azerbaijan ties",
+    "micro_topic": "Jaishankar Baku visit",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the Jio Platforms IPO, consider the following statements: 1. The issue is entirely a fresh issue with no Offer for Sale component. 2. At about ₹30,213 crore, it is the largest IPO in India, surpassing Hyundai Motor India's 2024 issue. 3. Reliance Industries will sell part of its holding through an Offer for Sale in the issue. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "The issue is a fresh issue of up to 27 crore shares with no OFS, and at about ₹30,213 cr it exceeds Hyundai's ₹27,870 cr. Statement 3 is wrong.",
+    "subject": "Economy",
+    "theme": "Capital markets",
+    "micro_topic": "Jio Platforms IPO",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Management Effectiveness Evaluation of Tiger Reserves (MEE-TR) 2026, consider the following statements: 1. The sixth cycle covers all 58 notified tiger reserves. 2. Solid waste management has been made a separate evaluation criterion for the first time. 3. The evaluation is conducted every year by the Wildlife Institute of India alone. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "The 6th cycle covers 58 reserves with a new separate solid waste criterion; MEE is four-yearly and conducted by NTCA with WII, not annually by WII alone.",
+    "subject": "Environment",
+    "theme": "Protected areas and tiger conservation",
+    "micro_topic": "MEE-TR 6th cycle",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the reorganisation of the Central Industrial Security Force (CISF) announced for 1 November 2026, consider the following statements: 1. The CISF functions under the Ministry of Defence. 2. Territorial commands are being replaced by sector-specific functional commands. 3. Two port sectors, West Coast and East Coast, will oversee major and minor seaports. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "CISF is a Central Armed Police Force under the Ministry of Home Affairs, not Defence. Sector-based commands and the two port sectors are correct.",
+    "subject": "Internal Security",
+    "theme": "Central Armed Police Forces",
+    "micro_topic": "CISF sector-based restructuring",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the Ladakh Autonomous Hill Development Councils (Amendment) Regulation, 2026, consider the following statements: 1. Before this, elected hill councils existed only in Leh and Kargil. 2. The councils are constituted under the Sixth Schedule of the Constitution. 3. The framework allows councils in all eight districts of the UT. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Elected councils existed only in Leh and Kargil, and the regulation extends them to all eight districts. They are statutory bodies, not Sixth Schedule councils.",
+    "subject": "Polity & Governance",
+    "theme": "Union Territories and local governance",
+    "micro_topic": "Ladakh hill councils regulation",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "With reference to the National Tiger Conservation Authority (NTCA) and Project Tiger, consider the following statements: 1. NTCA became a statutory body through the 2006 amendment to the Wildlife (Protection) Act, 1972. 2. Project Tiger was launched in 1973. 3. The Prime Minister is the Chairperson of NTCA. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "NTCA gained statutory status in 2006 and Project Tiger began in 1973. NTCA is chaired by the Union Minister for Environment, Forest and Climate Change.",
+    "subject": "Environment",
+    "theme": "Wildlife conservation institutions",
+    "micro_topic": "NTCA and Project Tiger",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "In the context of the capital market, which one of the following statements is correct?",
+    "options": [
+      "(a) In an Offer for Sale (OFS), the proceeds go to the company issuing the shares.",
+      "(b) In a fresh issue, new shares are issued and the proceeds go to the company.",
+      "(c) An IPO is the first sale of shares in the secondary market.",
+      "(d) SEBI does not regulate the IPO process."
+    ],
+    "answer": "(b)",
+    "explanation": "In a fresh issue the company issues new shares and receives the proceeds; in an OFS the proceeds go to selling shareholders. An IPO is a primary-market event regulated by SEBI.",
+    "subject": "Economy",
+    "theme": "Capital markets",
+    "micro_topic": "Fresh issue vs OFS",
+    "nature": "Conceptual",
+    "difficulty": "Easy"
+  }
+]
