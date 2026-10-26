@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to India's recent position on reform of the United Nations Security Council, consider the following statements: 1. India seeks expansion of the Council in both permanent and non-permanent categories. 2. An amendment to the UN Charter requires ratification by two-thirds of members including all five permanent members. 3. India has never served as a non-permanent member of the Council. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "India seeks both categories; Art. 108 of the UN Charter needs two-thirds including all P5. India has served eight times (latest 2021-22), so statement 3 is wrong.",
+    "subject": "International Relations",
+    "theme": "UNSC reform",
+    "micro_topic": "India's legitimacy-deficit remark / Art. 108",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Periodic Labour Force Survey (PLFS) conducted by MoSPI, consider the following statements: 1. Since 2025, it provides monthly all-India estimates using the Current Weekly Status approach. 2. The draft changes proposed for January 2027 include a separate stratum for households with digital-platform workers. 3. It is conducted by the Labour Bureau under the Ministry of Labour and Employment. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "PLFS is run by MoSPI/NSO, not the Labour Bureau. Monthly CWS estimates began in 2025; the 2027 draft adds a platform-worker stratum.",
+    "subject": "Economy",
+    "theme": "Labour statistics",
+    "micro_topic": "PLFS revamp",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Fund for Responding to Loss and Damage (FRLD), consider the following statements: 1. Its establishment was agreed at COP27 and it was operationalised at COP28. 2. The World Bank serves as the Fund's interim trustee. 3. The Fund provides only loans and cannot be used for grants. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Agreed at COP27 (Sharm el-Sheikh, 2022), operationalised at COP28 (Dubai, 2023); World Bank is interim trustee. The Fund is meant to provide grants and concessional finance, so statement 3 is wrong.",
+    "subject": "Environment",
+    "theme": "Climate finance",
+    "micro_topic": "Loss and Damage Fund - Nepal support",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the NVS-03 satellite and the NavIC system, consider the following statements: 1. NVS-03 is a second-generation navigation satellite planned for launch from Sriharikota. 2. NavIC requires signals from at least four satellites for a three-dimensional position fix. 3. NavIC provides coverage only within India's political boundary. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "NVS-03 is a second-generation NVS satellite; four satellites are needed for a 3D fix. NavIC covers India plus about 1,500 km beyond its borders, so statement 3 is wrong.",
+    "subject": "Science & Technology",
+    "theme": "Space technology",
+    "micro_topic": "NavIC / NVS-03",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the Legislative Councils in India, consider the following statements: 1. Parliament can create or abolish a State Legislative Council by an ordinary law, which is not treated as a constitutional amendment under Article 368. 2. The strength of a Council cannot exceed one-third of the Assembly's strength and cannot be less than 40. 3. A Legislative Council can delay a Money Bill for up to three months. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Art. 169 law is an ordinary law; size is at most one-third of the Assembly and at least 40. On Money Bills the Council can only make recommendations within 14 days, so statement 3 is wrong.",
+    "subject": "Polity & Governance",
+    "theme": "State legislature",
+    "micro_topic": "Legislative Councils (Art. 169)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Regarding non-permanent members of the United Nations Security Council, which one of the following is correct?",
+    "options": [
+      "(a) There are ten, elected by the General Assembly for a two-year term and not eligible for immediate re-election.",
+      "(b) There are ten, elected by the General Assembly for a three-year term and eligible for immediate re-election.",
+      "(c) There are fifteen, appointed by the permanent members.",
+      "(d) There are five, elected by the Economic and Social Council."
+    ],
+    "answer": "(a)",
+    "explanation": "The Council has 15 members: 5 permanent and 10 non-permanent, elected by the GA for two-year terms with no immediate re-election.",
+    "subject": "International Relations",
+    "theme": "United Nations",
+    "micro_topic": "UNSC composition",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The original Indian Regional Navigation Satellite System (IRNSS) constellation comprises:",
+    "options": [
+      "(a) Three satellites in geostationary orbit and four in inclined geosynchronous orbit",
+      "(b) Seven satellites, all in geostationary orbit",
+      "(c) Four satellites in geostationary orbit and three in medium Earth orbit",
+      "(d) Seven satellites in polar sun-synchronous orbit"
+    ],
+    "answer": "(a)",
+    "explanation": "The original design has 7 satellites: 3 in GEO and 4 in inclined geosynchronous orbit (IGSO), plus ground segment.",
+    "subject": "Science & Technology",
+    "theme": "Space technology",
+    "micro_topic": "IRNSS orbital configuration",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  }
+]

@@ -1,0 +1,50 @@
+[
+ {
+  "question": "With reference to \"Operation Trident\" in the news, consider the following statements:\n1. It was conducted by the Narcotics Control Bureau along with the Enforcement Directorate and State police.\n2. It targeted a network trafficking drugs from Myanmar through Mizoram, Manipur and Assam.\n3. It is carried out under the Ministry of Social Justice and Empowerment.\nWhich of the statements given above is/are correct?",
+  "options": [
+   "(a) 1 only",
+   "(b) 1 and 2 only",
+   "(c) 2 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(b)",
+  "explanation": "NCB with ED and State police ran the operation against a Myanmar-linked route; it falls under the Home Ministry, not Social Justice.",
+  "subject": "Internal Security",
+  "theme": "Drug trafficking and narco-financing",
+  "micro_topic": "Operation Trident / NCB",
+  "nature": "Current Affairs",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "The Narcotics Control Bureau, the apex drug law-enforcement agency, functions under the:",
+  "options": [
+   "(a) Ministry of Finance",
+   "(b) Ministry of Home Affairs",
+   "(c) Ministry of Health and Family Welfare",
+   "(d) Ministry of Social Justice and Empowerment"
+  ],
+  "answer": "(b)",
+  "explanation": "NCB was constituted in 1986 under the NDPS Act framework and works under the Ministry of Home Affairs.",
+  "subject": "Internal Security",
+  "theme": "Drug trafficking and narco-financing",
+  "micro_topic": "Narcotics Control Bureau",
+  "nature": "Current Affairs",
+  "difficulty": "Easy"
+ },
+ {
+  "question": "The Reserve Bank of India's new greenfield data centre and cybersecurity training institute, inaugurated in October 2026, is located near:",
+  "options": [
+   "(a) Chennai, Tamil Nadu",
+   "(b) Hyderabad, Telangana",
+   "(c) Bhubaneswar, Odisha",
+   "(d) Nagpur, Maharashtra"
+  ],
+  "answer": "(c)",
+  "explanation": "It is at Info Valley-II, Khordha district near Bhubaneswar, and backs up the primary data centre at Kharghar, Navi Mumbai.",
+  "subject": "Economy",
+  "theme": "Financial sector infrastructure",
+  "micro_topic": "RBI data centre / cyber resilience",
+  "nature": "Current Affairs",
+  "difficulty": "Easy"
+ }
+]

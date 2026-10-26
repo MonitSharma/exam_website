@@ -1,0 +1,50 @@
+[
+ {
+  "question": "With reference to the Farmer ID milestone announced in October 2026, consider the following statements:\n1. Farmer IDs are being created under the Digital Agriculture Mission, which was approved by the Union Cabinet in September 2024.\n2. The IDs aim to reduce repeated document verification for access to credit, insurance and relief.\n3. The initiative is implemented by the Ministry of Rural Development.\nWhich of the statements given above is/are correct?",
+  "options": [
+   "(a) 1 only",
+   "(b) 1 and 2 only",
+   "(c) 2 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(b)",
+  "explanation": "The Digital Agriculture Mission (Cabinet approval 2 Sep 2024) is run by the Ministry of Agriculture & Farmers' Welfare, not Rural Development; Farmer IDs cut repeated document checks.",
+  "subject": "Agriculture",
+  "theme": "Digital agriculture and DPI",
+  "micro_topic": "Farmer ID / Digital Agriculture Mission",
+  "nature": "Current Affairs",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "The Integrated Atmospheric Chemistry and Aerosol Toxicity Analysis Laboratory (AATAL), recently in the news, is:",
+  "options": [
+   "(a) an ISRO facility for satellite-based aerosol retrieval",
+   "(b) a facility at IITM, Delhi, set up under Mission Mausam to identify pollution sources and study aerosol toxicity",
+   "(c) a CPCB laboratory for testing vehicular emission norms",
+   "(d) a CSIR facility for testing industrial effluents"
+  ],
+  "answer": "(b)",
+  "explanation": "AATAL, inaugurated on 24 Oct 2026 at IITM Delhi (Ministry of Earth Sciences) under Mission Mausam (~₹80 crore), supports source apportionment for CAQM/GRAP planning.",
+  "subject": "Environment",
+  "theme": "Air pollution monitoring",
+  "micro_topic": "AATAL / Mission Mausam / AIRWISE",
+  "nature": "Current Affairs",
+  "difficulty": "Easy"
+ },
+ {
+  "question": "The upgraded National Mobile Monitoring System (NMMS) app launched in October 2026 for VB-G RAM G includes which of the following?\n1. AI-based face verification with liveness detection\n2. Offline attendance upload\n3. An exception mechanism for workers whose face authentication fails for genuine reasons\nSelect the correct answer using the code given below.",
+  "options": [
+   "(a) 1 only",
+   "(b) 1 and 2 only",
+   "(c) 2 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(d)",
+  "explanation": "The upgrade, developed with IIT Madras support, adds liveness-checked AI face verification, offline attendance and an exception route for elderly/disabled/device-problem cases.",
+  "subject": "Polity & Governance",
+  "theme": "Welfare schemes and e-governance",
+  "micro_topic": "VB-G RAM G / NMMS app",
+  "nature": "Current Affairs",
+  "difficulty": "Moderate"
+ }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to the BRICS Parliamentary Forum, consider the following statements:\n1. The first forum was held in Moscow in 2015.\n2. The 12th forum, hosted in New Delhi, is chaired by the Lok Sabha Speaker.\n3. Its resolutions are binding on BRICS member governments.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "1st forum Moscow 2015; Om Birla chairs the New Delhi forum (26-27 Oct 2026). The forum is a non-binding consultative platform, so 3 is wrong.",
+    "subject": "International Relations",
+    "theme": "BRICS",
+    "micro_topic": "BRICS Parliamentary Forum",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the global shipbuilding order book as reported by BIMCO, consider the following statements:\n1. India holds the largest share of the global order book among the Asian countries.\n2. China, South Korea and Japan together account for roughly 89% of the order book.\n3. 'Compensated gross tonnage' (CGT) adjusts a ship's tonnage for the amount of work needed to build it.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "China ~64% + Korea ~19% + Japan ~6% = ~89%. India holds only ~0.5% (12th), so 1 is wrong. CGT weights tonnage by work content.",
+    "subject": "Economy",
+    "theme": "Shipbuilding",
+    "micro_topic": "Global shipbuilding order book / CGT",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to AgriStack under the Digital Agriculture Mission, consider the following statements:\n1. The Farmers' Registry, Crop Sown Registry and Geo-referenced Village Maps are its foundational registries.\n2. The Farmer ID is linked to Aadhaar and land-record data.\n3. The Mission was approved by the Union Cabinet in 2019.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "The Digital Agriculture Mission (about Rs 2,817 crore) was approved in September 2024, not 2019.",
+    "subject": "Agriculture",
+    "theme": "Digital agriculture",
+    "micro_topic": "AgriStack and Farmer ID",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "A recent comparison of the 2019 and 2024 Time Use Surveys found that women's trip-making rose more in States with free bus travel for women. Which one of the following is the nodal agency that conducts the Time Use Survey in India?",
+    "options": [
+      "(a) NITI Aayog",
+      "(b) National Statistical Office, MoSPI",
+      "(c) Office of the Registrar General of India",
+      "(d) Labour Bureau"
+    ],
+    "answer": "(b)",
+    "explanation": "The Time Use Survey is conducted by the NSO under the Ministry of Statistics and Programme Implementation.",
+    "subject": "Society",
+    "theme": "Women and mobility",
+    "micro_topic": "Time Use Survey",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the recent concerns over leakage of vehicle-owner data, consider the following statements:\n1. VAHAN and SARATHI are national databases on vehicle registration and driving licences respectively.\n2. Under CERT-In Directions of 2022, cyber incidents must be reported within 24 hours.\n3. The breach-notification obligations under the DPDP Act, 2023 were already fully in force in October 2026.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "CERT-In requires reporting within 6 hours, not 24; DPDP breach-notification provisions take effect on 13 May 2027 per the cited source.",
+    "subject": "Polity & Governance",
+    "theme": "Data protection",
+    "micro_topic": "Vehicle data leak, DPDP Act, CERT-In",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Article 15(3) of the Constitution of India:",
+    "options": [
+      "(a) bars the State from making any discrimination on grounds of sex",
+      "(b) permits the State to make special provisions for women and children",
+      "(c) permits reservation for women in public employment only",
+      "(d) applies only to private establishments"
+    ],
+    "answer": "(b)",
+    "explanation": "Art. 15(3) is an exception to the non-discrimination clause, enabling special provisions for women and children.",
+    "subject": "Polity & Governance",
+    "theme": "Fundamental Rights",
+    "micro_topic": "Article 15(3)",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The Supreme Court's recognition of the right to privacy as a fundamental right (K.S. Puttaswamy v. Union of India, 2017) was delivered by a bench of:",
+    "options": [
+      "(a) three judges",
+      "(b) five judges",
+      "(c) seven judges",
+      "(d) nine judges"
+    ],
+    "answer": "(d)",
+    "explanation": "A nine-judge Constitution Bench unanimously held privacy to be protected under Art. 21 and Part III.",
+    "subject": "Polity & Governance",
+    "theme": "Fundamental Rights",
+    "micro_topic": "Right to privacy",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  }
+]

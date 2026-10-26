@@ -1,0 +1,42 @@
+#separator:tab
+#html:false
+OIC: founding year/place, HQ, India's status?	Founded 1969 (Rabat summit); HQ Jeddah; 57 members. India is neither member nor observer (guest of honour at 2019 Abu Dhabi session).
+Ethanol 2026-27 OMC tender: which feedstocks are excluded and what is sugar diversion?	Sugarcane juice, sugar syrup and B-heavy molasses excluded; sugar diversion set to zero for 2026-27. Allowed: maize, broken rice, FCI rice, damaged grain, C-heavy molasses.
+Maize-ethanol price after Oct 2026 revision?	Cut to Rs 68.86/litre from Rs 71.86.
+Open Coalition on Compliance Carbon Markets (OCCCM): who and when?	Constituted 7 May 2026 in Florence by EU, Brazil and China (Brazil proposed at COP30). India is not a member.
+India's Carbon Credit Trading Scheme (CCTS): legal basis and administrator?	Energy Conservation (Amendment) Act 2022; administered by Bureau of Energy Efficiency.
+Dr. B.C. Roy Engineering College v. State of West Bengal (2026): SC holding?	Fees for the whole professional course must be notified before admission; mid-course hike only in exceptional, unforeseeable circumstances. Bench: Justices P.S. Narasimha and Alok Aradhe.
+China's export controls on tunnel-boring machines: who and effective date?	Announced by China's Commerce Ministry (MOFCOM); effective 18 November 2026 (dual-use licence regime).
+Aditya-L1: launch date, vehicle, orbit?	Launched 2 Sept 2023 on PSLV-C57; halo orbit at Sun-Earth L1 (~1.5 million km) since 6 Jan 2024.
+Aditya-L1 payloads: remote-sensing vs in-situ?	Remote-sensing: VELC, SUIT, SoLEXS, HEL1OS. In-situ: ASPEX, PAPA, magnetometers. VELC is the largest payload.
+Reuters-coined 'heat storm': definition?	Heat event covering at least 1% of the globe at peak (journalistic term, not an IPCC/WMO category).
+IMD heat wave criteria (plains)?	Max temp >= 40 C with departure >= 4.5 C from normal, or absolute >= 45 C (37 C coastal, 30 C hills).
+Ladakh: which bodies rejected MHA's draft governance model and when?	Leh Apex Body (LAB) and Kargil Democratic Alliance (KDA), in principle, on 15 Oct 2026. Ladakh is a UT without legislature since Aug 2019.
+Ladakh Autonomous Hill Development Councils (Amendment) Regulation 2026: key change?	Hill councils extended from Leh and Kargil to all 8 districts; constituencies 7-24 per council; statutory councils, NOT Sixth Schedule.
+Sixth Schedule: article and states covered?	Article 244(2); tribal areas of Assam, Meghalaya, Tripura, Mizoram. (Manipur hills fall under Art 371C.)
+PM Internship Scheme: launch, goal, nodal ministry?	Pilot Oct 2024; goal 1 crore internships over 5 years; nodal ministry: Ministry of Corporate Affairs. March 2026 revamp: stipend Rs 5,000 to Rs 9,000; age 18-25.
+India-Poland ties: when elevated to Strategic Partnership?	August 2024, during PM Modi's Warsaw visit. Polish PM Donald Tusk visited India 21-23 Oct 2026.
+Proposed India SAF blending mandate for international flights?	1% from 2027, 2% in 2028, 5% in 2030 (reported, notification awaited); linked to ICAO's CORSIA (adopted 2016; mandatory phase 2027-35).
+UDAN scheme: launch and successor?	Launched 21 Oct 2016 under NCAP 2016 (Regional Connectivity Scheme); successor Viksit UDAN FY2026-27 to FY2035-36, ~Rs 28,840 crore; VGF up to 5 years per route.
+SC ruling Secretary to Government v. Sameer Ahamed (15 Oct 2026)?	Conversion alone does not carry over pre-conversion backwardness; TN's 9 Mar 2024 GO for converts to Islam invalid. Bench: Justices P.K. Mishra and Shree Chandrashekhar.
+eMudhra incident (Oct 2026): what happened?	Eight intermediate CA keys of Bengaluru-based eMudhra were recoverable (weak randomness in key generation); Chrome, Mozilla, Apple, Microsoft blocked them. CAs are licensed by the Controller of Certifying Authorities under the IT Act 2000.
+New UNESCO Tentative List additions from India (20 Oct 2026)?	Karst-Mud-Volcano Complex of Baratang, Andaman Subduction Volcanoes (Narcondam and Barren Island), Sirpur landscape (Chhattisgarh).
+India's only active volcano?	Barren Island (Andaman). Tentative List entry is the mandatory first step before a World Heritage nomination.
+India's only UNESCO mixed (cultural + natural) World Heritage Site?	Khangchendzonga National Park (inscribed 2016).
+UNEP Emissions Gap Report 2026: title and headline?	'The Point of Return': 1.5 C with limited overshoot no longer possible. Cuts needed vs 2025: 18% by 2030, 45% by 2035, 69% by 2040.
+UNEP EGR 2026: projected warming?	~2.8 C on current policies; 2.6 C if NDCs fully delivered; 2.1 C if NDCs plus net-zero targets delivered.
+Revised Index of Core Industries: base year and structure?	Base 2022-23 (old 2011-12); nine industries with Iron Ore newly added. Compiled by Office of Economic Adviser, DPIIT.
+ICI weights: top three industries?	Electricity 30.93%, Refinery Products 22.57%, Steel 17.58%. Core sector grew 7.9% in September 2026.
+IIP compiler?	National Statistics Office (NSO), MoSPI. (ICI is compiled by DPIIT's Office of Economic Adviser.)
+Badr MoU (Doha, 21 Oct 2026): parties and nature?	Pakistan, Turkiye, Qatar, Indonesia; defence-industrial cooperation MoU with no mutual-defence clause (unlike the Aug Saudi-Turkiye-Pakistan Makkah pact).
+7th Agrivoltaics World Conference: venue, dates, theme?	Bharat Mandapam, New Delhi, 21-23 Oct 2026; theme 'Powering the Global South'; MNRE with Agriculture Ministry.
+EAM Jaishankar in Baku (23 Oct 2026): whom did he meet and what did India welcome?	President Ilham Aliyev and FM Jeyhun Bayramov; India welcomed the Armenia-Azerbaijan peace agreement.
+Jio Platforms IPO: size, structure?	~Rs 30,213 crore, India's largest IPO (beats Hyundai India Rs 27,870 crore, 2024); entirely fresh issue, no OFS; price band Rs 1,065-1,119.
+MEE-TR 2026 (6th cycle): who runs it and what is new?	NTCA with Wildlife Institute of India; covers all 58 tiger reserves; solid waste management now a separate criterion. MEE began 2006, four-yearly; Periyar topped 2022 (94.38%).
+CISF restructuring from 1 Nov 2026?	Territorial commands replaced by sector-based commands (coal, steel, power, petroleum, GBMM and MRTS, West Coast and East Coast port sectors). CISF: raised 1969 under CISF Act 1968; under MHA.
+Varunastra and GSAT-7C contracts (15 Oct 2026)?	Rs 4,106 crore total: GSAT-7C for IAF (Rs 2,563 cr, NSIL) and Varunastra heavyweight torpedo for Navy (Rs 1,543 cr, BDL; developed by DRDO's NSTL).
+UPSC centenary: when established?	1 Oct 1926 (completed 100 years on 1 Oct 2026); Lee Commission (1924) recommended statutory PSC; Kothari Committee (1979) gave the three-stage exam.
+India-New Zealand FTA: status?	Entered into force on 20 October 2026.
+Kashi Tamil Sangamam 5.0: dates and organisers?	28 Nov-12 Dec 2026; Dept of Higher Education with IIT Madras, BHU, CICT and UP Government.
+Law Commission of India: legal status?	Non-statutory, executive-constituted advisory body, set up for fixed terms by gazette notification (23rd Law Commission).
+QNu Labs funding (Oct 2026)?	Rs 150 crore from TDB (under DST) via RDI Fund as optionally convertible debt; Bengaluru-based; includes quantum magnetometers for GPS-free navigation.

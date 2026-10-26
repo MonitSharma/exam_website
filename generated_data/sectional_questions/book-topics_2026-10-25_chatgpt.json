@@ -1,0 +1,1552 @@
+[
+ {
+  "id": "book_topics_2026_10_25_01",
+  "question_number": 1,
+  "question": "With reference to legislatures for Union Territories, consider the following statements:\n1. A law made by Parliament under Article 239A creating a legislature for Puducherry is not deemed to be an amendment of the Constitution under Article 368, even if it modifies constitutional provisions.\n2. Delhi's Legislative Assembly was created by Parliament through an ordinary law under Article 239A.\n3. The Union Territory of Ladakh has no legislature under the Jammu and Kashmir Reorganisation Act, 2019.\nWhich of the statements given above are correct?",
+  "options": [
+   {
+    "key": "a",
+    "text": "1 only"
+   },
+   {
+    "key": "b",
+    "text": "1 and 3 only"
+   },
+   {
+    "key": "c",
+    "text": "2 and 3 only"
+   },
+   {
+    "key": "d",
+    "text": "1, 2 and 3"
+   }
+  ],
+  "answer": "b",
+  "explanation": "Art 239A(2) says such a law is not an amendment under Art 368. Delhi's Assembly comes from Art 239AA, inserted by the 69th Amendment (1991), not from Art 239A. The 2019 Act made J&K a UT with a legislature and Ladakh a UT without one.",
+  "subject": "Polity",
+  "theme": "Polity - Laxmikanth: Union Territories + Scheduled and Tribal Areas + Art 371 special provisions (revision round)",
+  "micro_topic": "Article 239A vs 239AA; legislature of UTs",
+  "nature": "Static",
+  "difficulty": "Moderate",
+  "source_type": "sectional"
+ },
+ {
+  "id": "book_topics_2026_10_25_02",
+  "question_number": 2,
+  "question": "Which one of the following is correct about the National Capital Civil Services Authority set up under the Government of National Capital Territory of Delhi (Amendment) Act, 2023?",
+  "options": [
+   {
+    "key": "a",
+    "text": "It is a constitutional body created under Article 239AA(7) and is chaired by the Lieutenant Governor."
+   },
+   {
+    "key": "b",
+    "text": "It is chaired by the Chief Minister of Delhi, its other members are the Chief Secretary and the Principal Home Secretary of Delhi, and it decides by majority vote."
+   },
+   {
+    "key": "c",
+    "text": "Its recommendations on transfers and postings bind the Lieutenant Governor in every case."
+   },
+   {
+    "key": "d",
+    "text": "It is a body under the Union Public Service Commission that conducts recruitment for Delhi's services."
+   }
+  ],
+  "answer": "b",
+  "explanation": "The Authority is statutory (2023 Act), chaired by the CM with the Chief Secretary and Principal Home Secretary, and decides by majority. It recommends to the LG; if the LG differs, the LG's decision is final. The Act followed the May 2023 Constitution Bench ruling on control of services in Delhi.",
+  "subject": "Polity",
+  "theme": "Polity - Laxmikanth: Union Territories + Scheduled and Tribal Areas + Art 371 special provisions (revision round)",
+  "micro_topic": "Article 239AA - GNCTD (Amendment) Act 2023, National Capital Civil Services Authority",
+  "nature": "Static",
+  "difficulty": "Moderate",
+  "source_type": "sectional"
+ },
+ {
+  "id": "book_topics_2026_10_25_03",
+  "question_number": 3,
+  "question": "Consider the following pairs:\nUnion Territory : High Court having jurisdiction\n1. Lakshadweep : Kerala High Court\n2. Andaman and Nicobar Islands : Madras High Court\n3. Dadra and Nagar Haveli and Daman and Diu : Bombay High Court\n4. Puducherry : Madras High Court\nHow many of the pairs given above are correctly matched?",
+  "options": [
+   {
+    "key": "a",
+    "text": "Only one pair"
+   },
+   {
+    "key": "b",
+    "text": "Only two pairs"
+   },
+   {
+    "key": "c",
+    "text": "Only three pairs"
+   },
+   {
+    "key": "d",
+    "text": "All four pairs"
+   }
+  ],
+  "answer": "c",
+  "explanation": "The Andaman and Nicobar Islands come under the Calcutta High Court. The other three pairs are correct. Art 241 lets Parliament set up a High Court for a UT or declare a court in a UT to be a High Court.",
+  "subject": "Polity",
+  "theme": "Polity - Laxmikanth: Union Territories + Scheduled and Tribal Areas + Art 371 special provisions (revision round)",
+  "micro_topic": "Article 241 - High Court jurisdiction over Union Territories",
+  "nature": "Static",
+  "difficulty": "Easy",
+  "source_type": "sectional"
+ },
+ {
+  "id": "book_topics_2026_10_25_04",
+  "question_number": 4,
+  "question": "Consider the following statements:\n1. The merger of Dadra and Nagar Haveli with Daman and Diu was done by an ordinary law of Parliament and took effect on 26 January 2020.\n2. Since that merger, India has eight Union Territories.\n3. The President can make regulations for the peace, progress and good government of the merged Union Territory under Article 240.\nWhich of the statements given above are correct?",
+  "options": [
+   {
+    "key": "a",
+    "text": "1 and 2 only"
+   },
+   {
+    "key": "b",
+    "text": "2 and 3 only"
+   },
+   {
+    "key": "c",
+    "text": "1 and 3 only"
+   },
+   {
+    "key": "d",
+    "text": "1, 2 and 3"
+   }
+  ],
+  "answer": "d",
+  "explanation": "The Merger of Union territories Act, 2019 is an ordinary law (Art 4 laws are not Art 368 amendments). It took effect on 26 Jan 2020. The eight UTs are A&N, Chandigarh, DNH&DD, Delhi, J&K, Ladakh, Lakshadweep and Puducherry. Art 240 lists the merged UT.",
+  "subject": "Polity",
+  "theme": "Polity - Laxmikanth: Union Territories + Scheduled and Tribal Areas + Art 371 special provisions (revision round)",
+  "micro_topic": "UT merger 2019 - Dadra and Nagar Haveli and Daman and Diu; Article 240",
+  "nature": "Static",
+  "difficulty": "Moderate",
+  "source_type": "sectional"
+ },
+ {
+  "id": "book_topics_2026_10_25_05",
+  "question_number": 5,
+  "question": "Under the Fifth Schedule, the Governor of a State with Scheduled Areas may make regulations for the peace and good government of those areas. Such regulations may:\n1. prohibit or restrict the transfer of land by or among members of the Scheduled Tribes\n2. regulate the business of money-lending to members of the Scheduled Tribes\n3. repeal or amend an Act of Parliament that applies to the area\nSelect the correct answer using the code given below:",
+  "options": [
+   {
+    "key": "a",
+    "text": "1 and 2 only"
+   },
+   {
+    "key": "b",
+    "text": "2 and 3 only"
+   },
+   {
+    "key": "c",
+    "text": "1, 2 and 3"
+   },
+   {
+    "key": "d",
+    "text": "1 only"
+   }
+  ],
+  "answer": "c",
+  "explanation": "Para 5(2) covers land transfer, allotment of land and money-lending. Para 5(3) lets the Governor repeal or amend any Act of Parliament or of the State Legislature applicable to the area. Such regulations need the President's assent, and the Tribes Advisory Council must be consulted first. Statement 3 is the trap.",
+  "subject": "Polity",
+  "theme": "Polity - Laxmikanth: Union Territories + Scheduled and Tribal Areas + Art 371 special provisions (revision round)",
+  "micro_topic": "Fifth Schedule para 5 - Governor's regulation-making power",
+  "nature": "Static",
+  "difficulty": "Hard",
+  "source_type": "sectional"
+ },
+ {
+  "id": "book_topics_2026_10_25_06",
+  "question_number": 6,
+  "question": "With reference to Autonomous District Councils (ADCs) under the Sixth Schedule, consider the following statements:\n1. An ADC has up to 30 members, of whom up to four are nominated by the Governor.\n2. The Governor may increase or decrease the area of an autonomous district, or change its name, by public notification.\n3. In Assam, Acts of Parliament apply to autonomous districts automatically unless the ADC passes a resolution against them.\nWhich of the statements given above are correct?",
+  "options": [
+   {
+    "key": "a",
+    "text": "1 only"
+   },
+   {
+    "key": "b",
+    "text": "1 and 2 only"
+   },
+   {
+    "key": "c",
+    "text": "2 and 3 only"
+   },
+   {
+    "key": "d",
+    "text": "1, 2 and 3"
+   }
+  ],
+  "answer": "b",
+  "explanation": "Statements 1 and 2 are correct. In Assam, it is the Governor who may direct by notification that an Act of Parliament or of the State does not apply to an autonomous district, or applies with changes (para 12). The ADC has no such veto.",
+  "subject": "Polity",
+  "theme": "Polity - Laxmikanth: Union Territories + Scheduled and Tribal Areas + Art 371 special provisions (revision round)",
+  "micro_topic": "Sixth Schedule - ADC composition, Governor's powers, application of laws in Assam",
+  "nature": "Static",
+  "difficulty": "Moderate",
+  "source_type": "sectional"
+ },
+ {
+  "id": "book_topics_2026_10_25_07",
+  "question_number": 7,
+  "question": "Consider the following statements:\nStatement-I: Parliament can amend the Sixth Schedule by an ordinary law passed by a simple majority.\nStatement-II: The Sixth Schedule itself provides that such a law shall not be deemed to be an amendment of the Constitution for the purposes of Article 368.\nWhich one of the following is correct in respect of the above statements?",
+  "options": [
+   {
+    "key": "a",
+    "text": "Both Statement-I and Statement-II are correct, and Statement-II explains Statement-I"
+   },
+   {
+    "key": "b",
+    "text": "Both Statement-I and Statement-II are correct, but Statement-II does not explain Statement-I"
+   },
+   {
+    "key": "c",
+    "text": "Statement-I is correct, but Statement-II is incorrect"
+   },
+   {
+    "key": "d",
+    "text": "Statement-I is incorrect, but Statement-II is correct"
+   }
+  ],
+  "answer": "a",
+  "explanation": "Para 21 of the Sixth Schedule (and para 7 of the Fifth) lets Parliament amend the Schedule by law. It also says such a law is not an Art 368 amendment. That is why a simple majority is enough.",
+  "subject": "Polity",
+  "theme": "Polity - Laxmikanth: Union Territories + Scheduled and Tribal Areas + Art 371 special provisions (revision round)",
+  "micro_topic": "Amending the Fifth and Sixth Schedules - outside Article 368",
+  "nature": "Static",
+  "difficulty": "Easy",
+  "source_type": "sectional"
+ },
+ {
+  "id": "book_topics_2026_10_25_08",
+  "question_number": 8,
+  "question": "Consider the following pairs:\nArticle : Special provision\n1. Article 371 : Separate development boards for regions of Maharashtra and Gujarat\n2. Article 371C : Committee of the Assembly made up of members from the Hill Areas of Manipur\n3. Article 371E : Special provisions for Sikkim\n4. Article 371D : Equitable opportunities in public employment and education in Andhra Pradesh and Telangana\nHow many of the pairs given above are correctly matched?",
+  "options": [
+   {
+    "key": "a",
+    "text": "Only one pair"
+   },
+   {
+    "key": "b",
+    "text": "Only two pairs"
+   },
+   {
+    "key": "c",
+    "text": "Only three pairs"
+   },
+   {
+    "key": "d",
+    "text": "All four pairs"
+   }
+  ],
+  "answer": "c",
+  "explanation": "Art 371E lets Parliament set up a Central University in Andhra Pradesh. Sikkim is under Art 371F (36th Amendment, 1975). Pairs 1, 2 and 4 are correct.",
+  "subject": "Polity",
+  "theme": "Polity - Laxmikanth: Union Territories + Scheduled and Tribal Areas + Art 371 special provisions (revision round)",
+  "micro_topic": "Article 371 series - State-specific special provisions",
+  "nature": "Static",
+  "difficulty": "Moderate",
+  "source_type": "sectional"
+ },
+ {
+  "id": "book_topics_2026_10_25_09",
+  "question_number": 9,
+  "question": "With reference to Article 371F, consider the following statements:\n1. The Legislative Assembly of Sikkim shall have not less than 30 members.\n2. Parliament may provide for the number of Assembly seats to be filled by candidates from different sections of Sikkim's population.\n3. The Governor of Sikkim has special responsibility for peace and for an equitable arrangement for the social and economic advancement of different sections of the population.\nWhich of the statements given above are correct?",
+  "options": [
+   {
+    "key": "a",
+    "text": "1 only"
+   },
+   {
+    "key": "b",
+    "text": "1 and 2 only"
+   },
+   {
+    "key": "c",
+    "text": "2 and 3 only"
+   },
+   {
+    "key": "d",
+    "text": "1, 2 and 3"
+   }
+  ],
+  "answer": "d",
+  "explanation": "All three are clauses of Art 371F, inserted by the 36th Amendment (1975) when Sikkim became a State. The sectional-seat clause is the basis of the Sangha seat. Note: Goa's 'not less than 30' rule is in Art 371-I, a common trap.",
+  "subject": "Polity",
+  "theme": "Polity - Laxmikanth: Union Territories + Scheduled and Tribal Areas + Art 371 special provisions (revision round)",
+  "micro_topic": "Article 371F - Sikkim",
+  "nature": "Static",
+  "difficulty": "Hard",
+  "source_type": "sectional"
+ },
+ {
+  "id": "book_topics_2026_10_25_10",
+  "question_number": 10,
+  "question": "The Supreme Court's judgment in Samatha v. State of Andhra Pradesh (1997) is most closely linked with which one of the following?",
+  "options": [
+   {
+    "key": "a",
+    "text": "The power of Sixth Schedule District Councils to levy taxes on mining"
+   },
+   {
+    "key": "b",
+    "text": "Extending Panchayati Raj to Scheduled Areas through PESA"
+   },
+   {
+    "key": "c",
+    "text": "The special provisions for Nagaland under Article 371A"
+   },
+   {
+    "key": "d",
+    "text": "Barring the lease of land in Fifth Schedule areas to non-tribal private parties for mining"
+   }
+  ],
+  "answer": "d",
+  "explanation": "Samatha read the Fifth Schedule's land-protection scheme to bar leasing land in Scheduled Areas to non-tribal private parties for mining. UPSC asked on this area in 2019 (which Schedule can void such transfers), and on the effect of a Fifth Schedule declaration in 2022 and 2025 (local PYQ data). This is a new stem in the same pattern.",
+  "subject": "Polity",
+  "theme": "Polity - Laxmikanth: Union Territories + Scheduled and Tribal Areas + Art 371 special provisions (revision round)",
+  "micro_topic": "Samatha judgment (1997) - Fifth Schedule land and mining (PYQ-pattern)",
+  "nature": "Static",
+  "difficulty": "Moderate",
+  "source_type": "sectional"
+ },
+ {
+  "id": "book_topics_2026_10_25_11",
+  "question_number": 11,
+  "question": "With reference to the Income-tax Act, 2025, consider the following statements:\n1. It replaced the Income-tax Act, 1961 with effect from 1 April 2026.\n2. It replaces the 'previous year' and 'assessment year' with a single 'tax year'.\n3. Under it, the Union levies income tax on agricultural income.\nWhich of the statements given above are correct?",
+  "options": [
+   {
+    "key": "a",
+    "text": "1 only"
+   },
+   {
+    "key": "b",
+    "text": "1 and 2 only"
+   },
+   {
+    "key": "c",
+    "text": "2 and 3 only"
+   },
+   {
+    "key": "d",
+    "text": "1, 2 and 3"
+   }
+  ],
+  "answer": "b",
+  "explanation": "The 2025 Act came into force on 1 April 2026 and uses a single 'tax year'. Tax on agricultural income is a State subject (Entry 46, State List), so central income tax does not cover it.",
+  "subject": "Economy",
+  "theme": "Economy - Vivek Singh Ch 4 taxation (incl. GST) + Ch 9 Subsidies: Budget anticipation part 2",
+  "micro_topic": "Income-tax Act, 2025 - tax year; agricultural income",
+  "nature": "Static",
+  "difficulty": "Easy",
+  "source_type": "sectional"
+ },
+ {
+  "id": "book_topics_2026_10_25_12",
+  "question_number": 12,
+  "question": "With reference to the GST rate rationalisation approved at the 56th meeting of the GST Council in September 2025, consider the following statements:\n1. It moved to two main slabs of 5% and 18%.\n2. It added a special rate of 40% for select luxury and 'sin' goods.\n3. The new rates took effect from 22 September 2025.\nWhich of the statements given above are correct?",
+  "options": [
+   {
+    "key": "a",
+    "text": "1 only"
+   },
+   {
+    "key": "b",
+    "text": "1 and 2 only"
+   },
+   {
+    "key": "c",
+    "text": "2 and 3 only"
+   },
+   {
+    "key": "d",
+    "text": "1, 2 and 3"
+   }
+  ],
+  "answer": "d",
+  "explanation": "All three are correct. The earlier 12% and 28% slabs were folded into the 5%, 18% and 40% structure, which applied from 22 Sept 2025. This is a stable fact you will need when reading the Budget.",
+  "subject": "Economy",
+  "theme": "Economy - Vivek Singh Ch 4 taxation (incl. GST) + Ch 9 Subsidies: Budget anticipation part 2",
+  "micro_topic": "GST rate rationalisation, 56th GST Council (Sept 2025)",
+  "nature": "Static",
+  "difficulty": "Moderate",
+  "source_type": "sectional"
+ },
+ {
+  "id": "book_topics_2026_10_25_13",
+  "question_number": 13,
+  "question": "Consider the following pairs:\nArticle : Subject\n1. Article 246A : Power of both Parliament and State Legislatures to make laws on GST\n2. Article 269A : GST on inter-State supply, levied and collected by the Union and shared with the States\n3. Article 279A : The GST Council\n4. Article 268A : Service tax levied by the Union, still in force after the 101st Amendment\nHow many of the pairs given above are correctly matched?",
+  "options": [
+   {
+    "key": "a",
+    "text": "Only one pair"
+   },
+   {
+    "key": "b",
+    "text": "Only two pairs"
+   },
+   {
+    "key": "c",
+    "text": "Only three pairs"
+   },
+   {
+    "key": "d",
+    "text": "All four pairs"
+   }
+  ],
+  "answer": "c",
+  "explanation": "The 101st Amendment (2016) omitted Art 268A on service tax, because GST absorbed it. Pairs 1 to 3 are correct. Under Art 246A(2), Parliament alone makes laws on inter-State supply.",
+  "subject": "Economy",
+  "theme": "Economy - Vivek Singh Ch 4 taxation (incl. GST) + Ch 9 Subsidies: Budget anticipation part 2",
+  "micro_topic": "GST constitutional articles - 246A, 269A, 279A, omitted 268A",
+  "nature": "Static",
+  "difficulty": "Hard",
+  "source_type": "sectional"
+ },
+ {
+  "id": "book_topics_2026_10_25_14",
+  "question_number": 14,
+  "question": "With reference to the corporate tax changes made by the Taxation Laws (Amendment) Act, 2019, consider the following statements:\n1. Domestic companies could opt for a 22% base rate if they gave up specified exemptions and incentives.\n2. New domestic manufacturing companies could opt for a 15% base rate.\n3. The new regimes were compulsory for all domestic companies.\nWhich of the statements given above are correct?",
+  "options": [
+   {
+    "key": "a",
+    "text": "1 and 2 only"
+   },
+   {
+    "key": "b",
+    "text": "2 and 3 only"
+   },
+   {
+    "key": "c",
+    "text": "1 and 3 only"
+   },
+   {
+    "key": "d",
+    "text": "1, 2 and 3"
+   }
+  ],
+  "answer": "a",
+  "explanation": "Both regimes are optional (Sections 115BAA and 115BAB). Companies that choose them give up exemptions and are not liable to Minimum Alternate Tax. Statement 3 is false.",
+  "subject": "Economy",
+  "theme": "Economy - Vivek Singh Ch 4 taxation (incl. GST) + Ch 9 Subsidies: Budget anticipation part 2",
+  "micro_topic": "Corporate tax cut 2019 - 22% and 15% regimes",
+  "nature": "Static",
+  "difficulty": "Moderate",
+  "source_type": "sectional"
+ },
+ {
+  "id": "book_topics_2026_10_25_15",
+  "question_number": 15,
+  "question": "Consider the following statements:\n1. Cesses and surcharges levied by the Union are not part of the divisible pool shared with the States.\n2. Article 271 lets the Union levy a surcharge on certain taxes for the purposes of the Union.\n3. A surcharge must be spent only on the purpose for which it was levied.\nWhich of the statements given above are correct?",
+  "options": [
+   {
+    "key": "a",
+    "text": "1 only"
+   },
+   {
+    "key": "b",
+    "text": "1 and 2 only"
+   },
+   {
+    "key": "c",
+    "text": "2 and 3 only"
+   },
+   {
+    "key": "d",
+    "text": "1, 2 and 3"
+   }
+  ],
+  "answer": "b",
+  "explanation": "Art 270(1) keeps cesses and surcharges out of the divisible pool. Art 271 allows surcharges, but not on GST. A cess is earmarked for a purpose. A surcharge is not earmarked and goes into the Consolidated Fund of India for general use, so statement 3 is false.",
+  "subject": "Economy",
+  "theme": "Economy - Vivek Singh Ch 4 taxation (incl. GST) + Ch 9 Subsidies: Budget anticipation part 2",
+  "micro_topic": "Cess vs surcharge - Articles 270 and 271",
+  "nature": "Static",
+  "difficulty": "Moderate",
+  "source_type": "sectional"
+ },
+ {
+  "id": "book_topics_2026_10_25_16",
+  "question_number": 16,
+  "question": "The 'Laffer curve' shows the relationship between which of the following?",
+  "options": [
+   {
+    "key": "a",
+    "text": "Tax rate and tax revenue"
+   },
+   {
+    "key": "b",
+    "text": "Inflation and unemployment"
+   },
+   {
+    "key": "c",
+    "text": "Per capita income and inequality"
+   },
+   {
+    "key": "d",
+    "text": "Money supply and the price level"
+   }
+  ],
+  "answer": "a",
+  "explanation": "The Laffer curve says revenue rises with the tax rate up to a point and then falls, as high rates discourage activity and encourage evasion. Inflation and unemployment are the Phillips curve. Income and inequality are the Kuznets curve.",
+  "subject": "Economy",
+  "theme": "Economy - Vivek Singh Ch 4 taxation (incl. GST) + Ch 9 Subsidies: Budget anticipation part 2",
+  "micro_topic": "Laffer curve",
+  "nature": "Static",
+  "difficulty": "Easy",
+  "source_type": "sectional"
+ },
+ {
+  "id": "book_topics_2026_10_25_17",
+  "question_number": 17,
+  "question": "With reference to the National Food Security Act, 2013, consider the following statements:\n1. It covers up to 75% of the rural and up to 50% of the urban population.\n2. Antyodaya Anna Yojana households are entitled to 35 kg of foodgrains per household per month.\n3. The eldest woman aged 18 or above is to be the head of the household for issuing ration cards.\n4. It provides for a food security allowance if the entitled foodgrains are not supplied.\nHow many of the statements given above are correct?",
+  "options": [
+   {
+    "key": "a",
+    "text": "Only one"
+   },
+   {
+    "key": "b",
+    "text": "Only two"
+   },
+   {
+    "key": "c",
+    "text": "Only three"
+   },
+   {
+    "key": "d",
+    "text": "All four"
+   }
+  ],
+  "answer": "d",
+  "explanation": "All four are provisions of the Act. Priority households get 5 kg per person per month. The women-as-head rule and the food security allowance are often missed.",
+  "subject": "Economy",
+  "theme": "Economy - Vivek Singh Ch 4 taxation (incl. GST) + Ch 9 Subsidies: Budget anticipation part 2",
+  "micro_topic": "National Food Security Act, 2013 - coverage and entitlements",
+  "nature": "Static",
+  "difficulty": "Moderate",
+  "source_type": "sectional"
+ },
+ {
+  "id": "book_topics_2026_10_25_18",
+  "question_number": 18,
+  "question": "Consider the following statements:\n1. PMGKAY provides free foodgrains to NFSA beneficiaries and was extended for five years from 1 January 2024.\n2. Under PAHAL, the consumer buys the LPG cylinder at market price and the subsidy is credited to the consumer's bank account.\n3. The Shanta Kumar High Level Committee (2015) recommended raising NFSA coverage to about 90% of the population.\nWhich of the statements given above are correct?",
+  "options": [
+   {
+    "key": "a",
+    "text": "1 only"
+   },
+   {
+    "key": "b",
+    "text": "2 only"
+   },
+   {
+    "key": "c",
+    "text": "1 and 2 only"
+   },
+   {
+    "key": "d",
+    "text": "1, 2 and 3"
+   }
+  ],
+  "answer": "c",
+  "explanation": "Statements 1 and 2 are correct. The Shanta Kumar committee on restructuring FCI recommended cutting NFSA coverage to about 40%. It also proposed a gradual move to cash transfers and leaving more procurement to the States.",
+  "subject": "Economy",
+  "theme": "Economy - Vivek Singh Ch 4 taxation (incl. GST) + Ch 9 Subsidies: Budget anticipation part 2",
+  "micro_topic": "PMGKAY, PAHAL-DBT, Shanta Kumar HLC (2015)",
+  "nature": "Static",
+  "difficulty": "Moderate",
+  "source_type": "sectional"
+ },
+ {
+  "id": "book_topics_2026_10_25_19",
+  "question_number": 19,
+  "question": "Which one of the following is the best example of a Pigouvian tax?",
+  "options": [
+   {
+    "key": "a",
+    "text": "A tax on wealth above a threshold"
+   },
+   {
+    "key": "b",
+    "text": "A tax on carbon emissions set roughly equal to the external damage they cause"
+   },
+   {
+    "key": "c",
+    "text": "A securities transaction tax on equity trades"
+   },
+   {
+    "key": "d",
+    "text": "A tax on agricultural income"
+   }
+  ],
+  "answer": "b",
+  "explanation": "A Pigouvian tax corrects a negative externality by making the polluter pay its social cost. A carbon tax is the standard example. The other options are taxes on wealth, transactions or income.",
+  "subject": "Economy",
+  "theme": "Economy - Vivek Singh Ch 4 taxation (incl. GST) + Ch 9 Subsidies: Budget anticipation part 2",
+  "micro_topic": "Pigouvian tax",
+  "nature": "Static",
+  "difficulty": "Easy",
+  "source_type": "sectional"
+ },
+ {
+  "id": "book_topics_2026_10_25_20",
+  "question_number": 20,
+  "question": "Who presided over the founding session of the All India Trade Union Congress (AITUC) in Bombay in 1920?",
+  "options": [
+   {
+    "key": "a",
+    "text": "Lala Lajpat Rai"
+   },
+   {
+    "key": "b",
+    "text": "N.M. Joshi"
+   },
+   {
+    "key": "c",
+    "text": "V.V. Giri"
+   },
+   {
+    "key": "d",
+    "text": "Jawaharlal Nehru"
+   }
+  ],
+  "answer": "a",
+  "explanation": "Lala Lajpat Rai was AITUC's first president. Dewan Chaman Lal was its first general secretary. N.M. Joshi helped found it. Nehru presided over the 1929 Nagpur session, where the moderates split away.",
+  "subject": "Modern History",
+  "theme": "Modern History - Spectrum: Working Class Movement + Ch 14-25 compression",
+  "micro_topic": "AITUC 1920 - first session",
+  "nature": "Static",
+  "difficulty": "Easy",
+  "source_type": "sectional"
+ },
+ {
+  "id": "book_topics_2026_10_25_21",
+  "question_number": 21,
+  "question": "Consider the following statements:\n1. The Indian Factory Act, 1881 dealt mainly with child labour.\n2. The Factory Act, 1891 limited women's working hours to 11 a day and gave all workers a weekly holiday.\n3. Both Acts were passed mainly because the Indian National Congress demanded them.\nWhich of the statements given above are correct?",
+  "options": [
+   {
+    "key": "a",
+    "text": "1 and 2 only"
+   },
+   {
+    "key": "b",
+    "text": "2 and 3 only"
+   },
+   {
+    "key": "c",
+    "text": "1 and 3 only"
+   },
+   {
+    "key": "d",
+    "text": "1, 2 and 3"
+   }
+  ],
+  "answer": "a",
+  "explanation": "The 1881 Act banned work for children under 7 and limited hours for those aged 7 to 12. The 1891 Act set 11 hours for women and a weekly holiday. Both came mainly from pressure by Lancashire textile interests. Early nationalists were lukewarm, fearing harm to Indian industry.",
+  "subject": "Modern History",
+  "theme": "Modern History - Spectrum: Working Class Movement + Ch 14-25 compression",
+  "micro_topic": "Factory Acts 1881 and 1891",
+  "nature": "Static",
+  "difficulty": "Moderate",
+  "source_type": "sectional"
+ },
+ {
+  "id": "book_topics_2026_10_25_22",
+  "question_number": 22,
+  "question": "Consider the following pairs:\nLeader : Organisation\n1. N.M. Lokhande : Bombay Mill Hands' Association\n2. B.P. Wadia : Madras Labour Union\n3. Anasuya Sarabhai : Ahmedabad Textile Labour Association\n4. Sasipada Banerjee : Girni Kamgar Union\nHow many of the pairs given above are correctly matched?",
+  "options": [
+   {
+    "key": "a",
+    "text": "Only one pair"
+   },
+   {
+    "key": "b",
+    "text": "Only two pairs"
+   },
+   {
+    "key": "c",
+    "text": "Only three pairs"
+   },
+   {
+    "key": "d",
+    "text": "All four pairs"
+   }
+  ],
+  "answer": "c",
+  "explanation": "The Girni Kamgar Union was a communist-led Bombay union behind the 1928 textile strike. Sasipada Banerjee, a Brahmo reformer, ran the Working Men's Club (1870) and the journal Bharat Shramjeevi. The other three pairs are correct.",
+  "subject": "Modern History",
+  "theme": "Modern History - Spectrum: Working Class Movement + Ch 14-25 compression",
+  "micro_topic": "Early labour leaders and organisations",
+  "nature": "Static",
+  "difficulty": "Moderate",
+  "source_type": "sectional"
+ },
+ {
+  "id": "book_topics_2026_10_25_23",
+  "question_number": 23,
+  "question": "Consider the following statements:\n1. The Indian Trade Unions Act, 1926 recognised trade unions as legal associations and provided for their registration.\n2. It gave registered unions immunity from civil and criminal action for legitimate union activity, while placing some curbs on their political activity.\n3. The Trade Disputes Act, 1929 made strikes in public utility services illegal without advance notice, and made Courts of Inquiry and Consultation Boards compulsory for settling disputes.\nWhich of the statements given above are correct?",
+  "options": [
+   {
+    "key": "a",
+    "text": "1 only"
+   },
+   {
+    "key": "b",
+    "text": "1 and 2 only"
+   },
+   {
+    "key": "c",
+    "text": "2 and 3 only"
+   },
+   {
+    "key": "d",
+    "text": "1, 2 and 3"
+   }
+  ],
+  "answer": "d",
+  "explanation": "All three are correct, as in Spectrum's Working Class chapter. The 1929 Act also banned coercive or purely political union activity, and even sympathetic strikes. It was passed alongside the Public Safety Ordinance in the crackdown of 1928-29.",
+  "subject": "Modern History",
+  "theme": "Modern History - Spectrum: Working Class Movement + Ch 14-25 compression",
+  "micro_topic": "Trade Unions Act 1926 and Trade Disputes Act 1929",
+  "nature": "Static",
+  "difficulty": "Moderate",
+  "source_type": "sectional"
+ },
+ {
+  "id": "book_topics_2026_10_25_24",
+  "question_number": 24,
+  "question": "With reference to the Meerut Conspiracy Case, consider the following statements:\n1. The accused included British communists such as Philip Spratt and Ben Bradley.\n2. The arrests were made in March 1929, and nationalist leaders including Nehru and M.A. Ansari took part in the defence.\n3. The accused were tried under the Rowlatt Act.\nWhich of the statements given above are correct?",
+  "options": [
+   {
+    "key": "a",
+    "text": "1 only"
+   },
+   {
+    "key": "b",
+    "text": "1 and 2 only"
+   },
+   {
+    "key": "c",
+    "text": "2 and 3 only"
+   },
+   {
+    "key": "d",
+    "text": "1, 2 and 3"
+   }
+  ],
+  "answer": "b",
+  "explanation": "In March 1929, 31 labour and communist leaders were arrested, three of them British (Spratt, Bradley and Lester Hutchinson). They were charged with conspiring to deprive the King of sovereignty over India under the Indian Penal Code, not the Rowlatt Act. Nehru, Ansari, M.C. Chagla and K.F. Nariman were among the defence.",
+  "subject": "Modern History",
+  "theme": "Modern History - Spectrum: Working Class Movement + Ch 14-25 compression",
+  "micro_topic": "Meerut Conspiracy Case 1929",
+  "nature": "Static",
+  "difficulty": "Hard",
+  "source_type": "sectional"
+ },
+ {
+  "id": "book_topics_2026_10_25_25",
+  "question_number": 25,
+  "question": "Arrange the following events in chronological order:\nI. N.M. Joshi's group leaves AITUC to form the All India Trade Union Federation\nII. Communists leave AITUC to form the Red Trade Union Congress\nIII. INTUC is formed under Congress sponsorship\nIV. AITUC is founded\nSelect the correct answer using the code given below:",
+  "options": [
+   {
+    "key": "a",
+    "text": "IV - I - II - III"
+   },
+   {
+    "key": "b",
+    "text": "IV - II - I - III"
+   },
+   {
+    "key": "c",
+    "text": "I - IV - II - III"
+   },
+   {
+    "key": "d",
+    "text": "IV - I - III - II"
+   }
+  ],
+  "answer": "a",
+  "explanation": "AITUC was founded in 1920. The moderates split away at the 1929 Nagpur session to form the AITUF. The communists split in 1931 to form the Red TUC, which rejoined AITUC in 1935. INTUC was formed in May 1947.",
+  "subject": "Modern History",
+  "theme": "Modern History - Spectrum: Working Class Movement + Ch 14-25 compression",
+  "micro_topic": "AITUC splits and later federations - chronology",
+  "nature": "Static",
+  "difficulty": "Hard",
+  "source_type": "sectional"
+ },
+ {
+  "id": "book_topics_2026_10_25_26",
+  "question_number": 26,
+  "question": "The Royal Commission on Labour in India, appointed in 1929, was chaired by:",
+  "options": [
+   {
+    "key": "a",
+    "text": "Lord Linlithgow"
+   },
+   {
+    "key": "b",
+    "text": "John Simon"
+   },
+   {
+    "key": "c",
+    "text": "J.H. Whitley"
+   },
+   {
+    "key": "d",
+    "text": "Lord Irwin"
+   }
+  ],
+  "answer": "c",
+  "explanation": "J.H. Whitley chaired the commission, and its report came in 1931. Linlithgow chaired the Royal Commission on Agriculture (1926-28), which is the usual trap. Simon chaired the Indian Statutory Commission.",
+  "subject": "Modern History",
+  "theme": "Modern History - Spectrum: Working Class Movement + Ch 14-25 compression",
+  "micro_topic": "Royal Commission on Labour (1929)",
+  "nature": "Static",
+  "difficulty": "Easy",
+  "source_type": "sectional"
+ },
+ {
+  "id": "book_topics_2026_10_25_27",
+  "question_number": 27,
+  "question": "With reference to the Karachi session of the Indian National Congress (1931), consider the following statements:\n1. It was presided over by Vallabhbhai Patel.\n2. It endorsed the Gandhi-Irwin Pact.\n3. It passed resolutions on Fundamental Rights and a National Economic Programme.\n4. It declared Purna Swaraj as the Congress goal for the first time.\nHow many of the statements given above are correct?",
+  "options": [
+   {
+    "key": "a",
+    "text": "Only one"
+   },
+   {
+    "key": "b",
+    "text": "Only two"
+   },
+   {
+    "key": "c",
+    "text": "Only three"
+   },
+   {
+    "key": "d",
+    "text": "All four"
+   }
+  ],
+  "answer": "c",
+  "explanation": "Statements 1 to 3 are correct. Purna Swaraj was declared at the Lahore session of 1929 under Nehru. The Karachi session met days after the execution of Bhagat Singh, Rajguru and Sukhdev.",
+  "subject": "Modern History",
+  "theme": "Modern History - Spectrum: Working Class Movement + Ch 14-25 compression",
+  "micro_topic": "Karachi Session 1931",
+  "nature": "Static",
+  "difficulty": "Moderate",
+  "source_type": "sectional"
+ },
+ {
+  "id": "book_topics_2026_10_25_28",
+  "question_number": 28,
+  "question": "Consider the following statements:\n1. Subhas Chandra Bose was elected Congress president unopposed for the Haripura session of 1938.\n2. In the 1939 presidential election, Bose defeated Pattabhi Sitaramayya, the candidate Gandhi backed.\n3. After resigning the presidency, Bose formed the Forward Bloc, first as a group within the Congress.\nWhich of the statements given above are correct?",
+  "options": [
+   {
+    "key": "a",
+    "text": "1 and 2 only"
+   },
+   {
+    "key": "b",
+    "text": "2 and 3 only"
+   },
+   {
+    "key": "c",
+    "text": "1 and 3 only"
+   },
+   {
+    "key": "d",
+    "text": "1, 2 and 3"
+   }
+  ],
+  "answer": "d",
+  "explanation": "All three are correct. Gandhi called Sitaramayya's defeat 'more my defeat than his'. The Tripuri session saw a crisis over the Working Committee. Bose resigned and formed the Forward Bloc in May 1939.",
+  "subject": "Modern History",
+  "theme": "Modern History - Spectrum: Working Class Movement + Ch 14-25 compression",
+  "micro_topic": "Haripura 1938, Tripuri 1939, Forward Bloc",
+  "nature": "Static",
+  "difficulty": "Moderate",
+  "source_type": "sectional"
+ },
+ {
+  "id": "book_topics_2026_10_25_29",
+  "question_number": 29,
+  "question": "Arrange the following in chronological order:\nI. Mutiny of the Royal Indian Navy ratings in Bombay\nII. Shimla Conference\nIII. Start of the INA trials at the Red Fort\nIV. Arrival of the Cabinet Mission in India\nSelect the correct answer using the code given below:",
+  "options": [
+   {
+    "key": "a",
+    "text": "II - III - I - IV"
+   },
+   {
+    "key": "b",
+    "text": "III - II - I - IV"
+   },
+   {
+    "key": "c",
+    "text": "II - I - III - IV"
+   },
+   {
+    "key": "d",
+    "text": "II - III - IV - I"
+   }
+  ],
+  "answer": "a",
+  "explanation": "Shimla Conference: June-July 1945. INA trials: from November 1945. RIN mutiny: February 1946. The Cabinet Mission arrived in March 1946.",
+  "subject": "Modern History",
+  "theme": "Modern History - Spectrum: Working Class Movement + Ch 14-25 compression",
+  "micro_topic": "Chronology 1945-46",
+  "nature": "Static",
+  "difficulty": "Hard",
+  "source_type": "sectional"
+ },
+ {
+  "id": "book_topics_2026_10_25_30",
+  "question_number": 30,
+  "question": "Consider the following statements:\n1. A geostationary satellite orbits about 35,786 km above the equator, with an orbital period equal to Earth's rotation period.\n2. Every geosynchronous orbit is also a geostationary orbit.\n3. Geostationary satellites suit communication and continuous weather watch over a fixed region.\nWhich of the statements given above are correct?",
+  "options": [
+   {
+    "key": "a",
+    "text": "1 only"
+   },
+   {
+    "key": "b",
+    "text": "1 and 3 only"
+   },
+   {
+    "key": "c",
+    "text": "2 and 3 only"
+   },
+   {
+    "key": "d",
+    "text": "1, 2 and 3"
+   }
+  ],
+  "answer": "b",
+  "explanation": "A geostationary orbit is the special geosynchronous orbit that is circular, equatorial and prograde, so the satellite seems fixed in the sky. A geosynchronous orbit can be inclined or elliptical and trace a figure-8. Statement 2 is false.",
+  "subject": "Science & Technology",
+  "theme": "Science & Technology - Vision IAS: Space Technology + IT, Communication and Cybersecurity",
+  "micro_topic": "Geostationary vs geosynchronous orbit",
+  "nature": "Static",
+  "difficulty": "Easy",
+  "source_type": "sectional"
+ },
+ {
+  "id": "book_topics_2026_10_25_31",
+  "question_number": 31,
+  "question": "With reference to sun-synchronous orbits, consider the following statements:\n1. They are near-polar orbits in which the satellite crosses a given latitude at the same local solar time on each pass.\n2. They are widely used for Earth observation because lighting conditions stay consistent.\n3. They are usually at altitudes above 20,000 km.\nWhich of the statements given above are correct?",
+  "options": [
+   {
+    "key": "a",
+    "text": "1 and 2 only"
+   },
+   {
+    "key": "b",
+    "text": "2 and 3 only"
+   },
+   {
+    "key": "c",
+    "text": "1 and 3 only"
+   },
+   {
+    "key": "d",
+    "text": "1, 2 and 3"
+   }
+  ],
+  "answer": "a",
+  "explanation": "SSOs are low Earth orbits, typically around 600-800 km. Their orbital plane precesses about 1 degree a day, keeping pace with the Sun. PSLV's main workload is SSO launches. Statement 3 is false.",
+  "subject": "Science & Technology",
+  "theme": "Science & Technology - Vision IAS: Space Technology + IT, Communication and Cybersecurity",
+  "micro_topic": "Sun-synchronous orbit",
+  "nature": "Static",
+  "difficulty": "Moderate",
+  "source_type": "sectional"
+ },
+ {
+  "id": "book_topics_2026_10_25_32",
+  "question_number": 32,
+  "question": "Which of the following can result from a strong geomagnetic storm caused by a coronal mass ejection (CME)?\n1. Damage to satellite electronics and more atmospheric drag on low-orbit satellites\n2. Disruption of HF radio and lower GNSS accuracy\n3. Induced currents in long power transmission lines\n4. Auroras seen at lower latitudes than usual\nSelect the correct answer using the code given below:",
+  "options": [
+   {
+    "key": "a",
+    "text": "1 and 2 only"
+   },
+   {
+    "key": "b",
+    "text": "1, 3 and 4 only"
+   },
+   {
+    "key": "c",
+    "text": "2, 3 and 4 only"
+   },
+   {
+    "key": "d",
+    "text": "1, 2, 3 and 4"
+   }
+  ],
+  "answer": "d",
+  "explanation": "All four are documented effects. The storm heats and expands the upper atmosphere, which raises drag. Geomagnetically induced currents can damage grid transformers. Aditya-L1 watches CMEs from L1.",
+  "subject": "Science & Technology",
+  "theme": "Science & Technology - Vision IAS: Space Technology + IT, Communication and Cybersecurity",
+  "micro_topic": "Space weather - CMEs and geomagnetic storms",
+  "nature": "Static",
+  "difficulty": "Easy",
+  "source_type": "sectional"
+ },
+ {
+  "id": "book_topics_2026_10_25_33",
+  "question_number": 33,
+  "question": "The term 'Kessler syndrome' refers to:",
+  "options": [
+   {
+    "key": "a",
+    "text": "a chain reaction of collisions in low Earth orbit, each creating debris that raises the risk of more collisions"
+   },
+   {
+    "key": "b",
+    "text": "loss of bone and muscle mass in astronauts on long missions"
+   },
+   {
+    "key": "c",
+    "text": "radio interference from mega-constellations with ground telescopes"
+   },
+   {
+    "key": "d",
+    "text": "the drift of geostationary satellites caused by solar radiation pressure"
+   }
+  ],
+  "answer": "a",
+  "explanation": "Donald Kessler described the collision cascade in 1978. It is the basis of debris-mitigation rules and of active debris removal. Option (b) is microgravity deconditioning, not Kessler syndrome.",
+  "subject": "Science & Technology",
+  "theme": "Science & Technology - Vision IAS: Space Technology + IT, Communication and Cybersecurity",
+  "micro_topic": "Kessler syndrome - space debris",
+  "nature": "Static",
+  "difficulty": "Easy",
+  "source_type": "sectional"
+ },
+ {
+  "id": "book_topics_2026_10_25_34",
+  "question_number": 34,
+  "question": "With reference to digital signatures under the IT Act, 2000, consider the following statements:\n1. The signer creates a digital signature by encrypting the document with the recipient's public key.\n2. The Controller of Certifying Authorities licenses and regulates Certifying Authorities.\n3. A Digital Signature Certificate, issued by a Certifying Authority, binds a public key to the identity of its holder.\nWhich of the statements given above are correct?",
+  "options": [
+   {
+    "key": "a",
+    "text": "1 and 2 only"
+   },
+   {
+    "key": "b",
+    "text": "2 and 3 only"
+   },
+   {
+    "key": "c",
+    "text": "1 and 3 only"
+   },
+   {
+    "key": "d",
+    "text": "1, 2 and 3"
+   }
+  ],
+  "answer": "b",
+  "explanation": "A signature is made with the signer's own private key, and anyone can check it with the signer's public key. Encrypting with the recipient's public key provides confidentiality, not a signature. UPSC asked about 'Public Key Infrastructure' in 2020 (local PYQ data).",
+  "subject": "Science & Technology",
+  "theme": "Science & Technology - Vision IAS: Space Technology + IT, Communication and Cybersecurity",
+  "micro_topic": "Public Key Infrastructure and digital signatures (PYQ-pattern)",
+  "nature": "Static",
+  "difficulty": "Moderate",
+  "source_type": "sectional"
+ },
+ {
+  "id": "book_topics_2026_10_25_35",
+  "question_number": 35,
+  "question": "Consider the following statements:\n1. CERT-In is the national agency for cyber incident response under Section 70B of the IT Act, 2000.\n2. NCIIPC is the national nodal agency for protecting critical information infrastructure under Section 70A of the IT Act.\n3. CERT-In works under the Ministry of Home Affairs.\nWhich of the statements given above is/are correct?",
+  "options": [
+   {
+    "key": "a",
+    "text": "1 only"
+   },
+   {
+    "key": "b",
+    "text": "2 only"
+   },
+   {
+    "key": "c",
+    "text": "1 and 2 only"
+   },
+   {
+    "key": "d",
+    "text": "1, 2 and 3"
+   }
+  ],
+  "answer": "c",
+  "explanation": "CERT-In works under the Ministry of Electronics and IT (MeitY). NCIIPC sits under the NTRO. Sections 70A and 70B were added by the 2008 amendment.",
+  "subject": "Science & Technology",
+  "theme": "Science & Technology - Vision IAS: Space Technology + IT, Communication and Cybersecurity",
+  "micro_topic": "CERT-In and NCIIPC - IT Act sections",
+  "nature": "Static",
+  "difficulty": "Moderate",
+  "source_type": "sectional"
+ },
+ {
+  "id": "book_topics_2026_10_25_36",
+  "question_number": 36,
+  "question": "Consider the following statements:\n1. The security of Quantum Key Distribution (QKD) rests on quantum mechanics: eavesdropping disturbs the quantum states and can be detected.\n2. Post-quantum cryptography means classical algorithms designed to resist quantum attacks that can run on existing hardware.\n3. Shor's algorithm threatens public-key schemes like RSA by factoring large integers efficiently.\n4. QKD removes the need for any authenticated classical channel between the parties.\nHow many of the statements given above are correct?",
+  "options": [
+   {
+    "key": "a",
+    "text": "Only one"
+   },
+   {
+    "key": "b",
+    "text": "Only two"
+   },
+   {
+    "key": "c",
+    "text": "Only three"
+   },
+   {
+    "key": "d",
+    "text": "All four"
+   }
+  ],
+  "answer": "c",
+  "explanation": "Statement 4 is false: QKD still needs an authenticated classical channel, or a man-in-the-middle attack is possible. PQC replaces RSA and ECC in software. QKD needs dedicated quantum hardware such as fibre or satellite links. Both appear under the National Quantum Mission.",
+  "subject": "Science & Technology",
+  "theme": "Science & Technology - Vision IAS: Space Technology + IT, Communication and Cybersecurity",
+  "micro_topic": "QKD vs post-quantum cryptography",
+  "nature": "Static",
+  "difficulty": "Hard",
+  "source_type": "sectional"
+ },
+ {
+  "id": "book_topics_2026_10_25_37",
+  "question_number": 37,
+  "question": "Consider the following statements:\n1. Section 66A of the IT Act, 2000 was struck down by the Supreme Court in Shreya Singhal v. Union of India (2015).\n2. The same judgment upheld Section 69A, which empowers the Centre to block public access to online information.\n3. The Digital Personal Data Protection Act, 2023 sets up the Data Protection Board of India.\nWhich of the statements given above are correct?",
+  "options": [
+   {
+    "key": "a",
+    "text": "1 only"
+   },
+   {
+    "key": "b",
+    "text": "1 and 2 only"
+   },
+   {
+    "key": "c",
+    "text": "2 and 3 only"
+   },
+   {
+    "key": "d",
+    "text": "1, 2 and 3"
+   }
+  ],
+  "answer": "d",
+  "explanation": "All three are correct. Section 66A fell for vagueness under Art 19(1)(a). Section 69A survived because it has procedural safeguards in the 2009 Blocking Rules. The DPDP Act's adjudicating body is the Data Protection Board, not an 'Authority'.",
+  "subject": "Science & Technology",
+  "theme": "Science & Technology - Vision IAS: Space Technology + IT, Communication and Cybersecurity",
+  "micro_topic": "IT Act Sections 66A and 69A; DPDP Act 2023",
+  "nature": "Static",
+  "difficulty": "Hard",
+  "source_type": "sectional"
+ },
+ {
+  "id": "book_topics_2026_10_25_38",
+  "question_number": 38,
+  "question": "With reference to the India-US civil nuclear agreement, consider the following statements:\n1. Its name '123 Agreement' comes from Section 123 of the US Atomic Energy Act, 1954.\n2. The US Congress passed the Hyde Act in 2006 to allow civil nuclear cooperation with India.\n3. The Nuclear Suppliers Group granted India a waiver in September 2008.\n4. India signed the NPT as part of the deal.\nHow many of the statements given above are correct?",
+  "options": [
+   {
+    "key": "a",
+    "text": "Only one"
+   },
+   {
+    "key": "b",
+    "text": "Only two"
+   },
+   {
+    "key": "c",
+    "text": "Only three"
+   },
+   {
+    "key": "d",
+    "text": "All four"
+   }
+  ],
+  "answer": "c",
+  "explanation": "India has not signed the NPT. The deal instead separated civil and military facilities and put the civil ones under IAEA safeguards. The other three statements are correct.",
+  "subject": "International Relations",
+  "theme": "International Relations - India-USA + Central Asia & the Caucasus",
+  "micro_topic": "India-US civil nuclear deal - 123 Agreement, Hyde Act, NSG waiver",
+  "nature": "Static",
+  "difficulty": "Moderate",
+  "source_type": "sectional"
+ },
+ {
+  "id": "book_topics_2026_10_25_39",
+  "question_number": 39,
+  "question": "Consider the following statements:\n1. The US designated India a 'Major Defence Partner' in 2016.\n2. The US moved India to Strategic Trade Authorization Tier-1 status in 2018.\n3. India is a formal treaty ally of the US under a mutual defence treaty.\nWhich of the statements given above are correct?",
+  "options": [
+   {
+    "key": "a",
+    "text": "1 and 2 only"
+   },
+   {
+    "key": "b",
+    "text": "2 and 3 only"
+   },
+   {
+    "key": "c",
+    "text": "1 and 3 only"
+   },
+   {
+    "key": "d",
+    "text": "1, 2 and 3"
+   }
+  ],
+  "answer": "a",
+  "explanation": "MDP (2016) and STA-1 (2018) eased technology transfer and licence-free exports. India is not a treaty ally, unlike Japan or Australia. The relationship is a partnership, which fits India's strategic autonomy.",
+  "subject": "International Relations",
+  "theme": "International Relations - India-USA + Central Asia & the Caucasus",
+  "micro_topic": "Major Defence Partner and STA-1 status",
+  "nature": "Static",
+  "difficulty": "Moderate",
+  "source_type": "sectional"
+ },
+ {
+  "id": "book_topics_2026_10_25_40",
+  "question_number": 40,
+  "question": "Which of the following countries border the Caspian Sea?\n1. Kazakhstan\n2. Turkmenistan\n3. Uzbekistan\n4. Azerbaijan\n5. Armenia\nSelect the correct answer using the code given below:",
+  "options": [
+   {
+    "key": "a",
+    "text": "1, 2 and 3 only"
+   },
+   {
+    "key": "b",
+    "text": "1, 2 and 4 only"
+   },
+   {
+    "key": "c",
+    "text": "2, 3, 4 and 5 only"
+   },
+   {
+    "key": "d",
+    "text": "1, 3 and 4 only"
+   }
+  ],
+  "answer": "b",
+  "explanation": "The five Caspian littoral States are Russia, Kazakhstan, Turkmenistan, Iran and Azerbaijan. Uzbekistan and Armenia are landlocked and do not border it.",
+  "subject": "International Relations",
+  "theme": "International Relations - India-USA + Central Asia & the Caucasus",
+  "micro_topic": "Caspian littoral states",
+  "nature": "Static",
+  "difficulty": "Easy",
+  "source_type": "sectional"
+ },
+ {
+  "id": "book_topics_2026_10_25_41",
+  "question_number": 41,
+  "question": "Which Central Asian country is 'doubly landlocked', meaning it is surrounded only by landlocked countries?",
+  "options": [
+   {
+    "key": "a",
+    "text": "Kazakhstan"
+   },
+   {
+    "key": "b",
+    "text": "Turkmenistan"
+   },
+   {
+    "key": "c",
+    "text": "Kyrgyzstan"
+   },
+   {
+    "key": "d",
+    "text": "Uzbekistan"
+   }
+  ],
+  "answer": "d",
+  "explanation": "Uzbekistan's neighbours (Kazakhstan, Kyrgyzstan, Tajikistan, Afghanistan, Turkmenistan) are all landlocked. Liechtenstein is the only other doubly landlocked country. Kyrgyzstan borders China, which has a coast.",
+  "subject": "International Relations",
+  "theme": "International Relations - India-USA + Central Asia & the Caucasus",
+  "micro_topic": "Doubly landlocked country in Central Asia",
+  "nature": "Static",
+  "difficulty": "Easy",
+  "source_type": "sectional"
+ },
+ {
+  "id": "book_topics_2026_10_25_42",
+  "question_number": 42,
+  "question": "Consider the following statements:\n1. India announced its 'Connect Central Asia' policy in 2012.\n2. The first India-Central Asia Summit was held virtually in January 2022.\n3. The planned TAPI gas pipeline would run from Turkmenistan through Afghanistan and Pakistan to India.\nWhich of the statements given above are correct?",
+  "options": [
+   {
+    "key": "a",
+    "text": "1 only"
+   },
+   {
+    "key": "b",
+    "text": "1 and 2 only"
+   },
+   {
+    "key": "c",
+    "text": "2 and 3 only"
+   },
+   {
+    "key": "d",
+    "text": "1, 2 and 3"
+   }
+  ],
+  "answer": "d",
+  "explanation": "All three are correct. TAPI starts at Turkmenistan's Galkynysh field and has stalled for years. The 2022 summit set up a Joint Working Group on Chabahar.",
+  "subject": "International Relations",
+  "theme": "International Relations - India-USA + Central Asia & the Caucasus",
+  "micro_topic": "India-Central Asia: Connect Central Asia, summit, TAPI",
+  "nature": "Static",
+  "difficulty": "Moderate",
+  "source_type": "sectional"
+ },
+ {
+  "id": "book_topics_2026_10_25_43",
+  "question_number": 43,
+  "question": "Consider the following statements:\n1. Nagorno-Karabakh is internationally recognised as part of Azerbaijan.\n2. Armenia has a coastline on the Black Sea.\n3. Georgia has a coastline on the Black Sea.\n4. Azerbaijan's exclave of Nakhchivan borders both Iran and Turkey.\nHow many of the statements given above are correct?",
+  "options": [
+   {
+    "key": "a",
+    "text": "Only one"
+   },
+   {
+    "key": "b",
+    "text": "Only two"
+   },
+   {
+    "key": "c",
+    "text": "Only three"
+   },
+   {
+    "key": "d",
+    "text": "All four"
+   }
+  ],
+  "answer": "c",
+  "explanation": "Armenia is landlocked, so statement 2 is false. Nakhchivan borders Armenia, Iran and, along a short stretch, Turkey. This geography is behind the transit-corridor disputes in the Armenia-Azerbaijan normalisation.",
+  "subject": "International Relations",
+  "theme": "International Relations - India-USA + Central Asia & the Caucasus",
+  "micro_topic": "South Caucasus geography",
+  "nature": "Static",
+  "difficulty": "Hard",
+  "source_type": "sectional"
+ },
+ {
+  "id": "book_topics_2026_10_25_44",
+  "question_number": 44,
+  "question": "Consider the following pairs:\nRiver : Source\n1. Mahanadi : Sihawa (Chhattisgarh)\n2. Godavari : Trimbakeshwar (Nashik)\n3. Krishna : Mahabaleshwar\n4. Tapi : Amarkantak\nHow many of the pairs given above are correctly matched?",
+  "options": [
+   {
+    "key": "a",
+    "text": "Only one pair"
+   },
+   {
+    "key": "b",
+    "text": "Only two pairs"
+   },
+   {
+    "key": "c",
+    "text": "Only three pairs"
+   },
+   {
+    "key": "d",
+    "text": "All four pairs"
+   }
+  ],
+  "answer": "c",
+  "explanation": "The Tapi rises near Multai in Betul district, MP. The Narmada (and Son) rise at Amarkantak. The other three pairs are correct.",
+  "subject": "Geography",
+  "theme": "Geography - Khullar: Peninsular rivers + water resources",
+  "micro_topic": "Peninsular river sources",
+  "nature": "Static",
+  "difficulty": "Easy",
+  "source_type": "sectional"
+ },
+ {
+  "id": "book_topics_2026_10_25_45",
+  "question_number": 45,
+  "question": "Which of the following are tributaries of the Godavari?\n1. Indravati\n2. Wainganga\n3. Bhima\n4. Manjira\n5. Tungabhadra\nSelect the correct answer using the code given below:",
+  "options": [
+   {
+    "key": "a",
+    "text": "1, 2 and 4 only"
+   },
+   {
+    "key": "b",
+    "text": "1, 3 and 5 only"
+   },
+   {
+    "key": "c",
+    "text": "2, 3 and 4 only"
+   },
+   {
+    "key": "d",
+    "text": "1, 2, 3, 4 and 5"
+   }
+  ],
+  "answer": "a",
+  "explanation": "The Bhima and Tungabhadra join the Krishna. The Godavari's main tributaries include the Pravara, Purna, Manjira, Penganga, Wardha, Wainganga (the last three meet as the Pranhita), Indravati and Sabari.",
+  "subject": "Geography",
+  "theme": "Geography - Khullar: Peninsular rivers + water resources",
+  "micro_topic": "Tributaries of the Godavari",
+  "nature": "Static",
+  "difficulty": "Moderate",
+  "source_type": "sectional"
+ },
+ {
+  "id": "book_topics_2026_10_25_46",
+  "question_number": 46,
+  "question": "Consider the following pairs:\nDam : River\n1. Hirakud : Mahanadi\n2. Nagarjuna Sagar : Krishna\n3. Mettur : Godavari\n4. Ukai : Tapi\nWhich of the pairs given above are correctly matched?",
+  "options": [
+   {
+    "key": "a",
+    "text": "1, 2 and 3 only"
+   },
+   {
+    "key": "b",
+    "text": "1, 2 and 4 only"
+   },
+   {
+    "key": "c",
+    "text": "2, 3 and 4 only"
+   },
+   {
+    "key": "d",
+    "text": "1, 3 and 4 only"
+   }
+  ],
+  "answer": "b",
+  "explanation": "Mettur (Stanley Reservoir) is on the Kaveri in Tamil Nadu. The other three are correct. Polavaram is the big Godavari project.",
+  "subject": "Geography",
+  "theme": "Geography - Khullar: Peninsular rivers + water resources",
+  "micro_topic": "Dams and rivers of Peninsular India",
+  "nature": "Static",
+  "difficulty": "Easy",
+  "source_type": "sectional"
+ },
+ {
+  "id": "book_topics_2026_10_25_47",
+  "question_number": 47,
+  "question": "Consider the following statements:\n1. The Kaveri's flow is fairly steady through the year because its upper catchment gets the south-west monsoon and its lower catchment the north-east monsoon.\n2. The Narmada flows west through a rift valley between the Vindhyas and the Satpuras and forms an estuary, not a delta.\n3. The Tapi flows through a rift valley north of the Satpura range.\nWhich of the statements given above are correct?",
+  "options": [
+   {
+    "key": "a",
+    "text": "1 only"
+   },
+   {
+    "key": "b",
+    "text": "1 and 2 only"
+   },
+   {
+    "key": "c",
+    "text": "2 and 3 only"
+   },
+   {
+    "key": "d",
+    "text": "1, 2 and 3"
+   }
+  ],
+  "answer": "b",
+  "explanation": "The Tapi runs parallel to the Narmada but south of the Satpuras, between them and the Ajanta-Gawilgarh hills. Both west-flowing rivers form estuaries because they flow through hard rock in rift valleys and carry little silt.",
+  "subject": "Geography",
+  "theme": "Geography - Khullar: Peninsular rivers + water resources",
+  "micro_topic": "Kaveri regime; Narmada and Tapi rift valleys",
+  "nature": "Static",
+  "difficulty": "Moderate",
+  "source_type": "sectional"
+ },
+ {
+  "id": "book_topics_2026_10_25_48",
+  "question_number": 48,
+  "question": "Consider the following pairs:\nWaterfall : River\n1. Jog Falls : Sharavati\n2. Hogenakkal : Kaveri\n3. Sivasamudram : Krishna\n4. Dhuandhar : Narmada\nHow many of the pairs given above are correctly matched?",
+  "options": [
+   {
+    "key": "a",
+    "text": "Only one pair"
+   },
+   {
+    "key": "b",
+    "text": "Only two pairs"
+   },
+   {
+    "key": "c",
+    "text": "Only three pairs"
+   },
+   {
+    "key": "d",
+    "text": "All four pairs"
+   }
+  ],
+  "answer": "c",
+  "explanation": "Sivasamudram is on the Kaveri, and it powered one of Asia's first hydroelectric stations (1902). UPSC used a waterfall-region-river pattern in 2024 (local PYQ data). Dhuandhar is at Bhedaghat near Jabalpur.",
+  "subject": "Geography",
+  "theme": "Geography - Khullar: Peninsular rivers + water resources",
+  "micro_topic": "Waterfalls of Peninsular rivers (PYQ-pattern)",
+  "nature": "Static",
+  "difficulty": "Moderate",
+  "source_type": "sectional"
+ },
+ {
+  "id": "book_topics_2026_10_25_49",
+  "question_number": 49,
+  "question": "Consider the following statements:\n1. The Ken-Betwa link is the first project under the National Perspective Plan for interlinking rivers to be taken up for implementation.\n2. Both the Ken and the Betwa are tributaries of the Yamuna.\n3. The project's Daudhan dam on the Ken is in Panna district, in the Panna Tiger Reserve area.\n4. The National Water Development Agency was set up in 1982 to carry out studies for the National Perspective Plan.\nHow many of the statements given above are correct?",
+  "options": [
+   {
+    "key": "a",
+    "text": "Only one"
+   },
+   {
+    "key": "b",
+    "text": "Only two"
+   },
+   {
+    "key": "c",
+    "text": "Only three"
+   },
+   {
+    "key": "d",
+    "text": "All four"
+   }
+  ],
+  "answer": "d",
+  "explanation": "All four are correct. The NPP (1980) has Himalayan and Peninsular components. Submergence in Panna Tiger Reserve is the project's main environmental objection.",
+  "subject": "Geography",
+  "theme": "Geography - Khullar: Peninsular rivers + water resources",
+  "micro_topic": "Ken-Betwa link and the National Perspective Plan",
+  "nature": "Static",
+  "difficulty": "Hard",
+  "source_type": "sectional"
+ },
+ {
+  "id": "book_topics_2026_10_25_50",
+  "question_number": 50,
+  "question": "Consider the following statements:\n1. The Central Water Commission, first set up in 1945, is an attached office of the Ministry of Jal Shakti.\n2. The Cauvery Water Management Authority was set up after the Supreme Court's February 2018 verdict on the Cauvery dispute.\n3. The Central Ground Water Board is a statutory body created under the Environment (Protection) Act, 1986.\nWhich of the statements given above are correct?",
+  "options": [
+   {
+    "key": "a",
+    "text": "1 and 2 only"
+   },
+   {
+    "key": "b",
+    "text": "2 and 3 only"
+   },
+   {
+    "key": "c",
+    "text": "1 and 3 only"
+   },
+   {
+    "key": "d",
+    "text": "1, 2 and 3"
+   }
+  ],
+  "answer": "a",
+  "explanation": "The statutory body is the Central Ground Water Authority, set up under Section 3(3) of the EPA, 1986. The CGWB is a subordinate office of the Ministry, not an EPA body. Statements 1 and 2 are correct.",
+  "subject": "Geography",
+  "theme": "Geography - Khullar: Peninsular rivers + water resources",
+  "micro_topic": "Water institutions - CWC, CWMA, CGWB vs CGWA",
+  "nature": "Static",
+  "difficulty": "Easy",
+  "source_type": "sectional"
+ }
+]
