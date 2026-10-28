@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to the Container Manufacturing Promotion Scheme approved by the Union Cabinet on 28 October 2026, consider the following statements:\n1. It carries an outlay of ₹10,000 crore and runs up to FY 2039–40.\n2. It aims to raise India's annual domestic container manufacturing capacity to about 7.5 lakh TEUs.\n3. One TEU is a unit of cargo capacity based on a standard 40-foot container.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Statements 1 and 2 match the Cabinet decision (₹10,000 crore up to FY 2039–40; ~10x capacity to 7.5 lakh TEU; >53,000 jobs expected). Statement 3 is wrong: a TEU (twenty-foot equivalent unit) is based on a 20-foot container; a 40-foot box = 2 TEU.",
+    "subject": "Economy",
+    "theme": "Maritime logistics & manufacturing schemes",
+    "micro_topic": "Container Manufacturing Promotion Scheme; TEU",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Defence Acquisition Council (DAC) meeting of 26 October 2026, consider the following statements:\n1. Acceptance of Necessity (AoN) is an in-principle approval and not a contract award.\n2. About 82% of the proposals cleared are to be sourced from Indian industry.\n3. The DAC is chaired by the Chief of Defence Staff.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 2 and 3 only",
+      "(b) 1 and 2 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "The DAC cleared AoNs worth about ₹2.12 lakh crore, ~82% from Indian industry; AoN is only the first, in-principle step before RFP, trials and contract. The DAC is chaired by the Defence Minister (Raksha Mantri), not the CDS.",
+    "subject": "Internal Security",
+    "theme": "Defence procurement & indigenisation",
+    "micro_topic": "DAC; Acceptance of Necessity; Land Warfare Doctrine 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Ashoke Sen was recently in the news for receiving the 2026 Oskar Klein Medal. Which one of the following statements about this is NOT correct?",
+    "options": [
+      "(a) The medal is awarded by Stockholm University together with the Nobel Committee for Physics of the Royal Swedish Academy of Sciences.",
+      "(b) The medal is named after the Swedish theoretical physicist Oskar Klein.",
+      "(c) Sen's string-theory contributions include S-duality, black hole entropy and string field theory.",
+      "(d) Sen is a professor at the Tata Institute of Fundamental Research, Mumbai."
+    ],
+    "answer": "(d)",
+    "explanation": "Sen is ICTS-Infosys Madhava Chair Professor at the International Centre for Theoretical Sciences (ICTS), Bengaluru, not TIFR. He is reported as the first Indian physicist to receive the medal; earlier honours include the 2012 Breakthrough Prize in Fundamental Physics and the 2014 Dirac Medal.",
+    "subject": "Science & Technology",
+    "theme": "Indian scientists & awards",
+    "micro_topic": "Ashoke Sen; string theory; Oskar Klein Medal",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the Cheer pheasant, consider the following statements:\n1. It is listed in Schedule I of the Wildlife (Protection) Act, 1972.\n2. It is categorised as 'Vulnerable' on the IUCN Red List.\n3. It is endemic to the Western Ghats.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 2 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "The Cheer pheasant is a western-Himalayan grassland species, Schedule I under WPA 1972 and Vulnerable on the IUCN Red List. It is not a Western Ghats endemic. Himachal's Khadiyun breeding centre (Chail, Solan) has used soft release; 12 birds were released near Koti, Shimla in October 2026.",
+    "subject": "Environment",
+    "theme": "Species conservation",
+    "micro_topic": "Cheer pheasant; WPA Schedule I; IUCN status",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to acid attacks and the regulation of acid sale in India, consider the following statements:\n1. In Laxmi v. Union of India (2013), the Supreme Court barred over-the-counter sale of acid without photo ID and a seller's register of buyers.\n2. Section 124 of the Bharatiya Nyaya Sanhita, 2023 provides imprisonment of not less than 10 years, extendable to life, for causing grievous hurt by acid.\n3. The Model Poisons Possession and Sale Rules, 2013 framed by the Centre are directly binding on all States without any State rules.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 2 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "Statements 1 and 2 are correct. Statement 3 is wrong: the Centre issued Model Rules under the Poisons Act, 1919, but regulation is a State subject, so States were asked to frame their own rules. On 27 Oct 2026 the SC again asked the Union to revisit acid-sale guidelines, calling rising attacks a sign of policy failure.",
+    "subject": "Society",
+    "theme": "Crimes against women & victim support",
+    "micro_topic": "Acid attacks; Laxmi case; BNS s.124; Poisons Act",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Under the Defence Acquisition Procedure (DAP) 2020, which one of the following procurement categories is given the highest priority?",
+    "options": [
+      "(a) Buy (Global)",
+      "(b) Buy (Indian-Indigenously Designed, Developed and Manufactured)",
+      "(c) Buy and Make (Indian)",
+      "(d) Buy (Global – Manufacture in India)"
+    ],
+    "answer": "(b)",
+    "explanation": "DAP 2020 order of preference: Buy (Indian-IDDM) > Buy (Indian) > Buy and Make (Indian) > Buy (Global-Manufacture in India) > Buy (Global). Buy (Global) is the last resort; this priority order underpins the 'Make in India' push in defence.",
+    "subject": "Internal Security",
+    "theme": "Defence procurement & indigenisation",
+    "micro_topic": "DAP 2020 categories",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Which one of the following correctly lists IUCN Red List threat categories in increasing order of extinction risk?",
+    "options": [
+      "(a) Vulnerable – Near Threatened – Endangered – Critically Endangered",
+      "(b) Near Threatened – Endangered – Vulnerable – Critically Endangered",
+      "(c) Endangered – Vulnerable – Critically Endangered – Extinct in the Wild",
+      "(d) Near Threatened – Vulnerable – Endangered – Critically Endangered"
+    ],
+    "answer": "(d)",
+    "explanation": "The ascending sequence is Least Concern, Near Threatened, Vulnerable, Endangered, Critically Endangered, Extinct in the Wild, Extinct. The three 'threatened' categories are VU, EN and CR.",
+    "subject": "Environment",
+    "theme": "Species conservation",
+    "micro_topic": "IUCN Red List categories",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  }
+]

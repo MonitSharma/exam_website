@@ -1,0 +1,35 @@
+[
+  {
+    "question": "With reference to MoSPI's PAIMANA-based Flash Report on Central Sector infrastructure projects (September 2026 edition), consider the following statements:\n1. It monitors projects costing ₹150 crore and above across 17 Central Ministries/Departments.\n2. The number of monitored projects rose to 1,853, with a revised cost of about ₹37.56 lakh crore.\n3. Cumulative expenditure was about 47% of the revised cost.\nWhich of the statements given above are correct?",
+    "options": ["(a) 1 and 2 only", "(b) 2 and 3 only", "(c) 1, 2 and 3", "(d) 1 and 3 only"],
+    "answer": "(c)",
+    "explanation": "As reported from MoSPI's September 2026 Flash Report: 1,853 projects of ₹150 crore and above across 17 ministries/departments, revised cost ₹37.56 lakh crore, spending ₹17.71 lakh crore (~47%). All three statements are correct.",
+    "subject": "Reports & Indices",
+    "theme": "Infrastructure project monitoring",
+    "micro_topic": "MoSPI PAIMANA Flash Report",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Technology Development Board (TDB) recently signed an agreement to provide ₹116 crore from the Research, Development and Innovation (RDI) Fund to Manastu Space Technologies. Which of the following best describes the project?",
+    "options": ["(a) A grant-based project to build a reusable launch vehicle", "(b) Optionally convertible debt support for a hydrogen-peroxide-based green propulsion system, moving from TRL-6 to TRL-9", "(c) Equity funding for a satellite-based Earth observation constellation", "(d) A subsidy for cryogenic engine manufacturing under ISRO"],
+    "answer": "(b)",
+    "explanation": "TDB (under the Department of Science and Technology) is supporting a ₹277.63 crore project with ₹116 crore from the RDI Fund as optionally convertible debt, to mature a hydrogen-peroxide-based green propulsion system from TRL-6 to TRL-9.",
+    "subject": "Science & Technology",
+    "theme": "Space technology and R&D financing",
+    "micro_topic": "RDI Fund and green propulsion",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Regarding the recent amendment to the Central Motor Vehicles Rules, 1989 by the Ministry of Road Transport and Highways concerning high-ethanol fuels, which of the following statements is correct?",
+    "options": ["(a) All existing petrol vehicles must be converted to run on E100 within a year", "(b) E100 has a higher energy content per litre than petrol, so mileage improves", "(c) E100 is permitted only for vehicles designed and certified for high-ethanol blends, and existing owners need not switch", "(d) The amendment guarantees nationwide retail availability of E100"],
+    "answer": "(c)",
+    "explanation": "The amendment extends the E85 provisions to E85 or E100 for flex-fuel vehicles designed and certified for such fuels. Existing petrol/E20 vehicles cannot use E100, owners need not switch, the amendment does not ensure retail availability, and E100's lower energy content means more litres per distance.",
+    "subject": "Economy",
+    "theme": "Energy and biofuels policy",
+    "micro_topic": "E100 flex-fuel vehicles",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]

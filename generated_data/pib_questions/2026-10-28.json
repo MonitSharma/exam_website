@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the Container Manufacturing Promotion Scheme approved by the Union Cabinet in October 2026, consider the following statements:\n1. It aims to raise India's annual container manufacturing capacity to about 7.5 lakh TEUs.\n2. It provides a 3% per annum interest subvention on eligible term loans.\n3. It is a short-term scheme to be completed within five years.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Capacity target is ~7.5 lakh TEUs and interest subvention is 3% p.a.; the scheme runs up to FY 2039-40, so statement 3 is wrong.",
+    "subject": "Economy",
+    "theme": "Industry & Infrastructure",
+    "micro_topic": "Container Manufacturing Promotion Scheme",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements about the Pradhan Mantri Viksit Gram Swaraj Yojana (PM-VGSY):\n1. It is a Centrally Sponsored Scheme running from 2026-27 to 2030-31.\n2. It extends to rural local bodies in areas not covered by Part IX of the Constitution.\n3. It creates permanent posts at State, district and block levels.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "It is a CSS (Rs 7,395.55 crore) covering non-Part IX traditional bodies; no permanent posts are created, only need-based contractual staff.",
+    "subject": "Polity & Governance",
+    "theme": "Local Government",
+    "micro_topic": "PM Viksit Gram Swaraj Yojana",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Union Cabinet's October 2026 approval raises Dearness Allowance for Central Government employees to:",
+    "options": [
+      "(a) 58% of Basic Pay, effective 1 January 2026",
+      "(b) 60% of Basic Pay, effective 1 July 2026",
+      "(c) 63% of Basic Pay, effective 1 July 2026",
+      "(d) 65% of Basic Pay, effective 1 October 2026"
+    ],
+    "answer": "(c)",
+    "explanation": "DA/DR rose by 3 percentage points from 60% to 63% w.e.f. 1 July 2026, costing about Rs 10,016.10 crore a year.",
+    "subject": "Economy",
+    "theme": "Public Finance",
+    "micro_topic": "Dearness Allowance hike",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]

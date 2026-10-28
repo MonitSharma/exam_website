@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to External Affairs Minister S. Jaishankar's remarks on the 'Global South' at a New Delhi event on 25 October 2026, consider the following statements:\n1. He said the Global South faces a '4F crisis' of finance, fuel, food and fertiliser.\n2. He urged the Global North to recognise that it has an equal stake in resolving these shortages.\n3. He argued that artificial intelligence should be controlled by a small number of capable actors.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 2 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "Statements 1 and 2 match his 25 Oct remarks at the Chinmaya Amrit Mahotsav Global Sammelan (Bharat Mandapam). Statement 3 is wrong: he warned AI must not be controlled by a few actors and backed a responsible, inclusive, human-centric approach.",
+    "subject": "International Relations",
+    "theme": "Global South diplomacy",
+    "micro_topic": "4F crisis (finance, fuel, food, fertiliser)",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "A recent IMD–IITM Pune study published in MAUSAM redrew India's climate zones for successive 30-year periods (1951–80 to 1991–2020). Consider the following statements:\n1. The tropical savannah zone in Northeast India shrank from about 18% of the region to about 12%, while the temperate zone expanded.\n2. Gangetic West Bengal has shifted into the temperate zone.\n3. The Victoria Mode, which the study links to reduced rainfall over the Gangetic plains, is a sea-surface temperature pattern of the North Atlantic.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Statements 1 and 2 follow the study as reported on 23 Oct 2026. Statement 3 is incorrect: the Victoria Mode is a North Pacific sea-surface temperature pattern.",
+    "subject": "Geography",
+    "theme": "Climatology and climate change",
+    "micro_topic": "Shifting climate zones; Victoria Mode",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Frontier Nagaland Territorial Authority (FNTA) Bill, 2026, which received Presidential assent in October 2026, consider the following statements:\n1. It covers six eastern districts: Tuensang, Mon, Longleng, Kiphire, Noklak and Shamator.\n2. It takes effect on a date to be notified by the State Government in the Official Gazette.\n3. It follows a Memorandum of Agreement signed on 5 February 2026 by the Centre, the Nagaland Government and the Eastern Nagaland Peoples' Organisation (ENPO).\n4. It was enacted by Parliament as a Central law.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 4 only",
+      "(b) 1, 2 and 3 only",
+      "(c) 2 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "answer": "(b)",
+    "explanation": "Statements 1-3 are consistent with reports. Statement 4 is wrong: the bill was passed unanimously by the Nagaland Legislative Assembly (3 Sept 2026) and then got the President's assent.",
+    "subject": "Polity & Governance",
+    "theme": "Federalism and sub-state autonomy",
+    "micro_topic": "FNTA Bill 2026, eastern Nagaland",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Integrated Atmospheric Chemistry and Aerosol Toxicity Analysis Laboratory (AATAL), recently inaugurated for Delhi-NCR, is best described as:",
+    "options": [
+      "(a) a CPCB facility under the Ministry of Environment, Forest and Climate Change that monitors stubble burning by satellite",
+      "(b) a NITI Aayog facility for auditing industrial emission norms",
+      "(c) a Ministry of Earth Sciences facility at IITM's Delhi branch, set up under Mission Mausam, that identifies pollution sources and feeds the AIRWISE system",
+      "(d) a facility of the Commission for Air Quality Management that directly enforces GRAP restrictions"
+    ],
+    "answer": "(c)",
+    "explanation": "AATAL is a MoES facility (IITM Delhi branch, Mission Mausam; inaugurated 24 Oct 2026, reported cost Rs 80 crore). It does source identification and aerosol-toxicity analysis, links to IITM's AIRWISE, and supplies evidence to CAQM and others; it does not enforce GRAP.",
+    "subject": "Science & Technology",
+    "theme": "Earth sciences and air quality",
+    "micro_topic": "AATAL air pollution facility",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements regarding the proposed Siang Upper Multipurpose Project (SUMP), recently in the news:\n1. It is a proposed 11,200 MW project in Arunachal Pradesh, put forward by NHPC.\n2. The government describes it as a strategic response to China's proposed Medog hydropower project on the Yarlung Tsangpo.\n3. It is proposed on the Dibang river.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 2 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "Statements 1 and 2 are correct (protests turned violent in Pasighat on 23 Oct 2026). Statement 3 is wrong: SUMP is on the Siang, the Brahmaputra's course in Arunachal Pradesh; the Dibang is a separate river.",
+    "subject": "Environment",
+    "theme": "River valley projects and displacement",
+    "micro_topic": "Siang Upper Multipurpose Project protests",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Which one of the following is correct about Article 371A of the Constitution of India?",
+    "options": [
+      "(a) It was inserted by the Seventh Amendment Act, 1956 and gives special status to Mizoram",
+      "(b) Acts of Parliament on ownership and transfer of land and its resources apply to Nagaland automatically",
+      "(c) It gives the Governor of Nagaland no special responsibility in any matter",
+      "(d) It was inserted by the Thirteenth Amendment Act, 1962, and Parliament's laws on Naga customary law or ownership and transfer of land do not apply to Nagaland unless the State Assembly so decides by resolution"
+    ],
+    "answer": "(d)",
+    "explanation": "Article 371A (13th Amendment, 1962) protects Naga religious or social practices, customary law and procedure, and land ownership and transfer; such Acts of Parliament apply only if the Nagaland Assembly passes a resolution. The Governor also has a special responsibility for law and order.",
+    "subject": "Polity & Governance",
+    "theme": "Special provisions for States",
+    "micro_topic": "Article 371A",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements about the Brahmaputra river system:\n1. The river is known as the Yarlung Tsangpo in Tibet.\n2. In Arunachal Pradesh it is known as the Siang or Dihang before entering Assam.\n3. Within India it is known as the Jamuna.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statements 1 and 2 are correct. Statement 3 is wrong: 'Jamuna' is the Brahmaputra's name in Bangladesh, not India.",
+    "subject": "Geography",
+    "theme": "Indian drainage systems",
+    "micro_topic": "Brahmaputra and its names",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  }
+]
