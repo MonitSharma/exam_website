@@ -1,0 +1,98 @@
+[
+  {
+    "question": "With reference to Cyclone Arnab, which struck the Andhra Pradesh coast in October 2026, consider the following statements:\n1. It crossed the coast near Narsapur close to Yanam.\n2. Its sustained wind speed of about 125–135 kmph falls in the IMD category of 'very severe cyclonic storm'.\n3. Cyclone names are decided by the Indian Meteorological Department alone.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statements 1 and 2 are correct (very severe = 118–166 kmph). Names come from agreed WMO/ESCAP panel lists contributed by member countries, not IMD alone.",
+    "subject": "Geography",
+    "theme": "Cyclones & Disaster Management",
+    "micro_topic": "Cyclone Arnab, IMD classification and naming",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to Project Cheetah in India, consider the following statements:\n1. It was launched at Kuno National Park in 2022.\n2. The cheetahs introduced so far are of the African species and came from Namibia and South Africa.\n3. The cheetah was declared extinct in India in 1972.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Project Cheetah began at Kuno in 2022 with African cheetahs from Namibia and South Africa. The cheetah was declared extinct in India in 1952, not 1972.",
+    "subject": "Environment",
+    "theme": "Wildlife Conservation",
+    "micro_topic": "Project Cheetah and Kuno",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the Preferential Trade Agreement (PTA) that India proposes to negotiate with Mexico, consider the following statements:\n1. In a PTA, the parties offer tariff concessions only on an agreed list of products.\n2. A PTA is broader than a Comprehensive Economic Partnership Agreement (CEPA) because it covers services and investment fully.\n3. The India–EFTA TEPA is an agreement between India and a group of European countries outside the EU.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "PTAs cover a negotiated tariff-line list and are narrower than a CEPA. TEPA is with EFTA (Iceland, Liechtenstein, Norway, Switzerland), all non-EU.",
+    "subject": "International Relations",
+    "theme": "Trade Agreements",
+    "micro_topic": "India–Mexico PTA, PTA vs CEPA",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Index of Industrial Production (IIP) in India, consider the following statements:\n1. The revised IIP uses 2022-23 as its base year.\n2. Manufacturing carries the largest weight in the index.\n3. The use-based classification includes 'capital goods' and 'intermediate goods'.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct: base 2022-23, manufacturing has the largest weight, and use-based groups include capital and intermediate goods.",
+    "subject": "Economy",
+    "theme": "Industry & Indices",
+    "micro_topic": "IIP September 2026 and base revision",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Eleventh Schedule of the Constitution of India:",
+    "options": [
+      "(a) lists 18 functions of municipalities",
+      "(b) lists 29 subjects on which Panchayats may be given powers and responsibilities",
+      "(c) deals with the administration of tribal areas",
+      "(d) lists the languages recognised in India"
+    ],
+    "answer": "(b)",
+    "explanation": "The Eleventh Schedule has 29 subjects for Panchayats (Art. 243G). The Twelfth Schedule has the 18 municipal functions.",
+    "subject": "Polity & Governance",
+    "theme": "Local Government",
+    "micro_topic": "Eleventh Schedule and Panchayati Raj",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In the India Meteorological Department's classification of cyclonic disturbances, which one of the following lists the categories in increasing order of intensity?",
+    "options": [
+      "(a) Depression – Cyclonic Storm – Deep Depression – Severe Cyclonic Storm",
+      "(b) Depression – Deep Depression – Cyclonic Storm – Severe Cyclonic Storm",
+      "(c) Deep Depression – Depression – Severe Cyclonic Storm – Cyclonic Storm",
+      "(d) Cyclonic Storm – Depression – Deep Depression – Severe Cyclonic Storm"
+    ],
+    "answer": "(b)",
+    "explanation": "Increasing intensity: Depression, Deep Depression, Cyclonic Storm, Severe Cyclonic Storm, then Very Severe, Extremely Severe and Super Cyclonic Storm.",
+    "subject": "Geography",
+    "theme": "Cyclones & Disaster Management",
+    "micro_topic": "IMD cyclone intensity categories",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  }
+]

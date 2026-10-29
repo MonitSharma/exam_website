@@ -1,11 +1,18 @@
 {
   "weeks": [
     {
+      "id": "2026-10-25-library",
+      "label": "CA & PIB · week of 2026-10-25",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-25.md",
+      "libraryDerived": true,
+      "sourceCount": 10
+    },
+    {
       "id": "2026-10-18-library",
       "label": "CA & PIB · week of 2026-10-18",
       "source": "daily/daily_pib/PIB_2026-10-21.md",
       "libraryDerived": true,
-      "sourceCount": 8
+      "sourceCount": 14
     },
     {
       "id": "2026-10-12",
@@ -12464,13 +12471,25 @@
       "lat": 32.4982,
       "lon": 106.3373,
       "topic": "Briefing geography",
-      "hook": "Country study anchor · mentioned 2026-10-21",
-      "fact": "1. China tightens export controls on tunnel-boring machines from 18 November — International Relations / Economy Exam angle: A clean case of \"weaponised interdependence\": India's metro, rail and highway tunnelling depends on imported TBMs, and China is adding them to its dual-use export-licence regime just as India–China ties are being normalised post-Galwan. Good for Mains answers on supply-chain resilience, Atmanirbhar manufacturing and India–China relations. Key facts: - China's Commerce Ministry (MOFCOM) announced the change, reported by Reuters; it takes effect 18 November 2026. Exporters will need a licence under China's export-control",
+      "hook": "Country study anchor · mentioned 2026-10-23",
+      "fact": "Signed by the defence ministers or deputies of the four states. - India's concerns: Pakistan could diversify away from China-dependent supply, and tech access could aid its drone programme. - Indonesia is also in talks with India on a reported ~$630 million BrahMos/Astra deal, which adds a diplomatic wrinkle. Notebook: GS2 International Relations (India's neighbourhood, West Asia). Static anchor: Mrunal IR pillar \"India–Pakistan / West Asia\". Nudge: add a comparison table of Badr vs Makkah pact vs NATO Article 5.",
       "locate": "Approximate study anchor for China, China. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
       "coordinatePrecision": "regional-study-anchor",
       "coordinateSource": "data/maps/world_countries_india_pov.geojson",
-      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-21.md",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-23.md",
       "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-23.md",
+          "date": "2026-10-23",
+          "cadence": "daily",
+          "excerpt": "Signed by the defence ministers or deputies of the four states. - India's concerns: Pakistan could diversify away from China-dependent supply, and tech access could aid its drone programme. - Indonesia is also in talks with India on a reported ~$630 million BrahMos/Astra deal, which adds a diplomatic wrinkle. Notebook: GS2 International Relations (India's neighbourhood, West Asia). Static anchor: Mrunal IR pillar \"India–Pakistan / West Asia\". Nudge: add a comparison table of Badr vs Makkah pact vs NATO Article 5."
+        },
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-22.md",
+          "date": "2026-10-22",
+          "cadence": "daily",
+          "excerpt": "Environment, Economy (Schemes), Polity & Governance, Science & Technology. Stories already covered in the last 14 days (China's TBM controls, OCCCM/CCTS, Rubio visit, CPI/WPI, RBI measures) are deliberately skipped."
+        },
         {
           "source": "daily/daily_current_affairs/UPSC_CA_2026-10-21.md",
           "date": "2026-10-21",
@@ -12671,13 +12690,25 @@
       "lat": 29.3284,
       "lon": 68.5456,
       "topic": "Briefing geography",
-      "hook": "Country study anchor · mentioned 2026-10-19",
-      "fact": "1. India rejects OIC resolutions on J&K; says Pakistan \"misused\" the grouping — International Relations - Exam angle: The OIC Council of Foreign Ministers (Baghdad, 17–18 Oct) adopted resolutions with anti-India references. MEA (19 Oct) rejected them as \"malicious, biased and false\" and said the OIC has \"no locus standi whatsoever\" on India's internal matters. It urged members to \"reform this organisation\". A good case study of India's Gulf/West Asia outreach versus the Pakistan-led OIC agenda, and of India's stand on sovereignty. - Memorize: OIC founded 1969 (Rabat), HQ Jeddah, 57 members; India is neither member nor observer. MEA line: J&K",
+      "hook": "Country study anchor · mentioned 2026-10-24",
+      "fact": "welcomes the Armenia–Azerbaijan peace agreement — International Relations - Exam angle: India re-engages Azerbaijan, a Pakistan-leaning South Caucasus state. The visit (23 Oct) is a calibrated reset around connectivity (INSTC), energy and terrorism, and follows a Modi–Aliyev meeting at the SCO Summit in Bishkek. The MEA did not confirm that cross-border terrorism was raised. - Facts to memorise: Jaishankar called on President Ilham Aliyev and held talks with FM Jeyhun Bayramov. Agreed to deepen political consultations and exchange visits. Discussed trade, investment, connectivity and energy. India \"welcomed\" the Armenia–Azerbaijan peace agre",
       "locate": "Approximate study anchor for Pakistan, Pakistan. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
       "coordinatePrecision": "regional-study-anchor",
       "coordinateSource": "data/maps/world_countries_india_pov.geojson",
-      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-19.md",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-24.md",
       "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-24.md",
+          "date": "2026-10-24",
+          "cadence": "daily",
+          "excerpt": "welcomes the Armenia–Azerbaijan peace agreement — International Relations - Exam angle: India re-engages Azerbaijan, a Pakistan-leaning South Caucasus state. The visit (23 Oct) is a calibrated reset around connectivity (INSTC), energy and terrorism, and follows a Modi–Aliyev meeting at the SCO Summit in Bishkek. The MEA did not confirm that cross-border terrorism was raised. - Facts to memorise: Jaishankar called on President Ilham Aliyev and held talks with FM Jeyhun Bayramov. Agreed to deepen political consultations and exchange visits. Discussed trade, investment, connectivity and energy. India \"welcomed\" the Armenia–Azerbaijan peace agre"
+        },
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-23.md",
+          "date": "2026-10-23",
+          "cadence": "daily",
+          "excerpt": "4. Badr MoU: Pakistan, Türkiye, Qatar and Indonesia sign a defence-industrial accord in Doha (21 Oct) — International Relations Exam angle: It is a cooperation memorandum on joint manufacturing, technology sharing, training and R&D, not a mutual-defence treaty. Contrast it with the August Saudi–Türkiye–Pakistan Makkah pact, which has an \"attack on one is an attack on all\" clause. Key facts: - Signed by the defence ministers or deputies of the four states. - India's concerns: Pakistan could diversify away from China-dependent supply, and tech access could aid its drone programme. - Indonesia is also in talks with India on a reported ~$630 mill"
+        },
         {
           "source": "daily/daily_current_affairs/UPSC_CA_2026-10-19.md",
           "date": "2026-10-19",
@@ -12731,13 +12762,25 @@
       "lat": 36.1425,
       "lon": 138.4422,
       "topic": "Briefing geography",
-      "hook": "Country study anchor · mentioned 2026-10-19",
-      "fact": "or: Shankar IAS \"Climate change – Carbon markets, Article 6 Paris Agreement\". Nudge: link to the earlier CBAM and India–Japan JCM notes in this series.",
+      "hook": "Country study anchor · mentioned 2026-10-24",
+      "fact": "5. Ministry of Youth Affairs & Sports (PMO congratulatory releases): India at the Asian Para Games 2026, Aichi-Nagoya, Japan (18–24 Oct)",
       "locate": "Approximate study anchor for Japan, Japan. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
       "coordinatePrecision": "regional-study-anchor",
       "coordinateSource": "data/maps/world_countries_india_pov.geojson",
-      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-19.md",
+      "source": "daily/daily_pib/PIB_2026-10-24.md",
       "references": [
+        {
+          "source": "daily/daily_pib/PIB_2026-10-24.md",
+          "date": "2026-10-24",
+          "cadence": "pib",
+          "excerpt": "5. Ministry of Youth Affairs & Sports (PMO congratulatory releases): India at the Asian Para Games 2026, Aichi-Nagoya, Japan (18–24 Oct)"
+        },
+        {
+          "source": "daily/daily_pib/PIB_2026-10-23.md",
+          "date": "2026-10-23",
+          "cadence": "pib",
+          "excerpt": "Hub\"; inaugurated by Union Minister J.P. Nadda. FICCI–EY knowledge paper released; Youth Innovation Challenge launched; Japan is Partner Country; seven States showcased industrial hubs. - Why it matters: Positions India as an alternative chemicals supply-chain hub; highlights BHAVYA Rasayan (Bharat Audyogik Vikas Yojna) – manufacturing hubs linked to chemical parks. - Key facts: Sector targets quoted: USD 300 bn by 2030 and USD 1 trn by 2040; 200+ exhibitors, 50+ global CEOs, 100+ countries represented. - Notebook: GS3 Economy (industry, manufacturing, supply chains)."
+        },
         {
           "source": "daily/daily_current_affairs/UPSC_CA_2026-10-19.md",
           "date": "2026-10-19",
@@ -12791,18 +12834,423 @@
       "lat": 18.9711,
       "lon": 72.838,
       "topic": "Briefing geography",
-      "hook": "Mahārāshtra · mentioned 2026-10-20",
-      "fact": "1. US Secretary of State Marco Rubio in India (17–22 Oct); talks with EAM Jaishankar in Mumbai today — International Relations Exam angle: The visit is the first high-level US engagement while the India–US trade deal is unfinished and the Russian-oil question is open. It is a good case for Mains questions on \"strategic autonomy vs. economic pressure\" and on how India handles tariff and sanctions leverage. The MEA calls the visit a chance to advance cooperation across the pillars of the \"Comprehensive Global Strategic Partnership\". Key facts: - Rubio is in India 17–22 Oct. He holds talks with EAM S. Jaishankar in Mumbai on 20 Oct, then goes to",
+      "hook": "Mahārāshtra · mentioned 2026-10-23",
+      "fact": "4. Ministry of Chemicals & Fertilizers (Dept. of Chemicals & Petrochemicals): India Chem 2026 (14th edition), Mumbai, 22–24 Oct (single secondary source for details) - What it is: FICCI-partnered flagship chemicals-industry event at NESCO, Mumbai; theme \"Advantage Bharat: An Emerging Global Chemicals Hub\"; inaugurated by Union Minister J.P. Nadda. FICCI–EY knowledge paper released; Youth Innovation Challenge launched; Japan is Partner Country; seven States showcased industrial hubs. - Why it matters: Positions India as an alternative chemicals supply-chain hub; highlights BHAVYA Rasayan (Bharat Audyogik Vikas Yojna) – manufacturing hubs linke",
       "locate": "Approximate study anchor for Mumbai, India. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
       "coordinatePrecision": "regional-study-anchor",
       "coordinateSource": "data/maps/bharatrajya-india-districts.geojson",
-      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-20.md",
+      "source": "daily/daily_pib/PIB_2026-10-23.md",
       "references": [
+        {
+          "source": "daily/daily_pib/PIB_2026-10-23.md",
+          "date": "2026-10-23",
+          "cadence": "pib",
+          "excerpt": "4. Ministry of Chemicals & Fertilizers (Dept. of Chemicals & Petrochemicals): India Chem 2026 (14th edition), Mumbai, 22–24 Oct (single secondary source for details) - What it is: FICCI-partnered flagship chemicals-industry event at NESCO, Mumbai; theme \"Advantage Bharat: An Emerging Global Chemicals Hub\"; inaugurated by Union Minister J.P. Nadda. FICCI–EY knowledge paper released; Youth Innovation Challenge launched; Japan is Partner Country; seven States showcased industrial hubs. - Why it matters: Positions India as an alternative chemicals supply-chain hub; highlights BHAVYA Rasayan (Bharat Audyogik Vikas Yojna) – manufacturing hubs linke"
+        },
         {
           "source": "daily/daily_current_affairs/UPSC_CA_2026-10-20.md",
           "date": "2026-10-20",
           "cadence": "daily",
           "excerpt": "1. US Secretary of State Marco Rubio in India (17–22 Oct); talks with EAM Jaishankar in Mumbai today — International Relations Exam angle: The visit is the first high-level US engagement while the India–US trade deal is unfinished and the Russian-oil question is open. It is a good case for Mains questions on \"strategic autonomy vs. economic pressure\" and on how India handles tariff and sanctions leverage. The MEA calls the visit a chance to advance cooperation across the pillars of the \"Comprehensive Global Strategic Partnership\". Key facts: - Rubio is in India 17–22 Oct. He holds talks with EAM S. Jaishankar in Mumbai on 20 Oct, then goes to"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-18-library-ukraine-ukraine",
+      "weekId": "2026-10-18-library",
+      "layer": "current",
+      "name": "Ukraine",
+      "country": "Ukraine",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 49.7247,
+      "lon": 32.1409,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-22",
+      "fact": "nuclear energy and invited Polish firms to co-develop and manufacture with Indian partners. The leaders also discussed Ukraine, West Asia and reform of global governance institutions. Poland is India's gateway to Central Europe and is a frontline NATO state, so the visit also fits the India–EU outreach theme. - Memorize: Ties elevated to Strategic Partnership in Aug 2024 (Modi's Warsaw visit); Tusk is accompanied by Finance & Economy Minister Andrzej Domański; India–Poland Business Forum in Delhi (22 Oct) and Bengaluru (23 Oct). No specific signed agreements were reported in the coverage I could verify. - Notebook: GS2 International Relation",
+      "locate": "Approximate study anchor for Ukraine, Ukraine. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-22.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-22.md",
+          "date": "2026-10-22",
+          "cadence": "daily",
+          "excerpt": "nuclear energy and invited Polish firms to co-develop and manufacture with Indian partners. The leaders also discussed Ukraine, West Asia and reform of global governance institutions. Poland is India's gateway to Central Europe and is a frontline NATO state, so the visit also fits the India–EU outreach theme. - Memorize: Ties elevated to Strategic Partnership in Aug 2024 (Modi's Warsaw visit); Tusk is accompanied by Finance & Economy Minister Andrzej Domański; India–Poland Business Forum in Delhi (22 Oct) and Bengaluru (23 Oct). No specific signed agreements were reported in the coverage I could verify. - Notebook: GS2 International Relation"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-18-library-poland-poland",
+      "weekId": "2026-10-18-library",
+      "layer": "current",
+      "name": "Poland",
+      "country": "Poland",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 51.9903,
+      "lon": 19.4905,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-24",
+      "fact": "Coverage window: 22–24 Oct 2026. Already covered in the last 14 days and skipped: India–Poland, NSTCC, UNESCO Tentative List, Emissions Gap Report, core sector, Badr MoU, agrivoltaics conference, Gaganyaan, Ramsar, SAF, UDAN, OIC, etc.",
+      "locate": "Approximate study anchor for Poland, Poland. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-24.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-24.md",
+          "date": "2026-10-24",
+          "cadence": "daily",
+          "excerpt": "Coverage window: 22–24 Oct 2026. Already covered in the last 14 days and skipped: India–Poland, NSTCC, UNESCO Tentative List, Emissions Gap Report, core sector, Badr MoU, agrivoltaics conference, Gaganyaan, Ramsar, SAF, UDAN, OIC, etc."
+        },
+        {
+          "source": "daily/daily_pib/PIB_2026-10-24.md",
+          "date": "2026-10-24",
+          "cadence": "pib",
+          "excerpt": "1. Ministry of External Affairs / PMO: India–Poland — official visit of Polish PM Donald Tusk; trade-doubling target by 2030 (22 Oct 2026, New Delhi)"
+        },
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-22.md",
+          "date": "2026-10-22",
+          "cadence": "daily",
+          "excerpt": "1. India–Poland: Modi–Tusk talks push defence, space and nuclear cooperation — International Relations - Exam angle: Poland's PM Donald Tusk is on a three-day visit (arrived 21 Oct; Delhi 22 Oct, Bengaluru 23 Oct). Modi cited defence, space and nuclear energy and invited Polish firms to co-develop and manufacture with Indian partners. The leaders also discussed Ukraine, West Asia and reform of global governance institutions. Poland is India's gateway to Central Europe and is a frontline NATO state, so the visit also fits the India–EU outreach theme. - Memorize: Ties elevated to Strategic Partnership in Aug 2024 (Modi's Warsaw visit); Tusk is"
+        },
+        {
+          "source": "daily/daily_pib/PIB_2026-10-22.md",
+          "date": "2026-10-22",
+          "cadence": "pib",
+          "excerpt": "ast 24–72 hours, rotated to ministries not covered in the past fortnight. Duplicates avoided: UDAN@10 and the CA items (Poland, SAF, SC ruling, eMudhra) are in today's CA briefing; PM-SETU, Pumped Storage, India–NZ FTA, Financial Inclusion Campaign and Khet Bachao Abhiyan were covered in recent PIB briefings. Items marked \"single source\" could not be checked against the PIB text itself."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-18-library-india-sarnath",
+      "weekId": "2026-10-18-library",
+      "layer": "current",
+      "name": "Sarnath",
+      "country": "India",
+      "region": "Uttar Pradesh",
+      "scope": "india",
+      "lat": 25.38,
+      "lon": 83.02,
+      "topic": "Briefing geography",
+      "hook": "Uttar Pradesh · mentioned 2026-10-23",
+      "fact": "rchaeological Landscape, Chhattisgarh. - Reported totals: 81 sites on the Tentative List; 45 World Heritage Sites after Sarnath's inscription in July 2026 (secondary sources; verify before quoting). Notebook: GS1 Art & Culture / Geography. Static anchor: Nitin Singhania, Art & Culture (UNESCO heritage chapter) and Spectrum/NCERT Geography (Andaman volcanoes, mud volcanoes). Nudge: add Baratang, Narcondam and Sirpur to your \"Places in News\" map and cross-link to Barren Island.",
+      "locate": "Approximate study anchor for Sarnath, India. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/atlas/news.json",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-23.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-23.md",
+          "date": "2026-10-23",
+          "cadence": "daily",
+          "excerpt": "rchaeological Landscape, Chhattisgarh. - Reported totals: 81 sites on the Tentative List; 45 World Heritage Sites after Sarnath's inscription in July 2026 (secondary sources; verify before quoting). Notebook: GS1 Art & Culture / Geography. Static anchor: Nitin Singhania, Art & Culture (UNESCO heritage chapter) and Spectrum/NCERT Geography (Andaman volcanoes, mud volcanoes). Nudge: add Baratang, Narcondam and Sirpur to your \"Places in News\" map and cross-link to Barren Island."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-18-library-india-bharat-mandapam-delhi",
+      "weekId": "2026-10-18-library",
+      "layer": "current",
+      "name": "Bharat Mandapam / Delhi",
+      "country": "India",
+      "region": "Delhi",
+      "scope": "india",
+      "lat": 28.61,
+      "lon": 77.24,
+      "topic": "Briefing geography",
+      "hook": "Delhi · mentioned 2026-10-23",
+      "fact": "g the Global South\". It dovetails with dual land use under solar-farming schemes and farmer income. Key facts: - Venue: Bharat Mandapam; inaugurated by MNRE Minister Pralhad Joshi and Agriculture Minister Shivraj Singh Chouhan. - Participants: delegates from 40+ countries, including around 400 farmers (reported figure; counts vary by source). - Agrivoltaics = co-locating crop production and solar PV on the same land. Notebook: GS3 Agriculture / Energy. Static anchor: Ramesh Singh, Indian Economy (Agriculture and Energy). Nudge: link agrivoltaics to PM-KUSUM in your renewable-energy schemes note.",
+      "locate": "Approximate study anchor for Bharat Mandapam / Delhi, India. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/atlas/news.json",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-23.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-23.md",
+          "date": "2026-10-23",
+          "cadence": "daily",
+          "excerpt": "g the Global South\". It dovetails with dual land use under solar-farming schemes and farmer income. Key facts: - Venue: Bharat Mandapam; inaugurated by MNRE Minister Pralhad Joshi and Agriculture Minister Shivraj Singh Chouhan. - Participants: delegates from 40+ countries, including around 400 farmers (reported figure; counts vary by source). - Agrivoltaics = co-locating crop production and solar PV on the same land. Notebook: GS3 Agriculture / Energy. Static anchor: Ramesh Singh, Indian Economy (Agriculture and Energy). Nudge: link agrivoltaics to PM-KUSUM in your renewable-energy schemes note."
+        },
+        {
+          "source": "daily/daily_pib/PIB_2026-10-22.md",
+          "date": "2026-10-22",
+          "cadence": "pib",
+          "excerpt": "inistry of New & Renewable Energy (with Ministry of Agriculture & Farmers' Welfare): 7th AgriVoltaics World Conference, Bharat Mandapam, New Delhi (21–23 Oct 2026)"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-18-library-indonesia-indonesia",
+      "weekId": "2026-10-18-library",
+      "layer": "current",
+      "name": "Indonesia",
+      "country": "Indonesia",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": -0.9544,
+      "lon": 101.8929,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-23",
+      "fact": "4. Badr MoU: Pakistan, Türkiye, Qatar and Indonesia sign a defence-industrial accord in Doha (21 Oct) — International Relations Exam angle: It is a cooperation memorandum on joint manufacturing, technology sharing, training and R&D, not a mutual-defence treaty. Contrast it with the August Saudi–Türkiye–Pakistan Makkah pact, which has an \"attack on one is an attack on all\" clause. Key facts: - Signed by the defence ministers or deputies of the four states. - India's concerns: Pakistan could diversify away from China-dependent supply, and tech access could aid its drone programme. - Indonesia is also in talks with India on a reported ~$630 mill",
+      "locate": "Approximate study anchor for Indonesia, Indonesia. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-23.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-23.md",
+          "date": "2026-10-23",
+          "cadence": "daily",
+          "excerpt": "4. Badr MoU: Pakistan, Türkiye, Qatar and Indonesia sign a defence-industrial accord in Doha (21 Oct) — International Relations Exam angle: It is a cooperation memorandum on joint manufacturing, technology sharing, training and R&D, not a mutual-defence treaty. Contrast it with the August Saudi–Türkiye–Pakistan Makkah pact, which has an \"attack on one is an attack on all\" clause. Key facts: - Signed by the defence ministers or deputies of the four states. - India's concerns: Pakistan could diversify away from China-dependent supply, and tech access could aid its drone programme. - Indonesia is also in talks with India on a reported ~$630 mill"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-18-library-qatar-qatar",
+      "weekId": "2026-10-18-library",
+      "layer": "current",
+      "name": "Qatar",
+      "country": "Qatar",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 25.2374,
+      "lon": 51.1435,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-23",
+      "fact": "4. Badr MoU: Pakistan, Türkiye, Qatar and Indonesia sign a defence-industrial accord in Doha (21 Oct) — International Relations Exam angle: It is a cooperation memorandum on joint manufacturing, technology sharing, training and R&D, not a mutual-defence treaty. Contrast it with the August Saudi–Türkiye–Pakistan Makkah pact, which has an \"attack on one is an attack on all\" clause. Key facts: - Signed by the defence ministers or deputies of the four states. - India's concerns: Pakistan could diversify away from China-dependent supply, and tech access could aid its drone programme. - Indonesia is also in talks with India on a reported ~$630 mill",
+      "locate": "Approximate study anchor for Qatar, Qatar. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-23.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-23.md",
+          "date": "2026-10-23",
+          "cadence": "daily",
+          "excerpt": "4. Badr MoU: Pakistan, Türkiye, Qatar and Indonesia sign a defence-industrial accord in Doha (21 Oct) — International Relations Exam angle: It is a cooperation memorandum on joint manufacturing, technology sharing, training and R&D, not a mutual-defence treaty. Contrast it with the August Saudi–Türkiye–Pakistan Makkah pact, which has an \"attack on one is an attack on all\" clause. Key facts: - Signed by the defence ministers or deputies of the four states. - India's concerns: Pakistan could diversify away from China-dependent supply, and tech access could aid its drone programme. - Indonesia is also in talks with India on a reported ~$630 mill"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-18-library-india-new-delhi",
+      "weekId": "2026-10-18-library",
+      "layer": "current",
+      "name": "New Delhi",
+      "country": "India",
+      "region": "Delhi",
+      "scope": "india",
+      "lat": 28.5647,
+      "lon": 77.151,
+      "topic": "Briefing geography",
+      "hook": "Delhi · mentioned 2026-10-24",
+      "fact": "rnal Affairs / PMO: India–Poland — official visit of Polish PM Donald Tusk; trade-doubling target by 2030 (22 Oct 2026, New Delhi)",
+      "locate": "Approximate study anchor for New Delhi, India. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/bharatrajya-india-districts.geojson",
+      "source": "daily/daily_pib/PIB_2026-10-24.md",
+      "references": [
+        {
+          "source": "daily/daily_pib/PIB_2026-10-24.md",
+          "date": "2026-10-24",
+          "cadence": "pib",
+          "excerpt": "rnal Affairs / PMO: India–Poland — official visit of Polish PM Donald Tusk; trade-doubling target by 2030 (22 Oct 2026, New Delhi)"
+        },
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-23.md",
+          "date": "2026-10-23",
+          "cadence": "daily",
+          "excerpt": "5. 7th Agrivoltaics World Conference, New Delhi (21–23 Oct) — Agriculture Exam angle: The first edition hosted in the Global South, with the theme \"Powering the Global South\". It dovetails with dual land use under solar-farming schemes and farmer income. Key facts: - Venue: Bharat Mandapam; inaugurated by MNRE Minister Pralhad Joshi and Agriculture Minister Shivraj Singh Chouhan. - Participants: delegates from 40+ countries, including around 400 farmers (reported figure; counts vary by source). - Agrivoltaics = co-locating crop production and solar PV on the same land. Notebook: GS3 Agriculture / Energy. Static anchor: Ramesh Singh, Indian Ec"
+        },
+        {
+          "source": "daily/daily_pib/PIB_2026-10-22.md",
+          "date": "2026-10-22",
+          "cadence": "pib",
+          "excerpt": "Renewable Energy (with Ministry of Agriculture & Farmers' Welfare): 7th AgriVoltaics World Conference, Bharat Mandapam, New Delhi (21–23 Oct 2026)"
+        },
+        {
+          "source": "daily/daily_pib/PIB_2026-10-19.md",
+          "date": "2026-10-19",
+          "cadence": "pib",
+          "excerpt": "nce: ₹4,106 crore contracts for the GSAT-7C satellite (IAF) and Varunastra heavyweight torpedoes (Navy) (signed 15 Oct, New Delhi) - What: The Ministry of Defence signed two indigenous-procurement contracts worth about ₹4,106 crore. Both were signed in the presence of the DG (Acquisition), Department of Defence. - GSAT-7C (₹2,563 crore): A communication satellite for the Indian Air Force, supplied by NewSpace India Limited (NSIL), Bengaluru, a Government of India company under the Department of Space. It is described as indigenously designed, developed and manufactured. It gives the IAF a dedicated communication capability and complements the"
+        },
+        {
+          "source": "daily/daily_pib/PIB_2026-10-18.md",
+          "date": "2026-10-18",
+          "cadence": "pib",
+          "excerpt": "3. Ministry of Housing & Urban Affairs: PMAY-U 2.0 — 10th CSMC meeting sanctions 1.93 lakh more houses (16 Oct, New Delhi)"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-18-library-india-changthang-karakoram-sanctuaries",
+      "weekId": "2026-10-18-library",
+      "layer": "current",
+      "name": "Changthang & Karakoram Sanctuaries",
+      "country": "India",
+      "region": "Ladakh",
+      "scope": "india",
+      "lat": 33.9,
+      "lon": 78.7,
+      "topic": "Briefing geography",
+      "hook": "Ladakh · mentioned 2026-10-24",
+      "fact": "ouncils existed only in Leh and Kargil. Councils can now be set up in all 8 districts (incl. newly created Sham, Nubra, Changthang, Zanskar, Drass, Sankoo). Constituencies per council: now 7–24 (earlier fixed at 26). Four nominated members (women / unrepresented groups). The Ladakh Lok Sabha MP is an ex-officio member of every council. \"Governor/State\" replaced by \"Administrator/UT of Ladakh\". State Election Commission to conduct polls; fixed five-year term; election disputes to the J&K and Ladakh High Court (45 days). Reported dates: promulgated 16 Oct, effective 19 Oct (sources differ slightly; verify before quoting dates). - Notebook: GS2",
+      "locate": "Approximate study anchor for Changthang & Karakoram Sanctuaries, India. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/atlas/news.json",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-24.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-24.md",
+          "date": "2026-10-24",
+          "cadence": "daily",
+          "excerpt": "ouncils existed only in Leh and Kargil. Councils can now be set up in all 8 districts (incl. newly created Sham, Nubra, Changthang, Zanskar, Drass, Sankoo). Constituencies per council: now 7–24 (earlier fixed at 26). Four nominated members (women / unrepresented groups). The Ladakh Lok Sabha MP is an ex-officio member of every council. \"Governor/State\" replaced by \"Administrator/UT of Ladakh\". State Election Commission to conduct polls; fixed five-year term; election disputes to the J&K and Ladakh High Court (45 days). Reported dates: promulgated 16 Oct, effective 19 Oct (sources differ slightly; verify before quoting dates). - Notebook: GS2"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-18-library-kyrgyzstan-bishkek",
+      "weekId": "2026-10-18-library",
+      "layer": "current",
+      "name": "Bishkek",
+      "country": "Kyrgyzstan",
+      "region": "Chuy valley",
+      "scope": "world",
+      "lat": 42.87,
+      "lon": 74.6,
+      "topic": "Briefing geography",
+      "hook": "Chuy valley · mentioned 2026-10-24",
+      "fact": "ibrated reset around connectivity (INSTC), energy and terrorism, and follows a Modi–Aliyev meeting at the SCO Summit in Bishkek. The MEA did not confirm that cross-border terrorism was raised. - Facts to memorise: Jaishankar called on President Ilham Aliyev and held talks with FM Jeyhun Bayramov. Agreed to deepen political consultations and exchange visits. Discussed trade, investment, connectivity and energy. India \"welcomed\" the Armenia–Azerbaijan peace agreement. Jaishankar thanked Azerbaijan for helping evacuate Indian students from Iran during the West Asia conflict, and invited Bayramov to India. Azerbaijan recently hosted a CICA meetin",
+      "locate": "Approximate study anchor for Bishkek, Kyrgyzstan. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/atlas/news.json",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-24.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-24.md",
+          "date": "2026-10-24",
+          "cadence": "daily",
+          "excerpt": "ibrated reset around connectivity (INSTC), energy and terrorism, and follows a Modi–Aliyev meeting at the SCO Summit in Bishkek. The MEA did not confirm that cross-border terrorism was raised. - Facts to memorise: Jaishankar called on President Ilham Aliyev and held talks with FM Jeyhun Bayramov. Agreed to deepen political consultations and exchange visits. Discussed trade, investment, connectivity and energy. India \"welcomed\" the Armenia–Azerbaijan peace agreement. Jaishankar thanked Azerbaijan for helping evacuate Indian students from Iran during the West Asia conflict, and invited Bayramov to India. Azerbaijan recently hosted a CICA meetin"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-18-library-russia-russia",
+      "weekId": "2026-10-18-library",
+      "layer": "current",
+      "name": "Russia",
+      "country": "Russia",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 58.2494,
+      "lon": 44.6865,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-24",
+      "fact": "Central Asia & Caucasus; Mrunal – INSTC / connectivity. Nudge: add Azerbaijan to your INSTC map (India–Iran–Azerbaijan–Russia) and a Caspian-states cross-link.",
+      "locate": "Approximate study anchor for Russia, Russia. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-24.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-24.md",
+          "date": "2026-10-24",
+          "cadence": "daily",
+          "excerpt": "Central Asia & Caucasus; Mrunal – INSTC / connectivity. Nudge: add Azerbaijan to your INSTC map (India–Iran–Azerbaijan–Russia) and a Caspian-states cross-link."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-18-library-azerbaijan-azerbaijan",
+      "weekId": "2026-10-18-library",
+      "layer": "current",
+      "name": "Azerbaijan",
+      "country": "Azerbaijan",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 40.4024,
+      "lon": 47.211,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-24",
+      "fact": "1. EAM Jaishankar in Baku: India welcomes the Armenia–Azerbaijan peace agreement — International Relations - Exam angle: India re-engages Azerbaijan, a Pakistan-leaning South Caucasus state. The visit (23 Oct) is a calibrated reset around connectivity (INSTC), energy and terrorism, and follows a Modi–Aliyev meeting at the SCO Summit in Bishkek. The MEA did not confirm that cross-border terrorism was raised. - Facts to memorise: Jaishankar called on President Ilham Aliyev and held talks with FM Jeyhun Bayramov. Agreed to deepen political consultations and exchange visits. Discussed trade, investment, connectivity and energy. India \"welcomed\" t",
+      "locate": "Approximate study anchor for Azerbaijan, Azerbaijan. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-24.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-24.md",
+          "date": "2026-10-24",
+          "cadence": "daily",
+          "excerpt": "1. EAM Jaishankar in Baku: India welcomes the Armenia–Azerbaijan peace agreement — International Relations - Exam angle: India re-engages Azerbaijan, a Pakistan-leaning South Caucasus state. The visit (23 Oct) is a calibrated reset around connectivity (INSTC), energy and terrorism, and follows a Modi–Aliyev meeting at the SCO Summit in Bishkek. The MEA did not confirm that cross-border terrorism was raised. - Facts to memorise: Jaishankar called on President Ilham Aliyev and held talks with FM Jeyhun Bayramov. Agreed to deepen political consultations and exchange visits. Discussed trade, investment, connectivity and energy. India \"welcomed\" t"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-18-library-armenia-armenia",
+      "weekId": "2026-10-18-library",
+      "layer": "current",
+      "name": "Armenia",
+      "country": "Armenia",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 40.4591,
+      "lon": 44.8006,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-24",
+      "fact": "1. EAM Jaishankar in Baku: India welcomes the Armenia–Azerbaijan peace agreement — International Relations - Exam angle: India re-engages Azerbaijan, a Pakistan-leaning South Caucasus state. The visit (23 Oct) is a calibrated reset around connectivity (INSTC), energy and terrorism, and follows a Modi–Aliyev meeting at the SCO Summit in Bishkek. The MEA did not confirm that cross-border terrorism was raised. - Facts to memorise: Jaishankar called on President Ilham Aliyev and held talks with FM Jeyhun Bayramov. Agreed to deepen political consultations and exchange visits. Discussed trade, investment, connectivity and energy. India \"welcomed\" t",
+      "locate": "Approximate study anchor for Armenia, Armenia. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-24.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-24.md",
+          "date": "2026-10-24",
+          "cadence": "daily",
+          "excerpt": "1. EAM Jaishankar in Baku: India welcomes the Armenia–Azerbaijan peace agreement — International Relations - Exam angle: India re-engages Azerbaijan, a Pakistan-leaning South Caucasus state. The visit (23 Oct) is a calibrated reset around connectivity (INSTC), energy and terrorism, and follows a Modi–Aliyev meeting at the SCO Summit in Bishkek. The MEA did not confirm that cross-border terrorism was raised. - Facts to memorise: Jaishankar called on President Ilham Aliyev and held talks with FM Jeyhun Bayramov. Agreed to deepen political consultations and exchange visits. Discussed trade, investment, connectivity and energy. India \"welcomed\" t"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-18-library-iran-iran",
+      "weekId": "2026-10-18-library",
+      "layer": "current",
+      "name": "Iran",
+      "country": "Iran",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 32.1662,
+      "lon": 54.9315,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-24",
+      "fact": "lcomed\" the Armenia–Azerbaijan peace agreement. Jaishankar thanked Azerbaijan for helping evacuate Indian students from Iran during the West Asia conflict, and invited Bayramov to India. Azerbaijan recently hosted a CICA meeting (India was represented by MoS Kirti Vardhan Singh). - Notebook: GS2 – IR (Eurasia / extended neighbourhood). - Static anchor: Shankar IAS – India's relations with Central Asia & Caucasus; Mrunal – INSTC / connectivity. Nudge: add Azerbaijan to your INSTC map (India–Iran–Azerbaijan–Russia) and a Caspian-states cross-link.",
+      "locate": "Approximate study anchor for Iran, Iran. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-24.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-24.md",
+          "date": "2026-10-24",
+          "cadence": "daily",
+          "excerpt": "lcomed\" the Armenia–Azerbaijan peace agreement. Jaishankar thanked Azerbaijan for helping evacuate Indian students from Iran during the West Asia conflict, and invited Bayramov to India. Azerbaijan recently hosted a CICA meeting (India was represented by MoS Kirti Vardhan Singh). - Notebook: GS2 – IR (Eurasia / extended neighbourhood). - Static anchor: Shankar IAS – India's relations with Central Asia & Caucasus; Mrunal – INSTC / connectivity. Nudge: add Azerbaijan to your INSTC map (India–Iran–Azerbaijan–Russia) and a Caspian-states cross-link."
         }
       ],
       "libraryDerived": true
@@ -12884,39 +13332,6 @@
           "date": "2026-10-18",
           "cadence": "pib",
           "excerpt": "5. Ministry of Science & Technology (DST): Neyveli, Tiruchirappalli Badlands and Atacama identified as Martian analogue sites (16 Oct)"
-        }
-      ],
-      "libraryDerived": true
-    },
-    {
-      "id": "2026-10-18-library-india-new-delhi",
-      "weekId": "2026-10-18-library",
-      "layer": "current",
-      "name": "New Delhi",
-      "country": "India",
-      "region": "Delhi",
-      "scope": "india",
-      "lat": 28.5647,
-      "lon": 77.151,
-      "topic": "Briefing geography",
-      "hook": "Delhi · mentioned 2026-10-19",
-      "fact": "nce: ₹4,106 crore contracts for the GSAT-7C satellite (IAF) and Varunastra heavyweight torpedoes (Navy) (signed 15 Oct, New Delhi) - What: The Ministry of Defence signed two indigenous-procurement contracts worth about ₹4,106 crore. Both were signed in the presence of the DG (Acquisition), Department of Defence. - GSAT-7C (₹2,563 crore): A communication satellite for the Indian Air Force, supplied by NewSpace India Limited (NSIL), Bengaluru, a Government of India company under the Department of Space. It is described as indigenously designed, developed and manufactured. It gives the IAF a dedicated communication capability and complements the",
-      "locate": "Approximate study anchor for New Delhi, India. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
-      "coordinatePrecision": "regional-study-anchor",
-      "coordinateSource": "data/maps/bharatrajya-india-districts.geojson",
-      "source": "daily/daily_pib/PIB_2026-10-19.md",
-      "references": [
-        {
-          "source": "daily/daily_pib/PIB_2026-10-19.md",
-          "date": "2026-10-19",
-          "cadence": "pib",
-          "excerpt": "nce: ₹4,106 crore contracts for the GSAT-7C satellite (IAF) and Varunastra heavyweight torpedoes (Navy) (signed 15 Oct, New Delhi) - What: The Ministry of Defence signed two indigenous-procurement contracts worth about ₹4,106 crore. Both were signed in the presence of the DG (Acquisition), Department of Defence. - GSAT-7C (₹2,563 crore): A communication satellite for the Indian Air Force, supplied by NewSpace India Limited (NSIL), Bengaluru, a Government of India company under the Department of Space. It is described as indigenously designed, developed and manufactured. It gives the IAF a dedicated communication capability and complements the"
-        },
-        {
-          "source": "daily/daily_pib/PIB_2026-10-18.md",
-          "date": "2026-10-18",
-          "cadence": "pib",
-          "excerpt": "3. Ministry of Housing & Urban Affairs: PMAY-U 2.0 — 10th CSMC meeting sanctions 1.93 lakh more houses (16 Oct, New Delhi)"
         }
       ],
       "libraryDerived": true
@@ -13052,6 +13467,996 @@
           "date": "2026-10-21",
           "cadence": "pib",
           "excerpt": "5. Ministry of Defence: Exercise AUSTRAHIND 2026 (5th edition), Thiruvananthapuram, 19 Oct – 1 Nov - ~120 personnel each (India: Garhwal Rifles; Australia: 13 Brigade). Theme: joint sub-conventional operations in island and coastal environments under Chapter VII of the UN Mandate; includes HADR; New Zealand observers attend for the first time. Notebook: GS3 Internal Security / GS2 IR."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-18-library-singapore-singapore",
+      "weekId": "2026-10-18-library",
+      "layer": "current",
+      "name": "Singapore",
+      "country": "Singapore",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 1.3666,
+      "lon": 103.8169,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-22",
+      "fact": "What/why: SIMBEX is the India–Singapore bilateral naval exercise; the radar contract builds on the Army's fast-track low-level radar acquisition (an earlier procurement for 30 radars was reported at about ₹725 crore). Details of the signed contract were not read in full.",
+      "locate": "Approximate study anchor for Singapore, Singapore. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_pib/PIB_2026-10-22.md",
+      "references": [
+        {
+          "source": "daily/daily_pib/PIB_2026-10-22.md",
+          "date": "2026-10-22",
+          "cadence": "pib",
+          "excerpt": "What/why: SIMBEX is the India–Singapore bilateral naval exercise; the radar contract builds on the Army's fast-track low-level radar acquisition (an earlier procurement for 30 radars was reported at about ₹725 crore). Details of the signed contract were not read in full."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-18-library-india-visakhapatnam",
+      "weekId": "2026-10-18-library",
+      "layer": "current",
+      "name": "Visakhapatnam",
+      "country": "India",
+      "region": "Andhra Pradesh",
+      "scope": "india",
+      "lat": 17.888,
+      "lon": 82.6855,
+      "topic": "Briefing geography",
+      "hook": "Andhra Pradesh · mentioned 2026-10-22",
+      "fact": "4. Ministry of Defence: SIMBEX-2026 (33rd edition) begins at Visakhapatnam; ₹770 crore contract for low-level lightweight radars; Army Commanders' Conference (21 Oct; headline-level from PIB listing)",
+      "locate": "Approximate study anchor for Visakhapatnam, India. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/bharatrajya-india-districts.geojson",
+      "source": "daily/daily_pib/PIB_2026-10-22.md",
+      "references": [
+        {
+          "source": "daily/daily_pib/PIB_2026-10-22.md",
+          "date": "2026-10-22",
+          "cadence": "pib",
+          "excerpt": "4. Ministry of Defence: SIMBEX-2026 (33rd edition) begins at Visakhapatnam; ₹770 crore contract for low-level lightweight radars; Army Commanders' Conference (21 Oct; headline-level from PIB listing)"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-18-library-india-prayagraj-sangam",
+      "weekId": "2026-10-18-library",
+      "layer": "current",
+      "name": "Prayagraj / Sangam",
+      "country": "India",
+      "region": "Uttar Pradesh",
+      "scope": "india",
+      "lat": 25.43,
+      "lon": 81.88,
+      "topic": "Briefing geography",
+      "hook": "Uttar Pradesh · mentioned 2026-10-24",
+      "fact": "rs/media, agriculture & allied, professionals & artisans, women, spiritual leaders); eight-day tours covering Varanasi, Prayagraj and Ayodhya. - Registration at kashitamil.iitm.ac.in until 13 Nov 2026. First edition: 2022. - Static link: Tamil was the first language declared Classical (2004); 11 languages now hold the status (five added Oct 2024).",
+      "locate": "Approximate study anchor for Prayagraj / Sangam, India. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/atlas/news.json",
+      "source": "daily/daily_pib/PIB_2026-10-24.md",
+      "references": [
+        {
+          "source": "daily/daily_pib/PIB_2026-10-24.md",
+          "date": "2026-10-24",
+          "cadence": "pib",
+          "excerpt": "rs/media, agriculture & allied, professionals & artisans, women, spiritual leaders); eight-day tours covering Varanasi, Prayagraj and Ayodhya. - Registration at kashitamil.iitm.ac.in until 13 Nov 2026. First edition: 2022. - Static link: Tamil was the first language declared Classical (2004); 11 languages now hold the status (five added Oct 2024)."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-25-library-india-sriharikota",
+      "weekId": "2026-10-25-library",
+      "layer": "current",
+      "name": "Sriharikota",
+      "country": "India",
+      "region": "Andhra Pradesh",
+      "scope": "india",
+      "lat": 13.72,
+      "lon": 80.23,
+      "topic": "Briefing geography",
+      "hook": "Andhra Pradesh · mentioned 2026-10-25",
+      "fact": "lims 2018 question). - Facts to memorise: Third satellite of the second-generation NVS series; launch vehicle GSLV from Sriharikota (date reported as 30 Oct; vehicle reported variously as GSLV Mk II/GSLV-F18, so verify on the ISRO notice). 11 NavIC satellites launched so far, 8 functional; only 3 serving navigation, 4 needed for a 3D fix. NVS-02 (29 Jan 2025) failed to reach intended orbit. IRNSS-1F lost its atomic clock after its 10-year design life. Features: indigenous rubidium clocks, L1, L5 and S-band, coverage up to ~1,500 km beyond India, SPS (civil) and RS (restricted). - Notebook: GS3 – Science & Technology (Space). - Static anchor:",
+      "locate": "Approximate study anchor for Sriharikota, India. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/atlas/news.json",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-25.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-25.md",
+          "date": "2026-10-25",
+          "cadence": "daily",
+          "excerpt": "lims 2018 question). - Facts to memorise: Third satellite of the second-generation NVS series; launch vehicle GSLV from Sriharikota (date reported as 30 Oct; vehicle reported variously as GSLV Mk II/GSLV-F18, so verify on the ISRO notice). 11 NavIC satellites launched so far, 8 functional; only 3 serving navigation, 4 needed for a 3D fix. NVS-02 (29 Jan 2025) failed to reach intended orbit. IRNSS-1F lost its atomic clock after its 10-year design life. Features: indigenous rubidium clocks, L1, L5 and S-band, coverage up to ~1,500 km beyond India, SPS (civil) and RS (restricted). - Notebook: GS3 – Science & Technology (Space). - Static anchor:"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-25-library-nepal-nepal",
+      "weekId": "2026-10-25-library",
+      "layer": "current",
+      "name": "Nepal",
+      "country": "Nepal",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 28.2979,
+      "lon": 83.6399,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-25",
+      "fact": "3. Loss and Damage Fund: first-ever extraordinary Board meeting; $21.6 million set aside for Nepal after the Bhotekoshi flood — Environment - Exam angle: Operationalising climate justice. The FRLD's first disaster-specific response sits against Nepal's estimated recovery need of ≥ $4.71 bn: a case for the adequacy debate before COP31. - Facts to memorise: Trigger: ice-and-rock avalanche on 26 Aug 2026 causing a debris flow along the Bhotekoshi–Trishuli–Narayani system. Board virtual extraordinary meeting on 22 Oct; provision of $21.6 m = $20 m for Nepal + $1.6 m oversight fees, with Nepal invited to submit a funding request (a digest reports",
+      "locate": "Approximate study anchor for Nepal, Nepal. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-25.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-25.md",
+          "date": "2026-10-25",
+          "cadence": "daily",
+          "excerpt": "3. Loss and Damage Fund: first-ever extraordinary Board meeting; $21.6 million set aside for Nepal after the Bhotekoshi flood — Environment - Exam angle: Operationalising climate justice. The FRLD's first disaster-specific response sits against Nepal's estimated recovery need of ≥ $4.71 bn: a case for the adequacy debate before COP31. - Facts to memorise: Trigger: ice-and-rock avalanche on 26 Aug 2026 causing a debris flow along the Bhotekoshi–Trishuli–Narayani system. Board virtual extraordinary meeting on 22 Oct; provision of $21.6 m = $20 m for Nepal + $1.6 m oversight fees, with Nepal invited to submit a funding request (a digest reports"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-25-library-indonesia-indonesia",
+      "weekId": "2026-10-25-library",
+      "layer": "current",
+      "name": "Indonesia",
+      "country": "Indonesia",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": -0.9544,
+      "lon": 101.8929,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-26",
+      "fact": "nce on terrorism, Pahalgam condemned). Members: Brazil, Russia, India, China, South Africa, Egypt, Ethiopia, Iran, UAE, Indonesia. Notebook: GS2 – International Relations. Static anchor: Shankar IAS / Mrunal \"Groupings\" pillar – BRICS. Update: add forum dates and the 2025 terrorism language; cross-link to Parliamentary Diplomacy (Laxmikanth – Parliament, Speaker's role).",
+      "locate": "Approximate study anchor for Indonesia, Indonesia. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-26.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-26.md",
+          "date": "2026-10-26",
+          "cadence": "daily",
+          "excerpt": "nce on terrorism, Pahalgam condemned). Members: Brazil, Russia, India, China, South Africa, Egypt, Ethiopia, Iran, UAE, Indonesia. Notebook: GS2 – International Relations. Static anchor: Shankar IAS / Mrunal \"Groupings\" pillar – BRICS. Update: add forum dates and the 2025 terrorism language; cross-link to Parliamentary Diplomacy (Laxmikanth – Parliament, Speaker's role)."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-25-library-ethiopia-ethiopia",
+      "weekId": "2026-10-25-library",
+      "layer": "current",
+      "name": "Ethiopia",
+      "country": "Ethiopia",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 8.0328,
+      "lon": 39.0886,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-26",
+      "fact": "une 2025 (zero tolerance on terrorism, Pahalgam condemned). Members: Brazil, Russia, India, China, South Africa, Egypt, Ethiopia, Iran, UAE, Indonesia. Notebook: GS2 – International Relations. Static anchor: Shankar IAS / Mrunal \"Groupings\" pillar – BRICS. Update: add forum dates and the 2025 terrorism language; cross-link to Parliamentary Diplomacy (Laxmikanth – Parliament, Speaker's role).",
+      "locate": "Approximate study anchor for Ethiopia, Ethiopia. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-26.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-26.md",
+          "date": "2026-10-26",
+          "cadence": "daily",
+          "excerpt": "une 2025 (zero tolerance on terrorism, Pahalgam condemned). Members: Brazil, Russia, India, China, South Africa, Egypt, Ethiopia, Iran, UAE, Indonesia. Notebook: GS2 – International Relations. Static anchor: Shankar IAS / Mrunal \"Groupings\" pillar – BRICS. Update: add forum dates and the 2025 terrorism language; cross-link to Parliamentary Diplomacy (Laxmikanth – Parliament, Speaker's role)."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-25-library-china-china",
+      "weekId": "2026-10-25-library",
+      "layer": "current",
+      "name": "China",
+      "country": "China",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 32.4982,
+      "lon": 106.3373,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-27",
+      "fact": "nd complain of inadequate consultation on the pre-feasibility survey. The government frames it as a strategic answer to China's proposed Medog project on the Yarlung Tsangpo, with flood-regulation and water-security benefits. Good for a Mains question on large dams, federalism and transboundary rivers. Memorise: 11,200 MW; proponent NHPC; Siang = Brahmaputra's course in Arunachal Pradesh; counter to Medog (China). Notebook: GS3 Environment; GS2 IR (India–China water); GS1 Geography (Places in News). Static anchor: Shankar IAS, \"EIA and Environmental Clearances\"; Spectrum/NCERT on Brahmaputra drainage. Nudge: add a \"Siang vs Medog\" box and cro",
+      "locate": "Approximate study anchor for China, China. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-27.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-27.md",
+          "date": "2026-10-27",
+          "cadence": "daily",
+          "excerpt": "nd complain of inadequate consultation on the pre-feasibility survey. The government frames it as a strategic answer to China's proposed Medog project on the Yarlung Tsangpo, with flood-regulation and water-security benefits. Good for a Mains question on large dams, federalism and transboundary rivers. Memorise: 11,200 MW; proponent NHPC; Siang = Brahmaputra's course in Arunachal Pradesh; counter to Medog (China). Notebook: GS3 Environment; GS2 IR (India–China water); GS1 Geography (Places in News). Static anchor: Shankar IAS, \"EIA and Environmental Clearances\"; Spectrum/NCERT on Brahmaputra drainage. Nudge: add a \"Siang vs Medog\" box and cro"
+        },
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-26.md",
+          "date": "2026-10-26",
+          "cadence": "daily",
+          "excerpt": "June 2015; 11th Brasília, June 2025 (zero tolerance on terrorism, Pahalgam condemned). Members: Brazil, Russia, India, China, South Africa, Egypt, Ethiopia, Iran, UAE, Indonesia. Notebook: GS2 – International Relations. Static anchor: Shankar IAS / Mrunal \"Groupings\" pillar – BRICS. Update: add forum dates and the 2025 terrorism language; cross-link to Parliamentary Diplomacy (Laxmikanth – Parliament, Speaker's role)."
+        },
+        {
+          "source": "daily/daily_pib/PIB_2026-10-26.md",
+          "date": "2026-10-26",
+          "cadence": "pib",
+          "excerpt": "ec 2026) — appointment, ONGC is a Maharatna CPSE. - ITBP 65th Raising Day (24 Oct): raised 1962, guards ~3,488 km India–China border."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-25-library-south-korea-south-korea",
+      "weekId": "2026-10-25-library",
+      "layer": "current",
+      "name": "South Korea",
+      "country": "South Korea",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 36.3849,
+      "lon": 128.1295,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-26",
+      "fact": "CGT (0.5%), ranking 12th, but deliveries due 2026–30 are nearly double those of 2021–25 (verify). Memorize: China ~64%, South Korea ~19%, Japan ~6% of the order book; China won 74% of tonnage contracted last year. Targets: Maritime India Vision 2030 (top 10) and Maritime Amrit Kaal Vision 2047 (top 5). ₹69,725-crore 2025 package with Maritime Development Fund. CGT = compensated gross tonnage. Notebook: GS3 – Economy (Infrastructure / Manufacturing). Static anchor: Mrunal \"Infrastructure – Ports & Shipping\"; Sagarmala. Update: add the share data and the Amrit Kaal targets; cross-link to Make in India / Atmanirbhar defence shipbuilding.",
+      "locate": "Approximate study anchor for South Korea, South Korea. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-26.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-26.md",
+          "date": "2026-10-26",
+          "cadence": "daily",
+          "excerpt": "CGT (0.5%), ranking 12th, but deliveries due 2026–30 are nearly double those of 2021–25 (verify). Memorize: China ~64%, South Korea ~19%, Japan ~6% of the order book; China won 74% of tonnage contracted last year. Targets: Maritime India Vision 2030 (top 10) and Maritime Amrit Kaal Vision 2047 (top 5). ₹69,725-crore 2025 package with Maritime Development Fund. CGT = compensated gross tonnage. Notebook: GS3 – Economy (Infrastructure / Manufacturing). Static anchor: Mrunal \"Infrastructure – Ports & Shipping\"; Sagarmala. Update: add the share data and the Amrit Kaal targets; cross-link to Make in India / Atmanirbhar defence shipbuilding."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-25-library-south-africa-south-africa",
+      "weekId": "2026-10-25-library",
+      "layer": "current",
+      "name": "South Africa",
+      "country": "South Africa",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": -29.7088,
+      "lon": 23.6657,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-26",
+      "fact": "015; 11th Brasília, June 2025 (zero tolerance on terrorism, Pahalgam condemned). Members: Brazil, Russia, India, China, South Africa, Egypt, Ethiopia, Iran, UAE, Indonesia. Notebook: GS2 – International Relations. Static anchor: Shankar IAS / Mrunal \"Groupings\" pillar – BRICS. Update: add forum dates and the 2025 terrorism language; cross-link to Parliamentary Diplomacy (Laxmikanth – Parliament, Speaker's role).",
+      "locate": "Approximate study anchor for South Africa, South Africa. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-26.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-26.md",
+          "date": "2026-10-26",
+          "cadence": "daily",
+          "excerpt": "015; 11th Brasília, June 2025 (zero tolerance on terrorism, Pahalgam condemned). Members: Brazil, Russia, India, China, South Africa, Egypt, Ethiopia, Iran, UAE, Indonesia. Notebook: GS2 – International Relations. Static anchor: Shankar IAS / Mrunal \"Groupings\" pillar – BRICS. Update: add forum dates and the 2025 terrorism language; cross-link to Parliamentary Diplomacy (Laxmikanth – Parliament, Speaker's role)."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-25-library-brazil-brazil",
+      "weekId": "2026-10-25-library",
+      "layer": "current",
+      "name": "Brazil",
+      "country": "Brazil",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": -12.0987,
+      "lon": -49.5594,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-29",
+      "fact": "r: Mrunal, \"Trade agreements: PTA vs FTA vs CEPA\". Add Mexico to the \"India's Latin America engagement\" map notes (with Brazil, Argentina, Chile, Peru).",
+      "locate": "Approximate study anchor for Brazil, Brazil. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-29.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-29.md",
+          "date": "2026-10-29",
+          "cadence": "daily",
+          "excerpt": "r: Mrunal, \"Trade agreements: PTA vs FTA vs CEPA\". Add Mexico to the \"India's Latin America engagement\" map notes (with Brazil, Argentina, Chile, Peru)."
+        },
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-26.md",
+          "date": "2026-10-26",
+          "cadence": "daily",
+          "excerpt": "rize: 1st forum Moscow, June 2015; 11th Brasília, June 2025 (zero tolerance on terrorism, Pahalgam condemned). Members: Brazil, Russia, India, China, South Africa, Egypt, Ethiopia, Iran, UAE, Indonesia. Notebook: GS2 – International Relations. Static anchor: Shankar IAS / Mrunal \"Groupings\" pillar – BRICS. Update: add forum dates and the 2025 terrorism language; cross-link to Parliamentary Diplomacy (Laxmikanth – Parliament, Speaker's role)."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-25-library-russia-russia",
+      "weekId": "2026-10-25-library",
+      "layer": "current",
+      "name": "Russia",
+      "country": "Russia",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 58.2494,
+      "lon": 44.6865,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-26",
+      "fact": "t forum Moscow, June 2015; 11th Brasília, June 2025 (zero tolerance on terrorism, Pahalgam condemned). Members: Brazil, Russia, India, China, South Africa, Egypt, Ethiopia, Iran, UAE, Indonesia. Notebook: GS2 – International Relations. Static anchor: Shankar IAS / Mrunal \"Groupings\" pillar – BRICS. Update: add forum dates and the 2025 terrorism language; cross-link to Parliamentary Diplomacy (Laxmikanth – Parliament, Speaker's role).",
+      "locate": "Approximate study anchor for Russia, Russia. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-26.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-26.md",
+          "date": "2026-10-26",
+          "cadence": "daily",
+          "excerpt": "t forum Moscow, June 2015; 11th Brasília, June 2025 (zero tolerance on terrorism, Pahalgam condemned). Members: Brazil, Russia, India, China, South Africa, Egypt, Ethiopia, Iran, UAE, Indonesia. Notebook: GS2 – International Relations. Static anchor: Shankar IAS / Mrunal \"Groupings\" pillar – BRICS. Update: add forum dates and the 2025 terrorism language; cross-link to Parliamentary Diplomacy (Laxmikanth – Parliament, Speaker's role)."
+        },
+        {
+          "source": "daily/daily_pib/PIB_2026-10-25.md",
+          "date": "2026-10-25",
+          "cadence": "pib",
+          "excerpt": "Oct). - Social Justice: AVYAY — IPSrC support for 764 senior-citizen homes/units (23 Oct). - Defence: INDRA 2026 (India–Russia naval exercise) concluded at Vladivostok; DRDO AIP module Phase-2 item (23–24 Oct). - Science & Technology: ARIES Nainital finds black-hole spin sets X-ray QPO frequency range (23 Oct)."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-25-library-united-arab-emirates-united-arab-emirates",
+      "weekId": "2026-10-25-library",
+      "layer": "current",
+      "name": "United Arab Emirates",
+      "country": "United Arab Emirates",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 23.4663,
+      "lon": 54.5473,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-26",
+      "fact": "olerance on terrorism, Pahalgam condemned). Members: Brazil, Russia, India, China, South Africa, Egypt, Ethiopia, Iran, UAE, Indonesia. Notebook: GS2 – International Relations. Static anchor: Shankar IAS / Mrunal \"Groupings\" pillar – BRICS. Update: add forum dates and the 2025 terrorism language; cross-link to Parliamentary Diplomacy (Laxmikanth – Parliament, Speaker's role).",
+      "locate": "Approximate study anchor for United Arab Emirates, United Arab Emirates. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-26.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-26.md",
+          "date": "2026-10-26",
+          "cadence": "daily",
+          "excerpt": "olerance on terrorism, Pahalgam condemned). Members: Brazil, Russia, India, China, South Africa, Egypt, Ethiopia, Iran, UAE, Indonesia. Notebook: GS2 – International Relations. Static anchor: Shankar IAS / Mrunal \"Groupings\" pillar – BRICS. Update: add forum dates and the 2025 terrorism language; cross-link to Parliamentary Diplomacy (Laxmikanth – Parliament, Speaker's role)."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-25-library-iran-iran",
+      "weekId": "2026-10-25-library",
+      "layer": "current",
+      "name": "Iran",
+      "country": "Iran",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 32.1662,
+      "lon": 54.9315,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-26",
+      "fact": "zero tolerance on terrorism, Pahalgam condemned). Members: Brazil, Russia, India, China, South Africa, Egypt, Ethiopia, Iran, UAE, Indonesia. Notebook: GS2 – International Relations. Static anchor: Shankar IAS / Mrunal \"Groupings\" pillar – BRICS. Update: add forum dates and the 2025 terrorism language; cross-link to Parliamentary Diplomacy (Laxmikanth – Parliament, Speaker's role).",
+      "locate": "Approximate study anchor for Iran, Iran. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-26.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-26.md",
+          "date": "2026-10-26",
+          "cadence": "daily",
+          "excerpt": "zero tolerance on terrorism, Pahalgam condemned). Members: Brazil, Russia, India, China, South Africa, Egypt, Ethiopia, Iran, UAE, Indonesia. Notebook: GS2 – International Relations. Static anchor: Shankar IAS / Mrunal \"Groupings\" pillar – BRICS. Update: add forum dates and the 2025 terrorism language; cross-link to Parliamentary Diplomacy (Laxmikanth – Parliament, Speaker's role)."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-25-library-egypt-egypt",
+      "weekId": "2026-10-25-library",
+      "layer": "current",
+      "name": "Egypt",
+      "country": "Egypt",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 26.1862,
+      "lon": 29.4458,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-26",
+      "fact": "ília, June 2025 (zero tolerance on terrorism, Pahalgam condemned). Members: Brazil, Russia, India, China, South Africa, Egypt, Ethiopia, Iran, UAE, Indonesia. Notebook: GS2 – International Relations. Static anchor: Shankar IAS / Mrunal \"Groupings\" pillar – BRICS. Update: add forum dates and the 2025 terrorism language; cross-link to Parliamentary Diplomacy (Laxmikanth – Parliament, Speaker's role).",
+      "locate": "Approximate study anchor for Egypt, Egypt. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-26.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-26.md",
+          "date": "2026-10-26",
+          "cadence": "daily",
+          "excerpt": "ília, June 2025 (zero tolerance on terrorism, Pahalgam condemned). Members: Brazil, Russia, India, China, South Africa, Egypt, Ethiopia, Iran, UAE, Indonesia. Notebook: GS2 – International Relations. Static anchor: Shankar IAS / Mrunal \"Groupings\" pillar – BRICS. Update: add forum dates and the 2025 terrorism language; cross-link to Parliamentary Diplomacy (Laxmikanth – Parliament, Speaker's role)."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-25-library-japan-japan",
+      "weekId": "2026-10-25-library",
+      "layer": "current",
+      "name": "Japan",
+      "country": "Japan",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 36.1425,
+      "lon": 138.4422,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-26",
+      "fact": "g 12th, but deliveries due 2026–30 are nearly double those of 2021–25 (verify). Memorize: China ~64%, South Korea ~19%, Japan ~6% of the order book; China won 74% of tonnage contracted last year. Targets: Maritime India Vision 2030 (top 10) and Maritime Amrit Kaal Vision 2047 (top 5). ₹69,725-crore 2025 package with Maritime Development Fund. CGT = compensated gross tonnage. Notebook: GS3 – Economy (Infrastructure / Manufacturing). Static anchor: Mrunal \"Infrastructure – Ports & Shipping\"; Sagarmala. Update: add the share data and the Amrit Kaal targets; cross-link to Make in India / Atmanirbhar defence shipbuilding.",
+      "locate": "Approximate study anchor for Japan, Japan. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-26.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-26.md",
+          "date": "2026-10-26",
+          "cadence": "daily",
+          "excerpt": "g 12th, but deliveries due 2026–30 are nearly double those of 2021–25 (verify). Memorize: China ~64%, South Korea ~19%, Japan ~6% of the order book; China won 74% of tonnage contracted last year. Targets: Maritime India Vision 2030 (top 10) and Maritime Amrit Kaal Vision 2047 (top 5). ₹69,725-crore 2025 package with Maritime Development Fund. CGT = compensated gross tonnage. Notebook: GS3 – Economy (Infrastructure / Manufacturing). Static anchor: Mrunal \"Infrastructure – Ports & Shipping\"; Sagarmala. Update: add the share data and the Amrit Kaal targets; cross-link to Make in India / Atmanirbhar defence shipbuilding."
+        },
+        {
+          "source": "daily/daily_pib/PIB_2026-10-26.md",
+          "date": "2026-10-26",
+          "cadence": "pib",
+          "excerpt": "Key facts: Games held at Aichi-Nagoya, Japan; 114 medals is India's highest at the Asian Para Games (Hangzhou 2022 was the previous high of 111, as far as I know — verify before quoting)."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-25-library-india-new-delhi",
+      "weekId": "2026-10-25-library",
+      "layer": "current",
+      "name": "New Delhi",
+      "country": "India",
+      "region": "Delhi",
+      "scope": "india",
+      "lat": 28.5647,
+      "lon": 77.151,
+      "topic": "Briefing geography",
+      "hook": "Delhi · mentioned 2026-10-28",
+      "fact": "nistry of Consumer Affairs, Food & Public Distribution: 61st International Committee of Legal Metrology (CIML) meeting, New Delhi, 26–28 Oct Notebook: GS2 Governance / IR (single secondary source — PIB-summary site)",
+      "locate": "Approximate study anchor for New Delhi, India. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/bharatrajya-india-districts.geojson",
+      "source": "daily/daily_pib/PIB_2026-10-28.md",
+      "references": [
+        {
+          "source": "daily/daily_pib/PIB_2026-10-28.md",
+          "date": "2026-10-28",
+          "cadence": "pib",
+          "excerpt": "nistry of Consumer Affairs, Food & Public Distribution: 61st International Committee of Legal Metrology (CIML) meeting, New Delhi, 26–28 Oct Notebook: GS2 Governance / IR (single secondary source — PIB-summary site)"
+        },
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-27.md",
+          "date": "2026-10-27",
+          "cadence": "daily",
+          "excerpt": "Global South faces shortages of finance, fuel, food and fertiliser and urges the Global North to see its \"equal stake\" (New Delhi, 25 Oct). Exam angle: Fits India's \"voice of the Global South\" positioning. He tied the crisis to the wars in Ukraine and West Asia, chokepoints and trade restrictions. He also called for \"de-risking\" and diversified options, UN reform, and AI that is not controlled by a few actors. Useful Mains line for IR questions on Global South leadership and the reform of global institutions. Memorise: 4F = Finance, Fuel, Food, Fertiliser. Spoken at the Chinmaya Amrit Mahotsav Global Sammelan, Bharat Mandapam, on UN Day. Note"
+        },
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-26.md",
+          "date": "2026-10-26",
+          "cadence": "daily",
+          "excerpt": "1. 12th BRICS Parliamentary Forum opens in New Delhi (26–27 Oct) — International Relations Exam angle: India hosts the legislators' track of BRICS at Parliament House, chaired by Lok Sabha Speaker Om Birla. Theme: \"Fostering Parliaments for people-centric development\"; AI and digital technology feature across four plenary sessions. It is a parliamentary-diplomacy platform that supports summit decisions, not a decision-making body. Memorize: 1st forum Moscow, June 2015; 11th Brasília, June 2025 (zero tolerance on terrorism, Pahalgam condemned). Members: Brazil, Russia, India, China, South Africa, Egypt, Ethiopia, Iran, UAE, Indonesia. Notebook"
+        },
+        {
+          "source": "daily/daily_pib/PIB_2026-10-25.md",
+          "date": "2026-10-25",
+          "cadence": "pib",
+          "excerpt": "2. Ministry of Earth Sciences (IITM): AATAL — integrated air-pollution analysis lab inaugurated in Delhi (24 Oct 2026)"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-25-library-china-medog-yarlung-tsangpo",
+      "weekId": "2026-10-25-library",
+      "layer": "current",
+      "name": "Medog / Yarlung Tsangpo",
+      "country": "China",
+      "region": "Tibet",
+      "scope": "world",
+      "lat": 29.32,
+      "lon": 95.33,
+      "topic": "Briefing geography",
+      "hook": "Tibet · mentioned 2026-10-27",
+      "fact": "adequate consultation on the pre-feasibility survey. The government frames it as a strategic answer to China's proposed Medog project on the Yarlung Tsangpo, with flood-regulation and water-security benefits. Good for a Mains question on large dams, federalism and transboundary rivers. Memorise: 11,200 MW; proponent NHPC; Siang = Brahmaputra's course in Arunachal Pradesh; counter to Medog (China). Notebook: GS3 Environment; GS2 IR (India–China water); GS1 Geography (Places in News). Static anchor: Shankar IAS, \"EIA and Environmental Clearances\"; Spectrum/NCERT on Brahmaputra drainage. Nudge: add a \"Siang vs Medog\" box and cross-link to Indus",
+      "locate": "Approximate study anchor for Medog / Yarlung Tsangpo, China. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/atlas/news.json",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-27.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-27.md",
+          "date": "2026-10-27",
+          "cadence": "daily",
+          "excerpt": "adequate consultation on the pre-feasibility survey. The government frames it as a strategic answer to China's proposed Medog project on the Yarlung Tsangpo, with flood-regulation and water-security benefits. Good for a Mains question on large dams, federalism and transboundary rivers. Memorise: 11,200 MW; proponent NHPC; Siang = Brahmaputra's course in Arunachal Pradesh; counter to Medog (China). Notebook: GS3 Environment; GS2 IR (India–China water); GS1 Geography (Places in News). Static anchor: Shankar IAS, \"EIA and Environmental Clearances\"; Spectrum/NCERT on Brahmaputra drainage. Nudge: add a \"Siang vs Medog\" box and cross-link to Indus"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-25-library-india-bharat-mandapam-delhi",
+      "weekId": "2026-10-25-library",
+      "layer": "current",
+      "name": "Bharat Mandapam / Delhi",
+      "country": "India",
+      "region": "Delhi",
+      "scope": "india",
+      "lat": 28.61,
+      "lon": 77.24,
+      "topic": "Briefing geography",
+      "hook": "Delhi · mentioned 2026-10-27",
+      "fact": "al institutions. Memorise: 4F = Finance, Fuel, Food, Fertiliser. Spoken at the Chinmaya Amrit Mahotsav Global Sammelan, Bharat Mandapam, on UN Day. Notebook: GS2 International Relations. Static anchor: Shankar IAS / Mrunal IR pillar \"India and the Global South (Voice of Global South Summits, G20 African Union entry)\". Nudge: add a \"4F crisis\" box with chokepoints (Hormuz, Red Sea, Black Sea) and cross-link to the food-security and fertiliser-subsidy notes.",
+      "locate": "Approximate study anchor for Bharat Mandapam / Delhi, India. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/atlas/news.json",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-27.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-27.md",
+          "date": "2026-10-27",
+          "cadence": "daily",
+          "excerpt": "al institutions. Memorise: 4F = Finance, Fuel, Food, Fertiliser. Spoken at the Chinmaya Amrit Mahotsav Global Sammelan, Bharat Mandapam, on UN Day. Notebook: GS2 International Relations. Static anchor: Shankar IAS / Mrunal IR pillar \"India and the Global South (Voice of Global South Summits, G20 African Union entry)\". Nudge: add a \"4F crisis\" box with chokepoints (Hormuz, Red Sea, Black Sea) and cross-link to the food-security and fertiliser-subsidy notes."
+        },
+        {
+          "source": "daily/daily_pib/PIB_2026-10-27.md",
+          "date": "2026-10-27",
+          "cadence": "pib",
+          "excerpt": "4. CSIR / Office of the Principal Scientific Adviser: ESTIC 2026 (Emerging Science, Technology & Innovation Conclave) — Bharat Mandapam, 27–29 Oct 2026"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-25-library-ukraine-ukraine",
+      "weekId": "2026-10-25-library",
+      "layer": "current",
+      "name": "Ukraine",
+      "country": "Ukraine",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 49.7247,
+      "lon": 32.1409,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-27",
+      "fact": "New Delhi, 25 Oct). Exam angle: Fits India's \"voice of the Global South\" positioning. He tied the crisis to the wars in Ukraine and West Asia, chokepoints and trade restrictions. He also called for \"de-risking\" and diversified options, UN reform, and AI that is not controlled by a few actors. Useful Mains line for IR questions on Global South leadership and the reform of global institutions. Memorise: 4F = Finance, Fuel, Food, Fertiliser. Spoken at the Chinmaya Amrit Mahotsav Global Sammelan, Bharat Mandapam, on UN Day. Notebook: GS2 International Relations. Static anchor: Shankar IAS / Mrunal IR pillar \"India and the Global South (Voice of G",
+      "locate": "Approximate study anchor for Ukraine, Ukraine. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-27.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-27.md",
+          "date": "2026-10-27",
+          "cadence": "daily",
+          "excerpt": "New Delhi, 25 Oct). Exam angle: Fits India's \"voice of the Global South\" positioning. He tied the crisis to the wars in Ukraine and West Asia, chokepoints and trade restrictions. He also called for \"de-risking\" and diversified options, UN reform, and AI that is not controlled by a few actors. Useful Mains line for IR questions on Global South leadership and the reform of global institutions. Memorise: 4F = Finance, Fuel, Food, Fertiliser. Spoken at the Chinmaya Amrit Mahotsav Global Sammelan, Bharat Mandapam, on UN Day. Notebook: GS2 International Relations. Static anchor: Shankar IAS / Mrunal IR pillar \"India and the Global South (Voice of G"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-25-library-india-siang",
+      "weekId": "2026-10-25-library",
+      "layer": "current",
+      "name": "Siang",
+      "country": "India",
+      "region": "Arunāchal Pradesh",
+      "scope": "india",
+      "lat": 28.304,
+      "lon": 94.9872,
+      "topic": "Briefing geography",
+      "hook": "Arunāchal Pradesh · mentioned 2026-10-27",
+      "fact": "5. Siang Upper Multipurpose Project: protests turn violent in Pasighat — Environment Headline: The proposed 11,200 MW NHPC project on the Siang in Arunachal Pradesh saw the NHPC office and a police station set ablaze on 23 Oct after a bandh. Exam angle: A classic development-versus-displacement and ecology case: protesters cite loss of ancestral land, seismicity and ecological damage, and complain of inadequate consultation on the pre-feasibility survey. The government frames it as a strategic answer to China's proposed Medog project on the Yarlung Tsangpo, with flood-regulation and water-security benefits. Good for a Mains question on large",
+      "locate": "Approximate study anchor for Siang, India. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/bharatrajya-india-districts.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-27.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-27.md",
+          "date": "2026-10-27",
+          "cadence": "daily",
+          "excerpt": "5. Siang Upper Multipurpose Project: protests turn violent in Pasighat — Environment Headline: The proposed 11,200 MW NHPC project on the Siang in Arunachal Pradesh saw the NHPC office and a police station set ablaze on 23 Oct after a bandh. Exam angle: A classic development-versus-displacement and ecology case: protesters cite loss of ancestral land, seismicity and ecological damage, and complain of inadequate consultation on the pre-feasibility survey. The government frames it as a strategic answer to China's proposed Medog project on the Yarlung Tsangpo, with flood-regulation and water-security benefits. Good for a Mains question on large"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-25-library-india-vadhavan-port",
+      "weekId": "2026-10-25-library",
+      "layer": "current",
+      "name": "Vadhavan Port",
+      "country": "India",
+      "region": "Maharashtra",
+      "scope": "india",
+      "lat": 19.92,
+      "lon": 72.66,
+      "topic": "Briefing geography",
+      "hook": "Maharashtra · mentioned 2026-10-28",
+      "fact": "Industry/Trade pillar. Nudge: add a \"container manufacturing\" bullet under Make in India sectors and cross-link to the Vadhavan port note.",
+      "locate": "Approximate study anchor for Vadhavan Port, India. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/atlas/news.json",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-28.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-28.md",
+          "date": "2026-10-28",
+          "cadence": "daily",
+          "excerpt": "Industry/Trade pillar. Nudge: add a \"container manufacturing\" bullet under Make in India sectors and cross-link to the Vadhavan port note."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-25-library-chile-chile",
+      "weekId": "2026-10-25-library",
+      "layer": "current",
+      "name": "Chile",
+      "country": "Chile",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": -38.1518,
+      "lon": -72.3189,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-29",
+      "fact": "greements: PTA vs FTA vs CEPA\". Add Mexico to the \"India's Latin America engagement\" map notes (with Brazil, Argentina, Chile, Peru).",
+      "locate": "Approximate study anchor for Chile, Chile. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-29.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-29.md",
+          "date": "2026-10-29",
+          "cadence": "daily",
+          "excerpt": "greements: PTA vs FTA vs CEPA\". Add Mexico to the \"India's Latin America engagement\" map notes (with Brazil, Argentina, Chile, Peru)."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-25-library-peru-peru",
+      "weekId": "2026-10-25-library",
+      "layer": "current",
+      "name": "Peru",
+      "country": "Peru",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": -12.9767,
+      "lon": -72.9002,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-29",
+      "fact": "ts: PTA vs FTA vs CEPA\". Add Mexico to the \"India's Latin America engagement\" map notes (with Brazil, Argentina, Chile, Peru).",
+      "locate": "Approximate study anchor for Peru, Peru. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-29.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-29.md",
+          "date": "2026-10-29",
+          "cadence": "daily",
+          "excerpt": "ts: PTA vs FTA vs CEPA\". Add Mexico to the \"India's Latin America engagement\" map notes (with Brazil, Argentina, Chile, Peru)."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-25-library-argentina-argentina",
+      "weekId": "2026-10-25-library",
+      "layer": "current",
+      "name": "Argentina",
+      "country": "Argentina",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": -33.5012,
+      "lon": -64.1733,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-29",
+      "fact": "l, \"Trade agreements: PTA vs FTA vs CEPA\". Add Mexico to the \"India's Latin America engagement\" map notes (with Brazil, Argentina, Chile, Peru).",
+      "locate": "Approximate study anchor for Argentina, Argentina. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-29.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-29.md",
+          "date": "2026-10-29",
+          "cadence": "daily",
+          "excerpt": "l, \"Trade agreements: PTA vs FTA vs CEPA\". Add Mexico to the \"India's Latin America engagement\" map notes (with Brazil, Argentina, Chile, Peru)."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-25-library-norway-norway",
+      "weekId": "2026-10-25-library",
+      "layer": "current",
+      "name": "Norway",
+      "country": "Norway",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 61.3571,
+      "lon": 9.68,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-29",
+      "fact": "ly\"; confirm via MEA/Commerce Ministry when you can). Mexico belongs to USMCA. India–EFTA TEPA (Iceland, Liechtenstein, Norway, Switzerland) came into force on 1 Oct 2025, with a USD 100 bn FDI target over 15 years. - Notebook: GS2 IR (Latin America) and GS3 Economy (external sector). - Static anchor: Mrunal, \"Trade agreements: PTA vs FTA vs CEPA\". Add Mexico to the \"India's Latin America engagement\" map notes (with Brazil, Argentina, Chile, Peru).",
+      "locate": "Approximate study anchor for Norway, Norway. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-29.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-29.md",
+          "date": "2026-10-29",
+          "cadence": "daily",
+          "excerpt": "ly\"; confirm via MEA/Commerce Ministry when you can). Mexico belongs to USMCA. India–EFTA TEPA (Iceland, Liechtenstein, Norway, Switzerland) came into force on 1 Oct 2025, with a USD 100 bn FDI target over 15 years. - Notebook: GS2 IR (Latin America) and GS3 Economy (external sector). - Static anchor: Mrunal, \"Trade agreements: PTA vs FTA vs CEPA\". Add Mexico to the \"India's Latin America engagement\" map notes (with Brazil, Argentina, Chile, Peru)."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-25-library-switzerland-switzerland",
+      "weekId": "2026-10-25-library",
+      "layer": "current",
+      "name": "Switzerland",
+      "country": "Switzerland",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 46.7191,
+      "lon": 7.464,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-29",
+      "fact": "firm via MEA/Commerce Ministry when you can). Mexico belongs to USMCA. India–EFTA TEPA (Iceland, Liechtenstein, Norway, Switzerland) came into force on 1 Oct 2025, with a USD 100 bn FDI target over 15 years. - Notebook: GS2 IR (Latin America) and GS3 Economy (external sector). - Static anchor: Mrunal, \"Trade agreements: PTA vs FTA vs CEPA\". Add Mexico to the \"India's Latin America engagement\" map notes (with Brazil, Argentina, Chile, Peru).",
+      "locate": "Approximate study anchor for Switzerland, Switzerland. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-29.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-29.md",
+          "date": "2026-10-29",
+          "cadence": "daily",
+          "excerpt": "firm via MEA/Commerce Ministry when you can). Mexico belongs to USMCA. India–EFTA TEPA (Iceland, Liechtenstein, Norway, Switzerland) came into force on 1 Oct 2025, with a USD 100 bn FDI target over 15 years. - Notebook: GS2 IR (Latin America) and GS3 Economy (external sector). - Static anchor: Mrunal, \"Trade agreements: PTA vs FTA vs CEPA\". Add Mexico to the \"India's Latin America engagement\" map notes (with Brazil, Argentina, Chile, Peru)."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-25-library-liechtenstein-liechtenstein",
+      "weekId": "2026-10-25-library",
+      "layer": "current",
+      "name": "Liechtenstein",
+      "country": "Liechtenstein",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 47.1114,
+      "lon": 9.5594,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-29",
+      "fact": "ress said \"likely\"; confirm via MEA/Commerce Ministry when you can). Mexico belongs to USMCA. India–EFTA TEPA (Iceland, Liechtenstein, Norway, Switzerland) came into force on 1 Oct 2025, with a USD 100 bn FDI target over 15 years. - Notebook: GS2 IR (Latin America) and GS3 Economy (external sector). - Static anchor: Mrunal, \"Trade agreements: PTA vs FTA vs CEPA\". Add Mexico to the \"India's Latin America engagement\" map notes (with Brazil, Argentina, Chile, Peru).",
+      "locate": "Approximate study anchor for Liechtenstein, Liechtenstein. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-29.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-29.md",
+          "date": "2026-10-29",
+          "cadence": "daily",
+          "excerpt": "ress said \"likely\"; confirm via MEA/Commerce Ministry when you can). Mexico belongs to USMCA. India–EFTA TEPA (Iceland, Liechtenstein, Norway, Switzerland) came into force on 1 Oct 2025, with a USD 100 bn FDI target over 15 years. - Notebook: GS2 IR (Latin America) and GS3 Economy (external sector). - Static anchor: Mrunal, \"Trade agreements: PTA vs FTA vs CEPA\". Add Mexico to the \"India's Latin America engagement\" map notes (with Brazil, Argentina, Chile, Peru)."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-25-library-bangladesh-bangladesh",
+      "weekId": "2026-10-25-library",
+      "layer": "current",
+      "name": "Bangladesh",
+      "country": "Bangladesh",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 24.215,
+      "lon": 89.685,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-29",
+      "fact": "ed to about 290 shelters; 3 deaths reported (press figures). Flagged for verification: \"Arnab\" is, to my knowledge, the Bangladesh-proposed name in the WMO/ESCAP list. - Notebook: GS1 Geography (and GS3 Disaster Management). - Static anchor: Savindra Singh / NCERT Class XI Fundamentals of Physical Geography, \"Tropical Cyclones\" chapter. Add this cyclone as a case study (landfall site, wind band, evacuation numbers) and cross-link it to the NDMA cyclone guidelines.",
+      "locate": "Approximate study anchor for Bangladesh, Bangladesh. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-29.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-29.md",
+          "date": "2026-10-29",
+          "cadence": "daily",
+          "excerpt": "ed to about 290 shelters; 3 deaths reported (press figures). Flagged for verification: \"Arnab\" is, to my knowledge, the Bangladesh-proposed name in the WMO/ESCAP list. - Notebook: GS1 Geography (and GS3 Disaster Management). - Static anchor: Savindra Singh / NCERT Class XI Fundamentals of Physical Geography, \"Tropical Cyclones\" chapter. Add this cyclone as a case study (landfall site, wind band, evacuation numbers) and cross-link it to the NDMA cyclone guidelines."
+        },
+        {
+          "source": "daily/daily_pib/PIB_2026-10-27.md",
+          "date": "2026-10-27",
+          "cadence": "pib",
+          "excerpt": "Key facts: - Name \"Arnab\" (Bengali for \"sea/ocean\") was proposed by Bangladesh, from the cyclone-name list adopted in April 2020 for the WMO/ESCAP Panel on Tropical Cyclones region. - Good case study for the IMD (RSMC New Delhi) bulletin system, cyclone naming and disaster preparedness."
+        },
+        {
+          "source": "daily/daily_pib/PIB_2026-10-26.md",
+          "date": "2026-10-26",
+          "cadence": "pib",
+          "excerpt": "Zokhawthar, Churachandpur, Cachar), targeting a cartel moving methamphetamine and heroin from Myanmar towards India and Bangladesh. The emphasis was on the money trail (hawala), not only on drug seizures. Union Home Minister Amit Shah reiterated the goal of dismantling drug networks by 31 Dec 2029."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-25-library-mexico-mexico",
+      "weekId": "2026-10-25-library",
+      "layer": "current",
+      "name": "Mexico",
+      "country": "Mexico",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 23.92,
+      "lon": -102.2894,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-29",
+      "fact": "4. India and Mexico sign Terms of Reference to launch Preferential Trade Agreement (PTA) talks — International Relations / Economy - Exam angle: India is seeking a limited-scope PTA after Mexico raised tariffs sharply (reported at up to 50%) on goods from countries with no FTA with it. A PTA covers only a negotiated list of tariff lines, which makes it narrower than an FTA, CECA or CEPA. Sectors cited: autos, pharma, electronics, critical minerals. - Key facts: Signing reported on 27-28 Oct (earlier press said \"likely\"; confirm via MEA/Commerce Ministry when you can). Mexico belongs to USMCA. India–EFTA TEPA (Iceland, Liechtenstein, Norway, S",
+      "locate": "Approximate study anchor for Mexico, Mexico. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-29.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-29.md",
+          "date": "2026-10-29",
+          "cadence": "daily",
+          "excerpt": "4. India and Mexico sign Terms of Reference to launch Preferential Trade Agreement (PTA) talks — International Relations / Economy - Exam angle: India is seeking a limited-scope PTA after Mexico raised tariffs sharply (reported at up to 50%) on goods from countries with no FTA with it. A PTA covers only a negotiated list of tariff lines, which makes it narrower than an FTA, CECA or CEPA. Sectors cited: autos, pharma, electronics, critical minerals. - Key facts: Signing reported on 27-28 Oct (earlier press said \"likely\"; confirm via MEA/Commerce Ministry when you can). Mexico belongs to USMCA. India–EFTA TEPA (Iceland, Liechtenstein, Norway, S"
+        },
+        {
+          "source": "daily/daily_pib/PIB_2026-10-29.md",
+          "date": "2026-10-29",
+          "cadence": "pib",
+          "excerpt": "g (reviewed projects worth over ₹16,000 crore across 31 States/UTs; stress on API production in Bulk Drug Parks); India–Mexico Terms of Reference for a Preferential Trade Agreement; PLI Textiles Round 4 applications 1 Nov–31 Dec; 12th Sujal Gram Samvad (Jal Shakti, JJM 2.0, Punah Bharan app); NPPA revised MRPs for 543 anti-cancer brands from 9 Nov; BRESE 2026 with 9th ISA Assembly, 2–5 Nov."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-25-library-iceland-iceland",
+      "weekId": "2026-10-25-library",
+      "layer": "current",
+      "name": "Iceland",
+      "country": "Iceland",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 64.7793,
+      "lon": -18.6737,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-29",
+      "fact": "earlier press said \"likely\"; confirm via MEA/Commerce Ministry when you can). Mexico belongs to USMCA. India–EFTA TEPA (Iceland, Liechtenstein, Norway, Switzerland) came into force on 1 Oct 2025, with a USD 100 bn FDI target over 15 years. - Notebook: GS2 IR (Latin America) and GS3 Economy (external sector). - Static anchor: Mrunal, \"Trade agreements: PTA vs FTA vs CEPA\". Add Mexico to the \"India's Latin America engagement\" map notes (with Brazil, Argentina, Chile, Peru).",
+      "locate": "Approximate study anchor for Iceland, Iceland. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-29.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-29.md",
+          "date": "2026-10-29",
+          "cadence": "daily",
+          "excerpt": "earlier press said \"likely\"; confirm via MEA/Commerce Ministry when you can). Mexico belongs to USMCA. India–EFTA TEPA (Iceland, Liechtenstein, Norway, Switzerland) came into force on 1 Oct 2025, with a USD 100 bn FDI target over 15 years. - Notebook: GS2 IR (Latin America) and GS3 Economy (external sector). - Static anchor: Mrunal, \"Trade agreements: PTA vs FTA vs CEPA\". Add Mexico to the \"India's Latin America engagement\" map notes (with Brazil, Argentina, Chile, Peru)."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-25-library-india-yanam",
+      "weekId": "2026-10-25-library",
+      "layer": "current",
+      "name": "Yanam",
+      "country": "India",
+      "region": "Andhra Pradesh",
+      "scope": "india",
+      "lat": 16.6698,
+      "lon": 82.2765,
+      "topic": "Briefing geography",
+      "hook": "Andhra Pradesh · mentioned 2026-10-29",
+      "fact": "1. Cyclone Arnab makes landfall on the Andhra Pradesh–Yanam coast (28 Oct) — Geography / Disaster Management - Exam angle: Bay of Bengal cyclones peak in the post-monsoon season (Oct–Dec) and the east coast bears most of the damage. Evacuation counts and shelter numbers show how the NDMA/SDMA model works. The tie-in is IMD's cyclone classification and naming under the WMO/ESCAP Panel. - Key facts: Crossed the AP–Yanam coast near Narsapur on 28 Oct with sustained winds of 125–135 kmph, gusting to 150 kmph (the \"very severe cyclonic storm\" band). More than 84,000 people were evacuated to about 290 shelters; 3 deaths reported (press figures). Fl",
+      "locate": "Approximate study anchor for Yanam, India. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/bharatrajya-india-districts.geojson",
+      "source": "daily/daily_current_affairs/UPSC_CA_2026-10-29.md",
+      "references": [
+        {
+          "source": "daily/daily_current_affairs/UPSC_CA_2026-10-29.md",
+          "date": "2026-10-29",
+          "cadence": "daily",
+          "excerpt": "1. Cyclone Arnab makes landfall on the Andhra Pradesh–Yanam coast (28 Oct) — Geography / Disaster Management - Exam angle: Bay of Bengal cyclones peak in the post-monsoon season (Oct–Dec) and the east coast bears most of the damage. Evacuation counts and shelter numbers show how the NDMA/SDMA model works. The tie-in is IMD's cyclone classification and naming under the WMO/ESCAP Panel. - Key facts: Crossed the AP–Yanam coast near Narsapur on 28 Oct with sustained winds of 125–135 kmph, gusting to 150 kmph (the \"very severe cyclonic storm\" band). More than 84,000 people were evacuated to about 290 shelters; 3 deaths reported (press figures). Fl"
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-25-library-poland-poland",
+      "weekId": "2026-10-25-library",
+      "layer": "current",
+      "name": "Poland",
+      "country": "Poland",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 51.9903,
+      "lon": 19.4905,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-26",
+      "fact": "at could be verified are included. Already covered earlier and therefore skipped: Ramsar sites (103), Farmer IDs, India–Poland visit, CPI Sept 2026, Kashi Tamil Sangamam. Ministries this time: Home, Finance/RBI (PMO), Tribal Affairs, Youth Affairs.",
+      "locate": "Approximate study anchor for Poland, Poland. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_pib/PIB_2026-10-26.md",
+      "references": [
+        {
+          "source": "daily/daily_pib/PIB_2026-10-26.md",
+          "date": "2026-10-26",
+          "cadence": "pib",
+          "excerpt": "at could be verified are included. Already covered earlier and therefore skipped: Ramsar sites (103), Farmer IDs, India–Poland visit, CPI Sept 2026, Kashi Tamil Sangamam. Ministries this time: Home, Finance/RBI (PMO), Tribal Affairs, Youth Affairs."
+        }
+      ],
+      "libraryDerived": true
+    },
+    {
+      "id": "2026-10-25-library-myanmar-myanmar",
+      "weekId": "2026-10-25-library",
+      "layer": "current",
+      "name": "Myanmar",
+      "country": "Myanmar",
+      "region": "Country study anchor",
+      "scope": "world",
+      "lat": 21.5739,
+      "lon": 95.8045,
+      "topic": "Briefing geography",
+      "hook": "Country study anchor · mentioned 2026-10-26",
+      "fact": "ry of Home Affairs (Narcotics Control Bureau, with ED and State police): \"Operation Trident\" — simultaneous strike on a Myanmar-linked narco-financial network (operation 23 Oct; announced 25 Oct 2026)",
+      "locate": "Approximate study anchor for Myanmar, Myanmar. Country and district anchors represent a region, not the exact site mentioned in the briefing.",
+      "coordinatePrecision": "regional-study-anchor",
+      "coordinateSource": "data/maps/world_countries_india_pov.geojson",
+      "source": "daily/daily_pib/PIB_2026-10-26.md",
+      "references": [
+        {
+          "source": "daily/daily_pib/PIB_2026-10-26.md",
+          "date": "2026-10-26",
+          "cadence": "pib",
+          "excerpt": "ry of Home Affairs (Narcotics Control Bureau, with ED and State police): \"Operation Trident\" — simultaneous strike on a Myanmar-linked narco-financial network (operation 23 Oct; announced 25 Oct 2026)"
         }
       ],
       "libraryDerived": true

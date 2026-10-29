@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to India's national statement at CBD COP-17 (Yerevan, October 2026), consider the following statements:\n1. India supported a multilateral benefit-sharing mechanism, including the Cali Fund, for digital sequence information on genetic resources.\n2. India favoured a science-based, risk-proportionate, precautionary approach to synthetic biology and biosafety.\n3. The Nagoya Protocol is the instrument under the CBD that deals with the biosafety of living modified organisms.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 2 and 3 only",
+      "(b) 1 and 3 only",
+      "(c) 1 and 2 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "Statements 1 and 2 reflect India's stated positions; biosafety of LMOs is governed by the Cartagena Protocol, while the Nagoya Protocol deals with access and benefit-sharing, so 3 is wrong.",
+    "subject": "Environment",
+    "theme": "Biodiversity & International Conventions",
+    "micro_topic": "CBD COP-17, KMGBF, Cali Fund",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Quick Estimates of the Index of Industrial Production (IIP) for September 2026 released by the Government of India, consider the following statements:\n1. The estimates are released by the Ministry of Statistics and Programme Implementation on the base year 2022-23=100.\n2. Overall IIP growth was 6.7 per cent year-on-year, with the Manufacturing sector growing faster (7.6 per cent) than the overall index.\n3. The Mining and Quarrying sector recorded positive growth, while Electricity contracted.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "IIP is released by MoSPI (base 2022-23); overall growth 6.7%, manufacturing 7.6%. Mining contracted 6.2% and Electricity & Gas grew 11.2%, so statement 3 is reversed.",
+    "subject": "Economy",
+    "theme": "Economic Indicators",
+    "micro_topic": "Index of Industrial Production",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the Atal Vayo Abhyuday Yojana (AVYAY), consider the following statements:\n1. It is implemented by the Ministry of Social Justice and Empowerment and subsumed the National Action Plan for Senior Citizens.\n2. Under its Rashtriya Vayoshri Yojana component, assistive devices are provided to senior citizens belonging to BPL category or with monthly income up to Rs 15,000.\n3. It is administered by the Ministry of Women and Child Development.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 2 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1 and 2 only"
+    ],
+    "answer": "(d)",
+    "explanation": "AVYAY (2021) is a Ministry of Social Justice & Empowerment umbrella scheme subsuming NAPSrC; RVY devices go to BPL or income-limited (up to Rs 15,000/month) seniors. It is not under the Ministry of WCD.",
+    "subject": "Society",
+    "theme": "Welfare Schemes for Vulnerable Sections",
+    "micro_topic": "Atal Vayo Abhyuday Yojana, senior citizens",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]
