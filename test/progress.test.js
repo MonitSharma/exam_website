@@ -326,3 +326,14 @@ test("calculateAttemptSummary computes confidenceBreakdown and avgTimeSeconds", 
   assert.equal(summary.confidenceBreakdown.fifty.correct, 1);
   assert.equal(summary.confidenceBreakdown.fifty.wrong, 1);
 });
+
+test("toggleQuestionBookmark and setQuestionNote persist bookmarks and mnemonics", () => {
+  const { P } = loadProgressModule();
+  const ref = { setId: "pyq-2024", n: 12, subject: "Polity", micro: "Parliament" };
+  let p = P.toggleQuestionBookmark(P.createFreshProgress(0), ref);
+  assert.ok(p.bookmarks["pyq-2024::12"]);
+  p = P.setQuestionNote(p, ref, "Art 110 money bill");
+  assert.equal(p.bookmarks["pyq-2024::12"].note, "Art 110 money bill");
+  p = P.toggleQuestionBookmark(p, ref);
+  assert.equal(p.bookmarks["pyq-2024::12"], undefined);
+});

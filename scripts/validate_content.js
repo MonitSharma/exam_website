@@ -128,6 +128,39 @@ function validateQuestionSet(api, set, report) {
   if (!answered) {
     report.warn(`${label}: no answer keys at all — excluded from the site (${set.path})`);
   }
+
+  checkDailyMdJsonSync(api, set, rows, report);
+}
+
+// Cross-check daily JSON question sets against their source UPSC_CA_*.md note
+// so reordered options or drifted answer keys are caught automatically.
+function checkDailyMdJsonSync(api, set, rows, report) {
+  if (set.sourceType !== "daily" || !Array.isArray(set.relatedNoteIds) || !set.relatedNoteIds.length) return;
+  const note = (api.noteDocuments || []).find((n) => set.relatedNoteIds.includes(n.id));
+  if (!note || !note.path || !note.path.endsWith(".md")) return;
+  let mdText;
+  try {
+    mdText = fs.readFileSync(path.join(ROOT, note.path), "utf8");
+  } catch (e) {
+    return;
+  }
+  const mdQuestions = api.parsing?.parseMdQuestions?.(mdText) || [];
+  const mdAnswers = api.parsing?.parseMdAnswerMap?.(mdText) || {};
+  if (!mdQuestions.length) return;
+
+  const normText = (s) => String(s || "").replace(/\s+/g, " ").trim().toLowerCase();
+  rows.forEach((row, index) => {
+    const jsonQ = api.parsing.normalizeQuestion(row, index, set);
+    const mdQ = mdQuestions.find((m) => normText(m.stem).slice(0, 60) === normText(jsonQ.stem).slice(0, 60));
+    if (!mdQ) return;
+    const mdAnsKey = mdAnswers[mdQ.n];
+    if (!mdAnsKey || !jsonQ.answer) return;
+    const jsonOpt = jsonQ.options.find((o) => o.key === jsonQ.answer);
+    const mdOpt = (mdQ.options || []).find((o) => o.key === mdAnsKey);
+    if (jsonOpt && mdOpt && normText(jsonOpt.text) !== normText(mdOpt.text)) {
+      report.warn(`${set.id} q${index + 1}: JSON answer (${jsonQ.answer}) "${jsonOpt.text}" differs from ${note.path} Q${mdQ.n} (${mdAnsKey}) "${mdOpt.text}"`);
+    }
+  });
 }
 
 // Flag obvious contradictions between a question's keyed option (e.g. "1 and 2 only")

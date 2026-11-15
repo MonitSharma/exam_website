@@ -30,7 +30,7 @@ function practiceCollapseBundles(sets) {
   return [...byKey.values()].map((items) => items.find((set) => !set.isSupplementary) || items[0]).filter(Boolean);
 }
 
-function PracticeScreen({ go }) {
+function PracticeScreen({ go, progress }) {
   const ds = window.UPSC;
   const exams = [
     { id: "upsc", name: "UPSC CSE", note: "Prelims · GS + CSAT", live: true },
@@ -55,12 +55,27 @@ function PracticeScreen({ go }) {
   const [exam, setExam] = usePracticeState("upsc");
   const [type, setType] = usePracticeState("pyq");
   const [timed, setTimed] = usePracticeState(true);
+  const [customPool, setCustomPool] = usePracticeState("all");
+  const [customSubject, setCustomSubject] = usePracticeState("");
+  const [customDiff, setCustomDiff] = usePracticeState("");
+  const [customCount, setCustomCount] = usePracticeState(25);
   const currentType = types.find((item) => item.id === type) || types[0];
   const sets = ds.getQuestionSetsBySource(currentType.sourceType).filter((set) => !currentType.format || set.format === currentType.format);
   const setBundles = practiceCollapseBundles(sets);
   const [selectedSetId, setSelectedSetId] = usePracticeState(ds.getQuestionSetsBySource("pyq")[0]?.id || ds.defaultPracticeSetId);
   const selectedSet = sets.find((set) => set.id === selectedSetId) || sets[0] || null;
   const selectedExam = exams.find((item) => item.id === exam) || exams[0];
+  const mistakeRefs = Object.values(progress?.questionStats || {});
+  const bookmarkRefs = Object.values(progress?.bookmarks || {});
+
+  function beginCustomMock() {
+    const refs = customPool === "mistakes" ? mistakeRefs : customPool === "bookmarks" ? bookmarkRefs : null;
+    go("test", {
+      customConfig: { pool: customPool, subject: customSubject, difficulty: customDiff, count: customCount, refs },
+      timed,
+      returnTo: "practice",
+    });
+  }
 
   function chooseType(nextType) {
     const nextSets = ds.getQuestionSetsBySource(nextType.sourceType).filter((set) => !nextType.format || set.format === nextType.format);
@@ -155,6 +170,58 @@ function PracticeScreen({ go }) {
             <button className="btn ghost" onClick={() => go("home")}><Icon name="arrowL" size={16} /> Home</button>
             <button className="btn btn-green" onClick={beginSelected} disabled={!selectedExam.live || !selectedSet}>
               <Icon name="play" size={16} /> Begin selected test
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section className="panel practice-custom">
+        <header className="panel-head">
+          <h3>Custom mixed mock builder</h3>
+          <p>Assemble a randomized drill by source pool, subject, difficulty, or your past mistakes &amp; bookmarks.</p>
+        </header>
+        <div className="panel-body custom-mock-grid">
+          <label>
+            <span>Source pool</span>
+            <select value={customPool} onChange={(e) => setCustomPool(e.target.value)}>
+              <option value="all">All GS sets</option>
+              <option value="pyq">UPSC PYQs only</option>
+              <option value="daily">Daily, PIB &amp; Weekly</option>
+              <option value="mistakes">Past mistakes ({mistakeRefs.length})</option>
+              <option value="bookmarks">Bookmarked questions ({bookmarkRefs.length})</option>
+            </select>
+          </label>
+          <label>
+            <span>Subject</span>
+            <select value={customSubject} onChange={(e) => setCustomSubject(e.target.value)}>
+              <option value="">All subjects</option>
+              {["Polity", "Economy", "Environment", "History", "Geography", "Science & Technology", "International Relations", "Art & Culture"].map((s) => (
+                <option key={s} value={s}>{s}</option>
+              ))}
+            </select>
+          </label>
+          <label>
+            <span>Difficulty</span>
+            <select value={customDiff} onChange={(e) => setCustomDiff(e.target.value)}>
+              <option value="">Any difficulty</option>
+              <option value="Easy">Easy</option>
+              <option value="Moderate">Moderate</option>
+              <option value="Hard">Hard</option>
+            </select>
+          </label>
+          <label>
+            <span>Questions</span>
+            <select value={customCount} onChange={(e) => setCustomCount(Number(e.target.value))}>
+              {[10, 25, 50, 100].map((n) => <option key={n} value={n}>{n} questions</option>)}
+            </select>
+          </label>
+          <div className="custom-mock-cta">
+            <button
+              className="btn btn-green"
+              onClick={beginCustomMock}
+              disabled={(customPool === "mistakes" && !mistakeRefs.length) || (customPool === "bookmarks" && !bookmarkRefs.length)}
+            >
+              <Icon name="bolt" size={16} /> Start custom mock
             </button>
           </div>
         </div>

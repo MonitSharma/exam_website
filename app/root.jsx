@@ -50,6 +50,9 @@ const {
   calculateAttemptSummary,
   getProgressSummary,
   recordLabProgress,
+  questionKey,
+  toggleQuestionBookmark,
+  setQuestionNote,
 } = window.UPSC_PROGRESS;
 
 function TopNav({ screen, go, summary, catchUpCount, onSearch }) {
@@ -475,6 +478,22 @@ function App() {
     });
   }
 
+  function toggleBookmark(ref) {
+    setProgress((current) => {
+      const next = toggleQuestionBookmark(current, ref);
+      saveProgress(next);
+      return next;
+    });
+  }
+
+  function saveQuestionNote(ref, note) {
+    setProgress((current) => {
+      const next = setQuestionNote(current, ref, note);
+      saveProgress(next);
+      return next;
+    });
+  }
+
   function finishTest(result) {
     const submittedAt = Date.now();
     const attemptSummary = calculateAttemptSummary(result.questions, result.answers, result.questionSet, {
@@ -578,11 +597,11 @@ function App() {
         {screen === "labs" && <StudyLabs go={go} progress={progress} review={review} focusSubject={labFocus} labId={labId} fromNoteId={labFromNoteId} onLabProgress={saveLabProgress} />}
         {screen === "library" && <div className="page-wrap library-page"><NotesLibrary key={libraryRequest.token} go={go} noteId={libraryRequest.id} progress={progress} onMarkDone={setItemDoneState} onSelectNote={rememberLibraryNote} /></div>}
         {screen === "atlas" && <NewsAtlas weekId={atlasWeekId} go={go} />}
-        {screen === "practice" && <PracticeScreen go={go} />}
+        {screen === "practice" && <PracticeScreen go={go} progress={progress} />}
         {screen === "catchup" && <CatchUpScreen go={go} progress={progress} onStartDate={setCatchUpStart} onDismiss={(id) => setSessionDismissedState(id, true)} onRestore={(id) => setSessionDismissedState(id, false)} onMarkDone={(id) => setItemDoneState(id, true)} onUndoDone={(id) => setItemDoneState(id, false)} />}
-        {screen === "test" && <TestScreen go={go} session={testSession} onSubmit={finishTest} />}
+        {screen === "test" && <TestScreen go={go} session={testSession} onSubmit={finishTest} bookmarks={progress.bookmarks || {}} onToggleBookmark={toggleBookmark} />}
         {screen === "result" && <Results go={go} result={lastResult} />}
-        {screen === "review" && <Review go={go} result={lastResult} />}
+        {screen === "review" && <Review go={go} result={lastResult} bookmarks={progress.bookmarks || {}} onToggleBookmark={toggleBookmark} onSaveNote={saveQuestionNote} />}
         {(screen === "workflow" || screen === "dashboard") && (
           <div className="progress-hub">
             <div className="progress-hub-tabs" role="tablist" aria-label="Progress views">

@@ -168,9 +168,11 @@ function Results({ go, result }) {
   );
 }
 
-function Review({ go, result }) {
+function Review({ go, result, bookmarks = {}, onToggleBookmark, onSaveNote }) {
   const { questionSet, qs, attempt } = getResultData(result);
   const [filter, setFilter] = useResState("all");
+  const [editingNoteKey, setEditingNoteKey] = useResState("");
+  const [noteDraft, setNoteDraft] = useResState("");
   if (!questionSet || !qs.length) return <NoResultEmpty go={go} />;
 
   const enriched = qs.map((q) => {
@@ -208,7 +210,17 @@ function Review({ go, result }) {
       </div>
 
       <div className="review-list">
-        {shown.map(({ q, a, state }) => (
+        {shown.map(({ q, a, state }) => {
+          const ref = {
+            setId: q.sourceSetId || questionSet.id,
+            n: q.sourceQuestionNumber || q.n,
+            subject: q.subject || "",
+            micro: q.micro || "",
+          };
+          const bmKey = window.UPSC_PROGRESS.questionKey(ref.setId, ref.n);
+          const bm = bookmarks[bmKey];
+          const isEditing = editingNoteKey === bmKey;
+          return (
           <article key={q.n} className={`rev-item state-${state}`}>
             <div className="rev-head">
               <span className="rev-n">Q{q.n}</span>
@@ -220,6 +232,14 @@ function Review({ go, result }) {
                 <Icon name={state === "correct" ? "check" : state === "incorrect" ? "x" : "info"} size={13} />
                 {state === "correct" ? "Correct" : state === "incorrect" ? "Incorrect" : "Skipped"}
               </span>
+              <button
+                type="button"
+                className={`bm-btn${bm ? " on" : ""}`}
+                onClick={() => onToggleBookmark?.(ref)}
+                title="Bookmark question"
+              >
+                <Icon name="book" size={12} /> {bm ? "Saved" : "Save"}
+              </button>
               <a
                 className="report-issue-link"
                 href={buildQuestionIssueUrl(questionSet, q)}
@@ -254,9 +274,43 @@ function Review({ go, result }) {
                 <span className="rev-explain-label"><Icon name="info" size={14} /> Explanation</span>
                 <p>{q.explanation}</p>
               </div>
+              <div className="rev-note-box">
+                {isEditing ? (
+                  <div className="rev-note-editor">
+                    <textarea
+                      rows={2}
+                      value={noteDraft}
+                      onChange={(e) => setNoteDraft(e.target.value)}
+                      placeholder="Add a personal mnemonic or takeaway…"
+                    />
+                    <div className="rev-note-actions">
+                      <button
+                        type="button"
+                        className="btn btn-green sm"
+                        onClick={() => { onSaveNote?.(ref, noteDraft); setEditingNoteKey(""); }}
+                      >
+                        Save note
+                      </button>
+                      <button type="button" className="btn ghost sm" onClick={() => setEditingNoteKey("")}>Cancel</button>
+                    </div>
+                  </div>
+                ) : (
+                  <div className="rev-note-view">
+                    {bm?.note && <p className="rev-note-text"><strong>My note:</strong> {bm.note}</p>}
+                    <button
+                      type="button"
+                      className="link-btn"
+                      onClick={() => { setEditingNoteKey(bmKey); setNoteDraft(bm?.note || ""); }}
+                    >
+                      {bm?.note ? "Edit note" : "+ Add personal note"}
+                    </button>
+                  </div>
+                )}
+              </div>
             </div>
           </article>
-        ))}
+          );
+        })}
       </div>
     </div>
   );

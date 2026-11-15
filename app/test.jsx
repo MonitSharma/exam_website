@@ -54,10 +54,12 @@ function sweepStaleSessions(now = Date.now()) {
   return removed;
 }
 
-function TestScreen({ go, session, onSubmit }) {
+function TestScreen({ go, session, onSubmit, bookmarks = {}, onToggleBookmark }) {
   const ds = window.UPSC;
   const reviewQueue = Array.isArray(session?.reviewQueue) ? session.reviewQueue : null;
-  const initialQuestionSet = reviewQueue ? null : ds.getQuestionSetById(session?.setId);
+  const customConfig = session?.customConfig || null;
+  const isEphemeralSession = Boolean(reviewQueue || session?.subjects || customConfig);
+  const initialQuestionSet = reviewQueue || customConfig ? null : ds.getQuestionSetById(session?.setId);
   const [loadState, setLoadState] = useTestState({
     loading: true,
     error: "",
@@ -87,9 +89,9 @@ function TestScreen({ go, session, onSubmit }) {
     submittedRef.current = false;
     setLoadState({ loading: true, error: "", questionSet: selectedSet, questions: [] });
 
-    // A revision session is assembled fresh from the due queue each time, so
+    // A revision/custom session is assembled fresh each time, so
     // resuming a stale snapshot of it would answer the wrong questions.
-    const saved = reviewQueue || session?.subjects ? null : readSession(selectedId);
+    const saved = isEphemeralSession ? null : readSession(selectedId);
     if (saved && saved.answers) {
       setIdx(Number(saved.idx) || 0);
       setAnswers(saved.answers || {});
@@ -112,14 +114,20 @@ function TestScreen({ go, session, onSubmit }) {
     setPaletteOpen(false);
     setExitOpen(false);
 
-    const pending = reviewQueue ? ds.loadReviewSession(reviewQueue) : session?.subjects ? ds.loadSubjectSession(selectedId, session.subjects) : ds.loadQuestionSet(selectedId);
+    const pending = reviewQueue
+      ? ds.loadReviewSession(reviewQueue)
+      : customConfig
+        ? ds.loadCustomMock(customConfig)
+        : session?.subjects
+          ? ds.loadSubjectSession(selectedId, session.subjects)
+          : ds.loadQuestionSet(selectedId);
     pending
       .then((result) => {
         if (cancelled) return;
-        if (reviewQueue && !result.questions.length) {
+        if ((reviewQueue || customConfig) && !result.questions.length) {
           setLoadState({
             loading: false,
-            error: "These review questions are no longer available.",
+            error: customConfig ? "No questions matched those custom filters." : "These review questions are no longer available.",
             questionSet: result.questionSet,
             questions: [],
           });
@@ -140,7 +148,7 @@ function TestScreen({ go, session, onSubmit }) {
       });
 
     return () => { cancelled = true; };
-  }, [session?.setId, session?.reviewToken, session?.subjects?.join(",")]);
+  }, [session?.setId, session?.reviewToken, session?.subjects?.join(","), customConfig ? JSON.stringify(customConfig) : ""]);
 
   useTestEffect(() => {
     if (loadState.loading || loadState.error) return undefined;
@@ -158,7 +166,7 @@ function TestScreen({ go, session, onSubmit }) {
   useTestEffect(() => {
     if (loadState.loading || loadState.error) return;
     const setId = loadState.questionSet?.id;
-    if (!setId || reviewQueue || session?.subjects) return;
+    if (!setId || isEphemeralSession) return;
     if (submittedRef.current) return;
     writeSession(setId, { idx, answers, marked, confidence, visited, secs, questionTimes: questionTimesRef.current });
   }, [idx, answers, marked, confidence, visited, secs, loadState.loading, loadState.error, loadState.questionSet?.id]);
@@ -204,6 +212,22 @@ function TestScreen({ go, session, onSubmit }) {
     setConfidence((c) => ({ ...c, [q.n]: c[q.n] === tier ? null : tier }));
   }
 
+  function currentBookmarkRef() {
+    if (!q || !questionSet) return null;
+    return {
+      setId: q.sourceSetId || questionSet.id,
+      n: q.sourceQuestionNumber || q.n,
+      subject: q.subject || "",
+      micro: q.micro || "",
+    };
+  }
+  const currentBmRef = currentBookmarkRef();
+  const isCurrentBookmarked = Boolean(currentBmRef && bookmarks[window.UPSC_PROGRESS.questionKey(currentBmRef.setId, currentBmRef.n)]);
+
+  function toggleBookmarkForCurrent() {
+    if (currentBmRef) onToggleBookmark?.(currentBmRef);
+  }
+
   useTestEffect(() => {
     if (loadState.loading || loadState.error || !q || exitOpen || paletteOpen) return undefined;
     function onKeyDown(event) {
@@ -231,11 +255,14 @@ function TestScreen({ go, session, onSubmit }) {
       } else if (key === "c") {
         event.preventDefault();
         choose(null);
+      } else if (key === "b") {
+        event.preventDefault();
+        toggleBookmarkForCurrent();
       }
     }
     window.addEventListener("keydown", onKeyDown);
     return () => window.removeEventListener("keydown", onKeyDown);
-  }, [loadState.loading, loadState.error, q?.n, idx, qs.length, exitOpen, paletteOpen]);
+  }, [loadState.loading, loadState.error, q?.n, idx, qs.length, exitOpen, paletteOpen, isCurrentBookmarked]);
 
   function statusOf(i) {
     const qn = qs[i].n;
@@ -306,11 +333,11 @@ function TestScreen({ go, session, onSubmit }) {
       <div className="confirm-layer" role="dialog" aria-modal="true" aria-labelledby="exit-title">
         <div className="confirm-box">
           <h3 id="exit-title">Leave this test?</h3>
-          <p>{reviewQueue || session?.subjects ? "This focused session will restart when you open it again. Submit it first to record your answers." : "Your progress is saved on this device — you can resume from where you left off the next time you open this set."}</p>
-          <div className="confirm-actions">
-            <button className="btn ghost" onClick={() => setExitOpen(false)}>Stay</button>
-            <button className="btn btn-green" onClick={() => go(exitTarget())}>{reviewQueue || session?.subjects ? "Leave session" : "Save & exit"}</button>
-          </div>
+            <p>{isEphemeralSession ? "This focused session will restart when you open it again. Submit it first to record your answers." : "Your progress is saved on this device — you can resume from where you left off the next time you open this set."}</p>
+            <div className="confirm-actions">
+              <button className="btn ghost" onClick={() => setExitOpen(false)}>Stay</button>
+              <button className="btn btn-green" onClick={() => go(exitTarget())}>{isEphemeralSession ? "Leave session" : "Save & exit"}</button>
+            </div>
         </div>
       </div>
     );
@@ -406,15 +433,25 @@ function TestScreen({ go, session, onSubmit }) {
                   </button>
                 ))}
               </div>
-              <a
-                className="report-issue-link"
-                href={buildQuestionIssueUrl(questionSet, q)}
-                target="_blank"
-                rel="noopener noreferrer"
-                title="Flag a question or answer-key issue on GitHub"
-              >
-                <Icon name="flag" size={13} /> Report issue
-              </a>
+              <div className="q-tools-actions">
+                <button
+                  type="button"
+                  className={`bm-btn${isCurrentBookmarked ? " on" : ""}`}
+                  onClick={toggleBookmarkForCurrent}
+                  title="Bookmark question (B)"
+                >
+                  <Icon name="book" size={13} /> {isCurrentBookmarked ? "Bookmarked" : "Bookmark"}
+                </button>
+                <a
+                  className="report-issue-link"
+                  href={buildQuestionIssueUrl(questionSet, q)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Flag a question or answer-key issue on GitHub"
+                >
+                  <Icon name="flag" size={13} /> Report issue
+                </a>
+              </div>
             </div>
           </div>
 

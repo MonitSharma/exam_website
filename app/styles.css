@@ -2383,3 +2383,21 @@ button:focus-visible, a:focus-visible, summary:focus-visible, input:focus-visibl
 .gist-sync-row input { padding: 6px 8px; border: 1px solid var(--border); border-radius: 6px; font-size: 12px; background: var(--surface, #fff); color: var(--ink); }
 .gist-sync-btns { display: flex; gap: 8px; }
 .gist-sync-note { margin-top: 8px; font-size: 12px; color: var(--muted); }
+
+/* Custom mock builder & question bookmarks / notes */
+.practice-custom { margin-top: 20px; }
+.custom-mock-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 14px; align-items: end; }
+.custom-mock-grid label { display: grid; gap: 6px; font-size: 12px; color: var(--muted); }
+.custom-mock-grid select { padding: 9px 10px; border: 1px solid var(--border); border-radius: 8px; background: var(--surface, #fff); color: var(--ink); font-size: 13px; }
+.custom-mock-cta { display: flex; justify-content: flex-end; }
+
+.q-tools-actions { display: inline-flex; align-items: center; gap: 10px; }
+.bm-btn { display: inline-flex; align-items: center; gap: 5px; font-size: 12px; color: var(--muted); background: transparent; border: 1px solid var(--border); border-radius: 6px; padding: 3px 8px; cursor: pointer; }
+.bm-btn:hover { color: var(--ink); border-color: var(--ink); }
+.bm-btn.on { color: #fff; background: var(--green); border-color: var(--green); }
+
+.rev-note-box { margin-top: 10px; padding-top: 8px; border-top: 1px dashed var(--border); }
+.rev-note-text { margin: 0 0 4px; font-size: 13px; line-height: 1.5; color: var(--ink); }
+.rev-note-editor { display: grid; gap: 8px; }
+.rev-note-editor textarea { width: 100%; padding: 8px 10px; border: 1px solid var(--border); border-radius: 8px; font-size: 13px; font-family: inherit; background: var(--surface, #fff); color: var(--ink); resize: vertical; }
+.rev-note-actions { display: flex; gap: 8px; }

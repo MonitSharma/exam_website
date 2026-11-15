@@ -268,15 +268,32 @@
     if (typeof fetch !== "function") return Promise.resolve(false);
     if (manifestPromise) return manifestPromise;
     const versionedUrl = typeof window !== "undefined" ? window.UPSC_MANIFEST_URL : "";
+    const recentUrl = typeof window !== "undefined" ? window.UPSC_RECENT_MANIFEST_URL : "";
     const url = versionedUrl || "config/content_manifest.json";
-    manifestPromise = fetch(url, versionedUrl ? {} : { cache: "no-store" })
-      .then((response) => (response.ok ? response.json() : null))
+    const fetchJson = (target, opts) => fetch(target, opts).then((r) => (r.ok ? r.json() : null)).catch(() => null);
+
+    if (recentUrl) {
+      const fullPromise = fetchJson(url, {}).then((full) => {
+        if (!full) return false;
+        applyManifest(full, { notify: true });
+        return true;
+      });
+      manifestPromise = fetchJson(recentUrl, {}).then((recent) => {
+        if (recent) {
+          applyManifest(recent, { notify: true });
+          return true;
+        }
+        return fullPromise;
+      });
+      return manifestPromise;
+    }
+
+    manifestPromise = fetchJson(url, versionedUrl ? {} : { cache: "no-store" })
       .then((manifest) => {
         if (!manifest) return false;
         applyManifest(manifest, { notify: true });
         return true;
-      })
-      .catch(() => false);
+      });
     return manifestPromise;
   }
 
@@ -463,6 +480,103 @@
       isReview: true,
     };
     return { questionSet, questions, missing };
+  }
+
+  function shuffleArray(items) {
+    const arr = [...items];
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
+  }
+
+  async function loadCustomMock({ pool = "all", subject = "", difficulty = "", count = 25, refs = null } = {}) {
+    const targetCount = Math.max(5, Math.min(100, Number(count) || 25));
+    const normSub = String(subject || "").trim().toLowerCase();
+    const normDiff = String(difficulty || "").trim().toLowerCase();
+
+    if (Array.isArray(refs)) {
+      const filteredRefs = normSub
+        ? refs.filter((r) => String(r.subject || "").toLowerCase().includes(normSub))
+        : refs;
+      const picked = shuffleArray(filteredRefs).slice(0, targetCount);
+      const res = await loadReviewSession(picked);
+      const questions = normDiff
+        ? res.questions.filter((q) => String(q.difficulty || "").toLowerCase() === normDiff)
+        : res.questions;
+      const renumbered = questions.map((q, i) => ({ ...q, n: i + 1 }));
+      return {
+        questions: renumbered,
+        questionSet: {
+          ...res.questionSet,
+          id: "custom_mock",
+          label: pool === "bookmarks" ? "Custom Mock · Bookmarked" : "Custom Mock · Past Mistakes",
+          shortLabel: "Custom Mock",
+          category: "Custom practice",
+          sourceType: "custom",
+          questionCount: renumbered.length,
+          durationMinutes: Math.max(5, Math.ceil(renumbered.length * 1.2)),
+          negativeMark: 0.66,
+          isSubjectPractice: true,
+        },
+      };
+    }
+
+    const poolSources = pool === "pyq"
+      ? new Set(["pyq"])
+      : pool === "daily"
+        ? new Set(["daily", "weekly-quiz", "pib"])
+        : new Set(["pyq", "daily", "weekly-quiz", "pib", "sectional", "ai", "csr"]);
+
+    let candidateSets = questionSets.filter((set) => poolSources.has(set.sourceType) && set.path);
+    if (normSub) {
+      const matchedSets = candidateSets.filter((set) =>
+        (set.subjects || []).some((s) => String(s).toLowerCase().includes(normSub)),
+      );
+      if (matchedSets.length) candidateSets = matchedSets;
+    }
+    const orderedSets = shuffleArray(candidateSets);
+    const collected = [];
+
+    for (const set of orderedSets) {
+      if (collected.length >= targetCount) break;
+      try {
+        const { questions } = await loadQuestionSet(set.id);
+        const matching = shuffleArray(questions).filter((q) => {
+          if (normSub && !String(q.subject || "").toLowerCase().includes(normSub)) return false;
+          if (normDiff && String(q.difficulty || "").toLowerCase() !== normDiff) return false;
+          return true;
+        });
+        for (const q of matching) {
+          if (collected.length >= targetCount) break;
+          collected.push({
+            ...q,
+            n: collected.length + 1,
+            sourceSetId: set.id,
+            sourceQuestionNumber: q.n,
+            sourceLabel: set.shortLabel || set.label,
+          });
+        }
+      } catch (e) {}
+    }
+
+    return {
+      questions: collected,
+      questionSet: {
+        id: "custom_mock",
+        label: `Custom Mock${subject ? ` · ${subject}` : ""}${difficulty ? ` (${difficulty})` : ""}`,
+        shortLabel: "Custom Mock",
+        category: "Custom practice",
+        sourceType: "custom",
+        questionCount: collected.length,
+        marksPerCorrect: 2,
+        negativeMark: 0.66,
+        durationMinutes: Math.max(5, Math.ceil(collected.length * 1.2)),
+        subjects: [...new Set(collected.map((q) => q.subject).filter(Boolean))],
+        isSubjectPractice: true,
+      },
+    };
   }
 
   // Ask the service worker to store recent material so it is readable with no
@@ -971,6 +1085,7 @@
     formatDailyDate,
     loadQuestionSet,
     loadReviewSession,
+    loadCustomMock,
     loadSubjectSession,
     saveRecentForOffline,
     offlineAvailable,

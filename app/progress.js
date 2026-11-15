@@ -37,6 +37,7 @@
       manualCompletions: {},
       questionStats: {},
       labStats: {},
+      bookmarks: {},
     };
   }
 
@@ -53,6 +54,7 @@
       manualCompletions: parsed.manualCompletions && typeof parsed.manualCompletions === "object" ? parsed.manualCompletions : {},
       questionStats: parsed.questionStats && typeof parsed.questionStats === "object" ? parsed.questionStats : {},
       labStats: parsed.labStats && typeof parsed.labStats === "object" ? parsed.labStats : {},
+      bookmarks: parsed.bookmarks && typeof parsed.bookmarks === "object" ? parsed.bookmarks : {},
     });
   }
 
@@ -462,6 +464,43 @@
     };
   }
 
+  function toggleQuestionBookmark(progress, ref) {
+    if (!ref?.setId || !ref?.n) return progress;
+    const key = questionKey(ref.setId, ref.n);
+    const bookmarks = { ...(progress?.bookmarks || {}) };
+    if (bookmarks[key]) {
+      delete bookmarks[key];
+    } else {
+      bookmarks[key] = {
+        setId: ref.setId,
+        n: Number(ref.n),
+        subject: ref.subject || "",
+        micro: ref.micro || "",
+        note: ref.note || "",
+        savedAt: Date.now(),
+      };
+    }
+    return { ...progress, bookmarks };
+  }
+
+  function setQuestionNote(progress, ref, note) {
+    if (!ref?.setId || !ref?.n) return progress;
+    const key = questionKey(ref.setId, ref.n);
+    const bookmarks = { ...(progress?.bookmarks || {}) };
+    const text = String(note || "");
+    const existing = bookmarks[key];
+    if (!text.trim() && !existing) return progress;
+    bookmarks[key] = {
+      setId: ref.setId,
+      n: Number(ref.n),
+      subject: ref.subject || existing?.subject || "",
+      micro: ref.micro || existing?.micro || "",
+      note: text,
+      savedAt: existing?.savedAt || Date.now(),
+    };
+    return { ...progress, bookmarks };
+  }
+
   Object.assign(window, {
     UPSC_PROGRESS: {
       PROGRESS_STORAGE_KEY,
@@ -472,6 +511,8 @@
       MASTERED_BOX,
       LAB_REVIEW_INTERVALS_DAYS,
       questionKey,
+      toggleQuestionBookmark,
+      setQuestionNote,
       createFreshProgress,
       normalizeProgress,
       compactProgress,

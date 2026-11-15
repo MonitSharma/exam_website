@@ -18,6 +18,7 @@ const { writeServiceWorker } = require("./scripts/generate_service_worker");
 const ROOT = __dirname;
 const DIST = path.join(ROOT, "dist");
 const MANIFEST_REL = "config/content_manifest.json";
+const RECENT_MANIFEST_REL = "config/content_manifest_recent.json";
 let contentManifest = null;
 
 // Load order matters — these files attach to window globals and rely on each
@@ -88,6 +89,31 @@ function writeManifest() {
   return { url: `${MANIFEST_REL}?v=${hashOf(json)}`, bytes: json.length };
 }
 
+// Lightweight recent manifest (PYQs + last 45 days + undated sets/notes) so
+// initial startup renders immediately while the full manifest hydrates behind it.
+function writeRecentManifest() {
+  const allDates = [
+    ...(contentManifest.questionSets || []).map((s) => s.isoDate),
+    ...(contentManifest.noteDocuments || []).map((n) => n.date),
+  ].filter(Boolean).sort();
+  const latest = allDates[allDates.length - 1] || new Date().toISOString().slice(0, 10);
+  const cutoffDate = new Date(`${latest}T00:00:00Z`);
+  cutoffDate.setUTCDate(cutoffDate.getUTCDate() - 45);
+  const cutoffIso = cutoffDate.toISOString().slice(0, 10);
+  const keepSet = (s) => !s.isoDate || s.sourceType === "pyq" || s.isoDate >= cutoffIso;
+  const keepNote = (n) => !n.date || n.date >= cutoffIso;
+  const recent = {
+    ...contentManifest,
+    questionSets: (contentManifest.questionSets || []).filter(keepSet),
+    noteDocuments: (contentManifest.noteDocuments || []).filter(keepNote),
+  };
+  const json = JSON.stringify(recent);
+  const outPath = path.join(DIST, RECENT_MANIFEST_REL);
+  fs.mkdirSync(path.dirname(outPath), { recursive: true });
+  fs.writeFileSync(outPath, json, "utf8");
+  return { url: `${RECENT_MANIFEST_REL}?v=${hashOf(json)}`, bytes: json.length };
+}
+
 // Per-month search shards. Only the current month changes day to day, so the
 // rest stay in the browser cache; the shard manifest carries each shard's hash.
 function writeSearch() {
@@ -98,8 +124,8 @@ function writeSearch() {
   return { url: `config/search/shards.json?v=${hashOf(payload)}`, shards: written.shards.length, bytes };
 }
 
-function bundleApp(manifestUrl, searchUrl, sources) {
-  const prelude = `window.UPSC_MANIFEST_URL=${JSON.stringify(manifestUrl)};window.UPSC_SEARCH_URL=${JSON.stringify(searchUrl)};`;
+function bundleApp(manifestUrl, recentManifestUrl, searchUrl, sources) {
+  const prelude = `window.UPSC_MANIFEST_URL=${JSON.stringify(manifestUrl)};window.UPSC_RECENT_MANIFEST_URL=${JSON.stringify(recentManifestUrl)};window.UPSC_SEARCH_URL=${JSON.stringify(searchUrl)};`;
   const chunks = [prelude].concat(sources.map((relPath) => {
     const abs = path.join(ROOT, relPath);
     const code = fs.readFileSync(abs, "utf8");
@@ -261,8 +287,9 @@ function run() {
   clean();
   copyStatic();
   const manifest = writeManifest();
+  const recentManifest = writeRecentManifest();
   const search = writeSearch();
-  bundleApp(manifest.url, search.url, sources);
+  bundleApp(manifest.url, recentManifest.url, search.url, sources);
   const styles = copyStylesAndHtml(manifest.url);
   copyManifestReferences();
 
@@ -272,6 +299,7 @@ function run() {
     `app/app.bundle.js?v=${styles.bundleVersion}`,
     `app/styles.css?v=${styles.stylesVersion}`,
     manifest.url,
+    recentManifest.url,
     search.url,
     "manifest.webmanifest",
     "favicon.svg",
