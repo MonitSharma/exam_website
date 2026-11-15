@@ -121,10 +121,37 @@ function validateQuestionSet(api, set, report) {
 
     if (seenNumbers.has(question.n)) report.warn(`${where}: duplicate question number ${question.n}`);
     seenNumbers.add(question.n);
+
+    checkAnswerConsistency(question, where, report);
   });
 
   if (!answered) {
     report.warn(`${label}: no answer keys at all — excluded from the site (${set.path})`);
+  }
+}
+
+// Flag obvious contradictions between a question's keyed option (e.g. "1 and 2 only")
+// and an explanation that explicitly marks one of those statements incorrect.
+function checkAnswerConsistency(question, where, report) {
+  if (!question.answer || !question.explanation) return;
+  const keyedOpt = question.options.find((opt) => opt.key === question.answer);
+  if (!keyedOpt) return;
+  const optText = String(keyedOpt.text || "").trim();
+  // Only apply to statement-combination options like "1 and 2 only", "1, 2 and 3", "2 only"
+  if (!/^(?:\d+(?:\s*,\s*\d+)*(?:\s+and\s+\d+)?)(?:\s+only)?$/i.test(optText)) return;
+  const included = new Set((optText.match(/\d+/g) || []).map(Number));
+  if (!included.size) return;
+
+  const expl = String(question.explanation || "");
+  const negPattern = /\bStatements?\s+([1-4](?:\s*(?:,|and|&)\s*[1-4])*)\s+(?:is|are)\s+(?:incorrect|wrong|false|not\s+correct)\b/gi;
+  let match;
+  while ((match = negPattern.exec(expl)) !== null) {
+    const nums = (match[1].match(/\d+/g) || []).map(Number);
+    for (const num of nums) {
+      if (included.has(num)) {
+        report.warn(`${where}: keyed option "${question.answer}) ${optText}" includes Statement ${num}, but explanation says Statement ${num} is incorrect`);
+      }
+    }
   }
 }
 

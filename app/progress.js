@@ -343,16 +343,31 @@
     return new Intl.DateTimeFormat("en-GB", { day: "2-digit", month: "short" }).format(new Date(value));
   }
 
-  function calculateAttemptSummary(questions, answers, questionSet) {
+  function calculateAttemptSummary(questions, answers, questionSet, meta = {}) {
     let correct = 0, wrong = 0, skipped = 0;
     let score = 0, max = 0;
     const subjectBreakdown = {};
     const questionResults = [];
+    const confidenceMap = meta?.confidence && typeof meta.confidence === "object" ? meta.confidence : {};
+    const timesMap = meta?.questionTimes && typeof meta.questionTimes === "object" ? meta.questionTimes : {};
+    const confidenceBreakdown = {
+      sure: { correct: 0, wrong: 0, attempted: 0, score: 0 },
+      fifty: { correct: 0, wrong: 0, attempted: 0, score: 0 },
+      guess: { correct: 0, wrong: 0, attempted: 0, score: 0 },
+    };
+    let timeSum = 0, timeCount = 0;
+
     questions.forEach((q) => {
       const selected = answers[q.n];
       const accepted = Array.isArray(q.acceptedAnswers) && q.acceptedAnswers.length ? q.acceptedAnswers : [q.answer].filter(Boolean);
       const marking = window.UPSC.getQuestionMarking(questionSet, q);
       const subject = q.subject || "General Studies";
+      const tier = confidenceMap[q.n];
+      const qTime = Number(timesMap[q.n]) || 0;
+      if (qTime > 0) {
+        timeSum += qTime;
+        timeCount += 1;
+      }
       subjectBreakdown[subject] = subjectBreakdown[subject] || { correct: 0, attempted: 0, total: 0 };
       subjectBreakdown[subject].total++;
       max += marking.correct;
@@ -371,7 +386,8 @@
         return;
       }
       subjectBreakdown[subject].attempted++;
-      if (accepted.includes(selected)) {
+      const isCorrect = accepted.includes(selected);
+      if (isCorrect) {
         correct++;
         subjectBreakdown[subject].correct++;
         score += marking.correct;
@@ -381,15 +397,24 @@
         score += marking.wrong;
         result.outcome = "wrong";
       }
+      if (tier && confidenceBreakdown[tier]) {
+        confidenceBreakdown[tier].attempted += 1;
+        confidenceBreakdown[tier][isCorrect ? "correct" : "wrong"] += 1;
+        confidenceBreakdown[tier].score = Math.round((confidenceBreakdown[tier].score + (isCorrect ? marking.correct : marking.wrong)) * 100) / 100;
+      }
       questionResults.push(result);
     });
     const attempted = correct + wrong;
     const accuracy = Math.round((correct / (attempted || 1)) * 100);
+    const hasConfidence = Object.values(confidenceBreakdown).some((b) => b.attempted > 0);
+    const avgTimeSeconds = timeCount ? Math.round((timeSum / timeCount) * 10) / 10 : 0;
     return {
       correct, wrong, skipped, attempted,
       score: Math.round(score * 100) / 100,
       max: Math.round(max * 100) / 100,
       accuracy, subjectBreakdown, questionResults,
+      confidenceBreakdown: hasConfidence ? confidenceBreakdown : null,
+      avgTimeSeconds,
     };
   }
 

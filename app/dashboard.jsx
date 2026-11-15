@@ -139,11 +139,144 @@ function OfflineButton() {
   );
 }
 
-function Dashboard({ go, progress, summary, review, onStartReview, onResetProgress, onImportProgress }) {
+function buildConfidenceRows(history) {
+  const totals = {
+    sure: { tier: "sure", label: "Sure", correct: 0, wrong: 0, attempted: 0, score: 0 },
+    fifty: { tier: "fifty", label: "50:50", correct: 0, wrong: 0, attempted: 0, score: 0 },
+    guess: { tier: "guess", label: "Guess", correct: 0, wrong: 0, attempted: 0, score: 0 },
+  };
+  history.forEach((entry) => {
+    const cb = entry.confidenceBreakdown;
+    if (!cb) return;
+    ["sure", "fifty", "guess"].forEach((tier) => {
+      const row = cb[tier];
+      if (!row) return;
+      totals[tier].correct += Number(row.correct) || 0;
+      totals[tier].wrong += Number(row.wrong) || 0;
+      totals[tier].attempted += Number(row.attempted) || 0;
+      totals[tier].score = Math.round((totals[tier].score + (Number(row.score) || 0)) * 100) / 100;
+    });
+  });
+  return Object.values(totals).filter((r) => r.attempted > 0);
+}
+
+const GIST_SYNC_KEY = "pariksha:gist_sync";
+const GIST_FILENAME = "pariksha-progress.json";
+function readGistConfig() {
+  try {
+    return JSON.parse(localStorage.getItem(GIST_SYNC_KEY) || "null") || { token: "", gistId: "", lastSyncAt: null };
+  } catch (e) {
+    return { token: "", gistId: "", lastSyncAt: null };
+  }
+}
+function writeGistConfig(cfg) {
+  try { localStorage.setItem(GIST_SYNC_KEY, JSON.stringify(cfg)); } catch (e) {}
+}
+
+function GistSyncBar({ progress, onRestoreProgress }) {
+  const [open, setOpen] = React.useState(false);
+  const [cfg, setCfg] = React.useState(() => readGistConfig());
+  const [status, setStatus] = React.useState("");
+  const [busy, setBusy] = React.useState(false);
+
+  function updateCfg(patch) {
+    const next = { ...cfg, ...patch };
+    setCfg(next);
+    writeGistConfig(next);
+  }
+
+  async function pushGist() {
+    if (!cfg.token.trim()) { setStatus("Enter a GitHub token with gist scope."); return; }
+    setBusy(true);
+    setStatus("Syncing up…");
+    try {
+      const payload = {
+        description: "Pariksha UPSC progress backup",
+        public: false,
+        files: { [GIST_FILENAME]: { content: JSON.stringify(progress, null, 2) } },
+      };
+      const url = cfg.gistId.trim()
+        ? `https://api.github.com/gists/${encodeURIComponent(cfg.gistId.trim())}`
+        : "https://api.github.com/gists";
+      const res = await fetch(url, {
+        method: cfg.gistId.trim() ? "PATCH" : "POST",
+        headers: { Authorization: `Bearer ${cfg.token.trim()}`, "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+      if (!res.ok) throw new Error(`GitHub API ${res.status}`);
+      const data = await res.json();
+      updateCfg({ gistId: data.id || cfg.gistId, lastSyncAt: Date.now() });
+      setStatus(`Synced to Gist (${(data.id || "").slice(0, 8)}…)`);
+    } catch (err) {
+      setStatus(`Sync failed: ${err.message}`);
+    } finally {
+      setBusy(false);
+    }
+  }
+
+  async function pullGist() {
+    if (!cfg.gistId.trim()) { setStatus("Enter a Gist ID to pull from."); return; }
+    setBusy(true);
+    setStatus("Fetching…");
+    try {
+      const headers = cfg.token.trim() ? { Authorization: `Bearer ${cfg.token.trim()}` } : {};
+      const res = await fetch(`https://api.github.com/gists/${encodeURIComponent(cfg.gistId.trim())}`, { headers });
+      if (!res.ok) throw new Error(`GitHub API ${res.status}`);
+      const data = await res.json();
+      const file = data.files?.[GIST_FILENAME] || Object.values(data.files || {})[0];
+      if (!file?.content) throw new Error("No progress file in Gist");
+      const ok = onRestoreProgress?.(file.content);
+      if (ok) {
+        updateCfg({ lastSyncAt: Date.now() });
+        setStatus("Restored from Gist.");
+      } else {
+        setStatus("Restore cancelled.");
+      }
+    } catch (err) {
+      setStatus(`Pull failed: ${err.message}`);
+    } finally {
+      setBusy(false);
+    }
+  }
+
+  return (
+    <div className="gist-sync-wrap">
+      <button className="btn ghost" onClick={() => setOpen((v) => !v)}>
+        <Icon name="spark" size={15} /> Cloud sync {cfg.gistId ? "· Linked" : ""}
+      </button>
+      {open && (
+        <div className="panel gist-sync-panel">
+          <div className="gist-sync-row">
+            <label>
+              <span>GitHub PAT (<code>gist</code> scope, stored locally)</span>
+              <input type="password" value={cfg.token} onChange={(e) => updateCfg({ token: e.target.value })} placeholder="ghp_..." />
+            </label>
+            <label>
+              <span>Gist ID (leave blank on first push)</span>
+              <input type="text" value={cfg.gistId} onChange={(e) => updateCfg({ gistId: e.target.value })} placeholder="auto-created on push" />
+            </label>
+            <div className="gist-sync-btns">
+              <button className="btn btn-green sm" disabled={busy} onClick={pushGist}>Push</button>
+              <button className="btn ghost sm" disabled={busy} onClick={pullGist}>Pull</button>
+            </div>
+          </div>
+          {(status || cfg.lastSyncAt) && (
+            <p className="gist-sync-note">
+              {status || `Last synced: ${new Date(cfg.lastSyncAt).toLocaleString("en-IN")}`}
+            </p>
+          )}
+        </div>
+      )}
+    </div>
+  );
+}
+
+function Dashboard({ go, progress, summary, review, onStartReview, onResetProgress, onImportProgress, onRestoreProgress }) {
   const ds = window.UPSC;
   const importRef = React.useRef(null);
   const history = progress.history || [];
   const subjectRows = buildSubjectRows(history);
+  const confidenceRows = buildConfidenceRows(history);
   const weakRows = subjectRows.filter((row) => row.attempted > 0).slice(0, 4);
   const aiSets = ds.getQuestionSetsBySource("ai");
   const aiPracticeSetId = aiSets[aiSets.length - 1]?.id || ds.defaultPracticeSetId;
@@ -170,6 +303,7 @@ function Dashboard({ go, progress, summary, review, onStartReview, onResetProgre
               onImportProgress?.(file);
             }}
           />
+          <GistSyncBar progress={progress} onRestoreProgress={onRestoreProgress} />
           <OfflineButton />
           <button className="btn btn-danger" onClick={onResetProgress}><Icon name="x" size={15} /> Reset stats</button>
         </div>
@@ -244,7 +378,7 @@ function Dashboard({ go, progress, summary, review, onStartReview, onResetProgre
                 <div className="recent-date">{h.date}</div>
                 <div className="recent-info">
                   <strong>{h.label}</strong>
-                  <span>{h.correct}/{h.attempted} correct · {h.accuracy}% accuracy</span>
+                  <span>{h.correct}/{h.attempted} correct · {h.accuracy}% accuracy{h.avgTimeSeconds ? ` · ${h.avgTimeSeconds}s/Q` : ""}</span>
                 </div>
                 <div className="recent-score">{h.score}<span>/{h.max}</span></div>
                 <Icon name="chevR" size={16} />
@@ -257,6 +391,24 @@ function Dashboard({ go, progress, summary, review, onStartReview, onResetProgre
             )}
           </div>
         </section>
+
+        {confidenceRows.length > 0 && (
+          <section className="panel dash-confidence">
+            <header className="panel-head"><h3>Confidence &amp; elimination</h3><p>Net marks and accuracy across tagged questions</p></header>
+            <div className="panel-body conf-grid">
+              {confidenceRows.map((row) => {
+                const acc = Math.round((row.correct / row.attempted) * 100);
+                return (
+                  <div key={row.tier} className={`conf-stat tone-${row.tier}`}>
+                    <strong>{row.label}</strong>
+                    <span>{row.correct}/{row.attempted} correct ({acc}%)</span>
+                    <em>{row.score >= 0 ? `+${row.score}` : row.score} marks</em>
+                  </div>
+                );
+              })}
+            </div>
+          </section>
+        )}
       </div>
     </div>
   );

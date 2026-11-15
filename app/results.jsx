@@ -144,6 +144,26 @@ function Results({ go, result }) {
           </div>
         </div>
       </div>
+
+      {result?.attemptSummary?.confidenceBreakdown && (
+        <div className="panel result-conf-panel">
+          <header className="panel-head"><h3>Confidence &amp; elimination split</h3><p>Accuracy and net marks by how sure you felt</p></header>
+          <div className="panel-body conf-grid">
+            {[["sure", "Sure"], ["fifty", "50:50"], ["guess", "Guess"]].map(([tier, label]) => {
+              const row = result.attemptSummary.confidenceBreakdown[tier];
+              if (!row || !row.attempted) return null;
+              const acc = Math.round((row.correct / row.attempted) * 100);
+              return (
+                <div key={tier} className={`conf-stat tone-${tier}`}>
+                  <strong>{label}</strong>
+                  <span>{row.correct}/{row.attempted} correct ({acc}%)</span>
+                  <em>{row.score >= 0 ? `+${formatMarks(row.score)}` : formatMarks(row.score)} marks</em>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      )}
     </div>
   );
 }
@@ -194,10 +214,21 @@ function Review({ go, result }) {
               <span className="rev-n">Q{q.n}</span>
               <Tag tone={SUBJECT_TONE[q.subject] || "neutral"} soft>{q.subject}</Tag>
               <span className="rev-micro">{q.micro}</span>
+              {result?.questionTimes?.[q.n] > 0 && <span className="rev-time">{result.questionTimes[q.n]}s</span>}
+              {result?.confidence?.[q.n] && <span className={`rev-conf tone-${result.confidence[q.n]}`}>{result.confidence[q.n] === "fifty" ? "50:50" : result.confidence[q.n] === "sure" ? "Sure" : "Guess"}</span>}
               <span className={`rev-badge ${state}`}>
                 <Icon name={state === "correct" ? "check" : state === "incorrect" ? "x" : "info"} size={13} />
                 {state === "correct" ? "Correct" : state === "incorrect" ? "Incorrect" : "Skipped"}
               </span>
+              <a
+                className="report-issue-link"
+                href={buildQuestionIssueUrl(questionSet, q)}
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Report a question or answer-key issue on GitHub"
+              >
+                <Icon name="flag" size={12} /> Report
+              </a>
             </div>
             <div className="rev-body">
               <QuestionStem q={q} />

@@ -2346,3 +2346,40 @@ button:focus-visible, a:focus-visible, summary:focus-visible, input:focus-visibl
 .atlas-verification { display: grid; gap: 8px; margin: 16px 0; font-size: 13px; line-height: 1.5; }
 .atlas-verification small { color: var(--muted); }
 .atlas-verification a { color: var(--green); overflow-wrap: anywhere; }
+
+/* Confidence tagging, keyboard hints, issue reporting, and Gist sync */
+.q-tools-row { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px; margin-top: 16px; padding-top: 12px; border-top: 1px dashed var(--border); }
+.conf-pills { display: flex; align-items: center; flex-wrap: wrap; gap: 6px; }
+.conf-label { font-size: 12px; color: var(--muted); margin-right: 2px; }
+.conf-pill { padding: 4px 10px; border-radius: 999px; border: 1px solid var(--border); background: var(--surface, #fff); color: var(--ink); font-size: 12px; font-weight: 500; cursor: pointer; transition: background 0.15s, border-color 0.15s, color 0.15s; }
+.conf-pill:hover { border-color: var(--ink); }
+.conf-pill.on.tone-sure { background: var(--green); border-color: var(--green); color: #fff; }
+.conf-pill.on.tone-fifty { background: var(--saffron, #cb7a2e); border-color: var(--saffron, #cb7a2e); color: #fff; }
+.conf-pill.on.tone-guess { background: var(--rose, #b84a4a); border-color: var(--rose, #b84a4a); color: #fff; }
+
+.report-issue-link { display: inline-flex; align-items: center; gap: 5px; font-size: 12px; color: var(--muted); text-decoration: none; padding: 3px 6px; border-radius: 6px; }
+.report-issue-link:hover { color: var(--ink); background: rgba(0, 0, 0, 0.04); }
+
+.kbd-hint { font-size: 11px; color: var(--muted); margin-left: 6px; }
+@media (max-width: 940px) { .kbd-hint { display: none; } }
+
+.result-conf-panel { margin-top: 18px; }
+.conf-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; }
+.conf-stat { display: grid; gap: 4px; padding: 12px 14px; border-radius: 10px; border: 1px solid var(--border); background: var(--surface, #fff); }
+.conf-stat strong { font-size: 14px; }
+.conf-stat span { font-size: 13px; color: var(--muted); }
+.conf-stat em { font-style: normal; font-size: 13px; font-weight: 600; color: var(--green); }
+.conf-stat.tone-guess em { color: var(--rose, #b84a4a); }
+
+.rev-time, .rev-conf { font-size: 11px; padding: 2px 7px; border-radius: 999px; border: 1px solid var(--border); color: var(--muted); }
+.rev-conf.tone-sure { color: var(--green); border-color: var(--green); }
+.rev-conf.tone-fifty { color: var(--saffron, #cb7a2e); border-color: var(--saffron, #cb7a2e); }
+.rev-conf.tone-guess { color: var(--rose, #b84a4a); border-color: var(--rose, #b84a4a); }
+
+.gist-sync-wrap { position: relative; display: inline-flex; flex-direction: column; }
+.gist-sync-panel { margin-top: 8px; padding: 12px; min-width: 280px; }
+.gist-sync-row { display: grid; gap: 8px; }
+.gist-sync-row label { display: grid; gap: 4px; font-size: 11px; color: var(--muted); }
+.gist-sync-row input { padding: 6px 8px; border: 1px solid var(--border); border-radius: 6px; font-size: 12px; background: var(--surface, #fff); color: var(--ink); }
+.gist-sync-btns { display: flex; gap: 8px; }
+.gist-sync-note { margin-top: 8px; font-size: 12px; color: var(--muted); }

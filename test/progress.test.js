@@ -9,7 +9,7 @@ function loadProgressModule() {
   const { window } = loadBrowserModule("app/progress.js", {
     localStorage: storage,
     // calculateDailyStreak / getProgressSummary reach into the data layer.
-    window: { UPSC: { getQuestionSetsBySource: () => [], todayIso: "2026-08-10" } },
+    window: { UPSC: { getQuestionSetsBySource: () => [], todayIso: "2026-08-10", getQuestionMarking: () => ({ correct: 2, wrong: -0.66 }) } },
   });
   return { P: window.UPSC_PROGRESS, storage };
 }
@@ -112,7 +112,7 @@ test("saveProgress swallows a quota error rather than breaking the session", () 
   exploding.setItem = () => { throw new Error("QuotaExceededError"); };
   const { window } = loadBrowserModule("app/progress.js", {
     localStorage: exploding,
-    window: { UPSC: { getQuestionSetsBySource: () => [], todayIso: "2026-08-10" } },
+    window: { UPSC: { getQuestionSetsBySource: () => [], todayIso: "2026-08-10", getQuestionMarking: () => ({ correct: 2, wrong: -0.66 }) } },
   });
   assert.doesNotThrow(() => window.UPSC_PROGRESS.saveProgress(P.createFreshProgress(0)));
 });
@@ -306,4 +306,23 @@ test("setItemDone records and clears a manual completion with a date", () => {
   const ids = P.getMissedSessions(done, "2026-08-10", CATCHUP_SETS, CATCHUP_NOTES).map((m) => m.id);
   assert.ok(!ids.includes("mains-01"), "manually-done writing task drops out");
   assert.equal(P.setItemDone(done, "mains-01", false).manualCompletions["mains-01"], undefined);
+});
+
+test("calculateAttemptSummary computes confidenceBreakdown and avgTimeSeconds", () => {
+  const { P } = loadProgressModule();
+  const qs = [
+    { n: 1, answer: "a", subject: "Polity" },
+    { n: 2, answer: "b", subject: "Polity" },
+    { n: 3, answer: "c", subject: "Economy" },
+  ];
+  const summary = P.calculateAttemptSummary(
+    qs,
+    { 1: "a", 2: "a", 3: "c" },
+    { id: "test-set", sourceType: "daily" },
+    { confidence: { 1: "sure", 2: "fifty", 3: "fifty" }, questionTimes: { 1: 20, 2: 40, 3: 30 } },
+  );
+  assert.equal(summary.avgTimeSeconds, 30);
+  assert.equal(summary.confidenceBreakdown.sure.correct, 1);
+  assert.equal(summary.confidenceBreakdown.fifty.correct, 1);
+  assert.equal(summary.confidenceBreakdown.fifty.wrong, 1);
 });

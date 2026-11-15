@@ -477,7 +477,10 @@ function App() {
 
   function finishTest(result) {
     const submittedAt = Date.now();
-    const attemptSummary = calculateAttemptSummary(result.questions, result.answers, result.questionSet);
+    const attemptSummary = calculateAttemptSummary(result.questions, result.answers, result.questionSet, {
+      confidence: result.confidence,
+      questionTimes: result.questionTimes,
+    });
     const entry = {
       id: `${result.questionSet.id}-${submittedAt}`,
       date: formatShortDate(submittedAt),
@@ -494,6 +497,8 @@ function App() {
       wrong: attemptSummary.wrong,
       skipped: attemptSummary.skipped,
       subjectBreakdown: attemptSummary.subjectBreakdown,
+      confidenceBreakdown: attemptSummary.confidenceBreakdown,
+      avgTimeSeconds: attemptSummary.avgTimeSeconds || 0,
     };
     setProgress((current) => {
       // Per-question outcomes drive the spaced-repetition queue.
@@ -531,31 +536,34 @@ function App() {
     setProgress(fresh);
   }
 
+  function applyRestoredProgress(raw, label = "this source") {
+    let restored = null;
+    try {
+      restored = normalizeProgress(typeof raw === "string" ? JSON.parse(raw) : raw);
+    } catch (error) {
+      restored = null;
+    }
+    if (!restored) {
+      window.alert("That data is not a valid Pariksha progress backup.");
+      return false;
+    }
+    const incoming = getProgressSummary(restored).attempts;
+    const existing = summary.attempts;
+    const confirmed = window.confirm(
+      `Replace the ${existing} attempt(s) stored in this browser with the ${incoming} attempt(s) from ${label}? This cannot be undone.`,
+    );
+    if (!confirmed) return false;
+    saveProgress(restored);
+    setProgress(restored);
+    return true;
+  }
+
   // Progress lives only in this browser, so an exported file is the only backup
   // there is. Restoring one has to be possible from the UI.
   function importProgress(file) {
     if (!file) return;
     const reader = new FileReader();
-    reader.onload = () => {
-      let restored = null;
-      try {
-        restored = normalizeProgress(JSON.parse(String(reader.result)));
-      } catch (error) {
-        restored = null;
-      }
-      if (!restored) {
-        window.alert("That file is not a Pariksha progress export.");
-        return;
-      }
-      const incoming = getProgressSummary(restored).attempts;
-      const existing = summary.attempts;
-      const confirmed = window.confirm(
-        `Replace the ${existing} attempt(s) stored in this browser with the ${incoming} attempt(s) in this file? This cannot be undone.`,
-      );
-      if (!confirmed) return;
-      saveProgress(restored);
-      setProgress(restored);
-    };
+    reader.onload = () => applyRestoredProgress(String(reader.result), "this file");
     reader.readAsText(file);
   }
 
@@ -584,7 +592,7 @@ function App() {
             </div>
             {screen === "workflow"
               ? <StudyWorkflowDashboard go={go} progress={progress} review={review} onStartReview={startReviewSession} />
-              : <Dashboard go={go} progress={progress} summary={summary} review={review} onStartReview={startReviewSession} onResetProgress={resetProgress} onImportProgress={importProgress} />}
+              : <Dashboard go={go} progress={progress} summary={summary} review={review} onStartReview={startReviewSession} onResetProgress={resetProgress} onImportProgress={importProgress} onRestoreProgress={(raw) => applyRestoredProgress(raw, "GitHub Gist")} />}
           </div>
         )}
       </div>

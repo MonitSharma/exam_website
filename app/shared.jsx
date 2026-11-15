@@ -194,7 +194,25 @@ function QuestionStem({ q, big }) {
   );
 }
 
-Object.assign(window, { Icon, Logo, Wordmark, Tag, DiffMeter, Ring, Stat, QuestionStem, SUBJECT_TONE, DIFF_TONE });
+function buildQuestionIssueUrl(questionSet, q) {
+  const setId = q?.sourceSetId || questionSet?.id || "unknown";
+  const qNum = q?.sourceQuestionNumber || q?.n || "?";
+  const sourcePath = questionSet?.sourcePath || questionSet?.path || "";
+  const stemSnippet = String(q?.stem || "").trim().slice(0, 220);
+  const title = `Question issue: ${setId} Q${qNum}`;
+  const body = [
+    `**Set:** ${questionSet?.label || setId} (\`${setId}\`)`,
+    sourcePath ? `**Source:** \`${sourcePath}\`` : "",
+    `**Question:** Q${qNum}`,
+    q?.answer ? `**Keyed answer:** (${q.answer})` : "",
+    stemSnippet ? `\n**Stem:**\n> ${stemSnippet}` : "",
+    "\n**Issue description:**\n",
+  ].filter(Boolean).join("\n");
+  const params = new URLSearchParams({ title, body });
+  return `https://github.com/MonitSharma/exam_website/issues/new?${params.toString()}`;
+}
+
+Object.assign(window, { Icon, Logo, Wordmark, Tag, DiffMeter, Ring, Stat, QuestionStem, SUBJECT_TONE, DIFF_TONE, buildQuestionIssueUrl });
 
 // Keep keyboard focus within a modal, then return it to the opening control.
 function useModalFocus(open, selector, onClose) {

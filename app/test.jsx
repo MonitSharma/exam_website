@@ -67,7 +67,9 @@ function TestScreen({ go, session, onSubmit }) {
   const [idx, setIdx] = useTestState(0);
   const [answers, setAnswers] = useTestState({});
   const [marked, setMarked] = useTestState({});
+  const [confidence, setConfidence] = useTestState({});
   const [visited, setVisited] = useTestState({ 0: true });
+  const questionTimesRef = useTestRef({});
   const [isMobile, setIsMobile] = useTestState(() => window.matchMedia("(max-width: 940px)").matches);
   useTestEffect(() => { const query = window.matchMedia("(max-width: 940px)"); const update = () => setIsMobile(query.matches); query.addEventListener("change", update); return () => query.removeEventListener("change", update); }, []);
   const [paletteOpen, setPaletteOpen] = useTestState(false);
@@ -92,14 +94,18 @@ function TestScreen({ go, session, onSubmit }) {
       setIdx(Number(saved.idx) || 0);
       setAnswers(saved.answers || {});
       setMarked(saved.marked || {});
+      setConfidence(saved.confidence || {});
       setVisited(saved.visited || { 0: true });
+      questionTimesRef.current = saved.questionTimes && typeof saved.questionTimes === "object" ? { ...saved.questionTimes } : {};
       setSecs(Number.isFinite(saved.secs) ? saved.secs : (selectedSet?.durationMinutes || 120) * 60);
       setResumed(true);
     } else {
       setIdx(0);
       setAnswers({});
       setMarked({});
+      setConfidence({});
       setVisited({ 0: true });
+      questionTimesRef.current = {};
       setSecs((selectedSet?.durationMinutes || 120) * 60);
       setResumed(false);
     }
@@ -137,10 +143,16 @@ function TestScreen({ go, session, onSubmit }) {
   }, [session?.setId, session?.reviewToken, session?.subjects?.join(",")]);
 
   useTestEffect(() => {
-    if (loadState.loading || loadState.error || session?.timed === false) return undefined;
-    const timer = setInterval(() => setSecs((s) => (s > 0 ? s - 1 : 0)), 1000);
+    if (loadState.loading || loadState.error) return undefined;
+    const timer = setInterval(() => {
+      if (session?.timed !== false) setSecs((s) => (s > 0 ? s - 1 : 0));
+      const activeQ = loadState.questions?.[idx];
+      if (activeQ && !exitOpen) {
+        questionTimesRef.current[activeQ.n] = (questionTimesRef.current[activeQ.n] || 0) + 1;
+      }
+    }, 1000);
     return () => clearInterval(timer);
-  }, [loadState.loading, loadState.error, session?.setId]);
+  }, [loadState.loading, loadState.error, session?.setId, session?.timed, idx, exitOpen]);
 
   // Persist in-progress state to localStorage so a refresh / exit can resume.
   useTestEffect(() => {
@@ -148,8 +160,8 @@ function TestScreen({ go, session, onSubmit }) {
     const setId = loadState.questionSet?.id;
     if (!setId || reviewQueue || session?.subjects) return;
     if (submittedRef.current) return;
-    writeSession(setId, { idx, answers, marked, visited, secs });
-  }, [idx, answers, marked, visited, secs, loadState.loading, loadState.error, loadState.questionSet?.id]);
+    writeSession(setId, { idx, answers, marked, confidence, visited, secs, questionTimes: questionTimesRef.current });
+  }, [idx, answers, marked, confidence, visited, secs, loadState.loading, loadState.error, loadState.questionSet?.id]);
 
   // Auto-submit when the timer hits zero.
   useTestEffect(() => {
@@ -187,6 +199,44 @@ function TestScreen({ go, session, onSubmit }) {
     setMarked((m) => ({ ...m, [q.n]: !m[q.n] }));
   }
 
+  function setConfidenceTier(tier) {
+    if (!q) return;
+    setConfidence((c) => ({ ...c, [q.n]: c[q.n] === tier ? null : tier }));
+  }
+
+  useTestEffect(() => {
+    if (loadState.loading || loadState.error || !q || exitOpen || paletteOpen) return undefined;
+    function onKeyDown(event) {
+      if (event.metaKey || event.ctrlKey || event.altKey) return;
+      const tag = document.activeElement?.tagName;
+      if (tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT") return;
+      const key = event.key.toLowerCase();
+      const optionMap = { "1": "a", "2": "b", "3": "c", "4": "d", a: "a", b: "b", c: "c", d: "d" };
+      if (optionMap[key]) {
+        event.preventDefault();
+        choose(optionMap[key]);
+      } else if (event.key === "ArrowRight" || event.key === "Enter") {
+        if (idx < qs.length - 1) {
+          event.preventDefault();
+          goTo(idx + 1);
+        }
+      } else if (event.key === "ArrowLeft") {
+        if (idx > 0) {
+          event.preventDefault();
+          goTo(idx - 1);
+        }
+      } else if (key === "m") {
+        event.preventDefault();
+        toggleMark();
+      } else if (key === "c") {
+        event.preventDefault();
+        choose(null);
+      }
+    }
+    window.addEventListener("keydown", onKeyDown);
+    return () => window.removeEventListener("keydown", onKeyDown);
+  }, [loadState.loading, loadState.error, q?.n, idx, qs.length, exitOpen, paletteOpen]);
+
   function statusOf(i) {
     const qn = qs[i].n;
     const a = answers[qn], m = marked[qn], v = visited[i];
@@ -208,6 +258,8 @@ function TestScreen({ go, session, onSubmit }) {
       questionSet,
       questions: qs,
       answers: { ...answers },
+      confidence: { ...confidence },
+      questionTimes: { ...questionTimesRef.current },
       elapsedSeconds,
     });
   }
@@ -218,7 +270,9 @@ function TestScreen({ go, session, onSubmit }) {
     setIdx(0);
     setAnswers({});
     setMarked({});
+    setConfidence({});
     setVisited({ 0: true });
+    questionTimesRef.current = {};
     setSecs((questionSet.durationMinutes || 120) * 60);
     setResumed(false);
   }
@@ -337,6 +391,31 @@ function TestScreen({ go, session, onSubmit }) {
                 );
               })}
             </div>
+
+            <div className="q-tools-row">
+              <div className="conf-pills" role="group" aria-label="Confidence level">
+                <span className="conf-label">Confidence:</span>
+                {[["sure", "Sure"], ["fifty", "50:50"], ["guess", "Guess"]].map(([tier, label]) => (
+                  <button
+                    key={tier}
+                    type="button"
+                    className={`conf-pill tone-${tier}${confidence[q.n] === tier ? " on" : ""}`}
+                    onClick={() => setConfidenceTier(tier)}
+                  >
+                    {label}
+                  </button>
+                ))}
+              </div>
+              <a
+                className="report-issue-link"
+                href={buildQuestionIssueUrl(questionSet, q)}
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Flag a question or answer-key issue on GitHub"
+              >
+                <Icon name="flag" size={13} /> Report issue
+              </a>
+            </div>
           </div>
 
           <div className="q-nav">
@@ -345,6 +424,7 @@ function TestScreen({ go, session, onSubmit }) {
                 <Icon name="flag" size={15} /> {marked[q.n] ? "Marked" : "Mark for review"}
               </button>
               <button className="btn ghost subtle" onClick={() => choose(null)} disabled={!answers[q.n]}>Clear</button>
+              <span className="kbd-hint">Keys: 1–4 / A–D · ←/→ · M</span>
             </div>
             <div className="q-nav-r">
               <button className="btn ghost" onClick={() => goTo(Math.max(0, idx - 1))} disabled={idx === 0}>
