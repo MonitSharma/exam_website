@@ -2401,3 +2401,25 @@ button:focus-visible, a:focus-visible, summary:focus-visible, input:focus-visibl
 .rev-note-editor { display: grid; gap: 8px; }
 .rev-note-editor textarea { width: 100%; padding: 8px 10px; border: 1px solid var(--border); border-radius: 8px; font-size: 13px; font-family: inherit; background: var(--surface, #fff); color: var(--ink); resize: vertical; }
 .rev-note-actions { display: flex; gap: 8px; }
+
+/* Side-by-side CSAT Reading Passage split view on desktop */
+.passage-split { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 22px; align-items: start; }
+.passage-pane { position: sticky; top: 0; max-height: calc(100vh - 210px); overflow-y: auto; padding-right: 8px; }
+.passage-kicker { display: inline-block; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); margin-bottom: 8px; }
+.passage-pane .stem-passage { margin-bottom: 0; }
+@media (max-width: 940px) {
+  .passage-split { grid-template-columns: 1fr; gap: 14px; }
+  .passage-pane { position: static; max-height: none; padding-right: 0; }
+}
+
+/* Dashboard bookmarks & mnemonics browser */
+.dash-bookmarks { grid-column: 1 / -1; }
+.bm-filters { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 14px; }
+.bm-filters select, .bm-filters input { padding: 7px 10px; border: 1px solid var(--border); border-radius: 8px; font-size: 13px; background: var(--surface, #fff); color: var(--ink); }
+.bm-filters input { flex: 1; min-width: 200px; }
+.bm-list { display: grid; gap: 10px; }
+.bm-item { padding: 12px 14px; border: 1px solid var(--border); border-radius: 10px; background: var(--surface, #fff); display: grid; gap: 6px; }
+.bm-item-head { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; }
+.bm-micro { font-size: 12px; color: var(--muted); }
+.bm-item-actions { margin-left: auto; display: inline-flex; gap: 12px; }
+.bm-note { margin: 0; font-size: 13px; line-height: 1.5; color: var(--ink); }

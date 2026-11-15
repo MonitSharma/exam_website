@@ -133,10 +133,10 @@ function Stat({ value, label, sub, tone }) {
 }
 
 /* ---------- Question stem renderer (serif, exam-paper style) ---------- */
-function QuestionStem({ q, big }) {
+function QuestionStem({ q, big, hidePassage }) {
   return (
     <div className={`stem${big ? " stem-big" : ""}`}>
-      {q.passage && <div className="stem-passage">{q.passage}</div>}
+      {!hidePassage && q.passage && <div className="stem-passage">{q.passage}</div>}
       <p className="stem-lead">{q.stem}</p>
       {q.primaryStatements && q.primaryStatements.length > 0 && (
         <ol className="stmt-list stmt-list-primary">

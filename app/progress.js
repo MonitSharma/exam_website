@@ -349,6 +349,7 @@
     let correct = 0, wrong = 0, skipped = 0;
     let score = 0, max = 0;
     const subjectBreakdown = {};
+    const microBreakdown = {};
     const questionResults = [];
     const confidenceMap = meta?.confidence && typeof meta.confidence === "object" ? meta.confidence : {};
     const timesMap = meta?.questionTimes && typeof meta.questionTimes === "object" ? meta.questionTimes : {};
@@ -389,6 +390,11 @@
       }
       subjectBreakdown[subject].attempted++;
       const isCorrect = accepted.includes(selected);
+      if (q.micro) {
+        microBreakdown[q.micro] = microBreakdown[q.micro] || { subject, correct: 0, attempted: 0 };
+        microBreakdown[q.micro].attempted += 1;
+        if (isCorrect) microBreakdown[q.micro].correct += 1;
+      }
       if (isCorrect) {
         correct++;
         subjectBreakdown[subject].correct++;
@@ -414,7 +420,7 @@
       correct, wrong, skipped, attempted,
       score: Math.round(score * 100) / 100,
       max: Math.round(max * 100) / 100,
-      accuracy, subjectBreakdown, questionResults,
+      accuracy, subjectBreakdown, microBreakdown, questionResults,
       confidenceBreakdown: hasConfidence ? confidenceBreakdown : null,
       avgTimeSeconds,
     };

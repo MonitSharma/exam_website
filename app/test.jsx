@@ -392,7 +392,7 @@ function TestScreen({ go, session, onSubmit, bookmarks = {}, onToggleBookmark })
 
       <div className="test-layout">
         <main className="q-panel">
-          <div className="q-scroll">
+          <div className={`q-scroll${q.passage ? " has-passage" : ""}`}>
             <div className="q-meta">
               <div className="q-meta-l">
                 <span className="q-index">Question <strong>{idx + 1}</strong> <span className="q-of">/ {qs.length}</span></span>
@@ -404,53 +404,63 @@ function TestScreen({ go, session, onSubmit, bookmarks = {}, onToggleBookmark })
               </div>
             </div>
 
-            <QuestionStem q={q} big />
+            <div className={q.passage ? "passage-split" : ""}>
+              {q.passage && (
+                <aside className="passage-pane" aria-label="Reading passage">
+                  <span className="passage-kicker">Reading passage</span>
+                  <div className="stem-passage">{q.passage}</div>
+                </aside>
+              )}
+              <div className={q.passage ? "question-pane" : ""}>
+                <QuestionStem q={q} big hidePassage={Boolean(q.passage)} />
 
-            <div className="options">
-              {q.options.map((o) => {
-                const sel = answers[q.n] === o.key;
-                return (
-                  <button key={o.key} className={`opt${sel ? " sel" : ""}`} onClick={() => choose(o.key)}>
-                    <span className="opt-key">{o.key}</span>
-                    <span className="opt-text">{o.text}</span>
-                    <span className="opt-tick"><Icon name="check" size={15} /></span>
-                  </button>
-                );
-              })}
-            </div>
+                <div className="options">
+                  {q.options.map((o) => {
+                    const sel = answers[q.n] === o.key;
+                    return (
+                      <button key={o.key} className={`opt${sel ? " sel" : ""}`} onClick={() => choose(o.key)}>
+                        <span className="opt-key">{o.key}</span>
+                        <span className="opt-text">{o.text}</span>
+                        <span className="opt-tick"><Icon name="check" size={15} /></span>
+                      </button>
+                    );
+                  })}
+                </div>
 
-            <div className="q-tools-row">
-              <div className="conf-pills" role="group" aria-label="Confidence level">
-                <span className="conf-label">Confidence:</span>
-                {[["sure", "Sure"], ["fifty", "50:50"], ["guess", "Guess"]].map(([tier, label]) => (
-                  <button
-                    key={tier}
-                    type="button"
-                    className={`conf-pill tone-${tier}${confidence[q.n] === tier ? " on" : ""}`}
-                    onClick={() => setConfidenceTier(tier)}
-                  >
-                    {label}
-                  </button>
-                ))}
-              </div>
-              <div className="q-tools-actions">
-                <button
-                  type="button"
-                  className={`bm-btn${isCurrentBookmarked ? " on" : ""}`}
-                  onClick={toggleBookmarkForCurrent}
-                  title="Bookmark question (B)"
-                >
-                  <Icon name="book" size={13} /> {isCurrentBookmarked ? "Bookmarked" : "Bookmark"}
-                </button>
-                <a
-                  className="report-issue-link"
-                  href={buildQuestionIssueUrl(questionSet, q)}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  title="Flag a question or answer-key issue on GitHub"
-                >
-                  <Icon name="flag" size={13} /> Report issue
-                </a>
+                <div className="q-tools-row">
+                  <div className="conf-pills" role="group" aria-label="Confidence level">
+                    <span className="conf-label">Confidence:</span>
+                    {[["sure", "Sure"], ["fifty", "50:50"], ["guess", "Guess"]].map(([tier, label]) => (
+                      <button
+                        key={tier}
+                        type="button"
+                        className={`conf-pill tone-${tier}${confidence[q.n] === tier ? " on" : ""}`}
+                        onClick={() => setConfidenceTier(tier)}
+                      >
+                        {label}
+                      </button>
+                    ))}
+                  </div>
+                  <div className="q-tools-actions">
+                    <button
+                      type="button"
+                      className={`bm-btn${isCurrentBookmarked ? " on" : ""}`}
+                      onClick={toggleBookmarkForCurrent}
+                      title="Bookmark question (B)"
+                    >
+                      <Icon name="book" size={13} /> {isCurrentBookmarked ? "Bookmarked" : "Bookmark"}
+                    </button>
+                    <a
+                      className="report-issue-link"
+                      href={buildQuestionIssueUrl(questionSet, q)}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      title="Flag a question or answer-key issue on GitHub"
+                    >
+                      <Icon name="flag" size={13} /> Report issue
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

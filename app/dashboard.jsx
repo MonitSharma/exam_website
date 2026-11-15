@@ -160,6 +160,122 @@ function buildConfidenceRows(history) {
   return Object.values(totals).filter((r) => r.attempted > 0);
 }
 
+function buildMicroRows(history, questionStats) {
+  const micros = {};
+  history.forEach((entry) => {
+    Object.entries(entry.microBreakdown || {}).forEach(([micro, val]) => {
+      if (!micro) return;
+      micros[micro] = micros[micro] || { micro, subject: val.subject || "", correct: 0, attempted: 0, wrongQueue: 0 };
+      micros[micro].correct += Number(val.correct) || 0;
+      micros[micro].attempted += Number(val.attempted) || 0;
+      if (!micros[micro].subject && val.subject) micros[micro].subject = val.subject;
+    });
+  });
+  Object.values(questionStats || {}).forEach((st) => {
+    if (!st.micro) return;
+    micros[st.micro] = micros[st.micro] || { micro: st.micro, subject: st.subject || "", correct: 0, attempted: 0, wrongQueue: 0 };
+    micros[st.micro].wrongQueue += Number(st.wrong) || 1;
+    if (!micros[st.micro].subject && st.subject) micros[st.micro].subject = st.subject;
+  });
+  return Object.values(micros)
+    .map((r) => ({
+      ...r,
+      acc: r.attempted > 0 ? Math.round((r.correct / r.attempted) * 100) : 0,
+    }))
+    .sort((a, b) => a.acc - b.acc || b.wrongQueue - a.wrongQueue)
+    .slice(0, 8);
+}
+
+function BookmarksBrowserCard({ bookmarks, onToggleBookmark, onSaveNote, go }) {
+  const ds = window.UPSC;
+  const items = Object.values(bookmarks || {}).sort((a, b) => (b.savedAt || 0) - (a.savedAt || 0));
+  const [subFilter, setSubFilter] = React.useState("");
+  const [query, setQuery] = React.useState("");
+  const [editingKey, setEditingKey] = React.useState("");
+  const [draft, setDraft] = React.useState("");
+
+  const subjects = [...new Set(items.map((i) => i.subject).filter(Boolean))].sort();
+  const qNorm = query.trim().toLowerCase();
+  const filtered = items.filter((item) => {
+    if (subFilter && item.subject !== subFilter) return false;
+    if (qNorm) {
+      const hay = `${item.subject} ${item.micro} ${item.note} ${item.setId}`.toLowerCase();
+      if (!hay.includes(qNorm)) return false;
+    }
+    return true;
+  });
+
+  return (
+    <section className="panel dash-bookmarks">
+      <header className="panel-head row">
+        <div>
+          <h3>Bookmarks &amp; mnemonics</h3>
+          <p>{items.length ? `${items.length} saved question${items.length === 1 ? "" : "s"} & personal notes` : "Save tricky questions during tests or review"}</p>
+        </div>
+        {filtered.length > 0 && (
+          <button
+            className="btn btn-green sm"
+            onClick={() => go("test", { customConfig: { pool: "bookmarks", refs: filtered }, timed: false, returnTo: "dashboard" })}
+          >
+            <Icon name="bolt" size={14} /> Practise {filtered.length}
+          </button>
+        )}
+      </header>
+      <div className="panel-body">
+        {items.length ? (
+          <>
+            <div className="bm-filters">
+              <select value={subFilter} onChange={(e) => setSubFilter(e.target.value)}>
+                <option value="">All subjects</option>
+                {subjects.map((s) => <option key={s} value={s}>{s}</option>)}
+              </select>
+              <input type="search" value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Filter by topic or note…" />
+            </div>
+            <div className="bm-list">
+              {filtered.slice(0, 20).map((item) => {
+                const key = window.UPSC_PROGRESS.questionKey(item.setId, item.n);
+                const setLabel = ds.getQuestionSetById(item.setId)?.shortLabel || item.setId;
+                const isEditing = editingKey === key;
+                return (
+                  <div className="bm-item" key={key}>
+                    <div className="bm-item-head">
+                      <Tag tone={SUBJECT_TONE[item.subject] || "neutral"} soft>{item.subject || "General"}</Tag>
+                      <strong>{setLabel} · Q{item.n}</strong>
+                      {item.micro && <span className="bm-micro">{item.micro}</span>}
+                      <div className="bm-item-actions">
+                        <button className="link-btn" onClick={() => { setEditingKey(key); setDraft(item.note || ""); }}>
+                          {item.note ? "Edit note" : "+ Note"}
+                        </button>
+                        <button className="link-btn" onClick={() => onToggleBookmark?.(item)}>Remove</button>
+                      </div>
+                    </div>
+                    {isEditing ? (
+                      <div className="rev-note-editor">
+                        <textarea rows={2} value={draft} onChange={(e) => setDraft(e.target.value)} placeholder="Mnemonic or takeaway…" />
+                        <div className="rev-note-actions">
+                          <button className="btn btn-green sm" onClick={() => { onSaveNote?.(item, draft); setEditingKey(""); }}>Save</button>
+                          <button className="btn ghost sm" onClick={() => setEditingKey("")}>Cancel</button>
+                        </div>
+                      </div>
+                    ) : (
+                      item.note && <p className="bm-note">{item.note}</p>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+          </>
+        ) : (
+          <div className="empty-panel">
+            <strong>No bookmarks yet.</strong>
+            <span>Press <code>B</code> during a test or click Save in Review to build your personal revision deck.</span>
+          </div>
+        )}
+      </div>
+    </section>
+  );
+}
+
 const GIST_SYNC_KEY = "pariksha:gist_sync";
 const GIST_FILENAME = "pariksha-progress.json";
 function readGistConfig() {
@@ -271,12 +387,13 @@ function GistSyncBar({ progress, onRestoreProgress }) {
   );
 }
 
-function Dashboard({ go, progress, summary, review, onStartReview, onResetProgress, onImportProgress, onRestoreProgress }) {
+function Dashboard({ go, progress, summary, review, onStartReview, onResetProgress, onImportProgress, onRestoreProgress, onToggleBookmark, onSaveNote }) {
   const ds = window.UPSC;
   const importRef = React.useRef(null);
   const history = progress.history || [];
   const subjectRows = buildSubjectRows(history);
   const confidenceRows = buildConfidenceRows(history);
+  const microRows = buildMicroRows(history, progress.questionStats);
   const weakRows = subjectRows.filter((row) => row.attempted > 0).slice(0, 4);
   const aiSets = ds.getQuestionSetsBySource("ai");
   const aiPracticeSetId = aiSets[aiSets.length - 1]?.id || ds.defaultPracticeSetId;
@@ -409,6 +526,45 @@ function Dashboard({ go, progress, summary, review, onStartReview, onResetProgre
             </div>
           </section>
         )}
+
+        {microRows.length > 0 && (
+          <section className="panel dash-micro">
+            <header className="panel-head"><h3>Micro-topic weak spots</h3><p>Lowest accuracy &amp; most missed themes</p></header>
+            <div className="panel-body weak-list">
+              {microRows.map((m) => (
+                <div className="weak-item" key={m.micro}>
+                  <div className="weak-info">
+                    <strong>{m.micro}</strong>
+                    <span>
+                      <i className={`subdot tone-${SUBJECT_TONE[m.subject] || "neutral"}`} />
+                      {m.subject || "General"}
+                      {m.attempted > 0 ? ` · ${m.correct}/${m.attempted} correct` : ""}
+                      {m.wrongQueue > 0 ? ` · ${m.wrongQueue} missed` : ""}
+                    </span>
+                  </div>
+                  <div className="weak-acc">
+                    {m.attempted > 0 && <span className="weak-pct">{m.acc}%</span>}
+                    {m.subject && (
+                      <button
+                        className="mini-btn"
+                        onClick={() => go("test", { customConfig: { pool: "all", subject: m.subject, count: 10 }, timed: false, returnTo: "dashboard" })}
+                      >
+                        Drill
+                      </button>
+                    )}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
+        <BookmarksBrowserCard
+          bookmarks={progress.bookmarks || {}}
+          onToggleBookmark={onToggleBookmark}
+          onSaveNote={onSaveNote}
+          go={go}
+        />
       </div>
     </div>
   );

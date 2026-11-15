@@ -516,6 +516,7 @@ function App() {
       wrong: attemptSummary.wrong,
       skipped: attemptSummary.skipped,
       subjectBreakdown: attemptSummary.subjectBreakdown,
+      microBreakdown: attemptSummary.microBreakdown,
       confidenceBreakdown: attemptSummary.confidenceBreakdown,
       avgTimeSeconds: attemptSummary.avgTimeSeconds || 0,
     };
@@ -611,7 +612,7 @@ function App() {
             </div>
             {screen === "workflow"
               ? <StudyWorkflowDashboard go={go} progress={progress} review={review} onStartReview={startReviewSession} />
-              : <Dashboard go={go} progress={progress} summary={summary} review={review} onStartReview={startReviewSession} onResetProgress={resetProgress} onImportProgress={importProgress} onRestoreProgress={(raw) => applyRestoredProgress(raw, "GitHub Gist")} />}
+              : <Dashboard go={go} progress={progress} summary={summary} review={review} onStartReview={startReviewSession} onResetProgress={resetProgress} onImportProgress={importProgress} onRestoreProgress={(raw) => applyRestoredProgress(raw, "GitHub Gist")} onToggleBookmark={toggleBookmark} onSaveNote={saveQuestionNote} />}
           </div>
         )}
       </div>
