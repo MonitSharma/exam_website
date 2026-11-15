@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to the Supreme Court's judgment of 5 November 2026 in Sujit Das v. Union of India, consider the following statements:\n1. The 24-hour period for production before a Magistrate runs from the time liberty is curtailed (detention), not from the time of formal arrest.\n2. Time spent in pre-arrest inquiry or investigation can be excluded from the 24-hour period.\n3. The only time that may be excluded is the time needed to travel from the place of arrest to the Magistrate's court.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "The Bench of Justices Ujjal Bhuyan and Atul S. Chandurkar held that the 'arrest' vs 'detention' distinction is unsustainable under Article 22(2); pre-arrest time cannot be excluded, only travel time. Statement 2 is wrong.",
+    "subject": "Polity & Governance",
+    "theme": "Article 22 safeguards",
+    "micro_topic": "24-hour production before Magistrate",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the CERT-In advisory on AI agents (CIAD-2026-0049) and related cyber-incident norms, consider the following statements:\n1. CERT-In's 2022 Directions, issued under Section 70B(6) of the IT Act, 2000, require cyber incidents to be reported within six hours.\n2. The advisory recommends least-privilege, short-lived credentials and human confirmation for consequential or irreversible agent actions.\n3. CERT-In has made it mandatory for every AI agent to be licensed by MeitY before deployment.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Statements 1 and 2 match CERT-In's Directions of 28 April 2022 and the advisory's safeguards. No AI-agent licensing requirement exists; the guidance is an advisory.",
+    "subject": "Science & Technology",
+    "theme": "AI governance and cybersecurity",
+    "micro_topic": "CERT-In and agentic AI",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the MALABAR 2026 naval exercise, consider the following statements:\n1. It is being held at Yokosuka, Japan, with INS Sahyadri representing the Indian Navy.\n2. The navies of India, Japan, the United States and Australia participate.\n3. The exercise consists only of a sea phase, with no harbour phase.\n4. It began in 1992 as a bilateral exercise between India and the United States.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1, 2 and 4 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 3 and 4 only"
+    ],
+    "answer": "(b)",
+    "explanation": "MALABAR 2026 has a harbour phase and a sea phase, so statement 3 is wrong. The exercise started as an India–US bilateral in 1992 and now involves the four Quad navies.",
+    "subject": "International Relations",
+    "theme": "Quad and Indo-Pacific maritime cooperation",
+    "micro_topic": "MALABAR exercise",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the proposed recycling guidelines for renewable-energy equipment in India, consider the following statements:\n1. Solar and wind waste is currently covered under the e-waste rules.\n2. The proposed guidelines would require manufacturers to design modules with higher recyclability.\n3. Epoxy used in wind-turbine blades remains technically impossible to recycle.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 2 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "MNRE says separate guidelines are being drafted after stakeholder consultation. A Suzlon–Aditya Birla Group agreement points to fully recyclable epoxy blades, so statement 3 is false.",
+    "subject": "Environment",
+    "theme": "Waste management and renewable energy",
+    "micro_topic": "Solar module and wind blade recycling",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to Phase-II of the Swachh Bharat Mission (Grameen), consider the following statements:\n1. The mission has been extended to 31 March 2028.\n2. For states other than the North-Eastern and Himalayan states, the Centre–State funding ratio is 60:40.\n3. The 90:10 funding ratio applies to all States.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1 and 2 only"
+    ],
+    "answer": "(d)",
+    "explanation": "SBM(G) Phase-II runs to 31 March 2028 with 90:10 for NE and Himalayan states (including J&K), 60:40 for other states and 100:0 for UTs. Statement 3 is wrong.",
+    "subject": "Society",
+    "theme": "Rural sanitation schemes",
+    "micro_topic": "SBM-G Phase-II and ODF Plus",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to Article 22 of the Constitution of India, which one of the following statements is correct?",
+    "options": [
+      "(a) The safeguards in clauses (1) and (2) apply equally to preventive detainees and enemy aliens.",
+      "(b) Article 22 forms part of the Right to Equality.",
+      "(c) A person arrested has the right to be informed of the grounds of arrest and to consult and be defended by a legal practitioner of his choice.",
+      "(d) Preventive detention beyond three months can never be authorised."
+    ],
+    "answer": "(c)",
+    "explanation": "Article 22(1) gives these rights. Clauses (1) and (2) do not apply to enemy aliens or preventive detainees (22(3)), and 22(4) allows detention beyond three months with Advisory Board approval. Article 22 is under the Right to Freedom.",
+    "subject": "Polity & Governance",
+    "theme": "Fundamental Rights",
+    "micro_topic": "Article 22 – arrest and detention",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The Basel Convention, relevant to the discussion on waste from renewable-energy equipment, primarily deals with:",
+    "options": [
+      "(a) Control of transboundary movements of hazardous wastes and their disposal",
+      "(b) International trade in endangered species of wild fauna and flora",
+      "(c) Phasing out of ozone-depleting substances",
+      "(d) Conservation of wetlands of international importance"
+    ],
+    "answer": "(a)",
+    "explanation": "The Basel Convention (1989) regulates transboundary movement of hazardous wastes. (b) is CITES, (c) Montreal Protocol, (d) Ramsar.",
+    "subject": "Environment",
+    "theme": "International environmental conventions",
+    "micro_topic": "Basel Convention",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  }
+]

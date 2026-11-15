@@ -1,0 +1,50 @@
+[
+  {
+    "question": "Consider the following statements about the Prime Minister's Awards for Excellence in Public Administration 2026:\n1. The awards portal was launched by the Department of Administrative Reforms and Public Grievances.\n2. The awards are given in 16 slots across three categories, including Holistic Development of Districts and Aspirational Blocks.\n3. Each award carries a cash incentive of ₹1 crore payable to the awardee individually.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "DARPG launched the pmawards.gov.in portal and there are 16 awards in three categories. Each award carries a trophy, scroll and ₹20 lakh to be used for a project or public-welfare gaps, so statement 3 is wrong.",
+    "subject": "Polity & Governance",
+    "theme": "Governance",
+    "micro_topic": "PM Awards for Excellence in Public Administration 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Electronics Components Manufacturing Scheme (ECMS) and Semicon 2.0, consider the following statements:\n1. ECMS is implemented by the Ministry of Electronics and Information Technology.\n2. ECMS aims to shift India from downstream assembly towards a domestic components value chain.\n3. A Semicon 2.0 application portal has been launched for pillars such as machines and materials, fabs and ATMP/OSAT.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "ECMS is a MeitY scheme meant to build a domestic electronics-components value chain; in Nov 2026 MeitY launched the Semicon 2.0 portal and approved 12 more ECMS projects (118 in total, per reports).",
+    "subject": "Economy",
+    "theme": "Industry & Manufacturing",
+    "micro_topic": "Semicon 2.0 and ECMS",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The COSMOS-Mysuru Planetarium, recently inaugurated, is described as India's first LED-dome planetarium. Consider the following statements:\n1. It uses an LED dome instead of conventional projectors.\n2. It was built by the Indian Institute of Astrophysics with the University of Mysore.\n3. It is operated by the Indian Space Research Organisation.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "The planetarium has a 15 m tilted LED dome with over 6,000 panels and no projector, built by the IIA (an autonomous institute under DST) with the University of Mysore. It is not operated by ISRO, so statement 3 is wrong.",
+    "subject": "Science & Technology",
+    "theme": "Science Popularisation",
+    "micro_topic": "COSMOS-Mysuru Planetarium",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]

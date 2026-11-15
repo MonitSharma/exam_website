@@ -1,0 +1,722 @@
+[
+  {
+    "id": "weekly_quiz_2026_11_06_1",
+    "question_number": 1,
+    "question": "ISRO launched NVS-03 on GSLV-F18 from Sriharikota on 30 October 2026. Consider the following statements:",
+    "statements": [
+      "NVS-03 is a second-generation NavIC satellite that adds an L1 signal to the existing L5 and S-band signals.",
+      "The original NavIC constellation consists of 7 satellites: 3 in geostationary orbit and 4 in inclined geosynchronous orbit.",
+      "NavIC is a global navigation system with worldwide coverage, like GPS and Galileo."
+    ],
+    "tail": "Which of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "NVS-03 adds L1 to L5 and S-band, and the original constellation is 3 GEO + 4 inclined geosynchronous; NavIC is regional, not global, so 3 is wrong.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_11_06_2",
+    "question_number": 2,
+    "question": "Gross GST collections for October 2026 were about Rs 2.31 lakh crore (+22.9%), with import-linked revenue growing much faster than domestic revenue. Consider the following statements:",
+    "statements": [
+      "In October 2026, the growth of GST on imports was higher than the growth of domestic GST revenue.",
+      "The GST Council is a constitutional body established under Article 279A.",
+      "Decisions of the GST Council are taken by a simple majority of members present and voting."
+    ],
+    "tail": "Which of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Import-linked GST (+42.2%) outgrew domestic (+15.8%) and the GST Council is under Art 279A; its decisions need three-fourths of weighted votes, not a simple majority, so 3 is wrong.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_11_06_3",
+    "question_number": 3,
+    "question": "The NPPA has capped trade margins on 137 anti-cancer drugs, with revised prices effective 9 November 2026. Which one of the following is correct?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "The cap applies to scheduled drugs already under NLEM price ceilings."
+      },
+      {
+        "key": "b",
+        "text": "The cap fixes the manufacturers' ex-factory price at 30% below the previous level."
+      },
+      {
+        "key": "c",
+        "text": "The measure uses Para 19 of the Drugs (Prices Control) Order, 2013 and limits the trade margin to 30% of MRP on non-scheduled drugs."
+      },
+      {
+        "key": "d",
+        "text": "The cap takes effect only after the drug list is approved by Parliament."
+      }
+    ],
+    "answer": "c",
+    "explanation": "The notification under Para 19 of DPCO 2013 caps trade margin at 30% of MRP on non-scheduled drugs (outside NLEM ceilings); it does not cap ex-factory prices and needs no parliamentary approval.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_11_06_4",
+    "question_number": 4,
+    "question": "The Nashik–Trimbakeshwar Simhastha Kumbh began on 31 October 2026. Consider the following statements:",
+    "statements": [
+      "The Nashik Kumbh is held on the banks of the Godavari.",
+      "The four Kumbh sites are Prayagraj, Haridwar, Ujjain and Nashik, with Ujjain on the Kshipra.",
+      "The Kumbh Mela is inscribed on UNESCO's Representative List of the Intangible Cultural Heritage of Humanity (2017)."
+    ],
+    "tail": "Which of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Nashik is on the Godavari, Ujjain's Kumbh is on the Kshipra, and the Kumbh Mela was inscribed on UNESCO's ICH Representative List in 2017.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_11_06_5",
+    "question_number": 5,
+    "question": "India released the I-OECM Guidelines 2026 at CBD COP17 in Yerevan (28 October). Consider the following statements:",
+    "statements": [
+      "Under Target 3 of the Kunming–Montreal Global Biodiversity Framework, countries aim to conserve at least 30% of land, waters and seas by 2030, through protected areas and OECMs.",
+      "An OECM must be notified as a national park or wildlife sanctuary under the Wild Life (Protection) Act, 1972.",
+      "The guidelines were launched at a side event of the 17th Conference of the Parties to the Convention on Biological Diversity."
+    ],
+    "tail": "Which of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "KMGBF Target 3 is 30x30 via protected areas and OECMs, and the guidelines were launched at CBD COP17; OECMs are by definition outside protected areas, so 2 is wrong.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_11_06_6",
+    "question_number": 6,
+    "question": "India's forex reserves fell for a seventh straight week to $719.75 billion (week ended 23 October 2026). Consider the following statements:",
+    "statements": [
+      "A fall in the price of gold lowers the dollar value of reserves only if the RBI actually sells gold.",
+      "India's reserves comprise foreign currency assets, gold, SDRs and the reserve position in the IMF.",
+      "The RBI publishes weekly reserves data on Fridays."
+    ],
+    "tail": "Which of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Reserves are FCA + gold + SDRs + IMF reserve position and data come on Fridays; a gold price fall lowers reserves through the valuation effect without any RBI sale, so 1 is wrong.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_11_06_7",
+    "question_number": 7,
+    "question": "The Centre has notified the National Social Security Board for unorganised, gig and platform workers. Which one of the following is NOT correct?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "It is constituted under the Code on Social Security, 2020."
+      },
+      {
+        "key": "b",
+        "text": "It is chaired by the Union Labour Minister."
+      },
+      {
+        "key": "c",
+        "text": "Under the Code, aggregators contribute 1–2% of annual turnover, capped at 5% of what they pay gig and platform workers."
+      },
+      {
+        "key": "d",
+        "text": "It is a constitutional body under Part XIV of the Constitution."
+      }
+    ],
+    "answer": "d",
+    "explanation": "The Board is statutory, created under the Code on Social Security, 2020, and chaired by the Labour Minister; it is not a constitutional body.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_11_06_8",
+    "question_number": 8,
+    "question": "The first BIMSTEC Maritime Security Exercise began on 30 October 2026 at Sri Vijaya Puram. Consider the following statements:",
+    "statements": [
+      "BIMSTEC has seven members, including Bhutan and Nepal.",
+      "The BIMSTEC Secretariat is located in Kathmandu.",
+      "Sri Vijaya Puram is the new name of Port Blair, headquarters of the Andaman and Nicobar Command."
+    ],
+    "tail": "Which of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "d",
+        "text": "2 and 3 only"
+      }
+    ],
+    "answer": "a",
+    "explanation": "BIMSTEC has seven members including Bhutan and Nepal, and Sri Vijaya Puram is Port Blair (ANC headquarters); the Secretariat is in Dhaka, so 2 is wrong.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_11_06_9",
+    "question_number": 9,
+    "question": "Consider the following statements in the context of the Bharat Renewable Energy Summit (2–5 November) and COP31 (Antalya, 9–20 November):",
+    "statements": [
+      "The International Solar Alliance has its headquarters in Paris.",
+      "The ISA was launched by India and France at COP21 in Paris (2015).",
+      "India has said it has not yet decided whether to back the voluntary \"35 by 2035\" electrification target proposed ahead of COP31."
+    ],
+    "tail": "Which of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "3 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1 and 3 only"
+      }
+    ],
+    "answer": "c",
+    "explanation": "ISA was launched by India and France at COP21 and India is undecided on \"35 by 2035\"; ISA's headquarters is in Gurugram, so 1 is wrong.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_11_06_10",
+    "question_number": 10,
+    "question": "The India–Bangladesh Ganga Water Treaty is due to expire in December 2026. Consider the following statements:",
+    "statements": [
+      "The treaty was signed in 1996 by H.D. Deve Gowda and Sheikh Hasina for 30 years.",
+      "The treaty also settles the sharing of the Teesta waters.",
+      "The Joint Rivers Commission is the mechanism MEA points to for discussing water sharing."
+    ],
+    "tail": "Which of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "2 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1 and 3 only"
+      }
+    ],
+    "answer": "d",
+    "explanation": "The 1996 treaty (Deve Gowda–Hasina, 30 years) expires in December 2026 and the Joint Rivers Commission is the mechanism; Teesta sharing is a separate unsigned issue, so 2 is wrong.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_11_06_11",
+    "question_number": 11,
+    "question": "Training for Census 2027, India's first digital census, is under way. Consider the following statements:",
+    "statements": [
+      "\"Census\" is Entry 69 of the Union List in the Seventh Schedule.",
+      "Officials have clarified that giving the Aadhaar number is optional and that Aadhaar is not proof of citizenship.",
+      "The Census is conducted by the Election Commission of India."
+    ],
+    "tail": "Which of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Census is Entry 69 of the Union List and Aadhaar is optional and not proof of citizenship; the Census is run by the Registrar General under the MHA, not the ECI, so 3 is wrong.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_11_06_12",
+    "question_number": 12,
+    "question": "Nagaland has asked the Centre to scrap the Protected Area Permit (PAP) regime ahead of the Hornbill Festival. Consider the following statements:",
+    "statements": [
+      "The PAP regime applies to foreign nationals visiting notified border areas.",
+      "The Inner Line Permit is issued by the Union Home Ministry to foreign tourists.",
+      "Article 371A contains special provisions for Nagaland."
+    ],
+    "tail": "Which of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "2 and 3 only\n\n---\n\n## Part B — Static Subject: Ancient & Medieval History & Art/Culture · 8 MCQs"
+      }
+    ],
+    "answer": "c",
+    "explanation": "PAP is for foreigners in notified border areas and Art 371A covers Nagaland; the Inner Line Permit is for Indian citizens (Bengal Eastern Frontier Regulation, 1873), so 2 is wrong. Part B — Ancient & Medieval History & Art/Culture",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_11_06_13",
+    "question_number": 13,
+    "question": "With reference to the Mauryan period, consider the following statements:",
+    "statements": [
+      "Megasthenes, envoy of Seleucus Nicator at Chandragupta's court, wrote the *Indica*, which survives only in fragments.",
+      "Kautilya's *Arthashastra* describes the seven constituent elements (saptanga) of a state.",
+      "The *Arthashastra* was composed in Pali."
+    ],
+    "tail": "Which of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Megasthenes' *Indica* and the saptanga theory are correct; the *Arthashastra* is in Sanskrit, so 3 is wrong.",
+    "subject": "Ancient & Medieval History & Art/Culture",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_11_06_14",
+    "question_number": 14,
+    "question": "With reference to the Gandhara and Mathura schools of art, consider the following statements:",
+    "statements": [
+      "Mathura sculptures were carved mainly in grey-blue schist.",
+      "The Gandhara school shows strong Greco-Roman influence.",
+      "Both schools flourished under Kushana patronage."
+    ],
+    "tail": "Which of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Gandhara shows Greco-Roman influence and both schools flourished under the Kushanas; Mathura used spotted red sandstone, not grey-blue schist, so 1 is wrong.",
+    "subject": "Ancient & Medieval History & Art/Culture",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_11_06_15",
+    "question_number": 15,
+    "question": "The Shore Temple at Mahabalipuram, part of the UNESCO World Heritage \"Group of Monuments at Mahabalipuram\", was built during the reign of:",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Mahendravarman I"
+      },
+      {
+        "key": "b",
+        "text": "Narasimhavarman I (Mamalla)"
+      },
+      {
+        "key": "c",
+        "text": "Narasimhavarman II (Rajasimha)"
+      },
+      {
+        "key": "d",
+        "text": "Nandivarman II"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The Shore Temple was built under the Pallava king Narasimhavarman II (Rajasimha); the monolithic rathas belong to the earlier Mamalla phase.",
+    "subject": "Ancient & Medieval History & Art/Culture",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_11_06_16",
+    "question_number": 16,
+    "question": "With reference to Chola local administration, consider the following statements:",
+    "statements": [
+      "The Uttaramerur inscriptions of the time of Parantaka I describe the election of ward representatives by drawing lots.",
+      "The Sabha was the assembly of Brahmin settlements (brahmadeya), while the Ur was the assembly of non-Brahmin villages.",
+      "The Nagaram was the assembly of Brahmin landholders."
+    ],
+    "tail": "Which of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Uttaramerur records lot-based elections under Parantaka I and the Sabha/Ur distinction is correct; the Nagaram was the assembly of merchants, so 3 is wrong.",
+    "subject": "Ancient & Medieval History & Art/Culture",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_11_06_17",
+    "question_number": 17,
+    "question": "Which one of the following pairs of temple and dynasty is NOT correctly matched?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Kailasa temple, Ellora — Rashtrakutas"
+      },
+      {
+        "key": "b",
+        "text": "Kandariya Mahadeva temple, Khajuraho — Paramaras"
+      },
+      {
+        "key": "c",
+        "text": "Sun Temple, Konark — Eastern Gangas"
+      },
+      {
+        "key": "d",
+        "text": "Sun Temple, Modhera — Solankis (Chaulukyas)"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Kandariya Mahadeva at Khajuraho was built by the Chandellas, not the Paramaras; the other three pairs are correct.",
+    "subject": "Ancient & Medieval History & Art/Culture",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_11_06_18",
+    "question_number": 18,
+    "question": "With reference to the Delhi Sultanate, consider the following statements:",
+    "statements": [
+      "Alauddin Khalji introduced market regulation, fixing prices of grain and cloth, under an officer called the Shahna-i-Mandi.",
+      "Muhammad bin Tughlaq introduced a token currency.",
+      "The iqta system was introduced by Alauddin Khalji."
+    ],
+    "tail": "Which of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Alauddin's market control under the Shahna-i-Mandi and Muhammad bin Tughlaq's token currency are correct; the iqta system was organised earlier, by Iltutmish, so 3 is wrong.",
+    "subject": "Ancient & Medieval History & Art/Culture",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_11_06_19",
+    "question_number": 19,
+    "question": "With reference to Mughal administration under Akbar, consider the following statements:",
+    "statements": [
+      "The mansabdari system had two ranks, zat and sawar.",
+      "The Zabt system, associated with Raja Todar Mal, fixed revenue on the basis of measurement of land and average produce and prices over a past period.",
+      "Mansab ranks were hereditary."
+    ],
+    "tail": "Which of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "3 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1 and 2 only"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Zat and sawar ranks and the Zabt/Todar Mal revenue system are correct; mansabs were not hereditary, so 3 is wrong.",
+    "subject": "Ancient & Medieval History & Art/Culture",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_11_06_20",
+    "question_number": 20,
+    "question": "Which one of the following pairs of Sufi order and associated saint or centre is correctly matched?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Chishti order — Bahauddin Zakariya of Multan"
+      },
+      {
+        "key": "b",
+        "text": "Suhrawardi order — Bahauddin Zakariya of Multan"
+      },
+      {
+        "key": "c",
+        "text": "Naqshbandi order — Nizamuddin Auliya"
+      },
+      {
+        "key": "d",
+        "text": "Qadiri order — Moinuddin Chishti"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Bahauddin Zakariya of Multan belonged to the Suhrawardi order; Chishti saints include Moinuddin and Nizamuddin Auliya, while Qadiri and Naqshbandi are different orders.",
+    "subject": "Ancient & Medieval History & Art/Culture",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  }
+]

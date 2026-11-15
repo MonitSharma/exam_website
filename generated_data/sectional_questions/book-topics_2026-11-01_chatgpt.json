@@ -1,0 +1,1552 @@
+[
+  {
+    "id": "book_topics_2026_11_01_01",
+    "question_number": 1,
+    "question": "Arrange the following enactments of the Company/Crown period in chronological order:\n1. Pitt's India Act\n2. Regulating Act\n3. Charter Act that introduced open competition for the civil services\n4. Indian Councils Act that began the process of decentralisation by restoring legislative powers to Bombay and Madras\nSelect the correct answer using the code given below:",
+    "options": [
+      {
+        "key": "a",
+        "text": "1-2-3-4"
+      },
+      {
+        "key": "b",
+        "text": "2-1-3-4"
+      },
+      {
+        "key": "c",
+        "text": "2-1-4-3"
+      },
+      {
+        "key": "d",
+        "text": "1-2-4-3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Regulating Act 1773 -> Pitt's India Act 1784 -> Charter Act 1853 (open competition) -> Indian Councils Act 1861 (legislative powers restored to Bombay and Madras).",
+    "subject": "Polity",
+    "theme": "Polity - Laxmikanth Ch 1-6: Historical Background, Making of the Constitution, Salient Features, Preamble, Union and its Territory, Citizenship (Pass-2 revision round)",
+    "micro_topic": "Acts ladder - chronology",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_01_02",
+    "question_number": 2,
+    "question": "Consider the following pairs:\nAct : Feature it introduced\n1. Charter Act of 1853 : Open competition for recruitment to the civil services\n2. Indian Councils Act of 1909 : Separate electorate for Muslims\n3. Government of India Act of 1919 : Bicameralism at the Centre\n4. Government of India Act of 1935 : Dyarchy in the provinces\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "Only three"
+      },
+      {
+        "key": "d",
+        "text": "All four"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Pairs 1-3 are correct. Provincial dyarchy came with the 1919 Act; the 1935 Act abolished it, introduced provincial autonomy and provided for dyarchy at the Centre (which never came into operation).",
+    "subject": "Polity",
+    "theme": "Polity - Laxmikanth Ch 1-6: Historical Background, Making of the Constitution, Salient Features, Preamble, Union and its Territory, Citizenship (Pass-2 revision round)",
+    "micro_topic": "Acts ladder - 'first time' features",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_01_03",
+    "question_number": 3,
+    "question": "With reference to the Government of India Act, 1935, consider the following statements:\n1. It provided for an All-India Federation consisting of the provinces and the princely states as units.\n2. It introduced provincial autonomy in place of dyarchy in the provinces.\n3. It provided for a Federal Public Service Commission but left the provinces without any Public Service Commissions.\n4. It abolished the Council of India established by the Government of India Act, 1858.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "1, 2 and 4 only"
+      },
+      {
+        "key": "c",
+        "text": "2, 3 and 4 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The Act provided for a Federal PSC, Provincial PSCs and Joint PSCs for two or more provinces, so 3 is wrong. The Federation never came into being because the princely states did not join, but the Act did provide for it.",
+    "subject": "Polity",
+    "theme": "Polity - Laxmikanth Ch 1-6: Historical Background, Making of the Constitution, Salient Features, Preamble, Union and its Territory, Citizenship (Pass-2 revision round)",
+    "micro_topic": "Government of India Act, 1935 (PYQ-pattern, 2024 stem type)",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_01_04",
+    "question_number": 4,
+    "question": "With reference to the Constituent Assembly of India, consider the following statements:\n1. The representatives of the British Indian provinces were elected indirectly by the members of the provincial legislative assemblies.\n2. Dr Sachchidananda Sinha acted as the temporary President of the Assembly at its first meeting.\n3. The Drafting Committee was set up on the same day that the Objectives Resolution was moved.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Under the Cabinet Mission scheme, provincial members were elected indirectly by the provincial assemblies. Sinha was temporary President at the first sitting (9 Dec 1946). The Objectives Resolution was moved on 13 Dec 1946; the Drafting Committee was set up on 29 Aug 1947.",
+    "subject": "Polity",
+    "theme": "Polity - Laxmikanth Ch 1-6: Historical Background, Making of the Constitution, Salient Features, Preamble, Union and its Territory, Citizenship (Pass-2 revision round)",
+    "micro_topic": "Constituent Assembly - composition and early sittings (PYQ-pattern, 2024 stem type)",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_01_05",
+    "question_number": 5,
+    "question": "Which of the following provisions of the Constitution came into force on 26 November 1949 itself, before the rest of the Constitution?\n1. Citizenship\n2. Elections\n3. Fundamental Rights\n4. Provisional Parliament\nSelect the correct answer using the code given below:",
+    "options": [
+      {
+        "key": "a",
+        "text": "1, 2 and 4 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2, 3 and 4 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Citizenship (Arts 5-9), elections (Art 324), the provisional Parliament (Art 379), temporary and transitional provisions and the short title came into force on 26 Nov 1949. Part III came into force with the rest on 26 Jan 1950.",
+    "subject": "Polity",
+    "theme": "Polity - Laxmikanth Ch 1-6: Historical Background, Making of the Constitution, Salient Features, Preamble, Union and its Territory, Citizenship (Pass-2 revision round)",
+    "micro_topic": "Provisions in force from 26 November 1949",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_01_06",
+    "question_number": 6,
+    "question": "Consider the following pairs:\nFeature of the Indian Constitution : Source\n1. Directive Principles of State Policy : Irish Constitution\n2. Rule of law : Constitution of the USA\n3. Vesting of residuary powers in the Centre : Constitution of the USA\n4. Concurrent List : Australian Constitution\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "Only three"
+      },
+      {
+        "key": "d",
+        "text": "All four"
+      }
+    ],
+    "answer": "b",
+    "explanation": "1 and 4 are correct. The rule of law comes from the British Constitution. A federation with a strong Centre and residuary powers vested in the Centre is borrowed from Canada (in the USA, residuary powers lie with the states).",
+    "subject": "Polity",
+    "theme": "Polity - Laxmikanth Ch 1-6: Historical Background, Making of the Constitution, Salient Features, Preamble, Union and its Territory, Citizenship (Pass-2 revision round)",
+    "micro_topic": "Borrowed features - sources",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_01_07",
+    "question_number": 7,
+    "question": "With reference to the Preamble to the Constitution of India, consider the following statements:\n1. In the Berubari Union case (1960), the Supreme Court held that the Preamble is not a part of the Constitution.\n2. In the Kesavananda Bharati case (1973), the Supreme Court held that the Preamble is a part of the Constitution.\n3. The Preamble is a source of power to the legislature.\n4. The Preamble has been amended only once.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "3 and 4 only"
+      },
+      {
+        "key": "c",
+        "text": "1, 2 and 4 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Berubari (1960): not a part; Kesavananda (1973) reversed this; LIC (1995) reaffirmed it. The Preamble is neither a source of power nor a prohibition on the legislature's powers, and it is non-justiciable. It was amended once, by the 42nd Amendment (1976).",
+    "subject": "Polity",
+    "theme": "Polity - Laxmikanth Ch 1-6: Historical Background, Making of the Constitution, Salient Features, Preamble, Union and its Territory, Citizenship (Pass-2 revision round)",
+    "micro_topic": "Preamble - case law and amendment (PYQ-pattern, 2020 stem type)",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_01_08",
+    "question_number": 8,
+    "question": "Consider the following statements:\n1. Article 2 empowers Parliament to admit into the Union, or establish, new States that are not part of the Union of India.\n2. A law under Article 3 that amends the First and Fourth Schedules must be passed by a special majority under Article 368.\n3. In the Berubari Union case (1960), the Supreme Court held that Parliament's power to diminish the area of a State under Article 3 does not cover the cession of Indian territory to a foreign country.\n4. The Land Boundary Agreement with Bangladesh was given effect through the 100th Constitutional Amendment Act, 2015.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 4 only"
+      },
+      {
+        "key": "c",
+        "text": "1, 2, 3 and 4"
+      },
+      {
+        "key": "d",
+        "text": "1, 3 and 4 only"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Article 4(2) says laws under Articles 2 and 3 are not amendments under Article 368, so a simple majority is enough. After Berubari, the 9th Amendment (1960) was needed to transfer Berubari; the 100th Amendment (2015) implemented the 1974 LBA and its 2011 Protocol.",
+    "subject": "Polity",
+    "theme": "Polity - Laxmikanth Ch 1-6: Historical Background, Making of the Constitution, Salient Features, Preamble, Union and its Territory, Citizenship (Pass-2 revision round)",
+    "micro_topic": "Articles 2-4, cession of territory, LBA",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_01_09",
+    "question_number": 9,
+    "question": "Which one of the following is NOT a mode of acquiring citizenship under the Citizenship Act, 1955?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Registration"
+      },
+      {
+        "key": "b",
+        "text": "Incorporation of territory"
+      },
+      {
+        "key": "c",
+        "text": "Descent"
+      },
+      {
+        "key": "d",
+        "text": "Deprivation"
+      }
+    ],
+    "answer": "d",
+    "explanation": "The Act gives five modes of acquisition: birth, descent, registration, naturalisation and incorporation of territory. Deprivation is one of the three modes of LOSS (with renunciation and termination).",
+    "subject": "Polity",
+    "theme": "Polity - Laxmikanth Ch 1-6: Historical Background, Making of the Constitution, Salient Features, Preamble, Union and its Territory, Citizenship (Pass-2 revision round)",
+    "micro_topic": "Citizenship Act, 1955 - modes of acquisition",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_01_10",
+    "question_number": 10,
+    "question": "Consider the following statements:\n1. An Indian citizen who voluntarily acquires the citizenship of another country automatically ceases to be an Indian citizen.\n2. Deprivation is a compulsory termination of citizenship by the Central Government.\n3. An Overseas Citizen of India cardholder has the right to vote in Lok Sabha elections.\n4. The Constitution itself lays down the detailed law on acquisition and loss of citizenship after its commencement.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1, 3 and 4 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Termination (1) and deprivation (2) are correct. OCI cardholders have no voting rights. Part II covers only citizenship at the commencement; Article 11 leaves the rest to Parliament, which enacted the Citizenship Act, 1955.",
+    "subject": "Polity",
+    "theme": "Polity - Laxmikanth Ch 1-6: Historical Background, Making of the Constitution, Salient Features, Preamble, Union and its Territory, Citizenship (Pass-2 revision round)",
+    "micro_topic": "Loss of citizenship and OCI (PYQ-pattern, 2021 stem type)",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_01_11",
+    "question_number": 11,
+    "question": "In national income accounting, which one of the following aggregates is called 'National Income'?",
+    "options": [
+      {
+        "key": "a",
+        "text": "GDP at market prices"
+      },
+      {
+        "key": "b",
+        "text": "GNP at market prices"
+      },
+      {
+        "key": "c",
+        "text": "NNP at factor cost"
+      },
+      {
+        "key": "d",
+        "text": "NDP at factor cost"
+      }
+    ],
+    "answer": "c",
+    "explanation": "National Income = NNP at factor cost, i.e. GDP at market prices - depreciation + net factor income from abroad - net indirect taxes.",
+    "subject": "Economy",
+    "theme": "Economy - Vivek Singh Ch 1 (Macro fundamentals) + NCERT-12 Macro 'National Income Accounting' (Pass-2 revision round)",
+    "micro_topic": "National income defined",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_01_12",
+    "question_number": 12,
+    "question": "Which of the following are included in the estimation of India's GDP?\n1. Imputed rent of owner-occupied houses\n2. Old-age pension paid by the government\n3. The price received for selling a second-hand car\n4. Farm output produced for self-consumption\nSelect the correct answer using the code given below:",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 4 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1, 2 and 4 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 3 and 4 only"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Imputed rent and own-account production are counted. Pensions are transfer payments (no current production). The sale of a second-hand good was counted when it was first produced; only a dealer's commission would add to GDP.",
+    "subject": "Economy",
+    "theme": "Economy - Vivek Singh Ch 1 (Macro fundamentals) + NCERT-12 Macro 'National Income Accounting' (Pass-2 revision round)",
+    "micro_topic": "What is counted in GDP",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_01_13",
+    "question_number": 13,
+    "question": "If net factor income from abroad (NFIA) for a country is negative, which one of the following is true?",
+    "options": [
+      {
+        "key": "a",
+        "text": "GNP exceeds GDP"
+      },
+      {
+        "key": "b",
+        "text": "NNP exceeds NDP"
+      },
+      {
+        "key": "c",
+        "text": "GNP equals GDP"
+      },
+      {
+        "key": "d",
+        "text": "GDP exceeds GNP"
+      }
+    ],
+    "answer": "d",
+    "explanation": "GNP = GDP + NFIA. With negative NFIA, GNP < GDP (and likewise NNP < NDP). India's NFIA is usually negative.",
+    "subject": "Economy",
+    "theme": "Economy - Vivek Singh Ch 1 (Macro fundamentals) + NCERT-12 Macro 'National Income Accounting' (Pass-2 revision round)",
+    "micro_topic": "Net factor income from abroad",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_01_14",
+    "question_number": 14,
+    "question": "Consider the following statements regarding the methods of measuring national income:\n1. Under the expenditure method, GDP = C + I + G + (X - M).\n2. Under the income method, compensation of employees, operating surplus and mixed income are added.\n3. The value-added method avoids double counting by deducting intermediate consumption from the value of output.\n4. Capital gains from the sale of shares are included under the income method.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "1, 2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "3 and 4 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Capital gains arise from a change in the price of an existing asset, not from current production, so they are excluded. The other three are the standard definitions.",
+    "subject": "Economy",
+    "theme": "Economy - Vivek Singh Ch 1 (Macro fundamentals) + NCERT-12 Macro 'National Income Accounting' (Pass-2 revision round)",
+    "micro_topic": "Three methods of measuring national income",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_01_15",
+    "question_number": 15,
+    "question": "For an economy, the following data are given (in Rs crore):\nGDP at market prices = 500; Depreciation = 50; Net factor income from abroad = -10; Net indirect taxes (indirect taxes - subsidies) = 60.\nWhat is the National Income (NNP at factor cost)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "340"
+      },
+      {
+        "key": "b",
+        "text": "360"
+      },
+      {
+        "key": "c",
+        "text": "380"
+      },
+      {
+        "key": "d",
+        "text": "400"
+      }
+    ],
+    "answer": "c",
+    "explanation": "NNP(FC) = 500 - 50 + (-10) - 60 = 380. The 400 trap comes from adding 10 instead of subtracting it; 360 from double-deducting.",
+    "subject": "Economy",
+    "theme": "Economy - Vivek Singh Ch 1 (Macro fundamentals) + NCERT-12 Macro 'National Income Accounting' (Pass-2 revision round)",
+    "micro_topic": "Ladder from GDP(MP) to NNP(FC)",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_01_16",
+    "question_number": 16,
+    "question": "In a year, India's nominal GDP grows by about 10% and the GDP deflator rises by about 6%. Real GDP growth for that year is approximately:",
+    "options": [
+      {
+        "key": "a",
+        "text": "4%"
+      },
+      {
+        "key": "b",
+        "text": "6%"
+      },
+      {
+        "key": "c",
+        "text": "16%"
+      },
+      {
+        "key": "d",
+        "text": "1.67%"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Real growth ~ nominal growth - deflator inflation = 10 - 6 = 4% (exactly 1.10/1.06 - 1 ~ 3.8%).",
+    "subject": "Economy",
+    "theme": "Economy - Vivek Singh Ch 1 (Macro fundamentals) + NCERT-12 Macro 'National Income Accounting' (Pass-2 revision round)",
+    "micro_topic": "Nominal vs real growth",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_01_17",
+    "question_number": 17,
+    "question": "In India's national accounts, consider the following pairs:\nTax : Category\n1. Land revenue : Production tax\n2. Goods and Services Tax : Product tax\n3. Stamp and registration fees : Production tax\n4. Professional tax : Product tax\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "Only three"
+      },
+      {
+        "key": "d",
+        "text": "All four"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Production taxes are paid irrespective of the quantity produced: land revenue, stamps and registration fees, tax on profession. Product taxes are levied per unit of product: GST, excise, customs. GVA at basic prices = GVA at factor cost + production taxes - production subsidies; GDP = GVA at basic prices + product taxes - product subsidies.",
+    "subject": "Economy",
+    "theme": "Economy - Vivek Singh Ch 1 (Macro fundamentals) + NCERT-12 Macro 'National Income Accounting' (Pass-2 revision round)",
+    "micro_topic": "Production taxes vs product taxes",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_01_18",
+    "question_number": 18,
+    "question": "Consider the following statements:\nStatement I: A revision of the base year of the GDP series can change the measured level and growth rate of GDP for earlier years.\nStatement II: Base revisions bring in new data sources and update weights to reflect the changed structure of the economy.\nWhich one of the following is correct in respect of the above statements?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Both Statement I and Statement II are correct and Statement II explains Statement I"
+      },
+      {
+        "key": "b",
+        "text": "Both Statement I and Statement II are correct and Statement II does not explain Statement I"
+      },
+      {
+        "key": "c",
+        "text": "Statement I is correct but Statement II is incorrect"
+      },
+      {
+        "key": "d",
+        "text": "Statement I is incorrect but Statement II is correct"
+      }
+    ],
+    "answer": "a",
+    "explanation": "New sources (e.g. corporate filings, GST data) and new weights change both the level and the back-series growth. That is why base revisions are treated as policy-relevant, not just technical.",
+    "subject": "Economy",
+    "theme": "Economy - Vivek Singh Ch 1 (Macro fundamentals) + NCERT-12 Macro 'National Income Accounting' (Pass-2 revision round)",
+    "micro_topic": "Why base years are revised",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_01_19",
+    "question_number": 19,
+    "question": "Consider the following pairs:\nHarappan site : River\n1. Harappa : Ravi\n2. Mohenjo-daro : Indus\n3. Ropar : Sutlej\n4. Lothal : Bhogava\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "Only three"
+      },
+      {
+        "key": "d",
+        "text": "All four"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All four are correct. Lothal lies near the Bhogava, a tributary of the Sabarmati, close to the Gulf of Khambhat.",
+    "subject": "Ancient History",
+    "theme": "Ancient History - TN Class 11: Indus Civilisation + Chalcolithic, Megalithic, Iron Age and Vedic Cultures (Pass-2 revision round)",
+    "micro_topic": "Harappan site - river",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_01_20",
+    "question_number": 20,
+    "question": "Which Harappan city was divided into three parts (citadel, middle town and lower town) and is noted for its elaborate system of water reservoirs?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Banawali"
+      },
+      {
+        "key": "b",
+        "text": "Dholavira"
+      },
+      {
+        "key": "c",
+        "text": "Kalibangan"
+      },
+      {
+        "key": "d",
+        "text": "Surkotada"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Dholavira (Khadir bet, Kutch) has a tripartite plan and elaborate water management. It was inscribed on the UNESCO World Heritage List in 2021.",
+    "subject": "Ancient History",
+    "theme": "Ancient History - TN Class 11: Indus Civilisation + Chalcolithic, Megalithic, Iron Age and Vedic Cultures (Pass-2 revision round)",
+    "micro_topic": "Dholavira",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_01_21",
+    "question_number": 21,
+    "question": "With reference to Harappan archaeology, consider the following statements:\n1. The Harappan script has been conclusively deciphered.\n2. Evidence of a ploughed field has been found at Kalibangan.\n3. A terracotta model of a plough has been found at Banawali.\n4. Dholavira has been inscribed on the UNESCO World Heritage List.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2, 3 and 4 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The script remains undeciphered. Kalibangan has a furrowed field; Banawali gave a clay plough model; Dholavira was inscribed in 2021.",
+    "subject": "Ancient History",
+    "theme": "Ancient History - TN Class 11: Indus Civilisation + Chalcolithic, Megalithic, Iron Age and Vedic Cultures (Pass-2 revision round)",
+    "micro_topic": "Harappan archaeological findings (PYQ-pattern, 2026 stem type)",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_01_22",
+    "question_number": 22,
+    "question": "Consider the following pairs:\nChalcolithic culture : Region\n1. Ahar (Banas) culture : South-east Rajasthan\n2. Jorwe culture : Maharashtra\n3. Malwa culture : Western Madhya Pradesh\n4. Kayatha culture : Ganga-Yamuna doab\nWhich of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "1, 2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2, 3 and 4 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Kayatha is a site in the Chambal basin (Ujjain district, Madhya Pradesh), not the doab. Ahar is in the Banas valley, Jorwe in the Pravara-Godavari region of Maharashtra, and the Malwa culture is known from sites such as Navdatoli on the Narmada.",
+    "subject": "Ancient History",
+    "theme": "Ancient History - TN Class 11: Indus Civilisation + Chalcolithic, Megalithic, Iron Age and Vedic Cultures (Pass-2 revision round)",
+    "micro_topic": "Chalcolithic cultures",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_01_23",
+    "question_number": 23,
+    "question": "The megalithic culture of peninsular India is known to us mainly from:",
+    "options": [
+      {
+        "key": "a",
+        "text": "burial sites"
+      },
+      {
+        "key": "b",
+        "text": "palace remains"
+      },
+      {
+        "key": "c",
+        "text": "temple inscriptions"
+      },
+      {
+        "key": "d",
+        "text": "hoards of punch-marked coins"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Megaliths are burials marked by large stones (cists, dolmens, stone circles), often with iron objects and black-and-red ware. Urn burials such as those at Adichanallur belong to the same broad tradition.",
+    "subject": "Ancient History",
+    "theme": "Ancient History - TN Class 11: Indus Civilisation + Chalcolithic, Megalithic, Iron Age and Vedic Cultures (Pass-2 revision round)",
+    "micro_topic": "Megalithic South India",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_01_24",
+    "question_number": 24,
+    "question": "Consider the following statements:\n1. The Vidatha, an assembly of the Rig Vedic period, disappeared in the Later Vedic period.\n2. Bali, a voluntary offering in the Rig Vedic period, became a regular payment in the Later Vedic period.\n3. Later Vedic texts refer to iron as 'shyama ayas' or 'krishna ayas'.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All three are standard Pass-2 contrasts: the Vidatha vanished while the Sabha and Samiti lost weight to the king; bali became compulsory; iron ('dark metal') appears in Later Vedic texts.",
+    "subject": "Ancient History",
+    "theme": "Ancient History - TN Class 11: Indus Civilisation + Chalcolithic, Megalithic, Iron Age and Vedic Cultures (Pass-2 revision round)",
+    "micro_topic": "Early vs Later Vedic - polity, taxes, metals",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_01_25",
+    "question_number": 25,
+    "question": "Painted Grey Ware (PGW) is associated mainly with:",
+    "options": [
+      {
+        "key": "a",
+        "text": "the Mature Harappan cities"
+      },
+      {
+        "key": "b",
+        "text": "megalithic burials of South India"
+      },
+      {
+        "key": "c",
+        "text": "the Later Vedic settlements of the Ganga-Yamuna doab"
+      },
+      {
+        "key": "d",
+        "text": "the Chalcolithic Malwa culture"
+      }
+    ],
+    "answer": "c",
+    "explanation": "PGW marks the early Iron Age settlements of the upper Ganga basin, broadly the Later Vedic period. The Malwa culture is known for Malwa ware; megaliths for black-and-red ware.",
+    "subject": "Ancient History",
+    "theme": "Ancient History - TN Class 11: Indus Civilisation + Chalcolithic, Megalithic, Iron Age and Vedic Cultures (Pass-2 revision round)",
+    "micro_topic": "Painted Grey Ware",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_01_26",
+    "question_number": 26,
+    "question": "Consider the following pairs:\nText : Veda to which it belongs\n1. Aitareya Brahmana : Sama Veda\n2. Shatapatha Brahmana : Yajur Veda\n3. Mundaka Upanishad : Atharva Veda\n4. Gopatha Brahmana : Atharva Veda\nWhich of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2, 3 and 4 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The Aitareya Brahmana belongs to the Rig Veda. The Shatapatha belongs to the Shukla Yajur Veda; the Mundaka Upanishad (source of 'Satyameva Jayate') and the Gopatha Brahmana belong to the Atharva Veda.",
+    "subject": "Ancient History",
+    "theme": "Ancient History - TN Class 11: Indus Civilisation + Chalcolithic, Megalithic, Iron Age and Vedic Cultures (Pass-2 revision round)",
+    "micro_topic": "Vedic texts - affiliations",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_01_27",
+    "question_number": 27,
+    "question": "Consider the following pairs:\nRig Vedic name : Modern river\n1. Vitasta : Jhelum\n2. Asikni : Chenab\n3. Parushni : Ravi\n4. Sutudri : Beas\nWhich of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1, 2 and 3 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 4 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Sutudri is the Sutlej; the Beas is the Vipas. The other three pairs are correct.",
+    "subject": "Ancient History",
+    "theme": "Ancient History - TN Class 11: Indus Civilisation + Chalcolithic, Megalithic, Iron Age and Vedic Cultures (Pass-2 revision round)",
+    "micro_topic": "Rig Vedic river names",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_01_28",
+    "question_number": 28,
+    "question": "Which one of the following greenhouse gases has the highest global warming potential (GWP) over a 100-year horizon?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Sulphur hexafluoride"
+      },
+      {
+        "key": "b",
+        "text": "Nitrous oxide"
+      },
+      {
+        "key": "c",
+        "text": "Methane"
+      },
+      {
+        "key": "d",
+        "text": "Carbon dioxide"
+      }
+    ],
+    "answer": "a",
+    "explanation": "CO2 is the reference (GWP 1). Methane and nitrous oxide are much higher, but SF6 is in the tens of thousands, the highest of the four.",
+    "subject": "Environment",
+    "theme": "Environment - Shankar IAS: Climate Change, Mitigation Strategies, India and Climate Change, Climate Change Organisations (Pass-2 revision round)",
+    "micro_topic": "Global warming potential",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_01_29",
+    "question_number": 29,
+    "question": "With reference to the UNFCCC, consider the following statements:\n1. Annex I includes industrialised countries and economies in transition.\n2. Annex II is a subset of Annex I whose members are required to provide financial resources to developing countries.\n3. Economies in transition are included in Annex II.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Annex II has only the OECD members of Annex I. Economies in transition are in Annex I but not Annex II, so they carry no finance obligation. India is a non-Annex I party.",
+    "subject": "Environment",
+    "theme": "Environment - Shankar IAS: Climate Change, Mitigation Strategies, India and Climate Change, Climate Change Organisations (Pass-2 revision round)",
+    "micro_topic": "UNFCCC annexes",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_01_30",
+    "question_number": 30,
+    "question": "Which of the following are flexibility (market-based) mechanisms under the Kyoto Protocol?\n1. Clean Development Mechanism\n2. Joint Implementation\n3. International Emissions Trading\n4. REDD+\nSelect the correct answer using the code given below:",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "3 and 4 only"
+      },
+      {
+        "key": "c",
+        "text": "1, 2, 3 and 4"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3 only"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Kyoto's three mechanisms are CDM, JI and Emissions Trading. REDD+ was developed through later UNFCCC COP decisions (and recognised in Article 5 of the Paris Agreement), not under Kyoto.",
+    "subject": "Environment",
+    "theme": "Environment - Shankar IAS: Climate Change, Mitigation Strategies, India and Climate Change, Climate Change Organisations (Pass-2 revision round)",
+    "micro_topic": "Kyoto flexibility mechanisms",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_01_31",
+    "question_number": 31,
+    "question": "Consider the following pairs:\nArticle of the Paris Agreement : Subject\n1. Article 4 : Nationally Determined Contributions\n2. Article 6 : Voluntary cooperation, including market mechanisms\n3. Article 8 : Loss and damage\n4. Article 9 : Global Stocktake\nWhich of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "1, 2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2, 3 and 4 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Article 9 is about finance; the Global Stocktake is Article 14. Article 2 sets the 'well below 2 C, pursue 1.5 C' goal.",
+    "subject": "Environment",
+    "theme": "Environment - Shankar IAS: Climate Change, Mitigation Strategies, India and Climate Change, Climate Change Organisations (Pass-2 revision round)",
+    "micro_topic": "Paris Agreement article map (PYQ-pattern, 2025 stem type)",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_01_32",
+    "question_number": 32,
+    "question": "With reference to the Paris Agreement, consider the following statements:\n1. The Global Stocktake takes place every five years.\n2. The first Global Stocktake was concluded at COP28 in Dubai.\n3. Parties are to communicate an NDC every five years.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Article 14 sets a five-yearly stocktake; the first ended at COP28 (2023). Article 4.9 requires NDCs every five years, each informed by the stocktake.",
+    "subject": "Environment",
+    "theme": "Environment - Shankar IAS: Climate Change, Mitigation Strategies, India and Climate Change, Climate Change Organisations (Pass-2 revision round)",
+    "micro_topic": "Global Stocktake and NDC cycle",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_01_33",
+    "question_number": 33,
+    "question": "The second commitment period (2013-2020) of the Kyoto Protocol was established through the:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Bali Action Plan"
+      },
+      {
+        "key": "b",
+        "text": "Cancun Agreements"
+      },
+      {
+        "key": "c",
+        "text": "Doha Amendment"
+      },
+      {
+        "key": "d",
+        "text": "Marrakesh Accords"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The Doha Amendment (COP18, 2012) set up the second commitment period. It entered into force only on 31 Dec 2020, the last day of that period.",
+    "subject": "Environment",
+    "theme": "Environment - Shankar IAS: Climate Change, Mitigation Strategies, India and Climate Change, Climate Change Organisations (Pass-2 revision round)",
+    "micro_topic": "Kyoto second commitment period",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_01_34",
+    "question_number": 34,
+    "question": "Consider the following statements:\n1. India's Carbon Credit Trading Scheme, 2023 was notified under the Energy Conservation Act, 2001.\n2. The Bureau of Energy Efficiency is the administrator of the Carbon Credit Trading Scheme.\n3. The Green Credit Programme was notified under the Environment (Protection) Act, 1986.\n4. The Green Credit Programme is a compliance mechanism binding on obligated industrial entities.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1, 2 and 3 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 4 only"
+      },
+      {
+        "key": "c",
+        "text": "2, 3 and 4 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer": "a",
+    "explanation": "CCTS sits under the EC Act as amended in 2022, with BEE as administrator. The Green Credit Rules, 2023 are under the EPA 1986 and are voluntary and market-based (ICFRE administers them). They are not a compliance market.",
+    "subject": "Environment",
+    "theme": "Environment - Shankar IAS: Climate Change, Mitigation Strategies, India and Climate Change, Climate Change Organisations (Pass-2 revision round)",
+    "micro_topic": "CCTS vs Green Credit Programme",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_01_35",
+    "question_number": 35,
+    "question": "Which one of the following is NOT one of the eight original missions under India's National Action Plan on Climate Change (2008)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "National Solar Mission"
+      },
+      {
+        "key": "b",
+        "text": "National Green Hydrogen Mission"
+      },
+      {
+        "key": "c",
+        "text": "National Mission for Enhanced Energy Efficiency"
+      },
+      {
+        "key": "d",
+        "text": "National Mission on Strategic Knowledge for Climate Change"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The eight are: Solar, Enhanced Energy Efficiency, Sustainable Habitat, Water, Sustaining the Himalayan Ecosystem, Green India, Sustainable Agriculture and Strategic Knowledge. The Green Hydrogen Mission (2023) is separate.",
+    "subject": "Environment",
+    "theme": "Environment - Shankar IAS: Climate Change, Mitigation Strategies, India and Climate Change, Climate Change Organisations (Pass-2 revision round)",
+    "micro_topic": "NAPCC missions",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_01_36",
+    "question_number": 36,
+    "question": "The ASEAN Secretariat is located in:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Bangkok"
+      },
+      {
+        "key": "b",
+        "text": "Jakarta"
+      },
+      {
+        "key": "c",
+        "text": "Kuala Lumpur"
+      },
+      {
+        "key": "d",
+        "text": "Singapore"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The Secretariat is in Jakarta. ASEAN was founded by the Bangkok Declaration (1967).",
+    "subject": "International Relations",
+    "theme": "International Relations - India-China + ASEAN and Act East (Pass-2 revision round)",
+    "micro_topic": "ASEAN Secretariat",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_01_37",
+    "question_number": 37,
+    "question": "Consider the following pairs:\nYear : India-China arrangement\n1. 1993 : Agreement on maintenance of peace and tranquillity along the LAC\n2. 1996 : Agreement on confidence-building measures in the military field along the LAC\n3. 2005 : Political Parameters and Guiding Principles for the settlement of the boundary question\n4. 2012 : Establishment of the Special Representatives mechanism\nWhich of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "3 and 4 only"
+      },
+      {
+        "key": "c",
+        "text": "1, 2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The Special Representatives mechanism dates from 2003. The 2012 arrangement was the Working Mechanism for Consultation and Coordination (WMCC); BDCA followed in 2013.",
+    "subject": "International Relations",
+    "theme": "International Relations - India-China + ASEAN and Act East (Pass-2 revision round)",
+    "micro_topic": "India-China agreement ladder - what each did",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_01_38",
+    "question_number": 38,
+    "question": "Consider the following statements:\n1. The Yarlung Tsangpo enters India in Arunachal Pradesh, where it is known as the Siang (Dihang).\n2. The 'Great Bend' of the Yarlung Tsangpo lies in Tibet, before the river enters India.\n3. The Sutlej rises in Tibet and enters India near Shipki La in Himachal Pradesh.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All correct. The Great Bend around Namcha Barwa (Medog county) is where China's lower-reaches hydropower project is located, which is why India's Siang Upper project matters.",
+    "subject": "International Relations",
+    "theme": "International Relations - India-China + ASEAN and Act East (Pass-2 revision round)",
+    "micro_topic": "Trans-border rivers with China",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_01_39",
+    "question_number": 39,
+    "question": "Consider the following statements:\n1. India has been a participant in the East Asia Summit since its first meeting in 2005.\n2. The ADMM-Plus brings together the ASEAN defence ministers and eight 'Plus' countries, including India.\n3. India is a member of the Regional Comprehensive Economic Partnership (RCEP).\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "India withdrew from the RCEP negotiations in 2019 and is not a member. The ADMM-Plus partners are Australia, China, India, Japan, New Zealand, the Republic of Korea, Russia and the USA.",
+    "subject": "International Relations",
+    "theme": "International Relations - India-China + ASEAN and Act East (Pass-2 revision round)",
+    "micro_topic": "ASEAN-led mechanisms",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_01_40",
+    "question_number": 40,
+    "question": "Consider the following statements:\n1. Timor-Leste became the 11th member of ASEAN in 2025.\n2. The Philippines holds the ASEAN Chairmanship for 2026.\n3. India and ASEAN raised their relationship to a Comprehensive Strategic Partnership in 2022.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Timor-Leste was admitted at the 47th ASEAN Summit, Kuala Lumpur (26 Oct 2025). The Philippines chairs ASEAN in 2026. The CSP was announced in Nov 2022 (verified 1 Nov 2026).",
+    "subject": "International Relations",
+    "theme": "International Relations - India-China + ASEAN and Act East (Pass-2 revision round)",
+    "micro_topic": "ASEAN 2025-26 and the India-ASEAN partnership",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_01_41",
+    "question_number": 41,
+    "question": "India became a full Dialogue Partner of ASEAN in:",
+    "options": [
+      {
+        "key": "a",
+        "text": "1992"
+      },
+      {
+        "key": "b",
+        "text": "1996"
+      },
+      {
+        "key": "c",
+        "text": "2002"
+      },
+      {
+        "key": "d",
+        "text": "2012"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Sectoral partner 1992 -> full Dialogue Partner 1996 -> summit-level partner 2002 -> Strategic Partnership 2012 -> CSP 2022.",
+    "subject": "International Relations",
+    "theme": "International Relations - India-China + ASEAN and Act East (Pass-2 revision round)",
+    "micro_topic": "India-ASEAN partnership ladder",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_01_42",
+    "question_number": 42,
+    "question": "The McMahon Line, relevant to the India-China boundary in the eastern sector, emerged from the:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Simla Convention of 1913-14"
+      },
+      {
+        "key": "b",
+        "text": "Treaty of Sugauli"
+      },
+      {
+        "key": "c",
+        "text": "Panchsheel Agreement of 1954"
+      },
+      {
+        "key": "d",
+        "text": "Shimla Agreement of 1972"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The line was drawn at the 1913-14 Simla Convention between British India, Tibet and China. China never accepted it. Sugauli (1816) concerns Nepal; Shimla 1972 concerns Pakistan.",
+    "subject": "International Relations",
+    "theme": "International Relations - India-China + ASEAN and Act East (Pass-2 revision round)",
+    "micro_topic": "McMahon Line",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_01_43",
+    "question_number": 43,
+    "question": "Consider the following pairs:\nTemple : Dynasty\n1. Brihadeeswara Temple, Thanjavur : Cholas\n2. Shore Temple, Mamallapuram : Pallavas\n3. Kandariya Mahadeva Temple, Khajuraho : Chandelas\n4. Sun Temple, Konark : Chandelas\nWhich of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 4 only"
+      },
+      {
+        "key": "c",
+        "text": "1, 2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Konark was built by the Eastern Ganga king Narasimhadeva I (13th century). Brihadeeswara is by Rajaraja I Chola; the Shore Temple is Pallava (Rajasimha period).",
+    "subject": "Art & Culture",
+    "theme": "Art & Culture - Nitin Singhania 'Indian Architecture': temple styles + Harappan to post-Mauryan (Pass-2 revision round)",
+    "micro_topic": "Temple - dynasty pairs",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_01_44",
+    "question_number": 44,
+    "question": "In the Nagara style, a shikhara that is square at the base and whose walls curve or slope inward to a point at the top is called:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Phamsana"
+      },
+      {
+        "key": "b",
+        "text": "Valabhi"
+      },
+      {
+        "key": "c",
+        "text": "Vimana"
+      },
+      {
+        "key": "d",
+        "text": "Latina (rekha-prasada)"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Latina/rekha-prasada is the simple curvilinear tower. Phamsana is broader and shorter, with straight-sloping roofs. Valabhi is rectangular with a barrel-vaulted roof. 'Vimana' is the Dravida term.",
+    "subject": "Art & Culture",
+    "theme": "Art & Culture - Nitin Singhania 'Indian Architecture': temple styles + Harappan to post-Mauryan (Pass-2 revision round)",
+    "micro_topic": "Nagara shikhara sub-types",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_01_45",
+    "question_number": 45,
+    "question": "Which of the following temples are built in the Dravida style?\n1. Shore Temple, Mamallapuram\n2. Virupaksha Temple, Pattadakal\n3. Papanatha Temple, Pattadakal\n4. Kailasanatha Temple, Kanchipuram\nSelect the correct answer using the code given below:",
+    "options": [
+      {
+        "key": "a",
+        "text": "1, 2 and 4 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 4 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer": "a",
+    "explanation": "At Pattadakal, the Virupaksha is Dravida while the Papanatha is in the Nagara style (NCERT, 'An Introduction to Indian Art'). That is why Pattadakal is the classic site where the two styles stand side by side. The Shore Temple and Kailasanatha (Kanchi) are Pallava Dravida temples.",
+    "subject": "Art & Culture",
+    "theme": "Art & Culture - Nitin Singhania 'Indian Architecture': temple styles + Harappan to post-Mauryan (Pass-2 revision round)",
+    "micro_topic": "Identifying Dravida-style temples (PYQ-pattern, 2026 stem type)",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_01_46",
+    "question_number": 46,
+    "question": "Consider the following statements about Hoysala temples:\n1. They are usually built on a star-shaped (stellate) raised platform.\n2. They are made mostly of soapstone (chloritic schist), which allows intricate carving.\n3. The Sacred Ensembles of the Hoysalas were inscribed on the UNESCO World Heritage List in 2023.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All correct. The ensemble covers Belur, Halebidu and Somanathapura (2023).",
+    "subject": "Art & Culture",
+    "theme": "Art & Culture - Nitin Singhania 'Indian Architecture': temple styles + Harappan to post-Mauryan (Pass-2 revision round)",
+    "micro_topic": "Hoysala temples",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_01_47",
+    "question_number": 47,
+    "question": "With reference to the Odisha school of temple architecture, consider the following statements:\n1. The tower over the sanctum is called the rekha deul.\n2. The jagamohana is the assembly or audience hall in front of the sanctum.\n3. The Lingaraja Temple at Bhubaneswar is an example of the Dravida style.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Lingaraja is a classic Kalinga/Odisha example of the Nagara style, not Dravida.",
+    "subject": "Art & Culture",
+    "theme": "Art & Culture - Nitin Singhania 'Indian Architecture': temple styles + Harappan to post-Mauryan (Pass-2 revision round)",
+    "micro_topic": "Odisha school of Nagara",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_01_48",
+    "question_number": 48,
+    "question": "The Gupta-period Dashavatara Temple at Deogarh is dedicated to:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Shiva"
+      },
+      {
+        "key": "b",
+        "text": "Surya"
+      },
+      {
+        "key": "c",
+        "text": "Vishnu"
+      },
+      {
+        "key": "d",
+        "text": "Devi"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Deogarh (Lalitpur, UP) is an early Nagara, panchayatana-plan temple with Vishnu panels (Sheshashayi Vishnu, Gajendramoksha, Nara-Narayana).",
+    "subject": "Art & Culture",
+    "theme": "Art & Culture - Nitin Singhania 'Indian Architecture': temple styles + Harappan to post-Mauryan (Pass-2 revision round)",
+    "micro_topic": "Gupta beginnings - Deogarh",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_01_49",
+    "question_number": 49,
+    "question": "Consider the following pairs:\nStupa : State\n1. Bharhut : Madhya Pradesh\n2. Amaravati : Andhra Pradesh\n3. Sanchi : Uttar Pradesh\nWhich of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Sanchi is in Raisen district, Madhya Pradesh. Bharhut (Satna, MP) and Amaravati (Krishna valley, AP) are correct.",
+    "subject": "Art & Culture",
+    "theme": "Art & Culture - Nitin Singhania 'Indian Architecture': temple styles + Harappan to post-Mauryan (Pass-2 revision round)",
+    "micro_topic": "Stupa locations",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_01_50",
+    "question_number": 50,
+    "question": "In a typical South Indian (Dravida) temple complex, arrange the following from the outer entrance to the innermost part:\n1. Garbhagriha\n2. Gopuram\n3. Mandapa\n4. Antarala\nSelect the correct answer using the code given below:",
+    "options": [
+      {
+        "key": "a",
+        "text": "2-4-3-1"
+      },
+      {
+        "key": "b",
+        "text": "3-2-4-1"
+      },
+      {
+        "key": "c",
+        "text": "2-3-1-4"
+      },
+      {
+        "key": "d",
+        "text": "2-3-4-1"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Gateway (gopuram) -> pillared hall (mandapa) -> vestibule (antarala) -> sanctum (garbhagriha), with the vimana rising over the sanctum. In later Nayaka temples the gopurams are taller than the vimana.",
+    "subject": "Art & Culture",
+    "theme": "Art & Culture - Nitin Singhania 'Indian Architecture': temple styles + Harappan to post-Mauryan (Pass-2 revision round)",
+    "micro_topic": "Dravida temple layout",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  }
+]

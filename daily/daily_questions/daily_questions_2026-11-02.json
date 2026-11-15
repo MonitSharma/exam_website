@@ -1,0 +1,114 @@
+[
+ {
+  "question": "With reference to Other Effective Area-Based Conservation Measures (OECMs), consider the following statements:\n1. OECMs are zones within formally notified National Parks that are managed under stricter safeguards.\n2. Target 3 of the Kunming-Montreal Global Biodiversity Framework counts both protected areas and OECMs towards the goal of conserving at least 30% of land, waters and seas by 2030.\n3. India released its I-OECM Guidelines 2026 at the CBD COP17 in Yerevan, Armenia.\nWhich of the statements given above are correct?",
+  "options": [
+   "(a) 1 and 2 only",
+   "(b) 2 and 3 only",
+   "(c) 1 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(b)",
+  "explanation": "2 and 3 are correct. Statement 1 is wrong: an OECM is an area OUTSIDE formal protected areas that is governed and managed to deliver positive, long-term biodiversity outcomes. Target 3 (30x30) can be met through protected areas and OECMs. MoEFCC launched the I-OECM Guidelines 2026 on 28 Oct 2026 at a COP17 side event, with the National Biodiversity Authority and UNDP.",
+  "subject": "Environment",
+  "theme": "CBD COP17 and 30x30",
+  "micro_topic": "OECMs and I-OECM Guidelines 2026",
+  "nature": "Current Affairs",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "With reference to India's foreign exchange reserves, consider the following statements:\n1. Reserves fell for the seventh straight week to about $719.75 billion in the week ended 23 October 2026, roughly $66 billion below the record of 4 September 2026.\n2. A fall in the global gold price reduces the dollar value of reserves even if the RBI has not sold any physical gold.\n3. Foreign currency assets are the smallest component of the reserves.\nWhich of the statements given above are correct?",
+  "options": [
+   "(a) 1 and 2 only",
+   "(b) 2 and 3 only",
+   "(c) 1 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(a)",
+  "explanation": "1 and 2 are correct. Gold reserves are valued at market prices, so a ~4% drop in gold cut their dollar value (about $105.8 bn to $103.15 bn) in the week. Statement 3 is wrong: foreign currency assets (~$593.2 bn) are by far the LARGEST component; gold, SDRs (~$18.6 bn) and the IMF reserve position (~$4.8 bn) are smaller.",
+  "subject": "Economy",
+  "theme": "External Sector",
+  "micro_topic": "Forex reserves: components and valuation effects",
+  "nature": "Current Affairs",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "With reference to the National Social Security Board recently notified by the Labour Ministry, consider the following statements:\n1. It has been constituted under the Code on Social Security, 2020 and is chaired by the Union Minister for Labour and Employment.\n2. Its mandate is limited to gig and platform workers and excludes other unorganised workers.\n3. Its functions include recommending social security schemes and monitoring welfare schemes administered by the Central Government.\nWhich of the statements given above are correct?",
+  "options": [
+   "(a) 1 and 2 only",
+   "(b) 2 and 3 only",
+   "(c) 1 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(c)",
+  "explanation": "1 and 3 are correct. Statement 2 is wrong: the Board is for unorganised workers AND gig and platform workers. It recommends schemes, monitors Central welfare schemes, advises on administering the Code and reviews State-level record-keeping; it must meet at least three times a year. Its notification was reported on 28-30 Oct 2026.",
+  "subject": "Society",
+  "theme": "Labour and Social Security",
+  "micro_topic": "National Social Security Board for gig and platform workers",
+  "nature": "Current Affairs",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "With reference to the semiconductor technologies showcased by the DRDO for defence use, consider the following statements:\n1. DRDO's Solid State Physics Laboratory has developed processes to grow 4-inch Silicon Carbide (SiC) wafers.\n2. Gallium Nitride (GaN) devices on SiC are suited to high-power, high-frequency applications such as radar and electronic warfare.\n3. GaN has a narrower band gap than silicon.\nWhich of the statements given above are correct?",
+  "options": [
+   "(a) 3 only",
+   "(b) 1 and 3 only",
+   "(c) 2 and 3 only",
+   "(d) 1 and 2 only"
+  ],
+  "answer": "(d)",
+  "explanation": "1 and 2 are correct. Per the Ministry of Defence report, SSPL grows 4-inch SiC wafers that serve as the base for GaN HEMTs and X-band MMICs. Statement 3 is wrong: GaN (~3.4 eV) and SiC (~3.3 eV for 4H-SiC) are WIDE band-gap materials, versus ~1.12 eV for silicon, which is why they handle higher voltage, temperature and frequency.",
+  "subject": "Science & Technology",
+  "theme": "Defence Technology and Semiconductors",
+  "micro_topic": "GaN-on-SiC MMICs",
+  "nature": "Current Affairs",
+  "difficulty": "Hard"
+ },
+ {
+  "question": "With reference to India-Canada relations, consider the following statements:\n1. Prime Minister Modi is scheduled to visit Canada on 11-12 December 2026.\n2. The two countries formally launched negotiations on a comprehensive trade agreement in March 2026 with a commitment to conclude them by the end of 2026.\n3. Canada is a member of the Quad.\nWhich of the statements given above are correct?",
+  "options": [
+   "(a) 1 and 3 only",
+   "(b) 2 only",
+   "(c) 1 and 2 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(c)",
+  "explanation": "1 and 2 are correct. The visit was announced after a Modi-Carney call in mid-October, and both leaders aimed to finish trade talks by the G20 Leaders' Summit (Miami, 14-15 Dec). Statement 3 is wrong: the Quad comprises India, the US, Japan and Australia; Canada is a member of the G7 and the Five Eyes.",
+  "subject": "International Relations",
+  "theme": "Bilateral Relations",
+  "micro_topic": "India-Canada reset and trade talks",
+  "nature": "Current Affairs",
+  "difficulty": "Easy"
+ },
+ {
+  "question": "With reference to the Biological Diversity Act, 2002, consider the following statements:\n1. The National Biodiversity Authority is a statutory body headquartered in Chennai.\n2. Biodiversity Management Committees are constituted at the State level by the State Biodiversity Boards.\n3. The Act gives effect in India to the objectives of the Convention on Biological Diversity.\nWhich of the statements given above are correct?",
+  "options": [
+   "(a) 1 and 3 only",
+   "(b) 2 only",
+   "(c) 2 and 3 only",
+   "(d) 1 and 2 only"
+  ],
+  "answer": "(a)",
+  "explanation": "1 and 3 are correct. Statement 2 is wrong: Biodiversity Management Committees are set up by LOCAL bodies (panchayats, municipalities) at the local level; State Biodiversity Boards operate at the State level and the NBA at the national level. BMCs also help record People's Biodiversity Registers and have a role in access and benefit sharing.",
+  "subject": "Environment",
+  "theme": "Biodiversity Governance",
+  "micro_topic": "Biological Diversity Act, 2002 and its three-tier structure",
+  "nature": "Factual",
+  "difficulty": "Easy"
+ },
+ {
+  "question": "Wide band-gap semiconductors such as GaN and SiC are preferred over silicon for radar power amplifiers mainly because they:",
+  "options": [
+   "(a) withstand a higher breakdown electric field and so can operate at higher voltages, frequencies and temperatures",
+   "(b) have a lower band gap, so more carriers are thermally excited at room temperature",
+   "(c) have a lower electron saturation velocity, which reduces switching losses",
+   "(d) are available as large 450 mm wafers at a lower cost than silicon"
+  ],
+  "answer": "(a)",
+  "explanation": "A wide band gap (~3.3-3.4 eV against ~1.12 eV for Si) gives a higher critical breakdown field, low intrinsic carrier density at high temperature and high electron saturation velocity. This lets devices be smaller, hotter-running and faster at high power. Options (b) and (c) state the opposite of the physics; (d) is incorrect, since SiC and GaN wafers are small and expensive.",
+  "subject": "Science & Technology",
+  "theme": "Semiconductor Physics",
+  "micro_topic": "Wide band-gap semiconductors",
+  "nature": "Conceptual",
+  "difficulty": "Moderate"
+ }
+]

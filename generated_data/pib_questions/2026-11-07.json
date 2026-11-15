@@ -1,0 +1,50 @@
+[
+ {
+  "question": "With reference to hallmarking of gold and silver in India, consider:\n1. The Bureau of Indian Standards is the sole agency for the hallmarking scheme.\n2. Hallmark Unique Identification (HUID) is a six-digit alphanumeric code.\n3. Silver hallmarking has been made mandatory across all silver articles.\nWhich of the statements given above is/are correct?",
+  "options": [
+   "(a) 1 only",
+   "(b) 1 and 2 only",
+   "(c) 2 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(b)",
+  "explanation": "BIS is the sole agency and HUID is a six-digit alphanumeric code; silver hallmarking remains voluntary (only BIS-hallmarked silver must carry HUID).",
+  "subject": "Economy",
+  "theme": "Consumer Protection",
+  "micro_topic": "BIS Hallmarking and HUID",
+  "nature": "Current Affairs",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "The 'M4FS' theme of the 1st International Maize Conference 2026 refers to maize for:",
+  "options": [
+   "(a) Food, Feed, Fodder, Fuel and Sustainability",
+   "(b) Food, Fibre, Fertiliser, Finance and Security",
+   "(c) Farmers, Feed, Fodder, Fuel and Storage",
+   "(d) Food, Feed, Fisheries, Forestry and Sustainability"
+  ],
+  "answer": "(a)",
+  "explanation": "M4FS = Maize Revolution for Food, Feed, Fodder, Fuel and Sustainability; output ~55 MT with a 75 MT target.",
+  "subject": "Agriculture",
+  "theme": "Crop Production",
+  "micro_topic": "International Maize Conference 2026",
+  "nature": "Current Affairs",
+  "difficulty": "Easy"
+ },
+ {
+  "question": "Consider the following about 'Vande Mataram':\n1. It was first published in the journal Bangadarshan and later included in Anandamath.\n2. It was sung by Rabindranath Tagore at the 1896 Calcutta session of the Indian National Congress.\n3. The Constituent Assembly adopted it as the National Anthem on 24 January 1950.\nWhich of the statements given above is/are correct?",
+  "options": [
+   "(a) 1 only",
+   "(b) 1 and 2 only",
+   "(c) 2 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(b)",
+  "explanation": "Statements 1 and 2 are correct; on 24 Jan 1950 it was given status equal to Jana Gana Mana (the National Anthem), not adopted as the National Anthem.",
+  "subject": "Art & Culture",
+  "theme": "Modern Indian History",
+  "micro_topic": "150 years of Vande Mataram",
+  "nature": "Current Affairs",
+  "difficulty": "Moderate"
+ }
+]

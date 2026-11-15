@@ -1,0 +1,50 @@
+[
+ {
+  "question": "With reference to the NPPA's recent trade-margin rationalisation for anti-cancer drugs, consider:\n1. NPPA functions under the Department of Pharmaceuticals.\n2. The 137 drugs covered are non-scheduled drugs, i.e., outside the NLEM price-control list.\n3. The exercise fixes statutory ceiling prices for scheduled drugs.\nWhich of the statements given above is/are correct?",
+  "options": [
+   "(a) 1 only",
+   "(b) 1 and 2 only",
+   "(c) 2 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(b)",
+  "explanation": "NPPA is under the Department of Pharmaceuticals and the 137 drugs are non-scheduled; this is margin rationalisation, not ceiling-price fixation for scheduled drugs.",
+  "subject": "Economy",
+  "theme": "Health Economics & Price Regulation",
+  "micro_topic": "NPPA trade margin rationalisation of anti-cancer drugs",
+  "nature": "Current Affairs",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "The maiden BIMSTEC Maritime Security Exercise (Oct–Nov 2026) was hosted at Sri Vijaya Puram under which Indian command?",
+  "options": [
+   "(a) Andaman & Nicobar Command",
+   "(b) Eastern Naval Command",
+   "(c) Southern Naval Command",
+   "(d) Strategic Forces Command"
+  ],
+  "answer": "(a)",
+  "explanation": "Hosted at Sri Vijaya Puram (Port Blair) under the Andaman & Nicobar Command, India's tri-service theatre command.",
+  "subject": "International Relations",
+  "theme": "Regional Groupings & Maritime Security",
+  "micro_topic": "BIMSTEC Maritime Security Exercise",
+  "nature": "Current Affairs",
+  "difficulty": "Easy"
+ },
+ {
+  "question": "The Piprahwa relics of the Buddha, recently exposed at Tawang Monastery, were excavated in 1898 from a stupa in present-day which State?",
+  "options": [
+   "(a) Bihar",
+   "(b) Uttar Pradesh",
+   "(c) Madhya Pradesh",
+   "(d) Odisha"
+  ],
+  "answer": "(b)",
+  "explanation": "Piprahwa lies in Siddharthnagar district, Uttar Pradesh; W.C. Peppé excavated the stupa in 1898; linked with Kapilavastu and the Shakya clan.",
+  "subject": "Art & Culture",
+  "theme": "Buddhist Heritage",
+  "micro_topic": "Piprahwa relics",
+  "nature": "Current Affairs",
+  "difficulty": "Moderate"
+ }
+]

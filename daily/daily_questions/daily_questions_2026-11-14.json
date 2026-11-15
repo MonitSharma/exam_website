@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to the recent NITI Aayog–IIM Ahmedabad assessment of Production Linked Incentive (PLI) schemes, consider the following statements:\n1. About 18.5% of the roughly ₹1.91 lakh crore outlay under 14 schemes had been disbursed till March 2026.\n2. The report finds that MSMEs were the primary and direct beneficiaries of PLI incentives.\n3. The assessment covers 14 manufacturing sectors.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statements 1 and 3 match the assessment; MSME benefits are largely indirect via supply chains, not primary or direct.",
+    "subject": "Economy",
+    "theme": "PLI schemes",
+    "micro_topic": "NITI Aayog PLI assessment",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Global Carbon Budget 2026, recently released, is compiled by which of the following, and what does it project for 2026?",
+    "options": [
+      "(a) IPCC; global fossil CO₂ emissions to rise, India's to fall",
+      "(b) Global Carbon Project; global fossil CO₂ emissions to dip slightly, India's to rise",
+      "(c) UNEP; global fossil CO₂ emissions to dip, India's to dip",
+      "(d) World Meteorological Organization; global fossil CO₂ emissions to rise, India's to rise"
+    ],
+    "answer": "(b)",
+    "explanation": "Global Carbon Project publishes the GCB; fossil CO₂ projected -0.4% globally to 38.2 Gt, India +4.4%.",
+    "subject": "Environment",
+    "theme": "Climate reports",
+    "micro_topic": "Global Carbon Budget 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Consider the following statements about the first BIMSTEC Health Ministers' Meeting held in Colombo:\n1. It adopted a revised BIMSTEC Plan of Action on Public Health for 2026–2030.\n2. India announced that the BIMSTEC Centre of Excellence in Traditional Medicine would be hosted at ITRA, Jamnagar.\n3. Pakistan, as a South Asian member, participated in the meeting.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statements 1 and 2 are correct. Pakistan is not a BIMSTEC member (members: Bangladesh, Bhutan, India, Myanmar, Nepal, Sri Lanka, Thailand).",
+    "subject": "International Relations",
+    "theme": "BIMSTEC",
+    "micro_topic": "BIMSTEC health cooperation",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "ISRO recently conducted a ground static test of the revised PS3 stage of PSLV. With reference to the PSLV, which of the following is correct?",
+    "options": [
+      "(a) It is a three-stage vehicle with all-liquid stages.",
+      "(b) It has four stages, using solid and liquid propulsion alternately, with PS3 being a solid motor.",
+      "(c) Its third stage is a cryogenic stage.",
+      "(d) PS3 is the only stage that uses liquid propellant."
+    ],
+    "answer": "(b)",
+    "explanation": "PSLV: PS1 solid, PS2 liquid (Vikas), PS3 solid, PS4 liquid. Cryogenic stage belongs to GSLV.",
+    "subject": "Science & Technology",
+    "theme": "Space technology",
+    "micro_topic": "PSLV stages and PS3 test",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements about Kurumba and related issues:\n1. The Kurumbas of Attappady (Kerala) are classified as a Particularly Vulnerable Tribal Group (PVTG).\n2. As reported, languages with fewer than 10,000 speakers are grouped under 'others' in the Census rather than listed separately.\n3. Kerala has no PVTG other than the Kurumbas.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Kurumbas are a PVTG and sub-10,000-speaker languages are grouped under 'others'; Kerala has five PVTGs, so statement 3 is wrong.",
+    "subject": "Society",
+    "theme": "Tribes and language",
+    "micro_topic": "PVTGs and endangered languages",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Under the Paris Agreement, the provision that developed countries shall provide financial resources to assist developing countries is contained in:",
+    "options": [
+      "(a) Article 4",
+      "(b) Article 6",
+      "(c) Article 9",
+      "(d) Article 14"
+    ],
+    "answer": "(c)",
+    "explanation": "Article 9 deals with finance (9.1: developed countries shall provide). Art. 4 = NDCs/mitigation, Art. 6 = cooperative approaches, Art. 14 = global stocktake.",
+    "subject": "Environment",
+    "theme": "Climate agreements",
+    "micro_topic": "Paris Agreement Article 9",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Which of the following statements about BIMSTEC is correct?",
+    "options": [
+      "(a) It was established in 1997 through the Bangkok Declaration and its Secretariat is located in Dhaka.",
+      "(b) Its Secretariat is located in Kathmandu.",
+      "(c) It includes the Maldives and Afghanistan.",
+      "(d) It was set up as a successor to SAARC in 2016."
+    ],
+    "answer": "(a)",
+    "explanation": "BIST-EC was formed in 1997 (Bangkok Declaration) and later renamed BIMSTEC; Secretariat is in Dhaka; it is not SAARC's successor and has seven members.",
+    "subject": "International Relations",
+    "theme": "BIMSTEC",
+    "micro_topic": "BIMSTEC origin and secretariat",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  }
+]

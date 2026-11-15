@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to the launch of the NVS-03 navigation satellite on 30 October 2026, consider the following statements:\n1. It was launched by GSLV-F18 from the Second Launch Pad at Sriharikota.\n2. The satellite adds an L1 signal to NavIC's existing L5 and S-band signals.\n3. The launch vehicle placed it directly into a geostationary orbit.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 2 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "1 and 2 are correct. Statement 3 is wrong: the GSLV injects the satellite into a Geosynchronous Transfer Orbit (about 170 x 37,000 km); the satellite's own motor then raises it to its operational geosynchronous orbit.",
+    "subject": "Science & Technology",
+    "theme": "Space Technology",
+    "micro_topic": "NavIC / NVS-03 / GSLV-F18",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to India's fiscal position for April-September 2026-27, consider the following statements:\n1. The fiscal deficit stood at about Rs 7.14 lakh crore, or 42.1% of the Budget Estimate.\n2. The full-year fiscal deficit target is 4.3% of GDP.\n3. The deficit in this period was lower than in the same period of 2025-26.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "1 and 2 are correct (Rs 7.14 lakh crore of a Rs 16.96 lakh crore target = 42.1%; target 4.3% of GDP). Statement 3 is wrong: the same period of 2025-26 saw about Rs 5.7 lakh crore, so the deficit is wider this year.",
+    "subject": "Economy",
+    "theme": "Fiscal Policy",
+    "micro_topic": "Fiscal deficit - monthly accounts",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to India-Brazil relations, as highlighted by the Ministry of External Affairs on 30 October 2026, consider the following statements:\n1. The two countries have set a bilateral trade target of USD 30 billion by 2030.\n2. India is Brazil's largest trading partner.\n3. Negotiations to expand the India-MERCOSUR trade agreement were described as having made concrete progress.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 and 3 only",
+      "(c) 1, 2 and 3",
+      "(d) 1 and 3 only"
+    ],
+    "answer": "(d)",
+    "explanation": "1 and 3 are correct. Statement 2 is wrong: India is Brazil's fifth-largest trading partner. Trade is expected to touch about USD 20 billion soon.",
+    "subject": "International Relations",
+    "theme": "Bilateral Relations",
+    "micro_topic": "India-Brazil / MERCOSUR",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Regarding the dispute between Reliance Industries (with BP and Niko) and the Government of India over gas from the KG basin, consider the following statements:\n1. The Supreme Court has referred the dispute to mediation.\n2. An international arbitral tribunal in 2018 rejected the Government's claim that the companies had drawn gas from deposits they had no right to exploit.\n3. The Delhi High Court in February 2025 upheld a single-judge ruling that had affirmed the arbitral award.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "1 and 2 are correct. Statement 3 is wrong: on 14 Feb 2025 the Delhi High Court division bench set aside the single-judge ruling that had upheld the award; the companies are appealing that order in the Supreme Court. (Mediation reference as reported by LiveLaw's 30 Oct blog.)",
+    "subject": "Polity & Governance",
+    "theme": "Judiciary & Dispute Resolution",
+    "micro_topic": "Arbitration and mediation - KG basin case",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Regarding the oil spill off the coast of the UAE reported in October 2026, consider the following statements:\n1. Experts have linked the spill to the damaged tanker Gem No. 2, though authorities have not officially named the vessel.\n2. Satellite imagery from the EU's Copernicus Sentinel programme showed the slick widening, and Ras Al Khaimah closed all its beaches.\n3. The Copernicus programme is operated by NASA.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 only",
+      "(c) 1 and 2 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "1 and 2 are correct. Statement 3 is wrong: Copernicus is the European Union's Earth observation programme, implemented with ESA and others; NASA does not operate it.",
+    "subject": "Environment",
+    "theme": "Marine Pollution",
+    "micro_topic": "Oil spills - Persian Gulf",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "In India's public finance, the 'primary deficit' is equal to:",
+    "options": [
+      "(a) Fiscal deficit minus revenue deficit",
+      "(b) Fiscal deficit minus interest payments",
+      "(c) Revenue deficit minus capital expenditure",
+      "(d) Total expenditure minus total revenue receipts"
+    ],
+    "answer": "(b)",
+    "explanation": "Primary deficit = fiscal deficit - interest payments; it shows borrowing needed for expenditure other than interest. Fiscal deficit itself = total expenditure - total receipts excluding borrowings; option (d) is not primary deficit.",
+    "subject": "Economy",
+    "theme": "Fiscal Policy",
+    "micro_topic": "Types of deficits",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Under the International Convention for the Prevention of Pollution from Ships (MARPOL), which Annex deals with the prevention of pollution by oil?",
+    "options": [
+      "(a) Annex IV",
+      "(b) Annex V",
+      "(c) Annex VI",
+      "(d) Annex I"
+    ],
+    "answer": "(d)",
+    "explanation": "MARPOL Annex I covers oil. Annex II: noxious liquid substances in bulk; III: harmful substances in packaged form; IV: sewage; V: garbage; VI: air pollution.",
+    "subject": "Environment",
+    "theme": "International Conventions",
+    "micro_topic": "MARPOL",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  }
+]

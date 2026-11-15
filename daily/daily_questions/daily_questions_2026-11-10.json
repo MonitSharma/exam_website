@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to 'Rahat Mitra', the exercise held in Chennai in November 2026, consider the following statements:\n1. It was the first bilateral tri-services HADR exercise between India and Myanmar.\n2. It was coordinated by the Indian Navy.\n3. It is conducted under the ADMM-Plus framework.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Statements 1 and 2 match the reported facts (maiden two-day tri-services HADR drill, Indian Navy coordinating, 300+ personnel). It is a bilateral exercise, not an ADMM-Plus one, so 3 is incorrect.",
+    "subject": "International Relations",
+    "theme": "India-Myanmar defence cooperation",
+    "micro_topic": "Rahat Mitra HADR exercise",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "According to the Global Innovation Index (GII) 2026, which of the following is correct?",
+    "options": [
+      "(a) India ranks 38th among 139 economies and leads the lower-middle-income group",
+      "(b) India ranks 38th and is ahead of all upper-middle-income economies",
+      "(c) India ranks 25th, the same as its innovation-input rank",
+      "(d) The GII is published by the World Bank and the OECD"
+    ],
+    "answer": "(a)",
+    "explanation": "India is 38th of 139 economies, first among lower-middle-income economies and in Central & Southern Asia. Its output rank (25th) is above its input rank (49th). GII is published by WIPO with the Portulans Institute (and partners), not the World Bank.",
+    "subject": "Reports & Indices",
+    "theme": "Global indices",
+    "micro_topic": "Global Innovation Index 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the RBI's Census on Foreign Liabilities and Assets (FLA) of Indian direct investment entities for 2025-26 (provisional), consider the following statements:\n1. The inward FDI-to-ODI ratio declined to about 4.2 times from 5.5 times.\n2. The United States was the largest source of outstanding FDI, ahead of Mauritius.\n3. Services accounted for the largest share of FDI equity at market value.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "The ratio fell to 4.2x from 5.5x and the US (16.5%) led Mauritius (14.5%). Manufacturing (50.1%) held the largest share, ahead of services (~45%), so 3 is incorrect.",
+    "subject": "Economy",
+    "theme": "External sector",
+    "micro_topic": "RBI FLA census 2025-26",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Marine heatwaves, which INCOIS monitors and issues bulletins on, are best described as:",
+    "options": [
+      "(a) Periods when sea surface temperature stays above the 90th percentile of the local historical climatology for at least five consecutive days",
+      "(b) Sudden rises in sea level caused by cyclones",
+      "(c) Periods of high salinity in the Arabian Sea only during the monsoon",
+      "(d) Hot spells over coastal land caused by sea breeze"
+    ],
+    "answer": "(a)",
+    "explanation": "A marine heatwave is a prolonged anomalously warm spell, conventionally SST above the 90th percentile for 5+ days. INCOIS grades Watch/Alert/Warning by excess over the threshold. Marine heatwaves can cause coral bleaching and shift fisheries.",
+    "subject": "Environment",
+    "theme": "Climate change & oceans",
+    "micro_topic": "Marine heatwaves (INCOIS)",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the Vayo Samman Rashtriya Abhiyan launched in November 2026, consider the following statements:\n1. It is a national intergenerational bonding campaign under the Atal Vayo Abhyuday Yojana.\n2. It is administered by the Ministry of Health and Family Welfare.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 only",
+      "(c) Both 1 and 2",
+      "(d) Neither 1 nor 2"
+    ],
+    "answer": "(a)",
+    "explanation": "It was launched by Union Minister Virendra Kumar under AVYAY, which sits with the Ministry of Social Justice and Empowerment, not Health.",
+    "subject": "Society",
+    "theme": "Welfare of elderly",
+    "micro_topic": "Vayo Samman Rashtriya Abhiyan",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which one of the following correctly describes 'Humanitarian Assistance and Disaster Relief (HADR)' as a function of India's armed forces and its maritime vision?",
+    "options": [
+      "(a) HADR operations are mandated only under UN peacekeeping missions",
+      "(b) India's MAHASAGAR vision links security, growth and HADR cooperation with maritime neighbours of the Indian Ocean Region",
+      "(c) India provides HADR only to SAARC members",
+      "(d) HADR is prohibited under the Disaster Management Act, 2005"
+    ],
+    "answer": "(b)",
+    "explanation": "MAHASAGAR (Mutual and Holistic Advancement for Security and Growth Across Regions) frames India's cooperative maritime outreach, including HADR; India offers HADR beyond SAARC and not only under UN missions.",
+    "subject": "International Relations",
+    "theme": "Indian Ocean Region policy",
+    "micro_topic": "MAHASAGAR and HADR",
+    "nature": "Conceptual",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Foreign Direct Investment (FDI) differs from Foreign Portfolio Investment (FPI) in India chiefly because:",
+    "options": [
+      "(a) FPI typically involves a lasting interest, usually 10% or more of equity, whereas FDI is below 10%",
+      "(b) FDI involves a lasting interest in an enterprise (commonly 10% or more of paid-up equity), whereas FPI is below 10% and is more volatile",
+      "(c) FDI is permitted only in unlisted companies",
+      "(d) FPI is regulated by DPIIT while FDI is regulated by SEBI"
+    ],
+    "answer": "(b)",
+    "explanation": "Under FEMA norms, investments of 10% or more of post-issue paid-up equity in a listed company (or any in unlisted) are FDI; below 10% is FPI. FPI is regulated by SEBI and is more volatile; FDI policy is by DPIIT.",
+    "subject": "Economy",
+    "theme": "FDI vs FPI",
+    "micro_topic": "FDI vs FPI",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  }
+]

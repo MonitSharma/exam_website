@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to the Union Cabinet's decision of 11 November 2026 on fertiliser subsidy, consider the following statements:\n1. It approved Nutrient Based Subsidy (NBS) rates of about ₹62,370 crore for P&K fertilisers for the Rabi 2026-27 season.\n2. Under NBS, the subsidy is fixed per kilogram of nutrient (N, P, K, S) contained in the fertiliser.\n3. Urea is covered under the NBS scheme and its price is fully decontrolled.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "The Cabinet approved ~₹62,370 crore NBS for Rabi 2026-27 (1 Oct 2026–31 Mar 2027), with per-kg nutrient rates (N ₹94.21, P ₹66.11, S ₹10.42, K ₹2.38). Urea is outside NBS and remains under statutory price control, so statement 3 is wrong.",
+    "subject": "Agriculture",
+    "theme": "Fertiliser subsidy",
+    "micro_topic": "Nutrient Based Subsidy (NBS) Rabi 2026-27",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Supreme Court's judgment of 29 October 2026 in Srinivasa T. v. State of Karnataka, consider the following statements:\n1. The Court struck down the Karnataka Civil Services (Validation) Act, 2022, which sought to protect appointments from the cancelled 2011 recruitment.\n2. The Court held that a legislature can never enact a retrospective validating law.\n3. The Court held that untainted candidates could retain their posts because they were not accused of any wrongdoing.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1 and 3 only"
+    ],
+    "answer": "(a)",
+    "explanation": "The Act was struck down because a legislature cannot directly annul a final judgment. It can enact retrospective validation only by removing the legal basis of the earlier decision, so statement 2 is wrong. Even untainted candidates' appointments rested entirely on the Act and fell with it, though they get a one-time age relaxation in fresh recruitment; statement 3 is wrong.",
+    "subject": "Polity & Governance",
+    "theme": "Separation of powers",
+    "micro_topic": "Validating Acts and final judgments",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "With reference to the Prime Minister's forthcoming visit to the Philippines (16–18 November 2026), consider the following statements:\n1. The Philippines is the ASEAN chair in 2026, and the summits are being held in Manila.\n2. The visit includes the 23rd ASEAN-India Summit and the East Asia Summit process meeting.\n3. India is a full member of ASEAN.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "The MEA announced on 12 November that the PM will attend the 23rd ASEAN-India Summit and the 21st EAS process in Manila, with the Philippines as 2026 ASEAN chair. India is a dialogue partner and EAS member, not an ASEAN member, so statement 3 is wrong.",
+    "subject": "International Relations",
+    "theme": "India-ASEAN / Act East",
+    "micro_topic": "23rd ASEAN-India Summit, Manila",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the Nasha Mukt Bharat Abhiyaan (NMBA), consider the following statements:\n1. It was launched in 2020 and is anchored in the Ministry of Social Justice and Empowerment.\n2. Its strategy combines awareness, community outreach and access to treatment and counselling.\n3. The Narcotics Control Bureau under the Ministry of Home Affairs is the nodal agency that runs the Abhiyaan.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "NMBA was launched in 2020 and run by the Ministry of Social Justice and Empowerment; it has reached over 35 crore people via awareness and community outreach, alongside treatment and counselling support. The NCB (MHA) handles enforcement and the NCORD mechanism, not NMBA, so statement 3 is wrong.",
+    "subject": "Society",
+    "theme": "Drug abuse and social justice schemes",
+    "micro_topic": "Nasha Mukt Bharat Abhiyaan",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Swachh Survekshan awards presented on 11 November 2026, consider the following statements:\n1. They were the 10th edition of the survey, for the year 2025-26.\n2. The nodal ministry is the Ministry of Housing and Urban Affairs.\n3. Urban local bodies were assessed on 43 indicators across 10 areas.\n4. The survey forms part of Swachh Bharat Mission (Grameen).\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1, 2 and 3 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "answer": "(b)",
+    "explanation": "The President presented the 10th-edition (2025-26) awards on 11 Nov 2026; MoHUA is the nodal ministry and assessment covered 43 indicators in 10 areas. The survey belongs to Swachh Bharat Mission (Urban), not SBM(Grameen), so statement 4 is wrong.",
+    "subject": "Environment",
+    "theme": "Waste management and urban sanitation",
+    "micro_topic": "Swachh Survekshan 2025-26",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Which one of the following Articles of the Constitution of India provides that the law declared by the Supreme Court shall be binding on all courts within the territory of India?",
+    "options": [
+      "(a) Article 136",
+      "(b) Article 141",
+      "(c) Article 142",
+      "(d) Article 144"
+    ],
+    "answer": "(b)",
+    "explanation": "Article 141 makes the law declared by the Supreme Court binding on all courts. Article 136 is special leave to appeal, Article 142 allows orders for complete justice, and Article 144 requires civil and judicial authorities to act in aid of the Supreme Court.",
+    "subject": "Polity & Governance",
+    "theme": "Supreme Court",
+    "micro_topic": "Article 141 - binding precedent",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The Bangkok Declaration of 1967 established ASEAN. Which one of the following was NOT among its five founding members?",
+    "options": [
+      "(a) Philippines",
+      "(b) Thailand",
+      "(c) Vietnam",
+      "(d) Singapore"
+    ],
+    "answer": "(c)",
+    "explanation": "The five founders were Indonesia, Malaysia, the Philippines, Singapore and Thailand. Vietnam joined in 1995, after Brunei (1984).",
+    "subject": "International Relations",
+    "theme": "Regional groupings",
+    "micro_topic": "ASEAN - founding and expansion",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  }
+]

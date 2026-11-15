@@ -1,0 +1,1552 @@
+[
+  {
+    "id": "book_topics_2026_11_08_01",
+    "question_number": 1,
+    "question": "Which of the following Fundamental Rights are available only to citizens of India and not to foreigners?\n1. Protection against discrimination on grounds of religion, race, caste, sex or place of birth (Article 15)\n2. Equality of opportunity in public employment (Article 16)\n3. Protection of six freedoms of speech, assembly, association, movement, residence and profession (Article 19)\n4. Protection of life and personal liberty (Article 21)\nSelect the correct answer using the code given below:",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "1, 2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2, 3 and 4 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Arts 15, 16, 19, 29 and 30 are citizens-only. Art 21 is available to every 'person', foreigners included.",
+    "subject": "Polity",
+    "theme": "Polity - Laxmikanth Ch 7-11: Fundamental Rights, DPSP, Fundamental Duties, Amendment of the Constitution, Basic Structure (Pass-2 revision round)",
+    "micro_topic": "Fundamental Rights available only to citizens",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_08_02",
+    "question_number": 2,
+    "question": "Consider the following statements:\n1. Article 15(5), inserted by the 93rd Amendment Act, 2005, enables special provisions for admission of backward classes, SCs and STs to private educational institutions, whether aided or unaided, other than minority institutions referred to in Article 30(1).\n2. Article 16(4A), providing for reservation in promotion for SCs and STs, was inserted by the 77th Amendment Act, 1995.\n3. Articles 15(6) and 16(6), inserted by the 103rd Amendment Act, 2019, permit reservation for economically weaker sections up to a maximum of ten per cent, in addition to the existing reservations.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All three are correct. The 103rd Amendment (EWS) was upheld 3:2 in Janhit Abhiyan (2022). Minority institutions are excluded from Art 15(5).",
+    "subject": "Polity",
+    "theme": "Polity - Laxmikanth Ch 7-11: Fundamental Rights, DPSP, Fundamental Duties, Amendment of the Constitution, Basic Structure (Pass-2 revision round)",
+    "micro_topic": "Articles 15(5), 15(6), 16(4A), 16(6) - enabling provisions",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_08_03",
+    "question_number": 3,
+    "question": "With reference to Article 18 of the Constitution of India, consider the following statements:\n1. It prohibits the State from conferring any title, except a military or academic distinction.\n2. A person who is not a citizen of India, while holding an office of profit or trust under the State, cannot accept a title from a foreign State without the consent of the President.\n3. In the Balaji Raghavan case, the Supreme Court held that the Bharat Ratna and Padma awards are 'titles' within the meaning of Article 18.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Art 18(1) and 18(3) are as stated. In Balaji Raghavan the Court held the national awards are NOT titles, but they must not be used as suffixes or prefixes to names.",
+    "subject": "Polity",
+    "theme": "Polity - Laxmikanth Ch 7-11: Fundamental Rights, DPSP, Fundamental Duties, Amendment of the Constitution, Basic Structure (Pass-2 revision round)",
+    "micro_topic": "Article 18 - abolition of titles",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_08_04",
+    "question_number": 4,
+    "question": "With reference to Article 28 of the Constitution of India, consider the following statements:\n1. No religious instruction shall be provided in any educational institution wholly maintained out of State funds.\n2. The bar in statement 1 does not apply to an institution administered by the State but established under an endowment or trust that requires religious instruction to be imparted.\n3. A person attending an institution recognised by the State or receiving aid from State funds can be required to take part in religious instruction imparted there.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Art 28(1) and 28(2) are as stated. Under Art 28(3), in recognised or aided institutions religious instruction is voluntary: no one can be required to attend it without consent (a guardian's consent for a minor).",
+    "subject": "Polity",
+    "theme": "Polity - Laxmikanth Ch 7-11: Fundamental Rights, DPSP, Fundamental Duties, Amendment of the Constitution, Basic Structure (Pass-2 revision round)",
+    "micro_topic": "Article 28 - religious instruction in educational institutions",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_08_05",
+    "question_number": 5,
+    "question": "Consider the following statements:\n1. Under Article 358, Article 19 is automatically suspended only when a National Emergency is declared on the ground of war or external aggression, and not on the ground of armed rebellion.\n2. Under Article 359, the President may suspend the right to move any court for the enforcement of any Fundamental Right, including those under Articles 20 and 21.\n3. Articles 358 and 359 operate only during a National Emergency under Article 352, and not during President's Rule under Article 356.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The 44th Amendment (1978) confined Art 358 to war or external aggression, and barred suspension of enforcement of Arts 20 and 21 under Art 359. Neither Article applies to Art 356 or Art 360 emergencies.",
+    "subject": "Polity",
+    "theme": "Polity - Laxmikanth Ch 7-11: Fundamental Rights, DPSP, Fundamental Duties, Amendment of the Constitution, Basic Structure (Pass-2 revision round)",
+    "micro_topic": "Articles 358 and 359 - FRs during National Emergency",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_08_06",
+    "question_number": 6,
+    "question": "Which of the following Directive Principles are usually classified as 'Gandhian principles'?\n1. Organisation of village panchayats (Article 40)\n2. Promotion of cottage industries on an individual or co-operative basis in rural areas (Article 43)\n3. A uniform civil code for citizens (Article 44)\n4. Prohibition of consumption of intoxicating drinks and drugs injurious to health, except for medicinal purposes (Article 47)\nSelect the correct answer using the code given below:",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "b",
+        "text": "2, 3 and 4 only"
+      },
+      {
+        "key": "c",
+        "text": "1, 2 and 4 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Gandhian DPSPs: Arts 40, 43, 43B, 46, 47 and 48. The uniform civil code (Art 44) is a liberal-intellectual principle.",
+    "subject": "Polity",
+    "theme": "Polity - Laxmikanth Ch 7-11: Fundamental Rights, DPSP, Fundamental Duties, Amendment of the Constitution, Basic Structure (Pass-2 revision round)",
+    "micro_topic": "DPSP classification - Gandhian principles",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_08_07",
+    "question_number": 7,
+    "question": "Consider the following pairs:\nDirective Principle : Amendment that added or substituted it\n1. Equal justice and free legal aid (Article 39A) : 42nd Amendment, 1976\n2. Minimising inequalities in income, status and opportunities (Article 38(2)) : 44th Amendment, 1978\n3. Early childhood care and education for all children until they complete six years (Article 45) : 86th Amendment, 2002\n4. Promotion of co-operative societies (Article 43B) : 97th Amendment, 2011\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "Only three"
+      },
+      {
+        "key": "d",
+        "text": "All four"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All four are correct. The 42nd added 39(f), 39A, 43A and 48A; the 44th added 38(2); the 86th substituted Art 45 when it made education an FR (Art 21A); the 97th added 43B.",
+    "subject": "Polity",
+    "theme": "Polity - Laxmikanth Ch 7-11: Fundamental Rights, DPSP, Fundamental Duties, Amendment of the Constitution, Basic Structure (Pass-2 revision round)",
+    "micro_topic": "DPSPs added or changed by later amendments",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_08_08",
+    "question_number": 8,
+    "question": "With reference to the Fundamental Duties, consider the following statements:\n1. The eleventh duty, for a parent or guardian to provide opportunities for education to a child between six and fourteen years, was added by the 86th Amendment Act, 2002.\n2. The Justice Verma Committee (1999) identified the existence of legal provisions for the implementation of some of the Fundamental Duties.\n3. Like the Fundamental Rights under Article 21, the Fundamental Duties apply to citizens and foreigners alike.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Art 51A(k) came with the 86th Amendment. The Verma Committee listed existing laws that give effect to duties. Fundamental Duties apply to citizens only.",
+    "subject": "Polity",
+    "theme": "Polity - Laxmikanth Ch 7-11: Fundamental Rights, DPSP, Fundamental Duties, Amendment of the Constitution, Basic Structure (Pass-2 revision round)",
+    "micro_topic": "Fundamental Duties - 86th Amendment and Verma Committee",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_08_09",
+    "question_number": 9,
+    "question": "Consider the following statements about the procedure for amending the Constitution under Article 368:\n1. An amendment Bill can be introduced in either House of Parliament and does not require the prior permission of the President.\n2. If the two Houses disagree on an amendment Bill, the President may summon a joint sitting to resolve the deadlock.\n3. The President is bound to give assent to a duly passed amendment Bill.\n4. An amendment Bill can be introduced by a private member.\nHow many of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "Only three"
+      },
+      {
+        "key": "d",
+        "text": "All four"
+      }
+    ],
+    "answer": "c",
+    "explanation": "1, 3 and 4 are correct. There is no joint sitting for amendment Bills: each House must pass the Bill separately by special majority. Assent became compulsory under the 24th Amendment (1971).",
+    "subject": "Polity",
+    "theme": "Polity - Laxmikanth Ch 7-11: Fundamental Rights, DPSP, Fundamental Duties, Amendment of the Constitution, Basic Structure (Pass-2 revision round)",
+    "micro_topic": "Article 368 - procedure",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_08_10",
+    "question_number": 10,
+    "question": "Consider the following pairs:\nCase : Holding\n1. Shankari Prasad (1951) : Parliament's power under Article 368 includes the power to amend Fundamental Rights.\n2. Sajjan Singh (1965) : Parliament cannot amend Fundamental Rights.\n3. Waman Rao (1981) : Amendments to the Ninth Schedule made after 24 April 1973 are open to challenge on the ground of the basic structure.\n4. Minerva Mills (1980) : Upheld clauses (4) and (5) inserted in Article 368 by the 42nd Amendment.\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "Only three"
+      },
+      {
+        "key": "d",
+        "text": "All four"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Only 1 and 3 are right. Sajjan Singh upheld the power to amend FRs (Golaknath, 1967, reversed it). Minerva Mills struck down Art 368(4) and (5), holding limited amending power to be part of the basic structure.",
+    "subject": "Polity",
+    "theme": "Polity - Laxmikanth Ch 7-11: Fundamental Rights, DPSP, Fundamental Duties, Amendment of the Constitution, Basic Structure (Pass-2 revision round)",
+    "micro_topic": "Amendment-vs-FR case ladder",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_08_11",
+    "question_number": 11,
+    "question": "Consider the following statements:\n1. Fourteen major commercial banks were nationalised in July 1969.\n2. Six more private banks were nationalised in 1980.\n3. The State Bank of India was created in 1955 by taking over the Imperial Bank of India.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All correct: 14 banks (19 July 1969), 6 banks (April 1980), and SBI from the Imperial Bank (1955, on the All-India Rural Credit Survey Committee's advice).",
+    "subject": "Economy",
+    "theme": "Economy - Vivek Singh Ch 2-3: Money & Banking I-II (Pass-2 revision round)",
+    "micro_topic": "Bank nationalisation and SBI",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_08_12",
+    "question_number": 12,
+    "question": "Arrange the following lending-rate systems of Indian banks in the chronological order of their introduction:\n1. Marginal Cost of Funds based Lending Rate (MCLR)\n2. Benchmark Prime Lending Rate (BPLR)\n3. External Benchmark based Lending Rate (EBLR)\n4. Base Rate\nSelect the correct answer using the code given below:",
+    "options": [
+      {
+        "key": "a",
+        "text": "2-4-1-3"
+      },
+      {
+        "key": "b",
+        "text": "4-2-1-3"
+      },
+      {
+        "key": "c",
+        "text": "2-1-4-3"
+      },
+      {
+        "key": "d",
+        "text": "4-1-2-3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "BPLR (2003) -> Base Rate (July 2010) -> MCLR (April 2016) -> EBLR (1 Oct 2019). Each change aimed at faster transmission of policy-rate changes.",
+    "subject": "Economy",
+    "theme": "Economy - Vivek Singh Ch 2-3: Money & Banking I-II (Pass-2 revision round)",
+    "micro_topic": "Evolution of lending-rate benchmarks",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_08_13",
+    "question_number": 13,
+    "question": "With reference to the External Benchmark based Lending Rate (EBLR), consider the following statements:\n1. From 1 October 2019, banks were required to link all new floating-rate personal or retail loans and floating-rate loans to MSEs to an external benchmark.\n2. The RBI policy repo rate and the Government of India 3-month and 6-month Treasury Bill yields published by Financial Benchmarks India Pvt Ltd (FBIL) are among the permitted benchmarks.\n3. A bank may pick a different external benchmark for each loan within the same loan category.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Banks must adopt a uniform external benchmark within a loan category, and the rate must be reset at least once every three months. EBLR is the transmission answer to MCLR's lags.",
+    "subject": "Economy",
+    "theme": "Economy - Vivek Singh Ch 2-3: Money & Banking I-II (Pass-2 revision round)",
+    "micro_topic": "External Benchmark based Lending Rate",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_08_14",
+    "question_number": 14,
+    "question": "Consider the following statements about the classification of bank loans in India:\n1. A term loan becomes a non-performing asset when interest or instalment of principal remains overdue for more than 90 days.\n2. A sub-standard asset is one that has remained an NPA for a period of less than or equal to 12 months.\n3. A loss asset is one where loss has been identified but the amount has not been written off wholly.\n4. A borrower account in which principal or interest is overdue for 61-90 days is classified as SMA-2.\nHow many of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "Only three"
+      },
+      {
+        "key": "d",
+        "text": "All four"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All four correct. Ladder: SMA-0 (1-30 days) -> SMA-1 (31-60) -> SMA-2 (61-90) -> NPA (>90): sub-standard (≤12 months) -> doubtful (>12 months) -> loss.",
+    "subject": "Economy",
+    "theme": "Economy - Vivek Singh Ch 2-3: Money & Banking I-II (Pass-2 revision round)",
+    "micro_topic": "Asset classification - SMA and NPA ladder",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_08_15",
+    "question_number": 15,
+    "question": "With reference to the flexible inflation targeting framework under the RBI Act, 1934, consider the following statements:\n1. The inflation target is set by the Central Government, in consultation with the RBI, once every five years.\n2. The RBI is deemed to have failed to meet the target if average CPI inflation stays above the upper tolerance level, or below the lower tolerance level, for any two consecutive quarters.\n3. On failure, the RBI must report to the Central Government the reasons, the remedial actions proposed and an estimate of the time within which the target will be achieved.\n4. The first target, for the period from August 2016 to March 2021, was 4% CPI inflation with a band of 2% to 6%.\nHow many of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "Only three"
+      },
+      {
+        "key": "d",
+        "text": "All four"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Failure is defined as three consecutive quarters outside the band (Govt notification of 2016), so statement 2 is wrong. Target-setting is in s.45ZA. The 2022 breach led to the first such report.",
+    "subject": "Economy",
+    "theme": "Economy - Vivek Singh Ch 2-3: Money & Banking I-II (Pass-2 revision round)",
+    "micro_topic": "Inflation targeting - setting and failure",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_08_16",
+    "question_number": 16,
+    "question": "With reference to Regional Rural Banks (RRBs), consider the following statements:\n1. They were set up in 1975 on the recommendation of the Working Group headed by M. Narasimham.\n2. The share capital of an RRB is held by the Central Government, the sponsor bank and the State Government in the ratio 50:35:15.\n3. RRBs are regulated solely by NABARD, and the RBI has no regulatory role over them.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "RRBs date from 2 Oct 1975 (Prathama Bank, Moradabad); the RRB Act came in 1976. The RBI regulates them and NABARD supervises them. Their PSL target is 75% of ANBC.",
+    "subject": "Economy",
+    "theme": "Economy - Vivek Singh Ch 2-3: Money & Banking I-II (Pass-2 revision round)",
+    "micro_topic": "Regional Rural Banks",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_08_17",
+    "question_number": 17,
+    "question": "Which of the following actions of the RBI absorb liquidity from the banking system?\n1. Conducting a Variable Rate Reverse Repo (VRRR) auction\n2. Banks parking funds under the Standing Deposit Facility\n3. Banks borrowing under the Marginal Standing Facility\n4. Open market sale of government securities\n5. An increase in the Cash Reserve Ratio\nSelect the correct answer using the code given below:",
+    "options": [
+      {
+        "key": "a",
+        "text": "1, 2, 4 and 5 only"
+      },
+      {
+        "key": "b",
+        "text": "1, 2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "3, 4 and 5 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3, 4 and 5"
+      }
+    ],
+    "answer": "a",
+    "explanation": "MSF is a lending window: it injects liquidity at the top of the LAF corridor. VRRR, SDF (the floor), OMO sales and a higher CRR all absorb.",
+    "subject": "Economy",
+    "theme": "Economy - Vivek Singh Ch 2-3: Money & Banking I-II (Pass-2 revision round)",
+    "micro_topic": "Liquidity: absorbing vs injecting instruments",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_08_18",
+    "question_number": 18,
+    "question": "The SARFAESI Act, 2002 is primarily concerned with:",
+    "options": [
+      {
+        "key": "a",
+        "text": "fixing priority sector lending targets for scheduled commercial banks"
+      },
+      {
+        "key": "b",
+        "text": "licensing of small finance banks and payments banks"
+      },
+      {
+        "key": "c",
+        "text": "enabling secured creditors to enforce their security interest without court intervention"
+      },
+      {
+        "key": "d",
+        "text": "deposit insurance for small savers"
+      }
+    ],
+    "answer": "c",
+    "explanation": "SARFAESI lets banks take possession of and sell secured assets, and it provides for Asset Reconstruction Companies. Insolvency resolution came later under the IBC (2016).",
+    "subject": "Economy",
+    "theme": "Economy - Vivek Singh Ch 2-3: Money & Banking I-II (Pass-2 revision round)",
+    "micro_topic": "SARFAESI Act, 2002",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_08_19",
+    "question_number": 19,
+    "question": "Consider the following pairs:\nMahajanapada : Capital\n1. Avanti : Ujjayini\n2. Vatsa : Kaushambi\n3. Kosala : Shravasti\n4. Anga : Rajagriha\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "Only three"
+      },
+      {
+        "key": "d",
+        "text": "All four"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Anga's capital was Champa. Rajagriha (Girivraja) was the early capital of Magadha, which later shifted to Pataliputra.",
+    "subject": "Ancient History",
+    "theme": "Ancient History - TN Class 11: Rise of Territorial Kingdoms and New Religious Sects + Emergence of State and Empire (Pass-2 revision round)",
+    "micro_topic": "Mahajanapadas and their capitals",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_08_20",
+    "question_number": 20,
+    "question": "Which one of the sixteen Mahajanapadas lay south of the Vindhyas, on the banks of the Godavari?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Chedi"
+      },
+      {
+        "key": "b",
+        "text": "Asmaka"
+      },
+      {
+        "key": "c",
+        "text": "Avanti"
+      },
+      {
+        "key": "d",
+        "text": "Matsya"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Asmaka (capital Potali/Potana) was the only Mahajanapada in the Deccan. Chedi lay in Bundelkhand, Avanti in Malwa and Matsya in the Jaipur-Alwar region.",
+    "subject": "Ancient History",
+    "theme": "Ancient History - TN Class 11: Rise of Territorial Kingdoms and New Religious Sects + Emergence of State and Empire (Pass-2 revision round)",
+    "micro_topic": "Asmaka - the southern Mahajanapada",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_08_21",
+    "question_number": 21,
+    "question": "Consider the following pairs:\nBuddhist council : Venue : Royal patron\n1. First : Rajagriha : Ajatashatru\n2. Second : Vaishali : Kalashoka\n3. Third : Pataliputra : Ashoka\n4. Fourth : Kashmir : Kanishka\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "Only three"
+      },
+      {
+        "key": "d",
+        "text": "All four"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All correct. The presiding monks were Mahakassapa (I), Sabakami (II), Moggaliputta Tissa (III) and Vasumitra, with Ashvaghosha as deputy (IV). The fourth council saw the Hinayana-Mahayana division.",
+    "subject": "Ancient History",
+    "theme": "Ancient History - TN Class 11: Rise of Territorial Kingdoms and New Religious Sects + Emergence of State and Empire (Pass-2 revision round)",
+    "micro_topic": "Buddhist councils",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_08_22",
+    "question_number": 22,
+    "question": "With reference to Jainism, consider the following statements:\n1. Mahavira added brahmacharya (celibacy) as the fifth vow to the four taught by Parshvanatha.\n2. The triratna consists of right faith, right knowledge and right conduct.\n3. The Jain council at Vallabhi, which compiled the canon, was presided over by Sthulabhadra.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Sthulabhadra presided over the first council at Pataliputra. The Vallabhi council (5th-6th century CE) was led by Devardhi Kshamashramana.",
+    "subject": "Ancient History",
+    "theme": "Ancient History - TN Class 11: Rise of Territorial Kingdoms and New Religious Sects + Emergence of State and Empire (Pass-2 revision round)",
+    "micro_topic": "Jainism - vows, triratna, councils",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_08_23",
+    "question_number": 23,
+    "question": "Which sect of the age of the Buddha, led by Makkhali Gosala, held that everything is pre-determined by niyati (fate)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Lokayata (Charvaka)"
+      },
+      {
+        "key": "b",
+        "text": "Jainism"
+      },
+      {
+        "key": "c",
+        "text": "Ajivika"
+      },
+      {
+        "key": "d",
+        "text": "Theravada"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The Ajivikas were fatalists. Ashoka and Dasharatha gifted them the Barabar and Nagarjuni caves. The Lokayatas (cf. Ajita Kesakambalin) were materialists.",
+    "subject": "Ancient History",
+    "theme": "Ancient History - TN Class 11: Rise of Territorial Kingdoms and New Religious Sects + Emergence of State and Empire (Pass-2 revision round)",
+    "micro_topic": "Ajivikas",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_08_24",
+    "question_number": 24,
+    "question": "Consider the following statements:\n1. Gandhara appears among the provinces of the Achaemenid empire in the inscriptions of Darius I.\n2. The Kharosthi script, written from right to left, developed from the Aramaic script used in the Achaemenid empire.\n3. Alexander defeated Porus in 326 BCE in a battle fought on the banks of the Chenab.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The Battle of the Hydaspes was fought on the Jhelum. Persian contact also gave India Kharosthi and, plausibly, the model of royal edicts.",
+    "subject": "Ancient History",
+    "theme": "Ancient History - TN Class 11: Rise of Territorial Kingdoms and New Religious Sects + Emergence of State and Empire (Pass-2 revision round)",
+    "micro_topic": "Persian and Macedonian contacts",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_08_25",
+    "question_number": 25,
+    "question": "With reference to Megasthenes, consider the following statements:\n1. He was the envoy of Seleucus Nicator at the court of Chandragupta Maurya at Pataliputra.\n2. His Indica survives only in fragments quoted by later classical writers such as Strabo, Diodorus and Arrian.\n3. He described Indian society as divided into seven classes.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All correct. His 'seven castes' (philosophers, farmers, soldiers, herdsmen, artisans, magistrates, councillors) were occupational groups, not varnas.",
+    "subject": "Ancient History",
+    "theme": "Ancient History - TN Class 11: Rise of Territorial Kingdoms and New Religious Sects + Emergence of State and Empire (Pass-2 revision round)",
+    "micro_topic": "Megasthenes and the Indica",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_08_26",
+    "question_number": 26,
+    "question": "Consider the following statements:\n1. The text of Kautilya's Arthashastra was discovered and published by R. Shamasastry in the early twentieth century.\n2. The Arthashastra's saptanga theory describes the state as having seven limbs.\n3. In the Arthashastra, the samaharta is the chief collector of revenue and the sannidhata the chief custodian of the treasury.\n4. The office of dhamma-mahamatta was created by Chandragupta Maurya.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "1, 2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "3 and 4 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Ashoka created the dhamma-mahamattas in his 13th regnal year (Rock Edict V). Shamasastry found the manuscript in 1905 and published the text in 1909.",
+    "subject": "Ancient History",
+    "theme": "Ancient History - TN Class 11: Rise of Territorial Kingdoms and New Religious Sects + Emergence of State and Empire (Pass-2 revision round)",
+    "micro_topic": "Arthashastra and Mauryan officials",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_08_27",
+    "question_number": 27,
+    "question": "With reference to the Ashokan inscriptions, consider the following statements:\n1. The Maski minor rock edict refers to the king by the name 'Ashoka', and not only as Devanampiya Piyadasi.\n2. Major Rock Edict XIII names contemporary Hellenistic kings, including Antiochus.\n3. At Dhauli and Jaugada, the Separate Kalinga Edicts appear in place of Major Rock Edicts XI to XIII.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1, 2 and 3"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1 only"
+      }
+    ],
+    "answer": "a",
+    "explanation": "All correct. The name also appears in the Gujarra, Nittur and Udegolam edicts. RE XIII (the Kalinga remorse edict) names Antiochus II, Ptolemy II, Antigonus, Magas and Alexander. The Kalinga edicts address the frontier people and officials.",
+    "subject": "Ancient History",
+    "theme": "Ancient History - TN Class 11: Rise of Territorial Kingdoms and New Religious Sects + Emergence of State and Empire (Pass-2 revision round)",
+    "micro_topic": "Ashokan edicts - Maski, RE XIII, Kalinga edicts",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_08_28",
+    "question_number": 28,
+    "question": "Consider the following statements about semiconductors:\n1. Adding a small amount of phosphorus to pure silicon produces an n-type semiconductor.\n2. Adding a small amount of boron to pure silicon produces a p-type semiconductor.\n3. In a p-type semiconductor, electrons are the majority charge carriers.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Pentavalent dopants (P, As) donate electrons and make n-type. Trivalent dopants (B, Al, Ga) create holes and make p-type, where holes are the majority carriers.",
+    "subject": "Science and Technology",
+    "theme": "Science & Technology - Semiconductors, AI and Cyber security (Pass-2 on F3 pages)",
+    "micro_topic": "Doping - n-type and p-type",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_08_29",
+    "question_number": 29,
+    "question": "With reference to gallium nitride (GaN) and silicon carbide (SiC), consider the following statements:\n1. Both have a wider band gap than silicon.\n2. Their wide band gap lets devices made from them work at higher voltages and temperatures than comparable silicon devices.\n3. The band gap of silicon is about 1.1 eV, while that of GaN is about 3.4 eV.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "1, 2 and 3"
+      },
+      {
+        "key": "c",
+        "text": "2 only"
+      },
+      {
+        "key": "d",
+        "text": "1 and 3 only"
+      }
+    ],
+    "answer": "b",
+    "explanation": "All correct (SiC ~3.3 eV). Hence their use in EV power electronics, fast chargers, 5G/radar RF amplifiers (GaN HEMTs, MMICs) and defence systems.",
+    "subject": "Science and Technology",
+    "theme": "Science & Technology - Semiconductors, AI and Cyber security (Pass-2 on F3 pages)",
+    "micro_topic": "Wide-band-gap semiconductors (GaN, SiC)",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_08_30",
+    "question_number": 30,
+    "question": "Efficient blue light-emitting diodes, which made bright, energy-saving white LED lighting possible and won the 2014 Nobel Prize in Physics, are based on:",
+    "options": [
+      {
+        "key": "a",
+        "text": "gallium nitride"
+      },
+      {
+        "key": "b",
+        "text": "gallium arsenide"
+      },
+      {
+        "key": "c",
+        "text": "germanium"
+      },
+      {
+        "key": "d",
+        "text": "amorphous silicon"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Akasaki, Amano and Nakamura made efficient blue LEDs from GaN. White LEDs use a blue LED plus a phosphor.",
+    "subject": "Science and Technology",
+    "theme": "Science & Technology - Semiconductors, AI and Cyber security (Pass-2 on F3 pages)",
+    "micro_topic": "Blue LED - 2014 Physics Nobel",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_08_31",
+    "question_number": 31,
+    "question": "Consider the following pairs:\nTerm (large language models) : Meaning\n1. Parameters : The weights a model learns during training\n2. Token : A unit of text, such as a word or part of a word, that the model processes\n3. Inference : The process of training a model on a large dataset\n4. Hallucination : Fluent output that is factually wrong or unsupported\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "Only three"
+      },
+      {
+        "key": "d",
+        "text": "All four"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Inference means using a trained model to produce outputs, which is the stage where on-device (edge) AI matters. Training is the costly, compute-heavy stage.",
+    "subject": "Science and Technology",
+    "theme": "Science & Technology - Semiconductors, AI and Cyber security (Pass-2 on F3 pages)",
+    "micro_topic": "LLM vocabulary",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_08_32",
+    "question_number": 32,
+    "question": "Consider the following pairs:\nType of machine learning : Feature\n1. Supervised learning : Learns from labelled input-output examples\n2. Unsupervised learning : Finds patterns or clusters in unlabelled data\n3. Reinforcement learning : An agent learns by trial and error through rewards and penalties\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "None"
+      },
+      {
+        "key": "d",
+        "text": "All three"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All three are standard definitions. LLMs combine self-supervised pre-training with reinforcement learning from human feedback (RLHF).",
+    "subject": "Science and Technology",
+    "theme": "Science & Technology - Semiconductors, AI and Cyber security (Pass-2 on F3 pages)",
+    "micro_topic": "Types of machine learning",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_08_33",
+    "question_number": 33,
+    "question": "Consider the following pairs:\nTerm : Description\n1. Ransomware : Malware that encrypts a victim's data and demands payment for the key\n2. Phishing : Deceptive messages designed to steal credentials or install malware\n3. Distributed Denial of Service (DDoS) : Overwhelming a service with traffic from many compromised machines\n4. Zero-day : A vulnerability for which a patch has already been widely deployed\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "Only three"
+      },
+      {
+        "key": "d",
+        "text": "All four"
+      }
+    ],
+    "answer": "c",
+    "explanation": "A zero-day is a flaw unknown to, or not yet patched by, the vendor, so defenders have had 'zero days' to fix it.",
+    "subject": "Science and Technology",
+    "theme": "Science & Technology - Semiconductors, AI and Cyber security (Pass-2 on F3 pages)",
+    "micro_topic": "Cyber-attack vocabulary",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_08_34",
+    "question_number": 34,
+    "question": "With reference to the CERT-In Directions of 28 April 2022, consider the following statements:\n1. Specified cyber incidents must be reported to CERT-In within 6 hours of being noticed.\n2. Service providers and other covered entities must maintain logs of their ICT systems for a rolling period of 180 days within Indian jurisdiction.\n3. The Directions were issued under Section 70B(6) of the Information Technology Act, 2000.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1, 2 and 3"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 only"
+      },
+      {
+        "key": "d",
+        "text": "1 and 3 only"
+      }
+    ],
+    "answer": "a",
+    "explanation": "All correct. CERT-In is the national nodal agency under s.70B. Critical information infrastructure falls under NCIIPC (s.70A).",
+    "subject": "Science and Technology",
+    "theme": "Science & Technology - Semiconductors, AI and Cyber security (Pass-2 on F3 pages)",
+    "micro_topic": "CERT-In Directions of April 2022",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_08_35",
+    "question_number": 35,
+    "question": "With reference to the Digital Personal Data Protection Act, 2023, consider the following statements:\n1. It provides for the establishment of the Data Protection Board of India.\n2. A 'Data Fiduciary' is the person who determines the purpose and means of processing personal data.\n3. It applies to personal data that the data principal herself has made publicly available.\n4. The Central Government may notify certain Data Fiduciaries as Significant Data Fiduciaries, with additional obligations.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "1, 2 and 4 only"
+      },
+      {
+        "key": "c",
+        "text": "2, 3 and 4 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The Act excludes personal data made publicly available by the data principal. It covers digital personal data, including data collected offline and digitised later.",
+    "subject": "Science and Technology",
+    "theme": "Science & Technology - Semiconductors, AI and Cyber security (Pass-2 on F3 pages)",
+    "micro_topic": "Digital Personal Data Protection Act, 2023",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_08_36",
+    "question_number": 36,
+    "question": "The ceasefire line in Jammu and Kashmir that came after the first India-Pakistan war, monitored by the UN Military Observer Group in India and Pakistan (UNMOGIP), was laid down by the:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Tashkent Declaration, 1966"
+      },
+      {
+        "key": "b",
+        "text": "Shimla Agreement, 1972"
+      },
+      {
+        "key": "c",
+        "text": "Lahore Declaration, 1999"
+      },
+      {
+        "key": "d",
+        "text": "Karachi Agreement, 1949"
+      }
+    ],
+    "answer": "d",
+    "explanation": "The Karachi Agreement (July 1949) drew the Cease-Fire Line. The Shimla Agreement (1972) turned it into the Line of Control on bilateral terms, and India has since treated UNMOGIP as having outlived its relevance.",
+    "subject": "International Relations",
+    "theme": "International Relations - India-Pakistan with the Indus Waters Treaty, Ganga Water Treaty contrast, Afghanistan (Pass-2 revision round)",
+    "micro_topic": "Karachi Agreement 1949 - ceasefire line",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_08_37",
+    "question_number": 37,
+    "question": "With reference to the Indus Waters Treaty, 1960, consider the following statements:\n1. It was signed at Karachi by Jawaharlal Nehru and Ayub Khan.\n2. The World Bank is also a signatory to the Treaty, for specified purposes.\n3. The Treaty allows either party to terminate it unilaterally by giving one year's notice.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Article XII(4) keeps the Treaty in force until it is ended by a duly ratified treaty between the two governments, so there is no unilateral exit clause. That is why India's April 2025 step after Pahalgam was framed as holding the Treaty 'in abeyance'.",
+    "subject": "International Relations",
+    "theme": "International Relations - India-Pakistan with the Indus Waters Treaty, Ganga Water Treaty contrast, Afghanistan (Pass-2 revision round)",
+    "micro_topic": "Indus Waters Treaty - signing and termination clause",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_08_38",
+    "question_number": 38,
+    "question": "Consider the following pairs:\nProject : River/water body\n1. Kishanganga Hydroelectric Project : Kishanganga (Neelum), a tributary of the Jhelum\n2. Ratle Hydroelectric Project : Chenab\n3. Tulbul Navigation Project : Wular Lake on the Jhelum\n4. Baglihar Hydroelectric Project : Ravi\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "Only three"
+      },
+      {
+        "key": "d",
+        "text": "All four"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Baglihar is on the Chenab (a 2007 neutral expert decision). Kishanganga, Ratle and Tulbul are all on western rivers, which is why they were disputed under the IWT.",
+    "subject": "International Relations",
+    "theme": "International Relations - India-Pakistan with the Indus Waters Treaty, Ganga Water Treaty contrast, Afghanistan (Pass-2 revision round)",
+    "micro_topic": "Indus-system projects and rivers",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_08_39",
+    "question_number": 39,
+    "question": "With reference to the Indus Waters Kishenganga Arbitration (Pakistan v. India), consider the following statements:\n1. The Court of Arbitration allowed India to divert water from the Kishanganga for power generation.\n2. Its Final Award (December 2013) required India to maintain a minimum flow of 9 cumecs downstream of the project.\n3. The case was decided by the International Court of Justice.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "It was a Court of Arbitration under Annexure G of the IWT, administered by the Permanent Court of Arbitration at The Hague, not the ICJ. The Partial Award came in February 2013 and the Final Award in December 2013.",
+    "subject": "International Relations",
+    "theme": "International Relations - India-Pakistan with the Indus Waters Treaty, Ganga Water Treaty contrast, Afghanistan (Pass-2 revision round)",
+    "micro_topic": "Kishanganga arbitration (2013)",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_08_40",
+    "question_number": 40,
+    "question": "With reference to the Ganga Water Treaty between India and Bangladesh, consider the following statements:\n1. It was signed in December 1996 for a period of thirty years.\n2. It governs the sharing of Ganga waters at Farakka during the lean season (1 January to 31 May).\n3. The India-Bangladesh Joint Rivers Commission was created under this Treaty.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1, 2 and 3"
+      },
+      {
+        "key": "d",
+        "text": "1 and 2 only"
+      }
+    ],
+    "answer": "d",
+    "explanation": "The Joint Rivers Commission dates from 1972. Unlike the IWT, the Ganga Treaty has a fixed 30-year term and so comes up for renewal (Dec 2026). The Teesta agreement remains unsigned.",
+    "subject": "International Relations",
+    "theme": "International Relations - India-Pakistan with the Indus Waters Treaty, Ganga Water Treaty contrast, Afghanistan (Pass-2 revision round)",
+    "micro_topic": "Ganga Water Treaty, 1996",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_08_41",
+    "question_number": 41,
+    "question": "The Durand Line, drawn in 1893, demarcates the boundary between:",
+    "options": [
+      {
+        "key": "a",
+        "text": "India and China in the western sector"
+      },
+      {
+        "key": "b",
+        "text": "Afghanistan and present-day Pakistan"
+      },
+      {
+        "key": "c",
+        "text": "Afghanistan and Tajikistan"
+      },
+      {
+        "key": "d",
+        "text": "Pakistan and Iran"
+      }
+    ],
+    "answer": "b",
+    "explanation": "It was agreed between Sir Mortimer Durand and Amir Abdur Rahman Khan. Afghanistan has never formally accepted it as an international border.",
+    "subject": "International Relations",
+    "theme": "International Relations - India-Pakistan with the Indus Waters Treaty, Ganga Water Treaty contrast, Afghanistan (Pass-2 revision round)",
+    "micro_topic": "Durand Line",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_08_42",
+    "question_number": 42,
+    "question": "Consider the following pairs:\nPlace : Description\n1. Wakhan Corridor : Strip of Afghan territory separating Tajikistan from Pakistan and touching China\n2. Zaranj : Afghan town on the Iran border, linked to Delaram by an India-built road\n3. Chabahar : Iranian port on the Gulf of Oman, in Sistan-Baluchestan\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "All three"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "Only one"
+      },
+      {
+        "key": "d",
+        "text": "None"
+      }
+    ],
+    "answer": "a",
+    "explanation": "All correct. The Zaranj-Delaram road (BRO, 2009) and Chabahar together give India access to Afghanistan that bypasses Pakistan.",
+    "subject": "International Relations",
+    "theme": "International Relations - India-Pakistan with the Indus Waters Treaty, Ganga Water Treaty contrast, Afghanistan (Pass-2 revision round)",
+    "micro_topic": "Afghanistan - geography and access routes",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_08_43",
+    "question_number": 43,
+    "question": "Match List-I with List-II:\nList-I (Discontinuity) : List-II (Boundary between)\nA. Conrad : 1. Mantle and core\nB. Mohorovicic : 2. Outer core and inner core\nC. Gutenberg : 3. Upper and lower crust\nD. Lehmann : 4. Crust and mantle\nSelect the correct answer using the code given below:",
+    "options": [
+      {
+        "key": "a",
+        "text": "A-4, B-3, C-1, D-2"
+      },
+      {
+        "key": "b",
+        "text": "A-3, B-4, C-2, D-1"
+      },
+      {
+        "key": "c",
+        "text": "A-3, B-4, C-1, D-2"
+      },
+      {
+        "key": "d",
+        "text": "A-1, B-4, C-3, D-2"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Conrad: upper/lower crust. Moho: crust/mantle. Gutenberg (~2,900 km): mantle/core. Lehmann (~5,150 km): outer/inner core.",
+    "subject": "Geography",
+    "theme": "Geography - NCERT-11 Physical Geography Ch 1-4 + G.C. Leong: origin and interior of the Earth, drift to plate tectonics (Pass-2)",
+    "micro_topic": "Discontinuities in the Earth's interior",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_08_44",
+    "question_number": 44,
+    "question": "Consider the following statements about earthquake waves:\n1. P-waves can travel through solids, liquids and gases.\n2. S-waves can travel only through solids.\n3. Surface waves are the last to be recorded on a seismograph and are the most destructive.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All correct. P-waves are longitudinal and fastest. S-waves are transverse. Surface waves form when body waves meet surface rocks.",
+    "subject": "Geography",
+    "theme": "Geography - NCERT-11 Physical Geography Ch 1-4 + G.C. Leong: origin and interior of the Earth, drift to plate tectonics (Pass-2)",
+    "micro_topic": "Body and surface waves",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_08_45",
+    "question_number": 45,
+    "question": "Consider the following statements:\n1. S-waves are not recorded at any seismograph located beyond about 105° from the epicentre.\n2. The shadow zone of P-waves is a band between about 105° and 145° from the epicentre.\n3. The absence of S-waves beyond about 105° is evidence that the outer core is liquid.\n4. The shadow zone of S-waves is smaller than that of P-waves.\nHow many of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "Only three"
+      },
+      {
+        "key": "d",
+        "text": "All four"
+      }
+    ],
+    "answer": "c",
+    "explanation": "1-3 are correct. The S-wave shadow zone is much larger: it covers more than 40% of the Earth's surface, everything beyond 105°.",
+    "subject": "Geography",
+    "theme": "Geography - NCERT-11 Physical Geography Ch 1-4 + G.C. Leong: origin and interior of the Earth, drift to plate tectonics (Pass-2)",
+    "micro_topic": "Shadow zones",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_08_46",
+    "question_number": 46,
+    "question": "In Alfred Wegener's continental drift theory (1912), the single mega-ocean that surrounded the super-continent Pangaea was called:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Panthalassa"
+      },
+      {
+        "key": "b",
+        "text": "Tethys"
+      },
+      {
+        "key": "c",
+        "text": "Gondwana"
+      },
+      {
+        "key": "d",
+        "text": "Laurasia"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Pangaea broke into Laurasia (north) and Gondwanaland (south). The Tethys lay between them, and Panthalassa was the universal ocean.",
+    "subject": "Geography",
+    "theme": "Geography - NCERT-11 Physical Geography Ch 1-4 + G.C. Leong: origin and interior of the Earth, drift to plate tectonics (Pass-2)",
+    "micro_topic": "Continental drift - Pangaea",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_08_47",
+    "question_number": 47,
+    "question": "Which of the following were offered as evidence in support of continental drift?\n1. Tillite (glacial) deposits of similar age found in India and other southern continents\n2. Placer gold deposits on the Ghana coast whose source rocks lie in Brazil\n3. Fossils of Mesosaurus found only in South Africa and Brazil\n4. Symmetrical bands of magnetic reversals on either side of mid-oceanic ridges\nSelect the correct answer using the code given below:",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "1, 2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "3 and 4 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Palaeomagnetic striping was found in the post-war ocean-floor mapping and underpins sea-floor spreading (Hess), not Wegener's drift. The jigsaw fit was another of Wegener's lines of evidence.",
+    "subject": "Geography",
+    "theme": "Geography - NCERT-11 Physical Geography Ch 1-4 + G.C. Leong: origin and interior of the Earth, drift to plate tectonics (Pass-2)",
+    "micro_topic": "Evidence for continental drift",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_08_48",
+    "question_number": 48,
+    "question": "With reference to the concept of sea-floor spreading, consider the following statements:\n1. It was proposed by Harry Hess in the early 1960s.\n2. The rocks of the ocean floor are much younger than the continental rocks, and nowhere older than about 200 million years.\n3. Sediments on the ocean floor are thinner near the mid-oceanic ridges.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All correct. Rocks get older away from the ridge crests. These observations led to plate tectonics in the late 1960s.",
+    "subject": "Geography",
+    "theme": "Geography - NCERT-11 Physical Geography Ch 1-4 + G.C. Leong: origin and interior of the Earth, drift to plate tectonics (Pass-2)",
+    "micro_topic": "Sea-floor spreading",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_08_49",
+    "question_number": 49,
+    "question": "Consider the following pairs:\nFeature : Type of plate boundary\n1. Mid-Atlantic Ridge : Divergent\n2. San Andreas Fault : Transform\n3. Himalaya : Ocean-continent convergence\n4. Andes : Ocean-continent convergence\nWhich of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1, 2 and 4 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "3 and 4 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The Himalaya arose from continent-continent collision (Indian and Eurasian plates). The Andes come from the Nazca plate subducting under South America.",
+    "subject": "Geography",
+    "theme": "Geography - NCERT-11 Physical Geography Ch 1-4 + G.C. Leong: origin and interior of the Earth, drift to plate tectonics (Pass-2)",
+    "micro_topic": "Plate boundaries - examples",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_08_50",
+    "question_number": 50,
+    "question": "Consider the following statements about the Indian plate:\n1. Its collision with the Eurasian plate began about 40-50 million years ago.\n2. The Himalaya are still rising.\n3. Along the Himalaya, the Indian plate has a convergent boundary with the Eurasian plate.\n4. The Indian plate is now moving southwards, away from Eurasia.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "1, 2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 4 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The plate is still moving north (roughly 4-5 cm a year), so the Himalaya keep rising and the region stays seismically active. Before the collision, the Deccan Traps erupted (about 60-65 million years ago).",
+    "subject": "Geography",
+    "theme": "Geography - NCERT-11 Physical Geography Ch 1-4 + G.C. Leong: origin and interior of the Earth, drift to plate tectonics (Pass-2)",
+    "micro_topic": "Movement of the Indian plate",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  }
+]

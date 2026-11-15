@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to Exercise Sea Vigil-26, consider the statements:\n1. It is the fifth edition of the Pan-India Coastal Defence Exercise coordinated by the Indian Navy.\n2. It covers the entire coastline and Exclusive Economic Zone, with all coastal states and UTs participating.\n3. It is conducted exclusively by the Indian Coast Guard.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Sea Vigil-26 (11-19 Nov 2026) is the 5th edition, Navy-coordinated, spanning the whole coastline/EEZ with all coastal states/UTs; it is not Coast Guard-exclusive.",
+    "subject": "Internal Security",
+    "theme": "Coastal & maritime security",
+    "micro_topic": "Exercise Sea Vigil",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Production Linked Incentive (PLI) scheme for medical devices, consider the statements:\n1. It is administered by the Department of Pharmaceuticals.\n2. It has been extended up to 2035-36 with an outlay of about ₹2,700 crore.\n3. The revised scheme retains a minimum sales threshold for claiming incentives.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "DoP administers the scheme, now extended to 2035-36 (~₹2,700 crore); the minimum sales threshold has been dropped.",
+    "subject": "Economy",
+    "theme": "Industrial policy",
+    "micro_topic": "PLI scheme for medical devices",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to Janjatiya Gaurav Diwas, consider the statements:\n1. It is observed on 15 November, the birth anniversary of Birsa Munda, and was designated in 2021.\n2. Birsa Munda is associated with the Ulgulan (Munda rebellion).\n3. The National FRA Digital Platform is run by the Ministry of Environment, Forest and Climate Change.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Designated in 2021 for 15 Nov; Birsa Munda led the Ulgulan; the Forest Rights Act platform is supported by the Ministry of Tribal Affairs (FRA nodal ministry), not MoEFCC.",
+    "subject": "Society",
+    "theme": "Tribal welfare & history",
+    "micro_topic": "Janjatiya Gaurav Diwas / Forest Rights Act",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]

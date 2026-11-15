@@ -1,0 +1,114 @@
+[
+ {
+  "question": "With reference to the Supreme Court's recent proceedings on 'digital arrest' scams, consider the following statements:\n1. The Court has proposed strict liability on financial institutions where the fraud resulted from the failure of their due diligence.\n2. The matter is being heard by the Court on its own motion.\n3. RBI has already notified binding compensation rules that came into force on 1 November 2026.\nWhich of the statements given above is/are correct?",
+  "options": [
+   "(a) 1 only",
+   "(b) 1 and 2 only",
+   "(c) 2 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(b)",
+  "explanation": "Statements 1 and 2 are correct: the bench proposed strict liability for due-diligence failures in a suo motu case. Statement 3 is wrong: the AG said RBI measures are likely operational by December.",
+  "subject": "Internal Security",
+  "theme": "Cyber Crime & Judiciary",
+  "micro_topic": "SC digital arrest case: bank strict liability",
+  "nature": "Current Affairs",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "With reference to the ADMM-Plus, in the news recently, consider the following statements:\n1. Its inaugural meeting was held in Hanoi in 2010.\n2. India co-chairs its Experts' Working Group on Counter-Terrorism with Malaysia for 2024–27.\n3. It meets once every three years.\nWhich of the statements given above is/are correct?",
+  "options": [
+   "(a) 1 only",
+   "(b) 2 and 3 only",
+   "(c) 1 and 2 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(c)",
+  "explanation": "Statements 1 and 2 are correct. ADMM-Plus has met annually since 2017, so statement 3 is wrong.",
+  "subject": "International Relations",
+  "theme": "ASEAN & Act East",
+  "micro_topic": "13th ADMM-Plus, India's counter-terrorism EWG role",
+  "nature": "Current Affairs",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "With reference to India's government cloud initiatives, consider the following statements:\n1. MeghRaj is the cloud initiative of the Ministry of Electronics and Information Technology.\n2. The IndiaAI Mission has an approved outlay of ₹10,371.92 crore.\n3. The Cloud Selection Framework issued in March 2026 gives priority to private foreign hyperscalers over NIC and State Data Centres.\nWhich of the statements given above is/are correct?",
+  "options": [
+   "(a) 1 only",
+   "(b) 1 and 2 only",
+   "(c) 2 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(b)",
+  "explanation": "MeghRaj is MeitY's cloud initiative and IndiaAI's outlay is ₹10,371.92 crore. The framework prioritises NIC and State Data Centres, so statement 3 is wrong.",
+  "subject": "Science & Technology",
+  "theme": "Digital Infrastructure",
+  "micro_topic": "MeghRaj, IndiaAI Mission, Cloud Selection Framework",
+  "nature": "Current Affairs",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "With reference to hanging glaciers in the Himalaya, consider the following statements:\n1. They are ice masses perched on steep slopes that can break off as ice avalanches.\n2. They pose a hazard only through meltwater, and never through avalanches.\n3. The Alaknanda and Bhagirathi rivers meet at Devprayag to form the Ganga.\nWhich of the statements given above is/are correct?",
+  "options": [
+   "(a) 1 only",
+   "(b) 2 only",
+   "(c) 1 and 3 only",
+   "(d) 2 and 3 only"
+  ],
+  "answer": "(c)",
+  "explanation": "Hanging glaciers detach as avalanches and can trigger secondary floods, so statement 2 is wrong. Alaknanda and Bhagirathi meet at Devprayag.",
+  "subject": "Geography",
+  "theme": "Himalayan Glaciology & Hazards",
+  "micro_topic": "Hanging glaciers, Alaknanda basin exposure study",
+  "nature": "Current Affairs",
+  "difficulty": "Easy"
+ },
+ {
+  "question": "With reference to the National Clean Air Programme (NCAP) and air-quality norms in India, consider the following statements:\n1. NCAP was launched in 2019 and targets 130 cities.\n2. The annual national ambient standard for PM10 is 60 µg/m³.\n3. NCAP's city-wise reduction targets are statutorily binding under the Air Act, 1981.\nWhich of the statements given above is/are correct?",
+  "options": [
+   "(a) 1 only",
+   "(b) 3 only",
+   "(c) 2 and 3 only",
+   "(d) 1 and 2 only"
+  ],
+  "answer": "(d)",
+  "explanation": "NCAP covers 130 cities and the PM10 annual standard is 60 µg/m³. NCAP targets are non-binding and have no statutory backing.",
+  "subject": "Environment",
+  "theme": "Air Pollution Governance",
+  "micro_topic": "NCAP, NAAQS, Swachh Vayu Sarvekshan",
+  "nature": "Current Affairs",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "Which provision of the Information Technology Act, 2000 punishes cheating by personation by using a computer resource?",
+  "options": [
+   "(a) Section 66B",
+   "(b) Section 66C",
+   "(c) Section 66D",
+   "(d) Section 66F"
+  ],
+  "answer": "(c)",
+  "explanation": "Section 66D punishes cheating by personation using a computer resource. 66B is dishonestly receiving a stolen computer resource, 66C identity theft, 66F cyber terrorism.",
+  "subject": "Science & Technology",
+  "theme": "Cyber Law",
+  "micro_topic": "IT Act 2000 Section 66D",
+  "nature": "Factual",
+  "difficulty": "Hard"
+ },
+ {
+  "question": "Consider the following pairs of confluences ('Prayags') in Uttarakhand:\n1. Vishnuprayag — Alaknanda and Dhauliganga\n2. Rudraprayag — Alaknanda and Mandakini\n3. Nandprayag — Alaknanda and Mandakini\nHow many of the pairs given above are correctly matched?",
+  "options": [
+   "(a) Only one",
+   "(b) Only two",
+   "(c) All three",
+   "(d) None"
+  ],
+  "answer": "(b)",
+  "explanation": "Pairs 1 and 2 are correct. Nandprayag is the confluence of the Alaknanda and the Nandakini.",
+  "subject": "Geography",
+  "theme": "Himalayan Drainage",
+  "micro_topic": "Panch Prayag confluences",
+  "nature": "Factual",
+  "difficulty": "Moderate"
+ }
+]

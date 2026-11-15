@@ -1,0 +1,50 @@
+[
+ {
+  "question": "Consider the following statements about the India S&T Scoreboard launched in November 2026:\n1. It was launched by NITI Aayog and maps science and innovation performance across States and Union Territories.\n2. It allows comparison of any two States/UTs.\n3. It is published by the Ministry of Education as part of NIRF.\nWhich of the statements given above is/are correct?",
+  "options": [
+   "(a) 1 only",
+   "(b) 1 and 2 only",
+   "(c) 2 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(b)",
+  "explanation": "The Scoreboard is a NITI Aayog (S&T Division) platform with state profiles and two-state comparison; it is not a Ministry of Education/NIRF product.",
+  "subject": "Science & Technology",
+  "theme": "S&T Governance",
+  "micro_topic": "NITI Aayog India S&T Scoreboard",
+  "nature": "Current Affairs",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "The Ministry of Culture recently signed an MoU with Google Arts & Culture. Which of the following is NOT within its stated scope?",
+  "options": [
+   "(a) Heritage protected by the Archaeological Survey of India",
+   "(b) Manuscripts documented under Gyan Bharatam",
+   "(c) Planned Yuge Yugeen Bharat Museum in the North and South Blocks",
+   "(d) Digitisation of the Indian Parliament's legislative records"
+  ],
+  "answer": "(d)",
+  "explanation": "The MoU covers ASI heritage, museum collections, Gyan Bharatam manuscripts, crafts/performing arts and the Yuge Yugeen Bharat Museum; parliamentary records are not part of it.",
+  "subject": "Art & Culture",
+  "theme": "Heritage Digitisation",
+  "micro_topic": "Culture Ministry–Google Arts & Culture MoU",
+  "nature": "Current Affairs",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "The 9th Session of the International Solar Alliance Assembly was held alongside which event in November 2026?",
+  "options": [
+   "(a) Global Renewable Energy Investors Meet, Gandhinagar",
+   "(b) Bharat Renewable Energy (BRE) Summit & Expo, New Delhi",
+   "(c) World Hydropower Congress, Mumbai",
+   "(d) COP31 side events, Antalya"
+  ],
+  "answer": "(b)",
+  "explanation": "MNRE's BRE Summit & Expo (2–5 Nov, Bharat Mandapam) co-hosted the ISA's 9th Assembly session and the 4th International Conference on Green Hydrogen.",
+  "subject": "Environment",
+  "theme": "Renewable Energy",
+  "micro_topic": "BRE Summit 2026, ISA Assembly",
+  "nature": "Current Affairs",
+  "difficulty": "Easy"
+ }
+]

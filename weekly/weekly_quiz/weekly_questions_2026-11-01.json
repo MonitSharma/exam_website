@@ -1,0 +1,242 @@
+[
+  {
+    "question": "With reference to the Frontier Nagaland Territorial Authority (FNTA), consider the following statements:\n1. It covers six eastern districts of Nagaland, including Tuensang and Mon.\n2. The FNTA Bill was enacted by Parliament under Article 371A.\n3. The Authority came into force on the President's assent to the Bill.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "The FNTA covers Tuensang, Mon, Longleng, Kiphire, Noklak and Shamator. The Bill was passed by the Nagaland Assembly (3 Sept 2026) and received Presidential assent; it is a State law, not an Act of Parliament. It awaits a State Gazette notification, so it is not yet in force.",
+    "subject": "Polity & Governance",
+    "theme": "Federalism & Special Provisions",
+    "micro_topic": "FNTA: six eastern Nagaland districts, State law with Presidential assent, awaits Gazette notification",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to NavIC, consider the following statements:\n1. Its primary service area extends to about 1,500 km beyond India's boundary.\n2. All its satellites are in Medium Earth Orbit, like GPS.\n3. The NVS-03 satellite adds an L1 signal to the system.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "NavIC is a regional system covering about 1,500 km beyond India. Its satellites are in geostationary and inclined geosynchronous orbits, not MEO (GPS uses MEO). NVS-03, launched on GSLV-F18 on 30 Oct 2026, adds L1 to the L5 and S-band signals.",
+    "subject": "Science & Technology",
+    "theme": "Space Technology",
+    "micro_topic": "NavIC service area, GEO/GSO orbits vs GPS MEO, NVS-03 L1 signal",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements:\n1. Primary deficit equals fiscal deficit minus interest payments.\n2. Monthly accounts of the Union Government are compiled by the Controller General of Accounts.\n3. Borrowings are counted as receipts when the fiscal deficit is computed.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Fiscal deficit = total expenditure minus total receipts excluding borrowings, so statement 3 is wrong. Primary deficit = fiscal deficit minus interest payments. The CGA (Department of Expenditure) compiles the monthly accounts; H1 FY27 deficit was 42.1% of the BE.",
+    "subject": "Economy",
+    "theme": "Fiscal Policy & Budget",
+    "micro_topic": "Fiscal vs primary deficit, CGA monthly accounts, H1 FY27 42.1% of BE",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the naming of tropical cyclones over the North Indian Ocean, consider the following statements:\n1. Names are proposed by member countries of the WMO/ESCAP Panel on Tropical Cyclones.\n2. The Regional Specialised Meteorological Centre, New Delhi, assigns the names.\n3. A name is reused after a fixed cycle of years.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Member countries of the WMO/ESCAP Panel on Tropical Cyclones propose names, and RSMC New Delhi (IMD) assigns them in sequence. A name, once used, is not repeated. Cyclone Arnab made landfall near Narsapur on 28 Oct 2026.",
+    "subject": "Geography",
+    "theme": "Climatology & Disasters",
+    "micro_topic": "Cyclone naming: WMO/ESCAP PTC, RSMC New Delhi, names not reused (Cyclone Arnab)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements:\n1. The ADMM-Plus brings together ASEAN defence ministers and eight dialogue partners, including India.\n2. India became a full dialogue partner of ASEAN in 1996.\n3. The ADMM-Plus has met every year since its first meeting in 2010.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "ADMM-Plus = ASEAN + 8 (Australia, China, India, Japan, New Zealand, ROK, Russia, USA). India: sectoral partner 1992, full dialogue partner 1996. ADMM-Plus first met in Hanoi in 2010 and has met annually only since 2017. The 13th meeting was in Cebu (28-29 Oct 2026).",
+    "subject": "International Relations",
+    "theme": "India & ASEAN / Act East",
+    "micro_topic": "ADMM-Plus membership, India full dialogue partner 1996, annual only since 2017",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the cheer pheasant, consider the following statements:\n1. It is listed in Schedule I of the Wild Life (Protection) Act, 1972.\n2. It is classified as Vulnerable on the IUCN Red List.\n3. Its typical habitat is dense tropical evergreen forest in north-east India.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "The cheer pheasant is Schedule I and IUCN Vulnerable. It inhabits steep grassy and scrub slopes of the western Himalaya. Himachal's Khadiyun (Chail) breeding programme reported released-bird survival rising from 11% to 100%.",
+    "subject": "Environment",
+    "theme": "Biodiversity & Species",
+    "micro_topic": "Cheer pheasant: Schedule I, IUCN Vulnerable, western Himalayan grassland, Chail breeding",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements about the Preamble to the Constitution of India:\n1. It has been amended only once, by the 42nd Amendment Act, 1976.\n2. In the Berubari Union case, the Supreme Court held that the Preamble is a part of the Constitution.\n3. In the Kesavananda Bharati case, the Supreme Court held that the Preamble is a part of the Constitution.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Berubari (1960) held the Preamble is not a part of the Constitution. Kesavananda Bharati (1973) held it is a part, and LIC of India (1995) reaffirmed this. The only amendment was the 42nd (1976), adding socialist, secular and integrity.",
+    "subject": "Polity & Governance",
+    "theme": "Constitutional Framework",
+    "micro_topic": "Preamble: Berubari vs Kesavananda vs LIC, amended once by the 42nd Amendment",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to Article 3 of the Constitution of India, which one of the following statements is correct?",
+    "options": [
+      "(a) A Bill to form a new State can be introduced in Parliament only on the recommendation of the President.",
+      "(b) Parliament is bound by the views of the State Legislature to which the Bill is referred.",
+      "(c) A law under Article 3 is an amendment under Article 368 and needs a special majority.",
+      "(d) Such a Bill must be introduced first in the Rajya Sabha."
+    ],
+    "answer": "(a)",
+    "explanation": "An Article 3 Bill needs the President's prior recommendation. The State Legislature's views are not binding. It passes by simple majority and, per Article 4, is not an amendment under Article 368. It can be introduced in either House.",
+    "subject": "Polity & Governance",
+    "theme": "Union and its Territory",
+    "micro_topic": "Article 3 procedure: President's recommendation, State views not binding, Art 4 not Art 368",
+    "nature": "Conceptual",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "GVA at basic prices + product taxes - product subsidies gives:",
+    "options": [
+      "(a) GVA at factor cost",
+      "(b) NDP at market prices",
+      "(c) Gross National Income",
+      "(d) GDP at market prices"
+    ],
+    "answer": "(d)",
+    "explanation": "GDP at market prices = GVA at basic prices + product taxes - product subsidies. GVA at basic prices = GVA at factor cost + production taxes - production subsidies.",
+    "subject": "Economy",
+    "theme": "National Income Accounting",
+    "micro_topic": "GVA factor cost to basic prices to GDP at market prices: production vs product taxes",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following pairs (Harappan site : river):\n1. Harappa : Ravi\n2. Kalibangan : Ghaggar\n3. Lothal : Bhogava\n4. Ropar : Beas\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) Only three",
+      "(d) All four"
+    ],
+    "answer": "(c)",
+    "explanation": "Harappa is on the Ravi, Kalibangan on the Ghaggar, Lothal on the Bhogava. Ropar is on the Sutlej, not the Beas.",
+    "subject": "Ancient & Medieval History",
+    "theme": "Indus Valley Civilisation",
+    "micro_topic": "Harappan sites and rivers: Harappa-Ravi, Kalibangan-Ghaggar, Lothal-Bhogava, Ropar-Sutlej",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements:\n1. In the Rig Vedic period, bali was a voluntary offering made to the chief.\n2. Painted Grey Ware is associated with the Later Vedic phase in the Ganga-Yamuna doab.\n3. The Sabha and the Samiti are mentioned only in Later Vedic texts.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Bali was voluntary in the Rig Vedic period. Painted Grey Ware marks Later Vedic settlements in the doab. The Sabha and Samiti are Rig Vedic assemblies (they continue into the Later Vedic period), so statement 3 is wrong.",
+    "subject": "Ancient & Medieval History",
+    "theme": "Vedic Age",
+    "micro_topic": "Rig Vedic bali, PGW with Later Vedic, Sabha and Samiti already in the Rig Veda",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements:\n1. Under the Paris Agreement, the Global Stocktake is held every five years, and the first was concluded at COP28.\n2. Parties are to communicate NDCs every five years.\n3. The Kyoto Protocol's binding emission targets applied only to Annex B Parties.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "Art 14 Paris: five-yearly Global Stocktake, the first concluded at COP28 (Dubai, 2023). Art 4: NDCs every five years. Kyoto's quantified targets were for Annex B Parties only.",
+    "subject": "Environment",
+    "theme": "Climate Change Governance",
+    "micro_topic": "Paris Global Stocktake (first at COP28), 5-yearly NDCs, Kyoto Annex B targets",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements:\n1. India's Carbon Credit Trading Scheme, 2023 was notified under the Energy Conservation Act, 2001.\n2. The Bureau of Energy Efficiency is the administrator of the Carbon Credit Trading Scheme.\n3. The Green Credit Programme was notified under the Energy Conservation Act, 2001.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 2 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "The CCTS 2023 was notified under the Energy Conservation Act, 2001 (amended 2022), with the BEE as administrator. The Green Credit Programme (2023) was notified under the Environment (Protection) Act, 1986.",
+    "subject": "Environment",
+    "theme": "Climate Change Mitigation (India)",
+    "micro_topic": "CCTS under the Energy Conservation Act with BEE vs Green Credit Programme under EPA 1986",
+    "nature": "Factual",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which one of the following statements about Indian temple architecture is correct?",
+    "options": [
+      "(a) Tall gateways called gopurams are a defining feature of the Nagara style.",
+      "(b) The Vesara style developed in the Deccan and is seen in Hoysala temples.",
+      "(c) The Brihadeeswara temple at Thanjavur is a Nagara temple built by the Chandelas.",
+      "(d) In the Odisha school, the main sanctum is called the vimana."
+    ],
+    "answer": "(b)",
+    "explanation": "Gopurams belong to the Dravida style. Brihadeeswara (Thanjavur) is a Dravida temple built by Rajaraja I Chola. In the Odisha school the sanctum is the deul (vimana is the Dravida term). Vesara is the Deccan hybrid seen under the later Chalukyas and Hoysalas (Belur, Halebidu, Somnathpur).",
+    "subject": "Art & Culture",
+    "theme": "Temple Architecture",
+    "micro_topic": "Nagara vs Dravida vs Vesara: gopuram, deul, Hoysala Vesara, Chola Brihadeeswara",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements regarding India-China relations:\n1. Panchsheel was first set out in the 1954 Agreement on Trade and Intercourse between the Tibet region of China and India.\n2. The two countries signed an agreement on maintaining peace and tranquillity along the LAC in 1993.\n3. The Special Representatives mechanism on the boundary question was set up in 2003.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct: Panchsheel appeared in the 1954 Tibet trade agreement; the Peace and Tranquillity Agreement was signed in 1993; the SR mechanism was created in 2003 during Vajpayee's visit.",
+    "subject": "International Relations",
+    "theme": "India-China Relations",
+    "micro_topic": "India-China agreement ladder: Panchsheel 1954, 1993 peace and tranquillity, 2003 SR mechanism",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  }
+]

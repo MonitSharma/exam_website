@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to ISRO's GSLV-F18/NVS-03 mission, consider the following statements:\n1. NVS-03 adds an L1 signal to the existing L5 and S-band signals of the navigation system.\n2. The satellite carries an indigenous atomic clock along with procured atomic clocks.\n3. The mission was launched from the Satish Dhawan Space Centre, Sriharikota.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct per ISRO's mission page: L1 added to L5/S, indigenous plus procured atomic clocks, launch from Sriharikota.",
+    "subject": "Science & Technology",
+    "theme": "Space and navigation",
+    "micro_topic": "NavIC and NVS-03 / GSLV-F18",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the PM-KISAN scheme, which one of the following is correct?",
+    "options": [
+      "(a) It is a Centrally Sponsored Scheme funded in a 60:40 ratio between the Centre and States.",
+      "(b) It is a Central Sector scheme providing ₹6,000 a year to eligible farmer families in three equal instalments through DBT.",
+      "(c) It provides interest-free crop loans up to ₹3 lakh through cooperative banks.",
+      "(d) It provides ₹6,000 per month as pension to farmers above 60 years."
+    ],
+    "answer": "(b)",
+    "explanation": "PM-KISAN is 100% Centre-funded (Central Sector), ₹6,000 a year in three ₹2,000 instalments via DBT; the pension scheme is PM Kisan Maandhan.",
+    "subject": "Agriculture",
+    "theme": "Farmer income support",
+    "micro_topic": "PM-KISAN features",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Consider the following statements:\n1. Rashtriya Ekta Diwas is observed on 31 October to mark the birth anniversary of Sardar Vallabhbhai Patel.\n2. The Delhi Declaration adopted at the ARISE Cities Forum 2026 is intended to be carried to COP31 in Antalya, Türkiye.\n3. The International Tourism Mart held at Tawang is organised by the Ministry of Culture.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statements 1 and 2 are correct; the International Tourism Mart is a Ministry of Tourism event, not Culture.",
+    "subject": "Environment",
+    "theme": "Urban climate action and national days",
+    "micro_topic": "ARISE Cities Forum, Delhi Declaration",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]

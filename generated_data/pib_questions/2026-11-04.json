@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the Cabinet-approved capex support scheme for critical mineral processing (Nov 2026), consider:\n1. It provides a 30% capital subsidy on eligible investment.\n2. It covers lithium and nickel processing, with cobalt as a by-product.\n3. Beneficiaries are selected through nomination by State governments.\nWhich are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "30% subsidy; lithium/nickel with cobalt by-product; selection via technical qualification and least-cost bidding, not State nomination.",
+    "subject": "Economy",
+    "theme": "Critical Minerals",
+    "micro_topic": "Critical mineral processing capex scheme",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "VISTAR, approved by the Union Cabinet in November 2026, is associated with:",
+    "options": [
+      "(a) Expansion of rural broadband",
+      "(b) Modernisation of the official statistical system",
+      "(c) Digitisation of land records",
+      "(d) Strengthening of cooperative banks"
+    ],
+    "answer": "(b)",
+    "explanation": "VISTAR (Viksit Bharat Initiative for Statistical Transformation, Analytics & Research) is MoSPI's Rs 4,371.10 crore scheme for 2026-27 to 2030-31.",
+    "subject": "Economy",
+    "theme": "Statistics",
+    "micro_topic": "VISTAR / MoSPI",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Regarding Biosphere Reserves in India, which statement is correct?",
+    "options": [
+      "(a) All 18 notified reserves are in UNESCO's World Network",
+      "(b) The Man and the Biosphere Programme was launched in 1971",
+      "(c) Dibru-Saikhowa is the largest by area",
+      "(d) Central funding is 50:50 for all States"
+    ],
+    "answer": "(b)",
+    "explanation": "MAB launched 1971; 13 of 18 reserves are in the World Network; Great Rann of Kutch is largest; funding 60:40 (90:10 for NE/Himalayan States).",
+    "subject": "Environment",
+    "theme": "Protected Areas",
+    "micro_topic": "Biosphere Reserves",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]

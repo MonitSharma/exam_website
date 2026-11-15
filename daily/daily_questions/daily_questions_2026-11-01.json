@@ -1,0 +1,114 @@
+[
+ {
+  "question": "With reference to the G20 foreign ministers' meeting held in Atlanta on 30–31 October 2026, consider the following statements:\n1. The United States holds the G20 presidency and the meeting was hosted by its Secretary of State.\n2. The G20 has a permanent secretariat that carries the agenda from one presidency to the next.\n3. The African Union is a full member of the G20, a status it received at the New Delhi Summit in 2023.\nWhich of the statements given above are correct?",
+  "options": [
+   "(a) 1 only",
+   "(b) 2 and 3 only",
+   "(c) 1 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(c)",
+  "explanation": "1 and 3 are correct. Statement 2 is wrong: the G20 has no permanent secretariat; continuity is kept by the troika (previous, current and next presidencies). The AU was admitted as a permanent member at the 2023 New Delhi Summit under India's presidency.",
+  "subject": "International Relations",
+  "theme": "Global Groupings",
+  "micro_topic": "G20 / US presidency 2026 / Atlanta FMM",
+  "nature": "Current Affairs",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "With reference to the Goods and Services Tax (GST) collections for October 2026, consider the following statements:\n1. Gross GST revenue grew by about 22.9% year-on-year, with revenue from imports growing faster than domestic revenue.\n2. Net GST revenue is gross collections minus refunds.\n3. Total refunds in October 2026 were more than 20% higher than in October 2025.\nWhich of the statements given above are correct?",
+  "options": [
+   "(a) 1 and 2 only",
+   "(b) 2 and 3 only",
+   "(c) 1 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(a)",
+  "explanation": "1 and 2 are correct. Gross GST was about ₹2.31 lakh crore (+22.9%); import revenue rose 42.2% against 15.8% for domestic. Net = gross − refunds (about ₹2.03 lakh crore). Statement 3 is wrong: refunds rose only 6.5% (₹27,934 crore vs ₹26,225 crore).",
+  "subject": "Economy",
+  "theme": "Taxation",
+  "micro_topic": "GST collections October 2026",
+  "nature": "Current Affairs",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "The National Pharmaceutical Pricing Authority (NPPA) recently capped trade margins on 137 anti-cancer medicines. With reference to this, consider the following statements:\n1. The cap of 30% of MRP has been imposed under Paragraph 19 of the Drugs (Prices Control) Order, 2013.\n2. The medicines covered are those listed in the Schedule I (scheduled formulations) of the Drugs (Prices Control) Order.\n3. The NPPA functions under the Department of Pharmaceuticals.\nWhich of the statements given above are correct?",
+  "options": [
+   "(a) 1 only",
+   "(b) 2 and 3 only",
+   "(c) 2 only",
+   "(d) 1 and 3 only"
+  ],
+  "answer": "(d)",
+  "explanation": "1 and 3 are correct. The 137 drugs are NON-scheduled drugs, so statement 2 is wrong: Para 19 lets the government cap margins on non-scheduled drugs in public interest. The cap takes effect from 9 November 2026; a 2019 pilot covered 42 drugs. NPPA is an attached office of the Department of Pharmaceuticals.",
+  "subject": "Society",
+  "theme": "Health Policy",
+  "micro_topic": "NPPA trade-margin cap / DPCO 2013",
+  "nature": "Current Affairs",
+  "difficulty": "Hard"
+ },
+ {
+  "question": "SEBI Chairman recently announced that from 1 November 2026 Direct Plans of mutual funds will be the default option on AMC digital platforms. With reference to Direct and Regular plans, consider the following statements:\n1. A Direct Plan has a lower expense ratio because no distributor commission is built into it.\n2. A Direct Plan and a Regular Plan of the same scheme have the same NAV.\n3. SEBI is a statutory body established under the SEBI Act, 1992.\nWhich of the statements given above are correct?",
+  "options": [
+   "(a) 1 only",
+   "(b) 1 and 3 only",
+   "(c) 2 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(b)",
+  "explanation": "1 and 3 are correct. Statement 2 is wrong: the two plans run separate NAVs because their expense ratios differ, so Direct gives higher returns over time. SEBI was set up administratively in 1988 and given statutory status by the SEBI Act, 1992.",
+  "subject": "Economy",
+  "theme": "Capital Markets",
+  "micro_topic": "SEBI / Direct vs Regular mutual fund plans",
+  "nature": "Current Affairs",
+  "difficulty": "Easy"
+ },
+ {
+  "question": "The Nashik–Trimbakeshwar Simhastha Kumbh began on 31 October 2026. With reference to the Kumbh Mela, consider the following statements:\n1. The Nashik Kumbh is held on the banks of the Godavari.\n2. The Kumbh Mela was inscribed on UNESCO's Representative List of the Intangible Cultural Heritage of Humanity in 2017.\n3. The Kumbh Mela is held every three years at each of its four sites.\nWhich of the statements given above are correct?",
+  "options": [
+   "(a) 1 only",
+   "(b) 2 and 3 only",
+   "(c) 1 and 2 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(c)",
+  "explanation": "1 and 2 are correct. Statement 3 is wrong: the four sites (Prayagraj, Haridwar, Ujjain, Nashik) rotate, so a Kumbh falls at some site roughly every three years, but each site gets its Kumbh once in 12 years (Nashik's last was in 2015).",
+  "subject": "Art & Culture",
+  "theme": "Fairs and Festivals",
+  "micro_topic": "Kumbh Mela / Nashik Simhastha / UNESCO ICH",
+  "nature": "Current Affairs",
+  "difficulty": "Moderate"
+ },
+ {
+  "question": "Consider the following pairs (Kumbh Mela site – River on whose bank it is held):\n1. Ujjain – Kshipra\n2. Nashik – Godavari\n3. Haridwar – Yamuna\nHow many of the pairs given above are correctly matched?",
+  "options": [
+   "(a) None",
+   "(b) Only one pair",
+   "(c) All three pairs",
+   "(d) Only two pairs"
+  ],
+  "answer": "(d)",
+  "explanation": "Pairs 1 and 2 are correct. Haridwar's Kumbh is on the Ganga (Har ki Pauri), not the Yamuna. Prayagraj is at the Ganga–Yamuna–(mythical) Saraswati confluence.",
+  "subject": "Art & Culture",
+  "theme": "Fairs and Festivals",
+  "micro_topic": "Kumbh sites and rivers",
+  "nature": "Factual",
+  "difficulty": "Easy"
+ },
+ {
+  "question": "The Goods and Services Tax Council, which recommends GST rates and rules, is:\n1. Established under Article 279A of the Constitution.\n2. Chaired by the Union Finance Minister.\n3. Required to take decisions by a majority of at least two-thirds of the weighted votes of members present and voting.\nWhich of the statements given above are correct?",
+  "options": [
+   "(a) 1 only",
+   "(b) 1 and 2 only",
+   "(c) 2 and 3 only",
+   "(d) 1, 2 and 3"
+  ],
+  "answer": "(b)",
+  "explanation": "1 and 2 are correct. Statement 3 is wrong: decisions need at least THREE-FOURTHS of the weighted votes of members present and voting (Centre has one-third weight, all States together two-thirds).",
+  "subject": "Polity & Governance",
+  "theme": "Fiscal Federalism",
+  "micro_topic": "GST Council / Article 279A",
+  "nature": "Conceptual",
+  "difficulty": "Moderate"
+ }
+]

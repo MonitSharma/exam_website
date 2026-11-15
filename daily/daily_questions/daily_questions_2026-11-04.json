@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to the Union Cabinet decisions reported on 4 November 2026, consider the following statements:\n1. A viability gap funding scheme targets 92 GWh of grid-scale energy storage, of which 60 GWh is pumped storage.\n2. A critical-minerals processing scheme covers 24 identified critical minerals, from both mined and recycled sources.\n3. A scheme of about ₹4,371 crore is meant to revamp the national statistical system.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct as reported by Minister Ashwini Vaishnaw: 30 GWh battery + 60 GWh pumped storage + 2 GWh emerging technologies; 24 critical minerals (mined and recycled); statistical system revamp ₹4,371 crore. Note: the energy-storage outlay is reported as ₹14,500 crore by most outlets but up to ₹17,500 crore by one, so do not memorise the outlay.",
+    "subject": "Economy",
+    "theme": "Cabinet decisions Nov 2026",
+    "micro_topic": "Grid-scale energy storage VGF, critical minerals processing, statistical revamp",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Ganga Water Treaty between India and Bangladesh, consider the following statements:\n1. It was signed in 1996 and is due to expire in December 2026.\n2. The Joint Rivers Commission is the bilateral mechanism the MEA cites for discussing water-sharing issues.\n3. It also governs the sharing of the Teesta river waters.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 only",
+      "(c) 1 and 2 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "1 and 2 are correct (signed 12 Dec 1996 by Deve Gowda and Sheikh Hasina; MEA spokesperson cited the Joint Rivers Commission on 3 Nov 2026). 3 is wrong: Teesta sharing has never been concluded and is outside this treaty, which deals with Ganga flows at Farakka.",
+    "subject": "International Relations",
+    "theme": "India-Bangladesh water diplomacy",
+    "micro_topic": "Ganga Water Treaty 1996 expiry",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the foundation AI models recently released under the IndiaAI Mission, consider the following statements:\n1. EKA-1, developed by Soket Labs, supports only English and Hindi.\n2. The IndiaAI Mission is implemented under the Ministry of Electronics and Information Technology.\n3. The models are intended to be accessible to researchers and the public through AIKosh.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 3 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "2 and 3 are correct. 1 is wrong: EKA-1 (about 26.3 billion parameters) supports English and all 22 scheduled Indian languages. Dhīr 2B and 5B (ZenteiQ) support English and 10 Indian languages.",
+    "subject": "Science & Technology",
+    "theme": "Artificial Intelligence",
+    "micro_topic": "IndiaAI Mission foundation models EKA-1 and Dhīr",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to Nagaland's demand regarding the Protected Area Permit (PAP) regime, consider the following statements:\n1. The Nagaland government has asked the Centre to withdraw the PAP regime completely, citing its effect on foreign tourist arrivals.\n2. The PAP regime concerns foreign nationals visiting notified border areas and is administered by the Union Ministry of Home Affairs.\n3. The Inner Line Permit, which regulates entry of foreigners, is issued by the Ministry of Home Affairs.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "1 and 2 are correct (Chief Minister Neiphiu Rio raised it with the Home Minister; PAP is a Centre-notified regime for foreigners). 3 is wrong: the Inner Line Permit is for Indian citizens from outside the state and is issued by the state government under the Bengal Eastern Frontier Regulation, 1873.",
+    "subject": "Internal Security",
+    "theme": "Border area regulation",
+    "micro_topic": "Protected Area Permit vs Inner Line Permit, Nagaland",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "With reference to the forthcoming UNFCCC COP31, consider the following statements:\n1. It is scheduled to be held in Antalya, Türkiye, from 9 to 20 November 2026.\n2. The '35 by 2035' electrification target is a binding commitment under the formal negotiations.\n3. India has said it has not yet decided whether to support the '35 by 2035' target.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "1 and 3 are correct. 2 is wrong: the target, proposed by the Turkish presidency in June 2026, is a voluntary Action Agenda item aiming to lift electricity's share of final energy demand from about 20% to 35% by 2035; India wants voluntary initiatives kept separate from formal negotiations.",
+    "subject": "Environment",
+    "theme": "Climate negotiations",
+    "micro_topic": "COP31 Antalya and India's stance on 35 by 2035 electrification target",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Inner Line Permit (ILP) system in India, consider the following statements:\n1. It derives from the Bengal Eastern Frontier Regulation, 1873.\n2. It currently applies in states such as Arunachal Pradesh, Mizoram, Nagaland and Manipur.\n3. It is meant for foreign nationals visiting restricted border areas.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 3 only",
+      "(b) 1 and 3 only",
+      "(c) 1 and 2 only",
+      "(d) 2 and 3 only"
+    ],
+    "answer": "(c)",
+    "explanation": "1 and 2 are correct (Manipur was brought under ILP in December 2019). 3 is wrong: the ILP regulates entry of Indian citizens from other states; foreigners need a Protected Area Permit or Restricted Area Permit.",
+    "subject": "Polity & Governance",
+    "theme": "Northeast governance",
+    "micro_topic": "Inner Line Permit",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Indus Waters Treaty of 1960, consider the following statements:\n1. The waters of the eastern rivers (Ravi, Beas and Sutlej) were allotted to India for unrestricted use.\n2. The World Bank is a signatory to the treaty for limited purposes.\n3. The treaty has a fixed 30-year term after which it must be renewed.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "1 and 2 are correct. 3 is wrong: the Indus Waters Treaty has no fixed expiry, unlike the 30-year Ganga treaty of 1996.",
+    "subject": "International Relations",
+    "theme": "River water treaties",
+    "micro_topic": "Indus Waters Treaty 1960",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  }
+]

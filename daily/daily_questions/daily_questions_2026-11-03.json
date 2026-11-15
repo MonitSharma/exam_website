@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to the first BIMSTEC Maritime Security Exercise, consider the following statements:\n1. It is hosted by the Andaman and Nicobar Command at Sri Vijaya Puram.\n2. Bhutan and Nepal, though landlocked, are BIMSTEC members that depend on the Bay of Bengal for trade.\n3. The BIMSTEC Secretariat is located in Kathmandu.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 2 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "1 and 2 are correct. 3 is wrong: the BIMSTEC Secretariat is in Dhaka.",
+    "subject": "International Relations",
+    "theme": "BIMSTEC",
+    "micro_topic": "BIMSTEC maritime security exercise",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the Next Generation Corvette contracts signed by the Ministry of Defence in November 2026, consider the following statements:\n1. The contracts are worth about ₹53,866 crore.\n2. Garden Reach Shipbuilders & Engineers will build five ships and Goa Shipyard Limited three.\n3. All eight ships will be built by private-sector shipyards.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1 and 2 only"
+    ],
+    "answer": "(d)",
+    "explanation": "1 and 2 are correct. 3 is wrong: GRSE and Goa Shipyard are defence public sector undertakings.",
+    "subject": "Internal Security",
+    "theme": "Defence production",
+    "micro_topic": "Next Generation Corvettes",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Bharat Renewable Energy Summit & Expo 2026, consider the following statements:\n1. It is being held alongside the 9th Assembly of the International Solar Alliance.\n2. The International Solar Alliance is headquartered in Gurugram.\n3. India has already exceeded its target of 500 GW of non-fossil fuel capacity.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "1 and 2 are correct. 3 is wrong: about 308 GW is installed (MNRE, reported) against the 500 GW target for 2030.",
+    "subject": "Environment",
+    "theme": "Renewable energy",
+    "micro_topic": "Bharat RE Summit and ISA Assembly",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to Census 2027, consider the following statements:\n1. It is conducted under the Census Act, 1948 by the Registrar General and Census Commissioner of India.\n2. It is reported to be India's first digital census, with data collected through a mobile application.\n3. Officials have said that the Aadhaar number is mandatory and serves as proof of citizenship.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "1 and 2 are correct. 3 is wrong: Aadhaar is optional and not proof of citizenship, per officials.",
+    "subject": "Polity & Governance",
+    "theme": "Census",
+    "micro_topic": "Census 2027 digital and caste enumeration",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to SEBI's recent circular on KYC review for Foreign Portfolio Investors (FPIs), consider the following statements:\n1. The new periodicity takes effect from 1 December 2026.\n2. Eligible FPIs will have their KYC reviewed every eight years instead of three.\n3. Under the SEBI (FPI) Regulations, 2019, FPIs are classified into two categories.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 2 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct: effective 1 Dec 2026; 3 to 8 years for eligible FPIs; only Category I and II exist under the 2019 Regulations.",
+    "subject": "Economy",
+    "theme": "Capital markets",
+    "micro_topic": "FPI KYC review periodicity",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which one of the following channels separates the Andaman Islands from the Nicobar Islands?",
+    "options": [
+      "(a) Duncan Passage",
+      "(b) Ten Degree Channel",
+      "(c) Preparis Channel",
+      "(d) Great Channel"
+    ],
+    "answer": "(b)",
+    "explanation": "The Ten Degree Channel (10°N) separates the Andamans from the Nicobars. Duncan Passage lies between South Andaman and Little Andaman; the Great Channel lies south of Great Nicobar towards Sumatra.",
+    "subject": "Geography",
+    "theme": "Indian islands",
+    "micro_topic": "Andaman and Nicobar channels",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Census in India, consider the following statements:\n1. \"Census\" is an item in the Union List of the Seventh Schedule (Entry 69).\n2. The Census Act, 1948 provides the statutory framework for conducting the Census.\n3. The first synchronous Census of India was held in 1881.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct: Entry 69 of the Union List, the Census Act 1948, and the first synchronous Census in 1881 (the first, non-synchronous one was in 1872).",
+    "subject": "Polity & Governance",
+    "theme": "Census",
+    "micro_topic": "Constitutional and statutory basis of Census",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  }
+]

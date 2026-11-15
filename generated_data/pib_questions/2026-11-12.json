@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the Nutrient Based Subsidy (NBS) scheme, consider the statements:\n1. It has been in force since 1 April 2010.\n2. Urea is also covered under the NBS scheme.\n3. The Rabi 2026-27 rates approved by the Cabinet apply from 1 October 2026 to 31 March 2027.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "NBS dates from 1 April 2010 and the Rabi 2026-27 rates run 1 Oct 2026-31 Mar 2027; urea is outside NBS (separate MRP regime).",
+    "subject": "Agriculture",
+    "theme": "Agricultural inputs & subsidies",
+    "micro_topic": "Nutrient Based Subsidy (NBS)",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the first BIMSTEC Health Ministers' Meeting (Colombo, November 2026), consider the statements:\n1. Members adopted a Revised BIMSTEC Plan of Action on Public Health (2026-2030).\n2. India will host the second Health Ministers' Meeting in 2028.\n3. India will host the BIMSTEC Centre of Excellence in Traditional Medicine at ITRA, Jamnagar.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 1 and 3 only",
+      "(d) 2 and 3 only"
+    ],
+    "answer": "(c)",
+    "explanation": "The Revised Plan of Action (2026-2030) was adopted and India will host the Traditional Medicine CoE at ITRA Jamnagar; Thailand, not India, hosts the second meeting in 2028.",
+    "subject": "International Relations",
+    "theme": "Regional groupings",
+    "micro_topic": "BIMSTEC health cooperation",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the draft provisions recently issued by the National Commission for Allied and Healthcare Professions (NCAHP):\n1. NCAHP is a statutory body constituted under the National Commission for Allied and Healthcare Professions Act, 2021.\n2. Practitioners without recognised qualifications may get provisional registration valid for three years, extendable by one year.\n3. Practitioners completing a bridge course get full registration without any qualifying examination.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "NCAHP was set up under the 2021 Act and the draft allows 3(+1)-year provisional registration; full registration requires a qualifying exam after the bridge course, so statement 3 is wrong.",
+    "subject": "Polity & Governance",
+    "theme": "Health governance & regulation",
+    "micro_topic": "NCAHP provisional registration draft",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]

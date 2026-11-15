@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the National Social Security Board constituted under the Code on Social Security, consider the following statements:\n1. It is chaired by the Union Minister for Labour & Employment.\n2. Its membership includes representatives of aggregator companies and gig-worker associations.\n3. It is a body of the Ministry of Finance that sets contribution rates for the EPFO.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "The Board is chaired by the Labour Minister and includes aggregator and worker representatives; it is under the Labour Ministry and does not set EPFO rates.",
+    "subject": "Polity & Governance",
+    "theme": "Labour welfare and social security",
+    "micro_topic": "National Social Security Board for gig and platform workers",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The 'Punah Bharan' mobile application, recently launched by the Ministry of Jal Shakti, is meant for",
+    "options": [
+      "(a) real-time monitoring of river water quality",
+      "(b) planning artificial groundwater recharge using geospatial data",
+      "(c) tracking irrigation water use by farmers under PMKSY",
+      "(d) mapping flood-prone areas for early warning"
+    ],
+    "answer": "(b)",
+    "explanation": "Developed by BISAG-N with the National Water Mission, it identifies artificial recharge zones within a 3 km radius and suggests suitable structures.",
+    "subject": "Environment",
+    "theme": "Water resources and groundwater",
+    "micro_topic": "Punah Bharan app and artificial recharge",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to 'Other Effective Area-Based Conservation Measures' (OECMs), consider the following statements:\n1. They are conservation areas outside formally designated protected areas that deliver long-term biodiversity outcomes.\n2. They count towards the 30x30 target of the Kunming-Montreal Global Biodiversity Framework.\n3. They are recognised under the Cartagena Protocol on Biosafety.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "OECMs are conservation outside protected areas and count toward 30x30; the Cartagena Protocol covers biosafety of living modified organisms, not OECMs.",
+    "subject": "Environment",
+    "theme": "Biodiversity and international conventions",
+    "micro_topic": "OECMs and 30x30 target",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]

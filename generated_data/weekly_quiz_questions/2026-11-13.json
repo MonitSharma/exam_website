@@ -1,0 +1,702 @@
+[
+  {
+    "id": "weekly_quiz_2026_11_13_1",
+    "question_number": 1,
+    "question": "In *Sujit Das v. Union of India* (5 Nov 2026), the Supreme Court dealt with the 24-hour rule under Article 22(2). Consider the following statements:",
+    "statements": [
+      "The 24-hour period to produce a person before a Magistrate runs from the moment of detention, not from formal arrest.",
+      "Only the time needed to travel to the Magistrate's court is excluded from the 24 hours.",
+      "Magistrates must record the actual time of detention and refuse remand if the limit was breached."
+    ],
+    "tail": "Which of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "The clock runs from detention, only travel time to the Magistrate is excludable, and the Magistrate must record the actual detention time and refuse remand if the limit was breached.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_11_13_2",
+    "question_number": 2,
+    "question": "The Supreme Court held that the National Book Trust is \"State\" under Article 12. Consider the following statements:",
+    "statements": [
+      "The Court relied on deep and pervasive government control, such as appointment of the Chairman and nomination of governing-body members.",
+      "Registration as a society takes a body outside the scope of Article 12.",
+      "The Court applied the tests laid down in *Ajay Hasia* and *Pradeep Kumar Biswas*."
+    ],
+    "tail": "Which of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The NBT was held to be \"State\" through deep and pervasive control under the *Ajay Hasia*/*Pradeep Kumar Biswas* tests; registration as a society does not take a body out of Art. 12, so 2 is wrong.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_11_13_3",
+    "question_number": 3,
+    "question": "The MHA amended the Immigration and Foreigners (Exemption) Order in early November 2026. Consider the following statements:",
+    "statements": [
+      "Six undocumented minority communities from Afghanistan, Bangladesh and Pakistan who entered by 31 December 2024 must now obtain an appropriate visa to continue staying.",
+      "The Order is made under Section 33 of the Immigration and Foreigners Act, 2025.",
+      "Registered Tibetans are exempt and need no registration certificate."
+    ],
+    "tail": "Which of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Statements 1 and 2 are correct; registered Tibetans (entered 1959–30 May 2003) stay exempt but must get a registration certificate, so 3 is wrong.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_11_13_4",
+    "question_number": 4,
+    "question": "India and the EU concluded negotiations on India's association with Horizon Europe. Consider the following statements:",
+    "statements": [
+      "Association allows Indian researchers and firms to receive direct EU funding and lead consortia.",
+      "The programme's budget is about €93.5 billion for 2021–27.",
+      "Association makes India a member of the EU single market."
+    ],
+    "tail": "Which of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "b",
+        "text": "2 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "d",
+        "text": "3 only"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Association gives funding access and consortium-leading rights under a ~€93.5 bn programme; it does not confer EU single-market membership.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_11_13_5",
+    "question_number": 5,
+    "question": "According to FADA data for October 2026, in which vehicle segment did electric vehicles account for the largest share (about 63%) of retail sales?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Two-wheelers"
+      },
+      {
+        "key": "b",
+        "text": "Three-wheelers"
+      },
+      {
+        "key": "c",
+        "text": "Passenger vehicles"
+      },
+      {
+        "key": "d",
+        "text": "Commercial vehicles"
+      }
+    ],
+    "answer": "b",
+    "explanation": "e-3W was about 63% of the three-wheeler segment in October 2026 (e-2W ~9.7% share; overall penetration ~11.5%).",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_11_13_6",
+    "question_number": 6,
+    "question": "India has 18 notified Biosphere Reserves, of which 13 are in UNESCO's World Network of Biosphere Reserves. Which one of the following is NOT in the World Network?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Nilgiri"
+      },
+      {
+        "key": "b",
+        "text": "Sundarbans"
+      },
+      {
+        "key": "c",
+        "text": "Great Rann of Kutch"
+      },
+      {
+        "key": "d",
+        "text": "Cold Desert"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The Great Rann of Kutch is the largest reserve but is not in the World Network (others not in it: Manas, Dibru-Saikhowa, Dehang-Dibang, Seshachalam); the other three are.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_11_13_7",
+    "question_number": 7,
+    "question": "Three Indian manuscripts were inscribed on UNESCO's Asia-Pacific Memory of the World Register (MOWCAP). Which one of the following statements is NOT correct?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "The *Rajatarangini* is Kalhana's 12th-century chronicle of Kashmir."
+      },
+      {
+        "key": "b",
+        "text": "The *Arthashastra* manuscript is a palm-leaf manuscript held at the Oriental Research Institute, Mysuru."
+      },
+      {
+        "key": "c",
+        "text": "The birch-bark *Mahabharata* manuscript is held at the Bhandarkar Oriental Research Institute, Pune."
+      },
+      {
+        "key": "d",
+        "text": "The *Bhagavad Gita* was inscribed on the International Memory of the World Register in November 2026 at the same session."
+      }
+    ],
+    "answer": "d",
+    "explanation": "The *Natyashastra* and *Bhagavad Gita* were inscribed on the International register in April 2025, not in November 2026; the other statements are correct.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_11_13_8",
+    "question_number": 8,
+    "question": "The UN mission in Western Sahara (MINURSO) ended after 35 years. Consider the following statements:",
+    "statements": [
+      "MINURSO was set up in 1991 to monitor a ceasefire and prepare a referendum.",
+      "It lapsed after Russia vetoed a US draft resolution that would have extended it.",
+      "The Polisario Front, which seeks an independent Sahrawi republic, is backed by Morocco."
+    ],
+    "tail": "Which of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "MINURSO (1991) lapsed after the Russian veto of the US draft; the Polisario Front is Algeria-backed, not Morocco-backed, so 3 is wrong.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_11_13_9",
+    "question_number": 9,
+    "question": "The SEBI (Settlement of Administrative and Civil Proceedings) Regulations, 2026 came into force on 7 November 2026. Which of the following categories is barred from using the settlement route?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "First-time violators"
+      },
+      {
+        "key": "b",
+        "text": "Natural persons"
+      },
+      {
+        "key": "c",
+        "text": "Wilful defaulters"
+      },
+      {
+        "key": "d",
+        "text": "Entities whose cases were pending under the 2018 regime"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Wilful defaulters, fraudulent borrowers and fugitive economic offenders cannot settle; pending 2018-regime matters could be refiled within 90 days.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_11_13_10",
+    "question_number": 10,
+    "question": "Aditya-L1's VELC found that a coronal mass ejection (5 Aug 2024) expanded asymmetrically. Consider the following statements:",
+    "statements": [
+      "Aditya-L1 is placed in a halo orbit around the Sun–Earth L1 point, about 1.5 million km from Earth.",
+      "VELC is a coronagraph that observes the solar corona close to the Sun's limb.",
+      "Aditya-L1 was launched on a GSLV Mk III vehicle in September 2023."
+    ],
+    "tail": "Which of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Halo orbit around L1 (~1.5 million km) and VELC as a coronagraph are correct; Aditya-L1 launched on PSLV-C57 on 2 Sep 2023, so 3 is wrong.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_11_13_11",
+    "question_number": 11,
+    "question": "The Prime Minister is to visit Manila (16–18 Nov) for the 23rd ASEAN-India Summit and the East Asia Summit. Which one of the following is a participant in the East Asia Summit but NOT a member of ASEAN?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Philippines"
+      },
+      {
+        "key": "b",
+        "text": "Vietnam"
+      },
+      {
+        "key": "c",
+        "text": "Indonesia"
+      },
+      {
+        "key": "d",
+        "text": "India"
+      }
+    ],
+    "answer": "d",
+    "explanation": "India is an EAS participant but not an ASEAN member; the Philippines, Vietnam and Indonesia are ASEAN members.",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_11_13_12",
+    "question_number": 12,
+    "question": "The Cabinet approved NBS rates for Rabi 2026-27 (about Rs 62,370 crore). Consider the following statements:",
+    "statements": [
+      "The Nutrient Based Subsidy fixes a per-kg subsidy on nutrients and covers phosphatic and potassic fertilisers.",
+      "Urea is covered under the NBS scheme.",
+      "The Rabi 2026-27 rates apply from 1 October 2026 to 31 March 2027."
+    ],
+    "tail": "Which of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 only"
+      },
+      {
+        "key": "d",
+        "text": "2 and 3 only\n\n---\n\n## Part B — Static Subject: Geography · 8 MCQs"
+      }
+    ],
+    "answer": "a",
+    "explanation": "NBS fixes per-kg nutrient subsidies for P&K fertilisers for 1 Oct 2026–31 Mar 2027; urea is outside NBS, so 2 is wrong. Part B — Geography",
+    "subject": "Current Affairs",
+    "theme": "Weekly current affairs recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_11_13_13",
+    "question_number": 13,
+    "question": "Consider the following statements about ocean currents:",
+    "statements": [
+      "The Humboldt (Peru) Current is a cold current along the west coast of South America.",
+      "The Kuroshio is a warm current in the North Pacific.",
+      "The Benguela Current is a warm current off the south-west coast of Africa."
+    ],
+    "tail": "Which of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "3 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Humboldt is cold and Kuroshio is warm; the Benguela is a cold current.",
+    "subject": "Geography",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_11_13_14",
+    "question_number": 14,
+    "question": "With reference to the Himalayas, consider the following statements:",
+    "statements": [
+      "The Himadri (Greater Himalaya) contains the highest peaks.",
+      "The Duns, such as Dehradun, lie between the Lesser Himalaya and the Shiwaliks.",
+      "The Shiwaliks are the northernmost of the three ranges."
+    ],
+    "tail": "Which of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The Himadri holds the highest peaks and the Duns lie between the Lesser Himalaya and Shiwaliks; the Shiwaliks are the southernmost, outermost range.",
+    "subject": "Geography",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_11_13_15",
+    "question_number": 15,
+    "question": "The Standard Meridian of India (82°30′E), on which Indian Standard Time is based, passes through which one of the following States?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Rajasthan"
+      },
+      {
+        "key": "b",
+        "text": "Gujarat"
+      },
+      {
+        "key": "c",
+        "text": "Maharashtra"
+      },
+      {
+        "key": "d",
+        "text": "Uttar Pradesh"
+      }
+    ],
+    "answer": "d",
+    "explanation": "The 82°30′E meridian passes through Uttar Pradesh (near Mirzapur), and also through MP, Chhattisgarh, Odisha and Andhra Pradesh.",
+    "subject": "Geography",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_11_13_16",
+    "question_number": 16,
+    "question": "Which one of the following pairs of channel and the islands or island groups it separates is correctly matched?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Eight Degree Channel — Andaman and Nicobar"
+      },
+      {
+        "key": "b",
+        "text": "Ten Degree Channel — Andaman and Nicobar"
+      },
+      {
+        "key": "c",
+        "text": "Palk Strait — India and the Maldives"
+      },
+      {
+        "key": "d",
+        "text": "Nine Degree Channel — Andaman and Sri Lanka"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The Ten Degree Channel separates Little Andaman from the Car Nicobar group; the Eight Degree Channel separates Minicoy from the Maldives, the Nine Degree Channel separates Minicoy from the rest of Lakshadweep, and the Palk Strait lies between India and Sri Lanka.",
+    "subject": "Geography",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_11_13_17",
+    "question_number": 17,
+    "question": "Which one of the following pairs of lake and State/region is NOT correctly matched?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Loktak — Manipur"
+      },
+      {
+        "key": "b",
+        "text": "Sambhar — Rajasthan"
+      },
+      {
+        "key": "c",
+        "text": "Wular — Jammu and Kashmir"
+      },
+      {
+        "key": "d",
+        "text": "Pulicat — Odisha"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Pulicat is a lagoon on the Andhra Pradesh–Tamil Nadu coast, not Odisha (Chilika is Odisha's lagoon).",
+    "subject": "Geography",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_11_13_18",
+    "question_number": 18,
+    "question": "Consider the following statements about tropical cyclones:",
+    "statements": [
+      "They need warm sea-surface temperatures, generally above about 26.5°C.",
+      "They rarely form within about 5° of the equator because the Coriolis force is very weak there.",
+      "Strong vertical wind shear favours their intensification."
+    ],
+    "tail": "Which of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "3 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Warm SST and weak Coriolis near the equator are correct; strong vertical wind shear disrupts and weakens cyclones.",
+    "subject": "Geography",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_11_13_19",
+    "question_number": 19,
+    "question": "Which one of the following is NOT a left-bank tributary of the Ganga?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Ghaghara"
+      },
+      {
+        "key": "b",
+        "text": "Gandak"
+      },
+      {
+        "key": "c",
+        "text": "Kosi"
+      },
+      {
+        "key": "d",
+        "text": "Son"
+      }
+    ],
+    "answer": "d",
+    "explanation": "The Son is a right-bank (south) tributary; Ghaghara, Gandak and Kosi join from the left, with Himalayan/Nepal sources.",
+    "subject": "Geography",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  },
+  {
+    "id": "weekly_quiz_2026_11_13_20",
+    "question_number": 20,
+    "question": "Which one of the following pairs of coalfield and State is correctly matched?",
+    "statements": [],
+    "tail": "",
+    "options": [
+      {
+        "key": "a",
+        "text": "Korba — Odisha"
+      },
+      {
+        "key": "b",
+        "text": "Talcher — Odisha"
+      },
+      {
+        "key": "c",
+        "text": "Singrauli — Jharkhand"
+      },
+      {
+        "key": "d",
+        "text": "Raniganj — Jharkhand"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Talcher is in Odisha; Korba is in Chhattisgarh, Singrauli is in MP/Uttar Pradesh and Raniganj is in West Bengal.",
+    "subject": "Geography",
+    "theme": "Weekly static recall",
+    "micro_topic": "Weekly recall quiz",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "weekly-quiz"
+  }
+]

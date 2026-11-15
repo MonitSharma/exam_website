@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to the recent vote at the UN General Assembly's First Committee on regional conventional arms control, consider the following statements:\n1. The First Committee deals with disarmament and international security matters.\n2. India and Israel voted against a draft sponsored by Pakistan and Belarus.\n3. Resolutions adopted by the UN General Assembly are legally binding on all member states.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statements 1 and 2 are correct. UNGA resolutions are recommendatory, not binding, so 3 is wrong.",
+    "subject": "International Relations",
+    "theme": "India and the UN",
+    "micro_topic": "UNGA First Committee disarmament vote",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the recent Union Cabinet decision on Agniveers, consider the following statements:\n1. The Agnipath scheme was introduced in June 2022.\n2. Agniveers who were due to exit after four years are to get an additional two-year engagement period.\n3. Under the original scheme, about 25% of each batch was to be enrolled in the regular cadre on merit.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three hold: Agnipath was introduced on 14 June 2022; the Cabinet gave a two-year extension to those due to exit; about 25% retention in regular cadre on merit.",
+    "subject": "Internal Security",
+    "theme": "Defence reforms",
+    "micro_topic": "Agnipath tenure extension",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the debate on a National Urbanisation Policy in India, consider the following statements:\n1. The Census 2027 is expected to retain the 2011 criteria for classifying urban areas.\n2. The 16th Finance Commission created a ₹10,000-crore 'urbanisation premium' to encourage merger of peri-urban villages with municipalities.\n3. Peri-urban areas have been growing more slowly than core municipal areas.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 only",
+      "(c) 1 and 2 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "1 and 2 are correct. Peri-urban areas grow faster (about 4.15% vs 2.9% a year), so 3 is wrong.",
+    "subject": "Geography",
+    "theme": "Urbanisation",
+    "micro_topic": "National Urbanisation Policy and Census 2027",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Fast Track Special Courts (FTSC) scheme, consider the following statements:\n1. The Cabinet has continued the scheme for only three more years.\n2. The Union government's share of the scheme is funded from the Nirbhaya Fund.\n3. The number of courts under the scheme is to rise from 779 to 850.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "The extension is for five years (to 31 March 2031), so 1 is wrong. The Centre's share comes from the Nirbhaya Fund and courts rise from 779 to 850.",
+    "subject": "Polity & Governance",
+    "theme": "Judiciary and child protection",
+    "micro_topic": "Fast Track Special Courts extension to 2031",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to India's agricultural exports in April-September 2026, consider the following statements:\n1. Marine products and buffalo meat were the two largest farm export items.\n2. Livestock and fisheries now account for a smaller share of agricultural GDP than they did a decade ago.\n3. Total agricultural exports were about $27.1 billion, up about 4.7%.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "1 and 3 are correct. The livestock-plus-fisheries share has risen to about 40% from about 30%, so 2 is wrong.",
+    "subject": "Agriculture",
+    "theme": "Agricultural trade",
+    "micro_topic": "Livestock and fisheries exports",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Consider the following statements about the Protection of Children from Sexual Offences (POCSO) Act, 2012:\n1. It defines a 'child' as any person below 18 years of age.\n2. It applies only to girl children.\n3. Special Courts under the Act are designated by the State Government in consultation with the Chief Justice of the High Court.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 only",
+      "(c) 1 and 3 only",
+      "(d) 2 and 3 only"
+    ],
+    "answer": "(c)",
+    "explanation": "POCSO is gender-neutral (2 wrong). A child is anyone below 18, and Section 28 provides for Special Courts designated by the State in consultation with the High Court Chief Justice.",
+    "subject": "Polity & Governance",
+    "theme": "Child protection laws",
+    "micro_topic": "POCSO Act 2012 provisions",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Twelfth Schedule of the Constitution of India, which lists the functional items of municipalities, was added by:",
+    "options": [
+      "(a) the 73rd Amendment Act, 1992, with 29 items",
+      "(b) the 74th Amendment Act, 1992, with 18 items",
+      "(c) the 74th Amendment Act, 1992, with 29 items",
+      "(d) the 73rd Amendment Act, 1992, with 18 items"
+    ],
+    "answer": "(b)",
+    "explanation": "The 74th Amendment (1992) added Part IXA and the Twelfth Schedule with 18 items; the 73rd added the Eleventh Schedule with 29 items.",
+    "subject": "Polity & Governance",
+    "theme": "Local government",
+    "micro_topic": "Twelfth Schedule and 74th Amendment",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  }
+]

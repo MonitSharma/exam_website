@@ -1,0 +1,41 @@
+#separator:tab
+#html:false
+12th BRICS Parliamentary Forum (26-27 Oct 2026): host city, chair, and where/when was the 1st forum?	New Delhi; chaired by Lok Sabha Speaker Om Birla. 1st forum: Moscow, June 2015. Non-binding parliamentary-diplomacy platform.
+Jaishankar's '4F crisis' of the Global South: what are the 4 Fs?	Finance, Fuel, Food, Fertiliser (said 25 Oct 2026 at Chinmaya Amrit Mahotsav Global Sammelan, Bharat Mandapam).
+FNTA Bill 2026: which six Nagaland districts form the Frontier Nagaland Territorial Authority?	Tuensang, Mon, Longleng, Kiphire, Noklak, Shamator. President gave assent (announced 25 Oct 2026); implementation awaits State Gazette notification.
+FNTA: which constitutional article gives Nagaland special provisions (link for the Naga settlement)?	Article 371A (Nagaland).
+AATAL (inaugurated 24 Oct 2026): full form/purpose, ministry and host institute?	Integrated Atmospheric Chemistry and Aerosol Toxicity Analysis Laboratory; MoES; at IITM's Delhi branch; source apportionment of Delhi-NCR air pollution; under Mission Mausam.
+Siang Upper Multipurpose Project: capacity, developer, state, and strategic rationale?	11,200 MW; NHPC; Arunachal Pradesh (Siang = Brahmaputra in Arunachal). Seen as counter to China's Medog project on the Yarlung Tsangpo.
+Operation Trident (Oct 2026): agency, region and legal tools?	Narcotics Control Bureau (MHA) with ED and State police; Myanmar-linked narco-financial network in Assam, Mizoram, Manipur; NDPS Act 1985 and PMLA 2002. NCB constituted 1986.
+RBI's new Data Centre inaugurated by PM on 25 Oct 2026: where, and which primary data centre does it back up?	Near Bhubaneswar (Khordha district, Info Valley-II), Odisha; backs up RBI's primary data centre at Kharghar, Navi Mumbai.
+India's medal count at the 2026 Asian Para Games (Aichi-Nagoya, Japan)?	Record 114 medals (18-24 Oct 2026).
+PAIMANA (MoSPI): what does it monitor and above what project cost?	Central Sector infrastructure projects costing Rs 150 crore and above. Sept 2026 flash report: 1,853 projects, revised cost Rs 37.56 lakh crore. Mega projects >= Rs 1,000 crore.
+TDB (DST) Rs 116 crore RDI Fund support to Manastu Space: for what technology?	Indigenous green propulsion - hydrogen-peroxide-based propellant for satellites/launch vehicles (alternative to toxic hydrazine). TDB is a statutory body under DST.
+CMVR 1989 amendment (Oct 2026) permits which flex-fuel vehicles?	E85 and E100 flex-fuel vehicles (E85 = 85% ethanol + 15% petrol). Only for vehicles designed and certified for it; existing E20 cars cannot run E100.
+Cyclone 'Arnab' (landfall 28 Oct 2026): where, and which country proposed the name?	Andhra Pradesh-Yanam coast (near Narsapur); name proposed by Bangladesh (WMO/ESCAP Panel on Tropical Cyclones list).
+Which institution issues cyclone bulletins for the North Indian Ocean (RSMC)?	IMD, RSMC New Delhi.
+Container Manufacturing Promotion Scheme (Cabinet, 28 Oct 2026): outlay, duration and capacity target?	Rs 10,000 crore; up to FY 2039-40; raise annual container capacity ~10x to 7.5 lakh TEUs. Includes 3% interest subvention.
+PM Viksit Gram Swaraj Yojana (PM-VGSY): outlay, period, nature?	Rs 7,395.55 crore (Centre Rs 4,869.48 cr, States Rs 2,526.07 cr); 2026-27 to 2030-31; Centrally Sponsored Scheme for Panchayat capacity building (~2.55 lakh Panchayats).
+Khelo India Sports Goods Manufacturing Scheme (Cabinet, Oct 2026): outlay and period?	Rs 1,856.67 crore; 2026-27 to 2033-34.
+DA/DR hike approved 28 Oct 2026: new rate, effective date, beneficiaries?	From 60% to 63% (+3 points), effective 1 July 2026; ~48.54 lakh employees and ~68.71 lakh pensioners; Rs 10,016.10 crore a year.
+September 2026 IIP growth and the base year?	6.7% y/y (August: 8.0%); base year 2022-23=100; Manufacturing 7.6%, Electricity 11.2%, Mining -6.2%. Compiled by NSO, MoSPI.
+India at CBD COP-17 (Oct 2026): venue, and name of the fund for digital sequence information (DSI) benefit-sharing?	Yerevan (Armenia); Cali Fund. Framework: Kunming-Montreal Global Biodiversity Framework.
+Which CBD protocol covers biosafety of living modified organisms, and which covers access and benefit-sharing?	Cartagena Protocol = biosafety (LMOs); Nagoya Protocol = access and benefit-sharing (ABS).
+I-OECMs: expand OECM and why they matter (India released guidelines at COP-17)	Other Effective Area-Based Conservation Measures - conservation outside formal protected areas; count towards the 30x30 target of the KMGBF.
+Atal Vayo Abhyuday Yojana (AVYAY): ministry, launch year, helpline?	Ministry of Social Justice & Empowerment; umbrella scheme for senior citizens launched 2021 (subsumed NAPSrC); Elderline 14567. Legal frame: Maintenance and Welfare of Parents and Senior Citizens Act, 2007.
+National Startup Awards 6.0: application window and prize per winning startup?	27 Oct - 20 Nov 2026; Rs 25 lakh per winning startup per category (DPIIT). Startup India launched 16 Jan 2016.
+Punah Bharan (launched 28 Oct 2026): what is it and who developed it?	Mobile app/web portal for artificial groundwater recharge planning (Jal Shakti); developed by BISAG-N with the National Water Mission; suggests recharge zones within 3 km.
+National Social Security Board for gig/platform and unorganised workers: statutory basis and chair?	Constituted under the Code on Social Security; chaired by the Union Labour & Employment Minister.
+13th ADMM-Plus (Cebu, Philippines, Oct 2026): India's role in EWG on Counter-Terrorism?	India co-chairs the ADMM-Plus Experts' Working Group on Counter-Terrorism with Malaysia (2024-27). Philippines chairs ASEAN in 2026.
+Alaknanda basin hanging glacier study (Oct 2026): how many hanging glaciers and which institutions?	219 hanging glaciers (~71.7 sq km); IIT Bhubaneswar and IISc Divecha Centre for Climate Change; flags risk around Badrinath.
+NCAP: launch year and number of cities covered?	Launched 2019; 130 cities. NAAQS annual limits: PM2.5 40 ug/m3, PM10 60 ug/m3.
+NVS-03 launch (30 Oct 2026): rocket, spaceport and orbit?	GSLV-F18 from Second Launch Pad, Satish Dhawan Space Centre, Sriharikota, into Geosynchronous Transfer Orbit.
+What new signal does NVS-03 add to NavIC, and what is its notable on-board feature?	Adds L1 signal (existing: L5 and S-band); carries an indigenous atomic clock.
+NavIC original constellation: number and orbit types?	7 satellites - 3 geostationary + 4 inclined geosynchronous orbit (IRNSS).
+24th PM-KISAN instalment (30 Oct 2026): where released, and scheme basics?	Bhildi, Banaskantha (Gujarat); ~9.34 crore families, Rs 18,680+ crore. Rs 6,000/yr in three Rs 2,000 instalments by DBT; 100% Central Sector; launched Feb 2019.
+Fiscal deficit April-September FY27: share of Budget Estimate and BE target?	42.1% of BE (Rs 7.14 lakh crore); FY27 target Rs 16.96 lakh crore = 4.3% of GDP.
+Primary deficit formula?	Fiscal deficit minus interest payments.
+India-Brazil: bilateral trade target by 2030, and groupings both belong to?	USD 30 billion by 2030; BRICS, IBSA, G20 (also India-MERCOSUR PTA in force since 2009).
+Rashtriya Ekta Diwas (31 Oct): whose anniversary in 2026, and Statue of Unity details?	151st birth anniversary of Sardar Vallabhbhai Patel (562 princely states); Statue of Unity at Ekta Nagar, Gujarat: 182 m, dedicated 31 Oct 2018.
+ARISE Cities Forum 2026 (New Delhi): declaration name and COP31 venue it feeds into?	Delhi Declaration on Local Action for Global Climate Goals (ten commitments); COP31 at Antalya, Turkiye.
+India-Mexico (Oct 2026): what agreement type was launched and how does it differ from an FTA?	Terms of Reference signed to launch Preferential Trade Agreement (PTA) talks; PTA covers only a negotiated list of tariff lines, narrower than FTA/CEPA.

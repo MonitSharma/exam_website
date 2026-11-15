@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to the Supreme Court's order of 6 November 2026 in Union of India v. Rohith Nathan, consider the following statements: 1. The Court held that granting the benefit does not by itself reopen concluded selections or appointments. 2. The Court held that the creamy-layer principle as interpreted on 11 March 2026 governs service allocation for OBC candidates selected through CSE 2025. 3. The Court fixed a two-year period for the Union to establish post-equivalence. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statements 1 and 2 reflect the 6 Nov order; the Court declined to set any timeline for post-equivalence (the Centre had sought two years), so 3 is wrong.",
+    "subject": "Polity & Governance",
+    "theme": "Reservation and judiciary",
+    "micro_topic": "OBC creamy layer - Rohith Nathan clarification",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to India's association with Horizon Europe, consider the following statements: 1. The India-EU negotiations on association were concluded on 7 November 2026. 2. The programme has a budget of about EUR 93.5 billion for 2021-27. 3. Associated countries get access to funding without any financial contribution to the programme. 4. Association is expected to begin from January 2027 after signing and completion of procedures. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 1, 2 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "answer": "(c)",
+    "explanation": "Talks concluded 7 Nov 2026; budget ~EUR 93.5 bn (2021-27); association expected from Jan 2027. Associated countries contribute financially, so 3 is wrong.",
+    "subject": "International Relations",
+    "theme": "India-EU relations",
+    "micro_topic": "Horizon Europe association",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to electric-vehicle retail in India in October 2026 as reported by FADA, consider the following statements: 1. EV retail was about 3.55 lakh units, up roughly 45% year on year. 2. EV penetration rose to about 11.5% from about 6% a year earlier. 3. Electric two-wheelers formed the largest EV segment by volume. 4. Electric passenger vehicles outsold electric three-wheelers. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1, 2 and 3 only",
+      "(c) 2, 3 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "answer": "(b)",
+    "explanation": "e-2W (about 2.24 lakh) is the largest segment; e-3W (about 88,570) outsold e-PV (about 37,049), so 4 is wrong.",
+    "subject": "Economy",
+    "theme": "Transport and EV adoption",
+    "micro_topic": "FADA October 2026 EV retail",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the Supreme Court's hearing of 6 November 2026 on Delhi-NCR air pollution, consider the following statements: 1. The Court described stop-gap curbs on vehicles and construction as 'old, tried and failed' measures. 2. The Court ordered all NCR schools to shift to hybrid classes. 3. The Commission for Air Quality Management, whose approach was questioned, is a statutory body. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 1 and 3 only",
+      "(d) 2 and 3 only"
+    ],
+    "answer": "(c)",
+    "explanation": "The Court called the curbs 'old, tried and failed'; CAQM is statutory (CAQM Act, 2021). No hybrid-class order was passed - the Court said it would seek expert opinion.",
+    "subject": "Environment",
+    "theme": "Air pollution governance",
+    "micro_topic": "SC suo motu on Delhi air, CAQM, GRAP",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to Biosphere Reserves in India, consider the following statements: 1. India has 18 notified Biosphere Reserves, of which 13 are in UNESCO's World Network of Biosphere Reserves. 2. Cold Desert (Himachal Pradesh) is the most recent Indian addition to the World Network. 3. Manas Biosphere Reserve is part of the UNESCO World Network. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) 2 only",
+      "(b) 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1 and 2 only"
+    ],
+    "answer": "(d)",
+    "explanation": "18 notified, 13 in the WNBR; Cold Desert (2025) is the latest addition. Manas is among the five not in the WNBR (with Dibru-Saikhowa, Dehang-Dibang, Great Rann of Kutch, Seshachalam).",
+    "subject": "Environment",
+    "theme": "Protected area network",
+    "micro_topic": "Biosphere reserves and WNBR",
+    "nature": "Factual",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which one of the following is correct about Indra Sawhney v. Union of India (1992)?",
+    "options": [
+      "(a) It upheld the exclusion of the creamy layer from OBC reservation and laid down the 50% ceiling as a general rule.",
+      "(b) It extended the creamy-layer exclusion to Scheduled Castes and Scheduled Tribes.",
+      "(c) It held that reservation in promotions is permissible under Article 16(4).",
+      "(d) It struck down the 27% reservation for OBCs in central services."
+    ],
+    "answer": "(a)",
+    "explanation": "The Court upheld 27% OBC reservation, required creamy-layer exclusion, set the 50% general ceiling and barred reservation in promotions (later altered by the 77th Amendment).",
+    "subject": "Polity & Governance",
+    "theme": "Reservation",
+    "micro_topic": "Indra Sawhney doctrine",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "In the zonation of a Biosphere Reserve under UNESCO's Man and the Biosphere Programme, the buffer zone is:",
+    "options": [
+      "(a) the strictly protected area kept free from human activity.",
+      "(b) the outermost area meant only for human settlements.",
+      "(c) the area around the core zone where research, education and regulated ecotourism are permitted.",
+      "(d) the area reserved exclusively for commercial forestry."
+    ],
+    "answer": "(c)",
+    "explanation": "Core: strictly protected; buffer: research, education and regulated ecotourism; transition: settlements and sustainable activities.",
+    "subject": "Environment",
+    "theme": "Protected area network",
+    "micro_topic": "Biosphere reserve zonation",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  }
+]

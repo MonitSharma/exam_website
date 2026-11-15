@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to the revised Agnipath arrangement approved by the Union Cabinet in November 2026, consider the statements:\n1. Agniveers not absorbed into the regular cadre can serve two additional years.\n2. The original four-year engagement under the scheme has been discontinued.\n3. After the extended period, willing Agniveers can apply for regular enrolment under objective criteria.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statement 2 is wrong: the CDS clarified the four-year structure is unchanged; the two-year extension is an added option for non-absorbed Agniveers.",
+    "subject": "Internal Security",
+    "theme": "Defence Reforms",
+    "micro_topic": "Agnipath scheme second tour of duty",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "In the auction of critical and strategic mineral blocks conducted by the Ministry of Mines, which of the following is correct?",
+    "options": [
+      "(a) Blocks are awarded through a two-stage descending reverse auction to the lowest revenue-share bidder",
+      "(b) Critical mineral blocks use a two-stage ascending forward auction won by the highest revenue-share bid, while Exploration Licence blocks use a descending reverse auction won by the lowest revenue-share bid",
+      "(c) Only public sector undertakings may bid for critical mineral blocks",
+      "(d) Exploration Licences are awarded by lottery"
+    ],
+    "answer": "(b)",
+    "explanation": "Critical mineral blocks: ascending forward auction (highest revenue share wins); EL blocks: descending reverse auction (lowest revenue share wins), conducted on the MSTC e-auction platform.",
+    "subject": "Economy",
+    "theme": "Mining & Critical Minerals",
+    "micro_topic": "Critical mineral block auction design",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "With reference to India's stance at UNFCCC COP31, consider the following statements:\n1. India seeks fulfilment of developed countries' obligations under Article 9.1 of the Paris Agreement.\n2. India favours binding top-down mitigation targets for all Parties.\n3. India wants the Just Transition Work Programme to continue.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "India wants Article 9.1 finance obligations met and the Just Transition Work Programme continued, but opposes new top-down mitigation targets; the stocktake should be Party-driven and non-punitive.",
+    "subject": "Environment",
+    "theme": "Climate Negotiations",
+    "micro_topic": "UNFCCC COP31 India's priorities",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]

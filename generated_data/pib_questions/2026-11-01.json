@@ -1,0 +1,35 @@
+[
+  {
+    "question": "With reference to the BIMSTEC, consider the following statements:\n1. Its first joint maritime security exercise was announced for November 2026 with India as convener.\n2. The Maldives is a member of BIMSTEC.\n3. Thailand and Myanmar are members of BIMSTEC.\nWhich of the statements given above is/are correct?",
+    "options": ["(a) 1 only", "(b) 1 and 3 only", "(c) 2 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(b)",
+    "explanation": "BIMSTEC has seven members (Bangladesh, Bhutan, India, Myanmar, Nepal, Sri Lanka, Thailand); the Maldives is not one.",
+    "subject": "International Relations",
+    "theme": "Regional groupings",
+    "micro_topic": "BIMSTEC membership and maritime security exercise",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Agarwood, in the news for a new export point at Guwahati, is obtained from",
+    "options": ["(a) Santalum album", "(b) Aquilaria species", "(c) Pterocarpus santalinus", "(d) Dalbergia latifolia"],
+    "answer": "(b)",
+    "explanation": "Agarwood (oud) is the resinous heartwood of Aquilaria trees, a CITES Appendix II species; Santalum album is sandalwood and Pterocarpus santalinus is red sanders.",
+    "subject": "Environment",
+    "theme": "Forest produce and species",
+    "micro_topic": "Agarwood (Aquilaria) and export promotion",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the People's Plan Campaign (Sabki Yojana Sabka Vikas), consider the following statements:\n1. It supports the preparation of Gram Panchayat Development Plans.\n2. It is run by the Ministry of Panchayati Raj.\n3. It is implemented by the Ministry of Rural Development under the MGNREGA Act.\nWhich of the statements given above is/are correct?",
+    "options": ["(a) 1 only", "(b) 1 and 2 only", "(c) 2 and 3 only", "(d) 1, 2 and 3"],
+    "answer": "(b)",
+    "explanation": "The campaign is run by the Ministry of Panchayati Raj to support GPDPs; it is not an MGNREGA/Rural Development programme.",
+    "subject": "Polity & Governance",
+    "theme": "Local self-government",
+    "micro_topic": "People's Plan Campaign and GPDP",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]

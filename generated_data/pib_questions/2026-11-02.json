@@ -1,0 +1,50 @@
+[
+  {
+    "question": "Consider the following statements about the contracts for Next Generation Corvettes signed by the Ministry of Defence on 2 November 2026:\n1. Contracts worth ₹53,866.50 crore cover eight ships.\n2. Garden Reach Shipbuilders & Engineers will build five and Goa Shipyard Limited three.\n3. The ships are designed by a foreign shipyard and built in India under licence.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statements 1 and 2 are correct; the Indian Navy designs the ships and DPSU shipyards build them, so 3 is wrong.",
+    "subject": "Internal Security",
+    "theme": "Defence Indigenisation",
+    "micro_topic": "Next Generation Corvettes contracts",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Under the VB–G RAM G Grievance Redressal Rules, 2026, which of the following is correct?",
+    "options": [
+      "(a) Only Gram Panchayat level officers handle complaints",
+      "(b) Enquiry within 7 working days and resolution within 15 days, with unresolved complaints escalated to the next higher level",
+      "(c) Complaints can be accepted only through the online platform",
+      "(d) Complaints unresolved in 15 days are automatically closed"
+    ],
+    "answer": "(b)",
+    "explanation": "Three-tier mechanism (Gram Panchayat, Block, District); multiple filing modes; 7-working-day enquiry, 15-day resolution, auto-escalation if unresolved.",
+    "subject": "Polity & Governance",
+    "theme": "Rural Employment & Grievance Redressal",
+    "micro_topic": "VB-G RAM G Grievance Redressal Rules 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The Union Cabinet's September 2026 decision on the EPFO mandatory wage ceiling:",
+    "options": [
+      "(a) raised it from ₹15,000 to ₹25,000 per month, bringing over 51 lakh more employees under mandatory coverage",
+      "(b) raised it from ₹6,500 to ₹15,000 per month",
+      "(c) abolished the ceiling for mandatory EPF coverage",
+      "(d) raised it from ₹15,000 to ₹21,000 per month for only EPS"
+    ],
+    "answer": "(a)",
+    "explanation": "Ceiling raised from ₹15,000 (set in 2014) to ₹25,000; >51 lakh more employees covered. ₹6,500→₹15,000 was the 2014 revision.",
+    "subject": "Economy",
+    "theme": "Labour & Social Security",
+    "micro_topic": "EPFO wage ceiling",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]

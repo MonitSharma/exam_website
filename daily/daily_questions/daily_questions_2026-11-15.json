@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to India's trade data for October 2026, consider the following statements:\n1. Merchandise exports touched a record level, with petroleum products and electronics among the drivers.\n2. The merchandise trade deficit is larger than the overall (goods + services) deficit because services run a surplus.\n3. Gold imports rose sharply year-on-year.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Merchandise exports hit a record $49.47 bn (+45%) and the merchandise deficit ($39.88 bn) exceeds the overall deficit ($20.1 bn) thanks to the services surplus. Gold imports fell ~63%, so statement 3 is wrong.",
+    "subject": "Economy",
+    "theme": "External sector – Trade data",
+    "micro_topic": "Foreign trade and trade deficit",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the WHO Global Tuberculosis Report 2026, as reported, which of the following is correct?",
+    "options": [
+      "(a) Donor funding for TB rose in 2025 while domestic funding fell",
+      "(b) About 86% of TB spending in 2025 came from domestic sources",
+      "(c) The South-East Asia Region accounts for roughly one-tenth of global TB deaths",
+      "(d) The report is published by UNICEF"
+    ],
+    "answer": "(b)",
+    "explanation": "About 86% of TB spending in 2025 came from domestic sources (as reported). Donor funding fell 14%, SE Asia accounts for about a third, and the report is published by WHO.",
+    "subject": "Reports & Indices",
+    "theme": "WHO reports",
+    "micro_topic": "WHO Global TB Report",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to Consent Managers under the Digital Personal Data Protection Act, 2023 and its Rules, consider the following:\n1. A Consent Manager is accountable to the Data Principal.\n2. Registration is handled by the Data Protection Board.\n3. All Data Fiduciaries are legally required to route consent through a Consent Manager.\nWhich of the above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "Consent Managers answer to the Data Principal and are registered by the Data Protection Board (minimum net worth Rs 2 crore). Their use is optional for fiduciaries, so statement 3 is wrong.",
+    "subject": "Polity & Governance",
+    "theme": "Data protection and privacy",
+    "micro_topic": "DPDP Act consent managers",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the deep-ocean submersible Matsya-6000, consider the following:\n1. It is being developed by the National Institute of Ocean Technology.\n2. Its personnel sphere is designed for three crew and a depth of 6,000 m.\n3. It is part of the Samudrayaan project under the Deep Ocean Mission.\nSelect the correct answer:",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "NIOT (MoES) develops Matsya-6000 with ISRO help on the titanium hull; it carries 3 crew, is rated to 6,000 m, and belongs to Samudrayaan under the Deep Ocean Mission.",
+    "subject": "Science & Technology",
+    "theme": "Ocean technology",
+    "micro_topic": "Matsya-6000 / Samudrayaan",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Janjatiya Gaurav Diwas, observed on 15 November, commemorates the birth anniversary of which tribal leader, who led the 'Ulgulan'?",
+    "options": [
+      "(a) Tilka Manjhi",
+      "(b) Birsa Munda",
+      "(c) Sidhu-Kanhu",
+      "(d) Alluri Sitarama Raju"
+    ],
+    "answer": "(b)",
+    "explanation": "Birsa Munda (born 15 Nov 1875) led the Munda Ulgulan (1899-1900); Janjatiya Gaurav Diwas was designated in 2021.",
+    "subject": "Society",
+    "theme": "Tribal welfare and heroes",
+    "micro_topic": "Janjatiya Gaurav Diwas",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which of the following is NOT a component of the current account of India's Balance of Payments?",
+    "options": [
+      "(a) Net invisibles",
+      "(b) Merchandise trade",
+      "(c) Private remittances",
+      "(d) Foreign direct investment inflows"
+    ],
+    "answer": "(d)",
+    "explanation": "FDI inflows belong to the capital/financial account. Merchandise trade, invisibles (services, income) and transfers such as remittances are current-account items.",
+    "subject": "Economy",
+    "theme": "Balance of Payments",
+    "micro_topic": "Current account components",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The right to privacy was declared a fundamental right, intrinsic to Article 21, by a nine-judge Bench of the Supreme Court in:",
+    "options": [
+      "(a) A.K. Gopalan v. State of Madras",
+      "(b) Kharak Singh v. State of U.P.",
+      "(c) K.S. Puttaswamy v. Union of India",
+      "(d) Maneka Gandhi v. Union of India"
+    ],
+    "answer": "(c)",
+    "explanation": "K.S. Puttaswamy (2017) held privacy to be a fundamental right under Article 21 and Part III, overruling M.P. Sharma and Kharak Singh on that point.",
+    "subject": "Polity & Governance",
+    "theme": "Fundamental Rights",
+    "micro_topic": "Right to privacy - Puttaswamy",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  }
+]

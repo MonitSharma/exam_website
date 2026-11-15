@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to the Credit Guarantee Fund for Micro Units (CGFMU), approved for continuation by the Union Cabinet on 11 November 2026, consider the following statements:\n1. It has been continued for five years, up to 31 March 2031, with a corpus of ₹5,000 crore.\n2. The annual guarantee fee has been reduced from 1% to 0.75%.\n3. The guarantee cover is provided directly to the borrowers of Mudra loans.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statements 1 and 2 are correct. The guarantee (via NCGTC) covers lending institutions against default, not borrowers directly, so 3 is wrong.",
+    "subject": "Economy",
+    "theme": "Credit guarantee & MSME finance",
+    "micro_topic": "CGFMU / PMMY",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Regarding Nepal–India engagement reported in early November 2026, consider the following statements:\n1. Foreign Secretary Vikram Misri met Nepal's Prime Minister Balendra Shah in Kathmandu.\n2. A trial run of the Ayodhya–Janakpur rail service was conducted on 5 November 2026.\n3. India and Nepal signed several major agreements during Mr Misri's visit.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 3 only",
+      "(c) 1 and 2 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "The Misri call on PM Shah and the 5 Nov trial run are reported; no agreements were signed on that visit (outcomes are expected during PM Shah's reported India visit later in November).",
+    "subject": "International Relations",
+    "theme": "India–Nepal ties",
+    "micro_topic": "Neighbourhood First",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the 'Yuge Yugeen Bharat' Museum approved by the Cabinet Committee on Economic Affairs on 11 November 2026, consider the following statements:\n1. It has an estimated cost of about ₹3,230 crore.\n2. It is to be developed in the North and South Block complex in Delhi.\n3. Its first gallery, themed 'Adornment', is expected to open in the North Block in 2027.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 only",
+      "(c) 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three match the CCEA approval: ₹3,230 crore, phased over 2026-27 to 2030-31, repurposing North and South Block; first gallery (Adornment) in the latter half of 2027.",
+    "subject": "Art & Culture",
+    "theme": "Museums & heritage policy",
+    "micro_topic": "Yuge Yugeen Bharat Museum",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In J. Rajesh v. M. Kumaran (2026 INSC 1208), the Supreme Court dealt with a grandson's claim to property his father received on partition among Class I heirs. Consider the following statements:\n1. The Court treated Section 8 of the Hindu Succession Act, 1956 as a self-contained scheme of devolution.\n2. The grandson was held to acquire a coparcenary interest in that property by birth.\n3. A son's son is not a Class I heir under the Act.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "The Court dismissed the suit: the father's partitioned share became his separate property and the grandson did not take it by birth; a son's son is not a Class I heir.",
+    "subject": "Polity & Governance",
+    "theme": "Succession law & judiciary",
+    "micro_topic": "Hindu Succession Act Section 8",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "IIT-Jodhpur recently developed a Niobium-based Refractory Complex Lean Alloy (RCLA). Consider the following statements:\n1. It has a density of about 7.6 g/cm³, lower than the niobium alloy C-103.\n2. It is aimed at high-temperature uses such as hypersonic vehicles and rocket engines.\n3. It was developed jointly with a foreign research institution.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "The alloy (~7.6 g/cm³ vs ~9–10 for C-103) targets hypersonic/rocket/re-entry uses and was conceived, made and tested at IIT-Jodhpur without foreign assistance.",
+    "subject": "Science & Technology",
+    "theme": "Advanced materials",
+    "micro_topic": "Refractory alloys",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The 'Dancing Girl' figurine from Mohenjo-daro, in the news over the Yuge Yugeen Bharat Museum's gallery plans, was produced using which technique?",
+    "options": [
+      "(a) Repoussé",
+      "(b) Lost-wax (cire perdue) casting",
+      "(c) Sand casting",
+      "(d) Stucco moulding"
+    ],
+    "answer": "(b)",
+    "explanation": "The Dancing Girl is a bronze statuette made by the lost-wax process, evidence of advanced Harappan metallurgy.",
+    "subject": "Ancient & Medieval History",
+    "theme": "Indus Valley Civilisation",
+    "micro_topic": "Harappan bronze art",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "The Anglo-Nepalese War (1814–16), which fixed the western boundary of Nepal along the Kali (Mahakali) river, was concluded by which treaty?",
+    "options": [
+      "(a) Treaty of Sugauli",
+      "(b) Treaty of Peace and Friendship, 1950",
+      "(c) Treaty of Titalia",
+      "(d) Treaty of Amritsar"
+    ],
+    "answer": "(a)",
+    "explanation": "The Treaty of Sugauli (1815–16) ended the war and defined Nepal's boundary; the 1950 treaty is the modern bilateral framework; Titalia (1817) concerns Sikkim; Amritsar (1809) the Sikhs.",
+    "subject": "Modern History",
+    "theme": "Colonial expansion & treaties",
+    "micro_topic": "Treaty of Sugauli",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  }
+]

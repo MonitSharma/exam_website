@@ -1,0 +1,242 @@
+[
+  {
+    "question": "With reference to Article 22 of the Constitution of India, consider the following statements:\n1. In Sujit Das v. Union of India (2026), the Supreme Court held that the 24-hour period for production before a Magistrate runs from the moment of detention, not from the formal record of arrest.\n2. The protections under Article 22(1) and 22(2) are available to a person arrested under a preventive detention law.\n3. The time needed for the journey from the place of arrest to the Magistrate's court is excluded from the 24-hour period.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 3 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "*Sujit Das* (5 Nov 2026) held the arrest/detention distinction unsustainable: the clock starts when liberty is curtailed, and only travel time is excludable. Art 22(3) excludes enemy aliens and persons under preventive detention from 22(1)–(2), so statement 2 is wrong.",
+    "subject": "Polity & Governance",
+    "theme": "Fundamental Rights",
+    "micro_topic": "Art 22(2) 24-hour clock from detention (Sujit Das 2026); 22(3) preventive detention exception",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to India's foreign exchange reserves, consider the following statements:\n1. They comprise foreign currency assets, gold, Special Drawing Rights and the Reserve Tranche Position in the IMF.\n2. A week-on-week fall in reserves necessarily means the RBI sold dollars in the market that week.\n3. An appreciation of the euro against the US dollar can raise reported reserves without any RBI transaction.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "Reserves = FCA + gold + SDRs + RTP. A fall can come from valuation (gold price, non-USD currency moves) as well as intervention; e.g. in the week to 23 Oct gold's value fell ~$2.65 bn while FCA rose. Euro appreciation raises the dollar value of euro-denominated FCA.",
+    "subject": "Economy",
+    "theme": "External Sector",
+    "micro_topic": "Forex reserve components; valuation effect vs RBI intervention",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements about \"Other Effective Area-Based Conservation Measures\" (OECMs):\n1. Target 3 of the Kunming–Montreal Global Biodiversity Framework, adopted at CBD COP15, counts OECMs towards the \"30 by 30\" goal.\n2. An area must be notified as a national park or wildlife sanctuary under the Wild Life (Protection) Act, 1972 to qualify as an OECM in India.\n3. India released its I-OECM Guidelines 2026 at a side event of CBD COP17.\nHow many of the statements given above are correct?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All three",
+      "(d) None"
+    ],
+    "answer": "(b)",
+    "explanation": "Statements 1 and 3 are correct. KMGBF Target 3 (COP15, Montreal, Dec 2022) counts protected areas and OECMs. OECMs are by definition outside protected areas, so statement 2 is wrong. The guidelines were released at CBD COP17, Yerevan.",
+    "subject": "Environment",
+    "theme": "Biodiversity Conservation",
+    "micro_topic": "OECMs: KMGBF Target 3 (30x30), outside PAs, I-OECM Guidelines 2026 at CBD COP17",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the National Social Security Board for unorganised, gig and platform workers, consider the following statements:\n1. It is constituted under the Code on Social Security, 2020.\n2. It is chaired by the Prime Minister.\n3. Under the Code, aggregators may be required to contribute 1–2% of annual turnover, capped at 5% of the amount payable to gig and platform workers.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 3 only",
+      "(b) 2 only",
+      "(c) 1 and 2 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "The Board is under the Code on Social Security, 2020 and is chaired by the Union Labour Minister, not the PM. The Code sets aggregator contributions at 1–2% of annual turnover, capped at 5% of the amount paid to gig and platform workers.",
+    "subject": "Society",
+    "theme": "Labour & Social Security",
+    "micro_topic": "National Social Security Board under Code on Social Security 2020; aggregator contribution",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements:\n1. Gallium nitride (GaN) and silicon carbide (SiC) are wide-band-gap semiconductors compared with silicon.\n2. A wider band gap allows devices to work at higher temperatures and higher breakdown voltages.\n3. SiC wafers are commonly used as substrates for GaN high-electron-mobility transistors used in radar.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "Band gaps: Si ~1.12 eV; SiC ~3.3 eV; GaN ~3.4 eV. A wide gap gives higher breakdown fields, power and operating temperature. GaN-on-SiC is the standard RF/radar stack (DRDO SSPL grows 4-inch SiC wafers).",
+    "subject": "Science & Technology",
+    "theme": "Semiconductors",
+    "micro_topic": "Wide-band-gap GaN and SiC; GaN-on-SiC HEMTs for radar (DRDO)",
+    "nature": "Conceptual",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the India–Bangladesh Ganga Water Treaty, consider the following statements:\n1. It was signed in 1996 for a term of 30 years.\n2. It also governs the sharing of Teesta waters.\n3. It governs dry-season sharing of flows at Farakka.\n4. The Joint Rivers Commission, the bilateral mechanism for water issues, was set up in 1972.\nHow many of the statements given above are correct?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) Only three",
+      "(d) All four"
+    ],
+    "answer": "(c)",
+    "explanation": "1, 3 and 4 are correct: 1996, Deve Gowda and Sheikh Hasina, 30 years (expires Dec 2026); dry-season sharing at Farakka; JRC set up in 1972. Teesta sharing is a separate, unsigned issue.",
+    "subject": "International Relations",
+    "theme": "India-Bangladesh",
+    "micro_topic": "Ganga Water Treaty 1996 (30 yrs, Farakka), JRC 1972, Teesta unsigned",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements:\n1. The Protected Area Permit (PAP) regime applies to foreign nationals and flows from the Foreigners (Protected Areas) Order, 1958.\n2. The Inner Line Permit (ILP) is required by Indian citizens from other States and is issued under the Bengal Eastern Frontier Regulation, 1873.\n3. Assam is covered by the ILP regime.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "PAP = foreigners (Foreigners (Protected Areas) Order, 1958). ILP = Indian citizens from other States (BEFR 1873), in Arunachal, Mizoram, Nagaland and Manipur. Assam has no ILP.",
+    "subject": "Internal Security",
+    "theme": "Border Area Regulation",
+    "micro_topic": "PAP (foreigners, 1958 Order) vs ILP (Indians, BEFR 1873); Assam not under ILP",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the amendment of the Constitution under Article 368, consider the following statements:\n1. A Constitution Amendment Bill requires the prior recommendation of the President for introduction.\n2. If the two Houses disagree on a Constitution Amendment Bill, the President may summon a joint sitting.\n3. The President is bound to give assent to a Constitution Amendment Bill duly passed.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 3 only",
+      "(c) 1 and 2 only",
+      "(d) 2 and 3 only"
+    ],
+    "answer": "(b)",
+    "explanation": "An Art 368 Bill can be introduced in either House by a minister or private member without the President's prior permission. There is no joint sitting for amendment Bills. The 24th Amendment (1971) made Presidential assent obligatory.",
+    "subject": "Polity & Governance",
+    "theme": "Amendment of the Constitution",
+    "micro_topic": "Art 368: no prior Presidential recommendation, no joint sitting, assent obligatory (24th Am)",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements about Fundamental Duties:\n1. They were added on the recommendation of the Swaran Singh Committee.\n2. The duty of a parent or guardian to provide opportunities for education to a child aged 6–14 was added by the 86th Amendment, 2002.\n3. Like most Fundamental Rights, they apply to citizens and foreigners alike.\nHow many of the statements given above are correct?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) All three",
+      "(d) None"
+    ],
+    "answer": "(b)",
+    "explanation": "1 and 2 are correct. The Swaran Singh Committee (1976) recommended them; the 42nd Amendment added ten; the 86th Amendment (2002) added the eleventh. FDs apply only to citizens.",
+    "subject": "Polity & Governance",
+    "theme": "Fundamental Duties",
+    "micro_topic": "Swaran Singh Committee, 86th Amendment 11th duty, citizens only",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the RBI's Liquidity Adjustment Facility, consider the following statements:\n1. The Standing Deposit Facility absorbs liquidity without requiring the RBI to give collateral.\n2. The Standing Deposit Facility rate is the ceiling of the policy corridor.\n3. Under the Marginal Standing Facility, banks may borrow overnight by dipping into their SLR securities up to a limit.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "The SDF (April 2022) absorbs liquidity without collateral and is the floor of the corridor; MSF is the ceiling, letting banks borrow overnight by dipping into SLR holdings up to a set limit.",
+    "subject": "Economy",
+    "theme": "Monetary Policy",
+    "micro_topic": "LAF corridor: SDF floor without collateral, MSF ceiling via SLR dip",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following pairs:\nMahajanapada — Capital\n1. Vatsa — Kaushambi\n2. Asmaka — Potali\n3. Anga — Champa\n4. Avanti — Rajagriha\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      "(a) Only one",
+      "(b) Only two",
+      "(c) Only three",
+      "(d) All four"
+    ],
+    "answer": "(c)",
+    "explanation": "Vatsa–Kaushambi ✓, Asmaka–Potali (Potana) ✓, Anga–Champa ✓. Avanti's capital was Ujjayini (and Mahishmati); Rajagriha was Magadha's early capital.",
+    "subject": "Ancient & Medieval History",
+    "theme": "Mahajanapadas",
+    "micro_topic": "Mahajanapada capitals: Vatsa-Kaushambi, Asmaka-Potali, Anga-Champa, Avanti-Ujjayini",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following pairs:\nSite of Ashokan Major Rock Edict — State\n1. Kalsi — Uttarakhand\n2. Jaugada — Madhya Pradesh\n3. Girnar — Gujarat\n4. Sopara — Karnataka\nWhich of the pairs given above are correctly matched?",
+    "options": [
+      "(a) 1 and 3 only",
+      "(b) 2 and 4 only",
+      "(c) 1, 3 and 4 only",
+      "(d) 1, 2, 3 and 4"
+    ],
+    "answer": "(a)",
+    "explanation": "Kalsi (Dehradun, Uttarakhand) ✓; Girnar (Junagadh, Gujarat) ✓. Jaugada is in Odisha (Ganjam), and Sopara is in Maharashtra (Palghar).",
+    "subject": "Ancient & Medieval History",
+    "theme": "Mauryan Empire",
+    "micro_topic": "Ashokan major rock edict sites: Kalsi, Girnar, Jaugada (Odisha), Sopara (Maharashtra)",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the Buddhist councils, consider the following statements:\n1. The First Council was held at Rajagriha during the reign of Ajatashatru.\n2. The Third Council was held at Pataliputra and presided over by Moggaliputta Tissa.\n3. The Fourth Council was held during the reign of Ashoka.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1 and 2 only"
+    ],
+    "answer": "(d)",
+    "explanation": "1st: Rajagriha, Ajatashatru (Mahakassapa presiding). 2nd: Vaishali, Kalashoka. 3rd: Pataliputra, Ashoka, Moggaliputta Tissa. 4th: Kashmir (Kundalvana), under Kanishka, not Ashoka.",
+    "subject": "Ancient & Medieval History",
+    "theme": "Buddhism",
+    "micro_topic": "Four Buddhist councils: venues, patrons, presiding monks",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the Indus Waters Treaty, 1960, consider the following statements:\n1. The World Bank is a signatory to the Treaty.\n2. The Chenab is one of the \"eastern rivers\" allocated to India.\n3. India may build run-of-river hydroelectric projects on the western rivers, subject to design criteria in the Treaty.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 and 3 only",
+      "(c) 2 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "The Treaty was signed by Nehru, Ayub Khan and the World Bank (for specified provisions). Eastern rivers: Ravi, Beas, Sutlej (to India). The Chenab is western. India may make non-consumptive use of the western rivers, including design-limited run-of-river hydro.",
+    "subject": "International Relations",
+    "theme": "India-Pakistan",
+    "micro_topic": "Indus Waters Treaty 1960: World Bank signatory, eastern vs western rivers, run-of-river hydro",
+    "nature": "Factual",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Consider the following statements about the Earth's interior:\n1. S-waves cannot travel through liquids, which is why they are absent beyond about 105° from the epicentre.\n2. The P-wave shadow zone lies roughly between 105° and 145° from the epicentre.\n3. The Conrad discontinuity separates the mantle from the outer core.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 2 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "S-waves are absent beyond ~105° because the outer core is liquid; the P-wave shadow zone is ~105°–145°. The Conrad discontinuity separates the upper and lower crust; Gutenberg separates mantle from core.",
+    "subject": "Geography",
+    "theme": "Interior of the Earth",
+    "micro_topic": "Seismic shadow zones; Conrad, Moho, Gutenberg discontinuities",
+    "nature": "Conceptual",
+    "difficulty": "Moderate"
+  }
+]

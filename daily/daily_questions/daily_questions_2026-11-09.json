@@ -1,0 +1,114 @@
+[
+  {
+    "question": "With reference to the Supreme Court's recent ruling on the National Book Trust (NBT), consider the following statements: 1. The Court held that NBT is \"State\" within the meaning of Article 12 of the Constitution. 2. The Court applied the cumulative financial, functional and administrative control test developed in Ajay Hasia and Pradeep Kumar Biswas. 3. The Court held that NBT employees are entitled to the protections of Articles 309, 310 and 311. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "NBT held to be 'State' under Art. 12 on the Ajay Hasia/Pradeep Kumar Biswas cumulative test; the Court said its staff do not become civil servants or gain Arts. 309-311 protection, so 3 is wrong.",
+    "subject": "Polity & Governance",
+    "theme": "Fundamental Rights",
+    "micro_topic": "Article 12 - NBT as State",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the recent inscriptions on the UNESCO Memory of the World Asia-Pacific Regional Register, consider the following statements: 1. The Rajatarangini is a 12th-century chronicle of Kashmir by Kalhana. 2. The Arthashastra manuscript inscribed is held at the Oriental Research Institute, Mysuru. 3. Inscription on the Regional Register automatically confers inscription on the International Memory of the World Register. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Rajatarangini (Kalhana, 12th century) and the Mysuru Arthashastra manuscript are correct; regional inscription does not automatically confer International Register status, so 3 is wrong.",
+    "subject": "Art & Culture",
+    "theme": "Documentary heritage",
+    "micro_topic": "UNESCO Memory of the World - MOWCAP",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the recent findings from India's Aditya-L1 mission, consider the following statements: 1. The Visible Emission Line Coronagraph (VELC) is an instrument on Aditya-L1. 2. A study using VELC data found that a coronal mass ejection expanded asymmetrically rather than as a symmetric bubble. 3. VELC observes the Sun's photosphere in the near-ultraviolet band. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 2 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(c)",
+    "explanation": "VELC is a coronagraph on Aditya-L1 and the 5 Aug 2024 CME showed asymmetric expansion; VELC studies the corona, whereas near-UV photosphere imaging is done by SUIT, so 3 is wrong.",
+    "subject": "Science & Technology",
+    "theme": "Space technology",
+    "micro_topic": "Aditya-L1 VELC and CMEs",
+    "nature": "Current Affairs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "With reference to the UN Mission for the Referendum in Western Sahara (MINURSO), consider the following statements: 1. It was set up in 1991 to monitor a ceasefire and prepare a referendum. 2. Its mandate lapsed after a US draft resolution to extend it was vetoed by Russia. 3. The vetoed draft would have made Morocco's autonomy proposal the basis for further talks. Which of the statements given above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "MINURSO (1991) lapsed after Russia vetoed the US draft, which would have made Morocco's autonomy plan the basis for talks; all three statements are correct.",
+    "subject": "International Relations",
+    "theme": "UN and peacekeeping",
+    "micro_topic": "MINURSO ends after 35 years",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to the SEBI (Settlement of Administrative and Civil Proceedings) Regulations, 2026, consider the following statements: 1. They replace the SEBI (Settlement Proceedings) Regulations, 2018. 2. Wilful defaulters, fraudulent borrowers and fugitive economic offenders are not eligible to settle. 3. The application fee is Rs 25,000 for all categories of applicants. Which of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 1 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(a)",
+    "explanation": "The 2026 Regulations (in force 7 Nov 2026) replace the 2018 Regulations and bar wilful defaulters, fraudulent borrowers and fugitive economic offenders; the fee is Rs 25,000 for natural persons but Rs 35,000 for others, so 3 is wrong.",
+    "subject": "Economy",
+    "theme": "Capital markets regulation",
+    "micro_topic": "SEBI Settlement Regulations 2026",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "With reference to the definition of \"State\" in Article 12 of the Constitution of India, which one of the following is correct?",
+    "options": [
+      "(a) The definition applies to every provision of the Constitution without exception.",
+      "(b) It includes \"all local or other authorities\" within the territory of India or under the control of the Government of India.",
+      "(c) It expressly lists the Supreme Court and High Courts as part of \"State\".",
+      "(d) It excludes bodies established by a statute or a government resolution."
+    ],
+    "answer": "(b)",
+    "explanation": "Art. 12 applies 'in this Part' (Part III), names no courts expressly, and includes 'other authorities', which courts have extended to statutory and government-created bodies.",
+    "subject": "Polity & Governance",
+    "theme": "Fundamental Rights",
+    "micro_topic": "Article 12 - definition of State",
+    "nature": "Factual",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "With reference to voting in the United Nations Security Council under Article 27 of the UN Charter, which one of the following is correct?",
+    "options": [
+      "(a) Procedural decisions require the concurring votes of all five permanent members.",
+      "(b) A substantive resolution is adopted by a simple majority of eight votes, irrespective of how permanent members vote.",
+      "(c) A substantive resolution needs nine affirmative votes, and a negative vote by a permanent member blocks it even if eleven members vote in favour.",
+      "(d) An abstention by a permanent member is treated as a veto."
+    ],
+    "answer": "(c)",
+    "explanation": "Substantive matters need 9 of 15 affirmative votes with no negative vote by a P5 member; abstention is not a veto, and procedural matters need only nine votes.",
+    "subject": "International Relations",
+    "theme": "UN organs",
+    "micro_topic": "UNSC voting and veto",
+    "nature": "Conceptual",
+    "difficulty": "Hard"
+  }
+]

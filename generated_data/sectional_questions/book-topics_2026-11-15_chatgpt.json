@@ -1,0 +1,1552 @@
+[
+  {
+    "id": "book_topics_2026_11_15_01",
+    "question_number": 1,
+    "question": "Under Article 72 of the Constitution of India, which term describes the substitution of one form of punishment for a lighter form, for example rigorous imprisonment for simple imprisonment?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Remission"
+      },
+      {
+        "key": "b",
+        "text": "Respite"
+      },
+      {
+        "key": "c",
+        "text": "Commutation"
+      },
+      {
+        "key": "d",
+        "text": "Reprieve"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Commutation substitutes a lighter form of punishment. Remission reduces the period without changing its character. Respite awards a lesser sentence for a special fact (pregnancy, disability). Reprieve stays execution temporarily.",
+    "subject": "Polity",
+    "theme": "Polity - Laxmikanth: President, Vice-President, Prime Minister, Central Council of Ministers, Cabinet Committees + Parliament (Pass-2 revision round)",
+    "micro_topic": "Article 72 - forms of clemency (commutation)",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_15_02",
+    "question_number": 2,
+    "question": "With reference to a joint sitting of the two Houses of Parliament under Article 108, consider the following statements:\n1. A joint sitting is presided over by the Speaker of the Lok Sabha.\n2. A joint sitting can be summoned to resolve a deadlock over a Money Bill.\n3. A joint sitting cannot be summoned for a Constitution Amendment Bill.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "The Speaker presides (Art 118(4)). Money Bills need no joint sitting because the Rajya Sabha can only delay them 14 days. Art 368 bills must pass each House separately, so no joint sitting. Joint sittings have been held three times: 1961 (Dowry Prohibition), 1978 (Banking Service Commission Repeal), 2002 (POTA).",
+    "subject": "Polity",
+    "theme": "Polity - Laxmikanth: President, Vice-President, Prime Minister, Central Council of Ministers, Cabinet Committees + Parliament (Pass-2 revision round)",
+    "micro_topic": "Joint sitting - Article 108",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_15_03",
+    "question_number": 3,
+    "question": "With reference to the pardoning power of the President of India, consider the following statements:\n1. Its exercise is subject to limited judicial review, for example where it is shown to be arbitrary, mala fide or based on irrelevant considerations.\n2. The President exercises this power on the aid and advice of the Union Council of Ministers.\n3. The President can pardon a sentence imposed by a court martial, whereas the Governor under Article 161 cannot.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Epuru Sudhakar (2006) and Kehar Singh (1989) allow limited review. Maru Ram (1980) held the power is exercised on ministerial advice. Art 72(1)(a) covers court-martial sentences; Art 161 has no such clause.",
+    "subject": "Polity",
+    "theme": "Polity - Laxmikanth: President, Vice-President, Prime Minister, Central Council of Ministers, Cabinet Committees + Parliament (Pass-2 revision round)",
+    "micro_topic": "Pardoning power - judicial review, advice, court martial (PYQ-pattern 2025)",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_15_04",
+    "question_number": 4,
+    "question": "In Krishna Kumar Singh v. State of Bihar (2017), the Supreme Court held which of the following?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Re-promulgating ordinances without placing them before the legislature is a fraud on the Constitution, and the satisfaction behind an ordinance is not immune from judicial review."
+      },
+      {
+        "key": "b",
+        "text": "An ordinance cannot be issued on a subject in the Concurrent List."
+      },
+      {
+        "key": "c",
+        "text": "A Governor requires prior instructions from the President before issuing any ordinance."
+      },
+      {
+        "key": "d",
+        "text": "An ordinance is not 'law' for the purposes of Article 13."
+      }
+    ],
+    "answer": "a",
+    "explanation": "The case involved Bihar ordinances re-promulgated many times (Art 213); the 7-judge bench extended D.C. Wadhwa (1987). Its reasoning applies to Art 123 too. Ordinances are 'law' under Art 13(3)(a), and they can cover Concurrent List subjects. Prior Presidential instruction is needed only in the cases in the proviso to Art 213(1).",
+    "subject": "Polity",
+    "theme": "Polity - Laxmikanth: President, Vice-President, Prime Minister, Central Council of Ministers, Cabinet Committees + Parliament (Pass-2 revision round)",
+    "micro_topic": "Re-promulgation of ordinances - Krishna Kumar Singh (2017)",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_15_05",
+    "question_number": 5,
+    "question": "Under the 91st Constitutional Amendment Act, 2003, the total number of ministers, including the Prime Minister, in the Union Council of Ministers shall not exceed:",
+    "options": [
+      {
+        "key": "a",
+        "text": "15% of the total strength of the Lok Sabha"
+      },
+      {
+        "key": "b",
+        "text": "10% of the total strength of the Lok Sabha"
+      },
+      {
+        "key": "c",
+        "text": "15% of the combined strength of both Houses"
+      },
+      {
+        "key": "d",
+        "text": "20% of the total strength of the Lok Sabha"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Art 75(1A). For States it is 15% of the Legislative Assembly, with a minimum of 12 (Art 164(1A)). The same amendment barred defectors from becoming ministers (Art 75(1B)).",
+    "subject": "Polity",
+    "theme": "Polity - Laxmikanth: President, Vice-President, Prime Minister, Central Council of Ministers, Cabinet Committees + Parliament (Pass-2 revision round)",
+    "micro_topic": "91st Amendment - size of the Council of Ministers",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_15_06",
+    "question_number": 6,
+    "question": "Consider the following statements:\n1. The Constitution of India classifies the Union ministers into Cabinet Ministers, Ministers of State and Deputy Ministers.\n2. Cabinet Committees such as the Cabinet Committee on Security are provided for in the Constitution.\n3. The word 'Cabinet' was inserted into the Constitution by the 44th Amendment Act, 1978.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "d",
+        "text": "3 only"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Ranks are set by convention, not the text. Cabinet committees are extra-constitutional, set up under the Government of India (Transaction of Business) Rules, 1961. The only mention of 'Cabinet' is in Art 352(3), added by the 44th Amendment.",
+    "subject": "Polity",
+    "theme": "Polity - Laxmikanth: President, Vice-President, Prime Minister, Central Council of Ministers, Cabinet Committees + Parliament (Pass-2 revision round)",
+    "micro_topic": "Ranks of ministers, cabinet committees, 'Cabinet' in the text (PYQ-pattern 2022)",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_15_07",
+    "question_number": 7,
+    "question": "Consider the following statements:\n1. While acting as President, the Vice-President does not perform the duties of Chairman of the Rajya Sabha.\n2. While acting as President, the Vice-President is entitled to the emoluments and privileges of the President.\n3. A vacancy in the office of President caused by death must be filled by election within one year.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Art 64 proviso and Art 65(3). Art 62(2) requires the election within six months, not one year. The elected person gets a full five-year term.",
+    "subject": "Polity",
+    "theme": "Polity - Laxmikanth: President, Vice-President, Prime Minister, Central Council of Ministers, Cabinet Committees + Parliament (Pass-2 revision round)",
+    "micro_topic": "Vice-President acting as President - Articles 62, 64, 65",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_15_08",
+    "question_number": 8,
+    "question": "Which of the following are exclusive powers of the Lok Sabha?\n1. Passing a motion of no-confidence against the Council of Ministers\n2. Approving a proclamation of National Emergency\n3. Introduction of a Money Bill\n4. Initiating impeachment proceedings against the President\nSelect the correct answer using the code given below:",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "b",
+        "text": "1, 2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 4 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 3 and 4 only"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The Council of Ministers is collectively responsible to the Lok Sabha (Art 75(3)), and Money Bills start only there (Art 109). Emergency approval needs both Houses (Art 352(4)). Impeachment can start in either House (Art 61). The Lok Sabha alone can pass a resolution disapproving an Emergency (Art 352(7)).",
+    "subject": "Polity",
+    "theme": "Polity - Laxmikanth: President, Vice-President, Prime Minister, Central Council of Ministers, Cabinet Committees + Parliament (Pass-2 revision round)",
+    "micro_topic": "Exclusive powers of the Lok Sabha (PYQ-pattern 2022)",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_15_09",
+    "question_number": 9,
+    "question": "Consider the following pairs:\n1. Adjournment motion : needs the support of 50 members and carries an element of censure\n2. No-confidence motion : must state the reasons for its adoption\n3. Calling attention motion : an Indian innovation in parliamentary procedure, in the Rules since 1954\n4. Zero Hour : provided for in the Rules of Procedure of the Lok Sabha\nWhich of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 4 only"
+      },
+      {
+        "key": "c",
+        "text": "1, 2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1 only"
+      }
+    ],
+    "answer": "a",
+    "explanation": "A no-confidence motion need not state reasons (a censure motion must) and needs 50 members' support. Zero Hour is an informal device, not in the Rules. The adjournment motion is an extraordinary device that interrupts normal business.",
+    "subject": "Polity",
+    "theme": "Polity - Laxmikanth: President, Vice-President, Prime Minister, Central Council of Ministers, Cabinet Committees + Parliament (Pass-2 revision round)",
+    "micro_topic": "Parliamentary motions and devices",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_15_10",
+    "question_number": 10,
+    "question": "Consider the following statements:\n1. The quorum for a sitting of either House of Parliament is one-tenth of the total number of members of that House, including the presiding officer.\n2. Prorogation of a House causes all Bills pending before it to lapse.\n3. On prorogation, pending notices, other than those for the introduction of Bills, lapse.\n4. A joint sitting can be held even after the Lok Sabha has been dissolved, if the President had notified the intention to summon it before the dissolution.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2, 3 and 4 only"
+      },
+      {
+        "key": "c",
+        "text": "1, 3 and 4 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Art 100(3) fixes the quorum at one-tenth. Prorogation ends a session but does not affect pending Bills; only dissolution of the Lok Sabha lapses Bills (and then only some). Art 108(5) saves a joint sitting already notified.",
+    "subject": "Polity",
+    "theme": "Polity - Laxmikanth: President, Vice-President, Prime Minister, Central Council of Ministers, Cabinet Committees + Parliament (Pass-2 revision round)",
+    "micro_topic": "Quorum, prorogation, joint sitting after dissolution",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_15_11",
+    "question_number": 11,
+    "question": "A grant made by the Lok Sabha to meet an unexpected demand on the resources of India, when the magnitude or indefinite nature of the service means it cannot be stated with the details usually given in a Budget, is called:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Vote of credit"
+      },
+      {
+        "key": "b",
+        "text": "Exceptional grant"
+      },
+      {
+        "key": "c",
+        "text": "Token grant"
+      },
+      {
+        "key": "d",
+        "text": "Supplementary grant"
+      }
+    ],
+    "answer": "a",
+    "explanation": "A vote of credit (Art 116(1)(b)) is like a blank cheque. An exceptional grant is for a purpose outside the current service of any financial year. A token grant is a nominal sum voted for a new service funded by re-appropriation. A supplementary grant tops up an insufficient grant (Art 115).",
+    "subject": "Economy",
+    "theme": "Economy - Vivek Singh Ch 4: Budgeting, Taxation and GST (Pass-2 revision round)",
+    "micro_topic": "Vote of credit - Article 116",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_15_12",
+    "question_number": 12,
+    "question": "What is the position of crude petroleum, high-speed diesel, motor spirit (petrol), natural gas and aviation turbine fuel under GST?",
+    "options": [
+      {
+        "key": "a",
+        "text": "They are permanently outside GST under the Constitution."
+      },
+      {
+        "key": "b",
+        "text": "They are within the scope of GST, but GST on them will be levied only from a date the GST Council recommends."
+      },
+      {
+        "key": "c",
+        "text": "They attract GST at the 40% demerit rate."
+      },
+      {
+        "key": "d",
+        "text": "They are taxed only through IGST."
+      }
+    ],
+    "answer": "b",
+    "explanation": "Art 279A(5) leaves the start date to the Council's recommendation. Until then Central excise and State VAT apply. Alcoholic liquor for human consumption is the item kept outside GST by the Constitution (Art 366(12A)).",
+    "subject": "Economy",
+    "theme": "Economy - Vivek Singh Ch 4: Budgeting, Taxation and GST (Pass-2 revision round)",
+    "micro_topic": "Petroleum products and GST - Article 279A(5)",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_15_13",
+    "question_number": 13,
+    "question": "With reference to the Contingency Fund of India, consider the following statements:\n1. Its corpus was raised from 500 crore rupees to 30,000 crore rupees by the Finance Act, 2021.\n2. Withdrawals from it require the prior approval of Parliament.\n3. It is held by the Finance Secretary (Department of Economic Affairs) on behalf of the President.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1, 2 and 3"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1 and 3 only"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Art 267 makes it an imprest at the President's disposal for unforeseen expenditure pending authorisation; Parliament approves later, and the Fund is then recouped from the Consolidated Fund. The corpus is set by the Contingency Fund of India Act, 1950, last amended in 2021.",
+    "subject": "Economy",
+    "theme": "Economy - Vivek Singh Ch 4: Budgeting, Taxation and GST (Pass-2 revision round)",
+    "micro_topic": "Contingency Fund of India - corpus and operation",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_15_14",
+    "question_number": 14,
+    "question": "In a budget (all figures in lakh crore rupees): revenue receipts 30; non-debt capital receipts 2; borrowings and other liabilities 15; total expenditure 47; revenue expenditure 38; interest payments 9; grants for creation of capital assets 6. What are the primary deficit and the effective revenue deficit?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Primary deficit 6; effective revenue deficit 2"
+      },
+      {
+        "key": "b",
+        "text": "Primary deficit 6; effective revenue deficit 14"
+      },
+      {
+        "key": "c",
+        "text": "Primary deficit 24; effective revenue deficit 2"
+      },
+      {
+        "key": "d",
+        "text": "Primary deficit 15; effective revenue deficit 8"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Fiscal deficit = 47 - (30 + 2) = 15 (equal to borrowings). Primary deficit = 15 - 9 = 6. Revenue deficit = 38 - 30 = 8. Effective revenue deficit = 8 - 6 = 2.",
+    "subject": "Economy",
+    "theme": "Economy - Vivek Singh Ch 4: Budgeting, Taxation and GST (Pass-2 revision round)",
+    "micro_topic": "Deficit ladder - numeric",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_15_15",
+    "question_number": 15,
+    "question": "With reference to the GST Council, consider the following statements:\n1. Every decision requires a majority of at least three-fourths of the weighted votes of the members present and voting.\n2. The vote of the Union Government carries a weight of one-third of the total votes cast.\n3. In Union of India v. Mohit Minerals (2022), the Supreme Court held the Council's recommendations to be binding on Parliament and the State legislatures.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Art 279A(9): 3/4 majority, Union weight 1/3, all States together 2/3. Mohit Minerals held the recommendations to be persuasive, not binding, reflecting cooperative federalism; Art 246A gives Parliament and States simultaneous power.",
+    "subject": "Economy",
+    "theme": "Economy - Vivek Singh Ch 4: Budgeting, Taxation and GST (Pass-2 revision round)",
+    "micro_topic": "GST Council voting and Mohit Minerals (2022)",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_15_16",
+    "question_number": 16,
+    "question": "Consider the following statements:\n1. Integrated GST on inter-State supplies is levied and collected by the Government of India.\n2. Supply of goods or services in the course of import into India is deemed to be a supply in the course of inter-State trade.\n3. GST is an origin-based tax, so revenue accrues to the State where the goods are produced.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Art 269A(1) and its Explanation. GST is destination-based: the tax goes to the consuming State. That was the reason producing States sought compensation for five years.",
+    "subject": "Economy",
+    "theme": "Economy - Vivek Singh Ch 4: Budgeting, Taxation and GST (Pass-2 revision round)",
+    "micro_topic": "IGST - Article 269A and destination principle",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_15_17",
+    "question_number": 17,
+    "question": "Consider the following statements:\n1. The FRBM Review Committee (2017) recommended debt as the primary fiscal anchor, with a general government debt target of 60% of GDP (40% Centre, 20% States).\n2. It recommended an independent Fiscal Council.\n3. It recommended 'escape clauses' allowing the fiscal deficit target to be exceeded by up to 0.5% of GDP in specified circumstances.\n4. The 2018 amendment to the FRBM Act retained the revenue deficit target as the operational target.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1, 2 and 3 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "3 and 4 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The 2018 amendment (Finance Act, 2018) made fiscal deficit the operational target and dropped the revenue deficit target. The escape clause covers national security, war, national calamity, agricultural collapse and structural reforms. The Fiscal Council has not been set up.",
+    "subject": "Economy",
+    "theme": "Economy - Vivek Singh Ch 4: Budgeting, Taxation and GST (Pass-2 revision round)",
+    "micro_topic": "FRBM review (N.K. Singh Committee) and the 2018 amendment",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_15_18",
+    "question_number": 18,
+    "question": "Arrange the following stages in the passage of the Union Budget in the correct order:\n1. Scrutiny of demands for grants by Departmentally Related Standing Committees\n2. General discussion on the Budget\n3. Passing of the Appropriation Bill\n4. Voting on demands for grants\n5. Passing of the Finance Bill\nSelect the correct answer using the code given below:",
+    "options": [
+      {
+        "key": "a",
+        "text": "2-1-4-3-5"
+      },
+      {
+        "key": "b",
+        "text": "1-2-4-3-5"
+      },
+      {
+        "key": "c",
+        "text": "2-4-1-3-5"
+      },
+      {
+        "key": "d",
+        "text": "2-1-3-4-5"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Presentation → general discussion → DRSC scrutiny (House adjourns about 3-4 weeks) → voting on demands (Lok Sabha only; guillotine) → Appropriation Bill (Art 114) → Finance Bill (Art 117; must be enacted within 75 days under the Provisional Collection of Taxes Act, 1931).",
+    "subject": "Economy",
+    "theme": "Economy - Vivek Singh Ch 4: Budgeting, Taxation and GST (Pass-2 revision round)",
+    "micro_topic": "Stages of budget passage",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_15_19",
+    "question_number": 19,
+    "question": "In the Battle of Buxar (1764), the English East India Company defeated the combined forces of:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Siraj-ud-Daula, Mir Jafar and the French"
+      },
+      {
+        "key": "b",
+        "text": "Mir Qasim, Shuja-ud-Daula and Shah Alam II"
+      },
+      {
+        "key": "c",
+        "text": "Mir Jafar, Shuja-ud-Daula and the Marathas"
+      },
+      {
+        "key": "d",
+        "text": "Haidar Ali, the Nizam and the Marathas"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Hector Munro's victory led to the Treaty of Allahabad (1765), which gave the Company the Diwani of Bengal, Bihar and Orissa. Plassey (1757) was fought against Siraj-ud-Daula.",
+    "subject": "Modern History",
+    "theme": "Modern History - Spectrum Ch 1-9: Advent of Europeans to 1857 and socio-religious reform (Pass-2 revision round)",
+    "micro_topic": "Battle of Buxar 1764",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_15_20",
+    "question_number": 20,
+    "question": "The Santhal rebellion of 1855-56 was led by:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Birsa Munda"
+      },
+      {
+        "key": "b",
+        "text": "Alluri Sitarama Raju"
+      },
+      {
+        "key": "c",
+        "text": "Buddho Bhagat"
+      },
+      {
+        "key": "d",
+        "text": "Sidhu and Kanhu"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Sidhu and Kanhu Murmu led it in the Rajmahal hills against zamindars, moneylenders and the Company. The Santhal Parganas district was created afterwards. Buddho Bhagat led the Kol uprising (1831-32); Birsa Munda the Ulgulan (1899-1900); Alluri the Rampa rebellion (1922-24).",
+    "subject": "Modern History",
+    "theme": "Modern History - Spectrum Ch 1-9: Advent of Europeans to 1857 and socio-religious reform (Pass-2 revision round)",
+    "micro_topic": "Santhal rebellion 1855-56",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_15_21",
+    "question_number": 21,
+    "question": "Which one of the following pairs (centre of the Revolt of 1857 : leader) is NOT correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Delhi : Bahadur Shah Zafar (with General Bakht Khan)"
+      },
+      {
+        "key": "b",
+        "text": "Kanpur : Nana Saheb"
+      },
+      {
+        "key": "c",
+        "text": "Arrah (Bihar) : Kunwar Singh"
+      },
+      {
+        "key": "d",
+        "text": "Lucknow : Rani Lakshmibai"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Lucknow was led by Begum Hazrat Mahal; Rani Lakshmibai led at Jhansi (defeated by Hugh Rose). Delhi fell to John Nicholson's force; Kanpur and Lucknow were recovered by Colin Campbell.",
+    "subject": "Modern History",
+    "theme": "Modern History - Spectrum Ch 1-9: Advent of Europeans to 1857 and socio-religious reform (Pass-2 revision round)",
+    "micro_topic": "1857 - centres and leaders",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_15_22",
+    "question_number": 22,
+    "question": "Consider the following pairs:\n1. Faraizi movement : Haji Shariatullah : eastern Bengal\n2. Paika rebellion : Bakshi Jagabandhu : Odisha\n3. Kol uprising : Buddho Bhagat : Chotanagpur\n4. Pagal Panthi movement : Karam Shah : Assam\nWhich of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "3 and 4 only"
+      },
+      {
+        "key": "c",
+        "text": "1, 2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The Pagal Panthis (Karam Shah, later Tipu) were in the Mymensingh region of Bengal. The Paika rising was in 1817 at Khurda; the Faraizi movement was later radicalised by Dudu Miyan.",
+    "subject": "Modern History",
+    "theme": "Modern History - Spectrum Ch 1-9: Advent of Europeans to 1857 and socio-religious reform (Pass-2 revision round)",
+    "micro_topic": "People's resistance - movements, leaders, regions",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_15_23",
+    "question_number": 23,
+    "question": "The Treaty of Bassein (1802), by which a Maratha ruler accepted the Subsidiary Alliance, was signed by:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Mahadji Scindia"
+      },
+      {
+        "key": "b",
+        "text": "Peshwa Baji Rao II"
+      },
+      {
+        "key": "c",
+        "text": "Yashwantrao Holkar"
+      },
+      {
+        "key": "d",
+        "text": "Raghunath Rao"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Baji Rao II fled after Holkar's victory at Poona and signed at Bassein, which triggered the Second Anglo-Maratha War. Raghunath Rao signed the Treaty of Surat (1775); Salbai (1782) ended the First War.",
+    "subject": "Modern History",
+    "theme": "Modern History - Spectrum Ch 1-9: Advent of Europeans to 1857 and socio-religious reform (Pass-2 revision round)",
+    "micro_topic": "Anglo-Maratha treaties - Bassein 1802",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_15_24",
+    "question_number": 24,
+    "question": "Consider the following statements:\n1. The Treaty of Amritsar (1809) between Ranjit Singh and the Company recognised the Sutlej as the boundary of his dominions.\n2. The Treaty of Lahore (1846) ended the First Anglo-Sikh War.\n3. Punjab was annexed in 1849 under Lord Hardinge.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1, 2 and 3"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1 and 2 only"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Punjab was annexed in 1849 under Lord Dalhousie after the Second Anglo-Sikh War. A separate Treaty of Amritsar (1846) transferred Kashmir to Gulab Singh.",
+    "subject": "Modern History",
+    "theme": "Modern History - Spectrum Ch 1-9: Advent of Europeans to 1857 and socio-religious reform (Pass-2 revision round)",
+    "micro_topic": "Anglo-Sikh relations",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_15_25",
+    "question_number": 25,
+    "question": "Arrange the following organisations in the chronological order of their founding:\n1. Prarthana Samaj\n2. Arya Samaj\n3. Tattvabodhini Sabha\n4. Satyashodhak Samaj\nSelect the correct answer using the code given below:",
+    "options": [
+      {
+        "key": "a",
+        "text": "3-1-4-2"
+      },
+      {
+        "key": "b",
+        "text": "3-1-2-4"
+      },
+      {
+        "key": "c",
+        "text": "1-3-4-2"
+      },
+      {
+        "key": "d",
+        "text": "3-4-1-2"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Tattvabodhini Sabha 1839 (Debendranath Tagore) → Prarthana Samaj 1867 (Atmaram Pandurang, Bombay) → Satyashodhak Samaj 1873 (Jyotiba Phule) → Arya Samaj 1875 (Dayananda, Bombay). The Ramakrishna Mission followed in 1897.",
+    "subject": "Modern History",
+    "theme": "Modern History - Spectrum Ch 1-9: Advent of Europeans to 1857 and socio-religious reform (Pass-2 revision round)",
+    "micro_topic": "Reform bodies - chronology",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_15_26",
+    "question_number": 26,
+    "question": "With reference to the Government of India Act, 1858, consider the following statements:\n1. It abolished the Board of Control and the Court of Directors.\n2. It created the office of Secretary of State for India, assisted by a 15-member Council of India.\n3. It introduced the portfolio system in the Governor-General's council.\n4. Lord Canning became the first Viceroy of India under it.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2, 3 and 4 only"
+      },
+      {
+        "key": "c",
+        "text": "1, 2 and 4 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The portfolio system came with Canning's reforms under the Indian Councils Act, 1861. The 1858 Act ended dual control (Pitt's India Act, 1784) and made the Secretary of State a member of the British Cabinet.",
+    "subject": "Modern History",
+    "theme": "Modern History - Spectrum Ch 1-9: Advent of Europeans to 1857 and socio-religious reform (Pass-2 revision round)",
+    "micro_topic": "Government of India Act, 1858",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_15_27",
+    "question_number": 27,
+    "question": "With reference to the Wahabi movement in India, consider the following statements:\n1. It was led in India by Syed Ahmad of Rae Bareli and drew on the teachings of Abdul Wahab and Shah Waliullah.\n2. Patna was its main centre.\n3. In its early phase it fought the Sikh kingdom in the Punjab.\n4. It began as a movement of indigo cultivators against European planters.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "1, 2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "2, 3 and 4 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3 and 4"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Syed Ahmad was killed at Balakot (1831) fighting the Sikhs; after 1849 the movement turned against the British and was crushed through the 1860s trials. The indigo revolt (1859-60) was a separate peasant movement in Bengal.",
+    "subject": "Modern History",
+    "theme": "Modern History - Spectrum Ch 1-9: Advent of Europeans to 1857 and socio-religious reform (Pass-2 revision round)",
+    "micro_topic": "Wahabi movement",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_15_28",
+    "question_number": 28,
+    "question": "India's first Biodiversity Heritage Site, declared in 2007 under Section 37 of the Biological Diversity Act, 2002, is:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Ameenpur Lake, Telangana"
+      },
+      {
+        "key": "b",
+        "text": "Glory of Allapalli, Maharashtra"
+      },
+      {
+        "key": "c",
+        "text": "Majuli, Assam"
+      },
+      {
+        "key": "d",
+        "text": "Nallur Tamarind Grove, Karnataka"
+      }
+    ],
+    "answer": "d",
+    "explanation": "State governments notify BHS in consultation with local bodies. Ameenpur Lake (2016) was the first water body declared a BHS.",
+    "subject": "Environment",
+    "theme": "Environment - Shankar IAS: Biodiversity, Indian Biodiversity, WPA 1972 schedules, Conservation Efforts (Pass-2 revision round)",
+    "micro_topic": "Biodiversity Heritage Sites - the first",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_15_29",
+    "question_number": 29,
+    "question": "A species with large habitat needs, whose conservation indirectly protects many other species sharing its range, is called:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Keystone species"
+      },
+      {
+        "key": "b",
+        "text": "Flagship species"
+      },
+      {
+        "key": "c",
+        "text": "Umbrella species"
+      },
+      {
+        "key": "d",
+        "text": "Indicator species"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Keystone: disproportionate effect on the ecosystem relative to its abundance. Flagship: a charismatic species used to raise awareness and funds. Indicator: one whose presence or condition reflects environmental health (lichens and air quality). The tiger is often all three.",
+    "subject": "Environment",
+    "theme": "Environment - Shankar IAS: Biodiversity, Indian Biodiversity, WPA 1972 schedules, Conservation Efforts (Pass-2 revision round)",
+    "micro_topic": "Keystone, umbrella, flagship and indicator species",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_15_30",
+    "question_number": 30,
+    "question": "With reference to the Biological Diversity Act, 2002, consider the following statements:\n1. The National Biodiversity Authority is headquartered at Chennai.\n2. Biodiversity Management Committees, set up by local bodies, maintain People's Biodiversity Registers.\n3. Indian citizens need the prior approval of the National Biodiversity Authority to access biological resources for commercial use.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Prior NBA approval applies to foreigners and foreign-controlled entities. Indian entities give prior intimation to the State Biodiversity Board. The Act implements the CBD and its access and benefit-sharing (ABS) principles.",
+    "subject": "Environment",
+    "theme": "Environment - Shankar IAS: Biodiversity, Indian Biodiversity, WPA 1972 schedules, Conservation Efforts (Pass-2 revision round)",
+    "micro_topic": "Biological Diversity Act 2002 - three-tier structure",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_15_31",
+    "question_number": 31,
+    "question": "With reference to the Biological Diversity (Amendment) Act, 2023, consider the following statements:\n1. It decriminalised offences under the Act, replacing imprisonment with monetary penalties.\n2. It exempted registered AYUSH practitioners and users of codified traditional knowledge from giving prior intimation to State Biodiversity Boards.\n3. It abolished Biodiversity Management Committees and transferred their functions to the National Biodiversity Authority.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1, 2 and 3"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1 and 2 only"
+      }
+    ],
+    "answer": "d",
+    "explanation": "BMCs remain the local tier. The amendment also eased research, patent and investment processes and widened benefit-sharing provisions.",
+    "subject": "Environment",
+    "theme": "Environment - Shankar IAS: Biodiversity, Indian Biodiversity, WPA 1972 schedules, Conservation Efforts (Pass-2 revision round)",
+    "micro_topic": "Biological Diversity (Amendment) Act, 2023",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_15_32",
+    "question_number": 32,
+    "question": "Consider the following statements:\n1. Conservation reserves and community reserves were added to the Wild Life (Protection) Act, 1972 by the amendment of 2002.\n2. A community reserve can be declared on community or private land where the community or individual volunteers to conserve wildlife.\n3. Rights of people living inside a conservation reserve are extinguished, as in a national park.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Conservation reserves (s.36A) are on government land, usually buffers or corridors next to PAs, and local rights are not affected. Community reserves fall under s.36C. National parks extinguish rights; sanctuaries allow some.",
+    "subject": "Environment",
+    "theme": "Environment - Shankar IAS: Biodiversity, Indian Biodiversity, WPA 1972 schedules, Conservation Efforts (Pass-2 revision round)",
+    "micro_topic": "Conservation reserves and community reserves",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_15_33",
+    "question_number": 33,
+    "question": "Consider the following pairs (facility : location):\n1. Svalbard Global Seed Vault : Norway\n2. National Bureau of Plant Genetic Resources (national gene bank) : New Delhi\n3. Laboratory for the Conservation of Endangered Species (LaCONES) : Hyderabad\n4. First Vulture Conservation Breeding Centre in India : Pinjore, Haryana\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "Only three"
+      },
+      {
+        "key": "d",
+        "text": "All four"
+      }
+    ],
+    "answer": "d",
+    "explanation": "LaCONES belongs to CSIR-CCMB and works on assisted reproduction and gene banking of wild species. Pinjore (Jatayu Conservation Breeding Centre) was set up in 2001 after the Gyps vulture crash.",
+    "subject": "Environment",
+    "theme": "Environment - Shankar IAS: Biodiversity, Indian Biodiversity, WPA 1972 schedules, Conservation Efforts (Pass-2 revision round)",
+    "micro_topic": "Ex-situ conservation facilities",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_15_34",
+    "question_number": 34,
+    "question": "Consider the following statements:\n1. The use of diclofenac for veterinary purposes was banned in India in 2006.\n2. Meloxicam is regarded as a vulture-safe alternative to diclofenac.\n3. India's three resident Gyps vultures (white-rumped, Indian and slender-billed) are listed as Least Concern on the IUCN Red List.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Residues of diclofenac in carcasses cause kidney failure in Gyps vultures, which crashed by over 95% from the 1990s. All three are Critically Endangered. India runs a Vulture Action Plan (2020-25) with breeding centres and 'vulture safe zones'.",
+    "subject": "Environment",
+    "theme": "Environment - Shankar IAS: Biodiversity, Indian Biodiversity, WPA 1972 schedules, Conservation Efforts (Pass-2 revision round)",
+    "micro_topic": "Vulture decline and NSAIDs",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_15_35",
+    "question_number": 35,
+    "question": "Consider the following statements:\n1. Conservation International identified 17 megadiverse countries, and India is one of them.\n2. The Group of Like-Minded Megadiverse Countries was formed through the Cancun Declaration of 2002, and India is a member.\n3. India, with about 2.4% of the world's land area, accounts for more than 15% of the world's recorded species.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1, 2 and 3"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1 and 2 only"
+      }
+    ],
+    "answer": "d",
+    "explanation": "India holds roughly 7-8% of recorded species on 2.4% of the land area. India also has parts of 4 of the 36 global hotspots: Himalaya, Indo-Burma, Western Ghats-Sri Lanka and Sundaland (Nicobar).",
+    "subject": "Environment",
+    "theme": "Environment - Shankar IAS: Biodiversity, Indian Biodiversity, WPA 1972 schedules, Conservation Efforts (Pass-2 revision round)",
+    "micro_topic": "Megadiverse countries and India's share of species",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_15_36",
+    "question_number": 36,
+    "question": "The first coordination among India, the USA, Japan and Australia, later seen as the origin of the Quad, took place as:",
+    "options": [
+      {
+        "key": "a",
+        "text": "The Tsunami Core Group after the 2004 Indian Ocean tsunami"
+      },
+      {
+        "key": "b",
+        "text": "A trilateral naval exercise in the Strait of Malacca in 2001"
+      },
+      {
+        "key": "c",
+        "text": "A side meeting at the 1997 founding of IORA"
+      },
+      {
+        "key": "d",
+        "text": "A dialogue under the 2008 India-US civil nuclear deal"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The four navies coordinated relief after December 2004. A first Quad meeting followed in 2007 (Manila, ARF sidelines); the grouping lapsed in 2008 and was revived at officials' level in November 2017.",
+    "subject": "International Relations",
+    "theme": "International Relations - India-USA + Quad and the Indo-Pacific (Pass-2 revision round)",
+    "micro_topic": "Origin of the Quad",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_15_37",
+    "question_number": 37,
+    "question": "Which one of the following is a tri-service amphibious exercise between India and the USA, focused on humanitarian assistance and disaster relief?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Yudh Abhyas"
+      },
+      {
+        "key": "b",
+        "text": "Cope India"
+      },
+      {
+        "key": "c",
+        "text": "Tiger Triumph"
+      },
+      {
+        "key": "d",
+        "text": "Vajra Prahar"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Yudh Abhyas is army-to-army, Cope India is an air force exercise, and Vajra Prahar is for special forces. Malabar began as an India-US naval exercise and now includes Japan and Australia.",
+    "subject": "International Relations",
+    "theme": "International Relations - India-USA + Quad and the Indo-Pacific (Pass-2 revision round)",
+    "micro_topic": "India-USA military exercises",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_15_38",
+    "question_number": 38,
+    "question": "With reference to the Indo-Pacific Oceans Initiative (IPOI), consider the following statements:\n1. India announced it at the East Asia Summit in Bangkok in 2019.\n2. It has seven pillars, including maritime security, maritime ecology and maritime resources.\n3. It is a treaty-based organisation with a permanent secretariat in New Delhi.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "IPOI is an open, non-treaty, voluntary framework; partner countries lead individual pillars. The other pillars are capacity building and resource sharing, disaster risk reduction and management, science-technology-academic cooperation, and trade connectivity and maritime transport.",
+    "subject": "International Relations",
+    "theme": "International Relations - India-USA + Quad and the Indo-Pacific (Pass-2 revision round)",
+    "micro_topic": "Indo-Pacific Oceans Initiative (IPOI)",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_15_39",
+    "question_number": 39,
+    "question": "With reference to the Indo-Pacific Economic Framework for Prosperity (IPEF), consider the following statements:\n1. It was launched in Tokyo in May 2022.\n2. Its four pillars are trade, supply chains, clean economy and fair economy.\n3. India has joined all four pillars.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "India joined the supply-chain, clean-economy and fair-economy pillars and stayed out of the trade pillar (labour, environment, digital-trade commitments). IPEF has 14 partners and is not a free trade agreement.",
+    "subject": "International Relations",
+    "theme": "International Relations - India-USA + Quad and the Indo-Pacific (Pass-2 revision round)",
+    "micro_topic": "Indo-Pacific Economic Framework (IPEF)",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_15_40",
+    "question_number": 40,
+    "question": "Consider the following statements:\n1. The Prime Minister's keynote at the Shangri-La Dialogue in 2018 set out India's vision of a free, open and inclusive Indo-Pacific with ASEAN centrality.\n2. ASEAN adopted the 'ASEAN Outlook on the Indo-Pacific' in 2019.\n3. The US Pacific Command was renamed the US Indo-Pacific Command in 2018.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All three are correct. India's vision stresses inclusiveness and not being directed against any country; the AOIP stresses ASEAN centrality and ASEAN-led mechanisms such as the EAS.",
+    "subject": "International Relations",
+    "theme": "International Relations - India-USA + Quad and the Indo-Pacific (Pass-2 revision round)",
+    "micro_topic": "Indo-Pacific visions",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_15_41",
+    "question_number": 41,
+    "question": "Consider the following statements about the Quad:\n1. The first Quad Leaders' Summit was held virtually in March 2021.\n2. The Indo-Pacific Partnership for Maritime Domain Awareness (IPMDA) was announced at the Tokyo summit in 2022.\n3. The Quad has a permanent secretariat in Canberra.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The Quad has no secretariat or charter. The first in-person leaders' summit was in Washington (September 2021). IPMDA uses commercial satellite data to track 'dark shipping' and illegal fishing.",
+    "subject": "International Relations",
+    "theme": "International Relations - India-USA + Quad and the Indo-Pacific (Pass-2 revision round)",
+    "micro_topic": "Quad - summits and initiatives",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_15_42",
+    "question_number": 42,
+    "question": "Consider the following statements:\n1. The first India-US 2+2 Ministerial Dialogue was held in New Delhi in September 2018.\n2. India is a member of the Missile Technology Control Regime, the Wassenaar Arrangement and the Australia Group, but not of the Nuclear Suppliers Group.\n3. The USA is the only country with which India holds a 2+2 ministerial dialogue.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "India joined the MTCR (2016), Wassenaar (2017) and Australia Group (2018). Its NSG bid is blocked, chiefly by China. India also holds 2+2 dialogues with Japan, Australia and Russia, among others. COMCASA was signed at the first India-US 2+2.",
+    "subject": "International Relations",
+    "theme": "International Relations - India-USA + Quad and the Indo-Pacific (Pass-2 revision round)",
+    "micro_topic": "India-US dialogues and export-control regimes",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_15_43",
+    "question_number": 43,
+    "question": "The abacus of the Ashokan lion capital at Sarnath carries a dharmachakra and four animals. These animals are:",
+    "options": [
+      {
+        "key": "a",
+        "text": "Elephant, bull, horse and lion"
+      },
+      {
+        "key": "b",
+        "text": "Elephant, tiger, horse and deer"
+      },
+      {
+        "key": "c",
+        "text": "Bull, deer, lion and peacock"
+      },
+      {
+        "key": "d",
+        "text": "Horse, elephant, camel and lion"
+      }
+    ],
+    "answer": "a",
+    "explanation": "The capital (polished Chunar sandstone) was adopted as the State Emblem in 1950. Other capitals: Rampurva (bull, and a lion), Lauriya Nandangarh (single lion), Sankisa (elephant).",
+    "subject": "Art & Culture",
+    "theme": "Art & Culture - Nitin Singhania: Indian sculpture + Indian paintings (Pass-2 revision round)",
+    "micro_topic": "Sarnath lion capital",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_15_44",
+    "question_number": 44,
+    "question": "Madhubani painting is associated with which region?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Mithila, Bihar"
+      },
+      {
+        "key": "b",
+        "text": "Saurashtra, Gujarat"
+      },
+      {
+        "key": "c",
+        "text": "Bastar, Chhattisgarh"
+      },
+      {
+        "key": "d",
+        "text": "Thanjavur, Tamil Nadu"
+      }
+    ],
+    "answer": "a",
+    "explanation": "A Mithila tradition, done mainly by women with natural colours and twigs or nibs; it has GI status. Warli (Maharashtra), Pithora (Gujarat/MP) and Tanjore (TN) are other common pairings.",
+    "subject": "Art & Culture",
+    "theme": "Art & Culture - Nitin Singhania: Indian sculpture + Indian paintings (Pass-2 revision round)",
+    "micro_topic": "Madhubani painting",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_15_45",
+    "question_number": 45,
+    "question": "The painting 'Bani Thani', often called the 'Indian Mona Lisa', belongs to which school?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Kishangarh"
+      },
+      {
+        "key": "b",
+        "text": "Kangra"
+      },
+      {
+        "key": "c",
+        "text": "Basohli"
+      },
+      {
+        "key": "d",
+        "text": "Mewar"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Nihal Chand painted it under Raja Sawant Singh (Nagari Das) in the mid-18th century. Kishangarh is a Rajasthani sub-school, known for elongated faces, arched eyebrows and lotus-petal eyes.",
+    "subject": "Art & Culture",
+    "theme": "Art & Culture - Nitin Singhania: Indian sculpture + Indian paintings (Pass-2 revision round)",
+    "micro_topic": "Kishangarh - Bani Thani",
+    "nature": "Static",
+    "difficulty": "Easy",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_15_46",
+    "question_number": 46,
+    "question": "With reference to Kalamkari, consider the following statements:\n1. The Srikalahasti style is drawn freehand with a pen (kalam).\n2. The Machilipatnam (Pedana) style mainly uses block printing.\n3. Kalamkari uses only synthetic dyes for a uniform finish.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Kalamkari uses natural vegetable dyes and mordants. Srikalahasti work has temple and epic themes; Machilipatnam work was shaped by Persian motifs under the Golconda sultans. Both are in Andhra Pradesh and have GI tags.",
+    "subject": "Art & Culture",
+    "theme": "Art & Culture - Nitin Singhania: Indian sculpture + Indian paintings (Pass-2 revision round)",
+    "micro_topic": "Kalamkari styles",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_15_47",
+    "question_number": 47,
+    "question": "Consider the following statements about the Pala school of painting:\n1. It is known for illustrated palm-leaf manuscripts of Buddhist texts such as the Ashtasahasrika Prajnaparamita.\n2. It is marked by sinuous lines and subdued tones, and was centred on monasteries such as Nalanda and Vikramashila.\n3. It used paper as its medium from the beginning.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Pala miniatures (8th-12th century, eastern India) were on palm leaf; paper came into use for Western Indian (Apabhramsa/Jain) manuscripts from about the 14th century. Pala art reflects Vajrayana Buddhism.",
+    "subject": "Art & Culture",
+    "theme": "Art & Culture - Nitin Singhania: Indian sculpture + Indian paintings (Pass-2 revision round)",
+    "micro_topic": "Pala school of painting",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_15_48",
+    "question_number": 48,
+    "question": "Consider the following pairs:\n1. Basohli : Jammu region\n2. Kangra : patronage of Raja Sansar Chand\n3. Kishangarh : a sub-school of Pahari painting\nWhich of the pairs given above is/are correctly matched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "c",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Kishangarh is a Rajasthani school (see Q45). Basohli is known for bold primary colours and beetle-wing inlay; Kangra for lyrical lines and the Radha-Krishna theme, peaking under Sansar Chand.",
+    "subject": "Art & Culture",
+    "theme": "Art & Culture - Nitin Singhania: Indian sculpture + Indian paintings (Pass-2 revision round)",
+    "micro_topic": "Pahari and Rajasthani schools",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_15_49",
+    "question_number": 49,
+    "question": "With reference to Mamallapuram, consider the following statements:\n1. The relief known as 'Arjuna's Penance' or 'Descent of the Ganga' is carved on two huge boulders in the open air.\n2. The Pancha Rathas are monolithic, each carved from a single rock.\n3. The Shore Temple is a monolithic rock-cut shrine.\nWhich of the statements given above is/are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 only"
+      },
+      {
+        "key": "b",
+        "text": "2 and 3 only"
+      },
+      {
+        "key": "c",
+        "text": "1 and 2 only"
+      },
+      {
+        "key": "d",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "The Shore Temple is a structural temple built of dressed stone under Narasimhavarman II (Rajasimha). The relief and the rathas are associated with Narasimhavarman I (Mamalla), 7th century. The group is a UNESCO World Heritage Site.",
+    "subject": "Art & Culture",
+    "theme": "Art & Culture - Nitin Singhania: Indian sculpture + Indian paintings (Pass-2 revision round)",
+    "micro_topic": "Mamallapuram sculpture",
+    "nature": "Static",
+    "difficulty": "Moderate",
+    "source_type": "sectional"
+  },
+  {
+    "id": "book_topics_2026_11_15_50",
+    "question_number": 50,
+    "question": "Consider the following statements:\n1. Kalighat painting developed in 19th-century Calcutta near the Kalighat temple and often satirised urban 'babu' society.\n2. Odisha's Pattachitra is painted on treated cloth, and many works depict Jagannath themes.\n3. Phad painting of Rajasthan is a scroll tradition narrating the deeds of folk deities such as Pabuji and Devnarayan.\n4. Cheriyal scroll painting is a narrative tradition of Telangana.\nHow many of the statements given above are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only one"
+      },
+      {
+        "key": "b",
+        "text": "Only two"
+      },
+      {
+        "key": "c",
+        "text": "Only three"
+      },
+      {
+        "key": "d",
+        "text": "All four"
+      }
+    ],
+    "answer": "d",
+    "explanation": "All four are correct. Kalighat used watercolour on mill-made paper; Pattachitra is linked to Puri and Raghurajpur; Phad scrolls are sung by Bhopa priests; Cheriyal scrolls were used by Kaki Padagollu storytellers.",
+    "subject": "Art & Culture",
+    "theme": "Art & Culture - Nitin Singhania: Indian sculpture + Indian paintings (Pass-2 revision round)",
+    "micro_topic": "Folk painting traditions",
+    "nature": "Static",
+    "difficulty": "Hard",
+    "source_type": "sectional"
+  }
+]

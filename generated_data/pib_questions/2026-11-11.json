@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to coal gasification in India, consider the statements:\n1. Syngas from gasification can be used to produce methanol and urea.\n2. The Centre's coal gasification incentive scheme has an outlay of ₹37,500 crore.\n3. The Ministry of Coal targets 100 million tonnes of gasification capacity by 2030.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "All three are correct: syngas feeds methanol/urea/DME; scheme outlay ₹37,500 crore; target 100 MT by 2030.",
+    "subject": "Economy",
+    "theme": "Energy",
+    "micro_topic": "Coal gasification incentive scheme",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The bilateral Haj Agreement for Haj 2027, fixing India's quota of 1,75,025 pilgrims, was signed in November 2026 at which place?",
+    "options": [
+      "(a) Riyadh",
+      "(b) Jeddah",
+      "(c) Mecca",
+      "(d) New Delhi"
+    ],
+    "answer": "(b)",
+    "explanation": "Kiren Rijiju and Saudi Minister Tawfiq Al-Rabiah signed it in Jeddah.",
+    "subject": "International Relations",
+    "theme": "India–Saudi Arabia",
+    "micro_topic": "Haj 2027 bilateral agreement",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which of the following is correct about the Census in India?",
+    "options": [
+      "(a) It is a State subject under the Seventh Schedule",
+      "(b) It is conducted under the Census Act, 1948",
+      "(c) It is conducted by the Election Commission of India",
+      "(d) It has been conducted every five years since 1881"
+    ],
+    "answer": "(b)",
+    "explanation": "Census is a Union subject (Entry 69, Union List) conducted by the Registrar General under the Census Act, 1948; it is decennial since 1881.",
+    "subject": "Polity & Governance",
+    "theme": "Governance",
+    "micro_topic": "Census 2027",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "question": "With reference to India's association with Horizon Europe (reported Nov 2026), consider:\n1. Horizon Europe is the EU's research and innovation framework programme for 2021–2027.\n2. Under association, Indian entities can lead collaborative projects and receive direct EU funding.\n3. Associated countries are not required to make any financial contribution to the programme.\nWhich of the above is/are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "Statements 1 and 2 are correct; associated countries contribute financially to the programme, so 3 is wrong.",
+    "subject": "Science & Technology",
+    "theme": "International Research Collaboration",
+    "micro_topic": "Horizon Europe association",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "Swachh Survekshan 2025-26 (10th edition) has introduced which of the following?",
+    "options": [
+      "(a) Abolition of citizen-feedback weightage",
+      "(b) Renaming of 'Ganga towns' as 'River towns' and a separate matrix for coastal cities",
+      "(c) Ranking only of cities above 10 lakh population",
+      "(d) Conduct by the Ministry of Jal Shakti"
+    ],
+    "answer": "(b)",
+    "explanation": "Citizen-feedback weightage was raised (~32% to ~35%); MoHUA runs the survey across five population categories; 'Ganga towns' became 'River towns' and coastal cities got a separate matrix.",
+    "subject": "Polity & Governance",
+    "theme": "Urban Governance",
+    "micro_topic": "Swachh Survekshan / SBM-Urban",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which one of the following sets lists the operational PCPIRs (Petroleum, Chemicals and Petrochemicals Investment Regions) in India?",
+    "options": [
+      "(a) Dahej, Haldia, Paradeep",
+      "(b) Kochi, Visakhapatnam–Kakinada, Paradeep",
+      "(c) Dahej, Visakhapatnam–Kakinada, Paradeep",
+      "(d) Dahej, Visakhapatnam–Kakinada, Ennore"
+    ],
+    "answer": "(c)",
+    "explanation": "The three operational PCPIRs are Dahej (Gujarat), Visakhapatnam–Kakinada (Andhra Pradesh) and Paradeep (Odisha), together attracting about Rs 3.49 lakh crore investment.",
+    "subject": "Economy",
+    "theme": "Industry",
+    "micro_topic": "PCPIR chemicals clusters",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]

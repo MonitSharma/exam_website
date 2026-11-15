@@ -1,0 +1,50 @@
+[
+  {
+    "question": "Consider the following statements regarding the Telecom Consumers Complaint Redressal (Fourth Amendment) Regulations, 2026:\n1. They were issued by the Telecom Regulatory Authority of India.\n2. The time to file an appeal after complaint disposal is reduced from 30 to 15 days.\n3. They apply to the Ministry of Electronics and IT as the regulator.\nWhich of the statements given above are correct?",
+    "options": [
+      "(a) 1 only",
+      "(b) 1 and 2 only",
+      "(c) 2 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(b)",
+    "explanation": "TRAI issued the regulations and cut the appeal window from 30 to 15 days; MeitY is not the regulator.",
+    "subject": "Polity & Governance",
+    "theme": "Regulatory Bodies",
+    "micro_topic": "TRAI complaint redressal regulations",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  },
+  {
+    "question": "The 'Nadi Sanjeevani' MoU between the Ministry of Road Transport and Highways and the Bihar Government aims at:",
+    "options": [
+      "(a) Interlinking Bihar rivers with the Ganga",
+      "(b) Desilting rivers and using the silt in National Highway construction",
+      "(c) Building riverfront highways along the Kosi",
+      "(d) Promoting inland waterways cargo on the Ganga"
+    ],
+    "answer": "(b)",
+    "explanation": "The initiative links river desilting with the use of excavated silt in NH construction.",
+    "subject": "Environment",
+    "theme": "Resource Efficiency",
+    "micro_topic": "Nadi Sanjeevani silt in highways",
+    "nature": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Consider the following about the High-Level Committee on Banking for Viksit Bharat:\n1. It is chaired by a former Central Vigilance Commissioner.\n2. Its mandate includes reviewing regulation of Regional Rural Banks and cooperative banks.\n3. Its tenure is six months.\nWhich of the above are correct?",
+    "options": [
+      "(a) 1 and 2 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "answer": "(d)",
+    "explanation": "Chaired by Suresh N. Patel (ex-CVC); reviews RRB and cooperative bank regulation; six-month tenure.",
+    "subject": "Economy",
+    "theme": "Banking Reforms",
+    "micro_topic": "High-Level Committee on Banking",
+    "nature": "Current Affairs",
+    "difficulty": "Moderate"
+  }
+]
