@@ -169,11 +169,22 @@ function Results({ go, result }) {
 }
 
 function Review({ go, result, bookmarks = {}, onToggleBookmark, onSaveNote }) {
+  const ds = window.UPSC;
   const { questionSet, qs, attempt } = getResultData(result);
   const [filter, setFilter] = useResState("all");
   const [editingNoteKey, setEditingNoteKey] = useResState("");
   const [noteDraft, setNoteDraft] = useResState("");
+  const [briefDrawer, setBriefDrawer] = useResState({ open: false, noteId: "", loading: false, error: "", note: null, content: "" });
+  useModalFocus(briefDrawer.open, ".brief-drawer", () => setBriefDrawer((b) => ({ ...b, open: false })));
   if (!questionSet || !qs.length) return <NoResultEmpty go={go} />;
+
+  function openSourceBrief(noteId) {
+    if (!noteId) return;
+    setBriefDrawer({ open: true, noteId, loading: true, error: "", note: null, content: "" });
+    ds.loadNoteDocument(noteId)
+      .then((res) => setBriefDrawer({ open: true, noteId, loading: false, error: "", ...res }))
+      .catch((err) => setBriefDrawer({ open: true, noteId, loading: false, error: err?.message || "Could not load brief.", note: null, content: "" }));
+  }
 
   const enriched = qs.map((q) => {
     const a = attempt[q.n];
@@ -217,6 +228,8 @@ function Review({ go, result, bookmarks = {}, onToggleBookmark, onSaveNote }) {
             subject: q.subject || "",
             micro: q.micro || "",
           };
+          const sourceSetObj = ds.getQuestionSetById(ref.setId) || questionSet;
+          const relatedNoteId = sourceSetObj?.relatedNoteIds?.[0] || "";
           const bmKey = window.UPSC_PROGRESS.questionKey(ref.setId, ref.n);
           const bm = bookmarks[bmKey];
           const isEditing = editingNoteKey === bmKey;
@@ -240,6 +253,16 @@ function Review({ go, result, bookmarks = {}, onToggleBookmark, onSaveNote }) {
               >
                 <Icon name="book" size={12} /> {bm ? "Saved" : "Save"}
               </button>
+              {relatedNoteId && (
+                <button
+                  type="button"
+                  className="bm-btn"
+                  onClick={() => openSourceBrief(relatedNoteId)}
+                  title="Read source note without leaving Review"
+                >
+                  <Icon name="fileText" size={12} /> Source brief
+                </button>
+              )}
               <a
                 className="report-issue-link"
                 href={buildQuestionIssueUrl(questionSet, q)}
@@ -312,6 +335,36 @@ function Review({ go, result, bookmarks = {}, onToggleBookmark, onSaveNote }) {
           );
         })}
       </div>
+
+      {briefDrawer.open && (
+        <div className="brief-drawer-layer" role="dialog" aria-modal="true" aria-label="Source brief" onClick={() => setBriefDrawer((b) => ({ ...b, open: false }))}>
+          <aside className="brief-drawer" onClick={(e) => e.stopPropagation()}>
+            <header className="brief-drawer-head">
+              <div>
+                <span className="eyebrow small">Source brief</span>
+                <h3>{briefDrawer.note?.title || "Loading brief…"}</h3>
+              </div>
+              <div className="brief-drawer-actions">
+                {briefDrawer.noteId && (
+                  <button className="btn ghost sm" onClick={() => { setBriefDrawer((b) => ({ ...b, open: false })); go("library", { noteId: briefDrawer.noteId }); }}>
+                    Open in Library
+                  </button>
+                )}
+                <button className="icon-btn ghost" onClick={() => setBriefDrawer((b) => ({ ...b, open: false }))} aria-label="Close source brief">
+                  <Icon name="x" size={18} />
+                </button>
+              </div>
+            </header>
+            <div className="brief-drawer-body">
+              {briefDrawer.loading && <p className="muted">Loading source brief…</p>}
+              {briefDrawer.error && <p className="muted">{briefDrawer.error}</p>}
+              {!briefDrawer.loading && !briefDrawer.error && briefDrawer.content && (
+                <MarkdownView text={briefDrawer.content} cadence={briefDrawer.note?.cadence} />
+              )}
+            </div>
+          </aside>
+        </div>
+      )}
     </div>
   );
 }

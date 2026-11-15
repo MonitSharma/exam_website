@@ -2423,3 +2423,34 @@ button:focus-visible, a:focus-visible, summary:focus-visible, input:focus-visibl
 .bm-micro { font-size: 12px; color: var(--muted); }
 .bm-item-actions { margin-left: auto; display: inline-flex; gap: 12px; }
 .bm-note { margin: 0; font-size: 13px; line-height: 1.5; color: var(--ink); }
+
+/* Active-recall mode for Library notes */
+.recall-toggle-btn { margin-left: auto; display: inline-flex; align-items: center; gap: 5px; padding: 4px 10px; border-radius: 999px; border: 1px solid var(--border); background: var(--surface, #fff); color: var(--ink); font-size: 12px; font-weight: 500; cursor: pointer; }
+.recall-toggle-btn:hover { border-color: var(--green); }
+.recall-toggle-btn.on { background: var(--green); border-color: var(--green); color: #fff; }
+.note-reader-body.recall-on p strong,
+.note-reader-body.recall-on li strong,
+.note-reader-body.recall-on td strong {
+  filter: blur(5px);
+  background: rgba(30, 77, 58, 0.14);
+  border-radius: 4px;
+  padding: 0 3px;
+  cursor: pointer;
+  transition: filter 0.15s ease, background 0.15s ease;
+  user-select: none;
+}
+.note-reader-body.recall-on p strong.revealed,
+.note-reader-body.recall-on li strong.revealed,
+.note-reader-body.recall-on td strong.revealed {
+  filter: none;
+  background: rgba(30, 77, 58, 0.08);
+  user-select: text;
+}
+
+/* Source brief slide-over drawer in Review */
+.brief-drawer-layer { position: fixed; inset: 0; z-index: 90; background: rgba(15, 23, 20, 0.45); display: flex; justify-content: flex-end; }
+.brief-drawer { width: min(640px, 100vw); height: 100%; background: var(--bg, #fbfaf6); border-left: 1px solid var(--border); display: flex; flex-direction: column; box-shadow: -12px 0 36px rgba(0, 0, 0, 0.16); }
+.brief-drawer-head { padding: 18px 22px; border-bottom: 1px solid var(--border); display: flex; align-items: flex-start; justify-content: space-between; gap: 14px; background: var(--surface, #fff); }
+.brief-drawer-head h3 { margin: 4px 0 0; font-size: 18px; line-height: 1.35; }
+.brief-drawer-actions { display: inline-flex; align-items: center; gap: 8px; flex-shrink: 0; }
+.brief-drawer-body { padding: 20px 24px 40px; overflow-y: auto; flex: 1; }

@@ -1009,6 +1009,7 @@ function NotesLibrary({ go, noteId, progress, onMarkDone, onSelectNote }) {
   const [monthFilter, setMonthFilter] = useStateHome("latest");
   const [weekFilter, setWeekFilter] = useStateHome("latest");
   const [noteState, setNoteState] = useStateHome({ loading: false, error: "", note: null, content: "" });
+  const [recallMode, setRecallMode] = useStateHome(false);
   const monthOptions = getNoteMonthOptions(docs);
   const weekOptions = getNoteWeekOptions(docs);
   const useWeekFilter = activeCadence !== "monthly" && weekOptions.length > 0;
@@ -1169,6 +1170,15 @@ function NotesLibrary({ go, noteId, progress, onMarkDone, onSelectNote }) {
                 {selectedDoc.variantLabel && <span className="note-cat-chip note-cat-chip-muted">{selectedDoc.variantLabel}</span>}
                 {selectedDoc.date && <span className="note-meta-item"><Icon name="calendar" size={13} /> {formatIsoDate(selectedDoc.date)}</span>}
                 {readingMinutes > 0 && <span className="note-meta-item"><Icon name="clock" size={13} /> {readingMinutes} min read</span>}
+                <button
+                  type="button"
+                  className={`recall-toggle-btn${recallMode ? " on" : ""}`}
+                  aria-pressed={recallMode}
+                  onClick={() => setRecallMode((v) => !v)}
+                  title="Mask bolded facts & dates to test recall (click any masked item to reveal)"
+                >
+                  <Icon name="bolt" size={13} /> {recallMode ? "Recall mode: On" : "Recall mode"}
+                </button>
               </div>
               {selectedBundle.length > 1 && (
                 <div className="note-variant-tabs" role="tablist" aria-label="Brief variants">
@@ -1190,10 +1200,17 @@ function NotesLibrary({ go, noteId, progress, onMarkDone, onSelectNote }) {
               {selectedDoc.shortTitle && selectedDoc.shortTitle !== formatIsoDate(selectedDoc.date) && <p>{selectedDoc.shortTitle}</p>}
             </header>
           )}
-          <div className="note-reader-body">
+          <div
+            className={`note-reader-body${recallMode ? " recall-on" : ""}`}
+            onClick={(event) => {
+              if (!recallMode) return;
+              const strong = event.target.closest("p strong, li strong, td strong");
+              if (strong) strong.classList.toggle("revealed");
+            }}
+          >
             {noteState.loading && <p className="muted">Loading note...</p>}
             {noteState.error && <p className="muted">{noteState.error}</p>}
-            {!noteState.loading && !noteState.error && noteState.content && <MarkdownView text={noteState.content} cadence={selectedDoc?.cadence} />}
+            {!noteState.loading && !noteState.error && noteState.content && <MarkdownView key={`${selectedId}-${recallMode ? "r" : "n"}`} text={noteState.content} cadence={selectedDoc?.cadence} />}
             {!noteState.loading && !noteState.error && !noteState.content && <p className="muted">Select a note.</p>}
           </div>
         </article>
@@ -1802,4 +1819,4 @@ function RelatedStudy({ doc, go }) {
   </div></section>;
 }
 
-Object.assign(window, { Home, NotesLibrary, WeeklyPlanCard, parseWeekPlan, AnkiDeckView });
+Object.assign(window, { Home, NotesLibrary, WeeklyPlanCard, parseWeekPlan, AnkiDeckView, MarkdownView });
