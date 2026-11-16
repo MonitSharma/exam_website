@@ -87,6 +87,11 @@ function Results({ go, result }) {
           <span className="result-eyebrow">{questionSet?.label || "Practice set"} · Submitted</span>
           <h1 className="result-h1">Nicely done.</h1>
           <p className="result-lead">Your score is ready. Review the explanations and use the subject split to decide what to revise next.</p>
+          <div className="result-meta-chips">
+            <span className="result-chip tone-green">Net {Math.round(pct * 100)}%</span>
+            <span className="result-chip">Accuracy {accuracy}%</span>
+            <span className="result-chip">{s.correct + s.wrong}/{qs.length} attempted</span>
+          </div>
           <div className="result-cta">
             <button className="btn btn-green" onClick={() => go("review")}><Icon name="book" size={16} /> Review answers</button>
             <button className="btn ghost" onClick={() => go("dashboard")}><Icon name="chart" size={16} /> See progress</button>

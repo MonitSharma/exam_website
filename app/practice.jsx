@@ -142,13 +142,27 @@ function PracticeScreen({ go, progress }) {
               const active = bundle.some((item) => item.id === selectedSet?.id);
               const addOn = bundle.find((item) => item.isSupplementary);
               const selectedInBundle = bundle.find((item) => item.id === selectedSet?.id) || set;
+              const historyEntries = (progress?.history || []).filter((h) => bundle.some((b) => b.id === h.setId));
+              const bestEntry = historyEntries.reduce((best, cur) => (!best || (cur.score ?? -Infinity) > (best.score ?? -Infinity) ? cur : best), null);
+              const totalQ = selectedInBundle.blendedQuestionCount || selectedInBundle.questionCount || 0;
               return (
-              <div key={practiceBundleKey(set)} className={`set-option${active ? " selected" : ""}`}>
+              <div key={practiceBundleKey(set)} className={`set-option${active ? " selected" : ""}${bestEntry ? " attempted" : ""}`}>
                 <button className="set-select" aria-pressed={active} onClick={() => setSelectedSetId(selectedInBundle.id)}>
-                <span className="set-option-kicker">{set.year || (set.isoDate ? practiceDateLabel(set.isoDate) : set.shortLabel)}</span>
+                <div className="set-option-top">
+                  <span className="set-option-kicker">{set.year || (set.isoDate ? practiceDateLabel(set.isoDate) : set.shortLabel)}</span>
+                  <span className={`set-source-badge tone-${currentType.tone}`}>{currentType.id.toUpperCase()}</span>
+                </div>
                 {addOn && <span className="variant-chip">Practice Add-on</span>}
                 <strong>{set.label}</strong>
                 <span>{bundle.length === 1 ? `${set.blendedQuestionCount || set.questionCount} questions${set.pyqCount ? ` · includes ${set.pyqCount} PYQs` : ""}` : bundle.map((item) => `${window.UPSC_CONTENT.variantLabel(item)} · ${item.blendedQuestionCount || item.questionCount} questions`).join(" · ")}</span>
+                {bestEntry && (
+                  <div className="set-attempt-row">
+                    <span className="set-attempt-pill">✓ Attempted · Best {bestEntry.correct ?? 0}/{bestEntry.total || totalQ}</span>
+                    <div className="set-mini-bar" aria-hidden="true">
+                      <span style={{ width: `${Math.min(100, Math.round(((bestEntry.correct || 0) / Math.max(1, bestEntry.total || totalQ)) * 100))}%` }} />
+                    </div>
+                  </div>
+                )}
                 </button>
                 {bundle.length > 1 && (
                   <div className="set-variant-tabs" onClick={(event) => event.stopPropagation()}>

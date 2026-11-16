@@ -2571,6 +2571,100 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .rev-card.incorrect { border-left-color: var(--danger); }
 .rev-card.skipped { border-left-color: var(--muted); }
 
+/* ---------- Reading Progress & Back-to-top in Notes ---------- */
+.note-read-progress {
+  position: sticky;
+  top: 62px;
+  z-index: 15;
+  height: 3px;
+  background: var(--line-2);
+  border-radius: 999px;
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+.note-read-progress-fill {
+  height: 100%;
+  background: var(--green);
+  transition: width 0.1s linear;
+}
+.back-to-top-btn {
+  position: fixed;
+  right: 22px;
+  bottom: 24px;
+  z-index: 25;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: var(--green);
+  color: #fff;
+  font-size: 12.5px;
+  font-weight: 600;
+  box-shadow: var(--shadow);
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+.back-to-top-btn:hover { transform: translateY(-2px); }
+
+/* ---------- Practice Card Attempt Progress & Source Badges ---------- */
+.set-option-top { display: flex; align-items: center; justify-content: space-between; gap: 8px; width: 100%; }
+.set-source-badge {
+  font-family: var(--mono);
+  font-size: 10px;
+  font-weight: 600;
+  padding: 2px 7px;
+  border-radius: 999px;
+  background: var(--paper-2);
+  color: var(--ink-soft);
+  border: 1px solid var(--line);
+}
+.set-attempt-row { display: flex; flex-direction: column; gap: 5px; margin-top: 6px; width: 100%; }
+.set-attempt-pill { font-size: 11.5px; font-weight: 600; color: var(--green); }
+.set-mini-bar { height: 4px; width: 100%; border-radius: 999px; background: var(--line-2); overflow: hidden; }
+.set-mini-bar span { display: block; height: 100%; background: var(--green); border-radius: 999px; }
+
+/* ---------- Results Summary Chips ---------- */
+.result-meta-chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 4px; }
+.result-chip {
+  font-size: 12.5px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: var(--paper-2);
+  color: var(--ink-soft);
+  border: 1px solid var(--line);
+}
+.result-chip.tone-green { background: var(--green-tint); color: var(--green); border-color: color-mix(in srgb, var(--green) 35%, transparent); }
+
+/* ---------- Dark-Mode Contrast Pass for Tags, Code & Diagrams ---------- */
+body[data-theme="dark"] .tag.tone-green { background: rgba(59, 139, 102, 0.22); color: #8AD6B0; }
+body[data-theme="dark"] .tag.tone-saffron { background: rgba(203, 122, 46, 0.22); color: #F0B274; }
+body[data-theme="dark"] .tag.tone-indigo { background: rgba(96, 128, 214, 0.22); color: #A6BEF5; }
+body[data-theme="dark"] .tag.tone-teal { background: rgba(54, 150, 148, 0.22); color: #83D4D2; }
+body[data-theme="dark"] .tag.tone-rose { background: rgba(204, 102, 130, 0.22); color: #F09FB5; }
+body[data-theme="dark"] .tag.tone-blue { background: rgba(74, 144, 226, 0.22); color: #96C4FA; }
+body[data-theme="dark"] .markdown-view code { background: var(--surface-2); color: #E2DCCB; border-color: var(--line); }
+body[data-theme="dark"] .markdown-view pre { background: #141816; border-color: var(--line); }
+body[data-theme="dark"] .atlas-map svg,
+body[data-theme="dark"] .labs-diagram svg { filter: brightness(0.95) contrast(1.06); }
+
+/* ---------- Sticky Striped Tables in Notes + Reduced Motion ---------- */
+.markdown-view table thead th {
+  position: sticky;
+  top: 0;
+  background: var(--surface-2);
+  z-index: 2;
+  border-bottom: 2px solid var(--line);
+}
+.markdown-view tbody tr:nth-child(even) {
+  background: color-mix(in srgb, var(--paper-2) 55%, transparent);
+}
+@media (prefers-reduced-motion: reduce) {
+  .screen-fade, *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
 @media print {
   .topbar, .review-filters, .no-print, .bm-btn, .report-issue-link, .back, .test-foot, .brief-drawer {
     display: none !important;

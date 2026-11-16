@@ -1011,6 +1011,24 @@ function NotesLibrary({ go, noteId, progress, onMarkDone, onSelectNote }) {
   const [noteState, setNoteState] = useStateHome({ loading: false, error: "", note: null, content: "" });
   const [recallMode, setRecallMode] = useStateHome(false);
   const [focusMode, setFocusMode] = useStateHome(false);
+  const [readProgress, setReadProgress] = useStateHome(0);
+  const [showTopBtn, setShowTopBtn] = useStateHome(false);
+  const readerRef = useRef(null);
+
+  useEffectHome(() => {
+    function onScroll() {
+      const el = readerRef.current;
+      if (!el) return;
+      const rect = el.getBoundingClientRect();
+      const total = Math.max(1, el.offsetHeight - window.innerHeight * 0.65);
+      const passed = Math.max(0, -rect.top + 80);
+      setReadProgress(Math.min(100, Math.round((passed / total) * 100)));
+      setShowTopBtn(window.scrollY > 360);
+    }
+    window.addEventListener("scroll", onScroll, { passive: true });
+    onScroll();
+    return () => window.removeEventListener("scroll", onScroll);
+  }, [selectedId, noteState.content]);
   const monthOptions = getNoteMonthOptions(docs);
   const weekOptions = getNoteWeekOptions(docs);
   const useWeekFilter = activeCadence !== "monthly" && weekOptions.length > 0;
@@ -1163,7 +1181,12 @@ function NotesLibrary({ go, noteId, progress, onMarkDone, onSelectNote }) {
           {!noteState.loading && noteState.content && <NoteOutline content={noteState.content} />}
         </aside>
 
-        <article className="note-reader">
+        <article className="note-reader" ref={readerRef}>
+          {selectedDoc && !noteState.loading && noteState.content && (
+            <div className="note-read-progress" aria-hidden="true">
+              <div className="note-read-progress-fill" style={{ width: `${readProgress}%` }} />
+            </div>
+          )}
           {selectedDoc && (
             <header className="note-reader-head">
               <div className="note-reader-meta-row">
@@ -1225,6 +1248,17 @@ function NotesLibrary({ go, noteId, progress, onMarkDone, onSelectNote }) {
           </div>
         </article>
       </div>
+      {showTopBtn && (
+        <button
+          type="button"
+          className="back-to-top-btn no-print"
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+          aria-label="Back to top"
+          title="Scroll back to top"
+        >
+          ↑ Top
+        </button>
+      )}
     </section>
   );
 }
