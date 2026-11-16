@@ -1010,6 +1010,7 @@ function NotesLibrary({ go, noteId, progress, onMarkDone, onSelectNote }) {
   const [weekFilter, setWeekFilter] = useStateHome("latest");
   const [noteState, setNoteState] = useStateHome({ loading: false, error: "", note: null, content: "" });
   const [recallMode, setRecallMode] = useStateHome(false);
+  const [focusMode, setFocusMode] = useStateHome(false);
   const monthOptions = getNoteMonthOptions(docs);
   const weekOptions = getNoteWeekOptions(docs);
   const useWeekFilter = activeCadence !== "monthly" && weekOptions.length > 0;
@@ -1103,7 +1104,7 @@ function NotesLibrary({ go, noteId, progress, onMarkDone, onSelectNote }) {
         </div>
       </div>
 
-      <div className="notes-layout">
+      <div className={`notes-layout${focusMode ? " focus-mode" : ""}`}>
         <aside className="notes-side">
           <div className="notes-list-tools">
             {useWeekFilter ? (
@@ -1178,6 +1179,15 @@ function NotesLibrary({ go, noteId, progress, onMarkDone, onSelectNote }) {
                   title="Mask bolded facts & dates to test recall (click any masked item to reveal)"
                 >
                   <Icon name="bolt" size={13} /> {recallMode ? "Recall mode: On" : "Recall mode"}
+                </button>
+                <button
+                  type="button"
+                  className={`recall-toggle-btn${focusMode ? " on" : ""}`}
+                  aria-pressed={focusMode}
+                  onClick={() => setFocusMode((v) => !v)}
+                  title={focusMode ? "Show sidebar & outline" : "Hide sidebar for focused reading"}
+                >
+                  <Icon name={focusMode ? "minimize" : "maximize"} size={13} /> {focusMode ? "Exit focus" : "Focus"}
                 </button>
               </div>
               {selectedBundle.length > 1 && (

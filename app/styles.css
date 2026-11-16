@@ -2467,9 +2467,9 @@ button:focus-visible, a:focus-visible, summary:focus-visible, input:focus-visibl
   height: 22px;
   padding: 0 5px;
   border-radius: 6px;
-  border: 1px solid var(--border);
-  background: var(--bg);
-  color: var(--ink-muted);
+  border: 1px solid var(--line);
+  background: var(--paper);
+  color: var(--muted);
   font-size: 12px;
   font-weight: 600;
   line-height: 20px;
@@ -2477,9 +2477,9 @@ button:focus-visible, a:focus-visible, summary:focus-visible, input:focus-visibl
   margin-right: 6px;
   transition: background 0.12s, color 0.12s, border-color 0.12s;
 }
-.stmt-mark:hover { border-color: var(--ink-muted); color: var(--ink); }
-.stmt-mark-t { background: rgba(30, 77, 58, 0.12); border-color: var(--green); color: var(--green); }
-.stmt-mark-f { background: rgba(180, 50, 45, 0.1); border-color: var(--vermilion, #b4322d); color: var(--vermilion, #b4322d); }
+.stmt-mark:hover { border-color: var(--muted); color: var(--ink); }
+.stmt-mark-t { background: var(--green-tint); border-color: var(--green); color: var(--green); }
+.stmt-mark-f { background: var(--danger-tint); border-color: var(--danger); color: var(--danger); }
 
 /* Option-level elimination strikethrough */
 .opt.elim .opt-text { text-decoration: line-through; opacity: 0.45; }
@@ -2490,12 +2490,86 @@ button:focus-visible, a:focus-visible, summary:focus-visible, input:focus-visibl
   border-radius: 6px;
   font-size: 15px;
   line-height: 1;
-  color: var(--ink-muted);
+  color: var(--muted);
   opacity: 0.45;
   cursor: pointer;
 }
 .opt:hover .opt-elim-btn, .opt.elim .opt-elim-btn { opacity: 0.9; }
-.opt-elim-btn:hover { background: rgba(0, 0, 0, 0.06); color: var(--ink); }
+.opt-elim-btn:hover { background: color-mix(in srgb, var(--ink) 8%, transparent); color: var(--ink); }
+
+/* ---------- Dark Theme ---------- */
+body[data-theme="dark"] {
+  --paper: #161A18;
+  --paper-2: #1E2421;
+  --surface: #202623;
+  --surface-2: #272E2B;
+  --ink: #ECEAE2;
+  --ink-soft: #C7CCC6;
+  --muted: #9AA39C;
+  --faint: #717C75;
+  --line: #313A35;
+  --line-2: #29312D;
+  --green-tint: rgba(59, 139, 102, 0.18);
+  --saffron-tint: rgba(203, 122, 46, 0.18);
+  --danger-tint: rgba(208, 90, 78, 0.2);
+  --danger: #E06D61;
+  --shadow-sm: 0 1px 2px rgba(0,0,0,.25), 0 2px 8px rgba(0,0,0,.2);
+  --shadow: 0 2px 6px rgba(0,0,0,.3), 0 14px 34px rgba(0,0,0,.35);
+  --shadow-lg: 0 30px 70px rgba(0,0,0,.55);
+  color-scheme: dark;
+}
+body[data-theme="dark"] .nav-more-menu,
+body[data-theme="dark"] .tweak-panel,
+body[data-theme="dark"] .confirm-box,
+body[data-theme="dark"] .search-modal {
+  background: var(--surface);
+  border-color: var(--line);
+}
+
+/* ---------- Topbar utility buttons ---------- */
+.nav-tool-btn {
+  display: inline-flex; align-items: center; gap: 4px;
+  height: 34px; padding: 0 10px;
+  border: 1px solid var(--line); border-radius: 999px;
+  background: var(--surface); color: var(--ink-soft);
+  font-size: 12.5px; font-weight: 600;
+  transition: border-color .15s, color .15s, background .15s;
+}
+.nav-tool-btn:hover { border-color: var(--green); color: var(--ink); }
+.nav-tool-sub { font-family: var(--mono); font-size: 10.5px; color: var(--muted); }
+
+/* ---------- Reader Comfort: Text Size Scaling ---------- */
+body[data-fontsize="sm"] .stem-big .stem-lead { font-size: clamp(17px, 2vw, 21px); }
+body[data-fontsize="sm"] .stmt-list li,
+body[data-fontsize="sm"] .opt-text,
+body[data-fontsize="sm"] .markdown-view p,
+body[data-fontsize="sm"] .markdown-view li { font-size: 15px; }
+
+body[data-fontsize="lg"] .stem-big .stem-lead { font-size: clamp(22px, 2.7vw, 28px); }
+body[data-fontsize="lg"] .stmt-list li,
+body[data-fontsize="lg"] .opt-text,
+body[data-fontsize="lg"] .markdown-view p,
+body[data-fontsize="lg"] .markdown-view li { font-size: 19px; line-height: 1.65; }
+
+/* ---------- Distraction-Free Focus Mode ---------- */
+.test-focus-btn { min-height: 34px; padding: 0 11px; font-size: 12.5px; border: 1px solid var(--line); }
+.test-focus-btn.on { background: var(--green-tint); border-color: var(--green); color: var(--green); }
+.test-shell.focus-mode .navigator { display: none; }
+.test-shell.focus-mode .test-layout { grid-template-columns: minmax(0, 760px); justify-content: center; }
+
+.notes-layout.focus-mode { grid-template-columns: minmax(0, 1fr); }
+.notes-layout.focus-mode .notes-side { display: none; }
+.notes-layout.focus-mode .note-reader { max-width: 72ch; width: 100%; margin: 0 auto; }
+
+/* ---------- Polish: Focus Rings & Review Accent ---------- */
+button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible {
+  outline: 2px solid var(--green);
+  outline-offset: 2px;
+}
+.rev-card { border-left: 3px solid var(--line); }
+.rev-card.correct { border-left-color: var(--success); }
+.rev-card.incorrect { border-left-color: var(--danger); }
+.rev-card.skipped { border-left-color: var(--muted); }
 
 @media print {
   .topbar, .review-filters, .no-print, .bm-btn, .report-issue-link, .back, .test-foot, .brief-drawer {

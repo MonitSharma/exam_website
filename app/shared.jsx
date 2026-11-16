@@ -40,6 +40,10 @@ function Icon({ name, size = 20, stroke = 1.6, style }) {
     shuffle: <><path d="M16 3h5v5" /><path d="M21 3 14 10" /><path d="M3 21l7-7" /><path d="M16 21h5v-5" /><path d="M3 3l7 7M21 16l-3.5-3.5" /></>,
     search: <><circle cx="11" cy="11" r="7" /><path d="m21 21-4.3-4.3" /></>,
     rotate: <><path d="M4 12a8 8 0 1 1 2.3 5.6" /><path d="M4 20v-4h4" /></>,
+    sun: <><circle cx="12" cy="12" r="4" /><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41" /></>,
+    moon: <path d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79z" />,
+    maximize: <><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" /></>,
+    minimize: <><path d="M4 14h6v6M20 10h-6V4M14 10l7-7M10 14l-7 7" /></>,
   };
   return <svg {...p}>{paths[name] || null}</svg>;
 }

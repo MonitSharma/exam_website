@@ -6,6 +6,8 @@ const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
   "primary": "#1E4D3A",
   "accent": "#CB7A2E",
   "qFont": "serif",
+  "fontSize": "md",
+  "dark": false,
   "density": "regular"
 }/*EDITMODE-END*/;
 
@@ -55,7 +57,7 @@ const {
   setQuestionNote,
 } = window.UPSC_PROGRESS;
 
-function TopNav({ screen, go, summary, catchUpCount, onSearch }) {
+function TopNav({ screen, go, summary, catchUpCount, onSearch, dark, onToggleDark, fontSize, onCycleFontSize }) {
   const ds = window.UPSC;
   const [moreOpen, setMoreOpen] = React.useState(false);
   React.useEffect(() => {
@@ -106,6 +108,24 @@ function TopNav({ screen, go, summary, catchUpCount, onSearch }) {
         <div className="nav-right">
           <button className="nav-search" onClick={onSearch} aria-label="Search">
             <Icon name="search" size={15} /> <span>Search</span> <kbd>⌘K</kbd>
+          </button>
+          <button
+            type="button"
+            className="nav-tool-btn"
+            onClick={onCycleFontSize}
+            title={`Text size: ${(fontSize || "md").toUpperCase()} (click to cycle S / M / L)`}
+            aria-label="Cycle reading text size"
+          >
+            Aa <span className="nav-tool-sub">{(fontSize || "md").toUpperCase()}</span>
+          </button>
+          <button
+            type="button"
+            className="nav-tool-btn"
+            onClick={onToggleDark}
+            title={dark ? "Switch to light theme" : "Switch to dark theme"}
+            aria-label={dark ? "Switch to light theme" : "Switch to dark theme"}
+          >
+            <Icon name={dark ? "sun" : "moon"} size={15} />
           </button>
           <span className="streak-chip"><Icon name="flame" size={15} /> {summary.streak}</span>
 
@@ -374,10 +394,13 @@ function App() {
 
   useRootEffect(() => {
     const r = document.documentElement;
-    r.style.setProperty("--green", t.primary);
+    const isDark = Boolean(t.dark);
+    r.style.setProperty("--green", isDark && t.primary === "#1E4D3A" ? "#3B8B66" : t.primary);
     r.style.setProperty("--saffron", t.accent);
     document.body.dataset.vibe = t.vibe;
     document.body.dataset.qfont = t.qFont;
+    document.body.dataset.fontsize = t.fontSize || "md";
+    document.body.dataset.theme = isDark ? "dark" : "light";
     document.body.dataset.density = t.density;
   }, [t]);
 
@@ -591,7 +614,19 @@ function App() {
 
   return (
     <div className="root">
-      {!isTest && <TopNav screen={screen} go={go} summary={summary} catchUpCount={catchUpCount} onSearch={() => setSearchOpen(true)} />}
+      {!isTest && (
+        <TopNav
+          screen={screen}
+          go={go}
+          summary={summary}
+          catchUpCount={catchUpCount}
+          onSearch={() => setSearchOpen(true)}
+          dark={Boolean(t.dark)}
+          onToggleDark={() => setTweak("dark", !t.dark)}
+          fontSize={t.fontSize || "md"}
+          onCycleFontSize={() => setTweak("fontSize", t.fontSize === "sm" ? "md" : t.fontSize === "md" ? "lg" : "sm")}
+        />
+      )}
       <GlobalSearch open={searchOpen} onClose={() => setSearchOpen(false)} go={go} />
       <div key={screen} className="screen-fade">
         {screen === "home" && <Home go={go} progress={progress} summary={summary} review={review} onStartReview={startReviewSession} />}
@@ -640,6 +675,12 @@ function App() {
         <TweakRadio label="Question type" value={t.qFont}
           options={["serif", "sans"]}
           onChange={(v) => setTweak("qFont", v)} />
+        <TweakRadio label="Text size" value={t.fontSize || "md"}
+          options={["sm", "md", "lg"]}
+          onChange={(v) => setTweak("fontSize", v)} />
+        <TweakRadio label="Theme" value={t.dark ? "dark" : "light"}
+          options={["light", "dark"]}
+          onChange={(v) => setTweak("dark", v === "dark")} />
         <TweakRadio label="Density" value={t.density}
           options={["compact", "regular", "comfy"]}
           onChange={(v) => setTweak("density", v)} />

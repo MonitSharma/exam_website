@@ -78,6 +78,7 @@ function TestScreen({ go, session, onSubmit, bookmarks = {}, onToggleBookmark })
   useTestEffect(() => { const query = window.matchMedia("(max-width: 940px)"); const update = () => setIsMobile(query.matches); query.addEventListener("change", update); return () => query.removeEventListener("change", update); }, []);
   const [paletteOpen, setPaletteOpen] = useTestState(false);
   const [exitOpen, setExitOpen] = useTestState(false);
+  const [focusMode, setFocusMode] = useTestState(false);
   const [secs, setSecs] = useTestState((initialQuestionSet?.durationMinutes || 120) * 60);
   const [resumed, setResumed] = useTestState(false);
   const submittedRef = useTestRef(false);
@@ -354,6 +355,17 @@ function TestScreen({ go, session, onSubmit, bookmarks = {}, onToggleBookmark })
           </div>
         </div>
         <div className="test-bar-r">
+          {canSubmit && (
+            <button
+              type="button"
+              className={`btn ghost sm test-focus-btn${focusMode ? " on" : ""}`}
+              onClick={() => setFocusMode((v) => !v)}
+              title={focusMode ? "Exit focus mode" : "Hide side navigator for distraction-free focus"}
+              aria-pressed={focusMode}
+            >
+              <Icon name={focusMode ? "minimize" : "maximize"} size={14} /> <span>{focusMode ? "Exit focus" : "Focus"}</span>
+            </button>
+          )}
           <div className={`timer-pill${secs < 300 ? " low" : ""}`}>
             <Icon name="clock" size={15} /> <span className="timer-num">{session?.timed === false ? "Untimed" : fmt(secs)}</span>
           </div>
@@ -412,7 +424,7 @@ function TestScreen({ go, session, onSubmit, bookmarks = {}, onToggleBookmark })
   }
 
   return (
-    <div className="test-shell">
+    <div className={`test-shell${focusMode ? " focus-mode" : ""}`}>
       <Header canSubmit />
 
       <div className="test-progress" aria-hidden="true">
