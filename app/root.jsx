@@ -184,6 +184,7 @@ function GlobalSearch({ open, onClose, go }) {
   const ds = window.UPSC;
   const [query, setQuery] = useRootState("");
   const [fullText, setFullText] = useRootState({ results: [], hasMore: false, loading: false, all: false });
+  const [qMatches, setQMatches] = useRootState({ results: [], loading: false });
   const [snippets, setSnippets] = useRootState({});
   const inputRef = React.useRef(null);
 
@@ -191,6 +192,7 @@ function GlobalSearch({ open, onClose, go }) {
     if (open) {
       setQuery("");
       setFullText({ results: [], hasMore: false, loading: false, all: false });
+      setQMatches({ results: [], loading: false });
       setSnippets({});
       const id = window.setTimeout(() => inputRef.current && inputRef.current.focus(), 30);
       return () => window.clearTimeout(id);
@@ -205,10 +207,12 @@ function GlobalSearch({ open, onClose, go }) {
   useRootEffect(() => {
     if (!open || trimmedQuery.length < 3 || !window.UPSC_SEARCH) {
       setFullText((current) => ({ ...current, results: [], hasMore: false, loading: false }));
+      setQMatches({ results: [], loading: false });
       return undefined;
     }
     let cancelled = false;
     setFullText((current) => ({ ...current, loading: true }));
+    setQMatches((current) => ({ ...current, loading: true }));
     const timer = window.setTimeout(() => {
       window.UPSC_SEARCH.search(trimmedQuery, { all: searchAll })
         .then((outcome) => {
@@ -221,6 +225,11 @@ function GlobalSearch({ open, onClose, go }) {
           }
         })
         .catch(() => { if (!cancelled) setFullText((current) => ({ ...current, loading: false })); });
+      ds.searchQuestions?.(trimmedQuery, { limit: 10 })
+        .then((matches) => {
+          if (!cancelled) setQMatches({ results: matches || [], loading: false });
+        })
+        .catch(() => { if (!cancelled) setQMatches({ results: [], loading: false }); });
     }, 160);
     return () => { cancelled = true; window.clearTimeout(timer); };
   }, [open, trimmedQuery, searchAll]);
@@ -277,6 +286,49 @@ function GlobalSearch({ open, onClose, go }) {
                         <small>{result.sub}</small>
                       </span>
                       <span className="search-result-badge">{result.badge}</span>
+                    </button>
+                  ))}
+                </>
+              )}
+
+              {qMatches.results.length > 0 && (
+                <>
+                  <div className="search-group-head">
+                    <p className="search-group-label">Question bank ({qMatches.results.length})</p>
+                    <button
+                      type="button"
+                      className="link-btn"
+                      onClick={() => {
+                        onClose();
+                        go("test", {
+                          customConfig: { pool: "search", refs: qMatches.results.map((m) => m.ref), count: qMatches.results.length },
+                          timed: false,
+                          returnTo: "home",
+                        });
+                      }}
+                    >
+                      Practise all {qMatches.results.length} →
+                    </button>
+                  </div>
+                  {qMatches.results.slice(0, 6).map((m) => (
+                    <button
+                      key={`q-${m.setId}-${m.n}`}
+                      className="search-result"
+                      onClick={() => {
+                        onClose();
+                        go("test", {
+                          customConfig: { pool: "search", refs: [m.ref], count: 1 },
+                          timed: false,
+                          returnTo: "home",
+                        });
+                      }}
+                    >
+                      <span className="search-result-icon"><Icon name="bolt" size={16} /></span>
+                      <span className="search-result-copy">
+                        <strong>{m.stem || `Question ${m.n}`}</strong>
+                        <small>{m.setLabel} · Q{m.n}</small>
+                      </span>
+                      <span className="search-result-badge">{m.subject}</span>
                     </button>
                   ))}
                 </>

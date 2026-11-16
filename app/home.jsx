@@ -99,7 +99,25 @@ function HeroStudyDesk({ go, progress }) {
   const pibSet = latestDatedItem(ds.getQuestionSetsBySource("pib"), "isoDate", ds.todayIso);
   const latestBrief = latestDatedItem(ds.noteDocuments.filter((doc) => doc.cadence === "daily"), "date", ds.todayIso);
   const dailyDone = Boolean(progress.dailyCompletions?.[daily?.isoDate]);
+  const dueRefs = (window.UPSC_PROGRESS?.getDueQuestions?.(progress, ds.todayIso) || []).slice(0, 4);
+  const bmRefs = Object.values(progress.bookmarks || {}).slice(0, 3);
+  const seenMix = new Set();
+  const mixRefs = [...dueRefs, ...bmRefs].filter((r) => {
+    const k = `${r.setId}:${r.n}`;
+    if (seenMix.has(k)) return false;
+    seenMix.add(k);
+    return true;
+  });
   const items = [
+    {
+      key: "warmup",
+      label: "Daily warmup",
+      title: "Today’s Recall Mix",
+      meta: `10Q · ${dueRefs.length ? `${dueRefs.length} due + ` : ""}${bmRefs.length ? `${bmRefs.length} saved + ` : ""}CA`,
+      icon: "shuffle",
+      tone: "active",
+      action: () => go("test", { customConfig: { pool: "warmup", refs: mixRefs, count: 10 }, timed: false, returnTo: "home" }),
+    },
     dailySet && {
       key: "daily",
       label: dailyDone ? "Daily done" : "Daily pending",

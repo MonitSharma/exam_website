@@ -1559,6 +1559,17 @@ body[data-qfont="serif"] .rev-explain p { font-family: var(--serif); font-size: 
   .labs-eco-map-stage, .labs-eco-map-stage .atlas-leaflet { min-height: 390px; }
 }
 
+/* ---------- Question Search Header & Confusable Pairs Lab ---------- */
+.search-group-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 6px 4px 2px; }
+.confusable-table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: var(--radius-sm); }
+.confusable-table { width: 100%; border-collapse: collapse; font-size: 13.5px; min-width: 520px; }
+.confusable-table th, .confusable-table td { padding: 10px 12px; border-bottom: 1px solid var(--line-2); text-align: left; vertical-align: top; }
+.confusable-table thead th { background: var(--surface-2); font-weight: 600; border-bottom: 1px solid var(--line); }
+.confusable-table tbody th { font-weight: 600; color: var(--ink-soft); width: 160px; background: var(--surface-2); }
+.confusable-masked { cursor: pointer; color: var(--muted); font-style: italic; background: color-mix(in srgb, var(--saffron) 10%, transparent); user-select: none; }
+.confusable-masked:hover { color: var(--ink); background: color-mix(in srgb, var(--saffron) 18%, transparent); }
+.confusable-trap { margin-top: 14px; padding: 10px 14px; border-radius: var(--radius-sm); background: var(--saffron-tint); border-left: 3px solid var(--saffron); font-size: 13.5px; color: var(--ink); }
+
 @media (prefers-reduced-motion: reduce) {
   * { animation-duration: .01ms !important; transition-duration: .01ms !important; }
 }
@@ -2656,6 +2667,17 @@ body[data-theme="dark"] .labs-diagram svg { filter: brightness(0.95) contrast(1.
 .markdown-view tbody tr:nth-child(even) {
   background: color-mix(in srgb, var(--paper-2) 55%, transparent);
 }
+/* ---------- Question Search Header & Confusable Pairs Lab ---------- */
+.search-group-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 6px 4px 2px; }
+.confusable-table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: var(--radius-sm); }
+.confusable-table { width: 100%; border-collapse: collapse; font-size: 13.5px; min-width: 520px; }
+.confusable-table th, .confusable-table td { padding: 10px 12px; border-bottom: 1px solid var(--line-2); text-align: left; vertical-align: top; }
+.confusable-table thead th { background: var(--surface-2); font-weight: 600; border-bottom: 1px solid var(--line); }
+.confusable-table tbody th { font-weight: 600; color: var(--ink-soft); width: 160px; background: var(--surface-2); }
+.confusable-masked { cursor: pointer; color: var(--muted); font-style: italic; background: color-mix(in srgb, var(--saffron) 10%, transparent); user-select: none; }
+.confusable-masked:hover { color: var(--ink); background: color-mix(in srgb, var(--saffron) 18%, transparent); }
+.confusable-trap { margin-top: 14px; padding: 10px 14px; border-radius: var(--radius-sm); background: var(--saffron-tint); border-left: 3px solid var(--saffron); font-size: 13.5px; color: var(--ink); }
+
 @media (prefers-reduced-motion: reduce) {
   .screen-fade, *, *::before, *::after {
     animation-duration: 0.01ms !important;

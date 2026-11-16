@@ -500,19 +500,41 @@
       const filteredRefs = normSub
         ? refs.filter((r) => String(r.subject || "").toLowerCase().includes(normSub))
         : refs;
-      const picked = shuffleArray(filteredRefs).slice(0, targetCount);
-      const res = await loadReviewSession(picked);
+      const picked = pool === "search" ? filteredRefs.slice(0, targetCount) : shuffleArray(filteredRefs).slice(0, targetCount);
+      const res = picked.length ? await loadReviewSession(picked) : { questions: [], questionSet: {} };
       const questions = normDiff
         ? res.questions.filter((q) => String(q.difficulty || "").toLowerCase() === normDiff)
         : res.questions;
+      if (pool === "warmup" && questions.length < targetCount) {
+        const seen = new Set(questions.map((q) => `${q.sourceSetId || q.setId || ""}:${q.n}`));
+        const warmupSets = questionSets.filter((set) => ["daily", "weekly-quiz", "pib"].includes(set.sourceType) && set.path);
+        for (const set of warmupSets.slice(0, 6)) {
+          if (questions.length >= targetCount) break;
+          try {
+            const loaded = await loadQuestionSet(set.id);
+            for (const q of shuffleArray(loaded.questions)) {
+              if (questions.length >= targetCount) break;
+              const key = `${set.id}:${q.n}`;
+              if (seen.has(key)) continue;
+              seen.add(key);
+              questions.push({ ...q, sourceSetId: set.id, sourceSetLabel: set.shortLabel || set.label });
+            }
+          } catch (e) { /* skip unloadable set */ }
+        }
+      }
       const renumbered = questions.map((q, i) => ({ ...q, n: i + 1 }));
+      const labelMap = {
+        bookmarks: "Custom Mock · Bookmarked",
+        search: "Search Drill",
+        warmup: "Today’s Recall Mix",
+      };
       return {
         questions: renumbered,
         questionSet: {
           ...res.questionSet,
           id: "custom_mock",
-          label: pool === "bookmarks" ? "Custom Mock · Bookmarked" : "Custom Mock · Past Mistakes",
-          shortLabel: "Custom Mock",
+          label: labelMap[pool] || "Custom Mock · Past Mistakes",
+          shortLabel: labelMap[pool] || "Custom Mock",
           category: "Custom practice",
           sourceType: "custom",
           questionCount: renumbered.length,
@@ -1063,6 +1085,39 @@
       : base;
   }
 
+  async function searchQuestions(query, { limit = 10 } = {}) {
+    const terms = String(query || "").trim().toLowerCase().split(/\s+/).filter((t) => t.length >= 2);
+    if (!terms.length) return [];
+    const priorityOrder = new Set(["pyq", "daily", "weekly-quiz", "pib", "sectional"]);
+    const orderedSets = [
+      ...questionSets.filter((s) => s.path && priorityOrder.has(s.sourceType)),
+      ...questionSets.filter((s) => s.path && !priorityOrder.has(s.sourceType)),
+    ];
+    const matches = [];
+    const maxScan = 36;
+    for (let i = 0; i < orderedSets.length && i < maxScan && matches.length < limit; i++) {
+      const set = orderedSets[i];
+      try {
+        const { questions } = await loadQuestionSet(set.id);
+        for (const q of questions) {
+          if (matches.length >= limit) break;
+          const hay = `${q.stem || ""} ${q.subject || ""} ${q.topic || ""} ${q.microTopic || ""} ${(q.statements || []).join(" ")}`.toLowerCase();
+          if (terms.every((t) => hay.includes(t))) {
+            matches.push({
+              setId: set.id,
+              setLabel: set.shortLabel || set.label || set.id,
+              n: q.n,
+              subject: q.subject || "General",
+              stem: String(q.stem || "").replace(/\s+/g, " ").trim().slice(0, 120),
+              ref: { setId: set.id, n: q.n, subject: q.subject },
+            });
+          }
+        }
+      } catch (e) { /* skip unloadable set */ }
+    }
+    return matches;
+  }
+
   function subscribeContent(callback) {
     subscribers.add(callback);
     return () => subscribers.delete(callback);
@@ -1087,6 +1142,7 @@
     loadReviewSession,
     loadCustomMock,
     loadSubjectSession,
+    searchQuestions,
     saveRecentForOffline,
     offlineAvailable,
     loadNoteDocument,

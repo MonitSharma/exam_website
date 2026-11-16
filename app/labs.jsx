@@ -19,6 +19,7 @@ const LABS_BY_PAPER = {
     { id: "constitution", category: "Polity", status: "Live", tone: "green", icon: "scale", title: "Constitutional Architecture", description: "Recall Articles, amendments and institutions through anchor → function → exam hook cards." },
     { id: "governance", category: "Governance", status: "Live", tone: "saffron", icon: "target", title: "Governance Casebook", description: "Turn schemes and reports into issue → intervention → implementation → outcome chains." },
     { id: "ir", category: "International Relations", status: "Live", tone: "indigo", icon: "globe", title: "India & the World", description: "Explore the groupings, corridors and partnerships already covered in your IR notes." },
+    { id: "confusable-pairs", category: "Prelims Traps", status: "Live", tone: "rose", icon: "target", title: "Confusable Pairs Drill", description: "Compare look-alike UPSC terms side-by-side and test edge-case distinctions." },
   ],
   gs3: [
     { id: "economy", category: "Economy", status: "Live", tone: "saffron", icon: "chart", title: "Economy Mechanism Chains", description: "Follow GST, monetary policy and fiscal concepts through trigger → mechanism → effect → trade-off." },
@@ -620,6 +621,137 @@ function WorldGeographyLab({ go }) {
   return <GeographyExplorerLab go={go} />;
 }
 
+const CONFUSABLE_PAIRS = [
+  {
+    id: "bills",
+    title: "Money Bill vs Financial Bill I vs II",
+    cols: ["Money Bill (Art. 110)", "Financial Bill I (Art. 117(1))", "Financial Bill II (Art. 117(3))"],
+    rows: [
+      ["Introduction", "Lok Sabha only, with President's prior recommendation", "Lok Sabha only, with President's prior recommendation", "Either House, no prior recommendation to introduce"],
+      ["Rajya Sabha power", "Cannot amend or reject; max 14 days delay", "Can amend or reject like an ordinary bill", "Can amend or reject like an ordinary bill"],
+      ["Joint sitting (Art. 108)", "Not applicable", "Permitted", "Permitted"],
+      ["President's assent", "Cannot return for reconsideration", "Can return for reconsideration", "Can return for reconsideration"],
+    ],
+    trap: "President's prior recommendation for Financial Bill II is required at the consideration stage, NOT at introduction.",
+  },
+  {
+    id: "protected-areas",
+    title: "National Park vs Wildlife Sanctuary vs Biosphere Reserve",
+    cols: ["National Park", "Wildlife Sanctuary", "Biosphere Reserve"],
+    rows: [
+      ["Legal basis", "Wildlife Protection Act, 1972", "Wildlife Protection Act, 1972", "UNESCO MAB framework (not a WPA statutory category)"],
+      ["Grazing & private rights", "Strictly prohibited", "Limited rights may be permitted by Chief Wildlife Warden", "Core: strictly protected; Buffer/Transition: regulated human use"],
+      ["Species vs Habitat focus", "Entire habitat/ecosystem; not species-centric", "Often species-oriented conservation", "Landscape-scale biodiversity + sustainable development"],
+    ],
+    trap: "A single Biosphere Reserve often encloses multiple National Parks and Wildlife Sanctuaries within its core and buffer zones.",
+  },
+  {
+    id: "monetary-rates",
+    title: "Repo vs SDF vs MSF",
+    cols: ["Repo Rate", "Standing Deposit Facility (SDF)", "Marginal Standing Facility (MSF)"],
+    rows: [
+      ["Direction", "RBI lends to banks (liquidity injection)", "RBI absorbs liquidity from banks", "RBI lends overnight to banks (penal/emergency)"],
+      ["Collateral required?", "Yes (G-Secs above SLR)", "No collateral required", "Yes (can dip into SLR quota up to prescribed limit)"],
+      ["LAF Corridor role", "Policy benchmark rate", "Floor of LAF corridor (since 2022)", "Ceiling of LAF corridor"],
+    ],
+    trap: "Unlike Reverse Repo, SDF absorbs liquidity without requiring RBI to part with G-Sec collateral.",
+  },
+  {
+    id: "vedic",
+    title: "Rigvedic vs Later Vedic Period",
+    cols: ["Rigvedic (Early Vedic)", "Later Vedic"],
+    rows: [
+      ["Core geography", "Sapta Sindhu (NW India)", "Ganga-Yamuna Doab & eastern expansion"],
+      ["Economy & Cattle", "Pastoral; cow (aghanya) chief wealth; no regular land tax (bali voluntary)", "Agrarian (iron plough); bali & bhaga became regular taxes"],
+      ["Society & Varna", "Flexible occupation-based; women attended Sabha/Samiti", "Birth-based hereditary varna; decline in women's assembly participation"],
+      ["Chief deities", "Indra, Agni, Varuna, Soma", "Prajapati, Vishnu, Rudra"],
+    ],
+    trap: "Sabha and Samiti continued into the Later Vedic age, but lost their earlier democratic character and women's participation.",
+  },
+  {
+    id: "pardon",
+    title: "Pardoning Power: President vs Governor",
+    cols: ["President (Art. 72)", "Governor (Art. 161)"],
+    rows: [
+      ["Court-martial sentences", "Can pardon/remit/commute", "Cannot pardon court-martial sentences"],
+      ["Death sentence", "Can pardon, reprieve, respite, remit, suspend or commute", "Cannot pardon death sentence (can suspend, remit or commute)"],
+      ["Jurisdiction", "Union law offences", "State law offences (concurrent list subject to Union executive power)"],
+    ],
+    trap: "A Governor cannot pardon a death sentence, even under a State law — only the President can grant a full pardon for capital punishment.",
+  },
+];
+
+function ConfusablePairsLab({ go }) {
+  const [pairIdx, setPairIdx] = useStateLabs(0);
+  const [quizMode, setQuizMode] = useStateLabs(false);
+  const [revealed, setRevealed] = useStateLabs({});
+  const pair = CONFUSABLE_PAIRS[pairIdx] || CONFUSABLE_PAIRS[0];
+
+  function selectPair(i) {
+    setPairIdx(i);
+    setRevealed({});
+  }
+
+  return (
+    <div className="labs-tool-panel">
+      <div className="labs-tool-head">
+        <div>
+          <span className="labs-kicker">Active recall · Prelims traps</span>
+          <h2>{pair.title}</h2>
+        </div>
+        <button
+          type="button"
+          className={`btn sm ${quizMode ? "btn-saffron" : "ghost"}`}
+          onClick={() => { setQuizMode((v) => !v); setRevealed({}); }}
+        >
+          <Icon name="bolt" size={14} /> {quizMode ? "Recall quiz: On" : "Test this pair"}
+        </button>
+      </div>
+      <div className="labs-network-nav" style={{ marginTop: 12, marginBottom: 16 }}>
+        {CONFUSABLE_PAIRS.map((p, i) => (
+          <button key={p.id} className={i === pairIdx ? "active" : ""} onClick={() => selectPair(i)}>
+            {p.title.split(" vs ")[0]}…
+          </button>
+        ))}
+      </div>
+      <div className="confusable-table-wrap">
+        <table className="confusable-table">
+          <thead>
+            <tr>
+              <th>Dimension</th>
+              {pair.cols.map((c) => <th key={c}>{c}</th>)}
+            </tr>
+          </thead>
+          <tbody>
+            {pair.rows.map((row, rIdx) => (
+              <tr key={row[0]}>
+                <th>{row[0]}</th>
+                {row.slice(1).map((cell, cIdx) => {
+                  const key = `${rIdx}-${cIdx}`;
+                  const hidden = quizMode && !revealed[key];
+                  return (
+                    <td
+                      key={key}
+                      className={hidden ? "confusable-masked" : ""}
+                      onClick={() => quizMode && setRevealed((prev) => ({ ...prev, [key]: !prev[key] }))}
+                      title={hidden ? "Click to reveal" : undefined}
+                    >
+                      {hidden ? "Click to reveal" : cell}
+                    </td>
+                  );
+                })}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <div className="confusable-trap">
+        <strong>Exam trap:</strong> {pair.trap}
+      </div>
+    </div>
+  );
+}
+
 function LabsTool({ lab, go, progress, onLabProgress }) {
   let tool;
   if (lab.id === "ancient-timeline") tool = <TimelineLab go={go} />;
@@ -629,6 +761,7 @@ function LabsTool({ lab, go, progress, onLabProgress }) {
   else if (lab.id === "constitution") tool = <RecallDeckLab labId="constitution" kicker="Active recall · Polity" title="Anchor the Constitution to the exam hook" cards={CONSTITUTION_CARDS} go={go} />;
   else if (lab.id === "governance") tool = <RecallDeckLab labId="governance" kicker="Active recall · Governance" title="Turn programmes into answer structures" cards={GOVERNANCE_CARDS} go={go} accent="saffron" />;
   else if (lab.id === "ir") tool = <NetworkLab go={go} />;
+  else if (lab.id === "confusable-pairs") tool = <ConfusablePairsLab go={go} />;
   else if (lab.id === "economy") tool = <EconomyFlowLab go={go} />;
   else if (lab.id === "environment") tool = <RecallDeckLab labId="environment" kicker="Active recall · Environment" title="Link the fact to the governance problem" cards={ENVIRONMENT_CARDS} go={go} accent="teal" />;
   else if (lab.id === "science") tool = <RecallDeckLab labId="science" kicker="Active recall · Science & Technology" title="Explain it in three moves" cards={SCIENCE_CARDS} go={go} accent="blue" />;
