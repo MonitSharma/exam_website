@@ -168,6 +168,35 @@ function Results({ go, result }) {
   );
 }
 
+function labIdForQuestion(q) {
+  const subj = (q.subject || "").toLowerCase();
+  const micro = (q.microTopic || q.topic || "").toLowerCase();
+  if (subj.includes("history") || subj.includes("culture")) {
+    if (/(ancient|medieval|indus|vedic|buddh|jain|maurya|gupta|chola|delhi|mughal|bhakti|sufi|architecture|temple|sculpture)/.test(micro)) {
+      return "ancient-timeline";
+    }
+    return "modern-timeline";
+  }
+  if (subj.includes("geography")) {
+    if (/(world|climate|ocean|plate|earth|latitude|strait|desert|continent|monsoon)/.test(micro)) {
+      return "world-geography";
+    }
+    return "rivers-recall";
+  }
+  if (subj.includes("polity")) {
+    if (/(governance|panchayat|local|municipal|bill|scheme|tribunal|commission)/.test(micro)) {
+      return "governance";
+    }
+    return "constitution";
+  }
+  if (subj.includes("international") || subj === "ir") return "ir";
+  if (subj.includes("econom")) return "economy";
+  if (subj.includes("environment") || subj.includes("ecolog")) return "environment";
+  if (subj.includes("science")) return "science";
+  if (subj.includes("ethic") || subj.includes("philosoph")) return "thinkers";
+  return null;
+}
+
 function Review({ go, result, bookmarks = {}, onToggleBookmark, onSaveNote }) {
   const ds = window.UPSC;
   const { questionSet, qs, attempt } = getResultData(result);
@@ -208,10 +237,13 @@ function Review({ go, result, bookmarks = {}, onToggleBookmark, onSaveNote }) {
     <div className="page-wrap review">
       <div className="review-top">
         <div>
-          <button className="link-btn back" onClick={() => go("result")}><Icon name="arrowL" size={14} /> Back to results</button>
+          <button className="link-btn back no-print" onClick={() => go("result")}><Icon name="arrowL" size={14} /> Back to results</button>
           <h1 className="review-h1">{questionSet?.shortLabel || "Test"} review</h1>
         </div>
-        <div className="review-filters">
+        <div className="review-filters no-print">
+          <button type="button" className="btn btn-ghost sm" onClick={() => window.print()} title="Print or save as PDF">
+            Print / Save PDF
+          </button>
           {filters.map(([k, label]) => (
             <button key={k} className={`fchip${filter === k ? " on" : ""}`} onClick={() => setFilter(k)}>
               {label} <span className="fcount">{counts[k]}</span>
@@ -256,15 +288,28 @@ function Review({ go, result, bookmarks = {}, onToggleBookmark, onSaveNote }) {
               {relatedNoteId && (
                 <button
                   type="button"
-                  className="bm-btn"
+                  className="bm-btn no-print"
                   onClick={() => openSourceBrief(relatedNoteId)}
                   title="Read source note without leaving Review"
                 >
                   <Icon name="fileText" size={12} /> Source brief
                 </button>
               )}
+              {(() => {
+                const labId = labIdForQuestion(q);
+                return labId ? (
+                  <button
+                    type="button"
+                    className="bm-btn no-print"
+                    onClick={() => go("labs", { labId })}
+                    title="Open matching Study Lab"
+                  >
+                    <Icon name="bolt" size={12} /> Study Lab
+                  </button>
+                ) : null;
+              })()}
               <a
-                className="report-issue-link"
+                className="report-issue-link no-print"
                 href={buildQuestionIssueUrl(questionSet, q)}
                 target="_blank"
                 rel="noopener noreferrer"

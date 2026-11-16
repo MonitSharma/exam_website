@@ -70,6 +70,8 @@ function TestScreen({ go, session, onSubmit, bookmarks = {}, onToggleBookmark })
   const [answers, setAnswers] = useTestState({});
   const [marked, setMarked] = useTestState({});
   const [confidence, setConfidence] = useTestState({});
+  const [statementMarks, setStatementMarks] = useTestState({});
+  const [eliminated, setEliminated] = useTestState({});
   const [visited, setVisited] = useTestState({ 0: true });
   const questionTimesRef = useTestRef({});
   const [isMobile, setIsMobile] = useTestState(() => window.matchMedia("(max-width: 940px)").matches);
@@ -97,6 +99,8 @@ function TestScreen({ go, session, onSubmit, bookmarks = {}, onToggleBookmark })
       setAnswers(saved.answers || {});
       setMarked(saved.marked || {});
       setConfidence(saved.confidence || {});
+      setStatementMarks(saved.statementMarks || {});
+      setEliminated(saved.eliminated || {});
       setVisited(saved.visited || { 0: true });
       questionTimesRef.current = saved.questionTimes && typeof saved.questionTimes === "object" ? { ...saved.questionTimes } : {};
       setSecs(Number.isFinite(saved.secs) ? saved.secs : (selectedSet?.durationMinutes || 120) * 60);
@@ -106,6 +110,8 @@ function TestScreen({ go, session, onSubmit, bookmarks = {}, onToggleBookmark })
       setAnswers({});
       setMarked({});
       setConfidence({});
+      setStatementMarks({});
+      setEliminated({});
       setVisited({ 0: true });
       questionTimesRef.current = {};
       setSecs((selectedSet?.durationMinutes || 120) * 60);
@@ -168,7 +174,7 @@ function TestScreen({ go, session, onSubmit, bookmarks = {}, onToggleBookmark })
     const setId = loadState.questionSet?.id;
     if (!setId || isEphemeralSession) return;
     if (submittedRef.current) return;
-    writeSession(setId, { idx, answers, marked, confidence, visited, secs, questionTimes: questionTimesRef.current });
+    writeSession(setId, { idx, answers, marked, confidence, statementMarks, eliminated, visited, secs, questionTimes: questionTimesRef.current });
   }, [idx, answers, marked, confidence, visited, secs, loadState.loading, loadState.error, loadState.questionSet?.id]);
 
   // Auto-submit when the timer hits zero.
@@ -200,6 +206,35 @@ function TestScreen({ go, session, onSubmit, bookmarks = {}, onToggleBookmark })
   function choose(key) {
     if (!q) return;
     setAnswers((a) => ({ ...a, [q.n]: key }));
+    setEliminated((prev) => {
+      const cur = prev[q.n];
+      if (!cur || !cur[key]) return prev;
+      const nextQ = { ...cur };
+      delete nextQ[key];
+      return { ...prev, [q.n]: nextQ };
+    });
+  }
+  function toggleStatementMark(stmtKey) {
+    if (!q) return;
+    setStatementMarks((prev) => {
+      const curQ = prev[q.n] || {};
+      const curVal = curQ[stmtKey] || "";
+      const nextVal = curVal === "" ? "T" : curVal === "T" ? "F" : "";
+      const nextQ = { ...curQ };
+      if (nextVal) nextQ[stmtKey] = nextVal;
+      else delete nextQ[stmtKey];
+      return { ...prev, [q.n]: nextQ };
+    });
+  }
+  function toggleEliminate(key) {
+    if (!q) return;
+    setEliminated((prev) => {
+      const curQ = prev[q.n] || {};
+      const nextQ = { ...curQ };
+      if (nextQ[key]) delete nextQ[key];
+      else nextQ[key] = true;
+      return { ...prev, [q.n]: nextQ };
+    });
   }
 
   function toggleMark() {
@@ -298,6 +333,8 @@ function TestScreen({ go, session, onSubmit, bookmarks = {}, onToggleBookmark })
     setAnswers({});
     setMarked({});
     setConfidence({});
+    setStatementMarks({});
+    setEliminated({});
     setVisited({ 0: true });
     questionTimesRef.current = {};
     setSecs((questionSet.durationMinutes || 120) * 60);
@@ -412,15 +449,42 @@ function TestScreen({ go, session, onSubmit, bookmarks = {}, onToggleBookmark })
                 </aside>
               )}
               <div className={q.passage ? "question-pane" : ""}>
-                <QuestionStem q={q} big hidePassage={Boolean(q.passage)} />
+                <QuestionStem
+                  q={q}
+                  big
+                  hidePassage={Boolean(q.passage)}
+                  statementMarks={statementMarks[q.n]}
+                  onToggleStatementMark={toggleStatementMark}
+                />
 
                 <div className="options">
                   {q.options.map((o) => {
                     const sel = answers[q.n] === o.key;
+                    const isElim = Boolean(eliminated[q.n]?.[o.key]) && !sel;
                     return (
-                      <button key={o.key} className={`opt${sel ? " sel" : ""}`} onClick={() => choose(o.key)}>
+                      <button
+                        key={o.key}
+                        className={`opt${sel ? " sel" : ""}${isElim ? " elim" : ""}`}
+                        onClick={() => choose(o.key)}
+                        onContextMenu={(e) => {
+                          e.preventDefault();
+                          toggleEliminate(o.key);
+                        }}
+                      >
                         <span className="opt-key">{o.key}</span>
                         <span className="opt-text">{o.text}</span>
+                        <span
+                          role="button"
+                          tabIndex={-1}
+                          className="opt-elim-btn"
+                          title={isElim ? "Restore option" : "Cross out option (or right-click)"}
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            toggleEliminate(o.key);
+                          }}
+                        >
+                          ×
+                        </span>
                         <span className="opt-tick"><Icon name="check" size={15} /></span>
                       </button>
                     );

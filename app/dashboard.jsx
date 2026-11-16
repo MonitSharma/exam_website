@@ -213,12 +213,17 @@ function BookmarksBrowserCard({ bookmarks, onToggleBookmark, onSaveNote, go }) {
           <p>{items.length ? `${items.length} saved question${items.length === 1 ? "" : "s"} & personal notes` : "Save tricky questions during tests or review"}</p>
         </div>
         {filtered.length > 0 && (
-          <button
-            className="btn btn-green sm"
-            onClick={() => go("test", { customConfig: { pool: "bookmarks", refs: filtered }, timed: false, returnTo: "dashboard" })}
-          >
-            <Icon name="bolt" size={14} /> Practise {filtered.length}
-          </button>
+          <div className="no-print" style={{ display: "flex", gap: 8, alignItems: "center" }}>
+            <button className="btn btn-ghost sm" onClick={() => window.print()}>
+              Print / PDF
+            </button>
+            <button
+              className="btn btn-green sm"
+              onClick={() => go("test", { customConfig: { pool: "bookmarks", refs: filtered }, timed: false, returnTo: "dashboard" })}
+            >
+              <Icon name="bolt" size={14} /> Practise {filtered.length}
+            </button>
+          </div>
         )}
       </header>
       <div className="panel-body">

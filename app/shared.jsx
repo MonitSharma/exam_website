@@ -133,7 +133,23 @@ function Stat({ value, label, sub, tone }) {
 }
 
 /* ---------- Question stem renderer (serif, exam-paper style) ---------- */
-function QuestionStem({ q, big, hidePassage }) {
+function QuestionStem({ q, big, hidePassage, statementMarks, onToggleStatementMark }) {
+  const renderMarkBtn = (key) => {
+    if (!onToggleStatementMark) return null;
+    const val = statementMarks?.[key] || "";
+    const label = val === "T" ? "✓" : val === "F" ? "✕" : "?";
+    return (
+      <button
+        type="button"
+        className={`stmt-mark${val ? ` is-${val.toLowerCase()}` : ""}`}
+        onClick={() => onToggleStatementMark(key)}
+        title="Mark statement True / False / Unsure"
+        aria-label={`Mark statement ${key} (${val === "T" ? "True" : val === "F" ? "False" : "Unsure"})`}
+      >
+        {label}
+      </button>
+    );
+  };
   return (
     <div className={`stem${big ? " stem-big" : ""}`}>
       {!hidePassage && q.passage && <div className="stem-passage">{q.passage}</div>}
@@ -144,6 +160,7 @@ function QuestionStem({ q, big, hidePassage }) {
             <li key={i}>
               <span className="stmt-num">{s.label ? `${s.label}.` : `${i + 1}.`}</span>
               <span>{s.text || s}</span>
+              {renderMarkBtn(`p-${i}`)}
             </li>
           ))}
         </ol>
@@ -178,6 +195,7 @@ function QuestionStem({ q, big, hidePassage }) {
           <ol className={`stmt-list${selfLabelled ? " stmt-list-labelled" : ""}`}>
             {q.statements.map((s, i) => (
               <li key={i}>
+                {renderMarkBtn(`s-${i}`)}
                 {!selfLabelled && (
                   <span className="stmt-num">
                     {q.statementLabels ? `${q.statementLabels[i]}.` : `${i + 1}.`}
