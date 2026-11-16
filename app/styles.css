@@ -2454,3 +2454,8 @@ button:focus-visible, a:focus-visible, summary:focus-visible, input:focus-visibl
 .brief-drawer-head h3 { margin: 4px 0 0; font-size: 18px; line-height: 1.35; }
 .brief-drawer-actions { display: inline-flex; align-items: center; gap: 8px; flex-shrink: 0; }
 .brief-drawer-body { padding: 20px 24px 40px; overflow-y: auto; flex: 1; }
+
+/* Anki Again / Got it grading controls */
+.anki-grade-row { display: flex; justify-content: center; gap: 10px; margin-top: 12px; }
+.anki-again-btn { border-color: var(--saffron, #cb7a2e); color: var(--saffron, #cb7a2e); }
+.anki-done-banner { display: flex; align-items: center; justify-content: center; gap: 12px; margin-top: 12px; padding: 10px 14px; border-radius: 8px; background: rgba(30, 77, 58, 0.08); color: var(--green); font-size: 13px; font-weight: 500; }

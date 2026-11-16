@@ -1552,17 +1552,24 @@ function AnkiDeckView({ text }) {
   const [order, setOrder] = useStateHome(() => cards.map((_, i) => i));
   const [pos, setPos] = useStateHome(0);
   const [flipped, setFlipped] = useStateHome(false);
+  const [gotIt, setGotIt] = useStateHome(() => new Set());
+  const [againCount, setAgainCount] = useStateHome(0);
 
   useEffectHome(() => {
     setOrder(cards.map((_, i) => i));
     setPos(0);
     setFlipped(false);
+    setGotIt(new Set());
+    setAgainCount(0);
   }, [cards]);
 
   if (!cards.length) return <p className="muted">No flashcards in this deck.</p>;
 
-  const total = cards.length;
-  const current = cards[order[pos]] || cards[0];
+  const total = order.length;
+  const currentIdx = order[pos] ?? 0;
+  const current = cards[currentIdx] || cards[0];
+  const masteredCount = gotIt.size;
+  const allMastered = masteredCount >= cards.length;
 
   function go(delta) {
     setFlipped(false);
@@ -1577,14 +1584,35 @@ function AnkiDeckView({ text }) {
     setOrder(next);
     setPos(0);
     setFlipped(false);
+    setGotIt(new Set());
+    setAgainCount(0);
+  }
+  function markGotIt() {
+    const next = new Set(gotIt);
+    next.add(currentIdx);
+    setGotIt(next);
+    setFlipped(false);
+    if (pos + 1 < order.length) setPos(pos + 1);
+  }
+  function markAgain() {
+    const next = new Set(gotIt);
+    next.delete(currentIdx);
+    setGotIt(next);
+    setAgainCount((c) => c + 1);
+    const nextOrder = [...order];
+    const insertAt = Math.min(pos + 3, nextOrder.length);
+    nextOrder.splice(insertAt, 0, currentIdx);
+    setOrder(nextOrder);
+    setFlipped(false);
+    setPos(pos + 1);
   }
 
   return (
     <div className="anki-deck-view">
       <div className="anki-deck-bar">
         <div className="anki-deck-summary">
-          <strong>{total} flashcards</strong>
-          <span>Active recall deck</span>
+          <strong>{cards.length} flashcards</strong>
+          <span>{masteredCount}/{cards.length} got it{againCount ? ` · ${againCount} again` : ""}</span>
         </div>
         <div className="anki-mode-toggle" role="tablist" aria-label="Flashcard view">
           <button role="tab" aria-selected={mode === "study"} className={mode === "study" ? "on" : ""} onClick={() => setMode("study")}>
@@ -1611,6 +1639,8 @@ function AnkiDeckView({ text }) {
             onClick={() => setFlipped((f) => !f)}
             onKeyDown={(event) => {
               if (event.key === " " || event.key === "Enter") { event.preventDefault(); setFlipped((f) => !f); }
+              else if (event.key === "1" && flipped) { event.preventDefault(); markAgain(); }
+              else if (event.key === "2" && flipped) { event.preventDefault(); markGotIt(); }
               else if (event.key === "ArrowRight") { event.preventDefault(); go(1); }
               else if (event.key === "ArrowLeft") { event.preventDefault(); go(-1); }
             }}>
@@ -1618,7 +1648,7 @@ function AnkiDeckView({ text }) {
               <div className="anki-face anki-face-front">
                 <span className="anki-face-tag">Question</span>
                 <div className="anki-face-text">{renderInline(current.front)}</div>
-                <span className="anki-flip-hint"><Icon name="rotate" size={13} /> Tap to reveal</span>
+                <span className="anki-flip-hint"><Icon name="rotate" size={13} /> Tap or Space to reveal</span>
               </div>
               <div className="anki-face anki-face-back">
                 <span className="anki-face-tag">Answer</span>
@@ -1627,6 +1657,24 @@ function AnkiDeckView({ text }) {
               </div>
             </div>
           </div>
+
+          {flipped && (
+            <div className="anki-grade-row">
+              <button className="btn ghost sm anki-again-btn" onClick={markAgain}>
+                <Icon name="rotate" size={14} /> Again · re-queue (1)
+              </button>
+              <button className="btn btn-green sm" onClick={markGotIt}>
+                <Icon name="check" size={14} /> Got it (2)
+              </button>
+            </div>
+          )}
+
+          {allMastered && (
+            <div className="anki-done-banner">
+              <span>All {cards.length} cards marked Got it!</span>
+              <button className="link-btn" onClick={shuffleDeck}>Shuffle &amp; restart</button>
+            </div>
+          )}
 
           <div className="anki-controls">
             <button className="anki-nav" onClick={() => go(-1)} aria-label="Previous card"><Icon name="arrowL" size={15} /> Prev</button>
